@@ -1,0 +1,1298 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">Blind-man's buff</title>
+    <title type="sub">Drama in two acts.</title>
+    <author>
+     <persName>
+      <surname>Berquin</surname>
+      <forename>Arnaud</forename>
+      <idno type="VIAF">100160188</idno>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>The honest farmer. A drama, in five acts, to which are added, Vanity punished, and Blind-man's buff. By M. Berquin,:</name>
+     <author>Berquin, M. (Arnaud), 1747-1791.</author>
+     <publisher>printed for John Stockdale,</publisher>
+     <date>1798.</date>
+     <pubPlace>London :</pubPlace>
+     <note>Reproduction of original from the British Library.</note>
+     <note>English Short Title Catalog, ESTCT107461.</note>
+     <note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note>
+    </bibl>
+    <biblFull n="printed source">
+     <publicationStmt>
+      <authority ref="#JJ">Jan Jokisch</authority>
+      <date>2024 December</date>
+      <idno type="ECCO_Drama">K086276.000-3</idno>
+      <idno type="DLPS">004869984</idno>
+      <idno type="ESTC">T107461</idno>
+      <idno type="DocNo">CW116306667</idno>
+      <idno type="TCP">K086276.000-3</idno>
+      <idno type="GaleDocNo">CW3316306667</idno>
+      <idno type="ContentSet">ECLL</idno>
+      <idno type="ImageSetID">0277100500</idno>
+      <availability>
+       <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+      </availability>
+     </publicationStmt>
+    </biblFull>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="alice">
+      <persName>Alice</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     
+     <person xml:id="dorinda">
+      <persName>Dorinda</persName>
+      <sex value="FEMALE"/>
+     </person>
+     <person xml:id="elder_danby">
+      <persName>Elder Danby</persName>
+      <sex value="MALE"/>
+     </person>
+     <person xml:id="frank">
+      <persName>Frank</persName>
+      <sex value="MALE"/>
+     </person>
+     
+     <person xml:id="isabella">
+      <persName>Isabella</persName>
+      <sex value="FEMALE"/>
+     </person>
+     <person xml:id="laura">
+      <persName>Laura</persName>
+      <sex value="FEMALE"/>
+     </person>
+     <person xml:id="lucy">
+      <persName>Lucy</persName>
+      <sex value="FEMALE"/>
+     </person>
+     
+     <person xml:id="groom_of_mr_jephson">
+      <persName>Groom of Mr. Jephson</persName>
+      <sex value="MALE"/>
+     </person>
+     <person xml:id="roberts">
+      <persName>Roberts</persName>
+      <sex value="MALE"/>
+     </person>
+     <person xml:id="younger_danby">
+      <persName>Younger Danby</persName>
+      <sex value="MALE"/>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1798">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text xml:lang="en">
+  <front>
+   <pb n="143" facs="147"/>
+   <head>BLIND-MAN'S BUFF.</head>
+   <div type="Dramatis_Personae">
+    <castList>
+     <head>A DRAMA, IN TWO ACTS. CHARACTERS.</head>
+     <castItem>Mr. Jephson.</castItem>
+     <castItem>Frank, his Son.</castItem>
+     <castItem>Lucy, his Daughters.</castItem>
+     <castItem>Isabella, his Daughters.</castItem>
+     <castItem>Dorinda, their Friends.</castItem>
+     <castItem>Alice, their Friends.</castItem>
+     <castItem>Laura, a little lame. their Friends.</castItem>
+     <castItem>Elder Danby, Friends to Frank.</castItem>
+     <castItem>Younger Danby, who stutters, Friends to Frank.</castItem>
+     <castItem>Roberts, their acquaintance.</castItem>
+     <castItem>Mr. Jephson's Groom.</castItem>
+    </castList>
+   </div>
+   <set>
+    <p>SCENE <hi>an Apartment in the House of Mr. Jephson, with a Table, and upon it Books and other Papers, and a speaking Trumpet in the Corner.</hi>
+    </p>
+   </set>
+  </front>
+  <body>
+   <div type="play">
+    <div n="1" type="act">
+     <head>ACT I.</head>
+     <div n="1" type="scene">
+      <head>SCENE I.</head>
+      <sp who="#frank">
+       <speaker>Frank,</speaker>
+       <stage>(speaking to his Father as he goes down stairs.)</stage>
+       <p>NO, no, papa, do not be afraid: I will take the greatest care that no accident shall happen to your papers, I will put
+<pb n="144" facs="148"/>up your books too in the closet.— <stage>(He comes forward, jumping for joy.)</stage> We shall have some fine diversion! When the cat is away, the mice (it is said) will play. <stage>(To Lucy, who now comes in.)</stage> Well now, Lucy, is mama gone out, and all our little friends arrived?</p>
+      </sp>
+      <sp who="#lucy">
+       <speaker>Lucy.</speaker>
+       <p>My friends are all three come; but none of your companions yet.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>O, I can easily believe you, sister. We do not want to run a gadding like you girls; and so we are not the first to keep appointments of this nature. You must force us from our study, if you would have us. Look you, I would lay any wager that the Danbys, at least, are hard at work, while we are speaking.</p>
+      </sp>
+      <sp who="#lucy">
+       <speaker>Lucy.</speaker>
+       <p>Yes, to settle what fine tricks they can contrive to put upon us.—But pray, Frank, is it true that papa will let us pass the evening here? Our room above is so very small, we could not have found room to turn ourselves well round.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>Could my papa refuse you any thing, when I concerned myself to ask it? Softly, little girl, do not discompose the papapers—Let them lie.</p>
+      </sp>
+      <sp who="#lucy">
+       <speaker>Lucy.</speaker>
+       <p>Keep that advice, Sir, to yourself: I meant to lay them smooth.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank, </speaker>
+       <stage>(with an air of importance.)</stage>
+       <p>No, no,
+<pb n="145" facs="149"/>you cannot miss; I am charged with that commission.</p>
+      </sp>
+      <sp who="#lucy">
+       <speaker>Lucy.</speaker>
+       <p>Truly, my papa could not have given it to so orderly a gentleman; let me at least assist you then; and afterwards I will put the chairs in order. These great books I shall remove first.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>Do not think of touching them! At most I can permit you only to take one by one, and pile them up upon my hand. <stage>(She does so, till they reach his chin.)</stage>
+       </p>
+      </sp>
+      <sp who="#lucy">
+       <speaker>Lucy.</speaker>
+       <p>There is enough.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank </speaker>
+       <stage>(leaning backwards.)</stage>
+       <p>One more only. So—I have now sufficient for one turn. <stage>(He takes a step or two, when all the books fall down.)</stage>
+       </p>
+      </sp>
+      <sp who="#lucy">
+       <speaker>Lucy, </speaker>
+       <stage>(bursting out a laughing.)</stage>
+       <p>Ha, ha, ha, ha! there, there they go! Those handsome books that papa would never let us touch! I fancy he will be greatly pleased to see them all tumbled together thus!</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>I had lost the center of Gravity, as my tutor says; and you know, he is Gravity itself. <stage>(He picks the books up, but they tumble down as fast as he gathers them.)</stage> Deuce take it! They have been at Sadler's Wells, I think, and learned to tumble sure!</p>
+      </sp>
+      <sp who="#lucy">
+       <speaker>Lucy.</speaker>
+       <p>You will never finish, if I do not assist you. So, d'ye see, I will spread my apron, and do you stoop down and pile them in it.</p>
+      </sp>
+      <sp who="#frank">
+       <pb n="146" facs="150"/>
+       <speaker>Frank.</speaker>
+       <p>That is well thought, indeed! <stage>(Frank goes upon his knees, takes up the books, and places them in order in his sister's apron.)</stage>
+       </p>
+      </sp>
+      <sp who="#lucy">
+       <speaker>Lucy.</speaker>
+       <p>Softly, brother, they will rub one against another! So; I have got them all, and now I will carry them into the closet. <stage>(She goes out.)</stage>
+       </p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank,</speaker>
+       <p>
+        <stage>(rising out of breath.)</stage> Bless me! I should never do to live in the country where men go upon all-fours like monkies. <stage>(He fans himself with his hat.)</stage>
+       </p>
+      </sp>
+      <sp who="#lucy">
+       <speaker>Lucy, </speaker>
+       <stage>(re-entering.)</stage>
+       <p>Could you see how neatly I have ranged them on the chimney, you would be charmed! So let me have the rest. <stage>(Frank puts the other books and all the papers in his sister's lap, who says, when she receives them,)</stage> Well, every body must acknowledge that girls are cleverer than boys.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>O yes, and you particularly. Isabella is constantly employed in putting by your shreds and rags.</p>
+      </sp>
+      <sp who="#lucy">
+       <speaker>Lucy.</speaker>
+       <p>And if your tutor had not constantly his eye upon you, you would never know where you should find your exercises and translations. <stage>(She looks about her.)</stage> But I fancy I have now got them all.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>Yes, yes; there is nothing left; so get you gone. <stage>(Lucy goes out.)</stage>
+       </p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank,</speaker>
+       <p>
+        <stage>(putting back the chairs and tables in their places.)</stage> There; so that is done, and we
+<pb n="147" facs="151"/>shall now have elbow-room enough. I cannot help thinking what fine work we shall be sure to make. However, I am surprised that they are not come yet. For my part, I can say I hardly ever make any one wait for me when a visit is in the case.</p>
+      </sp>
+      <sp who="#lucy">
+       <speaker>Lucy, </speaker>
+       <stage>(entering once again, and looking round about.)</stage>
+       <p>Ay, very well: but, brother, you must hide this speaking trumpet. If your friends should happen to perceive it, they will be sure to stun us with their noise.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>Stay, stay; I will put it up behind the door, as perhaps I shall want it. Let your little friends come now and din me with their chattering, as they used to do, and we shall see who will cry out loudest.</p>
+      </sp>
+      <sp who="#lucy">
+       <speaker>Lucy.</speaker>
+       <p>Psha! we need but join together; we should very shortly get the upper hand of such a little thing as you.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>O no; for if you ladies have your clappers so well hung, we gentlemen possess a fine clear manly voice, which every one respects: as thus—You hear me?</p>
+      </sp>
+      <sp who="#lucy">
+       <speaker>Lucy, </speaker>
+       <stage>(shrugging up her shoulders.)</stage>
+       <p>Yes; and have so much respect, as you say, for you, that I will take myself away. Farewel. I will run and join my friends.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>And bid the servant send me up my visitors when they arrive.</p>
+      </sp>
+      <sp who="#lucy">
+       <speaker>Lucy.</speaker>
+       <p>Yes, yes. <stage>(She withdraws.)</stage>
+       </p>
+      </sp>
+      <sp who="#frank">
+       <pb n="148" facs="152"/>
+       <speaker>Frank, </speaker>
+       <stage>(taking up the speaking trumpet.)</stage>
+       <p>Here is what has often brought me from the furthest corner of the garden, much against my inclination; and, I think, I hear it still. —So ho! there! Frank! Frank!—My young friends live only at the corner of the street. Let me see if I can hurry them. <stage>(He puts the trumpet to his mouth, throws up the window, and cries out,)</stage>
+        <l>Girls and boys come out to play,</l>
+        <l>The moon doth shine as bright as day:</l>
+        <l>Come with a whoop, and come with a call,</l>
+        <l>Come with good-will or not at all.</l>
+        <stage>(He leaves the window, and draws near the door.)</stage> Well, is not this surprising! It is like Harlequin's enchanted horn. I think I hear them talking to each other on the stairs. <stage>(He listens.)</stage> Yes, yes! I protest the two Danby's
+<stage>(He puts the trumpet by.)</stage> Suppose I were to jump on the table, and receive them sitting on my throne? <stage>(He runs to fetch a stool that he may put it one the table; and prepares to take a spring, but the arrival of the two Danby's prevents him.)</stage>
+       </p>
+      </sp>
+     </div>
+     <div n="2" type="scene">
+      <head>SCENE II.</head>
+      <stage>Frank, Elder Danby, Younger Danby.</stage>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>Could not you have staid a little at the door till I was mounted on my throne, that I might give you audience, as they say, in all my glory?</p>
+      </sp>
+      <sp who="#elder_danby">
+       <pb n="149" facs="153"/>
+       <speaker>Elder Danby.</speaker>
+       <p>Good, indeed! you have no occasion to look exactly like a king. And active as you are, the throne might possibly cause your majesty a tumble.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>Why, to say the truth, I have read of many tumbles of that nature in my ancient history.</p>
+      </sp>
+      <sp who="#elder_danby">
+       <speaker>Elder Danby.</speaker>
+       <p>And in some sort, such an accident has happened to my brother, though he is no great prince. He fell down stairs last week, and hurt his nose considerably.</p>
+      </sp>
+      <sp who="#younger_danby">
+       <speaker>Younger Danby, </speaker>
+       <stage>(stuttering.)</stage>
+       <p>Yes, indeedeed! It pains me sti-still a little, and that ma-a-aster Roberts is a very nau-au-aughty boy.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>Does he design to come to-night?</p>
+      </sp>
+      <sp who="#elder_danby">
+       <speaker>Elder Danby.</speaker>
+       <p>I hope not: if we had expected him here, we should not have stirred out.</p>
+      </sp>
+      <sp who="#younger_danby">
+       <speaker>Younger Danby.</speaker>
+       <p>He o-o-only thinks of mis-mischief.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>What has he done then?</p>
+      </sp>
+      <sp who="#elder_danby">
+       <speaker>Elder Danby.</speaker>
+       <p>We were both going out last Saturday. I stopped to get a handkerchief: my brother went down stairs alone, and, as it happened, Roberts hearing some one, came out slily, jumped at once upon my brother, who was frighted, lost his footing, and rolled down the stairs from top to bottom.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>Poor Danby! I am sorry for you.
+<pb n="150" facs="154"/>Roberts looks for all the world as if he loved such mischief. We shall have his company this evening for the first time in our lives, his father begged papa to let him come and see us.</p>
+      </sp>
+      <sp who="#elder_danby">
+       <speaker>Elder Danby.</speaker>
+       <p>I am sorry for it; for we do not speak to one another.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>My papa supposed you all good friends, because you lodge together, and considered that you would have the greater pleasure if he came.</p>
+      </sp>
+      <sp who="#elder_danby">
+       <speaker>Elder Danby.</speaker>
+       <p>The greater pleasure! We should like to have him ten miles off. Since he has been our neighbour, we are continually uneasy. He has frequently amused himself with breaking windows, and then tried to lay the blame on us.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>Does no one complain about him to his father?</p>
+      </sp>
+      <sp who="#elder_danby">
+       <speaker>Elder Danby.</speaker>
+       <p>Oh! I do not know what to make of him, he is such an odd sort of a man! He scolds a little, pays the damage, and that is all.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>If I were your papa, I would quit my lodgings, and live somewhere else.</p>
+      </sp>
+      <sp who="#elder_danby">
+       <speaker>Elder Danby.</speaker>
+       <p>Yes, so he means to do, and therefore yesterday gave warning; and now we are forbidden all manner of connection with this Roberts, he is so wicked! Would you think it, very few go by the house, without
+<pb n="151" facs="155"/>being apprehensive that he will put some trick upon them. Sometimes he diverts himself by squirting puddle water at them, or else pelting them with rotten apples. Nay, he will sometimes fasten rabbits tails or bits of rags behind their backs, at which the people, when they see it, all burst out a laughing. Then too he has what he calls his <hi>caxen fishery.</hi>
+       </p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>Caxen fishery!</p>
+      </sp>
+      <sp who="#elder_danby">
+       <speaker>Elder Danby.</speaker>
+       <p>Yes: he will take the people's wigs off, as they pass him, with a hook, as you would carp. When any poor man stops before his window to converse with an acquaintance, Roberts immediately goes up to the balcony, with a string suspended from a fishing-rod, and at the end of it a hook, with which he jerks the poor man's wig off. Then he runs and ties it to a dog that he has before provided for the purpose, after which he drives the creature out into the street, and off he sets that instant, so that the poor perriwig has frequently been dragged for twenty minutes through the mud, before its owner can lay hold of it again.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>But this is more than mere amusement!</p>
+      </sp>
+      <sp who="#elder_danby">
+       <speaker>Elder Danby.</speaker>
+       <p>And yet this is nothing to the stories that I could tell you. Why, he lames or bruises all the dogs and cats that
+<pb n="152" facs="156"/>come within his reach. Nor is it long ago, when one of his relations broke a leg, by slipping down upon the stairs where Roberts had been scattering peas on purpose. Ay, it is so; or else our name is not Danby. And for the servants, I am sure, his father would not get one to attend him, if he did not pay extraordinary wages.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>Shall I tell you now? I long to see him. I like boys a little merry.</p>
+      </sp>
+      <sp who="#elder_danby">
+       <speaker>Elder Danby.</speaker>
+       <p>Nothing is more natural: but Roberts's mirth is not like other children's. You, I know, love laughing in your heart; but would not, for the world, hurt any one; whereas this wicked fellow laughs at bumps and bruises.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>Oh, that does not fright me in the least. I shall be much more pleased in paying him as he deserves.</p>
+      </sp>
+      <sp who="#elder_danby">
+       <speaker>Elder Danby.</speaker>
+       <p>If he should come, my brother will not offend you by withdrawing? He would do him some fresh mischief.</p>
+      </sp>
+      <sp who="#younger_danby">
+       <speaker>Younger Danby.</speaker>
+       <p>Ye-ye-yes, I will go.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>No, no: we are old friends; and positively no new comer shall divide us. I will take care and manage him, I warrant you.—But do not I hear a noise upon the stairs?—It is Roberts.—No, I see my sister and her company.</p>
+      </sp>
+     </div>
+     <div n="3" type="scene">
+      <pb n="153" facs="157"/>
+      <head>SCENE III.</head>
+      <stage>Frank, Elder Danby, Younger Danby, Lucy, Isabella, Dorinda, Alice, Laura.</stage>
+      <sp who="#lucy">
+       <speaker>Lucy.</speaker>
+       <p>Your humble servant, my good friends! but why not seated, brother? You might easily have got the gentlemen a chair a-piece, since they have been with you. Sure there has been time enough.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>As if we did not know that it is usual to stand up when we receive ladies.</p>
+      </sp>
+      <sp who="#lucy">
+       <speaker>Lucy.</speaker>
+       <p>I am charmed to find you know your duty; but where is master Roberts? <stage>(to the Danbys.)</stage> I did suppose that you would have brought him with you.</p>
+      </sp>
+      <sp who="#elder_danby">
+       <speaker>Elder Danby.</speaker>
+       <p>It is a long time now, thank Heaven, since we have been separated from him.</p>
+      </sp>
+      <sp who="#dorinda">
+       <speaker>Dorinda.</speaker>
+       <p>Is he then unluckier than Lucy's brother?</p>
+      </sp>
+      <sp who="#laura">
+       <speaker>Laura, </speaker>
+       <stage>(archly.)</stage>
+       <p>Certainly he would be unlucky then, indeed!</p>
+      </sp>
+      <sp who="#alice">
+       <speaker>Alice.</speaker>
+       <p>Lucy's brother! He is a very lamb to Roberts. We have known him for a long time. Have we not, dear sister?</p>
+      </sp>
+      <sp who="#laura">
+       <speaker>Laura.</speaker>
+       <p>We have, and he has played me many a trick.</p>
+      </sp>
+      <sp who="#alice">
+       <speaker>Alice.</speaker>
+       <p>He was very intimate with Anthony, my brother; but he is rid of him entirely now: why, he is the saddest fellow in the world!</p>
+      </sp>
+      <sp who="#lucy">
+       <pb n="154" facs="158"/>
+       <speaker>Lucy.</speaker>
+       <p>Oh, as for that, my brother is even with him there.</p>
+      </sp>
+      <sp who="#dorinda">
+       <speaker>Dorinda.</speaker>
+       <p>But to do mischief merely for the pleasure of it—there is the villainy!</p>
+      </sp>
+      <sp who="#lucy">
+       <speaker>Lucy.</speaker>
+       <p>No, no, my brother is better than that comes to.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank, </speaker>
+       <stage>(with an air of irony.)</stage>
+       <p>Do you really think so? I am obliged to you!</p>
+      </sp>
+      <sp who="#dorinda">
+       <speaker>Dorinda.</speaker>
+       <p>Well, well, my dear Lucy, we will be under your protection, you are the biggest of us; and besides, at present you are mistress of the house, and may command him.</p>
+      </sp>
+      <sp who="#lucy">
+       <speaker>Lucy.</speaker>
+       <p>Do not you be afraid. I will keep him perfectly in bounds.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>Yes, yes, Lucy: you shall take care of the ladies, and for you, <stage>(to the Danbys')</stage> I will take you under my protection.</p>
+      </sp>
+      <sp who="#elder_danby">
+       <speaker>Elder Danby.</speaker>
+       <p>Oh! he will hardly think of playing tricks with me. He knows me, I assure you. I only fear for my brother.</p>
+      </sp>
+      <sp who="#younger_danby">
+       <speaker>Younger Danby.</speaker>
+       <p>He makes ga-ga-me of me! yes, al-al-ways!</p>
+      </sp>
+      <sp who="#laura">
+       <speaker>Laura.</speaker>
+       <p>That is his way; he always attacks the least. He would never vex my sister,—none but me.</p>
+      </sp>
+      <sp who="#lucy">
+       <speaker>Lucy.</speaker>
+       <p>I can believe you: such as he are always cowards. I compare him to a puppy following close upon a cat as long as she keeps running: but if once the cat turns
+<pb n="155" facs="159"/>round, and shews her whiskers, then the puppy scampers for it.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>Well then, sister, you shall be the cat.</p>
+      </sp>
+      <sp who="#laura">
+       <speaker>Laura.</speaker>
+       <p>And let him see your whiskers.</p>
+      </sp>
+      <sp who="#lucy">
+       <speaker>Lucy.</speaker>
+       <p>But methinks it would not be amiss if we sat down. Though we expect this Mr. Mischief-maker, we have no need, I fancy, to remain standing up till he chuses to appear.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>Hush! here he is.</p>
+      </sp>
+     </div>
+     <div n="4" type="scene">
+      <head>SCENE IV.</head>
+      <stage>Frank, Elder Danby, Young Danby, Lucy, Isabella, Dorinda, Alice, Laura, Roberts.</stage>
+      <sp who="#roberts">
+       <speaker>Roberts, </speaker>
+       <stage>(to Frank and his sister, making them a bow.)</stage>
+       <p>Your servant. Your papa was pleased to let me wait upon you: so I am come to spend the evening with you.</p>
+      </sp>
+      <sp who="#lucy">
+       <speaker>Lucy.</speaker>
+       <p>We are glad to see you, and shall have a deal of pleasure in your company, at least my brother.</p>
+      </sp>
+      <sp who="#isabella">
+       <speaker>Isabella.</speaker>
+       <p>Yes, indeed; he wants for good example.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>Do I? So your good example, you would have the gentleman suppose, is not sufficient.</p>
+      </sp>
+      <sp who="#lucy">
+       <speaker>Lucy.</speaker>
+       <p>Well, a truce to compliments. As mistress of the house, it is necessary that I
+<pb n="156" facs="160"/>should let you know who is who. This tall young lady, in the first place, is Miss Dorinda Lambton.</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts, </speaker>
+       <stage>(with a banter.)</stage>
+       <p>I am charmed to hear it.</p>
+      </sp>
+      <sp who="#lucy">
+       <speaker>Lucy.</speaker>
+       <p>And these are the Miss—</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts.</speaker>
+       <p>O, I know them very well. This here is
+<stage>(pointing to Alice)</stage> my lady—what is her name? Pentweazle, that will take you off the company, as simple as she seems: and there is
+<stage>(pointing to Laura, and limping round the room)</stage> Miss Up-and-down, who broke her leg by running from the rod. This gentleman, <stage>(Elder Danby)</stage> observe him, he is a grave wise Grecian, who looks strait before him when he walks, as if he pitied us poor silly children. And this other good little friend of mine
+<stage>(pointing to younger Danby, and letting fall his hat)</stage> is Pe-pe-peter Grievous, whose dear mama forgot, poor creature! to untie his tongue when he was born. <stage>(The children seem surprized, and stare at one another.)</stage>
+       </p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>And who am I, sir, for methinks you seem quite clever at this sort of portrait painting?</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts.</speaker>
+       <p>Oh, I am not sufficiently acquainted with you yet, to take your likeness: but I shall let you have it soon.</p>
+      </sp>
+      <sp who="#lucy">
+       <speaker>Lucy.</speaker>
+       <p>For you, sir, I could draw you at a<pb n="157" facs="161"/>glance, and I must tell you, the similitude would not be very pleasing. I could never have supposed it possible that any well bred little gentleman, as I imagine you affect to be, should think of turning natural defects into a theme for banter. If my little friends were not sincerely such, they would have reason to reproach me for exposing them to your indecency. But they can see that I could not have expected half so much myself.</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts.</speaker>
+       <p>Why, Frank, I protest your sister is mighty eloquent. You need not go to church on Sundays, having such a charming preacher in the house.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>She has tolerable skill, when any one is to be told the truth; and therefore both my sister Isabella and I love her sincerely.</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts.</speaker>
+       <p>Well, well, you see I have tolerable skill likewise in telling truth; and therefore no doubt you will love me, too, sincerely. <stage>(He bows to Lucy.)</stage> I ask your pardon, miss, for having taken the employment out of your hands, as you are yourself so clever at it.</p>
+      </sp>
+      <sp who="#lucy">
+       <speaker>Lucy.</speaker>
+       <p>Your excuses and your bow are both an insult; but an insult such as I despise. Though, were they on the other hand sincere, they would hardly make atonement for so coarse an incivility. If I had not considered
+<pb n="158" facs="162"/>every word that you said as meant in joke, however gross I cannot but suppose it, I should know what suited me to do, and should have done it likewise. Let me therefore beg, sir, that you will indulge in no more freedoms of this nature, if you mean that we should remain together.</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts, </speaker>
+       <stage>(somewhat embarrassed.)</stage>
+       <p>Well, but I see, you do not understand a little harmless piece of banter. Let us be friends. <stage>(He holds out his hand.)</stage>
+       </p>
+      </sp>
+      <sp who="#lucy">
+       <speaker>Lucy, </speaker>
+       <stage>(giving her's.)</stage>
+       <p>With all my heart, sir; but provided—</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts, </speaker>
+       <stage>(turning his back suddenly upon Lucy, and addressing young Danby.)</stage>
+       <p>You are an honest little fellow, too, and I will shake hands with you. <stage>(He hesitates to give his hand, and therefore Roberts seizing on him, shakes his arm so roughly, that he falls a crying.)</stage>
+       </p>
+      </sp>
+      <sp who="#elder_danby">
+       <speaker>Elder Danby.</speaker>
+       <p>Master Roberts!</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank, </speaker>
+       <stage>(laying hold of Roberts's arm.)</stage>
+       <p>Pray, sir, let this child alone; or—</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts.</speaker>
+       <p>Well—or what?—my little Jack-a-dandy.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank, </speaker>
+       <stage>(boldly.)</stage>
+       <p>I am little, I acknowledge, but yet strong enough; and so you will find me, when my friends require to be defended.</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts.</speaker>
+       <p>Say you so? in that case I should like to be one of them. But beforehand, if you please, we will have a brush, just to see
+<pb n="159" facs="163"/>how you will be able to defend them.— <stage>(Roberts on a sudden tries to fling him down; but Frank stands his ground, and Roberts falls. The company rush in to part them.)</stage>
+       </p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>But one moment, if you please, young ladies. I will not do him any harm. Well, Mr. Roberts, pray how do you find yourself? I fancy, I am your master.</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts, </speaker>
+       <stage>(struggling.)</stage>
+       <p>Take your knee off, —or you will stifle me.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>No, no; you must not think of getting up, unless you first ask pardon.</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts, </speaker>
+       <stage>(furiously.)</stage>
+       <p>Pardon!</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>Yes, sir, and of all the company, as you have certainly offended all the company.</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts.</speaker>
+       <p>Well, well; I do ask pardon.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>If you should insult us again, be assured, we will send you down into the cellar till to-morrow morning, which will surely cool your courage. That is much better than to hurt you. We do not think you worth the trouble.—Rise. <stage>(He gets from off him, and when both are up, continues,)</stage> You have no right to be offended; for remember, it was yourself began the contest. <stage>(Roberts seems ashamed.)</stage>
+       </p>
+      </sp>
+      <sp who="#dorinda">
+       <speaker>Dorinda, </speaker>
+       <stage>(aside to Isabella.)</stage>
+       <p>I could never have supposed your brother half so valiant!</p>
+      </sp>
+      <sp who="#isabella">
+       <speaker>Isabella.</speaker>
+       <p>Oh! a lion is hardly bolder; and
+<pb n="160" facs="164"/>yet, Dorinda, he never quarrels. He is, in short, although I say it, the best tempered little fellow in the world. <stage>(To the company.)</stage> But what are we doing? We ought to think of some amusement for the evening.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>Certainly we ought, or why are we all come together? Well, what play shall we chuse? Something funny? What say you, Danby?</p>
+      </sp>
+      <sp who="#elder_danby">
+       <speaker>Elder Danby.</speaker>
+       <p>We will let the ladies chuse. <stage>(Roberts makes mouths at Frank and Danby: the rest pretend as if they did not see him.)</stage>
+       </p>
+      </sp>
+      <sp who="#lucy">
+       <speaker>Lucy.</speaker>
+       <p>There, Frank, there is a lesson for you: we may chuse. Well then, suppose we play at questions and commands? or possibly you would like a game at cards much better?</p>
+      </sp>
+      <sp who="#laura">
+       <speaker>Laura.</speaker>
+       <p>I should rather play at something with the least Danby: if you have a picturebook, we will turn it over: shall we?</p>
+      </sp>
+      <sp who="#younger_danby">
+       <speaker>Younger Danby.</speaker>
+       <p>O-o-o-oh, yes, yes.</p>
+      </sp>
+      <sp who="#lucy">
+       <speaker>Lucy.</speaker>
+       <p>With all my heart, sweet dears! I will carry you up stairs. You will neither want for pictures nor playthings there. <stage>(Laura and the younger Danby take hold of one another by the hand, and jump for joy.)</stage>
+       </p>
+      </sp>
+      <sp who="#lucy">
+       <speaker>Lucy, </speaker>
+       <stage>(to the ladies.)</stage>
+       <p>My friends, will you go with me for amusement into my apartment? I have a charming bonnet that you will like to see.</p>
+      </sp>
+      <sp who="#alice #dorinda #frank #isabella #laura #roberts #younger_danby">
+       <pb n="161" facs="165"/>
+       <speaker>All </speaker>
+       <stage>(together.)</stage>
+       <p>Yes, yes, yes; let us go.</p>
+      </sp>
+      <sp who="#elder_danby">
+       <speaker>Elder Danby.</speaker>
+       <p>Will you accept my hand as far as your apartment, Miss Lucy?</p>
+      </sp>
+      <sp who="#lucy">
+       <speaker>Lucy.</speaker>
+       <p>Rather let Miss Dorinda or Alice have it, if they please.</p>
+      </sp>
+      <stage>(The elder Danby presents his hand to Alice, who happens to stand next him.)</stage>
+      <sp who="#roberts">
+       <speaker>Roberts.</speaker>
+       <p>What then, do you mean to leave me by myself here?</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>No, sir; these young ladies will excuse me, so I shall stay; but I am obliged to leave you for a moment.</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts.</speaker>
+       <p>Are you? but I will follow you. I do not like to be left alone by night, and in a house where I am a stranger.</p>
+      </sp>
+     </div>
+    </div>
+    <div n="2" type="act">
+     <head>ACT II.</head>
+     <div n="1" type="scene">
+      <head>SCENE I.</head>
+      <stage>Frank, Roberts.</stage>
+      <sp who="#roberts">
+       <speaker>Roberts.</speaker>
+       <p>The truth is, I was apprehensive lest you might think of playing me some trick, so I accompanied you. But now that we are returned, and all alone, we may devise some mirth between us.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>Very willingly; I ask no better: so let us think a little.</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts.</speaker>
+       <p>We must have some fun, I fancy, with the younger Danby.</p>
+      </sp>
+      <sp who="#frank">
+       <pb n="162" facs="166"/>
+       <speaker>Frank.</speaker>
+       <p>If by fun you mean some trick to hurt him, I say no: I will not be in a joking humour; so pray leave him out if you are bent on mischief.</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts.</speaker>
+       <p>They told me that you were always merry, and fond of something funny.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>And so I am: but, notwithstanding, without hurt to any one. However, let me know what sort of fun you meant.</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts.</speaker>
+       <p>Look you: here are two large needles. I will stick them both with the points upward in the bottom of two chairs, that common eyes shall not discern them. in the next place you shall offer two of these young ladies the two chairs, for very likely they would suspect that I meant them mischief of some sort or other, and they will naturally both sit down; but figure to yourself what strange grimaces they will both make! Ha! ha! ha! ha! It makes me die a laughing, when I barely think what faces we shall see them put on! Ay, ay, and your prudish sister, too, will find the matter quite diverting.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>But suppose I were to treat you just in the same manner, would you like it?</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts.</speaker>
+       <p>Oh! treat me! that is different; but those little idiots—</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>So you call them idiots, do you, since they are not mischievous?</p>
+      </sp>
+      <sp who="#roberts">
+       <pb n="163" facs="167"/>
+       <speaker>Roberts.</speaker>
+       <p>Well, you are mighty formal and precise. Then shall I mention something else?</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>Yes, do.</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts.</speaker>
+       <p>Then I have some thread as strong as whipcord in my pocket. I will thread one of these great needles with a little of it; and as soon as they are all come down, one of us shall go up very politely towards them, make a deal of scraping, and wry faces, while the other, keeping still behind, shall sew their gowns together. They will all want to dance, as you may guess; so up we will come, and take them out.—Ha! ha! you know the rest; ha! ha! ha! ha! ha!</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>Yes, to tear their gowns, and get them anger when their parents find it out?</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts.</speaker>
+       <p>Why there is the fun.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>What! have you no pleasure then in any thing but doing mischief?</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts.</speaker>
+       <p>But is does not hurt me.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>O ho! I understand: you think of no one but yourself, and all the world is nothing to you!</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts.</speaker>
+       <p>Well; but we are come together to divert ourselves, and we must positively have some laughing. So suppose we frighten Laura and the least Danby?</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>But that is quite wrong. Supposing any one should frighten you?</p>
+      </sp>
+      <sp who="#roberts">
+       <pb n="164" facs="168"/>
+       <speaker>Roberts.</speaker>
+       <p>With all my heart, if any one is but able. I am afraid of nothing.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank. </speaker>
+       <stage>(aside.)</stage>
+       <p>Say you so?—That we shall see, perhaps.— <stage>(Aloud to Roberts.)</stage> Well, about this frightening?</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts.</speaker>
+       <p>I have an ugly mask at home. I will run and fetch it. And do you, when I am gone, contrive to bring the little children down, and you shall see—I will not be absent half a minute.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank, </speaker>
+       <stage>(aside.)</stage>
+       <p>Good!—There shall be a better mask ready for you, though!— <stage>To Roberts, calling him back.</stage> But Roberts! Roberts!</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts.</speaker>
+       <p>What is the matter?</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>It will be better that we should come upon them where we are, if I can bring the others down; for when there are but two or three in this part of the house, there sometimes comes a spirit; and in that case, we ourselves should be but badly off.</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts.</speaker>
+       <p>What is all this story of a spirit?</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>Nay, it is true. At first one hears a noise, and then a phantom with a lighted torch glides by, and then the room seems all on fire. <stage>(He draws back, as if afraid.)</stage> Oh! methinks I see it now.</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts, </speaker>
+       <stage>(a little frightened.)</stage>
+       <p>See what?— O dear!—And what can bring the phantom here?</p>
+      </sp>
+      <sp who="#frank">
+       <pb n="165" facs="169"/>
+       <speaker>Frank. </speaker>
+       <stage>(drawing Roberts towards a corner, and then whispering to him.)</stage>
+       <p>The reason, as we are told, is this: There was a miner who lived here formerly, and he was robbed one night of all his money: in despair he cut his throat, and now from time to time his ghost goes up and down—</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts, </speaker>
+       <stage>(in a tremble.)</stage>
+       <p>O ho! I will stay no longer here, unless you get more company.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>But recollect how brave you were just now.</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts.</speaker>
+       <p>You must not fancy I am afraid: —but—but—but—but—but I will go and fetch my mask.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>Do, do; and I will prepare things here.—What pleasure we shall have!</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts. </speaker>
+       <stage>(with a grin.)</stage>
+       <p>Oh! enough to make one die with laughing!</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>They will be finely frightened!</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts.</speaker>
+       <p>That they will! and therefore I will make haste. I am at home and back again—you shall see how soon! <stage>(He goes out.)</stage>
+       </p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank, </speaker>
+       <stage>(close.)</stage>
+       <p>Ah! ah! you want to frighten others, and are not afraid yourself! Well, well, I have thought of something that will frighten you, or I am very much mistaken.</p>
+      </sp>
+     </div>
+     <div n="2" type="scene">
+      <pb n="166" facs="170"/>
+      <head>SCENE II.</head>
+      <stage>Frank, Lucy, Isabella, Dorinda, Alice, Elder Danby.</stage>
+      <sp who="#lucy">
+       <speaker>Lucy.</speaker>
+       <p>We saw Master Roberts run across the street this moment—What is the matter? Have you had a quarrel?</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>On the contrary, he thinks me his best friend. I have seemed willing to go shares with him in a trick that he means to put upon the little ones above; but it is himself that he will trick, and never wish to come here a third time.</p>
+      </sp>
+      <sp who="#lucy">
+       <speaker>Lucy.</speaker>
+       <p>Well, what is your project?</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>You shall know very soon. At present I have no time to lose, for every thing must be in readiness against his coming back: so, ladies, I request permission to be absent for about five minutes.</p>
+      </sp>
+      <sp who="#dorinda">
+       <speaker>Dorinda.</speaker>
+       <p>Yes, go, go: but do not stay longer. We are all impatient to be told what you design.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>I shall consider it my duty to inform you when I have finished my preparations. So once more with your leave. I will come again in less, perhaps, than five minutes. <stage>(He goes out.)</stage>
+       </p>
+      </sp>
+      <sp who="#lucy">
+       <speaker>Lucy.</speaker>
+       <p>Ah! ah! ah!—Two pretty fellows together! We shall see what good comes out between them! They are well matched.</p>
+      </sp>
+      <sp who="#elder_danby">
+       <pb n="167" facs="171"/>
+       <speaker>Elder Danby.</speaker>
+       <p>Oh! for Heaven's sake, Miss Lucy, do not do such dishonour to my friend, your brother, as to name him and that wicked Roberts together.</p>
+      </sp>
+      <sp who="#alice">
+       <speaker>Alice.</speaker>
+       <p>You are in the right, Danby. One is nothing but politeness, and the other quite a savage.</p>
+      </sp>
+      <sp who="#isabella">
+       <speaker>Isabella.</speaker>
+       <p>Savage as he is, however, I would lay a wager that Frank will be found his master.</p>
+      </sp>
+      <sp who="#dorinda">
+       <speaker>Dorinda.</speaker>
+       <p>What a piece of service Frank would do us, could he clear the house of such a fellow! We shall have no pleasure all the evening if he stays among us.</p>
+      </sp>
+      <sp who="#lucy">
+       <speaker>Lucy.</speaker>
+       <p>I am afraid, however, Frank will proceed too far, and think himself permitted to do any thing against this Roberts.</p>
+      </sp>
+      <sp who="#elder_danby">
+       <speaker>Elder Danby.</speaker>
+       <p>He can never do enough; and though his scheme should be a little hard on Roberts, there will be instruction in it: it is the greatest service that one can do him: and his father, I am persuaded, will be pleased with Frank, when he hears what pains he has taken to instruct his son. Alas! he would part with half his fortune to have Roberts like him.</p>
+      </sp>
+      <sp who="#alice">
+       <speaker>Alice.</speaker>
+       <p>So, Lucy, do not you go about to thwart your brother's good intentions.</p>
+      </sp>
+      <sp who="#lucy">
+       <speaker>Lucy.</speaker>
+       <p>But, my dear Miss Alice, I am in a ticklish situation: I am now instead of my
+<pb n="168" facs="172"/>mama, and cannot possibly let any thing go forward that she would not approve.</p>
+      </sp>
+      <sp who="#alice">
+       <speaker>Alice.</speaker>
+       <p>Let him have his way. We will take the blame of what he does upon ourselves.</p>
+      </sp>
+      <sp who="#isabella">
+       <speaker>Isabella.</speaker>
+       <p>Yes, let him sister. War, I say, war; war for ever with the wicked!</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank, </speaker>
+       <stage>(returning joyfully.)</stage>
+       <p>I have settled every thing, and Roberts may appear whenever he thinks proper. We will receive him.</p>
+      </sp>
+      <sp who="#lucy">
+       <speaker>Lucy.</speaker>
+       <p>But, I hope, you will tell me—</p>
+      </sp>
+      <sp who="#dorinda">
+       <speaker>Dorinda.</speaker>
+       <p>Yes, we will be in the plot too: and more than that, assist you if we can.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>No, ladies, that is not necessary. There is a little violence, I must acknowledge, in my plot, and therefore I will not make you parties. I have been settling every thing with Ralph in the stable. He conceives my meaning clearly, and will second it with great dexterity.</p>
+      </sp>
+      <sp who="#lucy">
+       <speaker>Lucy.</speaker>
+       <p>But still, you do not acquaint me—</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>This is all of the contrivance that you need know. We will go to Blind-man's Buff, that Roberts may suspect no harm on his return. I will let myself be caught, and he or she that blinds me must take care that I may have an opportunity of seeing through the handkerchief, and fixing upon Roberts. After he is blinded, you shall steal into the closet, take away the lights, and leave us both together. When I want your aid, I will call you.</p>
+      </sp>
+      <sp who="#frank">
+       <pb n="171" facs="173"/>
+       <speaker>Frank.</speaker>
+       <p>It is master Roberts; but he was not in the play. You must begin again.</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts.</speaker>
+       <p>Undoubtedly, Frank is right.</p>
+      </sp>
+      <sp who="#dorinda">
+       <speaker>Dorinda.</speaker>
+       <p>Well, be it so; but if I catch you again, it shall be all fair. Remember, I have warned you.</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts.</speaker>
+       <p>O yes, yes. <stage>(He takes Frank aside, and lets him see a little of the mask.)</stage> What think you of it?</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank, </speaker>
+       <stage>(feigning to be frightened.)</stage>
+       <p>O how frightful! I should certainly be terrified at seeing it myself. Well, hide it carefully: we will play a little, and then slip away.</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts, </speaker>
+       <stage>(whispering Frank.)</stage>
+       <p>Yes, yes, we will: but I must, first of all, do something to teize the ladies.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank, </speaker>
+       <stage>(whispering Roberts.)</stage>
+       <p>I will go up to Dorinda, and turn her round: if she should catch me, she will suppose it to be you, and must set out again.</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts, </speaker>
+       <stage>(whispering Frank.)</stage>
+       <p>Good! good! I will have a little sun with her too.</p>
+      </sp>
+      <sp who="#alice">
+       <speaker>Alice.</speaker>
+       <p>Well; when will you have told each other all your secrets? Two fine gentlemen! why, do not you see, the game stands still?</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts.</speaker>
+       <p>You need not stay for us; we are ready.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank,</speaker>
+       <stage>—(Aside.)</stage>
+       <stage>(keeping near Miss Dorinda, as if he wished to pull her by the gown, and seeing Roberts go to fetch a chair,)</stage>
+       <p>Now, Miss Dorinda, I will put myself into your way.</p>
+      </sp>
+      <stage>
+       <hi>(Roberts brings a chair, and puts it so that Dorinda may tumble over it; but Frank takes it away, and puts himself instead, upon his hands and feet, with so much noise, that Dorinda may hear him. As she slides
+<pb n="172" facs="174"/>along her feet, as if at hazard, she encounters Frank, sloops and seizes him.)</hi>
+      </stage>
+      <sp who="#dorinda">
+       <speaker>Dorinda, </speaker>
+       <stage>(after having felt about his cape and wrists, and seeming doubtful)</stage>
+       <p>It is Master Frank.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank, </speaker>
+       <stage>(in appearance disconcerted.)</stage>
+       <p>Yes, indeed; I am taken. What ill luck! so soon?</p>
+      </sp>
+      <sp who="#dorinda">
+       <speaker>Dorinda, </speaker>
+       <stage>(pulling off the bandage.)</stage>
+       <p>O, ho! you wanted to throw me down! I thought nobody but master Roberts played such tricks; but it shall not be long before I take revenge. <stage>(She covers Frank's eyes, so that he can see a little, leads him towards the middle of the room, and, as is the custom of the game, asks him,)</stage> How many horses in your father's stable?</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>Three; black, white, and grey.</p>
+      </sp>
+      <sp who="#dorinda">
+       <speaker>Dorinda.</speaker>
+       <p>Turn about three times, and catch whom you may. <stage>(Frank gropes about, and lets himself be josiled as they please. Dorinda particularly plagues him; he pretends to follow her, but all at once turns round, and falls on Roberts.)</stage>
+       </p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>Ah! ha! I have caught you! have I? It is a boy. It is Roberts! <stage>(pulling of the handkerchief.)</stage> Yes, yes; I am not mistaken.</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts, </speaker>
+       <stage>(whispers Frank.)</stage>
+       <p>Why lay hold on <hi>me?</hi>
+       </p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank, </speaker>
+       <stage>(whispers Roberts.)</stage>
+       <p>Do not mind it. You shall catch Danby. I will push him towards you.</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts, </speaker>
+       <stage>(to Frank.)</stage>
+       <p>Do, and you shall see how I will make him squeak: I will pinch him till the very blood comes. <stage>
+         <hi>(Frank covers Roberts's eyes, and nods to the company as he had settled it. Elder Danby and the little ladies take away the lights, and all together run into an adjoining closet quietly.)</hi>
+        </stage>
+       </p>
+      </sp>
+      <sp who="#elder_danby">
+       <speaker>Elder Danby, </speaker>
+       <stage>(as be steps into the closet.)</stage>
+       <p>Well: have you finished? Oh make haste. You take a
+<pb n="173" facs="175"/>deal of time. What mischief are you whispering to each other? <stage>(Here the groom presents himself at the door, with a lighted torch in one hand, and a stick beneath it in the other, with a large full-bottomed wig upon it. He is covered over with Mr. Jephson's gown, trailing on the ground behind him. Frank beckous him to keep back, while he is blinding Roberts)</stage>
+       </p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank, </speaker>
+       <stage>(putting Roberts in the middle of the room.)</stage>
+       <p>How many horses in your father's stable?</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts.</speaker>
+       <p>Three; black, white and grey.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>Turn about— <stage>(pretending to be angry with the others.)</stage> Be quiet pray, young ladies, and not quit your places till the game is begun.—Turn about three times, and catch whom you may.— <stage>(While Roberts turns about, Frank runs for the speaking trumpet, bids the groom untie a chain that he has about his waist, which falling makes a hideous noise, and then he cries out lustily himself,)</stage> The ghost! the ghost! Run, Roberts, for your life. 
+<stage>(He claps the door to violently, hides himself behind the Groom, and speaking through the trumpet, says,)</stage> 
+It is you then that come to steal my treasure?</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts, </speaker>
+       <stage>(trembling with fear, and not daring to pull off the bandage.)</stage>
+       <p>Fire! fire! Danby! Where are you, Frank! Murder! murder! Dorinda!</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank, </speaker>
+       <stage>(speaking through the trumpet.)</stage>
+       <p>I have seared them all away. Pull off your bandage, and look at me. <stage>(Roberts, without pulling off the bandage, puts his hands up to his face, retiring from the ghost.</stage>
+       </p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>Pull it off, I say— <stage>(Roberts pulls the bandage down about his neck, but dare not lift his eyes up, and at last, when he observes the ghost, he screams out, and has not power to move.)</stage>
+       </p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>I know you well, your name is Roberts. <stage>
+         <hi>(Roberts hearing this, runs up and down to get
+<pb n="174" facs="176"/>away, but finding the door shut, falls down upon his knees, holds out his hands, and turns away his head.)</hi>
+        </stage>
+       </p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>What you think to escape me, do you?</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts, </speaker>
+       <stage>(after several efforts.)</stage>
+       <p>I have done nothing to you. You were never robbed by me.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>Never robbed by you? You are capable of any villainy! Who squirts at people in the street? Who fastens rabbits' tails behind their backs? Who fishes for their wigs? Who lames poor dogs and cats? Who sticks up pins in chairs to prick his friends when they sit down! And who has in his pocket even now, a mask to frighten two poor little children?</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts.</speaker>
+       <p>I have done all this! indeed, I own it! but for heaven's sake pardon me, and I will not do so any more.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>Who will answer for you?</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts.</speaker>
+       <p>Those that you have frightened away, if you will but call them.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>Do you promise me yourself?</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts.</speaker>
+       <p>Yes, yes; upon my honour.</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>Well then, I take pity on you; but remember, had it been my pleasure, I might easily fly away with you through the window. <stage>(Here the phantom makes his torch glare like lightning, and then goes out. Roberts, almost swooning with terror, salls on his face.)</stage>
+       </p>
+      </sp>
+     </div>
+     <div type="scene">
+      <head>SCENE the Last.</head>
+      <stage>Roberts, Frank, the Groom, Mr. Jephson.</stage>
+      <sp who="#groom_of_mr_jephson">
+       <speaker>Mr. Jephson, </speaker>
+       <stage>(entering with a candle in his hand.)</stage>
+       <p>What is all this disturbance?</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts, </speaker>
+       <stage>(without looking up.)</stage>
+       <p>It is not I that make it. Pray, pray, do not come near me!</p>
+      </sp>
+      <sp who="#groom_of_mr_jephson">
+       <speaker>Mr. Jephson, </speaker>
+       <stage>(perceiving Roberts on the ground.)</stage>
+       <p>Who can this be on the ground?</p>
+      </sp>
+      <sp who="#roberts">
+       <pb n="175" facs="177"/>
+       <speaker>Roberts.</speaker>
+       <p>You know me well enough, and have already taken pity on me.</p>
+      </sp>
+      <sp who="#groom_of_mr_jephson">
+       <speaker>Mr. Jephson.</speaker>
+       <p>I already taken pity on you!</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts.</speaker>
+       <p>It was not I that robbed you.</p>
+      </sp>
+      <sp who="#groom_of_mr_jephson">
+       <speaker>Mr. Jephson.</speaker>
+       <p>Robbed me! what does all this mean? do not I know you, master Roberts?—</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts.</speaker>
+       <p>Yes, yes; that is my name, good ghost: so pray do not hurt me.</p>
+      </sp>
+      <sp who="#groom_of_mr_jephson">
+       <speaker>Mr. Jephson.</speaker>
+       <p>I am astonished! why in such a posture? <stage>(He puts down the light, and lifts him up.)</stage>
+       </p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts, </speaker>
+       <stage>(struggling first of all, but knowing Mr. Jephson after wards.)</stage>
+       <p>Mr. Jephson, is it you? <stage>(his features brighten)</stage> He is gone then! is he? <stage>(he looks round about him, sees the ghost, and turns away again.)</stage> There, there he stands!—the phantom! —don't you see him? <stage>(Frank brings the children from the closet. Laura and younger Danby are frightened at the groom's appearance, but the rest burst out a laughing.)</stage>
+       </p>
+      </sp>
+      <sp who="#groom_of_mr_jephson">
+       <speaker>Mr. Jephson.</speaker>
+       <p>Well! what signifies all this?</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank, </speaker>
+       <stage>(coming forward.)</stage>
+       <p>Let me explain the whole, papa. This phantom is your groom; and we have put on him your wig and gown.</p>
+      </sp>
+      <sp who="#groom_of_mr_jephson">
+       <speaker>Groom, </speaker>
+       <stage>(dropping his disguise.)</stage>
+       <p>Yes, sir, it is I.</p>
+      </sp>
+      <sp who="#groom_of_mr_jephson">
+       <speaker>Mr. Jeph.</speaker>
+       <p>An odd sort of sport this, Frank!</p>
+      </sp>
+      <sp who="#frank">
+       <speaker>Frank.</speaker>
+       <p>True, but ask the company if master Roberts has not well deserved to be thus frightened. He designed to frighten Laura and Danby: I only wished to hinder him. Let him but shew the frightful mask that he has about him.</p>
+      </sp>
+      <sp who="#groom_of_mr_jephson">
+       <speaker>Mr. Jephson, </speaker>
+       <stage>(to Roberts.)</stage>
+       <p>Is this true?</p>
+      </sp>
+      <sp who="#roberts">
+       <speaker>Roberts, </speaker>
+       <stage>(giving him the mask.)</stage>
+       <p>I cannot deny it: here it is, sir.</p>
+      </sp>
+      <sp who="#groom_of_mr_jephson">
+       <speaker>Mr. Jephson.</speaker>
+       <p>You have met with nothing, then, but what you deserve.</p>
+      </sp>
+      <sp who="#dorinda">
+       <pb n="176" facs="178"/>
+       <speaker>Dorinda.</speaker>
+       <p>We persuaded Miss Lucy to permit her brother to make use of this device to punish Roberts.</p>
+      </sp>
+      <sp who="#alice">
+       <speaker>Alice.</speaker>
+       <p>If you knew besides, sir, all the other tricks that he meant to play us—</p>
+      </sp>
+      <sp who="#groom_of_mr_jephson">
+       <speaker>Mr. Jephson.</speaker>
+       <p>What, sir, is this the sample that you give us of your behaviour, the first time you set foot within my doors? You have been disrespectful to me in the person of my children, who were pleased with the expectation of having you as their guest. You have been disrespectful to these ladies, whom I need not say you should have honoured and regarded. So be gone! Your father, when he comes to know that you have been turned out of doors, will see how necessary it is to correct the vices of your heart. I will not permit your detestable example to corrupt my children. Go, and never let me see you here again! <stage>(Roberts is confounded, and withdraws.)</stage> And you, my friends, although the circumstances of the case may very possibly excuse what you have done, yet never, for the time to come, indulge yourselves in such sport. The fears which have power to affect children at a tender age, may possibly be followed by the worst consequences during their whole life. Avenge yourselves upon the wicked only by behaving better; and remember, after the example which master Roberts has afforded you, that by intending harm to others, you will oftenest bring it down upon yourselves.</p>
+      </sp>
+     </div>
+    </div>
+   </div>
+  </body>
+ </text>
+</TEI>

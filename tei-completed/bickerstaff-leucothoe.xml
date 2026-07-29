@@ -1,0 +1,1986 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">Leucothoe</title>
+    <title type="sub">A dramatic poem</title>
+    <author>
+     <persName>
+      <surname>Bickerstaff</surname>
+      <forename>Isaac</forename>
+      <idno type="VIAF">17259955</idno>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>Leucothoe. A dramatic poem:</name>
+     <author>Bickerstaff, Isaac, 1735-1812.</author>
+     <publisher>printed for R. and J. Dodsley; and sold by M. Cooper, and A. Brown,</publisher>
+     <date>1756.</date>
+     <pubPlace>London :</pubPlace>
+     <note>Anonymous. By Isaac Bickerstaffe.</note>
+     <note>With a half-title.</note>
+     <note>Page vii misnumbered vi; a variant has p.vii correctly numbered.</note>
+     <note>Reproduction of original from the British Library.</note>
+     <note>English Short Title Catalog, ESTCT154633.</note>
+     <note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note>
+    </bibl>
+    <biblFull n="printed source">
+     <publicationStmt>
+      <authority ref="#JJ">Jan Jokisch</authority>
+      <date>2024 December</date>
+      <idno type="ECCO_Drama">K116684.000</idno>
+      <idno type="DLPS">004812583</idno>
+      <idno type="ESTC">T154633</idno>
+      <idno type="DocNo">CW113590847</idno>
+      <idno type="TCP">K116684.000</idno>
+      <idno type="GaleDocNo">CW3313590847</idno>
+      <idno type="ContentSet">ECLL</idno>
+      <idno type="ImageSetID">0618702400</idno>
+      <availability>
+       <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+      </availability>
+     </publicationStmt>
+    </biblFull>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     
+     
+     
+     
+     
+     
+     <personGrp xml:id="chorus">
+      <persName>Chorus</persName>
+      <sex value="UNKNOWN"/>
+     </personGrp>
+     
+     <person xml:id="clytie">
+      <persName>Clytie</persName>
+      <sex value="FEMALE"/>
+     </person>
+     
+     <person xml:id="leucothoe">
+      <persName>Leucothoe</persName>
+      <sex value="FEMALE"/>
+     </person>
+     
+     <person xml:id="orchamus">
+      <persName>Orchamus</persName>
+      <sex value="MALE"/>
+     </person>
+     <person xml:id="phoebus">
+      <persName>Phoebus</persName>
+      <sex value="MALE"/>
+     </person>
+     
+     <personGrp xml:id="semi_chorus">
+      <persName>Semi-chorus</persName>
+      <sex value="UNKNOWN"/>
+     </personGrp>
+     <person xml:id="salve">
+      <persName>Salve</persName>
+      <sex value="MALE"/>
+     </person>
+     
+     
+     
+    <person xml:id="virgin"><persName>Virgin</persName><sex value="FEMALE"/></person><person xml:id="youth"><persName>Youth</persName><sex value="MALE"/></person><personGrp xml:id="strophe"><persName>Strophe</persName><sex value="UNKNOWN"/></personGrp><personGrp xml:id="anti_strophe"><persName>Anti-strophe</persName><sex value="UNKNOWN"/></personGrp><person xml:id="man"><persName>Man</persName><sex value="MALE"/></person><person xml:id="woman"><persName>Woman</persName><sex value="FEMALE"/></person><person xml:id="one_of_the_horae"><persName>One of the Horae</persName><sex value="MALE"/></person><personGrp xml:id="epode"><persName>Epode</persName><sex value="UNKNOWN"/></personGrp></listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1756">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text>
+  <front>
+   <div type="halftitle">
+    <pb facs="1" ana="y"/>
+    <p>LEUCOTHOE. A DRAMATIC POEM.</p>
+    <p>[Price One Shilling and Six-Pence.]</p>
+   </div>
+   <div type="titlepage">
+    <pb facs="2" ana="y"/>
+    <p>LEUCOTHOE. A DRAMATIC POEM.</p>
+    <l>In nova fert animus mutatas dicere formas</l>
+    <l>Corpora.</l>
+    <bibl>OVID. Met. lib. i.</bibl>
+    <l>Vulgo recitare timentis.</l>
+    <bibl>HOR. lib. i. sat. 4.</bibl>
+    <p>LONDON: Printed for R. and J. DODSLEY, in Pall-Mall; And Sold by M. COOPER in Pater-noster-Row, and A. BROWN in the Hay-Market. 1756.</p>
+   </div>
+   <div type="tothereader">
+    <pb facs="3"/>
+    <head>TO THE READER.</head>
+    <p>WE are not to do evil that good may come of it, else I might plead in favour of the following little poem, that, whatever its faults may be, it was undertaken and pursued with a laudable design. The ridiculousness, not to say barbarity, of turning SHAKESPEAR's plays into operas, and larding them with songs from quite different authors, as hath been lately practised upon our most justly approved theatre, is, I apprehend, of so glaring a nature, that every one, who is endued with the smallest spark of taste, must immediately be struck with it. It is indeed the same thing, as if any person should take it into
+<pb n="vi" facs="4"/>
+his head to reduce one of our antient Gothick cathedrals to a modern summer-house, and ornament it with designs from Halfpenny's Chinese architecture. Such is the devastation and overturning! such are the breaks and patches!</p>
+    <p>There is no man in England, I believe, who has greater respect for a piece of beef<note n="*" place="foot">A thing to which Shakespear has been more than once compared.</note> than I have; but should I therefore like it cut into mince meat, and mixed with my custard and apple-pie? Certainly, no: the impropriety of the olio would then disgust me. So do the vigorous lines of SHAKESPEAR, when I meet them hashed up, with Waller and Cowley, in the luscious compositions of a musical entertainment.</p>
+    <p>If we must have English operas, somewhat of less value, and at the same time better calculated for the end proposed, might, I thought, be made use of. But
+<pb n="vi" facs="5"/>
+many people will ask, what occasion is there that we should have English operas at all? Let any common lover of musick go but once to the King's theatre in the Hay-market, and he will easily perceive, that the Italian composition does, and must, with all its inconsistencies, for ever excel any thing we can produce of the like nature; and this, not for want of abilities in our composers, but thro' the insuperable disadvantages of our language. Had I seen any of their musical dramas before I undertook this, LEUCOTHÖE should never have been written: but since it is done, and cannot be recalled, I hope I shall be pardoned, if I am willing to try, whether it may not be borne as a juvenile attempt at poetry; tho' I have not been sollicitous to have it accompanied with the graces of that harmony for which it was originally intended.</p>
+    <p>A French poetaster would have sent such a <hi>petit piece</hi> into the world with the
+<pb n="viii" facs="6"/>
+title of <hi>Tragedie</hi>; but the Author of this hath not been long enough of the trade to acquire so much confidence. Opera he must not call it, because it should then end happily, which the disposition of his fable would not admit of: he therefore lets it go under the denomination of a DRAMATIC POEM. But because it is, save in that one instance of its catastrophe, an opera, he begs leave to subjoin what one of the first English poets hath written of that species of the drama; which will be sufficient to shew, that, if he has failed in it, it is what a greater genius might have done; and, if he has succeeded, it is what the greatest genius has not been ashamed to think worthy of his accomplishing.</p>
+    <p>"An opera, [says Mr. DRYDEN, in his preface to ALBION and ALBANUS] is a poetical tale or fiction, represented by vocal and instrumental musick, adorned with scenes, machines, and dancing.
+<pb n="ix" facs="7"/>
+The supposed persons of this musical drama are generally supernatural, as gods and goddesses, and heroes, which at least are descended from them, and are in due time to be adopted of their number. The subject, therefore, being extended beyond the limits of human nature, admits of that sort of marvellous which is rejected in other plays. Human impossibilities are to be received as they are in faith, because, where the Gods are introduced, a Supreme Power is understood, and second causes are out of doors.—If the persons represented were to speak upon the stage, it would follow of necessity, that the expressions should be lofty, figurative, and majestical. But the nature of an opera denies the frequent use of those poetical ornaments; for vocal musick, tho' it often admits a loftiness of sound, yet always exacts an harmonious sweetness, or, to distinguish yet more justly,
+<pb n="x" facs="8"/>
+the recitative part of the opera requires a more masculine beauty of expression and sound: the other, which, for want of a properer word, I must call the songish part, must abound in softness, and variety of numbers; its principal intention being to please the hearing, rather than gratify the understanding."
+He ends all, after having given the preference to the Italian opera, thus:
+"If I thought it convenient, I could here discover some rules which I have given to myself in writing an opera in general, and in this opera in particular: but I consider, that the effect would only be, to have my own performance measured by the laws I gave, and consequently set up little judges, who, not understanding thoroughly, would be sure to fall upon the faults, and not to acknowledge any of the beauties. Here, therefore, if they will criticise, they shall do it out of their own fund; but let them be assured,
+<pb n="xi" facs="9"/>
+that their ears are nice, for there is neither writing nor judging on this subject without that good quality. It is no easy matter, in our language, to make words so smooth, and numbers so harmonious, that they shall almost set themselves; and yet there are rules for this in nature, and as great a certainty and quantity in our syllables, as either in the Greek or Latin. But let poets and judges understand this first, and then let them begin to study English. When they have chewed a while upon these preliminaries, it may be they will scarce adventure to tax me with want of thought and elevation of fancy in this work; for they will soon be satisfied that those are not the nature of this sort of writing. The necessity of double rhimes, and ordering of the words and numbers for the sweetness of the voice, are the main hinges on which an opera must move; and both of these are without the compass of any art to
+<pb n="xii" facs="10"/>
+teach another to perform, unless Nature in the first place has done her part, by enduing the poet with nicety of hearing, that the discord of sounds in words shall as much offend him as a seventh in music would a good composer. I have therefore no need to make excuses for meanness of thought in many places. The Italians, with all the advantages of their language, are continually forced on it, or rather they affect it. The chief secret is in the choice of words; and by this choice I do not mean elegancy of expression, but propriety of sound, to be varied according to the nature of the subject.—The same reasons which depress thought in an opera, have a stronger effect upon the words, especially in our language; for there is no maintaining the purity of English in short measures, where the rhime returns so quick, and is so often female or double rhime;
+<pb n="xiii" facs="11"/>
+which is not natural to our tongue, because it consists too much of monosyllables, and those too most commonly clogged with consonants; for which reason I am often forced to coin new words, revive some that are antiquated, and botch others.</p>
+   </div>
+   <div type="argument">
+    <pb facs="12"/>
+    <head>ARGUMENT.</head>
+    <p>LEUCOTHÖE, daughter of ORCHAMUS King of Persia, is beloved, and secretly enjoyed by the SUN; when CLYTIE, a former mistress of his, becomes acquainted with their amour, and, in the rage of jealousy, makes a full discovery of it to the Lady's father. ORCHAMUS, as a punishment for his daughter's crime, orders her to be buried alive; which is accordingly executed in her lover's absence; who, coming too late to give her any assistance, first changes her body into a tree of frankincense, and then CLYTIE, the cause of her misfortune, into a statue.</p>
+    <p>This is the chief subject-matter of the following rhimes. In OVID we are told that CLYTIE was metamorphosed into a sun-flower: but the Author hopes he need not make any apology for deviating from his original in that particular, any more than for some other trifling circumstances which he has taken the liberty to vary, and others which he has entirely omitted as foreign to his purpose.</p>
+   </div>
+   <div type="Dramatis_Personae">
+    <pb facs="13"/>
+    <castList>
+     <head>PERSONS.</head>
+     <castItem>PHOEBUS.</castItem>
+     <castItem>ORCHAMUS, King of Persia.</castItem>
+     <castItem>LEUCOTHÖE, Daughter of Orchamus, in love with, and beloved by Phoebus.</castItem>
+     <castItem>CLYTIE, in love with Phoebus, but slighted by him.</castItem>
+     <castItem>A BLACK SLAVE attending Clytie.</castItem>
+     <castItem>Chorus's, Priests, Youths, Virgins, and other Attendants.</castItem>
+    </castList>
+   </div>
+   <set>
+    <p>SCENE, <hi>PERSIA.</hi>
+    </p>
+   </set>
+  </front>
+  <body>
+   <head>
+    <pb facs="14"/>
+LEUCOTHOE.</head>
+   <div n="1" type="act">
+    <head>ACT I.</head>
+    <div n="1" type="scene">
+     <head>SCENE I.</head>
+     <stage>The theatre represents a plain, bordered with wood; several mountains, which rise one above another, till the highest seem lost in the clouds, making the point of view at the farther end.</stage>
+     <stage>CLYTIE <hi>is discovered in a melancholy posture.</hi>
+     </stage>
+     <sp>
+      <lg>
+       <l>
+        <seg rend="decorInit">O</seg>H! Jealousy, thy torments who can bear?</l>
+       <l>Forsaken, scorn'd, abandon'd to despair!</l>
+       <l>I rage, I burn, no kind assistance nigh!</l>
+       <l>Give, give me ease, ye gods, or let me die.</l>
+      </lg>
+      <lg>
+       <l>Farewel, ye streams! farewel, ye groves!</l>
+       <l>Farewel, ye shady bow'rs!</l>
+       <l>Soft scenes of blissful hours,</l>
+       <l>Of former conscious loves.</l>
+       <l>
+        <pb n="10" facs="15"/>Farewel, sweet peace of mind!</l>
+       <l>Fond wishes, pleasing pain,</l>
+       <l>With all the tender train,</l>
+       <l>The joy that happy lovers find.</l>
+       <l>Farewel! your halcyon days are o'er,</l>
+       <l>And I must never know you more.</l>
+      </lg>
+      <stage>
+       <hi>The sun, which appears in the midst of the sky, moves slowly towards the summit of the mountains; where, opening by degrees, it shews</hi> Phoebus <hi>in his chariot. The horses are discovered, and a great glory.</hi>
+      </stage>
+      <lg>
+       <l>But, see! he comes, the author of my woes:</l>
+       <l>He comes, ungrateful God;—but not to me.</l>
+       <l>Another love within his bosom glows;</l>
+       <l>Another nymph! distracting misery!</l>
+       <l>Another nymph allures him to her arms.</l>
+       <l>I cannot bear the thought! confound her art,</l>
+       <l>Eternal light'nings blast her charms,</l>
+       <l>That robb'd me of the dear inconstant's heart.</l>
+       <l>Goddess of dire Revenge! may all her days</l>
+       <l>To peace be strangers, and her nights to rest;</l>
+       <l>May Hope ne'er sooth her with imagin'd ease,</l>
+       <l>Nor Patience still the tumults in her breast.</l>
+       <l>Since she has stoln possession of my joy,</l>
+       <l>Fulfil my pray'r, by pity, justice, led;</l>
+       <l>May turns alike our happiness destroy,</l>
+       <l>And all my griefs be doubled on her head.</l>
+      </lg>
+      <stage>She retires among the trees.</stage>
+     </sp>
+    </div>
+    <div n="2" type="scene">
+     <pb n="11" facs="16"/>
+     <head>SCENE II.</head>
+     <stage>PHOEBUS <hi>descends the mountain, a symphony playing. The machine sinks.</hi>
+     </stage>
+     <sp>
+      <lg>
+       <l>" Hail! to love, delicious boy,</l>
+       <l>" Hail! to love, and welcome joy:"</l>
+       <l>Love, the best, the only treasure,</l>
+       <l>Love, that laughs at proud degree,</l>
+       <l>Love, that renders pain a pleasure,</l>
+       <l>And by enslaving makes us free.</l>
+      </lg>
+      <lg>
+       <l>When Heav'n to woman beauty did dispense,</l>
+       <l>It gave away its own omnipotence.</l>
+       <l>High 'mongst the pow'rs above, enthron'd I sit,</l>
+       <l>I'm stiled the God of Wisdom, and of Wit;</l>
+       <l>This arm alone Light's fiery steeds can rein.</l>
+       <l>Oh force, how impotent! oh boast, how vain!</l>
+       <l>Incapable to curb my own desires.</l>
+       <l>What's strength, or wisdom's use, when love inspires?</l>
+       <l>Unseen, resistless, it impels us on;</l>
+       <l>No force can tame it, nor can prescience shun,</l>
+       <l>And, ere we dread the danger, we're undone.</l>
+      </lg>
+     </sp>
+    </div>
+    <div n="3" type="scene">
+     <pb n="12" facs="17"/>
+     <head>SCENE III.</head>
+     <stage>PHOEBUS, CLYTIE.</stage>
+     <sp>
+      <l>Hah! whence this boldness? now who dares intrude</l>
+      <l>Upon my peaceful, sacred solitude?</l>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE,</speaker>
+      <stage>kneeling.</stage>
+      <l>Light of the world, great eye, and soul,</l>
+      <l>View at your feet a suppliant maid;</l>
+      <l>Behold my tears, for you they roll,</l>
+      <l>For you these sighs my breast invade.</l>
+      <l>Ah! turn your face; ah! cease to chide;</l>
+      <l>Nor let, while my distress you see,</l>
+      <l>What's warmth and life to all beside,</l>
+      <l>Be coldness, and be death to me.</l>
+     </sp>
+     <sp who="#phoebus">
+      <speaker>PHOEBUS.</speaker>
+      <l>Have I not told you, CLYTIE, o'er and o'er,</l>
+      <l>That we must meet upon these terms no more?</l>
+      <l>Why then persist you thus to haunt me still,</l>
+      <l>And force me to be cruel 'gainst my will?</l>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE.</speaker>
+      <l>Because I love, 'tis therefore I pursue.</l>
+      <l>Oh need I say I love! you know I do.</l>
+      <l>
+       <pb n="13" facs="18"/>That answer for me: love, in spite of fear,</l>
+      <l>Brought me to meet your dread resentment here,</l>
+      <l>The resolution of my doom to know,</l>
+      <l>And die,—if you, unkind, will have it so.</l>
+     </sp>
+     <sp who="#phoebus">
+      <speaker>PHOEBUS.</speaker>
+      <l>Leave me, and live.</l>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE.</speaker>
+      <l>Inhuman! rather say,</l>
+      <l>Oh ten times rather,—CLYTIE, Die, and stay.</l>
+      <l>To life with firmness I can bid adieu;</l>
+      <l>But 'tis impossible to part from you.</l>
+     </sp>
+     <sp who="#phoebus">
+      <speaker>PHOEBUS.</speaker>
+      <l>Be gone.</l>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE.</speaker>
+      <l>I cannot.—There was once a time,</l>
+      <l>When such a word would have been thought a crime.</l>
+      <l>Oh change, how great! my person to behold,</l>
+      <l>Am I deform'd, or suddenly grown old?</l>
+      <l>If ever I had charms your love to gain,</l>
+      <l>Methinks those charms their wonted bloom retain.</l>
+      <l>Say then in what, in what is't I offend?</l>
+      <l>Let me but know my fault, I'll strive to mend.</l>
+     </sp>
+     <sp who="#phoebus">
+      <speaker>PHOEBUS.</speaker>
+      <lg>
+       <l>Would you my languid appetite revive,</l>
+       <l>And keep the just expiring flames alive,</l>
+       <l>Mild and reserv'd you should at distance stand,</l>
+       <l>And gently feed it with a cautious hand:</l>
+       <l>
+        <pb n="14" facs="19"/>What sparingly applied, renews desire;</l>
+       <l>Pour'd on, extinguishes, and damps the fire.</l>
+      </lg>
+      <lg>
+       <l>Give me the nymph who charms with ease,</l>
+       <l>Whose greatest pleasure is to please;</l>
+       <l>Whose passion ne'er tyrannic grows,</l>
+       <l>But hand in hand with freedom goes;</l>
+       <l>Who ne'er feels transport in her breast,</l>
+       <l>But as she sees her lover blest:</l>
+       <l>'Tis such a nymph, and only she,</l>
+       <l>Must hope to gain a heart from me.</l>
+      </lg>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE.</speaker>
+      <lg>
+       <l>And can you then so soon those vows forget,</l>
+       <l>Which Eccho scarce has left repeating yet?</l>
+       <l>Those vows—to me for ever fatal day,</l>
+       <l>When first they led my easy faith astray!</l>
+       <l>Which morns and eves have heard, thou base ingrate,</l>
+       <l>And promis'd love immortal as your state?</l>
+      </lg>
+      <stage>Phoebus <hi>traverses the stage, she following.</hi>
+      </stage>
+      <lg>
+       <l>Think but how oft, unmindful of alarms,</l>
+       <l>You've lain encircled by those yielding arms,</l>
+       <l>Insatiate draining copious draughts of bliss,</l>
+       <l>And swearing heav'n was lodg'd in ev'ry kiss;</l>
+       <l>And then when cloy'd with the delicious feast,</l>
+       <l>And sunk unnerv'd on this still panting breast,</l>
+       <l>Think now, repeating the dear task, you've dy'd,</l>
+       <l>Yet cursed the day that forc'd you from my side.</l>
+      </lg>
+     </sp>
+     <sp who="#phoebus">
+      <pb n="15" facs="20"/>
+      <speaker>PHOEBUS.</speaker>
+      <l>That once your beauties did my soul subdue,</l>
+      <l>I frankly told you, and I told you true.</l>
+      <l>I lov'd, enjoy'd, and from enjoyment bless'd,</l>
+      <l>Thought for a while my appetite encreas'd;</l>
+      <l>But grown with frequent iteration tir'd,</l>
+      <l>At length I nauseate what I first desir'd.</l>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE.</speaker>
+      <l>I see you nauseate, ev'n this moment see</l>
+      <l>Your eyes regard me with antipathy.</l>
+      <l>Nor think me stranger to the cause; I know</l>
+      <l>What brings you, PHOEBUS, to this secret plain,</l>
+      <l>For whom my gentle bondage you forego,</l>
+      <l>And treat my love with insults and disdain.</l>
+     </sp>
+     <sp who="#phoebus">
+      <speaker>PHOEBUS.</speaker>
+      <l>Hah!</l>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE.</speaker>
+      <l>For LEUCOTHÖe. You start; that name</l>
+      <l>Has struck you. Oh! more false than syren's song,</l>
+      <l>Was it for this I sold myself to shame?</l>
+      <l>For this—</l>
+     </sp>
+     <sp who="#phoebus">
+      <speaker>PHOEBUS.</speaker>
+      <lg>
+       <l>Be wise in time, and stop your tongue,</l>
+       <l>Another word's destruction sure as hell.</l>
+       <l>Now hearken, and take care t'observe me well.</l>
+       <l>
+        <pb n="16" facs="21"/>By that irrevocable oath I swear,</l>
+       <l>Which even gods themselves with trembling take,</l>
+       <l>By the eternal, gloomy Flood, if e'er</l>
+       <l>You breathe again what you've presum'd to speak</l>
+       <l>This instant, life shall expiate the offence.</l>
+       <l>Reply not; make no answer: get you hence.</l>
+      </lg>
+      <lg>
+       <l>Oh where, too charming, cruel maid,</l>
+       <l>Unmindful dost thou rove?</l>
+       <l>Why is my bliss thus long delay'd?</l>
+       <l>Haste, haste thee quickly to my aid,</l>
+       <l>And tune my jarring soul to love.</l>
+      </lg>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE.</speaker>
+      <lg>
+       <l>Confusion! madness! hell! or yet what's worse!</l>
+       <l>Oh give me breath sufficiently to curse</l>
+       <l>The world, myself—and all my feeble race.</l>
+       <l>What! boast your falsehood, own it to my face!</l>
+       <l>Go, tyrant, seek the idol you adore,</l>
+       <l>CLYTIE's weak claims shall trouble you no more:</l>
+       <l>Hence! stubborn weakness, hence!—O tender fool!</l>
+       <l>My heart yet fain would hold him, could it be:</l>
+       <l>But tutor'd by example, I shall cool,</l>
+       <l>And him disdain, as he has slighted me.</l>
+      </lg>
+      <lg>
+       <l>No more let love with golden shafts be drawn,</l>
+       <l>Or downy mantled wing;</l>
+       <l>But arm'd his hands,</l>
+       <l>With flaming brands,</l>
+       <l>
+        <pb n="17" facs="22"/>And scorpion whips to sting,</l>
+       <l>The wretches by his fell distemper gnawn.</l>
+       <l>No more an infant heaven-design'd,</l>
+       <l>But a grim monster, fierce and blind,</l>
+       <l>The curse and scourge of human kind.</l>
+      </lg>
+     </sp>
+    </div>
+    <div n="4" type="scene">
+     <head>SCENE IV.</head>
+     <sp who="#phoebus">
+      <speaker>PHOEBUS.</speaker>
+      <l>Infernal Jealousy! thou foe to rest,</l>
+      <l>Despotic ruler in the female breast,</l>
+      <l>Of Love begot, unnatural, and dire,</l>
+      <l>Thou prey'st upon the vitals of thy fire.</l>
+      <l>But, see! she comes, whom no such pangs excite,</l>
+      <l>The harbinger of ev'ry dear delight;</l>
+      <l>She comes, like teeming Spring along the plain,</l>
+      <l>Youth, Plenty, Health, and Pleasure, in her train.</l>
+     </sp>
+    </div>
+    <div n="5" type="scene">
+     <head>SCENE V.</head>
+     <stage>PHOEBUS, LEUCOTHOE.</stage>
+     <sp>
+      <l>So in some ev'ning fair the feather'd male,</l>
+      <l>Expects his tuneful consort in the vale;</l>
+      <l>At sight of her, his heart exulting springs,</l>
+      <l>He rears his plume, and beats his little wings:</l>
+      <l>
+       <pb n="18" facs="23"/>They meet, they nestle to each other's breast,</l>
+      <l>And side by side pursue their way to rest.</l>
+     </sp>
+     <sp who="#leucothoe">
+      <speaker>LEUCOTHÖE.</speaker>
+      <l>My lord! my life!</l>
+     </sp>
+     <sp who="#phoebus">
+      <speaker>PHOEBUS.</speaker>
+      <lg>
+       <l>My best, my tend'rest part!</l>
+       <l>Thus let me clasp you to my panting heart.</l>
+       <l>Hence, ye prophane! each ruder guest be far,</l>
+       <l>The slaves of Business, and the sons of War;</l>
+       <l>Let none within these happy shades be seen,</l>
+       <l>But such as wait upon the Paphian Queen,</l>
+       <l>The sports, the pleasures, and the winged boys,</l>
+       <l>Foes to suspicion and domestic noise.</l>
+       <l>Passion may doubt, and quarrel in decay,</l>
+       <l>Ours still shall flourish—Oh LEUCOTHÖE!</l>
+       <stage>[Embracing, and gazing on her tenderly.</stage>
+      </lg>
+      <lg>
+       <l>Was ever creature form'd so fair!</l>
+       <l>Sweets from ev'ry pore distilling,</l>
+       <l>Such a shape, and such an air,</l>
+       <l>Lips so soft, and eyes so killing.</l>
+       <l>Turn, oh turn these humid fires!</l>
+       <l>I cannot bear their wounding glances;</l>
+       <l>They fill my soul with fierce desires,</l>
+       <l>And plunge me in extatic trances.</l>
+      </lg>
+     </sp>
+     <sp who="#leucothoe">
+      <speaker>LEUCOTHÖE.</speaker>
+      <l>Oh! welcome to my soul, as after show'rs</l>
+      <l>Your own enliv'ning beams to fruits and flow'rs,</l>
+      <l>
+       <pb n="19" facs="24"/>Welcome as cooling wind to lab'ring swains,</l>
+      <l>Or freedom to the wretch that groans in chains.</l>
+      <l>Might this for ever, ever be my place,</l>
+      <l>To live and die in thy ador'd embrace.</l>
+     </sp>
+     <sp who="#phoebus">
+      <speaker>PHOEBUS.</speaker>
+      <l>Oh thrilling joy! oh more than charming she!</l>
+      <l>Was ever deity caress'd like me?</l>
+     </sp>
+     <sp who="#leucothoe">
+      <speaker>LEUCOTHÖE.</speaker>
+      <l>Oh height of bliss! oh greater than divine!</l>
+      <l>Was ever mortal happiness like mine?</l>
+     </sp>
+     <sp who="#phoebus">
+      <speaker>PHOEBUS.</speaker>
+      <l>How shall I speak the dictates of my heart!</l>
+      <l>No language can express, no actions prove</l>
+      <l>My meeting joys.</l>
+     </sp>
+     <sp who="#leucothoe">
+      <speaker>LEUCOTHÖE.</speaker>
+      <l>My sorrows when we part!</l>
+     </sp>
+     <sp who="#phoebus">
+      <speaker>PHOEBUS.</speaker>
+      <l>How tenderly I doat!</l>
+     </sp>
+     <sp who="#leucothoe">
+      <speaker>LEUCOTHÖE.</speaker>
+      <lg>
+       <l>How much I love!</l>
+      </lg>
+      <lg>
+       <l>Who upon the oozy beach,</l>
+       <l>Can count the num'rous sands that lie?</l>
+       <l>Or distinctly reckon each</l>
+       <l>Transparent star that studs the sky?</l>
+      </lg>
+      <lg>
+       <pb n="20" facs="25"/>
+       <l>As their multitudes betray,</l>
+       <l>And frustrate all attempts to tell,</l>
+       <l>So 'tis impossible to say</l>
+       <l>How much we love, we love so well.</l>
+      </lg>
+     </sp>
+     <sp who="#phoebus">
+      <speaker>PHOEBUS.</speaker>
+      <l>Be hush'd, ye winds, and you, ye pow'rs, accord,</l>
+      <l>Who own the force of my superior word.</l>
+      <l>Hear, and obey! ye deities that reign</l>
+      <l>O'er the green woods, or haunt the dusky plain;</l>
+      <l>Hear, and obey! ye softer forms, that lave</l>
+      <l>In the cool font, or stem the lucid wave;</l>
+      <l>And ye that roll the rapid orbs on high.</l>
+      <stage>[Soft music.</stage>
+     </sp>
+     <sp who="#leucothoe">
+      <speaker>LEUCOTHÖE.</speaker>
+      <l>What sounds are these of melting melody,</l>
+      <l>Which steal so soft and sweet upon my ears?</l>
+     </sp>
+     <sp who="#phoebus">
+      <speaker>PHOEBUS.</speaker>
+      <l>Hark! 'tis the music of the moving spheres;</l>
+      <l>Obedient to thy beauties, they advance</l>
+      <l>Th' harmonious measures of their tuneful dance.</l>
+      <l>Nature exults, affected by my joy;</l>
+      <l>And, see! the sisters, from their sacred height,</l>
+      <l>In concert mingling, all their art employ,</l>
+      <l>Proud to administer to your delight.</l>
+     </sp>
+     <stage>
+      <hi>The music coming forward in a full symphony; the clouds, which obscured the head of the mountains, suddenly disperse, shewing</hi> Parnassus, <hi>the Muses with their proper symbols,</hi> &amp;c.</stage>
+     <stage>
+      <pb n="21" facs="26"/>
+      <hi>An entertainment is performed by them on their several instruments, consisting of three parts; the first very sonorous; the second a slow movement, to which a pastoral nymph dances; the third sprightly; when the lowest of the mountains opens, discovering</hi> Vulcan<hi>'s cave. The</hi> Cyclops <hi>come out, and dance with a number of Dryads, who enter from the woods, then range themselves on each side of the stage.</hi> Phoebus <hi>and</hi> Leucothöe <hi>advance.</hi>
+     </stage>
+     <sp who="#leucothoe">
+      <speaker>LEUCOTHÖE.</speaker>
+      <l>Methinks these scenes, such wonder they inspire,</l>
+      <l>I still could gaze upon, and still admire;</l>
+      <l>Yet for the present, prithee, let them cease,</l>
+      <l>Our revels may offend the neighb'ring peace:</l>
+      <l>And should they to my father's ears be brought—</l>
+      <l>My blood runs cold, and curdles at the thought!</l>
+     </sp>
+     <sp who="#phoebus">
+      <speaker>PHOEBUS.</speaker>
+      <l>Causeless the thought, and premature the fear!</l>
+      <l>What can your father do when I am here?</l>
+      <l>He, and th'extensive empire which he sways,</l>
+      <l>Struck by my word, shall vanish like a blaze.</l>
+      <l>Come thou, poor trembling turtle, seek thy mate,</l>
+      <l>And, safe beneath his pinion, laugh at fate.</l>
+     </sp>
+     <sp who="#leucothoe #phoebus">
+      <speaker>PHOEBUS <hi>and</hi> LEUCOTHÖE.</speaker>
+      <l>Hark! Love summons us away;</l>
+      <l>Let's obey,</l>
+      <l>Come away;</l>
+      <l>Hark! Love summons us away:</l>
+      <l>
+       <pb n="22" facs="27"/>Just expiring,</l>
+      <l>With desiring,</l>
+      <l>Take, oh! take me while you may,</l>
+      <l>Else I shall dissolve away.</l>
+      <l>Stay my fleeting soul with kisses,</l>
+      <l>Till we feed on fiercer blisses,</l>
+      <l>Blisses Gods alone should share.</l>
+      <l>Oh! my life, my joy, my treasure,</l>
+      <l>Oh! the extasy, the pleasure;</l>
+      <l>'Tis too much, too much to bear.</l>
+     </sp>
+    </div>
+    <trailer>The End of the First Act.</trailer>
+   </div>
+   <div n="2" type="act">
+    <pb n="23" facs="28"/>
+    <head>ACT II.</head>
+    <div n="1" type="scene">
+     <head>SCENE I.</head>
+     <stage>
+      <hi>A night-prospect of a garden; a pavilion in view, beyond which appears the back part of a palace; a terrace adorned with statues,</hi> &amp;c. &amp;c.</stage>
+     <stage>PHOEBUS <hi>and</hi> LEUCOTHOE <hi>enter from the pavilion.</hi>
+     </stage>
+     <stage>CLYTIE, <hi>with a black slave, listening behind.</hi>
+     </stage>
+     <sp who="#leucothoe">
+      <speaker>LEUCOTHÖE.</speaker>
+      <l>THE winds are fast asleep, there's scarce a breeze</l>
+      <l>To rock the little birds upon the trees.</l>
+      <l>What grateful odours rise from ev'ry brake!</l>
+      <l>See how the moon-beams shine on yonder lake!</l>
+      <l>How softly sweet these waters fall to ground,</l>
+      <l>That break the silence with their murm'ring sound!</l>
+      <l>You will not, sure, so quickly bid farewel;</l>
+      <l>I've yet a thousand things to ask, and tell.</l>
+     </sp>
+     <sp who="#phoebus">
+      <speaker>PHOEBUS.</speaker>
+      <l>And I could ever stay to talk and hear;</l>
+      <l>But look how faint those glimm'ring fires appear!</l>
+      <l>
+       <pb n="24" facs="29"/>I must be gone, by sad occasion prest:</l>
+      <l>The morning-star already lights the East;</l>
+      <l>Aurora now unbars the gates of day,</l>
+      <l>And from that mountain summons me away.</l>
+     </sp>
+     <sp who="#leucothoe">
+      <speaker>LEUCOTHÖE.</speaker>
+      <l>Yet stay.—I know I've somewhat to impart;</l>
+      <l>If you are absent long, 'twill break my heart.</l>
+      <l>How soon will you return?</l>
+     </sp>
+     <sp who="#phoebus">
+      <speaker>PHOEBUS.</speaker>
+      <l>With double speed</l>
+      <l>I'll lash my coursers to their western bed</l>
+      <l>At night.—Believe me to my promise just;</l>
+      <l>I'll come on wings—</l>
+     </sp>
+     <sp who="#leucothoe">
+      <speaker>LEUCOTHÖE.</speaker>
+      <l>Then must we part?</l>
+     </sp>
+     <sp who="#phoebus">
+      <speaker>PHOEBUS.</speaker>
+      <l>We must,</l>
+      <l>But for a few short hours: restrain your tears;</l>
+      <l>Why thus incompass'd with unusual fears?</l>
+      <l>You droop!</l>
+     </sp>
+     <sp who="#leucothoe">
+      <speaker>LEUCOTHÖE.</speaker>
+      <l>Oh, PHOEBUS!</l>
+     </sp>
+     <sp who="#phoebus">
+      <speaker>PHOEBUS.</speaker>
+      <l>Say'st thou? Prithee speak.</l>
+     </sp>
+     <sp who="#leucothoe">
+      <speaker>LEUCOTHÖE.</speaker>
+      <lg>
+       <l>Forgive me; I'm a woman, fond, and weak,</l>
+       <l>
+        <pb n="25" facs="30"/>In terror often when no danger's nigh:</l>
+       <l>Perhaps I weep, and fear, I know not why.</l>
+      </lg>
+      <lg>
+       <l>Why with sighs my heart is swelling,</l>
+       <l>Why with tears my eyes o'erflow,</l>
+       <l>Ask me not, 'tis past the telling,</l>
+       <l>Mute, involuntary woe.</l>
+       <l>Prizing joys, we fear to lose 'em;</l>
+       <l>Can you then condemn my pain?</l>
+       <l>Something whispers to my bosom,</l>
+       <l>We shall never meet again.</l>
+      </lg>
+     </sp>
+     <sp who="#phoebus">
+      <speaker>PHOEBUS.</speaker>
+      <lg>
+       <l>Oh! my dear love, quick, quickly drive away</l>
+       <l>Those boding thoughts which on your quiet prey;</l>
+       <l>The breed of Fancy, gender'd in the brain,</l>
+       <l>Nurs'd by the grosser spirits, light, and vain;</l>
+       <l>The vagrant visions of the sleeping mind,</l>
+       <l>Which vanish wak'd, nor leave a mark behind.</l>
+      </lg>
+      <lg>
+       <l>When two kind doves their nest desert,</l>
+       <l>A different passage to pursue,</l>
+       <l>With gentle murmurs thus they part.</l>
+      </lg>
+     </sp>
+     <sp who="#leucothoe">
+      <speaker>LEUCOTHÖE.</speaker>
+      <l>My life, farewel!</l>
+     </sp>
+     <sp who="#phoebus">
+      <speaker>PHOEBUS.</speaker>
+      <l>My love, adieu!</l>
+     </sp>
+    </div>
+    <div n="2" type="scene">
+     <pb n="26" facs="31"/>
+     <head>SCENE II.</head>
+     <stage>
+      <hi>During this scene</hi> Clytie <hi>attempts coming forward several times, but is with-held by her slave.</hi>
+     </stage>
+     <sp who="#leucothoe">
+      <speaker>LEUCOTHÖE.</speaker>
+      <lg>
+       <l>He's gone, and left me: hah! what means this dread?</l>
+       <l>Save me! a sword hangs hov'ring o'er my head.</l>
+       <l>Th' earth yawns to swallow me: I sink, oh Fate!</l>
+       <l>Alas! I'm frighted with my own conceit:</l>
+       <l>Nor sword, nor yawning earth, is here, and now</l>
+       <l>A lazy languor creeps along my veins;</l>
+       <l>Dull, and more dull my heavy eyelids grow,</l>
+       <l>And ev'ry sense accepts the leaden chains.</l>
+      </lg>
+      <lg>
+       <l>Oh, God of Sleep! arise, and spread</l>
+       <l>Thy healing vapours round my head;</l>
+       <l>To thy friendly mansions take,</l>
+       <l>My soul that burns,</l>
+       <l>Till he returns,</l>
+       <l>For whom alone I wish to wake.</l>
+       <l>There yield my thoughts their fav'rite theme,</l>
+       <l>And bring my lover in a dream.</l>
+      </lg>
+     </sp>
+    </div>
+    <div n="3" type="scene">
+     <pb n="27" facs="32"/>
+     <head>SCENE III.</head>
+     <stage>CLYTIE <hi>comes forward with the</hi> BLACK SLAVE. <hi>A short silence.</hi>
+     </stage>
+     <sp who="#salve">
+      <speaker>SLAVE.</speaker>
+      <l>Why stand you thus bemus'd, in silence lost?</l>
+      <l>Fiend-struck you seem, or frighted by some ghost.</l>
+      <l>Alas! she hears me not; within her mind,</l>
+      <l>As warring flames are in the earth confin'd,</l>
+      <l>So is her rage and indignation pent.</l>
+      <l>Dear Mistress!</l>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE.</speaker>
+      <l>Oh!</l>
+     </sp>
+     <sp who="#salve">
+      <speaker>SLAVE.</speaker>
+      <l>There give your passion vent.</l>
+      <l>Behold of love the so much boasted bliss!</l>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE.</speaker>
+      <l>Why was I born, ye Gods, since doom'd to this?</l>
+      <l>Off, idle ornaments, detested glare</l>
+      <l>Of gold and jewels, wherefore are ye here?</l>
+      <l>Why am I dress'd in pompous robes like these?</l>
+      <l>There's no one now whom I would wish to please.</l>
+      <l>Let then my soul and body be a-kin,</l>
+      <l>Naked without, as desolate within.</l>
+      <l>
+       <pb n="28" facs="33"/>By various passions am I torn,</l>
+      <l>Now with anger, now with scorn;</l>
+      <l>Now with fear my heart's recoiling,</l>
+      <l>Now with rage my spirit's boiling:</l>
+      <l>As the diff'rent plagues infest,</l>
+      <l>To love or vengeance I incline;</l>
+      <l>Now I could stab his faithless breast,</l>
+      <l>Now—press him close to mine.</l>
+     </sp>
+     <sp who="#salve">
+      <speaker>SLAVE.</speaker>
+      <l>Assuage your transports, you augment the ill</l>
+      <l>By nourishing those thoughts you ought to kill.</l>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE.</speaker>
+      <l>Hence, paultry babbler! when the loud winds sweep,</l>
+      <l>Command the Nile's impetu'us surge to sleep;</l>
+      <l>When burning Aetna rages, bid it cease;</l>
+      <l>Go sooth the tortures of the damn'd to peace:</l>
+      <l>Their sieve, their stone, their vulture, and their wheel,</l>
+      <l>Are light, are nothing, to the pangs I feel.</l>
+     </sp>
+     <sp who="#salve">
+      <speaker>SLAVE.</speaker>
+      <l>Take comfort.</l>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE.</speaker>
+      <l>Yes; 'tis fix'd, I'll die this hour;</l>
+      <l>That's all the comfort now within my pow'r:</l>
+      <l>A dagger ends at once my life and care.</l>
+     </sp>
+     <sp who="#salve">
+      <speaker>SLAVE.</speaker>
+      <l>Oh! toss'd on seas of ruinous despair!</l>
+      <l>
+       <pb n="29" facs="34"/>Yet hear me e'er you split upon this shelf;</l>
+      <l>Revenge on those who wrong you—not yourself.</l>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE.</speaker>
+      <l>Revenge on whom? a God!</l>
+     </sp>
+     <sp who="#salve">
+      <speaker>SLAVE.</speaker>
+      <lg>
+       <l>The best revenge.</l>
+       <l>Pay falsehood back with falsehood, change for change,</l>
+       <l>Try softer hearts, exert your charms, and show,</l>
+       <l>Indifferent, as he leaves, you let him go.</l>
+      </lg>
+      <lg>
+       <l>When unpity'd we languish,</l>
+       <l>And sigh for a swain,</l>
+       <l>Who feels not our anguish,</l>
+       <l>But laughs at our pain,</l>
+       <l>In vain we pursue his untractable mind,</l>
+       <l>With whining,</l>
+       <l>And crying,</l>
+       <l>And wishing,</l>
+       <l>And dying;</l>
+       <l>Then scorn the perplexer, and look out to find</l>
+       <l>Another as lovely—another more kind.</l>
+      </lg>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE.</speaker>
+      <l>Is this the mighty veng'ance you propose,</l>
+      <l>This the kind comfort then you yield my woes?</l>
+      <l>To sue to others, and from them obtain,</l>
+      <l>What all my love deserved from him in vain.</l>
+      <l>Returns I've had—How sweet!</l>
+     </sp>
+     <sp who="#salve">
+      <pb n="30" facs="35"/>
+      <speaker>SLAVE.</speaker>
+      <l>How quickly past!</l>
+      <l>Better ne'er tasted, since they could not last.</l>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE.</speaker>
+      <l>And shall I turn a beggar with my charms?</l>
+      <l>The thought with double strength my fury arms,</l>
+      <l>No! thus at once my farther pangs I save—</l>
+      <stage>[Drawing a dagger.</stage>
+     </sp>
+     <sp who="#salve">
+      <speaker>SLAVE.</speaker>
+      <l>Behold upon her knees your faithful slave!</l>
+      <l>Oh! let my tears, my services, prevail;</l>
+      <l>We've means of great revenge, which cannot fail.</l>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE.</speaker>
+      <l>Avaunt!</l>
+     </sp>
+     <sp who="#salve">
+      <speaker>SLAVE.</speaker>
+      <l>Oh! hear me.</l>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE.</speaker>
+      <l>Yet again! beware,</l>
+      <l>Nor tempt the fury of my rage too far.</l>
+      <l>Come, thou last, only friend, thy work pursue.</l>
+      <stage>[Looking at the dagger, as she holds it ready to strike.]</stage>
+     </sp>
+     <sp who="#salve">
+      <speaker>SLAVE.</speaker>
+      <l>By all my hopes of happiness, 'tis true;</l>
+      <l>The object of your jealousy shall die!</l>
+     </sp>
+     <sp who="#clytie">
+      <pb n="31" facs="36"/>
+      <speaker>CLYTIE,</speaker>
+      <stage>pausing from the stroke.</stage>
+      <l>Go on.</l>
+     </sp>
+     <sp who="#salve">
+      <speaker>SLAVE.</speaker>
+      <l>First lay that dreadful weapon by:</l>
+      <l>I cannot speak, your looks my words appal.</l>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE,</speaker>
+      <stage>throwing away the dagger.</stage>
+      <l>Said'st thou not she, th' accursed she, should fall?</l>
+      <l>You held my arm, or she, ere this, had lain</l>
+      <l>Dead at my feet.</l>
+     </sp>
+     <sp who="#salve">
+      <speaker>SLAVE.</speaker>
+      <l>And she shall still be slain,</l>
+      <l>But not by you; the God already cold,</l>
+      <l>What then should gain his love, his veng'ance hold?</l>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE.</speaker>
+      <l>Speak quick the means; my soul has ta'en alarm,</l>
+      <l>And all my flutt'ring senses round me arm.</l>
+      <l>Oh give me poison, racks, consuming fire,</l>
+      <l>Swift as my rage, and wild as my desire.</l>
+     </sp>
+     <sp who="#salve">
+      <speaker>SLAVE.</speaker>
+      <l>Nor poison, racks, nor fire, we need to wait,</l>
+      <l>The King, her father, be our means of fate:</l>
+      <l>To him unfold in secret all you know,</l>
+      <l>You point the weapon, but he strikes the blow.</l>
+     </sp>
+     <sp who="#clytie">
+      <pb n="32" facs="37"/>
+      <speaker>CLYTIE.</speaker>
+      <l>I'll do't;—each moment is a year's delay:</l>
+      <l>'Tis clear, 'tis obvious as the noontide-day;</l>
+      <l>By passion blinded, by despair misled,</l>
+      <l>I walk'd in clouds.—She is already dead!</l>
+      <l>My rival's doom'd! I see her on the ground!</l>
+      <l>I hear her groans!—There's music in the sound.</l>
+     </sp>
+     <sp who="#salve">
+      <speaker>SLAVE.</speaker>
+      <l>Look where in shades those myrtle-branches throng,</l>
+      <l>The King appears, and this way moves along;</l>
+      <l>The time, th' occasion, both conspire to bless</l>
+      <l>Your great design, and crown it with success.</l>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE.</speaker>
+      <l>What sudden tremors seize upon my heart!</l>
+      <l>Cold dewy damps from ev'ry pore perspire!</l>
+      <l>No matter—Injur'd Love, perform thy part,</l>
+      <l>The consequence be what it may.—Retire.</l>
+     </sp>
+    </div>
+    <div n="4" type="scene">
+     <head>SCENE IV.</head>
+     <sp who="#clytie">
+      <speaker>CLYTIE.</speaker>
+      <l>Hence, weak remorse! hence, hence away!</l>
+      <l>In vain before my dazzl'd eyes,</l>
+      <l>In all your daunting shapes you rise,</l>
+      <l>To fill me with dismay.</l>
+      <l>
+       <pb n="33" facs="38"/>Your checks I defy,</l>
+      <l>My rival shall die;</l>
+      <l>And thou, whose false, ungrateful heart</l>
+      <l>Thy immortality secures,</l>
+      <l>Look down, while I revenge my smart,</l>
+      <l>And thro' her bosom strike at your's.</l>
+     </sp>
+    </div>
+    <div n="5" type="scene">
+     <head>SCENE V.</head>
+     <stage>ORCHAMUS, CLYTIE.</stage>
+     <sp who="#orchamus">
+      <speaker>ORCHAMUS.</speaker>
+      <l>Hail! roseate dawn, at whose approaching light,</l>
+      <l>Spectres and birds ill-omen'd take their flight;</l>
+      <l>Thou, at whose rise Shame seeks Cimmerian shades,</l>
+      <l>And Lust and Murder hide their horrid heads;</l>
+      <l>Hope springs aloft, the mists of Grief exhale,</l>
+      <l>And Life and Joy renew their course—all hail!</l>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE,</speaker>
+      <stage>kneeling.</stage>
+      <l>May the King live for ever!</l>
+     </sp>
+     <sp who="#orchamus">
+      <speaker>ORCHAMUS.</speaker>
+      <l>Rise, bright maid;</l>
+      <l>Thou shouldst not pay obeisance, but be paid:</l>
+      <l>Abroad thus early have you made your way,</l>
+      <l>To add new charms to, or outshine the day?</l>
+     </sp>
+     <sp who="#clytie">
+      <pb n="34" facs="39"/>
+      <speaker>CLYTIE.</speaker>
+      <l>To view the infant morning at its birth,</l>
+      <l>As first it rose upon the darken'd earth,</l>
+      <l>When great Jove utter'd the creative word,</l>
+      <l>And Nature all alive obey'd her Lord;</l>
+      <l>To hear the birds, observe the waking flow'r,</l>
+      <l>And wond'ring at Heav'n's works, adore its pow'r.</l>
+     </sp>
+     <sp who="#orchamus">
+      <speaker>ORCHAMUS.</speaker>
+      <lg>
+       <l>Exalted Wisdom! from those lips it broke!</l>
+       <l>Was it an angel, or fair CLYTIE spoke?</l>
+      </lg>
+      <lg>
+       <l>How much superior beauty awes,</l>
+       <l>The coldest bosoms find;</l>
+       <l>But with resistless force it draws,</l>
+       <l>To sense and virtue join'd.</l>
+       <l>The casket where to outward show</l>
+       <l>The artist's hand is seen,</l>
+       <l>Is doubly valu'd, when we know</l>
+       <l>It holds a gem within.</l>
+      </lg>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE,</speaker>
+      <stage>aside.</stage>
+      <l>Now tremble, ye inconstants, wheresoe'er,</l>
+      <l>Who cheat with fraudful vows th'unwary fair:</l>
+      <l>Fate is at work—Love sits on Justice' throne,</l>
+      <l>And hastens to chastise you all in one.</l>
+      <stage>[<hi>Going to speak to</hi> Orchamus, <hi>she corrects herself.</hi>
+      </stage>
+     </sp>
+     <sp who="#orchamus">
+      <pb n="35" facs="40"/>
+      <speaker>ORCHAMUS.</speaker>
+      <l>What would'st thou? Speak. But now, there something sprung</l>
+      <l>Warm from your heart, which froze upon your tongue.</l>
+      <l>Give it free air—lay chilling fears aside,</l>
+      <l>And on a Monarch's faith and pow'r confide.</l>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE.</speaker>
+      <l>Yet why should friendship force me to reveal,</l>
+      <l>And tell him that which pity should conceal!</l>
+     </sp>
+     <sp who="#orchamus">
+      <speaker>ORCHAMUS.</speaker>
+      <l>Whate'er you would demand, my grant ensues;</l>
+      <l>When beauty asks, can ORCHAMUS refuse?</l>
+      <l>Say, then, what thoughts so cruel to molest</l>
+      <l>The peaceful tenour of that gentle breast?</l>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE.</speaker>
+      <l>Ask not the subject of my thoughts, which known,</l>
+      <l>Perhaps may spoil the quiet of your own.</l>
+     </sp>
+     <sp who="#orchamus">
+      <speaker>ORCHAMUS.</speaker>
+      <l>Virtue unmov'd the thund'rer's voice can hear;</l>
+      <l>To guilt a stranger, we're unknown to fear.</l>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE.</speaker>
+      <l>Ay, but some ills there are of such a kind,</l>
+      <l>So black, so dreadful, ev'n the virtuous mind</l>
+      <l>Cannot support their shock, which leave a sting</l>
+      <l>Like vice behind.—Oh ill requited King!</l>
+      <l>
+       <pb n="36" facs="41"/>Think, is there nothing could affect you more,</l>
+      <l>Than loss of state, dominion, wealth, and pow'r?</l>
+     </sp>
+     <sp who="#orchamus">
+      <speaker>ORCHAMUS.</speaker>
+      <l>You deal in riddles!</l>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE.</speaker>
+      <l>Dreadful to expound!</l>
+      <l>Oh! be my tongue to silence ever bound!</l>
+      <l>Drive, drive me from you to the farthest pole—</l>
+     </sp>
+     <sp who="#orchamus">
+      <speaker>ORCHAMUS.</speaker>
+      <l>You mean to stagger my determin'd soul!</l>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE.</speaker>
+      <l>Your daughter!</l>
+     </sp>
+     <sp who="#orchamus">
+      <speaker>ORCHAMUS.</speaker>
+      <l>What of her? I shake all o'er!</l>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE.</speaker>
+      <l>Yet send me hence in time, and seek no more.</l>
+      <l>Farewel!</l>
+      <stage>[Going.</stage>
+     </sp>
+     <sp who="#orchamus">
+      <speaker>ORCHAMUS.</speaker>
+      <l>Return, I charge you; haste, come back:</l>
+      <stage>[She returns.</stage>
+      <l>You would not leave me thus upon the rack.</l>
+      <l>Say, is my daughter dead?—I think I can—</l>
+      <l>At least I'll try—to bear it like a man.</l>
+     </sp>
+     <sp who="#clytie">
+      <pb n="37" facs="42"/>
+      <speaker>CLYTIE.</speaker>
+      <l>Was that the worst, how easy to be said,</l>
+      <l>For what's the loss of life? Her honour's dead.</l>
+      <l>Her virtue!</l>
+     </sp>
+     <sp who="#orchamus">
+      <speaker>ORCHAMUS..</speaker>
+      <l>Hah, beware!</l>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE.</speaker>
+      <l>But now these eyes</l>
+      <l>Beheld them rev'ling in their guilty joys;</l>
+      <l>Ev'n here they parted as you sought the place.</l>
+      <l>I could have stabb'd them in their last embrace.</l>
+     </sp>
+     <sp who="#orchamus">
+      <speaker>ORCHAMUS.</speaker>
+      <l>O name the traitor, that he soon may bleed!</l>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE.</speaker>
+      <l>The God you worship, Sir, has done the deed:</l>
+      <l>The glorious SUN, inspir'd with lustful flame,</l>
+      <l>Has paid your incense with your daughter's shame.</l>
+     </sp>
+     <sp who="#orchamus">
+      <speaker>ORCHAMUS.</speaker>
+      <l>'Tis well!—Oh Kings, your boasted pow'r how small!</l>
+      <l>Where, when did he? Damnation! tell me all.</l>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE.</speaker>
+      <l>At a silent, secret hour,</l>
+      <l>Softly stealing to her bow'r,</l>
+      <l>
+       <pb n="38" facs="43"/>There he found the love-sick maid,</l>
+      <l>Wishing, warm, and unarray'd;</l>
+      <l>Fir'd with the charming sight,</l>
+      <l>Soon began the am'rous fight!</l>
+      <l>Their pulse beat high to love's alarms;</l>
+      <l>He strove—and triumph'd o'er her charms.</l>
+     </sp>
+     <sp who="#orchamus">
+      <speaker>ORCHAMUS.</speaker>
+      <lg>
+       <l>What's to be done? Confusion! shame! and death!</l>
+       <l>This hand shall stop the wanton strumpet's breath.</l>
+       <l>I gave her being—how then shall I take</l>
+       <l>That being from her?—ORCHAMUS, awake!</l>
+       <l>'Tis dreams, chimera's all—imperfect, wild,</l>
+       <l>Justice commands me to destroy—my child!</l>
+      </lg>
+      <lg>
+       <l>At once a father, and a judge,</l>
+       <l>How shall I bid her die or live?</l>
+       <l>There one severely would condemn,</l>
+       <l>The other tenderly forgive.</l>
+      </lg>
+      <stage>[Walks about in great disorder.</stage>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE,</speaker>
+      <stage>aside.</stage>
+      <l>What a rough war contending Passion keeps!</l>
+      <l>Now the storm's up; now, hah! by Heav'n he weeps.</l>
+      <l>Oh may these drops, like those which fall from high,</l>
+      <l>Before the rapid thunder rends the sky,</l>
+      <l>
+       <pb n="39" facs="44"/>Be the fore-runners of approaching wrath,</l>
+      <l>And bode destruction, perils, rage, and death.</l>
+     </sp>
+     <sp who="#orchamus">
+      <speaker>ORCHAMUS.</speaker>
+      <l>Ye furies that howl in the abyss profound,</l>
+      <l>Hither, hither repair,</l>
+      <l>From the wilds of Despair,</l>
+      <l>And encompass me round;</l>
+      <l>Each a torch in her hand,</l>
+      <l>Take your terrible stand!</l>
+      <l>From my breast keep all motions of pity away;</l>
+      <l>And when Nature speaks,</l>
+      <l>In your yellings and shrieks</l>
+      <l>Drown her soft'ning plea.</l>
+      <l>What honour demands, 'tis our duty to give;</l>
+      <l>Who merits to die, shall we suffer to live?</l>
+     </sp>
+    </div>
+    <div n="6" type="scene">
+     <head>SCENE VI.</head>
+     <sp who="#clytie">
+      <speaker>CLYTIE.</speaker>
+      <l>Oh glorious hearing! oh triumphant day!</l>
+      <l>Thus great Nemesis, thus my thanks I pay:</l>
+      <l>Now, now, false God, your recompence receive,</l>
+      <l>And in your turn confess the pangs you gave.</l>
+      <l>
+       <pb n="40" facs="45"/>Fly, care, to the wind,</l>
+      <l>My fate has been kind;</l>
+      <l>Oh! pleasure,</l>
+      <l>Past measure,</l>
+      <l>Transcendently great;</l>
+      <l>No more I complain</l>
+      <l>Of ungrateful disdain,</l>
+      <l>If I suffer in love, I triumph in hate.</l>
+     </sp>
+    </div>
+    <trailer>The End of the Second Act.</trailer>
+   </div>
+   <div n="3" type="act">
+    <pb n="41" facs="46"/>
+    <head>ACT III.</head>
+    <div n="1" type="scene">
+     <head>SCENE I.</head>
+     <stage>The theatre represents a rocky shore, with a distant prospect of the sea; beyond which is seen still more faintly a city.</stage>
+     <stage>
+      <hi>Several</hi> MEN <hi>and</hi> WOMEN <hi>in affliction.</hi>
+     </stage>
+     <sp who="#man">
+      <speaker>A MAN.</speaker>
+      <l>BEhold, my friends, behold the dismal scene,</l>
+      <l>Where never summer treads, nor spring serene,</l>
+      <l>But everlasting winter low'ring o'er,</l>
+      <l>Deforms the bleak, uncomfortable shore.</l>
+     </sp>
+     <sp who="#woman">
+      <speaker>A WOMAN.</speaker>
+      <l>Here, where the wild beast lurking in his den,</l>
+      <l>Avoids the haunts of no less savage men;</l>
+      <l>Among these rocks the horrid cavern lies,</l>
+      <l>Doom'd to receive the Royal sacrifice.</l>
+     </sp>
+     <sp who="#chorus">
+      <speaker>CHORUS.</speaker>
+      <l>Oh dreadful sentence! unrelenting fate!</l>
+      <l>Mourn, all ye sons of prostrate Persia, mourn;</l>
+      <l>From hence let sorrow take an endless date,</l>
+      <l>Tears follow tears, and sighs to sighs return;</l>
+      <l>
+       <pb n="42" facs="47"/>In an eternal course of piercing woe,</l>
+      <l>Such as from shame, despair, and grief, should flow.</l>
+     </sp>
+     <sp who="#man #woman">
+      <speaker>A MAN and a WOMAN.</speaker>
+      <l>A nymph adorn'd with ev'ry grace,</l>
+      <l>So soft a form, so fair a face,</l>
+      <l>With Venus she may vie:</l>
+      <l>Like some sweet flow'r, untimely crop!</l>
+      <l>Ah, must she fade! ah, must she drop!</l>
+      <l>Ah! must she, must she die?</l>
+     </sp>
+     <sp who="#man">
+      <speaker>A MAN.</speaker>
+      <l>Soft! break ye quickly off! west o'er the beach,</l>
+      <l>Far as the eye its piercing beams can stretch:</l>
+      <l>Lo! where the victim, 'midst a mournful throng,</l>
+      <l>In solemn, slow procession, moves along.</l>
+     </sp>
+     <sp who="#woman">
+      <speaker>A WOMAN.</speaker>
+      <l>She comes a living coarse; what eye but weeps</l>
+      <l>At the sad spectacle?—Now, SUN eclipse!</l>
+      <l>At once the lover and the God assume,</l>
+      <l>And snatch her trembling from th' untimely tomb.</l>
+     </sp>
+    </div>
+    <div n="2" type="scene">
+     <pb n="43" facs="48"/>
+     <head>SCENE II.</head>
+     <stage>
+      <hi>A procession appears at a considerable distance, consisting of priests, youths, virgins,</hi> &amp;c. &amp;c. Leucothöe <hi>in the centre, covered with a black veil; as it approaches the audience, the following semi-chorus is sung with frequent pauses.</hi>
+     </stage>
+     <sp who="#semi_chorus">
+      <speaker>SEMI-CHORUS.</speaker>
+      <l>Prepare! ye Stygian pow'rs, prepare!</l>
+      <l>In all your pomp of horrors dress'd;</l>
+      <l>Ye dreadful ministers of fate,</l>
+      <l>Set wide Death's adamantine gate,</l>
+      <l>For, lo! we bring a guest.</l>
+      <l>Prepare! prepare! prepare!</l>
+     </sp>
+     <stage>[The procession being come to the front of the stage.]</stage>
+     <sp who="#strophe">
+      <speaker>STROPHE.</speaker>
+      <l>Hear! injur'd chastity; pure essence, hear!</l>
+      <l>From yonder marble sphere;</l>
+      <l>Where-e'er thou hold'st thy mansion in the skies,</l>
+      <l>Look down, look down,</l>
+      <l>From thy exalted and star-spangled throne,</l>
+      <l>To thee we sacrifice.</l>
+     </sp>
+     <sp who="#chorus">
+      <pb n="44" facs="49"/>
+      <speaker>CHORUS.</speaker>
+      <l>To thee,</l>
+      <l>To thee we sacrifice.</l>
+     </sp>
+     <sp who="#anti_strophe">
+      <speaker>ANTI-STROPHE.</speaker>
+      <l>Hear, Justice! awfulest of beings, hear!</l>
+      <l>Tremend'ous and severe,</l>
+      <l>Thou whose stern resolution never dies,</l>
+      <l>Look down, look down,</l>
+      <l>From thy immovable, immortal throne;</l>
+      <l>To thee we sacrifice.</l>
+     </sp>
+     <sp who="#chorus">
+      <speaker>CHORUS.</speaker>
+      <l>To thee,</l>
+      <l>To thee we sacrifice!</l>
+     </sp>
+     <sp who="#epode">
+      <speaker>EPODE.</speaker>
+      <l>To her, to thee our voice we raise,</l>
+      <l>Avert your anger from the state;</l>
+      <l>Deign to accept a nation's praise,</l>
+      <l>And let the forfeiture she pays</l>
+      <l>Her crime expiate.</l>
+     </sp>
+     <sp who="#semi_chorus">
+      <speaker>SEMI-CHORUS.</speaker>
+      <l>Prepare! ye Stygian pow'rs, prepare!</l>
+      <l>In all your pomp of horrors dress'd;</l>
+      <l>Ye dreadful ministers of fate,</l>
+      <l>Set wide Death's adamantine gate,</l>
+      <l>For, lo! we bring a guest.</l>
+      <l>Prepare! prepare! prepare!</l>
+     </sp>
+     <sp who="#leucothoe">
+      <pb n="45" facs="50"/>
+      <speaker>LEUCOTHÖE,</speaker>
+      <stage>Putting aside the veil. She appears in white, with fillets, after the manner of a sacrifice.</stage>
+      <l>Oh, mighty God! that guides the day,</l>
+      <l>A moment stop your rapid way;</l>
+      <l>Behold me in this dreadful strife,</l>
+      <l>Just tott'ring on the brink of life,</l>
+      <l>No help, no friendly comfort nigh,</l>
+      <l>To break my fall,</l>
+      <l>Beset with all</l>
+      <l>The terrors of eternity;</l>
+      <l>While doubts and fear</l>
+      <l>My bosom tear,</l>
+      <l>And with alternate passion vie;</l>
+      <l>Think when you see,</l>
+      <l>And pity me;</l>
+      <l>Oh! think it is for you I die.</l>
+     </sp>
+     <sp who="#youth">
+      <speaker>A YOUTH.</speaker>
+      <l>Thy charms just rising to their noon,</l>
+      <l>Ah! must we see them set so soon?</l>
+     </sp>
+     <sp who="#virgin">
+      <speaker>A VIRGIN.</speaker>
+      <l>Those charms which distant princes woo'd,</l>
+      <l>And deities themselves pursu'd!</l>
+     </sp>
+     <sp who="#youth">
+      <speaker>A YOUTH.</speaker>
+      <l>What heart that is not frozen quite,</l>
+      <l>But must in thy afflictions share?</l>
+     </sp>
+     <sp who="#virgin">
+      <pb n="46" facs="51"/>
+      <speaker>A VIRGIN.</speaker>
+      <l>To see, oh melancholy sight!</l>
+      <l>To see you plung'd in sudden night!</l>
+     </sp>
+     <sp who="#youth">
+      <speaker>A YOUTH.</speaker>
+      <l>To be you know not what!</l>
+     </sp>
+     <sp who="#virgin">
+      <speaker>A VIRGIN.</speaker>
+      <l>To go you know not where!</l>
+     </sp>
+     <sp who="#leucothoe">
+      <speaker>LEUCOTHÖE.</speaker>
+      <l>Weep not, my dear companions!</l>
+     </sp>
+     <sp who="#chorus #virgin #youth">
+      <speaker>CHORUS <hi>of</hi> Youths <hi>and</hi> Virgins.</speaker>
+      <l>Cruel stroke!</l>
+      <l>Can nothing then thy destiny revoke?</l>
+     </sp>
+     <sp who="#leucothoe">
+      <speaker>LEUCOTHÖE.</speaker>
+      <l>No! we must part; e'en now fate lifts the sheers,</l>
+      <l>To cut the thread of my scarce half-spun years.</l>
+      <l>Farewel! when poor LEUCOTHÖE's forgot,</l>
+      <l>Oh! may you find a more indulgent lot.</l>
+      <l>May each be happy in some nymph or youth,</l>
+      <l>Proud to repay your tenderness and truth.</l>
+      <l>Then, if between the transports of your bliss,</l>
+      <l>You should recount a piteous tale like this,</l>
+      <l>Of some poor creature by her love betray'd,</l>
+      <l>As the sad accidents your mem'ry strike,</l>
+      <l>Bestow a tear in pity to my shade,</l>
+      <l>And mourn at once two fates so much alike.</l>
+     </sp>
+     <sp who="#virgin #youth">
+      <pb n="47" facs="52"/>
+      <speaker>YOUTH and VIRGIN.</speaker>
+      <l>Come, Sorrow, from thy gloomy cell,</l>
+      <l>Where in eternal rage you dwell;</l>
+      <l>From thy bed of raven's plumes,</l>
+      <l>Curtain'd round with dusky fumes.</l>
+     </sp>
+     <sp who="#chorus">
+      <speaker>CHORUS.</speaker>
+      <l>Come, and with you bring your groans,</l>
+      <l>Frantic gestures, sullen moans,</l>
+      <l>Fury of conflicting passions,</l>
+      <l>Sighs, and tears, and lamentations,</l>
+      <l>Join with us in doleful lay,</l>
+      <l>Rage and Death triumph to-day.</l>
+     </sp>
+     <stage>[The procession disperses, and the music strikes dead and solemn.]</stage>
+    </div>
+    <div n="3" type="scene">
+     <head>SCENE III.</head>
+     <stage>ORCHAMUS, LEUCOTHOE, &amp;c. &amp;c.</stage>
+     <sp who="#orchamus">
+      <speaker>ORCHAMUS.</speaker>
+      <l>Hold yet a moment! ere the impervious skreen,</l>
+      <l>Which severs world from world, be drawn between;</l>
+      <l>Ere yet I am of all my hopes beguil'd,</l>
+      <l>Let me once more embrace my wretched child;</l>
+      <l>
+       <pb n="48" facs="53"/>The judge, the sov'reign, have their parts supply'd,</l>
+      <l>And now the parent will be satisfy'd.</l>
+     </sp>
+     <sp who="#leucothoe">
+      <speaker>LEUCOTHÖE.</speaker>
+      <l>My father! oh be quick to drive me down.</l>
+      <l>Gape wide, ye rocks, and save me from his frown!</l>
+     </sp>
+     <sp who="#orchamus">
+      <speaker>ORCHAMUS.</speaker>
+      <l>Be not of thy fond father's frowns afraid,</l>
+      <l>Nor think he comes thy folly to upbraid;</l>
+      <l>No, rather to these sad proceedings loath,</l>
+      <l>He comes to mourn the cause which ruins both;</l>
+      <l>That rigid honour, whose stern voice demands</l>
+      <l>Thy forfeit life at his unwilling hands.</l>
+     </sp>
+     <sp who="#leucothoe">
+      <speaker>LEUCOTHÖE.</speaker>
+      <l>To death, without repining, I submit,</l>
+      <l>As to a thing which Heaven and you think fit;</l>
+      <l>Whate'er hath been my crime, while yet I live,</l>
+      <l>Let me but hear you pity and forgive.</l>
+     </sp>
+     <sp who="#orchamus">
+      <speaker>ORCHAMUS.</speaker>
+      <l>Forgive you! pity you! oh that I do,</l>
+      <l>These tears be witness which my cheeks bedew.</l>
+      <l>Would any thing but death might purge our line</l>
+      <l>From your offence, or any death but thine;</l>
+      <l>For with thee all my joys will take their leave,</l>
+      <l>And I shall walk in sorrow to the grave.</l>
+     </sp>
+     <sp who="#leucothoe">
+      <pb n="49" facs="54"/>
+      <speaker>LEUCOTHÖE.</speaker>
+      <l>Stop! stop! those sacred show'rs, they must not fall</l>
+      <l>For me; I now indeed am criminal.</l>
+     </sp>
+     <sp who="#orchamus">
+      <speaker>ORCHAMUS.</speaker>
+      <lg>
+       <l>The mother-hind,</l>
+       <l>Distract in mind,</l>
+       <l>Her young one made the hunter's prey;</l>
+       <l>Wide o'er the lawn,</l>
+       <l>From rosy dawn</l>
+       <l>To dewy ev'ning takes her way;</l>
+       <l>Till quite o'ercome,</l>
+       <l>With fruitless pain,</l>
+       <l>Weary'd at length she lays her down,</l>
+       <l>In sad despair,</l>
+       <l>And fills the plain</l>
+       <l>All night with miserable moan.</l>
+      </lg>
+      <lg>
+       <l>'Tis thus, when thou art gone, thy Sire shall be;</l>
+       <l>So shall he wish by day, so mourn at night, for thee.</l>
+      </lg>
+     </sp>
+     <sp who="#leucothoe">
+      <speaker>LEUCOTHÖE.</speaker>
+      <l>Behold thus low, your wretched, indiscreet,</l>
+      <l>Unhappy daughter, casts her at your feet.</l>
+      <l>Oh! wherefore did not my frail being end,</l>
+      <l>Ere I had pow'r such goodness to offend?</l>
+      <l>Before my crimes had stain'd my royal race,</l>
+      <l>Or drawn a tear along that sacred face.</l>
+     </sp>
+     <sp who="#orchamus">
+      <pb n="50" facs="55"/>
+      <speaker>ORCHAMUS.</speaker>
+      <l>Good heav'n and earth! turn; Nature, turn aside;</l>
+      <l>Turn, nor behold this pious parricide,</l>
+      <l>Lest, blind to chance, and ign'rant of the cause,</l>
+      <l>You think mankind, like me, has left your laws.</l>
+      <stage>
+       <hi>To</hi> Leucothöe.</stage>
+      <l>Farewel! the time calls on us, we must part.</l>
+      <l>This last embrace—Down, down, my swelling heart.</l>
+     </sp>
+     <sp who="#leucothoe">
+      <speaker>LEUCOTHÖE.</speaker>
+      <l>Look on me.</l>
+     </sp>
+     <sp who="#orchamus">
+      <speaker>ORCHAMUS.</speaker>
+      <l>You there who attend the rites,</l>
+      <l>Haste to perform the farther requisites.</l>
+      <l>Nature, lie still!</l>
+     </sp>
+     <sp who="#leucothoe">
+      <speaker>LEUCOTHÖE.</speaker>
+      <lg>
+       <l>I come—Oh why, my blood,</l>
+       <l>Why run'st thou to my heart a freezing flood?</l>
+       <l>Why trembl'st thou, my flesh? Limbs yet awhile</l>
+       <l>Support me—but a few short moments past,</l>
+       <l>Dissolving Death shall free you from your toil,</l>
+       <l>And give ye up to everlasting rest.</l>
+      </lg>
+      <stage>A rock being removed, the mouth of the caverns appears. She starts, then advances towards it.</stage>
+      <lg>
+       <l>Thou dark abyss! whose womb obscene</l>
+       <l>Is fraught with ev'ry mortal pain,</l>
+       <l>
+        <pb n="51" facs="56"/>Whose horrid jaws, in dread display,</l>
+       <l>Gape to devour me—take your prey!</l>
+       <l>Receive me, yet the vital lamps,</l>
+       <l>All burning with spiritu'us fire,</l>
+       <l>Among thy raw, unwholesome damps,</l>
+       <l>Unseen, unpity'd, to expire.</l>
+      </lg>
+      <stage>[The priest preparing to put her down.</stage>
+     </sp>
+     <sp who="#orchamus">
+      <speaker>ORCHAMUS.</speaker>
+      <l>Stay! yet again forbear—an instant hold!</l>
+      <l>Ye Gods, regard me, I'm infirm, and old;</l>
+      <stage>[Kneeling.</stage>
+      <l>A load of grief unable to sustain!</l>
+      <l>Let not the weak and suppliant beg in vain.</l>
+      <l>If with mistaken piety I rate</l>
+      <l>This crime, if justice asks not what I give,</l>
+      <l>Arrest th' uplifted arm of vengeful fate;</l>
+      <l>Appear! and bid the destin'd victim live.</l>
+     </sp>
+     <sp who="#chorus">
+      <speaker>CHORUS.</speaker>
+      <l>Your blissful mansions leave!</l>
+      <l>Appear! and save!</l>
+     </sp>
+     <sp who="#strophe">
+      <speaker>STROPHE.</speaker>
+      <l>The pow'rs are silent to our pray'r.</l>
+     </sp>
+     <sp who="#anti_strophe">
+      <speaker>ANTI-STROPHE.</speaker>
+      <l>Nor signs of mercy shew.</l>
+     </sp>
+     <sp who="#strophe">
+      <pb n="52" facs="57"/>
+      <speaker>STROPHE.</speaker>
+      <l>Whom Heav'n condemns, shall mortal spare?</l>
+     </sp>
+     <sp who="#strophe #anti_strophe">
+      <speaker>STROPHE, ANTI-STROPHE.</speaker>
+      <l>No! no! no!</l>
+      <stage>[They put her into a cavern.</stage>
+     </sp>
+     <sp who="#orchamus">
+      <speaker>ORCHAMUS.</speaker>
+      <stage>[Turning about just as she disappears.]</stage>
+      <lg>
+       <l>Ye solid poles, give way; ye skies, roll back;</l>
+       <l>Earth, from your deep foundations, be disjoin'd:</l>
+       <l>Burst nature round me in a gen'ral wrack,</l>
+       <l>All horrible confusion, like my mind!</l>
+      </lg>
+      <lg>
+       <l>Oh me! unhappy father, where,</l>
+       <l>Where shall I go to seek relief?</l>
+       <l>Ev'ry object, ev'ry place,</l>
+       <l>Tends my sorrows to encrease;</l>
+       <l>Not one to blot away my care,</l>
+       <l>Not one to cure my grief.</l>
+      </lg>
+     </sp>
+    </div>
+    <div n="4" type="scene">
+     <pb n="53" facs="58"/>
+     <head>SCENE IV.</head>
+     <stage>
+      <hi>Enter</hi> CLYTIE <hi>in wild disorder, followed by her Slaves.</hi>
+     </stage>
+     <sp who="#clytie">
+      <speaker>CLYTIE.</speaker>
+      <l>Oh! are you found, Sir? What is't you have done,</l>
+      <l>To raise the anger of th' immortal SUN?</l>
+      <l>Speak quickly; answer me, without delay:</l>
+      <l>Where is your daughter? where's LEUCOTHÖE?</l>
+     </sp>
+     <sp who="#orchamus">
+      <speaker>ORCHAMUS.</speaker>
+      <l>I prithee ask me not; my heart-veins bleed</l>
+      <l>Each time I think of it.—Oh! where indeed?</l>
+      <l>Where but—dread consequence of jealous spleen!</l>
+      <l>For thy officiousness she ne'er had been.</l>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE.</speaker>
+      <l>For my officiousness! What, then you'd make</l>
+      <l>Me partner of your guilt!—Perdition take</l>
+      <l>The execrable purpose!—I disclaim</l>
+      <l>Whatever you have done. Look to't, the blame</l>
+      <l>On your own head.—But, hark! it comes apace!</l>
+      <l>The thunder comes!—Fly, instant fly this place!</l>
+      <l>
+       <pb n="54" facs="59"/>Would you their safety, or your own, consult?</l>
+      <stage>[Pointing to those about him.</stage>
+      <l>For my part, I shall stay to meet the bolt.</l>
+      <stage>[Orchamus <hi>and his people withdraw.</hi>
+      </stage>
+     </sp>
+    </div>
+    <div n="5" type="scene">
+     <head>SCENE V.</head>
+     <stage>PHOEBUS <hi>with the</hi> HORAE, CLYTIE <hi>with her Slaves.</hi>
+     </stage>
+     <sp who="#phoebus">
+      <speaker>PHOEBUS,</speaker>
+      <stage>entring.</stage>
+      <l>Oh most accursed King! inhuman Sire!</l>
+      <l>My life! my love! my only heart's desire!</l>
+      <l>LEUCOTHÖE! Oh murder'd!—Hence, away</l>
+      <l>Like light'ning: help her ere 'tis yet too late.</l>
+      <stage>[To the Hours.</stage>
+      <l>If there's a spark of life unquench'd, we may</l>
+      <l>Redeem her still, and snatch her soul from fate</l>
+      <stage>[Going off.</stage>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE,</speaker>
+      <stage>kneeling.</stage>
+      <l>Oh, PHOEBUS! hither turn your angry eyes!</l>
+      <stage>[<hi>Exit</hi> Phoebus, Clytie <hi>looking after him.</hi>
+      </stage>
+      <l>What! gone without a word!</l>
+     </sp>
+     <sp who="#salve">
+      <pb n="55" facs="60"/>
+      <speaker>SLAVE.</speaker>
+      <l>Dear Lady, rise:</l>
+      <l>Think where you are—</l>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE.</speaker>
+      <l>Went he not frowning too?</l>
+      <l>What sudden horrors rush upon my view!</l>
+      <stage>Rising, and casting round her eyes.</stage>
+      <l>What desolate coast is this we tread,</l>
+      <l>So like the dreary nation of the dead?</l>
+      <l>Thus wretched Ariadne, left behind,</l>
+      <l>Wept on the shores of Argos, bleak and bare;</l>
+      <l>While cruel Theseus fled before the wind,</l>
+      <l>Nor listen'd to the voice of her despair.</l>
+     </sp>
+     <sp who="#salve">
+      <speaker>SLAVE.</speaker>
+      <l>Laid her on gently.</l>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE.</speaker>
+      <l>Stay ye yet awhile;</l>
+      <l>My brain's on fire, my blood begins to boil:</l>
+      <l>What do you hold me for?—Stand off.</l>
+     </sp>
+     <sp who="#salve">
+      <speaker>SLAVE.</speaker>
+      <l>Alas!</l>
+      <l>What still I've fear'd—at length is come to pass.</l>
+      <l>Her senses are disturb'd.</l>
+      <stage>[Thunder.</stage>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE.</speaker>
+      <lg>
+       <l>What noise was that?</l>
+       <l>Jove talking—all the Gods are in debate</l>
+       <l>
+        <pb n="56" facs="61"/>Upon my future welfare.—Hark! hark! hark!</l>
+       <l>Not a word more—'tis grown exceeding dark:</l>
+       <l>See clouds on clouds above each other rise,</l>
+       <l>In sable mountains, to obscure the skies.</l>
+       <l>'Tis done! Where am I? Let me grope my way</l>
+       <l>Again thro' this black passage into day.</l>
+      </lg>
+      <lg>
+       <l>Ah, wretch! bewilder'd wretch!</l>
+       <l>In vain my arms I stretch,</l>
+       <l>In vain I feel about:</l>
+       <l>Will no kind star afford its light,</l>
+       <l>To guide my erring steps aright?</l>
+       <l>No friendly hand held out,</l>
+       <l>Conduct me thro' this gloom of night!</l>
+      </lg>
+     </sp>
+     <sp who="#salve">
+      <speaker>SLAVE.</speaker>
+      <l>Patience! sweet patience! all shall yet go well.</l>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE.</speaker>
+      <lg>
+       <l>At length the vapours gradu'lly dispel;</l>
+       <l>Sure 'tis the dawn, from yonder point it breaks,</l>
+       <l>Bright'ning the front of heav'n with rosy streaks.</l>
+       <stage>[Thunder again.</stage>
+       <l>There leap'd th' eternal coursers with a bound</l>
+       <l>From the green flood—and now 'tis light around.</l>
+       <l>Lo! where aloft immortal PHOEBUS stands,</l>
+       <l>Graceful the reins, depending from his hands:</l>
+       <l>He looks, he smiles, he beckons me from far;</l>
+       <l>I run, I fly, I mount the fiery car.</l>
+       <l>
+        <pb n="57" facs="62"/>Oh! Triumph, Triumph, seated by his side,</l>
+       <l>Sublime in splendor, thro' the air I ride.</l>
+      </lg>
+      <lg>
+       <l>We come! we come!</l>
+       <l>Make room! make room!</l>
+       <l>Now climbing heav'n's stupend'ous steep,</l>
+       <l>We view the Empyrean height;</l>
+       <l>Now o'er the smooth meridian sweep,</l>
+       <l>The earth below too small for sight;</l>
+       <l>Now down the blue concave descending again,</l>
+       <l>Impetu'us we drive to the western main:</l>
+       <l>While at every crash,</l>
+       <l>Of the thundering lash,</l>
+       <l>As we whirl along, the zodiac round</l>
+       <l>Replies to the stroke, and ecchoes the sound.</l>
+       <l>Bless me! oh, how am I oppress'd?</l>
+       <l>Soft, lay me gently down to rest.</l>
+      </lg>
+     </sp>
+     <sp who="#chorus">
+      <speaker>CHORUS.</speaker>
+      <l>Her wits return; ye pow'rs! restore,</l>
+      <l>And yield her to herself once more.</l>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE,</speaker>
+      <stage>the slaves laying her on the ground.</stage>
+      <l>At some tall mountain's hoary feet,</l>
+      <l>With shelving rocks and trees o'erhung,</l>
+      <l>Whose head incessant tempests beat,</l>
+      <l>And ravens pester all day long;</l>
+      <l>Let me—where slow meander steers</l>
+      <l>Its course, upon the banks reclin'd,</l>
+      <l>Augment the water with my tears,</l>
+      <l>And with my sighs increase the wind.</l>
+     </sp>
+    </div>
+    <div n="6" type="scene">
+     <pb n="58" facs="63"/>
+     <head>SCENE VI.</head>
+     <stage>PHOEBUS, CLYTIE, &amp;c. &amp;c.</stage>
+     <sp who="#phoebus">
+      <speaker>PHOEBUS.</speaker>
+      <l>Desist, desist; your pains are fruitless all,</l>
+      <l>The vital spirit's fled beyond recal,</l>
+      <l>Sunk to those shades from whence it ne'er must rise,</l>
+      <l>From whence grim Pluto never yields a prize.</l>
+      <l>Inexorable pow'r!—Oh might we mix</l>
+      <l>Ev'n here, content from heav'n I would remove,</l>
+      <l>Upon thy ruthless sepulchre to fix</l>
+      <l>A monument of wretchedness and love.</l>
+     </sp>
+     <sp who="#one_of_the_horae">
+      <speaker>One of the HORAE.</speaker>
+      <l>Far be such sorrows from the God of DAY,</l>
+      <l>Who next to Jove bears universal sway;</l>
+      <l>Suppose your mistress dead, exert your pow'r,</l>
+      <l>She still may glide a stream, expand a flow'r;</l>
+      <l>Or rising stately in the sylvan scene,</l>
+      <l>Stretch forth a leafy umbrage o'er the green.</l>
+     </sp>
+     <sp who="#phoebus">
+      <speaker>PHOEBUS.</speaker>
+      <l>It shall be so; yes, dear unhappy maid,</l>
+      <l>Since thy sad lover can no farther aid:</l>
+      <l>Since stubborn Death denies to loose his hold,</l>
+      <l>And yield thy beauties in their proper mold,</l>
+      <l>
+       <pb n="59" facs="64"/>Thus I pronounce—Grow fruitful, steril grave!</l>
+      <l>And strait do thou thy former species leave.</l>
+      <l>Exist—tho' not as thou wert wont to be;</l>
+      <l>No more a woman, flourish in a tree!</l>
+      <l>So shall thy body changed, as heretofore,</l>
+      <l>Teach deities to bend, and mortals to adore.</l>
+     </sp>
+     <sp who="#chorus">
+      <speaker>CHORUS.</speaker>
+      <l>What sudden fragrance fills the air!</l>
+      <l>Lo! the blooming shoots appear!</l>
+      <l>Parent earth,</l>
+      <l>Assist the birth,</l>
+      <l>So shall her body, chang'd as heretofore,</l>
+      <l>Teach deities to bend, and mortals to adore.</l>
+     </sp>
+     <stage>
+      <hi>The body of</hi> Leucothöe, <hi>supposed to be changed into a tree of frankincense, rises slowly out of the rock.</hi>
+     </stage>
+     <sp who="#phoebus">
+      <speaker>PHOEBUS.</speaker>
+      <l>Thrice sacred plant!</l>
+      <l>Thus Heav'n thy favour'd growth endows;</l>
+      <l>A spicy scent</l>
+      <l>Spring ever from thy teeming boughs,</l>
+      <l>While round thy root rich unguent flows.</l>
+      <l>The tears you shed,</l>
+      <l>To Gods a grateful sacrifice,</l>
+      <l>On altars laid,</l>
+      <l>In aromatic smoke shall rise,</l>
+      <l>And plead for mortals with the skies.</l>
+      <stage>[Phoebus <hi>about to withdraw.</hi>
+      </stage>
+     </sp>
+     <sp who="#clytie">
+      <pb n="60" facs="65"/>
+      <speaker>CLYTIE</speaker>
+      <stage>starting up, catches hold of his robe.</stage>
+      <l>By the breeze that passing sighs,</l>
+      <l>By the rocks that round us rise;</l>
+      <l>By the stars that dimly glow,</l>
+      <l>Witness of my present woe;</l>
+      <l>By the mountains, by the woods,</l>
+      <l>By the grotto's, by the floods,</l>
+      <l>By the dear transporting nights,</l>
+      <l>Witness of our past delights:</l>
+      <l>For love—for former friendship's sake,</l>
+      <l>I charge you stay—and hear me speak.</l>
+     </sp>
+     <sp who="#phoebus">
+      <speaker>PHOEBUS.</speaker>
+      <l>Unhand me!</l>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE.</speaker>
+      <l>Mercy!</l>
+     </sp>
+     <sp who="#phoebus">
+      <speaker>PHOEBUS.</speaker>
+      <l>Fury, let me go!</l>
+      <l>Or—</l>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE.</speaker>
+      <l>Never, never will I loose you.—Oh</l>
+      <l>Grant me a little strength!—Do break my hands!</l>
+      <l>Destroy me! Dash me on those flinty sands!</l>
+      <l>Yet still persisting will I hold you fast,</l>
+      <l>And, striving to embrace you, breathe my last.</l>
+     </sp>
+     <sp who="#phoebus">
+      <pb n="61" facs="66"/>
+      <speaker>PHOEBUS,</speaker>
+      <stage>dragging her out of sight.</stage>
+      <l>Nay, then!</l>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE.</speaker>
+      <l>O stay—Kind Venus, help afford!</l>
+      <l>Here let me grow a statue!</l>
+     </sp>
+     <sp who="#phoebus">
+      <speaker>PHOEBUS,</speaker>
+      <stage>returning.</stage>
+      <l>At your word</l>
+      <l>I take you.—Be the thing that you desire,</l>
+      <l>A dread example of immortal ire:</l>
+      <l>Fix'd to that spot, remain to future times,</l>
+      <l>An instance of my veng'ance, and your crimes.</l>
+     </sp>
+     <sp who="#clytie">
+      <speaker>CLYTIE,</speaker>
+      <stage>behind the rocks.</stage>
+      <l>What!—What is this I feel?—I'm bound,</l>
+      <l>My feet are rooted to the ground.</l>
+      <l>A sudden stupor o'er me comes,</l>
+      <l>That ev'ry faculty benumbs;</l>
+      <l>Cold, cold, I freeze!</l>
+      <l>My blood congeals,</l>
+      <l>My eye-sight fails,</l>
+      <l>Death invades me by degrees.</l>
+      <l>I stiffen upward—Cruel—so!</l>
+      <l>My heart—my voice—help—help me—oh!</l>
+     </sp>
+     <sp who="#phoebus">
+      <speaker>PHOEBUS.</speaker>
+      <lg>
+       <l>'Tis thus I have reveng'd, in one just hour,</l>
+       <l>My injur'd love, and my offended pow'r.</l>
+       <l>Expose that wretch!</l>
+      </lg>
+      <stage>
+       <pb n="62" facs="67"/>
+       <hi>The</hi> Horae <hi>setting aside the rocks which obscured her, discover</hi> Clytie <hi>transformed to a statue. Her</hi> Slaves <hi>gather about it weeping.</hi>
+      </stage>
+      <lg>
+       <l>Such ever be the end</l>
+       <l>Of those rash mortals who with Gods contend.</l>
+       <l>But first to finish what there yet remains!</l>
+       <l>Thou horrid prospect of dry, sandy plains,</l>
+       <l>Unfit, all rueful as ye now appear,</l>
+       <l>To nurse the precious reliques of my dear,</l>
+       <l>Smooth your rough face—with instant verdure crown'd,</l>
+       <l>Let smiling Spring encompass ye around;</l>
+       <l>While we in decent sorrows mourn the dead,</l>
+       <l>And with due rites appease her injur'd shade.</l>
+      </lg>
+     </sp>
+     <stage>The scene is totally changed to a delightful prospect of a champaign country, the Tree and Statue still in view. A dance is performed proper to the subject.</stage>
+     <sp who="#chorus">
+      <speaker>CHORUS.</speaker>
+      <l>Enough! enough! your games give o'er,</l>
+      <l>The well-pleas'd ghost demands no more:</l>
+      <l>Deep in the coverts of the grove,</l>
+      <l>Where helpless lovers joy to rove,</l>
+      <l>Secure she rests, nor farther heeds</l>
+      <l>The weak effects of earthly deeds.</l>
+     </sp>
+    </div>
+   </div>
+   <trailer>FINIS.</trailer>
+  </body>
+ </text>
+</TEI>

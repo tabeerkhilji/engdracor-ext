@@ -1,0 +1,4405 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">Athelstan</title>
+    <title type="sub">A tragedy. As it is acted at the Theatre Royal in Drury-Lane.</title>
+    <author>
+     <persName>
+      <surname>Brown</surname>
+      <forename>John</forename>
+      <idno type="VIAF">19712237</idno>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>Athelstan: A tragedy. As it is acted at the Theatre Royal in Drury-Lane.</name>
+     <author>Brown, John, 1715-1766.</author>
+     <publisher>printed for Lockyer Davis and Charles Reymers, Holbourn; and at Lord Bacon's Head in Fleet-Street,</publisher>
+     <date>1756.</date>
+     <pubPlace>London :</pubPlace>
+     <note>Anonymous. By John Brown.</note>
+     <note>The epilogue is by David Garrick.</note>
+     <note>Reproduction of original from the British Library.</note>
+     <note>English Short Title Catalog, ESTCT792.</note>
+     <note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note>
+    </bibl>
+    <biblFull n="printed source">
+     <publicationStmt>
+      <authority ref="#JJ">Jan Jokisch</authority>
+      <date>2024 December</date>
+      <idno type="ECCO_Drama">K020308.000</idno>
+      <idno type="DLPS">004809988</idno>
+      <idno type="ESTC">T792</idno>
+      <idno type="DocNo">CW114594931</idno>
+      <idno type="TCP">K020308.000</idno>
+      <idno type="GaleDocNo">CW3314594931</idno>
+      <idno type="ContentSet">ECLL</idno>
+      <idno type="ImageSetID">0851800500</idno>
+      <availability>
+       <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+      </availability>
+     </publicationStmt>
+    </biblFull>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="athelstan">
+      <persName>Athelstan</persName>
+      <sex value="MALE"/>
+     </person>
+     <person xml:id="dunelm">
+      <persName>Dunelm</persName>
+      <sex value="MALE"/>
+     </person>
+     <person xml:id="edwina">
+      <persName>Edwina</persName>
+      <sex value="FEMALE"/>
+     </person>
+     <person xml:id="egbert">
+      <persName>Egbert</persName>
+      <sex value="MALE"/>
+     </person>
+     <person xml:id="goodwin">
+      <persName>Goodwin</persName>
+      <sex value="MALE"/>
+     </person>
+     <person xml:id="gothmund">
+      <persName>Gothmund</persName>
+      <sex value="MALE"/>
+     </person>
+     <person xml:id="harold">
+      <persName>Harold</persName>
+      <sex value="MALE"/>
+     </person>
+     <person xml:id="officer">
+      <persName>Officer</persName>
+      <sex value="MALE"/>
+     </person>
+     <person xml:id="siward">
+      <persName>Siward</persName>
+      <sex value="MALE"/>
+     </person>
+     <person xml:id="thyra">
+      <persName>Thyra</persName>
+      <sex value="FEMALE"/>
+     </person>
+     
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1756">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text xml:lang="en">
+  <front>
+   <div type="titlepage">
+    <pb facs="1" ana="y"/>
+    <p>ATHELSTAN. A TRAGEDY. As it is ACTED at the THEATRE ROYAL in <hi>Drury-Lane.</hi>
+    </p>
+    <p>LONDON, Printed for LOCKYER DAVIS and CHARLES REYMERS, against <hi>Grays-Inn-Gate, Holbourn;</hi> And at <hi>Lord Bacon's Head</hi> in <hi>Fleet-Street.</hi> MDCCLVI. [Price One Shilling and Six-pence.]</p>
+   </div>
+   <div xml:lang="fr" type="notice">
+    <pb facs="2"/>
+    <p>IL ne faut pourtant pas croire que les Grecs manquent de Feu. Tout s'anime au contraire, tout parle, tout agit dans leurs Ecrits. Mais c'est plus l'Action &amp; le Spectacle que les Paroles, &amp; plus la Passion &amp; le Sentiment que le Discours; au lieu que les François ont souvent donné dans le Discours &amp; les Paroles pour suppleer au Spectacle ou à la Passion. Combien de Portraits, de Sentences, &amp; de Lieux communs bien frappés, ont arraché des Applaudissemens qui devoient être réservés à l'emotion Theatrale qu'on ne sentoit pas? ce n'est que le sang froid qui applaudit à la Beauté des Vers dans un Spectacle.</p>
+    <closer>
+     <signed>BRUMOY, <hi>Theat. des Grecs.</hi>
+     </signed>
+    </closer>
+   </div>
+   <div type="dedication">
+    <pb facs="3"/>
+    <head>TO HIS GRACE The Duke of DEVONSHIRE, Lord Lieutenant of <hi>Ireland.</hi>
+    </head>
+    <opener>
+     <salute>My LORD,</salute>
+    </opener>
+    <p>IT was the frequent Practice of the ancient <hi>Greek</hi> Tragedians, to make their Compositions for the <hi>Theatre</hi> subservient to the Welfare of the <hi>State.</hi> The Legislator's Wisdom was inforced by the Poet's Art. Public Guilt was stigmatized, and public Virtue applauded. Of this Kind somewhat is, or ought to be, shadowed out in the following Tragedy.</p>
+    <p>
+     <pb n="iv" facs="4"/>But it may possibly be asked, 
+"Why this Address from a Writer who is, and determines to remain, unknown?"</p>
+    <p>My LORD, it comes from one, who, altho' he hath not wanted Opportunities, hath ever scorned to prostitute Addresses of this Kind to Views of Interest. But if it hath for once happened in his Time, that Virtue and Power are eminently united; his honest Disdain of offering Incense to the <hi>one,</hi> shall not intimidate him from avowing his Reverence of the <hi>other.</hi>
+    </p>
+    <p>More especially, the natural Relation which the Design of this Tragedy bears to your Grace's Conduct, gives its Author a kind of equitable Title, without Leave, to prefix your Name. Thus, while he delineates <hi>Rebellion,</hi> he contrasts it with true <hi>Loyalty:</hi> And to an <hi>Example</hi> of <hi>Sedition</hi>
+     <pb n="v" facs="5"/>
+drawn from ancient Days, <hi>opposes</hi> a <hi>Character</hi> from modern Life, who in the highest Station, and most perilous Times, hath been the <hi>Restorer</hi> of <hi>Unity</hi> and <hi>Concord.</hi>
+    </p>
+    <closer>
+     <signed>I am, My LORD, with the highest Esteem, your GRACE's most obedient Servant, The AUTHOR.</signed>
+    </closer>
+   </div>
+   <div type="prologue">
+    <pb facs="6"/>
+    <head>PROLOGUE;</head>
+    <byline>Written by the AUTHOR of the TRAGEDY.</byline>
+    <stage>Spoken by Mr. HOLLAND in the Character, of the <hi>Genius</hi> of <hi>Britain.</hi>
+    </stage>
+    <lg>
+     <l>TO warn the Sons of Freedom to be wise,</l>
+     <l>Lo, <hi>Britain's</hi> guardian Genius quits the Skies,</l>
+     <l>With Pity, Heav'n hath seen thro' many an Age,</l>
+     <l>The bold Invader lur'd by Faction's Rage;</l>
+     <l>Seen the dark Workings of Rebellion's Train,</l>
+     <l>While Patriots plann'd, and Heroes bled in vain.</l>
+    </lg>
+    <lg>
+     <l>Behold, your Country's faithless Foe, once more</l>
+     <l>With threatning Squadrons crowd yon hostile Shore.</l>
+     <l>Behold Oppression's bloody Flag unfurl'd:</l>
+     <l>See Bolts prepar'd, to chain the Western World.</l>
+     <l>Rise, <hi>Britons,</hi> rise! to Heav'n and Virtue true:</l>
+     <l>Expiring Liberty looks up to <hi>You!</hi>
+     </l>
+     <l>Pour on the common Foe your Rage combin'd,</l>
+     <l>And be the Friends of Freedom and Mankind!</l>
+    </lg>
+    <lg>
+     <l>No more let Discord <hi>Britain</hi>'s Peace destroy;</l>
+     <l>Nor spurn those Blessings, Reason bids enjoy:</l>
+     <l>Oh, weigh those Blessings in her equal Scale!—</l>
+     <l>Say;—When did Justice wear a whiter Veil?</l>
+     <l>When did Religion gentler Looks disclose,</l>
+     <l>To bless her Friends, and pity ev'n her Foes?</l>
+     <l>A richer Harvest when did Commerce reap?</l>
+     <l>When rode your Flects more dreadful o'er the Deep?</l>
+     <l>
+      <pb facs="7"/>
+Or when more bright (hear, <hi>Envy!</hi> hear, and own!)</l>
+     <l>Did Truth, did Honour beam from <hi>Britain</hi>'s Throne?</l>
+    </lg>
+    <lg>
+     <l>Seize then the Happiness deny'd your Foes:</l>
+     <l>Nor blindly scorn the Gifts which Heav'n bestows:</l>
+     <l>Gifts, the World's Envy! happy <hi>Britain</hi>'s Pride!</l>
+     <l>For which, your generous Fathers toil'd and dy'd!</l>
+     <l>Let Union lift the Sword, direct the Blow,</l>
+     <l>And hurl a Nation's Vengeance on its Foe!</l>
+     <l>As your bold Cliffs, when Tides and Tempests roar,</l>
+     <l>Fling back the mad'ning Billows from the Shore.</l>
+     <l>One Head, one Heart, one Arm, one People, rise!</l>
+     <l>Nor fall, divided Valour's Sacrifice!—</l>
+    </lg>
+    <lg>
+     <l>But if, by Hope of proud Invasion led,</l>
+     <l>Unaw'd Rebellion lift her gory Head;—</l>
+     <l>Treason, attend!—here view the Rebel's Fate;</l>
+     <l>Nor hope, thy Arm can shake a free-born State:</l>
+     <l>See Blood and Horror end what Guilt began;</l>
+     <l>And tremble at <hi>thy</hi> Woes, in <hi>Athelstan.</hi>
+     </l>
+    </lg>
+   </div>
+   <div type="Dramatis_Personae">
+    <pb facs="8"/>
+    <castList>
+     <head>The PERSONS.</head>
+     <castItem>ENGLISH.</castItem>
+     <castItem>
+      <role>ATHELSTAN, Duke of Mercia</role>
+      <actor>Mr. GARRICK</actor>
+     </castItem>
+     <castItem>
+      <role>SIWARD, his Lieutenant</role>
+      <actor>Mr. DAVIES</actor>
+     </castItem>
+     <castItem>
+      <role>EGBERT, an Officer</role>
+      <actor>Mr. ROSS</actor>
+     </castItem>
+     <castItem>
+      <role>THYRA</role>
+      <actor>Mrs. CIBBER</actor>
+     </castItem>
+     <castItem>
+      <role>EDWINA, her Fellow Captive</role>
+      <actor>Mrs. BENNET</actor>
+     </castItem>
+     <castItem>DANES.</castItem>
+     <castItem>
+      <role>GOTHMUND, the Captain General</role>
+      <actor>Mr. MURPHY</actor>
+     </castItem>
+     <castItem>
+      <role>HAROLD, his Lieutenant</role>
+      <actor>Mr. HAVARD</actor>
+     </castItem>
+     <castItem>
+      <role>GOODWIN</role>
+      <actor>Mr. BURTON</actor>
+     </castItem>
+     <castItem>
+      <role>DUNELM</role>
+      <actor>Mr. JEFFERSON</actor>
+     </castItem>
+    </castList>
+   </div>
+   <set>
+    <p>SCENE, the <hi>Danish</hi> Camp near <hi>London.</hi> Time, from the Evening, till Midnight.</p>
+   </set>
+  </front>
+  <body>
+   <head>
+    <pb facs="9"/>ATHELSTAN.</head>
+   <div n="1" type="act">
+    <head>ACT 1.</head>
+    <div n="1" type="scene">
+     <head>SCENE 1.</head>
+     <stage>The open Camp.</stage>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>
+       <seg rend="decorInit">G</seg>OTHMUND a Warrior? By our Gods of <hi>Denmark,</hi>
+      </l>
+      <l>I cou'd have sack'd ten Cities since the Morn.</l>
+      <l>The lingering Sun goes down, and yet beholds</l>
+      <l>The <hi>Danish</hi> Sword hang pow'rless o'er the Foe.</l>
+      <stage>
+       <hi>To him,</hi> DUNELM.</stage>
+      <l>DUNELM, well met.—What means this vile Delay?</l>
+      <l>What hast thou seen?</l>
+     </sp>
+     <sp who="#dunelm">
+      <speaker>DUNELM.</speaker>
+      <l>From yonder Eminence,</l>
+      <l>Ev'n now, I saw proud <hi>London</hi> wrapt in Fire.</l>
+      <l>HAROLD, behold yon dusky Wreaths of Smoke:</l>
+      <l>Yon pitchy Cloud is fraught with glorious Ruin.</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>Indeed!</l>
+     </sp>
+     <sp who="#dunelm">
+      <pb n="2" facs="10"/>
+      <speaker>DUNELM.</speaker>
+      <l>I saw the Flames besiege the Tow'r</l>
+      <l>Which proudly had scorn'd the general Assault</l>
+      <l>Of <hi>Denmark's</hi> Pow'r. Soon spread the sulphur'd Fires,</l>
+      <l>Mining it's Base: at length, with horrid Crash,</l>
+      <l>The Pile fell headlong, like a Wreck of Nature.</l>
+      <l>And as it fell, a hollow Murmur pierc'd</l>
+      <l>Mine Ear, that seem'd an Army's dying Groan.</l>
+      <l>I saw the Breach in the proud City's Wall,</l>
+      <l>Where our brave <hi>Danes</hi> pour'd in, while Shouts of Conquest</l>
+      <l>Dismay'd the flying Rear. HAROLD, ere this,</l>
+      <l>The City's won.</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>No more—I'm sorry for't.</l>
+     </sp>
+     <sp who="#dunelm">
+      <speaker>DUNELM.</speaker>
+      <l>What! when our Troops thro' ten long Moons have toil'd,</l>
+      <l>Till Siege and fell Disease have thin'd our Ranks,</l>
+      <l>Before this Capital, this haughty <hi>London,</hi>
+      </l>
+      <l>The Mistress of the Island. When her Tow'rs</l>
+      <l>Are humbled in the Dust! ev'n then to wear</l>
+      <l>That clouded Eye! Much it might suit a <hi>Briton;</hi>
+      </l>
+      <l>But ill becomes a <hi>Dane.</hi>
+      </l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>Have I not Cause</l>
+      <l>To hate our General?</l>
+     </sp>
+     <sp who="#dunelm">
+      <speaker>DUNELM.</speaker>
+      <l>Grant it: yet no Cause</l>
+      <l>To hate the Victories his Sword hath gain'd</l>
+      <l>For <hi>Denmark's</hi> Weal.</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>Dishonour blast his Laurels!</l>
+      <l>Ere since I won full Glory from our Wars,</l>
+      <l>He checks my Valour, lest it should o'ertop,</l>
+      <l>And shadow his—Behold, this very Day,</l>
+      <l>When mighty <hi>London</hi> falls a Prey to <hi>Denmark,</hi>
+      </l>
+      <l>I'm pent within the Circuit of a Camp,</l>
+      <l>
+       <pb n="3" facs="11"/>
+On an obscure and ignominious Charge.</l>
+      <l>My Sword, inglorious, sleeps within its Scabbard,</l>
+      <l>Depriv'd its Prey. Yes: well he knew, this Arm</l>
+      <l>Had led the Storm: as erst it did, to him</l>
+      <l>And his Compeers; when <hi>Norway's</hi> frozen Cities</l>
+      <l>Sunk at my Frown; when thro' conflicting Hosts</l>
+      <l>I op'd the dreadful Track; while far behind</l>
+      <l>He loyter'd in the Breach, and poorly reap'd</l>
+      <l>The Gleanings of my Faulcion.</l>
+     </sp>
+     <sp who="#dunelm">
+      <speaker>DUNELM.</speaker>
+      <l>Peace, brave HAROLD.</l>
+      <l>Nor let Dissention blot the gen'ral Triumph.</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>Here, DUNELM, here shall deep Revenge lie pent,</l>
+      <l>Must'ring it's Rage: but soon th' impatient Flood</l>
+      <l>Shall burst the Mound, and overwhelm his Pride.</l>
+      <l>Yes: may I ne'er more win the Wreath of Conquest;</l>
+      <l>Ne'er fall triumphant in the Field of Fame;</l>
+      <l>But groan out Life, stretch'd on th' unmanly Couch;</l>
+      <l>If I repay not GOTHMUND's uncaus'd Hate,</l>
+      <l>With deadliest Vengeance!</l>
+     </sp>
+     <sp who="#dunelm">
+      <speaker>DUNELM.</speaker>
+      <l>Let thy Vengeance wait</l>
+      <l>Some darker Hour.—Behold, where GOODWIN comes.</l>
+      <l>His Eye speaks Victory: and his glad Step</l>
+      <l>Prevents the welcome Tidings of his Tongue.</l>
+     </sp>
+    </div>
+    <div n="2" type="scene">
+     <head>SCENE II.</head>
+     <stage>
+      <hi>To them</hi> GOODWIN.</stage>
+     <sp who="#goodwin">
+      <speaker>GOODWIN.</speaker>
+      <l>Hail, valiant HAROLD! This great Day shall shine</l>
+      <l>In <hi>Denmark's</hi> Annals. GOTHMUND sends thee greeting;</l>
+      <l>With the glad News of <hi>England's</hi> Overthrow.</l>
+      <l>Himself shall soon arrive.</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>Brave GOODWIN, welcome:</l>
+      <l>More welcome for thy Tidings. <hi>London</hi> then,</l>
+      <l>
+       <pb n="4" facs="12"/>
+       <hi>England's</hi> chief Boast, is fall'n.—</l>
+     </sp>
+     <sp who="#goodwin">
+      <speaker>GOODWIN.</speaker>
+      <l>Ev'n now it burns.</l>
+      <l>See yon ascending Clouds. Yon pillar'd Smoke,</l>
+      <l>That hides the Welkin, is it's last Remain.</l>
+      <l>The <hi>English</hi> Pow'rs have left the bleeding Ramparts;</l>
+      <l>The wide Breach choak'd with Heaps of Slain, on which</l>
+      <l>We mounted to the Storm.</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>How went the Day?</l>
+      <l>Where fought our Gen'ral GOTHMUND?</l>
+     </sp>
+     <sp who="#goodwin">
+      <speaker>GOODWIN.</speaker>
+      <l>On the <hi>Thames.</hi>
+      </l>
+      <l>Soon as the Signal of Assault was given,</l>
+      <l>The <hi>Danish</hi> Fleet came on. Our Standard then,</l>
+      <l>The Raven, hov'ring on his Wing, appear'd</l>
+      <l>With ominous Glare; and seem'd to croak Destruction.</l>
+      <l>Then furious GOTHMUND, from the crowded Decks</l>
+      <l>Follow'd by shouting Thousands, leapt to Shore</l>
+      <l>With ruinous Assault:</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>What? no Resistance?</l>
+     </sp>
+     <sp who="#goodwin">
+      <speaker>GOODWIN.</speaker>
+      <l>Yes; bloody was the Fray: The Scale of War</l>
+      <l>Hung doubtful; till the mighty ATHELSTAN,</l>
+      <l>
+       <hi>Mercia's</hi> brave Duke, to <hi>Denmark's</hi> aid came on;</l>
+      <l>Spur'd by a keen Revenge more strong than Glory,</l>
+      <l>Led his revolted <hi>Mercians</hi> up the Breach,</l>
+      <l>And mingled in the Storm.</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>What next ensu'd?</l>
+     </sp>
+     <sp who="#goodwin">
+      <speaker>GOODWIN.</speaker>
+      <l>Confusion and wild Rout. For <hi>England's</hi> Pow'r,</l>
+      <l>Dreading the vengeful Sword of ATHELSTAN,</l>
+      <l>Shrunk from his Rage: then <hi>Denmark's</hi> Star prevail'd:</l>
+      <l>The <hi>Britons</hi> fled: and now, by Right of War,</l>
+      <l>The City's Wealth, it's captive Youth and Virgins,</l>
+      <l>Are fall'n the Soldiers Plunder.</l>
+     </sp>
+     <sp who="#harold">
+      <pb n="5" facs="13"/>
+      <speaker>HAROLD.</speaker>
+      <l>It seems then, GOTHMUND owes full half his Conquest</l>
+      <l>To ATHELSTAN's Revenge.</l>
+     </sp>
+     <sp who="#goodwin">
+      <speaker>GOODWIN.</speaker>
+      <l>Aye, more than half.</l>
+      <l>Ne'er did such deadly Valour sweep the Field:</l>
+      <l>His hoary Head clasp'd in a steel rib'd Helm,</l>
+      <l>He sprung to Vengeance, and forgot old Age.</l>
+      <l>With such a headlong Course he led the War,</l>
+      <l>That <hi>Denmark's</hi> Troops, nay his own firey <hi>Mercians</hi>
+      </l>
+      <l>Linger'd behind: while he, attended only</l>
+      <l>By Death and Fate, which at his right Hand rag'd,</l>
+      <l>Thin'd the retreating Foe.</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>Thank we the Gods,</l>
+      <l>Who sow Dissention in these <hi>British</hi> Hearts!</l>
+      <l>Else, ne'er had this fair City fall'n our Prey!</l>
+     </sp>
+     <sp who="#dunelm">
+      <speaker>DUNELM.</speaker>
+      <l>Know ye the Cause why this proud Duke of <hi>Mercia</hi>
+      </l>
+      <l>Revolted from his King?</l>
+     </sp>
+     <sp who="#goodwin">
+      <speaker>GOODWIN.</speaker>
+      <l>Pride and Revenge.</l>
+      <l>Some suit deny'd him, which the royal Bounty,</l>
+      <l>Unequal to the Cravings of it's People,</l>
+      <l>Granted his Foe. No more. His firey Spirit</l>
+      <l>Mounted to sudden Rage: with secret Levy</l>
+      <l>He muster'd all his Pow'rs, and join'd with <hi>Denmark</hi>
+      </l>
+      <l>To overwhelm his Country.</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>Be it ours,</l>
+      <l>To nurse this useful Treason: Thus invading,</l>
+      <l>While we divide, we conquer.</l>
+     </sp>
+     <sp who="#dunelm">
+      <speaker>DUNELM.</speaker>
+      <l>Hark! I hear</l>
+      <l>The Shouts of Victory.</l>
+     </sp>
+     <sp who="#goodwin">
+      <speaker>GOODWIN.</speaker>
+      <l>GOTHMUND approaches.</l>
+      <l>
+       <pb n="6" facs="14"/>
+His Troops come laden with the precious Spoil</l>
+      <l>Of this imperial City. Captive Maids,</l>
+      <l>The sweet Reward of Valour, grace his Triumph:</l>
+      <l>And Infants, doom'd to drink the bitter Draught</l>
+      <l>Of endless Slavery in a foreign Clime.</l>
+     </sp>
+    </div>
+    <div n="3" type="scene">
+     <head>SCENE III.</head>
+     <stage>
+      <hi>To them,</hi> GOTHMUND <hi>in Triumph. A Train of Prisoners. And</hi> EGBERT <hi>in Chains, as a Prisoner.</hi>
+     </stage>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>Hail, valiant GOTHMUND! <hi>Denmark's</hi> proudest Boast!</l>
+      <l>Whom mighty ODIN, the dread God of War,</l>
+      <l>Hath crown'd with <hi>England's</hi> Conquest!</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Faithful HAROLD,</l>
+      <l>The City's won. <hi>London,</hi> whose haughty Tow'rs</l>
+      <l>We shook so long with terrible Assault,</l>
+      <l>At length is fall'n, and blazes to the Sky.</l>
+      <l>'Twas Pity, HAROLD, on so great a Day,</l>
+      <l>When the rich Plunder of the War was seiz'd,</l>
+      <l>Thy Valour lost it's Prey. But fair Division</l>
+      <l>Of our acquired Spoil, of Wealth and Captives,</l>
+      <l>Shall bring thee Recompense.</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>I thank thee, Gen'ral.</l>
+      <l>Devoted to thy Will, I held my Charge,</l>
+      <l>To guard our Camp from the out-sallying Foe:</l>
+      <l>A Charge less splendid than the Post in Battle;</l>
+      <l>Yet, as conducing to the general Weal,</l>
+      <l>No whit less honourable.</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>HAROLD, behold</l>
+      <l>This Train of Captives: to thy Charge I give them:</l>
+      <l>But chiefly that stern Youth, whose Arm oppos'd</l>
+      <l>Singly to mine, long held the Conflict doubtful.</l>
+      <l>No common Ransom shall redeem him hence.</l>
+      <l>Why dost thou frown?</l>
+      <stage>
+       <hi>[to</hi> EGBERT.</stage>
+     </sp>
+     <sp who="#egbert">
+      <pb n="7" facs="15"/>
+      <speaker>EGBERT.</speaker>
+      <l>Because I dare to scorn</l>
+      <l>My Country's Foe.</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>So haughty in thy Chains?</l>
+      <l>What Title bear'st thou?</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>'Tis enough for thee,</l>
+      <l>To know me still a <hi>Briton:</hi> thence to fear me.</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>A Conqu'ror fear his Captive! By our Gods,</l>
+      <l>Speak but another Word, audacious <hi>Christian,</hi>
+      </l>
+      <l>I'll plunge thee in the deep <hi>Norwegian</hi> Mine,</l>
+      <l>Among these Slaves the Vassals of my Sword,</l>
+      <l>To toil in Darkness thro' the live-long Year,</l>
+      <l>Till baleful Damps consume thee.</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Yes: bury me in Darkness; in the Depth,</l>
+      <l>Where Slavery drinks the pestilential Vapour;</l>
+      <l>For that I've liv'd to see my Country's Fall!</l>
+      <l>I dare thee to the Deed, rapacious <hi>Dane!</hi>
+      </l>
+      <l>But well I know, thy Hand expects the Ransom;</l>
+      <l>Nor aught but Av'rice chains thy Cruelty.</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>What? Shall I waste the Hours in fruitless Parle</l>
+      <l>With an audacious Slave!—Lo, <hi>Mercia's</hi> Duke</l>
+      <l>Comes with his warlike Train. Retire, ye Slaves;</l>
+      <l>And at an awful Distance bow to Valour.—</l>
+      <stage>[They retire backwards.</stage>
+      <l>This firey ATHELSTAN! Yes, I cou'd curse</l>
+      <stage>[Aside.</stage>
+      <l>His Sword victorious, and wide wasting Arm</l>
+      <l>That blasted all my Wreaths; and won the Praise</l>
+      <l>Of this eventful Day!—Hence envious Fame</l>
+      <l>Shall tarnish GOTHMUND's Glory; while she whispers,</l>
+      <l>Or haply to the listning World proclaims,</l>
+      <l>That <hi>Britain</hi> conquer'd <hi>Britain.—</hi>Come; fell Hate!</l>
+      <l>Pour all thy Poison on my Heart; and turn</l>
+      <l>
+       <pb n="8" facs="16"/>
+Friendship to Enmity!—Should he revolt?—</l>
+      <l>The Rebel dare not: Nor can e'er repass</l>
+      <l>The Gulph which he hath leapt; and severs him</l>
+      <l>For ever from his Country.—Yet 'tis meet</l>
+      <l>That Prudence greet him with fair Speech, and Smiles;</l>
+      <l>Till some desir'd Occasion yield Pretence,</l>
+      <l>And spurn him off, to Shame.—</l>
+      <l>Let <hi>Denmark's</hi> Raven wave his dreadful Wing,</l>
+      <stage>[Aloud.</stage>
+      <l>To hail the glad Approach of ATHELSTAN:</l>
+      <l>And sound, in Honour of our firm Ally,</l>
+      <l>The Instruments of War.</l>
+     </sp>
+    </div>
+    <div n="4" type="scene">
+     <head>SCENE IV.</head>
+     <stage>
+      <hi>To them,</hi> ATHELSTAN; <hi>with his Train.</hi>
+     </stage>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>I greet thee, ATHELSTAN. Thy mighty Arm,</l>
+      <l>On this great Day, hath sham'd it's former Doings.</l>
+      <l>Thro' the red Tracks of Death I saw thee seek</l>
+      <l>The King. His Troops, stricken with coward Guilt,</l>
+      <l>Fled trembling at the Sight of injur'd Valour</l>
+      <l>Wak'd into Wrath. Yes, wondring <hi>Denmark</hi> saw,</l>
+      <l>How Terror stalk'd before thee thro' the Streets,</l>
+      <l>While thy broad Faulcion flam'd; and dread Revenge</l>
+      <l>Frown'd on thy Helm like Fate.</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>No Flattery, GOTHMUND.</l>
+      <l>Balm to the Fool's, it wounds the brave Man's Ear.</l>
+      <l>My Sword hath reap'd sull Vengeance on its Foes;</l>
+      <l>And vanquish'd ETHELRED with Tears and Groans</l>
+      <l>Shall rue the Wrongs he did me.</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Valiant Duke,</l>
+      <l>Such Vengeance well became such Wrongs as thine.</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>My Wrongs were loud for Vengeance. Pity wept:</l>
+      <l>But Reason choak'd her Voice:—For awful Justice</l>
+      <l>Must drop her Sword, unnerve her lifted Arm,</l>
+      <l>
+       <pb n="9" facs="17"/>
+Unbridled Pow'r turn Order into Chaos,</l>
+      <l>Shou'd Pity melt at proud Oppression's Fall.—</l>
+      <l>What Youth is that, who from the captive Throng</l>
+      <l>Comes forth with haughty Strides?</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>An unknown <hi>Briton:</hi>
+      </l>
+      <l>Yet fierce in Battle; for his Sword was fatal</l>
+      <l>To many a <hi>Dane;</hi> and midst the falling Ranks</l>
+      <l>Rag'd like a Whirlwind. Mark his fearless Mien.</l>
+      <l>He wears the Pride of Conquest, tho' in Chains.</l>
+      <l>His Eye devours thee, ATHELSTAN.—</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>I reck not.</l>
+      <l>Let him come on: I'll meet his Pride unmov'd.</l>
+      <stage>[EGBERT <hi>advancing.</hi>
+      </stage>
+      <l>Who dares to frown on ATHELSTAN?</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>A <hi>Briton.</hi>
+      </l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Who art thou?</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>One, who heedless of thy Rage,</l>
+      <l>Dares throw his Scorn on Guilt.</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Audacious Captive!</l>
+      <l>Think'st thou I fear thy frown?</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Oh, bleeding <hi>England!</hi>
+      </l>
+      <l>Behold thy fatal Foe!</l>
+      <stage>[He bursts into Tears.</stage>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Weep'st thou, brave Youth?</l>
+      <l>Tho' I have pour'd Destruction on thy King,</l>
+      <l>I wage no War with Captives. Gen'rous Warrior,</l>
+      <l>My Pow'r shall shield thee, and unbind thy Chains.</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Stand off.—I chuse to wear them.</l>
+     </sp>
+     <sp who="#athelstan">
+      <pb n="10" facs="18"/>
+      <speaker>ATHELSTAN.</speaker>
+      <l>Why that Choice?</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Lest these brave captive <hi>Britons,</hi> shackled there,</l>
+      <l>Should brand me for a Traitor.</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Heed thee well.</l>
+      <l>Think what thou art, and where.—</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Thank Heav'n,</l>
+      <l>I am not ATHELSTAN!</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Nay, I can frown too.—</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Blush,—rather blush! The crimson Hue of Shame</l>
+      <l>Wou'd better suit thy Crimes!</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Peace, arrogant Youth!</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Who gave to thee this Privilege of Scorn?</l>
+      <l>This Right of Insult and bold Accusation?</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>That Pow'r who gave me Reason and Humanity:</l>
+      <l>That awful Pow'r Above, who bids me dare</l>
+      <l>To strip false Treason of her Mask of Pride;</l>
+      <l>And shew the Hag, in her own Shape and Hue,</l>
+      <l>The foulest Fiend of Hell.</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Thy Chains protect thee!</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>GOODWIN, lead forth these Captives to the Fleet;</l>
+      <l>And let the first fair Breeze that fills the Sail</l>
+      <l>Waft them to <hi>Denmark's</hi> Shore.—HAROLD, bear hence,</l>
+      <l>And guard that Insolent.</l>
+      <stage>
+       <hi>[Pointing to</hi> EGBERT.</stage>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Farewell, brave Friends!</l>
+      <l>
+       <pb n="11" facs="19"/>
+My faithful Countrymen! I weep your Fate,</l>
+      <l>Doom'd to th' Oppressions of a barbarous Clime!</l>
+      <l>Oh, may some friendly Storm in Pity rise,</l>
+      <l>And bid the Fury of devouring Seas</l>
+      <l>In Mercy swallow you!—Accursed Treason!</l>
+      <l>Lo, thy devoted Train! Oh false, false ATHELSTAN!</l>
+     </sp>
+     <stage>
+      <hi>[Ex.</hi> EGBERT, HAROLD, GOODWIN, DUNELM, <hi>and Captives.</hi>
+     </stage>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Go, froward <hi>Briton!</hi>
+      </l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Valiant ATHELSTAN,</l>
+      <l>Heed not a Captive's Clamour. <hi>Denmark</hi> now</l>
+      <l>Boasts thee her Friend. And for undoubted Proof</l>
+      <l>Of that Esteem, wherewith I note thy Valour;</l>
+      <l>Behold the precious Spoils my Arm hath won</l>
+      <l>Amid the gen'ral Plunder: Gold or Captives,</l>
+      <l>Lands, Palaces, whate'er inventive Passion</l>
+      <l>Can fancy for Enjoyment, waits thy Will:</l>
+      <l>Command it; for 'tis thine.</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Of Gold, or Lands,</l>
+      <l>The Plunder of the War, I reck not aught.</l>
+      <l>For, to the noble Mind, a great Revenge</l>
+      <l>Outweighs all other Good. This I have reap'd</l>
+      <l>Full-measur'd; Of my thankless Country's Blood</l>
+      <l>My Sword hath drank, ev'n to Satiety:</l>
+      <l>No other Boon it craves.</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Brave ATHELSTAN,</l>
+      <l>Ev'n as thou wilt.—Has then no precious Spoil</l>
+      <l>Inrich'd thy Valour?</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Yes: one beauteous Captive,</l>
+      <l>Won in the City's Storm: and now consign'd</l>
+      <l>To SIWARD's Care, a brave and faithful Friend,</l>
+      <l>Who leads her hitherward. So winning sweet!</l>
+      <l>
+       <pb n="12" facs="20"/>
+The surly Troops gaz'd on her as she pass'd,</l>
+      <l>And Silence spoke their Wonder.</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Such a Fair</l>
+      <l>May haply mourn in secret; that her Lot</l>
+      <l>Fell to thy aged Arm. Some youthful Warrior</l>
+      <l>Might better suit her Wish.</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>I mean, to shield her</l>
+      <l>From the rude Will of insolent Desire.</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Indeed!</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Indeed.—It was her chaste Request.</l>
+      <l>And mark me: Tho' my Arm hath quell'd it's Foes,</l>
+      <l>Yet ATHELSTAN would blush, to wreak his Vengeance</l>
+      <l>On a defenceless Woman.</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>By what Chance</l>
+      <l>Did'st thou obtain this Captive?</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>While the Storm</l>
+      <l>Rag'd in the Streets; Fate led my conqu'ring Band,</l>
+      <l>Where this fair Captive mourn'd the Lot of War.</l>
+      <l>I found her kneeling; with uplifted Eyes,</l>
+      <l>And Majesty resign'd, imploring Heav'n.</l>
+      <l>Rouz'd by the Shouts of War, she rose: Her Train</l>
+      <l>Fill'd all the Place with female Lamentation:</l>
+      <l>But she, in Grief superior, check'd their Cries,</l>
+      <l>And grac'd her Woes with regal Dignity.</l>
+      <l>With such a noble Mien she su'd for Mercy,</l>
+      <l>That Vengeance stood subdu'd: while nameless Graces,</l>
+      <l>Beauty, and Mildness, and majestic Grief,</l>
+      <l>Like Guardian Pow'rs which Heav'n had planted round her,</l>
+      <l>Check'd the rude Access of unhallow'd Rage:</l>
+      <l>That ev'n the Sons of Violence drop'd the Sword,</l>
+      <l>
+       <pb n="13" facs="21"/>
+To gaze at awful Distance.—Tow'rd her Tent,</l>
+      <l>This Way she moves with her attendant Train.</l>
+      <l>Behold her here.</l>
+     </sp>
+    </div>
+    <div n="5" type="scene">
+     <head>SCENE V.</head>
+     <stage>
+      <hi>To them,</hi> THYRA, EDWINA, SIWARD, <hi>and female Attendants.</hi>
+     </stage>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Indeed, supremely fair.</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>THYRA, be comforted: Nay, dry these Tears.</l>
+      <l>Else shall I deem my too officious Cares</l>
+      <l>Lost on a thankless Heart.</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Oh, ATHELSTAN!</l>
+      <l>Whose Mercy speaks thee brave! Forgive these Tears.</l>
+      <l>For my dear Lord, to me than Life more dear,</l>
+      <l>These Sorrows flow!—Indeed, my thankful Heart</l>
+      <l>Melts in warm Gratitude to thy kind Care,</l>
+      <l>Which sav'd me from the Horrors of this Day.</l>
+      <l>But, Oh!—my Husband!</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Why these streaming Tears?</l>
+      <l>What of her Husband? Did he fall in Battle?</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>That is her Fear:</l>
+      <l>Tho' Rumour yet speak doubtful of his Fate.</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Too sure, he's fall'n!—Ye gen'rous Warriors, hear,—</l>
+      <l>Hear a poor Captive's Pray'r!—Oh, let your Guards</l>
+      <l>Conduct my faithful Servants to the Field:</l>
+      <l>Or give me Safe-guard thro' the deathful Scene;</l>
+      <l>I will divest me of my Woman's Fear,</l>
+      <l>And with a <hi>Scythian</hi> Boldness tread in Gore;</l>
+      <l>Drag off the Heaps of overwhelming Foes,</l>
+      <l>Till I have found my EGBERT's dear Remains,</l>
+      <l>To give them Burial. The last, mournful Duty</l>
+      <l>I e'er can pay his Love.</l>
+     </sp>
+     <sp who="#athelstan">
+      <pb n="14" facs="22"/>
+      <speaker>ATHELSTAN.</speaker>
+      <l>Despond not, Fair one:</l>
+      <l>Haply, he yet may live.</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Oh, flatt'ring Hope!</l>
+      <l>Grant me but That!—But That, ye Pow'rs of Heav'n!</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Now, by our Gods of <hi>Denmark,</hi> ATHELSTAN,</l>
+      <l>This is too bright a Fair, for Age like thine</l>
+      <l>Idly to gaze on.</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Beauty, thus afflicted,</l>
+      <l>Merits my Pow'r's Protection.</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Is she not</l>
+      <l>The Captive of thy Sword?</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>True, but the Sword</l>
+      <l>That won, shall guard her.</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>What if GOTHMUND's Will</l>
+      <l>Shou'd raise this Fair one from the captive Throng,</l>
+      <l>To grace his Bed?</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>By Law of War she's mine;</l>
+      <l>And I have sworn Protection.</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>From thy Foe</l>
+      <l>To shield thy Captive, were a Task of Praise</l>
+      <l>Worthy thy Arm. But when a true Ally,</l>
+      <l>Thy Friend in War, intreats so small a Boon—</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>GOTHMUND, the Friend whose erring Wish demands</l>
+      <l>What Honour cannot yield—I pray, no more—</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>If GOTHMUND's Friendship, in thy thankless Heart,</l>
+      <l>Insensible to all my proffer'd Bounty,</l>
+      <l>
+       <pb n="15" facs="23"/>
+Stands at so cheap a Price—Protect thy Captive.—</l>
+      <l>Let thy Pow'r shield her as it may.—Lead on.—</l>
+     </sp>
+     <stage>
+      <hi>[Exit</hi> GOTHMUND.</stage>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Imperious <hi>Dane!</hi> Would'st thou bend ATHELSTAN</l>
+      <l>Beneath thy Pride?—His parting Words and Looks</l>
+      <l>Darted Contempt.—This the Reward of Conquest?</l>
+      <l>This, Valour's Recompense?</l>
+     </sp>
+     <sp who="#siward">
+      <speaker>SIWARD.</speaker>
+      <l>'Twas what I fear'd.—</l>
+      <l>Why did Revenge seduce thee from thy King!</l>
+      <l>Bear Witness, Heav'n, if e'er I trod the Field,</l>
+      <l>Or bar'd my Sword in seeming Aid of <hi>Denmark,</hi>
+      </l>
+      <l>Save in the honest Hope, to check thy Vengeance.</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>What? To a thankless King, a favour'd Foe</l>
+      <l>Basking beneath the royal Smile, to yield</l>
+      <l>With coward-like Submission?—Friend, no more.</l>
+      <l>The Dye of Fate is thrown.</l>
+     </sp>
+     <sp who="#siward">
+      <speaker>SIWARD.</speaker>
+      <l>Didst thou not see,</l>
+      <l>How Passion kindled, while with ardent Gaze</l>
+      <l>He ey'd fair THYRA's Charms? His Soul hath caught</l>
+      <l>A swift and deep Infection. Mark th' Event.</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Weak is thy Fear. Tho' bold in Violence,</l>
+      <l>He dare not wake my Rage.</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Oh gen'rous Duke,</l>
+      <l>Behold me at thy Feet! I see the Storm</l>
+      <l>Fast gath'ring o'er my Head! Redeem, redeem me</l>
+      <l>From this rapacious <hi>Dane!</hi> I dread not Death;</l>
+      <l>Whose Image, from my earliest Age of Woe,</l>
+      <l>Hath been the calm Companion of my Thoughts.</l>
+      <l>Then let thy Arm, which on this fatal Morn</l>
+      <l>Did shield me, now compleat it's gen'rous Care.</l>
+      <l>My forfeit Life is thine. In Pity kill me,</l>
+      <l>
+       <pb n="16" facs="24"/>
+Ere yet Dishonour blot my Innocence.</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>By my good Sword, which won thee in the Storm,</l>
+      <l>Again I swear, not <hi>Denmark's</hi> proudest Threat</l>
+      <l>Shall wrest thee from me.—SIWARD, are my <hi>Mercians</hi>
+      </l>
+      <l>Camp'd in their separate Quarter?</l>
+     </sp>
+     <sp who="#siward">
+      <speaker>SIWARD.</speaker>
+      <l>Aye, my Lord:</l>
+      <l>Westward, a Mile; on a fair rising Ground,</l>
+      <l>Fast by the River's Brink.</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>This Night I meant</l>
+      <l>To pass in Council with the General GOTHMUND,</l>
+      <l>On future Enterprize. But since his Pride</l>
+      <l>Brooks no Controul;—wou'd Heav'n I had not come!</l>
+      <l>Since it is thus:—At least his Pride shall seek me:</l>
+      <l>And if I find him bent on Violence,</l>
+      <l>The Morning Sun shall see me quit his Camp.</l>
+      <l>Hast thou prepar'd fair THYRA's Tent by mine?</l>
+     </sp>
+     <sp who="#siward">
+      <speaker>SIWARD.</speaker>
+      <l>I did command it so.</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Retire we then.</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>I merit not thy Care. Why shou'd I live,</l>
+      <l>When my dear Lord is lost, and <hi>England</hi> fall'n!</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Touch not on That:—For by this Arm it fell.</l>
+      <l>Yes: I have wash'd my Footsteps in the Blood</l>
+      <l>Of my despairing Foes.—But oh, for whom!</l>
+      <l>I'll think no more.—Come, THYRA, to thy Tent.</l>
+     </sp>
+    </div>
+    <trailer>
+     <hi>End of the</hi> FIRST ACT.</trailer>
+   </div>
+   <div n="2" type="act">
+    <pb n="17" facs="25"/>
+    <head>ACT II.</head>
+    <div n="1" type="scene">
+     <head>SCENE I.</head>
+     <stage>The open Camp.</stage>
+     <stage>GOTHMUND, HAROLD, DUNELM.</stage>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>HAST thou not seen her, HAROLD?</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>Much I have heard.</l>
+      <l>Her Beauty dwells on ev'ry Soldier's Tongue,</l>
+      <l>And half eclipses Conquest.</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Oh, such Beauty!</l>
+      <l>HAROLD, her Eye's bright Beam might thaw the cold</l>
+      <l>
+       <hi>Norwegian's</hi> Breast; or warm the frozen Sons</l>
+      <l>Of <hi>Lapland</hi> into Love.—Oh Earth and Heav'n!</l>
+      <l>My Soul's on Fire!—The Glories of the War,</l>
+      <l>The Wreaths of Conquest sicken on her Sight.</l>
+      <l>Avaunt, Ambition! yield thy Throne to Love!</l>
+      <l>HAROLD, she must be mine.</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>What lets thee then?</l>
+      <l>What Bar so strong, to guard her from thy Wish?</l>
+      <l>Each cobweb Hindrance to thy Breath shall yield,</l>
+      <l>If thou but <hi>will</hi> her Thine.</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>May I ne'er taste the Warrior's Lot in Death,</l>
+      <l>Ne'er quaff the rich Meath in th' infernal Courts,</l>
+      <l>Where mighty ODIN rules the glorious Dead,</l>
+      <l>If I not seize her Beauties.—But, brave HAROLD,</l>
+      <l>This delicate Captive is no common Food,</l>
+      <l>
+       <pb n="18" facs="26"/>
+Like what we snatch in ev'ry City's Plunder,</l>
+      <l>For gross Desire to seed on. I wou'd win</l>
+      <l>Her Soul's Consent: wou'd kindle mutual Passion,</l>
+      <l>To meet my Flame: At least, by fair Persuasion</l>
+      <l>Wou'd temper Pow'r; that the Effect might seem</l>
+      <l>Without all Shew of Violence. HAROLD, haste thee</l>
+      <l>To the fair Captive's Tent. Tell her, the Gods</l>
+      <l>Of <hi>Denmark</hi> claim their wonted Sacrifice</l>
+      <l>Of captive Youths, and thirst for <hi>England's</hi> Gore.</l>
+      <l>But if her dear Consent shall crown my Wish,</l>
+      <l>Our Gods propitious will accept her Smile,</l>
+      <l>In Ransom for their Blood. Paint forth the Terrors</l>
+      <l>Of the dread Sacrifice; the Victims bound;</l>
+      <l>The howling Incantations of our Priests</l>
+      <l>Invoking Hell; the glittering Faulcion bar'd;</l>
+      <l>The streaming Gore, and Horrors of the Altar.</l>
+      <l>The mournful Tale shall melt her into Grief,</l>
+      <l>And Pity plead Consent.</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>I wait thy Will.</l>
+      <l>Yet were my Counsel worthy GOTHMUND's Ear—</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>What woud'st thou?—Say.—</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>Some captive <hi>Briton</hi> best</l>
+      <l>Wou'd bend her Pride.</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Not so. These stubborn <hi>Britons,</hi>
+      </l>
+      <l>Unconquer'd ev'n in Chains, defy our Swords;</l>
+      <l>Awful in Ruin: Like their kindred Oaks,</l>
+      <l>Tho' blasted by the Thunder of the War,</l>
+      <l>They proudly bear their scorched Ribs aloft,</l>
+      <l>And brave the Pow'r that struck them. Therefore, HAROLD,</l>
+      <l>That Hope is vain.</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>Persuasion, sure, wou'd flow</l>
+      <l>Prompt, and more pow'rful from some Captive's Tongue,</l>
+      <l>
+       <pb n="19" facs="27"/>
+To Death or endless Slav'ry doom'd; yet sooth'd</l>
+      <l>With Hope, and promis'd Freedom. For the Speech</l>
+      <l>Of mimic Art is weak and sinewless,</l>
+      <l>To the strong Workings of the lab'ring Soul,</l>
+      <l>When Passion glows within.</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>'Tis well advis'd.</l>
+      <l>Then lead some captive <hi>Briton</hi> to her Tent,</l>
+      <l>On this great Purpose. But o'er all I fear</l>
+      <l>This haughty ATHELSTAN: He claims her His,</l>
+      <l>By Law of Battle; and hath sworn Protection.</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>Is GOTHMUND's Pow'r so weak, then, that he dreads</l>
+      <l>A Traitor's Frown?</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Nay, by our Gods, I'll seize her;</l>
+      <l>Tho' he, and all the witching Pow'rs of Hell,</l>
+      <l>Tho' the weird Sisters, and each horrible Shape</l>
+      <l>That haunts the midnight Forest, hemm her round</l>
+      <l>With Magick Incantation.—HAROLD, speed thee.</l>
+      <l>I'll wait thee in my Tent.—</l>
+     </sp>
+     <stage>
+      <hi>[Exit</hi> GOTHMUND.</stage>
+    </div>
+    <div n="2" type="scene">
+     <head>SCENE II.</head>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>Now, Spirit of Mischief, rise! Welcome, foul Fiend,</l>
+      <l>That rid'st the Carr of Night; and scatter'st Plagues</l>
+      <l>With unseen Hand!—DUNELM, he fears me not:</l>
+      <l>Nor dreams what Tempest soon shall blacken round.</l>
+      <l>Did'st thou not mark that frowning Captive, EGBERT?</l>
+     </sp>
+     <sp who="#dunelm">
+      <speaker>DUNELM.</speaker>
+      <l>I did.</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>He best will bear the General's Love</l>
+      <l>To THYRA's Tent.—Command him hither, DUNELM.</l>
+      <stage>
+       <hi>[Exit</hi> DUNELM.</stage>
+      <l>His gen'rous Heart shall burn with fierce Disdain;</l>
+      <l>
+       <pb n="20" facs="28"/>
+And strengthen THYRA's Virtue into Scorn,</l>
+      <l>Which Pity cannot bend.—So black a Purpofe</l>
+      <l>Known and proclaim'd, may haply rouze to Rage</l>
+      <l>The Duke of <hi>Mercia;</hi> in whose fiery Breast</l>
+      <l>Lies Fury, ripe to catch, and blaze in Flames.</l>
+      <l>Oh, for some swift Occasion, that my Breath</l>
+      <l>May kindle Discord into deadly Feud!</l>
+      <l>Like angry Clouds that sail on warring Winds,</l>
+      <l>Their sierce conflicting Wrath shall meet in Thunder,</l>
+      <l>And Ruin close the Fray!—</l>
+     </sp>
+    </div>
+    <div n="3" type="scene">
+     <head>SCENE III.</head>
+     <stage>
+      <hi>To him,</hi> EGBERT.</stage>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>Welcome, brave Youth.</l>
+      <l>Thy Fame, and known Pre-eminence in Valour,</l>
+      <l>Have call'd thee to a generous Task of Duty,</l>
+      <l>For <hi>Britain's</hi> Weal.—Thou know'st, by Doom of War,</l>
+      <l>Full fifty Captives to our Gods must bleed.</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>So doom your fancy'd Gods, the vain Creation</l>
+      <l>Of Fear and Cruelty. But righteous Heav'n,</l>
+      <l>That sees your Blindness with a pitying Eye,</l>
+      <l>Detests the Sacrifice.</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>Prevent it then.</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Name but the Means. If my devoted Blood</l>
+      <l>Can save my guiltless Countrymen from Death,</l>
+      <l>I yield it to the Altar.</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>Valiant EGBERT,</l>
+      <l>A gentler Task is thine. A captive Beauty</l>
+      <l>Brightens yon Tent: She hath subdu'd our General.</l>
+      <l>The Rage of Love is on him. If thy Tongue</l>
+      <l>Can win her to his Bed.—</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>HAROLD, no more.</l>
+      <l>
+       <pb n="21" facs="29"/>
+Think'st thou, because I drag the Chain of War,</l>
+      <l>My Soul must wear your Shackles? Fall'n a Captive,</l>
+      <l>I bear a <hi>Briton's</hi> Heart: The Coward only</l>
+      <l>Earns Safety by Dishonour.</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>Yet many a <hi>Briton</hi>
+      </l>
+      <l>Wou'd deem it Service, worth a brave Man's Care,</l>
+      <l>To save devoted Innocence from Death,</l>
+      <l>At this cheap Price. Weigh'd with the Blood of Man,</l>
+      <l>What is this unknown Woman's Weal or Woe,</l>
+      <l>This captive THYRA's Honour?</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>THYRA?—THYRA?</l>
+      <l>What THYRA?</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>ATHELSTAN's fair Captive THYRA.</l>
+      <l>What Terror's in that Name? What wonder moves thee?</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Ye Pow'rs of Heav'n!—HAROLD, if thou'rt a Man;</l>
+      <l>If ever brave Compassion touch'd thy Breast;</l>
+      <l>If e'er the tender Names of Wife and Husband,</l>
+      <l>The bleeding Anguish of despairing Virtue,</l>
+      <l>The Love of Worth, or Piety to Heav'n,</l>
+      <l>Did sway thy Heart to great and gen'rous Deeds,</l>
+      <l>Or melted thee to Pity, hear me now!</l>
+      <l>That THYRA is my Wife!</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>Indeed? thy Wife?</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>So sure, as Infamy is hov'ring o'er her,</l>
+      <l>My Wife! Devoted to this Ruffian's Lust!</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>EGBERT, I love the Valour of a Foe:</l>
+      <l>And Worth like thine turns Enmity to Praise.</l>
+      <l>How will thy Bosom burn with honest Rage,</l>
+      <l>When hissing Scorn proclaims—</l>
+     </sp>
+     <sp who="#egbert">
+      <pb n="22" facs="30"/>
+      <speaker>EGBERT.</speaker>
+      <l>Oh, thou hast shook</l>
+      <l>My firmest Fortitude! I thought her dead.</l>
+      <l>When she was lost, what more cou'd EGBERT fear?</l>
+      <l>Hence cold Despair had gather'd o'er my Soul,</l>
+      <l>Wrap'd it in Ice from ev'ry Sense of Ill,</l>
+      <l>And chain'd the struggling Tear. But her lov'd Name</l>
+      <l>Hath rouz'd me from this Lethargy of Woe,</l>
+      <l>Hath thaw'd the frozen Horrors of my Heart,</l>
+      <l>And melted me to Childhood. Grief and Joy,</l>
+      <l>And Fear, and Hope, in tumult rise within me:</l>
+      <l>While thro' the moistened Chanels of mine Eyes</l>
+      <l>These Sorrows flow:—Yes, for thy Sake, thy EGBERT</l>
+      <l>Weeps his Captivity!</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>Waste not in Tears</l>
+      <l>The precious Minutes. Speed thee to her Tent.</l>
+      <l>Dishonour and Pollution hover o'er it.</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Perdition seize the Robber! Gen'rous HAROLD,</l>
+      <l>Lead me to aid this helpless Innocence.</l>
+      <l>Hear me, brave Countrymen! and witness Heav'n,</l>
+      <l>That to redeem your death-devoted Blood,</l>
+      <l>EGBERT wou'd yield his own—But oh, my Wife!</l>
+      <l>What! yield her to a Russian's Lust?—Nay rather,</l>
+      <l>I'll dash her Beauties into Wounds and Horror,</l>
+      <l>For Lust to start at.—Lead me to her Tent.</l>
+      <l>My lab'ring Heart will burst!</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>Th' attending Guard</l>
+      <l>Shall guide thee to her Tent.</l>
+     </sp>
+     <stage>[Exeunt.</stage>
+    </div>
+    <div n="4" type="scene">
+     <head>SCENE IV.</head>
+     <stage>
+      <hi>Changes to</hi> THYRA's <hi>Tent.</hi>
+     </stage>
+     <sp who="#thyra">
+      <speaker>THYRA, EDWINA.</speaker>
+      <l>Sure, 'tis some warning Pow'r that whispers here.</l>
+      <l>My beating Heart forebodes th' Approach of Fate,</l>
+      <l>And labours with th' Event.—EDWINA, come:</l>
+      <l>
+       <pb n="23" facs="31"/>
+Friend of my Life, dear Partner of my Woes!</l>
+      <l>Teach me to combat these surrounding Terrors,</l>
+      <l>That overwhelm my Soul!</l>
+     </sp>
+     <sp who="#edwina">
+      <speaker>EDWINA.</speaker>
+      <l>Take Comfort, THYRA:</l>
+      <l>All may be well.</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Oh, this unpitying <hi>Dane!</hi>
+      </l>
+      <l>Raging with Insolence, and red with Slaughter!</l>
+      <l>What cannot he attempt!</l>
+     </sp>
+     <sp who="#edwina">
+      <speaker>EDWINA.</speaker>
+      <l>Distrust not Heav'n.</l>
+      <l>The valiant ATHELSTAN hath vow'd Protection.</l>
+      <l>Wrong not his generous Care.</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>May ev'ry Pow'r</l>
+      <l>That watches o'er the just and brave, protect him,</l>
+      <l>And crown his Days with Honour!</l>
+     </sp>
+    </div>
+    <div n="5" type="scene">
+     <head>SCENE V.</head>
+     <stage>
+      <hi>To them,</hi> DUNELM.</stage>
+     <sp who="#dunelm">
+      <speaker>DUNELM.</speaker>
+      <l>Beauteous Captive,</l>
+      <l>A Messenger from GOTHMUND—</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Oh, my Fears!</l>
+     </sp>
+     <sp who="#dunelm">
+      <speaker>DUNELM.</speaker>
+      <l>He wills, that all depart,</l>
+      <l>Save only Thee: for he hath much to say,</l>
+      <l>Meet for thy private Ear.</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Alas, EDWINA!</l>
+      <l>What shall I do! Oh leave me not, EDWINA!</l>
+      <l>Undone, undone!</l>
+     </sp>
+     <sp who="#dunelm">
+      <speaker>DUNELM.</speaker>
+      <l>Nay, weep not, beauteous Captive.</l>
+      <l>Let all depart; else ye provoke his Rage▪</l>
+     </sp>
+     <stage>
+      <hi>[Ex.</hi> DUN. ED.</stage>
+     <sp who="#thyra">
+      <pb n="24" facs="32"/>
+      <speaker>THYRA.</speaker>
+      <l>Now which Way shall I turn me! Whither fly</l>
+      <l>To shun these gathering Horrors!—Wou'd I had fallen</l>
+      <l>Beneath the Battle's Fury! That the Spear</l>
+      <l>Had pierc'd my Heart! Or that some flaming Tow'r</l>
+      <l>Had been my funeral Pile!—Why was I spar'd,</l>
+      <l>To sink in deeper Woes!—Oh, pitying Heav'n,</l>
+      <l>If e'er thy Care regarded Innocence,</l>
+      <l>Restore me to my Lord!</l>
+     </sp>
+    </div>
+    <div n="6" type="scene">
+     <head>SCENE VI.</head>
+     <stage>
+      <hi>To her,</hi> EGBERT.</stage>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Behold him here!</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Is't possible!—'Tis He! my Lord! my Husband!</l>
+      <l>Oh happy Change! Oh Bliss unspeakable!</l>
+      <l>Support me, heav'nly Pow'rs! Support me, EGBERT.</l>
+      <l>I faint, I faint! Oh, take me to thy Breast!—</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Thou Crown of all my Joys! Thou Cause belov'd</l>
+      <l>Of all my bitterest Pangs! Do I once more</l>
+      <l>Infold thee in these Arms!</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Too bounteous Heav'n!</l>
+      <l>And are my Sorrows sled! Shall Hope once more</l>
+      <l>Visit this Breast? And do I live to see thee!</l>
+      <l>Alas, my Lord! thro' what unnumber'd Woes,</l>
+      <l>Thro' what a Sea of Horrors have we past,</l>
+      <l>Since last we parted!</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Such is Heav'n's high Will.</l>
+      <l>
+       <hi>England</hi> is fall'n! The Majesty of Empire</l>
+      <l>Is sunk by Fate! Destruction rears her Banner:</l>
+      <l>The fatal Raven croaks; and <hi>Britain's</hi> weeping Genius,</l>
+      <l>Yielding his Charge, flits to some happier Clime!</l>
+     </sp>
+     <sp who="#thyra">
+      <pb n="25" facs="33"/>
+      <speaker>THYRA.</speaker>
+      <l>Oh fatal Day! be thou for ever wept!</l>
+      <l>Yet ev'ry future Morn shall hear my Praise,</l>
+      <l>And Gratitude sincere arise to Heav'n,</l>
+      <l>For this dear Boon, this Cure of ev'ry Woe,</l>
+      <l>That I have found my EGBERT!—Say, my Lord,</l>
+      <l>Who led thee to these Tents?</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Thro' the wide Waste</l>
+      <l>Of mortal War, I sought my virtuous THYRA,</l>
+      <l>To save her from the Foe: But sought in vain.</l>
+      <l>Then rushing on the thickest War, my Sword</l>
+      <l>Edg'd by Despair, I mow'd my Way; to where</l>
+      <l>GOTHMUND, intrench'd in triple Rows of Spears,</l>
+      <l>Stood like our Country's Fiend. He met my Arm.</l>
+      <l>But soon th'o' erwhelming Files that hemm'd him round</l>
+      <l>Ended the mortal Strife; and led me hither,</l>
+      <l>The Captive of his Pride.</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Blest, blest Event!</l>
+      <l>Sure, 'twas some unseen Angel rul'd thy Fate;</l>
+      <l>Now, barbarous GOTHMUND, I defy thy Threats!</l>
+      <l>Oh Coward! to insult a helpless Captive!</l>
+      <stage>[Bursts into Tears.</stage>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Soul of my Soul! The frowning Fates surround us!</l>
+      <l>That thou art here, restor'd to Life and Me,</l>
+      <l>This grateful Tear I offer up to Heav'n!</l>
+      <l>But if some heavier Ruin hangs unseen,</l>
+      <l>Unkind and cruel was the Sword that spar'd thee!—</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>But thou art come, like some blest Pow'r from Heav'n,</l>
+      <l>To banish all my Fears! Ah, why that Groan?</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Dear THYRA! See,—these Chains!—</l>
+     </sp>
+     <sp who="#thyra">
+      <pb n="26" facs="34"/>
+      <speaker>THYRA.</speaker>
+      <l>Wou'd I cou'd wear them for thee!</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Generous THYRA!</l>
+      <l>I know thy Love: I do believe thou woud'st.</l>
+      <l>Think then, what Pangs must rend thy EGBERT's Heart,</l>
+      <l>To see thy Worth insulted, drag'd by Pow'r</l>
+      <l>To soul Dishonour; while this cruel Chain</l>
+      <l>Binds down his honest Vengeance!</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Since I have found thee,</l>
+      <l>Tho' setter'd in this ignominious Chain,</l>
+      <l>I know not why,—but ev'ry Fear is fled:—</l>
+      <l>There's Safety in thy Arms.—</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>My Soul's best Part!</l>
+      <l>Wrap not thy Heart in blind Security!</l>
+      <l>Helpless thou seest me here, as Age or Childhood:—</l>
+      <l>I fear the rising Storm. Forgive me, THYRA,</l>
+      <l>If in the Tempest of my Rage, these Chains</l>
+      <l>Shou'd strike thee to the Earth! the cruel Task</l>
+      <l>Of desp'rate Love! and blot that Heav'nly Form</l>
+      <l>With deadly Wounds and Blood; to rescue thee</l>
+      <l>From this remorseless <hi>Dane!</hi>
+      </l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>But ATHELSTAN,</l>
+      <l>Who sav'd me midst the Horrors of this Day—</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Who? <hi>Mercia's</hi> Duke?</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Hath bravely sworn Protection.</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Curse the Traitor!</l>
+      <l>'Twas he, whose Sword, unsheath'd by lawless Fury</l>
+      <l>Against his Country, and the best of Kings,</l>
+      <l>
+       <pb n="27" facs="35"/>
+Hath brought Destruction on us.—May his Treason</l>
+      <l>Fall, like an impious Arrow shot at Heav'n,</l>
+      <l>And cleave his hoary Head!</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Yet, if I err not;</l>
+      <l>Ere this, Conviction of his Crime hath wrought</l>
+      <l>Repentance in his Heart.</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>No: plead not for him:</l>
+      <l>He hath undone us all!</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Forgive me, EGBERT,</l>
+      <l>If Gratitude work strong within my Soul.—</l>
+      <l>He sav'd me from the <hi>Dane.</hi> A Mind so noble,</l>
+      <l>Tho' headlong driv'n down by the Tide of Passion,</l>
+      <l>Must soon return to Virtue.</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Cou'd I hope it?</l>
+      <l>Cou'd I but hope he wou'd rejoin our Arms,</l>
+      <l>We yet might rescue Thee, and rescue <hi>England!</hi>
+      </l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Behold, he comes!—Now, EGBERT, curb thy Rage,</l>
+      <l>Think: He is still the Guardian of my Honour.</l>
+      <l>Assume the winning Eloquence of Grief,</l>
+      <l>Lab'ring beneath it's Wrongs: His generous Heart</l>
+      <l>Will melt in Sympathy.</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>My virtuous THYRA,</l>
+      <l>For thee, and for my bleeding Country's Sake,</l>
+      <l>I'll choak the Pang I groan with.—</l>
+     </sp>
+    </div>
+    <div n="7" type="scene">
+     <head>SCENE VII.</head>
+     <stage>
+      <hi>To them,</hi> ATHELSTAN, SIWARD.</stage>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Down, proud Heart!</l>
+      <l>Oh, I am rent with Anguish! Never more</l>
+      <l>
+       <pb n="28" facs="36"/>
+Shall fair Peace keep her Sabbath in my Breast!</l>
+      <l>Unthankful <hi>Dane!</hi>
+      </l>
+     </sp>
+     <sp who="#siward">
+      <speaker>SIWARD.</speaker>
+      <l>What less cou'd Reason fear</l>
+      <l>From unrelenting Robbers?</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Blind Revenge!</l>
+      <l>Oh whither hast thou led me!—Say, proud Captive,</l>
+      <l>Who brought thee to these Tents?</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Brave ATHELSTAN,</l>
+      <l>This is my Lord, my EGBERT.—Honor'd EGBERT,</l>
+      <l>Lo, <hi>Mercia's</hi> Duke, who sav'd me from Dishonour.—</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Yet, rul'd by sullen Pride, he scorns to thank me.</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>That thou didst save her from the Rage of War,</l>
+      <l>Binds me thy Friend: But that thy trait'rous Arm</l>
+      <l>Hath madly drawn thy Sword against thy King,</l>
+      <l>Unties that private Bond of Man with Man,</l>
+      <l>And bids me stand thy Foe.</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>To injur'd Honour</l>
+      <l>A brave Revenge was due.</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Oh ATHELSTAN!</l>
+      <l>Thy Vengeance, in its fatal Course, hath swept</l>
+      <l>Thy Friends and Foes in one promiscuous Ruin!</l>
+      <l>Childhood and Age, the Gentle and the Brave,</l>
+      <l>And helpless Innocence which never wrong'd thee,</l>
+      <l>Have felt the Fury of thy mad Revenge.</l>
+      <l>Had'st thou been <hi>England's</hi> Friend, these bloody <hi>Danes,</hi>
+      </l>
+      <l>Had fled our Shores: No <hi>Briton</hi> then had drag'd</l>
+      <l>These ignominious Chains! nor helpless THYRA</l>
+      <l>Had call'd in vain on Earth and Heav'n to save her!</l>
+     </sp>
+     <sp who="#thyra">
+      <pb n="29" facs="37"/>
+      <speaker>THYRA.</speaker>
+      <l>Dire is our Fate's Decree, when EGBERT weeps!</l>
+      <l>Oh cruel GOTHMUND!</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>False, false ATHELSTAN!</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>No more:—Why rend ye thus my tortur'd Heart?</l>
+      <l>Thy Words are Scorpions in my Breast.—Rash Man,</l>
+      <l>Take back thy THYRA:—Guard her as thou can'st:—</l>
+      <l>Farewell: I'll hear no longer.—</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <stage>[catching his Garment.</stage>
+      <l>Gen'rous Duke!</l>
+      <l>Leave us not thus! Leave us not to Destruction!</l>
+      <l>We have no Hope but thee!</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <stage>[breaking from her.</stage>
+      <l>Thy tears are vain.—</l>
+     </sp>
+     <sp who="#siward">
+      <speaker>SIWARD.</speaker>
+      <l>Spurn not her Griefs—</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>SIWARD, if thou'rt my Friend—</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Nay, but thou yet shalt hear me:—Across thy Steps</l>
+      <l>I'll throw my Body, tho' thy Hand were arm'd</l>
+      <l>With Lightning, till thou hear me—</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Urge me not:</l>
+      <l>Urge not thy Fate—</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Alas! can Fate do more!</l>
+      <l>Oh ATHELSTAN! but that I know thy Virtues,</l>
+      <l>I wou'd not stoop t' intreat thee. Life I reck not.</l>
+      <l>Then spite of thee, I dare to be thy Friend:—</l>
+      <l>Yes; I will search thy Heart; will there dethrone</l>
+      <l>Usurping Passions that have banish'd Reason,</l>
+      <l>Eclips'd thy Virtues in their noon-tide Sphere,</l>
+      <l>And darken'd all their Brightness!</l>
+     </sp>
+     <sp who="#athelstan">
+      <pb n="30" facs="38"/>
+      <speaker>ATHELSTAN.</speaker>
+      <l>Let me pass—</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>By Heav'n, I will not, till I have paid the Debt</l>
+      <l>Due to thy generous Soul.—Yes; thou hast been</l>
+      <l>My THYRA's guardian Genius:—Hear me now,</l>
+      <l>Hear <hi>Me,</hi> as thine: Sent by all-gracious Heav'n,</l>
+      <l>Kindly to warn thee of that Sea of Guilt,</l>
+      <l>In which thy Rage hath plung'd thee!—Hear the Voice</l>
+      <l>That calls thee, to return to Honour's Path;</l>
+      <l>Bravely to quit thy guilty League with <hi>Denmark,</hi>
+      </l>
+      <l>And save poor bleeding <hi>England!</hi>
+      </l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Witness Heav'n,</l>
+      <l>How dear hath <hi>England's</hi> Happiness and Fame</l>
+      <l>Been to my Soul! How, on this dreadful Morn,</l>
+      <l>When Vengeance led me to the Field of Death,</l>
+      <l>My bleeding Heart wept for my Country's Woe,</l>
+      <l>And half subdu'd Revenge!—Behold these Tears—</l>
+      <l>These Tears proclaim, I am a <hi>Briton</hi> still!</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Then act a <hi>Briton's</hi> Part.—</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Ungrateful King!</l>
+      <l>Why didst thou wake my Rage! why urge my Vengeance</l>
+      <l>To lead Destruction on!</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Nay, wrong him not.</l>
+      <l>'Tis Passion's Blindness rules thee.—Heav'n and Earth</l>
+      <l>Witness the untir'd Bounties of his Hand.</l>
+      <l>But when bold Expectation, nurs'd by Vanity,</l>
+      <l>Brooks no Denial; and assumes to weigh</l>
+      <l>Its own fantastic Worth;—what earthly Pow'r</l>
+      <l>Can satisfy it's Cravings, or fill up</l>
+      <l>Th' unfathom'd Measure of Self-Love and Pride!</l>
+     </sp>
+     <sp who="#siward">
+      <pb n="31" facs="39"/>
+      <speaker>SIWARD.</speaker>
+      <l>Or grant thy Worth neglected:—Grant the Slave,</l>
+      <l>Fool, Flatterer, Whisperer, reptile Sycophant,</l>
+      <l>To thee prefer'd in Honour:—Virtue still,</l>
+      <l>Wrapt in the Majesty of calm Disdain,</l>
+      <l>And self reyer'd, in her own Dignity</l>
+      <l>Wou'd check Revenge; wou'd welcome Injury</l>
+      <l>With manly Scorn, and for the publick Weal</l>
+      <l>Forget all private Wrong.</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>No more, no more!</l>
+      <l>Wou'd Heav'n, I had not done it.—</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Imperial <hi>London!</hi>
+      </l>
+      <l>Fair <hi>England's</hi> Boast! The Glory of the Isles!</l>
+      <l>How art thou fall'n! Thy Palaces and Tow'rs,</l>
+      <l>Low level'd with the Dust, now smoke in Ashes!—</l>
+      <l>Heav'n! as we pass'd in Chains the Streets along,</l>
+      <l>How the loud Shrieks of ravish'd Maids and Matrons,</l>
+      <l>The Groans of <hi>Britons</hi> weltring in their Blood,</l>
+      <l>Of Infants writhing on the bloody Spear,</l>
+      <l>Transfix'd my Heart!—</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>In vain the holy Priest,</l>
+      <l>The trembling Sire, and widow'd Wife, in vain</l>
+      <l>Clung to their Altars, and implor'd for Mercy:—</l>
+      <l>The Ruffian Foe with sacrilegious Hand</l>
+      <l>Dragg'd them to Death; and to his Idols grim</l>
+      <l>Did shed their innocent Blood!—</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>What have I done!</l>
+      <l>Oh <hi>Britain!</hi> hapless <hi>Britain!</hi>
+      </l>
+     </sp>
+     <sp who="#siward">
+      <speaker>SIWARD.</speaker>
+      <l>Dost thou weep?</l>
+      <l>Come, fair Repentance, Daughter of the Skies!</l>
+      <l>Soft Harbinger of soon returning Virtue!</l>
+      <l>The weeping Messenger of Grace from Heav'n!</l>
+      <l>
+       <pb n="32" facs="40"/>
+Lovely in Tears.—Now melt his generous Heart!</l>
+      <l>Infuse kind Pity for his Country's Woes!</l>
+      <l>Wake his great Soul; and bid him shine once more,</l>
+      <l>It's Pride, Support, and Glory!—</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>'Tis too late!</l>
+      <l>Oh Madness! Headlong Madness!</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Ne'er too late</l>
+      <l>To turn to Virtue!—THYRA, SIWARD, kneel;</l>
+      <l>And sue for Mercy to our ruin'd Country!—</l>
+      <stage>[They kneel.</stage>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Cou'd a poor helpless Captive's Pray'r be heard!—</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Behold in us, Millions of guiltless <hi>Britons—</hi>
+      </l>
+     </sp>
+     <sp who="#siward">
+      <speaker>SIWARD.</speaker>
+      <l>Pleading for Life and Freedom!—</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Hear the Groans</l>
+      <l>Of martyr'd Christians—</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Bleeding for their Faith—</l>
+     </sp>
+     <sp who="#siward">
+      <speaker>SIWARD.</speaker>
+      <l>Imploring Help from thee!—</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Rise, <hi>Britons,</hi> rise.—</l>
+      <l>I yield, I yield!—Yes; <hi>England,</hi> I am thine!—</l>
+      <stage>[They rise.</stage>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Oh happy Change!</l>
+     </sp>
+     <sp who="#siward">
+      <speaker>SIWARD.</speaker>
+      <l>Oh generous ATHELSTAN!</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>And yet—to stoop!—meanly to sue for Pardon!—</l>
+     </sp>
+     <sp who="#siward">
+      <speaker>SIWARD.</speaker>
+      <l>He, he alone degrades his State, who stoops</l>
+      <l>To wrongful Deeds; these done, 'tis truly brave</l>
+      <l>To sue for Pardon, and who stoops, is greatest.</l>
+     </sp>
+     <sp who="#athelstan">
+      <pb n="33" facs="41"/>
+      <speaker>ATHELSTAN.</speaker>
+      <stage>[embracing them.</stage>
+      <l>Come to my Heart! my Friends! my Guides to Peace!</l>
+      <l>Your Words, like Light from Heav'n, have pierc'd my Soul!</l>
+      <l>Oh Blindness, Frenzy!—Gen'rous, injur'd King,</l>
+      <l>How can I e'er behold thee!</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Trust his Goodness.</l>
+      <l>His chief Delight is Mercy: and when Justice</l>
+      <l>Demands the awful Sacrifice of Life,</l>
+      <l>Reluctant he confirms the harsh Decree.</l>
+     </sp>
+     <sp who="#siward">
+      <speaker>SIWARD.</speaker>
+      <l>Ev'n now a trusty Spy return'd, informs me,</l>
+      <l>Our valiant King, must'ring his scatter'd Pow'rs,</l>
+      <l>Ere Morning dawns will storm the <hi>Danish</hi> Camp:</l>
+      <l>Lead but thy valiant <hi>Mercians—</hi>
+      </l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Grant me, Heav'n,</l>
+      <l>On a wide Heap of routed <hi>Danes</hi> to die!</l>
+      <l>I ask no more.—Come, let us quit the Camp.—</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Alas, brave Duke, I am a Captive here.</l>
+      <l>I cannot go. A thousand guiltless <hi>Britons</hi>
+      </l>
+      <l>Must bleed, shou'd I escape.—But to thy Care,</l>
+      <l>Here I bequeath a Trust more dear than Life.</l>
+      <l>Let THYRA be the Partner of thy Flight.</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Must I then leave my Lord!</l>
+      <l>Severe Decree! Shall I not see my EGBERT,</l>
+      <l>Ere I depart?</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>My ever honour'd Wife,</l>
+      <l>Be sure thou shalt.</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>THYRA, retire: and while I seek the <hi>Dane,</hi>
+      </l>
+      <l>To lull Suspicion, wait us in thy Tent,</l>
+      <l>
+       <pb n="34" facs="42"/>
+Prepar'd for Flight.—Now SIWARD, to my <hi>Mercians.—</hi>
+      </l>
+      <l>Tell them my Wrongs from <hi>Denmark:</hi> paint the Pangs</l>
+      <l>Of my unfeign'd Repentrance: rowze their Valour</l>
+      <l>To quenchless Rage, that may atone my Guilt.</l>
+      <l>That to the Ghost of ev'ry martyr'd <hi>Briton</hi>
+      </l>
+      <l>We slew in Fight, a Host of <hi>Danes</hi> may die.</l>
+     </sp>
+     <stage>[Exeunt.</stage>
+    </div>
+    <trailer>
+     <hi>End of the</hi> SECOND ACT.</trailer>
+   </div>
+   <div n="3" type="act">
+    <pb n="35" facs="43"/>
+    <head>ACT III.</head>
+    <div n="1" type="scene">
+     <head>SCENE I.</head>
+     <stage>THYRA's <hi>Tent.</hi>
+     </stage>
+     <stage>GOTHMUND, GOODWIN.</stage>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>HER Husband, did'st thou say?</l>
+     </sp>
+     <sp who="#goodwin">
+      <speaker>GOODWIN.</speaker>
+      <l>So Rumour speaks.</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Amazement—Then he hath play'd false with HAROLD,</l>
+      <l>And quench'd my Hope.—Did'st thou not say, thou saw'st him,</l>
+      <l>Walking-the Camp?</l>
+     </sp>
+     <sp who="#goodwin">
+      <speaker>GOODWIN.</speaker>
+      <l>He shot athwart the Tents</l>
+      <l>With proud and hasty Step, that seem'd to scorn</l>
+      <l>The Ground he trod.</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Then we shall meet him here.</l>
+      <l>This is his Wife's Pavilion. If he comes,</l>
+      <l>I mean to speak him fair. Persuasion mild</l>
+      <l>Shall first allure Consent: Shou'd that be vain,</l>
+      <l>From the false Calm a sudden Storm shall rise,</l>
+      <l>And bury him in Ruin.—Is the Guard</l>
+      <l>Arm'd, and at Hand to seize him?</l>
+     </sp>
+     <sp who="#goodwin">
+      <speaker>GOODWIN.</speaker>
+      <l>Arm'd, and ready.</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Behold, he comes.</l>
+     </sp>
+     <sp who="#goodwin">
+      <speaker>GOODWIN.</speaker>
+      <l>'Tis he: I see his Chain,</l>
+      <l>
+       <pb n="36" facs="44"/>
+That glitters in the Moon-beam.</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>GOODWIN, hence:</l>
+      <l>Wait within Call.—</l>
+     </sp>
+     <stage>
+      <hi>[Exit</hi> GOODWIN.</stage>
+    </div>
+    <div n="2" type="scene">
+     <head>SCENE II.</head>
+     <stage>
+      <hi>To him,</hi> EGBERT.</stage>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>
+       <hi>Briton,</hi> I greet thee well.</l>
+      <l>Is the fair Captive won to GOTHMUND's Love?</l>
+      <l>Why art thou dumb?</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Why do I see thee here?</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Lest Insult shou'd approach fair THYRA's Tent,</l>
+      <l>I come to watch her Welfare.</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>As the Wolf</l>
+      <l>Guards the defenceless Lamb.</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Hast thou forgot</l>
+      <l>Whose Chain thou wear'st?</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>'Tis Thine: and thence I scorn it.</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>EGBERT, beware: Thou know'st the Victor's Pow'r:</l>
+      <l>Wake not his Rage.—</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>I bear a guiltless Mind,</l>
+      <l>Thou can'st not conquer.—</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Hence, audacious Captive.</l>
+      <l>I know thee THYRA's Husband.—Tremble, <hi>Briton:</hi>
+      </l>
+      <l>Nor sport with angry Pow'r!</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Hence, ruffian <hi>Dane!—</hi>This Tent is ATHELSTAN's.</l>
+      <l>THYRA's his Captive: and kind Heav'n ordain'd him,</l>
+      <l>
+       <pb n="37" facs="45"/>
+To rescue Innocence from Lust and Rapine.</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Yet I am calm.—But have a Care, rash Youth—</l>
+      <l>For ATHELSTAN:—What Pow'r but mine can shield him</l>
+      <l>From the just Vengeance of his injur'd King?</l>
+      <l>Whate'er the Traitor won, he won for me.</l>
+      <l>Like these rich Territories, THYRA'S mine</l>
+      <l>By Conquest: Let not then weak Shame or Pride</l>
+      <l>Obstruct the Victor's Wish: Be just, brave EGBERT,</l>
+      <l>And yield her Beauty to its new Possessor.</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Come, honest Pride! Oh fill my swelling Heart,</l>
+      <l>And arm mine Eye, and point my Tongue with Scorn,</l>
+      <l>Keen as the Scorpion's Sting!—By Heaven, this Chain,</l>
+      <l>This Chain alone bids Insolence be bold,</l>
+      <l>Which else were dumb, as Cowardice or Guilt!</l>
+      <l>Oh, for my honest Faulcion! which this Morn,</l>
+      <l>O'erwhelming Numbers wrested from my Hand!</l>
+      <l>Yes: I wou'd hunt thee thro' the Battle's Rage:</l>
+      <l>Surrounding Guards, and doubling Ranks in vain</l>
+      <l>Should shelter thee!</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Hell's Curses blast thy Pride!</l>
+      <l>Had not the busy Guards forestall'd my Vengeance,</l>
+      <l>The Lightning of my Sword had cleft thee down.</l>
+      <l>Shall I bear this? Hoa, GOODWIN! Bring the Guard!</l>
+      <stage>
+       <hi>[To him</hi> GOODWIN.</stage>
+      <l>Seize that insulting Captive: Drag him hence,</l>
+      <l>To dark Imprisonment, and seven-fold Chains,</l>
+      <l>Till the Fleet sail for <hi>Denmark.</hi>
+      </l>
+     </sp>
+    </div>
+    <div n="3" type="scene">
+     <head>SCENE III.</head>
+     <stage>
+      <hi>To them,</hi> THYRA, EDWINA.</stage>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Mercy, Mercy!</l>
+      <l>Oh GOTHMUND, at thy Feet!</l>
+     </sp>
+     <sp who="#gothmund">
+      <pb n="38" facs="46"/>
+      <speaker>GOTHMUND.</speaker>
+      <l>Let go thy Hold.—</l>
+      <l>Quick, bear him to his Prison.</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Why this Violence?</l>
+      <l>I am your Captive: Bear me where ye may.</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Must we thus part!—Oh cruel <hi>Dane!</hi> In Mercy</l>
+      <l>Destroy us here together!</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Strive no more:</l>
+      <l>Waste not thy generous Tears on barbarous Pow'r:</l>
+      <l>For what can Right, when Lust and Madness rule?</l>
+      <l>Yield to thy Fate. Farewell!</l>
+     </sp>
+     <stage>
+      <hi>[Exit</hi> EGBERT <hi>and</hi> GOODWIN.</stage>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>My Lord! my EGBERT!</l>
+      <l>Oh lost, lost, lost!—</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Thou yet hast Pow'r to save him.—</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Oh name the Task which Honour sanctifies,</l>
+      <l>And I will die to save him!—Bid me roam,</l>
+      <l>An Exile from my Country, thro' the Climes</l>
+      <l>Where frozen <hi>Lapland's</hi> wintry Wastes extend;</l>
+      <l>Doom me for ever to th' unwholesome Mine,</l>
+      <l>Where hopeless Slav'ry toils:—I'll bless my Fate,</l>
+      <l>So I may save my EGBERT.</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Fear not, THYRA,</l>
+      <l>So harsh a Doom—That delicate Frame was form'd</l>
+      <l>For gentler Offices.—Crown but my Love,</l>
+      <l>And EGBERT shall be free.</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Peace, Monster, Peace!</l>
+      <l>Nor wound my chaste Ear with thy Words, which taint</l>
+      <l>The wholesome Air.</l>
+     </sp>
+     <sp who="#gothmund">
+      <pb n="39" facs="47"/>
+      <speaker>GOTHMUND.</speaker>
+      <l>Else shall my Vengeance sweep</l>
+      <l>Thy stubborn EGBERT to far distant Shores.</l>
+      <l>Yes: he shall dwell with Darkness, pine with Want,</l>
+      <l>Rot 'midst the cold Damps of a hideous Dungeon;</l>
+      <l>And live a ling'ring Death!</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Oh horrible!</l>
+      <l>Thou can'st not mean it!</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>By our Gods, I do!</l>
+      <l>While thou, the Minion of the general Camp,</l>
+      <l>Shalt feed unbridled Lust; till wrinkled Age</l>
+      <l>Doom thee at length a household Drudge, the Scorn</l>
+      <l>Of loathing Appetite!</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Oh hear me Heav'n!</l>
+      <l>Hear me, thus kneeling, low on Earth! Descend,</l>
+      <l>Ye guardian Pow'rs that watch o'er Innocence,</l>
+      <l>Descend, and soften his relentless Heart,</l>
+      <l>Or I am lost for ever!—Hear me, GOTHMUND,</l>
+      <l>For the chaste Matron's Sake, who gave thee Birth!</l>
+      <l>Oh, hear!</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Nay, yield thee; or his Fate is seal'd.—</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Pity my captive State! a helpless Orphan,</l>
+      <l>With not a Friend! an outcast from my Country!</l>
+      <l>Unknown to all; ev'n to myself unknown!</l>
+      <l>A poor lost Infant, wreck'd on <hi>England's</hi> Coast!</l>
+      <l>Perhaps an Infant <hi>Dane!—</hi>Oh why, EDWINA,</l>
+      <l>Why was I rescued by thy Father's Hand!</l>
+      <l>Else had my Sorrows found a peaceful Grave</l>
+      <l>In the devouring Deep!</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>An infant <hi>Dane?</hi>
+      </l>
+      <l>Give me but Proof of That—</l>
+     </sp>
+     <sp who="#thyra">
+      <pb n="40" facs="48"/>
+      <speaker>THYRA.</speaker>
+      <l>Concurrent Proofs</l>
+      <l>Bespeak me such: Wrong not thy Country then:</l>
+      <l>Wrong not thy Friends: Oh think thou seest thy Friends,</l>
+      <l>And thy dear Relatives now plead in me;</l>
+      <l>And thus with bended Knees and lifted Eyes</l>
+      <l>Beseech thy Pity!—speak, EDWINA, speak!</l>
+      <l>Oh tell the Tale of Woe! The mournful Tale</l>
+      <l>Needs not the colouring of artful Tongues,</l>
+      <l>To melt the hardest Heart!</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>I charge thee, Woman,</l>
+      <l>Be bold in Truth: or instant Death awaits thee.</l>
+     </sp>
+     <sp who="#edwina">
+      <speaker>EDWINA.</speaker>
+      <l>Hear then the Tale, which at the hallow'd Altar</l>
+      <l>I dare confirm.—Near to the Coast of <hi>Wessex</hi>
+      </l>
+      <l>My Father liv'd; an humble Villager.</l>
+      <l>'Twas on a Time when Storms had vex'd the Deep,</l>
+      <l>We spy'd a <hi>Danish</hi> Vessel driv'n on Rocks,</l>
+      <l>Then swallow'd in the Flood. The Storm rag'd on:</l>
+      <l>And on the rolling Billows, mountain-high,</l>
+      <l>This helpless Babe came floating. The next Wave</l>
+      <l>Had wash'd her to the Deep: 'Twas then my Father</l>
+      <l>Snatch'd her from Death.—Soon as our Cottage Warmth</l>
+      <l>Recall'd her into Life, the lovely Babe</l>
+      <l>Smil'd on us, all unconscious of her Woe.</l>
+      <l>Tears gush'd from ev'ry Eye. My generous Father,</l>
+      <l>Generous tho' poor, and now a Saint in Heav'n,</l>
+      <l>Embrac'd the Child, and vow'd her as his own.</l>
+      <l>Beauty, with ev'ry winning Quality,</l>
+      <l>Grew with her Growth: She was our Village Pride.</l>
+      <l>EGBERT at length, drawn by her peerless Fame,</l>
+      <l>Beheld, and lov'd, and won her.</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Generous EGBERT!</l>
+     </sp>
+     <sp who="#gothmund">
+      <pb n="41" facs="49"/>
+      <speaker>GOTHMUND.</speaker>
+      <l>But say—Did this poor Babe alone survive</l>
+      <l>The general Wreck?</l>
+     </sp>
+     <sp who="#edwina">
+      <speaker>EDWINA.</speaker>
+      <l>Alone: The rest were swallow'd</l>
+      <l>By the devouring Flood.</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>But tell me, Woman,</l>
+      <l>Why did ye judge the sinking Wreck, a <hi>Dane?</hi>
+      </l>
+     </sp>
+     <sp who="#edwina">
+      <speaker>EDWINA.</speaker>
+      <l>'Twas from the yellow Streamers, hoisted high</l>
+      <l>In Signal of Distress.</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <stage>[Taking a Chain from her Neck.</stage>
+      <l>Behold this Chain,</l>
+      <stage>[Gothmund takes the Chain.</stage>
+      <l>By me held sacred from my earliest Age:</l>
+      <l>This, haply, may confirm the wondrous Tale.</l>
+     </sp>
+     <sp who="#edwina">
+      <speaker>EDWINA.</speaker>
+      <l>That very Chain adorn'd her infant Neck:</l>
+      <l>Inwrought with mystic Figures, it hath tir'd</l>
+      <l>Each letter'd Sage's Eye.</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>The Signatures</l>
+      <l>Are of a <hi>Runic</hi> Import: which our Bards,</l>
+      <l>And Priests, and Sages magic-taught, can spell.</l>
+      <l>I'll bear it to their Search.</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>May Heav'n infuse</l>
+      <l>Soft Pity to thy Heart!</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Cou'd I but win</l>
+      <l>Fair THYRA's Love!—The Camp shall pour its Treasures:</l>
+      <l>Freedom and Wealth, the Spoils of conquer'd <hi>England,</hi>
+      </l>
+      <l>Shall join to grace thy Tent: while thou supreme</l>
+      <l>Shalt triumph o'er thy Fate, and bless the Hour</l>
+      <l>That spoke thy Birth, and gave thee to the <hi>Dane.</hi>
+      </l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Oh mighty GOTHMUND!</l>
+     </sp>
+     <sp who="#gothmund">
+      <pb n="42" facs="50"/>
+      <speaker>GOTHMUND.</speaker>
+      <l>Nay, dry these Griefs; tho' much indeed they grace thee.</l>
+      <l>Come; let thine Eyes beam with their own soft Fires,</l>
+      <l>And all thy Form awaken into Beauty.</l>
+      <l>Dwell not with fruitless Woe: Lot bitter Tears</l>
+      <l>Rain from the Captive's Eye, condemn'd to Exile,</l>
+      <l>And endless Slav'ry: But a happier Lot</l>
+      <l>Awaits fair THYRA's Choice, and pleads Acceptance.</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>My EGBERT! O my Husband!</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Weep no more;</l>
+      <l>Thy Tears can ne'er recall him.</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Little know'st thou;</l>
+      <l>What strong eternal Bands of mutual Love</l>
+      <l>Have knit our Souls: Divided Happiness</l>
+      <l>We ne'er can know. Joy, like one common Sun,</l>
+      <l>Must shine on Both or Neither: and if Night</l>
+      <l>Hath overcast his Fate; my Sun of Life</l>
+      <l>With his, is set for ever.—Give me the Chain.—</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Nay, by my Sword, the Chain</l>
+      <l>Is dearer to me than a Diamond's Mine.</l>
+      <l>This Chain's the Clue, shall guide me to thy Birth;</l>
+      <l>Which, once reveal'd, shall ev'ry Tie dissolve</l>
+      <l>That binds thee to these <hi>Britons. Denmark</hi> then</l>
+      <l>Shall claim thee Her's; and GOTHMUND plead her Rights.</l>
+     </sp>
+     <stage>
+      <hi>[Exit</hi> GOTHMUND.</stage>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Unfriended Innocence implores in vain!</l>
+      <l>EDWINA, range the Camp! seek out my EGBERT!</l>
+      <l>Tell him, his THYRA kneels in vain for Mercy,</l>
+      <l>And bid him fly to save her!—Oh, I rave!</l>
+      <l>E'en now, reientless Ruffians bind him down,</l>
+      <l>In the drear Depth of dark Imprisonment;</l>
+      <l>Far from his helpless THYRA.</l>
+     </sp>
+    </div>
+    <div n="4" type="scene">
+     <pb n="43" facs="51"/>
+     <head>SCENE IV.</head>
+     <stage>
+      <hi>To them,</hi> ATHELSTAN.</stage>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Sure, the Voice</l>
+      <l>Of Female Lamentation struck mine Ear.—</l>
+      <l>THYRA!—whom do I see?—What, drown'd in Tears?</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Oh, lost, for ever lost!—This barbarous <hi>Dane!</hi>
+      </l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>What of him?</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Bent to do a Deed of Horror,</l>
+      <l>Ev'n now he hath dragg'd to dark Imprisonment</l>
+      <l>My guiltless Lord!—He threatens instant Violence!</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Curs'd be the Day on which he touch'd our Shores!</l>
+      <l>Come; let us from the Camp:—Ere this, my <hi>Mercians,</hi>
+      </l>
+      <l>Warn'd of th' Oppressions of this bloody <hi>Dane,</hi>
+      </l>
+      <l>And touch'd with Pity for their Country's Woes,</l>
+      <l>Burn to rejoin their King.—Come, gentle THYRA,—</l>
+      <l>EDWINA, come.—My Presence shall protect you,</l>
+      <l>Safe thro' this hostile Camp.</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Too generous, Duke!</l>
+      <l>Can I desert my Lord!</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Then stay, till GOTHMUND—</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Oh, save me, ATHELSTAN!</l>
+      <l>Haste, let us hence!—I have no Help but thee!</l>
+      <l>Alas, my virtuous EGBERT, must I leave thee!</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Nay, fear not for him:—Ere yon Moon hath rode</l>
+      <l>Her Circuit round the Skies, I'll pour my Thunder</l>
+      <l>On these accursed <hi>Danes,</hi> and give him Freedom.</l>
+      <l>SIWARD, ere this, throughout the Ranks hath wak'd</l>
+      <l>
+       <pb n="44" facs="52"/>
+Brave Discontent, and kindled all my War.—</l>
+      <l>Come, let us quit the Camp.—</l>
+     </sp>
+    </div>
+    <div n="5" type="scene">
+     <head>SCENE V.</head>
+     <stage>
+      <hi>To them,</hi> GOODWIN.</stage>
+     <sp who="#goodwin">
+      <speaker>GOODWIN.</speaker>
+      <l>Hear, ATHELSTAN!</l>
+      <l>Our General sends thee Greeting.—Sacred ever</l>
+      <l>He deems the Rights of War: yet Pow'rs ally'd</l>
+      <l>Own the Priority of peaceful Claim.—</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>'Tis granted.—What of this?—</l>
+     </sp>
+     <sp who="#goodwin">
+      <speaker>GOODWIN.</speaker>
+      <l>That captive Fair,</l>
+      <l>Won by thy Prowess in the City's Storm,</l>
+      <l>By Law of War is Thine: An earlier Right</l>
+      <l>Our General pleads: For Proofs of Circumstance</l>
+      <l>Speak her by Birth a <hi>Dane.</hi>
+      </l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>No false Pretence</l>
+      <l>Shall wile her Virtues from me.—THYRA, speak:—</l>
+      <l>Is't not a feign'd Pretence?</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Oh mighty Duke!</l>
+      <l>Tho' Ruin hangs upon the Acknowledgment;</l>
+      <l>I fear, I am a <hi>Dane;</hi> and thence unworthy</l>
+      <l>A generous <hi>Briton's</hi> Care!</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Wrong not thy Worth:</l>
+      <l>For, as within the Forest's howling Depth,</l>
+      <l>Where grifly Bears, and Pards, and Tigers roam,</l>
+      <l>The wild Rose blooms; So oft in savage Lands</l>
+      <l>Untutor'd Virtue dwells: Where'er 'tis found,</l>
+      <l>It claims Defence: Virtue is Virtue's Care,</l>
+      <l>Alike in ev'ry Clime.—Then tell me, GOODWIN,—</l>
+      <l>For ere I yield my Captive, I will know:—</l>
+      <l>
+       <pb n="45" facs="53"/>
+What Proofs of Circumstance—</l>
+     </sp>
+     <sp who="#goodwin">
+      <speaker>GOODWIN.</speaker>
+      <stage>[producing the Chain.</stage>
+      <l>Behold this Chain—</l>
+      <l>With <hi>Runic</hi> Characters—</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <stage>[seizing the Chain.</stage>
+      <l>Ye Pow'rs of Heav'n,</l>
+      <l>That weave th' inextricable Maze of Fate!</l>
+      <l>What do I see!—If 'tis your sacred Will</l>
+      <l>To make me blest, now lend a pitying Ray!</l>
+      <l>This very Chain, my once victorious Arm</l>
+      <l>Rent from the proud Neck of a slaughter'd <hi>Dane.—</hi>
+      </l>
+      <l>Oh Joy, Oh Grief! Oh Rapture to my Soul!</l>
+      <l>How,—when,—where,—whence? Speak, GOODWIN!</l>
+      <stage>[THYRA, speak!</stage>
+      <l>Or Hope and Doubt will heave my Heart to bursting!</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Ah me! I was a helpless Infant, lost</l>
+      <l>Ere Mem'ry yet was seated in the Brain!</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Oh blessed Hope! Such was my EMMA too!—</l>
+      <l>EDWINA,—can'st thou tell?—Range, range the Round,</l>
+      <l>Where Mem'ry hoards her Treasures, and brings back</l>
+      <l>Old Time! Confirm the Whispers of sweet Hope,</l>
+      <l>And give me back my Child!</l>
+     </sp>
+     <sp who="#edwina">
+      <speaker>EDWINA.</speaker>
+      <l>Heav'n! dost thou weep</l>
+      <l>A Daughter lost?</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>And long have wept in vain!—</l>
+      <l>Since she was lost, full twenty Years have shed</l>
+      <l>Their various Woes on my poor orphan'd Child!—</l>
+      <l>When furious HALFDEN ravag'd <hi>Mercia's</hi> Cities,</l>
+      <l>Then was my Child (this very Chain she wore!)</l>
+      <l>Snatch'd from her Cradle by unpitying <hi>Danes</hi>
+      </l>
+      <l>And thence convey'd to <hi>Denmark's</hi> barbarous Shore!</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Oh gracious Heav'n!</l>
+      <l>
+       <pb n="46" facs="54"/>
+On that lamented Time,</l>
+      <l>This very Chain circling her infant Neck,</l>
+      <l>By my dear Father's Hand was THYRA snatch'd</l>
+      <l>From the devouring Deep!</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>'Tis She!—My Child! my Child!</l>
+      <stage>[Embracing her.</stage>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>My Father!</l>
+     </sp>
+     <sp who="#edwina">
+      <speaker>EDWINA.</speaker>
+      <l>Gracious Heav'n!</l>
+      <l>Who can behold this Sight, and not dissolve</l>
+      <l>In Tears of Joy!—</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>And was it mine, to save thee!</l>
+      <l>Oh Pow'rful Nature!—For since first I saw thee,</l>
+      <l>My EMMA's Sweetness struck on ev'ry Sense:</l>
+      <l>Some soft Attraction drew!—some unknown Charm</l>
+      <l>Work'd in my Soul, and bade me wish thee Mine!—</l>
+      <l>Haste, GOODWIN, haste to GOTHMUND: there disclose</l>
+      <l>This Tale of Joy, this wondrous Burst of Bliss!</l>
+      <l>Tell him, that Nature cancels ev'ry Claim,</l>
+      <l>And gives my EMMA to her Father's Love!</l>
+     </sp>
+     <sp who="#goodwin">
+      <speaker>GOODWIN.</speaker>
+      <l>I'll forthwith to his Tent: A Minute's Round</l>
+      <l>Shall bring thee his Resolve.</l>
+     </sp>
+     <stage>
+      <hi>Exit</hi> GOODWIN.</stage>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Eternal Providence!</l>
+      <l>To whose all-seeing Mind, th' unmeasur'd Round</l>
+      <l>Of wide Events is present! far beyond</l>
+      <l>The narrow Ken of a weak mortal Eye!</l>
+      <l>Deep and unsearchable, yet just and true,</l>
+      <l>Are thy ador'd Decrees, O Pow'r divine!</l>
+      <l>Thou ev'n beyond the Darings of fond Hope,</l>
+      <l>Hast from the Bosom of the raging Seas</l>
+      <l>Restor'd my long-lost Daughter!—</l>
+      <stage>[Embracing her passionately.</stage>
+     </sp>
+     <sp who="#thyra">
+      <pb n="47" facs="55"/>
+      <speaker>THYRA.</speaker>
+      <l>Happy, happy!</l>
+      <l>Oh Bliss unspeakable! And do I live,</l>
+      <l>Thus to be press'd to a fond Parent's Heart!</l>
+      <l>To hang upon his Breast! To know the Joy,</l>
+      <l>The heart-felt Raptures that attend the Names</l>
+      <l>Of Child and Daughter!</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Darling of my Soul!</l>
+      <l>Oh Comfort of my Age;—Yet, yet one Grief</l>
+      <l>Checks the sweet Tumult of my honest Joy!</l>
+      <l>One piercing Grief lies heavy on my Soul!—</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Can I relieve thy Pain?</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Not all the lenient Balms thy Love can pour,</l>
+      <l>Can ever give me Rest!—Oh Madness, Madness!</l>
+      <l>I have undone my Country!</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Alas, the Pity!</l>
+      <l>Think not so deeply of it.</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Oh, I am vile!</l>
+      <l>I dare not lift my guilty Eyes to Heav'n!</l>
+      <l>Yet Heav'n hath show'r'd a Blessing on my Head,</l>
+      <l>Beyond the World's wide Empire!—What may this mean!—</l>
+      <l>Sure, 'tis the Prelude to some dire Event!</l>
+      <l>A passing Gleam, sent by almighty Vengeance,</l>
+      <l>To deepen future Woe!</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Nay, rather deem it</l>
+      <l>The kind Encouragement of Heav'n, vouchsaf'd</l>
+      <l>To thy returning Virtue!</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Heav'n is just,</l>
+      <l>Yet merciful:—Let me but rescue <hi>England,</hi>
+      </l>
+      <l>And I shall yet be blest!—</l>
+     </sp>
+    </div>
+    <div n="6" type="scene">
+     <pb n="48" facs="56"/>
+     <head>SCENE VI.</head>
+     <stage>
+      <hi>To them,</hi> GOODWIN.</stage>
+     <sp who="#goodwin">
+      <speaker>GOODWIN.</speaker>
+      <l>Hear, <hi>Mercia's</hi> Duke!</l>
+      <l>GOTHMUND decrees, that ev'ry Right of Peace</l>
+      <l>Yields to the Conqu'ror's Pow'r; and claims his Captive.</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Sooner your Swords shall drink my warm Life-blood—</l>
+     </sp>
+     <sp who="#goodwin">
+      <speaker>GOODWIN.</speaker>
+      <l>Hoa! DUNELM—Bear her off!—</l>
+     </sp>
+     <stage>[DUNELM <hi>and the Guard appear, and seize</hi> THYRA.</stage>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <stage>[as they carry her off struggling.</stage>
+      <l>Help! Help! Undone!</l>
+      <l>Dear Father, help!—</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <stage>[Part of the Guardremain and intercept him.</stage>
+      <l>Damnation! Treach'ry! Treach'ry!—</l>
+      <l>Slaves, let me pass—</l>
+     </sp>
+     <sp who="#goodwin">
+      <speaker>GOODWIN.</speaker>
+      <l>Not this Way, by the Gods—</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <stage>[drawing his Sword.</stage>
+      <l>By Heav'n, I'll mow my Passage with my Sword.—</l>
+     </sp>
+     <sp who="#goodwin">
+      <speaker>GOODWIN.</speaker>
+      <l>Disarm him—</l>
+     </sp>
+     <stage>[the remaining Guards disarm him.</stage>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Villains! give me back my Daughter!</l>
+     </sp>
+     <sp who="#goodwin">
+      <speaker>GOODWIN.</speaker>
+      <l>Rave not, old Man!—She now is GOTHMUND'S Charge.</l>
+     </sp>
+     <stage>
+      <hi>[Ex.</hi> GOODWIN <hi>and Guards.</hi>
+     </stage>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Inhuman Dogs!—Tell me—in Pity tell me—</l>
+      <l>Where is my Daughter! Give me back my Daughter!—</l>
+      <l>Oh, Mercy, Mercy, Heav'n!—</l>
+     </sp>
+     <sp who="#edwina">
+      <speaker>EDWINA.</speaker>
+      <l>Alas, my Lord!</l>
+      <l>I fear She's lost for ever!—</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Vengeance! Vengeance—</l>
+      <l>EDWINA, come!—I'll to this bloody <hi>Dane,</hi>
+      </l>
+      <l>
+       <pb n="49" facs="57"/>
+And frown him into Stone!—Loud in his Ear</l>
+      <l>I'll thunder all my Wrongs; and shake his Soul</l>
+      <l>With Sounds as dire, as when at general Doom</l>
+      <l>The dreadful Trump shall wake the guilty Dead!</l>
+      <l>Shou'd he be deaf to injur'd Nature's Claim,—</l>
+      <l>I'll to my <hi>Mercians,</hi> and let loose Revenge!</l>
+      <l>Swift o'er these ruffian <hi>Danes</hi> I'll pour the Flood</l>
+      <l>Of War; and drown the guilty Camp in Blood;</l>
+      <l>Rage thro' their Tents, like fierce consuming Fire;</l>
+      <l>And among Heaps of slaughter'd Foes expire!</l>
+     </sp>
+    </div>
+    <trailer>
+     <hi>End of the</hi> THIRD ACT.</trailer>
+   </div>
+   <div n="4" type="act">
+    <pb n="50" facs="58"/>
+    <head>ACT IV.</head>
+    <div n="1" type="scene">
+     <head>SCENE I.</head>
+     <stage>GOTHMUND'S <hi>Tent.</hi>
+     </stage>
+     <stage>GOODWIN, DUNELM.</stage>
+     <sp who="#goodwin">
+      <speaker>GOODWIN.</speaker>
+      <l>IS she secur'd?</l>
+     </sp>
+     <sp who="#dunelm">
+      <speaker>DUNELM.</speaker>
+      <l>Fast:—Barricado'd strong</l>
+      <l>By doubled Ranks of Guard: whose levell'd Spears</l>
+      <l>Hem round the Tent.</l>
+     </sp>
+     <sp who="#goodwin">
+      <speaker>GOODWIN.</speaker>
+      <l>Did not the Duke of <hi>Mercia,</hi>
+      </l>
+      <l>Attempt to wrest her from them?</l>
+     </sp>
+     <sp who="#dunelm">
+      <speaker>DUNELM.</speaker>
+      <l>Yes: with Fury,</l>
+      <l>Fierce as the foaming Boar that whets his Tusks,</l>
+      <l>When the bold Hunter hath destroy'd his Young,</l>
+      <l>He clamour'd to the Guard. They mock'd his Rage.</l>
+      <l>Thrice he essay'd, with phrenzy-like Despair,</l>
+      <l>To pierce their Ranks: Then Fury sunk to Grief.</l>
+      <l>Melting in Tears, he fu'd for one small Grace:</l>
+      <l>Pray'd that EDWINA, her late fellow Captive,</l>
+      <l>Might share her Griefs. His Suit in Sport was granted.</l>
+      <l>EDWINA now weeps o'er her.—But he comes,</l>
+      <l>To plead his Right with GOTHMUND.</l>
+     </sp>
+     <sp who="#goodwin">
+      <speaker>GOODWIN.</speaker>
+      <l>Fierce will be</l>
+      <l>Their meeting Frown; when Rage encounters Rage;</l>
+      <l>In either Breast a Storm.</l>
+     </sp>
+     <sp who="#dunelm">
+      <pb n="51" facs="59"/>
+      <speaker>DUNELM.</speaker>
+      <l>I'll to my Watch:</l>
+      <l>E'en let the Tempest roar.</l>
+     </sp>
+     <stage>
+      <hi>[Exit</hi> DUNELM.</stage>
+     <sp who="#goodwin">
+      <speaker>GOODWIN.</speaker>
+      <l>My Charge is here.</l>
+     </sp>
+    </div>
+    <div n="2" type="scene">
+     <head>SCENE II.</head>
+     <stage>
+      <hi>To him,</hi> ATHELSTAN.</stage>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Vile Caitiff! Where's thy General?</l>
+     </sp>
+     <sp who="#goodwin">
+      <speaker>GOODWIN.</speaker>
+      <l>Fair Words, <hi>Briton.</hi>
+      </l>
+      <l>Choak thy foul Breath. The General's in his Tent.</l>
+      <l>What woud'st thou?</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Tell him, ATHELSTAN is come.</l>
+      <l>His Heart will speak the rest.</l>
+     </sp>
+     <sp who="#goodwin">
+      <speaker>GOODWIN.</speaker>
+      <l>Ev'n now he sits</l>
+      <l>On secret Council: Nor can Clamour gain</l>
+      <l>Admittance to his Ear.</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Insidious Hell-hound!</l>
+      <l>Or bring us Face to Face; or by yon Heav'n,</l>
+      <l>His Tent shall be a Cobweb to my Rage.</l>
+      <l>I'll tear the sheeted Cordage from its Base,</l>
+      <l>And give it to the Winds: I'll call so loud,</l>
+      <l>The Heav'ns shall echo me; and the chaste Stars</l>
+      <l>Eclipse with Horror at th' infernal Deed</l>
+      <l>Which his fell Heart conceives.</l>
+     </sp>
+    </div>
+    <div n="3" type="scene">
+     <head>SCENE III.</head>
+     <stage>
+      <hi>To them,</hi> GOTHMUND.</stage>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>What lawless Clamour</l>
+      <l>Breaks on my Tent?</l>
+     </sp>
+     <sp who="#athelstan">
+      <pb n="52" facs="60"/>
+      <speaker>ATHELSTAN.</speaker>
+      <l>What lawless Rapine late</l>
+      <l>Invaded mine?</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Thou shalt be answer'd bravely.—</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>I will be answer'd truly.—Think not, GOTHMUND,</l>
+      <l>That Frowns can terrify; or vile Evasion</l>
+      <l>Silence my loud-tongu'd Wrongs.—Speak—tell me, <hi>Dane,—</hi>
+      </l>
+      <l>Why this audacious Insult on the Rights</l>
+      <l>Of sworn Alliance, and the Laws of War?</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Am I not here supreme?—Whate'er was won,</l>
+      <l>Was won beneath my Banner. Thou, proud Duke,</l>
+      <l>Wert but a Wheel within the vast Machine</l>
+      <l>That tore up <hi>England's</hi> Freedom. Yes, thy Sword</l>
+      <l>Was but the Instrument of GOTHMUND's Will.</l>
+      <l>I was the Soul, the all-directing Pow'r</l>
+      <l>That rul'd the War: Whate'er ye won, ye won</l>
+      <l>Each for himself indeed; but all for me.</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Oh Falsehood, foul as Hell! What <hi>Dane</hi> so vile,</l>
+      <l>But now enjoys the Conquest that he reap'd?</l>
+      <l>Behold th' unpitying Riot of the Camp,</l>
+      <l>Rich with the Spoils of my poor ruin'd Country!</l>
+      <l>How ev'ry Soldier lords it o'er the Heap</l>
+      <l>Of Plunder which he won!</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>So GOTHMUND wills.</l>
+      <l>But did so dear a Prize inrich their Tents,</l>
+      <l>As lately brighten'd ATHELSTAN's;—my Voice,</l>
+      <l>Swift as the Virtue of a magic Spell,</l>
+      <l>Shou'd leave them void as thine.</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Curs'd Insolence</l>
+      <l>Of barb'rous Pow'r!—Yet think not ATHELSTAN</l>
+      <l>Roll'd in the sordid List of GOTHMUND's Slaves.</l>
+      <l>
+       <pb n="53" facs="61"/>
+I plead the Law of War; and claim my Captive.</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Thine▪</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Mine: by Right of War.—</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Hence, prating Pedant!</l>
+      <l>Thou shalt be frock'd, and mantled in the Garb</l>
+      <l>Worn by your Cell-bred Monks.—By Right of War?</l>
+      <l>Dost thou not see, what Thousands hemm me round,</l>
+      <l>Dreadful in crested Helms? These plead the Rights</l>
+      <l>Of GOTHMUND and of <hi>Denmark.</hi> Think'st thou, <hi>Briton,</hi>
+      </l>
+      <l>We touch'd these Shores, to parley with our Slaves</l>
+      <l>In weak Contention? Violence is our Law.</l>
+      <l>The Sword is Valour's God: 'Twas thine this Morn:</l>
+      <l>And now 'tis GOTHMUND'S.</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Blush, Ingratitude!</l>
+      <l>What Sword but ATHELSTAN'S!—Down, swelling Heart!</l>
+      <l>No! heav'nly Pow'rs! I dare not call you down,</l>
+      <l>In witness to my Wrongs!—Yet this from thee!—</l>
+      <l>Oh thankless <hi>Dane!</hi>
+      </l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Go, preach thy Follies, <hi>Christian,</hi>
+      </l>
+      <l>To the obscure and coward Sons of Peace.</l>
+      <l>I wing a loftier Air; where Eagle-Glory</l>
+      <l>Soars high above Reproach.—Fair THYRA'S mine.</l>
+      <l>More dear than half the Spoils of conquer'd <hi>Britain.</hi>
+      </l>
+      <l>Thou ne'er shalt see her more.</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>O stern Decree!</l>
+      <l>Yet hear me, GOTHMUND!—Hear a Parent's Pray'r!—</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>A Parent's Pray'r!</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Yes: THYRA is my Child; now scarce restor'd</l>
+      <l>To the fond Wishes of her aged Father,</l>
+      <l>Till plung'd in deeper Woe!</l>
+     </sp>
+     <sp who="#gothmund">
+      <pb n="54" facs="62"/>
+      <speaker>GOTHMUND.</speaker>
+      <l>THYRA thy Child?</l>
+      <l>A thin Pretence!—She was an infant <hi>Dane;</hi>
+      </l>
+      <l>Snatch'd from a Wreck that sunk on <hi>England's</hi> Coast.</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>That Wreck was rich with conquer'd MERCIA's Plunder.</l>
+      <l>My Child was there. Each speaking Circumstance,</l>
+      <l>The well-known Chain, the fatal Time, the Place,</l>
+      <l>All rising into Proof, proclaim her mine:</l>
+      <l>Mine, GOTHMUND, mine: The only Pledge of Love,</l>
+      <l>Her dying Mother left.—Behold these Tears</l>
+      <l>That trickle down my Cheek.—Oh think what Pangs</l>
+      <l>Must inly rend the Heart of ATHELSTAN,</l>
+      <l>Ere he cou'd weep!—Let gentle Pity then—</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Pity! The Foe to ev'ry manly Deed!</l>
+      <l>The Bane of Victory: a timorous Child,</l>
+      <l>Scar'd at the gorgeous Pride and Pomp of War;</l>
+      <l>Fit, only fit, to rule a Woman's Breast!</l>
+      <l>Avaunt!—I scorn its Cries!—What! <hi>Mercia's</hi> Duke</l>
+      <l>Dissolv'd in Woman's Tears?—</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Yet, there are Times,</l>
+      <l>When Tears are brave and honest: Such are these:</l>
+      <l>Ennobled by Humanity and Love.</l>
+      <l>'Tis Nature pleads within me: Scorn not, GOTHMUND,</l>
+      <l>Her generous Feelings!—On some future Hour,</l>
+      <l>When Fate shall frown on <hi>Denmark;</hi> some dear Child,</l>
+      <l>Thy Soul's best Treasure, may be torn from thee!</l>
+      <l>Woud'st thou not weep? Oh, timely wise, beware!</l>
+      <l>Nor heap an injur'd Father's Curses on thee!</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Is this brave ATHELSTAN? Beneath whose Spear</l>
+      <l>Squadrons have sunk, unequal to its Rage?</l>
+      <l>The Warrior's sled. Hence, Dotard, hence: and take</l>
+      <l>Th' effeminate Staff and Spindle; best befitting</l>
+      <l>A Soul so like a Woman.</l>
+     </sp>
+     <sp who="#athelstan">
+      <pb n="55" facs="63"/>
+      <speaker>ATHELSTAN.</speaker>
+      <l>Hell and Horror!</l>
+      <l>Pangs! choaking Pangs!—No—burst not yet, my Heart;</l>
+      <l>Till I have reap'd Revenge.</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Revenge? old Man!</l>
+      <l>Hence, Traitor!—seek for Vengeance where thou may'st.</l>
+      <l>Haste thee to ETHELRED: go tell thy King,</l>
+      <l>GOTHMUND hath injur'd thee.—</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Rush down, ye Heav'ns!</l>
+      <l>Ye pitying Thunders, rivet me to Earth!</l>
+      <l>And save me from this Hell-hound's Voice, that shakes</l>
+      <l>My Frame to Dissolution!</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Such Reward</l>
+      <l>Shall ev'ry Traitor find.</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Oh, I cou'd tear these white Hairs from their Roots!—</l>
+      <l>Curs'd be the Pine on which ye plough'd the Seas!</l>
+      <l>Curs'd be th' unhallow'd Breeze that fill'd your Sails!</l>
+      <l>Curs'd be the Tides that bore you to our Coast!</l>
+      <l>But doubly curs'd am I, whose headlong Rage—</l>
+      <l>Yes; righteous Heav'n! with Tears of burning Anguish,</l>
+      <l>I own thy Justice on me!</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Hence, vile Rebel!</l>
+      <l>Hence,—nor pollute my Camp. For know, that Treason</l>
+      <l>And prostituted Faith, like Strumpets vile,</l>
+      <l>The Slaves of Appetire, when Lust is sated,—</l>
+      <l>Are turn'd adrist to dwell with Infamy,</l>
+      <l>By those that us'd them.</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Oh, for my honest Sword!—I burn, I burn!</l>
+      <l>And <hi>Hccla's</hi> Fires are here!—Th' invenom'd Shast</l>
+      <l>Drinks up my poison'd Spirit.—Come, wild Fury!</l>
+      <l>
+       <pb n="56" facs="64"/>
+Come with thy Blood-shot Eyes, and mad'ning Foam!</l>
+      <l>Oh, nerve me to the ten-fold Strength of Phrenzy!</l>
+      <l>That I may rend up Rocks and rooted Trees,</l>
+      <l>And hurl Destruction on him!</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Quit my Tent:</l>
+      <l>Think'st thou, a Warrior crown'd with Glory's Wreath</l>
+      <l>Can dread the Foam of headlong Rage? Or stand</l>
+      <l>Aw'd by the Phrenzy of a Madman's Brain!</l>
+      <l>Hence! vent thy Ravings to the stormy Seas:</l>
+      <l>They'll heed thee, more than I.—</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Yes: I will go.—</l>
+      <l>Thou think'st me helpless, friendless, and disarm'd:</l>
+      <l>Yet shalt thou rue my Wrongs.—By Heav'n I'll come</l>
+      <l>In Terror clad; more dreadful than the Pest</l>
+      <l>That walks in midnight Darkness.—Yes: I'll go.</l>
+      <l>But, barbarous <hi>Dane!—</hi>Take heed of my Return!</l>
+     </sp>
+     <stage>
+      <hi>[Exit</hi> ATHELSTAN.]</stage>
+    </div>
+    <div n="4" type="scene">
+     <head>SCENE IV.</head>
+     <stage>
+      <hi>To him,</hi> DUNELM.</stage>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Hoa, DUNELM!</l>
+      <l>Guard each Avenue of the Camp.</l>
+      <l>Forbid yon Traitor's Egress: If he attempt</l>
+      <l>To 'scape the Watch, arrest him: For his Heart</l>
+      <l>Labours with Ruin: He is false to <hi>Denmark.—</hi>
+      </l>
+      <stage>
+       <hi>[Exit</hi> DUNELM.]</stage>
+      <l>Go, credulous Dotard! Cou'd thy Folly hope</l>
+      <l>To win the Friendship of thy Country's Foe?</l>
+      <l>Ev'n such, thro' ev'ry Age, shall be the Lot</l>
+      <l>Of <hi>British</hi> Blindness, when it aids Invasion:</l>
+      <l>The Slave of Conquest first; and then her Scorn:</l>
+      <l>The Scaffolding on which Ambition mounts;</l>
+      <l>Then spurns it to the Earth, a Refuse vile,</l>
+      <l>
+       <pb n="57" facs="65"/>
+Fit for Contempt to tread on.—Welcome, HAROLD,</l>
+      <l>Hast seen our Captive EGBERT?</l>
+     </sp>
+     <stage>
+      <hi>To him,</hi> HAROLD.</stage>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>Aye, my Lord.</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Didst thou declare my purpos'd Thought?</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>I did.</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>How did he meet it?</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>First, with frantic Rage</l>
+      <l>He shook his Chains, and curs'd thee by his Gods.</l>
+      <l>I told him, Rage and frantic Banns were vain.</l>
+      <l>If he resign'd fair THYRA to thy Arms,</l>
+      <l>(Since only He cou'd win her to thy Wish)</l>
+      <l>Freedom was his. But if his stubborn Pride</l>
+      <l>Shou'd thwart thy Will; To-morrow's Breeze shou'd waft him</l>
+      <l>To Chains, to Darkness, and the dreary Depth</l>
+      <l>Of <hi>Norway's</hi> mine: while she, imprison'd here,</l>
+      <l>The Vassal of Desire, shou'd sate thy Wish.</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Did not the threatned Vengeance bend his Pride?</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>A sullen Pause took Place. His fixed Eyes</l>
+      <l>Devour'd the Ground: as if some mighty Thought</l>
+      <l>Labour'd within him; and to secret Council</l>
+      <l>Call'd inward ev'ry Pow'r; that for a while</l>
+      <l>Each idle Sense stood vacant.</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>What ensu'd?</l>
+      <l>That Pause from Rage did, sure, bespeak Consent.</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>It did. Yet with evading Speech he answer'd,</l>
+      <l>Cannot thy General wait some happier Hour,</l>
+      <l>
+       <pb n="58" facs="68"/>
+When Time hath heal'd her Woes?—On that, I told him,</l>
+      <l>Unconquerable Passion swell'd thy Breast;</l>
+      <l>He might as soon controul the Tides, impell'd</l>
+      <l>By yon fair Planet's Influence.—</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Aye: tho' Storms,</l>
+      <l>And raging Seas conspir'd with ev'ry Orb,</l>
+      <l>To drown the lofty Shore!</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>Such was my Hint.—</l>
+      <l>He said, the burning Blush wou'd stain his Cheek,</l>
+      <l>Shou'd the surrounding Guard that led him to her,</l>
+      <l>Witness his Shame: I gave him fix'd Assurance,</l>
+      <l>That my Command shou'd keep the Guard at Distance:</l>
+      <l>While he, admitted to her lonely Tent,</l>
+      <l>Unheard shou'd plead his Life, and GOTHMUND's Love.</l>
+      <l>On this, he gave Consent.—</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>Then haste thee, HAROLD.</l>
+      <l>Bid GOODWIN lead the Captive to his Wife:</l>
+      <l>See him recall'd: That done, draw off thy Guard</l>
+      <l>To a more distant Station from her Tent.</l>
+      <l>For ere the Noon of Night, on Passion's Wing</l>
+      <l>I'll fly, to celebrate the Rites of Love.</l>
+      <l>Yet wear a watchful Eye, intent tho' distant:</l>
+      <l>Haply, he means to wile her from our Camp.</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>My Life shall answer it.—</l>
+     </sp>
+     <sp who="#gothmund">
+      <speaker>GOTHMUND.</speaker>
+      <l>At length she's mine.</l>
+      <l>Deceit hath colour'd o'er my bold Attempt.</l>
+      <l>Now, fiery ATHELSTAN, go curse thy Folly:</l>
+      <l>Rave to the Winds and Seas, and rend the Air</l>
+      <l>With twice their Clamour!—Farewel, valiant HAROLD:</l>
+      <l>Speed my Resolve: I'll to my inner Tent.</l>
+     </sp>
+     <stage>
+      <hi>[Exit</hi> GOTHMUND.</stage>
+     <sp who="#harold">
+      <pb n="59" facs="69"/>
+      <speaker>HAROLD.</speaker>
+      <l>Now, Vengeance, thou art mine!—Unthankful GOTHMUND!</l>
+      <l>To pay my honest and deep-printed Scars</l>
+      <l>With vile Neglect!—Go, headlong Fool of Passion!</l>
+      <l>Whose flattering Whisper cou'd alone infuse</l>
+      <l>This Dream of Hope, that EGBERT e'er shall stoop</l>
+      <l>To gather Life from Shame!—Yes, he shall go:</l>
+      <l>Yet not to mould her into vile Compliance,</l>
+      <l>But arm her fainting Virtue with new Strength,</l>
+      <l>Equal to this dread Conflict.—Yet, lest Fear,</l>
+      <l>Or Woman's Weakness sink beneath the Trial,</l>
+      <l>A better Hope remains:—MERCIA's brave Duke:—</l>
+      <l>Yes, injur'd ATHELSTAN! Thy Arm shall be</l>
+      <l>The dark and fearless Minister of Fate;</l>
+      <l>And give me deep Revenge.</l>
+     </sp>
+     <stage>
+      <hi>[Exit</hi> HAROLD.</stage>
+    </div>
+    <div n="5" type="scene">
+     <head>SCENE V.</head>
+     <stage>Changes to the open Camp.</stage>
+     <stage>DUNELM. ATHELSTAN, <hi>following.</hi>
+     </stage>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Yet hear me, DUNELM!</l>
+      <l>For Pity's sake, relent.</l>
+     </sp>
+     <sp who="#dunelm">
+      <speaker>DUNELM.</speaker>
+      <l>Peace, clam'rous Tongue!</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>What! shall your Guards spurn me with Insolence?</l>
+      <l>Your barbarous Camp imprison me?</l>
+     </sp>
+     <sp who="#dunelm">
+      <speaker>DUNELM.</speaker>
+      <l>No more.</l>
+      <l>Within this Mound, the General's Voice is Law.</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>She is my Child! Art thou, too, deaf to Mercy?</l>
+     </sp>
+     <sp who="#dunelm">
+      <speaker>DUNELM.</speaker>
+      <l>Vex me not, <hi>Briton!</hi>
+      </l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>But release my Daughter!—</l>
+      <l>Give me my Child, and let me quit your Camp,—</l>
+      <l>My Dukedom's Wealth is thine!</l>
+     </sp>
+     <sp who="#dunelm">
+      <pb n="60" facs="70"/>
+      <speaker>DUNELM.</speaker>
+      <l>Thy Dukedom's Wealth?</l>
+      <l>Vain Man! Thy Pow'r is swallow'd up in Conquest:</l>
+      <l>Thy Titles vanish'd with thy Country's Freedom:</l>
+      <l>Thy boasted Wealth is fled to <hi>Denmark's</hi> Shore:</l>
+      <l>Thy Palace doom'd for <hi>Danes</hi> to riot in.</l>
+      <l>Peace then: and thank our Bounty, that we leave thee</l>
+      <l>Life, and the general Air.—</l>
+     </sp>
+     <stage>
+      <hi>[Exit</hi> DUNELM.</stage>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Oh merciless!</l>
+      <l>Yet, righteous Pow'rs! what Claim have I to Mercy!</l>
+      <l>Did I shew Mercy, on this fatal Morn,</l>
+      <l>To my poor bleeding Country; when this Arm</l>
+      <l>Made Widows childless!—Dar'st thou then, bold Wretch,</l>
+      <l>Dar'st thou against th' afflicting Hand of Heav'n</l>
+      <l>To rise, and plead for Mercy!—Rather bow thee</l>
+      <l>Low in the Dust!—Yes, thou shalt be my Bed,</l>
+      <stage>[Throws himself on the Ground.</stage>
+      <l>Cold Earth! Here will I lie, till Anguish end me!</l>
+      <l>Now rise, ye Ghosts of my wrong'd Countrymen!</l>
+      <l>Ye Spectres pale, rise with your gaping Wounds,</l>
+      <l>And hideous Yell!—Bring with you dire Despair</l>
+      <l>From the dread Caverns of eternal Night,</l>
+      <l>Where deep she dwells with agonizing Groans,</l>
+      <l>And sleepless Terrors! Rise, array'd in Blood!</l>
+      <l>Plant round your Horrors! 'till affrighted Reason</l>
+      <l>Start from my Brain; and I, the Prey of Phrenzy,</l>
+      <l>Like the fierce Mountain-Wolf in Madness foaming,</l>
+      <l>Howl to the midnight Moon!—</l>
+     </sp>
+    </div>
+    <div n="8" type="scene">
+     <head>SCENE VIII.</head>
+     <stage>
+      <hi>To him,</hi> HAROLD.</stage>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>'Twas sure, the Voice</l>
+      <l>Of ATHELSTAN.—What! prostrate on the Ground!</l>
+      <l>Art thou not ATHELSTAN?</l>
+     </sp>
+     <sp who="#athelstan">
+      <pb n="61" facs="71"/>
+      <speaker>ATHELSTAN.</speaker>
+      <l>I am that Wretch</l>
+      <l>Which once was ATHELSTAN! Fair <hi>England's</hi> Boast,</l>
+      <l>I rear'd my Head in Honour: now behold me</l>
+      <l>Low-level'd with the Earth; a hideous Ruin;</l>
+      <l>Where, 'midst the Desolations of my Soul,</l>
+      <l>Despair and Anguish dwell!</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>What heavy Woe</l>
+      <l>Hath weigh'd thee to the Dust?—Speak, valiant Duke.—</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Whoe'er thou art, Oh leave me to my Pangs!</l>
+      <l>If thou'rt a <hi>Dane;</hi> know, I detest and curse thee.</l>
+      <l>If thou'rt a <hi>Briton,</hi> waste not generous Pity,</l>
+      <l>But pour thy Curse on Me!—</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>Know'st thou not HAROLD?</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>HAROLD? My Woes had swallow'd all Attention:</l>
+      <l>Indeed, I knew thee not.</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>Why this Despair?</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Alas, my Child, my Child!—But thou'rt a <hi>Dane,</hi>
+      </l>
+      <l>And know'st not Pity!</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>Hapless ATHELSTAN!</l>
+      <l>The Colour of thy Grief indeed is deep:</l>
+      <l>Thou know'st not half thy Woes!</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Thy Words are dark.—</l>
+      <l>Oh my prophetic Soul!—I dare not ask thee.—</l>
+      <l>But if thou bear'st a Tale, with Horrors fraught,</l>
+      <l>Which Pity dreads to tell;—In Mercy kill me:</l>
+      <l>Strike deep thy friendly Sword into my Breast;</l>
+      <l>For I am robb'd of Mine!—My injur'd Daughter!—</l>
+      <l>Is it not so?</l>
+     </sp>
+     <sp who="#harold">
+      <pb n="62" facs="72"/>
+      <speaker>HAROLD.</speaker>
+      <l>The fatal Hour approaches.</l>
+      <l>For ere the Night hath won the Vault of Heav'n,</l>
+      <l>GOTHMUND, resolv'd on impious Violation,</l>
+      <l>Will plunge her in Dishonour.</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Plagues and Palsy,</l>
+      <l>Disease and Pestilence consume the Robber,</l>
+      <l>Infect his Blood, and wither ev'ry Pow'r!—</l>
+      <l>Oh HAROLD! why,—why did'st thou pierce my Soul</l>
+      <l>With this heart-breaking Tale!—I knew it not:—</l>
+      <l>Blast him, ye Fiends!—Why sleeps thy Thunder, Heav'n!</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>Know, that Heav'n's Thunder sleeps not.</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Say'st thou, <hi>Dane?</hi>
+      </l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>Heav'n's Thunder sleeps not, if thou dar'st to wield it.</l>
+      <stage>[Rising.</stage>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>By Heav'n, I dare. Where is the flaming Bolt?</l>
+      <l>I'll hurl it on him, tho' with dire Rebound</l>
+      <l>It strike me to the Centre!</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>Fear not, ATHELSTAN.</l>
+      <l>Behold it here.—</l>
+      <stage>[He draws a Dagger.</stage>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>A Dagger! Let me grasp it!—</l>
+      <stage>[He takes the Dagger.</stage>
+      <l>Oh precious Gift; more precious than the Plank</l>
+      <l>Thrown to the drowning Wretch!—I'll to his Tent,</l>
+      <l>And plunge it in his Heart!</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>Curb thy fell Rage.</l>
+      <l>I'll give thee safer Vengeance.</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Generous HAROLD!—</l>
+      <l>I know the Wrongs thou bear'st from GOTHMUND's Pride.—</l>
+      <l>Where?—when?—Oh speed thee; for my Soul's on Fire!</l>
+     </sp>
+     <sp who="#harold">
+      <pb n="63" facs="73"/>
+      <speaker>HAROLD.</speaker>
+      <l>Know then, I rule the nightly Watch that Guards</l>
+      <l>Devoted THYRA's Tent.</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Indeed!</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>The Files,</l>
+      <l>At my Command, shall move to such due Distance,</l>
+      <l>That by a secret Path I'll give thee Entrance.</l>
+      <l>Then, when the midnight Spoiler comes—</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Oh Vengeance!—</l>
+      <l>By Heav'n, his mangled Arteries shall spout</l>
+      <l>Fountains of Blood!</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>Yet, lest Suspicion wake,</l>
+      <l>To intercept thy Entrance, or thy Flight—</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Oh, for some <hi>Dane's</hi> Disguise!</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>I will array thee</l>
+      <l>In Safety's Garb: Wilt thou be plum'd like GOTHMUND?</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Yes: for Revenge, I'll wear the Shape of GOTHMUND,</l>
+      <l>Or any Fiend in Hell.</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>Come on, brave Duke.</l>
+      <l>I will prepare thee for the mortal Conflict.</l>
+      <l>Fate crown thy Wish! GOTHMUND hath injur'd me.</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Yet, weigh'd with mine, thy Injuries are light:</l>
+      <l>Mine sink the groaning Scale!</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>The more befits thee</l>
+      <l>That mortal Weapon.</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Yes: Revenge shall thank</l>
+      <l>
+       <pb n="64" facs="74"/>
+Thy honest Hand, which gave it: And thou, HAROLD,</l>
+      <l>Shalt thank my brave Revenge.—Come, valiant <hi>Dane,</hi>
+      </l>
+      <l>We'll roam the midnight Camp, like prowling Wolves,</l>
+      <l>Trooping in quest of Blood! Now, injur'd Nature,</l>
+      <l>Brace my old Arm! Oh touch this deadly Steel</l>
+      <l>With more than Aconite! Give it the Speed,</l>
+      <l>And fiery Stroke of Lightning, when it shoots</l>
+      <l>Thro' the dun Sphere of Night; too swift for Thought,</l>
+      <l>Or Fear, or slow Defence!—Now ruthless GOTHMUND!</l>
+      <l>Vengeance awak'd shall slake her Thirst in Blood;</l>
+      <l>And Justice, riding on the raven Wing</l>
+      <l>Of midnight Darkness, wrapt in clouded Wrath,</l>
+      <l>Comes like avenging Heav'n!</l>
+     </sp>
+    </div>
+    <trailer>
+     <hi>End of the</hi> FOURTH ACT.</trailer>
+   </div>
+   <div n="5" type="act">
+    <pb n="65" facs="75"/>
+    <head>ACT V.</head>
+    <div n="1" type="scene">
+     <head>SCENE I.</head>
+     <stage>
+      <hi>A grove, by</hi> THYRA's <hi>Tent.</hi>
+     </stage>
+     <stage>EGBERT, GOODWIN.</stage>
+     <sp who="#goodwin">
+      <speaker>GOODWIN.</speaker>
+      <l>BEHOLD the Path, which leads to THYRA's Tent:</l>
+      <l>This Grove, thro' which the Moon scarce throws her Beam;</l>
+      <l>Well suits thy purpos'd Privacy.—The Guards,</l>
+      <l>Which late clos'd round the Tent, by HAROLD's Order</l>
+      <l>Have left this Entrance free.</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>The Path is dark: Nor can I aught descry,</l>
+      <l>Save the faint Glimm'ring of a distant Lamp,</l>
+      <l>That lights the inner Tent. Is this dark Path</l>
+      <l>The sole Approach?</l>
+     </sp>
+     <sp who="#goodwin">
+      <speaker>GOODWIN.</speaker>
+      <l>It is.—But if thy Purpose</l>
+      <l>Be undivulged Secresy of Converse,</l>
+      <l>Call forth thy THYRA to this ample Round,</l>
+      <l>Where neither Ear can hear, nor Tongue betray thee:</l>
+      <l>The distant Guard here circles round the Wood:</l>
+      <l>But on yon opposite Side, the Centinels</l>
+      <l>Hemm in the Tent, a close compacted Body:</l>
+      <l>No Whisper can escape their watchful Ear.—</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>'Tis well: I'll call her hither. Leave me, GOODWIN:</l>
+      <l>So HAROLD gave Command. Her Weal and mine</l>
+      <l>Hang on the Purport of my Thought; which asks</l>
+      <l>Her private Ear.</l>
+     </sp>
+     <sp who="#goodwin">
+      <pb n="66" facs="76"/>
+      <speaker>GOODWIN.</speaker>
+      <l>I leave thee to thy Wishes.</l>
+     </sp>
+     <stage>
+      <hi>[Exit</hi> GOODWIN.</stage>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Where is my Wife!—Come forth, thou innocent Lamb,</l>
+      <l>To Slaughter doom'd!—Oh speed thee; for ev'n now</l>
+      <l>The bloody Tiger, eyes thee in the Fold!</l>
+      <l>Wilt thou not hear the Shepherd's friendly Voice,</l>
+      <l>That warns thee from thy Foe?—THYRA—dear THYRA!—</l>
+      <l>It is thy EGBERT calls!—</l>
+     </sp>
+    </div>
+    <div n="2" type="scene">
+     <head>SCENE II.</head>
+     <stage>
+      <hi>To him,</hi> THYRA, EDWINA.</stage>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>My Lord! my EGBERT!</l>
+      <l>Do I once more behold thee! Oh, my Lord!</l>
+      <l>Unutterable Woe!—</l>
+      <stage>[She bursts into Tears.</stage>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <stage>[Embracing her.</stage>
+      <l>Thou Sum of all my Wishes!</l>
+      <l>My Soul's far dearer Part!—Yes, I will mix</l>
+      <l>My Tears with Thine: Thy Wrongs demand them all!</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Undone! undone!—Oh EGBERT!—</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Dearest THYRA!</l>
+      <l>EGBERT wou'd die, to save thee!</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>I know, thou woud'st.</l>
+      <l>Is there no means of Rescue?</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>None, my Love.</l>
+      <l>This Grove is hemm'd round by a Guard of <hi>Danes,</hi>
+      </l>
+      <l>Who own no Law, save cruel GOTHMUND's Will;</l>
+      <l>Whose Bosom, sacred Pity never touch'd</l>
+      <l>With soft Compunction; nor for other's Woe</l>
+      <l>Call'd forth the generous Tear.</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Oh, I am lost!</l>
+      <l>
+       <pb n="67" facs="77"/>
+Ye Saints and Angels, Ministers of Grace!</l>
+      <l>If ye do waft the Pray'rs of Innocence</l>
+      <l>Up to the Throne of Mercy, hear me now!</l>
+      <l>Oh, from your Mansions of unclouded Bliss,</l>
+      <l>Let Heav'n send down your Sister-Angel, PITY;</l>
+      <l>And melt his Heart's fell Purpose!</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Hope not Pity!</l>
+      <l>In vain thy Father (for I have heard thy Story)</l>
+      <l>With Tears and Grief's Intreaty strove to melt him.</l>
+      <l>He spurn'd him with Disdain.—But when I tell</l>
+      <l>The Tale of Shame, that heaves my throbbing Breast!—</l>
+      <l>Oh THYRA! hide my Blush!</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>What mean thy Words?</l>
+      <l>Can Fate yet swell the Number of our Woes?</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Think'st thou that EGBERT, for a Life of Shame,</l>
+      <l>Wou'd sell thee to Dishonour?</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Heav'n forbid!</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>On that infernal Errand am I come.</l>
+      <l>So GOTHMUND wills.—Why dost thou turn thee from me?</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Am I betray'd by EGBERT?—Gracious Heav'n,</l>
+      <l>Be thou my Help! If EGBERT hath prov'd false,</l>
+      <l>All human Faith is vain!</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Thou Heav'n of Love!</l>
+      <l>Thy Virtue charms me!—On this Task of Shame</l>
+      <l>GOTHMUND indeed hath sent me.—Virtuous THYRA,</l>
+      <l>Far distant is my Purpose. Think not EGBERT</l>
+      <l>Wou'd vilely purchase Life.—But oh, my Love,</l>
+      <l>Thy fatal Hour comes on! Ev'n now, the Ruffian,</l>
+      <l>With lustful Rage and fierce Impatience flown,</l>
+      <l>Prepares him for thy Tent!</l>
+     </sp>
+     <sp who="#thyra">
+      <pb n="68" facs="78"/>
+      <speaker>THYRA.</speaker>
+      <l>Is there not Hope,</l>
+      <l>That <hi>England's</hi> Pow'r, beneath the Veil of Night,</l>
+      <l>May storm this guilty Camp, and give us Freedom?</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Heav'n speed their Valour! But, alas!—that Hope</l>
+      <l>Too late shall visit Thee!—Ev'n now he comes,</l>
+      <l>To rob this sacred Temple, where pure Chastity</l>
+      <l>And Honour long have dwelt!</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Oh fatal Tidings!</l>
+      <l>Wilt thou not stay, to save me?</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Dearest THYRA!</l>
+      <l>The unrelenting Guard that brought me hither,</l>
+      <l>Ev'n now expects, and soon shall tear me from thee!</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Oh Horror!</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Now, my THYRA, arm thy Heart</l>
+      <l>With manly Strength: drive all the Woman thence.</l>
+      <l>Seest thou this deadly Steel?</l>
+      <stage>[He draws a dagger.</stage>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Oh welcome, welcome!</l>
+      <l>Thy Looks are dreadful, and I read thy Purpose.</l>
+      <l>If 'tis the Messenger of honest Death,</l>
+      <l>Behold my Breast! I'll bless the friendly Stroke;</l>
+      <l>And bless Thee for this last, most generous Proof</l>
+      <l>Of Faith and Love sincere!</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Yes! I have read</l>
+      <l>Of a stern Father, who, severely kind,</l>
+      <l>And deaf to struggling Nature's loud Appeal,</l>
+      <l>Shed his dear Daughter's innocent Blood, to save her</l>
+      <l>From an Invader's Lust:—A juster Purpose</l>
+      <l>Glows in my Breast—Why shou'd the Brave and Good</l>
+      <l>Fall self-devoted?—Let the guilty Heart</l>
+      <l>
+       <pb n="69" facs="79"/>
+Bleed for its Crimes. Then take this honest Dagger:</l>
+      <l>And when the Robber comes, with dauntless Arm</l>
+      <l>Plunge it into his Heart.</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Alas, my Lord!</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>What? does the treacherous Blood forsake thy Cheek?</l>
+      <l>Thou who, unmov'd, coud'st dare it's deadly Point,</l>
+      <l>Not dare inflict the Blow! Thou lovely Weakness!</l>
+      <l>Courage with Softness join'd!—O sweet Perfection!</l>
+      <l>Yet must thou strike!—Oh think, how future Times,</l>
+      <l>Ages unborn, shall belss thy friendly Hand!</l>
+      <l>How the chaste Praise of Matron-Tongues shall saint thee,</l>
+      <l>And wondring Babes, rescu'd from Slav'ry's Woe</l>
+      <l>By this brave Deed, shall lisp my THYRA's Name!</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>What, stain my Hand with Murder! Heav'n forbid!</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Blaspheme not Justice.—What! when thou'rt pursu'd</l>
+      <l>Ev'n to Perdition's Brink; shalt thou not turn,</l>
+      <l>And slay the fell Destroyer?</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Oh, my Heart!</l>
+      <l>Alas, my Arm is weak! I am unpractis'd</l>
+      <l>In Deeds of Blood! 'Tis terrible to <hi>think!</hi>
+      </l>
+      <l>What then, to <hi>do!—</hi>When I shou'd strike, the Dagger</l>
+      <l>Wou'd faulter in my Hand!</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Let Danger rowze thee;</l>
+      <l>Fear make thee bold.—Ev'n now the Spoiler comes!</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <stage>[catching him.</stage>
+      <l>Oh save me, EGBERT!</l>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Hark! the Guard requires me!</l>
+      <l>I must be gone.—</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>No, we will never part.</l>
+     </sp>
+     <sp who="#egbert">
+      <pb n="70" facs="80"/>
+      <speaker>EGBERT.</speaker>
+      <l>We must! we must!—Hark! GOODWIN calls again.</l>
+      <l>Another Moment brings Destruction on thee.</l>
+      <l>Speed thy Resolves—Farewel!—</l>
+      <stage>[Going.</stage>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Oh horrible!</l>
+      <l>Give me the Dagger!</l>
+      <stage>[She takes the Dagger.</stage>
+     </sp>
+     <sp who="#egbert">
+      <speaker>EGBERT.</speaker>
+      <l>Angels strengthen thee!</l>
+      <l>Now, prove thee worthy of a <hi>Briton's</hi> Love.</l>
+      <l>By one brave Blow, redeem thyself from Shame;</l>
+      <l>Thy EGBERT from the Depth of poison'd Dungeons;</l>
+      <l>Thy groaning Country from the Scourge of <hi>Denmark!</hi>
+      </l>
+      <l>Retire: he'll seek thee in the inner Tent;</l>
+      <l>And when he comes;—Oh Heaven direct her Hand!</l>
+     </sp>
+     <stage>
+      <hi>[Exit</hi> EGBERT.</stage>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Farewel, my honour'd Lord!—Here am I left,</l>
+      <l>With not a Friend to aid, but this dire Weapon!</l>
+      <l>Now, pitying Heav'n, protect me!—Hark! what Noise!—</l>
+      <l>In ev'ry Sound I hear the Ravisher!—</l>
+      <l>How dreadful Silence, at the Dead of Night!</l>
+      <l>Pregnant with Horrors!—Oh, thou fatal Weapon,</l>
+      <l>Dark Minister of Death! Oft hast thou arm'd</l>
+      <l>Th' Assassin's Hand with Fate! This once befriend</l>
+      <l>Despairing Innocence.—</l>
+      <l>Come, Matron-Courage! Thou who didst inspire</l>
+      <l>The brave <hi>Bethulian;</hi> and with dauntless Step,</l>
+      <l>Didst lead her to the proud <hi>Assyrian's</hi> Tent!</l>
+      <l>Now aid my trembling Hand! Teach me, like her,</l>
+      <l>Fearless to strike where Justice points the Blow!</l>
+      <l>That when he comes, This may revenge our Wrongs,</l>
+      <l>And set my Country free.—</l>
+      <stage>[She puts up the Dagger.</stage>
+     </sp>
+     <sp who="#edwina">
+      <speaker>EDWINA.</speaker>
+      <l>Hark!—didst not hear</l>
+      <l>The Tread of Feet, as rustling thro' the Grove?—</l>
+     </sp>
+    </div>
+    <div n="3" type="scene">
+     <pb n="71" facs="81"/>
+     <head>SCENE III.</head>
+     <stage>
+      <hi>To them</hi> HAROLD, ATHELSTAN, <hi>on the opposite Side of the Stage.</hi>
+     </stage>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <stage>
+       <hi>[Aside to</hi> EDWINA.</stage>
+      <l>Oh, blasting to mine Eyes! The Robber comes!</l>
+      <l>Clad in his gorgeous Plume!</l>
+     </sp>
+     <sp who="#edwina">
+      <speaker>EDWINA.</speaker>
+      <l>Retire we hither,</l>
+      <stage>[They retire to the farthest part of the Stage.</stage>
+      <l>Till he hath gain'd the Tent.</l>
+     </sp>
+     <stage>[To ATHELSTAN.</stage>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>This Way, brave Friend.—</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Soft!—lest the Guard</l>
+      <l>O'erhear us—Prosperously we have eluded</l>
+      <l>The unsuspecting Watch.—I dread the Sound</l>
+      <l>Of my own Footsteps.—Lead me, gen'rous HAROLD,</l>
+      <l>Where I may lurk unseen.—</l>
+     </sp>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <l>Thro' that blind Path,</l>
+      <l>He must approach her Tent. 'Tis form'd for Ambush:</l>
+      <l>Dark as his purpos'd Deed. Go, hide thee there.—</l>
+      <l>And when he comes—For e'er a Minute's Round</l>
+      <l>He means to come—</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <stage>[Draws a Dagger.</stage>
+      <l>Now GOTHMUND, Fate draws near.—</l>
+      <l>Down, throbbing Heart! Thou shalt have speedy Vengeance!</l>
+      <l>HAROLD; all Thanks are poor!—</l>
+     </sp>
+     <stage>[Athelstan enters the Tent.</stage>
+     <sp who="#harold">
+      <speaker>HAROLD.</speaker>
+      <stage>
+       <hi>[Aloud to</hi> ATHELSTAN.</stage>
+      <l>Hold thy Resolve;</l>
+      <l>And Fate shall crown thy Wish.—</l>
+     </sp>
+     <stage>
+      <hi>[Exit</hi> HAROLD.</stage>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <stage>[Advancing.</stage>
+      <l>Oh, dreadful Sounds,</l>
+      <l>To which, the Midnight Thunder's Voice were mild!</l>
+      <l>
+       <pb n="72" facs="82"/>
+"Hold thy Resolve, and Fate shall crown thy Wish!"—</l>
+      <l>Then I am lost!—EDWINA, let us fly,—</l>
+      <l>Rush thro' these Woods, and trust his merciless Guards:</l>
+      <l>They may have Pity!</l>
+     </sp>
+     <sp who="#edwina">
+      <speaker>EDWINA.</speaker>
+      <l>Rather, linger not.</l>
+      <l>Pursue the Robber thro' that gloomy Path:</l>
+      <l>Its Darkness aids thy Purpose. Haste thee, haste thee:</l>
+      <l>This Moment's thine: The next, perhaps, is GOTHMUND'S.</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <stage>[Drawing the Dagger.</stage>
+      <l>Then, Heav'n assist me!—Oh, thou treach'rous Arm,</l>
+      <l>Why dost thou tremble thus!—What mean these Horrors,</l>
+      <l>That freeze my Blood!—Did I not hear a Voice?—</l>
+      <l>With hollow Groans, it cry'd, "Hold, hold thy Hand!"—</l>
+      <l>Insernal Fiends, why do you thus beset me?</l>
+      <l>Hence, bloody Spectres, nor afflict my Sense:</l>
+      <l>Go, glare on Guilt: for I am innocent!—</l>
+      <l>Avaunt, false Terrors!—Now be firm, my Heart!</l>
+      <l>Oh, my revolting Hand!—I dare not strike.—</l>
+      <l>Hence, feminine Fear!—The Coward turns to Valour,</l>
+      <l>When goaded by Despair!—</l>
+     </sp>
+     <stage>[She enters the Passage.</stage>
+     <sp who="#edwina">
+      <speaker>EDWINA.</speaker>
+      <l>Heav'n guide her Dagger,</l>
+      <l>And bury it in his Heart!—</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <stage>[Within.</stage>
+      <l>Oh Treachery!</l>
+      <l>Die, Villain, die!</l>
+     </sp>
+     <sp who="#edwina">
+      <speaker>EDWINA.</speaker>
+      <l>Ye blessed Pow'rs, protect her!</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <stage>[Entering with his Dagger bloody.</stage>
+      <l>Whoe'er thou art, false <hi>Dane,</hi>
+      </l>
+      <l>I bear thy Life-blood on my Dagger's Hilt.</l>
+     </sp>
+     <sp who="#edwina">
+      <pb n="73" facs="83"/>
+      <speaker>EDWINA.</speaker>
+      <l>Who? ATHELSTAN!—What Blood?—I fear, I fear!</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>If Fate be just, 'tis GOTHMUND's.—Where's my Child?</l>
+     </sp>
+     <sp who="#edwina">
+      <speaker>EDWINA.</speaker>
+      <l>Oh, cou'd eternal Darkness bury Her,</l>
+      <l>Or bury Thee! Or Thunder strike thee dead;</l>
+      <l>And save thee from that killing Sight, which soon</l>
+      <l>Shall turn thee into Horror,—thou wert happy!—</l>
+      <l>For thou hast done a Deed—</l>
+     </sp>
+     <stage>[She enters the Passage Within.</stage>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>I bleed! I die!—</l>
+      <l>EDWINA! EDWINA!—</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Chain'd down by Terror,</l>
+      <l>I wait the Bolt of Fate!—That Voice of Death,</l>
+      <l>Dreadful as Lightning from the Midnight Cloud,</l>
+      <l>Hath cleft my Brain!—Nor ever did the Flames</l>
+      <l>Of Hell discover, to the hopeless Damn'd,</l>
+      <l>A Glympse of deeper Horror!—Where's my Child!—</l>
+      <l>Oh Torture, Torture!</l>
+     </sp>
+     <stage>
+      <hi>To him</hi> EDWINA, <hi>leading</hi> THYRA <hi>wounded and fainting.</hi>
+     </stage>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Help me!—Oh! my Father!—</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Oh Heav'n and Earth! Death! Murder! Parricide!</l>
+      <stage>[She falls: he throws himself on the Ground by her.</stage>
+      <l>Speak, EMMA, speak! How is it with thee?</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Oh!—</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <stage>[Rising and traversing the Stage.</stage>
+      <l>Can'st thou not speak?—Hoa! help! she bleeds to Death!</l>
+      <l>No Friend to help!—hear me, ye barbarous <hi>Danes!</hi>
+      </l>
+      <l>Behold a Sight, shall make the flinty Heart</l>
+      <l>
+       <pb n="74" facs="84"/>
+Of savage Pow'r weep Blood!—My Child! my Child!—</l>
+      <l>'Twas I that kill'd thee!</l>
+      <stage>[Kneels over her.</stage>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Can'st thou e'er forgive—</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Forgive! Forgive!</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>My parricidal Hand,</l>
+      <l>That aim'd an impious Blow.—Content I die:</l>
+      <l>Yes gladly yield my Life: pleas'd to have 'scap'd</l>
+      <l>A Fate more dreadful; had my guilty Arm</l>
+      <l>Shed my dear Father's Blood!</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Oh Scorpion Stings!</l>
+      <l>Thou dear expiring Saint! What! ask Forgiveness</l>
+      <l>Of him who murder'd thee! She faints, she faints!</l>
+      <l>Oh tell thy Murd'rer, tell thy wretched Father,—</l>
+      <l>Leave me not to Distraction,—tell me, tell me,</l>
+      <l>Thou dost forgive my Crime!</l>
+     </sp>
+     <sp who="#thyra">
+      <speaker>THYRA.</speaker>
+      <l>Witness, ye Pow'rs,</l>
+      <l>How I forgive! Kind Heav'n, asswage his Pangs!—</l>
+      <l>Oh EGBERT! must I never more behold thee!</l>
+      <l>Bid my dear Lord remember me—Alas!</l>
+      <l>My swimming Eyes grow dark!—Where is my Father!—</l>
+      <l>Where is my Husband!—lay me down in Peace!</l>
+      <l>Oh Heav'n receive my Soul—</l>
+     </sp>
+     <stage>[She dies.</stage>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>She's dead! she's dead!</l>
+      <l>Stay, blessed Saint! hover awhile in Air,</l>
+      <l>And take thy lost, thy wretched Father with thee!—</l>
+      <l>That ne'er must be! For she is fled to Heav'n,</l>
+      <l>Where Peace and Virtue dwell! Where Guilt and Treason,</l>
+      <l>Murder and Parricide, must never come!</l>
+      <l>Open, thou Earth! Oh, drag me down, ye Fiends,</l>
+      <l>To endless Anguish! Heap the sulph'rous Torture</l>
+      <l>
+       <pb n="75" facs="85"/>
+On my accursed Head! Exhaust the Stores</l>
+      <l>Of heav'nly Wrath awak'd! Yet weak will be</l>
+      <l>Your fiercest Vengeance, to that inward Hell</l>
+      <l>That Rages here—</l>
+     </sp>
+     <stage>[Strikes his Breast, and throws himself on the Body.</stage>
+    </div>
+    <div n="7" type="scene">
+     <head>SCENE VII.</head>
+     <stage>
+      <hi>To him</hi> SIWARD <hi>and Officers.</hi>
+     </stage>
+     <sp who="#siward">
+      <speaker>SIWARD.</speaker>
+      <l>Hoa, ATHELSTAN, where art thou?</l>
+      <l>The King hath storm'd the Camp: the <hi>Danes</hi> are flying:</l>
+      <l>
+       <hi>England</hi> again is free.</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Too late—Oh, Oh!—</l>
+     </sp>
+     <sp who="#siward">
+      <speaker>SIWARD.</speaker>
+      <l>What means this Scene of Blood!—Ah! THYRA slain!—</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Behold the Work of this accursed Hand!</l>
+      <l>Lo, where she lies!—A dark and fatal Error</l>
+      <l>With sacrilegious Fury arm'd the Father</l>
+      <l>Against his blameless Child!</l>
+     </sp>
+     <sp who="#siward">
+      <speaker>SIWARD.</speaker>
+      <l>Oh Sight of Woe!</l>
+      <l>Poor bleeding Innocence!—Let honest Vengeance</l>
+      <l>Rowze thee from Grief. To fire thy Soul to Conquest,</l>
+      <l>I hasted thro' the Camp; and left the Field,</l>
+      <l>Where valiant EGBERT, freed from <hi>Denmark's</hi> Chain,</l>
+      <l>Hath buried deep his Sword in GOTHMUND's Heart,</l>
+      <l>And leads thy <hi>Mercians,</hi> clad in gloomy Terror,</l>
+      <l>O'er Heaps of slaughter'd <hi>Danes!—</hi>Rise, valiant Duke;</l>
+      <l>Rise from this Trance of Woe! The <hi>Danes</hi> are flying.</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Oh never, never will I rise from hence!—</l>
+      <l>Go, tell thy injur'd King, that ATHELSTAN,</l>
+      <l>Wounded by Penitence, wept his Wrongs in Blood!</l>
+      <l>Tell him, thou saw'st me leaning o'er my Child,</l>
+      <l>Raving in Pangs of Horror and Despair,</l>
+      <l>A Sight to melt stern Justice into Tears!—</l>
+      <l>
+       <pb n="76" facs="86"/>
+Oh tell him, SIWARD, hapless ATHELSTAN</l>
+      <l>Tho' guilty, yet not vile, self-punish'd fell!—</l>
+      <l>Now die and be at Peace!—Now traiterous Heart,</l>
+      <l>Receive thy just Reward!</l>
+     </sp>
+     <stage>[He raises his Arm to stab himself, they prevent him.</stage>
+     <sp who="#siward">
+      <speaker>SIWARD.</speaker>
+      <l>Prevent his Fury,</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <stage>[Struggling.</stage>
+      <l>Off—nor tempt your Fate!—</l>
+      <l>Dreadful is armed Rage, that pants for Death;</l>
+      <l>By Ills exasperated;—Such is mine;</l>
+      <l>Made fatal by Despair!—Then shun my Fury!</l>
+      <l>My Dagger thirsts but for my own Life Blood:</l>
+      <l>Why must it rush on yours!—Too much, too much,</l>
+      <l>My murderous Hand hath spilt!—Oh EMMA, EMMA!</l>
+     </sp>
+     <stage>[He sinks and drops the Dagger.</stage>
+     <sp who="#siward">
+      <speaker>SIWARD.</speaker>
+      <l>Support and raise him.—Hear me, ATHELSTAN!</l>
+      <l>Hear Friendship's Voice!—It is thy SIWARD calls.—</l>
+      <l>His Cheek turns pale.—Alas, my generous Friend,</l>
+      <l>How are thy Virtues lost!—</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Oh dire Event!</l>
+      <l>Was it for this, thy dear, thy virtuous Mother</l>
+      <l>Indur'd the Child-bed Pang! Was it for this,</l>
+      <l>She foster'd thee at her chaste Matron-Breast!</l>
+      <l>And, in the Fondness of parental Hope,</l>
+      <l>Styl'd thee the Joy of our declining Years!—</l>
+      <l>Oh fatal, fatal Blow!</l>
+     </sp>
+     <sp who="#siward">
+      <speaker>SIWARD.</speaker>
+      <l>Lift up thine Eyes!</l>
+      <l>In Pity to thy weeping SIWARD, speak!</l>
+      <l>Hear, generous ATHELSTAN!</l>
+     </sp>
+     <sp who="#officer">
+      <speaker>OFFICER.</speaker>
+      <l>He heeds thee not.</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Thus to be slaughter'd by thy Father's Hand!</l>
+      <l>My EMMA—Oh, my Child!</l>
+     </sp>
+     <sp who="#siward">
+      <pb n="77" facs="87"/>
+      <speaker>SIWARD.</speaker>
+      <l>An agonizing Sweat</l>
+      <l>Sits on his Brow: The Hand of Death is on him.</l>
+     </sp>
+     <sp who="#athelstan">
+      <speaker>ATHELSTAN.</speaker>
+      <l>Oh! Oh! Oh!</l>
+     </sp>
+     <stage>[Dies.</stage>
+     <sp who="#siward">
+      <speaker>SIWARD.</speaker>
+      <l>He dies! he dies!—His strong conflicting Griefs</l>
+      <l>Have burst his mighty Heart!—Oh, ATHELSTAN!</l>
+      <l>Thy Friends shall weep, and ev'ry generous Foe,</l>
+      <l>Confess thy Virtues, and lament thy Fate!</l>
+      <l>Hadst thou been true! what brighter Name had deck'd</l>
+      <l>Thy Country's Story! But thy tow'ring Spirit,</l>
+      <l>Deep-shaken by the Tempest of Revenge,</l>
+      <l>From its Uprightness tottering, bore thee down</l>
+      <l>Ev'n to Perdition's Depth—Yet may the Woes</l>
+      <l>Which Heav'n's avenging Hand hath heap'd upon thee</l>
+      <l>Recorded stand, a Monument of Justice!</l>
+      <l>That when in future Times a King shall reign,</l>
+      <l>Brave, good, and just, the Father of his People,</l>
+      <l>Th' abhorr'd Example may avert those Ills</l>
+      <l>Thy traitrous Arm hath wrought—That black Rebellion</l>
+      <l>May never rear her Standard; nor unsheath</l>
+      <l>Her guilty Sword, to aid the fell Invader!</l>
+      <l>That Faction's Sons in thee their Fate may read;</l>
+      <l>That by the Father's Crime the Child shall bleed,</l>
+      <l>And private Woe to publick Guilt succeed.</l>
+     </sp>
+    </div>
+    <trailer>
+     <hi>End of the</hi> FIFTH ACT.</trailer>
+   </div>
+  </body>
+  <back>
+   <div type="epilogue">
+    <pb facs="88"/>
+    <head>EPILOGUE,</head>
+    <byline>Written by Mr. GARRICK, </byline>
+    <stage>Spoken by Mrs. CIBBER.</stage>
+    <lg>
+     <l>To speak Ten Words, again I've fetch'd my Breath;</l>
+     <l>The Tongue of Woman struggles hard with Death.</l>
+     <l>Ten Words! will that suffice? Ten Words—no more.</l>
+     <l>We always give a Thousand to the Score.</l>
+    </lg>
+    <lg>
+     <l>What can provoke these Wits their Time to waste,</l>
+     <l>To please that fickle, fleeting Thing call'd Taste?</l>
+     <l>It mocks all Search, for Substance has it none;</l>
+     <l>Like <hi>Hamlet's</hi> Ghost—'Tis here—'Tis there—'Tis gone.</l>
+     <l>How very few about the Stage agree!</l>
+     <l>As Men with diff'rent Eyes a Beauty see,</l>
+     <l>So judge they of that stately Dame—Queen-Tragedy.</l>
+    </lg>
+    <lg>
+     <l>The Greek-read Critic, as his Mistress holds her,</l>
+     <l>And having little Love, for Trifles scolds her:</l>
+     <l>Excuses want of Spirit, Beauty, Grace,</l>
+     <l>But ne'er forgives her failing—Time, and Place.</l>
+     <l>How do our Sex of Taste in Judgment vary?</l>
+     <l>Miss <hi>Bell</hi> adores, what's loath'd by Lady <hi>Mary:</hi>
+     </l>
+     <l>The first in Tenderness a very Dove,</l>
+     <l>Melts like the feather'd Snow, at <hi>Juliet's</hi> Love:</l>
+     <l>Then, sighing, turns to <hi>Romeo</hi> by her Side,</l>
+     <l>"Can you believe that Men for Love have dy'd?"</l>
+     <l>Her Ladyship, who vaults the Coarser's Back,</l>
+     <l>Leaps the barr'd Gate, and calls you <hi>Tom</hi> and <hi>Jack;</hi>
+     </l>
+     <l>Detests these Whinings, like a true Virago;</l>
+     <l>She's all for Daggers! Blood! Blood! Blood! <hi>Iago!</hi>
+     </l>
+     <l>
+      <pb facs="89"/>
+A <hi>third,</hi> whose Heart defies all Perturbations,</l>
+     <l>Yet dies for Triumphs, Funerals, Coronations!</l>
+     <l>Ne'er asks which Tragedies succeed, ôr fail,</l>
+     <l>But whose <hi>Procession</hi> has the longest Tail.</l>
+     <l>The <hi>Youths,</hi> to whom <hi>France</hi> gives a new Belief,</l>
+     <l>Who look with <hi>Horror</hi> on a Rump of Beef:</l>
+     <l>On <hi>Shakespear's</hi> Plays, with shrugg'd up Shoulders stare,</l>
+     <l>These Plays? They're bloody Murders,<hi>—O Barbare!</hi>
+     </l>
+     <l>And yet the Man has Merit<hi>—Entre Nous,</hi>
+     </l>
+     <l>He'd been damn'd clever, had he read <hi>Bossù.</hi>
+     </l>
+     <l>
+      <hi>Shakespear</hi> read <hi>French!</hi> roars out a surly Cit:</l>
+     <l>When <hi>Shakespear</hi> wrote, our Valour match'd our Wit:</l>
+     <l>Had <hi>Britons</hi> then been Fops, Queen <hi>Bess</hi> had hang'd 'em;</l>
+     <l>Those Days, they never <hi>read</hi> the <hi>French,—</hi>They <hi>band'd</hi> 'em.</l>
+    </lg>
+    <lg>
+     <l>If Taste evaporates by too high Breeding,</l>
+     <l>And eke is overlaid, by too deep Reading;</l>
+     <l>Lest then in search of this, you lose your Feeling,</l>
+     <l>And barter native Sense in foreign Dealing;</l>
+     <l>Be this neglected Truth to <hi>Britons</hi> known,</l>
+     <l>No Tastes, no Modes become you, but your own.</l>
+    </lg>
+    <trailer>FINIS.</trailer>
+   </div>
+   <div type="publisher'sadvertisement">
+    <pb facs="90"/>
+    <p>
+     <hi>Lately published,</hi> By the same AUTHOR, BARBAROSSA.</p>
+    <p>A TRAGEDY.</p>
+    <p>The SECOND EDITION.</p>
+   </div>
+  </back>
+ </text>
+</TEI>

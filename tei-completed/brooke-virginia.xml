@@ -1,0 +1,3329 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">Virginia</title>
+    <title type="sub">a tragedy</title>
+    <author>
+     <persName>
+      <surname>Brooke</surname>
+      <forename>Frances</forename>
+      <idno type="VIAF">5193747</idno>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>Virginia a tragedy: with odes, pastorals, and translations. By Mrs. Brooke.</name>
+     <author>Brooke, Frances, 1724?-1789.</author>
+     <publisher>printed for the author, and sold by A. Millar,</publisher>
+     <date>1756.</date>
+     <pubPlace>London :</pubPlace>
+     <note>Verse.</note>
+     <note>With a half-title.</note>
+     <note>Reproduction of original from the British Library.</note>
+     <note>English Short Title Catalog, ESTCT126016.</note>
+     <note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note>
+    </bibl>
+    <biblFull n="printed source">
+     <publicationStmt>
+      <authority ref="#JJ">Jan Jokisch</authority>
+      <date>2024 December</date>
+      <idno type="ECCO_Drama">K100537.000</idno>
+      <idno type="DLPS">004884218</idno>
+      <idno type="ESTC">T126016</idno>
+      <idno type="DocNo">CW114435918</idno>
+      <idno type="TCP">K100537.000</idno>
+      <idno type="GaleDocNo">CW3314435918</idno>
+      <idno type="ContentSet">ECLL</idno>
+      <idno type="ImageSetID">0800800400</idno>
+      <availability>
+       <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+      </availability>
+     </publicationStmt>
+    </biblFull>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     
+     <person xml:id="appius">
+      <persName>Appius</persName>
+      <sex value="MALE"/>
+     </person>
+     
+     <personGrp xml:id="chorus_of_virgins">
+      <persName>Chorus of Virgins</persName>
+      <sex value="FEMALE"/>
+     </personGrp>
+     <person xml:id="claudius">
+      <persName>Claudius</persName>
+      <sex value="MALE"/>
+     </person>
+     <person xml:id="first_virgin">
+      <persName>First Virgin</persName>
+      <sex value="FEMALE"/>
+     </person>
+     <person xml:id="icilia">
+      <persName>Icilia</persName>
+      <sex value="FEMALE"/>
+     </person>
+     
+     <person xml:id="messenger">
+      <persName>Messenger</persName>
+      <sex value="MALE"/>
+     </person>
+     <person xml:id="numitorius">
+      <persName>Numitorius</persName>
+      <sex value="MALE"/>
+     </person>
+     <person xml:id="priestess">
+      <persName>Priestess</persName>
+      <sex value="FEMALE"/>
+     </person>
+     <personGrp xml:id="romans">
+      <persName>Romans</persName>
+      <sex value="UNKNOWN"/>
+     </personGrp>
+     <person xml:id="second_virgin">
+      <persName>Second Virgin</persName>
+      <sex value="FEMALE"/>
+     </person>
+     <person xml:id="slave">
+      <persName>Slave</persName>
+      <sex value="MALE"/>
+     </person>
+     <person xml:id="trebonius">
+      <persName>Trebonius</persName>
+      <sex value="MALE"/>
+     </person>
+     <person xml:id="virginia">
+      <persName>Virginia</persName>
+      <sex value="FEMALE"/>
+     </person>
+     
+    <person xml:id="virginius"><persName>Virginius</persName><sex value="MALE"/></person><person xml:id="icilius"><persName>Icilius</persName><sex value="MALE"/></person></listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1756">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text xml:lang="en">
+  <front>
+   <div type="halftitle">
+    <pb facs="1" ana="y"/>
+    <pb facs="2"/>
+    <p>VIRGINIA A TRAGEDY.</p>
+   </div>
+   <div type="titlepage">
+    <pb facs="3"/>
+    <p>VIRGINIA A TRAGEDY, WITH ODES, PASTORALS, AND TRANSLATIONS.</p>
+    <p>By Mrs. <hi>BROOKE.</hi>
+    </p>
+    <l>
+     <hi>—I with Fear</hi>
+    </l>
+    <l>
+     <hi>Repeat my Verses to the public Ear.</hi>
+    </l>
+    <bibl>Francis's Horace 4th Sat. 1st Book.</bibl>
+    <p>
+     <hi>LONDON:</hi> Printed for the AUTHOR, And sold by A. MILLAR in the <hi>Strand.</hi> MDCCLVI.</p>
+   </div>
+   <div type="dedication">
+    <pb facs="4"/>
+    <head>TO The Right Honorable THE LADY ELIZABETH CECIL.</head>
+    <opener>
+     <salute>MADAM,</salute>
+    </opener>
+    <p>
+     <seg rend="decorInit">I</seg> Have too great a Respect for your Ladyship's Commands, to disobey them, even when they contradict my Inclinations; and since you are as averse to hear Praise, as studious to deserve it, I will not offend that delicate Modesty I cannot but admire. Indulge me however, Madam, in the Vanity of saying, I had your Ladyship's Permission to prefix your Name to these Papers, on Condition
+<pb n="vi" facs="5"/>
+I avoided the usual Style of Dedicators; and permit me to add, that,</p>
+    <closer>
+     <signed>I am, With the most unfeigned Respect, And a Sincerity not always found in Addresses of this Nature,</signed>
+     <salute>MADAM,</salute>
+     <signed>Your Ladyship's Most oblig'd, Most obedient, and Most devoted Servant, <hi>FRANCES BROOKE.</hi>
+     </signed>
+    </closer>
+   </div>
+   <div type="preface">
+    <pb n="vii" facs="6"/>
+    <head>PREFACE.</head>
+    <p>THE Author of these poetical Attempts, begs Leave to say, that she should not have printed them, but that she is precluded from all Hopes of ever seeing the Tragedy brought upon the Stage, by there having been two so lately on the same Subject. If her's should be found to have any greater Resemblance to the two represented, than the Sameness of the Story made unavoidable, of which she is not conscious, it must have been accidental on her side, as there are many Persons, of very distinguished Rank, and unquestionable Veracity, who saw her's in Manuscript before the others appeared, and will witness for her, that she has taken no advantage of having seen them. She must here do Mr. <hi>Crisp</hi> the Justice to say, that any Resemblance must have been equally accidental on his part, as he neither did, nor could see her <hi>Virginia</hi> before his own was play'd;
+<pb n="viii" facs="7"/>
+Mr. <hi>Garrick</hi> having declined reading her's, till Mr. <hi>Crisp's</hi> was published.</p>
+    <p>She is sensible of the Danger of appearing in Print, and of the many Imperfections in these Pieces; but hopes, her Sex, and the early Time of Li'e at which most of them were wrote, will plead her Excuse; she asks no more, than to be read with the fame Candor and Indulgence with which she herself reads the Productions of others.</p>
+    <p>One thing more she begs Leave to say, that she was greatly encouraged to this Publication, by the favorable Reception three Odes of her's met with, which were inserted in a weekly Paper called <hi>The Old Maid:</hi> as this Volume may possibly come into the Hands of Persons who are Strangers to the Paper, she has reprinted those Odes with the others.</p>
+    <p>And now, invoking the Powers for friendly Gales, she ventures to launch her little Bark into the wide Sea of Criticism, and Trembling quits the Shore.</p>
+   </div>
+   <div type="bythesameauthor">
+    <pb facs="8"/>
+    <p>By this AUTHOR, <hi>Speedily will be published,</hi> PROPOSALS For Printing by SUBSCRIPTION, A POETICAL TRANSLATION WITH NOTES. OF <hi>Il Pastor Fido,</hi> AND OTHER POEMS.</p>
+    <p>FROM THE ORIGINAL ITALIAN OF Signor <hi>BATTISTA GUARINI.</hi>
+    </p>
+   </div>
+   <div type="Dramatis_Personae">
+    <pb facs="9"/>
+    <castList>
+     <head>Dramatis Personae.</head>
+     <castItem>MEN.</castItem>
+     <castItem>Appius.</castItem>
+     <castItem>Virginius.</castItem>
+     <castItem>Icilius.</castItem>
+     <castItem>Numitorius.</castItem>
+     <castItem>Trebonius.</castItem>
+     <castItem>Claudius.</castItem>
+     <castItem>WOMEN.</castItem>
+     <castItem>Virginia.</castItem>
+     <castItem>Icilia.</castItem>
+     <castItem>Priestess of Diana, Virgins, Matrons, Romans, Lictors, &amp;c.</castItem>
+    </castList>
+   </div>
+   <set>
+    <p>SCENE <hi>Rome.</hi>
+    </p>
+   </set>
+  </front>
+  <body>
+   <div type="play">
+    <div n="1" type="act">
+     <pb n="1" facs="10"/>
+     <head>ACT FIRST,</head>
+     <div n="1" type="scene">
+      <head>SCENE I.</head>
+      <stage>[<hi>The House of</hi> VIRGINIUS.]</stage>
+      <stage>NUMITORIUS, VIRGINIA.</stage>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>WEEP not, Virginia, all shall yet be well;</l>
+       <l>Now by my Sister's Shade, thy virtuous Mother,</l>
+       <l>I swear the Tyrant shall not force thee from us;</l>
+       <l>Why shou'dst thou fear his Power? the Monster dares not,</l>
+       <l>Howe'er he hop'd with Threats to move thy Soul,</l>
+       <l>Attempt to violate a free-born Virgin.</l>
+       <l>
+        <pb n="2" facs="11"/>
+But say, Virginia, did not Appius try</l>
+       <l>Each softer Method to seduce thy Virtue,</l>
+       <l>E'er his stern Fury rose to threaten Force?</l>
+      </sp>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>O Sir! with all the Blandishments of Vice</l>
+       <l>He first essay'd my Youth. With offer'd Power,</l>
+       <l>And Vows of tenderest Passion, he protested,</l>
+       <l>That did not his own Law forbid his Purpose,</l>
+       <l>He wou'd divorce the Partner of his Bed,</l>
+       <l>And place me there.</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>His Law! The Gods are just,</l>
+       <l>And on himself retort his Insolence;</l>
+       <l>Yes, let him sigh for a Plebeian Maid,</l>
+       <l>And sigh in vain: by Heaven 'tis righteous Vengeance.</l>
+       <l>But does he talk of Laws? He, who has broke</l>
+       <l>Through every sacred Bond? Who, on Pretence,</l>
+       <l>Of framing Laws, has bid them all Defiance,</l>
+       <l>And owns no Obligation but his Will?</l>
+       <l>
+        <pb n="3" facs="12"/>
+Is this our Legislator? But proceed:</l>
+       <l>Tell me, Virginia, did he dare to offer</l>
+       <l>Terms of Disgrace and Shame?</l>
+      </sp>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>O Numitorius!</l>
+       <l>Spare my Confusion—</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>I trust, Virginia, you receiv'd his Love</l>
+       <l>With all the Pride of Virtue, all the Scorn,</l>
+       <l>And strong Resentment, of a Roman Maid</l>
+       <l>Who loves her Honour and her Liberty.</l>
+      </sp>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>Yes, fired with generous Rage, and fierce Disdain,</l>
+       <l>I told him, were he free, his Law repeal'd,</l>
+       <l>Himself the Son of Jove, I wou'd reject</l>
+       <l>His lawful Vows, and think the brave Icilius</l>
+       <l>Superior to the Tyrant of his Country.</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>How bore he this?</l>
+      </sp>
+      <sp who="#virginia">
+       <pb n="4" facs="13"/>
+       <speaker>VIRGINIA.</speaker>
+       <l>He stood a Moment speechless,</l>
+       <l>Then, his Eyes flaming, wild with mad Revenge,</l>
+       <l>And disappointed Love, 'Tis well, he cry'd,</l>
+       <l>My Power may reach you yet, remember, Maid,</l>
+       <l>You have not now your Tribunes to protect you;</l>
+       <l>Appius is Lord of Rome: then sudden turn'd,</l>
+       <l>And left me dead with Terror, for too well</l>
+       <l>I know his Power, and tremble for my Honor.</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>Why was this base Attempt at first conceal'd?</l>
+      </sp>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>Alas! I fear'd Icilius' Warmth of Temper;</l>
+       <l>I knew his Love, and his impatient Spirit,</l>
+       <l>And hop'd my Scorn wou'd cure the Tyrant's Passion.</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>Fear not, Virginia, soon our Roman Legions</l>
+       <l>Shall drive these rash Invaderst rembling back;</l>
+       <l>
+        <pb n="5" facs="14"/>
+And crown'd with Laurel, midst his Fellow Soldiers,</l>
+       <l>Thy Father shall return to join thy Hand</l>
+       <l>With young Icilius, and secure thy Virtue:</l>
+       <l>The holy Marriage Bed the wildest Nations,</l>
+       <l>E'en savage Gauls, regard with sacred Awe.</l>
+       <l>But I too long detain thee, 'tis the Hour</l>
+       <l>In which thy gentle Friend, the fair Icilia,</l>
+       <l>Expects thy Presence.—Ha! Trebonius here!</l>
+      </sp>
+     </div>
+     <div n="2" type="scene">
+      <head>SCENE II.</head>
+      <stage>NUMITORIUS, TREBONIUS.</stage>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>WELCOME, my dear Trebonius, from the Camp:</l>
+       <l>How fares my valiant Brother?</l>
+      </sp>
+      <sp who="#trebonius">
+       <pb n="6" facs="15"/>
+       <speaker>TREBONIUS.</speaker>
+       <l>Well, my Friend;</l>
+       <l>If Romans can be well when Slaves to Tyrants.</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>What brings you here?</l>
+      </sp>
+      <sp who="#trebonius">
+       <speaker>TREBONIUS.</speaker>
+       <l>Obedience to my Leader,</l>
+       <l>And Shame to see the Roman Legions fly:</l>
+       <l>Cornelius sends by me for fresh Supplies</l>
+       <l>To stop the conquering Equan Troops: Tomorrow</l>
+       <l>May bring them to these Walls. O, Numitorius!</l>
+       <l>These Eyes have seen the bravest Sons of Rome</l>
+       <l>Driven to their very Camp, like fearful Fawns,</l>
+       <l>By these oft beaten Equi, by the Foes</l>
+       <l>They once disdain'd, nor cou'd my Soul condemn them:</l>
+       <l>Why shou'd they spend their dearest Blood for Appius?</l>
+      </sp>
+      <sp who="#numitorius">
+       <pb n="7" facs="16"/>
+       <speaker>NUMITORIUS.</speaker>
+       <l>For him indeed, for to his tow'ring Genius</l>
+       <l>His Brother Tyrants bend; they wait his Nod,</l>
+       <l>And take the Word from him; at his Command</l>
+       <l>They steep their impious Hands in Blood, or load</l>
+       <l>With slavish Chains their freeborn Countrymen.</l>
+      </sp>
+      <sp who="#trebonius">
+       <speaker>TREBONIUS.</speaker>
+       <l>Each Hour brings fresh Disgrace; our conquering Army,</l>
+       <l>Which pour'd the Tide of Victory along,</l>
+       <l>And like a Torrent overflow'd the Nations,</l>
+       <l>Now ebbs, retiring, at the slightest Breath</l>
+       <l>Of Opposition.</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>Gods! shall Romans fly,</l>
+       <l>And from the timorous Equi? Shall the Stag,</l>
+       <l>The trembling Stag, pursue the lordly Lyon?</l>
+      </sp>
+      <sp who="#trebonius">
+       <pb n="8" facs="17"/>
+       <speaker>TREBONIUS.</speaker>
+       <l>O, Rome! imperial Rome! How art thou fallen!</l>
+       <l>Behold! the Roman Eagle, which e'erwhile</l>
+       <l>Soar'd with strong Pinion o'er the wondring World,</l>
+       <l>Now spiritless, unnerv'd, with drooping Wing</l>
+       <l>Sits languid, all its daring Flights forgot,</l>
+       <l>Crush'd by th'oppressive Hand of Tyranny!</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>Yes, we are fallen indeed! O, my Trebonius!</l>
+       <l>I blush to tell thee, but this Monster Appius</l>
+       <l>With brutal Love has dar'd t'insult Virginia,</l>
+       <l>Pledg'd as she is to brave Icilius.—</l>
+      </sp>
+      <sp who="#trebonius">
+       <speaker>TREBONIUS.</speaker>
+       <l>Gods!</l>
+       <l>Even Sextus stole in secret to Lucretia,</l>
+       <l>Nor thus avow'd his Baseness!</l>
+      </sp>
+     </div>
+     <div n="3" type="scene">
+      <pb n="9" facs="18"/>
+      <head>SCENE III.</head>
+      <stage>NUMITORIUS, TREBONIUS, a Slave.</stage>
+      <sp who="#slave">
+       <speaker>SLAVE.</speaker>
+       <l>NUMITORIUS,</l>
+       <l>This Moment as Virginia past the Forum,</l>
+       <l>To visit fair Icilia, she was seiz'd</l>
+       <l>By Claudius, Appius' most abandon'd Freedman,</l>
+       <l>Who call'd her Slave, and rudely dragg'd her off</l>
+       <l>To the Tribunal of his Lord. I hasted</l>
+       <l>To tell you this, nor know I more that past.</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>To his Tribunal? Gods! what can it mean?</l>
+       <l>The Tyrant cannot dare—O, Soldier! Friend!</l>
+       <l>Wilt thou assist us? Think of brave Virginius;</l>
+       <l>Is't fit his Daughter?—But I know thy Virtue.</l>
+      </sp>
+      <sp who="#trebonius">
+       <speaker>TREBONIUS.</speaker>
+       <l>No more: away: my Sword and Arm are yours.</l>
+      </sp>
+     </div>
+     <div n="4" type="scene">
+      <pb n="10" facs="19"/>
+      <head>SCENE IV.</head>
+      <stage>THE <hi>FORUM,</hi> APPIUS on his Tribunal, twelve LICTORS with Rods and Axes stand rang'd on each Side.</stage>
+      <stage>VIRGINIA, ICILIUS, CLAUDIUS, Romans.</stage>
+      <sp who="#claudius">
+       <speaker>CLAUDIUS.</speaker>
+       <stage>(kneels.)</stage>
+       <l>O, gracious Appius!</l>
+       <l>To whom the Injur'd never kneel in vain,</l>
+       <l>To you I bend for Justice: this bright Maid,</l>
+       <l>Who long has past for old Virginius' Daughter,</l>
+       <l>Is Daughter of my Slave, born in my House,</l>
+       <l>And thence by Fraud convey'd to Numitoria,</l>
+       <l>Who bred her as her own Virginius absent.</l>
+       <l>To hide th' approbrious Curse of Barrenness:</l>
+       <l>This in the Hour of Sickness was confess'd,</l>
+       <l>With penitential Sighs and Tears, by her</l>
+       <l>
+        <pb n="11" facs="20"/>
+Who gave her Birth; I therefore seiz'd upon her,</l>
+       <l>Nor will resign her but to brave Virginius,</l>
+       <l>If he disprove my Claim: since he is absent,</l>
+       <l>From you, the Friend of Justice, I demand,</l>
+       <l>That she remain with me till his Return.</l>
+      </sp>
+      <sp who="#appius">
+       <speaker>APPIUS.</speaker>
+       <l>'Tis just, nor can I stop the Course of Law:</l>
+       <l>Lictors, make Way, and let the legal Claimant</l>
+       <l>Lead off th' unhappy Virgin. See Virginius</l>
+       <l>Be summon'd home to plead his doubtful Right:</l>
+       <l>Be that thy Care, Frontinus.</l>
+       <stage>(To a Lictor.)</stage>
+      </sp>
+      <sp who="#icilius">
+       <speaker>ICILIUS.</speaker>
+       <l>Impious Villain!</l>
+       <l>And dost thou think I tamely will resign her?</l>
+       <l>No, thro' my Bosom you must cut your Way</l>
+       <l>E'er you can seize this dear, this virtuous Maid.</l>
+       <l>Stand off, ye Slaves.</l>
+      </sp>
+      <sp who="#appius">
+       <speaker>APPIUS.</speaker>
+       <l>Ha! dost thou thwart my Will?</l>
+       <l>Lictors, advance and seize the lawless Traitor.</l>
+       <stage>(To the Lictors.)</stage>
+      </sp>
+      <sp who="#icilius">
+       <pb n="12" facs="21"/>
+       <speaker>ICILIUS.</speaker>
+       <l>Yes, Lictors, yes; prepare your Rods and Axes,</l>
+       <l>Scourge and behead the bravest Sons of Rome:</l>
+       <l>Our fond Credulity which rais'd that Tyrant</l>
+       <l>Deserves it, but let Chastity be safe.</l>
+       <l>O Romans! by the sacred Name of Father,</l>
+       <l>By the dear Pleasures of domestick Love,</l>
+       <l>And by the spotless Honour of your Children,</l>
+       <l>Preserve Virginius' Daughter from Pollution.</l>
+      </sp>
+      <sp who="#appius">
+       <speaker>APPIUS.</speaker>
+       <l>Traitor, seditious Villain! well I know thee:</l>
+       <l>'Tis not Virginia's Cause awakes thy Rage,</l>
+       <l>The tribunician Spirit breathes within thee;</l>
+       <l>But all thy Arts are vain; a Guard attends</l>
+       <l>To quell the mutinous: by Heaven that Roman</l>
+       <l>Who stops the Course of Justice, dies this Moment.</l>
+      </sp>
+     </div>
+     <div n="5" type="scene">
+      <pb n="13" facs="22"/>
+      <head>SCENE V.</head>
+      <stage>APPIUS, VIRGINIA, ICILIUS, CLAUDIUS, NUMITORIUS, TREBONIUS, Romans.</stage>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>WHERE is the Wretch who with unhallow'd Tongue</l>
+       <l>Demands a freeborn Virgin for his Slave.</l>
+       <l>Sprung from the bravest Blood our City holds,</l>
+       <l>The Numitorii and Virginii join'd?</l>
+      </sp>
+      <sp who="#claudius">
+       <speaker>CLAUDIUS.</speaker>
+       <l>Virginia is my Slave; by Justice mine;</l>
+       <l>Nor will I quit Possession, till Virginius</l>
+       <l>Appears, to prove his doubtful Right.</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>Fabatus.</l>
+       <stage>(whispers a Roman, who goes out.)</stage>
+       <l>Thy Slave, thou Wretch? O Romans, see her Tears;</l>
+       <l>
+        <pb n="14" facs="23"/>
+Those speaking Drops, with strongest Eloquence,</l>
+       <l>Reproach your strange Supineness: can it be?</l>
+       <l>Heavens! can it be, the Daughter of Virginius</l>
+       <l>Can want a Friend in Rome? Ungrateful Men!</l>
+       <l>How has Virginius fought his Country's Battles!</l>
+       <l>For you, to guard your Beds from Violation,</l>
+       <l>He rushes foremost in the bloody Field,</l>
+       <l>Whilst you—But Tears prevent me—O Virginia!</l>
+      </sp>
+      <sp who="#claudius">
+       <speaker>CLAUDIUS.</speaker>
+       <l>Too late you plead; the Laws adjudge her mine</l>
+       <l>Till her reputed Father proves her Birth.</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>Gods! 'tis too much to bear! For Pity, Appius,</l>
+       <l>If thou hast ought of Man within thee, hear me;</l>
+       <l>With me, as next of Kindred, trust the Maid,</l>
+       <l>'Till this unheard of Claim is prov'd; 'twere impious</l>
+       <l>To trust the Honor of a Roman Virgin</l>
+       <l>To that abandon'd pandar of Pollution</l>
+       <l>
+        <pb n="15" facs="24"/>
+My Brother may be here by rising Dawn:</l>
+       <l>To morrow I engage for her Appearance.</l>
+      </sp>
+      <sp who="#icilius">
+       <speaker>ICILIUS.</speaker>
+       <l>Why dost thou stoop to supplicate that Tyrant?</l>
+       <l>Assist me, generous Romans, to secure her;</l>
+       <l>I'll bear her off, or perish.</l>
+      </sp>
+      <sp who="#trebonius">
+       <speaker>TREBONIUS.</speaker>
+       <l>Brave Icilius!</l>
+       <l>O Romans! Countrymen!</l>
+      </sp>
+      <sp who="#romans">
+       <speaker>ALL ROMANS.</speaker>
+       <l>Liberty! Virginia!</l>
+      </sp>
+      <sp who="#appius">
+       <speaker>APPIUS.</speaker>
+       <l>Hear me, ye Romans, and thou, Numitorius,</l>
+       <l>And judge how I revere the Name of Father:</l>
+       <l>Not to that clamorous, tribunician Traitor</l>
+       <l>Do I yield ought; I scorn his idle threats;</l>
+       <l>Scorn him so much, I will not even secure him:</l>
+       <l>But to a fancy'd Parent's sacred Sorrows</l>
+       <l>I yield thus far, send for Virginius hither,</l>
+       <l>
+        <pb n="16" facs="25"/>
+I will defer my Sentence 'till Tomorrow;</l>
+       <l>But if he then appears not, I proceed,</l>
+       <l>Nor longer will withhold th' Award of Justice.</l>
+       <l>Let Sureties instantly be given to Claudius</l>
+       <l>For her Appearance.</l>
+      </sp>
+     </div>
+     <div n="6" type="scene">
+      <head>SCENE VI.</head>
+      <stage>VIRGINIA, ICILIUS, NUMITORIUS, TREBONIUS, and Romans.</stage>
+      <sp who="#trebonius">
+       <speaker>TREBONIUS.</speaker>
+       <l>ALL are Sureties for her.</l>
+      </sp>
+      <sp who="#romans">
+       <speaker>ROMANS.</speaker>
+       <l>All.</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>Thanks, Romans, we may want your Aid Tomorrow;</l>
+       <l>But 'tis not needed now; this gallant Friend,</l>
+       <l>With us, will be sufficient. Come, Virginia,</l>
+       <l>
+        <pb n="17" facs="26"/>
+Let me conduct thee hence. O, Romans! Friends!</l>
+       <l>Remember! But I will not doubt your Virtue.</l>
+      </sp>
+     </div>
+     <div n="7" type="scene">
+      <head>SCENE VII.</head>
+      <stage>[<hi>The House of</hi> VIRGINIUS.]</stage>
+      <stage>NUMITORIUS, TREBONIUS.</stage>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>THANKS, my Trebonius, for this generous Friendship.</l>
+       <l>Thus in our Moments of Distress to aid us,</l>
+       <l>And kindly join in our domestic Dangers,</l>
+       <l>Becomes the honest Roman, and the Friend.</l>
+      </sp>
+      <sp who="#trebonius">
+       <speaker>TREBONIUS.</speaker>
+       <l>Is not Virginia's Cause, the Cause of Rome,</l>
+       <l>Of Liberty, and Virtue? Too, too long</l>
+       <l>Our stooping Necks have born the Yoke of Power,</l>
+       <l>
+        <pb n="18" facs="27"/>
+The Yoke ourselves have fix'd, and shall we want</l>
+       <l>A Deed like this to fire us? Gods! shall Romans</l>
+       <l>Wait till Oppression, Bondage, Violation,</l>
+       <l>In all their horrid Forms are loos'd upon them,</l>
+       <l>E'er they assert the Spirit of their Fathers,</l>
+       <l>And crush the Tyranny themselves have rais'd?</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>For wisest Ends we rais'd this Power, Trebonius,</l>
+       <l>To give us Laws, the Wonder of the World,</l>
+       <l>From polish'd Greece selected; but long since</l>
+       <l>That Purpose, and their trusted Power, expir'd;</l>
+       <l>Long have they stretch'd the iron Hand of Force</l>
+       <l>O'er our insulted Liberties; but this,</l>
+       <l>This last Attempt, surpasses all Example.</l>
+      </sp>
+      <sp who="#trebonius">
+       <speaker>TREBONIUS.</speaker>
+       <l>Yes, Numitorius, Tarquin's self must yield</l>
+       <l>The Palm of daring Villainy to Appius,</l>
+       <l>And own him foremost in the wicked Race:</l>
+       <l>But we deserve it; Power unlimited</l>
+       <l>Is only fit for Jove: Why did we trust</l>
+       <l>
+        <pb n="19" facs="28"/>
+These Sons of Earth with Thunder much too mighty,</l>
+       <l>For their weak Arms to wield?</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>The giddy Height</l>
+       <l>To which mistaken Rome has rais'd them, turns</l>
+       <l>Their maddening Brains, or Appius would behold</l>
+       <l>His sure Destruction in this wild Attempt.</l>
+       <l>The Gods are just, and tho' unseen to Men,</l>
+       <l>They work our Good from Ill; they will, I trust,</l>
+       <l>Confound the Tyrant in his own Devices,</l>
+       <l>And make his purpos'd Crime his Punishment.</l>
+      </sp>
+      <sp who="#trebonius">
+       <speaker>TREBONIUS.</speaker>
+       <l>They will; great Jove beholds him, and will lance</l>
+       <l>The Bolt of Vengeance at his guilty Head.</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>I yet have Hope, Trebonius; had he dar'd</l>
+       <l>To use his lawless Power, he ne'er had forg'd</l>
+       <l>This poor Device, this Tale of fancy'd Slavery,</l>
+       <l>This crude unlikely Fable of her Birth:</l>
+       <l>
+        <pb n="20" facs="29"/>
+Virginius' Presence yet will save his Child:</l>
+       <l>By Morning's earliest Dawn he will be here;</l>
+       <l>In him our Hopes are center'd; he alone</l>
+       <l>Can stem the Torrent of this Tyrant's Passion,</l>
+       <l>Who trembles at his Interest in the Camp.</l>
+      </sp>
+      <sp who="#trebonius">
+       <speaker>TREBONIUS.</speaker>
+       <l>His coward Fears, I hope, are ominous:</l>
+       <l>By brave, plebeian, honest Deeds, Virginius</l>
+       <l>Has gain'd the Soldiers' Love; nor will they see,</l>
+       <l>Howe'er their Spirits droop, a Vet'ran wrong'd:</l>
+       <l>I left them ripe for every noble Purpose;</l>
+       <l>Long these Decemvirs have been hateful to them;</l>
+       <l>To this alone is owing our Defeats;</l>
+       <l>They rather chuse to fall beneath the Sword</l>
+       <l>Than fight for Tyranny.</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>O, my Trebonius!</l>
+       <l>My swelling Bosom heaves with Rage indignant</l>
+       <l>To see the freeborn Sons of mighty Rome,</l>
+       <l>Sunk, by their Folly, low as basest Slaves.</l>
+      </sp>
+      <sp who="#trebonius">
+       <pb n="21" facs="30"/>
+       <speaker>TREBONIUS.</speaker>
+       <l>Perish the Tyrants! Let us hurl this Appius</l>
+       <l>Down from his black Tribunal, and again</l>
+       <l>Declare for Liberty: each Roman Arm</l>
+       <l>Will grasp a Sword for us.</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>Thou generous Man!</l>
+      </sp>
+      <sp who="#trebonius">
+       <speaker>TREBONIUS.</speaker>
+       <l>This Deed is big with Fate: Rome's mighty Genius,</l>
+       <l>Tho' now it slumbers, will by this arrous'd,</l>
+       <l>Rush like a Whirlwind on these curst Decemvirs,</l>
+       <l>And bear down all before it. I will go,</l>
+       <l>And try to wake the godlike Soul of Freedom</l>
+       <l>In the deluded People. Thou, Tomorrow,</l>
+       <l>With brave Virginius, meet me at the Temple</l>
+       <l>Of righteous Themis, soon as he arrives.</l>
+      </sp>
+     </div>
+     <div n="8" type="scene">
+      <pb n="22" facs="31"/>
+      <head>SCENE VIII.</head>
+      <stage>VIRGINIA, ICILIA.</stage>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>WELCOME, Icilia, thou most lov'd of Friends!</l>
+       <l>Let us embrace whilst yet I am a Roman;</l>
+       <l>Tomorrow's fatal Dawn may give me up</l>
+       <l>The Slave of Claudius; when we meet again,</l>
+       <l>It will perhaps be Infamy to clasp me.</l>
+      </sp>
+      <sp who="#icilia">
+       <speaker>ICILIA.</speaker>
+       <l>O, my Virginia!—But I cannot speak—</l>
+       <l>Resentment, Rage, and Indignation, rise,</l>
+       <l>And stop my Utterance.—Art thou not a Roman?</l>
+       <l>By awful Heaven, when Rome was free and glorious,</l>
+       <l>E'er these Decemvirs fix'd their lawless Yoke,</l>
+       <l>Thy Virtue might have been her noblest Boast.</l>
+      </sp>
+      <sp who="#virginia">
+       <pb n="23" facs="32"/>
+       <speaker>VIRGINIA.</speaker>
+       <l>Alas! Icilia! we have once been happy,</l>
+       <l>But shall no more: canst thou forget the Hours</l>
+       <l>Of Peace and Innocence we past together?</l>
+      </sp>
+      <sp who="#icilia">
+       <speaker>ICILIA.</speaker>
+       <l>O, no, Virginia; all the dear Delights</l>
+       <l>Of growing Friendship rush on my Remembrance:</l>
+       <l>When dawning Reason first began to shoot,</l>
+       <l>Each early Hope confect this pleasing End:</l>
+       <l>My Bosom panted for a Counterpart,</l>
+       <l>Some Fellow Mind, to soften every Pang,</l>
+       <l>And double Joy by sweet Participation:</l>
+       <l>Amongst the soft Companions of my Youth</l>
+       <l>I sought a Friend: Virginia, dear Virginia,</l>
+       <l>Possess'd alone, of all our Roman Maids,</l>
+       <l>A Soul susceptive of the social Glow:</l>
+       <l>Dull was each Sport, each Pastime lost its Taste,</l>
+       <l>If e'er I mist Virginia from the Train,</l>
+       <l>The gentle Train, that shar'd our harmless Joys.</l>
+      </sp>
+      <sp who="#virginia">
+       <pb n="24" facs="33"/>
+       <speaker>VIRGINIA.</speaker>
+       <l>Yes, our first Days were happy: smiling Youth</l>
+       <l>Came on attended by surrounding Pleasures:</l>
+       <l>But Joy to me has been a Prodigal,</l>
+       <l>Who with too lavish Hand dispenc'd her Bounties,</l>
+       <l>And left my riper Days a Prey to Sorrow.</l>
+      </sp>
+      <sp who="#icilia">
+       <speaker>ICILIA.</speaker>
+       <l>Cast back thy Thoughts a Moment, my Virginia,</l>
+       <l>To those calm Joys which blest our heedless Youth:</l>
+       <l>How have we sat beneath embow'ring Shades,</l>
+       <l>Whilst the clear Stream in Silence glided by,</l>
+       <l>And lost in sweet romantic Pleasure, chid</l>
+       <l>The dancing Hours that fled too fast away!</l>
+       <l>All then was Peace and Harmony.</l>
+      </sp>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>No more:</l>
+       <l>Forbear to wake these tender Images:</l>
+       <l>Remembrance pains me; I must now forget</l>
+       <l>All vanish'd Happiness, and fill my Soul</l>
+       <l>
+        <pb n="25" facs="34"/>
+With Horrors equal to my dreadful Fate:</l>
+       <l>I know the Tyrant's Power, I know his Passion,</l>
+       <l>And am resolv'd.—</l>
+      </sp>
+      <sp who="#icilia">
+       <speaker>ICILIA.</speaker>
+       <l>What meanst thou?</l>
+      </sp>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>To be free;</l>
+       <l>To die, Icilia: thinkst thou I wou'd live</l>
+       <l>A Prey to Infamy, the Slave of Claudius?</l>
+      </sp>
+      <sp who="#icilia">
+       <speaker>ICILIA.</speaker>
+       <l>No, my Virginia, nor will Appius dare</l>
+       <l>To sentence thee a Slave: e'en midst his Guard</l>
+       <l>Of riotous, patrician Youth, he trembles,</l>
+       <l>And fears the Soldiers Vengeance: well he knows</l>
+       <l>The Rank Virginius holds in their Affections.</l>
+      </sp>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>Alas! Icilia! hadst thou seen his Looks,</l>
+       <l>The Looks of mingled Passion and Revenge,</l>
+       <l>With which his fiery Eyes even now survey'd me,</l>
+       <l>
+        <pb n="26" facs="35"/>
+Thou wou'dst have trembled for me: much I fear</l>
+       <l>My only Hope of Refuge is the Grave.</l>
+      </sp>
+      <sp who="#icilia">
+       <speaker>ICILIA.</speaker>
+       <l>Where is my Brother? Cannot he protect thee?</l>
+       <l>He is the Peoples Darling, and may rouse them</l>
+       <l>To Liberty and Vengeance.</l>
+      </sp>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>O, Icilia!</l>
+       <l>Thou hast awak'd the Pang that tears my Heart;</l>
+       <l>There I am weak indeed: to die is nothing;</l>
+       <l>But O, I cannot leave my lov'd Icilius:</l>
+       <l>Our Spring of Love gay-bloom'd, and promis'd Fruit</l>
+       <l>Of chaste connubial Bliss; when like a Blight</l>
+       <l>This Ruffian came, and wither'd all our Hopes.</l>
+       <l>Thou dearest of Mankind! let these Tears witness</l>
+       <l>The strong, the fond Affection of my Soul.</l>
+      </sp>
+      <sp who="#icilia">
+       <speaker>ICILIA.</speaker>
+       <l>The Gods are Friends to Virtue, my Virginia;</l>
+       <l>
+        <pb n="27" facs="36"/>
+Let us, when Morn first paints the ruddy Skies,</l>
+       <l>Summon a Train of Roman Maids, and haste</l>
+       <l>To great Diana's Shrine; there kneel and weep,</l>
+       <l>And supplicate the Goddess Aid to save thee.</l>
+      </sp>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>Yes, I will go. Immortal Maid, attend!</l>
+       <l>Thou Virgin Goddess! to the chaste a Friend!</l>
+       <l>If e'er my Voice, amid the tuneful Choir,</l>
+       <l>In Sounds responsive to the breathing Lyre,</l>
+       <l>Has pleas'd thine Ear, O, take me to thy Care,</l>
+       <l>Regard my Tears, and grant my ardent Pray'r!</l>
+       <l>If I must die, my spotless Honor save,</l>
+       <l>And let me sink unsullied to the Grave!</l>
+      </sp>
+     </div>
+    </div>
+    <div n="2" type="act">
+     <pb n="28" facs="37"/>
+     <head>ACT SECOND,</head>
+     <div n="1" type="scene">
+      <head>SCENE I.</head>
+      <stage>[<hi>The House of</hi> APPIUS.]</stage>
+      <stage>APPIUS, CLAUDIUS.</stage>
+      <sp who="#appius">
+       <speaker>APPIUS.</speaker>
+       <l>O! Claudius what a Whirlwind tears my Soul!</l>
+       <l>In what keen Tortures did I pass the Night!</l>
+       <l>Toss'd by Desire, Revenge, and Indignation,</l>
+       <l>In vain my Voice invok'd the downy God;</l>
+       <l>The lenient Power regarded not my Prayer,</l>
+       <l>By fierce, contending Passions banish'd from me:</l>
+       <l>Long e'er the Dawn I left my restless Couch,</l>
+       <l>To seek thy healing Counsel.</l>
+      </sp>
+      <sp who="#claudius">
+       <speaker>CLAUDIUS.</speaker>
+       <l>Noble Appius,</l>
+       <l>Suspend this Heat a while, and lend an Ear</l>
+       <l>
+        <pb n="29" facs="38"/>
+To what my faithful Spies have learnt abroad:</l>
+       <l>This Day must fix you Lord of Rome for ever,</l>
+       <l>Or give the Sway to tribunician Hands:</l>
+       <l>Can you with Tameness yield the Reins of Power</l>
+       <l>(Of Power, the noblest Attribute of Jove)</l>
+       <l>To proud Icilius?</l>
+      </sp>
+      <sp who="#appius">
+       <speaker>APPIUS.</speaker>
+       <l>Curses on the Slave!</l>
+       <l>What dost thou mean, my Claudius?</l>
+      </sp>
+      <sp who="#claudius">
+       <speaker>CLAUDIUS.</speaker>
+       <l>Whilst you sit,</l>
+       <l>Supine, with folded Arms, a sighing Lover,</l>
+       <l>Your haughty Rival gains the giddy People:</l>
+       <l>Horatius and Valerius too have join'd</l>
+       <l>The abject rebel Multitude, forgetful,</l>
+       <l>Meanly forgetful of their noble Birth.</l>
+      </sp>
+      <sp who="#appius">
+       <speaker>APPIUS.</speaker>
+       <l>Horatius and Valerius? I remember</l>
+       <l>The Insolence with which they crost my Will</l>
+       <l>
+        <pb n="30" facs="39"/>
+Late in the Senate, when I call'd the Fathers</l>
+       <l>To aid me in the Levies for the War.</l>
+      </sp>
+      <sp who="#claudius">
+       <speaker>CLAUDIUS.</speaker>
+       <l>The People worship them; the Youths can talk,</l>
+       <l>And make Harangues on ancient Roman Virtue.</l>
+      </sp>
+      <sp who="#appius">
+       <speaker>APPIUS.</speaker>
+       <l>On Virtue? what is Virtue, but a Name</l>
+       <l>Invented by the Wise to shackle Fools?</l>
+       <l>No, 'tis Ambition fires them, they wou'd raise</l>
+       <l>Themselves upon my Ruins; 'tis for this</l>
+       <l>They court the Multitude; by Arts like these,</l>
+       <l>By feign'd Humility, and Shows of Virtue,</l>
+       <l>I gain'd the Power which soon shall make them tremble:</l>
+       <l>They both shall die this Day; Icilius too,</l>
+       <l>And Numitorius, all shall glut my Vengeance;</l>
+       <l>A chosen Band of noble Youths shall wait,</l>
+       <l>And intercept their Passage from the Forum.</l>
+      </sp>
+      <sp who="#claudius">
+       <pb n="31" facs="40"/>
+       <speaker>CLAUDIUS.</speaker>
+       <l>If Fortune smiles, e'er the revolving Sun</l>
+       <l>Again shall gild the Capitol, I hope</l>
+       <l>To see you crown'd, and hail you King of Rome.</l>
+      </sp>
+      <sp who="#appius">
+       <speaker>APPIUS.</speaker>
+       <l>O, Claudius! 'tis to that my Soul aspires;</l>
+       <l>But 'tis not ripe; I must delay my Purpose:</l>
+       <l>Fabius commands a Camp of hardy Veterans;</l>
+       <l>'Tis true he yet implicitly obeys me,</l>
+       <l>But 'tis to share my Power, and were I once</l>
+       <l>To aim at Royalty, his rous'd Ambition</l>
+       <l>Wou'd thwart my Will: I must secure him first;</l>
+       <l>Perhaps some lucky Chance may do my Work:</l>
+       <l>Wou'd but the coward Troops engage the Foe,</l>
+       <l>Some friendly Sabine Sword might reach his Heart;</l>
+       <l>If not, Petilius has my private Orders</l>
+       <l>To take him off by Poison.</l>
+      </sp>
+      <sp who="#claudius">
+       <pb n="32" facs="41"/>
+       <speaker>CLAUDIUS.</speaker>
+       <l>Wou'd 'twere done!</l>
+       <l>But can you trust Petilius?</l>
+      </sp>
+      <sp who="#appius">
+       <speaker>APPIUS.</speaker>
+       <l>With my Life;</l>
+       <l>His Birth, ill-suited to his desperate Fortunes,</l>
+       <l>First turn'd my Eyes upon him, and I found him</l>
+       <l>Ev'n all I wish'd; my powerful Interest rais'd him</l>
+       <l>To the Decemvirate, and well he knows</l>
+       <l>His Fall with mine involv'd: but let this rest;</l>
+       <l>A dearer Care now takes up all my Soul,</l>
+       <l>The bright Virginia—Ha! what Sound is that?</l>
+       <stage>[Claudius <hi>goes to the Door, and returns.</hi>]</stage>
+      </sp>
+      <sp who="#claudius">
+       <speaker>CLAUDIUS.</speaker>
+       <l>One with Dispatches from the Camp of Fabius</l>
+       <l>Attends your sacred Will.</l>
+      </sp>
+      <sp who="#appius">
+       <speaker>APPIUS.</speaker>
+       <l>Conduct him in.</l>
+      </sp>
+     </div>
+     <div n="2" type="scene">
+      <pb n="33" facs="42"/>
+      <head>SCENE II.</head>
+      <stage>APPIUS, CLAUDIUS, Messenger.</stage>
+      <sp who="#appius">
+       <speaker>APPIUS.</speaker>
+       <l>WHAT from my valiant Friend, your brave Commander,</l>
+       <l>The noble Fabius?</l>
+      </sp>
+      <sp who="#messenger">
+       <speaker>MESSENGER.</speaker>
+       <l>These Dispatches, Sir,</l>
+       <l>He begs you will peruse, and instant answer.</l>
+      </sp>
+      <sp who="#appius">
+       <speaker>APPIUS.</speaker>
+       <l>'Tis well: attend without.</l>
+       <stage>(Reads)</stage>
+      </sp>
+     </div>
+     <div n="3" type="scene">
+      <head>SCENE III.</head>
+      <stage>APPIUS, CLAUDIUS.</stage>
+      <sp who="#appius">
+       <speaker>APPIUS.</speaker>
+       <l>COME hither, Claudius:</l>
+       <l>Predition on their coward Souls! The Legions</l>
+       <l>Who basely fled before the seeble Sabines.</l>
+       <l>
+        <pb n="34" facs="43"/>
+Have dar'd to brave their Leaders: Fabius writes</l>
+       <l>That when, at my Command, the Traitor Siccius</l>
+       <l>Was, by a Band of try'd and faithful Soldiers,</l>
+       <l>In private taken off, the rebel Troops</l>
+       <l>No longer own'd their Generals, but assembling</l>
+       <l>In mutinous Consult, disclaim'd Obedience,</l>
+       <l>And scarce were held from marching strait to Rome.</l>
+       <l>This Tumult is ill-tim'd, and I cou'd wish</l>
+       <l>His Death had been defer'd; but 'tis no Matter,</l>
+       <l>My Power is fix'd, nor fear's their feeble Efforts.</l>
+      </sp>
+      <sp who="#claudius">
+       <speaker>CLAUDIUS.</speaker>
+       <l>Who is their Leader?</l>
+      </sp>
+      <sp who="#appius">
+       <speaker>APPIUS.</speaker>
+       <l>Labeo the Centurion.</l>
+       <l>Fabius is much too mild; the bloody Axe</l>
+       <l>Must stop this headlong Torrent of Sedition;</l>
+       <l>Their Leader shall be scourg'd, and then beheaded;</l>
+       <l>The rest by Decimation, learn their Duty.</l>
+       <l>This will not brook Delay: prepare my Tablets.</l>
+       <stage>(Exeunt.)</stage>
+      </sp>
+     </div>
+     <div n="4" type="scene">
+      <pb n="35" facs="44"/>
+      <head>SCENE IV.</head>
+      <stage>[<hi>The House of</hi> VIRGINIUS.]</stage>
+      <stage>NUMITORIUS, ICILIUS.</stage>
+      <sp who="#icilius">
+       <speaker>ICILIUS.</speaker>
+       <l>WHERE is Virginia? Let me once behold her</l>
+       <l>Whilst yet she is my own; whilst she is free,</l>
+       <l>And I without a Blush may own my Passion.</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>She seeks the Help of Heaven by pious Prayer,</l>
+       <l>And much I fear 'tis Heaven alone can save her.</l>
+      </sp>
+      <sp who="#icilius">
+       <speaker>ICILIUS.</speaker>
+       <l>Yes, Numitorius, while we loitering stand,</l>
+       <l>And hope for Miracles, 'tis Heaven alone</l>
+       <l>That must preserve us all; but did we dare</l>
+       <l>To draw the Sword and pierce the Tyrant's Heart,</l>
+       <l>We better shou'd deserve the Care of Heaven.</l>
+      </sp>
+      <sp who="#numitorius">
+       <pb n="36" facs="45"/>
+       <speaker>NUMITORIUS.</speaker>
+       <l>Patience, young Man!</l>
+      </sp>
+      <sp who="#icilius">
+       <speaker>ICILIUS.</speaker>
+       <l>Patience! immortal Gods!</l>
+       <l>Does it become the haughty Roman Virtue,</l>
+       <l>Fam'd for swift Vengeance, and of Wrongs impatient,</l>
+       <l>Calmly to stand, and see our Wives and Children</l>
+       <l>Dragg'd to Pollution by these homebred Tyrants?</l>
+       <l>O, Rome! Thou Queen of Nations! Shall a Son,</l>
+       <l>A private Citizen, by thee entrusted</l>
+       <l>With delegated Power, thus lord it o'er us?</l>
+       <l>Give us our Tarquins, Gods: if we must stoop,</l>
+       <l>If we must bend beneath the Rod of Power,</l>
+       <l>Let not an Equal fix our galling Chains.</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>You are too warm, Icilius.</l>
+      </sp>
+      <sp who="#icilius">
+       <speaker>ICILIUS.</speaker>
+       <l>How? Too warm?</l>
+       <l>
+        <pb n="37" facs="46"/>
+Is she not mine? Heavens! are we not betroth'd?</l>
+       <l>O my Virginia! may I be a Slave,</l>
+       <l>Doom'd still to bear the Yoke of Tyranny,</l>
+       <l>To crouch beneath the Lash, if I not save thee</l>
+       <l>From this inhuman Monster: I will go,</l>
+       <l>And find him out this Moment.</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>Stay, Icilius;</l>
+       <l>Your rash Revenge wou'd ruin all our Hopes:</l>
+       <l>Virginius will be here upon the Instant,</l>
+       <l>And when he comes, Appius must drop a Claim</l>
+       <l>He cannot then support: Virginia begs,</l>
+       <l>By me she begs, you will restrain this Heat</l>
+       <l>'Till safer Times.</l>
+      </sp>
+      <sp who="#icilius">
+       <speaker>ICILIUS.</speaker>
+       <l>What dost thou mean by Safety?</l>
+       <l>Can we be safe but by the Tyrant's Death?</l>
+       <l>Was it for this our Tribunes were abolish'd?</l>
+       <l>For this our mighty Bulwark of Defence,</l>
+       <l>The sacred Freedom of Appeal, remov'd?</l>
+       <l>
+        <pb n="38" facs="47"/>
+O, Rome! misguided People! But no more;</l>
+       <l>I will be calm, I will await his Sentence</l>
+       <l>With all the Tameness of a Slave; but mark me,</l>
+       <l>If he withdraws not this most impious Claim</l>
+       <l>My Sword shall find his Heart.</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>It will be just,</l>
+       <l>And Heaven will then approve your righteous</l>
+       <l>Vengeance.</l>
+      </sp>
+      <sp who="#icilius">
+       <speaker>ICILIUS.</speaker>
+       <l>Gods! 'tis too much: are then our pleasing Hopes</l>
+       <l>Of virtuous Happiness untimely blasted?</l>
+       <l>The dear, the long expected Hour approach'd</l>
+       <l>To join our Hands for ever, when this Monster</l>
+       <l>Step'd in between, and dash'd our Expectations:</l>
+       <l>But I will save her; yes, my lov'd Virginia,</l>
+       <l>This Arm shall stab the Tyrant, and preserve thee.</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>Fear not, Icilius, Piety like hers</l>
+       <l>Is Heaven's peculiar Care, nor will the People</l>
+       <l>
+        <pb n="39" facs="48"/>
+Bear with a Deed like this: perhaps this Appius</l>
+       <l>Is but an Instrument of Jove, to raise us</l>
+       <l>From our lethargic State, to arm our Hands</l>
+       <l>With all the Rage of Vengeance? and restore</l>
+       <l>The golden Days of Liberty and Peace.</l>
+      </sp>
+      <sp who="#icilius">
+       <speaker>ICILIUS.</speaker>
+       <l>Be all thy Hopes prophetic, Numitorius!</l>
+       <l>And sure the Soul of Rome is lost indeed</l>
+       <l>If we can bear with an Attempt like this:</l>
+       <l>I will not think we are so vilely sunk;</l>
+       <l>It cannot be.—</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>See, where Trebonius comes!</l>
+       <l>His hasty Step, and unexpected Presence,</l>
+       <l>(Since we agreed to meet in Themis' Temple,)</l>
+       <l>Bespeak some new Event.</l>
+      </sp>
+     </div>
+     <div n="5" type="scene">
+      <pb n="40" facs="49"/>
+      <head>SCENE V.</head>
+      <stage>NUMITORIUS, ICILIUS, TREBONIUS.</stage>
+      <sp who="#trebonius">
+       <speaker>TREBONIUS.</speaker>
+       <l>WHERE is Virginius?</l>
+       <l>Is he not yet arriv'd? The Minutes call:</l>
+       <l>O! were he here, Rome might again be free,</l>
+       <l>Revenge and Fury burn in every Breast,</l>
+       <l>And if he comes, the lawless Tyrant falls.</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>He will be here, each Moment I expect him.</l>
+      </sp>
+      <sp who="#trebonius">
+       <speaker>TREBONIUS.</speaker>
+       <l>Then tremble, Appius, on thy proud Tribunal:</l>
+       <l>Each Accident concurs to rouse the People:</l>
+       <l>This Moment from Fidenae is arriv'd</l>
+       <l>A Soldier, who relates that valiant Siccius</l>
+       <l>Is murder'd by the curst Decemvirs there;</l>
+       <l>
+        <pb n="41" facs="50"/>
+By Fabius, and the rest, who copy Appius,</l>
+       <l>And emulate his blackest Deeds: the Camp</l>
+       <l>Is all in Tumult.</l>
+      </sp>
+      <sp who="#icilius">
+       <speaker>ICILIUS.</speaker>
+       <l>Then the Gods are just;</l>
+       <l>Revenge, and glorious Freedom are our own.</l>
+      </sp>
+      <sp who="#trebonius">
+       <speaker>TREBONIUS.</speaker>
+       <l>Yes, brave Icilius, once again the Goddess</l>
+       <l>Shall spread her shielding Arms round happy Rome:</l>
+       <l>My Soul is all on Fire. O Liberty!</l>
+       <l>At thy dear Name, my kindling Spirit mounts,</l>
+       <l>And Hope inspires my Breast: again I see</l>
+       <l>Rome's awful Consuls, the deliver'd Senate,</l>
+       <l>And thy best Guard, the Tribunate, restor'd:</l>
+       <l>Again the Roman Eagle spreads his Wings</l>
+       <l>O'er conquer'd Lands, and the fierce Sabine stoops;</l>
+       <l>No more the languid Soldier drooping sits,</l>
+       <l>But wak'd to Valour, rushes on the Foe,</l>
+       <l>Resistless in his Course.</l>
+      </sp>
+      <sp who="#numitorius">
+       <pb n="42" facs="51"/>
+       <speaker>NUMITORIUS.</speaker>
+       <l>O, Jove all-just!</l>
+       <l>Let thy strong Arm o'ertake these Sons of Rapine,</l>
+       <l>And level them with Earth!</l>
+      </sp>
+      <sp who="#trebonius">
+       <speaker>TREBONIUS.</speaker>
+       <l>It wakes my Wonder,</l>
+       <l>That Fabius, once the fairest Son of Fame,</l>
+       <l>Belov'd of Rome, shou'd join this League of Tyrants;</l>
+       <l>That he whose Courage oft had sav'd his Country,</l>
+       <l>Who stood the foremost in her dear Esteem,</l>
+       <l>Shou'd chuse to sink so low as Appius' Slave.</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>Alas! Trebonius, Valour is a Crime,</l>
+       <l>If not ally'd to Virtue; Liberty</l>
+       <l>Must guide the righteous Sword, or War is Murder:</l>
+       <l>Tho' Fame may follow, and the thoughtless People</l>
+       <l>Applaud, yet bravest Deeds deserve our Hate,</l>
+       <l>Deserve our Scorn, if prompted by Ambition.</l>
+      </sp>
+      <sp who="#trebonius">
+       <pb n="43" facs="52"/>
+       <speaker>TREBONIUS.</speaker>
+       <l>I tho't this Fabius just, as well as brave,</l>
+       <l>I tho't him zealous for his Country's Good;</l>
+       <l>But Tyranny, like Virtue, sleeping lies,</l>
+       <l>'Till wak'd by Opportunity to Action.</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>Is this the Man, who sav'd by mighty Jove,</l>
+       <l>Escap'd the Slaughter of that bloody Day,</l>
+       <l>When, but himself, the Fabian Race expir'd?</l>
+       <l>Expir'd together, fighting for their Country,</l>
+       <l>What Time their single Force oppos'd the Power,</l>
+       <l>The whole united Strength of warlike Veii?</l>
+      </sp>
+      <sp who="#trebonius">
+       <speaker>TREBONIUS.</speaker>
+       <l>Look down, ye mighty Spirits, and behold</l>
+       <l>The Wretch who shames the noble Fabian Name,</l>
+       <l>And throws a Shade around your Blaze of Glories!</l>
+       <l>Degenerate Man! but true Nobility</l>
+       <l>Is of the Soul, nor waits on empty Titles.</l>
+      </sp>
+      <sp who="#icilius">
+       <pb n="44" facs="53"/>
+       <speaker>ICILIUS.</speaker>
+       <l>Why stand we here, and waste the flying Hours</l>
+       <l>In idle Contemplation? Vengeance calls;</l>
+       <l>'Tis now the Time for Action. O, Trebonius!</l>
+       <l>The coming Hour must give us up for ever</l>
+       <l>The Slaves of Appius, or secure our Freedom.</l>
+       <stage>(Exeunt.)</stage>
+      </sp>
+     </div>
+     <div n="6" type="scene">
+      <head>SCENE VI.</head>
+      <stage>[A Garden.]</stage>
+      <stage>APPIUS, CLAUDIUS.</stage>
+      <sp who="#appius">
+       <speaker>APPIUS.</speaker>
+       <l>O, Claudius! 'tis in vain to hope for Ease,</l>
+       <l>'Till full Possession cures this fatal Fondness:</l>
+       <l>Each Thought is full of this disdainful Maid,</l>
+       <l>Nor can Ambition's active Fire expel her:</l>
+       <l>Ev'n midst my Schemes of meditated Power,</l>
+       <l>Her bright Idea takes up half my Soul,</l>
+       <l>And mingles with my golden Dreams of Empire.</l>
+      </sp>
+      <sp who="#claudius">
+       <pb n="45" facs="54"/>
+       <speaker>CLAUDIUS.</speaker>
+       <l>Why will you thus disturb your Soul with Cares,</l>
+       <l>So needless and so vain? She must be yours;</l>
+       <l>Sedition's brawling Voice, which yesterday</l>
+       <l>Dar'd to oppose your Will, shall sink in Silence,</l>
+       <l>And blooming Beauty crown your warm Desires.</l>
+      </sp>
+      <sp who="#appius">
+       <speaker>APPIUS.</speaker>
+       <l>Why did my coward Soul consent to yield her?</l>
+       <l>Virginius may return.</l>
+      </sp>
+      <sp who="#claudius">
+       <speaker>CLAUDIUS.</speaker>
+       <l>Think not of him,</l>
+       <l>I trust he is e'er this secur'd in Chains:</l>
+       <l>My Bondman, Tyro, who convey'd your Orders,</l>
+       <l>Is faithful, diligent; and more to urge</l>
+       <l>His swift Dispatch, I promis'd Liberty</l>
+       <l>Shou'd crown his honest Duty, if successful.</l>
+      </sp>
+      <sp who="#appius">
+       <speaker>APPIUS.</speaker>
+       <l>'Tis well: I thank thy Care. Was it not hard</l>
+       <l>To have her torn from my fierce rising Wishes,</l>
+       <l>
+        <pb n="46" facs="55"/>
+Just when bright Hope had given the Rein to Passion,</l>
+       <l>And Fancy painted all the melting Joys</l>
+       <l>In her dear, yielding Arms? O, potent Venus!</l>
+       <l>Give me to feast on her luxurious Sweetness,</l>
+       <l>To press her panting Beauties to my Breast,</l>
+       <l>And to thy genial Power shall rise a Temple</l>
+       <l>In all the proud Magnificence of Greece!</l>
+      </sp>
+      <sp who="#claudius">
+       <speaker>CLAUDIUS.</speaker>
+       <l>Trust me, th' approaching Hour shall see her yours:</l>
+       <l>This specious Tale my fervent Zeal inspir'd,</l>
+       <l>Shall give the peevish Virgin to your Arms,</l>
+       <l>Spite of Icilius, or the murmuring People.</l>
+      </sp>
+      <sp who="#appius">
+       <speaker>APPIUS.</speaker>
+       <l>O, Claudius! with what Dignity she moves!</l>
+       <l>What Magic dwells in that enchanting Form?</l>
+       <l>The Pride of Birth, the beauteous Pomp of Power,</l>
+       <l>Look vile before her; not the rosy Dawn,</l>
+       <l>
+        <pb n="47" facs="56"/>
+Nor vernal Flowers, can boast a Bloom, like hers:</l>
+       <l>My haughty Soul, unus'd to bend, yet stoops</l>
+       <l>To such amazing Beauty, nor remembers</l>
+       <l>The low Plebeian Stock from whence she sprung,</l>
+       <l>I swear, that did not conscious Shame forbid</l>
+       <l>I wou'd repeal my Law, divorce Sempronia,</l>
+       <l>And wed this Virgin.</l>
+      </sp>
+      <sp who="#claudius">
+       <speaker>CLAUDIUS.</speaker>
+       <l>Gods! what do I hear?</l>
+       <l>Cou'd Appius then, the great, the highborn Appius,</l>
+       <l>Descended from a Line of matchless Heroes,</l>
+       <l>Who reigns in Rome with more despotic Sway</l>
+       <l>Than e'er the royal Tarquins dar'd assert,</l>
+       <l>Without a Blush, call base Virginius Father?</l>
+       <l>Besides, you had forgot Icilius' Claim,</l>
+       <l>The glorious Rival of your Love.</l>
+      </sp>
+      <sp who="#appius">
+       <speaker>APPIUS.</speaker>
+       <l>The Slave!</l>
+       <l>I had forgot indeed, and thou dost well</l>
+       <l>
+        <pb n="48" facs="57"/>
+To wake my keen Disdain; my furious Passion</l>
+       <l>Had hurry'd me to what I blush to think of,</l>
+       <l>To Marriage with this Maid, but for thy Counsel.</l>
+      </sp>
+      <sp who="#claudius">
+       <speaker>CLAUDIUS.</speaker>
+       <l>To Marriage with her? Yes, you do forget,</l>
+       <l>Or Love disturbs your Reason: has she not</l>
+       <l>To you avow'd her Passion for Icilius?</l>
+       <l>Can you so soon forget her haughty Answer?</l>
+       <l>Is she not his? To him betroth'd long since,</l>
+       <l>By strictest Vows, and stronger Love, engag'd?</l>
+       <l>To him, to the Plebeian Slave, she destines</l>
+       <l>Those matchless Charms, which, like the Grecian Helens,</l>
+       <l>Might set the Monarchs of the World in Arms.</l>
+       <l>For Shame, shake off this mean, this abject Love,</l>
+       <l>And be yourself: shall Appius poorly sigh,</l>
+       <l>And waste th' important Hours of doubtful Empire</l>
+       <l>In whining, Boyish Wishes for a Woman,</l>
+       <l>And one within his Power?</l>
+      </sp>
+      <sp who="#appius">
+       <pb n="49" facs="58"/>
+       <speaker>APPIUS.</speaker>
+       <l>Forgive my Weakness:</l>
+       <l>Her Scorn distracts my Soul, but I deserve it:</l>
+       <l>Why shou'd I ask for what I can command?</l>
+      </sp>
+      <sp who="#claudius">
+       <speaker>CLAUDIUS.</speaker>
+       <l>Why ask indeed? Remember Romulus:</l>
+       <l>To what is Rome indebted for it's Greatness?</l>
+       <l>The Sabine Rape.—</l>
+      </sp>
+      <sp who="#appius">
+       <speaker>APPIUS.</speaker>
+       <l>Thou dost instruct me well:</l>
+       <l>I'll seize her, snatch her from the Slave she doats on,</l>
+       <l>And force the Joys her foolish Heart denies me:</l>
+       <l>So, darting swift, th'imperial Bird of Jove</l>
+       <l>In his strong Talons grasps the trembling Dove;</l>
+       <l>In vain she wou'd resist, her feeble Cry</l>
+       <l>He hears regardless, and with conscious Joy,</l>
+       <l>He bears the struggling, panting, Prize, on high.</l>
+      </sp>
+     </div>
+    </div>
+    <div n="3" type="act">
+     <pb n="50" facs="59"/>
+     <head>ACT THIRD.</head>
+     <div n="1" type="scene">
+      <head>SCENE I.</head>
+      <stage>[<hi>The House of</hi> VIRGINIUS.]</stage>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>WHAT can this mean? In every Face I meet</l>
+       <l>Sits pale Despair: the People gaz'd upon me</l>
+       <l>With Looks, or I mistake, of Grief and Horror;</l>
+       <l>Still as I past, each Eye was fix'd on me:</l>
+       <l>Dread Silence reigns around; o'er all my House</l>
+       <l>No Sound is heard; my Slaves, who us'd to fly</l>
+       <l>With duteous Joy to welcome my Return,</l>
+       <l>Avoid me now. My Child too! where is she?</l>
+       <l>Sure she is well: my Brother's Messenger</l>
+       <l>Charg'd me to haste to Rome; that Business call'd me</l>
+       <l>
+        <pb n="51" facs="60"/>
+Of more Import than Life, and that a Moment</l>
+       <l>Might wreck my Peace for ever. O, Virginia!</l>
+       <l>Thou art my nearest Care! But see! my Brother!</l>
+       <l>He will unfold this Riddle.</l>
+      </sp>
+     </div>
+     <div n="2" type="scene">
+      <head>SCENE II.</head>
+      <stage>VIRGINIUS, NUMITORIUS.</stage>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>MY Virginius!</l>
+       <l>You come in happy Time to save us all.</l>
+      </sp>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>How fares Virginia?</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>Well, but yet, my Brother.—</l>
+      </sp>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>Why dost thou pause? Let me but know the worst,</l>
+       <l>
+        <pb n="52" facs="61"/>
+And I will try to bear it like a Roman:</l>
+       <l>The Gods can witness, if my Child is safe,</l>
+       <l>All other Griefs are Trifles.</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>O, Virginius!</l>
+       <l>She yet is safe, but a few posting Hours</l>
+       <l>May give her up to Shame.</l>
+      </sp>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>Ha! what? to Shame?</l>
+       <l>By all the Gods of Vengeance, tho' I love her</l>
+       <l>Dearer than Life, if she has dar'd to sully</l>
+       <l>The Honour of her Family, this Arm</l>
+       <l>Shall cut her off, and send her to the Grave.</l>
+       <l>Icilius wou'd not sure.—</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>O, no! my Brother,</l>
+       <l>Icilius is a Roman, and a brave one,</l>
+       <l>His honest Heart disdains a Thought of Baseness;</l>
+       <l>But the fell Tyrant, Appius.—</l>
+      </sp>
+      <sp who="#virginius">
+       <pb n="53" facs="62"/>
+       <speaker>VIRGINIUS.</speaker>
+       <l>Appius! she cannot sure be so degenerate</l>
+       <l>As to prefer the Tyrant of her Country</l>
+       <l>To brave Icilius: but my Sword shall find her.</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>You still mistake me; still is your Virginia</l>
+       <l>The Boast of Roman Maids, her Sex's Pride.</l>
+       <l>A Moment's Patience, and I will unfold</l>
+       <l>A Tale shall rouse each Drop of Roman Blood,</l>
+       <l>And set you in a Flame: know then, Virginius,</l>
+       <l>The fierce Decemvir has with Eyes of Love</l>
+       <l>Beheld your beauteous Daughter, and since all</l>
+       <l>His Arts of Vice have fail'd to move her Virtue,</l>
+       <l>Has urg'd his base, abandon'd Freedman, Claudius,</l>
+       <l>To claim her for his Slave.</l>
+      </sp>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>His Slave? What mean you?</l>
+       <l>Am I not then a Roman?</l>
+      </sp>
+      <sp who="#numitorius">
+       <pb n="54" facs="63"/>
+       <speaker>NUMITORIUS.</speaker>
+       <l>He pretends</l>
+       <l>The virtuous Numitoria bought this Maid,</l>
+       <l>Whilst yet an Infant, of a female Slave</l>
+       <l>In Claudius' Family: with slow Reluctance,</l>
+       <l>Aw'd by the murmuring People, he consented</l>
+       <l>That till this Morn' his Sentence shou'd be stay'd;</l>
+       <l>Even on the Instant I dispatch'd Fabatus</l>
+       <l>To bring you from the Camp, but lest your Rage</l>
+       <l>Shou'd force the Story from you, I enjoin'd him,</l>
+       <l>Not to relate the Cause; for much I fear'd</l>
+       <l>His Brother Tyrants might detain you there,</l>
+       <l>And all our Hopes are now in your Appearance.</l>
+      </sp>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>Avenging Jove!</l>
+       <l>Let thy red Lightening blast the servile Arm</l>
+       <l>That lifts a Sword for Appius! Let them come,</l>
+       <l>The Foes of Rome; I shall with Joy behold them:</l>
+       <l>
+        <pb n="55" facs="64"/>
+What can they more, than drag our freeborn Virgins,</l>
+       <l>To Bonds and Violation? See this Breast,</l>
+       <l>Scarr'd o'er with honest Wounds in Rome's Defence,</l>
+       <l>And think of my Reward! my Age's Darling,</l>
+       <l>The lovely Image of my Numitoria,</l>
+       <l>Forc'd from my Arms to sate the brutal Rage</l>
+       <l>Of a loose Tyrant's Passion; but he dares not,</l>
+       <l>He dares not urge so far the Roman Spirit,</l>
+       <l>That waits but for a Deed like this, to rise</l>
+       <l>In all the dreadful Majesty of Vengeance,</l>
+       <l>And crush him at a Blow.</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>There lies my Hope,</l>
+       <l>He fears the Soldiery, and well he knows</l>
+       <l>How much thou art belov'd.</l>
+      </sp>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>O, Numitorius!</l>
+       <l>Is it for this, the hardy Soldier meets</l>
+       <l>
+        <pb n="56" facs="65"/>
+The Summer's Heat, and Winter's piercing Cold?</l>
+       <l>Is it for this, he sleeps in open Air,</l>
+       <l>Nor fears the fiery Bolts of angry Jove?</l>
+       <l>That whilst his stubborn Toils preserve his Country;</l>
+       <l>Luxurious Slaves, by him from Danger guarded,</l>
+       <l>Shall poison all his dear, domestic Peace,</l>
+       <l>The Price and best Reward of fighting Fields,</l>
+       <l>And drag his Children to Pollution? Gods!</l>
+       <l>Pour down your keenest Vengeance on my Head,</l>
+       <l>If e'er I draw a Sword for these Decemvirs!</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>No, my Virginius, for the Time approaches</l>
+       <l>Which may employ your Sword to better Purpose:</l>
+       <l>The Dawn of Freedom breaks once more on Rome;</l>
+       <l>This base Attempt, has rous'd the languid People,</l>
+       <l>Ev'n now they call aloud for Liberty,</l>
+       <l>And urge the Restoration of their Tribunes.</l>
+      </sp>
+      <sp who="#virginius">
+       <pb n="57" facs="66"/>
+       <speaker>VIRGINIUS.</speaker>
+       <l>Why do we loiter then, let us prevent</l>
+       <l>His lawless Sentence, and attack him now.</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>The enterprize is just, but full of Danger,</l>
+       <l>He now is guarded by a well arm'd Train</l>
+       <l>Of rash Patrician Youth, nor are the People</l>
+       <l>Prepar'd for sudden Action: let him pass</l>
+       <l>His wild Decree; I trust he will acquit her,</l>
+       <l>O'er-aw'd by you; but shou'd I judge amiss,</l>
+       <l>Both Gods and Men will then assist your Vengeance.</l>
+      </sp>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>Your Counsel shall prevail; but shou'd he doom</l>
+       <l>My dearest Child a Slave, I will preserve her</l>
+       <l>Ev'n at my Life's Expence: Appius or I</l>
+       <l>Must see the Sun no more: but say, my Brother,</l>
+       <l>Are all the Senate aw'd by this proud Tyrant;</l>
+       <l>Or do they meanly join in his Oppressions,</l>
+       <l>And share the Spoils of their unhappy Country?</l>
+       <l>
+        <pb n="58" facs="67"/>
+Two, and two only, of Patrician Rank,</l>
+       <l>Espouse the glorious Cause of Liberty,</l>
+       <l>Foes to all Interests but their bleeding Country's;</l>
+       <l>The rest, gain'd o'er by Appius, aid his Rapines,</l>
+       <l>Or in the Country, seek to shun his Power.</l>
+       <l>His noble Uncle, Publius Claudius, long</l>
+       <l>Essay'd, to bend his haughty Soul to Virtue;</l>
+       <l>But finding all his Counsels vain, retir'd,</l>
+       <l>And at Regillum shun's the killing Sight</l>
+       <l>Of Rome enslav'd, and the severe Reflection</l>
+       <l>That from the Claudian House her Tyrant sprung.</l>
+      </sp>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>And who, my Numitorius, are the Pair,</l>
+       <l>The noble Pair, that join the Cause of Honour?</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>Valerius and Horatius.</l>
+      </sp>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>Gen'rous Youths!</l>
+       <l>
+        <pb n="59" facs="68"/>
+Their very Names inspire me: tremble, Appius,</l>
+       <l>Their Sires expel'd the Tarquins.</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>Yes, Virginius;</l>
+       <l>And these brave Youths inherit all the Virtues,</l>
+       <l>The daring Souls of their renown'd Forefathers.</l>
+       <l>Vain the patrician Name if noble Deeds</l>
+       <l>Speak not the Parent Stock: by godlike Virtue</l>
+       <l>Their Fathers gain'd the Power which these Decemvirs</l>
+       <l>Abuse to vilest Purposes.</l>
+      </sp>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>Ye Gods!</l>
+       <l>Are these the Men that arrogate all Honours,</l>
+       <l>And scorn Alliance with us? But 'tis well,</l>
+       <l>Still let them wed in their own haughty Rank,</l>
+       <l>Nor stain the purer Blood of our Plebeians.</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>And dare they think, our bright Plebeian Virgins</l>
+       <l>Are only born to glut their baser Passions?</l>
+      </sp>
+      <sp who="#virginius">
+       <pb n="60" facs="69"/>
+       <speaker>VIRGINIUS.</speaker>
+       <l>No more; I wou'd repress this rising Rage,</l>
+       <l>'Till fair Occasion calls my Sword to Action.</l>
+       <l>Where is Virginia? She was wont to meet me</l>
+       <l>With all the Haste of filial Piety;</l>
+       <l>Then why appears she not?</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>This very Moment,</l>
+       <l>Attended by a Train of Roman Virgins,</l>
+       <l>She seeks the spotless Shrine of chaste Diana.</l>
+      </sp>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>'Tis well: may Heaven reward their pious Prayer.</l>
+       <l>O, Numitorius! But I will not doubt;</l>
+       <l>The Gods are just, and must be Foes to Tyrants.</l>
+       <stage>(Exeunt.)</stage>
+      </sp>
+     </div>
+     <div n="3" type="scene">
+      <pb n="61" facs="70"/>
+      <head>SCENE III.</head>
+      <stage>[A Garden.]</stage>
+      <sp who="#appius">
+       <speaker>APPIUS.</speaker>
+       <l>HOW slow the Minutes pass! my panting Soul</l>
+       <l>Is sick with Expectation and Desire:</l>
+       <l>Wou'd Claudius were return'd! I'll to the Forum,</l>
+       <l>Ascend the Judgment Seat, pronounce her Sentence;</l>
+       <l>Then bear her off, and lose myself in Bliss:</l>
+       <l>And see! he comes.</l>
+      </sp>
+     </div>
+     <div n="4" type="scene">
+      <pb n="62" facs="71"/>
+      <head>SCENE IV.</head>
+      <stage>APPIUS, CLAUDIUS.</stage>
+      <sp who="#claudius">
+       <speaker>CLAUDIUS.</speaker>
+       <l>O, Appius! all is ruin'd:</l>
+       <l>Virginius is return'd.</l>
+      </sp>
+      <sp who="#appius">
+       <speaker>APPIUS.</speaker>
+       <l>Return'd? Thou Traitor!</l>
+       <l>Did'st thou not tell me Tyro's swift Dispatch</l>
+       <l>Wou'd stop him? But ye all are leagu'd against me:</l>
+       <l>Where is the tardy Slave? The Cross shall teach him</l>
+       <l>What 'tis to play with Passions fierce as mine.</l>
+      </sp>
+      <sp who="#claudius">
+       <speaker>CLAUDIUS.</speaker>
+       <l>Tyro is not return'd, nor is he guilty:</l>
+       <l>The wily Numitorius, from the Forum,</l>
+       <l>Ev'n in the Moment when th' important Cause</l>
+       <l>
+        <pb n="63" facs="72"/>
+Fix'd your Attention, unobserv'd, dispatch'd</l>
+       <l>A Messenger to Algidum.</l>
+      </sp>
+      <sp who="#appius">
+       <speaker>APPIUS.</speaker>
+       <l>'Tis well:</l>
+       <l>By Heaven their forfeit Heads shall pay this Boldness;</l>
+       <l>I'll seize this beauteous Virgin, tho' I raise</l>
+       <l>A Flame, to lay imperial Rome in Ashes,</l>
+       <l>And even consume myself.</l>
+      </sp>
+      <sp who="#claudius">
+       <speaker>CLAUDIUS.</speaker>
+       <l>Were it not wiser,</l>
+       <l>To let the furious Tide exhaust it's Strength,</l>
+       <l>E'er you oppos'd it's Rage? The People gather</l>
+       <l>Around Icilius, and have sworn to aid him:</l>
+       <l>Virginius, Name has rais'd their drooping Courage;</l>
+       <l>They talk of Tribunes, threaten to restore</l>
+       <l>The Freedom of Appeal, to bring the Armies</l>
+       <l>Up to the Walls of Rome; and call for Vengeance</l>
+       <l>
+        <pb n="64" facs="73"/>
+On Siccius' Murderers; your sacred Life</l>
+       <l>Will not be safe, if you approach the Forum:</l>
+       <l>Defer the Cause, you know the giddy Croud:</l>
+       <l>Tomorrow they may think your Sentence just;</l>
+       <l>At least this headlong Heat of Mutiny,</l>
+       <l>Will cool if you oppose it not.</l>
+      </sp>
+      <sp who="#appius">
+       <speaker>APPIUS.</speaker>
+       <l>O, Claudius!</l>
+       <l>I know not what to fix on: my Desires</l>
+       <l>Are now at such a Height, as threaten Madness</l>
+       <l>If not indulg'd; they listen not to Reason;</l>
+       <l>And yet thy Words sink deep into my Soul:</l>
+       <l>Where are my brave Patricians?</l>
+      </sp>
+      <sp who="#claudius">
+       <speaker>CLAUDIUS.</speaker>
+       <l>They attend</l>
+       <l>Your sacred Pleasure in the Campus Martius,</l>
+       <l>Beneath their peaceful Robes all clad in Arms:</l>
+       <l>This Moment haste, consult the noble Youths;</l>
+       <l>Fond Love obstructs your Sight, and hides from View</l>
+       <l>
+        <pb n="65" facs="74"/>
+The threatening Forms of Danger which surround you.</l>
+      </sp>
+      <sp who="#appius">
+       <speaker>APPIUS.</speaker>
+       <l>Gods! what a Gust of Passion shakes my Frame!</l>
+       <l>Love, Empire, all that can enflame the Soul,</l>
+       <l>Now fire my Breast. O, Mars! armipotent!</l>
+       <l>By the fierce Joys the Cyprian Queen bestows,</l>
+       <l>By laurel'd Conquest, and the grateful Horrors</l>
+       <l>Of stern, relentless War, assist thy Votary!</l>
+       <stage>(Exeunt.)</stage>
+      </sp>
+     </div>
+     <div n="5" type="scene">
+      <head>SCENE V.</head>
+      <stage>[The Street.]</stage>
+      <stage>VIRGINIUS, NUMITORIUS.</stage>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>THE Hour of Vengeance is arriv'd, my Brother;</l>
+       <l>These thoughtless Tyrants will destroy themselves;</l>
+       <l>
+        <pb n="66" facs="75"/>
+They have thrown off the very Mask of Virtue,</l>
+       <l>And given a Loose to every impious Passion.</l>
+      </sp>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>I mourn the valiant Siccius, but this Murder</l>
+       <l>May save my Child: that Camp was all I fear'd,</l>
+       <l>The Camp of Fabius; for at Algidum</l>
+       <l>Virginius' Wrongs will not be unreveng'd.</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>This monstrous Cruelty secures them both,</l>
+       <l>And every Sword will now be drawn for Freedom.</l>
+       <l>But see! the brave Icilius comes to clasp thee.</l>
+      </sp>
+     </div>
+     <div n="6" type="scene">
+      <head>SCENE VI.</head>
+      <stage>VIRGINIUS, NUMITORIUS, ICILIUS.</stage>
+      <sp who="#icilius">
+       <speaker>ICILIUS.</speaker>
+       <l>VIRGINIUS here! Then Vengeance is our own.</l>
+      </sp>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>And is it thus we meet again, Icilius?</l>
+       <l>
+        <pb n="67" facs="76"/>
+When last we parted, 'twas with other Sounds</l>
+       <l>I hop'd to greet thee; with the Voice of Joy,</l>
+       <l>Of Peace, and happy Love: this very Hour,</l>
+       <l>The Hour of my Return to Rome, I destin'd,</l>
+       <l>Shou'd join thee to my lovely Child.—</l>
+      </sp>
+      <sp who="#icilius">
+       <speaker>ICILIUS.</speaker>
+       <l>My Father,</l>
+       <l>Your Presence saves Virginia; Life is ours,</l>
+       <l>And generous Liberty: the People, fir'd</l>
+       <l>With great Revenge for noble Siccius' Death,</l>
+       <l>And Pity for Virginia, swear to die</l>
+       <l>In our Defence. What Hope from Algidum?</l>
+       <l>How stand the Soldiers?</l>
+      </sp>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>Ready for Revolt,</l>
+       <l>But aw'd beneath these curst Decemvir's Power:</l>
+       <l>A Breath wou'd wake them; Discontentment walks</l>
+       <l>Thro' every Rank, and my Appearance there</l>
+       <l>Wou'd raise a Mutiny.</l>
+       <l>
+        <pb n="68" facs="77"/>
+Then all is well,</l>
+       <l>And the big Ruin bursts on Appius' Head.</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>Are all our Friends assembled?</l>
+      </sp>
+      <sp who="#icilius">
+       <speaker>ICILIUS.</speaker>
+       <l>All are ready</l>
+       <l>When we are summon'd to this curst Tribunal:</l>
+       <l>I'm told the Tyrant wavers, Fear has seiz'd him,</l>
+       <l>He hastes not to the Forum, but amidst</l>
+       <l>His lawless Counsellors, wears out the Hours,</l>
+       <l>And doubts if he shall judge, or drop the Cause.</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>Thanks to the gracious Gods!</l>
+      </sp>
+      <sp who="#icilius">
+       <speaker>ICILIUS.</speaker>
+       <l>O, Numitorius!</l>
+       <l>Prophetic Fury fires my swelling Breast:</l>
+       <l>I see the Goddess Liberty, attended</l>
+       <l>By all her Train of Joys! Domestic Peace,</l>
+       <l>
+        <pb n="69" facs="78"/>
+Connubial Love, and every home felt Bliss,</l>
+       <l>Around her throng, whilst Tyranny, appal'd,</l>
+       <l>Shrinks at her awful Presence!</l>
+      </sp>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>Glorious Youth!</l>
+       <l>Thy Words arrouse my Soul, and Hope succeeds</l>
+       <l>The pallid Fear that chill'd me: I shall live</l>
+       <l>To see Virginia happy in thy Arms;</l>
+       <l>To see thee stand, the Bulwark of thy Country,</l>
+       <l>Adorn'd with tribunician Power, and watchful</l>
+       <l>For Liberty and Rome.</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS</speaker>
+       <l>Yes, brave Icilius,</l>
+       <l>We shall again be free; these strong Forebodings</l>
+       <l>The Gods ne'er give in vain: we yet shall see</l>
+       <l>Sweet Peace at home, and Victory abroad.</l>
+       <l>But shou'd the Tyrant yet relent, Virginius?</l>
+      </sp>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>As well thou may'st expect the hungry Lion</l>
+       <l>To quit his trembling Prey: but grant he shou'd,</l>
+       <l>
+        <pb n="70" facs="79"/>
+There is a nobler Cause than private Wrongs,</l>
+       <l>The Cause of Rome, nor will I sheath my Sword,</l>
+       <l>'Till these Decemvirs fall; shame on the Wretch,</l>
+       <l>Unworthy of the glorious Name of Roman,</l>
+       <l>Who safe himself, can calmly sit at Ease,</l>
+       <l>The tame Spectator of his Country's Ruin:</l>
+       <l>Dear as I love my Child, I swear her Safety</l>
+       <l>Is but the second Passion of my Soul.</l>
+      </sp>
+      <sp who="#icilius">
+       <speaker>ICILIUS.</speaker>
+       <l>Thou genuine Son of Rome! thou greater Brutus!</l>
+      </sp>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>Had Brutus meanly stop'd at private Bliss,</l>
+       <l>The Tarquins yet had tyrannis'd in Rome;</l>
+       <l>Ally'd by Birth he might have shar'd the Spoils</l>
+       <l>Of his unhappy Country, but he scorn'd</l>
+       <l>To be the first of Slaves, and nobly quell'd</l>
+       <l>Each selfish Passion for the Public Good:</l>
+       <l>Father of Rome, he led her on to Safety,</l>
+       <l>Tho' thro' his Children's Blood, for well he knew</l>
+       <l>Freedom or they must perish. Ev'n the Gods</l>
+       <l>
+        <pb n="71" facs="80"/>
+Behold with Admiration such firm Virtue,</l>
+       <l>And glory in their own immortal Work.</l>
+      </sp>
+      <sp who="#icilius">
+       <speaker>ICILIUS.</speaker>
+       <l>Thou godlike Man! with Wonder I behold thee,</l>
+       <l>And boast with Pride the Title of thy Son:</l>
+       <l>Were not Virginia fair as smiling Spring,</l>
+       <l>Did not the Bloom of op'ning Flowers adorn her,</l>
+       <l>Yet for thy sake, to be ally'd to thee,</l>
+       <l>The bravest Sons of Rome had sought her Bed.</l>
+      </sp>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>Thou dost deserve her, were she fair as Nature,</l>
+       <l>Fresh from the forming Hands of mighty Jove:</l>
+       <l>O may I live to see a smiling Race,</l>
+       <l>Sprung from this Union, crown your nuptial Joys!</l>
+       <l>To see them rise beneath the Shade of Freedom,</l>
+       <l>And copy all thy Virtues! May they dare</l>
+       <l>All Dangers for their Country, and when Rome</l>
+       <l>Demands their Lives, with virtuous Pleasure bleed!</l>
+      </sp>
+      <sp who="#icilius">
+       <pb n="72" facs="81"/>
+       <speaker>ICILIUS.</speaker>
+       <l>The coming Hour is big with great Events;</l>
+       <l>Already Appius totters, and your Arm</l>
+       <l>Is only wanting to compleat his Fall:</l>
+       <l>The God who rules the Thunder's Rage, is with us;</l>
+       <l>He wills, that all who nobly dare, be free,</l>
+       <l>And gives the brave their well-earn'd Liberty.</l>
+      </sp>
+     </div>
+    </div>
+    <div n="4" type="act">
+     <pb n="73" facs="82"/>
+     <head>ACT FOURTH.</head>
+     <div n="1" type="scene">
+      <head>SCENE I.</head>
+      <stage>Scene the Inside of the TEMPLE of DIANA; at the upper End an ALTAR and STATUE of the GODDESS, on the Side Scene the Stories of NIOBE and ACTEON painted.</stage>
+      <stage>VIRGINIA, ICILIA, Priestess, Train of Virgins.</stage>
+      <stage>[The Priestess stands at the Altar whilst this Hymn is perform'd to solemn Musick.]</stage>
+      <sp who="#first_virgin">
+       <speaker>First VIRGIN.</speaker>
+       <l>THOU beauteous Goddess of the Grove,</l>
+       <l>From Jove and fair Latona sprung!</l>
+       <l>Bright Offspring of the Thunderer's Love!</l>
+       <l>O, be thy Name for ever sung!</l>
+       <l>
+        <pb n="74" facs="83"/>
+Ye Virgin Train! your tuneful Voices raise,</l>
+       <l>To sing the chaste Diana's deathless Praise.</l>
+      </sp>
+      <sp who="#chorus_of_virgins">
+       <speaker>Chorus of VIRGINS.</speaker>
+       <l>Hail! Diana! beauteous Maid!</l>
+       <l>Let thy Praise to Heaven ascend!</l>
+       <l>Chastity's immortal Friend!</l>
+       <l>O, be present to our Aid!</l>
+      </sp>
+      <sp who="#second_virgin">
+       <speaker>Second VIRGIN.</speaker>
+       <l>Goddess of the rural Plain!</l>
+       <l>Thee, the Virgin pure, adores,</l>
+       <l>Thee the pregnant Dame implores</l>
+       <l>To relieve her poignant Pain,</l>
+       <l>And o'er her Infant's pliant Limbs to pour</l>
+       <l>Health, Strength, and Swiftness, in the natal Hour.</l>
+      </sp>
+      <sp who="#chorus_of_virgins">
+       <speaker>Chorus of VIRGINS.</speaker>
+       <l>Mighty Luna! Goddess bright!</l>
+       <l>Bring the beauteous Births to Light:</l>
+       <l>With the blest maternal Name</l>
+       <l>Crown the sacred nuptial Flame.</l>
+      </sp>
+      <sp who="#first_virgin">
+       <pb n="75" facs="84"/>
+       <speaker>First VIRGIN.</speaker>
+       <l>How blest the chosen Train, who rove</l>
+       <l>With thee thro' Erymanthus' Grove!</l>
+       <l>Who dreadful with the pointed Dart</l>
+       <l>Transfix the tawny Lion's Heart!</l>
+       <l>Or, joyous, in the cool, translucent, Wave,</l>
+       <l>Their polish'd Limbs at dewy Evening lave!</l>
+      </sp>
+      <sp who="#chorus_of_virgins">
+       <speaker>Chorus of VIRGINS.</speaker>
+       <l>Virgin Huntress! Queen of Night!</l>
+       <l>By thy Crescent's trembling Light,</l>
+       <l>By thy Sports, and sylvan Care,</l>
+       <l>Hear, O, hear! our spotless Pray'r!</l>
+      </sp>
+      <sp who="#second_virgin">
+       <speaker>Second VIRGIN.</speaker>
+       <l>Guardian of the woody Glades!</l>
+       <l>If thy flying Footsteps trace</l>
+       <l>Algidus' embow'ring Shades,</l>
+       <l>Or Apulia's Forests grace,</l>
+       <l>O, haste, and bring, propitious to our Song,</l>
+       <l>Thy sweet Companion, Liberty, along.</l>
+      </sp>
+      <sp who="#chorus_of_virgins">
+       <pb n="76" facs="85"/>
+       <speaker>Chorus of VIRGINS.</speaker>
+       <l>Maid of Groves and Mountains Queen!</l>
+       <l>Leave the peaceful sylvan Scene,</l>
+       <l>And in awful Terrors drest,</l>
+       <l>Pierce the Tyrant's impious Breast.</l>
+      </sp>
+      <sp who="#first_virgin #second_virgin">
+       <speaker>Both VIRGINS.</speaker>
+       <l>Thou Foe declar'd to guilty Flames!</l>
+       <l>To thee, behold thy Votaries bend!</l>
+       <l>O, by thy three mysterious Names,</l>
+       <l>The chaste Virginia's Prayer attend!</l>
+       <l>Grateful, to thee, on every festal Day,</l>
+       <l>Shall tuneful Virgins chant the votive Lay.</l>
+      </sp>
+      <sp who="#chorus_of_virgins">
+       <speaker>Chorus of VIRGINS.</speaker>
+       <l>Chaste Diana! give our Charms</l>
+       <l>Spotless to the Lover's Arms,</l>
+       <l>When the fated Morn shall rise</l>
+       <l>Destin'd to our bridal Joys:</l>
+       <l>Hail Diana! beauteous Maid!</l>
+       <l>O, be present to our Aid!</l>
+       <stage>
+        <pb n="77" facs="86"/>[<hi>The Hymn ended,</hi> VIRGINIA <hi>kneels before the Statue whilst the Priestess puts Fire to the Altar. The Flames rise and Thunder is heard.</hi>]</stage>
+      </sp>
+      <sp who="#priestess">
+       <speaker>PRIESTESS.</speaker>
+       <l>Auspicious Omens! Lo! the ruddy Flames</l>
+       <l>Ascend! and from the Left the rolling Thunder</l>
+       <l>Breaks o'er the Dome! The Goddess guards thy Virtue.</l>
+      </sp>
+     </div>
+     <div n="2" type="scene">
+      <head>SCENE II.</head>
+      <stage>VIRGINIA, ICILIA, and the Train of VIRGINS, advance slowly to the Front of the Stage, the Scene shuts upon them.</stage>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>METHINKS my Soul is more at Ease Icilia,</l>
+       <l>A gentle Calm succeeds the Storm of Passion,</l>
+       <l>Smooth as the Surface of the Lake at Eve,</l>
+       <l>When every Wind subsides.</l>
+      </sp>
+      <sp who="#icilia">
+       <pb n="78" facs="87"/>
+       <speaker>ICILIA.</speaker>
+       <l>Thanks to the Goddess:</l>
+       <l>Such is the sacred Force of blest Religion,</l>
+       <l>Her Angel Voice can chear the drooping Soul,</l>
+       <l>And drive far off the Clouds of black Despair.</l>
+      </sp>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>Behold, the Virgins wait! Lead on, Icilia.</l>
+      </sp>
+     </div>
+     <div n="3" type="scene">
+      <head>SCENE III.</head>
+      <stage>[<hi>The House of</hi> VIRGINIUS.]</stage>
+      <stage>VIRGINIUS, NUMITORIUS.</stage>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>WHAT you relate of Appius' Tyranny</l>
+       <l>I heard, in Part, at Algidum: 'tis strange</l>
+       <l>That Rome so long has tamely born the Yoke;</l>
+       <l>Rome! Nursing-Mother of a Race of Heroes!</l>
+       <l>Where is the Soul that fir'd our mighty Brutus,</l>
+       <l>
+        <pb n="79" facs="88"/>
+Horatius, Mutius, and the brave Valerius?</l>
+       <l>Was it for this they drove the Tarquins hence</l>
+       <l>By Actions more than human, whilst the Nations,</l>
+       <l>Aw'd by such wondrous Virtue, gaz'd at Distance,</l>
+       <l>Nor dar'd to war with Gods in mortal Form?</l>
+       <l>Fought they for Appius? Did the generous Father</l>
+       <l>Doom his own Children to the Ax for him?</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>Virginia comes: unhappy, lovely, Maid!</l>
+       <l>How droop her Charms, like vernal Flow'rets, bent</l>
+       <l>Beneath the beating Storm!</l>
+      </sp>
+     </div>
+     <div n="4" type="scene">
+      <pb n="80" facs="89"/>
+      <head>SCENE IV.</head>
+      <stage>VIRGINIUS, NUMITORIUS, VIRGINIA.</stage>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>MY Father! Then the gracious Gods have heard me.</l>
+       <stage>(Runs to Virginius and kneels.)</stage>
+      </sp>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>Rise, my Virginia. O, my Child! my Child!</l>
+       <l>I thought at my Return to give thee up</l>
+       <l>To brave Icilius' Arms, a virtuous Wife,</l>
+       <l>And not to yield thee to the base Desires</l>
+       <l>Of thy poor Country's Tyrant: Curses blast him!</l>
+       <l>Wou'd not this Face of Innocence and Beauty</l>
+       <l>Melt even a Tyger's Rage? Was it for this</l>
+       <l>I early train'd thee in the Ways of Honour,</l>
+       <l>And taught thy Soul the virtuous Pride of Rome?</l>
+      </sp>
+      <sp who="#virginia">
+       <pb n="81" facs="90"/>
+       <speaker>VIRGINIA.</speaker>
+       <l>Alas! my Father—But I cannot speak—</l>
+       <l>If you discard me, I am lost indeed:</l>
+       <l>I am your Child; ev'n at this Hour I feel</l>
+       <l>The sacred Force of Nature: not Icilius,</l>
+       <l>Brave as he is, and worthy of my Choice,</l>
+       <l>Is more belov'd than you.</l>
+      </sp>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>Art thou a Slave?</l>
+       <l>O thou dear Pattern of thy beauteous Mother!</l>
+       <l>Ev'n in that Blush, the Blush of kindling Rage,</l>
+       <l>And honest Indignation, I can read</l>
+       <l>The Roman Spirit: yes, thou art my own,</l>
+       <l>Nor shall the wicked Arm of Power divide us.</l>
+      </sp>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>Look on me once again, and pity me:</l>
+       <l>By the dear Object of your youthful Transports,</l>
+       <l>Your much lov'd Numitoria, by the Joys</l>
+       <l>Her virtuous Fondness gave you, save my Honour,</l>
+       <l>Save me from Bonds, and brutal Violation.</l>
+      </sp>
+      <sp who="#virginius">
+       <pb n="82" facs="91"/>
+       <speaker>VIRGINIUS.</speaker>
+       <l>No more, my Child; thy Fears unman my Soul.</l>
+      </sp>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>Why was I born to wreck my Father's Peace?</l>
+       <l>A barren Bed had blest him. O, Virginius!</l>
+       <l>Wou'd I had dy'd in Infancy!</l>
+      </sp>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>No more;</l>
+       <l>I cannot bear this Tenderness, Virginia;</l>
+       <l>This sudden Gush of Passion quite o'er-whelms me,</l>
+       <l>My Heart is torn with Anguish. Parent Nature!</l>
+       <l>Thou art too strong for Reason! O, my Child!</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>Thy Presence softens him too much, Virginia; Retire a while.</l>
+      </sp>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>Will you then calm his Anguish?</l>
+       <l>Tell him I am not worth this Waste of Grief.</l>
+      </sp>
+     </div>
+     <div n="5" type="scene">
+      <pb n="83" facs="92"/>
+      <head>SCENE V.</head>
+      <stage>VIRGINIUS, NUMITORIUS.</stage>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>NOT worth my Grief? Said she not so, my Brother?</l>
+       <l>O, thou consummate Pattern of all Goodness</l>
+       <l>What have I left but thee to soften Life,</l>
+       <l>To soothe the painful Hours of feeble Age,</l>
+       <l>And strow with Flowers my Passage to the Grave?</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>Shake off this Grief, Virginius; steel your Soul</l>
+       <l>With manly Fortitude: shall then a Soldier,</l>
+       <l>Bred in the hardy School of daring Virtue,</l>
+       <l>Shrink at Misfortune's Breath?</l>
+      </sp>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>O! Numitorius!</l>
+       <l>What is the Shock of fighting Fields to this?</l>
+       <l>
+        <pb n="84" facs="93"/>
+To this keen Throb, this tender Pang of Nature?</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>Let us be gone; e'er this at Themis' Temple</l>
+       <l>Our Friends are all assembled, and expect us:</l>
+       <l>The mighty Storm is gathering o'er the Tyrants,</l>
+       <l>And ready to descend.</l>
+      </sp>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>Give me a Moment:</l>
+       <l>I must have Time to recollect my Soul,</l>
+       <l>Dispel this Grief, and be again a Roman.</l>
+      </sp>
+     </div>
+     <div n="6" type="scene">
+      <head>SCENE VI.</head>
+      <stage>VIRGINIA, ICILIUS.</stage>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>SPITE of thy Courage, and my Father's Presence,</l>
+       <l>Spite of th' auspicious Omens from Diana,</l>
+       <l>
+        <pb n="85" facs="94"/>
+Hope has forsook my Breast: a Damp unusual</l>
+       <l>Dwells on my Soul, and tells me we must part,</l>
+       <l>And part for ever: thou most lov'd of Men!</l>
+       <l>May'st thou be happy when my Head is low,</l>
+       <l>For I shall never see thee more, Icilius.</l>
+      </sp>
+      <sp who="#icilius">
+       <speaker>ICILIUS.</speaker>
+       <l>Why wilt thou dash our Hopes with these Forebodings,</l>
+       <l>These causeless Fears? are not the People ours?</l>
+       <l>Does not the Tyrant's Self confess our Power</l>
+       <l>By his Delays? He hastens not to Judgment</l>
+       <l>With the fierce Hope that warm'd him Yesterday;</l>
+       <l>But doubtful, timid, aw'd by brave Virginius,</l>
+       <l>In Consultation wastes the flying Hours.</l>
+      </sp>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>Alas, Icilius, my foreboding Soul</l>
+       <l>Will not attend to Reason: a cold Dew</l>
+       <l>Hangs on my Limbs, and chills my vital Powers:</l>
+       <l>We ne'er shall meet again; and yet 'tis hard</l>
+       <l>When I reflect how we have lov'd, Icilius;</l>
+       <l>
+        <pb n="86" facs="95"/>
+For Years have lov'd. When I remember all</l>
+       <l>Our Days of chaste Delight, whilst Peace and Love</l>
+       <l>Spread their soft Wings around us, I blaspheme,</l>
+       <l>And think the Gods unjust: can'st thou forget</l>
+       <l>When dawning Love first warm'd our youthful Breasts,</l>
+       <l>How I have strove in vain to hide my Fondness.</l>
+       <l>While kindling Blushes told my soft Desires?</l>
+      </sp>
+      <sp who="#icilius">
+       <speaker>ICILIUS.</speaker>
+       <l>Curse on the Tyrant! his inhuman Soul</l>
+       <l>Knows not the Force of Love; he never felt</l>
+       <l>The Doubts, the tender, dear Anxieties,</l>
+       <l>That wait the soft Affections: fierce Desire,</l>
+       <l>Which seeks it's Bliss, tho' in it's Object's Ruin,</l>
+       <l>Is all his Breast can know: ah! how unlike</l>
+       <l>The gentle, anxious Passion, which informs:</l>
+       <l>My faithful Bosom! My belov'd Virginia,</l>
+       <l>Dost thou remember with what trembling Awe</l>
+       <l>My Lips first told the tender Tale of Love?</l>
+       <l>
+        <pb n="87" facs="96"/>
+So beauteous did'st thou seem, so fair beyond</l>
+       <l>My most aspiring Wish, that 'till this Moment</l>
+       <l>My Flame had inward burnt, had not Icilia</l>
+       <l>With gentle Friendship sooth'd my daring Passion,</l>
+       <l>And nourish'd Hope. Why dost thou weep, my Love?</l>
+      </sp>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>Because 'tis past, the Season of Delight,</l>
+       <l>Because the coming Hours are wing'd with Horror:</l>
+       <l>Alas! our Joys were but a gaudy Dream,</l>
+       <l>And now we wake to Misery.</l>
+      </sp>
+      <sp who="#icilius">
+       <speaker>ICILIUS.</speaker>
+       <l>Do not weep:</l>
+       <l>We shall be happy yet; the smiling Hours</l>
+       <l>Have still a thousand Joys in Store for thee.</l>
+      </sp>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>Wou'd I cou'd hope; but 'tis impossible;</l>
+       <l>Despair in all it's Terrors sinks my Soul,</l>
+       <l>Scarce will my Limbs support me. O, Icilius!</l>
+       <l>
+        <pb n="88" facs="97"/>
+Why are the Gods so cruel? But no more;</l>
+       <l>I wou'd not damp thy Courage: my Despair</l>
+       <l>Perhaps is only Woman's idle Fears;</l>
+       <l>I love thee, my Icilius, with such Fondness</l>
+       <l>As may perhaps encrease my Dread of parting.</l>
+      </sp>
+      <sp who="#icilius">
+       <speaker>ICILIUS.</speaker>
+       <l>Why dost thou talk of parting? we shall live</l>
+       <l>To bless, each other yet.</l>
+      </sp>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>My trembling Soul</l>
+       <l>Shrinks at the Thought of Death; this softener, Love,</l>
+       <l>Has made a Coward of me; all my Spirit,</l>
+       <l>My Roman Resolution, has forsook me.</l>
+      </sp>
+      <sp who="#icilius">
+       <speaker>ICILIUS.</speaker>
+       <l>Let me once more conjure thee, my Virginia,</l>
+       <l>To stifle these ill-bodings; Liberty</l>
+       <l>This Hour extends her friendly Arm to save thee,</l>
+       <l>And ever-smiling Pleasure waits her Train;</l>
+       <l>
+        <pb n="89" facs="98"/>
+Revolving Years of Joy and Love attend</l>
+       <l>To bless thee, and reward thy wondrous Virtue.</l>
+      </sp>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>I will believe thee, I will hope the Gods</l>
+       <l>Are Friends to Innocence, and will protect us.</l>
+      </sp>
+      <sp who="#icilius">
+       <speaker>ICILIUS.</speaker>
+       <l>Thy Words revive my Soul, for, O, Virginia!</l>
+       <l>I cannot see thee weep, and be a Man:</l>
+       <l>Give me thy Hand, and let me swear upon it,</l>
+       <l>By all the chaste Endearments of our Love,</l>
+       <l>By the past Hours of Peace and Innocence,</l>
+       <l>By Juno, Guardian of the Marriage Bed,</l>
+       <l>I love thee more than Life, or virtuous Fame.</l>
+      </sp>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>Thou will not then forget me when these Eyes</l>
+       <l>Are clos'd in Death!</l>
+      </sp>
+      <sp who="#icilius">
+       <speaker>ICILIUS.</speaker>
+       <l>Forget thee, my Virginia?</l>
+       <l>What dost thou mean?</l>
+      </sp>
+      <sp who="#virginia">
+       <pb n="90" facs="99"/>
+       <speaker>VIRGINIA.</speaker>
+       <l>If I must die, Icilius,</l>
+       <l>Let not another Maid too soon possess</l>
+       <l>My Place in that dear Bosom; give a little,</l>
+       <l>A little Time to Sorrow and Virginia.</l>
+       <l>What have I said? O, all ye Gods, assist him</l>
+       <l>To bear my Loss with Fortitude! Pour down</l>
+       <l>The Balm of Comfort on his bleeding Soul,</l>
+       <l>For too, too well, he loves me!</l>
+      </sp>
+      <sp who="#icilius">
+       <speaker>ICILIUS.</speaker>
+       <l>Dost thou think</l>
+       <l>I wou'd survive thy Loss?</l>
+      </sp>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>Thou wou'dst, Icilius,</l>
+       <l>Or thou hast never lov'd: with streaming Eyes</l>
+       <l>I here adjure thee, by the Love thou bear'st me,</l>
+       <l>By sacred Honour, and the Name of Roman,</l>
+       <l>If strong Necessity compels my Death,</l>
+       <l>Live to revenge the lost Virginia's Wrongs,</l>
+       <l>
+        <pb n="91" facs="100"/>
+To drive these Tyrants hence, and free thy Country:</l>
+       <l>Swear this, or by the Majesty of Rome,</l>
+       <l>By awful Jove, and that bright Virgin Goddess</l>
+       <l>Before whose Altar I so lately bow'd,</l>
+       <l>I ne'er will see thee more.</l>
+      </sp>
+      <sp who="#icilius">
+       <speaker>ICILIUS.</speaker>
+       <l>What hast thou said?</l>
+       <l>I swear then—O, Virginia! cruel Maid!</l>
+       <l>Is this thy Tenderness?—</l>
+      </sp>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>My Soul is lighter: may the gracious Gods</l>
+       <l>Preserve us for each other! But shou'd Fate</l>
+       <l>Divide us, and my dreadful Fears be just,</l>
+       <l>Revenge shall please my Ghost: thy Promise spreads</l>
+       <l>A Gleam of Pleasure round my drooping Heart:</l>
+       <l>My Country too may owe her Peace to me,</l>
+       <l>My Death may shake these Tyrants: O, Icilius!</l>
+       <l>How poor is Life to this?</l>
+      </sp>
+      <sp who="#icilius">
+       <pb n="92" facs="101"/>
+       <speaker>ICILIUS.</speaker>
+       <l>Thou virtuous Maid!</l>
+       <l>Talk not of Death, Rome shall again be free,</l>
+       <l>And dear Virginia live to share the Blessing:</l>
+       <l>Yes, thou shalt live to bless my faithful Arms,</l>
+       <l>To soothe my Pains, to soften every Care,</l>
+       <l>And give new Charms to Liberty itself.</l>
+      </sp>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>Where is thy Sister, my belov'd Icilia?</l>
+       <l>Fain wou'd I see her, e'er I go to meet</l>
+       <l>My dreadful Sentence: once again my Soul</l>
+       <l>Wou'd rest its Sorrows on her friendly Bosom.</l>
+      </sp>
+      <sp who="#icilius">
+       <speaker>ICILIUS.</speaker>
+       <l>I go to seek her, she will comfort thee;</l>
+       <l>The Voice of Friendship is the sweetest Balm</l>
+       <l>For every Woe: the Minutes call me from thee,</l>
+       <l>Perhaps I may return with News of Joy.</l>
+       <stage>(Going.)</stage>
+      </sp>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>Icilius.</l>
+      </sp>
+      <sp who="#icilius">
+       <pb n="93" facs="102"/>
+       <speaker>ICILIUS.</speaker>
+       <l>My Love.</l>
+      </sp>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>Come back, and let me feed my Eyes upon thee;</l>
+       <l>Let me once more behold thee e'er thou go'st;</l>
+       <l>Not the fond Mother views her darling Babe</l>
+       <l>With such strong Tenderness as melts my Soul</l>
+       <l>At Sight of thee, nor do such Fears distract her</l>
+       <l>When Danger hovers o'er it, as my Breast</l>
+       <l>Feels at the Thought of parting.</l>
+      </sp>
+      <sp who="#icilius">
+       <speaker>ICILIUS.</speaker>
+       <l>Thou soft Blessing!</l>
+       <l>Thou dearest Gift of Heaven! no more of parting:</l>
+       <l>Turn all thy Thoughts to Liberty, and Love:</l>
+       <l>This very Moment my fond Soul dissolves</l>
+       <l>With Passion too extreme; my Eyes, unwearied,</l>
+       <l>Hang on thy lovely Form, and lost in Pleasure,</l>
+       <l>Melt with soft Languishment. O, let me clasp thee!</l>
+       <l>One dear Embrace before we part, Virginia!</l>
+      </sp>
+      <sp who="#virginia">
+       <pb n="94" facs="103"/>
+       <speaker>VIRGINIA.</speaker>
+       <l>My Father here! let us avoid his Presence;</l>
+       <l>His Wisdom may condemn this ill-tim'd Softness.</l>
+      </sp>
+     </div>
+     <div n="7" type="scene">
+      <head>SCENE VII.</head>
+      <stage>VIRGINIUS, NUMITORIUS.</stage>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>I wonder much, my Brother, Appius sent not</l>
+       <l>To seize you in the Camp; 'twas what I fear'd,</l>
+       <l>Tho' from Virginia, and our Friends, I hid</l>
+       <l>The sad unpleasing Thought.</l>
+      </sp>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>Thou dost remind me</l>
+       <l>Of what I had forgot: I met a Slave</l>
+       <l>Hasting to Algidum on Eagle's Wings;</l>
+       <l>The very Ground beneath him seem'd to fly;</l>
+       <l>But all unknowing of this dire Attempt,</l>
+       <l>
+        <pb n="95" facs="104"/>
+Almost unmark'd he past me.</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>Heaven assists us;</l>
+       <l>That Messenger was surely sent by Appius.</l>
+      </sp>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>Thanks to the gracious Gods he came too late.</l>
+       <l>But see, my Child! Wilt thou a Moment leave us.</l>
+      </sp>
+     </div>
+     <div n="8" type="scene">
+      <head>SCENE VIII.</head>
+      <stage>VIRGINIUS, VIRGINIA.</stage>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>I sought thee, my Virginia; I wou'd once</l>
+       <l>Indulge a Parent's Fondness, e'er the Hour,</l>
+       <l>The fatal Hour, that now too near approaches.</l>
+      </sp>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>Why will you melt me thus?</l>
+      </sp>
+      <sp who="#virginius">
+       <pb n="96" facs="105"/>
+       <speaker>VIRGINIUS.</speaker>
+       <l>My lovely Child,</l>
+       <l>When I remember thy dear dying Mother,</l>
+       <l>My Soul is lost in Anguish: yet I see her:</l>
+       <l>She took my Hand, and pressing it in hers,</l>
+       <l>With Looks that pierc'd my Soul, and Tears that flow'd</l>
+       <l>In silent Showers unbidden down her Cheek</l>
+       <l>She falt'ring just pronounc'd, My dearest Lord,</l>
+       <l>Be careful of Virginia, and expir'd.</l>
+      </sp>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>I cannot bear this Softness.—</l>
+      </sp>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>Weep not, my Child, I was to blame to wound</l>
+       <l>The Sweetness of thy Nature; but forgive me.</l>
+       <l>Yes, thou hast all thy Mother in thy Face;</l>
+       <l>Her melting Mildness, her enchanting Smiles,</l>
+       <l>Chastis'd by Virtue: when I look upon thee</l>
+       <l>I see my Numitoria; so she bloom'd</l>
+       <l>
+        <pb n="97" facs="106"/>
+When first she gave her Beauty to my Arms:</l>
+       <l>And can I leave thee to the Tyrant's Rage?</l>
+       <l>No by the Gods of Vengeance, I will save thee</l>
+       <l>From his soul Purpose, tho' my Death—</l>
+      </sp>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>My Father,</l>
+       <l>What have you said? I were a Slave indeed,</l>
+       <l>And Claudius' Claim were just, cou'd I submit</l>
+       <l>To save a worthless Life on such Conditions.</l>
+       <l>No, may the Gods, with Length of Days, and Peace,</l>
+       <l>Bless you, when poor Virginia is forgot!</l>
+       <l>By awful Heaven, this Dagger's friendly Point</l>
+       <l>Shall vindicate the Honour of my Race,</l>
+       <l>And save me from Pollution: I will show</l>
+       <l>I am Virginius' Daughter.</l>
+      </sp>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>Mighty Gods!</l>
+       <l>Do Slaves think thus? But I must hide my Tears:</l>
+       <stage>(aside.)</stage>
+       <l>
+        <pb n="98" facs="107"/>
+Give me that Dagger, my lov'd Child.</l>
+      </sp>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>O, Sir!</l>
+       <l>Will you then rob me of my last Resource?</l>
+       <l>Let not the Tyrant triumph o'er my Fame.</l>
+      </sp>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>I will not, my Virginia, I will use it</l>
+       <l>In thine and Virtue's Cause: on thy Obedience</l>
+       <l>I charge thee give it.</l>
+      </sp>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>Take it, and remember,</l>
+       <stage>(Giving the Dagger.)</stage>
+       <l>Your Daughter gives her Honour to your Hands:</l>
+       <l>This was her only Pledge of Liberty.</l>
+      </sp>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>I will remember; trust thy Father's Care;</l>
+       <l>When did I e'er deny thy just Request?</l>
+       <l>Or when, Virginia, did'st thou ever ask</l>
+       <l>What strict enquiring Reason cou'd refuse?</l>
+       <l>Still hast thou been the best, most duteous Child,</l>
+       <l>
+        <pb n="99" facs="108"/>
+That ever blest a tender Parent's Days;</l>
+       <l>My fond Heart doats upon thee. But behold,</l>
+       <l>The brave Trebonius comes! He must not see</l>
+       <l>This soft, unmanly, Tenderness, which shames</l>
+       <l>My Roman Fortitude, and calls me Coward.</l>
+       <l>Retire, Virginia, and exchange that Garb</l>
+       <l>Of Peace and Innocence, for sable Weeds,</l>
+       <l>Befitting thy unhappy State.</l>
+      </sp>
+     </div>
+     <div n="9" type="scene">
+      <head>SCENE IX.</head>
+      <stage>VIRGINIUS, TREBONIUS.</stage>
+      <sp who="#trebonius">
+       <speaker>TREBONIUS.</speaker>
+       <l>VIRGINIUS,</l>
+       <l>Your Friends expect you.</l>
+      </sp>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>Pardon my Delays:</l>
+       <l>O, did'st thou know Virginia's Worth, Trebonius,</l>
+       <l>
+        <pb n="100" facs="109"/>
+Thou wou'd'st not wonder at a Father's Fondness:</l>
+       <l>The Patriot Soul of Clelia breathes in her;</l>
+       <l>She loves her Country with as warm a Zeal</l>
+       <l>As e'er inspir'd the noblest Roman Breast;</l>
+       <l>Her filial Goodness too! Forgive these Tears,</l>
+       <l>How can I think of such a Loss with Patience?</l>
+      </sp>
+      <sp who="#trebonius">
+       <speaker>TREBONIUS.</speaker>
+       <l>You wrong the Gods by this Despair, Virginius:</l>
+       <l>Let the fierce Tyrant fear; the virtuous Man,</l>
+       <l>Safe in himself, can brave the Frowns of Fortune:</l>
+       <l>Like the strong Oak, when Clouds the Heavens deform,</l>
+       <l>He fearless stands amidst the hostile Storm;</l>
+       <l>In vain the Rains descend, the Torrents rise,</l>
+       <l>In vain fierce Whirlwinds rend the bursting Skies,</l>
+       <l>His firm Foundation all their Rage defies.</l>
+      </sp>
+     </div>
+    </div>
+    <div n="5" type="act">
+     <pb n="101" facs="110"/>
+     <head>ACT FIFTH.</head>
+     <div n="1" type="scene">
+      <head>SCENE I.</head>
+      <stage>[The Street.]</stage>
+      <stage>APPIUS, CLAUDIUS, LICTORS.</stage>
+      <sp who="#appius">
+       <speaker>APPIUS.</speaker>
+       <l>NO more: my Heart disdains thy coward Counsels:</l>
+       <l>Shall I then fear Virginius? Shall a Slave,</l>
+       <l>A vile Plebeian, awe the Soul of Appius?</l>
+       <l>By Heaven, I almost scorn myself for doubting;</l>
+       <l>For poorly listening to thy abject Fears,</l>
+       <l>And wasting precious Moments in Delay.</l>
+      </sp>
+      <sp who="#claudius">
+       <speaker>CLAUDIUS.</speaker>
+       <l>If you retreat not, certain Death attends you:</l>
+       <l>Sedition fills the Streets.</l>
+      </sp>
+      <sp who="#appius">
+       <pb n="102" facs="111"/>
+       <speaker>APPIUS.</speaker>
+       <l>Away, thou Coward!</l>
+       <l>The boldest of these Miscreants dread my Frown:</l>
+       <l>Attempt no more to stop my headlong Course,</l>
+       <l>My boiling Blood disdains the Voice of Reason;</l>
+       <l>I can no longer bear these eager Wishes:</l>
+       <l>I will possess her, tho' I rush on Death.</l>
+       <l>My brave Patrician Guards are gone before,</l>
+       <l>To fill the Avenues, and awe the People.</l>
+       <l>On to the Forum, Lictors. Ha! Virginius!</l>
+       <l>Let us avoid him: no, I've better thought,</l>
+       <l>Ambition yet may bend him. All retire.</l>
+      </sp>
+     </div>
+     <div n="2" type="scene">
+      <pb n="103" facs="112"/>
+      <head>SCENE II.</head>
+      <stage>APPIUS, VIRGINIUS, NUMITORIUS.</stage>
+      <stage>(Claudius <hi>and</hi> Lictors <hi>at a Distance.</hi>)</stage>
+      <sp who="#appius">
+       <speaker>APPIUS.</speaker>
+       <l>VIRGINIUS, in thy gloomy Eyes, I read,</l>
+       <l>Thy stern Resentments; but thou greatly wrong'st me,</l>
+       <l>I but direct the steady Reins of Justice,</l>
+       <l>Nor can refuse Redress: thou art abus'd;</l>
+       <l>Virginia is a Slave, and not thy Daughter.</l>
+      </sp>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>Abandon'd, impious Villain! but I scorn</l>
+       <l>To hold Discourse with thee. Away my Brother.</l>
+       <l>We'll meet thee at the Forum.</l>
+       <stage>(To Appius.)</stage>
+      </sp>
+      <sp who="#appius">
+       <speaker>APPIUS.</speaker>
+       <l>I forgive thee;</l>
+       <l>The Fondness of a Father fills thy Heart,</l>
+       <l>
+        <pb n="104" facs="115"/>
+Tho' 'tis misplac'd: yet hear me, brave Virginius;</l>
+       <l>Tho' well I know Virginia is a Slave,</l>
+       <l>Yet if thou give Consent that I shall wed her,</l>
+       <l>Claudius, at my Request, shall drop his Claim,</l>
+       <l>I will this very Hour divorce Sempronia,</l>
+       <l>Espouse this beauteous Maid, and raise thee high,</l>
+       <l>Even equal with the noblest Roman Names.</l>
+      </sp>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>Thou raise Virginius? Who has given thee Power</l>
+       <l>To raise a Roman? Am I not thy Equal?</l>
+       <l>Free as thyself, tho' of Plebeian Race?</l>
+       <l>By Heaven, cou'd I forgive Virginia's Wrongs,</l>
+       <l>Yet for this Insolence, my hot Revenge</l>
+       <l>Shou'd even to Death pursue thee.</l>
+      </sp>
+      <sp who="#appius">
+       <speaker>APPIUS.</speaker>
+       <l>Yet beware:</l>
+       <l>My Rage may rise, and crush-thee.</l>
+      </sp>
+      <sp who="#virginius">
+       <pb n="105" facs="116"/>
+       <speaker>VIRGINIUS.</speaker>
+       <l>By the Gods,</l>
+       <l>I almost pity thee. Mistaken Man!</l>
+       <l>Who see'st not o'er thy Head th' impending Storm,</l>
+       <l>Which soon will burst in Thunder. Go, dismiss</l>
+       <l>The Pageants of thy fancy'd Power, those Lictors</l>
+       <l>Suit not a private Station.</l>
+      </sp>
+      <sp who="#appius">
+       <speaker>APPIUS.</speaker>
+       <l>Yet Virginius,</l>
+       <l>I am thy Friend: so ardent is the Love</l>
+       <l>I bear Virginia, I forgive ev'n this:</l>
+       <l>I cannot live without her, give her to me,</l>
+       <l>And by imperial Jove I swear—</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>Wou'd Appius wed a Slave?</l>
+      </sp>
+      <sp who="#appius">
+       <speaker>APPIUS.</speaker>
+       <l>No more of that;</l>
+       <l>She is no Slave if he accept my Offers;</l>
+       <l>Nay, more, the noble Fabius shall adopt her.</l>
+      </sp>
+      <sp who="#virginius">
+       <pb n="106" facs="117"/>
+       <speaker>VIRGINIUS.</speaker>
+       <l>O Villain! Shameless Villain wer't thou great</l>
+       <l>As thy deluded Fancy represents thee,</l>
+       <l>I wou'd disdain, wou'd spurn thy base Alliance,</l>
+       <l>And give Virginia to Icilius' Arms.</l>
+      </sp>
+      <sp who="#appius">
+       <speaker>APPIUS.</speaker>
+       <l>Ha! brav'd by thee? Then hear me, thou fond Father;</l>
+       <l>E'er yonder Sun descends his Western Road,</l>
+       <l>Thou shalt behold Virginia in my Arms;</l>
+       <l>Shalt hear her, shrieking, call in vain for Help,</l>
+       <l>Whilst I, like Rome's great Founder, Romulus,</l>
+       <l>With manly Force compress her struggling Beauties,</l>
+       <l>And gratify, at once, my Love and Vengeance:</l>
+       <l>Then when thy Tongue too late shall curse thy Folly,</l>
+       <l>Death, in his foulest Shape, shall seize upon thee,</l>
+       <l>Thee, and thy Patriot Friends. Lead to the Forum.</l>
+       <stage>(To the Lictors.)</stage>
+      </sp>
+     </div>
+     <div n="3" type="scene">
+      <pb n="107" facs="118"/>
+      <head>SCENE III.</head>
+      <stage>VIRGINIUS, NUMITORIUS.</stage>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>ALL righteous Jove! Where sleeps thy vengeful Thunder?</l>
+      </sp>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>I cannot curse: my Indignation choaks me.</l>
+       <l>O, Numitorius! But, no more: Away.</l>
+      </sp>
+     </div>
+     <div n="4" type="scene">
+      <head>SCENE IV.</head>
+      <stage>[<hi>The House of</hi> VIRGINIUS.]</stage>
+      <stage>VIRGINIA, ICILIA.</stage>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>THOU art too kind, Icilia, thus to share</l>
+       <l>My Hours of Sorrow: how shall I repay thee</l>
+       <l>For all thy wondrous Friendship?</l>
+      </sp>
+      <sp who="#icilia">
+       <pb n="108" facs="119"/>
+       <speaker>ICILIA.</speaker>
+       <l>O, Virginia!</l>
+       <l>Let but the Gods preserve thee from this Tyrant,</l>
+       <l>And I am blest; wilt thou forgive these Tears?</l>
+       <l>I came to comfort thee, but want myself</l>
+       <l>The Friend I meant to be: my Heart is breaking.</l>
+      </sp>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>In pity stop these tender Tears, Icilia,</l>
+       <l>They wound my Soul; perhaps the lawless Tyrant</l>
+       <l>May yet relent; may give me back to Love,</l>
+       <l>And to my weeping Friends: perhaps the Gods,</l>
+       <l>By Means we think not of, may save my Honour.</l>
+      </sp>
+     </div>
+     <div n="5" type="scene">
+      <pb n="109" facs="120"/>
+      <head>SCENE V.</head>
+      <stage>VIRGINIA, ICILIA, NUMITORIUS, TREBONIUS.</stage>
+      <sp who="#trebonius">
+       <speaker>TREBONIUS.</speaker>
+       <l>WHERE is Virginia? She is summon'd hence;</l>
+       <l>This very Moment Appius gains the Forum;</l>
+       <l>I saw him pass, with hasty Steps he went,</l>
+       <l>He started oft, and cast his Eyes around,</l>
+       <l>Then bent them gloomily to Earth; and trembled,</l>
+       <l>As if distracted with contending Passions.</l>
+      </sp>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>O, I shall faint! Support me, dear Icilia,</l>
+       <l>The dreadful Hour is come: where is Icilius?</l>
+       <l>Where is my Father? Sure they will not leave me.</l>
+      </sp>
+      <sp who="#trebonius">
+       <speaker>TREBONIUS.</speaker>
+       <l>They wait without, to guard thee to the Forum,</l>
+       <l>Surrounded by their Friends: a Train of Matrons</l>
+       <l>
+        <pb n="110" facs="121"/>
+Attends thee too: dismiss thy Fears, Virginia,</l>
+       <l>And trust the Roman People.</l>
+      </sp>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>O, Trebonius,</l>
+       <l>I fear my Heart will be too true a Prophet:</l>
+       <l>But let us go. Farewell, my dear Icilia.</l>
+      </sp>
+      <sp who="#icilia">
+       <speaker>ICILIA.</speaker>
+       <l>Stay but a Moment more. Alas! Virginia,</l>
+       <l>I have a thousand tender Things to say,</l>
+       <l>But Tears prevent me: think how we have lov'd,</l>
+       <l>And pity me.—</l>
+      </sp>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>Forbear this cruel Kindness; thy Complainings</l>
+       <l>Disarm my Soul: I wou'd be more than Woman</l>
+       <l>To meet approaching Fate; but thy fond Tears,</l>
+       <l>Have soften'd me, Icilia, to an Infant.</l>
+       <l>Farewell: may Heaven reward thy matchless Goodness</l>
+       <l>To thy ill-fated Friend!</l>
+      </sp>
+      <sp who="#icilia">
+       <pb n="111" facs="122"/>
+       <speaker>ICILIA.</speaker>
+       <l>Another Moment,</l>
+       <l>And I have done; Why do I tremble thus?</l>
+       <l>My faltering Tongue will not perform it's Office.</l>
+       <l>O, dost thou think we e'er shall meet again?</l>
+      </sp>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>We shall, Icilia; Heaven will not abandon</l>
+       <l>The virtuous in Misfortune: let us hope</l>
+       <l>For happier Days. The flying Minutes call me:</l>
+       <l>Once more, farewell, for if I stay a Moment</l>
+       <l>My Soul will sink in Softness. Come, Trebonius;</l>
+       <l>You, Numitorius, for my sake, will stay,</l>
+       <l>And chear my drooping Friend: speak Comfort to her;</l>
+       <l>Bid her remember chaste Diana's Omens,</l>
+       <l>Nor doubt th'immortal Powers. Farewell.</l>
+      </sp>
+      <sp who="#icilia">
+       <speaker>ICILIA.</speaker>
+       <l>Trebonius.</l>
+      </sp>
+     </div>
+     <div n="6" type="scene">
+      <pb n="112" facs="123"/>
+      <head>SCENE VI.</head>
+      <stage>ICILIA, NUMITORIUS, TREBONIUS.</stage>
+      <sp who="#trebonius">
+       <speaker>TREBONIUS.</speaker>
+       <l>WHAT wou'd Icilia?</l>
+      </sp>
+      <sp who="#icilia">
+       <speaker>ICILIA.</speaker>
+       <l>O, if any Pity</l>
+       <l>Dwells in your Soul, let me not feel a Moment</l>
+       <l>The Pangs of Doubt: whate'er Virginia's Fate,</l>
+       <l>Fly on the Instant, and acquaint me with it.</l>
+      </sp>
+      <sp who="#trebonius">
+       <speaker>TREBONIUS.</speaker>
+       <l>I will, by awful Jove.</l>
+      </sp>
+     </div>
+     <div n="7" type="scene">
+      <pb n="113" facs="124"/>
+      <head>SCENE VII.</head>
+      <stage>ICILIA, NUMITORIUS.</stage>
+      <sp who="#icilia">
+       <speaker>ICILIA.</speaker>
+       <l>IF I must lose her—</l>
+       <l>O, Numitorius, from our earliest Youth</l>
+       <l>She was Icilia's other Self. Her Virtues—</l>
+       <l>But well thou know'st them—</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>Can'st thou doubt the Gods?</l>
+       <l>She is their Care, Icilia. I must leave thee;</l>
+       <l>Even this old feeble Arm in such a Cause.—</l>
+      </sp>
+      <sp who="#icilia">
+       <speaker>ICILIA.</speaker>
+       <l>A Moment stay: cold Drops bedew my Face,</l>
+       <l>My trembling Limbs relax, and will not bear me.</l>
+       <l>O, do not leave me to these dreadful Horrors!</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>I wou'd not, but Virginia.—</l>
+      </sp>
+      <sp who="#icilia">
+       <pb n="114" facs="125"/>
+       <speaker>ICILIA.</speaker>
+       <l>Hence, away!</l>
+       <l>This Moment leave me: rather let my Brain</l>
+       <l>Turn with my Fears, than my Virginia want</l>
+       <l>A Friend to aid her.</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>I'm deceiv'd, Icilia,</l>
+       <l>Or from the Forum sounds confus'd approach us,</l>
+       <l>Sounds of Distress. I fear I've staid too long.</l>
+      </sp>
+      <sp who="#icilia">
+       <speaker>ICILIA.</speaker>
+       <l>Fly to her Aid: stay not to answer me.</l>
+      </sp>
+     </div>
+     <div n="8" type="scene">
+      <head>SCENE VIII.</head>
+      <sp who="#icilia">
+       <speaker>ICILIA.</speaker>
+       <l>HARK! Sure I heard a Shrick! no, 'twas my Fears:</l>
+       <l>All is dead Silence. I shall go distracted:</l>
+       <l>This solemn Stillness o'er the House affrights me:</l>
+       <l>I'll call the Slaves. Euphronia. No one answers.</l>
+       <l>
+        <pb n="115" facs="126"/>
+All, all are gone to learn Virginia's Fate,</l>
+       <l>Daughter of Jove! thou Virgin Goddess, hear!</l>
+       <stage>(kneeling.)</stage>
+       <l>If Virtue is thy Care, protect Virginia!</l>
+       <l>Defend her helpless Innocence!</l>
+      </sp>
+     </div>
+     <div n="9" type="scene">
+      <head>SCENE IX.</head>
+      <stage>ICILIA, TREBONIUS.</stage>
+      <sp who="#trebonius">
+       <speaker>TREBONIUS.</speaker>
+       <l>ICILIA.</l>
+      </sp>
+      <sp who="#icilia">
+       <speaker>ICILIA.</speaker>
+       <l>Trebonius here! my beating Heart—O tell me,</l>
+       <l>Does my Virginia live?</l>
+      </sp>
+      <sp who="#trebonius">
+       <speaker>TREBONIUS.</speaker>
+       <l>Alas, Icilia!</l>
+       <l>How shall I tell thee? The too partial Gods—</l>
+      </sp>
+      <sp who="#icilia">
+       <pb n="116" facs="127"/>
+       <speaker>ICILIA.</speaker>
+       <l>Then all is lost.</l>
+      </sp>
+      <sp who="#trebonius">
+       <speaker>TREBONIUS.</speaker>
+       <l>Now summon all thy Courage,</l>
+       <l>For thou wilt need it all. Unhappy Maid!</l>
+       <l>Virginia dies this Moment. Gods she faints,</l>
+       <l>What have I done? Icilia.</l>
+      </sp>
+      <sp who="#icilia">
+       <speaker>ICILIA.</speaker>
+       <l>Are there Gods,</l>
+       <l>And cou'd they see this? Give me Way, Trebonius,</l>
+       <l>Where is my murder'd Friend?</l>
+      </sp>
+      <sp who="#trebonius">
+       <speaker>TREBONIUS.</speaker>
+       <l>A Moment hear me:</l>
+       <l>Too soon her breathless Form—</l>
+      </sp>
+      <sp who="#icilia">
+       <speaker>ICILIA.</speaker>
+       <l>No more, no more,</l>
+       <l>I cannot bear it—These fond Tears—Virginia,</l>
+       <l>Thou then hast kept thy cruel Resolution.</l>
+      </sp>
+      <sp who="#trebonius">
+       <pb n="117" facs="128"/>
+       <speaker>TREBONIUS.</speaker>
+       <l>By her own Hand she fell not. Spite of all</l>
+       <l>The People's mighty Promises, when Appius,</l>
+       <l>Raging with keen Revenge, and wild Desire,</l>
+       <l>Unheard all Proofs, soon as she reach'd the Forum,</l>
+       <l>Pronounc'd her Claudius' Slave, and sent a Lictor</l>
+       <l>To seize her, mute they stood, like lifeless Statues,</l>
+       <l>And gave him Way: Icilius rush'd like Fate</l>
+       <l>To stab the Tyrant, but was soon surrounded;</l>
+       <l>Then poor Virginius—O, Icilia! Here</l>
+       <l>Grief stops my Tongue.</l>
+      </sp>
+      <sp who="#icilia">
+       <speaker>ICILIA.</speaker>
+       <l>What of Virginius? speak.</l>
+      </sp>
+      <sp who="#trebonius">
+       <speaker>TREBONIUS.</speaker>
+       <l>He snatch'd her from the Lictor:</l>
+       <l>One last Embrace, he cry'd, is all I ask,</l>
+       <l>Then wilding casting up his Eyes to Heaven;</l>
+       <l>As if complaining of the careless Gods;</l>
+       <l>He drew a Dagger, hid beneath his Robe,</l>
+       <l>
+        <pb n="118" facs="129"/>
+And plung'd it in her Bosom, thus, he cry'd</l>
+       <l>Thy Father keeps his Word, and sets thee free.</l>
+      </sp>
+      <sp who="#icilia">
+       <speaker>ICILIA.</speaker>
+       <l>Cruel! inhuman, Father!</l>
+      </sp>
+      <sp who="#trebonius">
+       <speaker>TREBONIUS.</speaker>
+       <l>How, Icilia!</l>
+       <l>What dost thou mean?</l>
+      </sp>
+      <sp who="#icilia">
+       <speaker>ICILIA.</speaker>
+       <l>O, pardon, good old Man!</l>
+       <l>My frantick Rage, and let me curse the Tyrant</l>
+       <l>Who turn'd thy Sword upon thy Age's Darling;</l>
+       <l>But Death shall free me from this Load of Sorrow.</l>
+      </sp>
+      <sp who="#trebonius">
+       <speaker>TREBONIUS.</speaker>
+       <l>No more, Icilia; poor Despair becomes not</l>
+       <l>A Roman Soul: woud'st thou o'erwhelm thy Brother,</l>
+       <l>Already too, too wretched?</l>
+      </sp>
+      <sp who="#icilia">
+       <speaker>ICILIA.</speaker>
+       <l>My Virginia!</l>
+       <l>Did'st thou not tell me we shou'd meet again?</l>
+      </sp>
+      <sp who="#trebonius">
+       <pb n="119" facs="130"/>
+       <speaker>TREBONIUS.</speaker>
+       <l>Behold! she comes! this Way the Matrons lead her:</l>
+       <l>Alas! how pale! how chang'd! e'er this I fear'd</l>
+       <l>The Hand of Death had seiz'd her.</l>
+      </sp>
+      <sp who="#icilia">
+       <speaker>ICILIA.</speaker>
+       <l>Gracious Gods!</l>
+       <l>Thus do I see Virginia? How I lov'd her</l>
+       <l>You best can tell—Was it for this—Break Heart,</l>
+       <l>And let us die together—</l>
+      </sp>
+     </div>
+     <div n="10" type="scene">
+      <pb n="120" facs="131"/>
+      <head>SCENE X.</head>
+      <stage>ICILIA, VIRGINIUS, ICILIUS, TREBONIUS, VIRGINIA supported by Matrons.</stage>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>HERE, let me rest, my Friends, Life ebbs apace:</l>
+       <l>O, I am sick to Death. Where is Icilia?</l>
+      </sp>
+      <sp who="#trebonius">
+       <speaker>TREBONIUS.</speaker>
+       <l>She cannot speak to thee.</l>
+      </sp>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>Come near, Icilia.</l>
+       <l>Give me thy Hand: may every gracious Power</l>
+       <l>Shower countless Blessings on thee! May'st thou find</l>
+       <l>Another Friend as true as thy Virginia!</l>
+      </sp>
+      <sp who="#icilia">
+       <pb n="121" facs="132"/>
+       <speaker>ICILIA.</speaker>
+       <l>O, never, never; I will follow thee:</l>
+       <l>I will not live without thee.</l>
+      </sp>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>Live, I charge thee:</l>
+       <l>Live for thy Brother's sake: he ill will bear</l>
+       <l>My Loss; support him—</l>
+      </sp>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>O! my Child! My Child!</l>
+       <l>Can'st thou forgive me? Cou'd my Death have sav'd thee,</l>
+       <l>I wou'd have bled with Transport—</l>
+      </sp>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>Forgive? I bless you for the Blow that sav'd me,</l>
+       <l>For this last Act may Heaven reward your Goodness.</l>
+       <l>But you were ever kind, the tenderest, best,</l>
+       <l>And most indulgent Parent. O, I faint!</l>
+       <l>How my Eyes swim! Where is my dear Icilius?</l>
+      </sp>
+      <sp who="#icilius">
+       <pb n="122" facs="133"/>
+       <speaker>ICILIUS.</speaker>
+       <l>Thou murder'd Excellence! My laboring</l>
+       <l>Soul—</l>
+       <l>I cannot speak—</l>
+      </sp>
+      <sp who="#virginia">
+       <speaker>VIRGINIA.</speaker>
+       <l>My Father, my Icilius,</l>
+       <l>Revenge my Death: O, might it save my Country,</l>
+       <l>The Gods were kind indeed! I can no more—</l>
+       <l>My Breath grows short—give me a little Air:</l>
+       <l>All-gracious Gods! preserve, and bless my Father!</l>
+       <l>'Tis very dark—once more thy Hand, Icilia,</l>
+       <l>Comfort thy Brother, and remember—Oh!—</l>
+       <stage>(Dies.)</stage>
+      </sp>
+      <sp who="#icilia">
+       <speaker>ICILIA.</speaker>
+       <l>Speak to me once again, my dear Virginia;</l>
+       <l>O, she is gone for ever!</l>
+      </sp>
+      <sp who="#trebonius">
+       <speaker>TREBONIUS.</speaker>
+       <l>Lead her hence.</l>
+       <stage>(To the Matrons.)</stage>
+      </sp>
+     </div>
+     <div n="11" type="scene">
+      <pb n="123" facs="134"/>
+      <head>SCENE XI.</head>
+      <stage>VIRGINIUS, ICILIUS, TREBONIUS.</stage>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>LET swift Destruction seize the Murderous Tyrant!</l>
+       <l>Here I devote him to the infernal Gods</l>
+       <l>By this chaste Blood my wretched Hand has spilt,</l>
+       <l>May all his Children bleed before his Eyes,</l>
+       <l>And Pangs like mine, distract him! O, my Child!</l>
+      </sp>
+      <sp who="#icilius">
+       <speaker>ICILIUS.</speaker>
+       <l>Ye vengeful Gods! give Appius to my Sword!</l>
+       <l>Give me to stab his impious Heart! to drag him</l>
+       <l>Thro' all the Streets of Rome! and I will bear</l>
+       <l>This Load of Anguish you have laid upon me.</l>
+       <l>I will not shed a Tear; my Breast is steel'd</l>
+       <l>
+        <pb n="124" facs="135"/>
+With stern Revenge, and Horror: let us go;</l>
+       <l>Why do we waste in Words the Hour of Blood?</l>
+      </sp>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>For this alone I live: for dear Revenge</l>
+       <l>I drag a wretched Being: yes my Child</l>
+       <l>Thy Father, who to save thee from Pollution,</l>
+       <l>Stab'd his own Heart, thro' thine, will yet support</l>
+       <l>A Life born down with Grief, to glut thy Shade</l>
+       <l>With Vengeance on the Monster who destroy'd thee.</l>
+      </sp>
+     </div>
+     <div n="12" type="scene">
+      <head>SCENE XII.</head>
+      <stage>VIRGINIUS, ICILIUS, TREBONIUS, NUMITORIUS, Romans.</stage>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>ENOUGH, my Friends, Icilius is your Tribune:</l>
+       <l>Where is Virginius? Liberty is ours:</l>
+       <l>The Tyrant falls; the People, all inspir'd</l>
+       <l>
+        <pb n="125" facs="136"/>
+With sudden Rage, have burst th'enfeebling Bands</l>
+       <l>Of silken Indolence; a thousand Daggers</l>
+       <l>Now drink his Blood;</l>
+       <l>To make our Freedom sure</l>
+       <l>They name Horatius and Valerius, Consuls,</l>
+       <l>And brave Icilius Tribune.</l>
+      </sp>
+      <sp who="#icilius">
+       <speaker>ICILIUS.</speaker>
+       <l>Let us fly:</l>
+       <l>Virginia's injured Spirit hovers o'er us,</l>
+       <l>And calls for ampler Vengeance: yes, thou dear one,</l>
+       <l>The whole accurst Decemvirate shall bleed,</l>
+       <l>Thy offer'd Victims.</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>Mid'st the rising Tumult;</l>
+       <l>A Messenger is seiz'd, who bears to Fabius</l>
+       <l>The Tyrant's Orders to behead brave Labeo,</l>
+       <l>And decimate the Troops: this seals them ours,</l>
+       <l>
+        <pb n="126" facs="137"/>
+And points their wavering Swords at the Decemvirs.</l>
+      </sp>
+      <sp who="#trebonius">
+       <speaker>TREBONIUS.</speaker>
+       <l>Droop not, Virginius; let Revenge awake you;</l>
+       <l>Revenge, and Liberty: 'tis Rome that calls.</l>
+      </sp>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>Yes, brave Trebonius, I obey thy Summons:</l>
+       <l>Sunk as I am beneath this Weight of Sorrow,</l>
+       <l>My bleeding Country shall not call in vain:</l>
+       <l>I will forget the Father, in the Roman.</l>
+       <l>Here kneel, and swear, by all the Gods of Vengeance,</l>
+       <l>By Liberty, and by the Soul of Rome,</l>
+       <l>To aid my just Revenge: swear on this Dagger,</l>
+       <l>Stain'd with the Blood of Innocence.</l>
+      </sp>
+      <sp who="#romans">
+       <speaker>All ROMANS.</speaker>
+       <l>We swear.</l>
+      </sp>
+      <sp who="#virginius">
+       <speaker>VIRGINIUS.</speaker>
+       <l>'Tis not for me, but for yourselves, O, Romans!</l>
+       <l>
+        <pb n="127" facs="138"/>
+That Freedom bids you wake the glorious Flame;</l>
+       <l>To save your blooming Virgins from Pollution:</l>
+       <l>I have no Interest in these Tyrant's Deaths:</l>
+       <l>What can I lose? Alas! I have no Daughter.</l>
+       <stage>(<hi>Looking on</hi> Virginia's Body.)</stage>
+      </sp>
+      <sp who="#trebonius">
+       <speaker>TREBONIUS.</speaker>
+       <l>The Moments call: why waste we Time, Virginius?</l>
+       <l>Fly to the Camp at Algidum, and rouse them</l>
+       <l>To Liberty, and Vengeance; whilst Icilius,</l>
+       <l>With Numitorius hastens to Fidenae,</l>
+       <l>And fires their Bosoms with the Tyrant's Order.</l>
+       <l>Horatius, and Valerius, with myself,</l>
+       <l>Will keep alive this Spirit in the City,</l>
+       <l>'Till you, by hasty Marches, bring the Soldiers,</l>
+       <l>To finish what the People have begun.</l>
+      </sp>
+      <sp who="#numitorius">
+       <speaker>NUMITORIUS.</speaker>
+       <l>Tomorrow's rising Dawn shall see our Eagles,</l>
+       <l>Led by Revenge, approach the Walls of Rome.</l>
+       <l>O, my Trebonius! this dear, murder'd Maid,</l>
+       <l>
+        <pb n="128" facs="139"/>
+This second Lucrece, saves her suffering Country.</l>
+       <l>The Ways of Heaven are hid from human Sight,</l>
+       <l>Unsearchable to Man: tho' Justice lingers,</l>
+       <l>'Tis but with Rage redoubled to return,</l>
+       <l>And crush the Tyrant who securely sins,</l>
+       <l>Nor deems that Jove beholds his dark Offences.</l>
+      </sp>
+      <sp who="#trebonius">
+       <speaker>TREBONIUS.</speaker>
+       <l>From this Event, let erring Mortals know,</l>
+       <l>Jove marks their Crimes, tho' he withholds the Blow:</l>
+       <l>Black Vengeance rises at his dread Command,</l>
+       <l>Nor sleeps the Thunder in th' Almighty's Hand.</l>
+       <l>O, King of Gods! still guard the Roman State!</l>
+       <l>Let Death unpity'd on Ambition wait,</l>
+       <l>And every Tyrant meet with Appius' Fate!</l>
+      </sp>
+     </div>
+    </div>
+    <trailer>The END.</trailer>
+   </div>
+   <trailer>The END.</trailer>
+  </body>
+ </text>
+</TEI>
