@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">A wife well manag'd</title>
+    <title type="sub">A farce.</title>
+    <author>
+     <persName>
+      <surname>Centlivre</surname>
+      <forename>Susanna</forename>
+      <idno type="VIAF">41874559</idno>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>A wife well manag'd: A farce.</name>
+     <author>Centlivre, Susanna, 1667?-1723.</author>
+     <publisher>printed and sold by S. Keimer,</publisher>
+     <date>1715.</date>
+     <pubPlace>London :</pubPlace>
+     <note>Anonymous. By Susanna Centlivre.</note>
+     <note>Reproduction of original from the British Library.</note>
+     <note>English Short Title Catalog, ESTCT26874.</note>
+     <note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note>
+    </bibl>
+    <biblFull n="printed source">
+     <publicationStmt>
+      <authority ref="#JJ">Jan Jokisch</authority>
+      <date>2024 December</date>
+      <idno type="ECCO_Drama">K032322.000</idno>
+      <idno type="DLPS">004798032</idno>
+      <idno type="ESTC">T26874</idno>
+      <idno type="DocNo">CW111921177</idno>
+      <idno type="TCP">K032322.000</idno>
+      <idno type="GaleDocNo">CW3311921177</idno>
+      <idno type="ContentSet">ECLL</idno>
+      <idno type="ImageSetID">0048101800</idno>
+      <availability>
+       <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+      </availability>
+     </publicationStmt>
+    </biblFull>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     
+     <person xml:id="father_bernardo">
+      <persName>Father Bernardo</persName>
+      <sex value="MALE"/>
+     </person>
+     <person xml:id="don_pisalto">
+      <persName>Don Pisalto</persName>
+      <sex value="MALE"/>
+     </person>
+     <person xml:id="inis">
+      <persName>Inis</persName>
+      <sex value="FEMALE"/>
+     </person>
+     
+     <person xml:id="lady_pisalto">
+      <persName>Lady Pisalto</persName>
+      <sex value="FEMALE"/>
+     </person>
+     
+     <person xml:id="teague">
+      <persName>Teague</persName>
+      <sex value="MALE"/>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1715">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text xml:lang="en">
+  <front>
+   <div type="illustration">
+    <pb facs="1" ana="y"/>
+    <pb facs="2"/>
+    <p>
+     <figure>
+      <head>M<span rend="sup">RS</span>. CENTLIVRE.</head>
+      <byline>D. Fermin pinx. J. Taylor sculp.</byline>
+     </figure>
+    </p>
+   </div>
+   <div type="titlepage">
+    <pb facs="3" ana="y"/>
+    <p>A WIFE WELL MANAG'D. A FARCE.</p>
+    <l>—Mulier saevissima tunc est,</l>
+    <l>Cum stimulos odio pudor admovet.</l>
+    <bibl>Juv. Sat. 10.</bibl>
+    <p>LONDON: <hi>Printed and Sold by</hi> S. Keimer, <hi>at the</hi> Printing-Press <hi>in</hi> Pater-Noster-Row. <hi>1715</hi>
+    </p>
+   </div>
+   <div type="Dramatis_Personae">
+    <pb facs="4" ana="y"/>
+    <castList>
+     <head>Dramatis Personae</head>
+     <castItem>MEN.</castItem>
+     <castItem>
+      <role>DON Pisalto</role>
+      <actor>Designed to have been reprefented by Mr. Norris</actor>
+     </castItem>
+     <castItem>
+      <role>Father Bernardo</role>
+      <actor>By Mr. Shepherd</actor>
+     </castItem>
+     <castItem>
+      <role>Teague</role>
+      <actor>By Mr. Miller</actor>
+     </castItem>
+     <castItem>WOMEN.</castItem>
+     <castItem>
+      <role>Lady Pisalto</role>
+      <actor>Mrs. Baker</actor>
+     </castItem>
+     <castItem>
+      <role>Inis</role>
+      <actor>Miss Younger</actor>
+     </castItem>
+    </castList>
+   </div>
+   <set>
+    <p>SCENE, <hi>Lisbon.</hi>
+    </p>
+   </set>
+  </front>
+  <body>
+   <head>
+    <pb n="1" facs="5"/>A WIFE WELL MANAG'D.</head>
+   <div n="1" type="scene">
+    <head>ACT I. SCENE I.</head>
+    <stage>
+     <hi>Lady</hi> Pisalto, <hi>and</hi> Inis.</stage>
+    <sp who="#lady_pisalto">
+     <speaker>Lady.</speaker>
+     <p>
+      <seg rend="decorInit">A</seg>H, <hi>Inis!</hi> My Indisposition is not to be cur'd.</p>
+    </sp>
+    <sp who="#inis">
+     <speaker>Inis.</speaker>
+     <p>Not without applying the proper Medicine <hi>I</hi> grant ye.—Well, had I such a Confessor as Father <hi>Bernardo—</hi>I say no more—but I sancy nothing wou'd trouble my Conscience long.</p>
+    </sp>
+    <sp who="#lady_pisalto">
+     <pb n="2" facs="6"/>
+     <speaker>Lady.</speaker>
+     <l>What do you mean?</l>
+    </sp>
+    <sp who="#inis">
+     <speaker>Inis.</speaker>
+     <p>My Meaning depends upon yours, Madam; pray what do you mean by painting Farther <hi>Bernardo</hi>'s Picture in every Room in the House, at your Beds-head, your Toilet, at the Bottom of your Crucifix, at every Corner of your Handkerchief, nay upon your very Fan too, as if the Good Father, like the Traveller in the Fable, cou'd heat and cool at once?</p>
+    </sp>
+    <sp who="#lady_pisalto">
+     <speaker>Lady.</speaker>
+     <p>Is there any harm in wearing a good Man's Picture? Is he not one of the Pillars of our Church? Eminent for de claiming against Herisy and Schism, and fain wou'd reconcile the World to <hi>Rome</hi> s pure Religion? Oh they are blest that he Converts, happy the Pair, who e'er they be, that are in Wedlock joyn'd by him. Wou'd I had been one of those.</p>
+    </sp>
+    <sp who="#inis">
+     <speaker>Inis.</speaker>
+     <p>If the Good Father has this healing Art, Why are you uneasy? A little of his comfortable Consolation wou'd revive the Colour in those Cheeks, and give great Satisfaction to your Mind, or I have lost my Judgment, and I don't use to be out in my Guess, where Love's the Riddle.</p>
+    </sp>
+    <sp who="#lady_pisalto">
+     <speaker>Lady.</speaker>
+     <p>Well, since thou hast hit my Distemper so exactly, Girl, I'll confess ingeniously to thee, I do love Father <hi>Bernardo</hi> to Distraction, but how to discover my Passion, or what Reception it may meet with when discover'd, is that which wracks me.</p>
+    </sp>
+    <sp who="#inis">
+     <speaker>Inis.</speaker>
+     <p>A kind one I warrant you, Madam: For tho' Priests are forbid to marry, as a mortal Sin, Fornication was never reckon'd
+<pb n="3" facs="7"/>
+more than Venial; and for Discovery, whilst there's Pen, Ink, and Paper in the World, a Woman can never be at a loss to tell her Mind. Write to him Madam, write to him.</p>
+    </sp>
+    <sp who="#lady_pisalto">
+     <speaker>Lady.</speaker>
+     <p>But who shall carry it?</p>
+    </sp>
+    <sp who="#inis">
+     <speaker>Inis.</speaker>
+     <p>Your <hi>Irish</hi> Footman; he's a simple honest Fellow, and may easily be manag'd; do you write your Letter, Madam, and I'll give him Instructions in the mean Time.</p>
+    </sp>
+    <sp who="#lady_pisalto">
+     <speaker>Lady.</speaker>
+     <p>I'll do it this Minute.</p>
+    </sp>
+    <stage>(Exit Lady.)</stage>
+    <stage>(Inis <hi>goes to the Door and calls,</hi> Teague▪</stage>
+    <stage>
+     <hi>Enter</hi> Teague.</stage>
+    <sp who="#teague">
+     <speaker>Teague.</speaker>
+     <p>Well Mrs. <hi>Inis;</hi> What Commands have you for Teague now?</p>
+    </sp>
+    <sp who="#inis">
+     <speaker>Inis.</speaker>
+     <p>Do you think you can do a Message cunningly, <hi>Teague?</hi>
+     </p>
+    </sp>
+    <sp who="#teague">
+     <speaker>Teague.</speaker>
+     <p>Cunningly! Yes Faith, we are all so cunning now—What for a Message is it?</p>
+    </sp>
+    <sp who="#inis">
+     <speaker>Inis.</speaker>
+     <p>It is a Letter for Father <hi>Bernardo</hi> at the Convent of St. <hi>Francis;</hi> if you do it handsomly, a Moider is your Reward; do you hear, but if you make any Mistake—</p>
+    </sp>
+    <sp who="#teague">
+     <speaker>Teague.</speaker>
+     <p>Hub, bub, bub, bu, Mistake! No Faith won't I, Arra! An will you be after giving me the Moider indeed, and by my Shoul now?</p>
+    </sp>
+    <sp who="#inis">
+     <speaker>Inis.</speaker>
+     <p>Upon Honour.—</p>
+    </sp>
+    <sp who="#teague">
+     <speaker>Teague.</speaker>
+     <p>Arra, say no more now—I will be here agen in a Quarter of an Hour.</p>
+     <stage>(going.</stage>
+    </sp>
+    <sp who="#inis">
+     <speaker>Inis.</speaker>
+     <p>But you must stay for the Letter, <hi>Teague.</hi>
+     </p>
+    </sp>
+    <sp who="#teague">
+     <speaker>Teague.</speaker>
+     <p>No, no, 'tis no Matter; I have a
+<pb n="4" facs="8"/>
+very clean Letter in my Pocket which will do very well, upon my Shoul. <stage>(going)</stage> and save Time, yes Faith will it.</p>
+    </sp>
+    <sp who="#inis">
+     <speaker>Inis.</speaker>
+     <p>Ha ha; no, no, <hi>Teague,</hi> that won't do; come along with me, and I'll give you the Letter; but if you shou'd meet my Master <hi>Don Pisalto,</hi> not a Word of the Letter for your Life—And I charge you to give it into no Hands but the Priests, and bring me an Answer, and then the Moider is your own.</p>
+    </sp>
+    <sp who="#teague">
+     <speaker>Teague.</speaker>
+     <p>Faith will I.—</p>
+    </sp>
+    <stage>(Exeunt.</stage>
+    <stage>
+     <hi>Re-enter</hi> Teague <hi>with the Letter.</hi>
+    </stage>
+    <sp who="#teague">
+     <speaker>Teague.</speaker>
+     <p>Arra, pon my Shoul, I have forgot this plaguy Priest's Name—Yes Faith have I—Father <hi>Bom, Bom, Bom,—</hi>By St. <hi>Patrick</hi> I don't know who to ask for now—Arra, What shall I do?—Who the Devil shall I get to read the Outside of this Letter now?</p>
+    </sp>
+    <stage>
+     <hi>Enter Don</hi> Pisalto <hi>behind him, and looks over his Shoulder on the Letter.</hi>
+    </stage>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>For Father <hi>Bernardo.</hi>
+     </p>
+    </sp>
+    <sp who="#teague">
+     <speaker>Tea.</speaker>
+     <p>Oh, pon my Shoulvation dat is the Name now. <stage>
+       <hi>(turns quick upon</hi> Don Pisalto.</stage> Ha, my Maistre! What shall I say now,</p>
+     <stage>(Aside.</stage>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>Whither are you going with that Letter Sirrah? It is my Wives Hand,</p>
+     <stage>(Aside.</stage>
+    </sp>
+    <sp who="#teague">
+     <speaker>Tea.</speaker>
+     <p>Ha ha, pon my Shoul, a very good
+<pb n="5" facs="9"/>
+Jest, first reads the Direction, and then asks me whither it goes.</p>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>It may not prove so good a Jest as you think Sirrah—Who gave you that Letter?</p>
+    </sp>
+    <sp who="#teague">
+     <speaker>Tea.</speaker>
+     <p>Arra Maistre, you are very uncivil now to enquire into other Folks Business, so you are, yes Faith are you.</p>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>I shall be so very uncivil to break your Head Rascal, if you don't answer me to the Purpose; give me the Letter you Dog you.</p>
+    </sp>
+    <sp who="#teague">
+     <speaker>Tea.</speaker>
+     <p>Faith won't I—That's the Way to lose the Moider, which I am to have for carrying it.</p>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>A Moider for carrying it! Sure the Business must be very urgent, when the Postage is so dear. Give it me, I say, or or,</p>
+    </sp>
+    <stage>(Lays his Hand to his Sword.</stage>
+    <sp who="#teague">
+     <speaker>Tea.</speaker>
+     <p>No pon my Shoul won't I.</p>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>Won't you Sirrah?</p>
+    </sp>
+    <stage>(Draws, and beats him.</stage>
+    <sp who="#teague">
+     <speaker>Tea.</speaker>
+     <p>Arra, take the Letter <stage>(throws it down)</stage> Pox upon me, if I don't wish the Devil had you both, yes Faith do I; for poor <hi>Teague</hi> loses his Moider now, and Mrs. <hi>Inis</hi> will never send me of no more Arrands, no Faith won't she.</p>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>
+      <hi>Inis,</hi> Ho! Did she give it you—</p>
+    </sp>
+    <stage>(Opens it.</stage>
+    <sp who="#teague">
+     <speaker>Tea.</speaker>
+     <p>Yes indeed now, and I believe there is some very great Sin in the Letter now, that the Good Father was to send his Pardon for, so I do.</p>
+    </sp>
+    <sp who="#don_pisalto">
+     <pb n="6" facs="10"/>
+     <speaker>Don Pis.</speaker>
+     <p>Monstrous! What do I see? Yes here is a Sin with a Witness— <stage>(Reads)</stage> Dear Father, you'll forgive me when I tell you, that the more I see you, the more I hate my Husband, <stage>(very fine)</stage> and the more I pray against Temptation, the more powerfully my Inclinations plead in your Behalf, <stage>(Furies and Distraction,)</stage>—I implore your charitable Assistance to conquer this unruly Sin— <stage>(Yes I'll help you with a Vengance to you)</stage>—Nothing but your Company can prolong the Life of <hi>Flora.</hi>
+      <stage>(Say you so Mistress?</stage> Very well. <hi>Inis</hi> gave you this Letter you say!</p>
+    </sp>
+    <sp who="#teague">
+     <speaker>Tea.</speaker>
+     <p>Yes Faith did she—Arra dear honny Maistre, an you have don with the Letter give it now, that I may carry it to the Good Father, what de ye call him, or I shall lose the Moider, yes Faith shall I.</p>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>Ha! A lucky Thought comes into my Head, and this Fellows Simplicity is of use: Hark ye, <hi>Teague,</hi> come you along with me, I am acquainted with Father <hi>Bernardo,</hi> I'll procure you an Answer to this Letter—It is as you say, a Letter of Confession, and I believe <hi>Inis</hi> might not perform Articles with you, if she knew I had seen it; but take you no Notice of that, do you hear—And there is two Moiders for you Sirrah.</p>
+    </sp>
+    <stage>(Exit.</stage>
+    <sp who="#teague">
+     <speaker>Tea.</speaker>
+     <p>Oh. by my Shoul <hi>Teague</hi> is dumb—Now I shall have three Moiders; Faith this is a lucky beating for poor <hi>Teague;</hi> now will I drink St. <hi>Patrick</hi>'s Health till I am as red as a Potato, yes Faith will I</p>
+    </sp>
+    <stage>(Exit.</stage>
+    <stage>
+     <pb n="7" facs="11"/>
+     <hi>Enter Father</hi> Bernardo.</stage>
+    <sp who="#father_bernardo">
+     <speaker>Bernardo.</speaker>
+     <p>I have had very odd Dreams to Night; methought I was in Bed with Lady <hi>Pisalto—</hi>Ah, wou'd it was true, for she is a charming Woman; by St. <hi>Anthony</hi> I never hear her Confession, but my Virtue is much stagger'd; the Flesh and Spirit hold strong Contention; Oh, she's a delicious Morsel.</p>
+     <stage>
+      <hi>Enter</hi> Don Pisalto.</stage>
+     <p>Ha! Her Husband, I hope did not overhear me.</p>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>So, I have dispatch'd the <hi>Irishman.</hi> Ha! Father <hi>Bernardo,</hi> well met; I was going to your Convent, I have a Favour to ask of you.</p>
+    </sp>
+    <sp who="#father_bernardo">
+     <speaker>Bern.</speaker>
+     <p>You command me, Senior, <hi>Pisalto,</hi> pray what is it?</p>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>Why I must desire you to procure me a Habit of your Order for an Hour or two.</p>
+    </sp>
+    <sp who="#father_bernardo">
+     <speaker>Bern.</speaker>
+     <p>I hope you have no Enterprize in View, that may scandalize the Priesthood.</p>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>Fy, fy, does a Man of my Years give you Room for Suspicion? Besides, I am a married Man you know.</p>
+    </sp>
+    <sp who="#father_bernardo">
+     <speaker>Bern.</speaker>
+     <p>And to the most beautiful Lady in <hi>Madrid—</hi>A Religious, Virtuous Lady; Ah, you are a happy Man, Senior.</p>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>A Curse of the Happiness—Her Virtue, and your Sanctity, Father, might have begot a Monster, call'd a Cuckold, if Fortune
+<pb n="8" facs="12"/>
+had not flung me in the Way to prevent it.</p>
+    </sp>
+    <sp who="#father_bernardo">
+     <speaker>Bern.</speaker>
+     <p>What say you, Senior!</p>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>I say I am contented, Father.</p>
+    </sp>
+    <sp who="#father_bernardo">
+     <speaker>Bern.</speaker>
+     <p>Contented! Why another Man wou'd be transported, ravish'd, nay almost guilty of Idolatry.</p>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>Humph! There wou'd have been fine Work if they had come together; Oh, these Priests are full of Abstinence, and Piety! <stage>(Aside)</stage> If you'll oblige me with a Habit, let it be immediately, and I shou'd be proud if you'd give me your Company this Evening to sup with my Wife and I; I'll assure you Father, she has a profound Respect for you.</p>
+    </sp>
+    <sp who="#father_bernardo">
+     <speaker>Bern.</speaker>
+     <p>I am much oblig'd to her, Senior, I'll not fail to accept your kind Invitation, come along with me and I'll give you the Habit.—A profound Respect for me—Oh, that it were Love.</p>
+    </sp>
+    <stage>(Exit.</stage>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>I'll send for them this Minute, Father, but now I must pay a Visit to my virtuous Wife, and see how she bears her Expectation.</p>
+     <l>'Mongst all the Ills which clogg this Mortal Life,</l>
+     <l>The most acurst, and veriest Plague is—Wife.</l>
+    </sp>
+    <stage>(Exit.</stage>
+   </div>
+   <div type="scene">
+    <head>
+     <stage>SCENE <hi>changes.</hi>
+     </stage>
+    </head>
+    <stage>
+     <hi>Enter</hi> Lady <hi>reading a Letter;</hi> Inis <hi>following.</hi>
+    </stage>
+    <sp who="#lady_pisalto">
+     <speaker>Lady.</speaker>
+     <p>He has answer'd me as I cou'd wish—Dear, dear <hi>Inis,</hi> how shall I reward thee?
+<pb n="9" facs="13"/>
+Take that in Earnest of my future Kindness, he says he will come in the Twilight, which will soon be here, tho' not so soon as I cou'd wish it:—He desires, for Reasons which he will give me, he says, to be admitted in the Dark, which caution does not displease me, since it will prevent the Confusion I shou'd be in after such a Declaration.—</p>
+    </sp>
+    <sp who="#inis">
+     <speaker>Inis.</speaker>
+     <p>He did that on purpose, Madam; he is a true Cavalier, and understands his Business to a Hair; he knows Darkness is necessary upon rhese Occasions; it prevents a Lady's Blushes.—Ods heart, Madam, here's my Lord, I hear him cough.</p>
+    </sp>
+    <sp who="#lady_pisalto">
+     <speaker>Lady.</speaker>
+     <p>Oh mischevious Minute;—Here, here, run down the back Stairs, and burn that Letter immediately.</p>
+     <stage>(Exit Inis.</stage>
+     <p>I'll to my Book.</p>
+    </sp>
+    <stage>(Sits down, and takes up a Book.</stage>
+    <stage>
+     <hi>Enter</hi> Don Pisalto.</stage>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>There she sits,—as if she knew nothing of the Matter,—a Cockatrice,—What always at thy Devotion, Figgup?</p>
+    </sp>
+    <sp who="#lady_pisalto">
+     <speaker>Lady.</speaker>
+     <p>How can I pass my Time better in your Absence, Pudsey? Were it not for these good Books, I shou'd be very melancholy, when you are from me, Pudsey.</p>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>Hell confound her for a desembling Witch.</p>
+     <stage>(Aside.</stage>
+    </sp>
+    <sp who="#lady_pisalto">
+     <speaker>Lady.</speaker>
+     <p>What ails my Pudsey? You look out of Humour with your nown Figgup, What have I done, ha?</p>
+    </sp>
+    <sp who="#don_pisalto">
+     <pb n="10" facs="18"/>
+     <speaker>Don Pis.</speaker>
+     <p>Nothing yet I hope;—But that's no Fault of hers.</p>
+    </sp>
+    <sp who="#lady_pisalto">
+     <speaker>Lady.</speaker>
+     <p>Nay, what are you studying for, Pud, ha!</p>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>Why if you must know, little Figgey,—then I'll tell thee; <hi>Don Cammaray</hi> lays claim to Part of that Estate I bought last Year, and I must he oblig'd to leave my dear Figgup for two or three Hours this Evening, in order to consult my Lawyers about that Matter, that's all Figgey;—And I was afraid thou should'st take it ill of thy nown Pud.</p>
+    </sp>
+    <sp who="#lady_pisalto">
+     <speaker>Lady.</speaker>
+     <p>Lucky beyond Expression: <stage>(Aside)</stage> No, no, Pud, I am not so unreasonable neither;—I can divert my self with my Books till thy return.—But do Puddey—make all the Haste you can to your nown Figgup—</p>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>Ay, ay, more haste than you'd wish I dare swear. <stage>(Aside)</stage> That I will my Precious.—</p>
+    </sp>
+    <stage>(Going</stage>
+    <sp who="#lady_pisalto">
+     <speaker>Lady.</speaker>
+     <p>What never a parting Kiss, Pudsey? Oh you don't love your Figgup! Go, go, you are a naughty Hubby;—I I I I wish I cou'd love you less than I do, so I do.</p>
+    </sp>
+    <stage>(Sobbing, taking out her Handkerchief.</stage>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>Did ever Woman make a Cuckold with a better Grace? Ounds she outdoes an <hi>English</hi> Wife.—Nay don't weep Figgup; I'll stay with thee, let the Estate go how it will, rather than displease my little Figgey.—</p>
+    </sp>
+    <sp who="#lady_pisalto">
+     <speaker>Lady.</speaker>
+     <p>Heaven forbid, that wou'd be carrying the Jest too far. <stage>(Aside)</stage> No, no, I don't desire that, Pud.</p>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>No, I dare swear it.</p>
+     <stage>(Aside.</stage>
+    </sp>
+    <sp who="#lady_pisalto">
+     <pb n="11" facs="19"/>
+     <speaker>Lady.</speaker>
+     <p>Go, but give me a kind Kiss first, Pudsey.</p>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>Ah you are a coaxing Baggage.</p>
+     <stage>(Kisses her.</stage>
+     <p>Well, Good by Figgey.</p>
+    </sp>
+    <stage>(Exit.</stage>
+    <sp who="#lady_pisalto">
+     <speaker>Lady.</speaker>
+     <p>Good by Pudsey—with all my Heart.</p>
+     <stage>
+      <hi>Enter</hi> Inis.</stage>
+     <p>He is gone Girl most fortunately.</p>
+    </sp>
+    <sp who="#inis">
+     <speaker>Inis.</speaker>
+     <p>I overheard all, and wish you Joy of this lucky Opportunity,—Come, come, Madam, away to your Chamber, 'tis near the Time,—and there contemplate on your coming Joy; whilst I, your Harbinger of Bliss, wait to conduct the Man that is to crown your Happiness.</p>
+    </sp>
+    <sp who="#lady_pisalto">
+     <speaker>Lady.</speaker>
+     <p>I fly, I fly Girl.</p>
+    </sp>
+    <stage>(Exeunt severally.</stage>
+   </div>
+   <div type="scene">
+    <head>
+     <stage>SCENE <hi>changes, and discovers Lady</hi> Pisalto <hi>leaning on a Couch.</hi>
+     </stage>
+    </head>
+    <sp who="#lady_pisalto">
+     <speaker>Lady.</speaker>
+     <p>Bless me, what Noise was that!—My Heart akes horridly lest this old Cuff shou'd return and prevent my charming Priest.</p>
+    </sp>
+    <stage>
+     <hi>Enter</hi> Inis, <hi>leading in Don</hi> Pisalto <hi>in a Priest's Habit.</hi>
+    </stage>
+    <sp who="#inis">
+     <speaker>Inis.</speaker>
+     <p>Fear nothing, Father, strait forward is your Way to Happiness.</p>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>A Happiness, I fear, will bode somebody no Good. Hist, hist, Daughter! Where are you?</p>
+    </sp>
+    <stage>
+     <hi>(Exit</hi> Inis.</stage>
+    <sp who="#lady_pisalto">
+     <pb n="12" facs="20"/>
+     <speaker>Lady.</speaker>
+     <p>Ha! He's come,—here, here, my too charming Father, can you forgive a Woman's Weakness—</p>
+     <stage>(groping about.</stage>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>Common Frailties of Flesh and Blood, <stage>(groping about)</stage> if thou hast pray'd against it, thou hast done thy Part, and we are bound to comfort those that faint.</p>
+    </sp>
+    <sp who="#lady_pisalto">
+     <speaker>Lady.</speaker>
+     <p>Oh, I have often pray'd, Father, but to no Purpose; you are the only Object of my Wishes, I blush, tho' in the Dark, to own how much I love you.—</p>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>Come to my Arms, and hide those Blushes in my Bosom. <stage>(they meet and embrace)</stage> Is your Husband safe▪</p>
+    </sp>
+    <sp who="#lady_pisalto">
+     <speaker>Lady.</speaker>
+     <p>Safe enough, tho' long he will not stay, Fortune smil'd upon my Wishes, and call'd him luckily abroad.—</p>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>Then let us improve the little Time we have; thus let me cool the raging Feaver in your Blood.</p>
+    </sp>
+    <stage>(Catches hold of her Arm, and pulls out a Ropes End and beats her soundly, she roars out all the while.</stage>
+    <sp who="#lady_pisalto">
+     <speaker>Lady.</speaker>
+     <p>Oh! What do you mean, to murder me? Inhumane Monster! Oh! Murder, Murder, Murder,—oh, oh, oh,</p>
+    </sp>
+    <stage>(fails on the Couch.</stage>
+    <stage>
+     <hi>Enter</hi> Inis.</stage>
+    <sp who="#inis">
+     <speaker>Inis.</speaker>
+     <p>Bless me! What's the Matter, Madam?</p>
+    </sp>
+    <stage>
+     <hi>(Don</hi> Pisalto <hi>turns and beats her.</hi>
+    </stage>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>Only administring a little Penance, Mistress; it won't be amiss to bestow a little Charity upon you too.</p>
+    </sp>
+    <sp who="#inis">
+     <pb n="13" facs="21"/>
+     <speaker>Inis.</speaker>
+     <p>The Devil take you, and your Penance too, you old sanctify'd Dog you: Thieves, Thieves; I'll have you equip'd for the Opera, Sarrah, I will so: A Light there a Light, here's Thieves in the House—Oh, oh, Murder, Thieves,—my Lady's murder'd.—</p>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>I must not stay for a Light, least they discover who I am:—One farewel Stroke—And now remember your Benefactor, Mistress Bawd.</p>
+    </sp>
+    <stage>(Exit.</stage>
+    <sp who="#inis">
+     <speaker>Inis.</speaker>
+     <p>Yess, I shall remember with a Vengeance.</p>
+    </sp>
+    <stage>
+     <hi>Enter</hi> Teague <hi>with a Candle.</hi>
+    </stage>
+    <sp who="#teague">
+     <speaker>Tea.</speaker>
+     <p>Arra by my Shoul what is de Matter now? Is de House haunted? Has de great Devil and de little Devil put de Fright upon you both together now?</p>
+    </sp>
+    <sp who="#lady_pisalto">
+     <speaker>Lady.</speaker>
+     <p>Begon impertinent Fool.</p>
+    </sp>
+    <sp who="#teague">
+     <speaker>Tea.</speaker>
+     <p>Fool! Pon my Shoul <hi>Irishman</hi> are no Fools;—By St. <hi>Patrick,</hi> we make Fools of de very great many <hi>English,</hi> yes Faith and of de <hi>Spaniards</hi> too.</p>
+    </sp>
+    <sp who="#inis">
+     <speaker>Inis.</speaker>
+     <p>Get out Sirrah, or I'll fling the Candle at your Head.</p>
+    </sp>
+    <sp who="#teague">
+     <speaker>Tea.</speaker>
+     <p>Arra, Pox take your ugly Face, and him that wou'd put a Kiss upon't, for <hi>Teague.</hi>
+     </p>
+    </sp>
+    <stage>(Exit.</stage>
+    <sp who="#lady_pisalto">
+     <speaker>Lady.</speaker>
+     <p>Oh, I am kill'd <hi>Inis!</hi> This cursed Priest has kill'd me.</p>
+    </sp>
+    <sp who="#inis">
+     <speaker>Inis.</speaker>
+     <p>Was there ever such a Monster? I dare swear I am black from Head to Foot, he laid on most unmercifully:—Well my Mind
+<pb n="14" facs="22"/>
+misgives me, this Priest is no Man, this feels like an occasional Correction.</p>
+    </sp>
+    <sp who="#lady_pisalto">
+     <speaker>Lady.</speaker>
+     <p>Occasional, do you call it? I'm sure he has given me occasion to remember it this Twelve-Month.</p>
+    </sp>
+    <stage>
+     <hi>(Don</hi> Pisalto <hi>within.</hi>
+    </stage>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>Figgup, why Figgup—where are you Child?</p>
+    </sp>
+    <sp who="#lady_pisalto">
+     <speaker>Lady.</speaker>
+     <p>Ah Heaven, my Husband's Voice—return'd so soon! What shall I say for my Indisposition?</p>
+    </sp>
+    <sp who="#inis">
+     <speaker>Inis.</speaker>
+     <p>Oh Invention! Where art thou?</p>
+     <stage>(Pauses.</stage>
+    </sp>
+    <stage>
+     <hi>Enter Don</hi> Pisalto.</stage>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>What, asleep little Figgy?</p>
+    </sp>
+    <sp who="#inis">
+     <speaker>Inis.</speaker>
+     <p>Asleep, Senior, no, no, alas my poor Lady had like to have been kill'd since you went.</p>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>Kill'd! As how? You make me tremble.</p>
+    </sp>
+    <sp who="#inis">
+     <speaker>Inis.</speaker>
+     <p>Going down Stairs, her Foot slipt, and down she tumbled from Top to Bottom, and bruiz'd her self so sadly, that she is not able to stir a Finger; it is a Mercy she was not kill'd out right.</p>
+    </sp>
+    <sp who="#lady_pisalto">
+     <speaker>Lady.</speaker>
+     <p>Excellent Wench.</p>
+     <stage>(Aside.</stage>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>Here's a pure Jade at Invention.—They say the Devil's a Lyar, but I'll be hang'd if this Wench won't out-lye the Devil.—I'm heartily sorry for this Misfortune, poor dear Figgy;—but I hope thou hast not broke any Bones, my dear Figgup?</p>
+    </sp>
+    <sp who="#lady_pisalto">
+     <pb n="15" facs="23"/>
+     <speaker>Lady.</speaker>
+     <p>But I am much hurt, <hi>Pudsey.</hi>
+     </p>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>I'm sorry for't, for I have invited Father <hi>Bernardo</hi> to sup wirh us; I met him hard by here, and brought him back with me,—because I know he is a Favourite with my Figgy.</p>
+    </sp>
+    <sp who="#inis">
+     <speaker>Inis.</speaker>
+     <p>Not so great a Favorite as he was, if you knew all.</p>
+     <stage>(Aside.</stage>
+    </sp>
+    <sp who="#lady_pisalto">
+     <speaker>Lady.</speaker>
+     <p>I beg you wou'd excuse me, Pudsey, I cannot come down, besides I have no Stomach.</p>
+    </sp>
+    <sp who="#inis">
+     <speaker>Inis.</speaker>
+     <p>No! The Priest has given her and me Supper enough, more than we can digest this Twelve-month.</p>
+     <stage>(Aside.</stage>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>Well, if thou can'st not eat, there's no more to be said. Take Care of your Lady, <hi>Inis.—</hi>We'll drink thy Health little Figgup.</p>
+    </sp>
+    <stage>(Exit.</stage>
+    <sp who="#lady_pisalto">
+     <speaker>Lady.</speaker>
+     <p>My Heart rises at the Villain, if I shou'd see him, I think in my Soul I should tear his Eyes out; Oh that I cou'd be reveng'd.</p>
+    </sp>
+    <sp who="#inis">
+     <speaker>Inis.</speaker>
+     <p>Reveng'd! What Revenge cou'd you take bad enough, Madam? 'Tis impossible to find Revenge equal to the Affront; A Ropes End to a Lady that expected!—I cou'd flea him alive, so I cou'd.</p>
+     <stage>(In a Passion.</stage>
+    </sp>
+    <sp who="#lady_pisalto">
+     <speaker>Lady.</speaker>
+     <p>My Head akes greiveously.</p>
+    </sp>
+    <sp who="#inis">
+     <speaker>Inis.</speaker>
+     <p>Let me cover you up upon the Bed, Madam, a little Sleep will Settle your Head agen.</p>
+    </sp>
+    <stage>(Exit.</stage>
+   </div>
+   <div type="scene">
+    <pb n="16" facs="24"/>
+    <head>
+     <stage>SCENE <hi>changes</hi>
+     </stage>
+    </head>
+    <stage>
+     <hi>Enter Don</hi> Pisalto <hi>and Priest.</hi>
+    </stage>
+    <sp who="#father_bernardo">
+     <speaker>Bern.</speaker>
+     <p>Your Lady possest say you?</p>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>'Tis even so Father, I left her well, and sound in her Senses, I thought, about Two Hours ago; but now she raves, calls Names, Fights, and talks of being beat by every Body that comes near her.</p>
+    </sp>
+    <sp who="#father_bernardo">
+     <speaker>Bern.</speaker>
+     <p>Poor Lady, I am exceeding sorry, I'll take Care she shall be pray'd for by the whole Convent.</p>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>I wish you wou'd see her Father, perhaps your Ghostly Admonition might do her good. Men of your Holy Function have Power over unclean Spirits; pray try what you can do for her.</p>
+    </sp>
+    <sp who="#father_bernardo">
+     <speaker>Bern.</speaker>
+     <p>Withal my Heart, but I have no Holy Water about me;—nothing frights the Devil like Holy Water,—thence comes the Proverb, you know.</p>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>I can help you to some, please to walk this Way, Father.</p>
+    </sp>
+    <stage>(Exeunt.</stage>
+   </div>
+   <div type="scene">
+    <head>
+     <stage>SCENE <hi>changes, and discovers Lady</hi> Pisalto <hi>on a Couch, asleep.</hi>
+     </stage>
+    </head>
+    <stage>
+     <hi>Enter Priest, sets a Bason of Water on the Table,—Don</hi> Pisalto listning.</stage>
+    <sp who="#father_bernardo">
+     <speaker>Bern.</speaker>
+     <p>Peace be here—Ha! She sleeps:—How invitingly she lies? Why what a delicious
+<pb n="17" facs="25"/>
+Morsel has this old sapless Long every Night to snoar over.</p>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>Well said Priest;—Oh this is a Holy Man; no Wonder he's the Women's Favourite.—</p>
+    </sp>
+    <sp who="#father_bernardo">
+     <speaker>Bern.</speaker>
+     <p>I feel a strange Disorder on the Suddain,—my Pulse beats quick, and every Sense seems ravish'd at this Object.—Ha! We are alone,—What hinders me to make use of the Opportunity?—</p>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>Zounds, I shall be Cuckolded before my Face.</p>
+    </sp>
+    <sp who="#father_bernardo">
+     <speaker>Bern.</speaker>
+     <p>Besides, none dare to press upon our Privacy,—we have that Advantage above the Laity, I'll try; if she should prove virtuous, and resist, the Noise will pass upon her Husband, as the Effect of her Possession, for I shrewdly suspect, she is not mad indeed, and only puts it on to avoid the Embraces of that Skeleton, unfit for a Woman of her Youth and Fire.</p>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>Well, for a thorough pac'd Whoremaster, commend me to a Priest, I say.</p>
+    </sp>
+    <sp who="#father_bernardo">
+     <speaker>Bern.</speaker>
+     <p>I'll try I'm resolv'd.</p>
+    </sp>
+    <stage>(Steals softly to the Couch and kisses her.</stage>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>Very well,—Zounds, I shan't contain my self.—</p>
+    </sp>
+    <sp who="#father_bernardo">
+     <speaker>Bern.</speaker>
+     <p>Rapture! Her very Lips gives Extasie!—She sleeps very sound—once more,</p>
+    </sp>
+    <stage>(Goes to kiss her again, and she lifts up her Eyes and sees him.</stage>
+    <sp who="#lady_pisalto">
+     <speaker>Lady.</speaker>
+     <p>I dreamt! Ha! Bless me, the Monster's
+<pb n="18" facs="26"/>
+here! Oh that I could look him dead.—</p>
+    </sp>
+    <stage>
+     <hi>(Going to rise,</hi> Bernardo <hi>stops her, and kneels.</hi>
+    </stage>
+    <sp who="#father_bernardo">
+     <speaker>Bern.</speaker>
+     <p>Oh do not rise my charming Angel, let me feast my Eyes upon that lovely Face, the perfect Image of the Blest above.</p>
+    </sp>
+    <sp who="#lady_pisalto">
+     <speaker>Lady.</speaker>
+     <p>Do not insult me, thou ungrateful Traytor! Do not.</p>
+    </sp>
+    <sp who="#father_bernardo">
+     <speaker>Bern.</speaker>
+     <p>What means my Charmer? Oh forgive my rash Proceeding, and blame your Eyes, those dear bewitching Eyes, for all that I have done.</p>
+    </sp>
+    <stage>(Kisses her in Extasie.</stage>
+    <sp who="#lady_pisalto">
+     <speaker>Lady.</speaker>
+     <p>Off Monster, Devil, worse, if worse can be, than Devil, thou very Priest.—</p>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>Excellent, it works now as I wou'd have it.—</p>
+    </sp>
+    <sp who="#lady_pisalto">
+     <speaker>Lady.</speaker>
+     <p>You thought you had kill'd me, I suppose,—but you shall find, I live to tear your Eyes out, Monster.</p>
+    </sp>
+    <stage>(Flys up and pulls his Hood off, and beats him.</stage>
+    <sp who="#father_bernardo">
+     <speaker>Bern.</speaker>
+     <p>Help, Help, Help, bless me! She is really possest.</p>
+    </sp>
+    <stage>
+     <hi>Enter</hi> Inis <hi>with a Stick.</hi>
+    </stage>
+    <sp who="#inis">
+     <speaker>Iris.</speaker>
+     <p>Ha! You here agen, Old Belzebub! but I'll be even with you now, I will so.</p>
+    </sp>
+    <stage>(Lays on upon the Priest.</stage>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>Ha, ha, I shall dye with Laughing.</p>
+    </sp>
+    <sp who="#father_bernardo">
+     <speaker>Bern.</speaker>
+     <p>What do you mean Madam, pray be calm, I wou'd comfort you.</p>
+    </sp>
+    <sp who="#inis">
+     <speaker>Iris.</speaker>
+     <p>As how pray Father; I am much
+<pb n="19" facs="27"/>
+mistaken if you have any Thing that can comfort a Lady.</p>
+    </sp>
+    <sp who="#father_bernardo">
+     <speaker>Bern.</speaker>
+     <p>Oh Wickedness! Have I nothing that can comfort a Lady?</p>
+    </sp>
+    <sp who="#lady_pisalto">
+     <speaker>Lady.</speaker>
+     <p>Yes Villain, I can show your Marks of Comfort, I can so; but I'll be reveng'd on thee, I will.</p>
+    </sp>
+    <stage>(beats him.</stage>
+    <sp who="#inis">
+     <speaker>Inis.</speaker>
+     <p>Yes, and I can show 'em too; this for my Lady, this for my self.</p>
+    </sp>
+    <stage>(beats him.</stage>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>Ha, ha, O rare Figgup, O rare <hi>Inis.</hi>
+     </p>
+    </sp>
+    <sp who="#father_bernardo">
+     <speaker>Bern.</speaker>
+     <p>Bless me! By St. <hi>Anthony</hi> they are both possest, the Maid has caught her Frenzy too, <hi>in Nomine Domine.—</hi>
+     </p>
+    </sp>
+    <stage>(Runs to the Table, and catches up the Holy-Water and flings, first on one, then on the other.</stage>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>Ha, ha, O rare Priest, ha, ha.</p>
+    </sp>
+    <sp who="#lady_pisalto">
+     <speaker>Lady.</speaker>
+     <p>I'll <hi>Nomine Domine</hi> you, you had better have hang'd your self in your Rope's End, than have used it about me, I'll make it a dear beating to you, Sirrah.</p>
+    </sp>
+    <sp who="#father_bernardo">
+     <speaker>Bern.</speaker>
+     <p>Oh <hi>Maria Mater ora pro nobis.</hi>
+     </p>
+    </sp>
+    <stage>(Flings Water still.</stage>
+    <sp who="#lady_pisalto">
+     <speaker>Lady.</speaker>
+     <p>Ah! He'll drown me.—</p>
+    </sp>
+    <sp who="#father_bernardo">
+     <speaker>Bern.</speaker>
+     <p>Avant Sathan, I conjure thee, by St. <hi>Anthony,</hi> St. <hi>Bridget,</hi> and our Lady of <hi>Loretta.</hi>
+     </p>
+    </sp>
+    <stage>(flings Water.</stage>
+    <sp who="#inis">
+     <speaker>Inis.</speaker>
+     <stage>(Strikes down the Bason and breaks it.)</stage>
+     <p>—What, hoa, A Rape, A Rape, I'll cant you, I'll have you hang'd;—I'll shew the World the Jewel they doat on: I saw you when you
+<pb n="20" facs="28"/>
+wou'd have ravish'd my Lady,—thou Monster of Iniquity.</p>
+    </sp>
+    <sp who="#father_bernardo">
+     <speaker>Bern.</speaker>
+     <p>Mercy on me, the Devil is very strong in them both.</p>
+    </sp>
+    <stage>
+     <hi>Enter Don</hi> Pisalto.</stage>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>Ha, ha, I must release the Priest, or they'll murder him between them.—Oh the Rage of a disappointed Woman.—What's the Matter here? Pray Father withdraw, I am heartily sorry for your ill Treatment, it is their height of Frenzy you see Father; I'll wait upon you in the next Room immediately, you can do them no Good I see, Father.</p>
+    </sp>
+    <sp who="#father_bernardo">
+     <speaker>Bern.</speaker>
+     <p>Alas Senior, they are so strongly possest that no one Man can deal with them both.</p>
+    </sp>
+    <stage>(Exit.</stage>
+    <sp who="#inis">
+     <speaker>Inis.</speaker>
+     <p>Will you let him go Senior, why he wou'd have ravish'd my Lady, if I had not cry'd out.</p>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>No Mistress, you cry'd out because he had not ravish'd your Lady.—Go troop Mistress, I ll reckon with you within. <stage>
+       <hi>(Exit</hi> Inis.</stage> And now Madam for you.—Do you know this Letter?</p>
+    </sp>
+    <sp who="#lady_pisalto">
+     <speaker>Lady.</speaker>
+     <p>Ha! My Letter to Father <hi>Bernardo!</hi> the Villain has betray'd me!—and I'm undone!</p>
+     <stage>(Aside.</stage>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>Why don't you answer me? What, are you dumb? Then I must fetch you to your Speech with this.</p>
+    </sp>
+    <stage>(pulls out a Dagger.</stage>
+    <sp who="#lady_pisalto">
+     <pb n="21" facs="29"/>
+     <speaker>Lady.</speaker>
+     <p>Ah! Defend me Heaven. <stage>(falls on her Knees.)</stage> But why name I Heaven;—I have offended that in wronging you, tho' but in Thought;—Oh forgive me, have Pity on my Youth, and let me live, punish me as severely as you please, let even him who has betray'd me, name my Penance, and then I'm sure it will be harsh enough, what e'er it be, I will perform it most religiously.</p>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>I melt,—the cunning Baggage knows her Power.—</p>
+    </sp>
+    <sp who="#lady_pisalto">
+     <speaker>Lady.</speaker>
+     <p>Oh! Do Pudsey do, won't you forgive your nown Figgup, can you pierce this Bosom you have kiss'd so often, and see your Figgeys Blood run trickling down?—</p>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>I am conquer'd, I can hold no longer.—Rise Figgup, for this Time I will forgive thee; but on Condition you ne'er see your Ghostly Father more, no more Harrangues in Praise of his Sanctity, and Holyness of Life; Do you hear, Figgey?</p>
+    </sp>
+    <sp who="#lady_pisalto">
+     <speaker>Lady.</speaker>
+     <p>No never indeed, Pudsey.</p>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <p>Take heed, for if again I catch you faulty, look to it, expect no Pardon.</p>
+    </sp>
+    <sp who="#lady_pisalto">
+     <speaker>Lady.</speaker>
+     <l>No, when I am, may I your Pardon miss,</l>
+     <l>Since you so generously forgive me this.</l>
+    </sp>
+    <sp who="#don_pisalto">
+     <speaker>Don Pis.</speaker>
+     <l>When Wives like mine gives Inclination Scope,</l>
+     <l>No Cure for Cuckoldom like Oyl of Rope.</l>
+    </sp>
+   </div>
+   <trailer>FINIS.</trailer>
+  </body>
+ </text>
+</TEI>
