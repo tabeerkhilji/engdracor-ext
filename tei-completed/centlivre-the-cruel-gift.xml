@@ -1,0 +1,4532 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">The cruel gift</title>
+    <title type="sub">a tragedy. As it is acted at the Theatre Royal in Drury-Lane, by His Majesty's servants. By Mrs. Cent Livre.</title>
+    <author>
+     <persName>
+      <surname>Centlivre</surname>
+      <forename>Susanna</forename>
+      <idno type="VIAF">41874559</idno>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>The cruel gift: a tragedy. As it is acted at the Theatre Royal in Drury-Lane, by His Majesty's servants. By Mrs. Cent Livre.</name>
+     <author>Centlivre, Susanna, 1667?-1723.</author>
+     <publisher>printed for E. Curl, and A. Bettesworth,</publisher>
+     <date>1717.</date>
+     <pubPlace>London :</pubPlace>
+     <note>Reproduction of original from the British Library.</note>
+     <note>English Short Title Catalog, ESTCT34448.</note>
+     <note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note>
+    </bibl>
+    <biblFull n="printed source">
+     <publicationStmt>
+      <authority ref="#JJ">Jan Jokisch</authority>
+      <date>2024 December</date>
+      <idno type="ECCO_Drama">K036683.000</idno>
+      <idno type="DLPS">004802884</idno>
+      <idno type="ESTC">T34448</idno>
+      <idno type="DocNo">CW110157923</idno>
+      <idno type="TCP">K036683.000</idno>
+      <idno type="GaleDocNo">CW3310157923</idno>
+      <idno type="ContentSet">ECLL</idno>
+      <idno type="ImageSetID">0072803100</idno>
+      <availability>
+       <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+      </availability>
+     </publicationStmt>
+    </biblFull>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="king_of_lombardy">
+      <persName>King of Lombardy</persName>
+      <sex value="MALE"/>
+     </person>
+     <person xml:id="duke_of_milan">
+      <persName>Duke of Milan</persName>
+      <sex value="MALE"/>
+     </person>
+     <person xml:id="lorenzo">
+      <persName>Lorenzo</persName>
+      <sex value="MALE"/>
+     </person>
+     <person xml:id="cardono">
+      <persName>Cardono</persName>
+      <sex value="MALE"/>
+     </person>
+     <person xml:id="learchus">
+      <persName>Learchus</persName>
+      <sex value="MALE"/>
+     </person>
+     <person xml:id="cardono">
+      <persName>Cardono</persName>
+      <sex value="MALE"/>
+     </person>
+     <person xml:id="agonistus">
+      <persName>Agonistus</persName>
+      <sex value="MALE"/>
+     </person>
+     
+     
+     
+     
+     
+     
+     
+     <person xml:id="antimora">
+      <persName>Antimora</persName>
+      <sex value="FEMALE"/>
+     </person>
+     
+     <person xml:id="leonora">
+      <persName>Leonora</persName>
+      <sex value="FEMALE"/>
+     </person>
+     
+     
+    <personGrp xml:id="embassadors"><persName>Embassadors</persName><sex value="MALE"/></personGrp><person xml:id="captain"><persName>Captain</persName><sex value="MALE"/></person></listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1717">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text xml:lang="en">
+  <front>
+   <div type="frontispiece">
+    <pb facs="1"/>
+    <p>
+     <figure>
+      <p>E. Kirkall fe.</p>
+     </figure>
+    </p>
+   </div>
+   <div type="titlepage">
+    <pb facs="2" ana="y"/>
+    <p>THE CRUEL GIFT: A TRAGEDY. As it is Acted At the THEATRE ROYAL in <hi>Drury-Lane,</hi> By His MAJESTY's Servants.</p>
+    <p>By Mrs. CENT LIVRE.</p>
+    <p>
+     <hi>LONDON,</hi> Printed for E. CURL in <hi>Fleet-street,</hi> and A. BETTESWORTH in <hi>Pater-Noster Row,</hi> 1717. Price 1 s.</p>
+   </div>
+   <div type="dedication">
+    <pb facs="3"/>
+    <head>TO EUSTACE BUDGELL, <abbr>Esq</abbr>
+    </head>
+    <opener>
+     <salute>SIR,</salute>
+    </opener>
+    <p>
+     <seg rend="decorInit">T</seg>HOSE who devote themselves to POETRY, have but one Way of paying the highest Favours; their Returns are only the Fruits of that Art which they cultivate; and they might well bewail this as a Partiality in Nature, were not the Gifts of Genius sometimes beyond those of Fortune. Men who, like your Self, can give Eternity to Names they honour, have no Reason to complain of the Muses: But such as we, who have it in our
+<pb facs="4"/>
+Wills to be grateful, and are shorten'd in the only Powers we have to shew it, feel greater Uneasiness from Obligations, than is easy to be express'd. In such a Situation, we have nothing left, but our Attempts to please; and these your superior Geniuses must look upon rather as a Homage, than a Return; the Effects of our good Wishes, rather than the Accomplishment of our Desires.</p>
+    <p>NEXT to being eminent in one's own Character, to be distinguish'd by Men of Excellence, is the happiest Praise; and as one of these is very often introductory to the other, so has it happen'd to you; the <hi>Greatest Men</hi> among us first observ'd and cherish'd your Merit, and you soon return'd the Acknowledgment, by making that Merit useful and ornamental to your Country. What a noble Testimony do your living Virtues give to the Discernment of the late Lord <hi>HALIFAX!</hi> that Great Man had the peculiar Happiness of
+<pb facs="5"/>
+making Wit and Learning not only a Qualification for his Friendship, but of Service to the Business and Management of publick Affairs. The Familiarity you have always entertain'd with the first Men of Letters, and the Applause with which you have acted, and still continue to act, in the Sphere of Business, are equally to your Honour, and have set your Character as much above Flattery, as Detraction.</p>
+    <p>FOR my Part, it has always been my Ambition to desire the good Opinion of Men of your Turn; and I never have, or shall be asham'd of publishing the Virtues of those who have been eminent in their Services for our KING, Country, and Legal Constitution; and in this View (if any Thing of mine can reach so far) would I be look'd upon by Posterity.</p>
+    <p>IN the mean Time, I cannot but congratulate my Country for breeding such gallant free Spirits, who,
+<pb facs="6"/>
+like your Self, have rose up in Opposition to the two most implacable Powers that can be let loose upon Mankind, <hi>Tyranny</hi> and <hi>Popery.</hi> It is your Praise, Sir, to have acted a most noble Part on this Account, in the <hi>Irish Senate;</hi> a Country more than once the Scene of the most dreadful Massacres, but now, by the Actions of YOU and your fellow PATRIOTS, happily recover'd from the same threat'ning (and oh! too near) impending Persecution.</p>
+    <p>SUCH publick Services as these, tho' they give Joy and Blessings to a whole Nation, yet they more nearly affect those who have a Share in your Esteem. Among the great Number that your Merit have made your Friends, I am proud to be accounted one, and to have it known to the World, I had your Permission to prefix your Name to this TRAGEDY. I shall be very negligent with the Criticks, and set my Heart at Rest on Account of the Envious,
+<pb facs="7"/>
+if it has the good Fortune in the least to please, and divert one Hour of your Retirement. It comes to you with sincere Wishes for a happy <hi>New-Year,</hi> for a long and uninterrupted Health; and that you may remain, what now you are, an Ornament to the Post you fill, and Blessing to the Nation you are happily planted in, are the hearty Wishes and Prayers of,</p>
+    <closer>
+     <salute>SIR,</salute>
+     <signed>Your most oblig'd And most obedient Humble Servant, <hi>Susanna Cent Livre.</hi>
+     </signed>
+    </closer>
+   </div>
+   <div type="prologue">
+    <pb facs="8"/>
+    <head>PROLOGUE.</head>
+    <head type="sub">
+     <stage>Spoken by Mr. WILKS.</stage>
+    </head>
+    <byline>By Mr. SEWELL.</byline>
+    <lg>
+     <l>THIS <hi>Play</hi> (I wonder how the Thing could hold!)</l>
+     <l>Is, if I reckon right, two Winters old;</l>
+     <l>It should have courted you the last hard Frost,</l>
+     <l>But you in <hi>Ice</hi> and <hi>Politicks</hi> were lost,</l>
+     <l>Two slipp'ry <hi>Things</hi>—Some know it to their Cost.</l>
+     <l>The prudent Mother, therefore, with good Reason,</l>
+     <l>Wean'd not this Child before a better Season:</l>
+     <l>Well-pleas'd she sees the Madness of the Age</l>
+     <l>Spent in an Impotent Successless Rage.</l>
+     <l>From civil Life transfer your Horrors <hi>here,</hi>
+     </l>
+     <l>And give to <hi>Tragedy</hi> its proper Sphere.</l>
+    </lg>
+    <lg>
+     <l>Our <hi>Woman</hi> says, for 'tis a <hi>Woman</hi>'s Wit,</l>
+     <l>(That <hi>single Word</hi> will gain us half the <hi>Pit</hi>)</l>
+     <l>This is her first Attempt in <hi>Tragick-Stuff;</hi>
+     </l>
+     <l>And here's <hi>Intrigue,</hi> and <hi>Plot,</hi> and <hi>Love</hi> enough.</l>
+     <l>The Devil's in it, if the <hi>Sex</hi> can't write</l>
+     <l>Those Things in which <hi>They</hi> take the most Delight:</l>
+     <l>
+      <pb facs="9"/>
+If she has touch'd these <hi>Scenes</hi> with artful Care,</l>
+     <l>Be kind, and all her smaller Failings spare.</l>
+     <l>The <hi>Ladies</hi> sure will ease a <hi>Woman</hi>'s Fears,</l>
+     <l>For common Pity's Sake, the <hi>Men</hi> for Thiers.</l>
+    </lg>
+    <lg>
+     <l>On Hopes like these her <hi>Tragedy</hi> depends,</l>
+     <l>Not on confed'rate Clubs of clapping Friends,</l>
+     <l>Dispos'd in Parties to support her Cause,</l>
+     <l>And bully you by Noise, into Applause.</l>
+     <l>If she must sue, she scorns those vulgar Arts,</l>
+     <l>But fain by nobler Means would win your <hi>Hearts;</hi>
+     </l>
+     <l>Tell you she wears her Country, in her Breast,</l>
+     <l>And is as firmly <hi>Loyal,</hi> as the <hi>best;</hi>
+     </l>
+     <l>Then bid your <hi>Hearts</hi> their kindest Pray'rs convey,</l>
+     <l>And meet your coming MONARCH on his Way;</l>
+     <l>Who, from one peaceful Journey, brings us more</l>
+     <l>Than our long List of conq'ring KINGS before;</l>
+     <l>For ne'er did <hi>Britain</hi>'s Hopes so highly Tower,</l>
+     <l>Or promise such a glorious Stretch of Power,</l>
+     <l>As on that Day, which shall to Council bring</l>
+     <l>The <hi>Bravest Senate,</hi> and the Greatest KING;</l>
+     <l>Whose rip'ning Schemes shall distant Nation's Rule,</l>
+     <l>Make <hi>Tyrants</hi> tremble, and <hi>Divans</hi> grow cool:</l>
+     <l>To <hi>Britain</hi>'s Ensigns then, as They decree,</l>
+     <l>The World shall strike by <hi>Land,</hi> as well as <hi>Seae,</hi>
+     </l>
+    </lg>
+   </div>
+   <div type="Dramatis_Personae">
+    <pb facs="10"/>
+    <castList>
+     <head>Dramatis Personae.</head>
+     <castItem>MEN.</castItem>
+     <castItem>
+      <role>KING of Lombardy</role>
+      <actor>Mr</actor>
+     </castItem>
+     <castItem>
+      <role>Duke of Milan, disguis'd like an Hermit</role>
+      <actor>Mr</actor>
+     </castItem>
+     <castItem>
+      <role>LORENZO, General of Lombardy, privately marry'd to Leonora</role>
+      <actor>Mr</actor>
+     </castItem>
+     <castItem>
+      <role>ANTENOR, Prime Minister of State, Father to Learchus</role>
+      <actor>Mr</actor>
+     </castItem>
+     <castItem>
+      <role>LEARCHUS, Keeper of the Royal Fort, in Love with Antimora</role>
+      <actor>Mr</actor>
+     </castItem>
+     <castItem>
+      <role>CARDONO, Friend to LORENZO, and his Lieutenant-General</role>
+      <actor>Mr</actor>
+     </castItem>
+     <castItem>
+      <role>AGONISTUS, Friend to LEARCHUS</role>
+      <actor>Mr</actor>
+     </castItem>
+     <castItem>WOMEN.</castItem>
+     <castItem>
+      <role>LEONORA, Princess of Lombardy</role>
+      <actor>Mrs</actor>
+     </castItem>
+     <castItem>
+      <role>ANTIMORA, in Love with LEARCHUS</role>
+      <actor>Mrs</actor>
+     </castItem>
+     <castItem>
+      <role>Embassadors, Captain, Guards, Ladies, and other Attendants</role>
+     </castItem>
+    </castList>
+   </div>
+   <set>
+    <p>SCENE, the City of VERONA in <hi>Lombardy.</hi>
+    </p>
+   </set>
+  </front>
+  <body>
+   <head>
+    <pb facs="11"/>THE CRUEL GIFT: OR, THE Royal Resentment.</head>
+   <div n="1" type="act">
+    <head>ACT I.</head>
+    <div type="scene">
+     <head>SCENE <stage>the PALACE.</stage>
+     </head>
+     <stage>Enter <hi>Antenor</hi> and <hi>Learchus.</hi>
+     </stage>
+     <sp who="#cardono">
+      <speaker>ANTENOR.</speaker>
+      <l>AWAY, 'tis all Romantick;</l>
+      <l>The lazy Virtue of some dreaming Hermit:</l>
+      <l>Far be Ambition from their homely Cells:</l>
+      <l>But what hast thou to do with ill-tim'd Honesty?</l>
+      <l>Observe me well, and treasure in thy Soul</l>
+      <l>The experienc'd Wisdom of thy Father;</l>
+      <l>Let Interest be thy bright unerring Guide,</l>
+      <l>The secret darling Purpose of thy Heart.</l>
+      <l>Believe me, Boy, she reigns Supreme below;</l>
+      <l>Honours and endless Pleasure wait around her;</l>
+      <l>When she commands, smile on the Man thou hatest,</l>
+      <l>Caress him to inevitable Ruin.</l>
+      <l>
+       <pb n="2" facs="12"/>
+From foolish Pity guard thy well-taught Mind;</l>
+      <l>To Women leave the fond Deceiver, Love;</l>
+      <l>That Bar to Glory, and to great Revenge.</l>
+      <l>Think not of Friendship, more than of a Word,</l>
+      <l>Which, once gone forth, is lost in idle Air.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Is this the Language of Paternal Love?</l>
+      <l>Forbid it, all good Men, that I should think so.</l>
+      <l>You mean to prove my Soul, and 'tis most just;</l>
+      <l>For many wear the borrow'd Mask of Goodness;</l>
+      <l>But I was made in Scorn of Artifice;</l>
+      <l>Superior Virtue is my awful Goddess,</l>
+      <l>My pleasing Motive, and my wish'd Reward.</l>
+      <l>Whether she leads me to the active Field,</l>
+      <l>Or the more dangerous Court, she guides my Life:</l>
+      <l>Fame, Honour, Wealth, when by her Hand bestow'd,</l>
+      <l>With grateful Joy submissive I'll receive them;</l>
+      <l>But offer'd by the World in Lieu of her,</l>
+      <l>With Scorn I'd throw them back, as empty Trifles,</l>
+      <l>Unworthy of an honest Man's Regard.</l>
+     </sp>
+     <sp who="#learchus">
+      <speaker>Ante.</speaker>
+      <l>Dull Moralist! hast thou no Taste of Power!</l>
+      <l>No Thirst of Glory! No ambitious Longings,</l>
+      <l>To raise thy Soul, and bear thee up to Empire?</l>
+      <l>And can'st thou let <hi>Lorenzo</hi> tower above thee?</l>
+      <l>Call to Remembrance all thy noble Ancestors,</l>
+      <l>Who all fell Victims to the Rage of his.</l>
+      <l>Consider this; then think if thou art injur'd</l>
+      <l>Enough to prompt thee to a great Revenge.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Far be the Thought of Vengeance from my Soul;</l>
+      <l>I view with equal Justice Friends and Enemies:</l>
+      <l>Pride may perhaps pronounce This, Weakness in me.</l>
+      <l>No Matter what the haughty Mind suggests;</l>
+      <l>I'd rather wear the Name of Good than Great.</l>
+     </sp>
+     <sp who="#learchus">
+      <speaker>Ante.</speaker>
+      <l>Why, this is finely said.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>For <hi>Lorenzo,</hi> since my Royal Master,</l>
+      <l>Whose great undoubted Right has Power to give,</l>
+      <l>Bestow'd on him the Honours which I wore;</l>
+      <l>Long may they slourish with him; who shall dare</l>
+      <l>Blame you in giving or resuming Favours?</l>
+      <l>Then ought we, Sir, t' impose on Majesty,</l>
+      <l>What in our selves we would not bear?</l>
+     </sp>
+     <sp who="#learchus">
+      <pb n="3" facs="13"/>
+      <speaker>Ante.</speaker>
+      <l>Go on, go on, pursue this darling Vapour,</l>
+      <l>Unthinking to what Precipice it leads;</l>
+      <l>Extol <hi>Lorenzo,</hi> dwell upon his Praise,</l>
+      <l>And help to swell the popular Applause.</l>
+      <l>Forget the Conquests that have crown'd thy Valour,</l>
+      <l>The numerous Wounds thou hast sustain'd in Battel</l>
+      <l>For this insulting, this ungrateful King!</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Wore not my Sword the Freedom of my Country?</l>
+      <l>Wounds lose their Smart in such a glorious Cause:</l>
+      <l>He who for Interest, or for base Revenge,</l>
+      <l>Should in a private Quarrel sell his Foe,</l>
+      <l>Deserves the Scorn of every good Man for't;</l>
+      <l>But he who would enslave his native Land,</l>
+      <l>Give up the reverend Rights of Law and Justice,</l>
+      <l>To the detested Lust of boundless Tyranny,</l>
+      <l>Pollute our Altars, change our holy Worship,</l>
+      <l>Deserves the Curses both of Heaven and Earth,</l>
+      <l>And, from Society of human Kind,</l>
+      <l>To be cast forth among the Beasts of Prey,</l>
+      <l>A Monster far more savage.</l>
+     </sp>
+     <sp who="#learchus">
+      <speaker>Ante.</speaker>
+      <l>Excellent!</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>For me—</l>
+      <l>I know no Glory, but my Country's Good,</l>
+      <l>Nor Anger bear 'gainst any, but her Foes;</l>
+      <l>But all her Enemies are mine; for her</l>
+      <l>I'd make this Body one entire Scar,</l>
+      <l>Ere I would see my Country made a Prey,</l>
+      <l>Or know the King, to whom I've sworn, distress'd;</l>
+      <l>And this I hold to be all brave Mens Duty.</l>
+     </sp>
+     <sp who="#learchus">
+      <speaker>Ante.</speaker>
+      <l>Matchless Stupidity!—</l>
+      <l>Art thou from me, from my strong Blood deriv'd,</l>
+      <l>And can thy ebbing Pulses beat so low,</l>
+      <l>So distant from the Vigour of my Soul?</l>
+      <l>But, Spite of Artifice, I see quite thro' thee;</l>
+      <l>Ill dost thou hide from me the hated Cause</l>
+      <l>Of this tame Suffering, this Bastard Patience.</l>
+      <l>Deaf to Ambition, foolish Love betrays thee.</l>
+      <l>
+       <hi>Lorenzo</hi>'s Sister, <hi>Antimora</hi> reigns</l>
+      <l>The pow'rful Mistress o'er thy Heart and Fame;</l>
+      <l>Thy easy Mind, fond of the slavish Yoke,</l>
+      <l>
+       <pb n="4" facs="14"/>
+Forgets her haughty Brother soars above thee.</l>
+      <l>I bad thee lift thine Eyes to <hi>Leonora,</hi>
+      </l>
+      <l>The beauteous Hope of this fair Kingdom.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Yes, that guilty Thought of yours undid me.</l>
+      <l>Oh! was it not, that finding your Ambition,</l>
+      <l>The angry King, to scatter all your Hopes,</l>
+      <l>Ruin'd guiltless me?</l>
+     </sp>
+     <sp who="#learchus">
+      <speaker>Ante.</speaker>
+      <l>Well, I remember his ungrateful Rage,</l>
+      <l>Remember it with just Indignation;</l>
+      <l>And thou as soon might'st think to reconcile</l>
+      <l>Th' eternal Quarrel between Death and Nature,</l>
+      <l>As quench my eager Thirst of Vengeance.</l>
+      <l>Yet I dissembled well my Injuries,</l>
+      <l>And sooth'd the fiery King with so much Art,</l>
+      <l>The bold Proposal was mistook for Zeal,</l>
+      <l>To keep the beauteous <hi>Leonora</hi> with us.</l>
+      <l>'Twas thus the Monarch's Favour I regain'd,</l>
+      <l>His wanting this experienc'd Head for Council.</l>
+      <l>When that old Sophister <hi>Alcanor</hi> dy'd,</l>
+      <l>I rose again prime Minister of State;</l>
+      <l>And now have in my View a brave Design,</l>
+      <l>Of which thou art unworthy to partake.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>My Want of Merit is my Pride in this;</l>
+      <l>For where Revenge and Fraud are of the Party,</l>
+      <l>I would not be admitted—</l>
+     </sp>
+     <sp who="#learchus">
+      <speaker>Ante.</speaker>
+      <l>You wou'd not, Sir—</l>
+      <l>But tho' Crowns and Pow'r want Charms to move thee,</l>
+      <l>And Injury seems to have lost her pointed Sting;</l>
+      <l>When thou shalt know that <hi>Antimora</hi>'s given,</l>
+      <l>A Pledge of Friendship, from her Brother's Hand,</l>
+      <l>To his dear Fav'rite and Fellow-Warrior,</l>
+      <l>I know thy Spirits will be all awake.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Ha!</l>
+     </sp>
+     <sp who="#learchus">
+      <speaker>Ante.</speaker>
+      <l>Yes, that dang'rous Maid, who has misled thee,</l>
+      <l>For whom all filial Duty is forgot,</l>
+      <l>All Wrongs forgiven, all Ambition quench'd,</l>
+      <l>Must be <hi>Cardono</hi>'s Wife—</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>I know <hi>Lorenzo</hi> loves the Man you mention;</l>
+      <l>But that he is to wed fair <hi>Antimora,</hi>
+      </l>
+      <l>Is all a Dream, work'd up by waking Malice.</l>
+      <l>The Souls of Martyrs, mounting from the Flame,</l>
+      <l>
+       <pb n="5" facs="15"/>
+Are not more brightly spotless, than her Faith;</l>
+      <l>But you have Leave to say whate'er you please,</l>
+      <l>And I, unruffl'd, will with Calmness hear you.</l>
+     </sp>
+     <sp who="#learchus">
+      <speaker>Ante.</speaker>
+      <l>Go on, young Stoick, bless these Pair of Friends;</l>
+      <l>Go, bend thy Knee to this young Fav'rite low;</l>
+      <l>Resign thy Mistress to the other's Arms,</l>
+      <l>And be renown'd for Patience!</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>When I do that, let Infamy and Shame</l>
+      <l>Pursue and blot the Name of Soldier from me.</l>
+      <l>Give up my Mistress, quit the Maid I love!</l>
+      <l>As soon I would give up my Post in War,</l>
+      <l>Resign the Soul which animates this Frame,</l>
+      <l>And to that latest Nothing be reduc'd,</l>
+      <l>Where Love and Glory cease—But oh! I rave;</l>
+      <l>Her Brother's Pow'r, no, not the King's Command,</l>
+      <l>Can shock her Faith—</l>
+     </sp>
+     <sp who="#learchus">
+      <speaker>Ante.</speaker>
+      <l>Build not thy Hopes upon a Woman's Faith,</l>
+      <l>But join with me, and greatly be reveng'd.</l>
+      <l>I have the Means, <hi>Lorenzo</hi>'s in my Snare;</l>
+      <l>Deep as the Grave I've trac'd his erring Steps,</l>
+      <l>And seen him safe within the Toils of Fate;</l>
+      <l>Once more I warn thee to throw off thy Love;</l>
+      <l>Wake from this idle Amorous Lethargy,</l>
+      <l>And shun that falling House, like Loss of Honour;</l>
+      <l>Exert thy Soul, and aid my great Design,</l>
+      <l>Or from this Moment thou'rt no more my Son. <stage>[Ex.</stage>
+      </l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Wou'd I indeed were not, unhappy Thought. <stage>[Enter <hi>Agonistus.</hi>]</stage>
+      </l>
+      <l>My <hi>Agonistus</hi>—</l>
+      <l>Oh! much I wanted thee, and thou art come</l>
+      <l>Even to share Misfortunes with thy Friend.</l>
+      <l>Thou kind, thou best Companion of my Youth;</l>
+      <l>Thou Partner in my Dangers, well I know thee.</l>
+      <l>Should Father, King, and ev'ry Star frown on me,</l>
+      <l>Thou would'st not forsake me.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>Ag.</speaker>
+      <l>Much sooner shall this fertile Kingdom change</l>
+      <l>Her happy pregnant Soil for sterile Sand,</l>
+      <l>Than I sorsake my Friend—Come, be not sad,</l>
+      <l>Thou wilt again regain thy Master's Favour.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Thou know'st me not—</l>
+      <l>Il' thou dost think I in the least regard</l>
+      <l>
+       <pb n="6" facs="16"/>
+Whom Fortune mounts upon her giddy Wheel,</l>
+      <l>Or o'er what Fav'rite she insulting drives:</l>
+      <l>A softer Care does all my Thoughts employ;</l>
+      <l>Love, <hi>Agonistus,</hi> is the fatal Source</l>
+      <l>From whence my Sorrows spring.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>Ag.</speaker>
+      <l>I've guess'd it long,</l>
+      <l>But knew not to what Fair your Vows were paid.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Now I will tell thee all th' important Story,</l>
+      <l>And ease my burthen'd Heart of half its Load.</l>
+      <l>Thou art well acquainted with that ancient Hate</l>
+      <l>Between <hi>Lorenzo</hi>'s Family and mine,</l>
+      <l>And must remember to have heard at least</l>
+      <l>His Grand-father, when over-power'd by Faction,</l>
+      <l>From Court exil'd, pass'd many Years in <hi>Venice;</hi>
+      </l>
+      <l>During which Time his Son, the Lord <hi>Alcanor,</hi>
+      </l>
+      <l>Marry'd a beautiful <hi>Venetian</hi> Lady,</l>
+      <l>And he had Issue by her this <hi>Lorenzo,</hi>
+      </l>
+      <l>And <hi>Antimora,</hi> of whom she dy'd in Child-bed.</l>
+      <l>Soon after this, his Father also dy'd.</l>
+      <l>
+       <hi>Alcanor</hi> strait employ'd his Friends, t' obtain</l>
+      <l>Leave from the King for his Return to <hi>Lombardy.</hi>
+      </l>
+      <l>The King gave Leave; he came, and liv'd obscurely,</l>
+      <l>In sullen Solitude, and haughty Privacy.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>Ag.</speaker>
+      <l>I do remember to have heard this Story.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>In a lone ancient Seat <hi>Alcanor</hi> liv'd,</l>
+      <l>Hard by a Castle which belong'd to us;</l>
+      <l>'Twas there I first beheld fair <hi>Antimora,</hi>
+      </l>
+      <l>And, gazing, catch'd and gather'd growing Love.</l>
+      <l>Bright as a <hi>Sylvan</hi> Goddess she appear'd,</l>
+      <l>And shot her beauteous Beams into my Soul.</l>
+      <l>In some Disguise I waited every Day,</l>
+      <l>'Till in one happy Ev'ning I at last</l>
+      <l>Met her as she was walking forth alone;</l>
+      <l>With trembling Awe I ventur'd to approach her,</l>
+      <l>And on my Knees I begg'd that she would hear</l>
+      <l>The truest Passion that e'er warm'd a Lover.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>Ag.</speaker>
+      <l>And she consented—</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>At first she heard with Caution, still objecting</l>
+      <l>Our Houses Hatred, and my prosp'rous Fate,</l>
+      <l>And charg'd me to suppress the growing Flame,</l>
+      <l>And fix my Choice on some more happy Maid,</l>
+      <l>
+       <pb n="7" facs="17"/>
+Whose ample Fortunes, and whose equal Merit,</l>
+      <l>Might vindicate my Love—</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>Ag.</speaker>
+      <l>Thus Minds, form'd truly great, bear up their Port.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>But still I press'd, and told the lovely Fair one</l>
+      <l>My wakeful restless Agonies of Heart,</l>
+      <l>My eager Fondness, and my growing Fears,</l>
+      <l>The Pains of Doubt, and Horror of Despair,</l>
+      <l>With every Care which racks a Lover's Breast.</l>
+      <l>At length the Ardor of my servent Vows</l>
+      <l>Drew from her snowy Bosom, unawares,</l>
+      <l>A pitying Sigh, and from her Eyes a Tear,</l>
+      <l>The rich Reward of many anxious Minutes.</l>
+      <l>At last she spoke, and bless'd me with this Promise;</l>
+      <l>If there be yet a smiling Hour behind,</l>
+      <l>That shall the Grandeur of our House restore;</l>
+      <l>You, who have lov'd me in this Ebb of Fortune,</l>
+      <l>Shall find a grateful Sense in <hi>Antimora.</hi>
+      </l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>Ag.</speaker>
+      <l>She is indeed a Miracle of Goodness.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>She gave me Leave to see her every Day;</l>
+      <l>But soon, alas! my Father's waking Jealousy</l>
+      <l>Discover'd where my constant Vows were paid,</l>
+      <l>And urg'd the King I might be sent Abroad.</l>
+      <l>The <hi>Turkish</hi> War concluded just before,</l>
+      <l>And <hi>Lombardy</hi> was by this Arm in Peace;</l>
+      <l>And 'cause no warlike Expedition offer'd,</l>
+      <l>I bore a peaceful Embassy to <hi>Rome.</hi>
+      </l>
+      <l>Before I went, I saw the lovely Maid,</l>
+      <l>And told her all the Cunning of my Father,</l>
+      <l>With all the Trouble of my Soul at Parting.</l>
+      <l>She bid me go, and said it was my Duty</l>
+      <l>To serve my King in Peace, as well as War;</l>
+      <l>Then breath'd a Sigh, and promis'd to be faithful.</l>
+      <l>'Twas thus we parted. Soon after I was gone,</l>
+      <l>Oh, <hi>Agonistus!</hi> fain I would forget it,</l>
+      <l>My Father all our Letters intercepted;</l>
+      <l>And, blinded with the daz'ling Lustre of a Throne,</l>
+      <l>Rais'd his ambitious Thoughts to <hi>Leonora,</hi>
+      </l>
+      <l>And dar'd to ask her for my Services.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>Ag.</speaker>
+      <l>Unlucky Thought!</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Oh! most abhorr'd Ambition!</l>
+      <l>
+       <pb n="8" facs="18"/>
+For this my Father was displac'd from Court,</l>
+      <l>And Lord <hi>Alcanor</hi> grew again in Favour.</l>
+      <l>The <hi>Tuscan</hi> War about that Time broke out,</l>
+      <l>When this <hi>Lorenzo,</hi> this young Rival-Warrior,</l>
+      <l>Had first the Honour to command our Forces;</l>
+      <l>He rose in Favour, whilst I set in Shame.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>Ag.</speaker>
+      <l>Swiftly he rose, as if the Goddess <hi>Fortune</hi>
+      </l>
+      <l>Became enamour'd with his many Graces;</l>
+      <l>No sooner seen, but all her Smiles were on him.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>For this I was recall'd, disgrac'd, upbraided, ruin'd,</l>
+      <l>And banish'd from the Sight of <hi>Antimora;</hi>
+      </l>
+      <l>Beneath her Window, wet with baleful Dew,</l>
+      <l>All Night I lay, and told each Star my Grief.</l>
+      <l>She prais'd my Change, confess'd the Prince's Charms,</l>
+      <l>And all Access deny'd to wretched me;</l>
+      <l>'Till Love, long tortur'd on the Rack of Grief,</l>
+      <l>Convinc'd her of my much-wrong'd Innocence;</l>
+      <l>She smil'd, and bid me hope a better Day;</l>
+      <l>But oh! what Day can I expect to see,</l>
+      <l>If what my Father told me now be true?</l>
+      <l>
+       <hi>Cardono</hi> weds the beauteous <hi>Antimora;</hi>
+      </l>
+      <l>But haste, my Friend, tell her <hi>Learchus</hi> dies,</l>
+      <l>When e'er she makes that hated Rival happy.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>Ag.</speaker>
+      <l>I fly; but see the Friends appear.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Ha! how quick my Spirits move; I'm all on Fire;</l>
+      <l>What head-strong Rage does Jealousy inspire?</l>
+      <l>This is the Court, safe from unhallow'd Strife;</l>
+      <l>When next we meet, guard well that hated Life;</l>
+      <l>Thou shalt dispute my <hi>Antimora</hi>'s Charms,</l>
+      <l>And through this Breast make Passage to her Arms. <stage>[Ex.</stage>
+      </l>
+     </sp>
+     <stage>Enter <hi>Lorenzo</hi> and <hi>Cardono.</hi>
+     </stage>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>Was that <hi>Learchus</hi> parted hence?</l>
+     </sp>
+     <sp who="#cardono">
+      <speaker>Card.</speaker>
+      <l>It was.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>They say his Mind is rich in ev'ry Virtue;</l>
+      <l>A Stranger to his Father's canker'd Malice,</l>
+      <l>And of a friendly Nature; yet I know not,</l>
+      <l>
+       <pb n="9" facs="19"/>
+Something there is that whispers to my Soul,</l>
+      <l>Beware that Race.</l>
+     </sp>
+     <sp who="#cardono">
+      <speaker>Card.</speaker>
+      <l>Oh, most Prophetick Thought!</l>
+      <l>Teach <hi>Antimora</hi> to beware it too;</l>
+      <l>Forgive my Fears; Lovers have watchful Eyes;</l>
+      <l>Or I mistake, or he is much too happy.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>The Error of thy Fondness, nothing more;</l>
+      <l>She is the Daughter of Antipathy,</l>
+      <l>Nurs'd up in Hate to that invet'rate House,</l>
+      <l>And, like my self, unalterable.</l>
+     </sp>
+     <sp who="#cardono">
+      <speaker>Card.</speaker>
+      <l>Fain, oh! very fain, would I believe thee;</l>
+      <l>My Hopes are center'd in that blooming Maid,</l>
+      <l>And Life, without her, is not worth my Care:</l>
+      <l>Yet when I speak of my excessive Passion,</l>
+      <l>To me she seems more cold than Mountain-Snow,</l>
+      <l>And hears with Unconcern what e'er I say;</l>
+      <l>But if, by Chance, some one <hi>Learchus</hi> name,</l>
+      <l>A conscious Blush o'er-spreads her Face, and strait</l>
+      <l>She turns away, to hide the rising Joy.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>Sure, my Friend, thou dost mistake her Looks;</l>
+      <l>That bold Aspirer, most abhorr'd <hi>Antenor,</hi>
+      </l>
+      <l>Once dar'd to ask the Princess for his Son:</l>
+      <l>Oh! were it but for that presumptuous Guilt,</l>
+      <l>I'd sooner wed my Sister to Dishonour,</l>
+      <l>To Misery, or Death, than to <hi>Learchus.</hi>
+      </l>
+      <l>But see! she comes! as I appointed her;</l>
+      <l>I mean by gentle Means to aid thy Suit.</l>
+     </sp>
+     <sp who="#cardono">
+      <speaker>Card.</speaker>
+      <l>The Powers above assist thee.</l>
+     </sp>
+     <stage>Enter <hi>Antimora.</hi>
+     </stage>
+     <sp who="#cardono">
+      <speaker>Ant.</speaker>
+      <l>
+       <hi>Cardono</hi> with him! Oh! my boading Heart. <stage>[aside</stage>
+      </l>
+     </sp>
+     <sp who="#cardono">
+      <speaker>Card.</speaker>
+      <l>Who can describe the Lovers painful Pleasure</l>
+      <l>At the Approach of his enchanting Fair?</l>
+     </sp>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <l>I come to know my dearest Brother's Will.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>Come nearer, Sister; why dost tremble so?</l>
+      <l>Hast thou a Cause for Fear, my <hi>Antimora?</hi>
+      </l>
+     </sp>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <l>I hope I need not fear my gentle Brother;</l>
+      <l>Whilst you are safe from Wars destructive Rage,</l>
+      <l>And bless me with your Smiles, I have no Fear.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <pb n="10" facs="20"/>
+      <speaker>Lor.</speaker>
+      <l>Am I then dear to thee? tell me my Sister.</l>
+     </sp>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <l>Dear as my Life, my Virtue, or my Fame;</l>
+      <l>You are the fondest, truest, best of Brothers.</l>
+      <l>Tender and careful as a Guardian Angel:</l>
+      <l>Since gracious Heaven took my Father from me,</l>
+      <l>Thy kind Indulgence has supply'd his Care;</l>
+      <l>That Providence may crown thy Hopes and Wishes,</l>
+      <l>Is, each returning Morn, my first Request.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>If thou would'st have me credit these fond Accents,</l>
+      <l>Which more, if possible, endear thee to me,</l>
+      <l>Look on <hi>Cardono</hi>—on this suffring Youth,</l>
+      <l>Who treasures all his future Hopes in thee;</l>
+      <l>Pity his Sorrows, and prevent his Fate;</l>
+      <l>And if no other Merit reach thy Knowledge,</l>
+      <l>Remember that he is my Friend.</l>
+     </sp>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <l>That speaks him of a noble Nature, Sir,</l>
+      <l>And I shall still regard him with Esteem.</l>
+     </sp>
+     <sp who="#cardono">
+      <speaker>Card.</speaker>
+      <l>Too weak a Cordial to my fainting Heart,</l>
+      <l>That sickens with Despair. <stage>[aside.</stage>
+      </l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>Esteem! Think, I prithee, what I owe him,</l>
+      <l>And help me to discharge the mighty Debt;</l>
+      <l>Oft in the Field he has my Life preserv'd,</l>
+      <l>When warm'd with Slaughter, I have rush'd too far,</l>
+      <l>And plung'd my self amongst my thickest Foes,</l>
+      <l>Hem'd round with Death; and yet he broke thro' all,</l>
+      <l>Resolv'd to rescue, or to perish with me.</l>
+     </sp>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <l>Superior Virtue cannot miss Reward.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>Thou must reward him, Sister; yes, thou must,</l>
+      <l>If I have any Interest in thy Breast;</l>
+      <l>If I have well obey'd our Father's Charge,</l>
+      <l>And been a Father to thee; or, if thou</l>
+      <l>Hast not forgot his dying last Command,</l>
+      <l>Never to wed without my Approbation,</l>
+      <l>Then, if thoud'st know me happy, make him so.</l>
+     </sp>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <l>Forbear, thou kind Protector of my Youth,</l>
+      <l>Forbear to wound thy <hi>Antimora</hi> thus;</l>
+      <l>Nor vainly ask what I can never grant.</l>
+      <l>There was a Time you would have sought my Peace;</l>
+      <l>Give me not Cause to think you love me less.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>Thou'rt dearer to me than the Smiles of Kings,</l>
+      <l>My Hopes of Glory, or immortal Fame;</l>
+      <l>
+       <pb n="11" facs="21"/>
+And therefore 'tis that I would place thee here,</l>
+      <l>Safe in the Arms of this deserving Man,</l>
+      <l>Who merits, and who fondly loves thee.</l>
+     </sp>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <l>Think you, my Lord <hi>Cardono,</hi> this the Way?</l>
+      <l>Use you Authority to gain your Wishes?</l>
+      <l>Power may dispose of Life; but rest assur'd</l>
+      <l>A gen'rous Mind can never be compell'd.</l>
+     </sp>
+     <sp who="#cardono">
+      <speaker>Card.</speaker>
+      <l>Alas! my Friend, your Kindness has undone me.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>Take heed, my Sister, how you wake mine Anger,</l>
+      <l>Which will, like Light'ning, blast thy unwary Soul:</l>
+      <l>Is there a Form thy erring Choice prefers,</l>
+      <l>To this brave Man? My Rage will find him out,</l>
+      <l>And hurl a swift Destruction on his Head:</l>
+      <l>Nay, do not weep, Tears will avail thee nothing;</l>
+      <l>Can it be possible thou shouldst forget</l>
+      <l>From whence thou art, and listen to <hi>Learchus,</hi>
+      </l>
+      <l>The Son of that vile Parricide <hi>Antenor?</hi>
+      </l>
+      <l>Detested Thought!</l>
+     </sp>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <l>Oh wretched <hi>Antimora!</hi>
+      </l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>Ha! dar'st thou to sigh for him, degen'rate Wretch!</l>
+      <l>Then hear me, Madam, and observe me well;</l>
+      <l>Teach thy fond Heart t'accept the proffer'd Good,</l>
+      <l>Or from thy Disobedience date long Woe;</l>
+      <l>Affection shall give Place to vow'd Severity;</l>
+      <l>Unseen, unnam'd, unpity'd, shalt thou live,</l>
+      <l>And waste the tedious Hours in vain Remorse;</l>
+      <l>Nor will I ever hold Discourse with thee,</l>
+      <l>But to upbraid thy Weakness.</l>
+     </sp>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <l>Oh! my Brother! my only Friend on Earth! <stage>[kneels.</stage>
+      </l>
+      <l>Recal those Words, those dreadful hasty Words,</l>
+      <l>And rather kill me any other Way.</l>
+     </sp>
+     <sp who="#cardono">
+      <speaker>Card.</speaker>
+      <l>Oh! hold <hi>Lorenzo,</hi> I can bear no more. <stage>[raises her.</stage>
+      </l>
+      <l>Jealousy, Disappointments, and Despair,</l>
+      <l>Are Joys to what my Heart this Moment feels;</l>
+      <l>She must have Ease, whatever comes of me.</l>
+     </sp>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <l>Where have you lost your wonted Tenderness?</l>
+      <l>Think if our dearest Father now were living,</l>
+      <l>
+       <pb n="12" facs="22"/>
+And should impose such harsh Commands on you,</l>
+      <l>Against your Inclination, charge you wed,</l>
+      <l>Or if like me you lov'd where Tyes of Duty</l>
+      <l>Make that Love a Crime, what would you do?</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>She touches me indeed—Prithee comply.</l>
+     </sp>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <l>If <hi>Antimora</hi> may have Leave to plead;</l>
+      <l>If I have yet a Place in your Esteem;</l>
+      <l>If from your Breast you have not raz'd me quite,</l>
+      <l>Give to my throbbing Heart a little Time</l>
+      <l>To weigh the many Cares which hang upon it;</l>
+      <l>And I must beg, that you, my Lord <hi>Cardono,</hi>
+      </l>
+      <l>No longer would insist upon his Power;</l>
+      <l>Urge not a Cause, that may increase Debate</l>
+      <l>Between the kindest, most united Pair</l>
+      <l>That e'er one Mother bore.</l>
+     </sp>
+     <sp who="#cardono">
+      <speaker>Card.</speaker>
+      <l>Severe Request; but I obey.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>Take thy Desire, my Sister; but remember,</l>
+      <l>That if you wou'd preserve a Brother's Love,</l>
+      <l>Let not the Woman sway thee to thy Ruin.</l>
+      <l>Go then, I say, and summon all thy Reason,</l>
+      <l>Direct the Ballance with an even Hand;</l>
+      <l>Consider, Duty, Honour, Gratitude,</l>
+      <l>Are poiz'd against that Trifle, Inclination.</l>
+      <l>Then let Impartial Judgment guide thy Choice;</l>
+      <l>Tear from thy Virgin Breast th' inglorious Passion,</l>
+      <l>If thou regard'st thy own, or Brother's Fame.</l>
+     </sp>
+     <sp who="#cardono">
+      <speaker>Car.</speaker>
+      <l>Remember my Despair, for the same Breath</l>
+      <l>Which makes him happy, gives me certain Death. <stage>[Ex. <hi>Lorenzo</hi> and <hi>Cardono.</hi>
+       </stage>
+      </l>
+     </sp>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <l>What dire malignant Planet rul'd my Fate?</l>
+      <l>Why was I born to Love where I should hate?</l>
+      <l>Where I should hate! No I should all Things Love,</l>
+      <l>Such are the Dictates of the Powers above;</l>
+      <l>Then what they teach, they surely will defend,</l>
+      <l>On their great Care shall all my Hopes depend,</l>
+      <l>To crown my Love, or give my Life an End. <stage>[Exit.</stage>
+      </l>
+     </sp>
+     <stage>Enter <hi>Antenor,</hi> and hears her last Words.</stage>
+     <sp who="#learchus">
+      <speaker>Ante.</speaker>
+      <l>Curse on thy Brother, how I hate his Sight;</l>
+      <l>Yet, like his evil Genius, I pursue him,</l>
+      <l>
+       <pb n="13" facs="23"/>
+I have alarm'd the King; that Work is o'er;</l>
+      <l>And now th' Embassadors from <hi>Tuscany,</hi>
+      </l>
+      <l>Pursuant to the Advice I sent that Duke,</l>
+      <l>Bring with them Propositions for a Marriage,</l>
+      <l>And with unweary'd Diligence attend</l>
+      <l>And watch those Steps which bring his Ruin on,</l>
+      <l>Between that Prince and <hi>Leonora.</hi>
+      </l>
+      <l>To Day they have their Audience of the King;</l>
+      <l>Methinks it suits my Purpose well:</l>
+      <l>But see, the King appears.</l>
+     </sp>
+     <stage>Enter KING.</stage>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Where art thou hid, <hi>Antenor?</hi>
+      </l>
+      <l>When most I want thee, thou dost shun me most;</l>
+      <l>I like it not.</l>
+     </sp>
+     <sp who="#cardono">
+      <speaker>Ant.</speaker>
+      <l>What would my gracious Lord?</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Thou hast convey'd a Sting into my Breast,</l>
+      <l>Which still, the more I labour to draw forth,</l>
+      <l>With double Anguish deeper points its Way.</l>
+      <l>What dost thou know, that has so greatly mov'd thee</l>
+      <l>T' instil the subtil Poyson of Distrust,</l>
+      <l>And stir my Nature up against my Child?</l>
+     </sp>
+     <sp who="#cardono">
+      <speaker>Ant.</speaker>
+      <l>If my incessant Duty, careful Fears,</l>
+      <l>Ever upon the Guard for you and Glory,</l>
+      <l>Offend my Royal Master, I am silent;</l>
+      <l>Forgive my Zeal, and I'll observe no more.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>I know Ambition is thy darling Sin,</l>
+      <l>'Bating that I do believe thee honest;</l>
+      <l>Then leave these doubling Arts, and speak thy Purpose,</l>
+      <l>Why dost thou sigh, and fold thy aged Arms,</l>
+      <l>Expressive Signs of some approaching Mischief,</l>
+      <l>Still warning me, in Whispers, as I pass,</l>
+      <l>To observe the Princess <hi>Leonora?</hi>
+      </l>
+     </sp>
+     <sp who="#cardono">
+      <speaker>Ant.</speaker>
+      <l>This I have done:</l>
+      <l>But if I am too loyal, too sincere;</l>
+      <l>If Apprehension grows too swift in me,</l>
+      <l>Give up the Charge you did intrust me with,</l>
+      <l>To some more worthy of your Confidence;</l>
+      <l>Who, when they have obey'd your strict Command,</l>
+      <l>And learnt each private Motion of your Court,</l>
+      <l>
+       <pb n="14" facs="24"/>
+May cautiously discover what will please,</l>
+      <l>And pass in Silence what you fear to know.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Tortures and Death pierce me at once, and speak</l>
+      <l>Whate'er it be, and rid my Expectation.</l>
+      <l>Some secret Plot against my Life and Crown.</l>
+      <l>Much rather had I hear of brooding Treason,</l>
+      <l>Of raging Pestilence, or blazing Cities,</l>
+      <l>Prodigious Earthquakes, universal Ruin,</l>
+      <l>Than ought which touches <hi>Leonora</hi>'s Fame.</l>
+     </sp>
+     <sp who="#cardono">
+      <speaker>Ant.</speaker>
+      <l>That I had dy'd, ere given the secret Vent;</l>
+      <l>I beg your Majesty will urge no more</l>
+      <l>This hated Subject.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Urge not my Temper! no, I charge thee do not;</l>
+      <l>Thou hast rais'd my Curiosity so high,</l>
+      <l>Or give me Ease, or Racks shall force it from thee.</l>
+     </sp>
+     <sp who="#cardono">
+      <speaker>Ant.</speaker>
+      <l>What sad Distraction tears my aged Breast?</l>
+      <l>Oh! think how much the Tale will wound you, Sir,</l>
+      <l>And let me keep the fatal Secret hid.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Speak, I command thee.</l>
+     </sp>
+     <sp who="#cardono">
+      <speaker>Ant.</speaker>
+      <l>Oh, my tortur'd Soul! the Princess loves—</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Say'st thou! ha! whom does she love?</l>
+     </sp>
+     <sp who="#cardono">
+      <speaker>Ant.</speaker>
+      <l>The fatal Secret trembles on my Tongue,</l>
+      <l>And fears to fall—<hi>Lorenzo.</hi>
+      </l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Ha! have a Care,</l>
+      <l>I shall not credit this too easily.</l>
+     </sp>
+     <sp who="#cardono">
+      <speaker>Ant.</speaker>
+      <l>Alas! great Sir, my Heart would dance with Joy,</l>
+      <l>Could I but doubt the wretched Truth I tell,</l>
+      <l>Which I shall ever mourn; but 'tis most certain</l>
+      <l>Her Heart and beauteous Person are bestow'd</l>
+      <l>On that selected Man—</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Traytor, 'tis false! I know thou hat'st <hi>Lorenzo;</hi>
+      </l>
+      <l>The ancient Quarrel 'twixt his Blood and thine</l>
+      <l>Has made a Villain of thee—</l>
+     </sp>
+     <sp who="#cardono">
+      <speaker>Ant.</speaker>
+      <l>This I fear'd! Oh! hard Return for Loyalty.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>If thou dost not prove this Accusation,</l>
+      <l>Thy Head shall answer it.</l>
+     </sp>
+     <sp who="#cardono">
+      <speaker>Ant.</speaker>
+      <l>Be it as you say.</l>
+      <l>If I discover not, near to the Bower,</l>
+      <l>A Place thro' which at Midnight he's let in;</l>
+      <l>And sure the Purpose is not hard to guess.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <pb n="15" facs="25"/>
+      <speaker>King.</speaker>
+      <l>Do this, <hi>Antenor,</hi> and my Heart is thine;</l>
+      <l>My Pulse beats high, impatient of Revenge,</l>
+      <l>And Speech grows painful, choak'd with Indignation;</l>
+      <l>Down all my wild Resentments for a while,</l>
+      <l>And let me see, and judge like Majesty.</l>
+      <l>Oh! <hi>Leonora,</hi> if thou'rt fall'n so low,</l>
+      <l>To hold thy nightly Revels with my Slave,</l>
+      <l>There's not a Rack thy Crimes can make me feel,</l>
+      <l>But I will double it upon you both:</l>
+      <l>Ling'ring, unheard of Torments you shall prove,</l>
+      <l>And curse the fatal Sweets of guilty Love. <stage>[Exeunt.</stage>
+      </l>
+     </sp>
+    </div>
+    <trailer>
+     <hi>The End of the</hi> First ACT.</trailer>
+   </div>
+   <div n="2" type="act">
+    <pb n="16" facs="26"/>
+    <head>ACT II.</head>
+    <div type="scene">
+     <head>SCENE <stage>a Room of State, the KING and <hi>Leonora</hi> seated on a Throne, attended by <hi>Antenor, Lorenzo, Learchus, Cardono, Agonistus,</hi> &amp;c.</stage>
+     </head>
+     <stage>
+      <hi>Embassadors</hi> at a Distance.</stage>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>MY Lords, I've in this Presence chose to hear</l>
+      <l>What 'tis the Duke of <hi>Tuscany</hi> demands;</l>
+      <l>Proceed, and let us know your Message.</l>
+     </sp>
+     <sp who="#embassadors">
+      <speaker>Emb.</speaker>
+      <l>Our Royal Master, much renown'd in Arms,</l>
+      <l>(Witness the many Conquests he has gain'd,</l>
+      <l>Tho' Victory of late declar'd for you)</l>
+      <l>Charg'd us to say, Success is not infur'd;</l>
+      <l>You cannot bribe the fickle Goddess; stay,</l>
+      <l>She will not long forsake his vet'ran Bands,</l>
+      <l>Choice harden'd Troops, unus'd to fly the Field:</l>
+      <l>But yet to cultivate a Friendship with you,</l>
+      <l>So firm and strict, it may to Ages last;</l>
+      <l>Yet, even now, whilst ready Warriors wait,</l>
+      <l>He offers Peace.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>On what Conditions does your Master send?</l>
+     </sp>
+     <sp who="#embassadors">
+      <speaker>Emb.</speaker>
+      <l>Conditions, Sir! he did not term 'em so,</l>
+      <l>But Supplication to your Royal Will,</l>
+      <l>That this fair Princess, beauteous <hi>Leonora,</hi>
+      </l>
+      <l>Would, with your Leave, receive him for her Husband.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <pb n="17" facs="27"/>
+      <speaker>Lor.</speaker>
+      <l>Ha!</l>
+     </sp>
+     <sp who="#embassadors">
+      <speaker>Emb.</speaker>
+      <l>And join the long disputed Lands, in Peace,</l>
+      <l>To these of <hi>Lombardy.</hi>
+      </l>
+     </sp>
+     <sp who="#cardono">
+      <speaker>Ant.</speaker>
+      <l>I see <hi>Lorenzo</hi> gathers up his Brows;</l>
+      <l>This Proposal stings him to the Soul. <stage>[Aside.</stage>
+      </l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Had he been Conqueror, thus he might have ask'd;</l>
+      <l>But tell your Duke I have not yet forgotten</l>
+      <l>His great Injustice to the Duke of <hi>Milan.</hi>
+      </l>
+      <l>He took th' Advantage of the <hi>Turkish</hi> War,</l>
+      <l>When all my Force was bent against the Infidels,</l>
+      <l>To chace my Uncle from his Dukedom forth,</l>
+      <l>And set a bold Usurper in his Stead.</l>
+      <l>These twenty Years he has an Exile been,</l>
+      <l>He, and one only Son; nor know we where,</l>
+      <l>Or to what Country, if alive, they're driven;</l>
+      <l>By which my Daughter is become the Heir</l>
+      <l>Of this my Kingdom; yet I'll not force her Will,</l>
+      <l>But leave it free; and therefore she shall answer ye.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>A thousand Blessings follow that Indulgence. <stage>[Aside.</stage>
+      </l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Since I've my Royal Father's Leave to speak,</l>
+      <l>I tell you, Sirs, that your Request is bold.</l>
+      <l>Your sinking Master, half subdu'd, demands</l>
+      <l>Our populous Kingdom to recruit his own,</l>
+      <l>And I must be the Passport to convey it.</l>
+      <l>There's more Ambition in his Eyes, than Love;</l>
+      <l>'Tis for my Dowry, not for me he sues.</l>
+      <l>Tell him I scorn his Offer, with his Crown;</l>
+      <l>And when (tho' long avert it, gracious Heaven)</l>
+      <l>This happy Kingdom shall devolve on me,</l>
+      <l>I will defend it with my utmost Strength,</l>
+      <l>To this small Tract of Earth, whereon I stand,</l>
+      <l>E'er give a Nation to a vanquish'd Foe.</l>
+      <l>He should have been the Monarch of the World;</l>
+      <l>His conqu'ring Legions drawn around our Walls;</l>
+      <l>His batt'ring Cannon playing on the Town,</l>
+      <l>And dreadsul Famine raging thro' the Streets;</l>
+      <l>Our trembling Maids and Matrons drown'd in Tears,</l>
+      <l>E'er this Way made Proposals for a Peace.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>The Musick of the Spheres dwell in her Voice,</l>
+      <l>And everlasting Love upon her Tongue. <stage>[Aside.</stage>
+      </l>
+     </sp>
+     <sp who="#embassadors">
+      <pb n="18" facs="28"/>
+      <speaker>Emb.</speaker>
+      <l>Is this the Answer we must carry back?</l>
+      <l>And does your Majesty approve this Scorn?</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>I do; so tell your Duke from me.</l>
+     </sp>
+     <sp who="#embassadors">
+      <speaker>Emb.</speaker>
+      <l>Then once again prepare for Battel, Sir;</l>
+      <l>You'll find our Master strong enough to cope ye,</l>
+      <l>And make you well repent this haughty Port.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Let him come on again, we'll vanquish him;</l>
+      <l>Go, bring your boasted Squadrons to the Field;</l>
+      <l>I've not a Man but glows with eager Courage,</l>
+      <l>To meet, and chase them o're the bloody Plain.</l>
+     </sp>
+     <sp who="#embassadors">
+      <speaker>Emb.</speaker>
+      <l>Your boasted Valour frights us not, great Sir,</l>
+      <l>But spurs us to the Field. <stage>[Ex. Embassadors.</stage>
+      </l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Now let me embrace my brave Defenders;</l>
+      <l>
+       <hi>Lorenzo,</hi> thou art welcome to my Arms;</l>
+      <l>Nature in thee has shown a Prodigy;</l>
+      <l>In War thour't fierce, in Peace the Child of Softness;</l>
+      <l>One wou'd imagine Envy's self might spare thee.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>The mighty Favours which you heap upon me,</l>
+      <l>My Royal Master, fill my Soul with Gratitude.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>But wherefore keeps <hi>Learchus</hi> from our Presence;</l>
+      <l>Is there not Room in Hearts of mighty Kings</l>
+      <l>To hold the Worth of all deserving Men?</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>I attend your Majesty.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Come near, <hi>Learchus,</hi> thou hast serv'd me well,</l>
+      <l>And tho' of late thou hast not fought my Battels,</l>
+      <l>For secret Reasons from thy Charge remov'd,</l>
+      <l>I Love thee still; and to confirm I do,</l>
+      <l>I make thee Governor of the Citadel</l>
+      <l>And Royal Fort.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>My Life shall answer for th' important Trust:</l>
+      <l>Will <hi>Antimora</hi> come? <stage>[to <hi>Agonistus.</hi>
+       </stage>
+      </l>
+     </sp>
+     <sp who="#duke_of_milan">
+      <speaker>Ago.</speaker>
+      <l>She answer'd me, in Tears, she would. <stage>[aside to him.</stage>
+      </l>
+     </sp>
+     <sp who="#cardono">
+      <speaker>Ant.</speaker>
+      <l>The King seems greatly pleas'd, and wisely hides</l>
+      <l>The Purpose he intends—short are your Joys.</l>
+      <l>Ye false ones! <stage>[aside.</stage>
+      </l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>The King, my Lord, is lavish in your Praise;</l>
+      <l>But where should grateful Monarchs cast their Smiles,</l>
+      <l>
+       <pb n="19" facs="29"/>
+If not on Heroes that have serv'd them truly?</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>I plead no Merit for my Service, Madam;</l>
+      <l>I owe my Prince's Bounty this Applause.</l>
+      <l>If I see thee not this Night, my Laurels fade,</l>
+      <l>And certain Death e'er Morning will o'ertake me. <stage>[aside to <hi>Leonora.</hi>
+       </stage>
+      </l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>We are observ'd, the Passage shall be open.</l>
+     </sp>
+     <sp who="#cardono">
+      <speaker>Ant.</speaker>
+      <l>By their Eyes I know the Appointment's made;</l>
+      <l>That Whisper told the Hour—Did they but know</l>
+      <l>How very fatal I shall make their Meeting,</l>
+      <l>Their Inclination would grow cool upon't.</l>
+      <l>It joys my Soul, to think I shall undo them.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Meet me here some Moments hence, <hi>Antenor;</hi>
+      </l>
+      <l>And now let all withdraw but <hi>Leonora.</hi>
+       <stage>[Exeunt.</stage>
+      </l>
+      <l>Daughter, methinks this Day you're doubly mine;</l>
+      <l>Your Words contain'd what e're my Heart could wish;</l>
+      <l>In thee alone I treasure all my Hopes,</l>
+      <l>And have in thee forgot thy Mother's Loss.</l>
+      <l>And well, I think, thou wilt deserve this Fondness:</l>
+      <l>Say, wilt thou not, my Child? surely thou wilt,</l>
+      <l>And ne'er be justly cast from out my Breast.</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Alas! what means my Father? why this Caution?</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>You have this Day disdain'd a Sovereign Prince;</l>
+      <l>Let no mean Choice disgrace so just a Pride,</l>
+      <l>And sully all thy Virgin Fame at once;</l>
+      <l>But, like my Child, like thee, apparent Heir</l>
+      <l>Of our fair <hi>Lombardy,</hi> support thy Grandeur.</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>My Heart beats fast at the Alarm of Fear. <stage>[aside.</stage>
+      </l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>I do remember thou hast often told me,</l>
+      <l>Thy Heart burnt only with the Fire of Greatness,</l>
+      <l>And Love no Converse held within thy Bosom;</l>
+      <l>And that my Glory fill'd each Thought of thine,</l>
+      <l>And bore thee up to Empire.</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Wherein have I betray'd more Weakness, Sir?</l>
+      <l>And why am I accus'd of Disobedience?</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Do I accuse thee, <hi>Leonora?</hi> No:</l>
+      <l>I warn thee only of degenerate Love.</l>
+      <l>Cou'd I accuse, I should not argue thus;</l>
+      <l>Thou know'st my Temper is compos'd of Fire,</l>
+      <l>
+       <pb n="20" facs="30"/>
+Tho', like the Steel, when unprovok'd, 'tis cool;</l>
+      <l>But if the Flint of Disobedience strikes,</l>
+      <l>Fierce Sparks fly out, and threaten Ruin round.</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Do not I guard the Actions of my Life</l>
+      <l>With all that dutious Care which you directed?</l>
+      <l>Do I not wait my Royal Father's Will,</l>
+      <l>Deny Access to all the shining Court?</l>
+      <l>Except in publick, and by your Command,</l>
+      <l>I never see the Heroes of our Age.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Pray Heaven it prove so. <stage>[aside.</stage>
+      </l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Within the Bower, by your self asign'd,</l>
+      <l>Do I not pass my Time amongst my Maids,</l>
+      <l>Nor once appear, but when you call me forth?</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>All this I know, at least I think I know it.</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Think! grant, Heav'n, I'm not betray'd! <stage>[aside.</stage>
+      </l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>But do not trust to secret Management;</l>
+      <l>For Kings have many Eyes, and watchful all,</l>
+      <l>As those bright Lamps of Heav'n; that wake forever;</l>
+      <l>They can, tho' all the Curtains of the Night</l>
+      <l>Be drawn, and solemn Darkness reigns around,</l>
+      <l>Discover every Action of their Court.</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>'Tis so! and we are certainly undone.</l>
+      <l>I cannot guess what 'tis my Father means,</l>
+      <l>Or what the Purport of your Words intend.</l>
+      <l>If any Villain has traduc'd my Fame,</l>
+      <l>And render'd me suspected to your Majesty,</l>
+      <l>Give me to know my vile Accuser strait,</l>
+      <l>And let the Wretch confront me instantly.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>If thou art innocent, as I hope thou art,</l>
+      <l>Then thou hast nought to fear.</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>If I am innocent! oh my throbing Heart</l>
+      <l>Flutters and leaps, as it would force my Breast,</l>
+      <l>And must portend some Mischief. <stage>[aside.</stage>
+      </l>
+      <stage>Enter <hi>Antenor.</hi>
+      </stage>
+      <l>Ha! now I no longer am concern'd to know</l>
+      <l>Who has created all these Doubts within you;</l>
+      <l>For here, here comes the subtile working Mole,</l>
+      <l>That heaves your Breast, and breaks the Plain of Nature,</l>
+      <l>Purely for Mischief, and his own Revenge;</l>
+      <l>
+       <pb n="21" facs="31"/>
+That you refus'd his Son, still galls his Soul;</l>
+      <l>The Viper seem'd but to have lost his Sting,</l>
+      <l>'Till he had wound himself into your Bosom,</l>
+      <l>Where he at once might strike your tend'rest Part.</l>
+     </sp>
+     <sp who="#learchus">
+      <speaker>Ante.</speaker>
+      <l>Alas! what have I done, my gracious Princess?</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Go on, vile Politician, I defy thee;</l>
+      <l>Spread all thy Nets, and magnify Suspicion,</l>
+      <l>'Till it appears great as thy own Villainy,</l>
+      <l>In a most hideous, most gigantick Form,</l>
+      <l>To fright the World from thy Society;</l>
+      <l>From thy own Bowels spin the pois'nous Thread,</l>
+      <l>That may entangle Innocence and Honour:</l>
+      <l>My spotless Fame shall break thy Cobweb-Arts;</l>
+      <l>My Virtue all thy treacherous Plots confound,</l>
+      <l>And, like a Bolt of Thunder, strike thee to the Ground. <stage>Exit <hi>Leonora.</hi>
+       </stage>
+      </l>
+     </sp>
+     <sp who="#learchus">
+      <speaker>Ante.</speaker>
+      <l>I soon shall calm this guilty Rage.</l>
+      <l>Has then my Royal Lord inform'd the Princess</l>
+      <l>Of his Suspicion, that she's thus provok'd</l>
+      <l>Against the humblest Servant of his Will,</l>
+      <l>And threatens to destroy me?</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>If what thou hast declar'd, be honest Truth,</l>
+      <l>Thou can'st not fear, thou hast a King thy Guard;</l>
+      <l>But take thou Heed, be careful in the Proof;</l>
+      <l>Thou seest she does defy thee.</l>
+     </sp>
+     <sp who="#learchus">
+      <speaker>Ante.</speaker>
+      <l>Her Passion shows her Guiltiness the more;</l>
+      <l>It is the Nature of the Sex to do it:</l>
+      <l>They think to screen their Faults with empty Clamour,</l>
+      <l>And stop our just Resentments with their Noise;</l>
+      <l>But if your Majesty discover'd ought</l>
+      <l>That may instruct her to prevent our Purpose,</l>
+      <l>Then I must fall a Sacrifice indeed.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Thou'rt safe from that; proceed, and say,</l>
+      <l>Hast thou learnt more since last I saw thee?</l>
+     </sp>
+     <sp who="#learchus">
+      <speaker>Ante.</speaker>
+      <l>This Night I know they meet; I've plac'd a Spy,</l>
+      <l>Who is to give me Notice when they're met;</l>
+      <l>And then—</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Then they shall part for ever.</l>
+     </sp>
+     <sp who="#learchus">
+      <speaker>Ante.</speaker>
+      <l>Please you to walk towards the Laurel-Grove,</l>
+      <l>Where I have order'd this old Spy to meet us.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <pb n="22" facs="32"/>
+      <speaker>King.</speaker>
+      <l>Thy Words but add fresh Fuel to my Flame:</l>
+      <l>Lead on, and let me view at once my Shame,</l>
+      <l>And with his Blood wash off th' inglorious Stain. <stage>[Exeunt.</stage>
+      </l>
+     </sp>
+     <stage>Enter <hi>Learchus</hi> meeting <hi>Antimora</hi> in Tears</stage>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Why dost thou dress those beauteous Eyes in Tears?</l>
+      <l>Why does thy Bosom thus with Sorrows heave?</l>
+      <l>Where are the Gares of soft consenting Love,</l>
+      <l>To breath new Life, and wake my dying Hopes?</l>
+     </sp>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <l>Alas! <hi>Learchus,</hi> Fate's become our Foe,</l>
+      <l>And now the fatal Warrant's issu'd forth</l>
+      <l>To blast our Loves, and part our meeting Souls;</l>
+      <l>Else, why should such a faithful Pair as we,</l>
+      <l>So often be obstructed in our Happiness?</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Oh! much I fear; my Father spoke too true. <stage>[aside.</stage>
+      </l>
+      <l>What means my Love? has there some new Misfortune</l>
+      <l>Sprung up to intercept our promis'd Joy?</l>
+     </sp>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <l>Is not thy Father fond of Wealth and Power,</l>
+      <l>And deaf to all thy tender Sighs of Love?</l>
+      <l>His cruel Nature never will forgive,</l>
+      <l>Nor will my Brother bear to hear his Name;</l>
+      <l>But what is worse, far worse than that, this Day</l>
+      <l>He has commanded me to love his Friend;</l>
+      <l>And, Spight of all Objections I can make,</l>
+      <l>He grows, like Fate, inexorable.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Oh! <hi>Antimora!</hi> Love's become enrag'd</l>
+      <l>At thy too tedious, thy too long Delay,</l>
+      <l>And this Way takes to mar our promis'd Joys,</l>
+      <l>And thus revenge the Breach of his Command,</l>
+      <l>For disobeying his first eldest Law.</l>
+      <l>Why throw we not this Tyrant, Duty, off,</l>
+      <l>And from bless'd <hi>Hymen</hi>'s Torch light up that Flame,</l>
+      <l>Which only can expire with our Lives?</l>
+      <l>To humble Plains let us from Courts retire,</l>
+      <l>Serene and quiet as the first kind Pair,</l>
+      <l>Before Ambition taught the Way to Sin.</l>
+     </sp>
+     <sp who="#cardono">
+      <speaker>Ant.</speaker>
+      <l>Nay, even there our cruel Foes would find us out;</l>
+      <l>And, Time, perhaps, might change thy Nature too,</l>
+      <l>When thou should'st find thy Father's Hate incline</l>
+      <l>
+       <pb n="23" facs="33"/>
+To banish thee for ever from his Breast.</l>
+      <l>Then thou would'st turn thy Eyes upon this Face,</l>
+      <l>And scornfully disdain what now allures thee,</l>
+      <l>And to some Rival, fairer in thy Eyes,</l>
+      <l>Sacrifice thy <hi>Antimora.</hi>
+      </l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Why dost thou seek for Words to wound my Soul?</l>
+      <l>Is there, throughout this spacious Globe of Earth,</l>
+      <l>Another Woman I would change thee for?</l>
+     </sp>
+     <sp who="#cardono">
+      <speaker>Ant.</speaker>
+      <l>Oh! thou dost flatter me, alas, in vain;</l>
+      <l>We were not born to make each other happy.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Art thou not Proof against thy Brother, then?</l>
+      <l>Say! must I be supplanted by <hi>Cardono?</hi>
+      </l>
+     </sp>
+     <sp who="#cardono">
+      <speaker>Ant.</speaker>
+      <l>Witness these streaming Eyes, with Sorrow full;</l>
+      <l>This faithful Heart, which pants to ev'ry Fear;</l>
+      <l>No other He shall e'er possess this Breast:</l>
+      <l>No, my <hi>Learchus,</hi> thou art Lord of me;</l>
+      <l>My Vows to thee, Death, only Death, shall break.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Oh Transport!</l>
+     </sp>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <l>If I have wish'd or had one Moment's Care,</l>
+      <l>Or any Hope, but once to be thy Wife,</l>
+      <l>Deprive me, Heaven, of all your Blessings here;</l>
+      <l>Let endless Wailings and eternal Shame</l>
+      <l>Surround and blast my Fame and me for ever.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Oh! Words to heal, and charm Despair away,</l>
+      <l>And Vows as faithful as a dying Saint;</l>
+      <l>But these, my Love, do but increase my Pain:</l>
+      <l>To know thee true, and not to know thee mine,</l>
+      <l>Is plunging me at once in greater Misery.</l>
+      <l>Oh! say, thou secret Ruler of my Fate,</l>
+      <l>Why am I kept thus ling'ring on the Rack?</l>
+      <l>If, by your hard Decrees, I am to lose</l>
+      <l>This beauteous Pattern of your wond'rous Skill,</l>
+      <l>This lovely, faithful Partner of my Heart,</l>
+      <l>In Mercy double all your Store of Curses,</l>
+      <l>Then hurl them down on this devoted Head,</l>
+      <l>And at one Stroke dispatch me.</l>
+     </sp>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <l>Cease to offend those awful Powers, from whom</l>
+      <l>We only can expect to find Redress:</l>
+      <l>With Patience wait for me, as I for thee;</l>
+      <l>Some lucky Minute may perhaps appear</l>
+      <l>To bless our Hopes, and consummate our Vows,</l>
+      <l>
+       <pb n="24" facs="34"/>
+Oh! were our House's Quarrel but compos'd,</l>
+      <l>We then might be most happy.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>I could curse all that keep those Feuds awake,</l>
+      <l>Did not my Duty hush me into Silence.</l>
+     </sp>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <l>Be calm, my Love, and trust my Virgin Vows;</l>
+      <l>Trust thy own Heart, and our united Souls;</l>
+      <l>Time and our Constancy, shall conquer all.</l>
+      <l>From Age to Age, by ev'ry faithful Pair,</l>
+      <l>The Story of our Passion shall be told,</l>
+      <l>And Lovers quote it, to express their own by.</l>
+      <l>But prithee go, lest Envy should betray us:</l>
+      <l>Soon as the Princess to her Privacy</l>
+      <l>(As 'tis her Custom every Day) retires,</l>
+      <l>I'll meet thee here again.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Wilt thou, my Love, my dearest <hi>Antimora?</hi>
+      </l>
+      <l>Angels protect and guard my lovely Maid;</l>
+      <l>Still bless her Days with circling downy Joys,</l>
+      <l>And crown with balmy Slumbers all her Nights;</l>
+      <l>Dress all her Dreams with tenderest Thoughts of me,</l>
+      <l>And let 'em whisper to her faithful Heart</l>
+      <l>How much <hi>Learchus</hi> loves her.</l>
+     </sp>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <l>May gracious Heaven upon thy Head show'r down</l>
+      <l>All those choice Blessings thou hast begg'd for me;</l>
+      <l>May Joys attend thee, lasting as thy Flame,</l>
+      <l>Great as thy Worth, and glorious as thy Virtues.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Oh! matchless Excellence!</l>
+      <l>One kind Embrace, one fragrant Kiss bestow!</l>
+      <l>Oh! Joy supream! Oh perfect Bliss below!</l>
+      <l>Oh, <hi>Antimora,</hi> should I more receive,</l>
+      <l>Should Fortune give me all thou hast to give,</l>
+      <l>My Strength wou'd fail, and I want Power to live. <stage>[Exeunt.</stage>
+      </l>
+     </sp>
+    </div>
+    <trailer>
+     <hi>The End of the</hi> Second ACT.</trailer>
+   </div>
+   <div n="3" type="act">
+    <pb n="25" facs="35"/>
+    <head>ACT III.</head>
+    <div type="scene">
+     <head>SCENE <stage>the <hi>Princess's</hi> Apartment.</stage>
+     </head>
+     <stage>Enter on one Side <hi>Leonora,</hi> on the other <hi>Lorenzo.</hi>
+     </stage>
+     <sp who="#leonora">
+      <speaker>LEONORA.</speaker>
+      <l>HA! <hi>Lorenzo!</hi>
+      </l>
+      <l>Why hast thou rashly disobey'd my Message?</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>What means my Love?</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Saw'st thou not my Page? I sent him to thee,</l>
+      <l>And in my Letter warn'd thee not to come;</l>
+      <l>I fear we meet in Secret now no longer.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>I saw him not; but whence proceeds this Fear?</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>
+       <hi>Antenor,</hi> that old subtil lurking Villain,</l>
+      <l>This Day has hinted something to the King;</l>
+      <l>And tho' in outward Form I bore it off,</l>
+      <l>I with Confusion shudder'd all within:</l>
+      <l>None but the holy Man, who join'd our Hands,</l>
+      <l>Whose Faith's undoubted, knows our secret Loves;</l>
+      <l>And yet I tremble, lest we are betray'd,</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>Be calm, my Love; we must, we are secure;</l>
+      <l>Come to my Arms, and loose all Thoughts of Fear.</l>
+      <l>'Twas I discover'd first this hidden Cave,</l>
+      <l>This secret Passage to this blissful Bower,</l>
+      <l>Hew'd by these Hands alone, at Dead of Night,</l>
+      <l>Not trusting any other with my Purpose;</l>
+      <l>Whilst Love, propitious to our mutual Wishes,</l>
+      <l>Bless'd my Endeavours, and inspir'd my Strength.</l>
+      <l>Thus unperceiv'd by the malicious World,</l>
+      <l>I steal to lovely <hi>Leonora</hi>'s Bosom,</l>
+      <l>And gather there what Kings request in vain.</l>
+     </sp>
+     <sp who="#leonora">
+      <pb n="26" facs="36"/>
+      <speaker>Leon.</speaker>
+      <l>Oh! Youth belov'd! thou Darling of my Soul▪</l>
+      <l>Thy Words would charm, and lull my Fears asleep,</l>
+      <l>Were there not something more than common in them.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>Oh, my fair Princess! by our Loves I swear,</l>
+      <l>The happiest Moments of my Life, are these;</l>
+      <l>These which I pass with beauteous <hi>Leonora.</hi>
+      </l>
+      <l>Thou art the Guardian Angel, that defends me</l>
+      <l>Thro' all the various Dangers of the Field;</l>
+      <l>The Mem'ry of these Kisses fire my Soul;</l>
+      <l>And fond Desire of seeing thee again,</l>
+      <l>Gives true <hi>Herculean</hi> Courage to my Arm.</l>
+      <l>Ye dull Philosophers, that place Delight</l>
+      <l>And mighty Pleasure in any Thing but Love,</l>
+      <l>My <hi>Leonora</hi>'s Form ne'er fill'd your Eye,</l>
+      <l>Nor shot her Beams of Light into your Soul.</l>
+      <l>Oh! thou art fairer than the Poets feign</l>
+      <l>The Queen of Love, in her most artful Dress;</l>
+      <l>Thy very Smiles are Graces waiting round,</l>
+      <l>Upon thy Lips the little <hi>Cupids</hi> hang,</l>
+      <l>And bask and wanton in thy Eyes by Turns.</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>My dearest Lord, my faithful Husband, ceafe</l>
+      <l>These lavish Raptures which thy Love inspires.</l>
+      <l>I that have listen'd to thy Voice all Day,</l>
+      <l>With equal Transport clasp'd thee in my Arms,</l>
+      <l>And bounded ev'ry, wish within thy Bosom,</l>
+      <l>Now shrink and tremble at this fatal Meeting,</l>
+      <l>For something boding hovers o'er my Heart,</l>
+      <l>And checks the wonted Joy thy Presence brings.</l>
+      <l>Be gone, my Love, and endless Blessings wait thee.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>Unkindly urg'd; why wilt thou push me from thee?</l>
+      <l>Pleasure forsakes me, when I quit these Arms.</l>
+      <l>In Council or in Camp, my Soul's with thee,</l>
+      <l>And my charm'd Tongue can scarce forbear thy Name;</l>
+      <l>For Love and <hi>Leonora</hi> fill my Mind.</l>
+      <l>Thou'rt all the Subject that my Thoughts pursue;</l>
+      <l>Oh! that I could hold thee thus for ever,</l>
+      <l>Not all the Wealth that <hi>Indian</hi> Mines produce,</l>
+      <l>Should bribe me to forsake thee.</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Thy excessive Passion will undo us;</l>
+      <l>Prithee, no more—I do conjure thee leave me.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <pb n="27" facs="37"/>
+      <speaker>Lor.</speaker>
+      <l>Oh! thou hast rais'd me to such Height of Bliss,</l>
+      <l>That when my Soul is summon'd hence by Fate,</l>
+      <l>To taste the promis'd Joys of Paradice,</l>
+      <l>It cannot sure be more transported there.</l>
+     </sp>
+     <stage>Enter <hi>King</hi> and <hi>Antenor</hi> above.</stage>
+     <sp who="#learchus">
+      <speaker>Ante.</speaker>
+      <l>Now let your Majesty believe your Ears.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>I cannot! they are false—Confound the Traytor;</l>
+      <l>'Tis Magick sure—'Tis not <hi>Leonora.</hi>
+      </l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Hark! heard you not a Voice? Sure 'twas my Name.</l>
+     </sp>
+     <sp who="#learchus">
+      <speaker>Ante.</speaker>
+      <l>Speak lower, Sir, or you will lose your Prey.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>Thy Fears alone invade thy Ear, my Queen.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Ha! his Queen! His Head shall answer for the Treason.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>Unbroken Silence reigns around this Place,</l>
+      <l>And nought intrudes, but murm'ring Sighs of Love.</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Sure 'tis the Terror of the Night I feel,</l>
+      <l>Or else some boding Mischief threatens near:</l>
+      <l>Methinks I see <hi>Antenor</hi> waiting still,</l>
+      <l>The ready Instrument of Fate he stands.</l>
+      <l>I know not why, but still my Thoughts are on him,</l>
+      <l>As if my Genius whisper'd me, Beware;</l>
+      <l>For he alone will ruin all thy Peace,</l>
+      <l>And yet my dear Defender must be gone:</l>
+      <l>Nay, do not loiter then, but haste away;</l>
+      <l>When thou art safe, perhaps my Fears may cease.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>And wilt thou drive me from these Arms so soon?</l>
+      <l>And dost thou think I can consent to leave thee?</l>
+      <l>Love is not satisfy'd with Words alone;</l>
+      <l>He would have kinder, softer Entertainment.</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>When did I beg for parting, 'till this Hour?</l>
+      <l>Something there is that whispers to my Heart,</l>
+      <l>This Meeting will be fatal to us both;</l>
+      <l>And yet thou'lt stay, and pull our Ruin on.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>Haste thee, auspicious Regent of the Night,</l>
+      <l>And sudden bid the friendly Shades return,</l>
+      <l>When on my Bosom thou shalt lose these Fears.</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Perhaps they spring but from this Day's Alarm;</l>
+      <l>If so it prove, forgive a Woman's Weakness.</l>
+      <l>
+       <pb n="28" facs="38"/>
+Away; open the Cave, descend, and leave me;</l>
+      <l>If nothing intervene to cross our Wishes,</l>
+      <l>To Morrow Night I will again expect thee.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>Death only can deprive that Expectation;</l>
+      <l>Earewel, thou fairest, best of all thy Kind. <stage>[Opens the Trap, and descends.</stage>
+      </l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Well hast thou said; Death shall prevent thy Hopes.</l>
+      <l>Haste then, <hi>Antenor;</hi> thou who know'st the Passage,</l>
+      <l>Go, take my Guards, and seize th' audacious Traytor.</l>
+     </sp>
+     <sp who="#cardono">
+      <speaker>Ant.</speaker>
+      <l>I fly, my gracious Sovereign. <stage>[Ex. King and <hi>Antenor.</hi>
+       </stage>
+      </l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Farewell! Alas! why did he say farewell?</l>
+      <l>That was, methinks, unluckily express'd.</l>
+      <l>How apt is Nature, when the Fancy works,</l>
+      <l>To observe each trifling Words as ominous?</l>
+      <l>Why these unnecessary Doubts upon me?</l>
+      <l>Have I done ought to sully my fair Name,</l>
+      <l>Or taint my Virtue in this secret Choice?</l>
+      <l>In <hi>Fame</hi>'s Record <hi>Lorenzo</hi> foremost stands</l>
+      <l>The first of Heroes, yet surpass'd by none.</l>
+      <l>No conscious Blushes to my Cheeks can rise,</l>
+      <l>Which drag Repentance from a guilty Mind.</l>
+      <l>He is my Husband, and my Soul's at Peace;</l>
+      <l>That Thought supports me thro' all Storms of Fate.</l>
+      <l>No pois'nous Damp below can blast my Love,</l>
+      <l>Secure of just Protection from above. <stage>[Exit.</stage>
+      </l>
+     </sp>
+    </div>
+    <div type="scene">
+     <head>SCENE <stage>the Grove adjoining to the Bower.</stage>
+     </head>
+     <stage>Enter <hi>Antenor</hi> and Guards.</stage>
+     <sp who="#cardono">
+      <speaker>Ant.</speaker>
+      <l>Here plant your selves, here, on this very Spot,</l>
+      <l>And from that Cave you'll instantly behold.</l>
+      <l>Th' impious Traytor which you are to seize,</l>
+      <l>And bear a Pris'ner to the Royal Fort.</l>
+      <l>Be not surpriz'd when you behold the Man;</l>
+      <l>'Tis the King's Order, and you must obey;</l>
+      <l>The Crime is what deserves no good Man's Pity.</l>
+     </sp>
+     <sp who="#captain">
+      <pb n="29" facs="39"/>
+      <speaker>Capt.</speaker>
+      <l>Our Bus'ness is not to dispute, my Lord.</l>
+     </sp>
+     <sp who="#learchus">
+      <speaker>Ante.</speaker>
+      <l>Now, tow'ring Lord <hi>Lorenzo,</hi> thou shalt fall;</l>
+      <l>Thy better Fortune smiles no longer on thee:</l>
+      <l>The fatal Sisters have resign'd to me</l>
+      <l>The slender Thread which holds thy mortal Being;</l>
+      <l>And like an Arrow thro' the yielding Air,</l>
+      <l>I fly with eager Haste to cut it—Yes,</l>
+      <l>Thou once remov'd, my Son again shall rise;</l>
+      <l>When I have prov'd the haughty Princess guilty,</l>
+      <l>And in a Father's Breast disarm'd her Power,</l>
+      <l>She'll dare no more t'oppose my purpos'd Greatness.</l>
+      <l>Be ready, for the Mole begins to work—Seize him.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>Ha! Villains! <stage>[The Trap opens, and <hi>Lorenzo</hi> comes up; they seize him.</stage>
+      </l>
+     </sp>
+     <sp who="#captain">
+      <speaker>Capt.</speaker>
+      <l>Ha! what do I see?</l>
+      <l>Oh! why to me gave you this Charge, my Lord?</l>
+      <l>Wou'd I had dy'd, e'er I had rais'd my Hand.</l>
+      <l>Against the bravest, best of Men in War.</l>
+      <l>Set him free again. <stage>[to the Guards.</stage>
+      </l>
+     </sp>
+     <sp who="#learchus">
+      <speaker>Ante.</speaker>
+      <l>Your every Life shall answer his Escape;</l>
+      <l>He dies, that dares to mention Freedom for him.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>Oh, Traytor! art thou there, thou subtil Fiend▪</l>
+      <l>Thou blackest trusty Instrument of Hell?</l>
+      <l>Nay, then I know my Doom's irrevocable.</l>
+      <l>Now, Fellow-Soldiers, bear your General hence,</l>
+      <l>To darkest Dungeons, cruel Racks, or Death;</l>
+      <l>His Sight is worse than all the Pains they bring.</l>
+     </sp>
+     <sp who="#learchus">
+      <speaker>Ante.</speaker>
+      <l>Rail on, and see who thou can'st wound with Words;</l>
+      <l>All other Means arewanting to thee now.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>No, thou'rt not worth my Breath; and I disdain thee:</l>
+      <l>Come, my brave Warriors, who so oft have been</l>
+      <l>My Country's Bulwarks, and her sure Defence;</l>
+      <l>You, who at my Command have scatter'd Death</l>
+      <l>As thick as Corn from out the Sower's Hand,</l>
+      <l>And drove whole Armies o'er the bloody Plain,</l>
+      <l>Let not my Fate misguide your loyal Minds.</l>
+      <l>Tho' none can guard against a Villain's Arts,</l>
+      <l>Fortune can ne'er subdue a brave Man's Soul:</l>
+      <l>In Love and War, I've reach'd the top-most Summit,</l>
+      <l>
+       <pb n="30" facs="40"/>
+And Ages hence I shall be read with Wonder;</l>
+      <l>Whilst thou, the most detested of thy Kind,</l>
+      <l>Shalt be with Horror mention'd—Lead on.</l>
+     </sp>
+     <sp who="#learchus">
+      <speaker>Ante.</speaker>
+      <l>Stay, I command you, 'till this Wretch shall know</l>
+      <l>To me alone he owes this Turn of Fate.</l>
+      <l>'Twas I that watch'd your Midnight Steps, and found</l>
+      <l>That dark Conveyance to your wanton Sports.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>Hold, Monster! Hell-hound; for thy Life, I charge thee,</l>
+      <l>Touch not a Fame thy Mother never knew;</l>
+      <l>Nor thy whole Lineage of the Female Race,</l>
+      <l>E'er since the first created Maid appear'd;</l>
+      <l>With Care correct thy bold blaspheming Tongue,</l>
+      <l>Least from the Root I tear the Viper out,</l>
+      <l>And make thee curse thou e'er hadst Use of Speech.</l>
+     </sp>
+     <sp who="#learchus">
+      <speaker>Ante.</speaker>
+      <l>Ha, ha, ha! away with him, and do as I commanded.</l>
+     </sp>
+     <stage>Enter <hi>Antimora.</hi>
+     </stage>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <l>What horrid Noise invades this peaceful Place?</l>
+      <l>I promis'd here to meet the lovely Youth.</l>
+      <l>What do I see? My Brother seiz'd! Oh, say</l>
+      <l>What fatal Mischief wrought this sudden Change!</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>Where should the fatal Mischief be! but there?</l>
+      <l>Has Hell a more malicious Fiend than he?</l>
+      <l>Yet in thy Bosom thou wilt hide his Faults,</l>
+      <l>Embrace his Blood, that gives thy Brother Death.</l>
+      <l>Go hang upon the Neck of his aspiring Son,</l>
+      <l>And kneel for Blessings from th' infectious Sire.</l>
+      <l>Forget my Choice, thy Family, and Name,</l>
+      <l>And be th' adopted Child to him I hate;</l>
+      <l>But from this Moment see my Face no more.</l>
+     </sp>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <l>Oh, Brother! oh my tortur'd Soul!</l>
+     </sp>
+     <sp who="#learchus">
+      <speaker>Ante.</speaker>
+      <l>My Son! Perdition seize him in that Hour</l>
+      <l>He dares to disobey the Charge I gave;</l>
+      <l>Never to think of ought belongs to thee,</l>
+      <l>I'd rather see him on the racking Wheel,</l>
+      <l>Impal'd, or dead, before my aching Eyes,</l>
+      <l>Than wedded into any Blood of thine.</l>
+      <l>
+       <pb n="31" facs="41"/>
+Away with him,</l>
+      <l>And at your Peril lodge him in the Dungeon.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>Yes, <hi>Leonora,</hi> I will die for thee,</l>
+      <l>Without a Groan give up this Puff of Breath:</l>
+      <l>But when I think what Horror, what Despair</l>
+      <l>Will rend thy Breast, for thee alone I fear. <stage>[Ex. guarded.</stage>
+      </l>
+     </sp>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <l>Barbarians, hold! Oh! let me speak but to him.</l>
+      <l>He's gone, and will not deign to look upon me.</l>
+      <l>What sullen Star has clouded all thy Glory?</l>
+      <l>Our Family is grown the Sport of Fortune,</l>
+      <l>That, like a Ball, she tosses to and fro:</l>
+      <l>This Morning view'd him the Support of Kings;</l>
+      <l>The Evening shews he wants Support himself.</l>
+      <l>Oh! the uncertain Favours of a Court!</l>
+      <l>Let me think—What, is my Brother seiz'd by him</l>
+      <l>Who gave <hi>Learchus</hi> Being?—And shall I</l>
+      <l>Stay here, and listen to his am'rous Tale?</l>
+      <l>No, <hi>Antimora,</hi> arm thy tender Breast</l>
+      <l>With Resolution, and fly hence for ever;</l>
+      <l>And let thy Fame and Brother fill thy Soul:</l>
+      <l>But oh! th' Experiment is hard to make,</l>
+      <l>To hate <hi>Learchus</hi> for his Father's Sake!</l>
+     </sp>
+     <stage>Enter <hi>Learchus.</hi>
+     </stage>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>My Ears the Eccho caught of sad Despair;</l>
+      <l>What of <hi>Learchus?</hi> What of Hate, my Love?</l>
+      <l>Methinks those Words from <hi>Antimora</hi>'s Tongue,</l>
+      <l>Blast, like a Northern Wind, the op'ning Buds.</l>
+     </sp>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <l>No, Hate and thee, <hi>Learchus,</hi> are become</l>
+      <l>Inseparable Partners from this Moment;</l>
+      <l>For oh! there stands a Bar between our Loves,</l>
+      <l>That from each other severs us for ever.</l>
+      <l>Be banish'd then both from my Eyes and Heart;</l>
+      <l>'Tis owing all to thy incidious Father,</l>
+      <l>By whom my dearest Brother is betray'd.</l>
+      <l>Curse, curse, <hi>Learchus,</hi> curse the fatal Hour,</l>
+      <l>When the soft Passion took Possession first</l>
+      <l>Of our too easy Breasts, by Fate forbidden:</l>
+      <l>Curse the rebellious Thought which first inclin'd,</l>
+      <l>
+       <pb n="32" facs="42"/>
+And made us listen to each other's Vows.</l>
+      <l>But oh! ten thousand Curses on the Cause,</l>
+      <l>Yes, multiply them, Heav'n, and fix 'em all,</l>
+      <l>All on thy Father's Guilt, which parts us now! <stage>[Ex.</stage>
+      </l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>I am astonish'd! Stay, my Love—she's gone,</l>
+      <l>And left me in such Labyrinths of Thought,</l>
+      <l>My Senses all seem wilder'd!</l>
+     </sp>
+     <stage>Enter <hi>Agonistus.</hi>
+     </stage>
+     <sp who="#duke_of_milan">
+      <speaker>Ago.</speaker>
+      <l>My Lord, why stand you musing here alone,</l>
+      <l>When all the Court's in Hurry and Confusion?</l>
+      <l>Your Father has discover'd to the King</l>
+      <l>Some horrid Treason by <hi>Lorenzo</hi> done,</l>
+      <l>For which he's sent a Pris'ner to the Fort.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Say'st thou! A Pris'ner! then I know the Cause</l>
+      <l>Of <hi>Antimora</hi>'s killing Grief. Away,</l>
+      <l>And let me learn the Story of his Crimes. <stage>[Exeunt.</stage>
+      </l>
+     </sp>
+    </div>
+    <div type="scene">
+     <head>
+      <stage>The SCENE changes to the <hi>Princess's</hi> Apartment. She is discover'd reading.</stage>
+     </head>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Here have I met a Tale so mourn'd by <hi>Ovid,</hi>
+      </l>
+      <l>So tenderly express'd to move our Pity,</l>
+      <l>Where <hi>Canace,</hi> by her Father's dread Command,</l>
+      <l>Presents the Dagger to her panting Breast.</l>
+      <l>Ha! why am I alarm'd at this?—Her Guilt.</l>
+      <l>Is what my chaster Bosom never knew;</l>
+      <l>And yet methinks I feel a Fear upon me.</l>
+     </sp>
+     <stage>Enter <hi>Lady.</hi>
+     </stage>
+     <sp who="#leonora">
+      <speaker>Lady.</speaker>
+      <l>Oh! pardon my Intrusion, Royal Madam,</l>
+      <l>The King denies without to hear us speak;</l>
+      <l>But with a sullen clouded Brow demands</l>
+      <l>To see you instantly—</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>He does not use to treat me thus; but go,</l>
+      <l>Call in my Women, and leave free the Passage.</l>
+     </sp>
+     <stage>
+      <pb n="33" facs="43"/>Enter <hi>Ladies,</hi> and stand behind her. Then the <hi>King</hi> and Guards.</stage>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Guards, wait without.</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>My Royal Father. <stage>[Rises.</stage>
+      </l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Dismiss your idle Train;</l>
+      <l>This is a Scene of Life for us alone,</l>
+      <l>And where you'll find there's no Attendance wanted.</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Whatever, Sir, you purpose to relate,</l>
+      <l>Your Daughter yet has never learn'd to fear.</l>
+      <l>Ladies, withdraw— <stage>[Ex Ladies.</stage>
+      </l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>And art thou then so harden'd in thy Crimes?</l>
+      <l>Oh! let my Heart forget a Father's Fondness!</l>
+      <l>Let softer Pity fly to suff'ring Saints,</l>
+      <l>Nor once invade the Conference we hold.</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>I cannot guess the Tale you mean to tell,</l>
+      <l>But by your Aspect know it must be dreadful.</l>
+      <l>Oh! all ye Powers who see, and rule this World,</l>
+      <l>Give me, in this severe Extremity,</l>
+      <l>My Father's Soul, to stand my Father's Charge,</l>
+      <l>My Mother's Purity's already mine!</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Ha! dar'st thou name thy Mother, vile Contagion?</l>
+      <l>She was all Virtue.</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Oh! do not look so fiercely on your Child, <stage>[Kneels.</stage>
+      </l>
+      <l>The only Relict of your once lov'd Queen;</l>
+      <l>But turn your Eyes, and see mine drown'd in Tears;</l>
+      <l>Those Eyes which you've so often kiss'd, and swore</l>
+      <l>They wore the dear Resemblance of my Mother;</l>
+      <l>Which to preserve from that Destroyer, Grief,</l>
+      <l>You cou'd forego the gay Delights of Empire.</l>
+      <l>Oh! with that Temper now, that former Fondness,</l>
+      <l>Hear, and forgive the Errors of my Youth.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Blast me, ye Powers, if ever I forgive!</l>
+      <l>No, I will punish thee as thou deserv'st;</l>
+      <l>Remove the Cause that led thy Soul astray,</l>
+      <l>And shew thee what it is to love a Slave.</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Unhappy <hi>Leonora!</hi>
+      </l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <pb n="34" facs="44"/>
+      <speaker>King.</speaker>
+      <l>I'll have, for ev'ry Kiss the Traytor gave thee,</l>
+      <l>By which he stain'd the Glory of his King,</l>
+      <l>His Flesh by Morsels torn with Pincers off,</l>
+      <l>And make a Passage for his lustful Blood,</l>
+      <l>To wash those Spots away.</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Avert it, Heav'n! On me wreak all your Vengeance;</l>
+      <l>On me, on me your Daughter, let it fall:</l>
+      <l>But spare the Man which I first taught to love;</l>
+      <l>If not for me, oh! for your own Sake spare him!</l>
+      <l>Spare your Defender, for your Kingdom's Sake;</l>
+      <l>Let him not fall (by whom we're all in Safety)</l>
+      <l>A Victim to a Politician's Malice.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Perish that Kingdom with thy self and me,</l>
+      <l>Whene'er I save a Traytor from the Stroke.</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Oh! Royal Sir, revoke those killing Words,</l>
+      <l>And call his Services to your Rememb'rance;</l>
+      <l>The glorious Victories which your Arms have won,</l>
+      <l>Under the Conduct of my Lord <hi>Lorenzo:</hi>
+      </l>
+      <l>'Twas he that sav'd your Cities from your Foes,</l>
+      <l>And made the Laurel flourish on your Brow:</l>
+      <l>Remember too, how much you lov'd him for't;</l>
+      <l>Your Praise it was that drew my Eyes that Way,</l>
+      <l>And your Esteem created one in me.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Away, and loose thy Hold! why dost thou hold me?</l>
+      <l>Think'st thou to sooth me with thy Eloquence?</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Oh! 'tis the subtil Malice of <hi>Antenor;</hi>
+      </l>
+      <l>He looks with envious Eyes upon him,</l>
+      <l>Because you plac'd him in his Son's Command,</l>
+      <l>And dasn'd his Hopes, that durst aspire to me.</l>
+      <l>What Trains of Mischief proud Ambition brings!</l>
+      <l>Hate, Envy, Jealousy, and Death spring from it.</l>
+      <l>It breaks all Ties of Blood, all mutual Faith,</l>
+      <l>And even levels Liberty with Chains.</l>
+      <l>Oft in the Crimes of one ambitious Man</l>
+      <l>Have many guiltless Nations been involv'd.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Well hast thou describ'd that curss'd Ambition</l>
+      <l>Which rais'd the Viper that my Smiles had form'd,</l>
+      <l>To wanton with the Honour of his King:</l>
+      <l>But he shall suffer long convulsive Pangs,</l>
+      <l>
+       <pb n="35" facs="45"/>
+And vainly ask us for the Stroke of Grace.</l>
+      <l>If, as thou say'st, that thou dost live by him,</l>
+      <l>Then when he ceases to diffuse his Warmth,</l>
+      <l>Thou, like some puny Insect, must expire,</l>
+      <l>And, dying, curse the Author of thy Shame.</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Oh, do not think my Fault exceeds Forgiveness!</l>
+      <l>My Soul's not conscious of a Crime 'gainst Virtue;</l>
+      <l>I challenge Envy for a seeming Cause,</l>
+      <l>That my fair Innocence would blush to own.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Audacious Wretch! have I not seen thee wanton?</l>
+      <l>Loll on his Bosom, and devour his Kisses?</l>
+      <l>Confusion! dar'st thou to talk of Virtue?</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Alas! the only Place of Rest for <hi>Leonord,</hi>
+      </l>
+      <l>Is in her faithful Husbands Arms.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Ha! what say'st thou?</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>He is my Husband; yes, my wedded Husband;</l>
+      <l>Remember, Sir, you left me free to chuse;</l>
+      <l>Then, what I chuse, do not unkindly kill.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Patience, good Heav'n, or I shall kill her too;</l>
+      <l>I would not spare him now, to save my Crown;</l>
+      <l>No, this Confession does but wing his Fate;</l>
+      <l>Off, or I'll spurn thee from me.</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Go on, go on, and satisfy your Rage; <stage>[rises.</stage>
+      </l>
+      <l>Try all the Racks <hi>Antenor</hi> can invent,</l>
+      <l>And all that Majesty incens'd can form,</l>
+      <l>And see with what a Constancy of Mind</l>
+      <l>I am prepar'd to meet your Indignation.</l>
+      <l>I feel my Spirits gather to my Heart,</l>
+      <l>And man it out with Courage for the Tryal.</l>
+      <l>The Ardour of my Flame can ne'er abate,</l>
+      <l>'Tis chaste and holy as the <hi>Vestal</hi> Rites;</l>
+      <l>And if you'll rip this Breast that heaves with Love,</l>
+      <l>You'll find his Image sit triumphant there.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>So, brave! but wherefore does my Vengeance loyter?</l>
+      <l>Soon shall thy loasted Constancy be try'd.</l>
+      <l>Yes, Trayt'ress! I will teach thy Disobedience</l>
+      <l>
+       <pb n="36" facs="46"/>
+What 'tis to wound the Fondness of a Father,</l>
+      <l>And make the Heart drop-Blood, that doated on thee.</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Kill me this Moment.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>I disdain the Proxy;</l>
+      <l>He, he, for whom thou hast abandon'd Duty,</l>
+      <l>Betray'd a Parent, and disgrac'd a Throne;</l>
+      <l>He shall return the fatal Stroke upon thee.</l>
+      <l>Hug his Idea, dwell upon his Memory;</l>
+      <l>For dearly hast thou bought him—at the Price</l>
+      <l>Of Honour—of thy Father—and a Crown. <stage>[Exit.</stage>
+      </l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <lg>
+       <l>Oh dreadful Resolution!</l>
+       <l>Hear me, Father! oh, hear me but one Word!</l>
+       <l>He's gone, he's gone, and with him all my Hopes.</l>
+      </lg>
+      <lg>
+       <l>Now, ye malicious Stars, your worst prepare,</l>
+       <l>Unite your pois'nous Force, and fix it here.</l>
+       <l>Let Want of Thought my too much Thought destroy,</l>
+       <l>Let me for Refuge into Madness fly,</l>
+       <l>At once unknowing both of Pain and Joy.</l>
+       <l>But oh! I rave and waste my idle Breath;</l>
+       <l>Fain I'd preserve him from inglorious Death.</l>
+       <l>To save my Husband, I will hazard all,</l>
+       <l>Or bravely perish with him in his Fall. <stage>Exit.</stage>
+       </l>
+      </lg>
+     </sp>
+     <stage>Enter <hi>Antimora</hi> and <hi>Learchus.</hi>
+     </stage>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <l>Stay, my <hi>Learchus,</hi> I was looking for thee.</l>
+      <l>Can'st thou forget the Transports of my Grief,</l>
+      <l>And all that it produc'd, when last I saw thee?</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Ask thy own Heart, my Love, when thou wouldst know</l>
+      <l>The most important secret Thought of mine;</l>
+      <l>For there I treasure all my Good or Ill.</l>
+     </sp>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <l>I'm calm and gentle now, as heretofore;</l>
+      <l>No Fire my Eyes, nor Rage my Heart contains;</l>
+      <l>My Tongue no Curses vent against thy Father:</l>
+      <l>Nay, if thou wilt but answer my Request,</l>
+      <l>I can forgive the Injury.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>What can the Ruler of my Fate intend!</l>
+     </sp>
+     <sp who="#agonistus">
+      <pb n="37" facs="47"/>
+      <speaker>Anti.</speaker>
+      <l>Oh! if thy Love but equals half my Woe,</l>
+      <l>Thou wilt be kind, and ease my aching Bosom.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Is it in me to give thy Sorrows Ease?</l>
+      <l>And do'st thou, can'st thou doubt of my Compliance?</l>
+      <l>My Heart springs forth to be instructed how</l>
+      <l>That I may leave ev'n Thought behind to serve thee.</l>
+     </sp>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <l>Thus then, my Brother, by the King condemn'd</l>
+      <l>To suffer in Extremity of Torments,</l>
+      <l>Th' <hi>Idea</hi> wounds my Heart beyond Expression,</l>
+      <l>And only thou can'st save me from Despair.</l>
+      <l>Wilt thou! Oh! wilt thou promise me Relief,</l>
+      <l>Now when I beg it in extreamest Need? <stage>[kneels.</stage>
+      </l>
+      <l>Remember once thou wast a Suppliant too,</l>
+      <l>Low at my Feet, as I am now at thine;</l>
+      <l>I pity'd thee, and wip'd thy Tears away.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Oh! rise, my Love, and rack my Soul no longer,</l>
+      <l>But tell me quickly what this Boon can be,</l>
+      <l>That thou do'st ask at such a Distance of me;</l>
+      <l>This Ceremony, and this Expectation</l>
+      <l>Makes it painful to me.</l>
+     </sp>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <l>Thou, only thou, can'st ease thy self and me;</l>
+      <l>Then mark me well, my Brother is thy Pris'ner,</l>
+      <l>Let him escape, and I'm for ever thine.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Oh, <hi>Antimora!</hi> how thou shock'st my Duty!</l>
+      <l>But have a Care, make not a Villain of me;</l>
+      <l>Do not thou press me to betray my Trust;</l>
+      <l>Who forfeits Honour, will be false to Love;</l>
+      <l>And well I know thou ne'er would'st Love me after,</l>
+      <l>Tho', hurry'd now with Fondness for thy Brother,</l>
+      <l>Thoud'st have me do what thou thy self would'st blame,</l>
+      <l>And hate me, ev'n whilst thou thank'd'st me for't;</l>
+      <l>There is but this one Thing I cou'd refuse thee.</l>
+     </sp>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <l>Wilt thou deny my first Request, <hi>Learchus?</hi>
+      </l>
+      <l>And wil't thou dare to mention Love hereafter?</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Send me to Lyons raging in their Den,</l>
+      <l>Long Time pent up, and rav'nous for their Prey;</l>
+      <l>Command me to encounter Hosts of Foes,</l>
+      <l>Tho' certain Death attends on ev'ry Side,</l>
+      <l>And see how readily I will obey thee;</l>
+      <l>But what concerns my Country or my King,</l>
+      <l>
+       <pb n="38" facs="48"/>
+Love even wants Temptation to betray.</l>
+     </sp>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <l>Under this feign'd Allegiance thou would'st hide</l>
+      <l>Thy ancient Hatred to my Brother's Name;</l>
+      <l>But I have found thee out thro' all thy Turnings,</l>
+      <l>And here I cancel all our former Vows;</l>
+      <l>Be every Thought of thee torn from my Breast,</l>
+      <l>And Enmity eternal grow between us;</l>
+      <l>This Hand, on which thou ha'st so often swore,</l>
+      <l>And kiss'd, and breath'd thy false pretended Flame,</l>
+      <l>I'll give to him that sets my Brother free,</l>
+      <l>And rack my self, to be reveng'd on thee. <stage>[Exit.</stage>
+      </l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <lg>
+       <l>Was e'er Condition so forlorn as mine?</l>
+       <l>At once fond Love and Duty tear my Bosom.</l>
+      </lg>
+      <lg>
+       <l>Love bids my Heart obey without Controul,</l>
+       <l>But Duty checks my Love, and awes my Soul:</l>
+       <l>Of these two great Extreams which shall I take,</l>
+       <l>Shall I my Mistress or my King forsake?</l>
+       <l>To both I would be faithful, did I know</l>
+       <l>What Method I could take to make me so.</l>
+       <l>Direct me, Heav'n, a midst these Doubts that rise,</l>
+       <l>Which to preserve, and which to sacrifice. <stage>[Exit.</stage>
+       </l>
+      </lg>
+     </sp>
+    </div>
+    <div type="scene">
+     <head>
+      <stage>SCENE changes to the <hi>Princess's</hi> Apartment.</stage>
+     </head>
+     <stage>Enter <hi>Leonora</hi> and <hi>Cardono,</hi> discoursing.</stage>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>If <hi>Antimora's</hi> Passion fails to move,</l>
+      <l>And bring <hi>Learchus</hi> over to our Interest,</l>
+      <l>Thou may'st have Hope, <hi>Cardono,</hi> to succeed;</l>
+      <l>For she has vow'd to see his Face no more,</l>
+      <l>If he denies to set <hi>Lorenzo</hi> free.</l>
+     </sp>
+     <sp who="#cardono">
+      <speaker>Card.</speaker>
+      <l>My Friend and you command what e'er I can,</l>
+      <l>But I despair of <hi>Antimora</hi>'s Love;</l>
+      <l>Nor will I poorly ask it on such Terms;</l>
+      <l>To free <hi>Lorenzo,</hi> none would hazard more;</l>
+      <l>If in the Field I saw his Life beset,</l>
+      <l>My own, for his, should offer at the Ransom;</l>
+      <l>But to attempt his Rescue here, is fruitless,</l>
+      <l>When under Sentence by the King's Command,</l>
+      <l>
+       <pb n="39" facs="49"/>
+And guarded by his most inveterate Foe;</l>
+      <l>'Twou'd plunge us all in certain Death at once,</l>
+      <l>And not relieve, but bring his End on faster.</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Then will you tamely stand, and see him die!</l>
+      <l>His Death conspir'd to feed a Traytor's Pride;</l>
+      <l>And will you nothing dare, to save your Friend?</l>
+      <l>Can you forget who led you forth to conquer,</l>
+      <l>And stood the Danger equal with the Meanest?</l>
+      <l>Has he not gain'd immortal Honours for you?</l>
+      <l>And made the Name, the very Name of <hi>Lombard,</hi>
+      </l>
+      <l>More formidable than once the <hi>Romans</hi> were,</l>
+      <l>And can you now refuse to lend him Succour?</l>
+     </sp>
+     <sp who="#cardono">
+      <speaker>Card.</speaker>
+      <l>Oh, Royal Madam! think with what Concern</l>
+      <l>I hear your Words, and know my Friend's Distress!</l>
+      <l>Think you I need these Arguments to rouse me!</l>
+      <l>No, I only want the Means to set him free,</l>
+      <l>And not the Will to do it.</l>
+     </sp>
+     <stage>Enter <hi>Antimora.</hi>
+     </stage>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>See where the mourning <hi>Antimora</hi> comes,</l>
+      <l>Like Lillies weeping with the Morning Dew,</l>
+      <l>Which, tho' it wets, yet sullies not their Beauty:</l>
+      <l>I fear, alas! to ask thee what Success.</l>
+     </sp>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <l>For me, most gracious Princess, nought remains,</l>
+      <l>Not the least Gleam of Comfort now appears:</l>
+      <l>My Hopes are dead, as soon will be my Brother:</l>
+      <l>Where shall I hide me from the fatal News,</l>
+      <l>Or how support me under it?</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>That both thou and I must leave to Providence:</l>
+      <l>But, say, suppose that I should find a Way,</l>
+      <l>With Lord <hi>Cardono</hi>'s Help, to free <hi>Lorenzo,</hi>
+      </l>
+      <l>What wouldest thou contribute to his Liberty.</l>
+     </sp>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <l>Oh! most ador'd of Princes, let me kneel, <stage>[kneels.</stage>
+      </l>
+      <l>And bless you for this Supposition only.</l>
+      <l>If ought in me could aid the glorious Work,</l>
+      <l>Tho' 'twere to lance these Veins, and let out Life,</l>
+      <l>If I deny'd, may Heav'n deny my Prayers,</l>
+      <l>When in my last Extremity I make 'em. <stage>[rises.</stage>
+      </l>
+      <l>But oh! I know what 'tis that you would ask,</l>
+      <l>And therefore make the Offer of my self.</l>
+      <l>Hear me, ye Powers, and curse me if I fail,</l>
+      <l>
+       <pb n="40" facs="50"/>
+Whoever gives my dearest Brother Freedom,</l>
+      <l>The holy Priest shall give him <hi>Antimora;</hi>
+      </l>
+      <l>Yes, I am his, and I will love him too,</l>
+      <l>At least, I'm sure I shall not love another.</l>
+     </sp>
+     <sp who="#cardono">
+      <speaker>Card.</speaker>
+      <l>Let Death attend in all those hideous Forms</l>
+      <l>That Tyrants study to afflict Mankind with,</l>
+      <l>I'd rush thro' all for such a glorious Prize;</l>
+      <l>Love and Friendship now surmount all Danger,</l>
+      <l>My Princess, Mistress, and my Friend, are Names</l>
+      <l>That give to Resolution double Strength;</l>
+      <l>Propose the Manner, and conclude it done.</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Behold the Signet of the King, <hi>Cardono;</hi>
+      </l>
+      <l>Tho' how procur'd, imports not you to know;</l>
+      <l>This gives you Admittance to <hi>Lorenzo;</hi>
+      </l>
+      <l>Six trusty Slaves whom I have bought to serve me,</l>
+      <l>All resolutely bold, and bent for Action,</l>
+      <l>Wait without, and ready for the Enterprize:</l>
+      <l>The Officer who guards the Fort this Day,</l>
+      <l>I also have brought over to our Interest;</l>
+      <l>His Soldiers are by this prepar'd with Wine,</l>
+      <l>To let you pass unheeded thro' the Fort;</l>
+      <l>If any others should resist, these Men,</l>
+      <l>At your Command, will soon dispose of them.</l>
+     </sp>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <l>So may you prosper, as your Cause is just,</l>
+      <l>And be rewarded as your Soul desires.</l>
+     </sp>
+     <sp who="#cardono">
+      <speaker>Card.</speaker>
+      <l>Such a Reward would make a Coward brave;</l>
+      <l>But if Success should crown our rising Hopes,</l>
+      <l>Where can <hi>Lorenzo</hi> safely lye conceal'd</l>
+      <l>From the quick-sighted Eye of Power and Malice?</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Below the Postern Gate you'll find a Boat,</l>
+      <l>That ready waits to pass him o'er the <hi>Adige,</hi>
+      </l>
+      <l>Where I have order'd Horses to attend him,</l>
+      <l>By which he may escape to <hi>Rome.</hi>
+      </l>
+     </sp>
+     <sp who="#cardono">
+      <speaker>Card.</speaker>
+      <l>Enough.</l>
+      <l>Now, Madam, Death or <hi>Lorenzo</hi>'s Liberty;</l>
+      <l>Remember, <hi>Antimora,</hi> what you swore. <stage>[Ex. <hi>Cardono.</hi>
+       </stage>
+      </l>
+     </sp>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <l>I do, and will observe it faithfully.</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Look down, ye Angels, with propitious Smiles;</l>
+      <l>You, whose Business 'tis to guard the Innocent</l>
+      <l>Thro' all the Mazes of this treach'rous World,</l>
+      <l>And give a just Account of mortal Actions.</l>
+      <l>
+       <pb n="41" facs="51"/>
+Look down, I say, and bless us with Success,</l>
+      <l>And seal the Vow that here I make before you;</l>
+      <l>That if it e'er shall be my Lot to reign,</l>
+      <l>And fill the Throne of my great Ancestors,</l>
+      <l>Each Year I'll dedicate this Day to Heaven,</l>
+      <l>And all the Realm shall pay its Thanks with me.</l>
+      <l>Religion is the best Support of Power,</l>
+      <l>And honest Men are still its best Defenders.</l>
+     </sp>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <lg>
+       <l>Forgive me, Heaven, if, for my Brother's Sake,</l>
+       <l>I wish she were already on the Throne.</l>
+       <l>How natural is it to prefer those Things</l>
+       <l>That touch us nearly, Spite of Education?</l>
+       <l>For tho' I have been ever taught to love,</l>
+       <l>And pay a strict Obedience to my Sovereign,</l>
+       <l>Yet now I feel that Nature's eldest Law</l>
+       <l>Pleads strongly in me for my Brother's Life:</l>
+       <l>And oh! this Day, if young <hi>Cardono</hi> prospers,</l>
+       <l>I give a fatal Proof of my Affection.</l>
+      </lg>
+      <lg>
+       <l>Now to the Postern, where I'll wait to see</l>
+       <l>What Destiny allots for him and me:</l>
+       <l>If Life, I care not how my Lot is cast,</l>
+       <l>Since all my Joys are in my Brother plac'd;</l>
+       <l>But if a Blank, and Death these Hopes succeed,</l>
+       <l>At once I'm from my Vow, and all my Sorrows freed. <stage>[Exit.</stage>
+       </l>
+      </lg>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <lg>
+       <l>
+        <hi>Lorenzo</hi> is a Pattern for Posterity;</l>
+       <l>It matters not from whence, or whom he sprung,</l>
+       <l>Since he has all that forms the Godlike Hero.</l>
+      </lg>
+      <lg>
+       <l>The Man, tho' ne'er so meanly born in Blood,</l>
+       <l>That, next his Soul, prefers his Country's Good;</l>
+       <l>Who more than Interest, does his Honour prize,</l>
+       <l>And scorns by secret Treachery to rise;</l>
+       <l>That can the base and gilded Bribe disdain,</l>
+       <l>Prevent Reflections on his Prince's Fame,</l>
+       <l>And point out glorious Virtues for his Reign:</l>
+       <l>That Man should be a Monarch's chiefest Care,</l>
+       <l>And none but such should Royal Favours wear. <stage>[Exit.</stage>
+       </l>
+      </lg>
+     </sp>
+    </div>
+    <trailer>
+     <hi>The End of the</hi> Third ACT.</trailer>
+   </div>
+   <div n="4" type="act">
+    <pb n="42" facs="52"/>
+    <head>ACT IV.</head>
+    <stage>Enter <hi>King</hi> and <hi>Antenor.</hi>
+    </stage>
+    <sp who="#king_of_lombardy">
+     <speaker>King.</speaker>
+     <l>INSpite of all my Wrongs, my Anger cools;</l>
+     <l>Nor can I now resolve to let him die;</l>
+     <l>His Father's Merit, melts me into Pity;</l>
+     <l>The Lord <hi>Alcanor</hi> was an honest Statesman,</l>
+     <l>And you must own <hi>Lorenzo</hi> well has serv'd me;</l>
+     <l>Both these plead strongly in a generous Mind.</l>
+    </sp>
+    <sp who="#agonistus">
+     <speaker>Anti.</speaker>
+     <l>Curse on his Services. <stage>[aside.</stage>
+     </l>
+     <l>What says my Royal Master?</l>
+     <l>Does not our Laws pronounce it Treason, Sir,</l>
+     <l>For any Subject who shall dare to wed,</l>
+     <l>And mingle with your Blood, without your Leave?</l>
+    </sp>
+    <sp who="#king_of_lombardy">
+     <speaker>King.</speaker>
+     <l>Thou should'st not urge this hated Theme, <hi>Antenor;</hi>
+     </l>
+     <l>Thou may'st remember 'twas thy own Ambition.</l>
+    </sp>
+    <sp who="#learchus">
+     <speaker>Ante.</speaker>
+     <l>I do, with Shame, remember it; yet sure</l>
+     <l>The Diff'rence of the Guilt is vastly great.</l>
+     <l>I humbly ask'd, and much repented for it;</l>
+     <l>He seiz'd the Prize, and never ask'd at all;</l>
+     <l>And glories in the Theft; nay, braves you too;</l>
+     <l>Nor once petitions for his Life or Freedom.</l>
+    </sp>
+    <sp who="#king_of_lombardy">
+     <speaker>King.</speaker>
+     <l>The Present will from me be greater then;</l>
+     <l>Mistake me not, I shall not pardon him;</l>
+     <l>No, he shall live an Exile, far from hence,</l>
+     <l>And never see my <hi>Leonora</hi> more:</l>
+     <l>That, to a Lover's Punishment enough.</l>
+    </sp>
+    <sp who="#learchus">
+     <speaker>Ante.</speaker>
+     <l>Think but on the Consequence of Banishment;</l>
+     <l>
+      <pb n="43" facs="53"/>
+When Nature's Law shall summon you away,</l>
+     <l>Who then shall wear your Crown, but <hi>Leonora?</hi>
+     </l>
+     <l>Think you not then she will recal her Husband?</l>
+     <l>Yes, sure, she will, and make him Partner with her.</l>
+     <l>Oh, Royal Sir! consult your Subjects Safety;</l>
+     <l>For sure that Day must fatal be to <hi>Lombardy.</hi>
+     </l>
+     <l>What strong Alliance can be form'd by him,</l>
+     <l>That is not purchas'd with our Laws and Treasure?</l>
+    </sp>
+    <sp who="#king_of_lombardy">
+     <speaker>King.</speaker>
+     <l>Dismiss your Fears, for I'll dissolve the Marriage,</l>
+     <l>And give her to a Prince that shall defend ye.</l>
+    </sp>
+    <stage>Enter <hi>Agonistus.</hi>
+    </stage>
+    <sp who="#agonistus">
+     <speaker>Agonistus!</speaker>
+     <l>why such Confusion in thy Looks?</l>
+    </sp>
+    <sp who="#duke_of_milan">
+     <speaker>Ago.</speaker>
+     <l>O pardon, mighty Sir, the News I bring;</l>
+     <l>
+      <hi>Cardono,</hi> by your Signet, was admitted</l>
+     <l>To pay his Visit to the Lord <hi>Lorenzo.</hi>
+     </l>
+    </sp>
+    <sp who="#king_of_lombardy">
+     <speaker>King.</speaker>
+     <l>Ha! say'st thou! by my Signet! But go on.</l>
+    </sp>
+    <sp who="#duke_of_milan">
+     <speaker>Ago.</speaker>
+     <l>Accompany'd by six-Men in Livery,</l>
+     <l>One of which being tall, and well proportion'd,</l>
+     <l>
+      <hi>Lorenzo</hi> quickly chang'd his Habit with him.</l>
+    </sp>
+    <sp who="#king_of_lombardy">
+     <speaker>King.</speaker>
+     <l>Ha! and did he escape?</l>
+    </sp>
+    <sp who="#learchus">
+     <speaker>Ante.</speaker>
+     <l>Answer the King that Question instantly.</l>
+     <l>Oh! Vengeance! Vengeance! have I lost thee? <stage>[aside.</stage>
+     </l>
+    </sp>
+    <sp who="#duke_of_milan">
+     <speaker>Ago.</speaker>
+     <l>I know not, Sir, what happen'd since I came;</l>
+     <l>
+      <hi>Cardono</hi> seeing him that kept the Door,</l>
+     <l>Too curiously observe <hi>Lorenzo,</hi> stabb'd him;</l>
+     <l>When soon his Shrieks alarm'd your Son, my Lord,</l>
+     <l>Who call'd the Guards, but not a Man would stir:</l>
+     <l>Some slept so soundly, that we could not 'wake 'em;</l>
+     <l>Whilst others swore they'd set the General free.</l>
+     <l>'Twas thus! when brave <hi>Learchus</hi> bad me haste</l>
+     <l>To tell your Majesty, and beg Assistance.</l>
+    </sp>
+    <sp who="#learchus">
+     <speaker>Ante.</speaker>
+     <l>Oh monst'rous! unheard of Treachery!</l>
+    </sp>
+    <sp who="#king_of_lombardy">
+     <speaker>King.</speaker>
+     <l>Fly, take our Guards,</l>
+     <l>And crush this infant Treason in its Birth: <stage>Ex. <hi>Ago.</hi>
+      </stage>
+     </l>
+     <l>What! durst <hi>Cardono</hi> cross our Royal Will,</l>
+     <l>And stir our Soldiers to rebel against us?</l>
+    </sp>
+    <sp who="#learchus">
+     <speaker>Ante.</speaker>
+     <l>Well had it been, yes, wond'rous well for Man,</l>
+     <l>If Nature ne'er had form'd his Female Mate;</l>
+     <l>Love Poisons oftner than it gives us Joy.</l>
+    </sp>
+    <sp who="#king_of_lombardy">
+     <speaker>King.</speaker>
+     <l>Curse on the fond, deceitful, softning Passion!</l>
+     <l>
+      <pb n="44" facs="54"/>
+How glorious had my <hi>Leonora</hi> stood,</l>
+     <l>But for bewitching and destructive Love,</l>
+     <l>Which chills, and quite enervates all it reaches!</l>
+     <stage>Enter <hi>Captain.</hi>
+     </stage>
+     <l>How now! what News bringest thou?</l>
+    </sp>
+    <sp who="#captain">
+     <speaker>Capt.</speaker>
+     <l>The dronish Citizens pretend to arm,</l>
+     <l>And gathering Crowds, fill all the Streets with Noise,</l>
+     <l>And cry aloud, Death, or <hi>Lorenzo</hi>'s Freedom.</l>
+    </sp>
+    <sp who="#king_of_lombardy">
+     <speaker>King.</speaker>
+     <l>Let them go on! yes, let the Slaves aspire</l>
+     <l>To seize my Crown, and make <hi>Lorenzo</hi> King:</l>
+     <l>But they shall find I was not born to fear;</l>
+     <l>No, cou'd the Villains animate like Heat,</l>
+     <l>And ev'ry Breath produce whole Legions arm'd,</l>
+     <l>My Soul would dart a Fire thro' my Eyes,</l>
+     <l>That shou'd to Ashes turn the new-born Traytors.</l>
+     <l>I'll to the City strait, and face these Rebels.</l>
+    </sp>
+    <sp who="#learchus">
+     <speaker>Ante.</speaker>
+     <l>Not for the Universe.</l>
+     <l>Can such a Cause be worthy of your Arms?</l>
+     <l>No, when base <hi>Plebeans</hi> offer to rebel,</l>
+     <l>Whips and Chains should bring them back to Duty;</l>
+     <l>Whilst Majesty, serenely unconcern'd,</l>
+     <l>Beholds the Traytor's Fate.</l>
+    </sp>
+    <sp who="#king_of_lombardy">
+     <speaker>King.</speaker>
+     <l>Have I for this with Toil and Care secur'd</l>
+     <l>Freedom and ev'ry Thing that's dear unto them?</l>
+     <l>And do th' ingrateful Wretches thus repay me?</l>
+     <l>But I will teach them what they owe their King,</l>
+     <l>And sweep the bold Conspirators from Earth.</l>
+    </sp>
+    <sp who="#learchus">
+     <speaker>Ante.</speaker>
+     <l>Rebellions in their Infancy are quell'd,</l>
+     <l>And to Obedience soon reduc'd with Ease;</l>
+     <l>Lop but the Head, the rest will soon disperse;</l>
+     <l>The giddy Pop'lace are in Ignorance led,</l>
+     <l>And all unskill'd in what they undertake;</l>
+     <l>When once the faithful, loyal Sword is drawn,</l>
+     <l>They drive, like idle Dust, before the Wind.</l>
+     <l>Now is your Time to fix your Sway unbounded;</l>
+     <l>The Godlike Rule, and Right of ev'ry King;</l>
+     <l>Let all those pop'lar Heads, that cry for Liberty,</l>
+     <l>Whose Aim has been to curb the Power of Princes,</l>
+     <l>Be term'd Abettors of <hi>Lorenzo</hi>'s Treason,</l>
+     <l>And rid you of a factious Crew at once.</l>
+    </sp>
+    <sp who="#king_of_lombardy">
+     <speaker>King.</speaker>
+     <l>Thou prompt'st me well, thou Oracle of Rule;</l>
+     <l>
+      <pb n="45" facs="55"/>
+Mercy ill suits with such a vip'rous Brood. <stage>[Trumpets and a Shout without.</stage>
+     </l>
+     <stage>Enter <hi>Agonistus.</hi>
+     </stage>
+     <l>Welcome; this Shout betokens thou ha'st conquer'd.</l>
+    </sp>
+    <sp who="#duke_of_milan">
+     <speaker>Ago.</speaker>
+     <l>We have, great Sir;</l>
+     <l>
+      <hi>Lorenzo</hi> is secure, his Friends all seiz'd;</l>
+     <l>His Sister <hi>Antimora</hi> too we found</l>
+     <l>Near to the Postern, full of Expectation;</l>
+     <l>Her Words betray'd her of the Party.</l>
+    </sp>
+    <sp who="#king_of_lombardy">
+     <speaker>King.</speaker>
+     <l>To Prison with them all; thy Message gives</l>
+     <l>Thy King new Life, my <hi>Agonistus.</hi>
+     </l>
+    </sp>
+    <sp who="#learchus">
+     <speaker>Ante.</speaker>
+     <l>It is not safe for you to spare one Man;</l>
+     <l>Nay, ev'n the Traytor Sister ought to die:</l>
+     <l>What, durst a Woman 'midst the Rout appear,</l>
+     <l>T' inflame the Mob, and countenance Rebellion?</l>
+     <l>Let her too share her Brother's Fate, great Sir,</l>
+     <l>And crush at once the vile insidious Race.</l>
+    </sp>
+    <sp who="#king_of_lombardy">
+     <speaker>King.</speaker>
+     <l>Yes, my Inciter to Revenge, she shall;</l>
+     <l>She shall be punish'd for the heinous Fault;</l>
+     <l>But we will think of her hereafter.</l>
+    </sp>
+    <sp who="#learchus">
+     <speaker>Ante.</speaker>
+     <l>Ha! hereafter.</l>
+     <l>No, I resolve to make sure Work on't now;</l>
+     <l>Now, whilst Fortune sets Revenge before me. <stage>[aside.</stage>
+     </l>
+    </sp>
+    <sp who="#king_of_lombardy">
+     <speaker>King.</speaker>
+     <l>Haste thou, <hi>Antenor,</hi> and draw out our Soldiers;</l>
+     <l>March them with Speed to this rebellious City.</l>
+     <l>Proclaim all Traytors that you find in Arms;</l>
+     <l>And those who shall refuse to lay them down,</l>
+     <l>Discharge the Fury of our Cannon on 'em.</l>
+    </sp>
+    <sp who="#learchus">
+     <speaker>Ante.</speaker>
+     <l>Great Sir, I will; but first let me intreat</l>
+     <l>To have the Pris'oners instantly dispatch'd:</l>
+     <l>'Tis Policy to let their Deaths be sudden.</l>
+     <l>
+      <hi>Lorenzo</hi> dead, Rebellion soon will die.</l>
+    </sp>
+    <sp who="#king_of_lombardy">
+     <speaker>King.</speaker>
+     <l>It shall be done; thou counsell'st well, <hi>Antenor;</hi>
+     </l>
+     <l>I've now no more Remorse, <hi>Lorenzo</hi> dies;</l>
+     <l>Yes, I will crush this vile infectious Root,</l>
+     <l>And so prevent the Growth of future Branches.</l>
+     <l>Haste, <hi>Agonistus;</hi> with this Signet haste,</l>
+     <l>And tell <hi>Learchus</hi> 'tis our instant Pleasure,</l>
+     <l>That all th' Abettors of <hi>Lorenzo</hi>'s Treason,</l>
+     <l>Do suffer in the common Road of Justice.</l>
+     <l>
+      <pb n="46" facs="56"/>
+But let not him by Axe or Wheel expire;</l>
+     <l>My boundless Wrongs do boundless Rage inspire:</l>
+     <l>But rip his Breast, and to our Daughter bear</l>
+     <l>His HEART, just panting with a Lover's Fear.</l>
+     <l>Tell her, from me the much-lov'd PRESENT came;</l>
+     <l>The Part in which she treasur'd all her Fame:</l>
+     <l>Bid her to that repeat her guilty Vows;</l>
+     <l>'Tis all the Comfort that her Crime allows. <stage>[Exit.</stage>
+     </l>
+    </sp>
+    <sp who="#learchus">
+     <speaker>Ante.</speaker>
+     <l>Bear to our Son these Orders, <hi>Agonistus;</hi>
+     </l>
+     <l>Charge him to see them executed strait.</l>
+     <l>Captain, a Word— <stage>[Exit. <hi>Agonistus.</hi>
+      </stage>
+     </l>
+     <l>You are no Stranger to my Son's fond Passion</l>
+     <l>For this vile Trayt'ress, <hi>Antimora;</hi>
+     </l>
+     <l>And lest for Love he should betray his Duty,</l>
+     <l>And save his Minion from the destin'd Stroke,</l>
+     <l>Haste thou, and say it was the King's Command</l>
+     <l>The Lady shou'd be Pris'ner kept with thee;</l>
+     <l>And, when she's in thy Power, dispatch her.</l>
+    </sp>
+    <sp who="#captain">
+     <speaker>Capt.</speaker>
+     <l>It shall be done, my Lord. <stage>[Exit.</stage>
+     </l>
+    </sp>
+    <sp who="#learchus">
+     <speaker>Ante.</speaker>
+     <l>Oh the exulting Joy of great Revenge!</l>
+     <l>This Moment gives me more substantial Pleasure,</l>
+     <l>Than all the Years I in a Court have pass'd.</l>
+     <l>Now all my noble Ancestors look down,</l>
+     <l>And aid with Smiles this mighty Undertaking.</l>
+     <l>'Tis worthy of that Enmity you bore,</l>
+     <l>That I at once involve the hateful Race,</l>
+     <l>And crown my Wishes in the Sister's Fall.</l>
+     <l>How I applaud my self for this brave Deed,</l>
+     <l>My Foes confounded, and <hi>Learchus</hi> freed,</l>
+     <l>From guilty Love, to Empire shall succeed. <stage>[Exit.</stage>
+     </l>
+    </sp>
+    <div type="scene">
+     <head>
+      <stage>SCENE changes to a <hi>Prison.</hi>
+      </stage>
+     </head>
+     <stage>
+      <hi>Lorenzo</hi> bound, meeting <hi>Cardono</hi> wounded.</stage>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>Alas! <hi>Cardono</hi> wounded! Oh, my Friend!</l>
+      <l>Oh, wherefore would'st thou be so kindly cruel,</l>
+      <l>To interpose thy friendly Offices</l>
+      <l>
+       <pb n="47" facs="57"/>
+Between a Monarch's Power, and my sad Fate?</l>
+      <l>Thy Rashness has undone thee.</l>
+     </sp>
+     <sp who="#cardono">
+      <speaker>Card.</speaker>
+      <l>Call it not Rashness—</l>
+      <l>Our Souls in Friendship's Bonds are link'd so strongly,</l>
+      <l>Our Bodies needs must share each other's Fate:</l>
+      <l>But oh! see who comes here; this killing Sight</l>
+      <l>Unmaus thy Friend, and sinks him into Woman.</l>
+     </sp>
+     <stage>Enter <hi>Antimora.</hi>
+     </stage>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>Ha! art thou come t' insult our Misery?</l>
+      <l>Hast thou obtain'd from thy <hi>Learchus</hi> Leave</l>
+      <l>To glut thy Eyes with Vengeance on his Rival?</l>
+     </sp>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <l>Oh, my dear Brother! cease to upbraid me;</l>
+      <l>I own the Justice of offended Heaven,</l>
+      <l>And hate my self sor disobeying you.</l>
+      <l>Thus on my Knees I beg you to sorget <stage>[kneels.</stage>
+      </l>
+      <l>The former Weakness of your mourning Sister,</l>
+      <l>And with this fav'rite Youth, this bleeding Friend,</l>
+      <l>Employ your best perswasive Eloquence</l>
+      <l>To gain his Pardon; for these Wounds he wears,</l>
+      <l>(Oh fatal Accident!) were given by me.</l>
+      <l>To save your Life, I left no Means untry'd,</l>
+      <l>Which made me rashly swear to wed the Man</l>
+      <l>That shou'd from Death preserve and set you free:</l>
+      <l>
+       <hi>Cardono</hi>'s Love unthinkingly obey'd me.</l>
+     </sp>
+     <sp who="#cardono">
+      <speaker>Card.</speaker>
+      <l>Do not repent the first Command you gave me, <stage>[raises her.</stage>
+      </l>
+      <l>Such a Command that Love can witness for me,</l>
+      <l>I never once regretted; I obey'd:</l>
+      <l>To make thee mine, and free my Friend, I fought;</l>
+      <l>Two the most pow'rful Reasons Man can give.</l>
+      <l>Oh! had the Enterprize but met Success,</l>
+      <l>I shou'd have glory'd in this Action more,</l>
+      <l>Than when I drove my Foes in Fight before me;</l>
+      <l>The rich Reward for which I drew my Sword,</l>
+      <l>Will justify the Act to ev'ry Lover.</l>
+      <l>Yes, <hi>Antimora</hi> by those Eyes, I swear,</l>
+      <l>Had Fortune made thee mine but one short Night,</l>
+      <l>And Death with Torments waited in the Morning,</l>
+      <l>I'd live an Age in that small Space of Time,</l>
+      <l>And meet my Fate with more than Manly Courage.</l>
+      <l>The Memory of thy Charms had so transported me,</l>
+      <l>
+       <pb n="48" facs="58"/>
+My Soul had soar'd in Extasy of Bliss,</l>
+      <l>To you, bright Heav'n, insensible of Pain.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>Oh, <hi>Antimora!</hi>
+      </l>
+      <l>Thy fickle Sex is ever in Extreams;</l>
+      <l>How much thy Folly over-weigh'd Affection,</l>
+      <l>When last I press'd thee to accept this Youth!</l>
+      <l>Tho' thou didst know him dear to me as Life;</l>
+      <l>Yet now, when Passion, and the Woman work'd,</l>
+      <l>Thou offer'd up thy self, alas! my Sister.</l>
+      <l>'Tho' I confess the Proof is wond'rous great,</l>
+      <l>Which here thou giv'st of thy Affection to me;</l>
+      <l>Yet must I tell thee 'twas misguided Zeal,</l>
+      <l>That taught thee rashly to ensnare my Friend.</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Oh, <hi>Lorenzo!</hi> cease, I beg thee, cease;</l>
+      <l>Upbraid no more the dear, the trembling Maid,</l>
+      <l>Whom I am bound to bless for what she did;</l>
+      <l>Since, if it be thy Destiny to fall,</l>
+      <l>I wou'd not live behind thee.</l>
+     </sp>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <l>I cannot blame you for your chiding me;</l>
+      <l>And I should merit more Reproaches still,</l>
+      <l>Were not my Chains of equal Weight with yours;</l>
+      <l>And now perhaps the fatal Order's given</l>
+      <l>To cut us off together.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>
+       <hi>Learchus</hi> surely will be kind to thee,</l>
+      <l>And save thee from the fatal Stroke.</l>
+     </sp>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <l>Oh! do not think I have a Soul so mean,</l>
+      <l>To live by him who gives my Brother Death.</l>
+      <l>'Tho I confess I love <hi>Learchus</hi> more</l>
+      <l>Than weary Pilgrims Rest, or Martyrs Heaven;</l>
+      <l>Yet sooner wou'd I breathe infectious Air,</l>
+      <l>Which bring Diseases, loathsome to behold,</l>
+      <l>Than owe my Life to him when thou art gone.</l>
+     </sp>
+     <stage>Enter <hi>Captain.</hi>
+     </stage>
+     <sp who="#captain">
+      <speaker>Capt.</speaker>
+      <l>Madam, you might have spar'd those Protestations,</l>
+      <l>Since 'tis the Will of Majesty to cross</l>
+      <l>All the fond Hopes <hi>Learchus</hi> ever had,</l>
+      <l>And leaves his Wishes widow'd in Despair;</l>
+      <l>For you must die.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>Oh! inexorable Heaven! cursed <hi>Antenor,</hi>
+      </l>
+      <l>At once thy Malice reaches all that's dear,</l>
+      <l>
+       <pb n="49" facs="59"/>
+And doubles ev'ry Pang of Death upon me.</l>
+     </sp>
+     <sp who="#captain">
+      <speaker>Capt.</speaker>
+      <l>Guards, take hence this Lady.</l>
+     </sp>
+     <sp who="#cardono">
+      <speaker>Card.</speaker>
+      <l>Villains forbear! where's <hi>Learchus?</hi> where's now</l>
+      <l>His boasted Passion for this lovely Maid?</l>
+      <l>Can he be tame, and see his Mistress die?</l>
+      <l>Art thou the Screech-Owl, that proclaims her Fate?</l>
+      <l>Had I a Sword, I'd send thy canker'd Soul,</l>
+      <l>The Harbinger of her's, in Death.</l>
+     </sp>
+     <sp who="#captain">
+      <speaker>Capt.</speaker>
+      <l>Yours, my Lord, will do that Office better,</l>
+      <l>Since the same Sentence waits on you.</l>
+     </sp>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <l>Oh, forgive me! me, the unhappy Cause;</l>
+      <l>And, Captain, one Request I have to you. <stage>[runs to the Captain.</stage>
+      </l>
+      <l>Haste to <hi>Learchus;</hi> I conjure you fly,</l>
+      <l>And beg him strait, by all our former Kindness,</l>
+      <l>To interpose between this Youth and Death,</l>
+      <l>And wreak his Father's Malice all on me.</l>
+     </sp>
+     <sp who="#cardono">
+      <speaker>Card.</speaker>
+      <l>I scorn to take a wretched Life from him;</l>
+      <l>One parting Kiss, to wing my fleeting Soul,</l>
+      <l>And bear it upwards to the Bless'd above;</l>
+      <l>'Tis all the Recompence I'll ask thee now. <stage>[kisses her.</stage>
+      </l>
+     </sp>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <l>Oh! 'tis a poor Reward for Loss of Life;</l>
+      <l>My Heart will burst with this Excess of Woe,</l>
+      <l>And spare the Trouble of an Executioner.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>O Heaven! hast thou in all thy Store of Curses,</l>
+      <l>Pains more acute for Man; than what I feel?</l>
+      <l>Yet I would suffer more, if more cou'd be,</l>
+      <l>So that my Sister and my Friend might live.</l>
+      <l>Let me embrace my Part'ners in Misfortune,</l>
+      <l>And gather ye to me, as the feather'd Kind</l>
+      <l>Gather their young Ones at th' Approach of Danger:</l>
+      <l>Like them defend you too while I am able,</l>
+      <l>'Till press'd with Odds, and overpower'd with Strength,</l>
+      <l>To cruel Vultures fall a Prey together, <stage>[all three embrace.</stage>
+      </l>
+     </sp>
+     <sp who="#captain">
+      <speaker>Capt.</speaker>
+      <l>I must obey my Orders; Guards, force her hence. <stage>[they lay hold of her.</stage>
+      </l>
+     </sp>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <lg>
+       <l>May'nt we have Leave at least to die together?</l>
+       <l>Oh! cruel Wretches, why d'ye pull me so? <stage>[She holds <hi>Lorenzo</hi> and <hi>Cardono,</hi> and struggles.</stage>
+       </l>
+       <l>Take me not from the Sight of this bless'd Pair;</l>
+       <l>
+        <pb n="50" facs="60"/>
+Oh! let my Eyes pursue these faithful Objects,</l>
+       <l>'Till we set in Death together! But oh!</l>
+       <l>Their Strength prevails, and I must loose you both.</l>
+      </lg>
+      <lg>
+       <l>So when rising Floods—</l>
+       <l>Bear from some Rock, in Secret where they lay,</l>
+       <l>The <hi>Haleyon</hi>'s Nest and all her Brood away,</l>
+       <l>The careful Mother hovers as they glide,</l>
+       <l>Hangs on the Wing, and flutters with the Tide;</l>
+       <l>'Till at the last the Waves invading creep,</l>
+       <l>Fill her frail House, and sink it in the Deep,</l>
+       <l>With one shrill Note she Shrieks her last Despair,</l>
+       <l>Starts from the Sight, and flits away in Air. <stage>[Exit torn of.</stage>
+       </l>
+      </lg>
+     </sp>
+     <sp who="#cardono">
+      <speaker>Card.</speaker>
+      <l>Oh, my sick Soul!</l>
+     </sp>
+     <stage>Enter on the other Side, <hi>Learchus, Agonistus,</hi> and Guards.</stage>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>Tortures worse than Death—</l>
+      <l>I ne'er expected ought to thank thee for; <stage>[seeing <hi>Learchus.</hi>
+       </stage>
+      </l>
+      <l>But find, <hi>Learchus,</hi> I am now mistaken.</l>
+      <l>I own the Favour of the highest Kind,</l>
+      <l>That thou to Death resigns my Sister up,</l>
+      <l>Whose cold Embrace more glorious is than thine.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Ha.! <stage>[Whispers to <hi>Agonistus,</hi> who Exit.</stage>
+      </l>
+      <l>Guards, execute your Orders; but a while</l>
+      <l>Leave this my mortal Enemy with me.</l>
+     </sp>
+     <sp who="#cardono">
+      <speaker>Card.</speaker>
+      <l>Farewell, my Friend, an active Life is done, <stage>[they seize <hi>Cardono.</hi>
+       </stage>
+      </l>
+      <l>And I remove to Indolence and Ease,</l>
+      <l>Where, if no Thought of thee and <hi>Antimora</hi>
+      </l>
+      <l>Have Power to invade beyond this Life,</l>
+      <l>I shall be much more happy in the Grave.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>If in the other World Souls have a Knowledge,</l>
+      <l>Soon we shall meet, and there enjoy each other.</l>
+      <l>My Heart, like thine's, with double Sorrows torn;</l>
+      <l>Each Part's so great, it strikes the other dumb.</l>
+     </sp>
+     <sp who="#cardono">
+      <speaker>Card.</speaker>
+      <l>Now lead me to that dreaded Nothing, Death;</l>
+      <l>From whence the King, that cuts me off in Youth,</l>
+      <l>Cannot by Crowns and Empires free himself.</l>
+      <l>What, tho' he measures yet some rowling Years,</l>
+      <l>And dies on downy Beds set round with Slaves,</l>
+      <l>
+       <pb n="51" facs="61"/>
+Within the Grave the Worms know no Distinction.</l>
+      <l>But hear me, Heav'n, let no Distress befal him;</l>
+      <l>May he ne'er want thy faithful Arm, <hi>Lorenzo,</hi>
+      </l>
+      <l>Lest, when he thinks upon thy many Conquests,</l>
+      <l>He should too late repent thy hasty End:</l>
+      <l>Once more farewell. <stage>[Exit guarded;</stage>
+      </l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>A thousand Angels catch thy parting Soul,</l>
+      <l>And bear it up to their bless'd Seats above.</l>
+      <l>My Spirits faint beneath this Load of Misery,</l>
+      <l>And long to lay the heavy Burden down.</l>
+      <l>Why dost thou keep me here, insulting Man?</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>To satisfy my self, if Fame be true,</l>
+      <l>That thou art Master of superior Virtues.</l>
+      <l>Me thou hast held at hatesul Distance still,</l>
+      <l>And robb'd my Soul of what it most desir'd,</l>
+      <l>Its fondest Wish, my <hi>Antimora</hi>'s Love.</l>
+      <l>Then tell me now, by Honour I conjure thee,</l>
+      <l>In what <hi>Cardono</hi> merited above me?</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>Do not profane his Name; I charge thee, do not;</l>
+      <l>Is there Comparison 'twixt him and thee?</l>
+      <l>
+       <hi>Antenor</hi> was not Father to <hi>Cardono.</hi>
+      </l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Unmanly dost thou urge my Father's Faulte,</l>
+      <l>And most unjustly charge his Crimes on me.</l>
+      <l>I oft have wish'd our Houses Hate compos'd,</l>
+      <l>And us'd Endeavours to have heal'd the Breach;</l>
+      <l>But thou didst still deny the Means to do it.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>This is no Time to talk of past Designs;</l>
+      <l>Nor will I hold Discourse of ought with thee.</l>
+      <l>My Thoughts are fix'd on nobler Subjects far;</l>
+      <l>My beauteous Wise, my <hi>Leonora</hi> now,</l>
+      <l>And vast Eternity fill all my Mind.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Thy Wife! hast thou then wedded <hi>Leonora?</hi>
+      </l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>I have; there I will answer thee with Pleasure;</l>
+      <l>Of what I have possess'd, you can't deprive me.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Oh! why am I to bear this hateful Message?</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>What Message is my Wife to hear from thee,</l>
+      <l>To make thee Sigh? it must be dreadful sure.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Dreadful it is, and staggers Nature in me;</l>
+      <l>Tho' thou dost think me savage and remorseless,</l>
+      <l>Yet I do tremble at the horrid Charge:</l>
+      <l>Read there the Manuer of thy <hi>Death,</hi> and where</l>
+      <l>
+       <pb n="52" facs="62"/>
+Thy faithful <hi>Heart</hi> must be dispos'd off. <stage>[gives him a Paper.</stage>
+      </l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>Oh, rich Repository for the <hi>Heart!</hi>
+      </l>
+      <l>That knows no Bliss beyond her virtuous Bosom.</l>
+      <l>By all the Charms of <hi>Leonora</hi>'s Person;</l>
+      <l>By all those Joys I've tasted in her Arms,</l>
+      <l>There's Height of Pleasure in the harsh Decree;</l>
+      <l>Nor does my Nature feel one Pang for this:</l>
+      <l>But how she'll bear it, Heav'n can only know.</l>
+      <l>My Soul for her is touch'd with mighty Anguish;</l>
+      <l>And thus forgetting all my Hate and Wrongs,</l>
+      <l>I bend my Knee in Supplication down.</l>
+      <l>Since thou'rt to be the Harbinger of Fate,</l>
+      <l>Touch her, oh! gently touch her with my Fate,</l>
+      <l>And say Death stole upon me unawares,</l>
+      <l>And laid me down without a dying Groan,</l>
+      <l>Whilst my last Words were, <hi>Love</hi> and <hi>Leonora.</hi>
+      </l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Rise, my Lord.</l>
+      <l>Tho' you regard me as your mortal Foe,</l>
+      <l>Yet will I discharge this Trust most faithfully,</l>
+      <l>Or any other you'll repose in me;</l>
+      <l>And pray believe, that if my Power cou'd save you,</l>
+      <l>You should not ask in vain.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>I thank you, Sir; but Life I would not ask of thee;</l>
+      <l>But when thou dost present her with my <hi>Heart,</hi>
+      </l>
+      <l>Tell her it was her Husband's last Request</l>
+      <l>She wou'd not grieve, nor vent one Groan for <hi>me,</hi>
+      </l>
+      <l>Least the dear Accent of her Voice o'ertake</l>
+      <l>My Soul, and draw it downward from Angelick Rest.</l>
+      <l>Yet one Thing more, if thou'lt vouchsafe to do it.</l>
+      <l>Close by the Grove that joins the Royal Bower,</l>
+      <l>Within a lonely Cell an Hermit lives,</l>
+      <l>Whose holy Function sanctify'd our Loves.</l>
+      <l>I Yesterday receiv'd this Packet from him,</l>
+      <l>With strict Injunction to deliver it</l>
+      <l>When next I was in Private with the King.</l>
+      <l>What it imports, I know not; but the Man</l>
+      <l>Is greatly good, and was my Father's Friend;</l>
+      <l>To whom his latest Words commended me,</l>
+      <l>And bad me pay the self same Duty there,</l>
+      <l>That from my Infancy I'd paid to him.</l>
+      <l>
+       <pb n="53" facs="63"/>
+Return these Papers back, I humbly pray thee,</l>
+      <l>And say, I beg, that, for my Soul's Repose,</l>
+      <l>He wou'd send up his pious Pray'rs to Heaven,</l>
+      <l>If Nature so permit <hi>Antenor</hi>'s Son.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Still, wo't thou still repeat <hi>Antenor</hi>'s Son?</l>
+      <l>Were I that Monster which thy Hate has sorm'd,</l>
+      <l>I shou'd rejoyce to see thee fall with Shame;</l>
+      <l>But all the Powers above can witness for me,</l>
+      <l>With deep Concern I execute this Order.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <lg>
+       <l>Pardon me;</l>
+       <l>His Name is always upwards in my Thoughts,</l>
+       <l>And thence 'tis utter'd by my Tongue unheedingly;</l>
+       <l>But I forgive, and wish I could forget him:</l>
+       <l>Forget by whom my Glories all are sully'd;</l>
+       <l>My Death conspir'd, and all my Pleasures ended.</l>
+      </lg>
+      <lg>
+       <l>Fain I in Peace wou'd Life's Remains employ,</l>
+       <l>And as I bravely liv'd, wou'd bravely die.</l>
+       <l>Beyond the Grave no Enemy can come,</l>
+       <l>And I shall rest at Quiet in my Tomb.</l>
+       <l>Death is a Debt we all to Nature owe,</l>
+       <l>No Matter then how soon or late we go:</l>
+       <l>But dying well, is what we should propose,</l>
+       <l>And leave to Heaven the Vengeance on our Foes. <stage>[Exeunt.</stage>
+       </l>
+      </lg>
+     </sp>
+    </div>
+    <trailer>
+     <hi>The End of the</hi> Fourth ACT.</trailer>
+   </div>
+   <div n="5" type="act">
+    <pb n="54" facs="64"/>
+    <head>ACT V.</head>
+    <div type="scene">
+     <head>
+      <stage>The SCENE draws, and discovers <hi>Leonora</hi> sitting on a Couch, her Women weeping round: her.</stage>
+     </head>
+     <sp who="#leonora">
+      <speaker>LEONORA.</speaker>
+      <l>WHY do you weep? why do those Fountains flow?</l>
+      <l>Whilst I, for whom this mighty Grief is shown,</l>
+      <l>Have not one Tear to mingle with your Sorrows.</l>
+      <l>Leave this unprevailing Source of Woe, begone;</l>
+      <l>Eternally your Mistress bids adieu;</l>
+      <l>And thou, <hi>Verona,</hi> Mistress of this Kingdom,</l>
+      <l>Whose crouded Streets with Acclamations rung,</l>
+      <l>When e'er I deign'd to grace 'em with my Presence,</l>
+      <l>Prepare thy sable Weeds to mourn me now;</l>
+      <l>For the next Sight which draws thy People forth,</l>
+      <l>Will be the Obsequies of <hi>Leonora.</hi>
+      </l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Lady.</speaker>
+      <l>Oh! who unmov'd can see your great Distress,</l>
+      <l>And yet refrain from weeping?</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Cou'd you, like <hi>Niobe,</hi> express Concern,</l>
+      <l>And into weeping Marble be transform'd,</l>
+      <l>You cou'd not add one Grain of Ease to me.</l>
+      <l>Go then, and let my Fame be all your Care,</l>
+      <l>That when this wretched Body is no more,</l>
+      <l>No Calumny may rest upon my Name.</l>
+      <l>My Lord <hi>Lorenzo,</hi> my renowned Husband;</l>
+      <l>Yes, I'll proclaim in Publick to the World,</l>
+      <l>That he's my Dear, my faithful wedded Husband;</l>
+      <l>For his great Soul's adorn'd with Kingly Virtues.</l>
+      <l>Away, deluded Thoughts of what has been;</l>
+      <l>
+       <pb n="55" facs="65"/>
+For oh! alas! I fear he is no more.</l>
+      <l>Both Courage, Prudence, Fortitude, and Love,</l>
+      <l>Center'd in him, and Honour kept the Guard;</l>
+      <l>And this—deliver to Posterity,</l>
+      <l>I glory more i'th' Title of his Wife,</l>
+      <l>Than that of Princess, Daughter to a King;</l>
+      <l>Nay, more than of that Crown my Father wears.</l>
+     </sp>
+     <stage>Enter <hi>Page.</hi>
+     </stage>
+     <sp who="#duke_of_milan">
+      <speaker>Page.</speaker>
+      <l>Madam, the Lord <hi>Learchus</hi> craves Admittance;</l>
+      <l>He says he brings a Message from the King.</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Admit him then, what e'er his Business be;</l>
+      <l>The jarring Passions of my Soul are hush'd,</l>
+      <l>And ev'ry warring Faculty is calm;</l>
+      <l>The King and Fate can shock my Peace no more.</l>
+     </sp>
+     <stage>Enter <hi>Learchus</hi> in Mourning, and one following him with a <hi>Cup.</hi>
+     </stage>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Before my Tongue disclose the fatal Message,</l>
+      <l>That will, I fear, unhinge your Reason quite,</l>
+      <l>Oh! let me kneel, and in this humble Posture,</l>
+      <l>Obtain your Royal Pardon, for obeying</l>
+      <l>The fatal Orders of the King your Father.</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Rise, my Lord, and speak your Message.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Oh that it were not to be spoke by me.</l>
+      <l>
+       <hi>Lorenzo</hi> is—</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Dead! There I help'd you forward—Why, 'tis well;</l>
+      <l>You see I faint not; then proceed, I pray,</l>
+      <l>Tell me, come tell me how my Husband fell;</l>
+      <l>For all my Senses are to Hearing turn'd,</l>
+      <l>And I can listen to the fatal Tale:</l>
+      <l>But thou'rt his Foe, and will not do him Justice,</l>
+      <l>Nor speak the mournful Message of his Love.</l>
+      <l>Thou com'st to triumph o'er my endless Grief,</l>
+      <l>And satiate thy inveterate Hate on me.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>This Task, this hateful Task, was not my Choice,</l>
+      <l>But forc'd upon me by the King my Master:</l>
+      <l>Yet when I wrong <hi>Lorenzo</hi>'s Memory,</l>
+      <l>May Truth forsake my Soul, and Speech my Tongue;</l>
+      <l>The vital Blood that circles in my Veins,</l>
+      <l>Congeal to Ice, and stop the Springs of Life.</l>
+      <l>Your Husband fell most resolute and brave,</l>
+      <l>
+       <pb n="56" facs="66"/>
+And your <hi>Idea</hi> open'd Heav'n before him.</l>
+      <l>
+       <hi>Tell her,</hi> said he, <hi>I charge her not to grieve,</hi>
+      </l>
+      <l>
+       <hi>Since he who falls a Martyr for his Love,</hi>
+      </l>
+      <l>
+       <hi>Still sinks with Honour equal to the Field;</hi>
+      </l>
+      <l>
+       <hi>And Death for her brings greater Pleasure far,</hi>
+      </l>
+      <l>
+       <hi>Than a whole Age of Life without her Love.</hi>
+      </l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Oh, matchless Constancy!</l>
+      <l>You see I do observe his last Request.</l>
+      <l>Tears are the Tribute which a Girl can pay;</l>
+      <l>Too poor a Task for <hi>Leonora</hi>'s Eyes.</l>
+      <l>When she wou'd mourn a faithful Husband's Loss,</l>
+      <l>Inward, ye Fountains, turn your liquid Springs,</l>
+      <l>And round my Heart collect your baleful Streams,</l>
+      <l>Whilst Sighs supprest, augment the swelling Tide,</l>
+      <l>And raise it up to such Extremity,</l>
+      <l>'Till one dire Groan the fatal Tempest break,</l>
+      <l>And Life and Grief at once rush out together;</l>
+      <l>Then I shall find my dearest Lord again.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>My Heart, I fear, will fail me in my Purpose;</l>
+      <l>Oh most lamented Princess! <stage>[aside.</stage>
+      </l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Ha! what, another Exclamation?</l>
+      <l>Then there is something sure remains behind;</l>
+      <l>Some dreadful, monst'rous, matchless Scene of Woe,</l>
+      <l>Whose horrid Birth, even thou, <hi>Antenor</hi>'s Son,</l>
+      <l>Seems fearful and unwilling to disclose.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>There is indeed; oh! how shall I relate it?</l>
+      <l>Or where find Words of soft and gentle Sound,</l>
+      <l>To cloath the fatal Business of my Errand?</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Ha! support me, gracious Heaven.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Within this <hi>Cup;</hi> oh! can I live to speak it!</l>
+      <l>The King presents you with your Husband's <hi>Heart?</hi>
+      </l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Ah!
+<stage>(shrieks)</stage> 
+Tyrant, Murderer, most inhuman Father;</l>
+      <l>Patience! oh Patience! whither art thou fled?</l>
+      <l>Fury, Distraction, aid my lab'ring Brain;</l>
+      <l>Start ev'ry Nerve, and burst, ye throbbing Veins,</l>
+      <l>Diffuse your Blood, to quench his eager Thirst;</l>
+      <l>Oh barb'rous Rage! oh matchless Cruelty!</l>
+      <l>Hear me, just Heav'n, and hurl thy Vengeance down</l>
+      <l>Quick, blast the Authors of this cursed Deed.</l>
+      <l>Let Earth be barren, and the Sea be dry,</l>
+      <l>
+       <pb n="57" facs="67"/>
+Each Tree consum'd, and ev'ry Herb destroy'd;</l>
+      <l>Let universal <hi>Chaos</hi> reign again,</l>
+      <l>And hide this Object in its sable Womb.</l>
+      <l>But why waste I my Time in fruitless Wishes?</l>
+      <l>My Husband chides me for this long Delay;</l>
+      <l>I come, my Love. <stage>[Snatches at <hi>Learchus</hi>'s Sword.</stage>
+      </l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Forbid it, Heav'n, that you shou'd touch your Life.</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>'Tis Hell forbids it; thou, the ruling Fiend;</l>
+      <l>Thou hast prevented me! Oh gracious Act!</l>
+      <l>From thee! from thee, who gave <hi>Lorenzo</hi> Death:</l>
+      <l>But Grief, like mine, will find a thousand Doors to let in Death.</l>
+      <l>These Hands shall crush the Organs of my Life,</l>
+      <l>And stop at once this Breath replete with Misery.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Fly, and acquaint the King with her Resolves;</l>
+      <l>And beg his Presence, to allay the Storm. <stage>[Ex. Attendant,</stage>
+      </l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Oh, my <hi>Lorenzo!</hi>
+      </l>
+      <l>For thy Death, curss'd be this fruitful <hi>Lombardy,</hi>
+      </l>
+      <l>May Rapine wake her Genius from Repose,</l>
+      <l>And in her Cities place the Seat of Famine;</l>
+      <l>May Tempests lay her stately Fabricks waste,</l>
+      <l>And make her Desolation great as mine.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Royal Madam.</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Interrupt me not with that detested Voice;</l>
+      <l>Give me the precious Relict of my Love;</l>
+      <l>The noblest <hi>Heart</hi> that ever Man possess'd;</l>
+      <l>Nor will I part with it, 'till Life forsake me;</l>
+      <l>Nor when I die, for here I'll have it plac'd, <stage>[points to her Breast.</stage>
+      </l>
+      <l>A sacred Pledge, and Witness of my Truth;</l>
+      <l>The surest Token for my Lord to know me,</l>
+      <l>When in the other World we meet again. <stage>[Exit.</stage>
+      </l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Upon your Lives guard her with strictest Care,</l>
+      <l>And let no Means of Death be near her.</l>
+     </sp>
+     <stage>Enter <hi>Agonistus.</hi>
+     </stage>
+     <sp who="#duke_of_milan">
+      <speaker>Ago.</speaker>
+      <l>My Lord the King is coming hither.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>'Tis well; and are my other Orders allobey'd?</l>
+     </sp>
+     <sp who="#duke_of_milan">
+      <speaker>Ago.</speaker>
+      <l>Exactly; but see, the King appears.</l>
+     </sp>
+     <stage>Enter <hi>King</hi> and <hi>Guards.</hi>
+     </stage>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Hast thou in ev'ry Part perform'd our Will?</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>I have, great Sir.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <pb n="58" facs="68"/>
+      <speaker>King.</speaker>
+      <l>'Tis well; I've sent <hi>Antenor</hi> to the City,</l>
+      <l>To quell the Riots there; and that once past,</l>
+      <l>I shall again possess my Crown in Peace.</l>
+      <l>Those Drones, pretending to have Stings, appear,</l>
+      <l>And in full Body would arraign my Justice.</l>
+      <l>In vain the Foxes wear the Lyon's Skin,</l>
+      <l>Without the Lyon's Strength—But say,</l>
+      <l>How does our Daughter bear her <hi>Minion</hi>'s Death?</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>The Royal Dame, like <hi>Roman</hi> Matrons, bore,</l>
+      <l>Unmov'd and calm, the mournful Tale of Death.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Then is half my Vengeance lost.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>But when I nam'd your Present of his <hi>Heart,</hi>
+      </l>
+      <l>Both Majesty and Reason quite forsook her,</l>
+      <l>And wild Destraction shook her beauteons Fabrick.</l>
+      <l>She rav'd, and curss'd her self, and all the World;</l>
+      <l>Then took the Relick of her much-lov'd Lord,</l>
+      <l>And vow'd to part no more.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Thou dostrevive me with this Story.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Oh, Royal Sir,</l>
+      <l>My Heart is swoln with excessive Sadness.</l>
+      <l>Oh! could my Eyes, instead of Tears, shed Blood,</l>
+      <l>They could not, sure, express the dreadful Scene,</l>
+      <l>Which by your fatal Order was display'd.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Art thou so tender in thy Nature!</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Oh! think upon the mourning Princess, Sir,</l>
+      <l>That peerless Monument of loyal Truth,</l>
+      <l>Whose Soul disdains to be out-done in Love,</l>
+      <l>But vows to die for him, as he for her;</l>
+      <l>Then ask your Hears, if all's at Peace within?</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>And art thou grown her Advocate, <hi>Learchus?</hi>
+      </l>
+      <l>
+       <hi>Antenor</hi> will not thank thee for the Office.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>My Father, even in his Height of Hatred,</l>
+      <l>Would weep to hear the Sorrows which I saw.</l>
+      <l>Oh, Royal Sir! what must your Subjects do,</l>
+      <l>When that sad Day to <hi>Lombardy</hi> arrives,</l>
+      <l>Wherein your Majesty must yield to Fate?</l>
+      <l>Who will be worthy found to fill your Throne,</l>
+      <l>When beauteous <hi>Leonora</hi> is no more?</l>
+      <l>The Child unborn will curse that hasty Doom,</l>
+      <l>By which you have destroy'd the noblest Pair</l>
+      <l>That ever <hi>Hymen</hi> join'd in Nuptial Bands.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <pb n="59" facs="69"/>
+      <speaker>King.</speaker>
+      <l>Name it no more, I do not care to think on't;</l>
+      <l>I wish thy Father had but half thy Virtues.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>
+       <hi>Lorenzo</hi> gave a Packet to my Hands,</l>
+      <l>Which he receiv'd, he said, from an old <hi>Hermit,</hi>
+      </l>
+      <l>With full Instructions for your Majesty.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Where is the Packet?</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>He did intreat I would return it to him;</l>
+      <l>And I perform'd his last Request with Care.</l>
+      <l>But the same <hi>Hermit</hi> waits without, to tell ye,</l>
+      <l>With heavy Heart, the great important Story.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Admit him strait.</l>
+      <stage>Enter <hi>Hermit.</hi>
+      </stage>
+      <l>What would you, venerable Sir, with me?</l>
+     </sp>
+     <sp who="#duke_of_milan">
+      <speaker>Her.</speaker>
+      <l>These twenty Winters I have pass'd in Prayer,</l>
+      <l>From Noise of Courts, and Bustle of the Great,</l>
+      <l>Bound by a Vow to expiate my Sins,</l>
+      <l>And save a Child which thou hast taken from me.</l>
+      <l>
+       <hi>Lorenzo,</hi> whom the Lord <hi>Alcanor</hi> bred,</l>
+      <l>And still, for weighty Reasons, call'd his own,</l>
+      <l>Was only Son to me; his Hand I join'd</l>
+      <l>Where Love, long since, had join'd his tender Heart;</l>
+      <l>Even to thy Daughter, the Princess <hi>Leonora.</hi>
+      </l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Ha! and dar'st thou justify this Treason?</l>
+      <l>Is the base Offspring of a dreaming Priest</l>
+      <l>Worthy to rule, and mingle with my Blood?</l>
+      <l>I know you well; all your Humility</l>
+      <l>Consists in outward Form, a mere Disguise</l>
+      <l>To cover Pride and bold Ambition with!</l>
+      <l>Which still aspires to teach and govern Kings.</l>
+      <l>But know, that Garb of Sanctity, grave Sir,</l>
+      <l>Shan't awe my Hand from punishing a Traytor.</l>
+      <l>Guards, seize him.</l>
+     </sp>
+     <sp who="#duke_of_milan">
+      <speaker>Her.</speaker>
+      <l>Hold! know'st thou this Face, my Kinsman, tell me?</l>
+      <l>Or has thy Memory lost the Duke of <hi>Milan?</hi>
+      </l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Ha! the Duke of <hi>Milan!</hi> Oh! my Uncle!</l>
+      <l>Why would you, Sir, conceal your self thus long,</l>
+      <l>And draw this Load of Guiltiness upon me?</l>
+     </sp>
+     <sp who="#duke_of_milan">
+      <speaker>Her.</speaker>
+      <l>When he—</l>
+      <l>Who now usurps my Dukedom, drove me out,</l>
+      <l>From Court to Court, I sought in vain Relief.</l>
+      <l>
+       <pb n="60" facs="70"/>
+Your self in War, unable to assist me,</l>
+      <l>The Tyrant grew in great Alliance strong,</l>
+      <l>And ev'ry Prince refus'd to shelter me;</l>
+      <l>One Ev'ning, as I walk'd alone in <hi>Venice,</hi>
+      </l>
+      <l>And melancholly musing what to do,</l>
+      <l>Having receiv'd my Orders to depart,</l>
+      <l>I met a Hermit, who call'd me by my Name,</l>
+      <l>And told me all the Failings of my Life;</l>
+      <l>Then bad me enter holy Orders strait,</l>
+      <l>And expiate my Sins in fervent Prayer.</l>
+      <l>Full twenty Years, if this I well perform'd,</l>
+      <l>My Son, he said, should wear a Regal Crown,</l>
+      <l>And I should be again restor'd to <hi>Milan.</hi>
+      </l>
+      <l>But if before that Term of Years expir'd,</l>
+      <l>I lagg'd, or once repin'd at what I bore,</l>
+      <l>My Son and I should perish—Oh fatal Thought!</l>
+      <l>For now I have found th' ambiguous Prophecy;</l>
+      <l>The Crown he meant, was Martyrdom for Love.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Oh most unhappy Prince!</l>
+     </sp>
+     <sp who="#duke_of_milan">
+      <speaker>Her.</speaker>
+      <l>This, when I told that honest Lord <hi>Alcanor,</hi>
+      </l>
+      <l>He offer'd to receive my Son for his,</l>
+      <l>Who then was three Years old, and breed him for me;</l>
+      <l>Then bound himself by Oath to keep the Secret.</l>
+      <l>I strait took Orders, and finding him recall'd,</l>
+      <l>I soon resolv'd to fix my Dwelling here,</l>
+      <l>And in a lonely Cell, hard by the Bower,</l>
+      <l>I liv'd unknown to all but Lord <hi>Alcanor.</hi>
+      </l>
+      <l>My Friend, upon his Death-bed, charg'd <hi>Lorenzo</hi>
+      </l>
+      <l>To pay the Duty of a Son to me;</l>
+      <l>But told him not how much he ow'd it to me.</l>
+      <l>The twenty Years being now expir'd quite,</l>
+      <l>I purpos'd to discover to your Majesty</l>
+      <l>The great important Story of my Life;</l>
+      <l>And, for which Purpose, to my Son I gave</l>
+      <l>The Packet which this Lord return'd me back.</l>
+      <l>But Oh! my Soul, when most I hop'd for Comfort,</l>
+      <l>I am become most miserable!</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Cease, cease to raise the Horror of my Guilt,</l>
+      <l>Except you wish to drive me to Despair;</l>
+      <l>Apply the Cordial of remaining Hope,</l>
+      <l>That you and <hi>Leonora</hi> will forgive me.</l>
+     </sp>
+     <sp who="#antimora">
+      <pb n="61" facs="71"/>
+      <speaker>Lear.</speaker>
+      <l>Help, help the Princess; see, she comes,</l>
+      <l>Mad with her Woes, and grasping still the Heart.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Open, Earth, and hide me from this Object.</l>
+     </sp>
+     <stage>Enter <hi>Leonora,</hi> held by her Women.</stage>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Off! off, Tormentors; off, and give me Way;</l>
+      <l>Am I a Princess, and dare you detain me?</l>
+      <l>Ha! the King! Oh! let me kneel before you,</l>
+      <l>For all the Storms of Life will soon be over.</l>
+      <l>Permit me to believe, that once I was</l>
+      <l>The only darling Pleasure of your Soul;</l>
+      <l>Commanded Slaves, who at my Nod still fled,</l>
+      <l>And were the very Creatures of my Will:</l>
+      <l>Inform me then how I have lost this Power,</l>
+      <l>That those who should obey, dare to controul me.</l>
+      <l>All that I ask, is to be rid of them;</l>
+      <l>I want no Daggers, Asps, nor Poisons now;</l>
+      <l>All several Blessings for a speedy Death;</l>
+      <l>But only Leave to lay a Father's Present</l>
+      <l>Next my poor Heart, and sleep my Cares away.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Look up, my Child; behold thy Father mourns</l>
+      <l>Thy too unhappy worthy Husband's Fall.</l>
+      <l>Oh! let my Penitence atone my Crime;</l>
+      <l>See, <hi>Leonora,</hi> Nature is revers'd;</l>
+      <l>A weeping Father kneeling to his Child.</l>
+      <l>Oh! promise me, that thou wilt live my Daughter,</l>
+      <l>And we will all revere thy Husband's Mem'ry:</l>
+      <l>For him a Monument shall strait be rais'd;</l>
+      <l>The <hi>Parian</hi> Marble, and <hi>Corinthian</hi> Brass,</l>
+      <l>And Gold from <hi>India,</hi> shall the Pile adorn;</l>
+      <l>And yearly all his Soldiers gather round,</l>
+      <l>To hear Orations in his Praise for ever,</l>
+      <l>Whilst I resign my Crown and Rule to thee.</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Oh, poor Temptation to a wretched Life!</l>
+      <l>What is a Crown, compar'd with what I feel?</l>
+      <l>Can Crowns allay Extremity of Woe?</l>
+      <l>Oh, no! your Offers want that healing Power;</l>
+      <l>And if your Sorrow's real, or only feign'd,</l>
+      <l>It matters not, since my <hi>Lorenzo</hi>'s gone.</l>
+      <l>Since you have murder'd him by whom I liv'd,</l>
+      <l>
+       <pb n="62" facs="72"/>
+Here, by this precious Relick of my Love,</l>
+      <l>Which you have in the purest Metal plac'd,</l>
+      <l>I swear, and witness, all ye sacred Powers,</l>
+      <l>That guide our Lives, and pre-ordain our Fates,</l>
+      <l>Hear, and confirm my stedfast Vow. <stage>[kneels.</stage>
+      </l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>O hold, my Child!</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>No Sleep shall ever close these Eyes again,</l>
+      <l>Nor Food sustain this hated Life I wear,</l>
+      <l>Nor ought profane the Kiss upon my Lips,</l>
+      <l>Which from my Husband I receiv'd at Parting,</l>
+      <l>'Till from these Multitude of Woes reliev'd,</l>
+      <l>I re-enjoy my Love. <stage>[rises.</stage>
+      </l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Oh, Madam!</l>
+      <l>Why will you punish all the World for one;</l>
+      <l>For one rash Act committed by a Father?</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Oh! that my Crown could raise him from the Grave!</l>
+      <l>With eager Transport I would lay it down.</l>
+      <l>With more Content, with more substantial Joy,</l>
+      <l>Could I behold you in each other's Arms,</l>
+      <l>Than e'er the Scepter gave me.</l>
+     </sp>
+     <sp who="#duke_of_milan">
+      <speaker>Her.</speaker>
+      <l>I wish thy Soul had been thus touch'd before;</l>
+      <l>Then my <hi>Lorenzo,</hi> then my Son had liv'd.</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>These are your Wishes, when Relief is past;</l>
+      <l>Why will you cruelly interrupt the Dying?</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Why wilt thou wound me with thy Unbelief,</l>
+      <l>And rack me worse than e'er thy Husband was?</l>
+      <l>What Proof of my Repentance shall I give thee?</l>
+      <l>By all the Fruits of Earth and Lights of Heaven;</l>
+      <l>By that superior Light, the glorious Sun,</l>
+      <l>From which for ever let my Eyes be shut,</l>
+      <l>If they could e'er behold a Sight more pleasing.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Now is my Time. <stage>[Exit.</stage>
+      </l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>In vain, in vain you use these Imprecations,</l>
+      <l>Since in my Breast they cannot make Impression;</l>
+      <l>For he, alas! is gone for ever from me.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Oh, my Child! why dost thou turn thy Eyes away?</l>
+      <l>And is thy Father then so hateful grown,</l>
+      <l>Thou canst not bear to look upon him?</l>
+     </sp>
+     <stage>
+      <pb n="63" facs="73"/>Enter <hi>Learchus</hi> and <hi>Lorenzo</hi> at the upper End of the Stage</stage>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Ha! see, see, ye Murderers, who comes here!</l>
+      <l>It is the lifeless Shadow of my Husband;</l>
+      <l>He's sent by Heaven to warn your guilty Souls,</l>
+      <l>Of endless Torture, for your barbarous Crimes.</l>
+      <l>See here my Love! I grasp the Substance still;</l>
+      <l>A tender Father's Present to thy Wife;</l>
+      <l>The best and richest Gift, when thou wert gone;</l>
+      <l>Oh! it has told me all! and bid me haste</l>
+      <l>To fly Oppression, and enjoy thy Presence.</l>
+      <l>And now I feel the happy Moment on me;</l>
+      <l>Life gives Way, and I am coming to thee. <stage>[faints.</stage>
+      </l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Support our Daughter.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>Hold off; let me embrace the beauteous Mourner;</l>
+      <l>Oh! speak to me, my Dear; my <hi>Leonora</hi> speak:</l>
+      <l>Thy Soul is summon'd by thy Husband back.</l>
+      <l>Oh! leave me not to perish in Despair.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Ha! what do I see! <hi>Lorenzo</hi> living!</l>
+     </sp>
+     <sp who="#duke_of_milan">
+      <speaker>Her.</speaker>
+      <l>My Son alive! I thank thee gracious Heaven,</l>
+      <l>And all that has been instrumental to it.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>Oh, <hi>Leonora!</hi> Oh, my beauteous Wife!</l>
+      <l>Dash not my rising Joy at once, my Love;</l>
+      <l>Look up, my Fair, 'tis thy <hi>Lorenzo</hi> calls.</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Ha! 'tis he, the very He! Oh Transport!</l>
+      <l>'Tis my real, my dear, my faithful Husband.</l>
+      <l>Say how, oh! how hast thou retriev'd thy Heart!</l>
+      <l>Or art thou by some Miracle supported?</l>
+      <l>Thus will I hold thee fast within my Arms,</l>
+      <l>From whence no Mortal Strength shall wrest thee forth,</l>
+      <l>Without the Life of <hi>Leonora</hi> with thee.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>Oh, thou Excellence! thou wond'rous Woman!</l>
+      <l>How shall I requite thee?</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Proclaim it to the World, <hi>Lorenzo</hi> lives;</l>
+      <l>No more the Son of old <hi>Alcanor</hi> now,</l>
+      <l>But Heir apparent to the Crown of <hi>Milan.</hi>
+      </l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>What do I hear?</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Yes, thou'rt of noble Blood; see there thy Father. Kneel to him.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>Am I then, Sir, your Son? Oh, pardon me,</l>
+      <l>If I enquire why you have thus conceal'd me</l>
+      <l>
+       <pb n="64" facs="74"/>
+So long unknowing of my Duty?</l>
+     </sp>
+     <sp who="#duke_of_milan">
+      <speaker>Her.</speaker>
+      <l>Rise, my Son; another Time I'll tell thee all;</l>
+      <l>May Heav'n shower its Blessings on you both.</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Oh Extasy! thy Father living still,</l>
+      <l>Mine reconcil'd, and thy dear Life restor'd!</l>
+      <l>The Joy's too great for Mortal Sense to bear;</l>
+      <l>'Tis sure the Epitome of that above,</l>
+      <l>Which Angels, in their sep'rate State, enjoy.</l>
+      <l>There wants but <hi>Antimora</hi> and thy Friend,</l>
+      <l>To make thee happy too.</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>If thou hast been so very good, <hi>Learchus,</hi>
+      </l>
+      <l>To preserve them too, thy King will thank thee.</l>
+      <l>Embrace this Man, <hi>Lorenzo,</hi> for he sav'd thee;</l>
+      <l>And here the Hatred of your Houses ends.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>I'm all Confusion! Was I sav'd by thee?</l>
+      <l>Oh spare my Words, and read 'em in my Eyes!</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>I ask no Thanks; the King has over-paid me;</l>
+      <l>Since he forgives this only Breach of Duty.</l>
+      <l>Come forth, my <hi>Antimora,</hi> now no more</l>
+      <l>Bound by the Duty of a Sister's Love; <stage>[Enter <hi>Antimora.</hi>
+       </stage>
+      </l>
+      <l>And oh! I wish I cou'd produce <hi>Cardono!</hi>
+      </l>
+      <l>I did my best to save him, tho' my Rival;</l>
+      <l>But notwithstanding all the Care I us'd,</l>
+      <l>He expir'd of his Wounds.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>Alas! my Friend.</l>
+     </sp>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <l>Your Pardon, Royal Sir. <stage>[kneels.</stage>
+      </l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Rise, fair <hi>Antimora;</hi> I forgive thee.</l>
+     </sp>
+     <sp who="#agonistus">
+      <speaker>Anti.</speaker>
+      <l>Oh my ravish'd Senses! tho' I no more</l>
+      <l>Must call you Brother, yet methinks I feel</l>
+      <l>The same transporting Joy for your Deliverance,</l>
+      <l>As if you truly were my Brother.</l>
+     </sp>
+     <sp who="#lorenzo">
+      <speaker>Lor.</speaker>
+      <l>Thou still shalt be my Sister, lovely Maid;</l>
+      <l>And the same fond tender Care I'll pay thee;</l>
+      <l>And wish I really were thy Brother now,</l>
+      <l>To shew how much I prize this worthy Man;</l>
+      <l>Yet take her from my Hand, <hi>Learchus,</hi> and,</l>
+      <l>With her, take the Heart which thou didst kindly save.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>The two great Blessings Heav'n or Earth can give me. <stage>[they embrace.</stage>
+      </l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <l>Now thou hast made me more than King, <hi>Learchus;</hi>
+      </l>
+      <l>
+       <pb n="65" facs="75"/>
+And my Rewards shall sound thy Praises forth,</l>
+      <l>And to the World proclaim thy matchless Virtue.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>If my Delay of Duty had displeas'd,</l>
+      <l>I would have offer'd up my self, great Sir,</l>
+      <l>And dy'd, to expiate my honest Fault.</l>
+      <l>Your Pardon, Royal Madam's what I want,</l>
+      <l>For all the Grief which I have caus'd in you.</l>
+      <l>I had no gentler Means to save <hi>Lorenzo,</hi>
+      </l>
+      <l>But by appearing to obey the King.</l>
+      <l>I us'd the Heart of him <hi>Cardono</hi> stabb'd,</l>
+      <l>To work my End, and raise a Father's Pity,</l>
+      <l>Hoping your real Distress might move the King,</l>
+      <l>And wake Repentance in his Royal Soul.</l>
+      <l>My Plot succeeded, and I'm happy in it.</l>
+     </sp>
+     <sp who="#leonora">
+      <speaker>Leon.</speaker>
+      <l>Let tender Maids, that feel the Force of Love,</l>
+      <l>For ever bless, and ever praise thy Name.</l>
+      <l>May'st thou n'er ask of Heaven or Man a Boon,</l>
+      <l>But may it be with double Portion granted.</l>
+      <l>Come to my Breast, thou Partner in my Grief,</l>
+      <l>And witness, sacred Truth, how dear I hold thee.</l>
+     </sp>
+     <stage>Enter <hi>Captain.</hi>
+     </stage>
+     <sp who="#captain">
+      <speaker>Capt.</speaker>
+      <l>The Citizens hearing <hi>Lorenzo</hi> lives,</l>
+      <l>Laid down their Arms, and bless'd your Majesty;</l>
+      <l>But Lord <hi>Antenor</hi> was in the Bustle slain.</l>
+     </sp>
+     <sp who="#antimora">
+      <speaker>Lear.</speaker>
+      <l>Alas! my Father!</l>
+     </sp>
+     <sp who="#king_of_lombardy">
+      <speaker>King.</speaker>
+      <lg>
+       <l>Let this fair Virgin recompence thy Loss,</l>
+       <l>While all thy Father's Honours live again;</l>
+       <l>And with a better Grace adorn thy Brow.</l>
+      </lg>
+      <lg>
+       <l>But oh! be warn'd by his unhappy Fate,</l>
+       <l>What Dangers on the doubling Statesman wait!</l>
+       <l>Had he preferr'd his King's and Country's Good,</l>
+       <l>This publick Vengeance had not sought his Blood;</l>
+       <l>But while the secret Paths of Guilt he treads,</l>
+       <l>Where Lust of Power, Revenge, or Envy leads,</l>
+       <l>While to Ambition's lawless Height he flies,</l>
+       <l>Hated he lives, and unlamented dies.</l>
+      </lg>
+     </sp>
+    </div>
+    <trailer>
+     <hi>The End of the</hi> Fifth ACT.</trailer>
+   </div>
+  </body>
+  <back>
+   <div type="epilogue">
+    <pb facs="76"/>
+    <head>EPILOGUE.</head>
+    <head type="sub">
+     <stage>Spoken by Mrs. OLDFIELD.</stage>
+    </head>
+    <byline>Written by N. ROWE, <abbr>Esq</abbr>
+    </byline>
+    <lg>
+     <l>WELL,—'twas a narrow 'Scape my <hi>Lover</hi> made;</l>
+     <l>That <hi>Cup</hi> and <hi>Message</hi>—I was sore afraid—</l>
+     <l>Was that a <hi>Present</hi> for a new made <hi>Widow,</hi>
+     </l>
+     <l>All in her dismal Dumps, like doleful <hi>DIDO!</hi>
+     </l>
+     <l>When one peep'd in—and hop'd for something good,</l>
+     <l>There was—oh! <hi>Gad!</hi> a nasty <hi>Heart</hi> and <hi>Blood.</hi>
+     </l>
+     <l>If the old Man had shew'd himself a Father,</l>
+     <l>His <hi>Bowl</hi> shou'd have inclos'd a <hi>Cordial</hi> rather,</l>
+     <l>Something to chear me up amidst my Trance,</l>
+     <l>
+      <hi>L' Eau de Barbadè</hi>—or comfortable <hi>Nants!</hi>
+     </l>
+     <l>He thought he paid it off with being smart,</l>
+     <l>And to be witty, cry'd, he'd send the <hi>Heart.</hi>
+     </l>
+     <l>I cou'd have told his Gravity, moreover,</l>
+     <l>Were I our Sex's Secrets to discover,</l>
+     <l>'Tis what we never look for in a <hi>Lover.</hi>
+     </l>
+     <l>Let but the <hi>Bridegroom</hi> prudently provide</l>
+     <l>All other <hi>Matters</hi> fitting for a <hi>Bride,</hi>
+     </l>
+     <l>
+      <pb facs="77"/>
+So he make good the <hi>Jewels</hi> and the <hi>Jointure,</hi>
+     </l>
+     <l>To miss the <hi>Heart,</hi> does seldom disappoint her.</l>
+     <l>Faith, for the Fashion <hi>Hearts</hi> of <hi>late</hi> are made in,</l>
+     <l>They are the vilest <hi>Bawbles</hi> we can trade in.</l>
+     <l>Where are the tough brave BRITONS to be found,</l>
+     <l>With <hi>Hearts</hi> of <hi>Oak,</hi> so much of Old renown'd?</l>
+     <l>How many worthy Gentlemen of late</l>
+     <l>Swore to be true to <hi>Mother-Church</hi> and <hi>State;</hi>
+     </l>
+     <l>When their <hi>false Hearts</hi> were secretly maintaining</l>
+     <l>Yon trim King PEPIN, at <hi>Avignon</hi> reigning?</l>
+     <l>Shame on the canting Crew of <hi>Soul-Insurers,</hi>
+     </l>
+     <l>That <hi>Tyburn-Tribe</hi> of <hi>Speech-making Non-jurors;</hi>
+     </l>
+     <l>Who in new-frangled <hi>Terms,</hi> old <hi>Truth</hi>'s explaining,</l>
+     <l>Teach honest <hi>English-men,</hi> damn'd <hi>Double Meaning.</hi>
+     </l>
+    </lg>
+    <lg>
+     <l>Oh! wou'd you lost Integrity restore,</l>
+     <l>And boast that <hi>Faith</hi> your plain Fore-Fathers bore;</l>
+     <l>What surer Pattern can you hope to find,</l>
+     <l>Than that dear PLEDGE your MONARCH left behind!</l>
+     <l>See how his <hi>Looks</hi> his <hi>honest Heart</hi> explain,</l>
+     <l>And speak the Blessings of his <hi>future Reign!</hi>
+     </l>
+     <l>In his each Feature, Truth, and Candour trace,</l>
+     <l>And read <hi>Plain Dealing</hi> written in his <hi>Face,</hi>
+     </l>
+    </lg>
+   </div>
+   <trailer>FINIS.</trailer>
+  </back>
+ </text>
+</TEI>
