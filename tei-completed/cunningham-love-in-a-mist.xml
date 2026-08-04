@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">Love in a mist</title>
+    <title type="sub">A farce now acting at the City-Theatre in Dublin, with great applause.</title>
+    <author>
+     <persName>
+      <surname>Cunningham</surname>
+      <forename>John</forename>
+      <idno type="VIAF">7652941</idno>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>Love in a mist: A farce now acting at the City-Theatre in Dublin, with great applause.</name>
+     <author>Cunningham, John, 1729-1773.</author>
+     <publisher>Dublin printed: London reprinted for W. Reeve,</publisher>
+     <date>1747.</date>
+     <pubPlace>[London] :</pubPlace>
+     <note>Anonymous. By John Cunningham.</note>
+     <note>With a final advertisement leaf.</note>
+     <note>Reproduction of original from the British Library.</note>
+     <note>English Short Title Catalog, ESTCT38638.</note>
+     <note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note>
+    </bibl>
+    <biblFull n="printed source">
+     <publicationStmt>
+      <authority ref="#JJ">Jan Jokisch</authority>
+      <date>2024 December</date>
+      <idno type="ECCO_Drama">K039224.000</idno>
+      <idno type="DLPS">004805451</idno>
+      <idno type="ESTC">T38638</idno>
+      <idno type="DocNo">CW114465143</idno>
+      <idno type="TCP">K039224.000</idno>
+      <idno type="GaleDocNo">CW3314465143</idno>
+      <idno type="ContentSet">ECLL</idno>
+      <idno type="ImageSetID">0811400300</idno>
+      <availability>
+       <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+      </availability>
+     </publicationStmt>
+    </biblFull>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     
+     
+     
+     
+     
+     
+     
+     
+    <person xml:id="sir_william_willmore"><persName>Sir William Willmore</persName><sex value="MALE"/></person><person xml:id="young_willmore"><persName>Young Willmore</persName><sex value="MALE"/></person><person xml:id="jerry"><persName>Jerry</persName><sex value="MALE"/></person><person xml:id="charlotte_lovely"><persName>Charlotte Lovely</persName><sex value="FEMALE"/></person><person xml:id="kitty"><persName>Kitty</persName><sex value="FEMALE"/></person></listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1747">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text xml:lang="en">
+  <front>
+   <div type="titlepage">
+    <pb facs="1" ana="y"/>
+    <p>LOVE IN A MIST. A FARCE Now Acting at the CITY-THEATRE IN <hi>DUBLIN,</hi> With great Applause.</p>
+    <p>
+     <hi>DUBLIN</hi> Printed: <hi>LONDON</hi> Reprinted for W. REEVE, at <hi>Shakespear's Head, Serjeants-Inn Gate,</hi> in <hi>Fleet-Street.</hi> MDCCXLVII.</p>
+   </div>
+   <div type="prologue">
+    <pb facs="2"/>
+    <head>PROLOGUE.</head>
+    <stage>
+     <hi>Spoke by Mr.</hi> WRIGHT.</stage>
+    <sp>
+     <lg>
+      <l>IN short — good Folk — a dismal Truth to tell</l>
+      <l>I come to toll our Author's passing Bell.</l>
+      <l>His Farce won't do — the Reason, wou'd you know it?</l>
+      <l>(For sure the Spark has something of the Poet)</l>
+      <l>The Muse cries out, such sad Examples taught her,</l>
+      <l>No Bard can thrive — unless he cross the Water.</l>
+      <l>Severe Decree! — no homeborn Muse delights,</l>
+      <l>Nothing shall please — but what a Stranger writes!</l>
+      <l>Let us exert ourselves — assume a Spirit,</l>
+      <l>And think our Title — good as theirs — to Merit.</l>
+     </lg>
+     <lg>
+      <l>What Heaven lov'd Clime — but our thrice happy Coast</l>
+      <l>Of such successful Patriots can boast,</l>
+      <l>With one collected Force the Arts to nourish,</l>
+      <l>Make Trade survive, and sacred Culture flourish;</l>
+      <l>And yet — to future Times 'twill seem surprizing,</l>
+      <l>While each deserving Artist's sure of rising;</l>
+      <l>While a Mechanick Merit's well rewarded,</l>
+      <l>The tatter'd Muse repines — not once regarded.</l>
+     </lg>
+     <lg>
+      <l>To this August Assembly we submit;</l>
+      <l>To you — we recommend the Cause of Wit:</l>
+      <l>Arise — nor see a native Genius braved,</l>
+      <l>Too long have such been <hi>banish'd</hi> — or enslaved;</l>
+      <l>And tho' our Author makes a weak Endeavour,</l>
+      <l>He'll Mend upon the Sun-shine of your Favour.</l>
+     </lg>
+    </sp>
+   </div>
+   <div type="Dramatis_Personae">
+    <pb facs="3"/>
+    <castList>
+     <head>Dramatis Personae.</head>
+     <castItem>MEN.</castItem>
+     <castItem>
+      <role>Sir William Willmore</role>
+      <actor>Mr</actor>
+     </castItem>
+     <castItem>
+      <role>Young Willmore</role>
+      <actor>Mr</actor>
+     </castItem>
+     <castItem>
+      <role>Jerry</role>
+      <actor>Mr</actor>
+     </castItem>
+     <castItem>WOMEN.</castItem>
+     <castItem>
+      <role>Charlotte Lovely</role>
+      <actor>Mrs</actor>
+     </castItem>
+     <castItem>
+      <role>Kitty, a kept Mistress</role>
+      <actor>Mrs</actor>
+     </castItem>
+    </castList>
+   </div>
+  </front>
+  <body>
+   <div type="play">
+    <pb facs="4"/>
+    <head>LOVE IN A MIST.</head>
+    <div type="scene">
+     <head>SCENE</head>
+     <stage>
+      <hi>the Street.</hi>
+     </stage>
+     <stage>
+      <hi>Enter</hi> WILLMORE <hi>and</hi> JERRY.</stage>
+     <sp who="#jerry">
+      <speaker>JERRY.</speaker>
+      <p>
+       <seg rend="decorInit">O</seg>N my Soul, Sir, I can't but Admire this extreme Vivacity of your Inclinations: Scarce six Days since you were dying for a Baby-fac'd Thing at <hi>Oxford,</hi> and scarce six Hours in <hi>London,</hi> till you are over-head and Ears in Love with a —</p>
+     </sp>
+     <sp who="#young_willmore">
+      <pb n="6" facs="5"/>
+      <speaker>Will.</speaker>
+      <p>S'Death, <hi>Jerry,</hi> I'm all on Fire — well — the dear Minute of Appointment is just at hand; this Letter in Answer to the One you deliver'd her, informs me, that she's kept by an old Jealous Knight in the City — she's a fine Woman by Heaven — and if it be in the Power of her Sex to drive that intollerable Coquet <hi>Charlott</hi> out of my Head, I think 'tis she can do it.</p>
+     </sp>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>Heaven send there comes a good End on't — well, if I shou'd have my Bones shatter'd in this Rencounter, 'twill not be the first Time I have been paid for my Ingenuity.</p>
+     </sp>
+     <sp who="#young_willmore">
+      <speaker>Will.</speaker>
+      <p>Peace, Scoundrel, and learn to bear Misfortunes with a Pimplike Patience.</p>
+     </sp>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>Patience! yes you may talk of Patience truly, while all the Pleasure of the Sin belongs to yourself, and all the Punishment to your humble Servant — how oft have these unfortunate Bones of mine been beaten to a Jelly in your Service!</p>
+     </sp>
+     <sp who="#young_willmore">
+      <speaker>Will.</speaker>
+      <p>Why, Sirrah, if your Ill-Stars condemn you to Disappointments, can I prevent them? If ever you suffer'd in your Vocation, some unfortunate Blunder of your own occasion'd it; you remember the Letter you gave to <hi>Charlott</hi>'s Jealous Guardian? When
+<pb n="7" facs="6"/>in the overflowing of your Wisdom you mistook him for her Footman.</p>
+     </sp>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>Remember it! I do, by all that's unfortunate: confound the old Dog — he laid on me like an <hi>Hercules.</hi> He had put on her Footman's Livery on purpose to lay wait for me; yet all this I cou'd have borne with the Patience of an Alderman, but the insupportable Weight of your Honour's Oaken Cudgel!</p>
+     </sp>
+     <sp who="#young_willmore">
+      <speaker>Will.</speaker>
+      <p>My Resentment was reasonable, Sirrah, such a preposterous Mistake! but tell me <hi>Jerry,</hi> don't you think <hi>Charlott</hi> will be confoundedly piqu'd at my so sudden Departure fron <hi>Oxford,</hi> without sending her one single Line, or whining out the least tender Adieu at Parting?</p>
+     </sp>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>Piqu'd, Sir! Lord, Sir, I thought you understood the inside of a Coquet better, tho' it might puzzle one of a longer standing at <hi>Oxford,</hi> to tell what to make of her — why, Sir, a Coquet is always so well pleas'd with herself that nothing in Nature is capable of discomposing her.</p>
+     </sp>
+     <sp who="#young_willmore">
+      <speaker>Will.</speaker>
+      <p>And yet, <hi>Jerry,</hi> tho' she used me with such a studied ill Nature, I sometimes thought she did not hate me.</p>
+     </sp>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>Hate you! no, no, Sir, in my humble
+<pb n="8" facs="7"/>Opinion she was extremely well pleas'd with you; at least she has Reason to be very well pleas'd with herself since she had it in her Power to make so fine a Gentleman a downright —.</p>
+     </sp>
+     <sp who="#young_willmore">
+      <speaker>Will.</speaker>
+      <p>Come, out with it Sirrah, I shan't be angry.</p>
+     </sp>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>A downright Ass — begging your Honour's Pardon.</p>
+     </sp>
+     <sp who="#young_willmore">
+      <speaker>Will.</speaker>
+      <p>Why, really Sir, you do make something Free with me, but will your Worship be pleas'd to explain what you mean by honouring me with that extraordinary Title?</p>
+     </sp>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>Nay, Sir, I beg you won't take it ill that I said so, for on my Honour, Sir, I assure you I have seen Persons of great Rank and Distinction act over all the pretty Follies of that sagacious Animal, and value themselves extremely upon it.</p>
+     </sp>
+     <sp who="#young_willmore">
+      <speaker>Will.</speaker>
+      <p>Pray then, most Philosophical Sir, will you please to inform me, what one Action of mine happens to fall under the Lash of your Satire?</p>
+     </sp>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>Why, really Sir, as you have been so long notorious in the Class of Lovers, I think your Question is easily resolv'd: Lovers since the Creation have been generally esteem'd
+<pb n="9" facs="8"/>little better than—but since the Title of the fore-mention'd Animal seems to affect you so nearly, I'll forbear repeating it, and leave it to yourself to consider, what are the Motives which hurried you so suddenly to <hi>London,</hi> with scarce a single Guinea in your Pocket, unknown to your Father, or Friends, and I may even venture to say almost unknown to yourself.</p>
+     </sp>
+     <sp who="#young_willmore">
+      <speaker>Will.</speaker>
+      <p>Why <hi>Jerry,</hi> I think my coming to <hi>London</hi> a Masterpiece of Resolution, and I applaud myself for it extremely. I doated even to Folly on that <hi>Charlott,</hi> the greatest Tyrant of her Sex. You are sensible how she used me — in short I was become ridiculous even to myself, and judging with a great deal of Justice that in dear <hi>London</hi> alone I might hope to recover my Reason, I resolv'd to break my Chains at once, and let the Coquet see that Beauty without Merit had lost all Power to make a Fool of me.</p>
+     </sp>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>So we take Horse in a Pet, Whip, Spur, and away; leave being silly at <hi>Oxford</hi> to come and play the downright Fool at <hi>London;</hi> for Curse me, Sir, still begging your Honour's Pardon, if I can at present see that your Intentions are conducted with the least Appearance of common Sense.</p>
+     </sp>
+     <sp who="#young_willmore">
+      <pb n="10" facs="9"/>
+      <speaker>Will.</speaker>
+      <p>Since I must explain my Intentions, Sir, to make a Man of your vast Judgment approve them, you must know that by a Variety of Pleasures here in <hi>London,</hi> I design to lose even the Remembrance of my <hi>Oxford</hi> Mistress; and least the Presence of an old peevish Father might Interrupt those Pleasures, I am positively resolv'd to avoid all Places where 'twere probable I might meet with him.</p>
+     </sp>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>And so, Sir, you begin this fine Variety of Pleasures by an Intrigue with Mistress what's her Name here, this fine kept Mistress — and that too with a Pair of Pockets Damnably badly lin'd — a likely Prospect of succeeding, truly!</p>
+     </sp>
+     <sp who="#young_willmore">
+      <speaker>Will.</speaker>
+      <p>If you exert yourself <hi>Jerry,</hi> our Plot upon my Father can't miscarry; then, if she be a mercenary Whore? Damn Money, 'twas made to purchase Pleasure—'tis now just Six.</p>
+     </sp>
+     <stage>Locks at his Watch.</stage>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>And pray, Sir, what is to be your humble Servant's Duty while you amuse yourself with the Lady? You'll please to give Orders that the Waiting-Maid may entertain me I hope.</p>
+     </sp>
+     <sp who="#young_willmore">
+      <speaker>Will.</speaker>
+      <p>You have Business enough upon you Hands, Sirrah; now you see me lodg'd, find out my Father, and if Fortune smiles
+<pb n="11" facs="10"/>on you, you'll find me here, ready to receive her Favours.</p>
+     </sp>
+     <stage>
+      <hi>Going out,</hi> Charlott <hi>enters in Boys Cloaths, and jostles him.</hi>
+     </stage>
+     <sp who="#charlotte_lovely">
+      <speaker>Char.</speaker>
+      <p>Zouns, Sir, en't the Street wide enough? or did you design to affront me?</p>
+     </sp>
+     <sp who="#young_willmore">
+      <speaker>Will.</speaker>
+      <p>I have other Business in hand, Sir, than either to affront you, or stay to make an Apology.</p>
+     </sp>
+     <sp who="#charlotte_lovely">
+      <speaker>Char.</speaker>
+      <p>Business? what Business can he have, into that House too? Oh, here's his Hangdog, of a Man, his Pimp and Prime Minister; 'tis certainly some Intrigue has brought him there: If I don't mistake that down-look, that Fellow is a Pimp and a Coward, so may I either Bully or Bribe him out of his Master's Secrets. Harkee me, you Sir, Prythee what Business have you lurking about this House here?</p>
+     </sp>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>Lurking about, Sir! I'd have you to know I'm a Man of Honour, Sir, and not used to answer such Questions — Lurking about! Tum, tum, tum, I walk here, Sir, for the Recreation of my Legs, and the Procreation of my Appetite.</p>
+     </sp>
+     <sp who="#charlotte_lovely">
+      <speaker>Char.</speaker>
+      <p>I mistake Friend, or your walking here tends to the Procreation of something
+<pb n="12" facs="11"/>else — come, Sir, no equivocating, answer me directly, upon what Design are you stationed at this Corner, and what Business your commanding Officer has in yonder Citadel?</p>
+     </sp>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>Who the Devil have we here? some young Don <hi>Quixote</hi> enamour'd with the fair and virtuous Lady of the Castle, I'll warrant you.</p>
+     </sp>
+     <sp who="#charlotte_lovely">
+      <speaker>Char.</speaker>
+      <p>Zouns, Sir, no trifling, confess, or by this Sword I'll pin you to the Wall: come, there's a Lady in the Case?</p>
+     </sp>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>Why truly Sir, as you say, there is a Lady in the Case, a Woman of great Honour and Reputation, I assure you; and my Master whom you saw just now enter, is a very honourable Man, and by this Time I suppose them engag'd in a very honourable Affair. Now, Sir, I have satisfy'd your Curiosity, you'll please to withdraw and leave me to my Meditations.</p>
+     </sp>
+     <sp who="#charlotte_lovely">
+      <speaker>Char.</speaker>
+      <p>So, you are to defend the out Works, while the General beats up the Quarters within.</p>
+     </sp>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>A Man of shrew'd Penetration truly!</p>
+     </sp>
+     <sp who="#charlotte_lovely">
+      <speaker>Char.</speaker>
+      <p>A few Words more with you, good Mr. Pimp, and we shall come to a Conclusion. In short who is this Lady? her Name? her Fortune? is she Young, Handsome, a Maid, or marry'd, is she —</p>
+     </sp>
+     <sp who="#jerry">
+      <pb n="13" facs="12"/>
+      <speaker>Jer.</speaker>
+      <p>Hold: hold, Sir, not so fast, I've a devilish short Memory, and shall never be able to answer so many Questions in Order — it must be the Devil himself, or a Lawyer, for he wou'd fain puzzle me with cross Questions.</p>
+     </sp>
+     <sp who="#charlotte_lovely">
+      <speaker>Char.</speaker>
+      <p>Dammee, Scoundrel, speak at once to the Purpose or—here's the most perswasive little Blade in Christendom.</p>
+     </sp>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>'Tis strange now, Sir, what a wonderful Antipathy, I've ever had even to the Sight of Cold Iron; 'tis a treacherous Sort of a Crocodile Companion, that's the Truth on't, while it smiles in a Man's Face, whip it has him through the Lungs in a twinkling.</p>
+     </sp>
+     <stage>Bantering.</stage>
+     <sp who="#charlotte_lovely">
+      <speaker>Char.</speaker>
+      <p>S'Death—do you Play on me Rascal?</p>
+     </sp>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>Play on you! ah Lord, Sir, you mistake me intirely, Play on you! no, no, Sir, but 'tis my way, Sir, to moralize a little on every Subject that offers: You must know, Sir, I have had Part of my Education at <hi>Oxford,</hi> that Seat of the Muses! That Theatre of Learning! That Fountain of Erudition! now, Sir, in my Opinion as I have an undoubted Right to make Use of the great Share of Knowledge and Wisdom I therein acquir'd, I shou'd think it quite opposite to
+<pb n="14" facs="13"/>Prudence and common Sense to trifle any longer with so worthy a little Gentleman, so by your Leave, Sir.</p>
+     </sp>
+     <stage>Comes nearer and nearer, till he wrests the Sword from her.</stage>
+     <sp who="#charlotte_lovely">
+      <speaker>Char.</speaker>
+      <p>The Devil! the Villain has almost broke my Arm.</p>
+     </sp>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>And now, Sir, will you please to let me know what Business you have lurking about this House here?</p>
+     </sp>
+     <sp who="#charlotte_lovely">
+      <speaker>Char.</speaker>
+      <p>Come, come, <hi>Jeremy,</hi> you'll find I know you and your Master too; be assur'd my Care for his Safety is my chief Motive for enquiring after him; perhaps there may be Danger in his venturing into yonder House. Come, <hi>Jerry,</hi> depend upon my Honour, I'll not betray you; let this persuade you of my Sincerity. There's a Wench in Chace — Ha! what says my little Mercury?</p>
+     </sp>
+     <stage>Gives him Money.</stage>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>Arguments drawn from the Mint are certainly the most prevailing in Logick, an excellent Sentence by all that's Eloquent—Sir you have rivetted <hi>Jeremy Ply,</hi> Gentleman, eternally to your Service; and tho' I have not the Honour of knowing you, I'm so well convinc'd of your Friendship for me and my Master,
+<pb n="15" facs="14"/>that without more Preamble, I plead Guilty.</p>
+     </sp>
+     <sp who="#charlotte_lovely">
+      <speaker>Char.</speaker>
+      <p>Is she a Woman of Fortune, or Family? a Widow perhaps, or —</p>
+     </sp>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>No, no, Sir, neither Maid, Wife, nor Widow, I'll assure you, but a true Daughter of the Game: A kept Mistress, Sir, and as free of her Favours as any young Rake of ye all cou'd wish for.</p>
+     </sp>
+     <sp who="#charlotte_lovely">
+      <speaker>Char.</speaker>
+      <p>So much the better, <hi>Jerry,</hi> for I can't possibly resist the Temptation of paying my Respects to her.</p>
+     </sp>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>Oh Lord, Sir, by no means, Sir; my Master will certainly murder me: Consider, Sir, he fix'd me here on purpose to hinder every thing in Breeches from disturbing him, besides, Sir, your Honour, your Honour is pledg'd.</p>
+     </sp>
+     <sp who="#charlotte_lovely">
+      <speaker>Char.</speaker>
+      <p>And my Pocket alone can release it.</p>
+     </sp>
+     <stage>Throws him Money and Exit.</stage>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>Well little <hi>London,</hi> I'll say that for thee, there's no Place under the Sun where Pimps have a better Prospect of thriving.</p>
+     </sp>
+     <stage>
+      <hi>Enter Sir</hi> WILLIAM WILLMORE.</stage>
+     <sp who="#sir_william_willmore">
+      <speaker>Sir Wil.</speaker>
+      <p>An expensive Affair, by the Lord <hi>Harry</hi>—but 'tis the Misfortune of old Age — the Purse must still make Amends for the Inability of the Person — how the Gypsie
+<pb n="16" facs="17"/>will leer at these little Pictures, and how fond, and how wanton she'll be, till she nibbles them out of the old Fool's Clutches.</p>
+     </sp>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>The old Knight by all that's ominous. Damnation! what Devil led him to this End of the Town?</p>
+     </sp>
+     <stage>Aside</stage>
+     <sp who="#sir_william_willmore">
+      <speaker>Sir Wil.</speaker>
+      <p>Hah — is not that <hi>Bob's Jerry</hi> — sure the young Dog is not come up to <hi>London</hi> without acquainting me—</p>
+     </sp>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>Yes, the Kite has discover'd me; if my Master should come Bolt out of his Borough, what a sweet piece of Work have we made on't? well I must on now in my own Defence <stage>[As if not seeing him]</stage> alas a Day, my poor old Master, 'tis for him my very Heart and Bowels ake — the melancholly News will certainly be the Death of the poor old Gentleman.</p>
+     </sp>
+     <sp who="#sir_william_willmore">
+      <speaker>Sir Wil.</speaker>
+      <p>What does he Mutter — what melancholly News is the Blockhead dreaming about?</p>
+     </sp>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>His very Soul was in that Son of his, and an hopeful, dutiful Youth he was as one might meet in a Summer Day's riding.</p>
+     </sp>
+     <sp who="#sir_william_willmore">
+      <speaker>Sir Wil.</speaker>
+      <p>Ad, so <hi>Jerry</hi>—why <hi>Jerry</hi>—are you distracted or drunk, or what Devil's the matter with you.</p>
+     </sp>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>Ads heart my old Master! the very
+<pb n="17" facs="18"/>Gentleman I'd look for—ah, Sir, the most pitiful News! poor Mr. <hi>Robert!</hi>
+      </p>
+     </sp>
+     <sp who="#sir_william_willmore">
+      <speaker>Sir Wil.</speaker>
+      <p>What, is he Dead?</p>
+     </sp>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>No, Sir, not absolutely Dead neither, but —</p>
+     </sp>
+     <sp who="#sir_william_willmore">
+      <speaker>Sir Wil.</speaker>
+      <p>But! but what Blockhead? he has play'd the Fool I suppose and marry'd his Bed-maker, or his Millener.</p>
+     </sp>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>Would to Heaven it was no worse, Sir: tho' Matrimony be a Noose, and a Devil of a one, poor Mr. <hi>Robert</hi> is in a fair Way of being tied up in a quite different Manner I assure you.</p>
+     </sp>
+     <sp who="#sir_william_willmore">
+      <speaker>Sir Wil.</speaker>
+      <p>What do you say, Sirrah, my Son <hi>Bob</hi> in a fair Way to be hang'd?</p>
+     </sp>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>In short, Sir, he has kill'd his Man, fairly kill'd him, a Dispute happened, a Challenge was sent, the Gentlemen met, and it was my young Master's very good Fortune, Sir, to pink the very Soul of his Antagonist: for to besure, Sir, Mr. <hi>Robert,</hi> as he has the Honour of being your Son, must be a Man of Courage.</p>
+     </sp>
+     <sp who="#sir_william_willmore">
+      <speaker>Sir Wil.</speaker>
+      <p>Courage! what the Devil had he to do with Courage? A fine talk about Courage, truly: so good <hi>Robert Willmore,</hi>
+       <abbr>Esq</abbr> Son of Sir <hi>William Willmore</hi> of <hi>Willmore Hall,</hi> in <hi>Comitatu Bucks,</hi> must be hang'd forsooth,
+<pb n="18" facs="19"/>because he is a Man of Courage!</p>
+     </sp>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>His Duty, Sir, and this Letter.</p>
+     </sp>
+     <sp who="#sir_william_willmore">
+      <speaker>Sir Wil.</speaker>
+      <p>Hum, Hum — <hi>According to the Principles of Honour, Sir, I could not avoid calling an Insolent young Officer to a close Account for publickly affronting me: It was his Misfortune to fall by my Sword,</hi> (fine Principles of Honour truly) <hi>I am now under an Arrest; yet, if any Thing hinders the Affair being immediately made up, 'tis a Deficiency of ready Money,</hi> (so) <hi>which I'm positive you'll prevent with your accustomed Indulgence.</hi>
+      </p>
+      <p>A mighty pretty Request! a very reasonable Demand truly! Hearkee, my good Mr. Squire, you'll let your Man of Courage know from me, that I don't at all approve of his Principles of Honour; and that I'm resolv'd not to part with a single Farthing, and if he has no other Way to Escape, but by the help of my broad Pieces, he may e'en say his Prayers, and prepare for another World, for I'll not part with a Souse, tell him so, and so farewell, good Mr. Man of Courage!</p>
+     </sp>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>For Heaven's Sake, Sir, consider, the poor young Gentleman will break his Heart, if you treat him with so much Inhumanity.</p>
+     </sp>
+     <sp who="#sir_william_willmore">
+      <speaker>Sir Wil.</speaker>
+      <p>Break his Heart, Sir, Ouns, let him; better he shou'd break his Heart, than
+<pb n="19" facs="20"/>be hang'd: Courage, quotha: so if he thinks fit to Kill half the Town in his Courage, I have Nothing to do but open my Bags and scatter my old Gold to save him from the Gallows, a good Jest! a very good Jest! by the Lord <hi>Harry.</hi>
+      </p>
+     </sp>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>Besides, Sir, as his Annuity becomes due you may repay yourself, what you are pleased to advance upon this Occasion, you were always indulgent, Sir, consider he is young —</p>
+     </sp>
+     <sp who="#sir_william_willmore">
+      <speaker>Sir Wil.</speaker>
+      <p>He's young, and I'm old, Sir, he's a Fool and I'm a wise Man, Sir, he's a Man of Courage, and I'm a Man that must pay for it, it seems; here Scoundrel, here are two Ten Pound Bags, ready seal'd, and yet I've a wonderful Temptation to let the young Rascal Hang for it: here are twenty Pieces, Sirrah, and let me hear that he makes a proper Use of them, and not one Word more of his Courage—or—</p>
+     </sp>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>Oh Lord, Sir, not a Tittle, we shall take a quite different Method, Sir, when those are expired. And so Sir, with all Submission, and Respect, I return to my Master, who'll be overjoy'd at the agreeable News of your good Health and the Success of his Courage, and my Parts.</p>
+     </sp>
+     <stage>Exit Jerry.</stage>
+     <sp who="#sir_william_willmore">
+      <pb n="20" facs="21"/>
+      <speaker>Sir Wil.</speaker>
+      <p>S'Death, a young Dog, I wonder what Devil possesses these young Fellows! Nothing but cutting of Throats, Blood-shed and Battery upon every fiddle faddle Occasion: But let me see, I must away to my Banker for a fresh Supply, no Reception from my <hi>Danaë,</hi> but when I descend in a golden Shower.</p>
+     </sp>
+     <stage>Exit.</stage>
+    </div>
+    <div type="scene">
+     <head>SCENE</head>
+     <stage>
+      <hi>Kitty</hi>'s <hi>Lodgings.</hi>
+     </stage>
+     <stage>KITTY and WILLMORE.</stage>
+     <sp who="#kitty">
+      <speaker>Kitty.</speaker>
+      <p>'Tis all in vain I assure you, Sir, notwithstanding your good Opinion of yourself, you'll find I shall make no Difference as to Persons between you and my old Keeper, every Lover that can purchase a Favour, has a right to demand it; 'tis my Trade, Sir, and like the Lawyer or Physician, nothing but a Fee can soften me.</p>
+     </sp>
+     <sp who="#young_willmore">
+      <speaker>Wil.</speaker>
+      <p>Come, come, S'Death, what means this fooling? Ouns, I took you for one of the Kindest of your Sex, and I won't be disappointed.</p>
+     </sp>
+     <sp who="#kitty">
+      <speaker>Kitty.</speaker>
+      <p>In short I'm not to be charm'd with the outside of a Scarlet Breeches, if the Pockets are properly lin'd, why, perhaps we might come to an Agreement, but while you sue
+<pb n="21" facs="22"/>in <hi>Pauper,</hi> my good unfurnish'd Captain, there's but small Hopes of succeeding in these Quarters.</p>
+     </sp>
+     <sp who="#young_willmore">
+      <speaker>Wil.</speaker>
+      <p>What! have I nothing about me to Tempt you? Come, I know by these Eyes, these smiling, speaking Eyes, that you can't be Cruel: S'Death, my Dear, which is your Bed-chamber.</p>
+     </sp>
+     <stage>
+      <hi>Enter</hi> CHARLOTT.</stage>
+     <sp who="#charlotte_lovely">
+      <speaker>Char.</speaker>
+      <p>Damme, Madam, If I spoil any Sport; I beg a Million of Pardons, but upon the slightest of your Commands I retire to whatever Corner of your Lodgings your Ladyship thinks proper to assign me.</p>
+     </sp>
+     <sp who="#kitty">
+      <speaker>Kitty.</speaker>
+      <p>How now, my good familiar Spark, who are you? Whence came you? who let you in, or what's your Business here?</p>
+     </sp>
+     <sp who="#charlotte_lovely">
+      <speaker>Char.</speaker>
+      <p>Heyday! an Inundation of Questions! on my Soul, Madam, you must excuse me, you see there's Company, but in private I'll give you all the Satisfaction you can Desire, Ratt me.</p>
+     </sp>
+     <sp who="#kitty">
+      <speaker>Kitty.</speaker>
+      <p>An agreeable Fellow, on my Conscience.</p>
+     </sp>
+     <sp who="#charlotte_lovely">
+      <speaker>Char.</speaker>
+      <p>Come, Madam, Alons, no doubt the Pictures in your Ruelle, are the most A-la-mode De l'Italian, Monsieur <hi>Permittez moy.</hi>
+      </p>
+     </sp>
+     <stage>[leading her off]</stage>
+     <sp who="#young_willmore">
+      <pb n="22" facs="23"/>
+      <speaker>Wil.</speaker>
+      <p>S'Death this is one of the most impertinent little Fops! Sir, as the Lady don't seem to allow you for an old Acquaintance, give me Leave to tell you, Freedoms, if carried too far may disoblige her.</p>
+     </sp>
+     <sp who="#charlotte_lovely">
+      <speaker>Char.</speaker>
+      <p>Ha, ha, ha! that Speech is so <hi>Angloi,</hi> so full of Spleen, and the ill Nature of the Climate, that Curse me, I must laugh in his Face: be it known unto you then, most serious Sir, that I have a Violent <hi>tendre</hi> for the Lady, in Consequence of which, whatever Freedoms I may happen to make Use of, the Lady is bound in Honour to excuse them. Adieu, adieu, <hi>mon chere, Madame ou est votre Chambre? Alons.</hi>
+      </p>
+     </sp>
+     <sp who="#kitty">
+      <speaker>Kitty.</speaker>
+      <p>The Devil is in the Fellow, I believe he has certainly bewitched me.</p>
+     </sp>
+     <sp who="#young_willmore">
+      <speaker>Wil.</speaker>
+      <p>Ouns, Sir, what Privilege have you to make free in these Lodgings?</p>
+     </sp>
+     <sp who="#charlotte_lovely">
+      <speaker>Char.</speaker>
+      <p>Privilege! oh Lord, Sir, I have been at <hi>Paris;</hi> I can dance, dress, talk <hi>French,</hi> and take Snuff with an Air: I know all the News of the Town, Sir; all the Intrigues and all the Scandal; can tell which Lord is great with his Lady's Woman, and which Lady with her Husband's Valet De Chambre: In short, Sir, I'm Master of a thousand Qualifications that always gives a Man some Privilege amongst the Ladies.</p>
+     </sp>
+     <sp who="#young_willmore">
+      <pb n="23" facs="24"/>
+      <speaker>Wil.</speaker>
+      <p>The excellent Privilege of a superior Impudence, and a <hi>French</hi> Education.</p>
+     </sp>
+     <stage>
+      <hi>Enter</hi> JERRY.</stage>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>Sir, Sir, I've succeeded even beyond our Hopes; here, Sir, here are the singing Birds. The good old Gentleman had not the least Suspicion; but one Word, Sir, beware of Sharpers, I don't much like that little Mercury at your Elbow.</p>
+     </sp>
+     <sp who="#young_willmore">
+      <speaker>Wil.</speaker>
+      <p>A troublesome Coxcomb; but this, was Luck <hi>Jerry;</hi> for without this Ammunition the Siege had been certainly rais'd. Be gone, and wait for me at my Lodgings, I'll thank thee there.</p>
+     </sp>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>Now, is my wise Master going to prove himself an errant Blockhead, and throw away all the Fruits of our honest Industry on yonder Jezabell.</p>
+     </sp>
+     <stage>Exit.</stage>
+     <sp who="#young_willmore">
+      <speaker>Wil.</speaker>
+      <p>Well, Madam, now you see I'm in a proper Condition to address you, and since I could not prevail by myself, let those little eloquent Gentlemen plead for me; <stage>[gives her a Purse]</stage> come, come, my Dear, we'll finish this Bargain within; for curse me, if I can hold out any longer.</p>
+     </sp>
+     <sp who="#kitty">
+      <speaker>Kitty.</speaker>
+      <p>Hold, Sir, perhaps this Gentleman has an equal Pretension, at least we should give him fair Play: What do you say, Sir,
+<pb n="24" facs="25"/>you see I'm for the best Bidder.</p>
+     </sp>
+     <sp who="#charlotte_lovely">
+      <speaker>Cher.</speaker>
+      <p>Damme, Madam, I'm but a younger Brother, and forced to live by my Parts, and the Favour of the Ladies; but if you'll accept of my Devotions, <hi>tout jour Pret,</hi> by the Lord, what say you Monsieur <hi>L'Argent, pouvez vous Dancer.</hi> Will you dance for the Lady?</p>
+     </sp>
+     <sp who="#young_willmore">
+      <speaker>Will.</speaker>
+      <p>Sir, I'll fight for the Lady — so without further Impertinence, desire you to withdraw.</p>
+     </sp>
+     <sp who="#charlotte_lovely">
+      <speaker>Char.</speaker>
+      <p>Damme, Sir, do you think to frighten me.</p>
+     </sp>
+     <sp who="#kitty">
+      <speaker>Kitty.</speaker>
+      <p>Hold, Gentlemen, let me decide this Affair; I'll send him a packing I'll warrant ye, an impudent Fop! <stage>[<hi>Aside to</hi> Charlott]</stage> Sir, tho' I had not the Pleasure of an earlier Acquaintance with you, I don't know how it is, I must confess I like you, your Manner has something so engaging, that I find I shall be Fool enough to grow fond of you. I cou'd not take it ill, should you doubt my Sincerity, but if this Purse, just given me by your Rival, can convince you I'm in earnest, I beg you to make Use on't, and an Hour hence I'll expect you; we'll laugh at all such Coxcombs as this is, and sacrifice an Hour or two to our mutual Satisfaction.</p>
+     </sp>
+     <sp who="#charlotte_lovely">
+      <speaker>Char.</speaker>
+      <p>Curse me, my Dear, but you have
+<pb n="25" facs="26"/>the most <hi>adroit</hi> Way of making a Present! Sir, Monsieur, you had as good march off, for on my Soul, 'tis only Time lost, the Lady bids me tell you so; I have done her Business, Sir, she doats on me, dies for me, <hi>&amp; vous etes un Malhereaux,</hi> as a Proof of the poor Creature's Fondness, this Bagatelle, this Trifle, you see, Sir, she did me the Honour to present me with it from her own fair Hand, Sir.</p>
+     </sp>
+     <sp who="#young_willmore">
+      <speaker>Wil.</speaker>
+      <p>The Jilt — Damnation! S'Death, you young Dog, do you make a Jest of me? Ouns, to lose my Money, and my Mistress too! Draw, Sir.</p>
+     </sp>
+     <sp who="#charlotte_lovely">
+      <speaker>Char.</speaker>
+      <p>With all my Heart, Sir, yet, upon second Thought, what if we divide Stakes in a more peaceable Manner; do you keep the Woman, Sir, and I'm satisfied to walk off with my Bargain.</p>
+     </sp>
+     <stage>
+      <hi>Enter</hi> JERRY.</stage>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>Ah, Lord, Sir, we are ruin'd, we are undone, some Devil or other has directed your Father here, I met him just at the Threshold, and ran back in such Confusion, I don't know whether I'm discover'd or not. This comes of intriguing, with a Pox to it! Unfortunate <hi>Jeremy Ply,</hi> what the Devil will become of thee? thou wer't certainly born to be hanged without Benefit of Clergy.</p>
+     </sp>
+     <sp who="#young_willmore">
+      <pb n="26" facs="27"/>
+      <speaker>Wil.</speaker>
+      <p>S'Death, my Father? you amaze me — how, how shall I escape?</p>
+     </sp>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>Escape, Sir, 'tis impossible, he's here, Sir, I hear him on the Stairs, in the Name of all that's impudent, Sir, face him downright that he mistakes you; persuade him out of his Senses, and let us make a Retreat as decently as we can; he has not seen you this long Time, Sir, and may be easily imposed on; I'll hide behind this Screen; for if he sees me, all's over.</p>
+     </sp>
+     <stage>
+      <hi>Enter Sir</hi> WILLIAM.</stage>
+     <sp who="#kitty">
+      <speaker>Kitty.</speaker>
+      <p>My Keeper!</p>
+     </sp>
+     <sp who="#young_willmore">
+      <speaker>Wil.</speaker>
+      <p>'Tis he, by Heaven! my own natural Father.</p>
+     </sp>
+     <sp who="#sir_william_willmore">
+      <speaker>Sir <hi>Wil.</hi>
+      </speaker>
+      <p>Hey day! we have got Company here, fine Doings, rare Doings, by the Lord <hi>Harry!</hi> ah — ah — thou Crocodile, thou <hi>Messalina,</hi> have I found thee out, is it thus you employ yourself in my Absence, thou Toad, thou Serpent, that I've nourish'd so long in my Bosom.</p>
+     </sp>
+     <sp who="#kitty">
+      <speaker>Kitty.</speaker>
+      <p>Indeed, and indeed now, you must not be jealous, Dear, these are only some Cousins from the Country, Dear, no-body else indeed! come buss thy own <hi>Kitty.</hi>
+      </p>
+     </sp>
+     <sp who="#sir_william_willmore">
+      <speaker>Sir <hi>Wil.</hi>
+      </speaker>
+      <p>Cousins; ah Cousins, with a Vengeance! you have cousin'd me to some Purpose, truly. Pray, little Gentleman, may I
+<pb n="27" facs="28"/>make bold to ask, who, or what you are?</p>
+     </sp>
+     <sp who="#charlotte_lovely">
+      <speaker>Char.</speaker>
+      <p>A Rake, rat me.</p>
+     </sp>
+     <sp who="#sir_william_willmore">
+      <speaker>Sir <hi>Wil.</hi>
+      </speaker>
+      <p>And your Business here?</p>
+     </sp>
+     <sp who="#charlotte_lovely">
+      <speaker>Char.</speaker>
+      <p>To lye with that Lady. Nothing else on my Soul, Sir.</p>
+     </sp>
+     <sp who="#sir_william_willmore">
+      <speaker>Sir <hi>Wil.</hi>
+      </speaker>
+      <p>Very concise truly. And you Sir? ah — may I believe my Eyes, roguery upon roguery! I shall run distracted! ah thou Reprobate; look me full in the Face, Sir, and tell me what Business you have in <hi>London,</hi> and what is become of the Money I sent you by your Rogue of a Servant, this Evening. Why don't you speak, Sirrah, how his Guilt confounds him!</p>
+     </sp>
+     <sp who="#young_willmore">
+      <speaker>Wil.</speaker>
+      <p>S'Death, what do you mean old Gentleman? for Damn me if I can understand one Syllable of all this.</p>
+     </sp>
+     <sp who="#sir_william_willmore">
+      <speaker>Sir <hi>Wil.</hi>
+      </speaker>
+      <p>What's this? what's this? your Worship won't vouchsafe to know me then; oh Impudence unparallel'd! with Submission, Sir, is not your Name <hi>Robert Willmore,</hi> educated these three Years at <hi>Oxford,</hi> who fought a Duel the other Day, kill'd your Man, and sent an honest Valet de Chambre you keep, in Post-haste to <hi>London,</hi> to cozen a good old foolish Knight, who has the Honour to be your Father, to cheat him, and bambouzle him out of twenty good Pieces of Gold, which he
+<pb n="28" facs="29"/>foolishly, very foolishly sent by the aforesaid honest Valet not an Hour ago: Pray, Sir, are you this worthy Gentleman or not?</p>
+     </sp>
+     <sp who="#young_willmore">
+      <speaker>Wil.</speaker>
+      <p>Ha, ha, ha! distracted by all that's Lunatick, quite beside himself! however, to humour your Frenzy, my queer old Fellow, Curse me if I've the least Knowledge of the Gentleman you talk of, or his honest Valet, or the foolish old Knight his Father, if I have, Damn me.</p>
+     </sp>
+     <sp who="#sir_william_willmore">
+      <speaker>Sir <hi>Wil.</hi>
+      </speaker>
+      <p>How, how, do I doat, am I asleep, or distracted, or have you lost your Senses <hi>Bob,</hi> and don't know your own natural Father?</p>
+     </sp>
+     <sp who="#young_willmore">
+      <speaker>Wil.</speaker>
+      <p>And for a College Education, I'm a Beau, Sir; and of Consequence a profess'd Enemy to all kind of Learning, unless it be the <hi>Manage</hi> of the Snuff Box, or the <hi>je ne scay quoi</hi> of the Rigadoon.</p>
+     </sp>
+     <sp who="#charlotte_lovely">
+      <speaker>Char.</speaker>
+      <p>This is an extraordinary Piece of Humour, o'my Conscience.</p>
+     </sp>
+     <sp who="#young_willmore">
+      <speaker>Wil.</speaker>
+      <p>My Name is <hi>Careless,</hi> Sir, commonly call'd Beau <hi>Careless,</hi> by all the Tavern and Coffee-Waiters in and about <hi>London!</hi> ha, ha, ha, kill'd his Man, you don't know me, Sir, I find you don't know me; ha, ha, ha.</p>
+     </sp>
+     <sp who="#sir_william_willmore">
+      <speaker>Sir <hi>Wil.</hi>
+      </speaker>
+      <p>Can I be mistaken — I must — and yet I could have sworn 'twas <hi>Bob;</hi> his very Shape and Physiognomy, his very outside indeed,
+<pb n="29" facs="30"/>but for the inside, thank Heaven, 'tis quite different.</p>
+     </sp>
+     <sp who="#charlotte_lovely">
+      <speaker>Char.</speaker>
+      <p>Come, Sir, I can see you no longer imposed on: Be satisfied this Gentleman is no other than your Son, educated as you said at <hi>Oxford,</hi> and now come up incog to <hi>London;</hi> because 'tis here he expects to find a larger Variety of Pleasures. I know not what you mean by his Duel, and killing his Man, but am assured, Sir, 'tis all a Fable, and I believe I can produce the Author, at least the Manager of this, and all his other Extravagance, do you know this Face, Sir?</p>
+     </sp>
+     <stage>Discovers Jerry.</stage>
+     <sp who="#young_willmore">
+      <speaker>Will.</speaker>
+      <p>You are to be met I suppose, Sir, I shall find a Time.</p>
+     </sp>
+     <sp who="#charlotte_lovely">
+      <speaker>Char.</speaker>
+      <p>Damn your Time, Sir; or will you let this honest Gentleman impose on you as your dutiful Son has done? if you'll believe him, Sir, I'll engage he'll tell you he is not the Rogue you take him for, but a Person of some Consequence, and Honesty. Pray, Sir, are you a Beau too, and by what Name is your Honour distinguish'd amongst the Tavern and Coffee Waiters, in and about <hi>London?</hi> ha, ha, ha.</p>
+     </sp>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>Really, Sir, I do seem Guilty, I confess I do, but if I am not as innocent, and as much imposed on as yourself, may I be
+<pb n="30" facs="31"/>condemned to the Service of some half famish'd Lawyer, never more to know the dear Pleasures of Board-wages, but keep an eternal Lent upon sour small Beer and Parchment.</p>
+     </sp>
+     <sp who="#charlotte_lovely">
+      <speaker>Char.</speaker>
+      <p>Why, Sir! are you so Mad to believe this?</p>
+     </sp>
+     <sp who="#sir_william_willmore">
+      <speaker>Sir Wil.</speaker>
+      <p>Rascal, what can you say for yourself? he shall swing, by the Lord <hi>Harry.</hi>
+      </p>
+     </sp>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>I spy'd this Gentleman here, this wonderful Likeness of my young Master, just turning a Corner of the Street, Sir, as I parted from your Worship, you may very well think I was surprised, Sir; yes, Sir, my very Hair stood an End, I'll assure you.</p>
+     </sp>
+     <sp who="#charlotte_lovely">
+      <speaker>Char.</speaker>
+      <p>Sirrah, thou art an Original of Impudence.</p>
+     </sp>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>However, Sir, I pluck'd up my Spirits, and follow'd him (as I thought, unperceived) into this very Chamber, where I was soon convinced of my Mistake, for upon a nearer Examination, they are not like one another at all, the Voice, Sir, immediately undeceives one, and so I was sneaking away when your Honour came in, quite ashamed, Sir, for making so ridiculous a Blunder.</p>
+     </sp>
+     <sp who="#young_willmore">
+      <speaker>Wil.</speaker>
+      <p>'Tis in vain, Sir, to. make Apologies; I throw myself at your Feet. Can you forgive a Son whom Youth, and a Vivacity
+<pb n="31" facs="32"/>of Sentiments have led astray? my future Conduct shall never give you Occasion to repent your Indulgence.</p>
+     </sp>
+     <sp who="#sir_william_willmore">
+      <speaker>Sir Wil.</speaker>
+      <p>Distracted by all that's Lunatick, quite beside himself.</p>
+     </sp>
+     <sp who="#young_willmore">
+      <speaker>Wil.</speaker>
+      <p>Will you, Sir? can you be Deaf to my Repentance?</p>
+     </sp>
+     <sp who="#sir_william_willmore">
+      <speaker>Sir Wil.</speaker>
+      <p>My Name is <hi>Careless,</hi> Sir, commonly call'd Beau <hi>Careless!</hi> you don't know me, Sir, I find you don't know me, ha, ha, ha.</p>
+     </sp>
+     <stage>
+      <hi>Mimicking young</hi> Willmore.</stage>
+     <sp who="#charlotte_lovely">
+      <speaker>Char.</speaker>
+      <p>Rise, Mr. <hi>Willmore,</hi> Folly in you may be excusable; but how monstrous does it appear on the venerable Shoulders of threescore! These are pretty Lodgings, Sir <hi>William,</hi> and your Choice in a Play-Fellow no Disgrace to your Judgment, had you been one forty Years younger. Come, come, Sir, take your Son immediately into Favour, or your scandalous Intrigue here shall be made the Sport of the whole Town. Nay, Sir, I'll post up your Character in all the publick Coffee-Houses; I'll make you ridiculous to such a Degree, that all the World shall point at you — I will, Sir, Damn me.</p>
+     </sp>
+     <sp who="#kitty">
+      <speaker>Kitty.</speaker>
+      <p>This is a wonderful Spark truly, he certainly deals with the Devil, for he knows every Body, and has a Finger in every Body's Business.</p>
+     </sp>
+     <sp who="#charlotte_lovely">
+      <pb n="32" facs="33"/>
+      <speaker>Char.</speaker>
+      <p>For you, Madam, I'll take upon me in Sir <hi>William</hi>'s Name to discharge you; you see he has found you out; here is a Purse you vouchsafed to honour me with, take it, Madam, I'm not for your Purpose; and, but that I'm certain you'd laugh at my Advice, I'd desire you to be honest. Your Lodging shall be discharged, look out for fresh ones as soon as possible. And now Mr. <hi>Willmore,</hi> what do you think of me?</p>
+     </sp>
+     <sp who="#young_willmore">
+      <speaker>Wil.</speaker>
+      <p>That you are the most extraordinary Person I ever met in my Life.</p>
+     </sp>
+     <sp who="#charlotte_lovely">
+      <speaker>Char.</speaker>
+      <p>Look me full in the Face; do you see nothing there to make you tremble?</p>
+     </sp>
+     <sp who="#young_willmore">
+      <speaker>Wil.</speaker>
+      <p>Hah — by all my Hopes 'tis she! 'tis <hi>Charlott</hi> — dull Coxcomb that I was, I'm confounded.</p>
+     </sp>
+     <sp who="#charlotte_lovely">
+      <speaker>Char.</speaker>
+      <p>Courage, Mr. <hi>Willmore,</hi> you see what unaccountable Creatures we Women are; while I had you in my Power, I used you as ill as I could, and for no other Reason that I can tell, but because you were in my Power, and since I have gone so far, it must all out: When I heard you had left <hi>Oxford,</hi> I must own I was quite desperate; and after making and unmaking a thousand Resolutions, I contrived to steal away the Writings of my Fortune, which my Guardian refused to give up to me, and thus accoutred, pursued you to
+<pb n="33" facs="34"/>
+       <hi>London.</hi> Now, if my Frolick has not made you think light of me, and if my Hand that gives those Papers to your Protection can give you any farther Pleasure, my Heart is yours.</p>
+     </sp>
+     <sp who="#young_willmore">
+      <speaker>Wil.</speaker>
+      <p>Dear, dear Creature! Excess of Joy transports me, 'tis you, Sir, must confirm my Happiness.</p>
+     </sp>
+     <sp who="#sir_william_willmore">
+      <speaker>Sir Wil.</speaker>
+      <p>By the Lord <hi>Harry,</hi> I believe I'm distracted in earnest.</p>
+     </sp>
+     <sp who="#charlotte_lovely">
+      <speaker>Char.</speaker>
+      <p>My Name, Sir, is <hi>Charlott Lovely,</hi> Daughter and Heiress of <hi>Sir William Lovely</hi> deceased: I'm now of Age, and of consequence my own Mistress, which Title with Pleasure I give up in Favour of your Son; if you approve of our Union, Sir, confirm it by taking us to your Arms.</p>
+     </sp>
+     <sp who="#sir_william_willmore">
+      <speaker>Sir Wil.</speaker>
+      <p>Egad thou'rt a mettled Girl, and I wish I were young for thy Sake: Well <hi>Bob,</hi> we must forgive one another, I've been an old Fool, and you, a young one. Your Father, Madam, was my intimate Friend, and had he lived, Nothing could have pleased him better than uniting our Families, so, Heaven bless ye together.</p>
+     </sp>
+     <sp who="#jerry">
+      <speaker>Jer.</speaker>
+      <p>Huzza! a Jubilee, a Jubilee!</p>
+     </sp>
+     <sp who="#sir_william_willmore">
+      <speaker>Sir Wil.</speaker>
+      <p>
+       <hi>Jeremy</hi> here has been a sad Dog, but as Things have happened, I can't be
+<pb n="34" facs="35"/>angry; well <hi>Jeremy,</hi> what do you think of a Wife, shall I make your Fortune you Dog? Mrs. <hi>Kitty</hi> here, with a little looking after, may make an excellent House-Wife; and I'll throw you a Brace of Hundreds into the Bargain. Nay Sirrah, you need not look so Arch, for 'twill be your own Fault if you don't keep her all to yourself.</p>
+     </sp>
+     <sp who="#young_willmore">
+      <speaker>Wil.</speaker>
+      <p>With your Leave, Sir, we'll all adjourn to your House, where every Thing may be compleated with Satisfaction; and now my Charmer</p>
+      <lg>
+       <l>Cou'd thy uncertain Sex attain thy Merit</l>
+       <l>Did each, like thee, with so much Ease inherit</l>
+       <l>A wondrous Stock of Beauty, Wit, and Spirit;</l>
+       <l>No more shou'd fickle Man be fond of Ranging,</l>
+       <l>But every Youth be fix'd, beyond the Power of changing.</l>
+      </lg>
+     </sp>
+    </div>
+   </div>
+  </body>
+  <back>
+   <div type="epilogue">
+    <pb facs="36"/>
+    <head>EPILOGUE,</head>
+    <stage>Spoke by Mrs. <hi>MYNITT,</hi> In the Character of CHARLOTTE.</stage>
+    <sp>
+     <lg>
+      <l>TELL me, ye gentle Sparks—and tell me truly,</l>
+      <l>Is n't <hi>Charlott,</hi> in her Frolicks—too Unruly?</l>
+      <l>Well, if this Manly Outside shou'd amaze ye,</l>
+      <l>I'll be in Petticoats again — to Please ye,</l>
+     </lg>
+     <lg>
+      <l>You'll say, no Doubt, some rampant Fiend bewitches</l>
+      <l>When Ladies 'gin to woe, and woe in Breeches.</l>
+      <l>'Tis strange indeed — a wondrous Revolution,</l>
+      <l>And quite destroys our Ancient Constitution.</l>
+      <l>In former Times — her secret Wish Dissembling,</l>
+      <l>The curtsy'ing Dame scarce answer'd yes—for trembling;</l>
+      <l>Tho' all on Fire — her Spark's Address disdaining</l>
+      <l>She look'd demure — nor understood his Meaning.</l>
+      <l>'Twas Farce, 'twas Folly all — for let me perish,</l>
+      <l>We Girls have Blood—warm Flesh and Blood to cherish;</l>
+      <l>And since that either Sex was made to tally,</l>
+      <l>She's half a Fool that stands, with shilly shally.</l>
+     </lg>
+     <lg>
+      <l>Why shou'd a Girl of Sense her Passion stifle,</l>
+      <l>And lose the Man she likes — for just a Trifle?</l>
+      <l>We're so experienc'd now, so deep in Knowledge,</l>
+      <l>Gad I don't fear the Ripest in your College:</l>
+      <l>But I'd forgot — our Author's quite Uneasy,</l>
+      <l>At least, he bid me say — he strove to Please ye;</l>
+      <l>If you'll accept the Will — for real Merit,</l>
+      <l>With one Consent Applaud his Lass of Spirit.</l>
+     </lg>
+    </sp>
+   </div>
+   <div type="publisher'sadvertisement">
+    <pb facs="37"/>
+    <p>
+     <hi>Just published,</hi> (Price Five Shillings,) <hi>With a curious Frontispiece, and a Copper-Plate Cut of the chief Scene in every Act,</hi> SCANDERBEG; or <hi>Love</hi> and <hi>Liberty.</hi> A TRAGEDY.</p>
+    <p>
+     <hi>Wrote by the late</hi> THOMAS WHINCOP, <abbr>
+      <hi>Esq</hi>
+     </abbr> With some Account of the Life of SCANDERBEG.</p>
+    <p>
+     <hi>To which are added,</hi>
+    </p>
+    <p>The Lives of all the <hi>English</hi> Dramatick Poets, and an Account of all the Plays ever printed in the <hi>English</hi> Language, divided into two Periods; the first ending at the Time of the Restoration, and the other continued from thence to the present Year 1747.</p>
+    <p>Which contains an ample History of the Stage, and the Lives of the principal Actors, as well as Authors.</p>
+    <p>Embellished likewise with Copper-plate Cuts of the Heads of most of the chief Dramatick Writers, <hi>viz. Shakespear, Beaumont, Fletcher, Ben. Johnson, Milton, Cowley, Dryden, Addison, Congreve, Otway, Steele, Vanbrugh, Wycherley,</hi> Lord <hi>Lansdown, Cibber, Garrick,</hi> &amp;c.</p>
+    <p>
+     <hi>Also just Published, Price Six-pence Each, Beautifully Printed in Twelves, with a curious Frontispiece to Each, the Three following Dramatick Pieces,</hi> viz.</p>
+    <p>{inverted ⁂} The TRAGEDY of SIR WALTER RALEIGH. By Mr. <hi>Sewel.</hi> The Sixth Edition▪</p>
+    <p>KING HENRY the Fifth, or the Conquest of <hi>France</hi> by the <hi>English,</hi> a Tragedy. By <hi>Aaron Hill,</hi>
+     <abbr>Esq</abbr> The Second Edition.</p>
+    <p>ATHALIAH, a Tragedy. Translated from the <hi>French</hi> of Monsieur <hi>Racine.</hi> By Mr.<hi>Duncombe.</hi> The Third Edition Revised and Corrected.</p>
+    <p>Printed for <hi>W. Reeve,</hi> at <hi>Shakespear</hi>'s <hi>Head, Serjeants Inn Gate, Fleet-street</hi>
+    </p>
+   </div>
+  </back>
+ </text>
+</TEI>
