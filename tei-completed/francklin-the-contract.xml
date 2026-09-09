@@ -1,0 +1,1993 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">The contract</title>
+    <title type="sub">a comedy. Of two acts. As it was performed at the Theatre Royal, in the Hay-Market.</title>
+    <author>
+     <persName>
+      <surname>Francklin</surname>
+      <forename>Thomas</forename>
+      <idno type="VIAF">27112052</idno>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>The contract: a comedy. Of two acts. As it was performed at the Theatre Royal, in the Hay-Market.</name>
+     <author>Francklin, Thomas, 1721-1784.</author>
+     <publisher>printed for the author, by J. Millidge: and sold by T. Davies; T. Cadell, and T. Evans,</publisher>
+     <date>1776.</date>
+     <pubPlace>London :</pubPlace>
+     <note>Anonymous. By Thomas Francklin.</note>
+     <note>Reproduction of original from the British Library.</note>
+     <note>English Short Title Catalog, ESTCT128520.</note>
+     <note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note>
+    </bibl>
+    <biblFull n="printed source">
+     <publicationStmt>
+      <authority ref="#JJ">Jan Jokisch</authority>
+      <date>2024 December</date>
+      <idno type="ECCO_Drama">K102279.000</idno>
+      <idno type="DLPS">004885955</idno>
+      <idno type="ESTC">T128520</idno>
+      <idno type="DocNo">CW112252404</idno>
+      <idno type="TCP">K102279.000</idno>
+      <idno type="GaleDocNo">CW3312252404</idno>
+      <idno type="ContentSet">ECLL</idno>
+      <idno type="ImageSetID">0393900300</idno>
+      <availability>
+       <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+      </availability>
+     </publicationStmt>
+    </biblFull>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    <person xml:id="colonel_lovemore"><persName>Colonel Lovemore</persName><sex value="MALE"/></person><person xml:id="martin"><persName>Martin</persName><sex value="MALE"/></person><person xml:id="commodore_capstern"><persName>Commodore Capstern</persName><sex value="MALE"/></person><person xml:id="captain_spritely"><persName>Captain Spritely</persName><sex value="MALE"/></person><person xml:id="eleanor"><persName>Eleanor</persName><sex value="FEMALE"/></person><person xml:id="betty"><persName>Betty</persName><sex value="FEMALE"/></person><person xml:id="maria"><persName>Maria</persName><sex value="FEMALE"/></person><person xml:id="servant"><persName>Servant</persName><sex value="MALE"/></person></listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1776">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text xml:lang="en">
+  <front>
+   <div type="titlepage">
+    <pb facs="1" ana="y"/>
+    <p>THE CONTRACT: A COMEDY. OF TWO ACTS. AS IT WAS PERFORMED AT THE Theatre Royal, in the Hay-Market.</p>
+    <p>
+     <hi>LONDON:</hi> Printed for the AUTHOR, by J. MILLIDGE: And sold by T. DAVIES, in Russel-Street, Covent-Garden; T. CADELL, and T. EVANS, in the Strand. MDCCLXXVI. [PRICE ONE SHILLING.]</p>
+   </div>
+   <div type="prologue">
+    <pb facs="2"/>
+    <head>PROLOGUE,</head>
+    <stage>Intended to have been Spoken by Mr. FOOTE.</stage>
+    <lg>
+     <l>THE Contract is it call'd?—I cannot say,</l>
+     <l>I much admire the title of his play;</l>
+     <l>Contracts, they tell me, have been fraught with evil,</l>
+     <l>Since <hi>Faustus</hi> sign'd his Contract with—the <hi>Devil;</hi>
+     </l>
+     <l>Yet, spite of <hi>Satan,</hi> all men love to make 'em,</l>
+     <l>Tho' nineteen out of twenty wish to break 'em:</l>
+     <l>Butchers and meal-men, brewers, agents, factors,</l>
+     <l>Pimps, poets, placemen, managers, and actors,</l>
+     <l>Bawds, bankrupts, booksellers, are all—Contractors,</l>
+     <l>All lye, and swear, and cheat, t' increase their store,</l>
+     <l>Then die, and go—where <hi>Faustus</hi> went before.</l>
+    </lg>
+    <lg>
+     <l>Whilst thus o'er all we see th' infection spread,</l>
+     <l>No wonder it shou'd taint the marriage bed;</l>
+     <l>Each wife forgets, each husband breaks his vow,</l>
+     <l>For what are Contracts? what is wedlock now?</l>
+    </lg>
+    <lg>
+     <l>
+      <hi>Garrick,</hi> who long was marry'd—to the town,</l>
+     <l>At length, a fashionable husband grown,</l>
+     <l>Forsakes his spouse; base man! for, truth to tell,</l>
+     <l>She lov'd her own dear <hi>Davy</hi> wond'rous well;</l>
+     <l>
+      <pb facs="3"/>
+Tho' now he slights her, breaks from her by force,</l>
+     <l>And nought will serve him but a full divorce.</l>
+     <l>But be the fault in women or in men,</l>
+     <l>Thanks to our laws! they all may—wed again;</l>
+     <l>Her faithless fav'rite gone, the Lady's free,</l>
+     <l>To choose another, and may smile—on me,</l>
+     <l>To the <hi>Lame Lover</hi> may resign her charms,</l>
+     <l>And, tho' a cripple, take me to her arms:</l>
+     <l>I'll promise to be constant, kind, polite,</l>
+     <l>And pay my duty—every other night:</l>
+     <l>My dear-lov'd rib I never will abandon,</l>
+     <l>But stand by her whilst I've <hi>ONE</hi> leg to stand on;</l>
+     <l>I'll make a solemn <hi>Contract,</hi> play or pay,</l>
+     <l>And hope we shall not part this many a day.</l>
+    </lg>
+    <lg>
+     <l>Our brother scribbler too, I greatly fear,</l>
+     <l>Has made a foolish kind of Contract here,</l>
+     <l>He promises, and ten to one you're bit,</l>
+     <l>To furnish fable, sentiment and wit:</l>
+     <l>I've seen his piece, the man appeal'd to me,</l>
+     <l>And I, as chancellor, issued my decree;</l>
+     <l>T'has pass'd the seals—they're going to rehearse it,</l>
+     <l>But you're the <hi>House of Peers</hi>—and may reverse it.</l>
+    </lg>
+   </div>
+   <div type="Dramatis_Personae">
+    <pb facs="4"/>
+    <castList>
+     <head>Dramatis Personae.</head>
+     <castItem>MEN.</castItem>
+     <castItem>
+      <role>Colonel Lovemore, an old Officer</role>
+      <actor>Mr. PARSONS</actor>
+     </castItem>
+     <castItem>
+      <role>Martin, Servant to the Colonel</role>
+      <actor>Mr. WHITEFIELD</actor>
+     </castItem>
+     <castItem>
+      <role>Commodore Capstern</role>
+      <actor>Mr. BANNISTER</actor>
+     </castItem>
+     <castItem>
+      <role>Captain Spritely</role>
+      <actor>Mr. R. PALMER</actor>
+     </castItem>
+     <castItem>WOMEN.</castItem>
+     <castItem>
+      <role>Mrs. GARDNER</role>
+      <actor>Miss Eleanor Briggs, an old Maid</actor>
+     </castItem>
+     <castItem>
+      <role>Betty, her Maid</role>
+      <actor>Miss PLATT</actor>
+     </castItem>
+     <castItem>
+      <role>Maria</role>
+      <actor>Miss ESSEX</actor>
+     </castItem>
+    </castList>
+   </div>
+  </front>
+  <body>
+   <head>
+    <pb facs="5"/>THE CONTRACT.</head>
+   <div n="1" type="act">
+    <head>ACT I. SCENE I.</head>
+    <div type="scene">
+     <stage>Miss ELEANOR and BETTY.</stage>
+     <sp who="#eleanor">
+      <speaker>ELEANOR. </speaker>
+      <stage>(Leaning on a table, and melancholy.)</stage>
+      <p>HEIGH-HO!</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>Dear Ma'am, what's the matter with you? you a'nt ill, I hope.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Never worse in my life, Betty.</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>Lud! Ma'am, you frighten me!</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Betty.</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>Ma'am.</p>
+     </sp>
+     <sp who="#eleanor">
+      <pb n="2" facs="6"/>
+      <speaker>ELEANOR.</speaker>
+      <p>In the bottom drawer of my walnut-tree chest, Betty, there lies, if the moths have not devoured it, my <hi>Practice of Piety;</hi> look for it, good girl, and bring it me hither.</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY. </speaker>
+      <stage>(Aside.)</stage>
+      <p>Yes, Madam. Sure my mistress is in a bad way to think of such things.</p>
+      <stage>(Exit.</stage>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR. </speaker>
+      <stage>(Sighing.)</stage>
+      <p>Well! 'tis what we must all come to. O Time, Time, what a cruel destroyer thou art! <stage>(Pulls out a pocket-glass.)</stage> Where are all my roses fled? all faded, gone!</p>
+      <stage>(Betty returns, blowing the dust off the book.)</stage>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Well, Betty!</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>Here it is, Ma'am, but in <hi>such</hi> a pickle;—bless me, I believe your ladyship has not looked in it these ten years.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Give it me, child. Let me see: somewhere towards the end, on a blank leaf, if I am not mistaken, are the births of the family: <stage>(turns over the leaves.)</stage> O, here it is:—Eleanor, daughter of Thomas and Sarah, born—christened, July 14, 17 hundred, and, let me see, 38, 48, 58, and 7, is—O Lud, Betty, I am an old woman, positively an old woman. Here—take away the filthy memorandum, and never let it see the light 'till—</p>
+     </sp>
+     <sp who="#betty">
+      <pb n="3" facs="7"/>
+      <speaker>BETTY.</speaker>
+      <p>'Till the birth of your first boy, Ma'am.—Fye, fye, Madam; never mind such musty records, but consult this better and more faithful monitor.</p>
+      <stage>(Brings the looking-glass.</stage>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR. </speaker>
+      <stage>(Looking at herself in the glass.)</stage>
+      <p>
+       <l>Since what I was I cannot be,</l>
+       <l>What I am, I would not see:</l>
+As the poet says. O Betty, how provoking it is that I should begin to grow old and ugly, just at the time I want to be young and handsome!</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>Indeed, Ma'am, you wrong your charms; in my opinion, you have not look'd so well these five years.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Go, go, you're a wicked flatterer.</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>Indeed but I a'nt, Ma'am. Besides, if you were a little older, you'd be young enough yet I think, for the Colonel. Methinks, Ma'am, 'tis a thousand pities you two did not come together some fifteen or twenty years ago.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Why really, Betty, I wish we <hi>had;</hi> but then matters did not suit. You must know the Colonel was under the direction of an old surly guardian, who wanted him to marry his niece; and because he refused, kept him out of
+<pb n="4" facs="8"/>
+his fortune by law and chicanery;—whilst I was teiz'd to death by an immortal old aunt, who threatened to disinherit me, if I married without her consent.—About five years ago I became my own mistress, with some thousands in my pocket, and then the Colonel was gone to the East-Indies.</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>There, to be sure, he was out of luck.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Since that, however, his advancement in the army, with the estate left him by his uncle, and the law-suit with his guardian determined in his favour, have made him a match for the best fortune in the kingdom, at the age of—</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>Near sixty—I'll answer for it.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>In short, Betty, whilst we were young we had nothing but love to bestow one another; and <hi>now</hi> we have—</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>Every thing else, I suppose.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Even so, indeed.—But the worst of the story is yet to come: for do you know, Betty, such fools were <hi>we,</hi> such absolute strangers to human nature, as to vow everlasting fidelity to each other, and to enter into—</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>No contract, I hope.</p>
+     </sp>
+     <sp who="#eleanor">
+      <pb n="5" facs="9"/>
+      <speaker>ELEANOR.</speaker>
+      <p>The very thing.—To enter into contract never to marry any body else, under forfeiture of every thing we were possessed of in the world.</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>Well, and you intend to perform it?</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANORA.</speaker>
+      <p>Never, Betty. What! marry a worn-out soldier of sixty!—and turn nurse!—Besides, these poor remains of beauty are not worth his acceptance.</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>And you have no other reason in nature?—no, to be sure:—Ha! ha! ha! I find how it is then.—</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>You do'nt suspect my constancy, I hope: do you know, Mrs. Betty, I shall be very angry with you?</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>Indeed, Madam, you will <hi>not.</hi>—Come, come, I know—</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Why, what do you know, Mrs. Saucebox?</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>Why, Madam, I know you go much oftener of late than you us'd to Lady Mary's; I know too, that her nephew—nay, Madam, you need not blush—the agreeable Capt. Spritely, is just returned from his travels; and that he is one of the handsomest, best-made, most agreeable young fellows in the whole county—</p>
+     </sp>
+     <sp who="#eleanor">
+      <pb n="6" facs="10"/>
+      <speaker>ELEANOR.</speaker>
+      <p>Betty, hold your impertinent tongue—hold your tongue this minute, or—Do you really think the Captain is so handsome?</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>Yes, Madam; and what's more, I believe has no dislike to your ladyship.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Impossible! however, I will confess I have seen the Captain, and am—</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>Most horribly in love with him—</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>No; not that—but what if he should <hi>not</hi> like <hi>me?</hi>
+      </p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>Ridiculous! let me see e'er a young adventurer in England, without six-pence to his fortune, refuse a woman of your sense and beauty with twenty thousand pounds.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>But what must I do with the poor Colonel! By the last letters I had from him, he depends on marrying me the moment he returns: the very house I am now in, and the furniture belonging to it, are <hi>his;</hi> he requested me, in the most tender manner, to live in it 'till he came, and to consider every thing that belonged to him as much <hi>my</hi> property as his own faithful heart: what's to be done, Betty?</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>Done, Madam? why turn him off at once, and take the Captain. Why, there is no more now-a-days in changing one's lover than in changing ones linen.</p>
+     </sp>
+     <sp who="#eleanor">
+      <pb n="7" facs="11"/>
+      <speaker>ELEANOR.</speaker>
+      <p>Aye, but this plaguy contract—signed and sealed, Betty,</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>Why that circumstance, indeed, is rather against us; but time, Madam, time may reconcile all things.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>True, Betty; but how to keep off the old lover, and to bring on the <hi>new</hi> one—that—</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>Aye, Madam, <hi>that</hi>'s the question—Let <hi>me</hi> see—O! I have it. If the mountain won't come to Mahomet, why, then Mahomet must come to the mountain—that <hi>is,</hi> if <hi>you</hi> cannot go to the Captain, why, then the Captain must come to <hi>you.</hi>
+      </p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>But how, my dear Machiavel—tell me but <hi>how?</hi>
+      </p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>O, leave that to <hi>me</hi>—Suppose, now, suppose—</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Well, what?</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>Suppose—but hush! we're interrupted.</p>
+     </sp>
+     <stage>Enter a Servant.</stage>
+     <sp who="#servant">
+      <speaker>SERVANT.</speaker>
+      <p>Commodore Capstern, Madam.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>O heavens!—that sea-monster!—then I'll lay my life on't his old friend the Colonel is not far off,—now will he overwhelm me with his fore-castle jests on our approaching nuptials.
+<pb n="8" facs="12"/>
+For heaven's sake, Betty, throw out some tub to this old whale, or he'll devour me. Step down immediately, my good girl, and make some excuse for me.—Say I'm ill—I'm gone abroad—any thing to get rid of him—this is the most impertinent interruption!</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>Well, Ma'am, I'll do what I can for you, but I fear 'twill be to no purpose: if I drive him to sea, he'll swim ashore again in half an hour. However, I'll try.</p>
+      <stage>(Betty goes out.</stage>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR. </speaker>
+      <stage>(Alone.)</stage>
+      <p>Well, these chambermaids are certainly the most useful creatures in the universe: there is not a greater genius for lying and intrigue, within an hundred miles, than this trusty Abigail of mine:—and yet, after all, I begin to have some qualms of conscience about my poor old Colonel—But Spritely is <hi>so</hi> handsome, O love, love, what a vow-breaker art thou!</p>
+     </sp>
+     <stage>Enter Betty.</stage>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Well, Betty; what news?—is he off?</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>O yes, Madam, I dispatched him; he said he'd call again presently; but I told him, I was sure you would not be back soon.—God forgive me for galloping, as nurse Trueman says—I declare it went against me—he's such a good creature. Why do <hi>you</hi> know, he gave me half a crown?</p>
+     </sp>
+     <sp who="#eleanor">
+      <pb n="9" facs="13"/>
+      <speaker>ELEANOR.</speaker>
+      <p>O yes, the best creature in the world to be sure.</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>To buy me a can of flip, he said, to drink his old friend the Colonel's health—your husband <hi>elect,</hi> as he call'd him.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Impertinent enough—husband <hi>elect</hi> indeed!</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>Don't abuse him tho', ma'am—I hope he'll call again presently.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>I hope <hi>not</hi>—however if he <hi>does,</hi> remember, I positively will <hi>not</hi> be at home to him—But now, Betty, for your scheme; how shall I contrive to see my dear Spritely? for positively I cannot live without him.</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>Indeed! well then I'll e'en take pity on you; suppose now, we could now contrive to bring him into this very house, lodge him under the same roof.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>But how, dear Betty?</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>I have it—as soon as your old lover comes home, whom you expect every hour—hark—</p>
+     </sp>
+     <stage>Enter Servant.</stage>
+     <sp who="#servant">
+      <speaker>SERVANT.</speaker>
+      <p>A servant, madam, in a blue livery, brought this.</p>
+     </sp>
+     <sp who="#eleanor">
+      <pb n="10" facs="14"/>
+      <speaker>ELEANOR.</speaker>
+      <p>Turn'd up with yellow?</p>
+     </sp>
+     <sp who="#servant">
+      <speaker>SERVANT. </speaker>
+      <stage>(Giving a letter.)</stage>
+      <p>Yes, madam, and desir'd me to give it into your own hands immediately.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR. </speaker>
+      <stage>(Looking at the direction.)</stage>
+      <p>Ay, 'tis he.</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>Who, ma'am?</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Why, who should it be, but the Colonel?</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>Lud bless us, <hi>he</hi> here already!</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR. </speaker>
+      <stage>(To the servant.)</stage>
+      <p>Let him wait below till his master comes.</p>
+      <stage>(Exit Servant.</stage>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Your old admirer, Martin, I suppose. <stage>(looks at the letter and reads)</stage> "This moment arrived from Dover, and will be with you in five minutes!"—bless me, Betty, I am all of a tremble—what shall I do?</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>O, if the enemy's at our gates, ma'am, there is no time to be lost: in, in, as fast as possible, and undress yourself, you look horribly handsome as you are.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Undress child—what dost thou mean?</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>Mean, madam? why did not you tell me just now, you could not bear the thought of
+<pb n="11" facs="15"/>
+marrying the Colonel; what have you to do then, but to <hi>undress,</hi> to look as old and ugly as you can, that he may be indifferent about you and give up the contract.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Admirable thought—thou art my best of monitors!</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>And yet it will take a world of pains to make so fine a woman as Miss Eleanor Briggs look plain.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>O your humble servant, madam: now must I wear two faces.</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>That you have done a great while, by the by. <stage>(aside.)</stage> O yes, madam, be very fond of your husband, and not care a farthing for him, 'tis all the fashion, ma'am, quite the <hi>bon ton</hi> I assure you.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Well, but, my dear girl, you have not let me into your real scheme about Spritely yet.</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>Presently, presently, ma'am—lud! you are so impatient, but let us go into your dressingroom, they may shew him in here, and we shall be interrupted, come, come, in, in, and I'll unriddle.</p>
+      <stage>(Exeunt.</stage>
+     </sp>
+     <stage>
+      <pb n="12" facs="16"/>
+Enter COLONEL and MARTIN, ushered in by a servant.</stage>
+     <sp who="#servant">
+      <speaker>SERVANT.</speaker>
+      <p>Pray, Sir, walk in, I'll let my mistress know, Sir—I'm glad to see your honour look so well.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>Thank you, Charles, desire your mistress not to hurry herself— <stage>(Exit servant)</stage>—for I should be full as well pleased if she did not come at all. I suppose by this time, Martin, she's fainting at the news of my arrival.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>MARTIN.</speaker>
+      <p>O yes, Sir, such a perfusion I suppose of hartshorn and salvoletile—these meetings of old lovers are so affecting—</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>Or affected, Martin—</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>MARTIN.</speaker>
+      <p>I suppose they can hardly keep life and soul in her: poor soul! it's a miracle if she survives it; I wish it was over with all my heart.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>And so do I with all my soul.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>MARTIN.</speaker>
+      <p>If she should not get over it, Sir.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>Well, what then?</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>MARTIN.</speaker>
+      <p>Why to be sure it would be dreadful—</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <pb n="13" facs="17"/>
+      <speaker>COLONEL.</speaker>
+      <p>Terrible, shocking!</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>MARTIN.</speaker>
+      <p>But then you know, Sir, 'twou'd annul the contract.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>True, Martin, we must endeavour to reconcile these things;—I'm a philosopher, you know.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>MARTIN.</speaker>
+      <p>Let me see, Sir, 'tis now about sixteen years since you saw her last; Miss Eleanor, I'm afraid, must be pretty far advanced by this time.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>Why yes, Martin, I'm afraid so—and yet she's an amiable woman, with a thousand good qualities; and if we could call back some twenty odd springs or so, I should prefer her to—but this little Maria, whom I have brought over with me, has got such hold of my heart—by the by—where have you lodged her, Martin?</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>MARTIN.</speaker>
+      <p>O not far off, Sir, she's within call.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>If we could but find an opportunity of introducing her into the family, put her off for a relation or so—</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>MARTIN.</speaker>
+      <p>That may be easily done, Sir.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>But what say you to my appearance, do I look old and ugly enough?</p>
+     </sp>
+     <sp who="#martin">
+      <pb n="14" facs="18"/>
+      <speaker>MARTIN.</speaker>
+      <p>O yes, Sir, old and ugly enough in conscience.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>I would wish to be as disagreeable in <hi>her</hi> eyes as I am sure she will be in mine.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>MARTIN.</speaker>
+      <p>O I warrant she'll let you off easily enough.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>Heaven grant she may! and then—for my sweet Maria!—I'll send for the best taylor in town, have a wig made, as the advertisement says, to imitate nature; recover my dancing at the school for grown gentlemen, and be as young and jemmy as the best of 'em.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>MARTIN.</speaker>
+      <p>Hush—hush—methinks I hear the rustling of silks, mind your p's and q's, Sir, don't forget your sighs and raptures now for heaven's sake.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>Here she comes, egad.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>MARTIN. </speaker>
+      <stage>(Peeping.)</stage>
+      <p>There the old fright is, sure enough: now, Sir, keep it up.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>O never fear <hi>me.</hi>
+      </p>
+     </sp>
+     <stage>Enter Miss ELEANOR and BETTY.</stage>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL. </speaker>
+      <stage>(Meeting Eleanor.)</stage>
+      <p>She comes, she comes, the charmer of my heart—O, Eleanora!</p>
+      <stage>(They embrace.</stage>
+     </sp>
+     <sp who="#eleanor">
+      <pb n="15" facs="19"/>
+      <speaker>ELEANOR.</speaker>
+      <p>My dearest Colonel, is it then given me once more to behold—O support me, or I die—he's a horid creature! <stage>(Aside to Betty.</stage>
+      </p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>After so many years of tedious absence, again to look on those dear eyes, to taste these balmy lips. <stage>(Embrace again.)</stage> She stinks like a pole-cat. <stage>(Aside to Martin.</stage>
+      </p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR. </speaker>
+      <stage>(Passing him from her.)</stage>
+      <p>Fie, Colonel, I cannot bear it—Oh! it is too much!</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY. </speaker>
+      <stage>(Aside.)</stage>
+      <p>It is indeed.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL. </speaker>
+      <stage>(Turning to Martin.)</stage>
+      <p>O, Martin, this is insupportable!</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>MARTIN. </speaker>
+      <stage>(Aside.)</stage>
+      <p>Very well, Sir, extremely well, keep it up.</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY. </speaker>
+      <stage>(Aside.)</stage>
+      <p>Now, madam, mind your cue.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Colonel, I vow and protest I blush at my own behaviour, but excess of joy, betray'd me into a weakness unbecoming the delicacy of my sex.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>Not in the least, my lovely Eleanora.—I'm glad she's come down a little however. <stage>(Aside to Mart.)</stage> Passion like ours, my dear, is above forms, and after such an absence, love must be allow'd to plead his own cause with warmth and energy.</p>
+     </sp>
+     <sp who="#eleanor">
+      <pb n="16" facs="20"/>
+      <speaker>ELEANOR.</speaker>
+      <p>I grant it, Colonel: but after all, we are not quite so young as when we parted last; the world perhaps will say these raptures don't become us so well as they might some few years ago.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>Why really, my dear, in spite of all my passion, I must subscribe to your opinion; but you were always the pattern of prudence and discretion: the time is come, as you say, when we should endeavour to moderate the affections; indeed, my dear, ours were far too violent.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>MARTIN. </speaker>
+      <stage>(Aside)</stage>
+      <p>To last long, I thought.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Ay, Colonel, we should endeavour to be calm a little.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>True, my dear, to look upon one another as I may say, with a kind of coolness.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Ay, a sort of affected indifference.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>Let our love gradually subside into esteem.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>And mellow into friendship: O the joys of virtuous friendship! Don't you think, Colonel, time has made dreadful havoc with these poor features?</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>Why, really no, not much, the bloom indeed is a little off the plumb—but, to be sure, as
+<pb n="17" facs="21"/>
+to myself, I am not the same man—sadly altered you see.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Very little, I think; the crows-foot on your right eye is a little larger indeed, but otherwise you are just the same you were fifteen years ago.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>For your sake, I wish I were; but old age creeps upon me—it does indeed: And then this nervous weakness—O, I have suffered dreadfully with the rheumatism.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Not so much as I have.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>This cough will make an end of me soon.</p>
+      <stage>(Coughs violently.</stage>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>O, mine's a thousand times worse. <stage>(They cough at each other.)</stage> Hark, what noise is that?</p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE. </speaker>
+      <stage>(Without.)</stage>
+      <p>I tell you I <hi>will</hi> come up, and be d—'d to you.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>As I live, my old friend the Commodore!</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>'Tis he, sure enough, firing his nine pounders at my servants for not giving him admittance.</p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE. </speaker>
+      <stage>(Below.)</stage>
+      <p>D—n you all, I tell you, I will come up; the fleet's arrived, and I must salute the admiral.</p>
+     </sp>
+     <stage>
+      <pb n="18" facs="22"/>
+Enter COMMODORE.</stage>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>Why, what the devil's the matter with you all?—why, what do you keep your ports block'd up for in time of peace, ha? <stage>(going up to the Colonel.)</stage> Ha, Frank, give me thy hand, old boy; split my top-sails, but I'm glad to see thee—ay, and my little coz here too—give thee joy, my girl, with all my heart!—Ods life, Frank, she's a pretty tight frigate still, wants a little careening or so; you'll sheath her when you get into her dock, ha, boy?—by your leave, old friend. <stage>(Salutes her.)</stage>
+      </p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>I vow, cousin Capstern, you are a most indelicate creature.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>I'm glad to see him in health and spirits, however.</p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>Glad to see me in health and spirits!—that's but a cold fresh-water compliment, Frank; but I excuse you, <hi>you</hi> lovers can think of nothing but one another: I tell you what, cuz, you're a happy woman; I've known my friend Frank here, man and boy, these eight and forty years; we cross'd the Mediterranean together three times, and an honester fellow never step'd between stem and stern:—
+<pb n="19" facs="23"/>
+Give me thy hand, old messmate; I was glad to hear you was landed—I thought you would cast anchor here, so I came full sail to meet you.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>We are abliged to you, Commodore. I wish he was in the Mediterranean again with all my heart. <stage>(Aside.)</stage>
+      </p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>What! you're bound for Matrimony-Point, I suppose; why, let me see, if the tide's with you, and a tolerable brisk gale, you may be in by this time to-morrow: I think I can keep a reckoning pretty well, I'm seldom out in my log-book, ha, Frank?</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Fie, Commodore, how can you be so indecent?</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>You put the lady to the blush, Jack.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>I vow, Captain, you are quite vulgar: I believe you take me for a ship.</p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>And a good thing too, cousin. Now I think on't, I remember, when I was a midshipman, I made a good song upon that; it goes to the tune of—<hi>To all ye ladies now at land</hi>—I'll sing it if you will, what say you, Frank?</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>O by all means, let's have it.</p>
+     </sp>
+     <sp>
+      <pb n="20" facs="24"/>
+      <lg type="song">
+       <head>
+        <note n="*" place="foot">The two Songs were omitted in the representation.</note> SONG by CAPSTERN.</head>
+       <lg>
+        <l>A woman's like a ship, they say,</l>
+        <l>Deck'd out in all her pride;</l>
+        <l>When once a float, she'll have her way,</l>
+        <l>And loves to stem the tide;</l>
+        <l>She veers about with every wind,</l>
+        <l>And often leaves her mate behind.</l>
+        <l>
+         <hi>With a fal, a rol, lal, &amp;c.</hi>
+        </l>
+       </lg>
+       <lg>
+        <l>If without ballast she sets sail,</l>
+        <l>Howe'er so richly stor'd,</l>
+        <l>She'll overset the first brisk gale,</l>
+        <l>Then woe to all on board:</l>
+        <l>And if she has too many men,</l>
+        <l>She'll want careening now and then.</l>
+        <l>
+         <hi>With a fal, a rol, lal, &amp;c.</hi>
+        </l>
+       </lg>
+       <lg>
+        <l>The way I've heard but few can tell,</l>
+        <l>To hold her stern upright,</l>
+        <l>But if you sheath and freight her well,</l>
+        <l>And keep her bottom tight;</l>
+        <l>'Fore Gad, she'll make a first-rate wife,</l>
+        <l>And last you all the voyage of life.</l>
+        <l>
+         <hi>With a fal, a rol, lal, &amp;c.</hi>
+        </l>
+       </lg>
+      </lg>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>Nonsense—never tell me; you've been long enough doubling the Cape, now you're got into smooth water and safe riding, get to your
+<pb n="21" facs="25"/>
+moorings as fast as you can; where's your graplings, my boy? Send for the parson immediately. Harkee, Mrs. Demure, I insist upon giving you away for old acquaintance sake—when must it be—to-morrow—or next day?</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>The day, Sir, as yet is not determined.</p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>Not determin'd! more shame for you; I tell you, Cuz. I must and <hi>will</hi> dance at your wedding; and what's more, d'ye see, I'll stand godfather to your first bantling, and give you a cool hundred to buy rigging for it; if <hi>I</hi> say it I'll <hi>do't,</hi> that's the humour of Commodore Capstern.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Pri'thee, Cousin, don't run on so ridiculously—I wish he was out of the house. <stage>(aside.)</stage>
+      </p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>But do you hear; if it's a boy, his name must be Capstern; and if it's a girl, you shall call it after my first ship, the <hi>Venus</hi> Frigate, a sweet vessel she was as ever swam upon the salt seas—Miss <hi>Venus</hi> it shall be—an excellent name—come, come, you must and shall swing in the same hammock to-morrow night.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>Zounds, Sir, do you take us for a boy and a girl!</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Aye, Sir, to precipitate matters, Sir.</p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>Precipitate! I don't know what you call precipitate; it's a d—n'd hard word, by the bye,
+<pb n="22" facs="26"/>
+and not in my dictionary: but I'll tell you what, Cuz, a vessel that has got love in the sails, and affection in the poop, will run you fifteen knots an hour; now you don't seem to care to go above three.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>You're very facetious, Commodore; but things of this nature are not to be done in a hurry, let me tell you.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>No, my friend, at our time of life people should not be hurried.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Very true, Colonel.</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY </speaker>
+      <stage>(whispering Miss.)</stage>
+      <p>Now's your time, Madam.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Many things must be done, Sir, I assure you, before we come together; how do you know, Cousin, but I may expect the Colonel will settle something on my Nephew.</p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>Your Nephew! who the devil's he? Sink me in a storm if ever I heard you had one; who is he?</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Who is he? why my sister Dolly's second son, the other died abroad; this is just arrived from the coast of Barbary.</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY </speaker>
+      <stage>(aside.)</stage>
+      <p>Yes, I brought him from thence within this half hour.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <pb n="23" facs="27"/>
+      <speaker>COL. </speaker>
+      <stage>(aside to Martin.)</stage>
+      <p>This may prove a lucky circumstance, Martin.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>MARTIN </speaker>
+      <stage>(aside to Col.)</stage>
+      <p>Take the hint Sir, and improve upon it—a Niece, a Niece.</p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>The coast of Barbary! the devil he did; you mistake COZ. I fancy he came over with Dr. Salamander, and the other gentlemen there from Otahite.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>What Nephew is that, my dear!</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>O the sweetest youth, my dear, that ever you set your eyes on; and so fond of his aunt; we do something for him, positively must.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>O with all my heart: he shall come in at our deaths with <hi>my</hi> niece, if you approve of it, share and share alike.</p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>Your niece, Colonel!</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>Aye, Jack, don't you remember her? the only surviving daughter of my brother Tom?</p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>Tom! why I always thought he died a bachelor.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>Ay, but there, my dear Commodore, you are egregiously mistaken.</p>
+     </sp>
+     <sp who="#eleanor">
+      <pb n="24" facs="28"/>
+      <speaker>ELEANOR.</speaker>
+      <p>An excellent scheme. I tell you what, Colonel, I was thinking, if you approve of it, to send for Charles immediately, and let him live with us.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>With allmy heart; provided, my dear, which I'm sure you'll have no objection to, you give me leave to introduce my little Angelica; 'tis the prettiest little innocent wench.—Martin, this will do charmingly. <stage>(Aside to Martin.</stage>
+      </p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Agreed; this is delightful, Betty, he has no Suspicions <stage>(Aside)</stage>—we shall be so happy in seeing the young folks—well; I'll go and send for my nephew. <stage>(To the Col.</stage>
+      </p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>And I'll write to my niece, to come immediately—well, good bye to you, Jack.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Cousin, your servant, we shall always be happy to see you, your humble servant, Cousin.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>Yours, noble commodore; <hi>jusqu' au revoir.</hi>
+      </p>
+      <stage>(Exeunt.</stage>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE. </speaker>
+      <stage>(Alone.)</stage>
+      <p>Yours jusk-a-river; why what the Devils that! a pox of your <hi>parlevous</hi> I say; there's no good going forward, when an old English soldier begins sputt'ring French: there's something at the bottom of all this. I expected to find my two lovers at close quarters, kissing and smuggling, and, egad! instead of that, they were gaping at
+<pb n="25" facs="29"/>
+one another like a couple of oysters. Then this Nephew and Niece—two undiscovered Islands, that are not in my map. Yonder's the Colonel's valet and my Lady's maid, they're us'd to these seas, and mayhap may have a chart of 'em: I'll go a little cruize after 'em however; every gentleman of curiosity now a days takes a trip in search of some <hi>terra incognita,</hi> so I'll not be out of the fashion. If I say it I'll do't, that's the humour of Commodore Capstern.</p>
+     </sp>
+    </div>
+   </div>
+   <div n="2" type="act">
+    <head>ACT II.</head>
+    <div type="scene">
+     <stage>Enter COLONEL and Miss ELEANOR.</stage>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>WELL, Colonel, how do you like my nephew?</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>Prodigiously! a very agreeable young fellow.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>And handsome, is not he?</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>Ay, and so polite.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>And so well made!</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>Has read a good deal.</p>
+     </sp>
+     <sp who="#eleanor">
+      <pb n="26" facs="30"/>
+      <speaker>ELEANOR.</speaker>
+      <p>And dances most delightfully—he has very fine eye-brows.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>And no bad understanding—But pray what say you to my niece?</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Oh! I doat on her.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL. </speaker>
+      <stage>(Aside.)</stage>
+      <p>And so do I.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>She is very sensible.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>Has fine eyes, has not she?</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>And seem perfectly good natur'd—she'll do any thing you desire her.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>I shall try that. <stage>(aside.)</stage> And has the prettiest foot—Well, after all, my dear, there's nothing like the company of young people—'tis so pleasant—</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>So it is—there's something so chearful and joyous—why, do <hi>you</hi> know? when I'm in company with my nephew, I forget all my infirmities, and fancy I'm fifteen again.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>Egad, and just so it is with me—would you believe it, my dear, when I'm with my niece, I have all the vigour and spirit of five and twenty.</p>
+     </sp>
+     <sp who="#eleanor">
+      <pb n="27" facs="31"/>
+      <speaker>ELEANOR.</speaker>
+      <p>I'm glad they're with us.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>And so am I—it makes the time pass away so prettily; we sha'n't think it half so long before we're married.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>
+       <hi>Apropos,</hi> now you talk of that, Colonel, when are we to be tack'd together?</p>
+      <stage>(Gapes.</stage>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>When you please, my dear; there's no hurry, we can marry, you know, now—or—</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Let it alone—just as you will.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>Suppose then we put it off for—a week.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>A fortnight.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>A month.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>A year—as long as—</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>As may be necessary to settle our—But then, that—that—that Contract—what is become of it? Now for a trial. <stage>(aside.)</stage> Do you know now, Miss Eleanor, between friends, I think that was but a foolish thing of us.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Very young indeed, and pretty ridiculous.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>Extremely so—something in it so illiberal.</p>
+     </sp>
+     <sp who="#eleanor">
+      <pb n="28" facs="32"/>
+      <speaker>ELEANOR.</speaker>
+      <p>True; so mistrustful, as it were.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>As if you and I—</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>That love one another so dearly—</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>Doubted each other's honour—or were to be bound by such ties—</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>As restrain only the basest of mankind.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>Now for it. <stage>(aside.)</stage> What did you do with that filthy paper?</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>It lies, I believe, upon my dressing table—I'll step in and fetch it if you will.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>Do, if it is only for the curiosity. <stage>(Ex. Ele.</stage> And luckily, I have got the counterpart in my pocket—now, love, assist me! If I could but get rid of these fetters—Well, thank heaven, she has no suspicion of my passion for Maria—but hush—she comes.</p>
+     </sp>
+     <stage>
+      <pb n="29" facs="33"/>
+Re-enter Miss ELEANOR, with the contract in her hand. They stand at some distance from each other.</stage>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Here it is—and in a sweet pickle.</p>
+      <stage>(Blowing the dust off.)</stage>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>And here is the counterpart.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Did you ever see such a couple of old decay'd barristers?</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>A little fatigued and dirty—or so—worn out.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Like ourselves, Colonel, a little the worse for wear.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>'Tis mighty soft.</p>
+      <stage>(Handling it.)</stage>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Decaying—mouldering!</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>I fancy it would <hi>tear</hi> easily.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Suppose we try.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>With all <hi>my</hi> heart.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>And with all <hi>mine</hi>—look here, I'm beginning—</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <pb n="30" facs="34"/>
+      <speaker>COLONEL.</speaker>
+      <p>So am I—go on—</p>
+      <stage>(They tear the Contract bit by bit.</stage>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Away with it.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>Proceed.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Bravo!—it's done.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>It's finished.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>I'm glad on't.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>So am I.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Now we're at liberty,</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>Now we are free my dear Eleanor.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>My dear Colonel.</p>
+      <stage>(they embrace.</stage>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>I believe I shall die a bachelor.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>And I a virgin—O dreadful!—well good bye to you—I'll go and see my nephew.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>And I'll go and drink a dish of tea, with my niece. Adieu.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Your servant—Ha, ha, ha!</p>
+      <stage>(Exit Col.</stage>
+     </sp>
+     <stage>
+      <pb n="31" facs="35"/>
+Enter Betty.</stage>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>So, Madam, I'm glad to see you so merry.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Betty, I'm the happiest creature in the universe. Do you know I've regain'd my freedom, am mistress of myself, and from this moment shall enjoy the sovereign happiness of woman, to act just as I please: In short, my old Damon and I have been comparing notes, settled our love accounts, struck the balance, and dissolved the partnership.</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>And now I hope you are at liberty to set up for yourself.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR. </speaker>
+      <stage>(Pointing to the floor.)</stage>
+      <p>Yes, Betty, the Contract is torn; look there, 'tis moulting time with poor Cupid.</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>So I see—and the ground is strew'd with his feathers.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>And now, Betty, for my dear Captain; have you sounded his inclinations, as I desir'd you?</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>I have.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Well! and how?</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>Oh! he doats upon you—sighs and wishes—but as I told you, has his fears—he's horribly
+<pb n="32" facs="36"/>
+afraid you should change your mind, and therefore you know what I told you about articles, the settlement, and all that.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Yes, yes, every scruple shall be satisfied, and every doubt remov'd—I've given my lawyer orders about it. Well, I must go and dress—if he comes, you'll let me know immediately—and, do you hear, let me see no more of my Cousin Capstern.</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>No, no, Madam, leave that to me.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Betty, you'll come in, and help to dress me.</p>
+      <stage>(Exit.</stage>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>I'll follow you Ma'am, in two minutes.—To be sure, I'm a false Jade, but it is in a good cause, and what's more, I shall be well paid for it—now's the time to release my poor prisoner. Mr. Capstern, Mr. Capstern.</p>
+      <stage>(goes to the door, and whispers.</stage>
+     </sp>
+     <stage>Enter COMMODORE, peeping at the door.</stage>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>Is the coast clear?</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>Ay, ay, all's safe, you may come in.</p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>Keep a good look oat tho'—the enemy's just a-stern of us.</p>
+     </sp>
+     <sp who="#betty">
+      <pb n="33" facs="37"/>
+      <speaker>BETTY.</speaker>
+      <p>O never fear, Sir, I'll take care of that.</p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>Thou art an honest girl, Bet: the best adviceboat that has come in this tide; I see how the land lies; fine work, I'faith—that an old hulk, like my Cousin Eleanor, should wish to be new rigg'd and mann'd—I'm not surpriz'd—but that my honest sensible friend Frank, should want to slip his cable too—but I'll counter plot 'em; a couple of ridiculous dotards—but what say the young folks! how blows the wind there?</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>O, as fair as we could wish, Sir; they wou'd never have consented to marry the old ones, tho' they are both starving.</p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>Why, that's noble!</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>Besides, they have taken a huge fancy one to another, and if they could shake off this unnatural connection, which necessity forc'd them to and get a little something to live upon, they wou'd be the happiest of all human beings. But I told 'em of your honour's scheme, and they came into it immediately—they are resolv'd to follow your honour's direction in every thing.</p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>Why, that's right—mayhap, they may be the better for it—I like the young rogues
+<pb n="34" facs="38"/>
+they're a couple of pretty little cock-boats, I intend to splice 'em together, call 'em the Union frigate, and launch 'em into the world with a good ballast mayhap in their bottom.</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>God bless your honour for your goodness; they're a couple of sweet creatures, that they are; I told 'em of your honour's generosity. I'm sure Mr. Martin and I'll do any thing to serve your honour, and I hope your honour will remember us.</p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>That I will, by and by, my girl; in the mean time, there's a biscuit and a dram for you. <stage>(Gives her money.)</stage> And so, Maria, you say, has promis'd the old Colonel to marry him.</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>Yes, Sir, but I cou'd hardly persuade her to it; she did not like to promise, she said, where she never meant to perform: But I told her 'twas all fair.</p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>Fair! aye, to be sure—don't we always hang out false colours, to deceive the enemy? I did it all last war, or I shou'd not have so many shiners in my pocket.</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>And now, Sir, all we have to do is to prevent—</p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <pb n="35" facs="39"/>
+      <speaker>COMMODORE.</speaker>
+      <p>These two shatter'd old hulks from splitting on the rocks; I'll send a fire-ship out, and blow 'em up first—let me see— <stage>(pausing)</stage>—aye, that will do. The best part of our plot is yet behind, my girl; always close your line of battle with a first rate—that's my maxim.</p>
+     </sp>
+     <stage>Enter MARTIN, peeping.</stage>
+     <sp who="#martin">
+      <speaker>MARTIN.</speaker>
+      <p>Mrs. Betty! Mrs. Betty! where are you?</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>Here, here, man: what's the matter? come in, there's nobody here but the Commodore.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>MARTIN.</speaker>
+      <p>O Sir, I'm glad you're here, for our ship leaks confoundedly.</p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>To work then, boy; pump away, and we'll clear her, I warrant you. But where's the damage?</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>MARTIN.</speaker>
+      <p>O Sir, these impatient young lovers will ruin all, and spoil our sport with the old ones.</p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>How so?</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>MARTIN.</speaker>
+      <p>I heard them just now making an appointment to meet in the blue room, to settle matters, as they call'd it. If my master, or your mistress, should over hear them—</p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <pb n="36" facs="40"/>
+      <speaker>COMMODORE.</speaker>
+      <p>By Neptune, the luckiest thing that could happen; the very point in the compass that blows fairest for us. Now, first and second mate, observe my orders</p>
+      <stage>(Takes hold of both their hands.)</stage>
+     </sp>
+     <sp who="#martin #betty">
+      <speaker>MARTIN <hi>and</hi> BETTY.</speaker>
+      <p>Yes, your honour.</p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>Let 'em be seen.</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>By whom?</p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>By <hi>your</hi> mistress. Let 'em be overheard.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>MARTIN.</speaker>
+      <p>By whom?</p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>By <hi>your</hi> master—Have you never a back stair-case, never an old screen to stand behind?</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>O, Sir, if that be all, in the next room are two of the most convenient closets for an eves dropper, not a word, nor a whisper can escape.</p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>That's fortunate, indeed; then stow your lumber there—do you, Martin, convey the Colonel to one, and let Betty shut up her mistress in the other; give 'em a hint first of the lovers design, and jealousy will do the rest.</p>
+     </sp>
+     <sp who="#martin">
+      <pb n="37" facs="41"/>
+      <speaker>MARTIN.</speaker>
+      <p>But won't this precipitate matters, Sir?</p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>O leave that to me; if this does not open their eyes, let 'em sink like a couple of blind puppies, and go to the bottom.</p>
+     </sp>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>But what's to become of your honour?</p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>O I shall wrap myself up in the shrouds, peep at 'em from above, then drop souse down upon deck like a water-spout, and overwhelm them; come, come, every man to his gun; touch the wild-fire and away—brisk, brisk, my lad, the engagement is beginning, and the first fire, they say, is half the battle. I'll be with 'em, I warrant you; if I say't I'll do't, that's the humour of Commodore Capstern.</p>
+      <stage>(Exit Com. Mart. and Betty.</stage>
+     </sp>
+    </div>
+    <div type="scene">
+     <head>SCENE <stage>the Blue Parlour, with a Closet on each Side.</stage>
+     </head>
+     <stage>Enter COLONEL LOVEMORE.</stage>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>Well! I wish this business was over, and Maria fairly mine. O the delicious creature! methought 'twas but a faint promise which she made me—the little gypsy insists upon a settlement too; my old girl would have been very
+<pb n="38" facs="42"/>
+well contented without one—but if a man will have dainties, he must expect to pay for 'em. I have some qualms of conscience still about poor Eleanor; and then that old Commodore will so fire his broad sides upon me.</p>
+     </sp>
+     <stage>Enter MARTIN, (not seeing the Colonel.)</stage>
+     <sp who="#martin">
+      <speaker>MARTIN.</speaker>
+      <p>The devil's in these girls, I think—a little false jade!</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>Who's that, Martin? what's the matter now?</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>MARTIN.</speaker>
+      <p>O nothing, Sir; nothing at all; only Miss Maria—</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>Maria! what of her? is she gone? is she off?</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>MARTIN.</speaker>
+      <p>O no, Sir, I believe she'll be on presently, but not with your honour.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>What do you mean, Sirrah?</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>MARTIN.</speaker>
+      <p>Only, Sir, that Miss Maria, your honour's new neice, Sir, and Captain Sprightly, Miss Eleanor's new nephew, are a little acquainted with each other, Sir, that's all. I heard 'em whispering together, and if I am not mistaken,
+<pb n="39" facs="43"/>
+       <stage>(looks out.)</stage> they are coming this way. There's something in the wind, I'm sure.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>O Martin, if I could but conceal myself any where.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>MARTIN.</speaker>
+      <p>That you may easily do, Sir; here's a very convenient closet, Sir; step in, and shut the door after you, I'll let you know when they come—in, in. <stage>(puts the Colonel into the closet.)</stage> So, I have caged my bird, and yonder comes Betty with her's.</p>
+     </sp>
+     <stage>Enter Miss ELEANOR and BETTY.</stage>
+     <sp who="#betty">
+      <speaker>BETTY.</speaker>
+      <p>I'm sorry to say it, Ma'am, but it certainly is as I tell you, and if you'll step into this closet a moment you'll be convinc'd of it; for I see 'em coming.</p>
+      <stage>(Betty puts Miss Eleanor into the other closet.</stage>
+     </sp>
+     <sp who="#martin">
+      <speaker>MARTIN.</speaker>
+      <stage>(To the Col. at the closet door.</stage>
+      <p>Here they are, Sir.</p>
+      <stage>(Martin and Betty make signs to each other, laugh and retire.)</stage>
+     </sp>
+     <stage>Enter CAPT. SPRITELY and MARIA.</stage>
+     <sp who="#captain_spritely">
+      <speaker>SPRITELY.</speaker>
+      <p>Come in, my sweet Maria; don't be so terrified, there's nobody near us.</p>
+     </sp>
+     <sp who="#maria">
+      <pb n="40" facs="44"/>
+      <speaker>MARIA.</speaker>
+      <p>I'm so afraid of being watch'd. I wou'd not be overheard for the world.</p>
+     </sp>
+     <sp who="#captain_spritely">
+      <speaker>SPRITELY.</speaker>
+      <p>Fear nothing, my soul; the old frights are both abroad, they have been gone out this half hour.</p>
+     </sp>
+     <sp who="#maria">
+      <speaker>MARIA.</speaker>
+      <p>To prepare matters for their wedding, I suppose, and buy cords for our execution—but we shall slip our necks out of the collar, I can assure 'em.</p>
+     </sp>
+     <sp who="#captain_spritely">
+      <speaker>SPRITELY.</speaker>
+      <p>Or get a reprieve at the gallows.</p>
+     </sp>
+     <sp who="#maria">
+      <speaker>MARIA.</speaker>
+      <p>O, Spritely, our fate advances to a crisis, and I tremble for the event—Suppose our noble friend who has promised to support, should forsake and leave us to poverty and ruin.</p>
+     </sp>
+     <sp who="#captain_spritely">
+      <speaker>SPRITELY.</speaker>
+      <p>Be not alarm'd, my love, he is the worthiest of all human beings.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL. </speaker>
+      <stage>(aside. from the closet)</stage>
+      <p>Who the devil is <hi>he?</hi>
+      </p>
+     </sp>
+     <sp who="#captain_spritely">
+      <speaker>SPRITELY.</speaker>
+      <p>You have promised and vow'd to marry the Colonel, I think.</p>
+     </sp>
+     <sp who="#maria">
+      <speaker>MARIA.</speaker>
+      <p>Certainly.</p>
+     </sp>
+     <sp who="#captain_spritely">
+      <pb n="41" facs="45"/>
+      <speaker>SPRITELY.</speaker>
+      <p>And mean to fulfil it?</p>
+     </sp>
+     <sp who="#maria">
+      <speaker>MARIA.</speaker>
+      <p>O no doubt of it—when next we meet I am to fix the day with him, and then—</p>
+     </sp>
+     <sp who="#captain_spritely">
+      <speaker>SPRITELY.</speaker>
+      <p>Aye, and then, Maria—</p>
+     </sp>
+     <sp who="#maria">
+      <speaker>MARIA.</speaker>
+      <p>Take the first opportunity of decamping with my dear Spritely.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL. </speaker>
+      <stage>(from the closet.)</stage>
+      <p>The devil you will.</p>
+     </sp>
+     <sp who="#captain_spritely">
+      <speaker>SPRITELY.</speaker>
+      <p>There's the girl of my heart; and I—</p>
+     </sp>
+     <sp who="#maria">
+      <speaker>MARIA.</speaker>
+      <p>Aye, what will <hi>you</hi> do?</p>
+     </sp>
+     <sp who="#captain_spritely">
+      <speaker>SPRITELY.</speaker>
+      <p>Why, as soon as Mouldy Miss and I—</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR. </speaker>
+      <stage>(from the closet.)</stage>
+      <p>Thank you for the title.</p>
+     </sp>
+     <sp who="#captain_spritely">
+      <speaker>SPRITELY.</speaker>
+      <p>Have settled our affairs, and appointed the time for our happy union, then will I fly to the generous Commodore—</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR. </speaker>
+      <stage>(From the closet.)</stage>
+      <p>I am much obliged to you, good cousin Capstern.</p>
+     </sp>
+     <sp who="#captain_spritely">
+      <speaker>SPRITELY.</speaker>
+      <p>Where I hope to meet—</p>
+     </sp>
+     <sp who="#maria">
+      <pb n="42" facs="46"/>
+      <speaker>MARIA.</speaker>
+      <p>Well, that's as you behave; in the mean time, before we build for ourselves, let us take care of the ancient structures here.</p>
+     </sp>
+     <sp who="#captain_spritely">
+      <speaker>SPRITELY.</speaker>
+      <p>O the ridiculous pair of turtles! that ever age and youth shou'd think of coming together—that June and January, frost and sunshine, the frigid and torrid zones, shou'd want to unite.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL, </speaker>
+      <stage>(from the closet.)</stage>
+      <p>So, so!</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR, </speaker>
+      <stage>(from the closet.)</stage>
+      <p>Very fine, indeed!</p>
+     </sp>
+     <sp who="#captain_spritely">
+      <speaker>SPRITELY.</speaker>
+      <p>But come, my love, the time slips away, and we may be discovered—we must not be seen together. Farewel, my sweet Maria.</p>
+      <stage>(kisses her.</stage>
+     </sp>
+     <sp who="#maria">
+      <speaker>MARIA.</speaker>
+      <p>Dear Spritely, adieu—I must to my old <hi>Cambyses.</hi>
+      </p>
+     </sp>
+     <sp who="#captain_spritely">
+      <speaker>SPRITELY.</speaker>
+      <p>And I must pay my compliments to <hi>Sisygambis.</hi>
+      </p>
+      <stage>(They separate, and just as they get to the closets the Col. and Miss Eleanor come out.</stage>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>Here's your old <hi>Cambyses.</hi>
+       <stage>(To Maria.</stage>
+      </p>
+     </sp>
+     <sp who="#eleanor">
+      <pb n="43" facs="47"/>
+      <speaker>ELEANOR.</speaker>
+      <p>Here's your old <hi>Sisygambis.</hi>
+       <stage>(To Spritely.</stage>
+      </p>
+     </sp>
+     <sp who="#maria">
+      <speaker>MARIA.</speaker>
+      <p>Here's fine work. <stage>(aside.</stage>
+      </p>
+     </sp>
+     <sp who="#captain_spritely">
+      <speaker>SPRITELY.</speaker>
+      <p>This is luck indeed. <stage>(aside.</stage>
+      </p>
+      <stage>(The Col. and Miss Eleanor looking round spy each other, and all four stand aghast.</stage>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Your servant, noble Colonel. <stage>(curtsying.</stage>
+      </p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>Your servant, Miss Eleanor. <stage>(bowing.</stage>
+      </p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>I'm thunderstruck!</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>I'm all amazement!</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>At length, Sir, I have discovered your baseness.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>At length, madam, I'm satisfied of your infidelity—What, wed your own nephew!</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Marry your own neice!</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>Play the fool with a boy!</p>
+     </sp>
+     <sp who="#eleanor">
+      <pb n="44" facs="48"/>
+      <speaker>ELEANOR.</speaker>
+      <p>Marry a chit at last! a girl! O fie, Colonel! and you too, Sir, <stage>(to Spritely.)</stage> whom I have cherish'd like a viper in my bosom—</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>And you, false crocodile, <stage>(to Maria.)</stage> whom I have—</p>
+     </sp>
+     <stage>Enter COMMODORE, laughing heartily.</stage>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>Ha, ha, ha, ha!</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>The Commodore too!</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>Et tu Brute!</p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>Ha, ha! what! my noble Cambyses, and my fair cousin Sisygambis too! truly ridiculous indeed! now do you look like a couple of Dutch bum-boats that had been lost in a fog and fallen foul of one another; when the sun comes out what a foolish figure they both cut! Well, cousin, am I to give you joy? what say you, Frank, are you married yet?</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>No, Sir,</p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>Why then I say 'tis high time you were.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <pb n="45" facs="49"/>
+      <speaker>COLONEL.</speaker>
+      <p>And pray, Mr. Capstern, what right—</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>And pray, Mr. Capstern, what privilege—</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>Aye, Sir, what right—</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Aye, Sir, what privilege—</p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>Z—ds, Sir, I have a right: I have a a privilege—a privilege which every honest man has a title to, to prevent his friend from playing the fool, and making himself either ridiculous or contemptible.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>You take strange liberties in my house, Mr. Capstern.</p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>I may take more, madam, perhaps, before I leave it. I shall beg leave to take the command of the vessel 'till I get you safe into port, and then you may <hi>supersede me</hi> if you please—If I say it I'll do it, that's the humour of Commodore Capstern.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>I protest, Commodore, you're an arbitrary monarch.</p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>Where there's a good king, as we always have at sea, 'tis the best government, take my
+<pb n="46" facs="50"/>
+word for it—come, come, my worthy friend, and most amiable cousin, if you have not a mind that the whole world should laugh at you for a couple of ideots, fulfil your old contract, marry, and be happy. Go, go, <stage>(pushes them forward)</stage> settle your matters immediately; I think I have powder and shot enough about me to silence this small battery. I'll try at least if they can hold out against my cannon here.</p>
+      <stage>(Clapping his hand on his breeches pocket, and taking them aside. The Col. and Miss Eleanor come forward.)</stage>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Well, Colonel, what say you?</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>Why, I think we have nothing else for it; my friend the Commodore, here, is a man of sense; suppose for once we take his advice.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Any thing to oblige a friend of Mr. Lovemore's.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>Lets do it with a grace however. <stage>(Whispers her.)</stage> Shall it be so?</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>O by all means—the thought is excellent! Ha, ha, ha!</p>
+      <stage>(Laughs heartily.)</stage>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>Ha, ha, ha! well, Commodore, now the jest is over—we had only a mind to hum you
+<pb n="47" facs="51"/>
+a little—you could never believe I seriously meant to marry that giggling girl there.</p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>No, to be sure, my little Cambyses.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Or that I, when all the world knows I am turn'd of thirty, would throw myself away on a military macaroni of eighteen.</p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>Never, my good Sysigambis, never; so, if you please, we'll e'en send for the parson and tack you together.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>Ay, to-morrow morning if you will.</p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>To night, by heaven!—Spritely, Maria, come, give your uncle and aunt joy, like a dutiful nephew and niece as you are.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>
+       <hi>No more of that as thou lov'st me, Hal</hi>—Come, old girl, give me thy hand, and I think we should join in thanking our good preserver here, for giving us an opportunity of doing that now, which, if we had follow'd our own foolish inclinations, we should in vain have wish'd to do a twelve-month hence.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>Well, Commodore, I'll give the Colonel my hand, but you must promise to secure us from ridicule at all points: you must not send your small shot after us.</p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <pb n="48" facs="52"/>
+      <speaker>COMMODORE.</speaker>
+      <p>O no; you have struck your flag, begg'd for quarter, and there's an end of it. A British conqueror never insults a fallen enemy. And now, my young friends, have you any objection to following a good example?</p>
+     </sp>
+     <sp who="#captain_spritely">
+      <speaker>SPRITELY.</speaker>
+      <p>None at all—I'll answer for both: but matrimony you know, Sir, is a long voyage, and who shall fit out the vessel for us?</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>O that gentleman.</p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>With all my heart. The pleasure of riches is to be able, to give to those that deserve 'em; and the more shiners one has, the more pleasure there is in dispensing 'em; that's my maxim. As they are going to lose their uncle and aunt, the loss cannot be better supplied than by a father: I have adopted them therefore for my own; and to shew you I'm no bad relation, shall present them with ten thousand pounds to begin the world with.</p>
+     </sp>
+     <sp who="#maria">
+      <speaker>MARIA.</speaker>
+      <p>Generous creature! O Spritely, how shall we repay our noble benefactor?</p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>By loving one another better and better every day; and if your uncle and aunt had but a cap full of gratitude, they would contribute to stow your locker a little—what say you?—they have a long voyage to make, in a dangerous
+<pb n="49" facs="53"/>
+sea, a young pilot, and little provision but love.</p>
+     </sp>
+     <sp who="#colonel_lovemore">
+      <speaker>COLONEL.</speaker>
+      <p>Why, Commodore, as far as a few barrels of biscuits and beer—</p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>Well said; and my cousin here, I'll answer for her, will not grudge to throw in some check shirts, a hammock and trowsers.</p>
+     </sp>
+     <sp who="#eleanor">
+      <speaker>ELEANOR.</speaker>
+      <p>I sha'n't scruple to follow the Colonel's example.</p>
+     </sp>
+     <sp who="#commodore_capstern">
+      <speaker>COMMODORE.</speaker>
+      <p>Then we'll furnish the slops, I warrant; I'll tell you what, Frank: the greatest pleasure an honest man can enjoy aboard of this world, is to contribute to the happiness of the whole crew. Give me thy hand, boy: coz, I give thee joy with all my heart: did not I tell you I'd dance at your wedding to-night? if I say it, I'll do't—that's the humour of Commodore Capstern. And now, my brave boys and girls, you're all bound I find for the same port—I wish you a pleasant voyage: and before you go, let an experienced <hi>old Tar</hi> give you a few sailing orders.</p>
+     </sp>
+     <sp>
+      <pb n="50" facs="54"/>
+      <lg type="song">
+       <head>SONG.</head>
+       <lg>
+        <l>All you who set sail for the land of delight,</l>
+        <l>Who in wedlock's soft hammock would swing ev'ry night;</l>
+        <l>If you hope that your voyage successful shall prove,</l>
+        <l>Fill your sails with affection, your cabbins with love.</l>
+        <l>
+         <hi>Fill your sails, &amp;c.</hi>
+        </l>
+       </lg>
+       <lg>
+        <l>Let your hearts, like your main-mast, be ever upright,</l>
+        <l>And the union you boast, like your tackle, be tight;</l>
+        <l>Of the shoals of indiff'rence be sure to keep clear,</l>
+        <l>And the quicksands of jealousy never come near.</l>
+        <l>
+         <hi>And the quicksands, &amp;c.</hi>
+        </l>
+       </lg>
+       <lg>
+        <l>If vapours and whims, like sea sickness, prevail,</l>
+        <l>You must spread all your canvas, and catch the fresh gale;</l>
+        <l>But if brisk blows the wind, and there comes a rough sea,</l>
+        <l>Then lower your topsails, and scud under lee.</l>
+        <l>
+         <hi>Then lower, &amp;c.</hi>
+        </l>
+       </lg>
+       <lg>
+        <l>If, husbands, you hope to live peaceable lives,</l>
+        <l>Keep the reckoning yourselves, give the helm to your wives;</l>
+        <l>For the evener we go, boys, the better we sail,</l>
+        <l>And on shipboard the head is still rul'd by the tail.</l>
+        <l>
+         <hi>And on shipboard, &amp;c.</hi>
+        </l>
+       </lg>
+       <lg>
+        <l>Then listen to <hi>Capstern,</hi> my lads, and be wise;</l>
+        <l>If my precepts you scorn, and my maxims despise,</l>
+        <l>A brace of proud antlers your brows may adorn,</l>
+        <l>And a hundred to one, but you double <hi>Cape-Horn.</hi>
+        </l>
+        <l>
+         <hi>And a hundred, &amp;c.</hi>
+        </l>
+       </lg>
+      </lg>
+     </sp>
+    </div>
+   </div>
+   <trailer>FINIS.</trailer>
+  </body>
+ </text>
+</TEI>

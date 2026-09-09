@@ -1,0 +1,3798 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">Matilda</title>
+    <title type="sub">a tragedy. As it is performed at the Theatre-Royal in Drury-Lane. By the author of The Earl of Warwick.</title>
+    <author>
+     <persName>
+      <surname>Francklin</surname>
+      <forename>Thomas</forename>
+      <idno type="VIAF">27112052</idno>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>Matilda: a tragedy. As it is performed at the Theatre-Royal in Drury-Lane. By the author of The Earl of Warwick.</name>
+     <author>Francklin, Thomas, 1721-1784.</author>
+     <publisher>printed for T. Cadell,</publisher>
+     <date>1775.</date>
+     <pubPlace>London :</pubPlace>
+     <note>Author of The Earl of Warwick = Thomas Francklin.</note>
+     <note>Verse.</note>
+     <note>Dedication with some stop-press corrections, i.e. roman type replaced with italic (not differentiated).</note>
+     <note>Reproduction of original from the British Library.</note>
+     <note>English Short Title Catalog, ESTCT39044.</note>
+     <note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note>
+    </bibl>
+    <biblFull n="printed source">
+     <publicationStmt>
+      <authority ref="#JJ">Jan Jokisch</authority>
+      <date>2024 December</date>
+      <idno type="ECCO_Drama">K039474.000</idno>
+      <idno type="DLPS">004805706</idno>
+      <idno type="ESTC">T39044</idno>
+      <idno type="DocNo">CW110940383</idno>
+      <idno type="TCP">K039474.000</idno>
+      <idno type="GaleDocNo">CW3310940383</idno>
+      <idno type="ContentSet">ECLL</idno>
+      <idno type="ImageSetID">0163800600</idno>
+      <availability>
+       <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+      </availability>
+     </publicationStmt>
+    </biblFull>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     
+     
+     
+     
+     
+     
+     
+     
+    <person xml:id="morcar"><persName>Morcar</persName><sex value="MALE"/></person><person xml:id="edwin"><persName>Edwin</persName><sex value="MALE"/></person><person xml:id="siward"><persName>Siward</persName><sex value="MALE"/></person><person xml:id="matilda"><persName>Matilda</persName><sex value="FEMALE"/></person><person xml:id="bertha"><persName>Bertha</persName><sex value="FEMALE"/></person><person xml:id="harold"><persName>Harold</persName><sex value="MALE"/></person><person xml:id="officer"><persName>Officer</persName><sex value="MALE"/></person></listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1775">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text xml:lang="en">
+  <front>
+   <div type="titlepage">
+    <pb facs="1" ana="y"/>
+    <p>MATILDA: A TRAGEDY. AS IT IS PERFORMED AT THE THEATRE-ROYAL IN DRURY-LANE.</p>
+    <p>By the AUTHOR of the EARL of WARWICK.</p>
+    <p>
+     <hi>LONDON:</hi> Printed for T. CADELL, opposite Catherine-Street, in the Strand. 1775. [PRICE ONE SHILLING AND SIX-PENCE.]</p>
+   </div>
+   <div type="dedication">
+    <pb facs="2"/>
+    <head>DEDICATION.</head>
+    <head type="sub">TO THE PUBLIC.</head>
+    <opener>
+     <salute>SIR,</salute>
+    </opener>
+    <p>PERMIT me to return you my unfeigned thanks for your kind reception of this <hi>Tragedy</hi> on the stage, and to request the continuance of your favour to it in the closet. It would be the highest ingratitude in me to forget the only patron I ever had the good fortune to meet with, by whose powerful assistance I have been enabled to defeat the combined forces of envy, malice and detraction. I must at the same time fairly confess, my victory over the enemy was owing, I believe, as many other victories have been, more to the art and prowess of my <hi>Officers</hi> than to any extraordinary merit of my own. To the first in command, Miss YOUNGE, I have infinite obligations, which I shall always gratefully acknowledge, tho' I may never have it in my power to repay them; nor can the skill and conduct of my generals, REDDISH, SMITH and PALMER, be sufficiently admired. To your patronage and protection I most heartily and sincerely recommend them: If I have been the happy instrument of giving them a favourable opportunity of rising in <hi>your</hi> esteem, it will give me the greatest satisfaction. <hi>You</hi> can best distinguish their merit, and <hi>you</hi> alone are able to reward it.</p>
+    <closer>
+     <signed>I am, Sir, your much obliged, And devoted humble Servant, The Author.</signed>
+    </closer>
+   </div>
+   <div type="Dramatis_Personae">
+    <pb facs="3"/>
+    <castList>
+     <head>Dramatis Personae.</head>
+     <castItem>MEN.</castItem>
+     <castItem>
+      <role>MORCAR, Earl of Mercia</role>
+      <actor>Mr. REDDISH</actor>
+     </castItem>
+     <castItem>
+      <role>EDWIN, Earl of Northumberland</role>
+      <actor>Mr. SMITH</actor>
+     </castItem>
+     <castItem>
+      <role>SIWARD, Morcar's friend</role>
+      <actor>Mr. PALMER</actor>
+     </castItem>
+     <castItem>
+      <role>OFFICERS, &amp;c</role>
+     </castItem>
+     <castItem>WOMEN.</castItem>
+     <castItem>
+      <role>MATILDA, A prisoner in the camp of Morcar</role>
+      <actor>Miss YOUNGE</actor>
+     </castItem>
+     <castItem>
+      <role>BERTHA, Her friend</role>
+      <actor>Miss PLATT</actor>
+     </castItem>
+    </castList>
+   </div>
+   <set>
+    <p>SCENE, MORCAR's Camp, and the Environs near NOTTINGHAM.</p>
+   </set>
+   <div type="prologue">
+    <pb facs="4"/>
+    <head>PROLOGUE.</head>
+    <byline>Written by a FRIEND.</byline>
+    <byline>Spoken by Mr. SMITH.</byline>
+    <l>A Tragic Tale, from Norman William's Age,</l>
+    <l>Simple, and unadorn'd, attempts the Stage.</l>
+    <l>Our silly Bard, more simple than his Tale,</l>
+    <l>Thinks on your polish'd Manners to prevail;</l>
+    <l>What in those barb'rous Days were counted Crimes,</l>
+    <l>Are Slips of course in these enlighten'd Times:</l>
+    <l>Let not your Ancestors too rude appear,</l>
+    <l>Though firm in Friendship, and in Love sincere.</l>
+    <l>Love then like Glory did each Heart inflame,</l>
+    <l>
+     <hi>Beauty</hi> was <hi>Virtue,</hi> and to win it, <hi>Fame,</hi>
+    </l>
+    <l>Now Lovers lose their Mistresses with Grace,</l>
+    <l>As at New-Market they would lose a Race,</l>
+    <l>Where, if in Hopes they seem a little cross'd,</l>
+    <l>'Tis for the Money of the Match that's lost.</l>
+    <l>When Tilts and Tournaments call'd forth the Brave,</l>
+    <l>The Fame of spotless Innocence to save,</l>
+    <l>Each gallant Knight preferr'd his Love to Life,</l>
+    <l>For <hi>then</hi> the greatest Blessing was a Wife:</l>
+    <l>To prove their Chastity the dauntless Fair</l>
+    <l>Would walk through Flames, nor singe a single Hair;</l>
+    <l>Nay, some so chaste, so cold to all Desire,</l>
+    <l>Not only scap'd it, they put out the Fire!</l>
+    <l>But now no Heroes die for Love's sweet Passion,</l>
+    <l>And <hi>fiery Trials</hi> are quite out of Fashion.</l>
+    <l>Ye Sons of Frailty—you whom Rage devours,</l>
+    <l>For you this Night the Muse exerts her Pow'rs;</l>
+    <l>
+     <pb facs="5"/>
+With crimson Hands, pale Cheeks, and blood-shot Eyes,</l>
+    <l>She bids the Furies in their Terrors rise!</l>
+    <l>In Valour's Breast their Scorpion Stings they dart,</l>
+    <l>First fire the Brain, and then corrupt the Heart.</l>
+    <l>But what avails all Virtue! Passion's gust,</l>
+    <l>Like Whirlwinds, drive it from the Heart like Dust;</l>
+    <l>When Reason dawns, well may Repentance mourn</l>
+    <l>Love, Friendship, Duty, by the Roots up-torn.</l>
+    <l>To sooth this fatal Vice, the Flatterer tells</l>
+    <l>In stormy Minds how warmest Friendship dwells;</l>
+    <l>The Tree whose sheltering Arms spread kindly round,</l>
+    <l>If Light'ning-struck, lies blasted on the Ground;</l>
+    <l>In vain will Merits past Indulgence claim,</l>
+    <l>One Moment's Rashness blasts whole Years of Fame.</l>
+   </div>
+   <div type="epilogue">
+    <pb facs="6"/>
+    <head>EPILOGUE.</head>
+    <byline>By the AUTHOR of the TRAGEDY.</byline>
+    <byline>Spoken by Miss YOUNGE.</byline>
+    <lg>
+     <l>HA! ha! poor Creature! how you trembling stand!</l>
+     <l>Come to the Bar, Sir, and hold up your Hand;</l>
+     <l>You won't—by Council then you'd have it done,</l>
+     <l>And I must plead your Cause—well, get you gone.</l>
+     <stage>[Coming forward to the Audience.</stage>
+     <l>Now for the great Tribunal of Old Drury;</l>
+     <l>Are you all sworn there—Gem'men of the Jury?</l>
+     <l>Good Men, and true, I hope—stay, let me see,</l>
+     <l>Amongst you all he challenges—but three.</l>
+     <l>Physicians, Lawyers, Parsons he admits,</l>
+     <l>Beaux, Ladies, Courtiers, Macaronies, Cits,</l>
+     <l>And only scratches—<hi>Critics, News-writers,</hi> and <hi>Wits.</hi>
+     </l>
+    </lg>
+    <lg>
+     <l>The <hi>Critic</hi> first we banish from our Session,</l>
+     <l>Death is his Trade, and Damning—his Profession;</l>
+     <l>Disqualisy'd—because, to say no further,</l>
+     <l>Butchers are never heard in case of Murther.</l>
+    </lg>
+    <lg>
+     <l>Next we disclaim th' <hi>Artificers</hi> of <hi>News,</hi>
+     </l>
+     <l>Who live by Fibs, and flourish by Abuse;</l>
+     <l>They must condemn, or lose their daily Bread;</l>
+     <l>If they don't cut, and slash—they're never read;</l>
+     <l>Like fabled Giants here they roam for Food,</l>
+     <l>And Fe! Fa! Fum! snuff up an Author's Blood;</l>
+     <l>In the next <hi>Ledger</hi> hang him up to roast,</l>
+     <l>Or tear him Piece-meal in—the <hi>Morning Post.</hi>
+     </l>
+    </lg>
+    <lg>
+     <l>To <hi>Wits</hi> we last except, and 'bove all other,</l>
+     <l>The Hero of our Tale—a <hi>Rival Brother!</hi>
+     </l>
+     <l>
+      <pb facs="7"/>
+As Rogues, just 'scap'd the Gallows, join the Shrieves,</l>
+     <l>Turn Hangmen, and tuck up their Fellow Thieves;</l>
+     <l>So Bards condemn'd, exert the Critic's Skill,</l>
+     <l>And execute their Brethren of the Quill!</l>
+     <l>If like their own, indeed, the Brat should die,</l>
+     <l>They'll gladly join to write—its Elegy;</l>
+     <l>But if the Child is strong, and like to live,</l>
+     <l>That is a Crime they never can forgive.</l>
+    </lg>
+    <lg>
+     <l>From such let English Juries still be free,</l>
+     <l>Our Author here appeals to your Decree,</l>
+     <l>The Public is—a Court of Equity.</l>
+     <l>If he has shock'd your Taste, your Sense, or Reason,</l>
+     <l>Or against Nature guilty been of Treason,</l>
+     <l>Off with his Head;—but if with honest Art</l>
+     <l>His well-meant Scenes have touch'd the feeling Heart;</l>
+     <l>If they have rais'd your Pity, wak'd your Fears,</l>
+     <l>Or sweetly have "beguil'd you of your Tears,"</l>
+     <l>Let venial Errors your Indulgence claim,</l>
+     <l>Your Voice his Triumph, your Applause his Fame.</l>
+    </lg>
+    <lg>
+     <l>Speak by your Foreman—what says Goodman Pit?</l>
+     <l>Will you condemn the Prisoner, or acquit?</l>
+     <l>Your Verdict, Sirs, <hi>Not Guilty</hi>—if you please—</l>
+     <l>You smile—<hi>Acquitted</hi>—hope you'll pay his Fees.</l>
+    </lg>
+   </div>
+  </front>
+  <body>
+   <head>
+    <pb facs="8"/>
+MATILDA: A TRAGEDY.<note n="*" place="foot">The reader will meet with some lines which, to shorten the scenes, were omitted in the representation.</note>
+   </head>
+   <div n="1" type="act">
+    <head>ACT I.</head>
+    <head>SCENE, <stage>MATILDA'S Tent, with a view of the distant country.</stage>
+    </head>
+    <stage>MATILDA, BERTHA.</stage>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>I Thank thee, gentle Bertha, for thy goodness;</l>
+     <l>If aught cou'd sooth the anguish of my soul,</l>
+     <l>Or raise it from the horrors of despair</l>
+     <l>To hope and joy, 'twou'd be thy gen'rous friendship:</l>
+     <l>But I am sunk so deep in misery,</l>
+     <l>That comfort cannot reach me.</l>
+    </sp>
+    <sp who="#bertha">
+     <speaker>BERTHA.</speaker>
+     <l>Talk not thus,</l>
+     <l>My sweet Matilda; innocence, like thine,</l>
+     <l>Must be the care of all-directing heav'n.</l>
+     <l>Already hath the interposing hand</l>
+     <l>Of providence redeem'd thee from the rage</l>
+     <l>Of savage war, and shelter'd thee within</l>
+     <l>This calm asylum. Mercia's potent Earl,</l>
+     <l>The noble Morcar, will protect thy virtues;</l>
+     <l>
+      <pb n="2" facs="9"/>
+And, if I err not, wishes but to share</l>
+     <l>His conquests with thee.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>O my friend, oft times</l>
+     <l>The flow'ry path that tempts our wand'ring steps</l>
+     <l>But leads to mis'ry; what thou fondly deem'st</l>
+     <l>My soul's best comfort, is its bitt'rest woe.</l>
+     <l>Earl Morcar loves me. To the gen'rous mind</l>
+     <l>The heaviest debt is that of gratitude,</l>
+     <l>When 'tis not in our power to repay it.</l>
+    </sp>
+    <sp who="#bertha">
+     <speaker>BERTHA.</speaker>
+     <l>Oft' have I heard thee say, to him thou ow'st</l>
+     <l>Thy honour and thy life.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>I told thee truth.</l>
+     <l>Beneath my father's hospitable roof,</l>
+     <l>I spent my earlier happier days in peace</l>
+     <l>And safety: When the Norman conqu'ror came,</l>
+     <l>Discord, thou know'st, soon lit her fatal torch,</l>
+     <l>And spread destruction o'er this wretched land.</l>
+     <l>The loyal Ranulph flew to William's aid,</l>
+     <l>And left me to a faithful peasant's care,</l>
+     <l>Who liv'd, sequester'd, in the fertile plains</l>
+     <l>Of rich Northumbria: There awhile I dwelt</l>
+     <l>In sweet retirement, when the savage Malcolm</l>
+     <l>Rush'd on our borders.</l>
+    </sp>
+    <sp who="#bertha">
+     <speaker>BERTHA.</speaker>
+     <l>I remember well</l>
+     <l>The melancholy hour. Confusion rag'd</l>
+     <l>On ev'ry side, and desolation spread</l>
+     <l>Its terrors round us. How did'st thou escape?</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>A crew of desp'rate ruffians seiz'd upon me,</l>
+     <l>A helpless prey: For, O! he was not there,</l>
+     <l>Who best cou'd have defended his Matilda.</l>
+     <l>
+      <pb n="3" facs="10"/>
+Then had I fall'n a wretched sacrifice</l>
+     <l>To rbutal rage, and lawless violence,</l>
+     <l>Had not the gen'rous Morcar interpos'd</l>
+     <l>To save me: Tho' he join'd the guilty cause</l>
+     <l>Of foul rebellion, yet his soul abhor'd</l>
+     <l>Such violation. At his awful voice</l>
+     <l>The surly ruffians left me, and retir'd.</l>
+     <l>He bore me, half expiring in his arms,</l>
+     <l>Back to his tent; with ev'ry kind attention</l>
+     <l>There strove to sooth my griefs, and promis'd, soon</l>
+     <l>As fit occasion offer'd, to restore me</l>
+     <l>To my afflicted father.</l>
+    </sp>
+    <sp who="#bertha">
+     <speaker>BERTHA.</speaker>
+     <l>Something sure</l>
+     <l>Was due to gen'rous Morcar for his aid,</l>
+     <l>So timely given.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>No doubt: But mark what follow'd.</l>
+     <l>In my deliverer too soon I found</l>
+     <l>An ardent lover, sighing at my feet.</l>
+    </sp>
+    <sp who="#bertha">
+     <speaker>BERTHA.</speaker>
+     <l>And what is there the proudest of our sex</l>
+     <l>Cou'd wish for more? To be the envy'd bride</l>
+     <l>Of noble Morcar, first of England's peers,</l>
+     <l>In fame and fortune.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Never trust, my Bertha,</l>
+     <l>To outward shew. 'Tis not the smiles of fortune,</l>
+     <l>The pomp of wealth, or splendor of a court,</l>
+     <l>Can make us happy. In the mind alone,</l>
+     <l>Rests solid joy, and true felicity,</l>
+     <l>Which I can never taste: For, O, my friend!</l>
+     <l>A secret sorrow weighs upon my heart.</l>
+    </sp>
+    <sp who="#bertha">
+     <pb n="4" facs="11"/>
+     <speaker>BERTHA.</speaker>
+     <l>Then pour it in the bosom of thy friend;</l>
+     <l>Let me partake it with thee.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Gen'rous maid!</l>
+     <l>Know then, for nought will I conceal from thee,</l>
+     <l>I honour Mercia's Earl, revere his virtues,</l>
+     <l>And wish I cou'd repay him with myself;</l>
+     <l>But, blushing, I acknowledge it, the heart</l>
+     <l>His vows solicit, is not mine to give.</l>
+    </sp>
+    <sp who="#bertha">
+     <speaker>BERTHA.</speaker>
+     <l>Has then Tome happier youth—</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Another time</l>
+     <l>I'll tell thee all the story of our loves.</l>
+     <l>But, O, my Bertha! did'st thou know to whom</l>
+     <l>My virgin faith is plighted, thou wou'd'st say</l>
+     <l>I am indeed unhappy.</l>
+    </sp>
+    <sp who="#bertha">
+     <speaker>BERTHA.</speaker>
+     <l>Cou'd Matilda</l>
+     <l>Bestow the treasure of her heart on one</l>
+     <l>Unworthy of her choice?</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Unworthy! No.</l>
+     <l>I glory in my passion for the best,</l>
+     <l>The loveliest of his sex. O! he was all</l>
+     <l>That bounteous nature, prodigal of charms,</l>
+     <l>Did on her choicest fav'rite e'er bestow.</l>
+     <l>His graceful form and sweet deportment spoke</l>
+     <l>The fairer beauties of his kindred soul,</l>
+     <l>Where e'vry grace and ev'ry virtue shone.</l>
+     <l>But thou wilt tremble, Bertha, when I tell thee,</l>
+     <l>He is Earl Morcar's—brother.</l>
+    </sp>
+    <sp who="#bertha">
+     <pb n="5" facs="12"/>
+     <speaker>BERTHA.</speaker>
+     <l>Ha! his brother!</l>
+     <l>The noble Edwin! Often have I heard</l>
+     <l>My father—</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Did Lord Edrick know him then?</l>
+    </sp>
+    <sp who="#bertha">
+     <speaker>BERTHA.</speaker>
+     <l>He knew his virtues, and his fame in arms,</l>
+     <l>And often wou'd lament the dire effects</l>
+     <l>Of civil discord, that cou'd thus dissolve</l>
+     <l>The ties of nature, and of brethren make</l>
+     <l>The bitt'rest foes. If right I learn, Lord Edwin</l>
+     <l>Is William's firmest friend, and still supports</l>
+     <l>His royal master.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Yes, my Bertha, there</l>
+     <l>I still find comfort: Edwin ne'er was stain'd</l>
+     <l>As Morcar is, with foul disloyalty,</l>
+     <l>But stands betwixt his sov'reign and the rage</l>
+     <l>Of rebel multitudes, to guard his throne.</l>
+     <l>If nobly fighting in his country's cause,</l>
+     <l>My hero falls, I shall not weep alone;</l>
+     <l>The king he lov'd and honour'd, will lament him,</l>
+     <l>And grateful England mix her tears with mine.</l>
+    </sp>
+    <sp who="#bertha">
+     <speaker>BERTHA.</speaker>
+     <l>And doth Earl Morcar know of Edwin's love?</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>O, no! I wou'd not for a thousand worlds</l>
+     <l>He shou'd suspect it, lest his fiery soul</l>
+     <l>Shou'd catch th' alarm, and kindle to a flame</l>
+     <l>That might destroy us all.</l>
+    </sp>
+    <sp who="#bertha">
+     <speaker>BERTHA.</speaker>
+     <l>I know his warmth</l>
+     <l>And vehemence of temper, unrestrain'd</l>
+     <l>
+      <pb n="6" facs="13"/>
+By laws, and spurning at the royal pow'r</l>
+     <l>Which he contemns, he rules despotic here.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Alas! how man from man, and brother oft</l>
+     <l>From brother differs! Edwin's tender passion</l>
+     <l>Is soft and gentle as the balmy breath</l>
+     <l>Of vernal zephyrs; whilst the savage north,</l>
+     <l>That curls the angry ocean into storms,</l>
+     <l>Is a faint image of Earl Morcar's love:</l>
+     <l>'Tis rage, 'tis fury all. When last we met</l>
+     <l>He knit his angry brow, and frown'd severe</l>
+     <l>Upon me; then, with wild distracted look,</l>
+     <l>Bade me beware of trifling with his passion,</l>
+     <l>He wou'd not brook it—trembling I retir'd,</l>
+     <l>And bath'd my couch in tears.</l>
+    </sp>
+    <sp who="#bertha">
+     <speaker>BERTHA.</speaker>
+     <l>Unhappy maid!</l>
+     <l>But time, that softens ev'ry human woe,</l>
+     <l>Will bring some blest event, and lighten thine.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Alas! thou know'st not what it is to love.</l>
+     <l>Haply thy tender heart hath never felt</l>
+     <l>The tortures of that soul-bewitching passion.</l>
+     <l>Its joys are sweet and poignant, but its pangs</l>
+     <l>Are exquisite, as I have known too well:</l>
+     <l>For, O! my Bertha, since the fatal hour</l>
+     <l>When Edwin left me, never hath sweet peace,</l>
+     <l>That us'd to dwell with all its comforts here,</l>
+     <l>'E'er deign'd to visit this afflicted breast.</l>
+    </sp>
+    <sp who="#bertha">
+     <speaker>BERTHA.</speaker>
+     <l>Too plain, alas! I read thy sorrows; grief</l>
+     <l>Sits in sad triumph on thy faded cheek,</l>
+     <l>And half obscures the lustre of thy beauties.</l>
+    </sp>
+    <sp who="#matilda">
+     <pb n="7" facs="14" ana="y"/>
+     <speaker>MATILDA.</speaker>
+     <l>Talk not of beauty, 'tis our sex's bane,</l>
+     <l>And leads but to destruction. I abhor</l>
+     <l>The fatal gift. O! would it had pleas'd heav'n</l>
+     <l>To brand my homely features with the mark</l>
+     <l>Of foul deformity, or let me pass</l>
+     <l>Unknown, and undistinguish'd from the herd</l>
+     <l>Of vulgar forms, save by the partial eye</l>
+     <l>Of my lov'd Edwin; then had I been blest</l>
+     <l>With charms unenvy'd, and a guiltless love.</l>
+    </sp>
+    <sp who="#bertha">
+     <speaker>BERTHA.</speaker>
+     <l>Where is thy Edwin now?</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Alas! I know not.</l>
+     <l>'Tis now three years since last these eyes beheld</l>
+     <l>Their dearest object. In that humble vale,</l>
+     <l>Whence, as I told thee, Malcolm's fury drove me,</l>
+     <l>There first we met. O! how I cherish still</l>
+     <l>The fond remembrance! There we first exchang'd</l>
+     <l>Our mutual vows, the day of happiness</l>
+     <l>Was fixt; it came, and in a few short hours</l>
+     <l>He had been made indissolubly mine,</l>
+     <l>When fortune, envious of our happiness,</l>
+     <l>And William's danger, call'd him to the field.</l>
+    </sp>
+    <sp who="#bertha">
+     <speaker>BERTHA.</speaker>
+     <l>And since that parting have ye never met?</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>O never, Bertha, never but in thought.</l>
+     <l>Imagination, kind anticipator</l>
+     <l>Of love's pleasures, brings us oft' together.</l>
+     <l>Oft' as I sit within my lonely tent,</l>
+     <l>And cast my wishful eyes o'er yonder plain,</l>
+     <l>In ev'ry passing traveller I strive</l>
+     <l>
+      <pb n="8" facs="15"/>
+To trace his image, hear his lovely voice</l>
+     <l>In ev'ry sound, and fain wou'd flatter me</l>
+     <l>Edwin still lives, still loves his lost Matilda.</l>
+    </sp>
+    <sp who="#bertha">
+     <speaker>BERTHA.</speaker>
+     <l>Who knows but fate, propitious to thy love,</l>
+     <l>May guide him hither.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Gracious heav'n forbid!</l>
+     <l>Consider, Bertha, if the chance of war</l>
+     <l>Shou'd this way lead him, he must come in arms</l>
+     <l>Against his brother: Oh! 'tis horrible</l>
+     <l>To think on. Shou'd they meet, and Edwin fall,</l>
+     <l>What shall support me? And if vict'ry smiles</l>
+     <l>Upon my love, how dear will be the purchase</l>
+     <l>By Morcar's blood! Then must I lose my friend,</l>
+     <l>My guardian, my protector—ev'ry way</l>
+     <l>Matilda must be wretched.</l>
+    </sp>
+    <sp who="#bertha">
+     <speaker>BERTHA.</speaker>
+     <l>Is there ought</l>
+     <l>In Bertha's pow'r?</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Wilt thou dispatch, my friend,</l>
+     <l>Some trusty messenger with these?—Away.</l>
+     <stage>(gives her letters.</stage>
+     <l>I'll meet thee in my tent—farewel.</l>
+     <stage>[Exit Bertha.</stage>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA. </speaker>
+     <stage>(alone.)</stage>
+     <l>Mean time</l>
+     <l>One hope remains, the gen'rous Siward—he</l>
+     <l>Might save me still. His sympathetic heart</l>
+     <l>Can feel for the afflicted.—I have heard,</l>
+     <l>(Such is the magic pow'r of sacred friendship)</l>
+     <l>When the impetuous Morcar scatters fear</l>
+     <l>And terror round him, he, and he alone</l>
+     <l>
+      <pb n="9" facs="16"/>
+Can stem the rapid torrent of his passion,</l>
+     <l>And bend him, tho' reluctant, to his will;</l>
+     <l>And see, in happy hour, he comes this way.</l>
+     <l>Now fortune, be propitious! if there be,</l>
+     <l>As I have heard, an eloquence in grief,</l>
+     <l>And those can most persuade, who are most wretched,</l>
+     <l>I shall not pass unpitied.</l>
+    </sp>
+    <stage>Enter SIWARD.</stage>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>Ha! in tears,</l>
+     <l>Matilda! What new grief, what cruel foe</l>
+     <l>To innocence and beauty, thus cou'd vex</l>
+     <l>Thy gentle spirit?</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Canst thou ask the cause,</l>
+     <l>When thou behold'st me still in shameful bonds,</l>
+     <l>A wretched captive, friendless and forlorn,</l>
+     <l>Without one ray of hope to sooth my sorrows.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>Can she, whose beauteous form, and fair demeanor,</l>
+     <l>Charm ev'ry eye, and conquer ev'ry heart,</l>
+     <l>Can she be wretched? can she want a friend,</l>
+     <l>Whom Siward honours, and whom Morcar loves?</l>
+     <l>O! if thou knew'st with what unceasing ardor,</l>
+     <l>What unexampled tenderness and truth,</l>
+     <l>He doats upon thee, sure thou might'st be wrought</l>
+     <l>At least to pity.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Urge no more, my Lord,</l>
+     <l>Th' ungrateful subject; but too well I know</l>
+     <l>How much thy friend deserves, how much, alas,</l>
+     <l>I owe him!—If it be Earl Morcar's wish</l>
+     <l>
+      <pb n="10" facs="17"/>
+To make me happy, why am I detain'd</l>
+     <l>A pris'ner here: Spight of his solemn promise</l>
+     <l>He would restore me to my royal master,</l>
+     <l>Or send me back to the desiring arms</l>
+     <l>Of the afflicted Ranulph, who in tears</l>
+     <l>Of bitt'rest anguish, mourns his long-lost daughter?</l>
+     <l>Surely, my Lord, it ill becomes a soldier</l>
+     <l>To forfeit thus his honor and his word.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>I own it; yet the cause pleads strongly for him.</l>
+     <l>If by thy own too pow'rful charms misled,</l>
+     <l>He deviates from the paths of rigid honour,</l>
+     <l>Matilda might forgive. Thou know'st he lives</l>
+     <l>But in thy smiles; his love-enchanted soul</l>
+     <l>Hangs on those beauties he wou'd wish to keep</l>
+     <l>For ever in his sight.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Indulgent heav'n</l>
+     <l>Keep me for ever from it! O, my Lord!</l>
+     <l>If e'er thy heart with gen'rous pity glow'd</l>
+     <l>For the distress'd; if e'er thy honest zeal</l>
+     <l>Cou'd boast an influence o'er the man you love;</l>
+     <l>O! now exert thy pow'r, assist, direct,</l>
+     <l>And save thy friend from ruin and Matilda.</l>
+     <l>There are, my Lord, who most offend, where most</l>
+     <l>They wish to please. Such often is the fate</l>
+     <l>Of thy unhappy friend, when he pours forth</l>
+     <l>His ardent soul in vows of tend'rest passion;</l>
+     <l>'Tis with such rude and boist'rous violence</l>
+     <l>As suits but ill the hero or the lover.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>I know his weakness, know his follies all,</l>
+     <l>And feel 'em but too well: He loves with transport,</l>
+     <l>
+      <pb n="11" facs="18"/>
+And hates with fury. Warm'd with fierce desire,</l>
+     <l>Or strong resentment, his impetuous soul</l>
+     <l>Is hurried on, 'till reason quits her seat,</l>
+     <l>And passion takes the loosely-flowing rein;</l>
+     <l>Then all is rage, confusion, and despair.</l>
+     <l>And yet, when cool reflections hath remov'd</l>
+     <l>The veil of error, he will weep his faults</l>
+     <l>With such a sweet contrition, as wou'd melt</l>
+     <l>The hardest heart to pity and forgiveness.</l>
+     <l>O! he has virtues that may well attone</l>
+     <l>For all his venial rashness, that deserve</l>
+     <l>A sov'reign's love, and claim a nation's praise;</l>
+     <l>Virtues that merit happiness and thee.</l>
+     <l>Why wilt thou thus despise my noble friend?</l>
+     <l>His birth and fortune, with the rank he bears</l>
+     <l>Amongst the first of England's peers, will raise thee</l>
+     <l>As far above thy sex, in wealth and pow'r,</l>
+     <l>As now thou art in beauty.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>O, my Lord!</l>
+     <l>'Tis not the pride, the luxury of life,</l>
+     <l>The splendid robe and glitt'ring gem, that knits</l>
+     <l>The lasting bonds of mutual happiness:</l>
+     <l>Where manners differ, where affections jarr,</l>
+     <l>And will not kindly mix together, where</l>
+     <l>The sweet harmonious concord of the mind</l>
+     <l>Is wanting, all is misery and woe.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>By heav'n, thou plead'st thy own and virtue's cause,</l>
+     <l>With such bewitching eloquence, the more</l>
+     <l>Thy heart, alarm'd by diffidence, still urges</l>
+     <l>Against this union with my friend, the more</l>
+     <l>I wish to see him blest with worth like thine.</l>
+    </sp>
+    <sp who="#matilda">
+     <pb n="12" facs="19"/>
+     <speaker>MATILDA.</speaker>
+     <l>My Lord, it must not be; for grant him all</l>
+     <l>The fair perfections you already see,</l>
+     <l>And I cou'd wish to find, there is a bar</l>
+     <l>That must for ever dis-unite us—Born</l>
+     <l>Of Norman race, and from my earliest years</l>
+     <l>Attach'd to William's cause; I love my king</l>
+     <l>And wish my country's peace: That king, my Lord,</l>
+     <l>Whom Morcar wishes to dethrone; that peace</l>
+     <l>Which he destroys: Had he an angel's form,</l>
+     <l>With all the virtues that adorn his sex,</l>
+     <l>With all the riches fortune can bestow,</l>
+     <l>I wou'd not wed a traitor.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>Call not his errors by so harsh a name;</l>
+     <l>He has been deeply wrong'd, and souls like his,</l>
+     <l>Must feel the wounds of honour, and resent them,</l>
+     <l>Alas! with thee I weep my country's fate,</l>
+     <l>Nay wish, perhaps, as well to William's cause,</l>
+     <l>And England's peace, as can the loyal daughter</l>
+     <l>Of gallant Ranulph, and wou'd, therefore, joy</l>
+     <l>To see Matilda lend a gracious ear</l>
+     <l>To Morcar's suit. Thy reconciling charms</l>
+     <l>Might sooth his troubled soul, might heal the wounds</l>
+     <l>Of bleeding England, and unite us all</l>
+     <l>In one bright chain of harmony and love,</l>
+     <l>The gallant Edwin too.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Ha! what of him?</l>
+     <l>Know'st thou that noble youth?</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>So many years</l>
+     <l>Have past since last we met, by diff'rent views,</l>
+     <l>And our unhappy feuds, so long divided,</l>
+     <l>
+      <pb n="13" facs="20"/>
+I shou'd not recollect him; but report</l>
+     <l>Speaks loudly of his virtues. He, no doubt,</l>
+     <l>If yet he lives—</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Yet lives!—Why, what, my Lord?</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>You seem much mov'd.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Forgive me, but whene'er</l>
+     <l>This sad idea rises to my mind,</l>
+     <l>Of brother against brother arm'd, my soul</l>
+     <l>Recoils with horror.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>'Tis a dreadful thought:</l>
+     <l>Wou'd I cou'd heal that cruel breach! but then</l>
+     <l>Thou might'st do much, the task is left for thee.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>For me? Alas! it is not in my pow'r.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>In thine, and thine alone. O think, Matilda!</l>
+     <l>How great thy glory, and how great thy praise,</l>
+     <l>To be the blessed instrument of peace;</l>
+     <l>The band of union 'twixt contending brothers.</l>
+     <l>Thou see'st them now like two descending floods,</l>
+     <l>Whose rapid torrents meeting, half o'erwhelm</l>
+     <l>The neighb'ring plains: Thy gentle voice might still</l>
+     <l>The angry waves, and bid their waters flow</l>
+     <l>In one united stream, to bless the land.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>That flatt'ring thought beams comfort on my soul,</l>
+     <l>Amidst my sorrows; bear me witness, heav'n!</l>
+     <l>Cou'd poor Matilda be the happy means</l>
+     <l>Of reconcilement: Cou'd these eyes behold</l>
+     <l>
+      <pb n="14" facs="21"/>
+The noble youths embracing, and embrac'd</l>
+     <l>In the firm cords of amity and love.</l>
+     <l>O! it wou'd make me ample recompence</l>
+     <l>For all my griefs, nor wou'd I more complain,</l>
+     <l>But rest me in the silent grave, well pleas'd</l>
+     <l>To think, at last, I had not liv'd in vain.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>Cherish that virtuous thought, illustrious maid,</l>
+     <l>And let me hope my friend may still be happy.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>I wish it from my soul: But see, my Lord,</l>
+     <l>Earl Morcar comes this way, with hasty steps,</l>
+     <l>Across the lawn. I must retire: Farewel!</l>
+     <l>You'll not forget my humble suit.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>O! no,</l>
+     <l>I will do all that loveliest innocence</l>
+     <l>And worth, like thine, deserve. Farewel: Mean time</l>
+     <l>Remember, Siward's ev'ry wish, the bliss</l>
+     <l>Of Morcar, Edwin's life, the public peace,</l>
+     <l>And England's welfare, all depend—on thee.</l>
+     <stage>[Exit Matilda.</stage>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD. </speaker>
+     <stage>(alone.)</stage>
+     <l>There's no alternative but this; my friend</l>
+     <l>Must quit Matilda, or desert the cause</l>
+     <l>We've rashly promis'd to support—Perhaps</l>
+     <l>The last were best—both shall be try'd—he comes.</l>
+    </sp>
+    <stage>Enter MORCAR.</stage>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>O, Siward! was not that</l>
+     <l>The fair Matilda, whom you parted from?</l>
+    </sp>
+    <sp who="#siward">
+     <pb n="15" facs="22" ana="y"/>
+     <speaker>SIWARD.</speaker>
+     <l>It was.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>What says she? the dear, cruel maid!</l>
+     <l>Is she still deaf? inexorable still?</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>You must not think of her.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>What say'st thou, Siward?</l>
+     <l>Not think of her!</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>No. Root her from thy heart,</l>
+     <l>And gaze no more. I blush to see my friend</l>
+     <l>So lost to honour: Is it for a man,</l>
+     <l>On whom the fate of England may depend,</l>
+     <l>To quit the dang'rous post, where duty calls,</l>
+     <l>And all the bus'ness of the war, to sigh</l>
+     <l>And whine in corners for a captive woman?</l>
+     <l>Resume the hero, Morcar, and subdue</l>
+     <l>This idle passion.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Talk not thus of love,</l>
+     <l>The great refiner of the human heart,</l>
+     <l>The source of all that's great, of all that's good;</l>
+     <l>Of joy, of pleasure—If it be a weakness,</l>
+     <l>It is a weakness which the best have felt:</l>
+     <l>I wou'd not wish to be a stranger to it.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>Let me entreat thee, if thou valuest life,</l>
+     <l>Or fame, or honour, quit Matilda.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Yes:</l>
+     <l>I thank you for your council. 'Tis th'advice</l>
+     <l>
+      <pb n="16" facs="23"/>
+Of cold unfeeling wisdom, kindly meant</l>
+     <l>To make me prudent, and to leave me wretched:</l>
+     <l>But thus it is, that proud exulting health</l>
+     <l>Is ever ready to prescribe a cure</l>
+     <l>For pain and sickness which it never knew.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>There too thou err'st; for I have known its joys</l>
+     <l>And sorrows too. In early life I lost</l>
+     <l>The partner of my soul. E'er since that hour</l>
+     <l>I bade adieu to love, and taught my soul</l>
+     <l>To offer her devotions at the shrine</l>
+     <l>Of sacred friendship; there <hi>my</hi> vows are paid:</l>
+     <l>Morcar best knows the idol of my worship.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>I know and love thee for it: But O! my friend,</l>
+     <l>I cannot force this tyrant from my breast;</l>
+     <l>E'en now I feel her here, she sits enthron'd</l>
+     <l>Within the foldings of my heart, and he</l>
+     <l>Who tears her thence must draw the life-blood from me.</l>
+     <l>My morning slumbers, and my midnight dreams,</l>
+     <l>Are haunted by Matilda.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>To be thus</l>
+     <l>The slave of one that scorns thee, O! 'tis base,</l>
+     <l>Mean, and unworthy of thee.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>I will bear</l>
+     <l>That scorn no longer: Thou hast rous'd me, Siward;</l>
+     <l>I will enjoy the glorious prize; she's mine,</l>
+     <l>By right of conquest mine. I will assert</l>
+     <l>A victor's claim, and force her to be happy.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>That must not be. It ill becomes the man</l>
+     <l>Who takes up arms against a tyrant's pow'r,</l>
+     <l>
+      <pb n="17" facs="24"/>
+T'adopt a tyrant's maxims; force and love</l>
+     <l>Are terms that never can be reconcil'd.</l>
+     <l>You will not, must not do it.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Must not! who</l>
+     <l>Shall dare oppose me?</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>Honour, conscience, love,</l>
+     <l>The sense of shame, your virtue, and your friend.</l>
+     <l>Whilst I have life, or pow'r, I will not see</l>
+     <l>Matilda wrong'd.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>You are her champion then</l>
+     <l>It seems, her favour'd, happy friend, perhaps</l>
+     <l>Her fond admirer too. I'll-fated Morcar!</l>
+     <l>I see it but too well. I'm lost, abandon'd;</l>
+     <l>Alike betray'd by friendship and by love.</l>
+     <l>I thank you, Sir, you have perform'd your office,</l>
+     <l>And merit your reward.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>Unkind reproach!</l>
+     <l>Did I for this desert my Sov'reign's cause,</l>
+     <l>My peaceful home, and all its joys, to serve</l>
+     <l>Ungrateful Morcar? Why did I rebel?</l>
+     <l>The haughty William never injur'd me.</l>
+     <l>For thee alone I fought, for thee I conquer'd;</l>
+     <l>And, but for thee, long since I had employ'd</l>
+     <l>My gallant soldiers to a nobler purpose,</l>
+     <l>Than loit'ring thus in idle camp to hear</l>
+     <l>A love-sick tale, and sooth a mad man's phrenzy,</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>You could? Away, and leave me then: With-draw</l>
+     <l>Your boasted aid, and bid Northumbria's sons</l>
+     <l>
+      <pb n="18" facs="25"/>
+Bend to the tyrant's yoke, whilst I alone</l>
+     <l>Defend the cause of freedom, and my country.</l>
+     <l>Here let us part. Remove your loiterers,</l>
+     <l>And join th'usurper.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>Mark the diff'rence now</l>
+     <l>Betwixt blind passion and undaunted friendship:</l>
+     <l>You are impatient of the keen reproof,</l>
+     <l>Because you merit: I can bear it all,</l>
+     <l>Because I've not deserv'd it.</l>
+    </sp>
+    <stage>Enter an OFFICER.</stage>
+    <sp who="#officer">
+     <speaker>OFFICER.</speaker>
+     <l>Good my Lords</l>
+     <l>Forgive this rough intrusion, but the danger</l>
+     <l>I trust, will plead my pardon. As I watch'd</l>
+     <l>From yonder tow'r, a dusky cloud appear'd,</l>
+     <l>As if from distant troops advancing, soon</l>
+     <l>I saw their armour glitter in the sun;</l>
+     <l>With rapid motion they approach'd; each moment</l>
+     <l>We must expect them here.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>Why, let 'em come,</l>
+     <l>Already I have order'd fit disposal</l>
+     <l>Of all our little force. Away, good Osmond,</l>
+     <l>Be silent and be ready.</l>
+     <stage>(Exit Officer.</stage>
+     <l>Now, my friend,</l>
+     <l>Thou art as welcome to thy Siward's breast,</l>
+     <l>As dear as ever.—When the man I love,</l>
+     <l>Walks in the paths of error, I reprove him</l>
+     <l>With honest freedom; but when danger comes</l>
+     <l>Upon him, I forget his faults, and flee</l>
+     <l>With all a lover's ardour to his rescue;</l>
+     <l>His sorrows and his wants alone remember'd,</l>
+     <l>And all his follies buried in oblivion.</l>
+    </sp>
+    <sp who="#morcar">
+     <pb n="19" facs="26"/>
+     <speaker>MORCAR.</speaker>
+     <l>Thou hast disarm'd me now. This pierces more</l>
+     <l>Than all the bitter poison of reproach,</l>
+     <l>Which thou hast pour'd upon me. O! 'twas treason</l>
+     <l>Against the sacred majesty of friendship,</l>
+     <l>To doubt thy honour, or suspect thy virtue.</l>
+     <l>Thou wilt forgive: But when the wounded mind</l>
+     <l>Is torn with passion, ev'ry touch is pain;</l>
+     <l>You should not probe so deeply.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>'Twas my duty.</l>
+     <l>But come, no more of that. The foe advances.</l>
+     <l>If we succeed, as my prophetic soul</l>
+     <l>Foretells we shall—I have some comfort for you—</l>
+     <l>If not, we'll borrow courage from despair,</l>
+     <l>And die like men. Thou stand'st upon the rock.</l>
+     <l>Of danger, and the yawning precipice</l>
+     <l>Opens before us; I will snatch thee from it,</l>
+     <l>Or leap the gulph, and perish with my friend.</l>
+    </sp>
+    <trailer>The End of the First Act.</trailer>
+   </div>
+   <div n="2" type="act">
+    <pb n="20" facs="27"/>
+    <head>ACT II.</head>
+    <head>SCENE, <stage>a Fortress belonging to MORCAR.</stage>
+    </head>
+    <stage>EDWIN alone (in chains.)</stage>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>IT is the will of heav'n, and must be done.</l>
+     <l>The hard-fought field is lost, and here I am</l>
+     <l>A pris'ner in my brother's camp: alas!</l>
+     <l>That fortune thus shou'd guide me to a foe</l>
+     <l>Whom most I wish'd to shun! We little thought</l>
+     <l>The troops by Morcar led, had this way bent</l>
+     <l>Their ill-directed course: but providence</l>
+     <l>Hath so ordain'd, perhaps, to heal the wounds</l>
+     <l>Of civil discord. O! unhappy Edwin,</l>
+     <l>For what art thou reserv'd? No matter what.</l>
+     <l>Since fate depriv'd me of my dear Matilda,</l>
+     <l>Whom I for three long years have sought in vain;</l>
+     <l>Life hath been irksome to me: this, perchance,</l>
+     <l>May end it—For, who knows if nature yet</l>
+     <l>May live within the conqu'ror's breast, to plead</l>
+     <l>A brother's pardon? Yet he knows me not,</l>
+     <l>But soon he must—Ha! who comes here? Earl Siward!—</l>
+     <l>The second in command, to whom, o'erpower'd</l>
+     <l>By circling foes, and fainting with my wounds,</l>
+     <l>I yielded up my sword. If fame say true,</l>
+     <l>He bears a mind too great to look with scorn</l>
+     <l>On the oppress'd, or triumph o'er misfortune.</l>
+    </sp>
+    <stage>
+     <pb n="21" facs="28"/>
+Enter SIWARD.</stage>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>Stranger, whoe'er thou art, be comforted;</l>
+     <l>Thy fate hath thrown thee into noble hands,</l>
+     <l>Who know thy merit. May I ask thy name?</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>I am a poor abandon'd wretch, the sport</l>
+     <l>Of fortune; one whose least affliction is</l>
+     <l>To be a captive, and from ev'ry eye</l>
+     <l>Wou'd wish to hide the story of my fate:</l>
+     <l>Too soon my name and sorrows will be known.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>Respect is ever due to misery:</l>
+     <l>I will not urge thee further; all I hope,</l>
+     <l>That gen'rous pity could afford to sooth</l>
+     <l>Calamity like thine, by my command,</l>
+     <l>Hath been extended to thee. Here awhile</l>
+     <l>You must remain a pris'ner, but e'er long</l>
+     <l>I hope to greet thee by a fairer name,</l>
+     <l>And rank thee as our friend.</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>Your genr'ous orders</l>
+     <l>Have been obey'd, and I acknowledge it</l>
+     <l>With grateful heart. May I not ask the fate</l>
+     <l>Of him who fought so nobly by my side,</l>
+     <l>That brave old man.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>The gallant Ranulph—</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>Yes;</l>
+     <l>My fellow captive.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>He is safe and free.</l>
+    </sp>
+    <sp who="#edwin">
+     <pb n="22" facs="29"/>
+     <speaker>EDWIN.</speaker>
+     <l>Ha! free! Thank heav'n!</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>The gen'rous Morcar, urg'd</l>
+     <l>By my entreaties, pardon'd and releas'd him,</l>
+     <l>Tho' much our soldiers murmur'd, and demanded</l>
+     <l>His life and your's; a sacrifice, they said,</l>
+     <l>Due to the manes of their slaughter'd friends;</l>
+     <l>But mercy has prevail'd.</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>What e'er becomes</l>
+     <l>Of an unhappy wanderer, like me,</l>
+     <l>For your kind treatment of the aged Ranulph,</l>
+     <l>Accept my thanks; it was a precious boon;</l>
+     <l>Morcar may find me not unworthy of it.</l>
+     <l>To day I am his captive, but to-morrow</l>
+     <l>May see me his deliverer: for know</l>
+     <l>My royal master, the victorious William,</l>
+     <l>With eagle swiftness, soon will follow me</l>
+     <l>With twenty times your force. As this shall prove</l>
+     <l>Or true, or false, so deal with me; remember</l>
+     <l>I warn'd you of it.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>And remember thou</l>
+     <l>That I with joy receive the welcome news:</l>
+     <l>Welcome to me, for I am William's friend.</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>Thou can'st not then be mine, or England's foe:</l>
+     <l>With such a heart as thine, so nobly form'd</l>
+     <l>To feel for the afflicted, satisfy'd,</l>
+     <l>For thou seem'st, of William's royal right,</l>
+     <l>What cou'd engage thee in this foul revolt,</l>
+     <l>This base rebellion?</l>
+    </sp>
+    <sp who="#siward">
+     <pb n="23" facs="30"/>
+     <speaker>SIWARD.</speaker>
+     <l>What but the great bond</l>
+     <l>Of kindred souls, inviolable friendship!</l>
+     <l>The only solid bliss on this side heav'n,</l>
+     <l>That doubles all the joys of human life,</l>
+     <l>And, by dividing, lessens ev'ry woe.</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>Who knows but this day's sad event may prove</l>
+     <l>The happy means to heal a nation's wounds,</l>
+     <l>And sooth our jarring factions into peace?</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>Had Morcar thought with me, lond since that end</l>
+     <l>Had been obtain'd; but Morcar is—</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>Inexorable.</l>
+     <l>So I have heard, and therefore little hope</l>
+     <l>To change his nature. O! cou'd he be wrought</l>
+     <l>To sweet oblivion of his wrongs; to bury</l>
+     <l>His deep resentment: Mine shou'd be the task,</l>
+     <l>A task, heav'n knows, I wou'd with joy perform,</l>
+     <l>To reconcile offended majesty:</l>
+     <l>To soften all his errors, plead his pardon,</l>
+     <l>And give my sov'reign one brave soldier more.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>When next we meet I trust it shall be so:</l>
+     <l>Mean time, let me prepare him for the change;</l>
+     <l>Retire a while—e'er long we'll send for thee,</l>
+     <l>For ev'ry moment I expect him here:</l>
+     <l>Thy freedom and thy happiness shall be</l>
+     <l>My first concern, for thou hast well deserv'd it.</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>Farewel. Be quick in your resolves; the time</l>
+     <l>
+      <pb n="24" facs="31"/>
+Requires it; and be wise e'er 'tis too late.</l>
+     <stage>[Exit Edwin.</stage>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD. </speaker>
+     <stage>(alone)</stage>
+     <l>I hope we shall. This well-tim'd victory,</l>
+     <l>If rightly us'd, may smooth our way to peace.</l>
+     <l>Now, Morcar, all thy happiness depends</l>
+     <l>Upon thyself alone. Now, friendship, raise</l>
+     <l>Thy pow'rful voice, and force him to be happy.</l>
+     <l>He will, he must—he comes—</l>
+    </sp>
+    <stage>Enter MORCAR.</stage>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>My conqu'ror, welcome!</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Thrice welcome to my arms, my noble Siward;</l>
+     <l>At length we meet in joy, the day is ours;</l>
+     <l>Thanks to thy friendly aid.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>We must not boast;</l>
+     <l>'Twas hardly purchas'd, and has cost us dear:</l>
+     <l>You follow'd 'em too close.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>I own 'twas rash;</l>
+     <l>My youthful ardor urg'd the keen pusuit</l>
+     <l>Too far; and but for thee I had been lost.</l>
+     <l>In war, thy arm protects me, and in peace,</l>
+     <l>Thy councils guide. O! how shall I return</l>
+     <l>Thy goodness? Thou wer't born to save thy friend.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>Away. I'll not be thank'd. I've done my duty,</l>
+     <l>And if thou think'st thyself indebted for it,</l>
+     <l>Repay me not with flatt'ry, but with love.</l>
+     <l>E'er since my soul with thine, congonial met</l>
+     <l>
+      <pb n="25" facs="32"/>
+In social bands, and mark'd thee for her own,</l>
+     <l>Thy int'rest and thy happiness have been</l>
+     <l>My first ambition; and when thou art blest</l>
+     <l>With all thy soul can wish for, Siward then,</l>
+     <l>And then alone, will have his full reward.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>O, unexampled faithfulness and truth!</l>
+     <l>But say, my Siward, is our loss so great?</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>The flow'r of half our troops. But 'tis not now</l>
+     <l>A time to weep, for I have glorious tidings,</l>
+     <l>That much import thy happiness.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Ha! what?</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>Know that amongst our captives I have ta'en</l>
+     <l>A noble prize, will make us full amends</l>
+     <l>For ev'ry loss—the gallant Ranulph.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Ha!</l>
+     <l>Matilda's father! then I'm satisfy'd.</l>
+     <l>The wily chief! by heav'n he shall repay me</l>
+     <l>For her unkindness: Give him to my rage,</l>
+     <l>To my resentment, to my injur'd love.</l>
+     <l>Where is he, Siward?</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>I have set him free,</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Ha! free! Thy ill-tim'd metey hath betray'd</l>
+     <l>Our cause. The tyrant wou'd have ransom'd him</l>
+     <l>With half his kingdom.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>Still thy rapid passions</l>
+     <l>O'erpow'r thy reason. What if it shou'd serve</l>
+     <l>
+      <pb n="26" facs="33"/>
+A better purpose; smooth thy paths to bliss,</l>
+     <l>And gain Matilda for thee!</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>O, my friend!</l>
+     <l>My Siward, do not flatter me: By heav'n,</l>
+     <l>Her kind consent wou'd give my ravish'd soul</l>
+     <l>More true and heart-felt happiness than cou'd</l>
+     <l>A thousand vict'ries o'er the proud usurper.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>Know then, I gave him liberty and life</l>
+     <l>On these conditions—That he shou'd with-draw</l>
+     <l>His pow'rs from William's aid, and never more</l>
+     <l>Assist his cause; the time wou'd come, I told him,</l>
+     <l>That he shou'd know to whom he ow'd the boon,</l>
+     <l>And how he might repay it.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>That was kind,</l>
+     <l>Indeed, my Siward, that was like a friend.</l>
+     <l>O! thou reviv'st my drooping heart; but tell me</l>
+     <l>Did my Matilda, let me call her mine,</l>
+     <l>Did she acknowledge, did she thank thee for it?</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>O! I assum'd no merit; but to thee,</l>
+     <l>And to thy gen'rous, unexampled love</l>
+     <l>Did I attribute all. She sigh'd, and wept,</l>
+     <l>Pour'd forth a thousand blessings on thy head—</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>And do'st thou think, my Siward, that one ray</l>
+     <l>Of hope remains?</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>The clouds already vanish,</l>
+     <l>The prospect brightens round thee; haste and seize</l>
+     <l>The lucky moment. When the gen'rous mind</l>
+     <l>Is sooth'd by obligation, soon it opens</l>
+     <l>
+      <pb n="27" facs="34"/>
+To the mild dictates of humanity,</l>
+     <l>And softens into sympathy and love.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>O, Siward! cou'd'st thou teach me but to win</l>
+     <l>That lovely maid—</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>The task is half perform'd</l>
+     <l>Already, and my friend shall soon be bless'd.</l>
+     <l>One thing, and one alone, remains to fix</l>
+     <l>Her doubtful heart, if yet a doubt remains.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>O! name it, Siward; if 'tis in the pow'r</l>
+     <l>Of wealth to purchase, or of victory</l>
+     <l>In the fair field of glory to acquire,</l>
+     <l>It shall not long be wanting.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>It requires</l>
+     <l>No price, but such as Morcar well can pay;</l>
+     <l>No vict'ry, but the vict'ry o'er thyself,</l>
+     <l>And thy own passions—Give up thy resentment,</l>
+     <l>Make peace with William, and Matilda's thine.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Matilda mine! and must I purchase her</l>
+     <l>At the dear price of honour? with the loss</l>
+     <l>Of all my soul holds dear, my country's welfare?</l>
+     <l>My word—</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>Away! whilst prudence warranted</l>
+     <l>Our honest zeal, I was the first to aid</l>
+     <l>Thy just revenge; but valour ill-advis'd,</l>
+     <l>And ill-exerted in a hopeless cause,</l>
+     <l>Degen'rate into rashness. You mistake</l>
+     <l>The pride of honour, for the pride of virtue.</l>
+    </sp>
+    <sp who="#morcar">
+     <pb n="28" facs="35"/>
+     <speaker>MORCAR.</speaker>
+     <l>And wou'd'st thou have me bend beneath the yoke</l>
+     <l>Of ignominious slav'ry, quit the cause</l>
+     <l>Of heav'n-born freedom, and betray my friends?</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>I'd have thee just and happy—We have been</l>
+     <l>Successful, let us now be generous,</l>
+     <l>Whilst we have something to bestow; nor wait</l>
+     <l>'Till fickle fortune from our brows shall tear</l>
+     <l>The blasted wreath, and leave us nought to give.</l>
+     <l>Too long already have we sacrific'd</l>
+     <l>At proud ambition's altar, to revenge;</l>
+     <l>Now let us offer at the shrine of peace,</l>
+     <l>And sacrifice—</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>To love, and to Matilda;</l>
+     <l>It shall be so—the struggle's past—away,</l>
+     <l>My Siward, haste, and tell her, I obey;</l>
+     <l>Her laws, her king, her master shall be mine;</l>
+     <l>I have no will but her's, and in her eyes</l>
+     <l>Will read my duty—Yet a moment stay,</l>
+     <l>What will my brave companions of the war,</l>
+     <l>My fellow soldiers say? Will they approve</l>
+     <l>This unexpected change?</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>I know them firm</l>
+     <l>In their obedience, and resolv'd to act</l>
+     <l>As you command—But I will see 'em strait,</l>
+     <l>And urge such pow'rful reasons as may best</l>
+     <l>Secure them to our purpose. Fare thee well.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Siward, thy kind anticipating care</l>
+     <l>Prevents my ev'ry wish—But say, my friend,</l>
+     <l>
+      <pb n="29" facs="36"/>
+Where is the gallant chief whom we subdu'd,</l>
+     <l>Who fought so hardly, and so nobly fell?</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>In yonder tent, a wretched pris'ner still,</l>
+     <l>He counts the tedious hours; a heavy gloom</l>
+     <l>Sits on his brow, as if some deep-felt sorrow</l>
+     <l>Oppress'd his noble mind—We must release him.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Thou know'st, my Siward, thrice we had o'erpow'r'd</l>
+     <l>His troops, and thrice his single valour turn'd</l>
+     <l>The fortune of the day: Since first I trod</l>
+     <l>The paths of glory, ne'er did I behold</l>
+     <l>Such deeds of valour wrought by mortal hand;</l>
+     <l>I almost envy'd, tho' I conquer'd him.</l>
+     <l>He wore his beaver up, nor cou'd I trace</l>
+     <l>His features, but he bears a noble form:</l>
+     <l>Know'st thou his quality or name?</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>Not yet;</l>
+     <l>He seems industrious to conceal them both</l>
+     <l>From ev'ry eye.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Some deity protects him,</l>
+     <l>As its peculiar care, for as I rais'd</l>
+     <l>My sword against him, whether the soft passion</l>
+     <l>That triumphs o'er me, had unmann'd my soul,</l>
+     <l>I know not; but, bereft of all its pow'r,</l>
+     <l>My nerveless arm dropp'd ineffectual down,</l>
+     <l>And let him 'scape me.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>'Tis most true, I saw</l>
+     <l>And wonder'd at it. When you lest the field,</l>
+     <l>With desp'rate rage he rush'd intrepid on,</l>
+     <l>
+      <pb n="30" facs="37"/>
+And seem'd to court his fate, till circling foes</l>
+     <l>Compell'd him to resign, and yield his sword.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Away. I burn with ardor to forgive,</l>
+     <l>To free, and to embrace him: fly, my Siward.</l>
+     <l>Let him approach, he cou'd not wish to meet</l>
+     <l>In happier hour, the master of his fate,</l>
+     <l>For now, methinks, I cou'd be reconcil'd</l>
+     <l>To ev'ry foe. Away, my Siward, haste</l>
+     <l>And send him to me.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>Treat him like a friend,</l>
+     <l>He may be useful. Such distinguish'd merit</l>
+     <l>Must have its influence, he commands, no doubt,</l>
+     <l>The royal ear, and may procure such terms</l>
+     <l>As William may with honour yield, and we</l>
+     <l>Without a blush accept.</l>
+     <stage>[Exit Siward.</stage>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR. </speaker>
+     <stage>(alone)</stage>
+     <l>Farewel. And now</l>
+     <l>How stands the great account? Can I acquit</l>
+     <l>Myself, or shall I be condemn'd before</l>
+     <l>Thy great tribunal, all-repaying justice?</l>
+     <l>But fair Matilda wipes out ev'ry stain,</l>
+     <l>'Tis she commands me to forgive, and she</l>
+     <l>Must be obey'd; I'm not the first apostate</l>
+     <l>From honour's cause the tyrant love has made.</l>
+     <l>My friend too urg'd the change—</l>
+     <stage>(Guards bring in Edwin chained.</stage>
+     <l>He's here—Strike off</l>
+     <l>Those ignominious chains—he has deserv'd</l>
+     <l>A better fate.</l>
+     <stage>(Guards unchain him.</stage>
+     <l>Stranger, who e'er thou art,</l>
+     <stage>(turning to Edwin.</stage>
+     <l>Thy gallant bearing in th' unequal conflict,</l>
+     <l>For we had twice thy numbers, hath endear'd</l>
+     <l>A soldier to a soldier. Vulgar minds</l>
+     <l>
+      <pb n="31" facs="38"/>
+To their own party, and the narrow limits</l>
+     <l>Of partial friendship, meanly may confine</l>
+     <l>Their admiration; but the brave will see,</l>
+     <l>And seeing, praise the virtues of a foe.</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN. </speaker>
+     <stage>(aside.)</stage>
+     <l>O, pow'rful nature, how thou work'st within me!</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Still silent! still conceal'd! perchance thou fear'st,</l>
+     <l>Knowing thy rank and name, I might recal</l>
+     <l>My promis'd pardon; but be confident,</l>
+     <l>For by that sacred honour, which I hold</l>
+     <l>Dearer than life, I promise here to free,</l>
+     <l>And to protect thee; did'st thou hide from me</l>
+     <l>My deadliest foe: Shou'd William's self appear</l>
+     <l>Before me, he who hath so deeply wrong'd me,</l>
+     <l>So long oppos'd: Nay, shou'd I hear the voice</l>
+     <l>Of that advent'rous, rash, misguided youth,</l>
+     <l>Whom yet I cannot hate—my cruel brother,</l>
+     <l>I cou'd forgive him.</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN. </speaker>
+     <stage>(discovering himself.)</stage>
+     <l>Then—behold him here.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Edwin! Amazement! By what wond'rous means,</l>
+     <l>Mysterious providence, do'st thou unfold</l>
+     <l>Thy secret purposes? I little thought</l>
+     <l>When last we met, what heav'n-protected victim</l>
+     <l>Escap'd my sword.</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>With horror I recal</l>
+     <l>The dreadful circumstance. Throughout the battle</l>
+     <l>I knew, and carefully avoided thee.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>O, Edwin! how, on this propitious day,</l>
+     <l>Have vict'ry, fame and friendship, fortune, love</l>
+     <l>
+      <pb n="32" facs="39"/>
+And nature, all conspir'd to make me blest!</l>
+     <l>We have been foes too long—Of that no more.</l>
+     <l>My Edwin, welcome! Once more to thy arms</l>
+     <l>Receive a brother.</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>Yet a moment stay:</l>
+     <l>By nature touch'd the same accordant string</l>
+     <l>That vibrates on thy heart now beats on mine;</l>
+     <l>But honour, and the duty which I owe</l>
+     <l>The best of kings, restrains the fond embrace</l>
+     <l>I wish to share, and bids me ask, if yet</l>
+     <l>In Morcar I behold my sov'reign's foe.</l>
+     <l>If it be so, take back thy proffer'd freedom,</l>
+     <l>Take back my forfeit life: I wou'd not wish</l>
+     <l>To be indebted for it to—a traitor.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Perhaps I may deserve a better name;</l>
+     <l>Perhaps I may be chang'd.</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>I hope thou art;</l>
+     <l>For this I came, for this I yielded to thee,</l>
+     <l>To tell thee William's strength is ev'ry hour</l>
+     <l>Increasing: if thou mean'st to make thy peace,</l>
+     <l>Now is the crisis—</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Edwin stop, nor urge</l>
+     <l>Such mean unworthy motives as alone</l>
+     <l>Cou'd thwart my purpose. Morcar cannot fear,</l>
+     <l>But Morcar can be gen'rous: for know,</l>
+     <l>Before I saw thee here I had resolv'd</l>
+     <l>To sheath my sword and be the conqu'ror's friend;</l>
+     <l>For O! there is a cause—</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>Whate'er the cause,</l>
+     <l>Th' effect is glorious. Now thou art again</l>
+     <l>
+      <pb n="33" facs="40"/>
+My brother. Here, let us once more unite</l>
+     <l>The long-dissever'd cord.</l>
+     <stage>(They embrace.</stage>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>And never more</l>
+     <l>May blind resentment, faction, party, rage,</l>
+     <l>Envy, or jealous fear, dissolve the tye!</l>
+     <l>And now, my Edwin, blushing, I confess,</l>
+     <l>Not to thy tender care for Morcar's safety,</l>
+     <l>To friendship's council, or to reason's voice,</l>
+     <l>Owe we this wish'd for change. A female hand</l>
+     <l>Directs and wills it.</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>Ha! a woman!</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Yes,</l>
+     <l>If such I ought to call that form divine,</l>
+     <l>Which triumphs here, who rules my ev'ry thought,</l>
+     <l>My ev'ry action guides. In yonder tent</l>
+     <l>A beauteous captive dwells, who hath enslav'd</l>
+     <l>Her conqu'ror: She demands the sacrifice;</l>
+     <l>She wou'd not give her hand to William's foe,</l>
+     <l>And therefore, only, Morcar is his friend.</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>I cou'd have wish'd that this important change</l>
+     <l>Were to the hero, not the lover, due.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>I am above deceit, and own my weakness;</l>
+     <l>But thou shalt see her—Yes, my Edwin, thou</l>
+     <l>Shalt bear the welcome tidings to my love.</l>
+     <l>Thy presence will bear witness to the change;</l>
+     <l>Thy freedom, and the joyful news thou bring'st</l>
+     <l>Of our blest union will confirm it to her.</l>
+     <l>Wilt thou, my Edwin—</l>
+    </sp>
+    <sp who="#edwin">
+     <pb n="34" facs="41"/>
+     <speaker>EDWIN.</speaker>
+     <l>Do not ask me what</l>
+     <l>I must refuse. I wou'd do much to serve</l>
+     <l>A friend and brother; but a task of joy</l>
+     <l>Ill suits a soul oppress'd with griefs like mine.</l>
+     <l>O! I cou'd tell thee—but 'twou'd be unkind,</l>
+     <l>When thou art ent'ring on the paths of bliss,</l>
+     <l>To stop thee with my melancholy tale.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>What e'er thy griefs, I pity, and hereafter</l>
+     <l>May find the means to lessen, or remove them;</l>
+     <l>Mean time this tender office may divert</l>
+     <l>Thy sorrows; nay, if thou deny'st me, Edwin,</l>
+     <l>I shall not think our union is sincere.</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>Then be it so.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>I'll send a trusty slave</l>
+     <l>That shall conduct thee to her. Soon I mean</l>
+     <l>To follow thee—away—begone and prosper.</l>
+     <l>But, O, my brother! if thou hast a heart</l>
+     <l>That is not steel'd with stoic apathy</l>
+     <l>Against the magic of all-conqu'ring love,</l>
+     <l>Beware of beauty's pow'r; for she has charms</l>
+     <l>Wou'd melt the frozen breast of hoary age,</l>
+     <l>Or draw the lonely hermit from his cell</l>
+     <l>To gaze upon her.</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>Know, thy fears are vain;</l>
+     <l>For long, long since, by honor's sacred tyes,</l>
+     <l>United to the lovliest of her sex,</l>
+     <l>Edwin, like Morcar, is to one alone</l>
+     <l>Devoted, <hi>and my</hi> heart is fix'd as thine.</l>
+    </sp>
+    <sp who="#morcar">
+     <pb n="35" facs="42"/>
+     <speaker>MORCAR.</speaker>
+     <l>Then I am blest. Thy sympathetic soul,</l>
+     <l>With warmer feelings, shall express <hi>my</hi> passion,</l>
+     <l>Wak'd by the fond remembrance of thy <hi>own.</hi>
+     </l>
+     <lg>
+      <l>Go then, thy kind returning friendship prove,</l>
+      <l>Go, plead with all the eloquence of love;</l>
+      <l>And as thou do'st thy brother's anguish tell,</l>
+      <l>Still on thy lips may soft persuasion dwell!</l>
+      <l>Urge my fond suit with energy divine,</l>
+      <l>Nor cease till thou hast made the lovely captive mine.</l>
+     </lg>
+    </sp>
+    <trailer>The End of the Second Act.</trailer>
+   </div>
+   <div n="3" type="act">
+    <pb n="36" facs="43"/>
+    <head>ACT III.</head>
+    <head>SCENE, <stage>MATILDA's Tent, with a distant view of the Camp.</stage>
+    </head>
+    <stage>MATILDA, BERTHA.</stage>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>O, Bertha! I have had such frightful dreams,</l>
+     <l>They harrow'd up my soul.</l>
+    </sp>
+    <sp who="#bertha">
+     <speaker>BERTHA.</speaker>
+     <l>It is the work</l>
+     <l>Of busy fancy in thy troubled mind;</l>
+     <l>Give it no heed.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>O! it was more, much more</l>
+     <l>Than fancy ever form'd; 'twas real all;</l>
+     <l>It haunts me still, and ev'ry circumstance</l>
+     <l>Is now before me; but I'll tell thee all.</l>
+     <l>Scarce had I clos'd my eyes, to seek that rest</l>
+     <l>Which long had been a stranger, when methought</l>
+     <l>Alone I wander'd thro' a mazy wood,</l>
+     <l>Beset with thorns and briars on ev'ry side;</l>
+     <l>The mournful image of my wretched state:</l>
+     <l>When, from a winding walk, the beauteous form</l>
+     <l>Of my lov'd Edwin, seem'd to glide across,</l>
+     <l>And ran with haste to meet me: But, behold!</l>
+     <l>A tyger rush'd between, and seiz'd upon him:</l>
+     <l>I shriek'd aloud.</l>
+    </sp>
+    <sp who="#bertha">
+     <speaker>BERTHA.</speaker>
+     <l>'Twas terrible.</l>
+    </sp>
+    <sp who="#matilda">
+     <pb n="37" facs="44"/>
+     <speaker>MATILDA.</speaker>
+     <l>But mark</l>
+     <l>What follow'd; for a gleam of light broke in,</l>
+     <l>And sav'd me from despair: When 'cross the glade</l>
+     <l>A gen'rous lyon, as with pity mov'd</l>
+     <l>At the unequal conflict, darted forth</l>
+     <l>And sprung with vengeance on the spotted beast,</l>
+     <l>Who turn'd with fury on his nat'ral foe,</l>
+     <l>And loos'd my Edwin; he escap'd, and fled:</l>
+     <l>I wak'd in agonies.</l>
+    </sp>
+    <sp who="#bertha">
+     <speaker>BERTHA.</speaker>
+     <l>Be comforted;</l>
+     <l>The dream presages good: Some gen'rous friend</l>
+     <l>Shall save him from the perils of the war,</l>
+     <l>And give him to thy longing arms again.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>O, never, never!</l>
+    </sp>
+    <stage>Enter an OFFICER.</stage>
+    <sp who="#officer">
+     <speaker>OFFICER.</speaker>
+     <l>Noble lady, one</l>
+     <l>From William's camp, by Morcar's orders sent,</l>
+     <l>Wou'd crave a minute's conference, and says</l>
+     <l>He bears some news that may be welcome.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Ha!</l>
+     <l>From William's camp! O, flatt'ring hope! who knows</l>
+     <l>But he may bring some tidings of my love!</l>
+     <l>Tidings, perhaps, I may not wish to hear.</l>
+     <l>Perhaps he comes to speak of Edwin's death;</l>
+     <l>Or Edwin's falshood—Be it as it may,</l>
+     <l>I cannot be more wretched than I am.</l>
+     <l>Conduct him hither.</l>
+     <stage>[Exit Officer.</stage>
+     <l>O, my flutt'ring heart!</l>
+     <l>
+      <pb n="38" facs="45"/>
+Look yonder! how imagination forms</l>
+     <l>What most we wish for; see, he comes—It is,</l>
+     <l>It is my Edwin—Save me, Bertha! O!</l>
+     <stage>(as he enters she faints.</stage>
+    </sp>
+    <stage>Enter EDWIN.</stage>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>What do I see? Matilda here! she faints!</l>
+     <l>Am I deserted then? abandon'd, lost,</l>
+     <l>Betray'd by her I love? She breathes, she lives!</l>
+     <l>But not for me—for Morcar; for my brother.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA, </speaker>
+     <stage>(to Bertha.)</stage>
+     <l>Where is he? O! it was delusion all;</l>
+     <l>The form deceiv'd me. Had it been my love,</l>
+     <l>He wou'd have flown with rapture to me—See</l>
+     <l>He stands far off, and will not look upon me.</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>I dare not.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Is it thus we meet again?</l>
+     <l>Is this the kind, the tender, faithful Edwin?</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>Art thou Matilda? Speak; for I am lost</l>
+     <l>In wild astonishment. It cannot be.</l>
+     <l>In Morcar's camp! Is this the lovely captive</l>
+     <l>That I shou'd meet?</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>All-seeing heav'n,</l>
+     <l>Bear witness for me: If, from that sad hour</l>
+     <l>When last we parted, this devoted heart</l>
+     <l>Hath ever wander'd, ever cast one thought,</l>
+     <l>Or form'd a wish for any bliss but thee,</l>
+     <l>Despise me, Edwin; slight me, cast me off</l>
+     <l>To infamy and shame.</l>
+    </sp>
+    <sp who="#edwin">
+     <pb n="39" facs="46"/>
+     <speaker>EDWIN.</speaker>
+     <l>I must, I must</l>
+     <l>Believe thee; Yet, 'tis strange—when thou shalt know</l>
+     <l>From whom I came, and what my errand here.</l>
+     <l>Thou wilt not call me cruel or unkind,</l>
+     <l>When I shall tell thee I am come to claim</l>
+     <l>Another's right, O! heav'n, another's right</l>
+     <l>To my Matilda; to request thy hand</l>
+     <l>For Morcar.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>For thy brother!</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>Yes, ev'n now</l>
+     <l>We parted.—Here he told me I should meet</l>
+     <l>A beauteous captive; little did I think</l>
+     <l>It was Matilda, whom he long had woo'd;</l>
+     <l>Whose gen'rous heart, he hop'd, wou'd now accept</l>
+     <l>A convert made to loyalty by love;</l>
+     <l>She only waited for that blest event,</l>
+     <l>With mutual ardour to return his passion.</l>
+     <l>Can it be thus? Alas! thy presence here</l>
+     <l>Confirms it but too well.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Appearance oft,</l>
+     <l>By strange events and causeless jealousy,</l>
+     <l>Confounds the guilty with the innocent.</l>
+     <l>But sure my Edwin's noble mind disdains</l>
+     <l>To cherish low suspicion; 'tis a vice</l>
+     <l>Abhorrent to thy nature, and Matilda</l>
+     <l>Will never practice it on thee. True love</l>
+     <l>Knows not distrust, or diffidence, but rests</l>
+     <l>On its own faith secure, and hopes to meet</l>
+     <l>The truth it merits.</l>
+    </sp>
+    <sp who="#edwin">
+     <pb n="40" facs="47"/>
+     <speaker>EDWIN.</speaker>
+     <l>Can this be the voice</l>
+     <l>Of falshood?—Can those lips?—</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATIDLA.</speaker>
+     <l>Mistaken man!</l>
+     <l>Cou'dst thou e'er credit the delusive tale?</l>
+     <l>Cou'dst thou believe I had so soon forgot</l>
+     <l>My plighted faith? But since I am suspected,</l>
+     <l>Return, and bear this answer back to Morcar.</l>
+     <l>First say, I thank him for the choice he made</l>
+     <l>Of thee to be the herald of his love:</l>
+     <l>For what is there Matilda can refuse,</l>
+     <l>That Edwin could request?</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>O! that recalls</l>
+     <l>A thousand tender thoughts—</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Go tell him too,</l>
+     <l>What e'er I rashly promis'd but to gain</l>
+     <l>A few short moments, to preserve my king,</l>
+     <l>And save a father's life, I never meant</l>
+     <l>To feign a passion which I coud not feel;</l>
+     <l>For I was destin'd to another's arms;</l>
+     <l>To one, who now regardless of his vows</l>
+     <l>To poor Matilda, after three long years</l>
+     <l>Of cruel absence from her, comes at last</l>
+     <l>To doubt her honor, and suspect her love.</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>O! never, never. Sooner will I doubt</l>
+     <l>The pow'rs of nature, and believe these eyes</l>
+     <l>Can misinterpret ev'ry object here,</l>
+     <l>Than think thee false. O! take me to thy arms</l>
+     <l>And bury all my doubts.—Can'st thou forgive</l>
+     <l>The jealous warmth of agonizing passion?</l>
+    </sp>
+    <sp who="#matilda">
+     <pb n="41" facs="48"/>
+     <speaker>MATILDA.</speaker>
+     <l>I can; I must. But say, to what blest chance</l>
+     <l>Am I indebted for this happy moment?</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>The chance of war. I am a pris'ner here,</l>
+     <l>And but for thee—</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>When I shall tell thee all</l>
+     <l>That I have suffer'd since we parted last</l>
+     <l>Thou wilt not blame, but pity poor Matilda.</l>
+     <l>Mean while be calm; it is not now a time</l>
+     <l>For idle doubts and visionary fears</l>
+     <l>When real dangers threat. I see already,</l>
+     <l>By thy imperfect tale, what misery</l>
+     <l>Must soon await us, when the fiery Earl</l>
+     <l>Shall know this strange event.</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>And wherefore know it?</l>
+     <l>Why not conceal our passion, till some means</l>
+     <l>Of freedom offer?</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>I abhor the thought.</l>
+     <l>No, Edwin, no. The crisis of our fate</l>
+     <l>Approaches. Never let us stain our loves</l>
+     <l>With crooked fraud and base dissimulation.</l>
+     <l>Hark! did'st thou hear a voice in yonder grove?</l>
+     <l>Siward in conf'rence with the haughty Earl;</l>
+     <l>Behold them—see—they part—and Morcar hastes,</l>
+     <l>With quick impatient step, to know his fate.</l>
+     <l>Now summon all thy pow'rs.</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>I am prepar'd.</l>
+     <l>He comes: a few short minutes will determine</l>
+     <l>
+      <pb n="42" facs="51"/>
+Whether Matilda plays the hypocrite,</l>
+     <l>Or is deserving of her Edwin's love.</l>
+    </sp>
+    <stage>Enter MORCAR.</stage>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>At length I hope Matilda's satisfy'd.</l>
+     <l>Edwin has told thee what a sacrifice</l>
+     <l>My heart hath made. Ambition, glory, pride,</l>
+     <l>And fierce resentment bend beneath thy pow'r,</l>
+     <l>And yield the palm to all-subduing love.</l>
+     <l>Yes, thou hast conquer'd. I am William's friend;</l>
+     <l>The struggle's past. I have perform'd the task</l>
+     <l>Assign'd, and come to claim my just reward.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>By virtuous acts the self-approving mind</l>
+     <l>Is amply paid, nor seeks a recompence</l>
+     <l>From ought beside. You have redeem'd your honor,</l>
+     <l>Turn'd to the paths of duty, and discharg'd</l>
+     <l>The debt you owe your country, and your king:</l>
+     <l>England and William will be grateful for it.</l>
+     <l>What can you wish for more?</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>There is a prize,</l>
+     <l>More welcome far, beyond what e'er a king</l>
+     <l>Or kingdom can bestow—thy love—</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>My lord!</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>If to have sav'd thee from the brutal rage</l>
+     <l>Of pitiless ruffians; if to have renounc'd</l>
+     <l>A victor's claim, and be myself the slave</l>
+     <l>Of her I conquer'd; if to have releas'd</l>
+     <l>My bitt'rest foe, because ally'd to thee;</l>
+     <l>If, after all my cruel wrongs, t' accept</l>
+     <l>
+      <pb n="43" facs="52"/>
+The proud oppressor's hand, can merit ought</l>
+     <l>I am not quite unworthy of the boon.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>The good and just, my lord, demand our praise,</l>
+     <l>And gen'rous deeds will claim the tribute due,</l>
+     <l>The debt of humble gratitude; but love,</l>
+     <l>Love, that must mark the colour of our days</l>
+     <l>For good or ill, for happiness or woe,</l>
+     <l>'Tis not the gift of fortune, or of fame,</l>
+     <l>Nor earn'd by merit, nor acquir'd by virtue.</l>
+     <l>All the rich treasures, which, or wealth, or pow'r</l>
+     <l>Have to bestow, can never purchase that</l>
+     <l>Which the free heart alone itself must give.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Give it with freedom then to him who most</l>
+     <l>Hath study'd to deserve—</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>You talk, my Lord,</l>
+     <l>As if the right of conquest cou'd bestow</l>
+     <l>A right more precious, and a dearer claim;</l>
+     <l>But know, for now 'tis time to throw aside</l>
+     <l>The veil that long hath hid from Morcar's eyes</l>
+     <l>The secret of my soul; and say at last</l>
+     <l>I never can be thine.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Ha! Never! O,</l>
+     <l>Recal that word!</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>I must not: Edwin knows</l>
+     <l>There is a bar of adamant between,</l>
+     <l>That must for ever part us.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Ha! for ever!</l>
+     <l>Distraction! can it be? Take heed, Matilda,</l>
+     <l>
+      <pb n="44" facs="53"/>
+I am not to be mock'd thus. O, my brother!</l>
+     <l>Did'st thou not hear her? But astonishment</l>
+     <l>Has clos'd thy lips in silence—Never mine!</l>
+     <l>And wherefore not be mine?</l>
+     <stage>(turning to Matilda.</stage>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Because I am</l>
+     <l>Another's—Well I know our hapless sex,</l>
+     <l>So custom wills, and arbitrary man,</l>
+     <l>Is taught in fearful silence to conceal</l>
+     <l>The honest feelings of a tender heart:</l>
+     <l>Else, wherefore shou'd Matilda blush to own</l>
+     <l>A virtuous passion for the best of men?</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>A virtuous passion! grant me patience, heav'n!</l>
+     <l>I am betray'd, abandon'd, lost. Another's!</l>
+     <l>Some fawning slave, some Norman plunderer,</l>
+     <l>Rich with the ravish'd spoils of English valour,</l>
+     <l>Hath snar'd her easy heart, and tortur'd mine.</l>
+     <l>But I will drag him from his dark abode;</l>
+     <l>Where e'er he lurks, he shall not 'scape my veng'ance.</l>
+     <l>Thou hear'st her, Edwin.</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>Aye: Who wou'd not wish</l>
+     <l>To hear the voice of nature, and of love,</l>
+     <l>Thus nobly pleading by the lips of truth?</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Amazement! Thou art link'd with the vile slave</l>
+     <l>That hath unsurp'd my right. All, all conspire</l>
+     <l>To make me wretched.</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>Why shou'd Morcar think</l>
+     <l>That lovely maid wou'd act beneath herself,</l>
+     <l>And make so mean a choice? Now, on my soul,</l>
+     <l>I doubt not but the object of her love</l>
+     <l>
+      <pb n="45" facs="54"/>
+Hath earn'd the glorious prize, and will be found</l>
+     <l>Deserving of it.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Thou know'st him then?</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>I do;</l>
+     <l>Know him as brave, as noble as thyself:</l>
+     <l>One who wou'd scorn, howe'er the outward act</l>
+     <l>Might seem unworthy of him, to do ought</l>
+     <l>That shou'd disgrace his family and name.</l>
+     <l>A man he is of yet untainted honour,</l>
+     <l>Of birth and valour equal to thy own,</l>
+     <l>Though fortune frowns upon him.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Now by heav'n,</l>
+     <l>But that I know thy eyes were never blest</l>
+     <l>With my Matilda's charms, I shou'd suspect</l>
+     <l>Thou hadst betray'd the sacred trust repos'd</l>
+     <l>In thy false heart, by unsuspecting friendship,</l>
+     <l>And wer't thyself the traitor.</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>Think so still.</l>
+     <l>Let fancy, ever busy to torment</l>
+     <l>The jealous mind, alarm thee with the thought</l>
+     <l>Of seeing him whom thou hast thus revil'd;</l>
+     <l>Stand forth and dare the proof; suppose him here</l>
+     <l>Before thee, ready to assert his claim,</l>
+     <l>His prior right to all the joys that love</l>
+     <l>And fair Matilda can bestow: Then look</l>
+     <l>On me, and know thy rival in—thy brother.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Confusion! horror! misery! O, heav'n!</l>
+     <l>Can'st thou behold such complicated guilt,</l>
+     <l>Such unexampled perfidy, and yet</l>
+     <l>
+      <pb n="46" facs="55"/>
+With hold thy vengeance? Let thy light'nings blast</l>
+     <l>The base betrayer! O, Matilda! false,</l>
+     <l>Deceitful, cruel woman!</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>'Tis the lot</l>
+     <l>Of unprotected innocence to meet</l>
+     <l>The cruel censure, which to guilt alone</l>
+     <l>Is due. I've not deceiv'd, I've not betray'd thee;</l>
+     <l>And wou'd'st thou listen to the artless tale</l>
+     <l>I cou'd unfold—</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Away! I will not hear,</l>
+     <l>Nor see, nor think of thee. Deceitful villain!</l>
+     <l>Was this thy kind concern for Morcar's safety?</l>
+     <l>Was it for this that subtle Edwin came</l>
+     <l>A willing captive? Boasted William's strength,</l>
+     <l>And lur'd me no a base, inglorious peace?</l>
+     <l>That, like a midnight ruffian, he might steal,</l>
+     <l>Unseen and unsuspected on my love,</l>
+     <l>And rob me of Matilda.</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>I abhor</l>
+     <l>A thought so mean; the bare suspicion stains,</l>
+     <l>With such foul blot, my honour and my name,</l>
+     <l>I will not deign to answer thee, My birth</l>
+     <l>Alone might prove, to any sense but thine,</l>
+     <l>That I disdain it: 'Tis enough to say</l>
+     <l>I am Earl Morcar's brother.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>I disclaim</l>
+     <l>All ties of nature, or of friendship with thee,</l>
+     <l>And henceforth hold thee as my deadliest foe:</l>
+     <l>As such I will pursue thee, slave, for know</l>
+     <l>
+      <pb n="47" facs="56"/>
+Thou art my pris'ner still—Who waits there? Seize</l>
+     <l>And guard this traitor—</l>
+     <stage>(Guards enter and seize on Edwin.</stage>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA, </speaker>
+     <stage>(kneeling to Morcar.)</stage>
+     <l>O, my lord! if e'er</l>
+     <l>Soft pity touch'd thy breast, if e'er thy heart</l>
+     <l>Felt the warm glow of sympathetic grief</l>
+     <l>For the unhappy, do not let the rage</l>
+     <l>Of thoughtless passion urge thee to a deed,</l>
+     <l>Of horror, which, too late, thou wilt repent.</l>
+     <l>O, spare a guiltless brother, spare thyself</l>
+     <l>The bitter pangs of sad remorse that soon</l>
+     <l>Shall harrow up thy soul, when radient truth</l>
+     <l>Shall flash conviction on thee. O! forgive</l>
+     <l>And pity—</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>Rise Matilda: 'Tis beneath</l>
+     <l>The dignity of innocence to kneel</l>
+     <l>Before proud guilt, and supplicate a tyrant.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA, </speaker>
+     <stage>(rising.)</stage>
+     <l>I feel the just reproach—Forgive me, Edwin;</l>
+     <l>Henceforth I never will disgrace thy love,</l>
+     <l>By mean submission. Morcar, if thou hop'st</l>
+     <l>For future peace, or pardon, set us free.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>I'll hear no more, convey her to her tent.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Edwin, adieu! If honour, virtue, truth,</l>
+     <l>And mutual love, protect the innocent,</l>
+     <l>We yet shall meet in happiness—farewel!</l>
+     <stage>[Exit Matilda guarded.</stage>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Let none have entrance there, but faithful Siward.</l>
+     <l>Wou'd he were here, that I might pour my sorrows</l>
+     <l>
+      <pb n="48" facs="57"/>
+Into his friendly bosom! O, Siward!</l>
+     <l>Where art thou?—Ha, he comes!</l>
+    </sp>
+    <stage>Enter SIWARD.</stage>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>My Lord, the troops</l>
+     <l>Flush'd with their late success, refuse all terms</l>
+     <l>Of peace with William, and cry out for war</l>
+     <l>And vengeance—</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>They shall have it. Now, by heav'n,</l>
+     <l>Thou bring'st me glorious tidings—well, what more?</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>They have discover'd that the noble pris'ner,</l>
+     <l>Who had surrender'd, is thy brother Edwin;</l>
+     <l>This hath alarm'd them; they suspect you both</l>
+     <l>Of vile collusion, to betray their cause,</l>
+     <l>And yield them to the tyrant. If, they say,</l>
+     <l>You mean them fair, let Edwin be confin'd,</l>
+     <l>And answer for the treason, with his life.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>And so he shall: They cou'd not ask a boon</l>
+     <l>Which Morcar wou'd more readily bestow;</l>
+     <l>Already their request is granted.—See</l>
+     <l>The traitor is secur'd. All-seeing heav'n!</l>
+     <l>Thou see'st how justice will o'ertake the wicked!</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>What can this mean? Since last I saw my friend,</l>
+     <l>How the fair day that shone so bright upon us,</l>
+     <l>Is suddenly o'ercast.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Alas, my Siward!</l>
+     <l>When thou shalt know—but 'tis enough to say</l>
+     <l>Matilda's false, and Edwin is—a villain.</l>
+    </sp>
+    <sp who="#siward">
+     <pb n="49" facs="58"/>
+     <speaker>SIWARD.</speaker>
+     <l>Amazement! can it be?</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>It is too true;</l>
+     <l>And I am lost for ever. O, Matilda!</l>
+     <l>Deceitful woman!</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>'Tis not now a time</l>
+     <l>For idle plaints: Consult your safety: Fly</l>
+     <l>This moment to the camp—your presence there,</l>
+     <l>And that alone, may quell the rising storm:</l>
+     <l>Leave Edwin to my care.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>I go, my Siward,</l>
+     <l>Safe in thy friendship; I entrust to thee</l>
+     <l>My just revenge. Yon moss-grown tow'r that hangs</l>
+     <l>O'er the deep flood—'tis under thy command—</l>
+     <l>Place double guard—he must not 'scape—his fate</l>
+     <l>Shall be determin'd soon. What e'er it prove,</l>
+     <l>It cannot be more wretched than my own.</l>
+     <stage>[Exit Mor.</stage>
+    </sp>
+    <stage>EDWIN, SIWARD.</stage>
+    <sp who="#edwin">
+     <speaker>EDWIN. </speaker>
+     <stage>(pointing to the guards.)</stage>
+     <l>Where is my dungeon? My conductors here</l>
+     <l>Wait but your orders; give 'em their commission;</l>
+     <l>For you, it seems, Sir, are to execute</l>
+     <l>The friendly office: Do it, and be happy.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>Guards, set your pris'ner free—Thou little know'st</l>
+     <l>Of Siward's soul, to think it jo'ys in ought</l>
+     <l>That gives another pain. I've learnt too well,</l>
+     <l>In sad affliction's hard, but wholesome school,</l>
+     <l>The lesson of humanity.</l>
+    </sp>
+    <sp who="#edwin">
+     <pb n="50" facs="59"/>
+     <speaker>EDWIN.</speaker>
+     <l>O gen'rous Siward, if thou hast a heart</l>
+     <l>To feel for others mis'ries, pity mine,</l>
+     <l>And poor Matilda's: She has not deserv'd</l>
+     <l>A fate like this.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>Alas! it rives my soul</l>
+     <l>To see the tender bonds of amity</l>
+     <l>Thus torn asunder by the very means,</l>
+     <l>I fondly thought for ever wou'd unite them;</l>
+     <l>And the fair structure, which my hopes had rais'd,</l>
+     <l>Of love and friendship, in a moment shrunk</l>
+     <l>From its weak base, and bury'd all in ruin.</l>
+     <l>If thou can'st prove thy innocence, as yet</l>
+     <l>I hope thou wilt, for in that noble mien</l>
+     <l>I read a conscious pride, that wou'd not stoop</l>
+     <l>To ought that's base—Still may I hope to heal</l>
+     <l>These bleeding wounds, and sooth him to forgiveness.</l>
+     <l>Mean time be free. Give me thy sacred word,</l>
+     <l>The soldier's oath, thou wilt be found when e'er</l>
+     <l>I call upon thee; and yon tent alone</l>
+     <l>Shall be thy prison; free to range around,</l>
+     <l>Far as my guard extends.</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>Accept my thanks,</l>
+     <l>The humble tribute of a grateful heart;</l>
+     <l>'Tis all I have to give. The time may come</l>
+     <l>When Edwin shall repay thee as he ought.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>Is there ought more, which honour, and the duty</l>
+     <l>I owe my friend permits me to bestow,</l>
+     <l>That thou wou'd'st ask?</l>
+    </sp>
+    <sp who="#edwin">
+     <pb n="51" facs="60"/>
+     <speaker>EDWIN.</speaker>
+     <l>O, grant me to behold</l>
+     <l>That injur'd maid, to take my last farewel;</l>
+     <l>Then act as fate and Morcar shall determine.</l>
+     <l>I give the pledge of safety thou requir'st,</l>
+     <l>And will be found—speak, wilt thou listen to me?</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>Of that we'll talk hereafter—come—within</l>
+     <l>I'll hear thy story—Thou but know'st me yet</l>
+     <l>As Morcar's friend; hereafter thou may'st find</l>
+     <l>I am still more the friend—of truth and virtue.</l>
+    </sp>
+    <trailer>The End of the Third Act.</trailer>
+   </div>
+   <div n="4" type="act">
+    <pb n="52" facs="61"/>
+    <head>ACT IV.</head>
+    <head>[SCENE, <stage>An Apartment belonging to SIWARD, opening to a wood.</stage>
+    </head>
+    <stage>EDWIN, MATILDA.</stage>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>THANKS to the noble Siward's gen'rous pity</l>
+     <l>For the distress'd; once more we meet, Matilda,</l>
+     <l>But only meet, alas! to mourn our fate,</l>
+     <l>To feel each others woes, and to be wretched.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Eternal blessings wait on him who thus</l>
+     <l>Cou'd sweeten sorrow's bitter draught, and make</l>
+     <l>Captivity a blessing! O, my Edwin!</l>
+     <l>A few short moments spent with those we love,</l>
+     <l>Is worth an age of common life.</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>With thee</l>
+     <l>Indeed it is; but we are on the verge</l>
+     <l>Of a dark precipice, and ev'ry step</l>
+     <l>Is dangerous. If Morcar shou'd return,</l>
+     <l>And find us here together, we are lost</l>
+     <l>For ever; thou hast seen, and seen with horror,</l>
+     <l>The desp'rate rage of his tumultuous soul,</l>
+     <l>Let us avoid it, let us—</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>What, my love?</l>
+     <l>Thou art my guide, protector, guardian, all</l>
+     <l>
+      <pb n="53" facs="62"/>
+I have to boast on earth. O! teach me where</l>
+     <l>To find some blest asylum for my woes,</l>
+     <l>And guide my footsteps to the paths of peace.</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>Let me entreat thee then—</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>O, speak! thou know'st</l>
+     <l>I have no will but thine.</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>Then leave me, leave</l>
+     <l>This hated roof: I have a friend within,</l>
+     <l>Who shall conduct thee to the royal camp</l>
+     <l>In safety; bear this signet to the king,</l>
+     <l>He will protect thee, and what ever fate</l>
+     <l>Decrees for me, Matilda may be happy.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>O! never, never: Safety dwells with thee,</l>
+     <l>And thee alone. Without my faithful Edwin,</l>
+     <l>The peopled city, and the crouded court,</l>
+     <l>Wou'd be a desart to me. No, my love,</l>
+     <l>We will not part: The same benignant pow'r</l>
+     <l>That led thee hither, that, beyond my hopes</l>
+     <l>Brought my lost Edwin to these arms again,</l>
+     <l>Will still protect that virtue which it loves.</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>Did'st thou not tell me, that this very morn</l>
+     <l>Thou had'st determin'd, as the only means</l>
+     <l>To shun my brother's love, on sudden flight?</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>But then I shou'd have fled in search of thee.</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>Thou winning softness! how shall I reward</l>
+     <l>Such unexampled tenderness and truth!</l>
+    </sp>
+    <sp who="#matilda">
+     <pb n="54" facs="63"/>
+     <speaker>MATILDA.</speaker>
+     <l>By flying with me. Come, my love, lead on,</l>
+     <l>I'll follow thee to dangers and to death;</l>
+     <l>Nor perils shall affright, nor labours tire,</l>
+     <l>When thou art with me.</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>No: It must not be.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Why? What shou'd keep thee here?</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>The ties of honour.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>And are they stronger than the bonds of love?</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>To Siward's kind indulgence, well thou know'st,</l>
+     <l>I owe this little interval of peace,</l>
+     <l>This transient gleam of happiness with thee;</l>
+     <l>And shou'd I break my sacred word, his life</l>
+     <l>Might answer for it; wou'd'st thou have me thus</l>
+     <l>Repay his kindness? No, my love; I may</l>
+     <l>Be wretched, but I cannot be ungrateful.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Must thou return then to that hateful prison</l>
+     <l>When Morcar comes?</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>I must. O! think when I</l>
+     <l>Am pent within a loathsome dungeon, who</l>
+     <l>Shall shelter then thy unprotected virtue?</l>
+     <l>No Edwin there to succour thee: Who knows</l>
+     <l>What brutal lust and pow'r may dare to act,</l>
+     <l>On a deserted, beauteous, friendless woman?</l>
+     <l>Distracting thought! A monarch's vengeance then</l>
+     <l>Wou'd come too late; wou'd make me poor amends</l>
+     <l>For my Matilda's violated charms.</l>
+    </sp>
+    <sp who="#matilda">
+     <pb n="55" facs="64"/>
+     <speaker>MATILDA.</speaker>
+     <l>He cannot be so mean, so base of soul,</l>
+     <l>Or if he shou'd, I have a dagger here</l>
+     <l>To save me from dishonour.</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>What! by death?</l>
+     <l>Dreadful alternative! O! hazard not</l>
+     <l>Thy precious life, but seize the lucky moment</l>
+     <l>Which fortune gives us, e'er it be too late.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Urge me no more; already I have felt,</l>
+     <l>Too deeply felt, the pangs of absence from thee;</l>
+     <l>Another separation wou'd be worse</l>
+     <l>Than death, and all its terrors. No, my love;</l>
+     <l>We are embark'd on a tumultuous sea,</l>
+     <l>And must abide the fury of the storm.</l>
+     <l>The waves of angry fortune <hi>may</hi> o'erwhelm</l>
+     <l>But <hi>shall not</hi> part us: We will stem the torrent,</l>
+     <l>Brave the proud ocean's rage, and gain the harbour</l>
+     <l>Of peace and happiness—or <hi>sink</hi> together.</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>Thou hast foretold the tempest, and behold</l>
+     <l>It rushes on us.</l>
+    </sp>
+    <stage>Enter MORCAR and HAROLD.</stage>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Ha! Earl Morcar here!</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Harold, I thank thee; thy intelligence</l>
+     <l>Was but too true.</l>
+     <stage>(turning to Edwin.</stage>
+     <l>Traitor! who set thee free?</l>
+     <l>They wou'd have 'scap'd my vengeance—false Matilda!</l>
+     <l>'Tis thus I am rewarded for my love,</l>
+     <l>
+      <pb n="56" facs="65"/>
+My ill-tim'd mercy to a thankless brother.</l>
+     <l>Back to thy dungeon, slave. Guards, drag him hence,</l>
+     <l>To prison, and to death.</l>
+     <stage>(to the soldiers.</stage>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>Or death, or life,</l>
+     <l>Are equal to me, if I must be torn</l>
+     <l>From my Matilda. But, whate'er thy purpose,</l>
+     <l>Be speedy in thy vengeance, nor delay</l>
+     <l>The cruel work; for know, thy master comes,</l>
+     <l>William approaches—to revenge my cause.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>But not to save thee.</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>Then farewel, Matilda,</l>
+     <l>Perhaps for ever—If we meet no more</l>
+     <l>Thou wilt remember—But I will not doubt</l>
+     <l>Thy honour, or thy love. I know thy truth.</l>
+     <l>Know thou wilt act as best becomes thy fate,</l>
+     <l>Whate'er it be, and worthy of thyself.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Of <hi>thee,</hi> my Edwin, rather say of <hi>thee.</hi>
+     </l>
+     <l>Yes; I will copy well thy bright example;</l>
+     <l>I'll not disgrace thy love with woman's weakness,</l>
+     <l>But part without a tear. I will but stay</l>
+     <l>To tell thy tyrant brother how I hate,</l>
+     <l>How I despise him, and then follow thee.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>I'll hear no more—begone!—away with him.</l>
+     <stage>[Exeunt guards with Edwin.</stage>
+     <l>For thee, Matilda—</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>What for me remains</l>
+     <l>I know too well; thy odious love, reproach</l>
+     <l>Unmerited, and threats which I despise.</l>
+     <l>
+      <pb n="57" facs="66"/>
+Thou think'st I have deceiv'd thee—think so still.</l>
+     <l>Enjoy thy error. Thou believ'st us guilty;</l>
+     <l>'Twill make thee happy now—Perchance to find</l>
+     <l>Us innocent, may be thy punishment hereafter.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Aye, 'twas a proof of innocence to fly,</l>
+     <l>Thou and thy paramour together.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>No;</l>
+     <l>I scorn a thought so mean. Cou'd I have left</l>
+     <l>My Edwin, long e'er this I might have been</l>
+     <l>Beyond the reach of tyranny; beyond</l>
+     <l>Thy hated pow'r; and safe beneath the wing</l>
+     <l>Of sacred majesty, in William's care.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>In William's care!</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Thy conqueror's—for know</l>
+     <l>The hero comes—to scatter blessings round him,</l>
+     <l>To heal his country's wounds, chastise rebellion,</l>
+     <l>And punish false perfidious slaves like thee.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>By heav'ns! she braves my wrath, insults my weakness,</l>
+     <l>And triumphs o'er her slave.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>There was a time,</l>
+     <l>When with an eye of pity, I beheld</l>
+     <l>Thy hopeless love; when I conceal'd my passion</l>
+     <l>For the dear idol of my heart, because</l>
+     <l>I fear'd 'twou'd make thee wretched; but thy rage,</l>
+     <l>Thy cruel treatment of a guiltless brother,</l>
+     <l>Has cancell'd all.</l>
+    </sp>
+    <sp who="#morcar">
+     <pb n="58" facs="67"/>
+     <speaker>MORCAR.</speaker>
+     <l>Then, mark me: If thou hop'st</l>
+     <l>For Edwin's freedom, shake off this vile passion;</l>
+     <l>Yield thy proud heart to him who best deserves it,</l>
+     <l>And meet me at the altar—Two hours hence</l>
+     <l>I shall expect thee there—Beyond that time</l>
+     <l>He may not live to thank thee for thy bounty.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Then let him perish—glut thy tyrant soul</l>
+     <l>With vengeance: bathe it in a brother's blood,</l>
+     <l>All ruffian, all barbarian, as thou art,</l>
+     <l>Thou can'st not murder his immortal fame:</l>
+     <l>Thou can'st not rob him of Matilda's love.</l>
+     <l>But know—when he, for whom alone this pulse</l>
+     <l>Wou'd wish to beat, this lazy blood to flow</l>
+     <l>Within my veins, when he shall be no more;</l>
+     <l>Another life shall satiate thy revenge;</l>
+     <l>Another victim shall attend thy triumph.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Thou talk'st it nobly—'tis the common trick,</l>
+     <l>The affectation of thy sex to boast</l>
+     <l>A fancied firmness, which ye never knew;</l>
+     <l>But with affrighted nature thou wou'd'st shrink</l>
+     <l>When death approaches.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Put me to the proof.</l>
+     <l>If thou wou'd'st punish Edwin, know he lives</l>
+     <l>Within this breast—strike home, and pierce him there.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Imperious woman! thou defy'st my pow'r,</l>
+     <l>And let it crush thee. If thy country bleeds</l>
+     <l>In ev'ry vein; if perjur'd Edwin falls,</l>
+     <l>As soon he shall, a victim to my rage;</l>
+     <l>
+      <pb n="59" facs="68"/>
+Thou art the murd'rer; thou the paricide:</l>
+     <l>I stand absolv'd; the guilt is all thy own.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>If it be guilt to suffer keen reproach,</l>
+     <l>Pain, persecution, terror, chains and death</l>
+     <l>For him I love, rather than stain my soul</l>
+     <l>With foul disloyalty, I am indeed</l>
+     <l>The guiltiest of my sex, and well deserve</l>
+     <l>The pangs I feel.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Thou'st driv'n me to the pit</l>
+     <l>Of black despair, and I will drag thee down</l>
+     <l>To share the dreadful ruin thou hast made.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>I know thy savage purpose; but remember,</l>
+     <l>The hour approaches when thou shalt repent</l>
+     <l>This base, unmanly triumph. William comes:</l>
+     <l>Hear that and tremble, thou unnat'ral brother;</l>
+     <l>Nor rocks, nor caves shall hide thee from his vengeance;</l>
+     <l>Inglorious, and unpitied, shalt thou fall,</l>
+     <l>And after ages shall consign thy name</l>
+     <l>To endless scorn, and infamy immortal.</l>
+     <stage>[Exit Matilda.</stage>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Inexorable judge! I stand condemn'd,</l>
+     <l>And shall await my doom; but not alone</l>
+     <l>Or unreveng'd shall Morcar fall—henceforth</l>
+     <l>I bid adieu to love, and all his train</l>
+     <l>Of fond delusions—Vengeance! I am thine,</l>
+     <l>And thine alone: Thou daughter of despair!</l>
+     <l>Destructive goddess! come, possess my soul</l>
+     <l>With all thy terrors—Yes; it shall be so.</l>
+     <l>A few short hours are all that niggard fate</l>
+     <l>Will deign to spare me; I'll employ 'em well,</l>
+     <l>For I will croud into the narrow circle</l>
+     <l>
+      <pb n="60" facs="69"/>
+A little age of misery and horror.</l>
+     <l>Ha! Siward here! what brought thee hither?</l>
+    </sp>
+    <stage>Enter SIWARD.</stage>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>Pity</l>
+     <l>For the distress'd, I knew thou wert unhappy,</l>
+     <l>And came where duty call'd, to pour the balm</l>
+     <l>Of friendship in, and heal thy wounded heart.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>O, they have pierc'd too deep; ev'n thou, my friend,</l>
+     <l>Thou hast betray'd me: was it not unkind</l>
+     <l>To set my pris'ner free; to let him meet</l>
+     <l>Matilda, and conspire against my life?</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>Impossible! by heav'n the artful story</l>
+     <l>He told, so wrought upon my easy soul,</l>
+     <l>I thought him innocent.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Hast thou not heard—</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>From Harold only an imperfect tale,</l>
+     <l>So strange I cou'd not credit it.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Alas!</l>
+     <l>'Tis all too true: I am the veriest slave,</l>
+     <l>The meanest wretch that e'er was trampled on</l>
+     <l>By an imperious woman: O, my friend!</l>
+     <l>My Siward! I have nought on earth but thee:</l>
+     <l>Shou'd'st thou forsake me in this hour of terror!</l>
+     <l>But sure thou wilt not.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>No: What e'er the will</l>
+     <l>Of wayward fortune may determine for us,</l>
+     <l>Behold <hi>me</hi> ready to partake thy fate.</l>
+     <l>If we must sue for peace, let Siward bear</l>
+     <l>
+      <pb n="61" facs="70"/>
+The olive for thee: if once more we cast</l>
+     <l>The desp'rate dye of battle, let me perish</l>
+     <l>By Morcar's side. Come, let us on together;</l>
+     <l>Shake off this load of unavailing sorrow,</l>
+     <l>And seek the field; there, if we fall, we fall</l>
+     <l>With honor: if we rise, we rise to—glory.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Talk not of glory to a wretch like me,</l>
+     <l>Bereft of ev'ry hope. There was a time</l>
+     <l>When that enliv'ning call wou'd have awak'd</l>
+     <l>My active spirit, and this drooping heart</l>
+     <l>Bounded with joy; but my Matilda's lost:</l>
+     <l>Revenge alone—</l>
+     <stage>(Enter a messenger to Siward with Letters.</stage>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>From Walstcoff these;</l>
+     <l>'Tis well—retire.</l>
+     <stage>[Exit messenger.</stage>
+     <l>
+      <stage>(Reads)</stage>—How's this? then all is lost.</l>
+     <l>He writes me here, that William's fame in arms,</l>
+     <l>Spite of his cruel and oppressive laws,</l>
+     <l>Hath rais'd him friends in ev'ry part: already</l>
+     <l>The northern rebels are dispers'd, and thousands</l>
+     <l>Flock to the royal standard. To resist</l>
+     <l>Were madness.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>And to yield were cowardice</l>
+     <l>More shameful—</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>What must we resolve on?</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Death:</l>
+     <l>The wretches only hope, the wish'd—for end</l>
+     <l>Of ev'ry care, but I wou'd meet him cloath'd</l>
+     <l>In all his terrors, with his reeking spear,</l>
+     <l>
+      <pb n="62" facs="71"/>
+Dipt in the blood of an ungrateful mistress;</l>
+     <l>And a false happy rival: Then, my Siward,</l>
+     <l>Shalt thou behold me welcome the kind stroke,</l>
+     <l>And smile in agony.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>Unhappy youth!</l>
+     <l>The storm beats hard upon thee; but our fate</l>
+     <l>Will soon be fixt, for William comes to-morrow.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>To-morrow! ha! then something must be done,</l>
+     <l>And quickly too. If William comes, he comes</l>
+     <l>To triumph over us: then, my Siward, who</l>
+     <l>Shall punish Edwin? who—shall wed Matilda?</l>
+     <l>I cannot bear it—If thou lov'st me, Siward;</l>
+     <l>For now I mean to try thy virtue; swear</l>
+     <l>By all the pow'rs that wait on injur'd honor,</l>
+     <l>What e'er my anxious soul requests of thee,</l>
+     <l>Thou'lt not refuse it.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>By the hallow'd flame</l>
+     <l>Of sacred friendship, that within this breast,</l>
+     <l>Since the first hour I seal'd thee for my own,</l>
+     <l>With unremitted ardor still hath glow'd,</l>
+     <l>I will not—Speak, my Morcar, here I swear</l>
+     <l>To aid thy purpose.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>'Tis enough; and now</l>
+     <l>Come near and mark me: Thou command'st the tow'r</l>
+     <l>Where Edwin is confin'd.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>I do.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Methinks</l>
+     <l>It were an easy task—you understand me—</l>
+     <l>
+      <pb n="63" facs="72"/>
+Justice is flow, and—William comes to-morrow.</l>
+     <l>Thy friendly hand—</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>My lord!—</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Thou trembl'st—Well another time, my Siward,</l>
+     <l>We'll talk on't—shall we not? Thou mean'st to do</l>
+     <l>As thou hast promis'd?</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>Certainly.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Then speak,</l>
+     <l>And do not trifle with me.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>Sure my lord,</l>
+     <l>You cannot mean to—</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Is he not a villain?</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>I fear he may be so.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>A hypocrite.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>He hath, perhaps, deceiv'd you, and deserves—</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>To perish.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>No; to suffer, not to die;</l>
+     <l>Or, if to perish, not by Morcar's hand,</l>
+     <l>Or Siward's—O! 'tis horrible to shed</l>
+     <l>A brother's blood—</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>A rival's.</l>
+    </sp>
+    <sp who="#siward">
+     <pb n="64" facs="73"/>
+     <speaker>SIWARD.</speaker>
+     <l>Nature—</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Love—</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>Humanity—</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Matilda—</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD. </speaker>
+     <stage>(aside.)</stage>
+     <l>Gracious heav'n!</l>
+     <l>That passion thus should root up ev'ry sense</l>
+     <l>Of good and evil in the heart of man,</l>
+     <l>And change him to—a Monster.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Hence! away,</l>
+     <l>And leave me—From this moment I will herd</l>
+     <l>With the wild savage in yon leafless desart,</l>
+     <l>Nor trust to friendship—but another hand—</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD. </speaker>
+     <stage>(musing.)</stage>
+     <l>Ha! that alarms me—then it must be so;</l>
+     <l>And yet how far—</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>You pause.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>I am resolv'd.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>On what?</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>To serve, to honour, to—obey you.</l>
+     <l>Edwin shall ne'er disturb thy peace again.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>O glorious instance of exalted friendship!</l>
+     <l>
+      <pb n="65" facs="74"/>
+My other self, my best, my dear-lov'd Siward—</l>
+     <l>Conscience! thou busy monitor, away</l>
+     <l>And leave me—Siward, when shall it be done?</l>
+     <l>To night, my Siward, shall it not?</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>Or never.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Let me but see the proud Matilda weep;</l>
+     <l>Let me but hear the music of her groans</l>
+     <l>And sate my soul with vengeance—For the rest</l>
+     <l>'Tis equal all. But tell me, Siward, say,</l>
+     <l>How shall I know the bloody moment? What,</l>
+     <l>Shall be the welcome signal?</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>When thou hear'st</l>
+     <l>The solemn curfeu sound, conclude</l>
+     <l>The business done—Farewell. When I return</l>
+     <l>With tears of joy thou shalt my zeal commend,</l>
+     <l>And own that Siward was indeed thy friend.</l>
+    </sp>
+    <trailer>The End of the Fourth Act.</trailer>
+   </div>
+   <div n="5" type="act">
+    <pb n="66" facs="75"/>
+    <head>ACT V.</head>
+    <head>SCENE, <stage>A Gothic Hall.</stage>
+    </head>
+    <stage>MORCAR, HAROLD.</stage>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>TREASON and foul rebellion in my camp!</l>
+     <l>But I was born to be for ever wretched,</l>
+     <l>The sport of fortune. These base mutineers—</l>
+    </sp>
+    <sp who="#harold">
+     <speaker>HAROLD.</speaker>
+     <l>Your presence on the battlements, my lord,</l>
+     <l>Dispers'd 'em soon; they hang their heads in silence,</l>
+     <l>And all is peace.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR, </speaker>
+     <stage>(to himself.)</stage>
+     <l>It is not so within.</l>
+     <l>Wou'd it were done or—</l>
+    </sp>
+    <sp who="#harold">
+     <speaker>HAROLD.</speaker>
+     <l>What, my Lord?</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>No matter.</l>
+     <l>What urg'd my soldiers to rebel?</l>
+    </sp>
+    <sp who="#harold">
+     <speaker>HAROLD.</speaker>
+     <l>'Tis thought</l>
+     <l>The gallant captive did by secret means</l>
+     <l>Excite them to revolt.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>It must be so.</l>
+     <l>By heav'n thou mak'st me happy with the tidings:</l>
+     <l>His head shall pay the forfeit.</l>
+    </sp>
+    <sp who="#harold">
+     <speaker>HAROLD.</speaker>
+     <l>Whilst he lives</l>
+     <l>We are not safe.</l>
+    </sp>
+    <sp who="#morcar">
+     <pb n="67" facs="76"/>
+     <speaker>MORCAR.</speaker>
+     <l>No more we are, good Harold;</l>
+     <l>'Tis fit he perish, is it not? What say'st thou?</l>
+    </sp>
+    <sp who="#harold">
+     <speaker>HAROLD.</speaker>
+     <l>Prudence demands his life to save your own.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>O! thou hast given such comfort to my soul—</l>
+    </sp>
+    <sp who="#harold">
+     <speaker>HAROLD.</speaker>
+     <l>My Lord—</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Be watchful: Bring me early notice</l>
+     <l>Of ev'ry motion: Go.</l>
+     <stage>[Exit Harold.</stage>
+     <l>Or I must fall,</l>
+     <l>Or Edwin—Hence ye visionary fears;</l>
+     <l>Ye vain chimeras hence—It is no matter:</l>
+     <l>Conscience I heed thee not; 'tis self-defence,</l>
+     <l>Nature's first law, and I must stand acquitted.</l>
+     <l>The prudent Siward seem'd to hesitate,</l>
+     <l>As if he wish'd, but knew not how to shun</l>
+     <l>The office. He who cou'd behold my tortures,</l>
+     <l>With all that cold tranquility, wou'd ne'er</l>
+     <l>Have ventur'd to remove them. But I've trusted</l>
+     <l>The sword of vengeance to a safer hand.</l>
+     <l>What ho! Who waits?</l>
+     <stage>Enter an OFFICER.</stage>
+     <l>That soldier whom thou saw'st</l>
+     <l>In private conf'rence with me, is he gone</l>
+     <l>As I directed him?</l>
+    </sp>
+    <sp who="#officer">
+     <speaker>OFFICER.</speaker>
+     <l>My Lord, even now</l>
+     <l>I saw him hast'ning tow'rd the tow'r,</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>'Tis well.</l>
+     <l>When he returns conduct him to me—Stay;</l>
+     <l>
+      <pb n="68" facs="77"/>
+If Siward comes this way, I'm not at leisure:</l>
+     <l>I will not see him. <stage>(starts.)</stage> Hark! did'st thou not hear</l>
+     <l>The solemn curfeu?</l>
+    </sp>
+    <sp who="#officer">
+     <speaker>OFFICER.</speaker>
+     <l>No, my Lord.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Not hear it!</l>
+     <l>It shocks my soul with horror—Hark! again!</l>
+     <l>Hollow and dreadful! Sure thy faculties</l>
+     <l>Are all benumb'd.</l>
+    </sp>
+    <sp who="#officer">
+     <speaker>OFFICER.</speaker>
+     <l>Indeed, I heard it not.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR</speaker>
+     <l>Away, and leave me to myself.</l>
+     <stage>[Exit Officer.</stage>
+     <l>Methought</l>
+     <l>I heard a voice cry—stop—it is thy brother:</l>
+     <l>We lov'd each other well; our early years</l>
+     <l>Were spent in mutual happiness together:</l>
+     <l>Matilda was not there—I do remember</l>
+     <l>One day, in sportive mood, I rashly plung'd</l>
+     <l>Into the rapid flood, which had well nigh</l>
+     <l>O'erwhelm'd me; when the brave, the gallant Edwin,</l>
+     <l>Rush'd in and sav'd me—Shall I, in return,</l>
+     <l>Destroy my kind preserver? Horrid thought!</l>
+     <l>Forbid it heav'n! <stage>(pauses.)</stage> I am myself again.</l>
+     <l>All pow'rful nature! once more I am thine.</l>
+     <l>He shall not die—Who's there—</l>
+     <stage>Enter an OFFICER.</stage>
+     <l>My Oswald! fly,</l>
+     <l>Fly to the tow'r this moment, haste and save</l>
+     <l>My brother—Some base ruffian—</l>
+    </sp>
+    <sp who="#officer">
+     <speaker>OFFICER.</speaker>
+     <l>If, my Lord,</l>
+     <l>You mean the noble pris'ner there, I fear</l>
+     <l>
+      <pb n="69" facs="78"/>
+It is too late: This moment as I pass'd</l>
+     <l>The citadel, I saw a mangled corse</l>
+     <l>Drawn forth by Siward's order—</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Slave, thou ly'st.</l>
+     <l>Away this moment, bring me better news</l>
+     <l>On peril of thy life.</l>
+     <stage>[Exit Officer.</stage>
+     <l>Who knows but heav'n,</l>
+     <l>In gracious pity, still may interpose</l>
+     <l>And save me from the guilt? It is not done;</l>
+     <l>It <hi>shall</hi> not—<hi>must</hi> not be—All's quiet yet;</l>
+     <l>I have not heard the signal.</l>
+     <stage>(The bell tolls.</stage>
+     <l>Hark! he's dead:</l>
+     <l>My brother's dead—O! cover me ye shades</l>
+     <l>Of everlasting night! Hide, if ye can,</l>
+     <l>A murth'rer from himself. Ha! see he comes:</l>
+     <l>His wounds are bleeding still; his angry eyes</l>
+     <l>Glare full upon me. Speak—what wou'd'st thou have?</l>
+     <l>Matilda shall be thine: He smiles and leaves me—</l>
+     <stage>(he pauses and recovers himself.</stage>
+     <l>'Twas but the error of my troubled soul.</l>
+     <l>O! guilt, guilt, guilt!</l>
+     <stage>(throws himself down.</stage>
+     <l>Here will I lay me down,</l>
+     <l>And end my days in bitterness and anguish.</l>
+     <stage>Enter SIWARD.</stage>
+     <l>Who's there? Ha! Siward here. <stage>(rises.)</stage>
+     </l>
+     <l>Speak, murth'rer, speak,</l>
+     <l>Where is my brother? Villain, thou hast snar'd</l>
+     <l>My soul; my honour's stain'd, my fame destroy'd,</l>
+     <l>And my sweet peace of mind is lost for ever.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>Matilda will restore it.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Never, never.</l>
+     <l>The price of blood! No: Cou'd Matilda bring</l>
+     <l>
+      <pb n="70" facs="79"/>
+The vanquish'd world, in dow'ry with her charms,</l>
+     <l>I wou'd not wed her. O! cou'd I recal</l>
+     <l>One hasty moment, one rash, cruel act—</l>
+     <l>But 'twas thy savage hand that—</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>I receiv'd</l>
+     <l>Your orders: 'Twas my duty to obey them.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Where slept thy friendship then? Thou know'st despair</l>
+     <l>And madness urg'd me to it—but for thee—</l>
+     <l>
+      <hi>Thy</hi> callous heart had never felt the pangs,</l>
+     <l>The agonies of disappointed love;</l>
+     <l>Thou did'st not know Matilda—Curs'd obedience!</l>
+     <l>How often has thy insolence oppos'd</l>
+     <l>Thy master and thy prince? how often dar'd</l>
+     <l>To thwart <hi>my</hi> will, and execute thy own:</l>
+     <l>But when I bade thee do a deed of horror,</l>
+     <l>And shed a brother's blood—thou cou'd'st obey me.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>Away! this is the trick of self-delusion,</l>
+     <l>The common cant of hypocrites, who rail</l>
+     <l>At others guilt, to mitigate their own?</l>
+     <l>I've been the mean, the servile instrument</l>
+     <l>Of thy base vengeance; but thou had'st prepar'd</l>
+     <l>Another, a low ruffian, to perform</l>
+     <l>The bloody office; I detest thee for it,</l>
+     <l>Despise, abhor thee.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Thou wert once my friend.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>Henceforth I am thy foe—Thou hast destroy'd</l>
+     <l>The best of brothers, and the best of men.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Despis'd by Siward—then my cup of sorrow</l>
+     <l>
+      <pb n="71" facs="80"/>
+Is full, indeed—But this shall—</l>
+     <stage>(Attempts to kill himself, Siward wrests the sword from him.</stage>
+     <l>Ha! disarm'd!</l>
+     <l>But coward guilt is weak as infancy;</l>
+     <l>It was not so before I murder'd Edwin.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>The murd'rer's punishment shou'd be to live,</l>
+     <l>And shall be thine; thou know'st not half thy guilt,</l>
+     <l>Nor half thy sorrows: I shall rend thy soul.</l>
+     <l>Prepare thee for another deeper wound;</l>
+     <l>And know that Edwin lov'd thee, in his hand,</l>
+     <l>Whilst mine was lifted up for his destruction,</l>
+     <l>I found this paper, 'tis the counterpart</l>
+     <l>Of one he had dispatch'd to William, read it</l>
+     <l>And tremble at thy complicated guilt.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR, </speaker>
+     <stage>(taking the paper.)</stage>
+     <l>What's here? He pleads my pardon with the king,</l>
+     <l>Ascribes my frantic zeal, in Edgar's cause,</l>
+     <l>To ill-advis'd warmth, and recommends</l>
+     <l>His—murderer to mercy: Horrid thought!</l>
+     <l>I am the vilest, most abandon'd slave</l>
+     <l>That e'er disgrac'd humanity—O, Siward!</l>
+     <l>If thou hast yet, among the dying embers</l>
+     <l>Of our long friendship, one remaining spark</l>
+     <l>Of kind compassion for the wretched Morcar,</l>
+     <l>Lend me thy aid to shake off the sad load</l>
+     <l>Of hated life that presses sore upon me.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>Tho' thou'rt no longer worthy of my friendship,</l>
+     <l>Deaf to the cries of nature, and the voice</l>
+     <l>Of holy truth, that wou'd have council'd thee</l>
+     <l>To better deeds, yet hath my foolish heart</l>
+     <l>Some pity for thee—After crimes, like these,</l>
+     <l>There is but one way left—Say, wilt thou patient wait</l>
+     <l>Till I return?</l>
+    </sp>
+    <sp who="#morcar">
+     <pb n="72" facs="81"/>
+     <speaker>MORCAR.</speaker>
+     <l>I will.</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>Remember, Morcar,</l>
+     <l>You promis'd me—I have a draught within,</l>
+     <l>Of wondrous pow'r, that in a moment lulls</l>
+     <l>The tortur'd soul to sweet forgetfulness</l>
+     <l>Of all its woes: I'll haste and bring it thee,</l>
+     <l>'Twill give thee rest and peace.</l>
+     <stage>[Exit Siward.</stage>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>I hope for ever.</l>
+     <l>But where's the lost Matilda? who shall comfort</l>
+     <l>That dear unhappy maid, whom I have robb'd</l>
+     <l>Of ev'ry bliss. O, save me from the sight,</l>
+     <l>Ye pitying pow'rs!</l>
+     <stage>Enter MATILDA.</stage>
+     <l>She comes—distraction!</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>O!</l>
+     <l>My Lord, permit—</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Away—I know thee not.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Not know me! 'tis the poor distress'd Matilda,</l>
+     <l>Who comes to ask forgiveness for the rage</l>
+     <l>Of frantic love; the madness of despair,</l>
+     <l>That urg'd me to such wrath and bitterness</l>
+     <l>Of keen reproach; but pardon— <stage>(kneels)</stage>
+     </l>
+     <l>Gen'rous Morcar,</l>
+     <l>A woman's weakness: Speak and make me blest.</l>
+     <l>Alas! he hears me not.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Matilda, rise;</l>
+     <l>I pray thee leave me— <stage>(weeps)</stage>
+     </l>
+    </sp>
+    <sp who="#matilda">
+     <pb n="73" facs="82"/>
+     <speaker>MATILDA.</speaker>
+     <l>Gracious heav'n! he weeps;</l>
+     <l>Propitious omen! O, my Lord! those tears</l>
+     <l>Are the soft marks of sympathizing woe,</l>
+     <l>And seem to say, I shall not plead in vain.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Ask what thou wilt, for know, so dear I hold</l>
+     <l>Matilda's happiness, that, here I swear</l>
+     <l>If all the kingdoms of the peopled earth</l>
+     <l>Were mine to give, I'd lay them at her feet:</l>
+     <l>But much I fear they wou'd not make her happy.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Alas! my Lord Matilda's happiness</l>
+     <l>Is center'd all in one dear precious jewel;</l>
+     <l>'Tis in <hi>thy</hi> keeping—Edwin—</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>What of him?</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Is innocent.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>I know it.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Just and good;</l>
+     <l>He never meant to injure thee, indeed</l>
+     <l>He did not.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>I believe it, for his nature</l>
+     <l>Was ever mild and gentle.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Good, my Lord,</l>
+     <l>You mock me.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>No, Matilda; speak, go on,</l>
+     <l>
+      <pb n="74" facs="83"/>
+And praise him: I cou'd talk to thee for ever</l>
+     <l>Of Edwin's virtues—</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Then thou wou'd'st not hurt</l>
+     <l>His precious life, thou wou'd'st not—</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>I wou'd give</l>
+     <l>A thousand worlds to save him.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Wou'd'st thou? then</l>
+     <l>My pray'rs are heard, thou hast forgiv'n all,</l>
+     <l>And I am happy. Speak, is Edwin free?</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>From ev'ry care—wou'd I were half so blest!</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>What mean you? Ha! thy eyes are fixt with horror,</l>
+     <l>Thy looks are wild. What hast thou done? O! speak.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Matilda, if thou com'st for Edwin's life,</l>
+     <l>It is too late—for Edwin is no more.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>And is my Edwin slain?</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Aye: Basely murder'd.</l>
+     <l>O! 'twas the vilest, most unnat'ral deed</l>
+     <l>That ever—</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Blasted be the cruel hand</l>
+     <l>That dealt the blow! O, may his guilty heart</l>
+     <l>Ne'er taste of balmy peace, or sweet repose!</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>But ever, by the vulture conscience, torn;</l>
+     <l>Bleed inward, still unpity'd, till he seek</l>
+     <l>For refuge in the grave.</l>
+    </sp>
+    <sp who="#matilda">
+     <pb n="75" facs="84"/>
+     <speaker>MATILDA.</speaker>
+     <l>Nor find it there.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>'Tis well: Thy curses are accomplish'd all;</l>
+     <l>I feel 'em here within—for know—'twas I.</l>
+     <l>I gave the fatal order, and my friend,</l>
+     <l>My Siward, has too faithfully perform'd it.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>Siward! impossible! There dwells not then</l>
+     <l>In human breast, or truth or virtue—O!</l>
+     <l>Unnat'ral brother!—but I will be calm.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Alas! thy fate is happiness to mine;</l>
+     <l>For thou art innocent.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>And soon, I hope</l>
+     <l>To be rewarded for it. O! my Edwin,</l>
+     <l>Matilda soon shall follow thee—thou think'st</l>
+     <l>I am unarm'd, deserted; doom'd like thee</l>
+     <l>To hated life; but know, I have a friend,</l>
+     <l>A bosom-friend, and prompt, as thine, to enter</l>
+     <l>On any bloody service I command.</l>
+     <stage>(Draws a dagger.</stage>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Command it then for justice, for revenge,</l>
+     <l>Behold! my bosom rises to the blow;</l>
+     <l>Strike here, and end a wretched murd'rer—</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>No;</l>
+     <l>That were a mercy thou hast not deserv'd;</l>
+     <l>I shall not seek revenge in Morcar's death,</l>
+     <l>In mine thou shalt be wretched—</l>
+     <stage>(Attempts to stab herself; Morcar lays hold of the dagger.</stage>
+    </sp>
+    <sp who="#morcar">
+     <pb n="76" facs="85"/>
+     <speaker>MORCAR.</speaker>
+     <l>Stop, Matilda—</l>
+     <l>Stop thy rash hand, the weight of Edwin's blood</l>
+     <l>Sits heavy on my heart. O! do not pierce it</l>
+     <l>With added guilt.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>No more, I must be gone</l>
+     <l>To meet my Edwin, who already chides</l>
+     <l>My ling'ring steps, and beckons me away</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Yet hear me! O! if penitence and pray'r,</l>
+     <l>If deep contrition, sorrow and remorse</l>
+     <l>Cou'd bring him back to thy desiring eyes,</l>
+     <l>O! with what rapture wou'd I yield him now</l>
+     <l>To thee, Matilda—bear me witness—Ha! <stage>(starts)</stage>
+     </l>
+     <l>'Tis he—Look up dear injur'd maid—he comes</l>
+     <l>To claim my promise.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA.</speaker>
+     <l>It is, it is my Edwin!</l>
+     <stage>(Enter Siward and Edwin: Edwin runs and embraces Matilda.)</stage>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>O unexpected bliss! what gracious hand—</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>Behold the cordial draught I promis'd you!</l>
+     <l>I knew thy noble nature, when the storm</l>
+     <l>Of passion had subsided, wou'd abhor</l>
+     <l>A deed so impious—'Tis the only time</l>
+     <l>That Siward ever did deceive his friend.</l>
+     <l>Can'st thou forgive?</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Forgive thee! O thou art</l>
+     <l>My guardian angel, sent by gracious heav'n</l>
+     <l>To save me from perdition. O, my brother!</l>
+     <l>I blush to stand before thee—wilt thou take</l>
+     <l>From thse polluted hands one precious gift?</l>
+     <l>
+      <pb n="77" facs="86"/>
+'Twill make thee full amends for all thy wrongs.</l>
+     <l>Accept her, and be happy.</l>
+     <stage>(he joins the hands of Edwin and Matilda, then turning to Siward)</stage>
+     <l>That vile slave</l>
+     <l>Whom I employ'd—</l>
+    </sp>
+    <sp who="#siward">
+     <speaker>SIWARD.</speaker>
+     <l>I guess'd his horrid purpose,</l>
+     <l>Watch'd ev'ry step, and as the villain aim'd</l>
+     <l>His ponyard at the guiltless Edwin's breast,</l>
+     <l>Turn'd sudden round, and plung'd it in his own.</l>
+     <l>The bloody corse was dragg'd—</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>I know the rest.</l>
+     <l>O, Siward! from what weight of endless woe</l>
+     <l>Hath thy blest hand preserv'd me!</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>O, my Matilda! how shall we repay</l>
+     <l>Our noble benefactor? Much I owe</l>
+     <l>To gallant Siward, but to Morcar more:</l>
+     <l>Tou gav'st me life, but my kind, gen'rous brother</l>
+     <l>Enhanc'd the gift, and bless'd me with Matilda.</l>
+    </sp>
+    <sp who="#matilda">
+     <speaker>MATILDA, </speaker>
+     <stage>(to Morcar.)</stage>
+     <l>Words are too poor to thank thee as I ought;</l>
+     <l>Accept this tribute of a grateful heart,</l>
+     <l>These tears of joy; and, O! may ev'ry curse</l>
+     <l>My frantic grief for Edwin pour'd upon thee,</l>
+     <l>Be chang'd to dearest blessings on thy head!</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Alas! thy blessings cannot reach me. Guilt</l>
+     <l>May plead for pardon, but can never boast</l>
+     <l>A claim to happiness: I only ask</l>
+     <l>
+      <pb n="78" facs="87"/>
+A late forgiveness. If a life of sorrow,</l>
+     <l>And deep remorse, can wash my crimes away,</l>
+     <l>Let 'em be bury'd with me in oblivion,</l>
+     <l>And do not curse the memory of—Morcar.</l>
+     <stage>(turning to Edwin.</stage>
+     <l>O, Edwin! say, can'st thou forgive the crime</l>
+     <l>Of frantic love, of madness and despair?</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>As in my latest hour from heav'n I hope</l>
+     <l>Its kind indulgence for my errors past,</l>
+     <l>Ev'n so, my brother, from my soul I pardon</l>
+     <l>And pity thee.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>Then I shall die in peace.</l>
+    </sp>
+    <sp who="#edwin">
+     <speaker>EDWIN.</speaker>
+     <l>Talk not of death, my brother, thou must live</l>
+     <l>To see our happiness complete, to hear</l>
+     <l>My sweet Matilda pour forth all her heart</l>
+     <l>In rap'rous thanks to thee, and to thy friend;</l>
+     <l>And grateful Edwin bless thee for thy bounties.</l>
+    </sp>
+    <sp who="#morcar">
+     <speaker>MORCAR.</speaker>
+     <l>It must not be: I know too much already,</l>
+     <l>Of Morcar's weakness, and Matilda's pow'r</l>
+     <l>They are not to be trusted. No, my Edwin,</l>
+     <l>Morcar shall never interrupt thy joys.</l>
+     <l>Far from thy fight and from the haunts of men,</l>
+     <l>In some deep distant solitude retir'd,</l>
+     <l>To pious sorrow will I dedicate</l>
+     <l>My short remains of wretched life, and strive</l>
+     <l>To make my peace with heav'n and wrong'd Matilda.</l>
+     <l>And if perchance in after-times some bard,</l>
+     <l>Struck with the native horrors of my tale,</l>
+     <l>Shou'd bid th' historic muse record it—let him</l>
+     <l>
+      <pb n="79" facs="88"/>
+By <hi>my</hi> example teach a future age,</l>
+     <l>The dire effects of loose, unbridled rage;</l>
+     <l>Teach thoughtless men their passions to controul,</l>
+     <l>And curb the sallies of th'impetuous soul,</l>
+     <l>Lest they experience worse than Morcar's woe,</l>
+     <l>Nor find a Siward—to prevent the blow.</l>
+    </sp>
+   </div>
+   <trailer>FINIS.</trailer>
+  </body>
+  <back>
+   <div type="publisher'sadvertisement">
+    <pb facs="89"/>
+    <p>
+     <hi>PREPARING FOR THE PRESS,</hi> A COMPLETE TRANSLATION OF THE WORKS OF LUCIAN, From the GREEK.</p>
+    <p>By THOMAS FRANCKLIN, The TRANSLATOR of SOPHOCLES.</p>
+    <p>SUBSCRIPTIONS to this Work are taken in by T. CADELL, Bookseller, in the Strand.</p>
+   </div>
+  </back>
+ </text>
+</TEI>
