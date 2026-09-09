@@ -1,0 +1,1896 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">The Irish widow</title>
+    <title type="sub">In two acts. As it is performed at the Theatre Royal in Drury-Lane.</title>
+    <author>
+     <persName>
+      <surname>Garrick</surname>
+      <forename>David</forename>
+      <idno type="VIAF">24563</idno>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>The Irish widow: In two acts. As it is performed at the Theatre Royal in Drury-Lane.</name>
+     <author>Garrick, David, 1717-1779.</author>
+     <publisher>printed for T. Becket,</publisher>
+     <date>1772.</date>
+     <pubPlace>London :</pubPlace>
+     <note>Anonymous. By David Garrick.</note>
+     <note>Reproduction of original from the British Library.</note>
+     <note>English Short Title Catalog, ESTCT37396.</note>
+     <note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note>
+    </bibl>
+    <biblFull n="printed source">
+     <publicationStmt>
+      <authority ref="#JJ">Jan Jokisch</authority>
+      <date>2024 December</date>
+      <idno type="ECCO_Drama">K038439.000</idno>
+      <idno type="DLPS">004804655</idno>
+      <idno type="ESTC">T37396</idno>
+      <idno type="DocNo">CW113610623</idno>
+      <idno type="TCP">K038439.000</idno>
+      <idno type="GaleDocNo">CW3313610623</idno>
+      <idno type="ContentSet">ECLL</idno>
+      <idno type="ImageSetID">0628600900</idno>
+      <availability>
+       <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+      </availability>
+     </publicationStmt>
+    </biblFull>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    <person xml:id="bates"><persName>Bates</persName><sex value="MALE"/></person><person xml:id="kecksy"><persName>Kecksy</persName><sex value="MALE"/></person><person xml:id="thomas"><persName>Thomas</persName><sex value="MALE"/></person><person xml:id="footman"><persName>Footman</persName><sex value="MALE"/></person><person xml:id="widow_brady"><persName>Widow Brady</persName><sex value="FEMALE"/></person><person xml:id="nephew"><persName>Nephew</persName><sex value="MALE"/></person><person xml:id="whittle"><persName>Whittle</persName><sex value="MALE"/></person><person xml:id="sir_patrick_o_neale"><persName>Sir Patrick o' neale</persName><sex value="MALE"/></person><person xml:id="pompey"><persName>Pompey</persName><sex value="MALE"/></person><person xml:id="servant"><persName>Servant</persName><sex value="MALE"/></person></listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1772">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text xml:lang="en">
+  <front>
+   <div type="titlepage">
+    <pb facs="1" ana="y"/>
+    <p>THE IRISH WIDOW.</p>
+    <p>IN TWO ACTS. AS IT IS PERFORMED AT THE THEATRE ROYAL IN DRURY-LANE.</p>
+    <p>LONDON: Printed for T. BECKET in the Strand. MDCCLXXII. [Price One Shilling.]</p>
+   </div>
+   <div type="Dramatis_Personae">
+    <pb facs="2"/>
+    <castList>
+     <head>DRAMATIS PERSONAE.</head>
+     <castItem>
+      <role>Sir PATRICK O'NEALE</role>
+      <actor>Mr. MOODY</actor>
+     </castItem>
+     <castItem>
+      <role>WHITTLE</role>
+      <actor>Mr. PARSONS</actor>
+     </castItem>
+     <castItem>
+      <role>NEPHEW</role>
+      <actor>Mr. CAUTHERLY</actor>
+     </castItem>
+     <castItem>
+      <role>BATES</role>
+      <actor>Mr. BADDELEY</actor>
+     </castItem>
+     <castItem>
+      <role>KECKSY</role>
+      <actor>Mr. DODD</actor>
+     </castItem>
+     <castItem>
+      <role>THOMAS</role>
+      <actor>Mr. WESTON</actor>
+     </castItem>
+     <castItem>
+      <role>FOOTMAN</role>
+      <actor>Mr. GRIFFITH</actor>
+     </castItem>
+     <castItem>
+      <role>WIDOW BRADY</role>
+      <actor>Mrs. BARRY</actor>
+     </castItem>
+    </castList>
+   </div>
+   <div type="dedication">
+    <pb facs="3"/>
+    <head>TO Mrs. BARRY.</head>
+    <opener>
+     <salute>MADAM,</salute>
+    </opener>
+    <p>AFTER returning my thanks to the performers of this Farce, for the great justice they have done me, I must beg leave to address myself in particular to <hi>you.</hi>
+    </p>
+    <p>As your wishes produced the piece, and your performance has raised it into some consequence, to whom can it be so properly address'd? You were before rank'd in the first class of our Theatrical Genuises, and now you have the additional merit of transforming the GRECIAN DAUGHTER into
+<pb n="vi" facs="4"/>
+the IRISH WIDOW, that is, of sinking <hi>to the lowest note, from the top of the compass!</hi>
+    </p>
+    <p>Permit me, Madam, like other Coxcombs, to boast some favours I have received—You perform the principal character, some news-papers have criticis'd the Farce, and the audiences have laugh'd heartily at it. Were not I as sensible as the severest Critick of them all, that it is a triffle not worth the owning, I should subscribe my real name, instead of,</p>
+    <closer>
+     <salute>MADAM,</salute>
+     <signed>Your great admirer, And humble servant, The AUTHOR.</signed>
+    </closer>
+   </div>
+  </front>
+  <body>
+   <head>
+    <pb facs="5"/>THE IRISH WIDOW.</head>
+   <div n="1" type="act">
+    <head>ACT I.</head>
+    <div n="1" type="scene">
+     <head>SCENE I. <stage>Whittle's House.</stage>
+     </head>
+     <stage>Enter <hi>BATES</hi> and Servant.</stage>
+     <sp who="#bates">
+      <speaker>BATES.</speaker>
+      <p>IS he gone out? his card tells me to come directly—I did but lock up some papers, take my hat and cane, and away I hurried.</p>
+     </sp>
+     <sp who="#servant">
+      <speaker>SERVANT.</speaker>
+      <p>My master desires you will sit down, he will return immediately,—he had some Business with his lawyer, and went out in great haste, leaving the message I have deliver'd. Here is my young master. <stage>Exit <hi>Servant.</hi>
+       </stage>
+      </p>
+     </sp>
+     <stage>Enter <hi>NEPHEW.</hi>
+     </stage>
+     <sp who="#bates">
+      <speaker>BATES.</speaker>
+      <p>What lively BILLY!—hold I beg your pardon—melancholy WILLIAM I think—here's fine revolution—I hear your Uncle who was last month all gravity, and you all mirth, have chang'd characters;
+<pb n="2" facs="6"/>
+he is now all spirit, and you are in the dumps young man.</p>
+     </sp>
+     <sp who="#nephew">
+      <speaker>NEPHEW.</speaker>
+      <p>And for the same reason—This journey to Scarborough will unfold the riddle.</p>
+     </sp>
+     <sp who="#bates">
+      <speaker>BATES.</speaker>
+      <p>Come, come, in plain English, and before your Uncle comes—explain the matter.</p>
+     </sp>
+     <sp who="#nephew">
+      <speaker>NEPHEW.</speaker>
+      <p>In the first place I am undone.</p>
+     </sp>
+     <sp who="#bates">
+      <speaker>BATES.</speaker>
+      <p>In love I know—I hope your Uncle is not undone too—that would be the devil!</p>
+     </sp>
+     <sp who="#nephew">
+      <speaker>NEPHEW.</speaker>
+      <p>He has taken possession of him in every sense. In short he came to Scarborough to see the lady I had fallen in love with—</p>
+     </sp>
+     <sp who="#bates">
+      <speaker>BATES.</speaker>
+      <p>And fell in love himself?</p>
+     </sp>
+     <sp who="#nephew">
+      <speaker>NEPHEW.</speaker>
+      <p>Yes, and with the same lady:</p>
+     </sp>
+     <sp who="#bates">
+      <speaker>BATES.</speaker>
+      <p>That is the devil indeed!</p>
+     </sp>
+     <sp who="#nephew">
+      <speaker>NEPHEW.</speaker>
+      <p>O Mr. BATES! when I thought my happiness compleat, and wanted only my Uncle's consent, to give me the independance he so often has promis'd me, he came to Scarborough for that purpose, and wish'd me joy of my choice; but in less than a week, his approbation turned into a passion for her; he now hates the sight of me, and is resolv'd with the consent of the father to make her his wife directly.</p>
+     </sp>
+     <sp who="#bates">
+      <pb n="3" facs="7"/>
+      <speaker>BATES.</speaker>
+      <p>So he keeps you out of your fortune, won't give his consent, which his Brother's foolish will requires, and he would marry himself the same woman, because right, title, conscience, nature, justice, and every law divine and human, are against it.</p>
+     </sp>
+     <sp who="#nephew">
+      <speaker>NEPHEW.</speaker>
+      <p>Thus he tricks me at once both of wife and fortune, without the least want of either.</p>
+     </sp>
+     <sp who="#bates">
+      <speaker>BATES.</speaker>
+      <p>Well said friend WHITTLE! but it can't be, it shan't be, and it must not be—this is murder and robbery in the strongest sense, and he shan't be hang'd in chains to be laugh'd at by the whole town if I can help it.</p>
+     </sp>
+     <sp who="#nephew">
+      <speaker>NEPHEW.</speaker>
+      <p>I am distracted, the widow is distress'd, and we both shall run mad.</p>
+     </sp>
+     <sp who="#bates">
+      <speaker>BATES.</speaker>
+      <p>A widow too!—'gad a mercy three score and five!</p>
+     </sp>
+     <sp who="#nephew">
+      <speaker>NEPHEW.</speaker>
+      <p>But such a widow! she is now in town with her father, who wants to get her off his hands; 'tis equal to him who has her, so she is provided for—I hear somebody coming—I must away to her lodgings, where she waits for me to execute a scheme directly for our delivery.</p>
+     </sp>
+     <sp who="#bates">
+      <speaker>BATES.</speaker>
+      <p>What is her name BILLY?</p>
+     </sp>
+     <sp who="#nephew">
+      <speaker>NEPHEW.</speaker>
+      <p>BRADY.</p>
+     </sp>
+     <sp who="#bates">
+      <speaker>BATES.</speaker>
+      <p>BRADY! is not she Daughter to Sir PATRICK O NEALE?</p>
+     </sp>
+     <sp who="#nephew">
+      <pb n="4" facs="8" ana="y"/>
+      <speaker>NEPHEW.</speaker>
+      <p>The same. She was sacrific'd to the most senseless, drunken profligate in the whole country: He lived to run out his fortune, and the only advantage she got from the union was he broke that and his neck, before he had broke her heart.</p>
+     </sp>
+     <sp who="#bates">
+      <speaker>BATES.</speaker>
+      <p>The affair of marriage is in this country put upon the easiest footing; there is neither love or hate in the matter; necessity brings them together; they are united at first for their mutual convenience, and seperated ever after for their particular pleasures.—O rare matrimony!—Where does she lodge?</p>
+     </sp>
+     <sp who="#nephew">
+      <speaker>NEPHEW.</speaker>
+      <p>In Pall-Mall, near the Hotel.</p>
+     </sp>
+     <sp who="#bates">
+      <speaker>BATES.</speaker>
+      <p>I'll call in my way, and assist at the consultation; I am for a bold stroke, if gentle methods should fail.</p>
+     </sp>
+     <sp who="#nephew">
+      <speaker>NEPHEW.</speaker>
+      <p>We have a plan, and a spirited one, if my sweet widow is able to go through it—pray let us have your friendly assistance—ours is the cause of love and reason.</p>
+     </sp>
+     <sp who="#bates">
+      <speaker>BATES.</speaker>
+      <p>Get you gone, with your love and reason, they seldom pull together now-a-days—I'll give your Uncle a dose first, and then I'll meet you at the widow's—what says your Uncle's privy counseller Mr. THOMAS to this?</p>
+     </sp>
+     <sp who="#nephew">
+      <speaker>NEPHEW.</speaker>
+      <p>He is greatly our friend, and will enter sincerely into our service—he is honest, sensible, ignorant
+<pb n="5" facs="9"/>
+and particular,—a kind of half coxcomb, with a thorough good heart—but he's here.</p>
+     </sp>
+     <sp who="#bates">
+      <speaker>BATES.</speaker>
+      <p>Do you go about your business, and leave the rest to me. <stage>Exit <hi>Nephew.</hi>
+       </stage>
+      </p>
+      <stage>Enter <hi>THOMAS.</hi>
+      </stage>
+      <p>Mr. THOMAS, I am glad to see you; upon my word you look charmingly—you wear well, Mr. Thomas.</p>
+     </sp>
+     <sp who="#thomas">
+      <speaker>THOMAS.</speaker>
+      <p>Which is a wonder, considering how the times go, Mr. BATES,—they'll wear and tear me too, if I don't take care of my self—my old master has taken the nearest way to wear himself out, and all that belong to him.</p>
+     </sp>
+     <sp who="#bates">
+      <speaker>BATES.</speaker>
+      <p>Why surely this strange story about town is not true, that the old gentleman is fall'n in love.</p>
+     </sp>
+     <sp who="#thomas">
+      <speaker>THOMAS.</speaker>
+      <p>Ten times worse than that!</p>
+     </sp>
+     <sp who="#bates">
+      <speaker>BATES.</speaker>
+      <p>The devil!</p>
+     </sp>
+     <sp who="#thomas">
+      <speaker>THOMAS.</speaker>
+      <p>And his horns—going to be married!</p>
+     </sp>
+     <sp who="#bates">
+      <speaker>BATES.</speaker>
+      <p>Not if I can help it.</p>
+     </sp>
+     <sp who="#thomas">
+      <speaker>THOMAS.</speaker>
+      <p>You never saw such an alter'd man in your born days!—he's grown young again; he frisks, and prances, and runs about, as if he had a new pair of legs—he has left off his brown camlet surtout, which he wore all summer, and now with his hat under his arm, he goes open breasted, and he dresses, and powders, and smirks so, that you would take
+<pb n="6" facs="10"/>
+him for the mad Frenchman in Bedlam—something wrong in his upper story—would you think it?—he wants me to have a pig-tail!</p>
+     </sp>
+     <sp who="#bates">
+      <speaker>BATES.</speaker>
+      <p>Than he is far gone indeed!</p>
+     </sp>
+     <sp who="#thomas">
+      <speaker>THOMAS.</speaker>
+      <p>As sure as you are there, Mr. BATES, a pig-tail!—we have had sad work about it—I made a com-promise with him, to wear these ruffled shirts which he gave me—but they stand in my way—I am not so listless with them—tho' I have ty'd up my hands for him, I won't tie up my head, that I am resolute.</p>
+     </sp>
+     <sp who="#bates">
+      <speaker>BATES.</speaker>
+      <p>This it is to be in love THOMAS?</p>
+     </sp>
+     <sp who="#thomas">
+      <speaker>THOMAS.</speaker>
+      <p>He may make free with himself, he shan't make a fool of me,—he has got his head into a bag but I won't have a pig-tail tack'd to mine—and so I told him—</p>
+     </sp>
+     <sp who="#bates">
+      <speaker>BATES.</speaker>
+      <p>What did you tell him?</p>
+     </sp>
+     <sp who="#thomas">
+      <speaker>THOMAS.</speaker>
+      <p>That as I, and my father, and his father before me, had wore their own hair as heaven had sent it, I thought myself rather too old to set up for a monkey at my time of life, and wear a pig-tail—he! he! he!—he took it.</p>
+     </sp>
+     <sp who="#bates">
+      <speaker>BATES.</speaker>
+      <p>With a wry face, for it was wormwood:</p>
+     </sp>
+     <sp who="#thomas">
+      <speaker>THOMAS.</speaker>
+      <p>Yes he was frump'd, and call'd me old blockhead, and would not speak to me the rest of the
+<pb n="7" facs="11"/>
+day—but the next day he was at it again—he then put me into a passion—and I could not help telling him, that I was an Englishman born and had my prerogative as well as he, and that as long as I had breath in my body, I was for liberty, and a strait head of hair!</p>
+     </sp>
+     <sp who="#bates">
+      <speaker>BATES.</speaker>
+      <p>Well said, THOMAS—he could not answer that.</p>
+     </sp>
+     <sp who="#thomas">
+      <speaker>THOMAS.</speaker>
+      <p>The poorest man in England is a match for the greatest, if he will but stick to the laws of the land, and the statue books, as they are deliver'd down from us to our fore fathers.</p>
+     </sp>
+     <sp who="#bates">
+      <speaker>BATES.</speaker>
+      <p>You are right—we must lay our wits together, and drive the widow out of your old master's head, and put her into your young master's hands.</p>
+     </sp>
+     <sp who="#thomas">
+      <speaker>THOMAS.</speaker>
+      <p>With all my heart—nothing can be more meritorious—marry at his years! what a terrible account would he make of it, Mr. BATES?—let me see—on the debtor side 65—and per contra creditor a buxom widow of 23.—He'll be a bankrupt in a fortnight—he! he! he!</p>
+     </sp>
+     <sp who="#bates">
+      <speaker>BATES.</speaker>
+      <p>And so he would, Mr. THOMAS—what have you got in your hand?</p>
+     </sp>
+     <sp who="#thomas">
+      <speaker>THOMAS.</speaker>
+      <p>A pamphlet my old gentleman takes in—he has left off buying histories and religious pieces by numbers, as he us'd to do, and since he has got this widow in his head he reads nothing but the
+<pb n="8" facs="12"/>
+Amorous Repository, Cupid's Revels, Call to Marriage, Hymen's Delights, Love lies a Bleeding, Love in the Suds, and such like tender compositions.—</p>
+     </sp>
+     <sp who="#bates">
+      <speaker>BATES.</speaker>
+      <p>Here he comes with all his folly about him.—</p>
+     </sp>
+     <sp who="#thomas">
+      <speaker>THOMAS.</speaker>
+      <p>Yes, and the first fool from vanity-fair—Heav'n help us!—love turns man and woman topsy-turvy!<stage>Exit <hi>THOMAS.</hi>
+       </stage>
+      </p>
+     </sp>
+     <sp who="#whittle">
+      <speaker>WHITTLE.</speaker>
+      <p>
+       <stage>(without.)</stage> Where is he? where is my good friend?</p>
+      <stage>Enter <hi>WHITTLE.</hi>
+      </stage>
+      <p>Ha! here he is—give me your hand.</p>
+     </sp>
+     <sp who="#bates">
+      <speaker>BATES.</speaker>
+      <p>I am glad to see you in such spirits, my old gentleman.</p>
+     </sp>
+     <sp who="#whittle">
+      <speaker>WHITTLE.</speaker>
+      <p>Not so old neither—no man ought to be called old, friend BATES, if he is in health, spirits, and—</p>
+     </sp>
+     <sp who="#bates">
+      <speaker>BATES.</speaker>
+      <p>In his senses—which I should rather doubt, as I never saw you half so frolicksome in my life.</p>
+     </sp>
+     <sp who="#whittle">
+      <speaker>WHITTLE.</speaker>
+      <p>Never too old to learn friend, and if I don't make use of my philosophy now, I may wear it out in twenty years—I have been always banter'd as of too grave a cast—you know when I study'd at Lincoln's-Inn, they used to call me Young Wisdom.</p>
+     </sp>
+     <sp who="#bates">
+      <pb n="9" facs="13"/>
+      <speaker>BATES.</speaker>
+      <p>And if they should now call you Old Folly, it will be a much worse name.</p>
+     </sp>
+     <sp who="#whittle">
+      <speaker>WHITTLE.</speaker>
+      <p>No young jackanapes dares call me so, while I have this friend at my side— <stage>(touches his sword.)</stage>
+      </p>
+     </sp>
+     <sp who="#bates">
+      <speaker>BATES.</speaker>
+      <p>A hero too! what in the name of common sense is come to you, my friend?—high spirits, quick honour, a long sword and a bag;—you want nothing but to be terribly in love, and sally forth knight of the Woeful Countenance, ha! ha! ha!</p>
+     </sp>
+     <sp who="#whittle">
+      <speaker>WHITTLE.</speaker>
+      <p>Mr. BATES—the ladies who are the best judges of countenances, are not of your opinion; and unless you'll be a little serious, I must beg pardon for giving you this trouble, and I'll open my mind to some more attentive friend.</p>
+     </sp>
+     <sp who="#bates">
+      <speaker>BATES.</speaker>
+      <p>Well, come unlock then, you wild, handsome, vigorous young dog you—I will please you if I can.</p>
+     </sp>
+     <sp who="#whittle">
+      <speaker>WHITTLE.</speaker>
+      <p>I believe you never saw me look better FRANK, did you?</p>
+     </sp>
+     <sp who="#bates">
+      <speaker>BATES.</speaker>
+      <p>O yes, rather better forty years ago.</p>
+     </sp>
+     <sp who="#whittle">
+      <speaker>WHITTLE.</speaker>
+      <p>What when I was at Merchant Taylor's School?</p>
+     </sp>
+     <sp who="#bates">
+      <speaker>BATES.</speaker>
+      <p>At Lincoln's-Inn, TOM.</p>
+     </sp>
+     <sp who="#whittle">
+      <speaker>WHITTLE.</speaker>
+      <p>It can't be—I never disguise my age, and next February, I shall be fifty-four.</p>
+     </sp>
+     <sp who="#bates">
+      <pb n="10" facs="14"/>
+      <speaker>BATES.</speaker>
+      <p>Fifty-four! why I am sixty, and you always lick'd me at school—tho' I believe I could do as much for you now, and ecod I believe you deserve it too.</p>
+     </sp>
+     <sp who="#whittle">
+      <speaker>WHITTLE.</speaker>
+      <p>I tell you I am in my 55th year.</p>
+     </sp>
+     <sp who="#bates">
+      <speaker>BATES.</speaker>
+      <p>O, you are—let me see—we were together at Cambridge, Anno Domini 25, which is near fifty years ago—you came to the college indeed surprizingly young, and what is more surprizing, by this calculation you went to school before you was born—you was always a forward child.</p>
+     </sp>
+     <sp who="#whittle">
+      <speaker>WHITTLE.</speaker>
+      <p>I see there is no talking or consulting with you in this humour, and so, Mr. BATES, when you are in temper to shew less of your wit, and more of your friendship, I shall consult with you.</p>
+     </sp>
+     <sp who="#bates">
+      <speaker>BATES.</speaker>
+      <p>Fare you well my old boy—young fellow, I mean—when you have done sowing your wild oats, and have been blister'd into your right senses; when you have half kill'd yourself with being a beau, and return to your woollen caps, flannel waistcoats, worsted stockings, cork soles, and gallochys, I am at your service again, so bon jour to you Monsieur Fifty-four, ha! ha!<stage>Exit.</stage>
+      </p>
+     </sp>
+     <sp who="#whittle">
+      <speaker>WHITTLE.</speaker>
+      <p>He has certainly heard of my affair—but he is old and peevish—he wants spirit, and strength of constitution to conceive my happiness—I am in love with the widow, and must have her: Every man knows his own wants—let the world laugh, and my friends stare; let 'em call me imprudent, and
+<pb n="11" facs="15"/>
+mad if they please. I live in good times, and among people of fashon, so none of my neighbours, thank heaven, can have the assurance to laugh at me.</p>
+     </sp>
+     <stage>Enter <hi>OLD KECKSY.</hi>
+     </stage>
+     <sp who="#kecksy">
+      <speaker>KECK.</speaker>
+      <p>What, my friend WHITTLE; joy! joy to you old boy—you are going, a going! a going! a fine widow has bid for you, and will have you—hah, friend? all for the best—there is nothing like it—hugh! hugh! hugh!—a good wife is a good thing, and a young one is a better—hah—who's afraid? If I had not lately married one, I should have been at death's door by this time—hugh! hugh! hugh!<stage>(Coughs.)</stage>
+      </p>
+     </sp>
+     <sp who="#whittle">
+      <speaker>WHITTLE.</speaker>
+      <p>Thank, thank you friend!—I was coming to advise with you—I am got into the pound again—in love up to the ears—a fine woman, faith—and there's no love lost between us—am I right friend?</p>
+     </sp>
+     <sp who="#kecksy">
+      <speaker>KECK.</speaker>
+      <p>Right! ay, right as my leg, TOM! Life's nothing without love—hugh! hugh!—I'm happy as the day's long! my wife loves gadding, and I can't stay at home, so we are both of a mind—she's every night at one or other of the garden places; but among friends, I am a little afraid of the damp; hugh! hugh! hugh! she has got an Irish gentleman, a kind of cousin of hers, to take care of her; a fine fellow; and so good-natur'd—It is a vast comfort to have such a friend in a family! Hugh! hugh! hugh!</p>
+     </sp>
+     <sp who="#whittle">
+      <pb n="12" facs="16"/>
+      <speaker>WHITTLE.</speaker>
+      <p>You are a bold man, cousin KECKSEY.</p>
+     </sp>
+     <sp who="#kecksy">
+      <speaker>KECK.</speaker>
+      <p>Bold! ay to be sure; none but the brave deserve the fair—Hugh! hugh! hugh! who's afraid!</p>
+     </sp>
+     <sp who="#whittle">
+      <speaker>WHITTLE.</speaker>
+      <p>Why your wife is five feet ten.</p>
+     </sp>
+     <sp who="#kecksy">
+      <speaker>KECK.</speaker>
+      <p>Without her shoes. I hate your little shrimps; none of your lean meagre French frogs for me; I was always fond of the majestic; give me a slice of a good English surloin; out and come again; hugh! hugh! hugh! that's my taste!</p>
+     </sp>
+     <sp who="#whittle">
+      <speaker>WHITTLE.</speaker>
+      <p>I'm glad you have so good a stomach—and so you would advise me to marry the widow directly?</p>
+     </sp>
+     <sp who="#kecksy">
+      <speaker>KECK.</speaker>
+      <p>To be sure—you have not a moment to lose: I always mind what the poet says,
+<l>'Tis folly to lose time,</l>
+       <l>When man is in his prime:</l>
+Hugh! hugh! hugh!</p>
+     </sp>
+     <sp who="#whittle">
+      <speaker>WHITTLE.</speaker>
+      <p>You have an ugly cough, cousin</p>
+     </sp>
+     <sp who="#kecksy">
+      <speaker>KECK.</speaker>
+      <p>Marriage is the best lozenge for it.</p>
+     </sp>
+     <sp who="#whittle">
+      <speaker>WHITTLE.</speaker>
+      <p>You have rais'd me from the dead—I am glad you came—FRANK BATES had almost killed me with his jokes—but you have comforted me, and we will walk thro' the Park; and I will carry you to the widow in Pall-mall.</p>
+     </sp>
+     <sp who="#kecksy">
+      <pb n="13" facs="17"/>
+      <speaker>KECK.</speaker>
+      <p>With all my heart—I'll raise her spirits, and your's too—courage, TOM—come along—who's afraid?</p>
+     </sp>
+     <stage>Exeunt.</stage>
+    </div>
+    <div type="scene">
+     <head>SCENE, <stage>the <hi>WIDOW</hi>'s Lodgings.</stage>
+     </head>
+     <stage>Enter <hi>WIDOW, NEPHEW,</hi> and <hi>BATES.</hi>
+     </stage>
+     <sp who="#bates">
+      <speaker>BATES.</speaker>
+      <p>Indeed, madam, there is no other way but to cast off your real character, and assume a feign'd one; it is an extraordinary occasion, and requires extraordinary measures; pluck up a spirit, and do it for the honour of your sex.</p>
+     </sp>
+     <sp who="#nephew">
+      <speaker>NEPHEW.</speaker>
+      <p>Only consider, my sweet Widow, that our all is at stake!</p>
+     </sp>
+     <sp who="#widow_brady">
+      <speaker>WIDOW.</speaker>
+      <p>Could I bring my heart to act contrary to its feelings, would not you hate me for being a hypocrite, tho' it is done for your sake?</p>
+     </sp>
+     <sp who="#nephew">
+      <speaker>NEPHEW.</speaker>
+      <p>Could I think myself incapable of such ingratitude—</p>
+     </sp>
+     <sp who="#widow_brady">
+      <speaker>WIDOW.</speaker>
+      <p>Don't make fine speeches; you men are strange creatures, you turn our heads to your purposes, and then despise us for the folly you teach us; 'tis hard to assume a character contrary to my disposition; I cannot get rid of my unfashionable prejudices, till I have been married in England some time, and liv'd among my betters.</p>
+     </sp>
+     <sp who="#nephew">
+      <speaker>NEPHEW.</speaker>
+      <p>Thou charming adorable woman! what shall we
+<pb n="14" facs="18"/>
+do then? I never wish'd for a fortune till this moment.</p>
+     </sp>
+     <sp who="#widow_brady">
+      <speaker>WIDOW.</speaker>
+      <p>Could we live upon affection, I would give your fortune to your Uncle, and thank him for taking it; and then,—</p>
+     </sp>
+     <sp who="#nephew">
+      <speaker>NEPHEW.</speaker>
+      <p>What then? my sweet Widow?</p>
+     </sp>
+     <sp who="#widow_brady">
+      <speaker>WIDOW.</speaker>
+      <p>I would desire you to run away with me as fast as you can; what a pity it is, that this money, which my heart despises, should hinder its happiness, or that for want of a few dirty acres, a poor woman must be made miserable, and sacrificed twice to those who have them.</p>
+     </sp>
+     <sp who="#nephew">
+      <speaker>NEPHEW.</speaker>
+      <p>Heaven forbid! these exquisite sentiments endear you more to me, and distract me with the dread of losing you.</p>
+     </sp>
+     <sp who="#bates">
+      <speaker>BATES.</speaker>
+      <p>Young folks; let an old man who is not quite in love, and yet will admire a fine woman to the day of his death, throw in a little advice among your flames and darts.</p>
+     </sp>
+     <sp who="#widow_brady">
+      <speaker>WIDOW.</speaker>
+      <p>Tho' a woman, a widow, and in love too—I can hear reason, Mr. BATES.</p>
+     </sp>
+     <sp who="#bates">
+      <speaker>BATES.</speaker>
+      <p>And that's a wonder—you have no time to lose; for want of a jointure you are still your father's slave; he is obstinate, and has promis'd you to the old man: Now, madam, if you will not rise superior to your sexes weakness, to secure a young fellow instead of an old one, your eyes are a couple of hypocrites.</p>
+     </sp>
+     <sp who="#widow_brady">
+      <pb n="15" facs="19"/>
+      <speaker>WIDOW.</speaker>
+      <p>They are a eouple of traytors I'm sure, and have led their mistress into a toil, from which all her wit cannot release her.</p>
+     </sp>
+     <sp who="#nephew">
+      <speaker>NEPHEW.</speaker>
+      <p>But it can, if you will but exert it; my Uncle ador'd and fell in love with you, for your beauty, softness, and almost speechless reserve. Now, if amidst all his rapturous ideas of your delicacy, you would bounce upon him a wild, ranting buxom widow; he will grow sick of his bargain, and give me a fortune to take you off his hands.</p>
+     </sp>
+     <sp who="#widow_brady">
+      <speaker>WIDOW.</speaker>
+      <p>I shall make a very bad actress,</p>
+     </sp>
+     <sp who="#nephew">
+      <speaker>NEPHEW.</speaker>
+      <p>You are an excellent mimic; assume but the character of your Irish female neighbour in the country, with which you astonish'd us so agreeably at Scarborough; you will frighten my Uncle into terms, and do that for us, which neither my love, nor your virtue, can accomplish without it.</p>
+     </sp>
+     <sp who="#widow_brady">
+      <speaker>WIDOW.</speaker>
+      <p>Now for a trial— <stage>(mimicking a strong brogue)</stage>—fait and trot, if you will be after bringing me before the old Gontleman, if he loves musick, I will trate his ears with a little of the brogue, and some dancing too into the bargain, if he loves capering—O bless me! my heart fails me, and I am frighten'd out of my wits; I can never go thro' it. <stage>(<hi>NEPHEW</hi> and <hi>BATES</hi> both laugh.</stage>
+      </p>
+     </sp>
+     <sp who="#nephew">
+      <speaker>NEPHEW,</speaker>
+      <p>
+       <stage>kneeling and kissing her hand.</stage> O 'tis admirable! love himself inspires you, and we shall conquer; what say you, Mr. BATES?</p>
+     </sp>
+     <sp who="#bates">
+      <pb n="16" facs="20"/>
+      <speaker>BATES.</speaker>
+      <p>I'll insure you success; I can scarce believe my own cars; such a tongue and a brogue would make Hercules tremble at five-and-twenty; but away, away, and give him the first broadside in the Park; there you'll find him hobbling with that old cuckold, KECKSY.</p>
+     </sp>
+     <sp who="#widow_brady">
+      <speaker>WIDOW.</speaker>
+      <p>But will my dress suit the character I play?</p>
+     </sp>
+     <sp who="#nephew">
+      <speaker>NEPHEW.</speaker>
+      <p>The very thing; is your retinue ready, and your part got by heart?</p>
+     </sp>
+     <sp who="#widow_brady">
+      <speaker>WIDOW.</speaker>
+      <p>All is ready; 'tis an act of despair to punish folly, and reward merit: 'tis the last effort of pure honourable love; and if every woman would exert the same spirit for the same out-of-fashion rarity, there would be less business for Doctors Commons: Now let the criticks laugh at me if they dare. <stage>[Exit with spirit.</stage>
+      </p>
+     </sp>
+     <sp who="#nephew">
+      <speaker>NEPHEW.</speaker>
+      <p>Brava! bravissima! sweet Widow!<stage>[Exit after her.</stage>
+      </p>
+     </sp>
+     <sp who="#bates">
+      <speaker>BATES.</speaker>
+      <p>Huzza! huzza!<stage>[Exit.</stage>
+      </p>
+     </sp>
+    </div>
+    <div type="scene">
+     <head>SCENE, <stage>the Park.</stage>
+     </head>
+     <stage>Enter <hi>WHITTLE</hi> and <hi>KECKSY.</hi>
+     </stage>
+     <sp who="#whittle">
+      <speaker>WHITTLE.</speaker>
+      <p>Yes, yes, she is Irish, but so modest, so mild, and so tender, and just enough of the accent to give a peculiar sweetness to her words, which drop from her in monasyllables, with such a delicate reserve, that I shall have all the comfort, without the impertinence of a wife.</p>
+     </sp>
+     <sp who="#kecksy">
+      <pb n="17" facs="21"/>
+      <speaker>KECK.</speaker>
+      <p>There our taste differs, friend; I am for a lively smart girl in my house, hugh! hugh! to keep up my spirits, and make me merry; I don't admire dumb waiters, not I, no still-life for me; I love their prittle prattle, it sets me to sleep, and I can take a sound nap while my sally and her cousin, are running and playing about the house like young cats.</p>
+     </sp>
+     <sp who="#whittle">
+      <speaker>WHITTLE.</speaker>
+      <p>I am for no cats in my house; I cannot sleep with a noise; the widow was made on purpose for me; she is so bashful, has no acquaintance, and she never would stir out of doors, if her friends were not afraid of a consumption, and so force her into the air: Such a delicate creature! you shall see her; you were always for a tall chattering, frisky, wench; now for my part I am with the old saying,</p>
+      <l>Wife a mouse</l>
+      <l>Quiet house;</l>
+      <l>Wife a cat,</l>
+      <l>Dreadful that.</l>
+     </sp>
+     <sp who="#kecksy">
+      <speaker>KECK.</speaker>
+      <p>I don't care for your sayings—who's afraid?</p>
+     </sp>
+     <sp who="#whittle">
+      <speaker>WHITTLE.</speaker>
+      <p>There goes BATES, let us avoid him, he will only be joking with us; when I have taken a serious thing into my head, I can't bear to have it laugh'd out again. This way, friend KECKSY—what have we got here?</p>
+     </sp>
+     <sp who="#kecksy">
+      <speaker>KECK.</speaker>
+      <p>Some fine prancing wench, with her lovers and footman about her; she's a gay one by her motions.</p>
+     </sp>
+     <sp who="#whittle">
+      <speaker>WHITTLE.</speaker>
+      <p>Were she not so flaunting, I should take it for—
+<pb n="18" facs="22"/>
+No, it is impossible; and yet is not that my Nephew with her? I forbad him speaking to her; it can't be the widow; I hope it is not.</p>
+     </sp>
+     <stage>Enter <hi>WIDOW</hi> followed by <hi>NEPHEW,</hi> three <hi>Footmen,</hi> and a black <hi>Boy.</hi>
+     </stage>
+     <sp who="#widow_brady">
+      <speaker>WIDOW.</speaker>
+      <p>Don't bother me, young man, with your darts, your cupids, and your pangs; if you had half of 'em about you, that you swear you have, they would have cur'd you, by killing you long ago. Would you have me faitless to your Uncle, hah! young man? Was not I faitful to you, 'till I was order'd to be faitful to him? but I must know more of your English ways, and live more among the English Ladies, to learn how to be faitful to two at a time—and so there's my answer for you.</p>
+     </sp>
+     <sp who="#nephew">
+      <speaker>NEPHEW.</speaker>
+      <p>Then I know my relief, for I cannot live without you. <stage>(Exit.</stage>
+      </p>
+     </sp>
+     <sp who="#widow_brady">
+      <speaker>WIDOW.</speaker>
+      <p>Take what relief you plase, young Jontleman, what have I to do with dat? He is certainly mad, or out of his sinses, for he swears he can't <hi>live</hi> without me, and yet he talks of <hi>killing</hi> himself; how does he make out dat? If a countryman of mine had made such a blunder, they would have put it into all the news-papers, and Falkner's Journal beside; but an Englishman may look over the hedge, while an Irishman must not stale a horse.</p>
+     </sp>
+     <sp who="#kecksy">
+      <speaker>KECK.</speaker>
+      <p>Is this the Widow, friend WHITTLE?</p>
+     </sp>
+     <sp who="#whittle">
+      <speaker>WHITTLE.</speaker>
+      <p>I don't know <stage>(half sighing)</stage> it is, and it is not.</p>
+     </sp>
+     <sp who="#widow_brady">
+      <speaker>WIDOW.</speaker>
+      <p>Your servant, Mr. WHITTOL; I wish you would
+<pb n="19" facs="23"/>
+spake to your Nephew not to be whining and dangling after me all day in his green coat like a parrot: It is not for my reputation that he should follow me about like a beggar-man, and ask me for what I had given him long ago, but have since bestow'd upon you, Mr. WHITTOL:</p>
+     </sp>
+     <sp who="#whittle">
+      <speaker>WHITTLE.</speaker>
+      <p>He is an impudent beggar, and shall be really so, for his disobedience.</p>
+     </sp>
+     <sp who="#widow_brady">
+      <speaker>WIDOW.</speaker>
+      <p>As he can't live without me, you know, it will be charity to starve him: I wish the poor young man dead with all my heart, as he thinks it will do him a grate dale of good.</p>
+     </sp>
+     <sp who="#kecksy">
+      <speaker>KECK.</speaker>
+      <p>
+       <stage>(to WHITTLE.)</stage> She is tender, indeed! and I think she has the brogue a little—hugh! hugh!</p>
+     </sp>
+     <sp who="#whittle">
+      <speaker>WHITTLE.</speaker>
+      <p>'Tis stronger to day than ever I heard it. <stage>(staring.</stage>
+      </p>
+     </sp>
+     <sp who="#widow_brady">
+      <speaker>WIDOW.</speaker>
+      <p>And are you now talking of my brogue? It is always the most fullest when the wind is aesterly; it has the same effect upon me, as upon stammering people—they can't spake for their impediment, and my tongue is fix'd so loose in my mouth, I can't stop it for the life of me.</p>
+     </sp>
+     <sp who="#whittle">
+      <speaker>WHITTLE.</speaker>
+      <p>What a terrible misfortune, friend KECKSY!</p>
+     </sp>
+     <sp who="#kecksy">
+      <speaker>KECK.</speaker>
+      <p>Not at all; the more tongue the better, say I.</p>
+     </sp>
+     <sp who="#widow_brady">
+      <speaker>WIDOW.</speaker>
+      <p>When the wind changes I have no brogue at all, at all. But come, Mr. WHITTOL, don't let us be vulgar, and talk of our poor relations. It is impossible
+<pb n="20" facs="24"/>
+to be in this metropolis of London, and have any thought but of Operas, Plays, Masquerades, and Pantaons, to keep up one's spirits in the winter; and Ranelagh, Vauxhall, and Marybone fireworks to cool and refresh one in the summer. La! la! la!<stage>(sings.</stage>
+      </p>
+     </sp>
+     <sp who="#whittle">
+      <speaker>WHITTLE.</speaker>
+      <p>I protest she puts me into a sweat; we shall have a mob about us.</p>
+     </sp>
+     <sp who="#kecksy">
+      <speaker>KECK.</speaker>
+      <p>The more the merrier, I say—who's afraid?</p>
+     </sp>
+     <sp who="#widow_brady">
+      <speaker>WIDOW.</speaker>
+      <p>How the people stare! as if they never saw a woman's voice before; but my vivacity has got the better of my good manners. This, I suppose, this strange gentleman, is a near friend and relation, and as such, notwithstanding his apparance, I shall always trate him, though I might dislike him upon a nearer acquaintance.</p>
+     </sp>
+     <sp who="#kecksy">
+      <speaker>KECK.</speaker>
+      <p>Madam, you do me honour; I like your frankness, and I like your person, and I envy my friend WHITTLE, and if you were not engaged, and I were not married, I would endeavour to make myself agreeable to you, that I would—hugh! hugh!</p>
+     </sp>
+     <sp who="#widow_brady">
+      <speaker>WIDOW.</speaker>
+      <p>And indeed, Sir, it would be very <hi>agraable</hi> to <hi>me</hi>; for if I should hate you as much as I did my first dare husband; I should always have the comfort, that in all human probability, my torments would not last long.</p>
+     </sp>
+     <sp who="#kecksy">
+      <speaker>KECK.</speaker>
+      <p>She utters something more than monosyllables, friend; this is better than bargain: She has a fine bold way of talking.</p>
+     </sp>
+     <sp who="#whittle">
+      <pb n="21" facs="25"/>
+      <speaker>WHITTLE.</speaker>
+      <p>More bold than welcome! I am struck all of a heap!</p>
+     </sp>
+     <sp who="#widow_brady">
+      <speaker>WIDOW.</speaker>
+      <p>What are you low spirited, my dare Mr. WITTOL? When you were at Scarborough, and winning my affections, you were all mirth and gaiety; and now you have won me, you are as thoughtful about it as if we had been married some time.</p>
+     </sp>
+     <sp who="#whittle">
+      <speaker>WHITTLE.</speaker>
+      <p>Indeed, Madam, I can't but say I am a little thoughtful—we take it by turns; you were very sorrowful a month ago for the loss of your husband, and that you could dry up your tears so soon, naturally makes me a little thoughtful.</p>
+     </sp>
+     <sp who="#widow_brady">
+      <speaker>WIDOW.</speaker>
+      <p>Indeed, I could dry up my tears for a dozen husbands, when I were sure of having a tirteenth like Mr. WITTOL; that's very natural sure both in England and Dublin too.</p>
+     </sp>
+     <sp who="#kecksy">
+      <speaker>KECK.</speaker>
+      <p>She won't die of a consumption; she has a fine full-ton'd voice, and you'll be very happy, TOM.—Hugh! hugh!</p>
+     </sp>
+     <sp who="#whittle">
+      <speaker>WHITTLE.</speaker>
+      <p>O yes, very happy. <stage>(aside.</stage>
+      </p>
+     </sp>
+     <sp who="#widow_brady">
+      <speaker>WIDOW.</speaker>
+      <p>But come don't let us be melancholy before the time: I am sure I have been mop'd up for a year and a half, I was oblig'd to mourn for my first husband, that I might be sure of a second; and my father kept my spirits in subjection, as the best receipt (he said) for changing a widow into a wife. But now I have my arms and legs at liberty, I must and will have my swing; now I am out of
+<pb n="22" facs="26"/>
+my cage I could dance two nights togeder, and a day too, like any singing bird; and I'm in such spirits that I have got rid of my father, I could fly over the moon without wings, and back again, before dinner. Bless my eyes, and don't I see there Miss Nancy O'Flarty, and her brother, Captain O'Flarty? He was one of my dying Strephons at Scarborough. I have a very grate regard for him, and must make him a little miserable with my happiness <stage>(curtseys).</stage> Come along Skips, <stage>(to the servants)</stage> don't you be gostring there; shew your liveries, and bow to your master that is to be, and to his friend, and hold up your heads, and trip after me as lightly as if you had no legs to your feet. I shall be with you again, Jontlemen, in the crack of a fan—O, I'll have a husband, ay marry. <stage>(Exit singing.</stage>
+      </p>
+     </sp>
+     <sp who="#kecksy">
+      <speaker>KECK.</speaker>
+      <p>A fine buxom widow, faith! no acquaintance—delicate reserve—mopes at home—forc'd into the air—inclin'd to a consumption—What a description you gave of your wife! why she beats my Sally, TOM.</p>
+     </sp>
+     <sp who="#whittle">
+      <speaker>WHITTLE.</speaker>
+      <p>Yes, and she'll beat me if I don't take care! What a change is here! I must turn about, or this will turn my head: Dance for two nights together, and leap over the moon! you shall dance and leap by yourself that I'm resolv'd.</p>
+     </sp>
+     <sp who="#kecksy">
+      <speaker>KECK.</speaker>
+      <p>Here she comes again; it does my heart good to see her. You are in luck, TOM.</p>
+     </sp>
+     <sp who="#whittle">
+      <speaker>WHITTLE.</speaker>
+      <p>I'd give a finger to be out of such luck.</p>
+     </sp>
+     <stage>Enter <hi>WIDOW,</hi> &amp;c.</stage>
+     <sp who="#widow_brady">
+      <speaker>WIDOW.</speaker>
+      <p>Ha! ha! ha! the poor captain is marched off
+<pb n="23" facs="27"/>
+in a fury. He can't bear to hear that the town has capitulated to you, Mr. WHITTOL. I have promised to introduce him to you: He will make one of my danglers to take a little exercise with me, when you take your nap in the afternoon.</p>
+     </sp>
+     <sp who="#whittle">
+      <speaker>WHITTLE.</speaker>
+      <p>You shan't catch me napping, I assure you. What a discovery and escape I have made! I am in a sweat with the thoughts of my danger!</p>
+     </sp>
+     <sp who="#kecksy">
+      <speaker>KECK.</speaker>
+      <p>I protest, Cousin, there goes my wife, and her friend Mr. Mac Brawn. What a fine stately couple they are! I must after 'em, and have a laugh with them—now they giggle, and walk quick, that I mayn't overtake 'em. Madam, your servant. You're a happy man, TOM. Keep up your spirits, old boy. Hugh! hugh! who's afraid!<stage>(Exit.</stage>
+      </p>
+     </sp>
+     <sp who="#widow_brady">
+      <speaker>WIDOW.</speaker>
+      <p>I know Mr. Mac Brawn extremely well—He was very intimate at our house, in my first husband's time; a great comfort he was to me to be sure! He would very often leave his claret and companions for a little conversation with me. He was bred at the Dublin Univarsity, and being a very deep scholar, has fine talents for a tate a tate.</p>
+     </sp>
+     <sp who="#whittle">
+      <speaker>WHITTLE.</speaker>
+      <p>She knows him too! I shall have my house overrun with the <hi>Mac Brawns, O'Shoulders,</hi> and the blood of the <hi>Backwells</hi>; lord have mercy upon me!</p>
+     </sp>
+     <sp who="#widow_brady">
+      <speaker>WIDOW.</speaker>
+      <p>Pray, Mr. WHITTOL, is that poor spindle legg'd crater of a cousin of your's, lately married? ha! ha! ha! I don't pity the poor crater his wife, for that agraable cough of his will soon reward her for all her sufferings.</p>
+     </sp>
+     <sp who="#whittle">
+      <pb n="24" facs="28"/>
+      <speaker>WHITTLE.</speaker>
+      <p>What a delivery! a reprieve before the knot was tied. <stage>(aside.)</stage>
+      </p>
+     </sp>
+     <sp who="#widow_brady">
+      <speaker>WIDOW.</speaker>
+      <p>Are you unwell, Mr. WITTOL? I should be sorry you would fall sick before the happy day. Your being in danger afterwards would be a great consolation to me, because I should have the pleasure of nursing you myself.</p>
+     </sp>
+     <sp who="#whittle">
+      <speaker>WHITTLE.</speaker>
+      <p>I hope never to give you that trouble, madam.</p>
+     </sp>
+     <sp who="#widow_brady">
+      <speaker>WIDOW.</speaker>
+      <p>No trouble at all, at all; I assure, Sir, from my soul, that I shall take great delight in the occasion.</p>
+     </sp>
+     <sp who="#whittle">
+      <speaker>WHITTLE.</speaker>
+      <p>Indeed, madam, I believe it.</p>
+     </sp>
+     <sp who="#widow_brady">
+      <speaker>WIDOW.</speaker>
+      <p>I don't care how soon, the sooner the better; and the more danger the more honour; I spake from my heart.</p>
+     </sp>
+     <sp who="#whittle">
+      <speaker>WHITTLE.</speaker>
+      <p>And so do I from mine, madam. <stage>(sighs.)</stage>
+      </p>
+     </sp>
+     <sp who="#widow_brady">
+      <speaker>WIDOW.</speaker>
+      <p>But don't let us think of future pleasure, and neglect the present satisfaction. My mantua-maker is waiting for me to chuse my clothes, in which I shall forget the sorrows of Mrs. Brady, in the joys of Mrs. Wittol. Tho' I have a fortune myself, I shall bring a tolerable one to you, in debts, Mr. WITTOL, and which I will pay you tinfold in tinderness; your deep purse, and my open heart, will make us the envy of the little grate ones, and the grate little ones; the people of quality with no souls, and grate souls with no cash at all. I hope you'll meet me at the Panteon this evening.
+<pb n="25" facs="29"/>
+Lady Rantiton, and her daughter, Miss Nettledown, and Nancy Tittup, with half a dozen Maccaroonics, and two savoury vivers, are to take me there, and we propose a grate dale of chat and merriment, and dancing all night, and all other kind of recreations. I am quite another kind of a crater, now I am a bird in the fields; I can junket about for a week together; I have a fine constitution, and am never molested with your nasty vapours; are you ever troubled with vapours, Mr. WHITTOL?</p>
+     </sp>
+     <sp who="#whittle">
+      <speaker>WHITTLE.</speaker>
+      <p>A little now and then, madam.</p>
+     </sp>
+     <sp who="#widow_brady">
+      <speaker>WIDOW.</speaker>
+      <p>I'll rattle 'em away like smoke! there are no vapours where I come; I hate your dumps, and your nerves, and your megrims; and I had much rather break your rest with a little racketting, than let any thing get into your head that should not be there, Mr. WHITTOL?</p>
+     </sp>
+     <sp who="#whittle">
+      <speaker>WHITTLE.</speaker>
+      <p>I will take care that nothing shall be in my head, but what ought to be there: What a deliverance?<stage>(aside.)</stage>
+      </p>
+     </sp>
+     <sp who="#widow_brady">
+      <speaker>WIDOW.</speaker>
+      <p>
+       <stage>(Looking at her watch.)</stage> Bless me! how the hours of the clock creep away when we are plas'd with our company: but I must lave you, for there are half a hundred people waiting for me to pick your pocket, Mr. WITTOL; and there is my own brother, lieutenant O Neale, is to arrive this morning, and he is so like me, you would not know us asunder when we are together; you will be very fond of him, poor lad! he lives by his wits, as you do by your fortune, and so you may assist one another. Mr.
+<pb n="26" facs="30"/>
+WITTOL, your obadient, 'till we meet at the Pantaon. Follow me Pompey; and Skips do you follow him.</p>
+     </sp>
+     <sp who="#pompey">
+      <speaker>POMPEY.</speaker>
+      <p>The Baccararo whiteman no let blacky boy go first after you missis, they pull and pinch me.</p>
+     </sp>
+     <sp who="#footman">
+      <speaker>FOOTMAN.</speaker>
+      <p>It is a shame, your ladyship, that a black negro should take place of English christians—we can't follow him indeed.</p>
+     </sp>
+     <sp who="#widow_brady">
+      <speaker>WIDOW.</speaker>
+      <p>Then you may follow one another out of my sarvice; if you follow me, you shall follow him, for he shall go before me; can't I make him your superior, as the laws of the land have made him your aqual? therefore resign as fast as you plase, you shan't oppose government and keep your places too, that is not good politicks in England or Ireland either, so come along Pompay, be after going before me—Mr. WHITTOL, most tinderly your's. <stage>[Exit.</stage>
+      </p>
+     </sp>
+     <sp who="#whittle">
+      <speaker>WHITTLE.</speaker>
+      <p>
+       <hi>Most tinderly your's!</hi>
+       <stage>(mimicks her.)</stage> 'Ecod I believe you are, and any body's else; O what an escape have I had! But how shall I clear myself of this business? I'll serve her as I would bad money, put her off into other hands: My NEPHEW is fool enough to be in love with her, and if I give him a fortune he'll take the good and the bad together—he shall do so or starve. I'll send for BATES directly, confess my folly, ask his pardon, send him to my NEPHEW, write and declare off with the WIDOW, and so get rid of her <hi>tinderness</hi> as fast as I can. <stage>[Exit.</stage>
+      </p>
+     </sp>
+    </div>
+    <trailer>END OF THE FIRST ACT.</trailer>
+   </div>
+   <div n="2" type="act">
+    <pb n="27" facs="31"/>
+    <head>ACT II.</head>
+    <stage>A Room in <hi>WHITTLE</hi>'s House.</stage>
+    <stage>Enter <hi>BATES,</hi> and <hi>NEPHEW.</hi>
+    </stage>
+    <sp who="#nephew">
+     <speaker>NEPHEW</speaker>
+     <p>
+      <stage>(taking him by the hand.)</stage> WE are bound to you for ever, Mr. BATES; I can say no more; words but ill express the real feelings of the heart.</p>
+    </sp>
+    <sp who="#bates">
+     <speaker>BATES.</speaker>
+     <p>I know you are a good lad, or I would not have meddled in the matter, but the business is not yet compleated till <hi>Signatum &amp; Sigillatum.</hi>
+     </p>
+    </sp>
+    <sp who="#nephew">
+     <speaker>NEPHEW.</speaker>
+     <p>Let me fly to the WIDOW, and tell her how prosperously we go on.</p>
+    </sp>
+    <sp who="#bates">
+     <speaker>BATES.</speaker>
+     <p>Don't be in a hurry young man; she is not in the dark I assure you, nor has she yet finish'd her part; so capital an actress, should not be idle in the last act.</p>
+    </sp>
+    <sp who="#nephew">
+     <speaker>NEPHEW.</speaker>
+     <p>I could wish that you would let me come into my Uncle's proposal at once, without vexing him farther.</p>
+    </sp>
+    <sp who="#bates">
+     <speaker>BATES.</speaker>
+     <p>Then I declare off; thou silly young man, are you to be dup'd by your own weak good nature, and his worldly craft; this does not arise from his love and justice to you, but from his own miserable situation; he must be tortur'd into justice; he shall not only give up your whole estate, which he
+<pb n="28" facs="32"/>
+is loth to part with, but you must now have a premium for agreeing to your own happiness; what shall your widow, with wit and spirit, that would do the greatest honour to our sex, go thro' her task chearfully, and shall your courage give way, and be outdone by a woman's?—fie for shame!</p>
+    </sp>
+    <sp who="#nephew">
+     <speaker>NEPHEW.</speaker>
+     <p>I beg your pardon, Mr. BATES; I will follow your directions; be as hard hearted as my Uncle, and vex his body and mind for the good of his soul.</p>
+    </sp>
+    <sp who="#bates">
+     <speaker>BATES.</speaker>
+     <p>That's a good child, and remember that your own and the Widow's future happiness depends upon your both going through this business with spirit; make your Uncle feel for himself, that he may do justice to other people. Is the Widow ready for the last experiment?</p>
+    </sp>
+    <sp who="#nephew">
+     <speaker>NEPHEW.</speaker>
+     <p>She is; but think what anxiety I shall feel, while she is in danger?</p>
+    </sp>
+    <sp who="#bates">
+     <speaker>BATES.</speaker>
+     <p>Ha! ha! ha! she'll be in no danger; besides, shan't we be at hand to assist her; hark! I hear him coming; I'll probe his callous heart to the quick; and if we are not paid for our trouble, say I am no politician; fly—now we shall do!<stage>[Exit <hi>NEPHEW.</hi>
+      </stage>
+     </p>
+    </sp>
+    <stage>Enter <hi>WHITTLE.</hi>
+    </stage>
+    <sp>
+     <p>Well, Mr. BATES, have you talk'd with my NEPHEW, is not he overjoy'd at the proposal?</p>
+    </sp>
+    <sp who="#bates">
+     <speaker>BATES.</speaker>
+     <p>The demon of discord has been among you, and has untun'd the whole family; you have screw'd him too high; the young man is out of his senses,
+<pb n="29" facs="33"/>
+I think, he stares and mopes about, and sighs; looks at me indeed, but gives very absurd answers; I don't like him.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>What is the matter think you?</p>
+    </sp>
+    <sp who="#bates">
+     <speaker>BATES.</speaker>
+     <p>What I have always expected; there is a crack in your family, and you take it by turns! you have had it, and now transfer it to your Nephew, which, to your shame be it spoken, is the only transfer you have ever made him.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>But am not I going to do him more than justice?</p>
+    </sp>
+    <sp who="#bates">
+     <speaker>BATES.</speaker>
+     <p>As you have done him much less than justice hitherto, you can't begin too soon.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>Am not I going to give him the lady he likes, and which I was going to marry myfelf?</p>
+    </sp>
+    <sp who="#bates">
+     <speaker>BATES.</speaker>
+     <p>Yes, that is, your are taking a perpetual blister off your own back, to clap it upon his; what a tender Uncle you are?</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>But you don't consider the estate which I shall give him.</p>
+    </sp>
+    <sp who="#bates">
+     <speaker>BATES.</speaker>
+     <p>
+      <hi>Restore</hi> to him you mean—'tis his own, and you should have given it up long ago; you must do more, or old nick will have you; your Nephew won't take the Widow off your hands without a fortune; throw him ten thousand into the bargain,</p>
+    </sp>
+    <sp who="#whittle">
+     <pb n="30" facs="34"/>
+     <speaker>WHITTLE.</speaker>
+     <p>Indeed but I shan't; he shall run mad, and I'll marry her myself, rather than do that; Mr. BATES, be a true friend, and sooth my Nephew to consent to my proposal.</p>
+    </sp>
+    <sp who="#bates">
+     <speaker>BATES.</speaker>
+     <p>You have rais'd the fiend, and ought to lay him; however, I'll do my best for you; when the head is turn'd, nothing can bring it right again, so soon as ten thousand pounds; shall I promise for you?</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>I'll sooner go to Bedlam myself. <stage>[Exit <hi>BATES.</hi>
+      </stage>
+     </p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>Why I am in a worse condition than I was before! If this Widow's father will not let me be off without providing for his daughter, I may lose a great sum of money, and none of us be the better for it: My Nephew half mad; myself half married; and no remedy for either of us.</p>
+     <stage>Enter <hi>Servant.</hi>
+     </stage>
+     <p>Sir Patrick O' Neale is come to wait upon you, would you please to see him?</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>By all means, the very person I wanted, don't let him wait. <stage>[Exit Servant.</stage>
+     </p>
+     <p>I wonder if he has seen my letter to the Widow; I will sound him by degrees, that I may be sure of my mark, before I strike the blow.</p>
+    </sp>
+    <stage>Enter Sir <hi>PATRICK.</hi>
+    </stage>
+    <sp who="#sir_patrick_o_neale">
+     <speaker>Sir PATRICK.</speaker>
+     <p>Mr. WHIZZLE, your humble sarvant; it gives me grate pleasure, that an old Jontleman of your property, will have the honour of being united with the family of the O' Neale's; we have been too much Jontlemen, not to spend our estate, as
+<pb n="31" facs="35"/>
+you have made yourself a kind of Jontleman by getting one; one runs out one way, and t'other runs in another, which makes them both meet at last, and keeps up the ballance of Europe.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>I am much oblig'd to you, Sir PATRICK; I am an old gentleman, you say true; and I was thinking—</p>
+    </sp>
+    <sp who="#sir_patrick_o_neale">
+     <speaker>
+      <hi>Sir</hi> PATRICK.</speaker>
+     <p>And I was thinking if you were ever so old, my daughter can't make you young again; she has as fine rich tick blood in her veins, as any in all Ireland. I wish you had a swate crater of a daughter like mine, that we might make a double cross of it.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>That would be a double cross indeed!<stage>(aside.)</stage>
+     </p>
+    </sp>
+    <sp who="#sir_patrick_o_neale">
+     <speaker>
+      <hi>Sir</hi> PATRICK.</speaker>
+     <p>Tho' I was miserable enough with my first wife, who had the devil of a spirit, and the very moddel of her daughter, yet a brave man never shrinks from danger, and I may have better luck another time.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>Yes, but I am no brave man, Sir PATRICK, and I begin to shrink already.</p>
+    </sp>
+    <sp who="#sir_patrick_o_neale">
+     <speaker>
+      <hi>Sir</hi> PATRICK.</speaker>
+     <p>I have bred her up in great subjiction; she is as tame as a young colt, and as tinder as a sucking chicken; you will find her a true Jontlewoman, and so knowing, that you can tache her nothing; she brings every thing but money, and you have enough of that, if you have nothing else, and that is what I call the ballance of things.</p>
+    </sp>
+    <sp who="#whittle">
+     <pb n="32" facs="36"/>
+     <speaker>WHITTLE.</speaker>
+     <p>But I have been considering your daughter's great deserts, and my great age—</p>
+    </sp>
+    <sp who="#sir_patrick_o_neale">
+     <speaker>
+      <hi>Sir</hi> PATRICK.</speaker>
+     <p>She is a charming crater; I would venture to say that, if I was not her father.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>I say, Sir, as I have been considering your daughter's great deserts, and as I own I have great demerits—</p>
+    </sp>
+    <sp who="#sir_patrick_o_neale">
+     <speaker>
+      <hi>Sir</hi> PATRICK.</speaker>
+     <p>To be sure you have, but you can't help that; and if my daughter was to mention any thing of a fleering at your age, or your stinginess, by the ballance of power but I would make her repate it a hundred times to your face, to make her asham'd of it; but mum, old gentleman, the devil a word of your infirmities will she touch upon; I have brought her up to softness, and to gentleness, as a kitten to new milk; she will spake nothing but no, and yes, as if she were dumb; and no tame rabbit or pigeon will keep house, or be more inganious with her needle and tambourine.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>She is vastly altered then, since I saw her last, or I have lost my senses, and in either case, we had much better, since I must speak plain, not come together—</p>
+    </sp>
+    <sp who="#sir_patrick_o_neale">
+     <speaker>
+      <hi>Sir</hi> PATRICK.</speaker>
+     <p>'Till you are married, you mean—with all my heart, it is the more gentale for that, and like our family: I never saw lady O'Nale, your mother-in-law, who poor crater is dead, and can never be a mother-in-law again, 'till the week before I married her, and I did not care if I had never seen her
+<pb n="33" facs="37"/>
+then, which is a comfort too in case of death, or other accidents in life.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>But you don't understand me, Sir PATRICK I say—</p>
+    </sp>
+    <sp who="#sir_patrick_o_neale">
+     <speaker>
+      <hi>Sir</hi> PATRICK.</speaker>
+     <p>I say, how can that be, when we both spake English.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>But you mistake my meaning, and don't comprehend me.</p>
+    </sp>
+    <sp who="#sir_patrick_o_neale">
+     <speaker>
+      <hi>Sir</hi> PATRICK.</speaker>
+     <p>Then you don't comprehend yourself, Mr. WHIZZLE, and I have not the gift of prophecy, to find out after you have spoke, what never was in you.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>Let me intreat you to attend to me a little.</p>
+    </sp>
+    <sp who="#sir_patrick_o_neale">
+     <speaker>
+      <hi>Sir</hi> PATRICK.</speaker>
+     <p>I do attend, man; I don't interrupt you—out with it.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>Your daughter—</p>
+    </sp>
+    <sp who="#sir_patrick_o_neale">
+     <speaker>
+      <hi>Sir</hi> PATRICK.</speaker>
+     <p>Your wife that is to be. Go on—</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>My wife that is <hi>not</hi> to be—Zounds! will you hear me?</p>
+    </sp>
+    <sp who="#sir_patrick_o_neale">
+     <speaker>
+      <hi>Sir</hi> PATRICK.</speaker>
+     <p>To be, or <hi>not</hi> to be, is that the question? I can swear too, if it wants a little of that.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>Dear Sir Patrick hear me. I confess myself unworthy of her; I have the greatest regard for you, Sir PATRICK; I should think myself honour'd by being in your family, but there are many reasons—</p>
+    </sp>
+    <sp who="#sir_patrick_o_neale">
+     <pb n="34" facs="38"/>
+     <speaker>
+      <hi>Sir</hi> PATRICK.</speaker>
+     <p>To be sure there are many reasons, why an old man should not marry a young woman; but as that was your business and not mine.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>I have wrote a letter to your daughter, which I was in hopes you had seen, and had brought me an answer to it.</p>
+    </sp>
+    <sp who="#sir_patrick_o_neale">
+     <speaker>
+      <hi>Sir</hi> PATRICK.</speaker>
+     <p>What the devil, Mr. WIZZLE, do you make a letter-porter of me? Do you imagine, you dirty fellow with your cash, that Sir PATRICK O NALE would carry your letters; I would have you know that I despise letters and all that belong to 'em, nor would I carry a letter to the King, Heaven bless him, unless it came from myself.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>But, dear Sir PATRICK, don't be in a passion for nothing.</p>
+    </sp>
+    <sp who="#sir_patrick_o_neale">
+     <speaker>
+      <hi>Sir</hi> PATRICK.</speaker>
+     <p>What is it nothing to make a penny post-man of me? But I'll go to my daughter directly, for I have not seen her to day, and if I find that you have written any thing that I won't understand, I shall take it an affront to my family, and you shall either let out the noble blood of the O'NALES, or we will spill the last drop of the red puddle of the WIZZELS. <stage>(Going and returns.)</stage> Harkee, old Mr. WIZZLE, WHEEZLE, WHISTLE, what's your name? You must not stir till I come back; if you offer to ate, drink, or sleep, till my honour is satisfy'd, 'twill be the worst male you ever took in your life. You had better fast a year, and die at the end of six months, than dare to lave your house. So now, Mr. WEEZLE, you are to do as you plase. <stage>(Exit.</stage>
+     </p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>Now the devil is at work indeed! If some miracle
+<pb n="35" facs="39"/>
+don't save me, I shall run mad like my Nephew, and have a long Irish sword through me into the bargain. While I am in my senses I won't have the woman; and therefore he that is out of them shall have her, if I give half my fortune to make the match. THOMAS!</p>
+     <stage>Enter <hi>THOMAS.</hi>
+     </stage>
+     <p>Sad work, THOMAS!</p>
+    </sp>
+    <sp who="#thomas">
+     <speaker>THOMAS.</speaker>
+     <p>Sad work, indeed! why would you think of marrying? I knew what it would come to.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>Why, what is it come to?</p>
+    </sp>
+    <sp who="#thomas">
+     <speaker>THOMAS.</speaker>
+     <p>It is in all the papers.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>So much the better; then no body will believe it.</p>
+    </sp>
+    <sp who="#thomas">
+     <speaker>THOMAS.</speaker>
+     <p>But they come to me to enquire.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>And you contradict it.</p>
+    </sp>
+    <sp who="#thomas">
+     <speaker>THOMAS.</speaker>
+     <p>What signifies that; I was telling Lady Gabble's footman at the door just now, that it was all a lye, and your Nephew looks out of the two-pair-of-stairs window, with eyes all on fire, and tells the whole story; upon that, there gather'd such a mob!</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>I shall be murder'd, and have my house pull'd down into the bargain!</p>
+    </sp>
+    <sp who="#thomas">
+     <speaker>THOMAS.</speaker>
+     <p>It is all quiet again; I told them the young man was out of his senses, and that you were out of
+<pb n="36" facs="40"/>
+town, so they went away quietly, and said they would come and mob you another time.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>THOMAS, what shall I do?</p>
+    </sp>
+    <sp who="#thomas">
+     <speaker>THOMAS.</speaker>
+     <p>Nothing you have done, if you will have matters mend.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>I am out of my depth, and you won't lend me your hand to draw me out.</p>
+    </sp>
+    <sp who="#thomas">
+     <speaker>THOMAS.</speaker>
+     <p>You were out of your depth to fall in love; swim away as fast as you can, you'll be drown'd if you marry.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>I'm frighten'd out of my wits; yes, yes, 'tis all over with me, I must not stir out of my house; but am order'd to stay to be murder'd in it for aught I know; what are you muttering, THOMAS? prithee speak out, and comfort me.</p>
+    </sp>
+    <sp who="#thomas">
+     <speaker>THOMAS.</speaker>
+     <p>It is all a judgement upon you; because your brother's foolish will says, the young man must have your consent; vou won't let him have her, but will marry the Widow yourself; that's the dog in the manger; you can't eat the oats, and won't let those who can.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>But I consent that he shall have both the Widow and the fortune, if we can get him into his right senses.</p>
+    </sp>
+    <sp who="#thomas">
+     <speaker>THOMAS.</speaker>
+     <p>For fear I should lose mine, I'll get out of Bedlam as soon as possible; you must provide yourself with another servant.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>The whole earth conspires against me! you shall
+<pb n="37" facs="41"/>
+stay with me till I die, and then you shall have a good legacy, and I won't live long I promise you. <stage>[Knocking at the door.</stage>
+     </p>
+    </sp>
+    <sp who="#thomas">
+     <speaker>THOMAS.</speaker>
+     <p>Here are the undertakers already. <stage>(Exit.)</stage>
+     </p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>What shall I do? my head can't bear it; I will hang myself for fear of being run thro' the body.</p>
+    </sp>
+    <sp who="#thomas">
+     <speaker>THOMAS</speaker>
+     <p>
+      <stage>returns with bills.</stage> Half a score people I never saw before with these bills, and draughts upon you, for payment, sign'd Martha Brady.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>I wish Martha Brady was at the bottom of the Thames; what an impudent extravagant baggage to begin her tricks already; send them to the devil, and say I won't pay a farthing.</p>
+    </sp>
+    <sp who="#thomas">
+     <speaker>THOMAS.</speaker>
+     <p>You'll have another mob about the door. <stage>[Going.</stage>
+     </p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>Stay, stay, THOMAS; tell them I am very busy, and they must come to-morrow morning; stay, stay, that is promising payment; no, no, no,—tell 'em they must stay till I am married, and so they will be satisfied, and trick'd into the bargain.</p>
+    </sp>
+    <sp who="#thomas">
+     <speaker>THOMAS.</speaker>
+     <p>When you are trick'd, we shall all be satisfied. <stage>[Aside.</stage>
+      <stage>[Exit <hi>THOMAS.</hi>
+      </stage>
+     </p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>That of all dreadful things I should think of a woman, and that woman should be a Widow, and that Widow should be an Irish one; <hi>quem Deus vult perdere</hi>—Who have we here? another of the family I suppose. <stage>[<hi>WHITTLE</hi> retires.</stage>
+     </p>
+    </sp>
+    <stage>
+     <pb n="38" facs="42"/>
+Enter <hi>WIDOW,</hi> as Lieutenant <hi>O' Neale,</hi> seemingly flutter'd, and putting up his sword, <hi>THOMAS</hi> following.</stage>
+    <sp who="#thomas">
+     <speaker>THOMAS.</speaker>
+     <p>I hope you are not hurt, Captain.</p>
+    </sp>
+    <sp who="#widow_brady">
+     <speaker>WIDOW.</speaker>
+     <p>O not at all, at all; 'tis well they run away, or I should have made them run faster; I shall teach them how to snigger, and look thro' glasses at their betters; these are your Maccaroons, as they call themselves; by my soul but I would frighten'd their hair out of buckle, if they wou'd have stood still, till I had overtaken them; these whipper-snappers look so much more like girls in breeches, than those I see in petticoats, that fait and trot, it is a pity to hurt 'em; the fair sex in London here seem the most masculine of the two; but to business; friend, where is your master?</p>
+    </sp>
+    <sp who="#thomas">
+     <speaker>THOMAS.</speaker>
+     <p>There Captain; I hope he has not offended you.</p>
+    </sp>
+    <sp who="#widow_brady">
+     <speaker>WIDOW.</speaker>
+     <p>If you are impartinent, Sir, you will offend me; lave the room.</p>
+    </sp>
+    <sp who="#thomas">
+     <speaker>THOMAS.</speaker>
+     <p>I value my life too much not to do that—what a raw-bon'd tartar! I wish he had not been caught and sent here. <stage>[Aside to his master, and Exit.</stage>
+     </p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>Her brother by all that's terrible! and as like her as two tygers? I sweat at the sight of him; I'm sorry THOMAS is gone; he has been quarrelling already.</p>
+    </sp>
+    <sp who="#widow_brady">
+     <speaker>WIDOW.</speaker>
+     <p>Is your name WITTOL?</p>
+    </sp>
+    <sp who="#whittle">
+     <pb n="39" facs="43"/>
+     <speaker>WHITTLE.</speaker>
+     <p>My name is WHITTLE, not WITTOL.</p>
+    </sp>
+    <sp who="#widow_brady">
+     <speaker>WIDOW.</speaker>
+     <p>We shan't stand for trifles—and you were born and christen'd by the name of Thomas?</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>So they told me, Sir.</p>
+    </sp>
+    <sp who="#widow_brady">
+     <speaker>WIDOW.</speaker>
+     <p>Then they told no lies, fait; so far, so good; <stage>[Takes out a letter.</stage>
+     </p>
+     <p>Do you know that hand-writing?</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>As well as I know this good friend of mine, who helps me upon such occasions. <stage>[Shewing his right hand and smiling.</stage>
+     </p>
+    </sp>
+    <sp who="#widow_brady">
+     <speaker>WIDOW.</speaker>
+     <p>You had better not shew your teeth, Sir, 'till we come to the jokes; the hand-writing is yours.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>Yes, Sir, it is mine. <stage>[Sighs.</stage>
+     </p>
+    </sp>
+    <sp who="#widow_brady">
+     <speaker>WIDOW.</speaker>
+     <p>Death and powder! what do you sigh for? are you asham'd, or sorry, for your handy works?</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>Partly one, partly t'other.</p>
+    </sp>
+    <sp who="#widow_brady">
+     <speaker>WIDOW.</speaker>
+     <p>Will you be plas'd, Sir, to rade it aloud, that you may know it again, when you hare it.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE</speaker>
+     <p>
+      <stage>(takes his letter and reads.)</stage> Madam— <stage>(reads.)</stage>
+     </p>
+    </sp>
+    <sp who="#widow_brady">
+     <speaker>WIDOW.</speaker>
+     <p>Would you be plas'd to let us know what madam you mean? for women of quality, and
+<pb n="40" facs="44"/>
+women of no quality, and women of all qualities, are so mixt together, that you don't know one from t'other, and are all call'd <hi>madams</hi>; you should always rade the subscription before you open the letter.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>I beg your pardon, Sir; I don't like this ceremony. <stage>(aside.)</stage> To Mrs. <hi>Brady,</hi> in Pall-Mall.</p>
+    </sp>
+    <sp who="#widow_brady">
+     <speaker>WIDOW.</speaker>
+     <p>Now prosade—fire and powder but I would—!</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>Sir!—what's the matter?</p>
+    </sp>
+    <sp who="#widow_brady">
+     <speaker>WIDOW.</speaker>
+     <p>Nothing at all, Sir; pray go on.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE</speaker>
+     <p>
+      <stage>(reads.)</stage>
+      <hi>Madam—as I prefer your happiness to the indulgence of my own passions—</hi>
+     </p>
+    </sp>
+    <sp who="#widow_brady">
+     <speaker>WIDOW.</speaker>
+     <p>I will not prefer <hi>your</hi> happiness to the indulgence of <hi>my</hi> passions—Mr. WITTOL, rade on.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>
+      <hi>I must confess that I am unworthy of your charms and virtues—</hi>
+     </p>
+    </sp>
+    <sp who="#widow_brady">
+     <speaker>WIDOW.</speaker>
+     <p>Very unworthy indeed; rade on, Sir.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>
+      <hi>I have, for some days, had a severe struggle, between my justice and my passion—</hi>
+     </p>
+    </sp>
+    <sp who="#widow_brady">
+     <speaker>WIDOW.</speaker>
+     <p>I have had no struggle at all: My justice and passion are agreed.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>
+      <hi>The former has prevail'd, and I beg leave to resigs you, with all your accomplishments, to some more deserving,</hi>
+      <pb n="41" facs="45"/>
+      <hi>tho' not more admiring servant than your most miserable and devoted,</hi> THOMAS WHITTLE.</p>
+    </sp>
+    <sp who="#widow_brady">
+     <speaker>WIDOW.</speaker>
+     <p>And miserable and devoted you shall be to the Postscript; rade on.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>
+      <hi>Postscript: Let me have your pity, but not your anger.</hi>
+     </p>
+    </sp>
+    <sp who="#widow_brady">
+     <speaker>WIDOW.</speaker>
+     <p>In answer to this Love Epistle, you pitiful fellow, my sister presents you with her tinderest wishes, and assures you that you have as you desire, her pity, and she generously throws her contempt too into the bargain.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>I'm infinitely oblig'd to her.</p>
+    </sp>
+    <sp who="#widow_brady">
+     <speaker>WIDOW.</speaker>
+     <p>I must beg lave in the name of all our family to present the same to you.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>I am ditto to all the family.</p>
+    </sp>
+    <sp who="#widow_brady">
+     <speaker>WIDOW.</speaker>
+     <p>But as a brache of promise to any of our family was never suffer'd without a brache into some body's body, I have fix'd upon myself to be your operator; and I believe that you will find that I have as fine a hand at this work, and will give you as little pain, as any in the three kingdoms. <stage>[Sits down and loosens her Knee-bands.]</stage>
+     </p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>For heaven's sake, Captain, what are you about?</p>
+    </sp>
+    <sp who="#widow_brady">
+     <speaker>WIDOW.</speaker>
+     <p>I always loosen my Garters for the advantage of lunging; it is for your sake as well as my own,
+<pb n="42" facs="46"/>
+for I will be twice thro' your body, before you shall feel me once. <stage>[She seems to practice.</stage>
+     </p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>What a bloody fellow it is? I wish THOMAS would come in. <stage>[Aside.</stage>
+     </p>
+    </sp>
+    <sp who="#widow_brady">
+     <speaker>WIDOW.</speaker>
+     <p>Come, Sir, prepare yourself, you are not the first by half a score, that I have run thro' and thro' the heart, before they knew what was the matter with them.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>But, Captain, suppose I will marry your sister.</p>
+    </sp>
+    <sp who="#widow_brady">
+     <speaker>WIDOW.</speaker>
+     <p>I have not the laste objection if you recover of your wounds; Callagon O' Conner lives very happy with my great aunt, Mrs. Deborah O' Nale, in the county of Galloway; except a small Astma he got by my running him thro' the Lungs, at the Currough; he would have forsaken her, if I had not stopp'd his perfidy, by a famous family kiptic I have here; Oho! my little old boy, but you shall get it. <stage>(Draws.</stage>
+     </p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>What shall I do!—well, Sir, if I must—I must; I'll meet you to-morrow morning in Hyde-Park, let the consequence be what it will.</p>
+    </sp>
+    <sp who="#widow_brady">
+     <speaker>WIDOW.</speaker>
+     <p>For fear you might forget that favour, I must beg to be indulged with a little pushing now; I have set my heart upon it, and two birds in hand, is worth one in the bushes, Mr. WITTOL—come, Sir.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>But I have not settled my matters.</p>
+    </sp>
+    <sp who="#widow_brady">
+     <speaker>WIDOW.</speaker>
+     <p>O we'll settle 'em in a trice, I warrant you. <stage>[puts himself in a position.]</stage>
+     </p>
+    </sp>
+    <sp who="#whittle">
+     <pb n="43" facs="47"/>
+     <speaker>WHITTLE.</speaker>
+     <p>But I don't understand the sword; I had rather fight with pistols.</p>
+    </sp>
+    <sp who="#widow_brady">
+     <speaker>WIDOW.</speaker>
+     <p>I am very happy it is in my power to oblige you; there, Sir, take your choice; I will plase you if I can. <stage>(Offers pistols.)</stage>
+     </p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>Out of the pan into the fire! there's no putting him off; if I had chosen poison, I dare swear he had arsenick in his pocket; lookee, young gentleman, I am an old man, and you'll get no credit by killing me; but I have a Nephew as young as yourself, and you'll get more honour in facing him.</p>
+    </sp>
+    <sp who="#widow_brady">
+     <speaker>WIDOW.</speaker>
+     <p>Ay, and more pleasure too—I expect ample satisfaction from him, after I have done your business; prepare, Sir.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>What the devil! won't one serve your turn; I can't fight; and I won't fight; I'll do any thing rather than fight; I'll marry your sister; my Nephew shall marry her, I'll give him all my fortune, what would the fellow have? here Nephew! Thomas! murder! murder!<stage>(He flies and she pursues.</stage>
+     </p>
+    </sp>
+    <stage>Enter <hi>BATES,</hi> and <hi>NEPHEW.</hi>
+    </stage>
+    <sp who="#nephew">
+     <speaker>NEPHEW.</speaker>
+     <p>What's the matter, Uncle?</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>Murder, that's all; that Ruffian there, would kill me, and eat me afterwards.</p>
+    </sp>
+    <sp who="#nephew">
+     <speaker>NEPHEW.</speaker>
+     <p>I'll find a way to cool him; come out, Sir, I am as mad as yourself; I'll match you, I warrant you. <stage>(Going out with him.</stage>
+     </p>
+    </sp>
+    <sp who="#widow_brady">
+     <pb n="44" facs="48"/>
+     <speaker>WIDOW.</speaker>
+     <p>I'll follow you all the world over. <stage>(Going after him.)</stage>
+     </p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>Stay, stay Nephew; you shan't fight, we shall be expos'd all over the town, and you may lose your life, and I shall be curs'd from morning to night; do, Nephew; make yourself and me happy; be the olive-branch, and bring peace into my family; return to the Widow; I will give you my consent, and your fortune, and a fortune for the Widow, five thousand pounds! do persuade him Mr. BATES.</p>
+    </sp>
+    <sp who="#bates">
+     <speaker>BATES.</speaker>
+     <p>Do, Sir, this is the very critical point of your life; I know you love her; 'tis the only method to restore us all to our senses.</p>
+    </sp>
+    <sp who="#nephew">
+     <speaker>NEPHEW.</speaker>
+     <p>I must talk in private first, with this hot young gentleman.</p>
+    </sp>
+    <sp who="#widow_brady">
+     <speaker>WIDOW.</speaker>
+     <p>As private as you plase, Sir.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>Take their weapons away, Mr. BATES, and do you follow me to my study to witness my proposal; it is all ready, and only wants signing; come along come along. <stage>[Exit.</stage>
+     </p>
+    </sp>
+    <sp who="#bates">
+     <speaker>BATES.</speaker>
+     <p>Victoria! victoria! give me your swords and pistols; and now do your worst; you spirited loving young couple; I could leap out of my skin!<stage>[Exit <hi>BATES.</hi>
+      </stage>
+     </p>
+    </sp>
+    <sp who="#thomas">
+     <speaker>THOMAS</speaker>
+     <p>
+      <stage>(peeping in.)</stage> Joy, joy to you, ye fond charming pair! the fox is caught, and the young lambs may skip and play; I leave you to your transports!<stage>[Exit.</stage>
+     </p>
+    </sp>
+    <sp who="#nephew">
+     <pb n="45" facs="49"/>
+     <speaker>NEPHEW.</speaker>
+     <p>O my charming Widow! what a day have we gone thro'?</p>
+    </sp>
+    <sp who="#widow_brady">
+     <speaker>WIDOW.</speaker>
+     <p>I would go thro' ten times as much, to deceive an old amorous rogue, like your Uncle, to purchase a young one, like his Nephew.</p>
+    </sp>
+    <sp who="#nephew">
+     <speaker>NEPHEW.</speaker>
+     <p>I listen'd at the door all this last scene; my heart was agitated with ten thousand fears; suppose my Uncle had been stout, and drawn his sword.</p>
+    </sp>
+    <sp who="#widow_brady">
+     <speaker>WIDOW.</speaker>
+     <p>I should have run away as he did; when two cowards meet, the struggle is who shall run first; and sure I can bate an old man at any thing.</p>
+    </sp>
+    <sp who="#nephew">
+     <speaker>NEPHEW.</speaker>
+     <p>Permit me thus to seal my happiness, <stage>(kisses her hand)</stage> and be assur'd that I am as sensible, as I think myself undeserving of it.</p>
+    </sp>
+    <sp who="#widow_brady">
+     <speaker>WIDOW.</speaker>
+     <p>I'll tell you what, Mr. WITTOL, were I not sure you deserv'd some pains, I would not have taken any pains for you; and don't imagine now, because I have gone a little too far for the man I love, that I shall go a little too far when I'm your wife; indeed I shan't: I have done more than I should before I am your wife, because I was in despair; but I won't do as much as I may, when I am your wife, tho' every Irish woman is fond of imitating her English betters.</p>
+    </sp>
+    <sp who="#nephew">
+     <speaker>NEPHEW.</speaker>
+     <p>Thou divine, adorable woman!<stage>(Kneels and kisses her hand.</stage>
+     </p>
+    </sp>
+    <stage>Enter <hi>WHITTLE,</hi> and <hi>BATES.</hi>
+    </stage>
+    <stage>(<hi>WHITTLE</hi> stares.</stage>
+    <sp who="#bates">
+     <speaker>BATES.</speaker>
+     <p>Confusion!<stage>(aside.)</stage>
+     </p>
+    </sp>
+    <sp who="#whittle">
+     <pb n="46" facs="50"/>
+     <speaker>WHITTLE</speaker>
+     <p>
+      <stage>(turning to <hi>BATES.</hi>)</stage> Hey day! I am afraid his head is not right yet! he was kneeling and kissing the Captain's hand. <stage>(Aside to <hi>BATES.</hi>
+      </stage>
+     </p>
+    </sp>
+    <sp who="#bates">
+     <speaker>BATES.</speaker>
+     <p>Take no notice, all will come about. <stage>(Aside to <hi>WHITTLE.</hi>
+      </stage>
+     </p>
+    </sp>
+    <sp who="#widow_brady">
+     <speaker>WIDOW.</speaker>
+     <p>I find, Mr. WHITTOL, your family loves kissing better than fighting; he swears I am as like my sister, as two pigeons: I could excuse his raptures, for I had rather fight the best friend I have, than slobber and salute him a la francoise.</p>
+    </sp>
+    <stage>Enter Sir <hi>PATRICK O'NEALE.</hi>
+    </stage>
+    <sp who="#sir_patrick_o_neale">
+     <speaker>
+      <hi>Sir</hi> PATRICK.</speaker>
+     <p>I hope, Mr. Whizzle, you'll excuse my coming back to give you an answer, without having any to give; I hear a grate dale of news about myself, and came to know if it be true; they say my son is in London, when he tells me himself by letter here, that he's at Limerick; and I have been with my daughter to tell her the news, but she would not stay at home to receave it, so I am come—O <hi>gra ma chree my little din ousil craw,</hi> what have we got here? a piece of mummery! here is my son and daughter too, fait; what are you waring the breeches, PAT, to see how they become you when you are Mrs. Weezel.</p>
+    </sp>
+    <sp who="#widow_brady">
+     <speaker>WIDOW.</speaker>
+     <p>I beg your pardon for that, Sir! I wear them before marriage, because, I think they become a woman better than after.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>What, is not this your son?</p>
+    </sp>
+    <sp who="#sir_patrick_o_neale">
+     <speaker>
+      <hi>Sir</hi> PATRICK.</speaker>
+     <p>No, but it is my daughter, and that is the same thing.</p>
+    </sp>
+    <sp who="#widow_brady">
+     <pb n="47" facs="51"/>
+     <speaker>WIDOW.</speaker>
+     <p>And your Niece, Sir, which is still better than either.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>Mighty well! and, I suppose <hi>you</hi> have not lost your wits, young man!</p>
+    </sp>
+    <sp who="#bates">
+     <speaker>BATES.</speaker>
+     <p>I simpathize with you, Sir; we lost 'em together, and found 'em at the same time.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>Here's villainy! Mr. BATES, give me the paper; not a farthing shall they have 'till the law gives it 'em.</p>
+    </sp>
+    <sp who="#bates">
+     <speaker>BATES.</speaker>
+     <p>We'll cheat the law and give it them now. <stage>(Gives <hi>NEPHEW</hi> the paper.</stage>
+     </p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>He may take his own, but he shan't have a sixpence of the five thousand pounds I promis'd him.</p>
+    </sp>
+    <sp who="#bates">
+     <speaker>BATES.</speaker>
+     <p>Witness, good folks, he owns to the promise.</p>
+    </sp>
+    <sp who="#sir_patrick_o_neale">
+     <speaker>
+      <hi>Sir</hi> PATRICK.</speaker>
+     <p>Fait I'll witness dat, or any think else in a good cause.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>What, am I chous'd again!</p>
+    </sp>
+    <sp who="#bates">
+     <speaker>BATES.</speaker>
+     <p>Why should not my friend be chous'd out of a little justice for the first time? Your hard usage has sharpen'd your Nephew's wits, therefore beware, don't play with edge-tools—you'll only cut your fingers.</p>
+    </sp>
+    <sp who="#sir_patrick_o_neale">
+     <speaker>
+      <hi>Sir</hi> PATRICK.</speaker>
+     <p>And your trote too, which is all one; therefore, to make all asy, marry my daughter first, and then quarrel with her afterwards; that will be in the natural course of things.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>Here! THOMAS! where are you?</p>
+    </sp>
+    <stage>
+     <pb n="48" facs="52"/>
+Enter <hi>THOMAS.</hi>
+    </stage>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>Here are fine doings! I am deceiv'd, trick'd, and cheated!</p>
+    </sp>
+    <sp who="#thomas">
+     <speaker>THOMAS.</speaker>
+     <p>I wish you joy, Sir; the best think could have happen'd to you; and as a faithful servant I have done my best to check you.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>To check me!</p>
+    </sp>
+    <sp who="#thomas">
+     <speaker>THOMAS.</speaker>
+     <p>You were galloping full speed and down hill too, and if we had not laid hold of the bridle, being a bad jockey, you would have hung by the horns in the stirrup, to the great joy of the whole town.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>What have <hi>you</hi> help'd to trick me?</p>
+    </sp>
+    <sp who="#thomas">
+     <speaker>THOMAS.</speaker>
+     <p>Into happiness: You have been foolish a long while, turn about and be wise; he has got the woman and his estate, give them your blessing, which is not worth much, and live like a christian for the future.</p>
+    </sp>
+    <sp who="#whittle">
+     <speaker>WHITTLE.</speaker>
+     <p>I will if I can; but I can't look at 'em; I can't bear the sound of my voice, nor the sight of my face: Look ye, I am distress'd, and distracted! and can't come to yet; I will be reconcil'd if possible; but don't let me see or hear from you, if you would have me forget and forgive you—I shall never lift up my head again!<stage>(Exit.</stage>
+     </p>
+    </sp>
+    <sp who="#widow_brady">
+     <speaker>WIDOW.</speaker>
+     <p>I hope, Sir PATRICK, that my preferring the Nephew to the Uncle will meet with your approbation; though we have not so much money, we shall have more love; one mind and half a purse, in marriage, are much better than two minds and
+<pb n="49" facs="53"/>
+two purses. I did not come to England, nor keep good company, till it was too late to get rid of my country prejudices.</p>
+    </sp>
+    <sp who="#sir_patrick_o_neale">
+     <speaker>
+      <hi>Sir</hi> PATRICK.</speaker>
+     <p>You are out of my hands, PAT, so if you won't trouble me with your afflictions, I shall sincerely rejoice at your felicity.</p>
+    </sp>
+    <sp who="#nephew">
+     <speaker>NEPHEW.</speaker>
+     <p>It would be a great abatement of my present joy, could I believe that this lady should be assisted in her happiness, or be supported in her afflictions by any one but her lover and her husband.</p>
+    </sp>
+    <sp who="#sir_patrick_o_neale">
+     <speaker>
+      <hi>Sir</hi> PATRICK.</speaker>
+     <p>Fine notions are fine tings, but a fine estate gives every ting but idaas, and them too, if you'll appale to those who help you to spend it—what say you, Widow?</p>
+    </sp>
+    <sp who="#widow_brady">
+     <speaker>WIDOW.</speaker>
+     <p>By your, and their permission, I will tell them to this good company; and for fear my words should want ideas too, I will add an Irish tune to 'em, that may carry off a bad voice, and bad matter.</p>
+     <lg type="song">
+      <head>SONG.</head>
+      <lg>
+       <l>A Widow bewitch'd with her passion,</l>
+       <l>Tho' Irish, is now quite ashamed,</l>
+       <l>To think that she's so out of fashion,</l>
+       <l>To marry and then to be tamed:</l>
+       <l>'Tis love the dear joy,</l>
+       <l>That old fashion'd boy,</l>
+       <l>Has got in my breast with his quiver;</l>
+       <l>The blind urchin he,</l>
+       <l>Struck the <hi>Cush la maw cree,</hi>
+       </l>
+       <l>And a Husband secures me for ever!</l>
+       <l>Ye fair ones I hope will excuse me,</l>
+       <l>Though vulgar pray do not abuse me;</l>
+       <l>I cannot become a fine lady,</l>
+       <l>O love has bewitch'd WIDOW BRADY.</l>
+      </lg>
+      <lg n="2">
+       <pb n="50" facs="54"/>
+       <head>II.</head>
+       <l>Ye critics to murder so willing,</l>
+       <l>Pray see all our errors with blindness;</l>
+       <l>For once change your method of killing,</l>
+       <l>And kill a fond Widow with kindness:</l>
+       <l>If you look so severe,</l>
+       <l>In a fit of despair,</l>
+       <l>Again I will draw forth my steel, Sirs,</l>
+       <l>You know I've the art,</l>
+       <l>To be twice through your heart,</l>
+       <l>Before I can make you to feel, Sirs:</l>
+       <l>Brother soldiers I hope you'll protect me,</l>
+       <l>Nor let cruel critics dissect me;</l>
+       <l>To favour my cause be but ready,</l>
+       <l>And grateful you'll find WIDOW BRADY.</l>
+      </lg>
+      <lg n="3">
+       <head>III.</head>
+       <l>Ye leaders of Dress and the fashions,</l>
+       <l>Who gallop post haste to your ruin,</l>
+       <l>Whose taste has destroy'd all your passions,</l>
+       <l>Pray, what do you think of my wooing?</l>
+       <l>You call it damn low,</l>
+       <l>Your heads and arms so, <stage>[mimicks them.]</stage>
+       </l>
+       <l>So listless, so loose, and so lazy:</l>
+       <l>But pray what can you,</l>
+       <l>That I cannot do?</l>
+       <l>O fie, <hi>my dear craters, be azy:</hi>
+       </l>
+       <l>Ye patriots and courtiers so hearty,</l>
+       <l>To speach it and vote for your party;</l>
+       <l>For once be both constant and steady,</l>
+       <l>And vote to support WIDOW BRADY.</l>
+      </lg>
+      <lg n="4">
+       <head>IV.</head>
+       <l>To all that I see here before me,</l>
+       <l>The bottom, the top, and the middle,</l>
+       <l>For music we now must implore you,</l>
+       <l>No wedding without pipe and fiddle:</l>
+       <l>If all are in tune,</l>
+       <l>Pray let it be soon,</l>
+       <l>My heart in my bosom is prancing!</l>
+       <l>If your hands should unite,</l>
+       <l>To give us delight,</l>
+       <l>O that's the best piping and dancing!</l>
+       <l>Your plaudits to me are a treasure,</l>
+       <l>Your smiles are a dow'r for a lady;</l>
+       <l>O joy to you all in full measure,</l>
+       <l>So wishes, and prays WIDOW BRADY.</l>
+      </lg>
+     </lg>
+    </sp>
+   </div>
+   <trailer>FINIS.</trailer>
+  </body>
+ </text>
+</TEI>

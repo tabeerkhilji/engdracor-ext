@@ -1,0 +1,2531 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">Neck or nothing</title>
+    <title type="sub">a farce: In two acts. As it is performed at the Theatre Royal in Drury-Lane.</title>
+    <author>
+     <persName>
+      <surname>Garrick</surname>
+      <forename>David</forename>
+      <idno type="VIAF">24563</idno>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>Neck or nothing, a farce: In two acts. As it is performed at the Theatre Royal in Drury-Lane.</name>
+     <author>Garrick, David, 1717-1779.</author>
+     <publisher>printed for T. Becket and Co.,</publisher>
+     <date>1766.</date>
+     <pubPlace>London :</pubPlace>
+     <note>A translation and adaptation by David Garrick of A. R. Le Sage's 'Crispin, rival de son maı̂tre'.</note>
+     <note>Reproduction of original from the British Library.</note>
+     <note>English Short Title Catalog, ESTCT39738.</note>
+     <note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note>
+    </bibl>
+    <biblFull n="printed source">
+     <publicationStmt>
+      <authority ref="#JJ">Jan Jokisch</authority>
+      <date>2024 December</date>
+      <idno type="ECCO_Drama">K039927.000</idno>
+      <idno type="DLPS">004806173</idno>
+      <idno type="ESTC">T39738</idno>
+      <idno type="DocNo">CW110257618</idno>
+      <idno type="TCP">K039927.000</idno>
+      <idno type="GaleDocNo">CW3310257618</idno>
+      <idno type="ContentSet">ECLL</idno>
+      <idno type="ImageSetID">0154200900</idno>
+      <availability>
+       <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+      </availability>
+     </publicationStmt>
+    </biblFull>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    <person xml:id="mr_stockwell"><persName>Mr. Stockwell</persName><sex value="MALE"/></person><person xml:id="sir_harry_harlowe"><persName>Sir Harry Harlowe</persName><sex value="MALE"/></person><person xml:id="mr_belford"><persName>Mr. Belford</persName><sex value="MALE"/></person><person xml:id="martin"><persName>Martin</persName><sex value="MALE"/></person><person xml:id="slip"><persName>Slip</persName><sex value="MALE"/></person><person xml:id="mrs_stockwell"><persName>Mrs. Stockwell</persName><sex value="FEMALE"/></person><person xml:id="miss_nancy"><persName>Miss Nancy</persName><sex value="FEMALE"/></person><person xml:id="jenny"><persName>Jenny</persName><sex value="FEMALE"/></person></listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1766">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text xml:lang="en">
+  <front>
+   <div type="titlepage">
+    <pb facs="1" ana="y"/>
+    <p>NECK OR NOTHING A FARCE. IN TWO ACTS. AS IT IS PERFORMED AT THE THEATRE ROYAL IN DRURY-LANE.</p>
+    <p>LONDON: Printed for T. BECKET and Co. near Surry-Street, in the Strand. MDCCLXVI. [Price One Shilling.]</p>
+   </div>
+   <div type="note">
+    <pb facs="2"/>
+    <head>ADVERTISEMENT.</head>
+    <p>THE Author of the following Piece will claim no Merit that does not belong to him.—He therefore takes this opportunity of acknowleging his obligation to the celebrated Author of <hi>Gil Blas.</hi>—Trifling as it is, the following Farce is an imitation of the <hi>Crispin Rival de Son Maitre</hi> of LE SAGE.</p>
+   </div>
+   <div type="Dramatis_Personae">
+    <pb facs="3"/>
+    <castList>
+     <head>Dramatis Personae.</head>
+     <castItem>MEN.</castItem>
+     <castItem>
+      <role>Mr. HARTRY</role>
+      <actor>Mr. Stockwell, Citizen</actor>
+     </castItem>
+     <castItem>
+      <role>Sir Harry Harlowe, a country Gentleman</role>
+      <actor>Mr. PARSONS</actor>
+     </castItem>
+     <castItem>
+      <role>Mr. PACKER</role>
+      <actor>Mr. Belford, (in love with Miss Nancy)</actor>
+     </castItem>
+     <castItem>
+      <role>Martin, (Belford's servant)</role>
+      <actor>Mr. PALMER</actor>
+     </castItem>
+     <castItem>
+      <role>Slip, (servant to Harlowe)</role>
+      <actor>Mr. YATES</actor>
+     </castItem>
+     <castItem>WOMEN.</castItem>
+     <castItem>
+      <role>Mrs. BRADSHAW</role>
+      <actor>Mrs. Stockwell</actor>
+     </castItem>
+     <castItem>
+      <role>Miss PLYM</role>
+      <actor>Miss Nancy Stockwell</actor>
+     </castItem>
+     <castItem>
+      <role>Jenny, (her Maid)</role>
+      <actor>Miss POPE</actor>
+     </castItem>
+    </castList>
+   </div>
+  </front>
+  <body>
+   <head>
+    <pb facs="4"/>NECK OR NOTHING, A FARCE.</head>
+   <div n="1" type="act">
+    <head>ACT I.</head>
+    <div type="scene">
+     <head>SCENE, <stage>a street.</stage>
+     </head>
+     <stage>
+      <hi>Enter</hi> Martin.</stage>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>I am sick as a dog of being a valet!—running after other people's business and neglecting my own—this low life is the devil!—I've had a taste of the gentleman, and shall never lose it. 'Tis thy own fault, my little Martin.—Thou wou'd'st always play small games; when, had you but had the face to put yourself forward a little, some well jointur'd widow had taken you into her post-chariot, and made your fortune at once. A fellow of my wit and spirit, shou'd have broke twice, and set up again by this time.</p>
+     </sp>
+     <stage>
+      <hi>Enter</hi> Slip.</stage>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Hey! is not that, that rascal, Martin, yonder?</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Can that be my modest friend, Slip? <stage>[aside.</stage>
+      </p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>The same, i'faith!</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>'Tis he, as I live!</p>
+     </sp>
+     <sp who="#slip">
+      <pb n="2" facs="5"/>
+      <speaker>Slip.</speaker>
+      <p>My friend, happily met.—</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>My dear, I embrace you!—Not seeing you among the beau-monde, I was afraid there had been some fresh misunderstanding between you and the law.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Faith, my dear, I have had a narrow escape since I saw you. I had like to have been preferr'd in some of our settlements abroad—but I found there was no doing the business by deputy—so—</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Did not accept of the place, ha!—why, what little mischief had'st thou been at?</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Why, I don't know—meeting one night with a certain Portuguese Jew-merchant, in one of the back streets here by the Exchange—(I was a little in liquor I believe—piping hot from a turtle-feast) it came into my giddy head to stop him, out of mere curiosity to ask what news from Germany—nothing more—and the fellow, not understanding good English, wou'd needs have it that I ask'd him for something else.—He bawl'd out, up came the watch, down was I laid in the kennel, and then carried before a magistrate.—He clapp'd me on a stone doublet, that I cou'd not get off my back for two months.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Two months, say you?</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>And there I might have rotted, if I had not had great friends; a certain lady of quality's woman's cousin that was kept by Mr. Quirk, of Thavies-Inn, you must know, was in love with me, and she—</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Brought you in, Not Guilty, I warrant. Oh! great friends is a great matter.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>This affair really gave me some serious reflections.—</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>No doubt, it spoil'd you for a news-monger: no more intelligence from foreign countries, ha!</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip</speaker>
+      <p>Well but, Martin, what's thy history since I saw thee?</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Um!—a novel only, Sir: why, I am asham'd to say it; I am but an honorary rascal, as well as yourself.—I did try my luck indeed at Epsom,
+<pb n="3" facs="6"/>
+and Newmarket—but the knowing ones were taken in, and I was oblig'd to return to service again.—But a master without money, implies a servant without wages; I am not in love with my condition, I promise you.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>I am with mine, I assure you: I am retir'd from the great world,—that's my taste now—and live in the country, with one Mr Harlowe—piping hot from his travels—'Tis a charming young fellow! Drinking, hunting, and wenching, my boy!—a man of universal knowledge. Then I am his privy counsellor, and we always play the devil together.—That amuses one, you know, and keeps one out of mischief.—</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Yes, pretty lambs! But what makes you at London now? whither are you bound?</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>To yonder great house.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>What, Mr. Stockwell's?</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>The same. You must know his daughter is engaged to my master.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Miss Stockwell, to your master?</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>'Tis not above six weeks ago, that my master's father, Sir Harry Harlowe, was here upon a visit to his old friend, and then the matter was settled between 'em,—quite a-la-mode, I assure you.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>How do you mean?</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>The old folk struck the bargain, without the consent of the young ones, or even their seeing one another.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Tip top, I assure you; and ev'ry thing's agreed?</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Sign'd and seal'd by the two fathers; the lady, and her fortune both ready to be deliver'd.—Twenty thousand, you rogue!—ready rhino down! and only wait for young master to write a receipt.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Whew!—Then my young master may e'en make a leg to his fortune, and set up his staff somewhere else.—</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Thy master!</p>
+     </sp>
+     <sp who="#martin">
+      <pb n="4" facs="7"/>
+      <speaker>Mart.</speaker>
+      <p>Ay, he's dying for the—twenty thousand—that's all;—but since your master— <stage>[going.</stage>
+      </p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Oh! there you're safe enough, my master will never marry Miss Stockwell: there happens to be a small rub in the way.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>What rub?</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Only married already.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>How!</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Why, his father wou'd marry him here in town, it seems, and he—chose to be married in the country—that's all. The truth is, our young gentleman manag'd matters with the young lady so ill—or so well—that upon his father's return there was hot consulting among the relations; and the lady being of a good family, and having a smart, fighting fellow of a brother in the army—why, my matter, who hates quarrelling, spoke to the old gentleman, and the affair's hush'd up by a marriage, that's all.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Um! an entire new face of affairs!</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>My master's wedding-cloaths, and mine, are all order'd for the country, and I am to follow them, as soon as I have seen the family here, and redeem'd my old master's promise, that lies in pawn.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Old master's promise!—let me think—</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>'Twas what brought me to town, or I had not shook my honest friend by the fist.—Martin, good morrow!—what, in the dumps?—we shall meet again man.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Let me alone—I have a thought—hark you, my dear; is thy master known to old Stockwell?</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Never saw him in his life.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>That's brave, my boy! <stage>[hits him a slap on the back.</stage>
+      </p>
+      <p>Art thou still a cock of the game, Slip? and shall we?—No: I doubt—I doubt that damn'd Jew-merchant sticks in thy stomach, and you are turn'd dunghill, you dog!</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Try me. A good sailor won't die a dry death
+<pb n="5" facs="8"/>
+at land for one hurricane. Speak out!—you wou'd pass your master upon the family for mine, and marry him to the lady? is not that the trick?</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>That!—I have a trick worth two on't; I know Miss Nancy is a girl of taste, and I have a prettier fellow in my eye for her.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Ay, who's he?</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Myself, you puppy.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>That's brave, my boy! <stage>[<hi>slaps him on the back.</hi>
+       </stage>
+      </p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>I'm in love with her to—</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>To the value of twenty thousand pounds.—I approve your flame.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>I will take the name and shape of your master.—</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Very well!</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Marry Miss Stockwell.—</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Agreed.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Touch the twenty thousand.—</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Um!—Well, well!</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>And disappear, before matters come to an ecclaircissement.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Um!—That article wants a little explanation, my honest friend.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>How so?</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>You talk of disappearing with the lady's fortune, and never mention Slip in the treaty.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Oh! we shall disappear together, to be sure.—I have more honour than to go without you.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Well, on that condition, I am content to play your back hand.—But hold, hold!—how will you pass yourself for my master, in a family where you are so well known?</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Hold your fool's tongue—this is my first visit to 'em. I return'd but yesterday to my master.—You must know, I ask'd his leave to be absent a week, and I made free with a month: 'twas a party of pleasure, so I made bold. During my absence, he saw this lady, lik'd her person—ador'd
+<pb n="6" facs="9"/>
+her fortune, and now, by my help, hopes to be in possession of both in a few days.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>And you'll do the lady the honour to help her to a better match.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>She'll think so, I believe.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Well said, Conceit!—But what sort of people are your father and mother-in-law?</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>I am told he is a mere citizen—who thinking himself very wise, is often outwitted; and his lady has as much vanity in her way; will never be old, though turn'd of sixty; and as irresolute and capricious as a girl of fifteen. And Miss, I suppose, is like all other misses, wants to be her own mistress, and her husband's; and in the mean time is governed by her chambermaid, who will be too hard for us both, if we don't look about us.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>A fig for dangers! I am prepar'd for 'em.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>But hearkee!—what shall we do with the old gentleman's letter that I'm to deliver? This will knock us all up!</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Write another.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>That's easier said than done;—but I'll do my best, as you can't write.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Do you see after my wedding-cloaths, that they do not set out for the country.—We have no time to lose.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>My master's will fit you to a hair.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>But stay, stay, I must see my master first.—If he should appear and surprise us, we're in a fine pickle. I must make him keep house for a few days—I'll think of a lie as I go—'Egad I have it already—I'll to him, and meet you afterwards at the tavern, there, take a glass, cast this coarse skin, whip on the gentleman, and shame the first men of fashion in the kingdom. <stage>[<hi>Exit</hi> Martin.</stage>
+      </p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <l>If impudence will do our business, 'tis done,</l>
+      <l>And the twenty thousand are our own. <stage>[<hi>Exit</hi> Slip.</stage>
+      </l>
+     </sp>
+    </div>
+    <div type="scene">
+     <pb n="7" facs="10"/>
+     <head>SCENE, <stage>
+       <hi>an apartment in Mr.</hi> Stockwell<hi>'s house.</hi>
+      </stage>
+     </head>
+     <stage>
+      <hi>Enter Miss</hi> Nancy <hi>and</hi> Jenny.</stage>
+     <sp who="#miss_nancy">
+      <speaker>Nancy.</speaker>
+      <p>You know, Jenny, that Belford has got into my heart, and if I consent to marry this man, 'twill be the death of me.—Advise me then, and don't be so teizing.</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>Lud! what advice can I give you? I have but two in the world; one is, to forget your lover, and t'other to disobey your father.—You have too much love to take the one, and I too much conscience to give t'other;—so we are just where we were, madam.</p>
+     </sp>
+     <sp who="#miss_nancy">
+      <speaker>Nancy.</speaker>
+      <p>Don't torment me, Jenny.</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>Why, I fancy, we might find a way to reconcile your love and my conscience.</p>
+     </sp>
+     <sp who="#miss_nancy">
+      <speaker>Nancy.</speaker>
+      <p>How, how! my dear girl?</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>Suppose we were to open the affair to your mama?</p>
+     </sp>
+     <sp who="#miss_nancy">
+      <speaker>Nancy.</speaker>
+      <p>Nay, now your jesting is cruel.</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>I never was more in earnest, madam.—She loves flattery dearly; and she loves her daughter dearly; I'll warrant, with a sigh, and a tear, and a handkerchief, she makes her husband break his word with young Harlowe in a quarter of an hour after his arrival.</p>
+     </sp>
+     <sp who="#miss_nancy">
+      <speaker>Nancy.</speaker>
+      <p>Not unlikely, but if—</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>What at your ifs?—no doubts, I beg, where I am concern'd.</p>
+     </sp>
+     <sp who="#miss_nancy">
+      <speaker>Nancy.</speaker>
+      <p>But you know my poor mother is so unsettled a creature.</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>Why, that's true enough, the last speaker is her oracle, so let us lose no time to bring her over to—Hark!—Here she comes—do you retire, till I have prepar'd her for you. <stage>[Exit Miss Nancy.</stage>
+      </p>
+     </sp>
+     <stage>
+      <pb n="8" facs="11"/>
+      <hi>Enter Mrs.</hi> Stockwell.</stage>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>Well, of all the women in London, sure there never was such a temper, as my lady's.</p>
+     </sp>
+     <sp who="#mrs_stockwell">
+      <speaker>Mrs. <hi>Stock.</hi>
+      </speaker>
+      <p>What can have set this girl against me? <stage>[Aside.</stage>
+      </p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>Such good humour, and good sense together, seldom meet—then such a perpetual smile upon her features. Well, her's is a sort of face, that can never grow old; what wou'd I give for such a lasting face as she has.</p>
+     </sp>
+     <sp who="#mrs_stockwell">
+      <speaker>Mrs. <hi>Stock.</hi>
+      </speaker>
+      <p>Hussey, hussey! you're a flatterer. <stage>[Taps her on the shoulder.</stage>
+      </p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>Ah!—Madam, is it you? I vow you made me start. Miss Nancy and I had just been talking of you, and we agreed you were one of the best of women, the most reasonable friend, the tenderest mother, and the—the—the—</p>
+     </sp>
+     <sp who="#mrs_stockwell">
+      <speaker>Mrs. <hi>Stock.</hi>
+      </speaker>
+      <p>Nay, that's too much—I have my failings, and my virtues too, Jenny—in one thing indeed I am very unlike other women; I always hearken to reason.</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>That's what I said, madam.—</p>
+     </sp>
+     <sp who="#mrs_stockwell">
+      <speaker>Mrs. <hi>Stock.</hi>
+      </speaker>
+      <p>I am neither headstrong nor fantastical,—neither—</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>No, sweet lady, the smallest twine may lead you. Miss, says I, hear reason, like your mama; will so good a mother, do you think, force her daughter to marry against her inclinations?</p>
+     </sp>
+     <sp who="#mrs_stockwell">
+      <speaker>Mrs. <hi>Stock.</hi>
+      </speaker>
+      <p>I force my child's inclinations!—No, I make the case my own. But tell me, (there's a good girl) has my daughter an aversion to young Harelowe?</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>I don't say that, madam—that is—aversion—to be sure—but I believe she hates him like the devil.</p>
+     </sp>
+     <sp who="#mrs_stockwell">
+      <speaker>Mrs. <hi>Stock.</hi>
+      </speaker>
+      <p>Poor thing! poor thing!—and perhaps her little heart is beating for another?</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>Oh, that's a certain rule!—when a young
+<pb n="9" facs="12"/>
+woman hates her husband, 'tis taken for granted she loves another man. For example, you yourself, as you have often told me, hated the sight of Mr. Stockwell, when first he was propos'd for your husband—Why? only because you were in love, poor lady, with captain—you know who—that was kill'd at the siege—you know where.</p>
+     </sp>
+     <sp who="#mrs_stockwell">
+      <speaker>Mrs. <hi>Stock.</hi>
+      </speaker>
+      <p>Why will you name him, Jenny? <stage>[wipes her eyes.</stage>
+      </p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>Tender lady!</p>
+     </sp>
+     <sp who="#mrs_stockwell">
+      <speaker>Mrs. <hi>Stock.</hi>
+      </speaker>
+      <p>Why, indeed, had that fine young creature surviv'd his wounds, I should never have married Mr. Stockwell—that I will say.</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>Then you know how to pity your daughter. Her heart suffers now, what yours did—before that siege, madam.</p>
+     </sp>
+     <sp who="#mrs_stockwell">
+      <speaker>Mrs. <hi>Stock.</hi>
+      </speaker>
+      <p>Say you so?—poor girl!—and who is it has found the way to her heart?</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>No other than the young gentleman that has been so constant at cards with you lately.</p>
+     </sp>
+     <sp who="#mrs_stockwell">
+      <speaker>Mrs. <hi>Stock.</hi>
+      </speaker>
+      <p>Who, Belford?</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>The same, and a fine spirited young fellow it is.</p>
+     </sp>
+     <stage>
+      <hi>Enter Miss</hi> Nancy.</stage>
+     <sp who="#miss_nancy">
+      <speaker>Miss <hi>Nan.</hi>
+      </speaker>
+      <p>Pardon my folly, my misfortunes, dear madam, if I cannot conform in all my sentiments with your's, and my father's—</p>
+     </sp>
+     <sp who="#mrs_stockwell">
+      <speaker>Mrs. <hi>Stock.</hi>
+      </speaker>
+      <p>It will happen, child, sometimes, that a daughter's heart may not be dispos'd to comply exactly with the views and schemes of a parent—but then, a parent shou'd act with tenderness.—My dear, I pity your distress: Belford has my approbation, I assure you.</p>
+     </sp>
+     <sp who="#miss_nancy">
+      <speaker>Nancy.</speaker>
+      <p>You are too good, madam!</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>Your approbation is not enough, madam; will you answer for master's too? (He's a stubborn bit of stuff, you know) he will not always hearken to reason.</p>
+     </sp>
+     <sp who="#mrs_stockwell">
+      <pb n="10" facs="13"/>
+      <speaker>Mrs. <hi>Stock.</hi>
+      </speaker>
+      <p>But he shall, Jenny; stubborn as he is, I'll soften him. I'll take Belford under my protection—Here comes my husband—I have taken my resolutions, and you shall see how I'll bring him about presently.</p>
+      <stage>
+       <hi>Enter Mr.</hi> Stockwell.</stage>
+      <p>My dear, you're come in the very nick of time, I have just chang'd my mind.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>You are always changing it, I think.</p>
+     </sp>
+     <sp who="#mrs_stockwell">
+      <speaker>Mrs. <hi>Stock.</hi>
+      </speaker>
+      <p>I always hearken to reason, Mr. Stockwell.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>Well, and which way does the wind set now?</p>
+     </sp>
+     <sp who="#mrs_stockwell">
+      <speaker>Mrs. <hi>Stock.</hi>
+      </speaker>
+      <p>Why, I have taken a resolution not to marry my daughter to young Harlowe.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>Hey! that's chopping about, indeed!</p>
+     </sp>
+     <sp who="#mrs_stockwell">
+      <speaker>Mrs. <hi>Stock.</hi>
+      </speaker>
+      <p>Nay, but my dear, hear me, and let us reason a little; here's a better offer for Nancy—Belford has ask'd her of me.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>Belford a better?</p>
+     </sp>
+     <sp who="#mrs_stockwell">
+      <speaker>Mrs. <hi>Stock.</hi>
+      </speaker>
+      <p>Nay, but don't be obstinate, child! he is not indeed so rich as the other; but what are riches to content, Mr. Stockwell?</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>And what is content without riches, Mrs. Stockwell?</p>
+     </sp>
+     <sp who="#mrs_stockwell">
+      <speaker>Mrs. <hi>Stock.</hi>
+      </speaker>
+      <p>But he's a gentleman, my dear, and out of regard to his family, we may very well excuse his fortune.</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>Well said, madam! this will do. <stage>[aside.</stage>
+      </p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>Ha, ha, ha! that's because you were a gentlewoman—but I, being a downright cit, think just the reverse; and out of regard to his fortune, if he had one, might excuse his family—I have no great objection to the man; but is not our word and honour engag'd to another?</p>
+     </sp>
+     <sp who="#mrs_stockwell">
+      <speaker>Mrs. <hi>Stock.</hi>
+      </speaker>
+      <p>Eh! that's true, indeed; but—</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>Has my old friend, Sir Harry Harlowe, done any thing to—</p>
+     </sp>
+     <sp who="#mrs_stockwell">
+      <pb n="11" facs="14"/>
+      <speaker>Mrs. <hi>Stock.</hi>
+      </speaker>
+      <p>I don't accuse him, my dear.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>Or has his son refus'd to comply?</p>
+     </sp>
+     <sp who="#mrs_stockwell">
+      <speaker>Mrs. <hi>Stock.</hi>
+      </speaker>
+      <p>Not in the least, that I know of.</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>Never flinch, madam.</p>
+     </sp>
+     <sp who="#mrs_stockwell">
+      <speaker>Mrs. <hi>Stock.</hi>
+      </speaker>
+      <p>Never fear, Jenny.— <stage>[aside.</stage>
+      </p>
+     </sp>
+     <sp who="#miss_nancy">
+      <speaker>Nancy.</speaker>
+      <p>But I have never seen him, papa.</p>
+     </sp>
+     <sp who="#mrs_stockwell">
+      <speaker>Mrs. <hi>Stock.</hi>
+      </speaker>
+      <p>No, Mr. Stockwell, she has never seen him—</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>So much the better, Mrs. Stockwell, he'll be a greater novelty, and please her the better, and the longer for it.</p>
+     </sp>
+     <sp who="#mrs_stockwell">
+      <speaker>Mrs. <hi>Stock.</hi>
+      </speaker>
+      <p>There is some reason in that, Jenny.</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>Is there, madam? then I have not a bit about me.</p>
+     </sp>
+     <sp who="#miss_nancy">
+      <speaker>Nancy.</speaker>
+      <p>But to marry without inclination, Sir, think of that.</p>
+     </sp>
+     <sp who="#mrs_stockwell">
+      <speaker>Mrs. <hi>Stock.</hi>
+      </speaker>
+      <p>Ay, think of that, Mr. Stockwell.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>I never thought of it for myself, nor you neither, my dear; and why shou'd our daughter think herself wiser than her parents.</p>
+     </sp>
+     <sp who="#mrs_stockwell">
+      <speaker>Mrs. <hi>Stock.</hi>
+      </speaker>
+      <p>Ay, why, indeed?—there's no answering that, Jenny.</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>I see there is not—What a woman! <stage>[aside.</stage>
+      </p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>It wou'd be such an affront, as never cou'd be forgiven. Consider, dame, the instruments are sign'd, preparations made, and the bridegroom expected every minute; 'tis too far gone to be recall'd with any honour.</p>
+     </sp>
+     <sp who="#mrs_stockwell">
+      <speaker>Mrs. <hi>Stock.</hi>
+      </speaker>
+      <p>Good lack a day! very true, very true!</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>Well said, weather-cock, about and about we go; this woman betrays the whole sex—She won't contradict her own husband. <stage>[aside.</stage>
+      </p>
+     </sp>
+     <sp who="#mrs_stockwell">
+      <speaker>Mrs. <hi>Stock.</hi>
+      </speaker>
+      <p>You are witness, Jenny, I did all I cou'd for poor Belford.</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>To be sure; you took him under your protection—a noble patroness, truly!</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>Hey! whom have we got here?—I'll be hang'd if this is not my son-in-law's servant—Now, girl, we shall hear.</p>
+     </sp>
+     <stage>
+      <pb n="12" facs="15"/>
+      <hi>Enter</hi> Slip, <hi>in a hurry.</hi>
+     </stage>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Ladies and gentlemen, I am come—let me recover my breath—I come—Oh! I come with mine, and my master's compliments to your honour, and my lady, our best love and services to pretty Miss, and—madam, I'm your obedient Black a-moor. <stage>[<hi>to</hi> Jenny.</stage>
+      </p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>Um! the fellow has humour, I promise you.—Well, Sirrah; where's your master?</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>My master, and your son, is on his way to throw himself at the feet of this angelic creature—His impatience, madam, can equal nothing but your beauty.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>Well, but where is he, where is he?</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>He's but just arriv'd from the country; he treads upon my heels and I had only the start of him to tell you, that he will but whip on clean linen, and wait on you in the snapping of a finger.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>O, fie upon him, what need all this ceremony between us; why did not he come hither directly? He knows he may make my house his own.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Oh, Sir, he designs it; but the first time—pardon me, Sir—He knows the world better than to treat you so cavalierly as that—No, no, he's not that man, I can assure you; though I'm his valet, yet I'd give the devil his due.</p>
+     </sp>
+     <sp who="#mrs_stockwell">
+      <speaker>Mrs. <hi>Stock.</hi>
+      </speaker>
+      <p>Is he so extremely well bred? Daughter, you'll be infinitely happy.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>Does not my old friend, Harlowe, his father, come with him?</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Sir, I grieve to tell it you; such was his design, but an unforeseen accident has prevented him; which I assure you gives him great pain.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>Ay! what's the matter?</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>The gout, Sir, the gout!</p>
+     </sp>
+     <sp who="#mrs_stockwell">
+      <speaker>Mrs. <hi>Stock.</hi>
+      </speaker>
+      <p>Poor gentleman!</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>He was seiz'd in his right foot, the evening
+<pb n="13" facs="16"/>
+before we set out, but—I have a letter from him. <stage>[gives a letter.</stage>
+      </p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>
+       <stage>[puts on his spectacles, and reads.]</stage> "To Doctor, Doctor Clackit, physician, near St. Sepulchre's church."</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Lud! lud! that's not it, <stage>[takes out letters.]</stage> Let me see.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>St. Sepulchre's church!—I find the doctor chuses to live among his patients.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Eh! eh! that's so good!—you're a very wag, Sir!—He, he, he!—let me see—Oh, here's one like it.—To Mr. Stockwell; the same. I am afraid you'll hardly be able to make it out—shall I read it to you? Oh, this unlucky gout!</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>I see it has affected his hands too.—Wyh 'tis scarce legible; and ill spelt too.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>The gout, Sir,—may it never affect you, Sir, nor madam Stockwell, Miss Nancy, that young woman there, nor any of the good company.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>
+       <stage>[reads.]</stage> "My much honour'd friend—few words are best in my condition; this damn'd gout has laid hold upon me, and won't let me attend my son, for to be present at his matrimony."—For to be present at his matrimony!—I think his hand and stile too much alter'd.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>The gout, Sir.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>
+       <stage>[reading.]</stage> "I look upon this conjuncture of our families." Conjuncture!—a very odd phrase!</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>The gout, dear Sir, the gout! He's quite another man in it.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>"I look upon this conjuncture of our families, as the comfort of my age—The sooner it is done the more comfort I shall have—I don't doubt but you'll like my son, whom I have sent with a most trusty and faithful servant, who deserves your friendship and favour."</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>O law, Sir!—I am quite asham'd.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <pb n="14" facs="17"/>
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>"I am, my dear brother, your's, &amp;c. till death, Henry Harlowe." I am very sorry we can't have the old gentleman's company.—But who is this gay young fellow coming to'ards us?—Can this be my son-in-law?</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>What the devil shou'd ail him? Look at him, Miss; observe him, madam—Is not he a pretty fellow?</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>What is he doing?</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Only paying his chairman.—Generous as a prince. <stage>[<hi>to</hi> Jenny.</stage>
+      </p>
+     </sp>
+     <sp who="#mrs_stockwell">
+      <speaker>Mrs. <hi>Stock.</hi>
+      </speaker>
+      <p>Not ill made, indeed!—You'll only be too happy, child.</p>
+     </sp>
+     <sp who="#miss_nancy">
+      <speaker>Nancy.</speaker>
+      <p>I wish I cou'd think so, madam.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Dress us but as well, and we'll cut out our masters, ten to one. All my fancy, I assure you, ladies. <stage>[aside.</stage>
+      </p>
+     </sp>
+     <stage>
+      <hi>Enter</hi> Martin, <hi>as young</hi> Harlowe.</stage>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Slip!</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Your honour!</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Mr. Stockwell, I presume, my illustrious father—</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>The same, Sir, in <hi>proprium personum.</hi>
+      </p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>My dear son, welcome!—let me embrace you.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>You do me too much honour; my superabundant joy is too inexpressible to express the—This I flatter myself <stage>[<hi>to Mrs.</hi> Stockwell.]</stage> is the brilliant beauty, destin'd to the arms of happy Mart—Harlowe—Gad! I'd like to have forgot my own name. <stage>[aside.</stage>
+      </p>
+     </sp>
+     <sp who="#miss_nancy">
+      <speaker>Nancy.</speaker>
+      <p>An impertinent, absurd coxcomb! <stage>[aside.</stage>
+      </p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>Nay, nay, son-in-law, not so fast—that's my wife. Here's my daughter Nancy!</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>A fine creature! <stage>[salutes her.]</stage> Madam, I have seen the world! and from all the world, here wou'd I chuse a wife, and a mistress—a family of beauties; let me die!</p>
+     </sp>
+     <sp who="#mrs_stockwell">
+      <pb n="15" facs="18"/>
+      <speaker>Mrs. <hi>Stock.</hi>
+      </speaker>
+      <p>Excessively gallant! He has wit, I assure you, daughter.</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>And taste too, madam.</p>
+     </sp>
+     <sp who="#miss_nancy">
+      <speaker>Nancy.</speaker>
+      <p>And impudence, I'm sure!</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>
+       <stage>[<hi>singing to Mrs.</hi> Stockwell.]</stage> "With a shape, and a face, and an air, and a grace!" Ha, ha!—Just, just as our old gentleman told me. There you'll see madam Stockwell, says he, the agreeable still—take care of your heart, boy; she's a dangerous beauty, though her daughter may be by.</p>
+     </sp>
+     <sp who="#mrs_stockwell">
+      <speaker>Mrs. <hi>Stock.</hi>
+      </speaker>
+      <p>O fie, fie, fie!</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>I but repeat my father's words, madam, confirm'd by my own observation. Ah boy, says he, I wish with all my heart, that my dear friend Mr. Stockwell was dead, I'd marry her to-morrow.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>I'm much oblig'd to him, faith!</p>
+     </sp>
+     <sp who="#mrs_stockwell">
+      <speaker>Mrs. <hi>Stock.</hi>
+      </speaker>
+      <p>And so am I, I am sure, Sir.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>I but repeat my father's words, Sir.</p>
+     </sp>
+     <sp who="#mrs_stockwell">
+      <speaker>Mrs. <hi>Stock.</hi>
+      </speaker>
+      <p>My esteem for your father, Sir, is mutual, and I am heartily sorry we cou'd not have the pleasure of his company.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Oh! madam, he was damn'd mad, that he cou'd not be at the wedding. He had flatter'd himself these two months with the hopes of dancing a minuet with Mrs. Stockwell.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Two months—Whew!—and 'tis but six weeks he has known her; he'll knock us all up if I don't interfere.— <stage>[aside.]</stage> —Sir, Sir Harry begs you'll hasten the ceremonials, that he may have the pleasure of his daughter's company as soon as possible.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>Well, well, every thing is sign'd and seal'd; nothing remains, that I know of, but to finish the affair at once, and pay you my daughter's portion.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>"Pay you my daughter's portion,"—that's all, Sir; come along, Sir, I wait on you to your closet.—Slip, go with my civilities to the marquis of— <stage>[aloud.]</stage> go this moment, you dog, and secure us horses, and let 'em be bridled and saddled, and ready at a minute's warning, <stage>[softly.]</stage> —
+<pb n="16" facs="19"/>
+and don't forget my compliments to the marchioness. <stage>[aloud.</stage>
+      </p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>I fly, Sir—Ladies, your most obedient. <stage>[<hi>exit</hi> Slip.</stage>
+      </p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Come along, Sir, to your closet.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>Stay, son, stay!—to return to the old gentleman.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Oh, Sir, we'll return to him when the portion's paid.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>No, no; first satisfy my curiosity about this unlucky law-suit of his.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>O lud!—Slip not here now! <stage>[aside.</stage>
+      </p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>You seem disturb'd, son-in-law, has any thing—</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Eh! pox o' this question. <stage>[aside.]</stage> I have such a memory!— <stage>[puts his hand to his forehead.]</stage> as much forgot to send Slip to the duke of—as if I had no manner of acquaintance with him. I'll call him back—Slip!</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>He'll be back again presently—but, Sir—</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>He shou'd have told me of this damn'd law-suit. <stage>[aside.</stage>
+      </p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>Has it been brought to a hearing?</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>O, yes, Sir, and the affair is quite over.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>Ay, already!</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>The wrong box, I'm afraid! <stage>[aside.</stage>
+      </p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>And I hope you have got your cause?</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>With costs of suit, I assure you, Sir.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>I am extremely glad of it.</p>
+     </sp>
+     <sp who="#mrs_stockwell">
+      <speaker>Mrs. <hi>Stock.</hi>
+      </speaker>
+      <p>Thank heaven 'tis so well over.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Oh, the family had the law-suit so much at heart, the lawyers shou'd have had every farthing we were worth in the world, before we'd have been cast.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>Um! that wou'd have been carrying it a little too far,—but as it was, it cost him a pretty penny, ha?</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>That it did, Sir: but justice—Oh, justice, Sir, is so fine a thing, we cannot pay too dear for it.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <pb n="17" facs="20"/>
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>Very true; but exclusive of the expence, this has been a troublesome affair to my friend.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>You can have no idea of it, Sir—especially with such a tricking son of a whore, as he had to do with.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>Son of a whore! He told me, his antagonist was a lady.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>I thought I was in the wrong box. <stage>[aside.]</stage> A lady call you her? Yes, yes, a fine lady! but she had got an old pettifogging rascal for her attorney, and he—it was he that was such a plague to our old gentleman—But damn this cause, let us call another—I'm for nothing now but flames, darts, daggers, Cupids and Venusses, and madam Stockwell, and Miss Nancy— <stage>[bowing to 'em.</stage>
+      </p>
+     </sp>
+     <sp who="#mrs_stockwell">
+      <speaker>Mrs. <hi>Stock.</hi>
+      </speaker>
+      <p>The pink of complaisance!</p>
+     </sp>
+     <sp who="#miss_nancy">
+      <speaker>Nancy.</speaker>
+      <p>The fellow's a fool, and I'll die before I'll have him. <stage>[aside.</stage>
+      </p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>Well said, son-in-law, a spirited fellow, faith! Come, we'll in and see things ready.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Shan't I wait upon you to your closet first, Sir?</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Mr. <hi>Stock.</hi>
+      </speaker>
+      <p>As soon as the cerernony's over, son.—Come, I'll shew you the way.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Eh! if I cou'd but have touch'd beforehand, I'd have wav'd the ceremony. <stage>[aside.]</stage> —Madam, <stage>[<hi>to Mrs.</hi> Stockwell.]</stage> may I hope for the honour. <stage>[offering to lead her out.</stage>
+      </p>
+     </sp>
+     <sp who="#mrs_stockwell">
+      <speaker>Mrs. <hi>Stock.</hi>
+      </speaker>
+      <p>Oh, sweet Sir—Daughter, you'll have a pretty fellow for your husband. <stage>[<hi>aside to</hi> Nancy.]</stage>
+      </p>
+      <stage>[exeunt.</stage>
+     </sp>
+     <sp who="#miss_nancy">
+      <speaker>Nancy.</speaker>
+      <p>There's a lover for you, Jenny!</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>Not for me, madam, I assure you. What, snap at the old kite, when such a tender chick is before him!</p>
+     </sp>
+     <sp who="#miss_nancy">
+      <speaker>Nancy.</speaker>
+      <p>Not a civil word to his mistress, but quite gallant to her mother.</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>As much as to say, A fig for you—I'm in love with your fortune.</p>
+     </sp>
+     <sp who="#miss_nancy">
+      <pb n="18" facs="21"/>
+      <speaker>Nancy.</speaker>
+      <p>A fig for him, a conceited puppy; I'm in love with Belford; but how to get at him, Jenny?</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>Ah! poor bird, you're limed by the wing, and struggling will but make it worse.</p>
+     </sp>
+     <sp who="#miss_nancy">
+      <speaker>Nancy.</speaker>
+      <p>Not struggle! Ruin is better than this coxcomb! Prithee, advise me.</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>Don't tempt me.—I pity you so, that I cou'd give you a sprightly piece of advice; and you are in so desperate a way that I know you'd follow it.</p>
+     </sp>
+     <sp who="#miss_nancy">
+      <speaker>Nancy.</speaker>
+      <p>Follow it!—I'll follow any advice, Jenny.</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>O, yes, to follow your own inclinations; that's a good young lady.—Well, I am at present much given to mischief.—So, if you'll go into your chamber, lock the door, and let us lay our little heads together for half an hour, if we don't counterplot your wise papa, and his intended son-in-law—we deserve never to be married, or if we are, to be govern'd by our husbands.</p>
+      <stage>[exeunt.</stage>
+     </sp>
+    </div>
+    <trailer>End of the first Act.</trailer>
+   </div>
+   <div n="2" type="act">
+    <pb n="19" facs="22"/>
+    <head>ACT II.</head>
+    <div type="scene">
+     <head>SCENE, <stage>
+       <hi>a hall in</hi> Stockwell<hi>'s house.</hi>
+      </stage>
+     </head>
+     <stage>
+      <hi>Enter</hi> Belford.</stage>
+     <sp who="#mr_belford">
+      <speaker>Bel.</speaker>
+      <p>I Am surpriz'd that Martin has not return'd to tell me his success with Jenny—He advis'd me not to stir from home, and said I might be assur'd every thing goes well, and I should hear from him—But still the impatience of my heart cannot bear this delay—I must be near the field of battle, let what will be the consequence—I hope I shall get a sight of Martin, and not unluckily light on the old gentleman; 'sdeath! he's here!—O, no, 'tis Jenny, my heart was in my mouth.</p>
+      <stage>
+       <hi>Enter</hi> Jenny.</stage>
+      <p>Dear Jenny, where's your mistress?</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>Winding herself up for your sake, and by my advice, to a proper pitch of disobedience, that's all—but—</p>
+     </sp>
+     <sp who="#mr_belford">
+      <speaker>Bel.</speaker>
+      <p>But what? You hesitate, Jenny, and seem concern'd.</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>Concern'd! why, we're undone, that's all. Your rival is come to town.</p>
+     </sp>
+     <sp who="#mr_belford">
+      <speaker>Bel.</speaker>
+      <p>How!</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>And is this morning to marry madam.</p>
+     </sp>
+     <sp who="#mr_belford">
+      <speaker>Bel.</speaker>
+      <p>Not while I'm alive, I can tell him that.—But, prithee, who is this happy rival of mine?</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>'Tis one Mr. Harlowe.</p>
+     </sp>
+     <sp who="#mr_belford">
+      <speaker>Bel.</speaker>
+      <p>Harlowe!</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>A gentleman of Dorsetshire.</p>
+     </sp>
+     <sp who="#mr_belford">
+      <speaker>Bel.</speaker>
+      <p>I know all of that country, and can recollect no Harlowe, but the son of Sir Harry Harlowe, and he—</p>
+     </sp>
+     <sp who="#jenny">
+      <pb n="20" facs="23"/>
+      <speaker>Jenny.</speaker>
+      <p>Ay, and he is your rival.</p>
+     </sp>
+     <sp who="#mr_belford">
+      <speaker>Bel.</speaker>
+      <p>If I had no more to fear from your mistress, than from my rival, as you call him—</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>Oh, you are very clever now, an't you? What wou'd you be at now?</p>
+     </sp>
+     <sp who="#mr_belford">
+      <speaker>Bel.</speaker>
+      <p>The truth only—the real certain truth.</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>Ay, what's that?</p>
+     </sp>
+     <sp who="#mr_belford">
+      <speaker>Bel.</speaker>
+      <p>Why, that this Harlowe is the son of Sir Harry Harlowe of Dorsetshire, and my friend, my particular friend.</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>Yes, and so particular, that he will take your mistress from you.</p>
+     </sp>
+     <sp who="#mr_belford">
+      <speaker>Bel.</speaker>
+      <p>He shall take my life first.</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>You said that before, have you nothing else to say?</p>
+     </sp>
+     <sp who="#mr_belford">
+      <speaker>Bel.</speaker>
+      <p>I say, that this Harlowe, my friend, was married last week in the country, that's all.</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>And that's enough, if it is true, but I have a small addition to your news.</p>
+     </sp>
+     <sp who="#mr_belford">
+      <speaker>Bel.</speaker>
+      <p>What's that?</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>That the aforesaid John Harlowe, <abbr>Esq</abbr> your particular friend, and son to Sir Harry Harlowe of Dorsetshire, is now within, waiting for my young lady's hand, that's all.</p>
+     </sp>
+     <sp who="#mr_belford">
+      <speaker>Bel.</speaker>
+      <p>Jenny, no jesting, you distract me!</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>'Tis but too true, he's this minute gone in with my master and mistress, to settle preliminaries.</p>
+     </sp>
+     <sp who="#mr_belford">
+      <speaker>Bel.</speaker>
+      <p>Impossible! he's my intimate acquaintance, and writ to me, not a week ago, as I tell you. I have his letter at my lodgings.</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>And what says he there?</p>
+     </sp>
+     <sp who="#mr_belford">
+      <speaker>Bel.</speaker>
+      <p>That he's privately married to a lady of condition.</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>How can this be reconcil'd? Go fetch that letter, we have no time to lose.</p>
+     </sp>
+     <sp who="#mr_belford">
+      <speaker>Bel.</speaker>
+      <p>But what is Martin doing?</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>Martin, who's he?</p>
+     </sp>
+     <sp who="#mr_belford">
+      <speaker>Bel.</speaker>
+      <p>Martin, my servant, whom I sent to assist you.</p>
+     </sp>
+     <sp who="#jenny">
+      <pb n="21" facs="24"/>
+      <speaker>Jenny.</speaker>
+      <p>Why, sure love has turn'd your brain, Sir;—I have seen no Martin, not I.—</p>
+     </sp>
+     <sp who="#mr_belford">
+      <speaker>Bel.</speaker>
+      <p>The rascal then is run away from me again.—I have spoil'd him by my indulgence—He left me for a month, and returned but yesterday; then I sent him hither to assist you, and now the scoundrel has left me again.</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>'Tis the luxury of the times, Sir;—though we are poor we have good tastes, and can be out of the way now and then, as well as our betters.</p>
+     </sp>
+     <sp who="#mr_belford">
+      <speaker>Bel.</speaker>
+      <p>How this villain has used me! But we must lose no time; I'll fetch the letter, and be back in an instant. <stage>[Exit.</stage>
+      </p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>Let me see; can't I strike some mischief out of this intelligence? I warrant me—I can delay the marriage at least—Here's my master, I'll try my skill upon him—If I don't quite bring him about, I'll set his brains in such a ferment, they shan't settle in haste again.</p>
+     </sp>
+     <stage>
+      <hi>Enter</hi> Stockwell.</stage>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>I think I saw a glimpse of young Belford, but now—what business has he here?</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>Business enough, Sir; the best friend you have, that's all—He has been telling me a piece of news that will surprize you.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>Let's hear this piece of news.</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>O' my word, a bold man, this Mr. Harlowe, to take two wives at once, when most folk we see have enough of one.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>Two wives! bless us, what do you mean?</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>Why, the poor man's married already, Sir, that's all.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>Married!</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>Married, I say, to a young lady in the country, and very near marrying another in town; a new fashion, I suppose.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>Pooh, pooh, the thing's impossible I tell you.</p>
+     </sp>
+     <sp who="#jenny">
+      <pb n="22" facs="27"/>
+      <speaker>Jenny.</speaker>
+      <p>That may be, but so it is. He has writ to Belford, who is his friend.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>All romance and invention!</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>All truth, I say, Belford is gone to fetch the letter, and he'll convince you.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>I will never be convinc'd that—</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>Why not, Sir?—the young fellows of this age are capable of any thing.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>Very true, Jenny, they are abominable!</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>And for aught we know, this Mr. Harlowe here may be one of those gentlemen that make no scruple of a plurality of wives, provided they bring a plurality of portions.—But by your leave, good Sir, as this young lady, (she in the country I mean) has the first and best title, we must look a little about us for the sake of our young lady in town.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>Very true—'tis worth attending to.</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>Attending to! if I were you, Sir, before I deliver'd up my daughter, I should insist upon the affair's being clear'd up to my satisfaction.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>You're in the right, Jenny; here's his man, I'll sound him about his master's marriage, and then—leave us together—Go—I'll make him speak, I warrant you.</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>If this marriage is but confirm'd, I shall leap out of my skin. <stage>[Exit.</stage>
+      </p>
+     </sp>
+     <stage>
+      <hi>Enter</hi> Slip.</stage>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>Mr. Slip, come hither—My old friend Sir Harry has recommended you to me, and I like your physiognomy—You have an honest face; it pleases me much.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Your humble servant, Sir—That's your goodness,—but if I was no honester than my face, gad a mercy poor me!</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>Well, well—hark you me! this master of yours is a lad of spirit—a favourite of the ladies, I warrant him, ha?</p>
+     </sp>
+     <sp who="#slip">
+      <pb n="23" facs="28"/>
+      <speaker>Slip.</speaker>
+      <p>That he is, I can tell you, Sir, a pretty fellow, no woman can resist him—I'll warrant, this marriage in your family will set you the hearts of thirty families at ease all round the country.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>Odd!—a terrible man, I profess—I don't wonder now that one wife can't serve him.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Wife, Sir! what wife, Sir?</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>You see I know all, my friend; so you may as well confess.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Confess! what, Sir?</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>I know all the conspiracy; and will take care that you, rascal, shall have your desert as an accomplice.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Accomplice!—Rascal! and a conspiracy!—Let me die if I comprehend a word you say.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>But I'll make you, villain.—</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>O very well, Sir—ha! ha! ha!—I protest you half frightened me—Very well, indeed! ha! ha! ha!</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>Do you laugh at me, Sirrah?</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>If I had not remembered to have heard my old master say, what a dry joker you were—I protest I should have been taken in—Very good, indeed, ha! ha! ha!</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>None of your buffoon'ry, Sirrah; but confess the whole affair this minute, or be sent to Newgate the next.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Newgate! sure, Sir, that would be carrying the joke too far.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>You won't confess, then—Who waits there? Send for a constable this moment.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Nay, good Sir, no noise, I beseech you▪ Though I am innocent as the child unborn, yet that severe tone of voice is apt to disconcert one. What was it your honour was pleased to hint about my master's being married? Who could possibly invent such a fib as that?</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>No fib, Sirrah! he wrote it himself to a friend of his at London—to Belford.</p>
+     </sp>
+     <sp who="#slip">
+      <pb n="24" facs="29"/>
+      <speaker>Slip.</speaker>
+      <p>Oh, oh!—your humble servant, Mr. Belford! a fine fetch, i'faith! nay, I can't blame the man neither, ha, ha. Pray, Sir, is not this same Mr. Belford in love with your daughter?</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>Suppose he is, puppy; and what then?</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Why then, Jenny is his friend, and at the bottom of all his fetches; I'll lay a wager that she is author of this whopper.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>Um!</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Our arrival put 'em to their trumps—and then—Slap, my poor master must be married; and Belford must shew a forg'd letter, forsooth, under his own hand to prove it—and, and, and, you understand me, Sir—</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>Why, this has a face.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>A face! ay, like a full moon: and while you're upon a false scent after this story, Jenny will gain time to work upon your daughter—I heard her say myself that she could lead you by the nose.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>Oh, she could, could she? Well, well, we'll see that.—</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>By the bye, Sir, where did you meet with this Mrs. Jenny?</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>How should I know?—I believe my wife hired her half a year ago out of the country—She had a good character; and is very notable; but pert, very pert.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Yes, yes, she is notable—Out of the country! and a good character! well said, Mrs. Jenny! <stage>[half aside.</stage>
+      </p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>What's the matter, Slip?—You have something in your head, I'm sure.—</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>No, nothing at all—but the luck of some people!—out of the country!</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>You must tell me—I shan't think you nean me well, if you conceal any thing from me.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Why, among ourselves, Sir—I knew Mrs. Jenny the last year very well—born and bred a Covent Garden—Some time ago bar-maid to a
+<pb n="25" facs="30"/>
+Jelly-house, and two children, (very fine ones indeed) by little Tom the waiter. I knew when I saw her here that we should have some sport.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>Ay, ay!—I know enough—well said, Mrs. Jenny, indeed! But mind the cunning of this fellow, this Belford—he says he's the most intimate friend your master has.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Ay, Sir!—ha! ha! ha! and I dare say my master would not know him if he met him—however, that's well observ'd, Sir—Um! nothing escapes you.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>Why, I am seldom out, seldom—</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Never.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>I don't say never—But here is your master, I must have a laugh with him about this marriage; ha! ha! ha!</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>'Twill be rare sport for him; he, he, he!</p>
+     </sp>
+     <stage>
+      <hi>Enter</hi> Martin.</stage>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>So, son-in-law! do you hear what the world say of you?—I have had intelligence here, (ay, and certain intelligence too) that you are married, it seems—privately married to a young lady of Dorsetshire. What say you, Sir?—Is not this fine! ha, ha, ha!</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Very merry, faith! <stage>[<hi>laughing, and making signs to</hi> Martin.]</stage>
+      </p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Ha, ha, ha!—'tis such a joke!—What, you have heard so?—This Mr. World is a facetious gentleman.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>Another man now would have given plumb into this foolish story, but I—No, no, your humble servant for that.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>No, plague! Mr. Stockwell has a long head! He— <stage>[Pointing still.</stage>
+      </p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>I would fain know who could be the author of such a ridiculous story.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Mr. Stockwell tells me, 'tis one Belford, I think he calls him; is not that his name, Sir?</p>
+     </sp>
+     <sp who="#martin">
+      <pb n="26" facs="31"/>
+      <speaker>Mart.</speaker>
+      <p>Belford! Belford! I never heard of his name in my life.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>As I said, Sir; you see master knows nothing of the fellow.—Stay, stay, is it not the youngster that—you know whom I mean;—that, that—</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Rot me, if I do!</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>He that—you must know him—that is your rival here, as the report goes.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>O, ay! now I recollect.—By the same token, they said he had but little, and ow'd much. That this match was to wipe off old scores, and that his creditors had stopp'd proceedings till he's married.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>Ay! ay! there let 'em stop. Ha, ha, ha! They'll be tir'd of stopping, I believe, if they are to stop till he has married my daughter, ha, ha, ha.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>He's no fool, let me tell you, this Mr. Belford.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>No; nor Mr. Stockwell neither:—and to convince them of that, I will go this instant to my banker's, and—</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Sir,—I'll wait on you.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>Stay, son-in-law, I have a proposal to make—I own, I agreed with my old friend to give you 10,000 l. down.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Ay, <hi>down,</hi> was the word, Sir—it was so—<hi>down.</hi>
+      </p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>Now, could you conveniently take some houses, that I have in the Borough, instead of half that sum—They are worth a great deal more than that, I assure you.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>O dear Sir,—your word is not to be disputed: I'll take any thing.—but between friends, ready money is the truth—<hi>Down,</hi> you know, Sir; that was the word, <hi>down.</hi>
+      </p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Specious, your honour knows, is of easier conveyance.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>Yes, sure, that's true; but—</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Ay, ay, one can't put houses in one's portmanteau, you, know—he! he! he!—Besides,
+<pb n="27" facs="32"/>
+there is a pretty estate to be sold in Dorsetshire, near my father's, and I have my eye upon that.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>As pretty a condition'd thing, as any in the country, and then so contagious, that a hedge only parts 'em.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>I may have it for 9000 l and I'm told 'tis worth ten at least.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>The least penny, Sir;—the timber's worth half the money.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>Well, well—Look you, son; I have a round 10,000 l. now in my banker's hands, which I thought to have made immediate advantage of.—You shall have a moiety of it.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Sir, I am infinitely obliged to you.—Are you a going to your banker's now, Sir?</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>I will but step and let my wife know of it; fetch the cash directly; and you shall marry my daughter in an hour.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Sir, suppose we invite Mr. Belford to the wedding? Ha, ha, ha!</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Ha! ha! ha! What a droll devil my master is!</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>Ha! ha! ha! <stage>[<hi>Exit</hi> Stockwell</stage>
+      </p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Wind and tide, my boy!—My master has certainly had an interview with Miss Nancy Stockwell.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>And as certainly knows Harlowe too.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>They correspond, you see.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>But, thanks to my wit, I have so set the old man against Belford, that I am in hopes we shall pack up madam's fortune in the portmanteau before he's set to rights again; and— <stage>[Martin <hi>going, stops</hi>
+       </stage>
+      </p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Zounds! my master!</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Where?</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Don't you see him reading a letter?</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>This is my unlucky star! What will become of us?</p>
+     </sp>
+     <stage>
+      <pb n="28" facs="33"/>
+      <hi>Enter</hi> Belford.</stage>
+     <sp who="#mr_belford">
+      <speaker>Bel.</speaker>
+      <p>This letter gets me admittance to Miss Stockwell at least: and if I can but save her from ruin, I shall be happy; but I hope this may have better consequences. Ha! what's this?—'Tis he! 'tis Martin, as I live.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Martin.</speaker>
+      <p>Ay, 'tis I:—and well for you it is.—What do you here?</p>
+     </sp>
+     <sp who="#mr_belford">
+      <speaker>Bel.</speaker>
+      <p>Nay, what are <hi>you</hi> doing here, and what have you done here?—What cloaths are these?—What's your scheme? and why have I not know it?</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Not so fast and so loud, good master of mine—walls have ears. These are your rival's cloaths, who is to follow them in a few days: but his servant there is an old friend of mine, and so, as they fit me so well—he's—I pass upon the family for the young fellow himself.</p>
+     </sp>
+     <sp who="#mr_belford">
+      <speaker>Bel.</speaker>
+      <p>Well, and where's the joke of that?</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>A very good joke, I think.—I'll undertake to put these two old fools (your papa and mama that shall be) so out of conceit with their son-in-law, that—why, already I have heard the old folks agreeing, that you were much the properer match for their daughter; so that I expect every moment they'll send for you to deliver them from me: and nothing can prevent our success but your being—</p>
+     </sp>
+     <sp who="#mr_belford">
+      <speaker>Bel.</speaker>
+      <p>Ha, ha, ha! a very good stratagem: but there is no need of it now;—for this rival, as you call him, is my particular friend, and married to another woman:—so I tell you we have nothing to fear.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>But I tell you, you will knock us all to pieces.—The finest plot that ever was laid, and you'll spoil it in the hatching.</p>
+     </sp>
+     <sp who="#mr_belford">
+      <speaker>Bel.</speaker>
+      <p>But what occasion is there? He can't marry em both.</p>
+     </sp>
+     <sp who="#martin">
+      <pb n="29" facs="34"/>
+      <speaker>Mart.</speaker>
+      <p>Speak lower! You think yourself mighty wise now; but here's Harlowe's servant, whom I have tickled in the palm, will tell you another story.</p>
+     </sp>
+     <sp who="#mr_belford">
+      <speaker>Bel.</speaker>
+      <p>Why, here's a letter under his own hand.—Read it.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Martin.</speaker>
+      <p>
+       <stage>[Reading.]</stage> Um—um—"Some days! privately married"—Slip. <stage>[<hi>apart to</hi> Slip.</stage>
+      </p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>This is easily clear'd up, Sir! There was such a thing proposed by my young master; but you must understand, Sir—that Mr. Harlowe, not approving of the terms, has tipped the young woman's father a good round sum, and so the affair is made up.</p>
+     </sp>
+     <sp who="#mr_belford">
+      <speaker>Bel.</speaker>
+      <p>Can it be possible that he is not married?</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>I'll take my oath of it before any magistrate in England.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Pooh—married! what! his old boots!</p>
+     </sp>
+     <sp who="#mr_belford">
+      <speaker>Bell.</speaker>
+      <p>Well,—I'll decamp then: but why is not Jenny in your plot?</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>She! no, no; she is not to be trusted.—I soon found out that.—Tooth and nail against us.</p>
+     </sp>
+     <sp who="#mr_belford">
+      <speaker>Bel.</speaker>
+      <p>Good heav'ns! how have I been deceiv'd!</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>You have indeed, master: but we have no time for reflections. If Jenny should see you, we are undone.</p>
+     </sp>
+     <sp who="#mr_belford">
+      <speaker>Bel.</speaker>
+      <p>Well, well, I go.—I'll make both your fortunes if you succeed.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Succeed! nothing can prevent us, but your being seen.</p>
+     </sp>
+     <sp who="#mr_belford">
+      <speaker>Bel.</speaker>
+      <p>I'll away then.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>And come not near this house to day. If you do, I must decamp.</p>
+     </sp>
+     <sp who="#mr_belford">
+      <speaker>Bel.</speaker>
+      <p>Well; but my dear lads, take care; I depend on you.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>That's all you have to do—put your fortune into our hands;—</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>And I'll warrant, we give a good account of it.</p>
+     </sp>
+     <sp who="#mr_belford">
+      <pb n="30" facs="35"/>
+      <speaker>Bel.</speaker>
+      <p>Think how my happiness—</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Prithee, no more.—</p>
+     </sp>
+     <sp who="#mr_belford">
+      <speaker>Bel.</speaker>
+      <p>Depends on you.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Begone, I say; or I'll throw up the cards.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>At last he's gone! <stage>[<hi>Exit</hi> Belford.</stage>
+      </p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>And we have time to take a little breath: for this was a hot alarm, faith!</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>I was only afraid the old gentleman, or Jenny, would have surprised us together.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>That would have been a clincher: but now I must after the old gentleman for the money. <stage>[Exit.</stage>
+      </p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>And I'll be upon the watch, for fear of mischief. <stage>[Exit.</stage>
+      </p>
+     </sp>
+    </div>
+    <div type="scene">
+     <head>SCENE, <stage>
+       <hi>an apartment in</hi> Stockwell<hi>'s house.</hi>
+      </stage>
+     </head>
+     <stage>
+      <hi>Enter</hi> Stockwell <hi>and</hi> Jenny.</stage>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>Still I say, Sir—</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>And still I say, madam—</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>That Mr. Belford's a very honest gentleman, and you ought to search it.—</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>I tell you, I have search'd, and prob'd it to the quick—and that he shall feel. I know well enough you are in his interest, and have your interest in so doing; and I'm sorry you could find no prettier plot than this to defer the wedding.</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>Lud, Sir, do you believe?—</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>No—but I'm sure on't—that's better.</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>Lud!—You'd make one mad.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>And you'd make me a fool if you cou'd; no, no; I'm an ass, a poor simpleton, that may be led by the nose;—but you may tell my daughter, that she shall marry Harlowe this night.—And you may tell your friend Belford, to let his creditors know that they need not stop proceedings.—And you, madam, may return to your Jelly-shop, and give my compliments to little Tom, and all the little family, ha, ha, ha! <stage>[Exit.</stage>
+      </p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jenny.</speaker>
+      <p>What does he mean by his Jelly-house—little Tom—and all the little family!—There's something
+<pb n="31" facs="36"/>
+at the bottom of this, I cannot yet fathom:—but I will fathom it.—I never was out of a secret yet, that I had a mind to find out; and that's all that have come a-cross me,—and my pride won't let me be long out of this.—I will go directly to Mr. Belford's, where we'll lay our heads together, and beget such a piece of mischief, that shall be hard for the devil himself, if he has the impudence to try confusions with me. <stage>[Exit.</stage>
+      </p>
+     </sp>
+    </div>
+    <div type="scene">
+     <head>SCENE, <stage>
+       <hi>the street before</hi> Stockwell<hi>'s house.</hi>
+      </stage>
+     </head>
+     <stage>Stockwell, Martin, <hi>and</hi> Slip.</stage>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>Come, son-in-law, we'll go to my banker's, and see how our cash stands, and settle matters as well as we can.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>I'll attend you, Sir, with pleasure—cash or notes—all the same to me.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>I wish you'd take the houses, son-in-law, 'twould be more convenient for me, and a greater advantage to you.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Advantage, Sir!—I scorn to take any advantage of you—I hate mean views.—I desire nothing better than my bargain.—The money and your daughter's charms, are sufficient for your poor Mart—humble servant.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>Well, well, come along; we don't quite understand one another. <stage>[Exit.</stage>
+      </p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>But we do.— <stage>(<hi>to</hi> Slip.)</stage> The day's our own; get ev'ry thing ready to make our retreat good.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Ay, ay, get you the money, and I'll be ready with the equipage. <stage>[<hi>Exit</hi> Martin.</stage>
+      </p>
+      <l>"<hi>Thus far our arms have with success been crown'd;</hi>"</l>
+      <p>I have only one doubt remaining, and that's about this same portion. I don't relish this dividing a booty.—How shall I cheat Martin?—I should deserve to be canoniz'd, could I but cheat that rogue
+<pb n="32" facs="37"/>
+of rogues.—I must e'en throw the young lady in his way, and persuade him for our better security, to pass the night with her: so leave him with the shell, while I slip off with the kernel. A tempting bait!—But no—stand off, Satan!—'Tis against our fundamental laws. We adventurers have ten times the honour of your fair traders. <stage>(<hi>Going, and stops.</hi>)</stage> Why, what!—Sure it can't be?—Zounds, if it should!—It is the very man!—Our little, old, wither'd, fiery gentleman, by all that's terrible! from what a fine dream will this gouty spitfire awake us!—He's certainly going to Mr. Stockwell's, and his gunpowder will blow up all at once! If Martin and Mr. Stockwell don't return too soon from the banker's, I may send him away; 'tis our last stake, and I must play it like a gamester.</p>
+     </sp>
+     <stage>
+      <hi>Enter Sir</hi> Harry Harlowe.</stage>
+     <sp who="#sir_harry_harlowe">
+      <speaker>Sir <hi>Har.</hi>
+      </speaker>
+      <p>I don't know how my old friend Stockwell may receive me after this disappointment.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Stay till you see Mr. Stockwell, my old friend. <stage>(<hi>aside</hi>)</stage> Bless me, what do I see! Sir Harry, is it you?—Indeed your honour?—Your very humble servant.</p>
+     </sp>
+     <sp who="#sir_harry_harlowe">
+      <speaker>Sir <hi>Har.</hi>
+      </speaker>
+      <p>I don't know you, friend, keep your distance. <stage>[Claps his hands on his pockets.</stage>
+      </p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Don't you know me, Sir?—</p>
+     </sp>
+     <sp who="#sir_harry_harlowe">
+      <speaker>Sir <hi>Har.</hi>
+      </speaker>
+      <p>It cannot be Slip, sure! Is this the fool's coat my son ordered you for his wedding?</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Yes, Sir; and a genteel thing it is upon me. What, you had a mind to surprize your friends?—Who thought of you at London, Sir?</p>
+     </sp>
+     <sp who="#sir_harry_harlowe">
+      <speaker>Sir <hi>Har.</hi>
+      </speaker>
+      <p>I set out soon after you, lame as I was.—I bethought me, it look'd better to settle matters of such consequence with Mr. Stockwell viva voce, than to trust it to a servant.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>You were always a nice observer of decorums:—you are going now to Mr. Stockwell's?</p>
+     </sp>
+     <sp who="#sir_harry_harlowe">
+      <pb n="33" facs="38"/>
+      <speaker>Sir <hi>Har.</hi>
+      </speaker>
+      <p>Directly.— <stage>(<hi>Going to knock.</hi>)</stage>
+      </p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Hold your desperate hand! and thank fortune that brought me hither for your rescue.</p>
+     </sp>
+     <sp who="#sir_harry_harlowe">
+      <speaker>Sir <hi>Har.</hi>
+      </speaker>
+      <p>Why, what's the matter? Rescue me, quoth-a! Have you seen 'em, Slip?</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Seen 'em! ay, and felt 'em too. I am just escap'd.—The old lady is in a damn'd passion with you, I can tell you.</p>
+     </sp>
+     <sp who="#sir_harry_harlowe">
+      <speaker>Sir <hi>Har.</hi>
+      </speaker>
+      <p>With me!</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Ay, that she is. How, says she, does the old fool think to fob us off with a flam, and a sham, of a dirty trollop?—Must my daughter's reputation—and then she bridled and stalk'd up to me thus, Sir.</p>
+     </sp>
+     <sp who="#sir_harry_harlowe">
+      <speaker>Sir <hi>Har.</hi>
+      </speaker>
+      <p>How!—but there's no answering a silly woman: how can this affect her daughter's character?</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>That's what I said.—Madam, says I—but you can't expect a woman in a fury to hear reason:—'tis almost as much as they can do when they are cool. No, no; as for her argument, it was sad stuff! Will the world, says she, believe such a—no, no; they'll think the old hunks has found some flaw in our circumstances, and so won't stand to his bargain.</p>
+     </sp>
+     <sp who="#sir_harry_harlowe">
+      <speaker>Sir <hi>Har.</hi>
+      </speaker>
+      <p>Poh! Nothing disguises a woman like passion.—Though it may become a man sometimes.—</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Lud, Sir; you wou'd not know her again—her eyes stare in her head, and she can't see a creature.—On a sudden, (for I push'd the argument pretty home) she caught hold of my throat, thus, Sir; and knock'd me down with the butt end of her fan.</p>
+     </sp>
+     <sp who="#sir_harry_harlowe">
+      <speaker>Sir <hi>Har.</hi>
+      </speaker>
+      <p>Did she?—But what did her husband say to this? Let us hear that.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Oh, Sir; I found him pretty reasonable.—He only shew'd me the door, and kick'd me down stairs.</p>
+     </sp>
+     <sp who="#sir_harry_harlowe">
+      <speaker>Sir <hi>Har.</hi>
+      </speaker>
+      <p>If he's for that work, we can kick too.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Dear Sir, consider your gout.</p>
+     </sp>
+     <sp who="#sir_harry_harlowe">
+      <pb n="34" facs="39"/>
+      <speaker>Sir <hi>Har.</hi>
+      </speaker>
+      <p>No, Sir; when my blood is up, I never feel the gout.—But could they possibly take it amiss, that I consented to my son's marriage?—I doubt you did not explain circumstances.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>I told 'em plain enough, I thought, that my young master, having begun the ceremony at the wrong end, the family were going ding-dong to law; and that you had behav'd like a man of honour, and—very wisely compounded matters.</p>
+     </sp>
+     <sp who="#sir_harry_harlowe">
+      <speaker>Sir <hi>Har.</hi>
+      </speaker>
+      <p>And did not this convince 'em?</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>I say convince!—They're in a pretty temper to be convinc'd.—If you'd take a fool's counsel, you should return to your inn, and never think of convincing them.</p>
+     </sp>
+     <sp who="#sir_harry_harlowe">
+      <speaker>Sir <hi>Har.</hi>
+      </speaker>
+      <p>They are for kicking, are they? I could have kick'd pretty well my self once.—We shall see what they would be at— <stage>[<hi>going, is stop'd by</hi> Slip.</stage>
+      </p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Indeed, Sir, you shall not.—What! have your face scratch'd by an old woman, or be run thro' the body with a rusty sword? Indeed you shall not.—</p>
+     </sp>
+     <sp who="#sir_harry_harlowe">
+      <speaker>Sir <hi>Har.</hi>
+      </speaker>
+      <p>
+       <stage>(<hi>endeavouring to draw his sword</hi>)</stage> —We have swords, that run thro' bodies, as well as they; ay, and pistols too.—If he will quarrel, I'm his man.—Steel or lead, 'tis all one to me.—A passionate old fool! I'll cool him; kick me down stairs—!</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Lord! Sir; you are so hot!—You forget, it was me he kick'd down stairs,—not you.</p>
+     </sp>
+     <sp who="#sir_harry_harlowe">
+      <speaker>Sir <hi>Har.</hi>
+      </speaker>
+      <p>'Tis the same thing, Sir.—Whoever kicks you, kicks me by proxy—nay worse;—you have only the kicks, but I have the affront.—</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>If the kicks are the best, I shall be content with the worst another time.—Undone, undone! This way, this way, Sir.—Let us go this way—there will certainly be bloodshed.</p>
+     </sp>
+     <sp who="#sir_harry_harlowe">
+      <speaker>Sir <hi>Har.</hi>
+      </speaker>
+      <p>What is the matter, you fool? What art afraid of?</p>
+     </sp>
+     <sp who="#slip">
+      <pb n="35" facs="40"/>
+      <speaker>Slip.</speaker>
+      <p>Don't you see Mr. Stockwell coming this way? Bless me, how he stares! He's mad with passion.—Don't meet him, Sir Harry.—You are out of wind, and have not push'd a great while▪ and he'll certainly be too much for you.—</p>
+     </sp>
+     <sp who="#sir_harry_harlowe">
+      <speaker>Sir <hi>Har.</hi>
+      </speaker>
+      <p>I won't avoid him.—My blood's up as well as his;—if the fool will be for fighting—let him take what follows.—Hold my cane, Slip.— <stage>(<hi>Cocks his hat.</hi>
+       </stage>
+      </p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Ay, 'tis all over.—If Martin has but got the money, we may retire while the champions are at it.—</p>
+     </sp>
+     <stage>
+      <hi>Enter old</hi> Stockwell <hi>and</hi> Martin.</stage>
+     <stage>Stockwell <hi>with a bag, and notes in his hand.</hi>
+     </stage>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>We will count our money and bills over again, sign the writings; and then, son, for singing and dancing, and—</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Don't give yourself that trouble, Mr. Stockwell;—among friends, you know—pray, let me ease you of that weight. <stage>(<hi>offers to take the money.</hi>)</stage>
+      </p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>No, no, son; you shan't have a farthing more or less than your bargain.—We citizens are exact, and must have our way, in form.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Zounds! he has not got the money!—We must have a scramble for it at last then.</p>
+     </sp>
+     <sp who="#sir_harry_harlowe">
+      <speaker>Sir <hi>Har.</hi>
+      </speaker>
+      <p>Now he eyes me!—I'll be as fierce as he;—now for it—hem, hem! <stage>(<hi>brustles up.</hi>)</stage>
+      </p>
+     </sp>
+     <stage>(<hi>During this</hi> Martin <hi>and</hi> Slip <hi>make signs, and approach each other by degrees.</hi>)</stage>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>Eh! sure, if my eyes don't deceive me, there is somebody very like my old friend and your father▪ Sir Harlowe!</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Damnably like indeed, Sir.</p>
+     </sp>
+     <sp who="#sir_harry_harlowe">
+      <speaker>Sir <hi>Har.</hi>
+      </speaker>
+      <p>He looks like the devil at me; but I'll be even with him.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <pb facs="41"/>
+      <speaker>Stock.</speaker>
+      <p>What, my dear friend, is it you?</p>
+     </sp>
+     <sp who="#sir_harry_harlowe">
+      <speaker>Sir <hi>Har.</hi>
+      </speaker>
+      <p>None of your hypocritical palavers with me.—Keep your distance, you dissembling old fool you, or I'll teach you better manners, than to kick my servant down stairs.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>What do you mean, Sir Harry?—He's mad sure!</p>
+     </sp>
+     <stage>[<hi>They stand and stare at each other, and Sir</hi> Harry <hi>shakes his sword.</hi>]</stage>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>Nothing can save us now, Slip!</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>Trip up his heels, and fly with the money to the post-chaise; while I tread upon my old master's toes, that he mayn't follow us.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>We have nothing else for it.—Have at em.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>Nay, but Sir Harry!</p>
+     </sp>
+     <stage>[<hi>As they approach the old gentleman,</hi> Belford <hi>comes in behind with constables, and seizes them.</hi>]</stage>
+     <sp who="#mr_belford">
+      <speaker>Bel.</speaker>
+      <p>Have I caught you, rascals!—in the very nick too! Secure 'em, constables.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>What, in the name of wonder, are you about?</p>
+     </sp>
+     <sp who="#mr_belford">
+      <speaker>Bel.</speaker>
+      <p>I have a double pleasure in this;—for I have not only discovered two villains, but at the very time, Sir, their villainy was taking effect, to make you miserable.</p>
+     </sp>
+     <sp who="#sir_harry_harlowe">
+      <speaker>Sir <hi>Har.</hi>
+      </speaker>
+      <p>Two villains! Mr. Stockwell, do you hear this? Explain yourself, Sir; or blood and brimstone—</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>Explain, Mr. Belford:—Sir Harry Harlowe! What is all this!—I am all stupefaction!—</p>
+     </sp>
+     <sp who="#mr_belford">
+      <speaker>Bel.</speaker>
+      <p>Is this Sir Harry?—I am your humble servant, Sir.—I have not the honour to be known to you, but am a particular acquaintance of your
+<pb n="37" facs="42"/>
+son's; who has been misrepresented here, by that pretty gentleman, once a rascal of mine.</p>
+     </sp>
+     <sp who="#sir_harry_harlowe">
+      <speaker>Sir <hi>Har.</hi>
+      </speaker>
+      <p>I'm in a wood, and don't know how to get out of it!</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>Is not this your son, Sir Harry?</p>
+     </sp>
+     <sp who="#sir_harry_harlowe">
+      <speaker>Sir <hi>Har.</hi>
+      </speaker>
+      <p>No, you passionate old fool; but this is my servant, and my son's pimp, whom I understand you have been kicking down stairs!</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>Here's a fine heap of roguery!</p>
+     </sp>
+     <sp who="#mr_belford">
+      <speaker>Bel.</speaker>
+      <p>It was my good fortune, by the intelligence and instigation of Mrs. Jenny, to discover the whole before these wretches had accomplished their designs.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>What <hi>a hair-breadth 'scape</hi> have I had! as the poet says, the very brink of destruction! for I should have given him the cash in five minutes.—I'm in a cold sweat at the thoughts of it. Dear Mr. Belford! <stage>[shakes him by the hand.</stage>
+      </p>
+     </sp>
+     <stage>
+      <hi>Enter Mrs.</hi> Stockwell, <hi>Miss, and</hi> Jenny.</stage>
+     <sp who="#mrs_stockwell">
+      <speaker>Mrs. <hi>Stock.</hi>
+      </speaker>
+      <p>O, Mr. Stockwell! here are fine doings going forward.—Did not I tell you, that I was for Mr. Belford from the beginning?</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>Don't trouble us now, wife; you have been for and against him twenty times in four and twenty hours.</p>
+     </sp>
+     <sp who="#jenny">
+      <speaker>Jen.</speaker>
+      <p>
+       <stage>(<hi>to</hi> Martin <hi>and</hi> Slip)</stage> Your humble servant, gentlemen! What, dumb and asham'd too!—the next scheme you go about, take care that there is not such a girl as I within twenty miles of you.</p>
+     </sp>
+     <sp who="#martin">
+      <speaker>Mart.</speaker>
+      <p>I wish we were twenty miles from you, with all my soul.</p>
+     </sp>
+     <sp who="#slip">
+      <speaker>Slip.</speaker>
+      <p>As you don't like our company, Madam, we'll retire. <stage>(<hi>going away.</hi>)</stage>
+      </p>
+     </sp>
+     <sp who="#mr_belford">
+      <speaker>Bel.</speaker>
+      <p>Hold 'em fast, constables:—They must give some account of themselves at the Old Bailey, and then perhaps they may retire to our plantations.</p>
+     </sp>
+     <sp who="#sir_harry_harlowe">
+      <speaker>Sir <hi>Har.</hi>
+      </speaker>
+      <p>But what have they done? or what will
+<pb n="38" facs="43"/>
+you do? or what am I to do?—I'm all in the dark—pitch-dark.—</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>Is your son married, Sir Harry?</p>
+     </sp>
+     <sp who="#sir_harry_harlowe">
+      <speaker>Sir <hi>Har.</hi>
+      </speaker>
+      <p>Yes, a fortnight ago:—and this fellow you kick'd down stairs, was sent with my excuses.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>I kick'd him down stairs!—You villain you.—</p>
+     </sp>
+     <sp who="#mr_belford">
+      <speaker>Bel.</speaker>
+      <p>Don't disturb yourself with what is past, but rejoice at your deliverance.—If you and Sir Harry will permit me to attend you within, I will acquaint you with the whole business.</p>
+     </sp>
+     <sp who="#sir_harry_harlowe">
+      <speaker>Sir <hi>Har.</hi>
+      </speaker>
+      <p>I see the whole business now, Sir. We have been their fools.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>And they are our knaves; and shall suffer as such.—Thanks to Mr. Belford here—My good angel, that has sav'd my 10,000l.—</p>
+     </sp>
+     <sp who="#sir_harry_harlowe">
+      <speaker>Sir <hi>Har.</hi>
+      </speaker>
+      <p>He has sav'd your family, Mr. Stockwell.</p>
+     </sp>
+     <sp who="#mr_belford">
+      <speaker>Bel.</speaker>
+      <p>Cou'd you but think, Sir, my good services to your family, might intitle me to be one of it.—</p>
+     </sp>
+     <sp who="#miss_nancy">
+      <speaker>Miss <hi>Nancy.</hi>
+      </speaker>
+      <p>You'd make your daughter happy, by giving her to your best friend.</p>
+     </sp>
+     <sp who="#mrs_stockwell">
+      <speaker>Mrs. <hi>Stock.</hi>
+      </speaker>
+      <p>My dear; for once hear me and reason, and make 'em both happy.</p>
+     </sp>
+     <sp who="#mr_stockwell">
+      <speaker>Stock.</speaker>
+      <p>You shall be happy, Belford.—Take my daughter's hand.—You have her heart.—You have deserved her fortune, and shall have that too.—Come, let us go in and examine these culprits.—</p>
+     </sp>
+     <sp who="#sir_harry_harlowe">
+      <speaker>Sir <hi>Har.</hi>
+      </speaker>
+      <p>Right, Mr. Stockwell. 'Tis a good thing to punish villainy; but 'tis a better to make virtue happy:—and so let us about it.</p>
+     </sp>
+    </div>
+   </div>
+   <trailer>FINIS.</trailer>
+  </body>
+ </text>
+</TEI>
