@@ -1,0 +1,3660 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">Oroonoko</title>
+    <title type="sub">or the royal slave. A tragedy. Altered from Southerne, by Francis Gentleman. ...</title>
+    <author>
+     <persName>
+      <surname>Gentleman</surname>
+      <forename>Francis</forename>
+      <idno type="VIAF">18293409</idno>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>Oroonoko: or the royal slave. A tragedy. Altered from Southerne, by Francis Gentleman. ...</name>
+     <author>Gentleman, Francis, 1728-1784.</author>
+     <publisher>printed by Robert and Andrew Foulis,</publisher>
+     <date>1760.</date>
+     <pubPlace>Glasgow :</pubPlace>
+     <note>With a half-title.</note>
+     <note>Reproduction of original from the British Library.</note>
+     <note>Gaskell, 386</note>
+     <note>English Short Title Catalog, ESTCT43462.</note>
+     <note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note>
+    </bibl>
+    <biblFull n="printed source">
+     <publicationStmt>
+      <authority ref="#JJ">Jan Jokisch</authority>
+      <date>2024 December</date>
+      <idno type="ECCO_Drama">K042020.000</idno>
+      <idno type="DLPS">004898853</idno>
+      <idno type="ESTC">T43462</idno>
+      <idno type="DocNo">CW117082667</idno>
+      <idno type="TCP">K042020.000</idno>
+      <idno type="GaleDocNo">CW3317082667</idno>
+      <idno type="ContentSet">ECLL</idno>
+      <idno type="ImageSetID">1220300400</idno>
+      <availability>
+       <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+      </availability>
+     </publicationStmt>
+    </biblFull>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    <person xml:id="oroonoko"><persName>Oroonoko</persName><sex value="MALE"/></person><person xml:id="aboan"><persName>Aboan</persName><sex value="MALE"/></person><person xml:id="governor"><persName>Governor</persName><sex value="MALE"/></person><person xml:id="blandford"><persName>Blandford</persName><sex value="MALE"/></person><person xml:id="massingano"><persName>Massingano</persName><sex value="MALE"/></person><person xml:id="zinzo"><persName>Zinzo</persName><sex value="MALE"/></person><person xml:id="capt_driver"><persName>Capt. Driver</persName><sex value="MALE"/></person><person xml:id="imoinda"><persName>Imoinda</persName><sex value="FEMALE"/></person><person xml:id="planter_1"><persName>Planter 1</persName><sex value="MALE"/></person><person xml:id="planter_2"><persName>Planter 2</persName><sex value="MALE"/></person></listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1760">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text>
+  <front>
+   <div type="halftitle">
+    <pb facs="1"/>
+    <p>OROONOKO. A TRAGEDY.</p>
+   </div>
+   <div type="titlepage">
+    <pb facs="2"/>
+    <p>OROONOKO: OR THE ROYAL SLAVE. A TRAGEDY.</p>
+    <p>ALTERED FROM SOUTHERNE, BY FRANCIS GENTLEMAN.</p>
+    <p>As it was Performed at the THEATRE in EDINBURGH, with universal Applause.</p>
+    <p>GLASGOW: PRINTED BY ROBERT AND ANDREW FOULIS M.DCC.LX.</p>
+   </div>
+   <div type="dedication">
+    <pb facs="3"/>
+    <head>TO JAMES BOSWELL, ESQ.</head>
+    <l>HOW can the muse with burthen'd pinions soar?</l>
+    <l>No flow'rs appear among the winter's store.</l>
+    <l>Remov'd from FORTUNE'S vivifying heat,</l>
+    <l>Almost within the Frigid Zone of fate.</l>
+    <l>Can shiv'ring fancy fondly hope to rise,</l>
+    <l>Through the rough regions of tempestuous skies?</l>
+    <l>'Tis madness to attempt—yet REASON, proud,</l>
+    <l>With God-like energy thus cries aloud:</l>
+    <l>' Let fools the deity of FORTUNE own;</l>
+    <l>' I view alike a cottage or a throne.</l>
+    <l>' Intrinsic worth, alone, has charms for me;</l>
+    <l>' The worth of virtue, and of liberty.</l>
+    <l>' Rouze, then, nor let an apathy of soul,</l>
+    <l>' Thy active free-born faculties controul:</l>
+    <l>' Behold aright the attributes of state;</l>
+    <l>' They are not always happy, who are great.</l>
+    <l>' Invoke CONTENT to soothe thy troubled mind,</l>
+    <l>' CONTENT, the opulence of human kind,</l>
+    <l>' That like the tuneful herald of the morn,</l>
+    <l>' When rosy-tinctur'd beams the East adorn,</l>
+    <l>' From his grass pallat mounts on cow'ring wings,</l>
+    <l>' And from his height serene—looks down on kings:</l>
+    <l>
+     <pb n="6" facs="4"/>' Then, pleas'd, returns into his humble bed,</l>
+    <l>' And rests, while sleep from grandeur's couch is fled:</l>
+    <l>' Such is CONTENT—her sacred aid invoke.—</l>
+    <l>Sweet, as Orphean lyre, the voice that spoke;</l>
+    <l>As that could lull the savage herds to rest,</l>
+    <l>So this can calm the troubles of my breast:</l>
+    <l>'Tis done—care's furrow'd brow is render'd even,</l>
+    <l>The call of REASON is the call of Heav'n;</l>
+    <l>And, now, to justly dedicate those lays,</l>
+    <l>Which, through the parent-stock, must hope for praise;</l>
+    <l>From SOUTHERNE'S muse existence must derive,</l>
+    <l>Must live through him, if they should chance to live.</l>
+    <l>Shall I for some exalted title seek,</l>
+    <l>And cringe to fortune, not to merit speak?</l>
+    <l>No—she disdains a task so meanly low,</l>
+    <l>In ev'ry shape to flattery a foe:</l>
+    <l>But where with honest pleasure she can find,</l>
+    <l>Sense, taste, politeness with good-nature join'd;</l>
+    <l>There, gladly, will she raise her humble voice,</l>
+    <l>Nor fears to tell that BOSWELL is her choice.</l>
+    <closer>
+     <signed>FRANCIS GENTLEMAN.</signed>
+     <dateline>GLASGOW,
+<date>February 1760.</date>
+     </dateline>
+    </closer>
+   </div>
+   <div type="prologue">
+    <pb facs="5"/>
+    <head>PROLOGUE.</head>
+    <lg>
+     <l>HOW difficult the task of those who aim,</l>
+     <l>By lays dramatic, to arrive at same;</l>
+     <l>Who fondly hope 'twill prove a work of ease,</l>
+     <l>The appetites of all their guests to please?</l>
+     <l>This vain attempt eludes the nicest care;</l>
+     <l>For taste's as different as our faces are.</l>
+    </lg>
+    <lg>
+     <l>SOUTHERNE, whose tender muse could well impart,</l>
+     <l>The noblest feelings to each melting heart;</l>
+     <l>And raise, by force divine, for the distress'd,</l>
+     <l>Grief's tend'rest sympathy in ev'ry breast;</l>
+     <l>Who wanted but attention to command,</l>
+     <l>The subject passions with a master hand,</l>
+     <l>Was forc'd, when he adventur'd on the stage,</l>
+     <l>To prostitute his genius to the Age;</l>
+     <l>An Age, remarkable for wit and vice,</l>
+     <l>When pleasure must be had at any price;</l>
+     <l>When wounded virtue hung her languid head,</l>
+     <l>And ev'ry sense of public shame was fled;</l>
+     <l>When hapless poets, if they wish'd to eat,</l>
+     <l>Must furnish—tho' regret—a luscious treat.</l>
+     <l>This sad necessity, even DRYDEN'S muse,</l>
+     <l>With such immoral pieces could abuse;</l>
+     <l>In their deformity, his beauties fade,</l>
+     <l>And all his laurels wither in their shade.</l>
+    </lg>
+    <lg>
+     <pb n="8" facs="6"/>
+     <l>But now, when chaster judgment holds the scales,</l>
+     <l>And taste, with delicacy join'd, prevails,</l>
+     <l>From ribaldry to rescue virtuous lays,</l>
+     <l>Must plead some favour, though it reach not praise.</l>
+    </lg>
+    <lg>
+     <l>Ye CALEDONIAN fair, in whom we find,</l>
+     <l>Each charm of person, and each grace of mind;</l>
+     <l>For Virtue's sake, a feeble genius spare,</l>
+     <l>The cause of Virtue's your peculiar care;</l>
+     <l>In you it lies to censure, or to save;</l>
+     <l>To your protection take the ROYAL SLAVE.</l>
+    </lg>
+   </div>
+   <div type="note">
+    <pb facs="7"/>
+    <head>ADVERTISEMENT.</head>
+    <p>THOUGH the Prologue shews the motive of this alteration, it may not be improper to mention, that it was first hinted to the Author by a Noble Personage, who has eminently distinguished himself in the literary world; and who recollected to have heard Mr. SOUTHERNE declare, in his latter days, that he most heartily regretted his complying with licentious taste, by writing any thing so offensive to modesty, as the comic part of his works; especially that which was so unnaturally joined to the tragedy of this play.</p>
+    <p>The Author thinks himself obliged, in gratitude, to acknowledge the very candid reception <hi>his</hi> part of it met with from the polite and judicious audience of EDINBURGH, without one person to recommend it, as he chose to lie concealed; and this approbation is the more extraordinary, as the piece laboured under some lamentable deficiencies in the representation.</p>
+    <p>
+     <hi>Such lines as have been added, to gratify curiosity, are marked thus</hi> (').</p>
+   </div>
+   <div type="Dramatis_Personae">
+    <pb facs="8"/>
+    <castList>
+     <head>Dramatis Personae.</head>
+     <castItem>OROONOKO.</castItem>
+     <castItem>ABOAN.</castItem>
+     <castItem>GOVERNOR.</castItem>
+     <castItem>BLANDFORD.</castItem>
+     <castItem>MASSINGANO.</castItem>
+     <castItem>ZINZO.</castItem>
+     <castItem>CAPT. DRIVER.</castItem>
+     <castItem>PLANTERS and SLAVES.</castItem>
+     <castItem>IMOINDA.</castItem>
+    </castList>
+   </div>
+  </front>
+  <body>
+   <head>
+    <pb facs="9"/>OROONOKO.</head>
+   <div n="1" type="act">
+    <head>ACT THE FIRST.</head>
+    <stage>GOVERNOR and BLANDFORD.</stage>
+    <sp who="#governor">
+     <speaker>GOVERNOR.</speaker>
+     <l>' BLANDFORD, your partial fortune ever smiles,</l>
+     <l>' Like a kind mistress, lavish of her grace,</l>
+     <l>' She beams indulgent upon every wish;</l>
+     <l>' Yet this time, tho' a prince becomes your slave,</l>
+     <l>' I envy not; but, in the former sale,</l>
+     <l>' Chance cross'd the strongest purpose of my heart;</l>
+     <l>' Your lovely prize, the fair Clemene's charms</l>
+     <l>' Assail'd, and won my soul.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>' You love her then.</l>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>' Too sure I love her, more than words can speak;</l>
+     <l>' Each day the passion more enflames my breast,</l>
+     <l>' And, tho' she wears the sable veil of grief,</l>
+     <l>' Tho' floods of tears o'erwhelm her starry eyes,</l>
+     <l>' Such native beauteous innocence appears,</l>
+     <l>' That thought can find no other theme but her.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>' Have you reveal'd your passion, told your love?</l>
+     <l>' Unless some sorrow of unknown import,</l>
+     <l>' Some mighty woe lies heavy on her heart,</l>
+     <l>
+      <pb n="12" facs="10"/>' Her abject state may win her to your will;</l>
+     <l>' And then, by shewing how you wish to please,</l>
+     <l>' Creating gratitude, you'll gain her love.</l>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>' My tongue, unpractised in the soothing art,</l>
+     <l>' But ill befits the tenderness of love:</l>
+     <l>' My stubborn temper with reluctance bends</l>
+     <l>' To such soft feelings; and I strive in vain</l>
+     <l>' To deck persuasion in attractive phrase;</l>
+     <l>' Besides, I fear some settled care within—</l>
+     <l>' But, be it as it may, she shall be mine;</l>
+     <l>' I will luxuriously possess her charms,</l>
+     <l>' And cure this raging fever of my soul.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>You've my consent to try all gentle means;</l>
+     <l>Humanity obliges me to stand</l>
+     <l>Her guardian against violence—</l>
+     <l>' But see, here comes the sordid Buccaneer,</l>
+     <l>' With a malicious joy upon his brow,</l>
+     <l>' To boast the merit of his savage trade:</l>
+     <l>' A wretch as ruthless as the prowling wolf,</l>
+     <l>' Without one human feeling in his breast;</l>
+     <l>' Yet vaunts, that, as a Christian, he has right</l>
+     <l>' To make the most of infidels—he's here.</l>
+    </sp>
+    <stage>CAPTAIN DRIVER and PLANTERS.</stage>
+    <sp who="#capt_driver">
+     <speaker>Driv.</speaker>
+     <p>' Well, Lieutenant-Governor, I believe I have done my part this trip; I have brought my full number of slaves, and some such as don't come every day; I was hard drove to bring the matter to bear; but Dick Driver don't go without his errand; so here they are. I
+<pb n="13" facs="11"/>
+' have delivered them; and now, my lads, it is your business to make the most of them in your way, as I have done in mine.</p>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <p>' Your active spirit has serv'd the colony, Captain, and deserves our thanks.</p>
+    </sp>
+    <sp who="#capt_driver">
+     <speaker>Driv.</speaker>
+     <p>' Nay, do you see, for that matter, Governor, I want no complementeering; I serve the colony and myself; I am not one of your what d'ye callum's, that love their country better than themselves; no, no, I plow the deep, my masters, and give chase to Fortune with all the sail I can make; when I clap her aboard, she'll soon strike.</p>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <p>' There you are right, Captain; Fortune, woman-like, must be close pursu'd, and seldom can resist the brave.</p>
+    </sp>
+    <sp who="#capt_driver">
+     <speaker>Driv.</speaker>
+     <p>' True, spring my bowsprit; and so I often told Jack Handspike; he and I were fellow-prentices and mess-mates; as honest a fellow Jack was, as ever knock'd off a can of slip; but he had a damn'd troublesome companion call'd Conscience; I bid him shake hands, and part: but I don't know how he wou'd row against wind and tide; and now he plies before the mast, while I command the Charming Peggy—as good a sea-boat as ever swam: but no matter for that, he has his conscience, he! he! he!</p>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <p>But, Captain, where are the slaves?—they are long a-coming.</p>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <p>And who is this prince that's fall'n to my lot for our lord Governor?</p>
+    </sp>
+    <sp who="#capt_driver">
+     <pb n="14" facs="12"/>
+     <speaker>Driv.</speaker>
+     <p>He's the devil of a fellow, that I can tell you; a prince every inch of him: you have paid dear enough for him, for all the good he'll do you: I was forc'd to clap him in irons, and did not think the ship safe neither. You are in hostility with the Indians, they say; they threaten you daily: you had best have an eye upon him.</p>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <p>But who is he?</p>
+    </sp>
+    <sp who="#capt_driver">
+     <speaker>Driv.</speaker>
+     <p>Why, he is son and heir to the great King of Angola, a mischievous monarch in those parts; who, by his good will, would never let any of his neighbours be quiet. This son was his General, a plaguy sighting fellow: I have formerly had dealings with him for slaves, which he took prisoners, and have got pretty roundly by him. But the war being at an end, and nothing more to be got by the trade of the country—I made bold to bring the prince along with me.</p>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <p>How could you do that?</p>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <p>What! steal a prince out of his own country? Impossible!</p>
+    </sp>
+    <sp who="#capt_driver">
+     <speaker>Driv.</speaker>
+     <p>'Twas hard indeed—However I did it—You must know this Oroonoko—</p>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <p>Is that his name?</p>
+    </sp>
+    <sp who="#capt_driver">
+     <speaker>Driv.</speaker>
+     <p>Ay, Oroonoko.</p>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <p>Oroonoko.</p>
+    </sp>
+    <sp who="#capt_driver">
+     <speaker>Driv.</speaker>
+     <p>He's naturally inquisitive about the men and manners of the white nations; so, because I cou'd give him some accounts of those parts of the world, I grew very much into his 
+favour—'When I made my last voyage, he had quarrell'd with his father about some
+<pb n="15" facs="13"/>
+woman, and grew so damn'd surly, that he wou'd scarce speak to any body; so they desir'd I wou'd get him on board my ship, and try to make him merry;'
+on this I invited him; I could do no less, you know, as he had been a friend to me: I prepar'd my entertainment; so he came in the evening, and brought about twenty friends with him; the punch flew about, and as many of his companions, as I thought would be dangerous, I sent dead drunk on shore—the rest we secur'd; and so you have the Prince Oroonoko.</p>
+    </sp>
+    <sp who="#planter_2">
+     <speaker>2 Plant.</speaker>
+     <p>Gad a-mercy, Captain; there you was with him, i'faith.—Such men as you are fit to be employ'd in public affairs: the plantation will thrive by you.</p>
+    </sp>
+    <sp who="#planter_2">
+     <speaker>2 Plant.</speaker>
+     <p>Ay, ay, industry ought to be encourag'd.</p>
+    </sp>
+    <sp who="#capt_driver">
+     <speaker>Driv.</speaker>
+     <p>There's nothing to be done without it, boys; I have made my fortune this way.</p>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <p>But, Captain, methinks you have taken a great deal of pains about this Prince Oroonoko; why did you part with him at the rate of common slaves?</p>
+    </sp>
+    <sp who="#capt_driver">
+     <speaker>Driv.</speaker>
+     <p>Why, Lieutenant-Governor, I'll tell you, I did intend to have carried him to England, and to have shewn him there; but I found him troublesome upon my hands; and I am glad to be rid of him at any rate.—I think I hear them coming—</p>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <p>Many of these here doom'd to drag a life of slavery, know nothing better; they were born slaves, and only change their masters; but a prince, taught only to command, betray'd, and sold, my heart drops blood for him!</p>
+    </sp>
+    <sp who="#capt_driver">
+     <pb n="16" facs="14"/>
+     <speaker>Driv.</speaker>
+     <p>Now, Governor, here he comes; pray, observe him—'I did not strip him and his favourite of their finery, because it sets 'em off to the best advantage.</p>
+    </sp>
+    <stage>Slaves pass over two and two.</stage>
+    <stage>Enter OROONOKO and ABOAN.</stage>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <p>So, Sir, you have kept your word with me.</p>
+    </sp>
+    <sp who="#capt_driver">
+     <speaker>Driv.</speaker>
+     <p>I am better Christian, I thank you, than to keep my word with a heathen.</p>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>You are a Christian; be a Christian still.</l>
+     <l>If you have any God that teaches you</l>
+     <l>To break your word, I need not curse you more;</l>
+     <l>Let him cheat you, as you are false to me.</l>
+     <l>Ye faithful followers of my better fortune,</l>
+     <l>We have been fellow-soldiers in the field;</l>
+     <l>Now we are fellow-slaves. This last farewel.</l>
+     <l>Be sure of one thing that will comfort us;</l>
+     <l>Whatever world we next are thrown upon,</l>
+     <l>Cannot be worse than this.</l>
+     <stage>[Exeunt Slaves.</stage>
+    </sp>
+    <sp who="#capt_driver">
+     <speaker>Driv.</speaker>
+     <p>You see, Governor, what a bloody Pagan he is; but I took care none of his followers should be in the same lot with him, for fear they shou'd undertake some desperate action to the danger of the colony.</p>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Live still in fear; it is the villain's curse,</l>
+     <l>And will revenge my chains: fear even me,</l>
+     <l>Who have no power to hurt thee. Nature abhors,</l>
+     <l>And drives thee out from the society</l>
+     <l>And commerce of mankind, for breach of faith.</l>
+     <l>Men live and prosper but in mutual trust,</l>
+     <l>
+      <pb n="17" facs="15"/>A confidence of one another's truth:</l>
+     <l>That thou hast violated. I have done,</l>
+     <l>I know my fortune, and submit to it.</l>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <p>Sir, I am sorry for your fortune, and would help it if I could.</p>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <p>Take off his chains—You know your condition; but you are fallen into honourable hands: you are the Lord Governor's slave, who will use you nobly: in his absence it shall be my care to serve you.</p>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>I hear you, but I can believe no more:</l>
+     <l>' 'Tis not the Christian lure of fair-faced smiles,</l>
+     <l>' Where lurks deceit in friendship's borrow'd guise,</l>
+     <l>' Can now ensnare my deep experienc'd heart;</l>
+     <l>' That shame of nature, and the human form,</l>
+     <l>' Who barter'd honesty, and me, for gold;</l>
+     <l>' Profess'd as fair, and much, as you can do,</l>
+     <l>' Whilst I, determin'd to be just myself,</l>
+     <l>' Thought others so; and thus became a slave.</l>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <p>Captain, I am afraid the world wont speak so honourably of this action of yours as you would wish.</p>
+    </sp>
+    <sp who="#capt_driver">
+     <speaker>Driv.</speaker>
+     <p>Look ye, Lieutenant-Governor, I don't wish about the matter—I have the money—let the world talk, and be damn'd—I care not.</p>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>I would forget myself—Be satisfy'd,</l>
+     <stage>[To Blandford, after talking with him aside.</stage>
+     <l>I am above the rank of common slaves.</l>
+     <l>Let that content you.—The Christian there who knows me,</l>
+     <l>For his own sake, will not discover more.</l>
+    </sp>
+    <sp who="#capt_driver">
+     <pb n="18" facs="16"/>
+     <speaker>Driv.</speaker>
+     <p>I have other matters to mind. You have him, so much good may do you with your Prince Oroonoko.</p>
+     <stage>Exit Driver.</stage>
+    </sp>
+    <stage>[To the Planters who stare at Oroonoko.</stage>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <p>What wou'd you have there? You stare as if you never saw a man before—Stand farther off.</p>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Let them stare on.</l>
+     <l>I am unfortunate, but not asham'd</l>
+     <l>Of being so. No, let the guilty blush,</l>
+     <l>The white man who betray'd me: honest black—</l>
+     <l>Disdains to change its colour—I am ready,</l>
+     <l>Where must I go? Dispose me as you please:</l>
+     <l>I am not well acquainted with my fortune,</l>
+     <l>But must learn to know it better—so I know, you say:</l>
+     <l>Degrees make all things easy.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>All things shall be easy.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Tear off this pomp, and let me know myself:</l>
+     <l>The slavish habit best becomes me now.</l>
+     <l>Hard fare, and chains, and whips may overpow'r</l>
+     <l>The frailer flesh, and bow my body down:</l>
+     <l>But there's another, nobler part of me</l>
+     <l>Out of your reach, which you can never tame.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>You shall find nothing of this misery</l>
+     <l>You apprehend. We are not monsters all;</l>
+     <l>' Some here the touch of melting pity know,</l>
+     <l>' Our eyes have tears for merit in distress;</l>
+     <l>' Our hearts are form'd to sympathize in woe:</l>
+     <l>' And tho' your wrongs may fix a gen'ral charge,</l>
+     <l>
+      <pb n="19" facs="17"/>' An undistinguish'd infamy on all;</l>
+     <l>' 'Tis Christian virtue to delight in good,</l>
+     <l>' Tho' Christian av'rice breaks each social tie.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>' What is your government, your boasted laws,</l>
+     <l>' Compiled to form and civilize your states,</l>
+     <l>' If breach of faith is let, unpunish'd, pass?</l>
+     <l>' The needy wretch, who steals a piece of oar,</l>
+     <l>' Repays the injury with loss of life;</l>
+     <l>' While the successful subjects of deceit,</l>
+     <l>' Who wound our natures in each vital part,</l>
+     <l>' Receive applause, and triumph in their guilt.</l>
+     <l>' Yet still with selfish arrogance, on climes</l>
+     <l>' Where simple honesty and nature reigns,</l>
+     <l>' You cast the name of savage with contempt:</l>
+     <l>' But know, proud boasters, those unletter'd shores,</l>
+     <l>' Claim brighter virtues far than art e'er taught;</l>
+     <l>' Learning and fraud are equally unknown.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>We hear with pleasure, Sir, and must admire</l>
+     <l>' Those sentiments which speak a noble mind;</l>
+     <l>' But hope your future treatment may remove</l>
+     <l>' This too just prejudice, and gain esteem—</l>
+     <l>You seem unwilling to disclose yourself:</l>
+     <l>Therefore, thro' fear the mentioning your name,</l>
+     <l>Shou'd give you new disquiet, I presume</l>
+     <l>To call you Caesar.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <p>I am myself—but call me what you please.</p>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <p>A very good name, and fit for your character.</p>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <p>Was Caesar then a slave?</p>
+    </sp>
+    <sp who="#governor">
+     <pb n="20" facs="18"/>
+     <speaker>Gov.</speaker>
+     <p>I think he was to pirates too—he was a great conqueror, but unfortunate in his friends.</p>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <p>His friends were Christians then?</p>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <p>No.</p>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <p>No! that's strange.</p>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>And murder'd by them.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <p>I would be Caesar there. Yet I will live.</p>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <p>Live to be happier.</p>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>' No! let me manifest a greater soul,</l>
+     <l>' Than to confide in that deluder, Hope,</l>
+     <l>' At whose false shrine the wretched seek relief:</l>
+     <l>' The weakest mind, with happiness in view,</l>
+     <l>' Tho' distant far, can bear the pangs of woe:</l>
+     <l>But when, upon the weary wing of thought,</l>
+     <l>We range the waste of desolate despair,</l>
+     <l>Nor start a gleam of hope; 'then the tryal comes;</l>
+     <l>' And nature, pleading for existence here,</l>
+     <l>' Applauds the wretched, who can dare to live.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>' Your mind's disturb'd; I will intrude no more,</l>
+     <l>' But wait upon, attend, and serve you.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>' Do with me what you will—'Tis equal all:</l>
+     <l>' I am a slave—yet still a greater curse</l>
+     <l>' Renders the torments of that station worse;</l>
+     <l>' But wherefore touch upon my private grief?</l>
+     <l>' Tho' you shou'd feel, you cannot bring relief.</l>
+     <stage>[Exeunt.</stage>
+    </sp>
+    <stage>MASSINGANO solus.</stage>
+    <sp>
+     <l>' Thou nurse of discontent, lov'd solitude;</l>
+     <l>
+      <pb n="21" facs="19"/>' To thy deserted shrine my wishes bend;</l>
+     <l>' In thy lone walks, on meditation's wing</l>
+     <l>' I soar above captivity and chains:</l>
+     <l>' Again I visit Africk's golden shores,</l>
+     <l>' And fancied freedom balms my wounded mind,</l>
+     <l>' In the lov'd semblance of rejoicing friends;</l>
+     <l>' With all the awful charms of martial fame,</l>
+     <l>' And milder beauties of domestic bliss—</l>
+     <l>' But oh, how short this visionary joy?</l>
+     <l>' Transient, and like the lightning's subtle beam,</l>
+     <l>' When flashing thro' the sable gloom of night;</l>
+     <l>' So swift the air-built column of my joy</l>
+     <l>' Dissolves, and leaves me in the gulph of woe.—</l>
+     <l>' Sure I must dream—my eyes must play me false,</l>
+     <l>' Or in my view a well known figure comes;</l>
+     <l>' With folded arms, and down-cast look, he moves,</l>
+     <l>' Wrapp'd in deep melancholy—it must, it must,</l>
+     <l>' It cannot but be him I call'd my friend.</l>
+     <stage>Enter ZINZO.</stage>
+     <p>Zinzo!</p>
+    </sp>
+    <sp who="#zinzo">
+     <speaker>Zin.</speaker>
+     <l>' That is my name—but what art thou,</l>
+     <l>' That know'st so well, what I would fain forget?</l>
+    </sp>
+    <sp who="#massingano">
+     <speaker>Mass.</speaker>
+     <l>' What thought presag'd, thy dubious words 'confirm;</l>
+     <l>' I must be chang'd indeed when thou forget'st;</l>
+     <l>' Captivity has grasp'd with iron hand,</l>
+     <l>' And thus deform'd the image of thy friend.</l>
+     <l>' Return five years—sad period of my woes!</l>
+     <l>
+      <pb n="22" facs="20"/>' When last thou saw'st me in the front of war,</l>
+     <l>' With fame, and fortune waiting on my nod,</l>
+     <l>' Then view these sad remains of Massingano.</l>
+    </sp>
+    <sp who="#zinzo">
+     <speaker>Zin.</speaker>
+     <l>' Illustrious God of day, to whom we bend!</l>
+     <l>' Can it be possible?</l>
+    </sp>
+    <sp who="#massingano">
+     <speaker>Mass.</speaker>
+     <l>' Too certain sure;</l>
+     <l>' But why do I delay to clasp the man</l>
+     <l>' Whom fate, once kind, has sent to ease my care;</l>
+     <l>' Has sent—there friendship feels a pang—to share it too.</l>
+    </sp>
+    <sp who="#zinzo">
+     <speaker>Zin.</speaker>
+     <l>' I blame not Fortune, but must thank her now,</l>
+     <l>' E'er since that dreadful day of blood and death,</l>
+     <l>' In which thy brother and our country fell.</l>
+     <l>' Just tribute was allow'd thy honour'd shade</l>
+     <l>' In ceaseless sorrow—and a great revenge</l>
+     <l>' Was deeply plann'd by thy illustrious fire:</l>
+     <l>' Fierce was the conflict, fatal was the event;</l>
+     <l>' In consequence of which thou see'st me here.</l>
+    </sp>
+    <sp who="#massingano">
+     <speaker>Mass.</speaker>
+     <l>' Too fatal sure—oh! thou hast rous'd to view</l>
+     <l>' Those horrid scenes which tempest shake my soul;</l>
+     <l>' Lull'd by a slavish indolence of thought,</l>
+     <l>' My slumb'ring heart has long forgot its sphere,</l>
+     <l>' But now it wakes, and catches the alarm;</l>
+     <l>' Impatience strongly beats in ev'ry pulse,</l>
+     <l>' Each lab'ring faculty cries out revenge,</l>
+     <l>' And all is raging anarchy within—</l>
+     <l>' But 'tis in vain—a lion in the toil,</l>
+     <l>' May roar, and boldly struggle to be free,</l>
+     <l>' While the dull peasant, from his fangs secure,</l>
+     <l>
+      <pb n="23" facs="21"/>' In safety bold—laughs at his idle rage.</l>
+    </sp>
+    <sp who="#zinzo">
+     <speaker>Zin.</speaker>
+     <l>' Yet hear, my friend, tho' tyrant fortune frowns</l>
+     <l>' One gleam of comfort still remains behind;</l>
+     <l>' Know, that thy deadly, and victorious foe,</l>
+     <l>' By whose fell arm thy valiant brother died,</l>
+     <l>' Is hither brought, and sold a common slave.</l>
+    </sp>
+    <sp who="#massingano">
+     <speaker>Mass.</speaker>
+     <l>' Ha! Oroonoko!</l>
+    </sp>
+    <sp who="#zinzo">
+     <speaker>Zin.</speaker>
+     <l>' The same my friend:</l>
+     <l>' Tho' ever yet invincible in war,</l>
+     <l>' To fair-faced treachery he fell a prey:</l>
+     <l>' The manner how—</l>
+    </sp>
+    <sp who="#massingano">
+     <speaker>Mass.</speaker>
+     <l>' No matter for the means:</l>
+     <l>' That he is here a slave, let me rejoice:</l>
+     <l>' Oh glorious ruler of the earth and skies!</l>
+     <l>' With brighter beams illume this happy day,</l>
+     <l>' Since the proud enemy of peace is fall'n;</l>
+     <l>' Eternal justice! fall'n within my reach;</l>
+     <l>' And if I not repay, with great revenge,</l>
+     <l>' The native kindred blood which he has shed,</l>
+     <l>' The desolative ruin of my country;</l>
+     <l>' May I ne'er see those honour'd climes again,</l>
+     <l>' But, after death, my exil'd shade be doom'd</l>
+     <l>' To wander ever in the Christian hell.</l>
+    </sp>
+    <sp who="#zinzo">
+     <speaker>Zin.</speaker>
+     <l>' Such be the lot of mine, if all my pow'r</l>
+     <l>' Waits not attendant on your boldest views:</l>
+     <l>' But say, my friend, for much I wish to know,</l>
+     <l>' After we parted in the field of blood,</l>
+     <l>' By what dire chance you fell the victor's prey?</l>
+    </sp>
+    <sp who="#massingano">
+     <pb n="24" facs="22"/>
+     <speaker>Mass.</speaker>
+     <l>' Remembrance sickens at the dire event;</l>
+     <l>' Yet I will torture thought to tell thee all:</l>
+     <l>' When hostile nations, like contending clouds,</l>
+     <l>' In dreadful thunder 'gainst each other rush'd,</l>
+     <l>' The tide of battle drove us far apart;</l>
+     <l>' Onward I flew, and dealt destruction round,</l>
+     <l>' 'Till I beheld the rival of my fame,</l>
+     <l>' At whom I bent the torrent of my rage.</l>
+     <l>' Long held the conflict doubtful, till, at length,</l>
+     <l>' With force collected, and vindictive arm,</l>
+     <l>' I threw a poison'd javelin at his heart;</l>
+     <l>' Nor strength, nor aim betray'd my great intent;</l>
+     <l>' But, to preserve his life, and check revenge,</l>
+     <l>' The well-known white, his guide, and arm of war,</l>
+     <l>' Receiv'd the wound, and perish'd in his arms.</l>
+    </sp>
+    <sp who="#zinzo">
+     <speaker>Zin.</speaker>
+     <l>Tho' disappointed, fortune here was kind.</l>
+    </sp>
+    <sp who="#massingano">
+     <speaker>Mass.</speaker>
+     <l>' Tis true, by sympathy, his heart was stabb'd,</l>
+     <l>' And I possess'd a momentary joy;</l>
+     <l>' But soon, on every side, by crouds assail'd,</l>
+     <l>' Cover'd with wounds, and faint with loss of blood,</l>
+     <l>' I sunk beneath the haughty victor's feet;</l>
+     <l>' 'Tis true, he sav'd me from uplifted swords;</l>
+     <l>' But sav'd! for what? for something worse than death;</l>
+     <l>' To bear the rack of slav'ry and chains.</l>
+    </sp>
+    <sp who="#zinzo">
+     <speaker>Zin.</speaker>
+     <l>' Propose, at once, the method of revenge,</l>
+     <l>' I'll lead or follow in the glorious task,</l>
+     <l>' Tho' death, in all its terrors, shou'd oppose.</l>
+    </sp>
+    <sp who="#massingano">
+     <speaker>Mass.</speaker>
+     <l>' Have I not prov'd thee oft in danger's front?</l>
+     <l>
+      <pb n="25" facs="23"/>' But here, I shall not need thy honest aid;</l>
+     <l>' I must become a Christian in my scheme,</l>
+     <l>' Invert my nature, bend my stubborn heart,</l>
+     <l>' And work, by stratagem, to gain my end.</l>
+     <l>' Thy fraudless bosom knows not arts like these;</l>
+     <l>' But here, 'tis common, to betray with smiles,</l>
+     <l>' And pierce the heart, that meets thee as a friend.</l>
+     <l>' But let me hence, and view this deadly foe,</l>
+     <l>' With transport view, and hear his galling chains,</l>
+     <l>' Their clink more sweet than music to my ears;</l>
+     <l>' Then lay the basis of my great design,</l>
+     <l>' And, in due season, spring the fatal mine.</l>
+     <stage>[Exeunt.</stage>
+    </sp>
+    <trailer>END OF THE FIRST ACT.</trailer>
+   </div>
+   <div n="2" type="act">
+    <head>ACT THE SECOND.</head>
+    <stage>OROONOKO and BLANDFORD.</stage>
+    <sp who="#oroonoko">
+     <speaker>OROONOKO.</speaker>
+     <l>YOU know my story, and you say you are</l>
+     <l>A friend to my misfortunes; that's a name</l>
+     <l>Will teach you what you owe yourself and me.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>I'll study to deserve to be your friend;</l>
+     <l>When once our noble Governor arrives,</l>
+     <l>With him you will not need my interest.</l>
+     <l>
+      <pb n="26" facs="24"/>He is too generous not to feel your wrongs;</l>
+     <l>But, be assur'd, I will employ my pow'r,</l>
+     <l>And find the means to send you home again.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>I thank you, Sir,—my honest, wretched friends! <stage>[Sighing.</stage>
+     </l>
+     <l>Their chains are heavy: they have hardly found</l>
+     <l>So kind a master. May I ask you, Sir,</l>
+     <l>What is become of them? Perhaps I should not;</l>
+     <l>You will forgive a stranger.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>I'll enquire,</l>
+     <l>And use my best endeavours, where they are,</l>
+     <l>To have 'em gently us'd.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Once more I thank you;</l>
+     <l>You offer ev'ry cordial that can keep</l>
+     <l>My hopes alive, to wait a better day;</l>
+     <l>What friendly care can do, you have apply'd:</l>
+     <l>But oh! I have a grief admits no cure.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>You do not know, Sir—</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Can you raise the dead?</l>
+     <l>Pursue and overtake the wings of time,</l>
+     <l>And bring about again the hours, the days,</l>
+     <l>The years that made me happy?</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>That is not to be done.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>No, there is nothing to be done for me. <stage>[Kneeling, and kissing the earth.</stage>
+     </l>
+     <l>Thou God ador'd! thou ever glorious sun!</l>
+     <l>If she be yet on earth, send me a beam</l>
+     <l>Of thy all-seeing pow'r to light me to her;</l>
+     <l>
+      <pb n="27" facs="25"/>Or if thy sister goddess has preferr'd</l>
+     <l>Her beauty to the skies to be a star;</l>
+     <l>O tell me where she shines, that I may stand</l>
+     <l>Whole nights, and gaze upon her.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>I am rude, and interrupt you.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>I am troublesome:</l>
+     <l>But pray give me your pardon. My swoll'n heart</l>
+     <l>Bursts out its passage, and I must complain:</l>
+     <l>O! can you think of nothing dearer to me?</l>
+     <l>Dearer than liberty, my country, friends,</l>
+     <l>Much dearer than my life, that I have lost?</l>
+     <l>The tend'rest, best belov'd, and loving wife.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>Alas! I pity you.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Do, pity me:</l>
+     <l>Pity's a-kin to love; and every thought</l>
+     <l>Of that soft kind is welcome to my soul.</l>
+     <l>I would be pity'd here.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>I dare not ask</l>
+     <l>More than you please to tell me: but if you</l>
+     <l>Think it convenient to let me know</l>
+     <l>Your story, I dare promise you to bear</l>
+     <l>A part in your distress, if not assist you.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Thou honest-hearted man! I wanted such,</l>
+     <l>Just such a friend as thou art, that would sit</l>
+     <l>Still as the night, and let me talk whole days</l>
+     <l>Of my Imoinda. O! I'll tell thee all</l>
+     <l>From first to last; and pray observe me well.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>I will most heedfully.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <pb n="28" facs="26"/>
+     <speaker>Oro.</speaker>
+     <l>There was a stranger in my father's court,</l>
+     <l>Valu'd and honour'd much: he was a white,</l>
+     <l>The first I ever saw of your complexion:</l>
+     <l>He chang'd his God for ours, and so grew great;</l>
+     <l>Of many virtues, and so fam'd in arms,</l>
+     <l>He still commanded all my father's wars.</l>
+     <l>I was bred under him. One fatal day,</l>
+     <l>The armies joining, he before me stept,</l>
+     <l>Receiving in his breast a poison'd dart</l>
+     <l>Levell'd at me; he dy'd within my arms.</l>
+     <l>I've tir'd you already.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>Pray go on.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>He left an only daughter, whom he brought</l>
+     <l>An infant to Angola. When I came</l>
+     <l>Back to the court, a happy conqueror,</l>
+     <l>Humanity oblig'd me to condole</l>
+     <l>With this sad virgin for a father's loss,</l>
+     <l>Lost for my safety. I presented her</l>
+     <l>With all the slaves of battle, to atone</l>
+     <l>Her father's ghost. But when I saw her face,</l>
+     <l>And heard her speak, I offer'd up myself</l>
+     <l>To be the sacrifice. She bow'd, and blush'd;</l>
+     <l>I wonder'd and ador'd. The sacred pow'r</l>
+     <l>That had subdu'd me, then inspir'd my tongue,</l>
+     <l>Inclin'd her heart, and all our talk was love.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>Then you were happy.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>O! I was too happy.</l>
+     <l>I marry'd her: and though my country's custom</l>
+     <l>
+      <pb n="29" facs="27"/>Indulg'd the privilege of many wives,</l>
+     <l>I swore myself never to know but her.</l>
+     <l>She grew with child, and I grew happier still.</l>
+     <l>O my Imoinda! But it could not last.</l>
+     <l>Her fatal beauty reach'd my father's ears:</l>
+     <l>He sent for her to court, where cursed court!</l>
+     <l>No woman comes, but for his am'rous use.</l>
+     <l>He raging to possess her, she was forc'd</l>
+     <l>To own herself my wife. The furious king</l>
+     <l>Started at incest: but grown desperate,</l>
+     <l>Not daring to enjoy what he desir'd,</l>
+     <l>In mad revenge, which I could never learn;</l>
+     <l>He poison'd her, or sent her far, far off,</l>
+     <l>Far from my hopes ever to see her more.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>Most barbarous of fathers! the sad tale</l>
+     <l>Has struck me dumb with wonder.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>I have done.</l>
+     <l>I'll trouble you no farther: now and then,</l>
+     <l>A sigh will have its way; that shall be all.</l>
+    </sp>
+    <stage>FIRST PLANTER.</stage>
+    <sp who="#planter_1">
+     <speaker>1 Plant.</speaker>
+     <p>Blandford, the Lieutenant-Governor is gone to your plantation. He desires you wou'd bring the royal slave with you. The sight of his fair mistress, he says, is an entertainment for a prince; he would have his opinion of her.</p>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <p>Is he a lover?</p>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <p>So he says himself: he flatters a beautiful slave that I have, and calls her mistress.</p>
+    </sp>
+    <sp who="#oroonoko">
+     <pb n="30" facs="28"/>
+     <speaker>Oro.</speaker>
+     <l>Must he then flatter her, to call her mistress?</l>
+     <l>I pity the proud man, who thinks himself</l>
+     <l>Above being in love: what, tho' she be a slave,</l>
+     <l>She may deserve him.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <p>You shall judge of that, when you see her, Sir.</p>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <p>I go with you.</p>
+     <stage>[Exeunt.</stage>
+    </sp>
+    <stage>IMOINDA sola.</stage>
+    <sp>
+     <l>' Tis all in vain—I cannot sooth my woe,</l>
+     <l>' Nor place, nor prospect, can afford relief,</l>
+     <l>' Tho' jocund nature smiles in ev'ry part:</l>
+     <l>' All studied arts, to heal th' unquiet mind,</l>
+     <l>' But more perplex, and minister fresh pain.</l>
+     <l>' Tho' pity's hand has kindly loos'd my chains,</l>
+     <l>' Smooth'd stern captivity to gentle smiles,</l>
+     <l>' And try'd all means to flatter female pride,</l>
+     <l>' My widow'd heart, that mourns its absent mate,</l>
+     <l>' Shuns the fond service of officious care—</l>
+     <l>' When martyr'd love lies bleeding in the breast,</l>
+     <l>' Each faculty must feel the pangs of grief;</l>
+     <l>' Ev'n churlish reason yields its tyrant sway,</l>
+     <l>' And melts in streams of pity from the eyes:</l>
+     <l>' Such hopeless woe is mine—yet nature still</l>
+     <l>' Inflexibly denies my only wish</l>
+     <l>' To find a peaceful refuge in the grave.</l>
+    </sp>
+    <stage>Enter GOVERNOR.</stage>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>I have disturb'd you, I confess my fault,</l>
+     <l>My fair Clemene—but begin again,</l>
+     <l>And I will listen to your mournful plaint,</l>
+     <l>
+      <pb n="31" facs="29"/>Sweet as the soft complaining nightingale's:</l>
+     <l>While every word calls out my raptur'd soul,</l>
+     <l>And leaves me silent as the midnight groves.</l>
+     <l>Speak, speak again, and let me wonder at</l>
+     <l>The matchless power you have to charm me.</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>' If sighs and tears can find the way to please,</l>
+     <l>' This heart, these eyes, may prove the source of joy.</l>
+     <l>' But wherefore seek you from a wretch like me,</l>
+     <l>' What only can be found in minds at ease?</l>
+     <l>' If ought but sorrow you expect to meet,</l>
+     <l>' Your cheated senses have mistook their way:</l>
+     <l>' Within this breast, in melancholy state,</l>
+     <l>' Despair and sadness hold their gloomy reign,</l>
+     <l>' And exil'd pleasure flies the dreary waste.</l>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>You must not weep: I come to dry your tears,</l>
+     <l>And raise you from your sorrow. Look upon me:</l>
+     <l>Look with the eyes of kind indulging love,</l>
+     <l>That I may have full cause for what I say:</l>
+     <l>I come to offer you your liberty,</l>
+     <l>And be myself your slave—'My fortune, pow'r,</l>
+     <l>' All shall be made subservient to your will;</l>
+     <l>' What nature can produce, or art devise,</l>
+     <l>' To rouze you from this lethargy of woe,</l>
+     <l>' Now waits on your acceptance.</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>' 'Tis vain to ask</l>
+     <l>' What I have not, alas! the pow'r to give;</l>
+     <l>' Yet gratitude requires to pay my thanks</l>
+     <l>' For proffer'd kindness and experienc'd care;</l>
+     <l>
+      <pb n="32" facs="30"/>' But ev'ry state is now alike to me:</l>
+     <l>' The senses, wrapp'd in moping melancholy,</l>
+     <l>' Remain unmov'd at pleasure's sprightly call.</l>
+     <l>' Desist then, timely, from such fruitless pains,</l>
+     <l>' And, if the friendless may demand a boon,</l>
+     <l>' To some lone place, as gloomy as my thoughts,</l>
+     <l>' Where barren nature wears eternal frowns,</l>
+     <l>' And wintry tempests howl—direct my steps;</l>
+     <l>' There more at ease, than in the shine of life,</l>
+     <l>' Let grief-worn thought in silence reach the grave.</l>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>' Yet hear the voice of pity, and of love:</l>
+     <l>' No more my fair admit the tyrant grief,</l>
+     <l>' To prey upon the roses of thy cheeks,</l>
+     <l>' Like eastern blasts upon the flow'rs of spring:</l>
+     <l>' Dry up the fountain of thy ceaseless tears,</l>
+     <l>' And let those eyes in native lustre shine;</l>
+     <l>' Give me thy hand, and, with enliv'ning touch,</l>
+     <l>' Convey soft rapture to my wishing soul—</l>
+     <l>' You turn away, and are unkindly coy.</l>
+     <l>' But I have urg'd too far to be denied,</l>
+     <l>' And to relieve your modesty from pain,</l>
+     <l>' Must gently force you to comply.</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>' Oh! Sir,</l>
+     <l>' Let me conjure you, by each social tie,</l>
+     <l>' By whatsoever Deity you serve,</l>
+     <l>' And all you hold most dear in earth or heav'n,</l>
+     <l>' Wound not my nature in its tenderest part:</l>
+     <l>' Behold me thrown thus prostrate at your feet;</l>
+     <l>
+      <pb n="33" facs="31"/>' And, if my tears have any pow'r to move,</l>
+     <l>' Oh! let them plead the rescue of my fame;</l>
+     <l>' Or if you cannot purchase peace on cheaper terms,</l>
+     <l>' Here kill me, and remove the cause of pain.</l>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>' Nay, 'tis ungrateful to avoid my love:</l>
+     <l>' But have a care, lest passion turn'd to hate,</l>
+     <l>' Should change the kind indulgence you have met</l>
+     <l>' To treatment better fitted to a slave.</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>' Oh! let it come, I cannot fear it now:</l>
+     <l>' Those feeble limbs in slavish garments wrapp'd,</l>
+     <l>' Shall gladly toil beneath the scorching sun,</l>
+     <l>' Or freeze beneath the winter's piercing sky:</l>
+     <l>' Then, when the labour of the day is pass'd,</l>
+     <l>' And weary nature sickens for repose,</l>
+     <l>' Contented, rest upon th' uncover'd ground,</l>
+     <l>' Still free in mind, in spotless virtue rich.</l>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>' 'Tis idle all; the virtue which you preach,</l>
+     <l>' That foe to ev'ry true enjoyment here,</l>
+     <l>' Is but a phantom of unfeeling minds.</l>
+     <l>' Once more I take your hand—your modesty</l>
+     <l>' Wou'd draw it back—but you wou'd take it ill</l>
+     <l>' If I should let it go—I know you would—</l>
+     <l>' I see you must be forc'd to please yourself;</l>
+     <l>' Nay, if you struggle with me, I must take—</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>You may my life, that I can part with freely;</l>
+     <l>But with my virtue never.</l>
+     <stage>[Exit.</stage>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>She's gone—</l>
+     <l>
+      <pb n="34" facs="32"/>' Curse on the pride that swells her foolish heart,</l>
+     <l>' And stands the bar between me and enjoyment.</l>
+    </sp>
+    <stage>Enter BLANDFORD and OROONOKO.</stage>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>Governor, we don't disturb, I hope:</l>
+     <l>How has Clemene listen'd to your suit?</l>
+     <l>She's thankful for the honour, I suppose.</l>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>Deaf as the winds to ev'ry thing I say:</l>
+     <l>Still when I speak to her she sighs and weeps</l>
+     <l>Something more near than bondage she laments.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>What do her fellow slaves say of her: they perhaps</l>
+     <l>May find the cause.</l>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>'Tis secret still from all:</l>
+     <l>Some who pretend more wisdom than the rest,</l>
+     <l>And hate, 'tis like, as she is better us'd,</l>
+     <l>Assert she is with child.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>Perhaps 'tis true;</l>
+     <l>And if't be so, poor wretch, I pity her;</l>
+     <l>She has lost a husband that, perchance, was dear;</l>
+     <l>And in a case like that you cannot blame her.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>If it be so, indeed you cannot blame her.</l>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>No, no, it is not so, or if it were—</l>
+     <l>I still must love her; and, desiring still,</l>
+     <l>I must possess her.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>By fair means, Governor.</l>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>I'll give ten slaves for her.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>She is not mine;</l>
+     <l>For the Lord Governor I drew her lot;</l>
+     <l>But were she mine, I wou'd not part with her,</l>
+     <l>
+      <pb n="35" facs="33"/>Especially to you.</l>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>Why not to me?</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>I mean against her will. You are in love;</l>
+     <l>And we all know what your desires wou'd have;</l>
+     <l>Were she within your pow'r, you do not know</l>
+     <l>How soon you might be tempted to forget</l>
+     <l>The nature of the deed; and may be act</l>
+     <l>A violence you after wou'd repent.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>'Tis God-like in you to protect the weak.</l>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>Fie, fie; I wou'd not force—tho' she be</l>
+     <l>A slave, her mind is free, and should consent.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Such honour will engage her to consent;</l>
+     <l>And then, if you're in love, 'tis just amends.</l>
+     <l>Shall we not see this wonder?</l>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>Have a care;</l>
+     <l>You have a heart, and she has conq'ring eyes.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>I have a heart; but if it cou'd be false</l>
+     <l>To my first vows, ever to love again,</l>
+     <l>These honest hands shou'd tear it from my breast,</l>
+     <l>And throw the traitor from me: Oh Imoinda!</l>
+     <l>Living or dead, I can be only thine.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>Imoinda was his wife—she's either dead,</l>
+     <l>Or living, dead to him, forc'd from his arms</l>
+     <l>By an inhuman father—another time</l>
+     <l>I'll tell you all.</l>
+     <stage>[Alarum Bell rings.</stage>
+    </sp>
+    <stage>
+     <pb n="36" facs="34"/>Enter DRIVER and PLANTERS.</stage>
+    <sp who="#capt_driver">
+     <speaker>Driv.</speaker>
+     <p>Where are you, Governor? make what haste you can to save yourself and the whole colony—I bid 'em ring the bell.</p>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <p>What's the matter?</p>
+    </sp>
+    <sp who="#capt_driver">
+     <speaker>Driv.</speaker>
+     <p>Why, the Indians are bearing down upon us.—they'll clap us a-long-side presently; they have plunder'd some of the plantations already.</p>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <p>What can we do against 'em?</p>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <p>We shall be able to make a stand till more planters come in.</p>
+    </sp>
+    <sp who="#capt_driver">
+     <speaker>Driv.</speaker>
+     <p>There are more without, Governor; if you'd appear, and put them in trim.</p>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <p>There's no danger of the white slaves; they'll not stir; Blandford, come you with me; some of you stay here, and look after the black slaves.</p>
+     <stage>[Exeunt Governor and Blandford.</stage>
+    </sp>
+    <sp who="#capt_driver">
+     <speaker>Driv.</speaker>
+     <p>In the first place, we secure you, Sir, as an enemy to the government.</p>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <p>Are you there? you are my constant friend.</p>
+    </sp>
+    <sp who="#capt_driver">
+     <speaker>Driv.</speaker>
+     <p>None of your palaver; you'll be able to do a great deal of mischief; but we'll prevent you: bring the irons hither; he has the malice of a slave in his infernal phiz, and wou'd be glad to have an opportunity of cutting his master's throat: I know him; chain his hands and feet, that he may not run over to them; if they have him, they shall carry him on their backs; that I can tell them.</p>
+    </sp>
+    <stage>
+     <pb n="37" facs="35"/>Enter BLANDFORD.</stage>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <p>What are you doing there?</p>
+    </sp>
+    <sp who="#capt_driver">
+     <speaker>Driv.</speaker>
+     <p>Securing the main chance—this fellow here is a bosom enemy.</p>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <p>Away, you brutes; I'll answer with my life for his behaviour; so tell the Governor.</p>
+    </sp>
+    <sp who="#capt_driver">
+     <speaker>Driv.</speaker>
+     <p>So we will.</p>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Give me a sword,</l>
+     <l>And I'll deserve your trust.</l>
+     <stage>[Exeunt Drivers and Planters.</stage>
+    </sp>
+    <stage>Enter GOVERNOR and PARTY.</stage>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <p>See Governor, they drive away our slaves before our faces; can you stand tamely by, and suffer this? Clemene, Sir, your mistress is amongst them.</p>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <p>We throw ourselves away in the attempt to rescue them.</p>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>A lover cannot fall more glorious</l>
+     <l>Than in the cause of love—he that deserves</l>
+     <l>His mistress' favour, wonnot stay behind;</l>
+     <l>I'll lead you on; be bold, and follow me.</l>
+     <stage>[Exeunt. Shout.</stage>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>IMOINDA.</speaker>
+     <l>I'm toss'd about by my tempestuous fate,</l>
+     <l>And no where must have rest; Indians or English,</l>
+     <l>Whoever has me, I am still a slave:</l>
+     <l>No matter whose I am, since I'm no more</l>
+     <l>My royal master's; since I am his no more.</l>
+     <l>' Tumultuous war, with all its terrors crown'd,</l>
+     <l>
+      <pb n="38" facs="36"/>' I view as calmly as the smiles of peace,</l>
+     <l>' Lost to all sense of ev'ry female fear.
+<stage>[Shouts.</stage>
+     </l>
+     <l>' These seem the shouts of a triumphant joy;</l>
+     <l>' They move this way; let me avoid the throng,</l>
+     <l>' And shun what cannot comfort bring to me.</l>
+     <stage>[Retires.</stage>
+    </sp>
+    <stage>GOVERNOR, OROONOKO, BLANDFORD, DRIVER, and PLANTERS.</stage>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>Thou glorious man! thou something greater sure</l>
+     <l>Than Caesar ever was! that single arm</l>
+     <l>Has sav'd us all; accept our general thanks,</l>
+     <l>And what we can do more to recompence</l>
+     <l>Such noble services; you shall command;</l>
+     <l>Clemene, too, shall thank you; she is safe;</l>
+     <l>Look up, and bless your brave deliverer.</l>
+     <stage>[Brings Imoinda forward.</stage>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Bless me indeed! oh all you mighty Gods,</l>
+     <l>Who govern the great world, and bring about</l>
+     <l>Things strange and unexpected—can it be?</l>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <p>What is't you stare at?</p>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Answer some of you,</l>
+     <l>You who have pow'r, and have your senses free,</l>
+     <l>Or are you all struck thro' with wonder too.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <p>What would you know!</p>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>My soul steals from my body, thro' my eyes,</l>
+     <l>All that is left of life; I'll gaze away,</l>
+     <l>And die upon the pleasure—</l>
+     <l>
+      <pb n="39" facs="37"/>If you but mock me with her image here,</l>
+     <l>If she be not Imoinda—ha! she faints! <stage>[Imoinda faints.</stage>
+     </l>
+     <l>Nay, then it must be she—it is Imoinda;</l>
+     <l>My heart confesses her, and leaps for joy,</l>
+     <l>To welcome her to her own empire here;</l>
+     <l>I feel her all, in ev'ry part of me:</l>
+     <l>Oh! let me press her in my eager arms,</l>
+     <l>Wake her to life, and, with the kindling kiss,</l>
+     <l>Give back that soul she only lent to me.</l>
+     <l>Imoinda! oh! thy Oroonoko calls.</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>My Oroonoko! I scarce can b'lieve</l>
+     <l>What any man can say—but if I am</l>
+     <l>To be deceiv'd, there's something in that name,</l>
+     <l>That voice, that face—</l>
+     <l>Oh! if I know myself, I cannot be mistaken.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Never here—you cannot be mistaken;</l>
+     <l>I am yours—your Oroonoko, all</l>
+     <l>That you would have, your tender loving husband.</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>All indeed that I cou'd wish to have;</l>
+     <l>I am alive, nor is't a dream of bliss;</l>
+     <l>I wake to more than utterable joys;</l>
+     <l>They were so great, I could not think 'em true;</l>
+     <l>But ev'ry thing I believe that you can say,</l>
+     <l>For truth itself, and everlasting love,</l>
+     <l>Dwells in that breast, and pleasure in these arms.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Take, take me all, enquire into my heart,</l>
+     <l>(You know the way to ev'ry secret there;)</l>
+     <l>
+      <pb n="40" facs="38"/>My heart the sacred treasury of love:</l>
+     <l>And, if in absence, I have misemploy'd</l>
+     <l>A mite from the rich store; if I have spent</l>
+     <l>A wish, a sigh, but what I sent to you,</l>
+     <l>May I be doom'd to wish and sigh in vain,</l>
+     <l>And you not pity me.</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>Oh! I believe,</l>
+     <l>And know you by myself: if these sad eyes,</l>
+     <l>Since last we parted have beheld the face</l>
+     <l>Of any comfort, or once wish'd to see</l>
+     <l>The light of any other heav'n but you,</l>
+     <l>May I this moment lose the joys I feel,</l>
+     <l>Lose thy lov'd sight never to find you more.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Imoinda! Oh! this separation</l>
+     <l>Has made you dearer, if it can be so</l>
+     <l>Than you were ever to me—you appear</l>
+     <l>Like a kind star to my benighted steps,</l>
+     <l>To guide me on my way to happiness;</l>
+     <l>I cannot miss it now: Governor, friend,</l>
+     <l>You think me mad; but let me bless you all</l>
+     <l>Who any way have been the instruments</l>
+     <l>Of finding her again: Imoinda's found,</l>
+     <l>And ev'ry thing that I wou'd have in her.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>Sir, we congratulate your happiness,</l>
+     <l>I do most heartily, and feel your joy;</l>
+     <l>But how it comes to pass—</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>That will require</l>
+     <l>More precious time than I can spare you now:</l>
+     <l>
+      <pb n="41" facs="39"/>I have a thousand things to ask of her,</l>
+     <l>And she as many more to know of me:</l>
+     <l>But you have made me happier, I confess,</l>
+     <l>Acknowledge it, much happier, than I</l>
+     <l>Have words or pow'r to tell you—Captain, you,</l>
+     <l>Ev'n you, who most have wrong'd me, I forgive;</l>
+     <l>I wonnot say you have betray'd me now;</l>
+     <l>I'll think you but the minister of fate,</l>
+     <l>To bring me to my lov'd Imoinda here.</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>How, how shall I receive you? how be worthy</l>
+     <l>Such matchless tenderness, such soft endearments?</l>
+     <l>These are the transports of prosperity,</l>
+     <l>When fortune smiles upon us.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Let the fools,</l>
+     <l>Who follow fortune, live upon her smiles;</l>
+     <l>All our prosperity is plac'd in love;</l>
+     <l>We have enough of that to make us happy.</l>
+     <l>This little spot of earth you stand upon,</l>
+     <l>Is more to me than the extended plains</l>
+     <l>Of my great father's kingdom: here I reign</l>
+     <l>In full delights; in joys to pow'r unknown,</l>
+     <l>Your love my empire, and your heart my throne.</l>
+    </sp>
+    <trailer>END OF THE SECOND ACT.</trailer>
+   </div>
+   <div n="3" type="act">
+    <pb n="42" facs="40"/>
+    <head>ACT THE THIRD.</head>
+    <stage>MASSINGANO solus.</stage>
+    <sp>
+     <l>' THRO' care's nocturnal gloom, the sun of joy</l>
+     <l>' Darts beams of comfort on my woe-worn heart;</l>
+     <l>' Reviv'd, I rise, upon the wing of hope,</l>
+     <l>' And soar above the caverns of despair;</l>
+     <l>' Where, long depress'd, my languid spirits lay.</l>
+     <l>' Ye venerable shades of those I lov'd,</l>
+     <l>' Whose bodies fell a prey to hungry war;</l>
+     <l>' Where-e'er in boundless liberty ye stray,</l>
+     <l>' On my just vengeance cast propitious smiles;</l>
+     <l>' And ye fell demons of the Christian world,</l>
+     <l>' That taint, with ev'ry vice, the human heart,</l>
+     <l>' Flame-wrapp'd in sulph'rous majesty, arise;</l>
+     <l>' Drive native honesty, an exile, forth,</l>
+     <l>' And, with her borrow'd semblance, deck deceit;</l>
+     <l>' Still hover o'er me with infernal wings,</l>
+     <l>' And shield me from myself.—</l>
+    </sp>
+    <stage>ZINZO.</stage>
+    <sp who="#zinzo">
+     <speaker>Zin.</speaker>
+     <l>' My friend, well found.</l>
+    </sp>
+    <sp who="#massingano">
+     <speaker>Mass.</speaker>
+     <l>' Well, Zinzo, art thou come? my eager soul</l>
+     <l>' Wanted to make thee partner of that joy</l>
+     <l>' Which now I feel.—I have beheld my foe;</l>
+     <l>' Seen the proud victim of a partial fate,</l>
+     <l>
+      <pb n="43" facs="41"/>' With all the horrors of his wretched lot,</l>
+     <l>' In deep dejection stamp'd upon his brow.</l>
+    </sp>
+    <sp who="#zinzo">
+     <speaker>Zin.</speaker>
+     <l>' Forgive, my friend, that I should check your joy:</l>
+     <l>' But know, th' ambitious rival of your fame</l>
+     <l>' Has met with happiness: his utmost wish;</l>
+     <l>' A slave here, call'd Clemene, proves his wife,</l>
+     <l>' Whose loss, far more than liberty, he mourn'd.</l>
+    </sp>
+    <sp who="#massingano">
+     <speaker>Mass.</speaker>
+     <l>' Say'st thou! 'tis well—I thank thee for the news:</l>
+     <l>' Let him enjoy this glimpse of paradise,</l>
+     <l>' 'Twill serve to plunge him in a blacker hell.</l>
+     <l>' Behold! his fav'rite comes this way; I've touch'd,</l>
+     <l>' And found him fitted to my deep design;</l>
+     <l>' By my appointment, now, he meets me here,</l>
+     <l>' To plan the means of liberty—haste thou</l>
+     <l>' To scatter discontent amongst the slaves,</l>
+     <l>' And rouze their drooping spirits to revolt;</l>
+     <l>' For, on that ground, I'll build my great revenge.</l>
+     <stage>[Exit Zinzo.</stage>
+    </sp>
+    <sp who="#aboan">
+     <speaker>ABOAN.</speaker>
+     <l>' Welcome, thou sharer of that common woe,</l>
+     <l>' Which glooms around—you've kept th' appointed hour.</l>
+    </sp>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>' I were unworthy of the glorious cause</l>
+     <l>' Which former converse open'd to our view,</l>
+     <l>' Could precious time pass by me unobserv'd.</l>
+     <l>' No, let dull negligence, o'er minds at ease,</l>
+     <l>' Fix her lethargic sway—but where rankling care,</l>
+     <l>' Like a fell vulture, gnaws the tortur'd heart,</l>
+     <l>' Thought, as a watchful centinel, alarms,</l>
+     <l>
+      <pb n="44" facs="42"/>' Till ev'ry sense and faculty is rouz'd—</l>
+     <l>' But words are womanish, let action speak,</l>
+     <l>' And tell the world, at least, that we deserve,</l>
+     <l>' If not obtain, the liberty we seek.</l>
+    </sp>
+    <sp who="#massingano">
+     <speaker>Mass.</speaker>
+     <l>' Such are the sentiments which fill my breast;</l>
+     <l>' E'er since my feet have trod this tyrant shore,</l>
+     <l>' Where stern captivity spurns nature's laws;</l>
+     <l>' My bustling soul has labour'd for the means,</l>
+     <l>' To shake off slavery: nor could indulgence,</l>
+     <l>' Such as our station seldom meets with here,</l>
+     <l>' Abate the settled purpose of my heart;</l>
+     <l>' But, 'till this hour, occasion never smil'd;</l>
+     <l>' The glorious time, at length, is near at hand,</l>
+     <l>' When resolution must loose all our chains:</l>
+     <l>' Your Prince's countenance, to aid our cause,</l>
+     <l>' Will give a spirit, and secure success.</l>
+    </sp>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>' Then doubt it not—my royal master feels,</l>
+     <l>' With soul superior, more indignant woe,</l>
+     <l>' Than dwells in vulgar breasts: he will rejoice</l>
+     <l>' To wield, for public good, the sword of freedom.</l>
+    </sp>
+    <sp who="#massingano">
+     <speaker>Mass.</speaker>
+     <l>' Be it your care to win him to our cause;</l>
+     <l>' Let him give breath, and strait the flames conceal'd,</l>
+     <l>' Will burst with fury forth—nor can we fail,</l>
+     <l>Tho' mountains, rivers, woods, oppose our march;</l>
+     <l>To resolution these must soon submit;</l>
+     <l>That, we shall carry with us—that is ours.</l>
+    </sp>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>Towards the sea we'll bend our dauntless march,</l>
+     <l>There plant a colony, in native innocence,</l>
+     <l>
+      <pb n="45" facs="43"/>And keep at distance the surrounding foe,</l>
+     <l>'Till stress of weather, or some accident</l>
+     <l>Provide a ship for us—</l>
+    </sp>
+    <sp who="#massingano">
+     <speaker>Mass.</speaker>
+     <l>An accident;</l>
+     <l>The luckiest accident presents itself;</l>
+     <l>'Twas fortune furnish'd us the happy thought;</l>
+     <l>The very ship, that brought you here a slave,</l>
+     <l>Swims in the river still; I see no cause</l>
+     <l>But we may seize on that.</l>
+    </sp>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>' By those bright beams,</l>
+     <l>' Which glad the low'r world, 'tis truly great;</l>
+     <l>' There is a justice in it that must please</l>
+     <l>' And give to liberty more striking charms.</l>
+    </sp>
+    <sp who="#massingano">
+     <speaker>Mass.</speaker>
+     <l>' When once the storm is rais'd, we must proceed,</l>
+     <l>' Nor faulter in our course—for should we fail,</l>
+     <l>' We can expect no mercy—but must stand prepar'd</l>
+     <l>' For all that can befal us.</l>
+    </sp>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>Death is all,</l>
+     <l>In most conditions of humanity</l>
+     <l>To be desir'd; but to be shunn'd in none;</l>
+     <l>The remedy of many, wish of some,</l>
+     <l>And certain end of all—'What dastard soul</l>
+     <l>' Could shrink from death, appearing like a friend,</l>
+     <l>' As in this cause of honour death must be;</l>
+     <l>' If such a wretch exists—let abject life,</l>
+     <l>' The paultry idol of his coward heart,</l>
+     <l>' Drag thro' a joyless age of ceaseless fears.</l>
+    </sp>
+    <sp who="#massingano">
+     <speaker>Mass.</speaker>
+     <l>' No more—for see the Christian comes this way,</l>
+     <l>' To whom your prince is slave.</l>
+    </sp>
+    <stage>
+     <pb n="46" facs="44"/>BLANDFORD.</stage>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>If I err not, Sir,</l>
+     <l>You did belong to Oroonoko.</l>
+    </sp>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>I did belong to him—Aboan my name.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>You are the man I seek; pray, come with me.</l>
+     <stage>[Exit Blandford.</stage>
+    </sp>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>' Ere the close of eve here let us meet again.</l>
+     <stage>[Exit Aboan.</stage>
+    </sp>
+    <sp who="#massingano">
+     <speaker>Mass.</speaker>
+     <l>' I will not fail—the unseen nets are spread,</l>
+     <l>' And my fell foe will rush into the toil—</l>
+     <l>' Unknown in this obscurity of state;</l>
+     <l>' I make this fav'rite tool of my revenge;</l>
+     <l>' His unsuspecting nature suits my aim,</l>
+     <l>' To draw his Prince, unthinking, to the snare.</l>
+     <l>' But if, contented with his new found love,</l>
+     <l>' And tender treatment, he declines the scheme,</l>
+     <l>' How then? the Governor, I know, with eager eyes,</l>
+     <l>' And love's soft wishes, views Clemene's charms—</l>
+     <l>' Enflame him to possession—that were good—</l>
+     <l>' Already he esteems me well, gain him this point,</l>
+     <l>' And 'twill command his confidence—it shall be so—</l>
+     <l>' If the conspiracy dare shew itself; with seeming love,</l>
+     <l>' And honesty repentant; I'll reveal,</l>
+     <l>' And join these Christians, to suppress its pow'r▪</l>
+     <l>' Betray my hated rival to the rack,</l>
+     <l>' View him with joy, when fainting weary life,</l>
+     <l>' Pursued by torture o'er the verge of being,</l>
+     <l>' Expires in hell-sprung agonies of fate—</l>
+     <l>' Then rise confusion, with o'erwhelming wave,</l>
+     <l>
+      <pb n="47" facs="45"/>' Spread devastation round; array'd in blood,</l>
+     <l>' Fell horror stalk, thro' all the paths of peace;</l>
+     <l>' And if amidst the common wreck I fall,</l>
+     <l>' 'Tis truly great; 'tis worthy of revenge.</l>
+     <stage>[Exit.</stage>
+    </sp>
+    <stage>OROONOKO and IMOINDA.</stage>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>I do not blame my father for his love;</l>
+     <l>(Tho' that had been enough to ruin me;)</l>
+     <l>'Twas nature's fault, which made you, like the sun,</l>
+     <l>The reasonable worship of mankind;</l>
+     <l>He could not help his adoration:</l>
+     <l>Age had not lock'd his senses up so close,</l>
+     <l>But he had eyes that open'd to his soul,</l>
+     <l>And took your beauties in; he felt your pow'r;</l>
+     <l>And therefore I forgive his loving you:</l>
+     <l>But when I think on his barbarity,</l>
+     <l>That could expose you to so many wrongs,</l>
+     <l>Driving you out to wretched slavery,</l>
+     <l>Only for being mine—then I confess,</l>
+     <l>I wish I could forget the name of son,</l>
+     <l>That I might curse the tyrant.</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>I will bless him;</l>
+     <l>For I have found you here; Heav'n only knows</l>
+     <l>What is reserv'd for us; but if we may guess</l>
+     <l>The future by the past, our fortune must</l>
+     <l>Be wonderful, above the common size</l>
+     <l>Of good or ill; it must be in extremes,</l>
+     <l>Extremely happy, or extremely wretched.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>'Tis in our pow'r to make it happy now.</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>But not to keep it so.</l>
+    </sp>
+    <stage>
+     <pb n="48" facs="46"/>BLANDFORD and ABOAN.</stage>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>My royal lord!</l>
+     <l>I have a present for you.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Aboan!</l>
+    </sp>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>Your lowest slave.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>My try'd and valu'd friend.</l>
+     <l>This worthy man always prevents my wants:</l>
+     <l>I only wish'd, and he has brought thee to me.</l>
+     <l>Thou art surpriz'd: carry thy duty there.</l>
+     <stage>[Aboan goes to Imoinda, and falls at her feet.</stage>
+     <l>While I acknowledge mine, how shall I thank you?</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>Believe me honest to your interest,</l>
+     <l>And I am more than paid. I have secur'd,</l>
+     <l>That all your followers shall be gently us'd,</l>
+     <l>This gentleman, your chiefest favourite,</l>
+     <l>Shall wait upon your person, while you stay</l>
+     <l>Among us.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>I owe every thing to you.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>You must not think you are in slavery.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>I do not find I am.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>Kind heav'n has miraculously sent</l>
+     <l>Those comforts, that may teach you to expect</l>
+     <l>Its farther care in your deliverance.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>I sometimes think myself Heav'n is concern'd</l>
+     <l>For my deliverance.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>It will be soon;</l>
+     <l>You may expect it. Pray, in the mean time,</l>
+     <l>Appear as chearful as you can among us.</l>
+     <l>You have some enemies, that represent</l>
+     <l>
+      <pb n="49" facs="47"/>You dangerous, and would be glad to find</l>
+     <l>A reason, in your discontent to fear;</l>
+     <l>They watch your looks: but there are honest men,</l>
+     <l>Who are your friends: you are secured in them.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>I thank you for your caution.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>I will leave you:</l>
+     <l>And be assur'd, I wish your liberty.</l>
+     <stage>[Exit Blandford.</stage>
+    </sp>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>He speaks you very fair.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>He means me fair.</l>
+    </sp>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>If he should not, my Lord?</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>If he should not?</l>
+     <l>I'll not suspect his truth: but if I did,</l>
+     <l>What shall I get by doubting?</l>
+    </sp>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>You secure</l>
+     <l>Not to be disappointed: but, besides,</l>
+     <l>There's this advantage in suspecting him:</l>
+     <l>When you put off the hopes of other men,</l>
+     <l>You will rely upon your God-like self,</l>
+     <l>And then you may be sure of liberty.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Be sure of liberty! what dost thou mean,</l>
+     <l>Advising to rely upon myself?</l>
+     <l>I think I may be sure on't: we must wait:</l>
+     <l>'Tis worth a little patience. <stage>[Turning to Imoinda.</stage>
+     </l>
+    </sp>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>O my lord!</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>What dost thou drive at?</l>
+    </sp>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>Sir, another time</l>
+     <l>You would have found it sooner: but I see</l>
+     <l>Love has your heart, and takes up all your thoughts.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <pb n="50" facs="48"/>
+     <speaker>Oro.</speaker>
+     <l>And can'st thou blame me?</l>
+    </sp>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>Sir, I must not blame you.</l>
+     <l>But, as our fortune stands, there is a passion</l>
+     <l>(Your pardon, royal Mistress, I must speak)</l>
+     <l>That would become you better than your love;</l>
+     <l>A brave resentment, which, inspir'd by you,</l>
+     <l>Might kindle and diffuse a gen'rous rage</l>
+     <l>Among the slaves, to rouze and shake our chains,</l>
+     <l>And struggle to be free.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>How can we help ourselves?</l>
+    </sp>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>I knew you when you wou'd have found a way.</l>
+     <l>How, help ourselves! the very Indians teach us.</l>
+     <l>We need but to attempt our liberty,</l>
+     <l>And we carry it. We have hands sufficient,</l>
+     <l>Double the number of our master's force,</l>
+     <l>Ready to be employ'd. What hinders us</l>
+     <l>To set 'em then at work? We want but you</l>
+     <l>To head our enterprize, and bid us strike.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>What would you do?</l>
+    </sp>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>Cut our oppressors throats.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>And you wou'd have me join in your design</l>
+     <l>Of murder?</l>
+    </sp>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>It deserves a better name:</l>
+     <l>But, be it what it will, 'tis justify'd</l>
+     <l>By self-defence, and natural liberty.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>I'll hear no more on't.</l>
+    </sp>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>I am sorry for't.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Nor shall you think of it!</l>
+    </sp>
+    <sp who="#aboan">
+     <pb n="51" facs="49"/>
+     <speaker>Abo.</speaker>
+     <l>Not think of it!</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>No, I command you not.</l>
+    </sp>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>Remember, Sir,</l>
+     <l>You are a slave yourself, and to command</l>
+     <l>Is now another's right: not think of it!</l>
+     <l>Since the first moment they put on my chains,</l>
+     <l>I have thought of nothing but the weight of 'em,</l>
+     <l>And how to throw 'em off: can yours sit easy?</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>I have a sense of my condition,</l>
+     <l>As painful, and as quick, as yours can be.</l>
+     <l>I feel for my Imoinda and myself;</l>
+     <l>Imoinda! much the tenderest part of me.</l>
+     <l>But tho' I languish for my liberty,</l>
+     <l>I would not buy it at the Christian price</l>
+     <l>Of black ingratitude: they sha'not say,</l>
+     <l>That we deserv'd our fortune by our crimes.</l>
+     <l>Murder the innocent!</l>
+    </sp>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>The innocent!</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>These men are so, whom you would rise against;</l>
+     <l>If we are slaves, they did not make us slaves,</l>
+     <l>But bought us in an honest way of trade,</l>
+     <l>As we have done before 'em, bought and sold</l>
+     <l>Many a wretch, and never thought it wrong.</l>
+     <l>They paid our price for us, and we are now</l>
+     <l>Their property, a part of their estate,</l>
+     <l>To manage as they please. Mistake me not;</l>
+     <l>I do not tamely say, that we should bear</l>
+     <l>All that they could lay upon us: but we find</l>
+     <l>
+      <pb n="52" facs="50"/>The load so light, so little to be felt,</l>
+     <l>(Considering they have us in their pow'r,</l>
+     <l>And may inflict what grievances they please)</l>
+     <l>We ought not to complain.</l>
+    </sp>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>My royal Lord!</l>
+     <l>You do not know the heavy grievances</l>
+     <l>The toils, the labours, weary drudgeries,</l>
+     <l>Which they impose; burdens more sit for beasts,</l>
+     <l>For senseless beasts to bear than thinking men.</l>
+     <l>Then if you saw the bloody cruelties</l>
+     <l>They execute on every slight offence;</l>
+     <l>Nay, sometimes, in their proud insulting sport,</l>
+     <l>How worse than dogs they lash their fellow-creatures;</l>
+     <l>Your heart wou'd bleed for 'em. Oh! could you know</l>
+     <l>How many wretches lift their hands and eyes</l>
+     <l>To you for their relief!</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>I pity 'em,</l>
+     <l>And wish I could with honesty do more.</l>
+    </sp>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>You must do more, and may, with honesty,</l>
+     <l>O royal Sir, remember who you are;</l>
+     <l>A Prince, born for the good of other men:</l>
+     <l>Whose God-like office is to draw the sword</l>
+     <l>Against oppression, and set free mankind:</l>
+     <l>And this, I'm sure, you think oppression now.</l>
+     <l>What tho' you have not felt their miseries,</l>
+     <l>Never believe you are oblig'd to them;</l>
+     <l>They have their selfish reasons, may be, now,</l>
+     <l>For using of you well: but there will come</l>
+     <l>
+      <pb n="53" facs="51"/>A time, when you must have your share of 'em.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>You see how little cause I have to think so:</l>
+     <l>Favour'd in my own person, in my friends;</l>
+     <l>Indulg'd in all that can concern my care,</l>
+     <l>In my Imoinda's soft society.
+<stage>[Embracing her.</stage>
+     </l>
+    </sp>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>And therefore you wou'd lie contented down,</l>
+     <l>In the forgetfulness, and arms of love,</l>
+     <l>To get young Princes for 'em.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Say'st thou! ha!</l>
+    </sp>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>Princes, the heirs of empire, and the last</l>
+     <l>Of your illustrious lineage, to be born</l>
+     <l>To pamper up their pride, and be their slaves.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Imoinda! save me, save me from that thought!</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>There is no safety from it: I have long</l>
+     <l>Suffer'd it with a mother's labouring pains,</l>
+     <l>And can no longer. Kill me, kill me now,</l>
+     <l>While I am blest, and happy in your love;</l>
+     <l>Rather than let me live to see you hate me;</l>
+     <l>As you must hate me; me, the only cause,</l>
+     <l>The fountain of these flowing miseries.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Shall the dear babe, the eldest of my hopes,</l>
+     <l>Whom I begot, a Prince be born a slave?</l>
+     <l>The treasure of this temple was design'd—</l>
+     <l>T' enrich a kingdom's fortune. Shall it here</l>
+     <l>Be seiz'd upon by vile unhallow'd hands,</l>
+     <l>To be employ'd in uses most profane?</l>
+    </sp>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>In most unworthy uses, think of that;</l>
+     <l>And while you may prevent it. O, my Lord,</l>
+     <l>
+      <pb n="54" facs="52"/>Rely on nothing that they promise you.</l>
+     <l>They speak you fair, I know, and bid you wait;</l>
+     <l>But think what 'tis to wait on promises,</l>
+     <l>And promises of men, who know no tie</l>
+     <l>Upon their words against their interest.</l>
+     <l>And where's their interest in freeing you?</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>O! where, indeed, to lose so many slaves?</l>
+    </sp>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>Nay, grant this man, you think so much your friend,</l>
+     <l>Be honest, and intends all that he says;</l>
+     <l>He is but one; and in a government,</l>
+     <l>Where, he confesses, you have enemies,</l>
+     <l>That watch your looks. What looks can you put on,</l>
+     <l>To please those men, who are before resolv'd</l>
+     <l>To read 'em their own way? Alas! my Lord,</l>
+     <l>If they incline to think you dangerous,</l>
+     <l>They have their knavish arts to make you so:</l>
+     <l>And then who knows how far their cruelty</l>
+     <l>May carry their revenge?</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>To every thing</l>
+     <l>That does belong to you, your friends, and me;</l>
+     <l>I shall be torn from you, forced away,</l>
+     <l>Helpless and miserable: shall I live</l>
+     <l>To see that day again?</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>That day shall never come.</l>
+    </sp>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>I know you are persuaded to believe</l>
+     <l>The Governor's arrival will prevent</l>
+     <l>These mischiefs, and bestow your liberty:</l>
+     <l>But who is sure of that? I rather fear</l>
+     <l>
+      <pb n="55" facs="53"/>More mischiefs from his coming; he is young,</l>
+     <l>Luxurious, passionate, and amorous:</l>
+     <l>Such a complexion, when made bold by pow'r,</l>
+     <l>To count'nance all that he is prone to do,</l>
+     <l>Will know no bounds, no law against his lusts.</l>
+     <l>If, in a fit of his intemperance,</l>
+     <l>With a strong hand he shall resolve to seize,</l>
+     <l>And force my royal Mistress from your arms,</l>
+     <l>How can you help yourself?</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Ha! thou hast rous'd</l>
+     <l>The lion in his den; he stalks abroad,</l>
+     <l>And the wide forest trembles at his roar.</l>
+     <l>I find the danger now: my spirits start</l>
+     <l>At the alarm, and from all quarters come</l>
+     <l>To man my heart, the citadel of love.</l>
+     <l>Is there a pow'r on earth to force you from me?</l>
+     <l>And shall I not resist it? nor strike first,</l>
+     <l>To keep, to save you, to prevent that curse!</l>
+     <l>This is your cause, and shall it not prevail?</l>
+     <l>Oh! you were born always to conquer me.</l>
+     <l>Now, I am fashion'd to thy purpose: speak,</l>
+     <l>What combination, what conspiracy,</l>
+     <l>Would'st thou engage me in? I'll undertake</l>
+     <l>All thou would'st have me now for liberty,</l>
+     <l>For the great cause of love and liberty.</l>
+    </sp>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>Now, my great master, you appear yourself:</l>
+     <l>And since we have you join'd in our design,</l>
+     <l>It cannot fail us. I have muster'd up</l>
+     <l>
+      <pb n="56" facs="54"/>The choicest slaves, men who are sensible</l>
+     <l>Of their condition, and seem most resolv'd:</l>
+     <l>' Men whom a train of injuries have roused</l>
+     <l>' To any act that may restore their freedom,</l>
+     <l>' Or give a fair occasion of revenge.</l>
+     <l>' We have unbosom'd mutually our griefs,</l>
+     <l>' And sworn, if you approve, a solemn league.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>' When liberty points out the glorious way,</l>
+     <l>' Thy Prince's heart can never lag behind:</l>
+     <l>' Let freedom martial her intrepid sons,</l>
+     <l>' And to the verge, or through the gulph of fate,</l>
+     <l>' I will conduct their animated course;</l>
+     <l>' Yet do not wish to shed ev'n Christian blood.</l>
+    </sp>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>' Nor I, if other means can serve our ends;</l>
+     <l>' If not, 'tis done in self-defence, and then</l>
+     <l>' Severest justice sanctifies the deed.</l>
+     <l>' Even fortune, hitherto so much our foe,</l>
+     <l>' Seems to relent—that ship in whose dark womb</l>
+     <l>' The cave of slavery, we hither came,</l>
+     <l>' Lies in our reach, within the river's mouth:</l>
+     <l>' And some of those who join in our design,</l>
+     <l>' Used by their Christian tyrants in the trade,</l>
+     <l>' Know how to steer her through the wat'ry world.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>' How shall I thank thee for thy honest pains,</l>
+     <l>' Which have devised and laid so bold a plan?</l>
+     <l>' Summon thy friends, and soon as rising morn</l>
+     <l>' Shall gild the summit of yon eastern hills,</l>
+     <l>' Let them assemble westward of the grove</l>
+     <l>
+      <pb n="57" facs="55"/>' That skirts along the river side; there I will appear,</l>
+     <l>' And join to put the wish'd event to proof:</l>
+     <l>' If we succeed, I shall possess the means</l>
+     <l>' To give my valiant friends a just reward,</l>
+     <l>' To place my loved Imoinda on a throne,</l>
+     <l>' And gild our greatness with domestic bliss.</l>
+     <l>' But if an adverse fate should still attend,</l>
+     <l>' Death, laurel-crown'd, will come a welcome friend,</l>
+     <l>' And kindly waft us to that honest shore,</l>
+     <l>' Where Christian frauds shall never reach us more;</l>
+     <l>' At least this maxim should possess the brave,</l>
+     <l>' 'Tis better not to be, than be a slave.</l>
+    </sp>
+    <trailer>END OF THE THIRD ACT.</trailer>
+   </div>
+   <div n="4" type="act">
+    <head>ACT THE FOURTH.</head>
+    <stage>MASSINGANO and ZINZO.</stage>
+    <sp who="#massingano">
+     <speaker>MASSINGANO.</speaker>
+     <l>' SEE Zinzo, how the sun, with jocund eye,</l>
+     <l>' Smiles through the curtain of departing night,</l>
+     <l>' As if well pleased to view my great design:</l>
+     <l>' Methinks his rising beams, with genial warmth,</l>
+     <l>' Cherish the dire resolves that dwell within,</l>
+     <l>
+      <pb n="58" facs="56"/>' And give a treble vigour to revenge.</l>
+    </sp>
+    <sp who="#zinzo">
+     <speaker>Zin.</speaker>
+     <l>' 'Tis surely near the hour proposed to meet;</l>
+     <l>' They will not fail I hope.</l>
+    </sp>
+    <sp who="#massingano">
+     <speaker>Mass.</speaker>
+     <l>' Oh! doubt them not;</l>
+     <l>' The unsuspecting subject of my hate,</l>
+     <l>' Fir'd with the pleasing hopes of liberty,</l>
+     <l>' And undisturb'd possession of his love,</l>
+     <l>' Precipitately rushes to the snare;</l>
+     <l>' He stands upon the very brink of fate;</l>
+     <l>' And if I fail to plunge him in the gulph,</l>
+     <l>' May all the tortures which revenge could wish,</l>
+     <l>' With ten-fold horror, light upon my head.</l>
+    </sp>
+    <sp who="#zinzo">
+     <speaker>Zin.</speaker>
+     <l>' Is he to fall the victim of surprize,</l>
+     <l>' Or open force of arms?</l>
+    </sp>
+    <sp who="#massingano">
+     <speaker>Mass.</speaker>
+     <l>' There policy hath ta'en its utmost stretch;</l>
+     <l>' For that they may become the surer prey,</l>
+     <l>' The fav'rite Aboan, with a chosen band,</l>
+     <l>' Wheels round the wood, to gain the river's side</l>
+     <l>' And seize the ship; for these I have prepar'd</l>
+     <l>' An ambush, from whence they cannot 'scape,</l>
+     <l>' While the main body takes the open plain.</l>
+     <l>' In which I have inroll'd our staunchest friends,</l>
+     <l>' Who, at a given sign, will quit their arms,</l>
+     <l>' And leave my foe to stand the shock alone:</l>
+     <l>' Then, Zinzo, as the summit of revenge,</l>
+     <l>' Through the thick veil of dark obscurity,</l>
+     <l>' Like unexpected light, I'll flash upon him,</l>
+     <l>' Shake off the slave, and be at once myself.</l>
+    </sp>
+    <sp who="#zinzo">
+     <pb n="59" facs="57"/>
+     <speaker>Zin.</speaker>
+     <l>' The great design is worthy of my Prince,</l>
+     <l>' And ev'n from Christians must secure respect.</l>
+    </sp>
+    <sp who="#massingano">
+     <speaker>Mass.</speaker>
+     <l>' My friend, I want it not: this tow'ring soul</l>
+     <l>' Soars far above so limited a pride.</l>
+     <l>' Think'st thou I've groan'd so many years a slave,</l>
+     <l>' To rest at last contented with my lot?</l>
+     <l>' Hopes of revenge have sooth'd my tortur'd mind,</l>
+     <l>' Though distant far, in them alone I liv'd;</l>
+     <l>' That once fulfill'd, I have no farther care,</l>
+     <l>' But how to cast this worthless being off.</l>
+    </sp>
+    <sp who="#zinzo">
+     <speaker>Zin.</speaker>
+     <l>' Though I could wish you many years of life,</l>
+     <l>' If ought in life was worthy your regard;</l>
+     <l>' Though duty, friendship, and each tender tie,</l>
+     <l>' Cry out aloud against tyrannic fate,</l>
+     <l>' I cannot but applaud the just resolve.</l>
+    </sp>
+    <sp who="#massingano">
+     <speaker>Mass.</speaker>
+     <l>' Spoke like the faithful guardian of my fame,</l>
+     <l>' And thou shalt find me worthy of thy love.</l>
+     <l>' But come, let's haste; the call of fleeting time</l>
+     <l>' Summons us hence; and yonder clouds of dust</l>
+     <l>' Give warning, that we take our posts with speed.</l>
+     <l>' Now, Fate, but give assistance to revenge;</l>
+     <l>' Then, if thy rage demands a nobler prey,</l>
+     <l>' Exhaust its utmost force on Massingano.</l>
+     <stage>[Exeunt.</stage>
+    </sp>
+    <stage>OROONOKO, IMOINDA, and SLAVES.</stage>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>The women with their children fall behind;</l>
+     <l>Imoinda, you must not expose yourself;</l>
+     <l>Retire, my love—I almost fear for you.</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>I fear no danger; life or death I will</l>
+     <l>
+      <pb n="60" facs="58"/>Enjoy with you; you should not so much</l>
+     <l>Wrong the virtue of us women, to believe</l>
+     <l>There is a wife amongst us would refuse</l>
+     <l>To share her husband's fortune.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>' Matchless excellence!</l>
+     <l>' We are embark'd on fortune's boist'rous wave,</l>
+     <l>' Too rough for limbs so delicate to stem:</l>
+     <l>' Man's sterner nature suits the storm of war;</l>
+     <l>' But thy soft charms were first by Heav'n design'd,</l>
+     <l>' Sun-like, to gild the gentle calms of life,</l>
+     <l>' And kindly lull each jarring sense to peace:</l>
+     <l>' But now, since fate that happiness denies,</l>
+     <l>' Stand forth the guardian genius of our cause,</l>
+     <l>' With looks inspiring courage beam around,</l>
+     <l>' Fire ev'ry heart, and trebly nerve each arm.</l>
+     <l>' Methinks I could not fear a world oppos'd,</l>
+     <l>' While thou art by to animate and charm.</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>' Think not the softness of my tender sex,</l>
+     <l>' Or that timidity which women own,</l>
+     <l>' Can triumph o'er the fortitude of love:</l>
+     <l>' Let danger, sitting on the front of war,</l>
+     <l>' Collect his blood-stain'd horrors to appale;</l>
+     <l>' Let labour, famine, and their meagre train,</l>
+     <l>' Chill resolution in the fainting heart;</l>
+     <l>' One tender look from thee, one kind embrace,</l>
+     <l>' The sov'reign balm to heal my wounded mind,</l>
+     <l>' Will banish ev'ry fear, and tune my soul.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>' I thank ye, Gods, for this excess of bliss:</l>
+     <l>
+      <pb n="61" facs="59"/>' What are your substituted thrones on earth,</l>
+     <l>' The rule of nations, and imperial crowns,</l>
+     <l>' With all the gaudy attributes of pow'r,</l>
+     <l>' To such a matchless treasure as my love?</l>
+     <l>' Behold, resplendent Ruler of the earth,</l>
+     <l>' By Christians counted but a lamp of light,</l>
+     <l>' Behold, with pleasure, this thy fairest child:</l>
+     <l>' Oh! save her from the hov'ring storm of fate;</l>
+     <l>' Or if those eyes, the rivals of thy beams,</l>
+     <l>' Must yield their brightness to the veil of death,</l>
+     <l>' Restore her beauties to thy parent orb,</l>
+     <l>' And on the world with added lustre shine.</l>
+     <stage>[Shout at a distance.</stage>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>' Hark! from afar, upon the dying breeze,</l>
+     <l>' The sound of tumult comes.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>' They've caught th' alarm,</l>
+     <l>' And Aboan's enterprize, I fear, will fail—</l>
+     <l>' But come, let's haste to give him timely aid;</l>
+     <l>' Perchance, our force collected, may obtain</l>
+     <l>' What his slight number must in contest lose;</l>
+     <l>' Were the ship ours, we might defy the foe;</l>
+     <l>' And a few minutes may destroy our hopes.</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>' They are already lost, and cruel fate</l>
+     <l>' Has yet a hoard of miseries in store;</l>
+     <l>' For, see the man, that ever faithful friend</l>
+     <l>' You nam'd, across the plain with hasty step,</l>
+     <l>' And eyes that speak distraction, hither comes.</l>
+    </sp>
+    <stage>
+     <pb n="62" facs="60"/>ABOAN.</stage>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>' Prepare, my Lord, fit welcome for the foe;</l>
+     <l>' With rage, insatiate, they pursue my steps,</l>
+     <l>' And thirst to glut their fell revenge in blood.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>' Why, let them come—it matters not how soon;</l>
+     <l>' Our hands and hearts are ready to engage</l>
+     <l>' In honour's cause—but say, my valiant friend,</l>
+     <l>' What fatal error, or what base design,</l>
+     <l>' Check'd our bold hopes, and baffled the surprize,</l>
+     <l>' So wisely plann'd, and trusted to thy care?</l>
+    </sp>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>' 'Twas smiling treachery, in friendship's garb,</l>
+     <l>' Which subtly snar'd our ill-plac'd confidence.</l>
+     <l>' Success had surely crown'd the bold attempt,</l>
+     <l>' And liberty—the glorious prize—been ours;</l>
+     <l>' Had not the traitor, whose dissembled zeal</l>
+     <l>' First rouz'd the secret feelings of my heart,</l>
+     <l>' Betray'd th' heroic purpose he had form'd.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>' Matchless villain!</l>
+    </sp>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>' When with the trusty band</l>
+     <l>' Committed to my charge, in silent march,</l>
+     <l>' I swiftly skirted by the citron grove,</l>
+     <l>' And gain'd, me thought, unseen, the river's side;</l>
+     <l>' A neighb'ring brake pour'd forth the lurking foe,</l>
+     <l>' Their number more than ours, tho' ten times told.</l>
+     <l>' Swiftly they clos'd us in on ev'ry side;</l>
+     <l>' The traitor, Massingano, who propos'd</l>
+     <l>' To watch their steps, and warn us from surprize,</l>
+     <l>' Now led them on, and cry'd aloud, Revenge!</l>
+     <l>
+      <pb n="63" facs="61"/>' These seiz'd, their Prince will soon become our prey.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>' Oh! worse, if possible, than Christian traitor—</l>
+     <l>' Let my vindictive sword, indulgent heav'n!</l>
+     <l>' But reach his coward heart, and I forgive</l>
+     <l>' This frown of fate.</l>
+    </sp>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>' That joyful task was mine.</l>
+     <l>' Behold his life still reeks upon my sword,</l>
+     <l>' Whose trusty blade dispatch'd his treach'rous soul,</l>
+     <l>' To feel the torments of eternal woe.</l>
+     <l>' Nor stopt Heav'n's justice here; the Christian dog,</l>
+     <l>' Who made us slaves, in the sharp conflict fell.</l>
+     <l>' The trusty few o'er whom I had command,</l>
+     <l>' Fearless, as lions hunted to a bay,</l>
+     <l>' Like them too, fought, and crown'd with honour, died,</l>
+     <l>' While I, alone, escap'd the barb'rous foe;</l>
+     <l>' For the first time, regardless of my fame,</l>
+     <l>' On wing of loyalty the combat fled,</l>
+     <l>' Resolv'd to die, or conquer by your side.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>' And thou shalt have thy wish, my shield of war;</l>
+     <l>' Thy zeal, unshaken by the storms of fate,</l>
+     <l>' Which clepe me round, deserves a better lot:</l>
+     <l>' But nature, which bestow'd an honest heart,</l>
+     <l>' In conscious virtue, that supremest bliss,</l>
+     <l>' Gave ample recompence for fortune's frowns.</l>
+    </sp>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>' It is enough, my Prince approves my zeal.—</l>
+     <l>' But see they come, and now our only choice</l>
+     <l>' Is life and torture, liberty or death.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>' Think, my brave friends, what tyrants ye engage;</l>
+     <l>
+      <pb n="64" facs="62"/>' Should we, now captiv'd, fall into their hands,</l>
+     <l>' Could tyranny refine on murd'rous cruelty,</l>
+     <l>' We may be sure to feel its utmost force.</l>
+    </sp>
+    <stage>GOVERNOR, ZINZO, PLANTERS &amp;c.</stage>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>This is the very thing we could have wish'd;</l>
+     <l>Your honest service to the government</l>
+     <l>Shall be rewarded with your liberty.</l>
+    </sp>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>His honest service, call it what it is;</l>
+     <l>His villany, the service of his fear:</l>
+     <l>If he pretends to honest service,</l>
+     <l>Let him stand forth, and meet me like a man. <stage>[Advancing.</stage>
+     </l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Hold you, and you who come against us, hold;</l>
+     <l>I charge you, in a general good to all,</l>
+     <l>And wish I cou'd command you, to prevent</l>
+     <l>The bloody havoc of the murd'ring sword.</l>
+     <l>I would not urge destruction uncompell'd;</l>
+     <l>But if you follow fate, you find it here;</l>
+     <l>The bounds are set, the limits of our lives;</l>
+     <l>Between us lies the gaping gulph of death,</l>
+     <l>Ready to swallow those who dare advance.</l>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>We come not, Sir, upon the terms of war,</l>
+     <l>As enemies, and thirsting for your blood,</l>
+     <l>But wish, by gentle means, to give you peace,</l>
+     <l>If we desir'd your ruin, revenge</l>
+     <l>For this conspiracy had push'd it on;</l>
+     <l>Revenge for slain acquaintances and friends;</l>
+     <l>But that we overlook, in a regard</l>
+     <l>
+      <pb n="65" facs="63"/>To common safety, and the public good.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Regard that public good, draw off your men,</l>
+     <l>And leave us to our fortunes; we are resolv'd.</l>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>Resolv'd! on what? your resolutions</l>
+     <l>Are broken, overturn'd, prevented, lost;</l>
+     <l>What fortune now can raise you out of them?</l>
+     <l>Nay, grant we should draw off, what can you do?</l>
+     <l>Where can you move? what more can you resolve,</l>
+     <l>Unless it be to throw yourselves away?</l>
+     <l>Famine must eat you up, if you go on.</l>
+     <l>You see our numbers could with ease compel</l>
+     <l>What we request: and what do we request,</l>
+     <l>Only to save yourselves?</l>
+    </sp>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>' To save ourselves—for what?</l>
+     <l>' To drag a life of slavery and chains?</l>
+     <l>' To toil the wretched instruments of power,</l>
+     <l>' And groan beneath the lash of Christian tyranny?</l>
+     <l>' Think you we stand so much in awe of death,</l>
+     <l>' That we would shun him, crown'd with all his terrors,</l>
+     <l>' And headlong plunge into superior woe?</l>
+     <l>' No, let the coward shrink, whose bloodless heart,</l>
+     <l>' Fear-struck at shadows, trembles with dismay;</l>
+     <l>' We are resolv'd to think, to feel, and act like men.</l>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>Yet hold, it is not courage to contend,</l>
+     <l>Without a gleam of possible success:</l>
+     <l>Therefore desist in time.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>We'll hear no more.</l>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>To those poor wretches who have been seduced,</l>
+     <l>
+      <pb n="66" facs="64"/>And led away, to all and ev'ry one,</l>
+     <l>We offer a full pardon.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Then fall on.</l>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>Lay hold upon't before it be too late,</l>
+     <l>Pardon and mercy.</l>
+     <stage>[Slaves leave Oroonoko.</stage>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Let them go all; now, Governor, I see,</l>
+     <l>I own the folly of my enterprize;</l>
+     <l>The rashness of this action, and must blush</l>
+     <l>Quite thro' this vale of night, a whitely shame,</l>
+     <l>To think I could design to make those free,</l>
+     <l>Who are by nature slaves; wretches design'd</l>
+     <l>To be their masters dogs, and lick their feet.</l>
+     <l>I would not live on the same earth, with creatures</l>
+     <l>Who only have the faces of their kind.</l>
+     <l>Why should they look like men who are not so?</l>
+     <l>When they put off their natures for</l>
+     <l>The grov'ling qualities of down-cast beasts,</l>
+     <l>They should resemble them in outward form.</l>
+    </sp>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>Then we might know, and shun the sordid crew.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Deserted as we are, we'll prove our fate:</l>
+     <l>We were too few before for victory;</l>
+     <l>We are still enow to die.</l>
+    </sp>
+    <stage>BLANDFORD.</stage>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>Live, royal Sir;</l>
+     <l>Live, and be happy long, on your own terms;</l>
+     <l>Only consent to yield, and you shall have</l>
+     <l>What terms you can propose, for you and yours.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Consent to yield! shall I betray myself?</l>
+    </sp>
+    <sp who="#governor">
+     <pb n="67" facs="65"/>
+     <speaker>Gov.</speaker>
+     <l>Alas! we cannot fear that your small force,</l>
+     <l>The force of two, with a weak woman's arm,</l>
+     <l>Should conquer us—I speak in the regard</l>
+     <l>And honour of your worth—in my desire</l>
+     <l>And forwardness to save so great a man:</l>
+     <l>I would not have it lie upon my thoughts,</l>
+     <l>That I was the occasion of the fall</l>
+     <l>Of such a Prince; whose courage, carried on</l>
+     <l>In a more noble cause, would well deserve</l>
+     <l>The empire of the world.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>You can speak fair.</l>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>Your undertaking, tho' it would have brought</l>
+     <l>So great a loss to us, we all must say</l>
+     <l>Was generous and noble; and shall be</l>
+     <l>Regarded only as the fire of youth,</l>
+     <l>That will break out sometimes in gallant souls;</l>
+     <l>We'll think it but a natural impulse,</l>
+     <l>A rash impatience of liberty:</l>
+     <l>No otherwise.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Call or think it what you will;</l>
+     <l>I was not born to render an account</l>
+     <l>Of what I do to any but myself.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>I'm glad you have proceeded by fair means. <stage>[To the Governor.</stage>
+     </l>
+     <l>I come to be a mediator.</l>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>Try what you can work upon him.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Are you come against me?</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>Is this to come against you?</l>
+     <l>
+      <pb n="68" facs="66"/>Unarm'd to put myself into your hands?</l>
+     <l>I come, I hope, to serve you.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>You have serv'd me,</l>
+     <l>I thank you for it; and am pleas'd to think</l>
+     <l>You were my friend while I had need of one;</l>
+     <l>But 'tis past, this farewel, and be gone.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>It is not past; and I must serve you still;</l>
+     <l>I would make up these breaches which the sword</l>
+     <l>Will widen more, and close us all in love.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>I know what I have done, and I should be</l>
+     <l>A child to think they ever can forgive:</l>
+     <l>Forgive! were there but that, I would not live</l>
+     <l>To be forgiven; is there a power on earth</l>
+     <l>That I shall ever need forgiveness from?</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>You shall not need it.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>No, I wo'not need it.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>You see he offers you your own conditions</l>
+     <l>For you and yours.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Must I capitulate?</l>
+     <l>Precariously compound, on stinted terms</l>
+     <l>To save my life?</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>Sir, he imposes none,</l>
+     <l>You make 'em for your own security:</l>
+     <l>If your great heart cannot descend to treat</l>
+     <l>In adverse fortune with an enemy;</l>
+     <l>Yet sure your honour's safe, you may accept</l>
+     <l>Offers of peace and safety from a friend.</l>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>He will rely on what you say to him,</l>
+     <l>
+      <pb n="69" facs="67"/>Offer him what you can, I will confirm</l>
+     <l>And make all good, be you my pledge of trust.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>I'll answer with my life for what he says.</l>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>Ay, do, and pay the forfeit if you please.
+<stage>[Aside.</stage>
+     </l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>Consider, Sir, can you consent to throw</l>
+     <l>That blessing from you, you so hardly found,</l>
+     <l>And so much valu'd once?</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Imoinda, oh!</l>
+     <l>'Tis she that holds me on this argument</l>
+     <l>Of tedious life; I could resolve it soon,</l>
+     <l>Were this curs'd being only in debate;</l>
+     <l>But my Imoinda struggles in my soul,</l>
+     <l>She makes a coward of me, I confess;</l>
+     <l>I am afraid to part with her in death,</l>
+     <l>And more afraid of life to lose her here.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>This way you must lose her; think upon</l>
+     <l>The weakness of her sex, made still more weak</l>
+     <l>With her condition, requiring rest</l>
+     <l>And soft indulging ease, to nurse your hopes,</l>
+     <l>And make you a glad father.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>There I feel</l>
+     <l>A father's fondness, and a husband's love;</l>
+     <l>They seize upon my heart, strain all its strings</l>
+     <l>To pull me to 'em from my stern resolve;</l>
+     <l>Husband and father! all the melting art</l>
+     <l>Of eloquence lives in those soft'ning names:</l>
+     <l>Methinks I see the babe, with infant hands,</l>
+     <l>Begging for life, and pleading to be born;</l>
+     <l>
+      <pb n="70" facs="68"/>Shall I forbid the birth? deny him light?</l>
+     <l>The heav'nly comfort of all-cheering light?</l>
+     <l>These are the calls of nature; they cry loud;</l>
+     <l>They will be heard, and conquer in their cause:</l>
+     <l>He must not be a man who can resist them.</l>
+     <l>No, my Imoinda, I will venture all</l>
+     <l>To save thee, and that little innocent;</l>
+     <l>The world may prove a better friend to him</l>
+     <l>Than I have found it—now I yield myself;</l>
+     <l>The conflict's past, and we are in your hands.</l>
+     <stage>[Planters seize Oroonoko and Imoinda, and hurry off Aboan.</stage>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>So you shall find you are; dispose of them</l>
+     <l>As I commanded you.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>Good Heav'n forbid—you cannot mean—</l>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>This is not your concern; bear her hence.</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>I'm at the end of all my care;</l>
+     <l>Here will I die with him.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>You shall not force her from me.</l>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>Then I must try other means, and conquer—</l>
+     <l>Force by force—break, cut off his hold—away.</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>I do not ask to live; kill me but here.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Oh bloody dogs! inhuman murderers—</l>
+     <stage>[Oroonoko and Imoinda borne off separately.</stage>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>Have you no reverence of future fame?</l>
+     <l>No awe upon your actions from the tongues,</l>
+     <l>The cens'ring tongues of men, that will be free?</l>
+     <l>If you confess humanity, believe</l>
+     <l>
+      <pb n="71" facs="69"/>There is a God or devil, to reward</l>
+     <l>Our actions here: do not provoke your fate.</l>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>' Sir, you should know that I'm commander here;</l>
+     <l>' And what the public safety may require,</l>
+     <l>' Upon my judgment rests.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>' The public safety!</l>
+     <l>' Can tyranny be found in patriot views?</l>
+     <l>' Can duty authorize a breach of truth?</l>
+     <l>Consider, Sir, he yielded on your word,</l>
+     <l>And I am made the cautionary pledge,</l>
+     <l>The gage and hostage of your keeping it.</l>
+     <l>Your word, which honest men, with justice, think</l>
+     <l>The last resort of truth and trust on earth.</l>
+     <l>Let me entreat you to try gentle means,</l>
+     <l>If he is kept a prisoner, he will soon</l>
+     <l>Find out some desp'rate way to liberty,</l>
+     <l>Or stab himself, or dash out his mad brains:</l>
+     <l>I will be surety for him.</l>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>Be it so;</l>
+     <l>Since you will urge the suit, do what you please,</l>
+     <l>Just what you will with him, I give you leave.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>I thank you, Sir, this goodness binds me yours.</l>
+     <stage>[Exit Blandford.</stage>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>' This tender-hearted fool still thwarts my views:</l>
+     <l>' Yet spite of him I'll have the stubborn fair—</l>
+     <l>' But then her husband—he shall be taken off—</l>
+     <l>' If not by bare-faced pow'r, by secret means.</l>
+     <l>' This Blandford, too, with whom I must keep fair,</l>
+     <l>
+      <pb n="72" facs="72"/>' Should he still stand a bar to cross my love,</l>
+     <l>' Must share the husband's fate, it shall be so—</l>
+     <l>' Then, uncontroll'd, I will possess her charms,</l>
+     <l>' Revel in matchless beauty and delight:</l>
+     <l>' The raptur'd hours on love's soft pinions borne,</l>
+     <l>' Will smoothly glide; nor shall intrusive care</l>
+     <l>' Cast its nocturnal veil upon my joy.</l>
+     <l>' Let fortune now indulge my eager hopes,</l>
+     <l>' And all my future life I yield to chance.</l>
+     <stage>[Exit.</stage>
+    </sp>
+    <trailer>END OF THE FOURTH ACT.</trailer>
+   </div>
+   <div n="5" type="act">
+    <head>ACT THE FIFTH.</head>
+    <stage>OROONOKO chain'd to the Floor.</stage>
+    <stage>BLANDFORD and PLANTERS.</stage>
+    <sp who="#blandford">
+     <speaker>BLANDFORD.</speaker>
+     <l>OH miserable sight! help every one,</l>
+     <l>Assist me all to free him from his chains.</l>
+     <l>Most injur'd Prince, how shall we clear ourselves?</l>
+     <l>We cannot hope you will vouchsafe to hear,</l>
+     <l>Or credit what we say in our defence:</l>
+     <l>But is there any thing which can atone,</l>
+     <l>
+      <pb n="73" facs="73"/>Ought in our power that may be some amends?</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>If you would have me think you are not all</l>
+     <l>Confederates, all accessary to</l>
+     <l>The base injustice of your Governor;</l>
+     <l>If you would have me live, as you appear</l>
+     <l>Concern'd for me; if you would have me live</l>
+     <l>To thank and bless you—there is yet a way</l>
+     <l>To tie me ever to your honest love:</l>
+     <l>Bring my Imoinda here, give me her</l>
+     <l>To charm my sorrows, and if possible</l>
+     <l>I'll sit down with my wrongs; never to rise</l>
+     <l>Against my fate, or think of vengeance more.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>Be satisfied; you may depend upon us;</l>
+     <l>We'll bring her safe to you, and suddenly:</l>
+     <l>In the mean time, let me advise you, Sir,</l>
+     <l>Endeavour to forget, and to forgive,</l>
+     <l>And hope a better fortune.</l>
+     <stage>[Exeunt.</stage>
+    </sp>
+    <stage>OROONOKO solus.</stage>
+    <sp>
+     <l>Forget! forgive! I must indeed forget</l>
+     <l>When I forgive; but while I am a man</l>
+     <l>In flesh, that bears the living marks of shame,</l>
+     <l>The print of these dishonourable chains,</l>
+     <l>My memory still rouzing up my wrongs,</l>
+     <l>I never can forgive this governor;</l>
+     <l>This villain—the disgrace of trust and place,</l>
+     <l>And just contempt of delegated power.</l>
+     <l>What shall I do? if I declare myself,</l>
+     <l>I know him, he will sneak behind his guard</l>
+     <l>
+      <pb n="74" facs="74"/>Of followers, and brave me in his fears;</l>
+     <l>Else, lion-like, with my devouring rage,</l>
+     <l>I would rush on him; fasten on his throat;</l>
+     <l>Tear a wide passage to his treacherous heart;</l>
+     <l>And that way lay him open to the world.—</l>
+     <l>What if I turn his Christian arts upon him?</l>
+     <l>Promise him, speak him fair, flatter and creep,</l>
+     <l>With fawning steps, to get within his faith?</l>
+     <l>I could betray him, then, as he has me;</l>
+     <l>But am I sure, by that, to right myself?</l>
+     <l>Lying's a certain mark of cowardice;</l>
+     <l>And when the tongue forgets its honesty,</l>
+     <l>The heart and hand may drop their functions too,</l>
+     <l>And nothing worthy to be resolv'd or done:</l>
+     <l>Revenge, with loss of honour, is too dear:</l>
+     <l>Therefore this cannot be—let me but find</l>
+     <l>An honest remedy, I have a hand,</l>
+     <l>A ministring hand—that will apply it home.
+<stage>[Exit.</stage>
+     </l>
+    </sp>
+    <stage>IMOINDA sola.</stage>
+    <sp>
+     <l>' Still more undone, I bend my weary steps</l>
+     <l>' In search of peace, but know not where she dwells.</l>
+     <l>' Horror, distraction, and unnumber'd fears,</l>
+     <l>' Usurp her gentle sway, and rend my heart.</l>
+     <l>' Blush, tyrant fortune, to exert thy power</l>
+     <l>' Against so weak a subject for thy rage:</l>
+     <l>' And thou, resplendent God, that rul'st the world,</l>
+     <l>' Who seest me wand'ring in the gloom of woe,</l>
+     <l>' On pity's beam dart down a ray of hope:</l>
+     <l>
+      <pb n="75" facs="75"/>' Or if my death is destin'd by the stars,</l>
+     <l>' Oh! swift convey me to my mourning lord,</l>
+     <l>' That I may take an everlasting leave,</l>
+     <l>' And yield my spirit in his faithful arms.</l>
+    </sp>
+    <stage>GOVERNOR.</stage>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>' You start, and turn away at my approach,</l>
+     <l>' As if I were a serpent in your view.</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>' Thou art yet worse, a serpent to my heart:</l>
+     <l>' Thy pois'nous malice preys upon my soul,</l>
+     <l>' And, by a ling'ring torment, more than kills;</l>
+     <l>' But why should grief, alone, express my wrongs?</l>
+     <l>' No, let weak nature, with resentment rouze,</l>
+     <l>' And pierce, if possible, thy savage breast.</l>
+     <l>' Where, tyrant, hast thou plac'd my hapless lord?</l>
+     <l>' In what sad dungeon doth he breathe his groans?</l>
+     <l>' Or hast thou crown'd the horror of thy guilt,</l>
+     <l>' And strain'd him on the rack? If so, speak, speak—</l>
+     <l>' And let thy words, like pestilential air,</l>
+     <l>' Blast me at once.</l>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>No more, 'tis madness all;</l>
+     <l>I talk and lose the opportunities</l>
+     <l>Which love and you expect I shou'd employ:</l>
+     <l>I'll court no longer for a happiness</l>
+     <l>That is in my own keeping—you may still</l>
+     <l>Refuse to grant, so I have pow'r to take;</l>
+     <l>The man that asks deserves to be denied.</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>He does indeed that asks unworthily.</l>
+    </sp>
+    <stage>
+     <pb n="76" facs="76"/>BLANDFORD.</stage>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>You hear her, Sir, that asks unworthily.</l>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>You are no judge.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>I am of my own slave.</l>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>Be gone and leave us.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>When you let her go.</l>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>To turn my rage on you.</l>
+     <stage>[Exit Imoinda.</stage>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>I shall defend myself.</l>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>'Tis well; another time may call you to account;</l>
+     <l>She shall not escape me thro' ill-tim'd delay,</l>
+     <l>For still she is, and shall be in my power.</l>
+     <stage>[Exit.</stage>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>Nay, then, it is the war of honesty;</l>
+     <l>I know him, and will save him from himself.</l>
+     <stage>[Exit.</stage>
+    </sp>
+    <stage>OROONOKO solus.</stage>
+    <sp>
+     <l>To honour bound, and yet a slave to love;</l>
+     <l>I am distracted by their rival pow'rs,</l>
+     <l>And both will be obey'd: Oh! great revenge,</l>
+     <l>Thou raiser and restorer of fall'n fame;</l>
+     <l>Let me not be unworthy of thy aid,</l>
+     <l>For stopping in thy course—I still am thine,</l>
+     <l>But can't forget I am Imoinda's too:</l>
+     <l>She calls me from my wrongs to rescue her—</l>
+     <l>No man condemn me, who has ever felt</l>
+     <l>A woman's pow'r, or try'd the force of love,</l>
+     <l>To which all nature yields; love, love will be</l>
+     <l>My first ambition, and my fame the next—</l>
+     <l>My eyes are turn'd against me, and combine</l>
+     <l>With my sworn enemies, to represent</l>
+     <l>
+      <pb n="77" facs="77"/>This spectacle of horror—Aboan!</l>
+     <stage>ABOAN bloody.</stage>
+     <l>My ever faithful friend.</l>
+    </sp>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>I have no name</l>
+     <l>That can distinguish me from the vile earth</l>
+     <l>Where to I'm going; a poor abject worm,</l>
+     <l>That crawl'd a while upon a bustling world,</l>
+     <l>And now am trampled to my dust again.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>I see thee gash'd and mangled.</l>
+    </sp>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>Spare my shame</l>
+     <l>To tell how they have us'd me; but believe</l>
+     <l>The hangman's hand would have been merciful;</l>
+     <l>Do not you scorn me, Sir, to think I can</l>
+     <l>Intend to live under this infamy.</l>
+     <l>I do not come for pity, to complain;</l>
+     <l>I've spent an honourable life with you,</l>
+     <l>The earliest servant of your rising fame,</l>
+     <l>And would attend it with my latest care:</l>
+     <l>My life was yours, and so shall be my death.</l>
+     <l>You must not live;</l>
+     <l>Bending and sinking, I have dragg'd my steps</l>
+     <l>Thus far, to tell you that you cannot live;</l>
+     <l>To warn you of those ignominious wrongs,</l>
+     <l>Whips, rods, and all the instruments of death,</l>
+     <l>Which I have felt, and are prepar'd for you;</l>
+     <l>This was the duty that I had to pay;</l>
+     <l>'Tis done, and now I beg to be discharg'd.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>What shall I do for thee?</l>
+    </sp>
+    <sp who="#aboan">
+     <pb n="78" facs="78"/>
+     <speaker>Abo.</speaker>
+     <l>My body tires,</l>
+     <l>And wonnot bear me off to liberty:</l>
+     <l>I shall again be taken, made a slave.</l>
+     <l>A sword, a dagger, yet wou'd rescue me.</l>
+     <l>I have not strength to go to find out death;</l>
+     <l>You must direct him to me.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Here he is.</l>
+     <stage>[Gives him a dagger.</stage>
+     <l>The only present I can make thee now:</l>
+     <l>And, next the honourable means of life,</l>
+     <l>I would bestow the honest means of death.</l>
+    </sp>
+    <sp who="#aboan">
+     <speaker>Abo.</speaker>
+     <l>I cannot stay to thank you. If there is</l>
+     <l>A being after this, I shall be yours</l>
+     <l>In the next world, your faithful slave again.</l>
+     <l>This is to try.
+<stage>[Stabs himself.]</stage>
+I had a living sense</l>
+     <l>Of all your royal favours; but this last</l>
+     <l>Strikes thro' my heart. I wonnot say farewel;</l>
+     <l>For you must follow me.</l>
+     <stage>[Dies.</stage>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>In life and death,</l>
+     <l>The guardian of my honour! follow thee!</l>
+     <l>I should have gone before thee: then perhaps</l>
+     <l>Thy fate had been prevented. All his care</l>
+     <l>Was to preserve me from the barb'rous rage</l>
+     <l>That worry'd him, only for being mine.</l>
+     <l>Why, why, ye Gods! why am I so accurs'd,</l>
+     <l>That it must be a reason of your wrath,</l>
+     <l>A guilt, a crime sufficient to the fate</l>
+     <l>Of any one, but to belong to me?</l>
+     <l>My friend has found it, and my wife will soon▪</l>
+     <l>
+      <pb n="79" facs="79"/>My wife! the very fear's too much for life:</l>
+     <l>I can't support it. where! Imoinda! oh!</l>
+     <stage>[Going out, she meets him, running into his arms.</stage>
+     <l>Thou bosom softness! down of all my cares!</l>
+     <l>I could recline my thoughts upon this breast,</l>
+     <l>To a forgetfulness of all my griefs,</l>
+     <l>And yet be happy: but it wonnot be;</l>
+     <l>Thou art disorder'd, pale, and out of breath!</l>
+     <l>If fate pursues thee, find a shelter here.</l>
+     <l>What is it thou would'st tell me?</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>'Tis in vain to call him villain.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Call him Governor: is it not so?</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>There's not another sure.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Villain's the common name of mankind here,</l>
+     <l>But his most properly. What! what of him?</l>
+     <l>I fear to be resolv'd, yet must enquire:</l>
+     <l>He had thee in his power.</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>I blush to think it.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Blush! to think what?</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>That I was in his pow'r.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>He cou'd not use it?</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>What can't such men do?</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>But did he? durst he?</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>What he cou'd, he dar'd.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>His own gods damn him then! for ours have none,</l>
+     <l>No punishment for such unheard-of crimes.</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>This monster, cunning in his flatteries,</l>
+     <l>
+      <pb n="80" facs="80"/>When he had weary'd all his useless arts,</l>
+     <l>Leap'd out, fierce as a beast of prey, to seize me.</l>
+     <l>I trembled, fear'd—</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>I fear, and tremble now.</l>
+     <l>What cou'd preserve thee? what deliver thee?</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>That worthy man you us'd to call your friend—</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Blandford?</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>Came in, and sav'd me from his rage.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>He was a friend, indeed, to rescue thee!</l>
+     <l>And, for his sake, I'll think it possible</l>
+     <l>A Christian may be yet an honest man.</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>O! did you know what I have struggl'd thro',</l>
+     <l>To save me yours, sure you wou'd promise me</l>
+     <l>Never to see me forc'd from you again.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>To promise thee! O! do I need to promise?</l>
+     <l>But there is now no farther use of words.</l>
+     <l>Death is security for all our fears.</l>
+     <stage>[Shews Aboan's body on the floor.</stage>
+     <l>And yet I cannot trust him.</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>Aboan!</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Mangled and torn, resolv'd to give me time</l>
+     <l>To fit myself for what I must expect,</l>
+     <l>Groan'd out a warning to me, and expir'd.</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>For what you must expect?</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Would that were all!</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>What! to be butcher'd thus?</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Just as thou seest.</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>By barb'rous hands, to fall at last their prey▪</l>
+    </sp>
+    <sp who="#oroonoko">
+     <pb n="81" facs="81"/>
+     <speaker>Oro.</speaker>
+     <l>I have run the race with honour, shall I now</l>
+     <l>Lag, and be overtaken at the goal?</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>No.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>I must look back to thee.</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>You shannot need.</l>
+     <l>I am always present to your purpose; say,</l>
+     <l>Which way wou'd you dispose me?</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Have a care;</l>
+     <l>Thou'rt on a precipice, and dost not see</l>
+     <l>Whither that question leads thee. O! too soon</l>
+     <l>Thou dost enquire what the assembled gods</l>
+     <l>Have not determin'd, and will latest doom:</l>
+     <l>Yet this I know of fate, this is most certain,</l>
+     <l>I cannot, as I wou'd, dispose of thee;</l>
+     <l>And, as I ought, I dare not. Oh Imoinda!</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>Alas! that sigh! why do you tremble so?</l>
+     <l>Nay, then, 'tis bad indeed, if you can weep.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>My heart runs over; if my gushing eyes</l>
+     <l>Betray a weakness which they never knew,</l>
+     <l>Believe, thou only, thou could'st cause these tears:</l>
+     <l>The gods themselves conspire with faithless men</l>
+     <l>To our destruction.</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>Heav'n and earth our foes?</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>It is not always granted to the great,</l>
+     <l>To be most happy: if the angry powers</l>
+     <l>Repent their favours, let 'em take 'em back:</l>
+     <l>The hopes of empire, which they gave my youth,</l>
+     <l>By making me a prince, I here resign.</l>
+     <l>
+      <pb n="82" facs="82"/>Let 'em quench in me all those glorious fires,</l>
+     <l>Which kindled at their beams: I submit myself</l>
+     <l>To their high pleasure, and, devoted, bow</l>
+     <l>Yet lower, to continue still a slave,</l>
+     <l>Hopeless of liberty: and, if I could</l>
+     <l>Live after it, give up honour too,</l>
+     <l>To satisfy their vengeance, to avert</l>
+     <l>This only curse, the curse of losing thee.</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>If Heav'n cou'd be appeas'd, these cruel men</l>
+     <l>Are not to be entreated, or believ'd:</l>
+     <l>O! think of that, and be no more deceiv'd.</l>
+     <l>I must die: I know 'tis fit, and I can die with you.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>O! thou hast banish'd hence a thousand fears,</l>
+     <l>Which sick'n'd at my heart, and quite unmann'd me.</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>Your fear's for me; I know you fear'd my strength,</l>
+     <l>And cou'd not overcome your tenderness,</l>
+     <l>To pass this sentence on me: and, indeed,</l>
+     <l>There you were kind, as I have always found you,</l>
+     <l>As you have ever been. 'Tis hard to part;</l>
+     <l>But parting thus, as the most happy must,</l>
+     <l>Parting in death, makes it the easier.</l>
+     <l>You might have thrown me off, forsaken me,</l>
+     <l>And my misfortunes: that had been a death</l>
+     <l>Indeed of terror, to have trembled at.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Forsaken thee, my love, and thrown thee off!</l>
+     <l>Oh let those cruel stars, which are my enemies,</l>
+     <l>Witness against me in the other world,</l>
+     <l>If I would leave this mansion of my bliss,</l>
+     <l>
+      <pb n="83" facs="83"/>To be the brightest ruler of their skies. <stage>[Embracing her.</stage>
+     </l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>Is this the way to part?</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Which is the way?</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>The god of love is blind, and cannot find it.</l>
+     <l>But, quick, make haste; our enemies have eyes,</l>
+     <l>To find us out, and shew us the worst way.</l>
+     <stage>[Takes up the dagger.</stage>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>What shall I do?</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>This dagger will instruct you.</l>
+     <stage>[Gives it him.</stage>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Ha! this dagger!</l>
+     <l>Like fate, it points me to the horrid deed.</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>Strike, strike it home, and bravely save us both.</l>
+     <l>There is no other safety.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>It must be so.—</l>
+     <l>But first a dying kiss:</l>
+     <l>This last embrace.</l>
+     <l>And now—</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>I'm ready.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>O! where shall I strike?</l>
+     <l>Is there a smallest grain of that lov'd body,</l>
+     <l>That is not dearer to me than my eyes,</l>
+     <l>My bosom'd heart, and all the life-blood there?</l>
+     <l>Bid me cut off these limbs, hew off these hands,</l>
+     <l>Dig out these eyes, tho' I shou'd keep them last</l>
+     <l>To gaze upon thee: but to murder thee!</l>
+     <l>The joy, and charm of ev'ry ravish'd sense,</l>
+     <l>My wife! forbid it nature.</l>
+    </sp>
+    <sp who="#imoinda">
+     <pb n="84" facs="84"/>
+     <speaker>Imo.</speaker>
+     <l>'Tis your wife,</l>
+     <l>Who on her knees conjures you. O! in time</l>
+     <l>Prevent those mischiefs that are falling on us.</l>
+     <l>You may be hurry'd to a shameful death,</l>
+     <l>And I, too, dragg'd to the vile Governor;</l>
+     <l>Then I may cry aloud: when you are gone,</l>
+     <l>Where shall I find a friend again to save me?</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>It will be so: thou unexampled virtue!</l>
+     <l>Thy resolution has recover'd mine:</l>
+     <l>And now prepare thee.</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>Thus, with open arms,</l>
+     <l>I welcome you and death.</l>
+     <stage>[He drops his dagger, and throws himself on the ground.</stage>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>I cannot bear it.</l>
+     <l>O let me dash against the rock of fate,</l>
+     <l>Dig up this earth, tear, tear her bowels out,</l>
+     <l>To make a grave, deep as the centre down,</l>
+     <l>To swallow wide, and bury us together.</l>
+     <l>It wonnot be. O! then some pitying god—</l>
+     <l>(If there be one a friend to innocence)</l>
+     <l>Find yet a way to lay her beauties down</l>
+     <l>Gently in death, and save me from her blood.</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>O rise! 'tis more than death to see you thus!</l>
+     <l>I'll ease your love, and do the deed myself—</l>
+     <stage>[She takes up the dagger, he rises in haste to take it from her.</stage>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>O! hold; I charge thee, hold.</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>Tho' I must own</l>
+     <l>
+      <pb n="85" facs="85"/>It would be nobler for us both from you.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Oh! for a whirlwind's wing to hurry us</l>
+     <l>To yonder cliff, which frowns upon the flood;</l>
+     <l>That in embraces lock'd, we might plunge in,</l>
+     <l>And perish thus in one another's arms.</l>
+     <stage>[Shout.</stage>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>Alas! what shout is that?</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>I see 'em coming.</l>
+     <l>They sha'not overtake us: this last kiss,</l>
+     <l>And now—farewel.</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>Farewel—farewel for ever.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>I'll turn my face away, and do it so.</l>
+     <l>Now, are you ready?</l>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>Now; but do not grudge me</l>
+     <l>The pleasure in my death of a last look:</l>
+     <l>Pray look upon me—now, I'm satisfied.</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>So fate must be by this.</l>
+     <stage>[Going to stab her, he stops short; she lays her hand on his, in order to give the blow.</stage>
+    </sp>
+    <sp who="#imoinda">
+     <speaker>Imo.</speaker>
+     <l>Nay, then, I must assist you;</l>
+     <l>And, since it is the common cause of both,</l>
+     <l>'Tis just that both shou'd be employed in it.</l>
+     <l>Thus, thus, 'tis finish'd, and I bless my fate;</l>
+     <stage>[Stabs herself.</stage>
+     <l>That where I liv'd, I die in these lov'd arms.</l>
+     <stage>[Dies.</stage>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>She's gone, and now all's at an end with me;</l>
+     <l>Soft lay her down. O! we will part no more!</l>
+     <l>But let me pay the tribute of my grief;</l>
+     <l>A few sad tears to thy lov'd memory;</l>
+     <l>
+      <pb n="86" facs="86"/>And then I follow—</l>
+     <l>But I stay too long.</l>
+     <stage>[A noise again.</stage>
+     <l>The noise comes nearer: hold—before I go;</l>
+     <l>There's something wou'd be done—it shall be so;</l>
+     <l>And, then, Imoinda, I'll come all to thee.</l>
+     <stage>[Blandford and his party enter before the Governor and his party, swords drawn on both sides.</stage>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>You strive in vain to save him; he shall die.</l>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>Not while I can defend him with my life.</l>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>Where is he?</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>Here's the wretch whom you wou'd have.</l>
+     <l>Put up your swords, and let not civil broils</l>
+     <l>Engage you in the cursed cause of one</l>
+     <l>Who cannot live, and now entreats to die.</l>
+     <l>This object will convince you.</l>
+     <stage>[Points to Imoinda.</stage>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>'Tis his wife!</l>
+     <l>Alas! there was no other remedy.</l>
+    </sp>
+    <sp who="#governor">
+     <speaker>Gov.</speaker>
+     <l>Who did the bloody deed?</l>
+    </sp>
+    <sp who="#oroonoko">
+     <speaker>Oro.</speaker>
+     <l>The deed was mine:</l>
+     <l>Bloody I know it is, and I expect</l>
+     <l>Your laws should tell me so. Thus, self-condemn'd,</l>
+     <l>I do resign myself into your hands,</l>
+     <l>The hands of justice—but I hold the sword</l>
+     <l>For you, and for myself.</l>
+     <stage>[Stabs the Governor and himself.</stage>
+     <l>' 'Tis done at length, and vengeance smiles applause:</l>
+     <l>' Now, poor remains of all my soul held dear,</l>
+     <l>' While life affords perception to my eyes,</l>
+     <l>
+      <pb n="87" facs="87"/>' Let me gaze stedfast on thy faded form,</l>
+     <l>' And wash, with sacred drops of faithful love,</l>
+     <l>' The purple streams that tinge that breast of snow.</l>
+     <l>' A chilly languor creeps through all my veins,</l>
+     <l>' A misty cloud obscures my darken'd view,</l>
+     <l>' And wraps me round—oh let me find her, gods—</l>
+     <l>' Behold her beauties in the future world—</l>
+     <l>' Or ever cease to be—Oh! Imoinda—</l>
+     <stage>[Dies.</stage>
+    </sp>
+    <sp who="#blandford">
+     <speaker>Blan.</speaker>
+     <l>' In life, in death, his character maintain'd,</l>
+     <l>' He shone a great example to the world.</l>
+     <l>' If the bright fallies of a soul untaught</l>
+     <l>' Could cast such lustre round—how should we blush,</l>
+     <l>' With such advantages in moral life,</l>
+     <l>' To grovel in the loathsome shade of vice?</l>
+     <l>' Humanely just in every thought and act,</l>
+     <l>' This Princely Pagan turn'd to keen reproach</l>
+     <l>' The tyranny and falshood which he met.</l>
+     <l>' Nor can it be that any mode of faith,</l>
+     <l>' Debas'd by actions against Nature's laws,</l>
+     <l>' Can plead for favour in a future life:</l>
+     <l>' Wherefore, let Christians Virtue's path pursue,</l>
+     <l>' Nor leave to Pagans to be just and true.</l>
+    </sp>
+   </div>
+   <trailer>FINIS.</trailer>
+  </body>
+ </text>
+</TEI>
