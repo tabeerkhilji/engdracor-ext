@@ -1,0 +1,4581 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">Cymberline</title>
+    <title type="sub">A Tragedy</title>
+    <author>
+     <persName>
+      <surname>Hawkins</surname>
+      <forename>William</forename>
+      <idno type="VIAF">21055808</idno>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>Tracts in divinity: By W. Hawkins, ...</name>
+     <author>Hawkins, William, 1722-1801.</author>
+     <publisher>printed by W. Jackson; sold by R. and J. Dodsley; J. Rivington and J. Fletcher; and W. Owen, London; J. Fletcher and S. Parker, in Oxford,</publisher>
+     <date>1758.</date>
+     <pubPlace>Oxford :</pubPlace>
+     <note>Each volume bears a different title.</note>
+     <note>Vol.2: 'Dramatic and other poems'; Vol.3: 'Prælectiones poeticæ.'</note>
+     <note>Vol.2 includes: 'Cymbeline. .. Altered from Shakespeare', London: printed for James Rivington and James Fletcher, 1759, with separate pagination and register.</note>
+     <note>Reproduction of original from the British Library.</note>
+     <note>English Short Title Catalog, ESTCT127555.</note>
+     <note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note>
+    </bibl>
+    <biblFull n="printed source">
+     <publicationStmt>
+      <authority ref="#JJ">Jan Jokisch</authority>
+      <date>2024 December</date>
+      <idno type="ECCO_Drama">K101579.002-3</idno>
+      <idno type="DLPS">004885258</idno>
+      <idno type="ESTC">T127555</idno>
+      <idno type="DocNo">CW125275703</idno>
+      <idno type="TCP">K101579.002-3</idno>
+      <idno type="GaleDocNo">CW3325275703</idno>
+      <idno type="ContentSet">ECGR</idno>
+      <idno type="ImageSetID">0093400102</idno>
+      <availability>
+       <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+      </availability>
+     </publicationStmt>
+    </biblFull>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    <person xml:id="cymbeline"><persName>Cymbeline</persName><sex value="MALE"/></person><person xml:id="cloten"><persName>Cloten</persName><sex value="MALE"/></person><person xml:id="leonatus"><persName>Leonatus</persName><sex value="MALE"/></person><person xml:id="palador"><persName>Palador</persName><sex value="MALE"/></person><person xml:id="cadwal"><persName>Cadwal</persName><sex value="MALE"/></person><person xml:id="bellarius"><persName>Bellarius</persName><sex value="MALE"/></person><person xml:id="philario"><persName>Philario</persName><sex value="MALE"/></person><person xml:id="c_lucius"><persName>C. Lucius</persName><sex value="MALE"/></person><person xml:id="pisanio"><persName>Pisanio</persName><sex value="MALE"/></person><person xml:id="imogen"><persName>Imogen</persName><sex value="FEMALE"/></person><person xml:id="1st_lord"><persName>1st Lord</persName><sex value="MALE"/></person><person xml:id="2nd_lord"><persName>2nd Lord</persName><sex value="MALE"/></person><person xml:id="3rd_lord"><persName>3rd Lord</persName><sex value="MALE"/></person><person xml:id="officer"><persName>Officer</persName><sex value="MALE"/></person></listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1758">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text xml:lang="en">
+  <front>
+   <div type="titlepage">
+    <pb facs="226"/>
+    <p>CYMBELINE.</p>
+    <p>A TRAGEDY, ALTERED FROM SHAKESPEARE.</p>
+    <p>As it is perform'd at the THEATRE-ROYAL in Covent-Garden.</p>
+    <p>By WILLIAM HAWKINS, M. A. Late Fellow of Pembroke College, and Professor of Poetry in the University of Oxford.</p>
+    <p>
+     <hi>LONDON:</hi> Printed for JAMES RIVINGTON and JAMES FLETCHER, at the Oxford Theatre, in Pater-noster-row. MDCCLIX.</p>
+    <p>[Price One Shilling and Six-pence.]</p>
+   </div>
+   <div type="dedication">
+    <pb facs="227"/>
+    <head>TO THE RIGHT HONOURABLE THE Countess of Litchfield.</head>
+    <opener>
+     <salute>MADAM,</salute>
+    </opener>
+    <p>I Have the honour of your LADYSHIP'S permission to present to you a Tragedy, which, though it met with numerous and unprecedented difficulties and discouragements in the theatre, will, I hope, be thought not altogether unworthy your protection in the world.—Indeed, if the unpopularity of its late situation could in the least affect that degree of merit, which your LADYSHIP'S candor, or the indulgence of the town, may allow it to have, it would ill become me to recommend
+<pb n="iv" facs="228"/>
+it to my readers, under the sanction of so polite and illustrious a name.—But your LADYSHIP has too much good sense, as well as generosity, to judge of this performance by mere appearances, and accidental or unlucky circumstances; and therefore, tho' it will stand as a kind of memorial of the bad fortune, and worse treatment of its author; it may at the same time be a proper testimony of the high respect with which I am,</p>
+    <closer>
+     <salute>Madam,</salute>
+     <signed>Your Ladyship's most obliged and most obedient Servant,
+WILLIAM HAWKINS.</signed>
+     <dateline>
+      <date>Feb. 22, 1759.</date>
+     </dateline>
+    </closer>
+   </div>
+   <div type="preface">
+    <pb facs="229"/>
+    <head>PREFACE.</head>
+    <p>THE Tragedy of <hi>Cymbeline</hi> is, in the whole oeconomy of it, one of the most irregular productions of <hi>Shakespeare.</hi> Its defects however, or rather its superfluities, are more than equalled by beauties, and excellencies of various kinds. There is at the same time something so pleasingly romantic, and likewise truly <hi>British</hi> in the subject of it, that, I flatter myself, an attempt to reduce it, as near as possible, to the regular standard of the <hi>drama,</hi> will be favourably received by all, who are admirers of <hi>novelty,</hi> when <hi>propriety</hi> is its foundation. I have accordingly endeavoured to new-construct this Tragedy, almost upon the plan of <hi>Aristotle</hi> himself, in respect of the <hi>unity</hi> of <hi>Time;</hi> with so thorough a veneration however for the great <hi>Father</hi> of the <hi>English</hi> stage, that, even while I have presumed to regulate and modernize his design, I have thought it an honour to tread in his steps, and to imitate his Stile, with the humility and reverence of a <hi>Son.</hi> With this view, I have retained in <hi>many</hi> places the very language of the original author, and in
+<pb n="vi" facs="230"/>
+     <hi>all</hi> others endeavoured to supply it with a diction similar thereunto; so that, as an unknown friend of mine has observed, the present attempt is intirely <hi>new,</hi> whether it be considered as an <hi>alteration from,</hi> or an <hi>imitation of Shakespeare.</hi>
+    </p>
+    <p>—The <hi>difficulty</hi> of such an attempt, as <hi>rational</hi> as it may be, has a kind of <hi>claim,</hi> I presume, to the <hi>indulgence</hi> of the public; especially as it has been attended likewise with <hi>disadvantages.</hi>—For I found myself necessitated by my plan to <hi>drop some</hi> characters, to <hi>contract others,</hi> and to omit <hi>some</hi> scenes and incidents of an interesting nature;—or rather to bring the substance and purport of them within the compass of a few short narrations.—A loss irreparable this, but that conveniencies are likewise to be thrown into the opposite scale; for as, I hope, I have not <hi>injured</hi> any characters by <hi>contracting</hi> them, but have left them to <hi>all intents,</hi> and in point of <hi>importance</hi> the <hi>same;</hi> so I have had an opportunity of <hi>enlarging</hi> and <hi>improving some</hi> of the original parts, (those particularly of <hi>Palador,</hi> and <hi>Philario,</hi> the <hi>Pisanio of Shakespeare)</hi> and, by varying certain incidents and circumstances, of giving a <hi>new cast</hi> to the whole <hi>drama.</hi>—After all, I am very far from meaning to detract from the merit of <hi>Shakespeare;</hi> or▪ from insinuating that the plays of so exalted a genius <hi>require</hi> such
+<pb n="vii" facs="231"/>
+new-modelling as the present, in order to the rendering them useful or entertaining.—I have ventured publicly to defend this great <hi>dramatic</hi> Poet in the liberties he has taken; but still <hi>Shakespeare</hi> himself needs not be <hi>ashamed</hi> to <hi>wear</hi> a <hi>modern dress,</hi> provided it can be made tolerably to <hi>fit</hi> him.</p>
+    <p>The only question then will be, whether the present <hi>alteration</hi> be a judicious one?—And this with all due deference is left to the candour and justice of the public.</p>
+    <p>It will be proper to acquaint the reader, that, this play, was recommended some time since by a person of the first distinction, to the manager of the other theatre; who declared, that he had the very same altered play in his possession, and that it was designed for representation on his stage. Our <hi>Cymbeline</hi> therefore was obliged to take up his head quarters at <hi>Covent-Garden;</hi> where he has contended not only with the <hi>usual</hi> difficulties, but also with <hi>others</hi> of an <hi>extraordinary</hi> nature—Mrs. <hi>Bellamy</hi>'s declining the part of <hi>Imogen</hi> has done the play incredible prejudice; and convinces me of the vanity of striving against the stream of popularity in general, or the weight of particular disadvantages.—However, I am under obligations to <hi>many</hi>
+     <pb n="viii" facs="232"/>
+of the performers, for their best endeavours to do justice to my piece, and for their zeal for its success. To <hi>some</hi> I am indebted for real service, whose names, as comparisons are invidious, I leave it to the judgment of the reader to supply.</p>
+    <p>Upon the whole, I am at a loss to ballance the account between myself and my fortune, in this whimsical situation. The kind assistance, and, I hope, not extremely partial approbation of <hi>some,</hi> adds as much to my <hi>credit</hi> and <hi>satisfaction,</hi> as the <hi>delicacy,</hi> or <hi>ill-nature,</hi> &amp;c. of <hi>others,</hi> has deducted from my <hi>advantages.</hi>—To my <hi>friends,</hi> I return my sincere acknowledgments, and best wishes; to my <hi>enemies,</hi> I shall say nothing, 'till they are <hi>candid,</hi> and <hi>sagacious</hi> enough to speak more <hi>plainly</hi> than they have hitherto done,—and more <hi>to the purpose.</hi>
+    </p>
+   </div>
+   <div type="prologue">
+    <pb facs="233"/>
+    <head>PROLOGUE.</head>
+    <p>Spoken by Mr. ROSS.</p>
+    <lg>
+     <l>BRITONS, the daring Author of to-night,</l>
+     <l>Attempts in Shakespear's manly stile to write;</l>
+     <l>He strives to copy from that mighty mind</l>
+     <l>The glowing vein—the spirit unconfin'd—</l>
+     <l>The figur'd diction that disdain'd controul—</l>
+     <l>And the full vigour of the poet's soul!</l>
+     <l>—Happy the varied phrase, if none shall call,</l>
+     <l>This imitation, that original.—</l>
+    </lg>
+    <lg>
+     <l>For other points, our new advent'rer tries</l>
+     <l>The bard's luxuriant plan to modernize;</l>
+     <l>And, by the rules of antient art, refine</l>
+     <l>The same eventful, pleasing, bold design.</l>
+    </lg>
+    <lg>
+     <l>Our scenes awake not now the am'rous flame,</l>
+     <l>Nor teach soft swains to woo the tender dame;</l>
+     <l>Content, for bright example's sake, to shew</l>
+     <l>A wife distress'd, and innocence in woe.—</l>
+     <l>For what remains, the poet bids you see,</l>
+     <l>From an old tale, what Britons ought to be;</l>
+     <l>And in these restless days of war's alarms,</l>
+     <l>Not melts the soul to love, but fires the blood to arms.</l>
+    </lg>
+    <lg>
+     <pb n="x" facs="234"/>
+     <l>Your great forefathers scorn'd the foreign chain,</l>
+     <l>Rome might invade, and Caesars rage in vain—</l>
+     <l>Those glorious patterns with bold hearts pursue,</l>
+     <l>To king, to country, and to honour true!—</l>
+    </lg>
+    <lg>
+     <l>Oh! then with candour and good will attend,</l>
+     <l>Applaud the author in the cordial friend:</l>
+     <l>Remember, when his failings most appear,</l>
+     <l>It ill becomes the brave to be severe.—</l>
+     <l>Look ages back, and think you hear to-night</l>
+     <l>An antient poet, still your chief delight!</l>
+     <l>Due to a great attempt compassion take,</l>
+     <l>And spare the modern bard for Shakespear's sake.</l>
+    </lg>
+   </div>
+   <div type="epilogue">
+    <head>EPILOGUE.</head>
+    <p>Spoken by Mrs. VINCENT.</p>
+    <lg>
+     <l>WELL, Sirs—the bus'ness of the day is o'er,</l>
+     <l>And I'm a princess, and a wife no more—</l>
+     <l>This bard of our's, with Shakespear in his head,</l>
+     <l>May be well-taught, but surely is ill-bred.</l>
+     <l>Spouse gone, coast clear, wife handsome, and what not,</l>
+     <l>We might have had a much genteeler plot.</l>
+     <l>What madness equals true poetic rage?</l>
+     <l>Fine stuff! a lady in a hermitage!</l>
+     <l>A pretty mansion for the blooming fair—</l>
+     <l>No tea, no scandal,—no intriguing there.—</l>
+     <l>
+      <pb n="xi" facs="235"/>
+—The gay beau-monde such hideous scenes must damn—</l>
+     <l>What! nothing modish, but one cordial dram!</l>
+     <l>—Yet after all, the poet bids me say,</l>
+     <l>For your own credit's sake approve the play;</l>
+     <l>You can't for shame condemn old British wit,</l>
+     <l>(I hope there are no Frenchmen in the pit)</l>
+     <l>Or slight a timely tale, that well discovers,</l>
+     <l>The bravest soldiers are the truest lovers.</l>
+    </lg>
+    <lg>
+     <l>Such Leonatus was, in our romance,</l>
+     <l>A gallant courtier, tho' he cou'd not dance;</l>
+     <l>Say, wou'd you gain, like him, the fair one's charms,</l>
+     <l>First try your might in hardy deeds of arms;</l>
+     <l>Your muffs, your coffee, and down-beds fore-go,</l>
+     <l>Follow the mighty Prussia thro' the snow;</l>
+     <l>At length bring home the honourable scar,</l>
+     <l>And love's sweet balm shall heal the wounds of war.</l>
+    </lg>
+    <lg>
+     <l>For me, what various thoughts my mind perplex?</l>
+     <l>Is't better I resume my feeble sex,</l>
+     <l>Or wear this manly garb? it fits me well—</l>
+     <l>Gallants instruct me—ladies, can you tell?</l>
+     <l>The court's divided, and the gentle beaux,</l>
+     <l>Cry—no disguises—give the girl her cloaths.</l>
+     <l>The ladies say, to-night's example teaches,</l>
+     <l>(And I will take their words without more speeches)</l>
+     <l>That things go best when—women wear the breeches.</l>
+    </lg>
+   </div>
+   <div type="Dramatis_Personae">
+    <pb facs="236"/>
+    <castList>
+     <head>Dramatis Personae.</head>
+     <castItem>CYMBELINE, Mr. RYAN.</castItem>
+     <castItem>CLOTEN, Mr. CLARKE.</castItem>
+     <castItem>LEONATUS, Mr. ROSS.</castItem>
+     <castItem>PALADOR, Mr. SMITH.</castItem>
+     <castItem>CADWAL, Mr. LOWE.</castItem>
+     <castItem>BELLARIUS, Mr. SPARKES.</castItem>
+     <castItem>PHILARIO, Mr. RIDOUT.</castItem>
+     <castItem>C. LUCIUS, Mr. GIBSON.</castItem>
+     <castItem>PISANIO, Mr. DYER.</castItem>
+     <castItem>TWO LORDS.</castItem>
+     <castItem>IMOGEN, Mrs. VINCENT.</castItem>
+     <castItem>OFFICERS, SOLDIERS, &amp;C.</castItem>
+    </castList>
+   </div>
+   <set>
+    <p>SCENE, partly a Royal Castle, and partly in and near a Forest in WALES.</p>
+   </set>
+  </front>
+  <body>
+   <div type="play">
+    <pb facs="237"/>
+    <head>CYMBELINE. A TRAGEDY.</head>
+    <div n="1" type="act">
+     <head>ACT I.</head>
+     <div type="scene">
+      <head>
+       <hi>SCENE</hi>
+       <stage>A Royal Palace.</stage>
+      </head>
+      <stage>Enter two <hi>LORDS.</hi>
+      </stage>
+      <sp who="#1st_lord">
+       <speaker>1st LORD.</speaker>
+       <lg>
+        <l>
+         <seg rend="decorInit">I</seg> Pray you feast mine ears with more of this;</l>
+        <l>For 'tis so long since first I turn'd my back</l>
+        <l>Upon our isle, that I am new in Britain.</l>
+       </lg>
+      </sp>
+      <sp who="#2nd_lord">
+       <speaker>2d LORD.</speaker>
+       <lg>
+        <l>I think your wish to breathe in foreign air,</l>
+        <l>Took you away about the very time</l>
+        <l>The royal babes were stolen.</l>
+       </lg>
+      </sp>
+      <sp who="#1st_lord">
+       <speaker>1st LORD.</speaker>
+       <lg>
+        <l>It is true, sir—</l>
+        <l>Some twenty years ago—'twas a strange theft,</l>
+        <l>
+         <pb n="2" facs="238"/>
+But the concealment stranger; for you tell me,</l>
+        <l>That to this hour there is no guess in knowlege</l>
+        <l>Which way they went.</l>
+       </lg>
+      </sp>
+      <sp who="#2nd_lord">
+       <speaker>2d LORD.</speaker>
+       <lg>
+        <l>No, sir—albeit search</l>
+        <l>Was hot in the enquiry—but much time</l>
+        <l>Has worn out all that miracle—fresh matter</l>
+        <l>Supplying wonder since.</l>
+       </lg>
+      </sp>
+      <sp who="#1st_lord">
+       <speaker>1st LORD.</speaker>
+       <l>Of which my ignorance</l>
+       <l>Is not yet perfect learner.</l>
+      </sp>
+      <sp who="#2nd_lord">
+       <speaker>2d LORD.</speaker>
+       <lg>
+        <l>Well then, heed me.</l>
+        <l>Our late good queen (you knew her, sir) whose age</l>
+        <l>Was thought t'advance beyond more hope of children,</l>
+        <l>Yet brought the joyful Cymbeline a daughter,</l>
+        <l>And to his kingdoms a most hopeful heir,</l>
+        <l>In lieu of those he lost: for Imogen</l>
+        <l>(Such is her name) took all the graces in,</l>
+        <l>Which the best wisdom of the times put to her,</l>
+        <l>As we do air, fast as 'tis minister'd.</l>
+        <l>If beauty, innocence, and gentleness</l>
+        <l>Are woman's rarest jewels, she is rich</l>
+        <l>In most full measure of possession.</l>
+       </lg>
+      </sp>
+      <sp who="#1st_lord">
+       <speaker>1st LORD.</speaker>
+       <l>You speak her fair.</l>
+      </sp>
+      <sp who="#2nd_lord">
+       <speaker>2d LORD.</speaker>
+       <lg>
+        <l>But not to flatter, sir,</l>
+        <l>Tho' I should talk the sun down. You have heard</l>
+        <l>
+         <pb n="3" facs="239"/>
+The bright side of the story, for the other</l>
+        <l>It has a sable hue—I'll be brief with it—</l>
+       </lg>
+      </sp>
+      <sp who="#1st_lord">
+       <speaker>1st LORD.</speaker>
+       <l>Do, but be plain.</l>
+      </sp>
+      <sp who="#2nd_lord">
+       <speaker>2d LORD.</speaker>
+       <lg>
+        <l>The queen quits mortal being;</l>
+        <l>And Cymbeline, tho' now in wane of life,</l>
+        <l>Takes to his lonely bed a second dame,</l>
+        <l>A widow, bold, ambitious, cunning, cruel,</l>
+        <l>That rul'd his heart by acting what she was not:</l>
+        <l>She mov'd the cred'lous king to wed his daughter</l>
+        <l>With Cloten, her own son, a wretch in whom</l>
+        <l>All qualities that dub a worthy man</l>
+        <l>Are low as worst report.—The princess cast</l>
+        <l>Disdain upon his suit—and in mean time</l>
+        <l>My plotting stepdame dies.</l>
+       </lg>
+      </sp>
+      <sp who="#1st_lord">
+       <speaker>1st LORD.</speaker>
+       <l>A lucky death!</l>
+      </sp>
+      <sp who="#2nd_lord">
+       <speaker>2d LORD.</speaker>
+       <lg>
+        <l>'Twas thought so.—But the king, in whom this weakness</l>
+        <l>Is his first point of fault, pursues the aim</l>
+        <l>Of his now dead belov'd, and wills the maid</l>
+        <l>To take the crown with this encumbrance Cloten,</l>
+        <l>Or hold her birth-right void.</l>
+       </lg>
+      </sp>
+      <sp who="#1st_lord">
+       <speaker>1st LORD.</speaker>
+       <l>Alas! poor lady.</l>
+      </sp>
+      <sp who="#2nd_lord">
+       <speaker>2d LORD.</speaker>
+       <lg>
+        <l>Nay there's more woe behind.—Sweet Imogen</l>
+        <l>Had long been list'ning to the earnest suit</l>
+        <l>Of Leonatus, a young lord o'th' court,</l>
+        <l>
+         <pb n="4" facs="240"/>
+A valiant, frank, and honest gentleman,</l>
+        <l>That has no vice, if poverty be none;</l>
+        <l>And to say all, as much unlike to Cloten</l>
+        <l>As man can be to man.—Him in pure love,</l>
+        <l>And to undo all aims, she weds, and makes</l>
+        <l>The deed soon known her boast: th'enraged king</l>
+        <l>Sends Leonatus into banishment,</l>
+        <l>And her within the circle of this castle</l>
+        <l>Enforceth to abide, till she consent</l>
+        <l>To break her bond to her new-wedded lord</l>
+        <l>By strong propos'd divorce.—This is the sum</l>
+        <l>Of what you wish'd to hear.</l>
+       </lg>
+      </sp>
+      <sp who="#1st_lord">
+       <speaker>1st LORD.</speaker>
+       <l>What say the Britons</l>
+       <l>To these proceedings?</l>
+      </sp>
+      <sp who="#2nd_lord">
+       <speaker>2d LORD.</speaker>
+       <lg>
+        <l>As their humours vary;</l>
+        <l>Some blame the king, all pity Imogen,</l>
+        <l>And much lament the loss of Leonatus,</l>
+        <l>Now the black Romans swarm upon our coasts,</l>
+        <l>And virtue's call'd to proof.</l>
+       </lg>
+      </sp>
+      <sp who="#1st_lord">
+       <speaker>1st LORD.</speaker>
+       <l>They're landed then!</l>
+      </sp>
+      <sp who="#2nd_lord">
+       <speaker>2d LORD.</speaker>
+       <l>Report says loudly so.—But hist!—the king—</l>
+       <l>We must forbear, we shall hear more of this.</l>
+      </sp>
+      <stage>
+       <hi>Enter</hi> CYMBELINE, CLOTEN, <hi>and</hi> Lords.</stage>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE,</speaker>
+       <l>Well, sirs, the news abroad?</l>
+      </sp>
+      <sp who="#1st_lord">
+       <pb n="5" facs="241"/>
+       <speaker>1st LORD.</speaker>
+       <lg>
+        <l>So please your majesty,</l>
+        <l>The Roman legions, all from Gallia drawn,</l>
+        <l>Are landed on your coast, with large supply</l>
+        <l>Of Roman gentry, by the senate sent.</l>
+       </lg>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <l>Where hold they rendezvous?</l>
+      </sp>
+      <sp who="#2nd_lord">
+       <speaker>2d LORD.</speaker>
+       <l>My liege, at Milford.</l>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <lg>
+        <l>Now by the soul of great Cassibelan,</l>
+        <l>They're fairly welcome!—Our right valiant Britons</l>
+        <l>Will greet them soldier-like.—Caesar's ambition,</l>
+        <l>Which swell'd so much that it did almost stretch</l>
+        <l>The sides o'th' globe, against all colour here</l>
+        <l>Did put the yoke upon's—which to shake off</l>
+        <l>Becomes a warlike people, such as we</l>
+        <l>Will prove ourselves to be.</l>
+       </lg>
+      </sp>
+      <sp who="#cloten">
+       <speaker>CLOTEN.</speaker>
+       <lg>
+        <l>My royal father,</l>
+        <l>The dreaded foe we have to cope withal</l>
+        <l>(That in his empire's paw would gripe the world)</l>
+        <l>Oft have we measur'd swords with—ere't be long</l>
+        <l>We'll make the mighty name of Cymbeline</l>
+        <l>To sound as roughly in a Roman ear,</l>
+        <l>As did Cassibelan's.—</l>
+       </lg>
+      </sp>
+      <sp who="#3rd_lord">
+       <speaker>3d LORD.</speaker>
+       <lg>
+        <l>My gracious liege,</l>
+        <l>Old Caius Lucius, and th'Italian spark</l>
+        <l>Pisanio, that was tendant at his side</l>
+        <l>
+         <pb n="6" facs="242"/>
+In his late mission from the Roman camp,</l>
+        <l>Are come, with errand of especial weight</l>
+        <l>Upon their brow.</l>
+       </lg>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <l>Let them approach our presence.</l>
+       <stage>
+        <hi>Enter</hi> C. LUCIUS, PISANIO, &amp;c.</stage>
+       <lg>
+        <l>Lucius, we love thy person, tho' thou com'st</l>
+        <l>On deputation from our angry foe.</l>
+        <l>Pisanio, welcome too. Now, sirs, the message.</l>
+       </lg>
+      </sp>
+      <sp who="#c_lucius">
+       <speaker>LUCIUS.</speaker>
+       <lg>
+        <l>First for myself, I thank you, royal sir,</l>
+        <l>For courtesies receiv'd—not since forgot—</l>
+        <l>My present bus'ness is, in Caesar's name,</l>
+        <l>(Caesa, that hath more kings his servants than</l>
+        <l>Thyself domestic officers) to know</l>
+        <l>If in repentant yielding thou wilt pay</l>
+        <l>The yearly tribute of three thousand crowns,</l>
+        <l>Granted by fam'd Cassibelan thine uncle,</l>
+        <l>For him and his succession, to great Julius,</l>
+        <l>(Which by thee lately is untendered left)</l>
+        <l>Now fell confusion sets his standard up,</l>
+        <l>And fearful wars point at you?</l>
+       </lg>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <lg>
+        <l>Noble Lucius,</l>
+        <l>Words have no terrors—there be many Caesars</l>
+        <l>Ere such another Julius—You well know,</l>
+        <l>Till the injurious Roman did extort</l>
+        <l>This tribute, we were free.—Our Britain is</l>
+        <l>A world itself, and we will nothing pay</l>
+        <l>
+         <pb n="7" facs="243"/>
+For wearing our own faces—Sir, our subjects</l>
+        <l>Will not endure this yoke—and for ourself,</l>
+        <l>To shew less sov'reignty than they, must needs</l>
+        <l>Appear unking-like.</l>
+       </lg>
+      </sp>
+      <sp who="#c_lucius">
+       <speaker>LUCIUS.</speaker>
+       <lg>
+        <l>Sir, when late to Britain</l>
+        <l>I came in peaceful embassy to claim</l>
+        <l>This yet contested tribute, I remember</l>
+        <l>The boast that fill'd your mouth—you vaunted then</l>
+        <l>The nat'ral brav'ry of your isle, which stands</l>
+        <l>As Neptune's park ribbed and paled in</l>
+        <l>With rocks unscaleable, and roaring waters,</l>
+        <l>With sands that would not bear your enemies boats,</l>
+        <l>But suck them up to th' topmast.—We have leaped</l>
+        <l>This all-forbidding fence,—and, sir, be sure,</l>
+        <l>Where'er the Roman banner waves in wrath,</l>
+        <l>Conquest limps not behind.—</l>
+       </lg>
+      </sp>
+      <stage>[During this speech, <hi>Cloten</hi> whispers <hi>Pisanio.]</hi>
+      </stage>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <lg>
+        <l>Had Julius found</l>
+        <l>In ev'ry land he mangled with his sword,</l>
+        <l>No stabler footing than he gain'd him here,</l>
+        <l>I could have bought his empire for a tithe</l>
+        <l>Of Britain's leanest soil.—No more of this.</l>
+        <l>To-morrow we will meet you in the field,</l>
+        <l>And this fair land is yours, if you can win it;</l>
+        <l>If not, our crows shall fare the better for you.</l>
+        <l>
+         <pb n="8" facs="244"/>
+Caius, thou'rt welcome: give him tendance, lords,</l>
+        <l>And feast him as befits his quality;</l>
+        <l>The due of honour in no point omit.</l>
+        <l>Once more my hand in friendship; from this time</l>
+        <l>I wear it as your enemy.</l>
+       </lg>
+      </sp>
+      <sp who="#c_lucius">
+       <speaker>LUCIUS.</speaker>
+       <l>Th' event</l>
+       <l>Is yet to name the winner. Fare you well.</l>
+      </sp>
+      <stage>
+       <hi>[Exeunt</hi> Lucius, Pisanio, <hi>and some</hi> Lords.</stage>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <lg>
+        <l>Our expectation that it should be thus</l>
+        <l>Hath made us forward. Cloten, our now heir,</l>
+        <l>(For the base Imogen our sometime daughter</l>
+        <l>Has lost all right in us) if so it hap</l>
+        <l>That I must leave my life in battle, thine</l>
+        <l>Is this imperial crown.—Great Jupiter</l>
+        <l>Sprinkle his blessings on't as thou obey'st</l>
+        <l>Our sov'reign charge.—Hear us most heedily.</l>
+       </lg>
+      </sp>
+      <sp who="#cloten">
+       <speaker>CLOTEN.</speaker>
+       <l>I do; and will the royal mandate keep</l>
+       <l>'Mongst my religious bonds.</l>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <lg>
+        <l>Let not our daughter</l>
+        <l>Breathe more the chearful air of liberty;</l>
+        <l>This castle be her home, house, region, world,</l>
+        <l>Till she shall sue thee for the love she scorn'd:</l>
+        <l>And Leonatus, exil'd, worthless beggar,</l>
+        <l>That vilely did seduce her young affections,</l>
+        <l>If with his foot he mark our land again,</l>
+        <l>
+         <pb n="9" facs="245"/>
+Pursue to bitt'rest death.—So did we promise</l>
+        <l>Thy mother, our late queen, whose memory yet</l>
+        <l>Sits fresh upon my heart. Wilt thou do this?</l>
+       </lg>
+      </sp>
+      <sp who="#cloten">
+       <speaker>CLOTEN.</speaker>
+       <l>My liege, most willingly.</l>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <lg>
+        <l>Then I've laid out</l>
+        <l>So much of caution well.—Lords, we must bustle—</l>
+        <l>It is the common cause that wakes our arms—</l>
+        <l>We grapple for our own;—the puny wren</l>
+        <l>Will chafe him in his thief-assailed nest:</l>
+        <l>We fight for Britain's franchises, the laws</l>
+        <l>Of old Mulmutius, our great ancestor,</l>
+        <l>The first of Britain, which did put his brows</l>
+        <l>Within a golden crown.</l>
+       </lg>
+      </sp>
+      <sp who="#cloten">
+       <speaker>CLOTEN.</speaker>
+       <lg>
+        <l>Those laws, great sir,</l>
+        <l>We will not change for Caesar's proud behests</l>
+        <l>That rules by bidding.</l>
+       </lg>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <lg>
+        <l>Deal we then our swords</l>
+        <l>With dextrous resolution; or hereafter</l>
+        <l>Let them hang up, like utensils discharg'd,</l>
+        <l>In rusty sloth, and vile disuse for ever.</l>
+        <l>The gore-besmeared Mars infuse his fury</l>
+        <l>Into our soldiers breasts; for our own self</l>
+        <l>We go to battle with a blither heart,</l>
+        <l>Than ere did jovial bridegroom long repuls'd,</l>
+        <l>Into his mistress' bed. Sound there aloft</l>
+        <l>
+         <pb n="10" facs="246"/>
+Our instruments of war, that British bloods</l>
+        <l>May boil to martial music. Forward, pass.</l>
+       </lg>
+      </sp>
+      <stage>[Flourish. Exeunt all but <hi>Cloten.]</hi>
+      </stage>
+      <sp>
+       <lg>
+        <l>Thanks to my mother for this joyless crown—</l>
+        <l>It fills not half my wish: while Leonatus</l>
+        <l>Reigns in the bosom of fair Imogen,</l>
+        <l>'Tis I am banish'd, and a sov'reign he:</l>
+        <l>Wou'd I cou'd pluck their loves up by the roots!</l>
+        <l>And I am strong in hope—if young Pisanio</l>
+        <l>(Whom I made mine by making myself Caesar's</l>
+        <l>When he was last in Britain) hath been true</l>
+        <l>To the employ I gave him, long ere now</l>
+        <l>The jealous exile pines him in belief</l>
+        <l>His lady's truth is tainted.—Come, Pisanio—</l>
+        <l>He said, he'd quit the train, and here return</l>
+        <l>T'unlade his secrets to me.—Oh! sir, welcome!</l>
+       </lg>
+       <stage>
+        <hi>Enter</hi> PISANIO.</stage>
+       <lg>
+        <l>What shall I ask thee first?—How fares Augustus?</l>
+        <l>Is Leonatus mad? Thou might'st have told</l>
+        <l>A history ere this.</l>
+       </lg>
+      </sp>
+      <sp who="#pisanio">
+       <speaker>PISANIO.</speaker>
+       <lg>
+        <l>I pray you patience—</l>
+        <l>First, sir, my lord commends him to your highness;</l>
+        <l>Next, the diseased Leonatus hath</l>
+        <l>Italian fits of jealousy too strong</l>
+        <l>For hellebore to cure.</l>
+       </lg>
+      </sp>
+      <sp who="#cloten">
+       <pb n="11" facs="247"/>
+       <speaker>CLOTEN.</speaker>
+       <lg>
+        <l>That's well—his grief</l>
+        <l>Is medicine to mine; but when, and how?</l>
+        <l>Give me particulars at large—my ear</l>
+        <l>Shall catch thy narrative as greedily,</l>
+        <l>As doth the sick man the kind drops that fall</l>
+        <l>Upon his fever's flame.</l>
+       </lg>
+      </sp>
+      <sp who="#pisanio">
+       <speaker>PISANIO.</speaker>
+       <lg>
+        <l>My lord, as soon</l>
+        <l>As I had foot in Italy, I challeng'd</l>
+        <l>Th' abused Leonatus with some friends</l>
+        <l>To the appointment of a merry meeting;</l>
+        <l>Where, as the wine danc'd brainward, I began</l>
+        <l>To praise the freedom of the British ladies,</l>
+        <l>Their lib'ral hearts, and am'rous 'complishments;</l>
+        <l>When Leonatus vow'd I did them wrong,</l>
+        <l>And was too bold in my persuasion.</l>
+       </lg>
+      </sp>
+      <sp who="#cloten">
+       <speaker>CLOTEN.</speaker>
+       <l>So.</l>
+      </sp>
+      <sp who="#pisanio">
+       <speaker>PISANIO.</speaker>
+       <lg>
+        <l>I fast held me to my sentiment,</l>
+        <l>And, for his doubt provok'd me, swore myself</l>
+        <l>Had tasted half the court, and his own princess,</l>
+        <l>(Whose virtue he had deem'd unparagon'd)</l>
+        <l>At her own suit in bed.</l>
+       </lg>
+      </sp>
+      <sp who="#cloten">
+       <speaker>CLOTEN.</speaker>
+       <l>Most brave, brave Roman!</l>
+      </sp>
+      <sp who="#pisanio">
+       <speaker>PISANIO.</speaker>
+       <lg>
+        <l>On this the Briton vaults me from his seat,</l>
+        <l>And bids my ready sword avow th' affront</l>
+        <l>Done his pure lady's honour—I with looks</l>
+        <l>
+         <pb n="12" facs="248"/>
+Of calm assurance, and arms folded thus,</l>
+        <l>Wish'd him attend my proofs. This fair proposal</l>
+        <l>Had sanction from all sides, and liquor'd noddles</l>
+        <l>Jostled to hear my tale.</l>
+       </lg>
+      </sp>
+      <sp who="#cloten">
+       <speaker>CLOTEN.</speaker>
+       <l>Why so—Proceed.</l>
+      </sp>
+      <sp who="#pisanio">
+       <speaker>PISANIO.</speaker>
+       <lg>
+        <l>First, roundly I describ'd her bed-chamber,</l>
+        <l>The arras, cieling, pictures; (for of these</l>
+        <l>I took most faithful inventory, when</l>
+        <l>I lay concealed there); then I produc'd</l>
+        <l>The bracelet that I ravish'd from her arm,</l>
+        <l>As sleep, the ape of death, lay dull upon her;</l>
+        <l>And last I quoted the cinque-spotted mole</l>
+        <l>That richly stains her breast, like crimson drops</l>
+        <l>I'th'bottom of a cowslip.</l>
+       </lg>
+      </sp>
+      <sp who="#cloten">
+       <speaker>CLOTEN.</speaker>
+       <lg>
+        <l>There was voucher</l>
+        <l>Stronger than ever law made.—Well, sir, what</l>
+        <l>To this the Briton?</l>
+       </lg>
+      </sp>
+      <sp who="#pisanio">
+       <speaker>PISANIO.</speaker>
+       <lg>
+        <l>He was quite besides</l>
+        <l>The government of patience—He roll'd round</l>
+        <l>His bloodshot eyes, stamp'd with his foot, and writh'd</l>
+        <l>His form into all postures; strove to speak,</l>
+        <l>And chatter'd monkey-like;—at length, his choler</l>
+        <l>Burst into utt'rance rash—'tis well, he cried,</l>
+        <l>The fiends of hell divide themselves between you—</l>
+        <l>
+         <pb n="13" facs="249"/>
+And so without more ceremony, left</l>
+        <l>Our board, to cast conjectures, as they might,</l>
+        <l>Whereto his fury tended.</l>
+       </lg>
+      </sp>
+      <sp who="#cloten">
+       <speaker>CLOTEN.</speaker>
+       <l>Thanks, Pisanio;</l>
+       <l>Saw you him since?</l>
+      </sp>
+      <sp who="#pisanio">
+       <speaker>PISANIO.</speaker>
+       <lg>
+        <l>No; but the rumour was,</l>
+        <l>Ere I left Rome, that he had turn'd his thought</l>
+        <l>To bloody purpose of revenge.</l>
+       </lg>
+      </sp>
+      <sp who="#cloten">
+       <speaker>CLOTEN.</speaker>
+       <lg>
+        <l>'Tis good—</l>
+        <l>Pisanio, I did love this lady—lie</l>
+        <l>I should not, if I said I love her still—</l>
+        <l>O she is sweeter than the breath of spring</l>
+        <l>Wooing the maiden violet—'tis past—</l>
+        <l>And I have lost her.</l>
+       </lg>
+      </sp>
+      <sp who="#pisanio">
+       <speaker>PISANIO.</speaker>
+       <l>She hath wrong'd you.</l>
+      </sp>
+      <sp who="#cloten">
+       <speaker>CLOTEN.</speaker>
+       <lg>
+        <l>True—</l>
+        <l>She hath disdain'd me—spurn'd me—once she vow'd,</l>
+        <l>The meanest garment that e'er clip'd the body</l>
+        <l>Of Leonatus, was in her respect</l>
+        <l>Dearer than all the hairs upon my head,</l>
+        <l>Were they all made such men.—The southfog rot</l>
+        <l>Him, her, and Caesar's foes.</l>
+       </lg>
+      </sp>
+      <sp who="#pisanio">
+       <pb n="14" facs="250"/>
+       <speaker>PISANIO.</speaker>
+       <lg>
+        <l>Thou wishest well.—</l>
+        <l>This Leonatus is a thorn, my lord,</l>
+        <l>That pricks your side of greatness. If he 'scape</l>
+        <l>The snare that traps him now, and haply live</l>
+        <l>To recognize his country and his queen,</l>
+        <l>Your crown will totter—for the lady keeps</l>
+        <l>High seat in ev'ry heart; and for her husband,</l>
+        <l>(I speak in envy this) thro' Italy</l>
+        <l>Tongues quarrel in his praise; the current voice is,</l>
+        <l>So fair an outward, and such inward stuff,</l>
+        <l>Endows no man but him.</l>
+       </lg>
+      </sp>
+      <sp who="#cloten">
+       <speaker>CLOTEN.</speaker>
+       <lg>
+        <l>I prythee stop—</l>
+        <l>Was he not yok'd with Imogen, myself</l>
+        <l>Could make my tongue a bankrupt in his praise;</l>
+        <l>But being what he is, I must abhor him:</l>
+        <l>I have no other hate than what I bear</l>
+        <l>Him, and his fortunes; for his kinder stars</l>
+        <l>Have still eclipsed mine: but I will shroud me</l>
+        <l>Beneath the Roman wing—Britain, thou hast</l>
+        <l>Loud service of my tongue; my heart is Caesar's,</l>
+        <l>Of whom I'll hold my crown; these restif Britons</l>
+        <l>We must have curb upon; lest gall'd subjection</l>
+        <l>Feeling the heavy lash of government,</l>
+        <l>Fly off from his obedience.</l>
+       </lg>
+      </sp>
+      <sp who="#pisanio">
+       <speaker>PISANIO.</speaker>
+       <lg>
+        <l>Caesar bad me</l>
+        <l>Insure his count'nance, and puissant arm,</l>
+        <l>Who will attack your right—</l>
+       </lg>
+      </sp>
+      <sp who="#cloten">
+       <pb n="15" facs="251"/>
+       <speaker>CLOTEN.</speaker>
+       <lg>
+        <l>We're bound to him.</l>
+        <l>Sir, I will post me in th'approaching battle,</l>
+        <l>Where least our British archers may annoy</l>
+        <l>The Roman legions.</l>
+       </lg>
+      </sp>
+      <sp who="#pisanio">
+       <speaker>PISANIO.</speaker>
+       <l>It is well—but hist—</l>
+       <l>Who is't comes yonder?</l>
+      </sp>
+      <sp who="#cloten">
+       <speaker>CLOTEN.</speaker>
+       <lg>
+        <l>'Tis Philario, friend</l>
+        <l>And council-man to Leonatus; best</l>
+        <l>Abruptly part we here, as chance alone</l>
+        <l>Had brought us thus together. <stage>[Exeunt severally.</stage>
+        </l>
+       </lg>
+      </sp>
+      <stage>
+       <hi>Enter</hi> PHILARIO.</stage>
+      <sp>
+       <lg>
+        <l>The four-brow'd Cloten!—It is wide suspicion</l>
+        <l>Thou wear'st cold British heart, and this rencounter</l>
+        <l>With young Pisanio colours it more strong.</l>
+        <l>But I have other care.—He writes me here,</l>
+        <stage>(Pulling out letters.)</stage>
+        <l>In spleenful terms of most confirm'd belief,</l>
+        <l>That he hath cognizance of her incontinence;</l>
+        <l>And wills me, by the love and truth I owe him,</l>
+        <l>To murther her.—Perhaps some false Italian</l>
+        <l>Hath the infection of foul slander pour'd</l>
+        <l>In his too ready ear.—Perhaps she's fall'n.—</l>
+        <l>She's fair,—that's much;—she's young,—that's more.—I hold</l>
+        <l>The virtue of the best attemptable.—</l>
+        <l>I must proceed with wary steps herein.—</l>
+        <l>
+         <pb n="16" facs="252"/>
+Here's that will 'tice her from her prison-house,</l>
+        <l>Or for true love, or seeming.—I will steal</l>
+        <l>This way to her apartment. <stage>[Exit.</stage>
+        </l>
+       </lg>
+      </sp>
+     </div>
+     <div type="scene">
+      <head>
+       <stage>
+        <hi>SCENE</hi> opens, and discovers <hi>Imogen</hi> in her apartment, sitting by a table; a book on the table.</stage>
+      </head>
+      <sp>
+       <lg>
+        <l>A father cruel, and a suitor base,</l>
+        <l>A banish'd husband too—O that's the grief</l>
+        <l>That gives the deepest wound.—Then am I sure</l>
+        <l>The shes of Italy will not betray</l>
+        <l>Mine int'rest, and his honour?—Wicked fear!</l>
+        <l>Where he abides, falshood is out of fashion,</l>
+        <l>And truth the law to action.—Hark! the clock!</l>
+        <stage>(Clock strikes.)</stage>
+       </lg>
+       <lg>
+        <l>'Tis the tenth hour of morn—the very time</l>
+        <l>I bad him think on me, and combat heav'n</l>
+        <l>With prayers, as I would do.—O bless him Gods,</l>
+        <l>And sweeten all his cares with drops of comfort.</l>
+        <l>—Now to my book—Philosophy, best doctor,</l>
+        <l>Thou wisely dost prescribe to human woe</l>
+        <l>The lenitive of patience.— <stage>(Reads.)</stage>
+        </l>
+       </lg>
+      </sp>
+      <stage>
+       <hi>Enter</hi> PHILARIO.</stage>
+      <sp>
+       <lg>
+        <l>There she sits—</l>
+        <l>Sweet student! with a look as chaste as Dian's.—</l>
+        <l>If she's disloyal, falshood never yet</l>
+        <l>Hung out so fair a sign—yet <hi>seems,</hi> we know,</l>
+        <l>Is often read for <hi>is</hi>—I must disturb her—</l>
+        <l>Imogen—lady—</l>
+       </lg>
+      </sp>
+      <pb n="17" facs="253"/>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <l>Hah! what now, Philario?</l>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <l>Dear lady, here are letters from your lord—</l>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <l>From whom? from Leonatus?—Let me see—</l>
+       <l>Oh! learn'd indeed were that astronomer,</l>
+       <l>That knew the stars as I his characters—</l>
+       <l>He'd lay the future open—You good Gods,</l>
+       <l>Let what is here contain'd relish of love;</l>
+       <l>Of my lord's health; of his content; yet not</l>
+       <l>That we two are apart—of his content</l>
+       <l>In all but that—good wax, thy leave—blest bees</l>
+       <l>That make these locks of counsel—Good news, Gods.</l>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <l>Now let me con her visage as she reads—</l>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <p>
+        <stage>(Reading)</stage> Justice and your father's wrath, should he take me in his dominions, could not be so cruel to me, but you, oh! the dearest of creatures, would even renew me with your eyes. Take notice that I am at Milford Haven; what your own love will out of this advise you, follow. So he wishes you all happiness, that remains loyal to his vow, and yours increasing in love,
+LEONATUS.</p>
+       <lg>
+        <l>Oh! for a horse with wings—hear'st thou, Philario,</l>
+        <l>He is at Milford Haven—prithee tell me</l>
+        <l>
+         <pb n="18" facs="254"/>
+How far 'tis thither. If one of mean affairs</l>
+        <l>May plod it in a day, why may not I</l>
+        <l>Glide thither in an hour? Then, good Philario,</l>
+        <l>Who long'st like me to see thy friend; who long'st</l>
+        <l>(O let me bate) but not like me, yet long'st,</l>
+        <l>But in a fainter kind—Oh! not like me—</l>
+        <l>For mine's beyond, beyond—tell me how far</l>
+        <l>To this same blessed Milford; and by the way</l>
+        <l>Tell me how Wales was made so happy as</l>
+        <l>T'inherit such a haven. But first of all,</l>
+        <l>How may we steal from hence? I prithee speak</l>
+        <l>How far to Milford?</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>Madam, we may reach it,</l>
+        <l>With horses swift and sure of foot, before</l>
+        <l>The sun has ended his day's journey.</l>
+       </lg>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <l>Well—</l>
+       <l>But how to get from hence—</l>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>I have a thought—</l>
+        <l>Lady, a thousand eyes keep centinel</l>
+        <l>To watch your motions here—yet haply these</l>
+        <l>Unquestion'd we may pass—suppose you did</l>
+        <l>Assume another mien, and but disguise</l>
+        <l>That, which t'appear itself must not now be</l>
+        <l>But by self-danger—cannot you awhile</l>
+        <l>Forget to be a woman?</l>
+       </lg>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <l>I'm almost</l>
+       <l>A man already.</l>
+      </sp>
+      <sp who="#philario">
+       <pb n="19" facs="255"/>
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>Make yourself but like one,</l>
+        <l>And ev'ry gate shall kindly open to us,</l>
+        <l>Tho' Argus' self were porter.</l>
+       </lg>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <lg>
+        <l>In my closet</l>
+        <l>I have a suit of boy's apparel ready,</l>
+        <l>That was my page's—under which disguise,</l>
+        <l>And with what imitation I can borrow</l>
+        <l>From youth of such a season, I will quit</l>
+        <l>This castle's loathsome hold.</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>You are resolv'd then</l>
+        <l>To tie yourself to Leonatus' fortune,</l>
+        <l>And leave your father and the court behind you?</l>
+       </lg>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <lg>
+        <l>No court, no father now—(for what's a father</l>
+        <l>Whose mind my crafty stepdame poison'd, that</l>
+        <l>Bore all down with her brain) no, nor no more</l>
+        <l>Of that harsh, sullen, haughty, princeling Cloten,</l>
+        <l>That Cloten, whose love-suit has been to me</l>
+        <l>As fearful as a siege.</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>Hie to your chamber,</l>
+        <l>And fit you to your manhood—dull delay</l>
+        <l>Is sin 'gainst resolution.</l>
+       </lg>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <lg>
+        <l>I am arm'd</l>
+        <l>Ev'n for events of peril infinite,</l>
+        <l>And woman's love is courage.</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <pb n="20" facs="256"/>
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>I will hence,</l>
+        <l>And able horse and furniture prepare</l>
+        <l>For this adventure: I'll be with you, lady,</l>
+        <l>Before you're well equipp'd.</l>
+       </lg>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <l>Do, good Philario:</l>
+       <l>The gracious Gods direct us!</l>
+       <stage>[Exeunt severally.</stage>
+      </sp>
+      <trailer>End of the First <hi>ACT.</hi>
+      </trailer>
+     </div>
+    </div>
+    <div n="2" type="act">
+     <pb n="21" facs="257"/>
+     <head>ACT II.</head>
+     <div type="scene">
+      <head>
+       <hi>SCENE</hi>
+       <stage>The Castle.</stage>
+      </head>
+      <stage>
+       <hi>Enter</hi> CLOTEN <hi>and</hi> LORDS.</stage>
+      <sp who="#1st_lord">
+       <speaker>1st LORD.</speaker>
+       <lg>
+        <l>
+         <seg rend="decorInit">I</seg>N truth, my lord, her throwing favours on</l>
+        <l>So low a thing as Leonatus is,</l>
+        <l>Slanders her judgment much; it doth substract</l>
+        <l>From her else princely qualities—</l>
+       </lg>
+      </sp>
+      <sp who="#cloten">
+       <speaker>CLOTEN.</speaker>
+       <l>I think so—</l>
+      </sp>
+      <sp who="#2nd_lord">
+       <speaker>2d LORD.</speaker>
+       <lg>
+        <l>Is there a spell in Leonatus' name?</l>
+        <l>What is he in his person, nature, fortune,</l>
+        <l>That you are not, and more?—Say, is he young?</l>
+        <l>You reap'd your chin since he did—is he valiant?</l>
+        <l>By Mars, you fear him not—handsome? you read</l>
+        <l>Your faithful glass with more content than he—</l>
+        <l>For birth and fortune the proportion is</l>
+        <l>As top to th' bottom.</l>
+       </lg>
+      </sp>
+      <sp who="#cloten">
+       <speaker>CLOTEN.</speaker>
+       <lg>
+        <l>Oh! your pardon, sir,</l>
+        <l>His lady's smile has tutor'd him a pride</l>
+        <l>
+         <pb n="22" facs="258"/>
+That ranks him with the highest—and though Rome</l>
+        <l>His body holds, he hath a heart and hope</l>
+        <l>In Britain still; which nothing can cut off,</l>
+        <l>But something that may give a mortal wound</l>
+        <l>Or to his life, or love.</l>
+       </lg>
+      </sp>
+      <stage>Enter <hi>CYMBELINE,</hi> and other <hi>Lords.</hi>
+      </stage>
+      <sp who="#1st_lord">
+       <speaker>1st LORD.</speaker>
+       <l>My lord, the king.</l>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <l>Await you here our daughter, noble Cloten?</l>
+       <l>Will she not forth?</l>
+      </sp>
+      <sp who="#cloten">
+       <speaker>CLOTEN.</speaker>
+       <l>She will vouchsafe no notice.</l>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <lg>
+        <l>The exile of her minion is too new,</l>
+        <l>She hath not yet forgot him: some more time</l>
+        <l>May wear the print of his remembrance out,</l>
+        <l>And then she's yours.</l>
+       </lg>
+      </sp>
+      <sp who="#cloten">
+       <speaker>CLOTEN.</speaker>
+       <lg>
+        <l>Never, I fear, my lord.</l>
+        <l>O I have proved her heart impregnable;</l>
+        <l>I should, my liege, your patience overstretch</l>
+        <l>To tell in course the labours of my love;</l>
+        <l>Denials but increas'd my services;</l>
+        <l>I have put by my nature, crouch'd and fawn'd;</l>
+        <l>I seem'd as if inspir'd to do the duties</l>
+        <l>I tender'd to her; if she had forsworn</l>
+        <l>All commerce with mankind, I'd been content;</l>
+        <l>
+         <pb n="23" facs="259"/>
+But Leonatus' suit had witchcraft in't,</l>
+        <l>While mine she heard as does the ruthless rock</l>
+        <l>The drowning seaman's moan.</l>
+       </lg>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <lg>
+        <l>It must be humour:</l>
+        <l>The stubborn tendency of woman's will,</l>
+        <l>Still pliant or resisting 'gainst all rules</l>
+        <l>Of virtue and discretion—Let her suffer—</l>
+        <l>I have a child in thee—</l>
+       </lg>
+      </sp>
+      <sp who="#cloten">
+       <speaker>CLOTEN.</speaker>
+       <l>A thankful one.</l>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <lg>
+        <l>Call her before us, sirs, <stage>(exeunt Lords)</stage> for we would make</l>
+        <l>A last demand to her unduteous spirit,</l>
+        <l>Ere yet we take the field—and here we swear</l>
+        <l>By the great sov'reign of th' immortal Gods,</l>
+        <l>If she consent not fully to the act,</l>
+        <l>Whereby we late have sentenc'd her divorce</l>
+        <l>From that base slave, whose vileness must not soil</l>
+        <l>The lustre of our crown, we reconfirm</l>
+        <l>Our royal grant to thee, adopted son</l>
+        <l>Of our dear love; and her blot out for ever</l>
+        <l>From all connection with our blood, and title</l>
+        <l>To this imperial diadem—How now?</l>
+       </lg>
+      </sp>
+      <stage>
+       <hi>Re-enter</hi> Lords.</stage>
+      <sp who="#1st_lord">
+       <speaker>1st LORD.</speaker>
+       <lg>
+        <l>So please you, sir, her chambers all are lock'd,</l>
+        <l>Nor answer will be given to the noise</l>
+        <l>Our loudest clamours make.</l>
+       </lg>
+      </sp>
+      <sp who="#cymbeline">
+       <pb n="24" facs="260"/>
+       <speaker>CYMBELINE.</speaker>
+       <lg>
+        <l>Hah! fled! escap'd!</l>
+        <l>How may this be?—Cloten, the guard is yours—</l>
+        <l>Have you not surety of their faith?</l>
+       </lg>
+      </sp>
+      <sp who="#cloten">
+       <speaker>CLOTEN.</speaker>
+       <lg>
+        <l>My liege,</l>
+        <l>They are the pick'd of my affection, and</l>
+        <l>I stand amaz'd at this.</l>
+       </lg>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <l>Where is Philario?</l>
+      </sp>
+      <sp who="#2nd_lord">
+       <speaker>2d LORD.</speaker>
+       <lg>
+        <l>My liege, some two hours since, I saw him take</l>
+        <l>The road that windeth round the castle grove,</l>
+        <l>And by his side a comely youth that seem'd</l>
+        <l>A page o'th' court.</l>
+       </lg>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <lg>
+        <l>My life it must be she;</l>
+        <l>Wing'd with the fervor of her love she's flown</l>
+        <l>To Leonatus, and Philario is</l>
+        <l>The pander of her folly. We're abus'd;</l>
+        <l>All Italy in arms would hurt us less</l>
+        <l>Than what aggrieves us here—Our dear son Cloten,</l>
+        <l>Head thou the search for these vile runagates,</l>
+        <l>With thy best faculties of diligence;</l>
+        <l>Then follow to the field—We must be gone;</l>
+        <l>But we will carry our displeasure with us,</l>
+        <l>And Rome shall feel we're angry.—Come away.</l>
+        <stage>[Exeunt.</stage>
+       </lg>
+      </sp>
+      <stage>
+       <pb n="25" facs="261"/>
+Manet <hi>CLOTEN</hi> with some <hi>Lords.</hi>
+      </stage>
+      <sp>
+       <l>To horse, sirs—mark me—I am dead to love,</l>
+       <l>And vengeance speeds me now.</l>
+       <stage>[Exit with <hi>Lords.</hi>
+       </stage>
+      </sp>
+     </div>
+     <div type="scene">
+      <head>
+       <hi>SCENE</hi>
+       <stage>A Forest, and a Cave at a distance.</stage>
+      </head>
+      <stage>Enter from the Cave <hi>BELLARIUS, PALADOR,</hi> and <hi>CADWAL.</hi>
+      </stage>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <lg>
+        <l>It is a goodly sky—Stoop, boys, this gate</l>
+        <l>Instructs you how t'adore the heavens, and bows you</l>
+        <l>To ev'ning's holy office. Gates of monarchs</l>
+        <l>Are arch'd so high that giants may just thro',</l>
+        <l>And keep their impious turbands on without</l>
+        <l>Obeisance to the sun—Hail! thou fair heav'n,</l>
+        <l>We house i' th' rock, yet use thee not so hardly</l>
+        <l>As prouder livers do.</l>
+       </lg>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <l>Hail heav'n!</l>
+      </sp>
+      <sp who="#cadwal">
+       <speaker>CADWAL.</speaker>
+       <l>Hail heav'n!</l>
+      </sp>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <lg>
+        <l>Our life, my boys, is such as mortals led</l>
+        <l>Ere living was an art. The busy knaves</l>
+        <l>That clatter in yon world, are mad to purchase</l>
+        <l>Honour with danger; wealth with envy; pleasure</l>
+        <l>With manifold infirmity; while we,</l>
+        <l>Poor in possession, in enjoyment rich,</l>
+        <l>Have no more wants than means; our av'rice is not</l>
+        <l>
+         <pb n="26" facs="262"/>
+Wider than are our stomachs; our ambition,</l>
+        <l>Who first shall scale the steepy mountain's cliff,</l>
+        <l>Or strike the destin'd venison; this is life,</l>
+        <l>And health, the life of life.</l>
+       </lg>
+      </sp>
+      <sp who="#cadwal">
+       <speaker>CADWAL.</speaker>
+       <lg>
+        <l>My rev'rend father,</l>
+        <l>Out of your proof you speak—we, poor unfledged,</l>
+        <l>Have never wing'd from view o' th' nest, nor know</l>
+        <l>What air's from home; haply this life is best,</l>
+        <l>If quiet life is best; sweeter to you</l>
+        <l>That have a sharper known.</l>
+       </lg>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>What shall we speak of,</l>
+        <l>When we are old as you? When we shall hear</l>
+        <l>The rain and wind beat dark December, how</l>
+        <l>In this our pinching cave shall we discourse</l>
+        <l>The freezing hours away? We have seen nothing—</l>
+        <l>We're beastly; subtle as the fox for prey;</l>
+        <l>Like valiant as the wolf for what we eat;</l>
+        <l>Our courage is to chace what flies; our cage</l>
+        <l>We make a choir as doth the prison'd bird,</l>
+        <l>And sing our bondage freely.</l>
+       </lg>
+      </sp>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <lg>
+        <l>How you speak?</l>
+        <l>Did you but know the cities' usuries,</l>
+        <l>The art o' th' court, the toil of war that goes</l>
+        <l>In quest of honest fame, yet dies i'th'search,</l>
+        <l>And hath as oft a sland'rous epitaph</l>
+        <l>As record of fair act; did you know this</l>
+        <l>
+         <pb n="27" facs="263"/>
+How would you smile in solitude—Oh! boys,</l>
+        <l>The sharded beetle is in safer hold</l>
+        <l>Than is the full-wing'd eagle—I was once</l>
+        <l>First with the best of note—Cymbeline lov'd me,</l>
+        <l>And when a soldier was the theme, my name</l>
+        <l>Was not far off—Then was I as a tree</l>
+        <l>Whose boughs did bend with fruit; but in one night</l>
+        <l>A storm, or robb'ry, call it what you will,</l>
+        <l>Shook down my mellow hangings, nay my leaves,</l>
+        <l>And left me bare to weather.</l>
+       </lg>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <l>Uncertain favour!</l>
+      </sp>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <lg>
+        <l>My fault was nothing, (as I oft have told you)</l>
+        <l>But that two villains, sland'ring my fair honour,</l>
+        <l>Swore me confed'rate with the Romans: so</l>
+        <l>Follow'd my banishment; and these twenty years—</l>
+        <l>This rock, and these demesnes have been my world;</l>
+        <l>Where I have liv'd at honest freedom; paid</l>
+        <l>More pious debts to heaven than in all</l>
+        <l>The fore-end of my time—but up to the woods—</l>
+        <l>This is not hunter's language—He who brings</l>
+        <l>The largest fardle home is lord o'th'feast.</l>
+       </lg>
+      </sp>
+      <sp who="#cadwal">
+       <speaker>CADWAL.</speaker>
+       <l>Come, Palador— <stage>
+         <hi>[Exeunt</hi> Pal. <hi>and</hi> Cad.</stage>
+       </l>
+      </sp>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <lg>
+        <l>I'll meet you in the valleys.</l>
+        <l>Thou divine nature, how thyself thou blazon'st</l>
+        <l>
+         <pb n="28" facs="264"/>
+In these two princely boys! O Cymbeline!</l>
+        <l>Thy sons, tho' train'd thus meanly up among</l>
+        <l>These desart rocks, have lofty thoughts that hit</l>
+        <l>The roofs of palaces—'tis wonderful</l>
+        <l>That an invisible instinct should frame them</l>
+        <l>To royalty unlearn'd, honour untaught,</l>
+        <l>Civility not seen from others, valour</l>
+        <l>That wildly grows in them, but yields a crop,</l>
+        <l>As if it had been sow'd.—Well—I must after— <stage>[Exit</stage>
+        </l>
+       </lg>
+      </sp>
+     </div>
+     <div type="scene">
+      <head>
+       <hi>SCENE</hi>
+       <stage>Another part of the Forest.</stage>
+      </head>
+      <stage>Enter <hi>PHILARIO,</hi> and <hi>IMOGEN</hi> in boy's clothes.</stage>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <lg>
+        <l>Thou told'st me when we came from home, the place</l>
+        <l>Was near at hand. Ne'er long'd his mother so</l>
+        <l>To see him first, as I do now. Where are we?</l>
+        <l>Here is no path, no proof of habitation;</l>
+        <l>And, but we tread on solid earth, methinks</l>
+        <l>We're out o'th' bounds o'th' world—I pray, Philario,</l>
+        <l>Where dost thou lead me? It will soon be night,</l>
+        <l>For see the lamp of Phoebus is nigh quench'd</l>
+        <l>In Thetis' watry bosom.—</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <l>Madam, here</l>
+       <l>Our journey ends.</l>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <l>Here! where is Leonatus?</l>
+      </sp>
+      <sp who="#philario">
+       <pb n="29" facs="265"/>
+       <speaker>PHILARIO.</speaker>
+       <l>Lady, at Rome—'twere treason to be here.</l>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <lg>
+        <l>Alas! what means this coldness of reply?</l>
+        <l>Hast thou abus'd me with a forged letter?</l>
+        <l>Where is my lord; Philario?—What's the matter?</l>
+        <l>Why offer'st thou that paper to me with</l>
+        <l>A look untender? how! my husband's hand!</l>
+        <l>Quick slay, or cure me outright.</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <l>Please you, read,</l>
+       <l>And you shall find the duty I am bound to.</l>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN</speaker>
+       <stage>reads.</stage>
+       <p>My wife, Philario, hath play'd the strumpet in my bed; the testimonies whereof lie bleeding in me. I speak not out of weak surmises, but from proof, as strong as my grief, and as certain as I expect my revenge. That part, thou, Philario, must act for me; Let thine own hand take away her life; I shall give thee opportunity in the road to Milford: my letter is for that purpose to her: so, if thou fear to strike, and to certify it is done, thou hast broken thy vows, and art a traitor to friendship.</p>
+       <stage>(<hi>Imogen</hi> drops the letter, stands silent, and in the utmost consternation.)</stage>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>Is her amazement innocent or guilty?</l>
+        <l>Tell me some God,—for sure a mortal wit</l>
+        <l>May else misconstrue such perplexity.— <stage>(Aside.)</stage>
+        </l>
+        <l>Madam, what cheer? are you prepar'd to die?</l>
+       </lg>
+      </sp>
+      <sp who="#imogen">
+       <pb n="30" facs="266"/>
+       <speaker>IMOGEN.</speaker>
+       <lg>
+        <l>I false! I false to's bed? have I been chaste</l>
+        <l>As snows that sun-beam never kist, for this?</l>
+        <l>Gods! have I left my father's gilded roof,</l>
+        <l>The rights of birth, the largesses of fortune,</l>
+        <l>The pageants of pre-eminence, and all</l>
+        <l>That womanhood is said to doat on, yea</l>
+        <l>And womanhood itself?—have I left these,</l>
+        <l>No jewel taken with me but my honour,</l>
+        <l>To hear I'm false? oh! oh!</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <l>She heeds me not.—</l>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <lg>
+        <l>False to his bed? what is it to be false?</l>
+        <l>To lie in watch there, and to think on him?</l>
+        <l>To weep 'twixt clock and clock? if sleep charge nature,</l>
+        <l>To break it with a fearful dream of him,</l>
+        <l>And cry myself awake?—that false to's bed!</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>What shall I do? I must be home to th' point.</l>
+        <stage>(Aside.)</stage>
+        <l>Lady, I stand not here to try your cause:</l>
+        <l>I am your executioner:—your judge,</l>
+        <l>My friend, to whom I've sworn all offices,</l>
+        <l>Appoints me to this deed;—if thou art guilty,</l>
+        <l>I hold the sword of justice; if guilt-free,</l>
+        <l>Thy blood must light on Leonatus' head—</l>
+        <l>One pray'r and I dispatch.—</l>
+       </lg>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <lg>
+        <l>That paper, Sir,</l>
+        <l>
+         <pb n="31" facs="267"/>
+Hath done the bus'ness: You may sheath your sword;—</l>
+        <l>I've heard I am a strumpet, and my heart</l>
+        <l>Therein false struck, can take no greater wound,</l>
+        <l>Nor tent to bottom that.</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>O yet bethink you—</l>
+        <l>With what a weight descends the guilty soul,</l>
+        <l>Sunk with a load of unrepented crimes?</l>
+        <l>For such th' infernal ministers prepare</l>
+        <l>The darkest cells of Erebus.</l>
+       </lg>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <lg>
+        <l>Nay, preach not,</l>
+        <l>But do thy work—and when thou seest my lord,</l>
+        <l>A little witness my obedience;—look—</l>
+        <l>Smiling I meet thy angry sword—come, hit</l>
+        <l>Th' innocent mansion of my love, my heart—</l>
+        <l>Prythee, dispatch—Is that the stern Philario,</l>
+        <l>That came on murder's errand?—Strike—for now</l>
+        <l>The lamb intreats the butcher.</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>O that look</l>
+        <l>Would out-face proof. <stage>(Aside.)</stage> Hence thou vile instrument,</l>
+        <l>Thou shalt not damn my hand.—</l>
+        <stage>(Throws down the sword.)</stage>
+        <l>It cannot be</l>
+        <l>But that my friend's abus'd—some crafty villain</l>
+        <l>That's sing'lar in his art, hath done you both</l>
+        <l>This cursed injury.—O thou vip'rous slander,</l>
+        <l>
+         <pb n="32" facs="268"/>
+Thy edge is sharper than the murd'rous sword;</l>
+        <l>Thy tongue out-venoms all the worms of Nile;</l>
+        <l>Thy breath, that rides upon the posting winds,</l>
+        <l>Belies all corners of the world.—I'll speak</l>
+        <l>As from most firm conviction of her virtue,</l>
+        <l>To probe her still more deeply—I have yet</l>
+        <l>More test to put her to. <stage>(Aside.)</stage>
+        </l>
+       </lg>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <lg>
+        <l>Alas! Philario,</l>
+        <l>Some jay of Italy, with painted feathers,</l>
+        <l>Hath robb'd me of his heart; poor I am stale;</l>
+        <l>A cast-off robe; a garment out of fashion;</l>
+        <l>And, for I'm richer than to hang by th' wall,</l>
+        <l>I must be ript—to pieces with me—oh!</l>
+        <l>Men's vows are women's traitors.</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>If it be so,</l>
+        <l>(As I confess it doth provoke belief)</l>
+        <l>The face of virtue shall from hence be thought</l>
+        <l>The mask of villainy; and Leonatus</l>
+        <l>Hath laid the level to all proper men;</l>
+        <l>Goodly and gallant shall be false and perjur'd,</l>
+        <l>From his great fall.</l>
+       </lg>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <lg>
+        <l>Take up thy sword, Philario,</l>
+        <l>Behold my breast obedient as the scabbard.—</l>
+        <l>I liv'd but to one end, to do his pleasure,</l>
+        <l>And to that end would die.—</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>O gracious lady,</l>
+        <l>Since I receiv'd command to do this bus'ness,</l>
+        <l>
+         <pb n="33" facs="269"/>
+I scarce have slept one wink.</l>
+       </lg>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <l>Do't, and to bed then.</l>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>I'll wake mine eye-balls blind first. No, thou sweetest,</l>
+        <l>If he hath stain'd his loyalty, his mind</l>
+        <l>Is now as low to thine, as were his fortunes.—</l>
+        <l>What! shall his vileness batteries erect</l>
+        <l>To shake thy fort of innocence?—Live, lady,</l>
+        <l>To kill him with thine eye—he shall be told</l>
+        <l>That I have done his bidding, and awhile</l>
+        <l>You in some residence obscure shall 'bide,</l>
+        <l>As is thy present habit.—Come, let's hence.</l>
+        <l>Sure this discourse hath much bewilder'd me,</l>
+        <l>Or we have march'd too wide.—Fortune befriend us,</l>
+        <l>Else we have far to supper.—This way, lady.— <stage>[Exeunt.</stage>
+        </l>
+       </lg>
+      </sp>
+     </div>
+     <div type="scene">
+      <head>
+       <hi>SCENE</hi>
+       <stage>the Cave.</stage>
+      </head>
+      <stage>
+       <hi>Enter</hi> BELLARIUS.</stage>
+      <sp>
+       <lg>
+        <l>My meditation hath misguided me,</l>
+        <l>And I have miss'd the boys. They'll not return,</l>
+        <l>Tho' all the elements should be at war,</l>
+        <l>'Till darkness sends 'em home. O Cymbeline,</l>
+        <l>When thou shalt see thy royal progeny,</l>
+        <l>(As I do mean with the first 'vantage to</l>
+        <l>Render thee back these youths) thou shalt confess</l>
+        <l>
+         <pb n="34" facs="270"/>
+Thy loss was gain, and thank calamity.</l>
+        <l>Hah! who are these?</l>
+       </lg>
+       <stage>
+        <hi>Enter</hi> PHILARIO <hi>and</hi> IMOGEN.</stage>
+       <l>What chance cou'd wind their steps</l>
+       <l>Thus far from all society? 'tis strange!</l>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <stage>(seeing him)</stage>
+       <lg>
+        <l>O look, Philario, look—what rev'rend figure</l>
+        <l>Is this approaches? In his visage sits</l>
+        <l>The treasur'd wisdom of an hundred years—</l>
+        <l>The sages of old time are pictur'd thus;</l>
+        <l>Accost him, good Philario; for his presence</l>
+        <l>Awes my unskilful heart.</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>Grave hermit, hail!</l>
+        <l>Pardon, old man, our ignorant intrusion,</l>
+        <l>Upon your venerable solitude.</l>
+        <l>I, and my nephew here, are bound for Milford,</l>
+        <l>And chance wide straying from our way to night,</l>
+        <l>Have light upon your lonely habitation.</l>
+       </lg>
+      </sp>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <lg>
+        <l>Thou hast a gracious favour—for this youngling,</l>
+        <l>The dimpled God that holds the cup to Jove</l>
+        <l>Is second to him.—You are welcome, sirs—</l>
+        <l>If you can shape your fancy to your needs,</l>
+        <l>The wholesome viands of a homely board,</l>
+        <l>That bloated luxury ne'er cater'd to,</l>
+        <l>Shall be most freely yours. Your names, beseech you?</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <pb n="35" facs="271"/>
+       <speaker>PHILARIO.</speaker>
+       <l>Philario, sir—this gentle youths' Fidele.—</l>
+      </sp>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <lg>
+        <l>Why once more welcome—this low roof's your home,</l>
+        <l>While 'tis worth owning.—I've two sons, whose age</l>
+        <l>Will yoke in followship with yours, Fidele—</l>
+        <l>Philario mates with me—tarry awhile,</l>
+        <l>And purge your lungs of the foul air o'th' city,</l>
+        <l>Or of the court, for that is sickly too—</l>
+        <l>O! I have liv'd to make the pop'lous world</l>
+        <l>A stock for laughter.</l>
+       </lg>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <lg>
+        <l>Uncle, we have found</l>
+        <l>Delightful lodging, and a gracious host—</l>
+        <l>This good old father's greeting sooths my spirit,</l>
+        <l>Faint with this long day's march.</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>Look here, Fidele—</l>
+        <l>I have a cordial of especial proof,</l>
+        <l>I pray thee drink it off—it is a drug</l>
+        <l>That three times hath my father's life redeem'd</l>
+        <l>From the arrest of death. It has more virtue</l>
+        <l>Than I shall tell you now. <stage>(Aside.)</stage>
+        </l>
+       </lg>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN</speaker>
+       <stage>drinks.</stage>
+       <l>Uncle, I thank you.</l>
+      </sp>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <lg>
+        <l>Here come my boys.—Sirs, stand aside awhile;</l>
+        <l>How will they take this novelty? they ne'er</l>
+        <l>Saw mortal but their mother, and myself.</l>
+       </lg>
+      </sp>
+      <stage>
+       <pb n="36" facs="272"/>
+       <hi>Enter</hi> PALADOR <hi>and</hi> CADWAL.</stage>
+      <sp>
+       <lg>
+        <l>You, Cadwal, are best woodman, and are nam'd,</l>
+        <l>The master of the feast—hah! what are these?</l>
+        <l>Go not near, Cadwal—they are Gods that come</l>
+        <l>In visitation to our hermitage—</l>
+        <l>The eldest is God Pan; the other seems</l>
+        <l>Like swift-leg'd Mercury, or the God of Love,</l>
+        <l>Drest in his mother's smiles.—Down, Cadwal, down</l>
+        <l>On knees of adoration, and beseech</l>
+        <l>Propitious aspect from their deities—</l>
+        <l>Hear us immortal pow'rs.— <stage>(Kneels.)</stage>
+        </l>
+       </lg>
+      </sp>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <lg>
+        <l>Rise up my boys:</l>
+        <l>These are but mortals like ourselves, made up</l>
+        <l>Of the same stuff as we—when we have supp'd,</l>
+        <l>We will enlarge our conference.</l>
+       </lg>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>Are they men?</l>
+        <l>By the puissant Jove they're noble ones—</l>
+        <l>I long to commune with 'em—for that youth</l>
+        <l>My heart is high in sudden palpitation—</l>
+        <l>Methinks I love him neither more nor less,</l>
+        <l>Cadwal, than I do thee.</l>
+       </lg>
+      </sp>
+      <sp who="#cadwal">
+       <speaker>CADWAL.</speaker>
+       <l>Ev'n so says Cadwal.</l>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <lg>
+        <l>Uncle, I have a tender feeling too,</l>
+        <l>That yearns on these fair strangers—I had once</l>
+        <l>Two brothers, whom the hand of early fate</l>
+        <l>
+         <pb n="37" facs="273"/>
+Snatch'd from the world—If they had liv'd, I think</l>
+        <l>They had been like this gentle pair.—Sweet youths,</l>
+        <l>May I not call you brothers?</l>
+       </lg>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>Ay, most freely.</l>
+        <l>And, sir, if you are uncle to our brother,</l>
+        <l>You stand in kin to us—I pray, good father,</l>
+        <l>Let him be tutor to us: we would learn</l>
+        <l>The mystery of life; the art of war;</l>
+        <l>The policy of kings; the rules of states;</l>
+        <l>Will you instruct us? we are ign'rant yet</l>
+        <l>What drawing breath is good for.</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>These young plants</l>
+        <l>Are of the kindest growth my eyes e're saw—</l>
+        <l>Why, who would dream this barren desart here</l>
+        <l>A nursery of demi-gods?</l>
+       </lg>
+      </sp>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <lg>
+        <l>Enough;</l>
+        <l>Vice is the child of praise; my boys are such</l>
+        <l>As nature made them, and she made 'em not</l>
+        <l>For art to marr; but let us in to supper—</l>
+        <l>Our appetites shall make what's homely, sav'ry:</l>
+        <l>We eat for health, and rise before the sun,</l>
+        <l>Silvers the mountain shrubs.—Come, boys conduct</l>
+        <l>Your new compeer.—Philario, you are mine.—</l>
+       </lg>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <l>The night to th' owl, and morn to th' lark less welcome. <stage>[Exeunt into the cave.</stage>
+       </l>
+      </sp>
+      <trailer>End of the Second <hi>ACT.</hi>
+      </trailer>
+     </div>
+    </div>
+    <div n="3" type="act">
+     <pb n="38" facs="274"/>
+     <head>ACT. III.</head>
+     <div type="scene">
+      <stage>Enter <hi>PHILARIO</hi> from the Cave.</stage>
+      <sp>
+       <lg>
+        <l>
+         <seg rend="decorInit">H</seg>OW restless is this thinking! welcome day!</l>
+        <l>Now I shall sift her thoroughly—for what's past</l>
+        <l>Little hangs on it—were she true and artless,</l>
+        <l>Thus would she'have; if false and artful, thus—</l>
+        <l>She shall be told in words as strong and hateful,</l>
+        <l>As earnestness can make 'em, what she drank</l>
+        <l>Is deadly to all sense, as for a time</l>
+        <l>It is, to full effect.—'Tis a rare drug</l>
+        <l>That locks the spirits up in shew of death,</l>
+        <l>To be more fresh reviving—Dread of death</l>
+        <l>Shall force me out the truth; fraud will be honest</l>
+        <l>Itself thus over-reach'd—but hist, Bellarius.</l>
+       </lg>
+       <stage>
+        <hi>Enter</hi> BELLARIUS.</stage>
+       <lg>
+        <l>Our courtiers say all's savage but at court—</l>
+        <l>How does this hospitable rock, Bellarius,</l>
+        <l>Give 'em the lie?</l>
+       </lg>
+      </sp>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <lg>
+        <l>Our minds must not be measur'd</l>
+        <l>By this rude place we live in—You are rouz'd</l>
+        <l>Before the hunter's hour—Could you not sleep</l>
+        <l>Upon your bed of moss?</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <pb n="39" facs="275"/>
+       <speaker>PHILARIO.</speaker>
+       <l>Ay, sir, as soundly</l>
+       <l>As cradled infancy.</l>
+      </sp>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <lg>
+        <l>Your chamber was</l>
+        <l>The best o'th' house—For us we often make</l>
+        <l>The star-wrought sky our tester—Weariness</l>
+        <l>Can snore upon the flint, when resty sloth</l>
+        <l>Finds the down pillow hard—what think you, sir,</l>
+        <l>Of this our way of life?</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>It is unknown,</l>
+        <l>And therefore envied not—our courtly great ones</l>
+        <l>May blush at their high breeding; here's the place</l>
+        <l>Where virtue teaches school—are your sons up?</l>
+        <l>By Jove multipotent there's not a couple,</l>
+        <l>Whose praise fame trumpets with her loud'st O yes,</l>
+        <l>That can out-peer these twain—they seem as gentle</l>
+        <l>As Zephyrs blowing 'neath the hyacinth,</l>
+        <l>Not wagging his sweet head, and yet as rough</l>
+        <l>(Their sprightly blood by a good tale once warm'd)</l>
+        <l>As the rude wind that by the top doth take</l>
+        <l>The mountain pine, and make him stoop to th' vale.—</l>
+       </lg>
+      </sp>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <l>Why, thou hast mark'd them well—Lo! where they come,</l>
+       <l>And with 'em your Fidele.</l>
+      </sp>
+      <stage>
+       <pb n="40" facs="276"/>
+       <hi>Enter</hi> PALADOR, CADWAL, <hi>and</hi> IMOGEN.</stage>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <lg>
+        <l>So, my boys,</l>
+        <l>Are you devotions to the morning star</l>
+        <l>With solemn homage paid?</l>
+       </lg>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <l>They are, my father.</l>
+      </sp>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <l>What says Fidele? Can he like a court</l>
+       <l>No bigger than this cave?</l>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <lg>
+        <l>Believe me, sir,</l>
+        <l>The partnership of labour here, is richer</l>
+        <l>Than golden honours there.</l>
+       </lg>
+      </sp>
+      <sp who="#cadwal">
+       <speaker>CADWAL.</speaker>
+       <lg>
+        <l>I've said I love thee—</l>
+        <l>I cannot say how much, but sure as much</l>
+        <l>As I do love my father—</l>
+       </lg>
+      </sp>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <l>What? How? How?</l>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>If it be sin to say so, sir, I join me</l>
+        <l>In my good brother's fault—I know not why</l>
+        <l>I love this youth, and I have heard you say</l>
+        <l>Love reasons without reason. Fate at door,</l>
+        <l>And a demand who is't shall die, I'd say</l>
+        <l>My father, not this youth—</l>
+       </lg>
+      </sp>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <lg>
+        <l>'Tis wonderful:</l>
+        <l>Does instinct tell them I am not their father?</l>
+        <stage>(Aside.)</stage>
+        <l>
+         <pb n="41" facs="277"/>
+Well—to the field—tis the fourth hour o'th' morn.</l>
+        <l>Philario, and Fidele will remain</l>
+        <l>Here in the cave—We'll come to you after hunting;</l>
+        <l>Or are you for our sport?</l>
+       </lg>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <lg>
+        <l>I am not well—</l>
+        <l>A sudden laziness creeps o'er my senses,</l>
+        <l>As if fatigue acknowledg'd no repair</l>
+        <l>By this nights' sleep—</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <l>The drug begins to work—</l>
+       <stage>(Aside.)</stage>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <l>Go you to hunting—I'll abide with him.</l>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <lg>
+        <l>No—to your journal course—the breach of custom</l>
+        <l>Is breach of all—My uncle will stay here—</l>
+        <l>Farewel—I wish you sport—I shall be well</l>
+        <l>By your return—</l>
+       </lg>
+      </sp>
+      <sp who="#palador #cadwal #imogen">
+       <speaker>ALL.</speaker>
+       <l>We'll not be long away.—</l>
+      </sp>
+      <stage>
+       <hi>[Exeunt</hi> Bellarius, Palador, <hi>and</hi> Cadwal.</stage>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <l>These are kind creatures, lady.</l>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <lg>
+        <l>On my life</l>
+        <l>I'd change my sex to be companion with 'em,</l>
+        <l>Since my dear lord is false.</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <l>I would confer</l>
+       <l>Once more upon that theme.</l>
+      </sp>
+      <sp who="#imogen">
+       <pb n="42" facs="278"/>
+       <speaker>IMOGEN.</speaker>
+       <l>I'm sick already;</l>
+       <l>And would you minister fresh pain, Philario?</l>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <l>Come—I'll no more dissemble—you are known</l>
+       <l>False to your banish'd lord.</l>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <l>What hear I, Gods!</l>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>The truth, the killing truth—art not asham'd?</l>
+        <l>—But shame is masculine—Could I find out</l>
+        <l>The woman's part in me—for there's no motion</l>
+        <l>That tends to vice in man, but I affirm</l>
+        <l>It is the woman's part; be't lying, note it,</l>
+        <l>The woman's flatt'ring, yours; deceiving, yours;</l>
+        <l>Lust and rank thoughts, yours, yours; revenges, yours;</l>
+        <l>Ambition; covetings; change of prides; disdain;</l>
+        <l>Nice longings; slanders; mutability;</l>
+        <l>All faults that may be nam'd, nay, that hell knows,</l>
+        <l>Why yours in part, or all; but rather all—</l>
+        <l>For ev'n to vice</l>
+        <l>You are not constant, but are changing still</l>
+        <l>One vice but of a minute old, for one</l>
+        <l>Not half so old as that.</l>
+       </lg>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <l>Am I awake?</l>
+       <l>Or have you senses perfect?</l>
+      </sp>
+      <sp who="#philario">
+       <pb n="43" facs="279"/>
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>'Tis enough—</l>
+        <l>I have atchieved more than er'e did Julius,</l>
+        <l>And will be chronicled 'mongst those wise few</l>
+        <l>That have out-craftied woman.</l>
+       </lg>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <l>You amaze me.</l>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>Oh! no more fooling—I have proof that tells</l>
+        <l>The time, the place, the—fie upon it, lady,</l>
+        <l>It wounds my modesty to quote the deeds</l>
+        <l>That cost thee not a blush.</l>
+       </lg>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <lg>
+        <l>Blasphemer, hold!</l>
+        <l>Thou art in league with perjur'd Leonatus,</l>
+        <l>And dost traduce a lady that despises</l>
+        <l>Malice and thee like.</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <l>Go to—you're naught—</l>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <lg>
+        <l>Villain, your proof? Why stand you idle thus?</l>
+        <l>If thou do'st see a speck upon my honour,</l>
+        <l>Prick at it with the sword, your just remorse</l>
+        <l>E'en now let drop.</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>Mistake not, lady mine,</l>
+        <l>Remorse was counterfeit, my purpose real;</l>
+        <l>I found you past all grace, and did commence</l>
+        <l>Cunning in my revenge; your punishment</l>
+        <l>
+         <pb n="44" facs="280"/>
+Were nothing if not such; you have your death,</l>
+        <l>Yet never felt his sting.</l>
+       </lg>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <l>What says Philario!</l>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>O now you tremble like a guilty soul</l>
+        <l>Beneath the furies lash—now you would pour</l>
+        <l>A deluge of salt grief to wash your crimes—</l>
+        <l>It is too late, thou hast out-liv'd repentance—</l>
+        <l>That draught was tinctured with a mortal juice,</l>
+        <l>And he that drinks an acron on't, is serv'd,</l>
+        <l>As I would serve a dog.</l>
+       </lg>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <lg>
+        <l>Sir, my surprize</l>
+        <l>Relishes not of fear.—This is a cure</l>
+        <l>Which you do call a chastisement—I feel</l>
+        <l>The death thou speak'st of curdling in my veins.—</l>
+        <l>How sweetly do they sleep whom sorrow wakes not!</l>
+        <l>Farewel—my innocence is sacrifice,</l>
+        <l>Or to the blindfold rage of jealousy,</l>
+        <l>Or to estranged love—O Leonatus,</l>
+        <l>The Gods have pity on thee.</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>Do I speak?</l>
+        <l>Is this my hand? are these my eyes?—All this</l>
+        <l>I will to question put, if thou art true—</l>
+        <l>O Imogen, but that I thought thee foul,</l>
+        <l>And thy confession a superfluous warrant,</l>
+        <l>I would have ta'en my sucking infant's throat,</l>
+        <l>
+         <pb n="45" facs="281"/>
+And broach'd it with my martial scymeter,</l>
+        <l>E're touch'd thy precious life.</l>
+       </lg>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <lg>
+        <l>I do forgive thee—</l>
+        <l>Thy judgment (which how warp'd it matters not)</l>
+        <l>Condemn'd me to this death—Nay, weep not, sir,</l>
+        <l>Commend me to my lord—alas! Philario,</l>
+        <l>I grieve myself to think how much hereafter,</l>
+        <l>When the belief, or false affection, which</l>
+        <l>Holds pris'ner now his mind, shall leave him free,</l>
+        <l>His mem'ry will be pang'd by looking back</l>
+        <l>On my hard case of woe—my brain is heavy—</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>The mighty Gods throw stones of sulphur on</l>
+        <l>All jealous, head-sick fools—He saw it not—</l>
+        <l>And ev'ry day's experience doth disprove</l>
+        <l>The strong'st report—O the accursed fate</l>
+        <l>That damn'd me to this office—</l>
+       </lg>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <lg>
+        <l>Curb thy rage</l>
+        <l>Unprofitably loos'd—I'll in, and die—</l>
+        <l>Follow me not—my soul has that to do</l>
+        <l>Which is best done in secret—fare thee well—</l>
+        <l>Present to our good host, and my sweet brothers,</l>
+        <l>My thanks and choicest blessings.</l>
+        <stage>[Exit. <hi>Imogen</hi> into the Cave.</stage>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>It goes well,</l>
+        <l>Her honour I have fann'd, and found it chaffless—</l>
+        <l>Friend, thou art fool, or villain—If I prove</l>
+        <l>Thou would'st betray my love to purposes</l>
+        <l>
+         <pb n="46" facs="282"/>
+Of hell-black colour, tho' our friendship stood</l>
+        <l>Upon a brazen base, it should dissolve,</l>
+        <l>And, like the film that dews the morning flower,</l>
+        <l>Break into unseen air. Hah Palador!—</l>
+       </lg>
+      </sp>
+      <stage>Enter <hi>PALADOR</hi> hastily</stage>
+      <sp>
+       <lg>
+        <l>Lend me thy sword, good Uncle—as I crost</l>
+        <l>The mountain's ridge, a fellow at a distance▪</l>
+        <l>(Whose drapery by far out-glistens thine)</l>
+        <l>Bad me with accents stern and masterly</l>
+        <l>Stop and attend his speech—I hied me hither,</l>
+        <l>And, if he follow, will responses make</l>
+        <l>By word, or blow, an he dare question me—</l>
+        <l>Belike 'tis talk'd at court that such as we</l>
+        <l>Cave here; haunt here; are outlaws; and in time</l>
+        <l>May make some stronger head; the which he hearing</l>
+        <l>Is sworn with choice attendants in his train</l>
+        <l>To fetch us in—It is a crisis that</l>
+        <l>My father sometimes drops discourses of.—</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <l>Say'st so? I will go climb the rock, and spie</l>
+       <l>What companies are near. <stage>
+         <hi>[Exit.</hi> Philario.</stage>
+       </l>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>Do—for this bravo,</l>
+        <l>Let me alone with him—this instrument</l>
+        <l>Fits my hand well—I grasp it fast as tho'</l>
+        <l>'Twere part of me, and grew unto my arm—</l>
+        <l>I feel I can do any thing but fear—</l>
+        <l>I will look out.—By the broad shield of Mars</l>
+        <l>
+         <pb n="47" facs="283"/>
+He comes unto my wish—up sword, and sleep</l>
+        <l>Till I awake thee, hap'ly soon—</l>
+       </lg>
+      </sp>
+      <stage>
+       <hi>Enter</hi> CLOTEN.</stage>
+      <sp who="#cloten">
+       <speaker>CLOTEN.</speaker>
+       <lg>
+        <l>My zeal</l>
+        <l>Hath far out-gone my train—hark thee—thou fellow,</l>
+        <l>Why didst thou fly me? didst not hear me call?</l>
+       </lg>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <l>I did, and therefore came not.</l>
+      </sp>
+      <sp who="#cloten">
+       <speaker>CLOTEN.</speaker>
+       <l>Saucy hind—</l>
+       <l>Thou art some villain mountaineer—What art thou?</l>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <l>A man—thou look'st as if thou cam'st from court,</l>
+       <l>And yet thou art no more.</l>
+      </sp>
+      <sp who="#cloten">
+       <speaker>CLOTEN.</speaker>
+       <lg>
+        <l>Thou know'st me not—</l>
+        <l>Answer me, wretch, on peril of thy life—</l>
+        <l>Saw'st thou two trav'lers speeding thro' theforest—</l>
+        <l>The elder somewhat 'bove my age, the younger</l>
+        <l>Few years below your own?</l>
+       </lg>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <l>Such if I saw,</l>
+       <l>I saw 'em not for thee—</l>
+      </sp>
+      <sp who="#cloten">
+       <speaker>CLOTEN.</speaker>
+       <l>Ha! dost thou mock me?</l>
+       <l>Where are the traitors, slave? quick, or—</l>
+      </sp>
+      <sp who="#palador">
+       <pb n="48" facs="284"/>
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>A thing</l>
+        <l>More slavish did I ne'er, than answering</l>
+        <l>A slave, without a blow.</l>
+       </lg>
+      </sp>
+      <sp who="#cloten">
+       <speaker>CLOTEN.</speaker>
+       <l>Thou art a robber;</l>
+       <l>A law-breaker; a villain; yield thee, thief—</l>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>To whom? to thee? what art thou? Have not I</l>
+        <l>An arm as big as thine? a heart as big?</l>
+        <l>Thy words I grant are bigger—for I wear not</l>
+        <l>My dagger in my mouth—say what thou art,</l>
+        <l>Why I should yield to thee?</l>
+       </lg>
+      </sp>
+      <sp who="#cloten">
+       <speaker>CLOTEN.</speaker>
+       <l>Thou villian base!</l>
+       <l>Know'st me not by my garb?</l>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>No, nor thy tailor—</l>
+        <l>Who is thy grandfather?—he made that garb,</l>
+        <l>Which, as it seems, makes thee—</l>
+       </lg>
+      </sp>
+      <sp who="#cloten">
+       <speaker>CLOTEN.</speaker>
+       <l>Injurious thief!</l>
+       <l>Hear but my name, and tremble—</l>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <l>What's thy name?</l>
+      </sp>
+      <sp who="#cloten">
+       <speaker>CLOTEN.</speaker>
+       <l>Cloten, thou villain!</l>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>Cloten? then double villain be thy name;</l>
+        <l>I cannot tremble at it; were it Toad,</l>
+        <l>Adder, or Spider, it would move me sooner—</l>
+       </lg>
+      </sp>
+      <sp who="#cloten">
+       <pb n="49" facs="285"/>
+       <speaker>CLOTEN.</speaker>
+       <l>Then to thy fear, and mere confusion, know</l>
+       <l>I'm son to the late queen, and heir to th' crown.</l>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>In troth I'm sorry for't; thyself not seeming</l>
+        <l>So worthy as thy birth.—Me thou hast wrong'd,</l>
+        <l>Tho' thou wert son of Juno.</l>
+       </lg>
+      </sp>
+      <sp who="#cloten">
+       <speaker>CLOTEN.</speaker>
+       <lg>
+        <l>Thou vile thing!</l>
+        <l>Wrong thee!—But die the death—thou wilt be honour'd</l>
+        <l>To perish by this hand—when I have slain thee,</l>
+        <l>I'll on the gate of Lud's Town set thy head</l>
+        <l>To roast i'th' sun. <stage>(Drawing.)</stage>
+        </l>
+       </lg>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>Are you for scratching? Come—</l>
+        <l>To-day I'll lose a soldier's maidenhead—</l>
+        <l>Hah! are you down? I see a prince is made <stage>(fight)</stage>
+        </l>
+        <l>Of penetrable stuff— <stage>(Cloten <hi>falls.)</hi>
+         </stage>
+        </l>
+       </lg>
+      </sp>
+      <sp who="#cloten">
+       <speaker>CLOTEN.</speaker>
+       <l>Dog! thou hast slain me. <stage>(dies.)</stage>
+       </l>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>Ay, and the world no loser—This is sport</l>
+        <l>Hotter than hunting—I will kill no more</l>
+        <l>The tim'rous deer—such killing's cowardice—</l>
+        <l>My reeking sword sweats honourably now—</l>
+        <l>Thou poor loud-boasting fool! Hah! how I stalk</l>
+        <l>In triumph round thee! like the victor lion</l>
+        <l>Slow pacing 'bout the mangled tyger's corse,</l>
+        <l>And grimly taking solace in his slaughter—</l>
+       </lg>
+      </sp>
+      <stage>
+       <pb n="50" facs="286"/>
+       <hi>Enter</hi> BELLARIUS, CADWAL, <hi>and</hi> PHILARIO.</stage>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <l>I heard the clash of swords—O Palador!</l>
+       <l>What hast thou done?</l>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>I'm perfect what—cut thro' one Cloten's heart,</l>
+        <l>Son to the queen, after his own report—</l>
+        <l>He came in search of thee and fair Fidele,</l>
+        <l>Or I did much misconstrue his demand—</l>
+        <stage>
+         <hi>(To</hi> Philario.</stage>
+        <l>He call'd me villain, mountaneer, and swore</l>
+        <l>He would displace my head, where now it grows,</l>
+        <l>And set it on Lud's Town.</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <l>'Tis very Cloten,</l>
+       <l>The king's adopted son.</l>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>Why had the king</l>
+        <l>Misus'd bold Palador, his royalty</l>
+        <l>Had lain so weltring there—What company</l>
+        <l>Discover you abroad?</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>No single soul</l>
+        <l>Can I set eye on—yet 'tis strange his anger</l>
+        <l>Should bring him here alone.</l>
+       </lg>
+      </sp>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <l>I'll not believe</l>
+       <l>But quick revenge pursues us!</l>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>Let it come;</l>
+        <l>Let it be such as possible strength may meet,</l>
+        <l>It shall be welcome.</l>
+       </lg>
+      </sp>
+      <sp who="#cadwal">
+       <pb n="51" facs="287"/>
+       <speaker>CADWAL.</speaker>
+       <lg>
+        <l>That's my valiant brother—</l>
+        <l>Thou hast said well, done well; O Palador!</l>
+        <l>I love thee brotherly, but envy much</l>
+        <l>Thou'st rob'd me of this deed. Where's sweet Fidele?</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>Asleep within the cave.—Hear me, good sirs—</l>
+        <l>This act, I trust, is dangerless, except</l>
+        <l>We're traitors to ourselves.—Boys, take the body,</l>
+        <l>And let it down the creek behind the rock</l>
+        <l>Into the sea <stage>(Exeunt <hi>Pal.</hi> and <hi>Cad.</hi> with the body.)</stage>
+        </l>
+        <l>Bellarius, hark a word—</l>
+        <l>Thy sons are noble ones, and pity 'tis</l>
+        <l>Their worth should waste in dull obscurity.</l>
+        <l>To day fell war unfurls his bloody flag</l>
+        <l>Between the Roman and the British host,</l>
+        <l>And confidence is goad to either side.</l>
+        <l>Upon the border of the forest here,</l>
+        <l>The Roman lies encamp'd—and two hours march</l>
+        <l>Will join our countrymen—your valiant boys</l>
+        <l>May, in such fight as this is like to prove,</l>
+        <l>Begin and end a fame.</l>
+       </lg>
+      </sp>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <lg>
+        <l>Why now or never</l>
+        <l>'Tis fit they launch into the world, Philario,</l>
+        <l>But fitter never.</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <l>Do not say so, sir;</l>
+       <l>Britain doth lack such hearts.</l>
+      </sp>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <lg>
+        <l>Well, you shall rule me—</l>
+        <l>
+         <pb n="52" facs="288"/>
+Indeed I wish'd for such a day as this,</l>
+        <l>To make them known to Cymbeline. <stage>(aside.)</stage>
+        </l>
+        <l>They're here.</l>
+       </lg>
+      </sp>
+      <stage>
+       <hi>Enter</hi> PALADOR <hi>and</hi> CADWAL.</stage>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <l>We've sent him down the stream, and so to sea,</l>
+       <l>To tell the fishes he's the queen's son Cloten.—</l>
+      </sp>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <l>My boys, your uncle here would steal you from me,</l>
+       <l>To your bruis'd country's wars.</l>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>Oh! let us go;</l>
+        <l>For this hath been our daily fervent prayer—</l>
+        <l>Uncle, intreat again—why I can fight—</l>
+        <l>You have to-day a sample—so can Cadwal—</l>
+        <l>Our opposition we will stake 'gainst two,</l>
+        <l>The stoutest of old Rome—ay, against odds,</l>
+        <l>If valour's scarce in Britain.</l>
+       </lg>
+      </sp>
+      <sp who="#cadwal">
+       <speaker>CADWAL.</speaker>
+       <l>Odds to chuse.</l>
+      </sp>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <l>The king hath wrong'd me—he deserveth not</l>
+       <l>Your service, and my love.</l>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>The king's deservings</l>
+        <l>I weigh not now—this is a public cause.</l>
+        <l>I do not know my countrymen, but know</l>
+        <l>They were not born to be the slaves of Rome,</l>
+        <l>To wear the badge of foreign tyranny,</l>
+        <l>And crouch to aliens that dominion hold</l>
+        <l>By rape, not right—</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <pb n="53" facs="289"/>
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>O! such a spirit as this</l>
+        <l>Will drive the pestilent invasion hence,</l>
+        <l>And post it short-breath'd home.</l>
+       </lg>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>Why, my good uncle,</l>
+        <l>Why not pursue it at the heels, and pay</l>
+        <l>The foe in kind—Let the hot war return</l>
+        <l>Upon our enemies heads.—O! for the time,</l>
+        <l>When Britons bold shall throng the streets of Rome,</l>
+        <l>And breathe strange climes, that conquest makes our own.</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <l>Most like a Briton said.—To-day shall put</l>
+       <l>This courage to more proof.</l>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>Sir, I will fight</l>
+        <l>For liberty, and Britain, till the blood</l>
+        <l>Be drain'd thro' all my veins; and when my arm</l>
+        <l>Has lost his office, I will to the last</l>
+        <l>Give token of resistance.</l>
+       </lg>
+      </sp>
+      <sp who="#cadwal">
+       <speaker>CADWAL.</speaker>
+       <lg>
+        <l>So will I;</l>
+        <l>I am asham'd to look upon the sun,</l>
+        <l>To have the benefit of his blest beams</l>
+        <l>So long a poor unknown: Sure than be so</l>
+        <l>Better to cease to be.</l>
+       </lg>
+      </sp>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <lg>
+        <l>Have with you boys▪</l>
+        <l>No reason I, since of your lives you set</l>
+        <l>
+         <pb n="54" facs="290"/>
+So slight a valuation, shou'd reserve</l>
+        <l>My crack'd one to more care.—We'll all to the army.</l>
+        <l>Philario and Fidele shall keep house,</l>
+        <l>Till our return.</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>Not so Bellarius; we</l>
+        <l>Habited like yourself, to 'scape the eye</l>
+        <l>Of knowledge, will attest to day the feats</l>
+        <l>Of these brave lads.</l>
+       </lg>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>Why, let the Gods be witness,</l>
+        <l>And celebrate this birth-day of our glory—</l>
+        <l>Liberty!</l>
+       </lg>
+      </sp>
+      <sp who="#cadwal">
+       <speaker>CADWAL.</speaker>
+       <l>Britain!</l>
+      </sp>
+      <sp who="#palador #cadwal">
+       <speaker>BOTH.</speaker>
+       <l>Liberty and Britain!</l>
+      </sp>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <lg>
+        <l>Go, see if young Fidele be awake.</l>
+        <stage>
+         <hi>[Exeunt</hi> Palador <hi>and</hi> Cadwal.</stage>
+        <l>Doth not this mettle promise well, Philario?</l>
+        <l>I scarce wou'd change a son with Jupiter!</l>
+        <l>The service of these lusty boys shall do</l>
+        <l>The king more good, than this same Cloten's death</l>
+        <l>Hath done him harm▪— <stage>(Solemn music within.)</stage>
+        </l>
+        <l>Hah! wherefore sounds within</l>
+        <l>My most ingenious instrument? What cause</l>
+        <l>Should give it motion now?</l>
+       </lg>
+      </sp>
+      <stage>
+       <pb n="55" facs="291"/>
+       <hi>Enter</hi> PALADOR.</stage>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>The bird is dead</l>
+        <l>That we have made so much on. O come in</l>
+        <l>And see what violent hands stern death has laid</l>
+        <l>Upon the sweetest lily of the land.—</l>
+       </lg>
+       <stage>(They go into the Cave.)</stage>
+      </sp>
+     </div>
+     <div type="scene">
+      <head>
+       <stage>
+        <hi>SCENE</hi> opens and discovers the inside of the Cave, with <hi>Bellarius, Philario, Palador,</hi> and <hi>Cadwal,</hi> round the Body of <hi>Imogen,</hi> lying upon a Couch of Moss.</stage>
+      </head>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <l>Alas! my dearest nephew!</l>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>I had rather</l>
+        <l>Have leap'd from twenty years of age to eighty,</l>
+        <l>And turn'd my warlike spear into a crutch,</l>
+        <l>Than have seen this.</l>
+       </lg>
+      </sp>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <lg>
+        <l>O poor Fidele! Jove doth know what man</l>
+        <l>Thou might'st have made—thou died'st a most rare boy.</l>
+        <l>Tell us how found you him?</l>
+       </lg>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>Stark as you see;</l>
+        <l>And smiling thus, as if the dart of death</l>
+        <l>Had gently tickl'd slumber;</l>
+       </lg>
+      </sp>
+      <sp who="#cadwal">
+       <speaker>CADWAL.</speaker>
+       <lg>
+        <l>O sweet brother,</l>
+        <l>With female fairies will thy tomb be haunted,</l>
+        <l>And worms shall not come near thee.—</l>
+       </lg>
+      </sp>
+      <sp who="#palador">
+       <pb n="56" facs="292"/>
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>With fair flow'rs</l>
+        <l>(While summer lasts, and I live here, Fidele)</l>
+        <l>I will adorn thy grave—Thou shalt not lack</l>
+        <l>The flow'r that's like thy face, pale primrose; nor</l>
+        <l>The azur'd harebell like thy veins; no nor</l>
+        <l>The leaf of eglantine, which, not to slander't,</l>
+        <l>Out-sweeten'd not thy breath—The ruddock would</l>
+        <l>With charitable bill bring thee all this,</l>
+        <l>Yea and furr'd moss besides, when flow'rs were none,</l>
+        <l>To winter-gown thy corse.—</l>
+       </lg>
+      </sp>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <lg>
+        <l>Come, boys, have done,</l>
+        <l>And play no more in wench-like words with that</l>
+        <l>Which is so serious—Hence, and lay his corps</l>
+        <l>Near good Euriphile's, your worthy mother's—</l>
+       </lg>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>Be't so—but, Cadwal, first, albeit thy voice</l>
+        <l>Has now the mannish crack, sing o'er his body</l>
+        <l>In note and words like those which thou didst chaunt</l>
+        <l>O'er good Euriphile—e'er she was lodg'd</l>
+        <l>Within her leafy grave—Come on—begin—</l>
+       </lg>
+      </sp>
+      <sp>
+       <lg type="dirge">
+        <head>The DIRGE.</head>
+        <head>Set by Mr. <hi>ARNE,</hi> sung by Mr. <hi>LOWE.</hi>
+        </head>
+        <lg>
+         <l>Fear no more the heat o'th' sun,</l>
+         <l>Nor the furious winter's blast;</l>
+         <l>Thou thy worldly task hast done,</l>
+         <l>And the dream of life is past.</l>
+         <l>
+          <pb n="57" facs="293"/>
+Golden lads and girls all must</l>
+         <l>Follow thee, and come to dust.</l>
+        </lg>
+        <lg>
+         <l>Fear no more-the frown o' th' great,</l>
+         <l>Death doth mock the tyrant foe;</l>
+         <l>Happiest is the early fate,</l>
+         <l>Misery with time doth grow.</l>
+         <l>Monarchs, sages, peasants must</l>
+         <l>Follow thee, and come to dust.</l>
+        </lg>
+        <lg>
+         <l>No exorciser harm thee!</l>
+         <l>No spell of witchcraft charm thee!</l>
+         <l>Grim ghost unlaid forbear thee!</l>
+         <l>The fairy elves be near thee!</l>
+         <l>Quiet consummation have,</l>
+         <l>Unremoved be thy grave.</l>
+        </lg>
+       </lg>
+      </sp>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <l>These are our rural obsequies, Philario—</l>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <l>Most sweet and solemn, sir.</l>
+      </sp>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <lg>
+        <l>When you've remov'd the body, back repair</l>
+        <l>Here to the cave, and fit you for the field.</l>
+        <l>—We'll share our little armory among us—</l>
+        <l>And, sons, e'er ev'ning we'll forget this grief,</l>
+        <l>And wipe our tear-stain'd cheeks with bloody hands.</l>
+        <l>—Come, good Philario—</l>
+        <stage>[Exeunt severally.</stage>
+       </lg>
+      </sp>
+      <trailer>End of the Third <hi>ACT.</hi>
+      </trailer>
+     </div>
+    </div>
+    <div n="4" type="act">
+     <pb n="58" facs="294"/>
+     <head>ACT IV.</head>
+     <div type="scene">
+      <head>
+       <hi>SCENE</hi>
+       <stage>A Field of Battle.</stage>
+      </head>
+      <stage>
+       <hi>Enter</hi> CYMBELINE, LORDS, &amp;c.</stage>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <lg>
+        <l>
+         <seg rend="decorInit">T</seg>HINK you the Roman will not quit his ground,</l>
+        <l>And meet our battle in the open plain?</l>
+       </lg>
+      </sp>
+      <sp who="#1st_lord">
+       <speaker>1st LORD.</speaker>
+       <lg>
+        <l>So please your grace, it is my faith he will;</l>
+        <l>We are already beaten in conceit,</l>
+        <l>And pride does still forego his 'vantages.</l>
+        <l>Best then halt here, my liege.</l>
+       </lg>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <lg>
+        <l>Halt! give the word.</l>
+        <l>
+         <stage>(Within)</stage> Halt! halt! halt! halt!</l>
+       </lg>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <l>Our son not yet return'd! Oh! here comes one</l>
+       <l>That was a limb o'th'party. What now, captain?</l>
+      </sp>
+      <stage>Enter an <hi>Officer.</hi>
+      </stage>
+      <sp who="#officer">
+       <speaker>OFFICER.</speaker>
+       <lg>
+        <l>My liege, prince Cloten far outstripp'd his train,</l>
+        <l>And we're to seek the seeker—His spurr'd horse</l>
+        <l>We found upon the verge of yonder forest,</l>
+        <l>But him no tidings speak of.</l>
+       </lg>
+      </sp>
+      <sp who="#cymbeline">
+       <pb n="59" facs="295"/>
+       <speaker>CYMBELINE.</speaker>
+       <lg>
+        <l>Take thou his charge,</l>
+        <l>And so bestir thee in the field, that none</l>
+        <l>May think his valour missing. Well—how now?</l>
+       </lg>
+      </sp>
+      <stage>Enter another <hi>Officer.</hi>
+      </stage>
+      <sp who="#officer">
+       <speaker>OFFICER.</speaker>
+       <lg>
+        <l>My liege, here are without four volunteers</l>
+        <l>That seem to promise marvels, tho' their looks</l>
+        <l>And garb be such as hermits wont to wear</l>
+        <l>In most retired sequestration;</l>
+        <l>They have bewitch'd the soldier's hearts, and crave</l>
+        <l>Instant admittance to your Majesty.</l>
+       </lg>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <lg>
+        <l>It doth amaze us—let 'em come before us—</l>
+        <stage>
+         <hi>[Exit</hi> Lord, <hi>and returns with</hi> Bellarius, Palador, Cadwal, <hi>and</hi> Philario.</stage>
+        <l>Now by the arm of Jove a comely sight,</l>
+        <l>Those silver locks are taxers of respect</l>
+        <l>Tho' kings be lookers on—All welcome, strangers—</l>
+        <l>Whence and what are you?</l>
+       </lg>
+      </sp>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <lg>
+        <l>Mighty Cymbeline,</l>
+        <l>Hermits we are, that have a homely dwelling</l>
+        <l>Where want keeps house—yet are we bold to boast</l>
+        <l>Our hands and hearts as good as any he's,</l>
+        <l>That dares look Roman in the face.</l>
+       </lg>
+      </sp>
+      <sp who="#cymbeline">
+       <pb n="60" facs="296"/>
+       <speaker>CYMBELINE.</speaker>
+       <lg>
+        <l>Thy speech</l>
+        <l>Gives earnest of much worth—Say, who are these</l>
+        <l>The colleagues of your enterprize?</l>
+       </lg>
+      </sp>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <lg>
+        <l>Dread sir,</l>
+        <l>These striplings are my sons; this worthy fellow</l>
+        <l>Is kinsman of my wife's—</l>
+       </lg>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>First, let's go fight,</l>
+        <l>And then to telling tales.</l>
+       </lg>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <lg>
+        <l>So prompt, so young!</l>
+        <l>Wast thou a soldier born? Is warlike science</l>
+        <l>By inspiration caught, which still we judg'd</l>
+        <l>By long experience learn'd?</l>
+       </lg>
+      </sp>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <lg>
+        <l>O royal sir,</l>
+        <l>My boys are of a gen'rous breed—Great Gods,</l>
+        <l>When on my three-foot stool I sit, and tell</l>
+        <l>The val'rous feats I've done, (for I am free</l>
+        <l>Of this same trade of war) how will this youth,</l>
+        <l>My first-born Palador, let his spirits fly</l>
+        <l>Out at my story? "Thus mine enemy fell,</l>
+        <l>"And thus (say I) I set my foot on's neck—"</l>
+        <l>Ev'n then the blood flows in his cheeks, he sweats,</l>
+        <l>Strains his young nerves, and puts himself in posture</l>
+        <l>That acts my words—His younger brother Cadwal</l>
+        <l>
+         <pb n="61" facs="297"/>
+With ardour emulous, and as like a figure,</l>
+        <l>Strikes life into my speech; and richly shews</l>
+        <l>His great conceiving.</l>
+       </lg>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <lg>
+        <l>In a time that look'd</l>
+        <l>More perilous than this, such early virtue</l>
+        <l>Would bode us issue fortunate to Britain—</l>
+       </lg>
+       <stage>Enter another <hi>Officer</hi> in haste.</stage>
+       <l>Soldier thy speed is big with consequence—</l>
+       <l>Proclaim it with thy tongue—</l>
+      </sp>
+      <sp who="#officer">
+       <speaker>OFFICER.</speaker>
+       <lg>
+        <l>To arms, my liege,</l>
+        <l>The Roman legions are come down the hill,</l>
+        <l>And their loud clarions sound to present battle.</l>
+       </lg>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <lg>
+        <l>Thanks for thy news—Return the slaves defiance; <stage>(sound within.)</stage>
+        </l>
+        <l>Stretch your big hearts, my countrymen, and shout</l>
+        <l>From the strong lungs of liberty, till air</l>
+        <l>Waft your incessant clamours to the thrones</l>
+        <l>Of the admiring Gods. <stage>(a great shout.)</stage> Remember, sirs,</l>
+        <l>We go to fight for death, or victory.—</l>
+        <l>O let us only live on terms of conquest!</l>
+        <l>Who dies, at least dies free-man, blessed dies</l>
+        <l>To live immortal in his country's songs—</l>
+        <l>If there's a coward here, let him post back</l>
+        <l>To his soft bed and caudle—I should weep</l>
+        <l>Worse than a love-sick girl to find to-day</l>
+        <l>
+         <pb n="62" facs="298"/>
+Our hearts not of a piece—Come on, brave fellows,</l>
+        <l>For soldiers all are fellows—We'll yet live</l>
+        <l>(Unless my sins abuse my divination)</l>
+        <l>To see old Lud's Town bright with joyful fires,</l>
+        <l>And Britons strut in triumph—Set we on—</l>
+        <stage>[Exeunt.</stage>
+       </lg>
+      </sp>
+      <stage>Alarum. Enter <hi>LEONATUS</hi> in disguise.</stage>
+      <sp>
+       <lg>
+        <l>They go to battle with a jocund spirit—</l>
+        <l>But ah! how heavy is his heart, who bears</l>
+        <l>A bosom-war within him? O Philario,</l>
+        <l>(For I well know thy friendship such, thou'st done</l>
+        <l>The letter of my will) thou should'st have paus'd—</l>
+        <l>Anger is indiscreet in his commands—</l>
+        <l>Too true, the noble Imogen did wrong me;</l>
+        <l>(And so, I doubt not, did my mother him</l>
+        <l>I call'd my father, tho' she still was held</l>
+        <l>The non-pareil of virtue) yet her fault,</l>
+        <l>The nat'ral failing of her sex, not hers,</l>
+        <l>Was ill pusu'd with vengeance capital</l>
+        <l>By me—O Britain, I have kill'd my wife,</l>
+        <l>Who was thy mistress—therefore thus array'd</l>
+        <l>Like a poor soldier, neither known, nor guess'd at,</l>
+        <l>Pitied or hated, to the face of peril</l>
+        <l>Myself I'll dedicate—Heav'n knows my life</l>
+        <l>Is ev'ry breath a death.</l>
+       </lg>
+      </sp>
+      <stage>Alarum. Fight. Enter <hi>CYMBELINE</hi> and <hi>Romans. CYMBELINE</hi> is in danger of being slain, or taken. Then enter <hi>LEONATUS</hi> and rescues him.</stage>
+      <sp who="#leonatus">
+       <pb n="63" facs="299"/>
+       <speaker>LEONATUS.</speaker>
+       <lg>
+        <l>What have we here? The majesty of Britain</l>
+        <l>O'erpower'd by odds—Room for an honest sword</l>
+        <l>That loyalty gives edge to—how they fly</l>
+        <l>When resolution drives 'em.— <stage>(the <hi>Romans</hi> fly.)</stage>
+        </l>
+       </lg>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <l>Great, tho' mean—</l>
+       <l>Noble obscure, we thank thee—what's thy name?</l>
+      </sp>
+      <sp who="#leonatus">
+       <speaker>LEONATUS.</speaker>
+       <lg>
+        <l>I cannot stay to tell thee—hear'st thou not</l>
+        <l>How loud Mars bellows yonder?—only this—</l>
+        <l>The king has friends he knows not—fare you well,</l>
+        <l>My sword will cool else.— <stage>
+          <hi>[Exit</hi> Leonatus.</stage>
+        </l>
+       </lg>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <l>What blunt fellow's this?</l>
+       <l>We have no time to wonder—How now, captain?</l>
+      </sp>
+      <stage>Enter an <hi>Officer.</hi>
+      </stage>
+      <sp who="#officer">
+       <speaker>OFFICER.</speaker>
+       <lg>
+        <l>Advance, my liege—Our battle galls 'em sorely—</l>
+        <l>Yon sage, and his boy-hermits fight like dragons.</l>
+        <l>The Roman eagle flaps his wing for flight,</l>
+        <l>And conquest smiles upon us.</l>
+       </lg>
+      </sp>
+      <sp who="#cymbeline">
+       <pb n="64" facs="300"/>
+       <speaker>CYMBELINE.</speaker>
+       <lg>
+        <l>Follow me;</l>
+        <l>And still the word be, Cymbeline, and Britain</l>
+        <stage>[Exeunt.</stage>
+       </lg>
+      </sp>
+      <stage>Alarum. Fight. Enter <hi>Britons</hi> and <hi>Romans</hi> fighting. The <hi>Romans</hi> give back. Then enter, at opposite doors, <hi>PISANIO,</hi> and <hi>PALADOR.</hi>
+      </stage>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>It is a jovial chace—fight on, young Cadwal,</l>
+        <l>Thou shalt go halves in glory—I could swear</l>
+        <l>To go to bed no more—Well met, thou Roman,</l>
+        <l>I have been killing vermin—thou dost seem</l>
+        <l>Worthy my sword—Art thou of blood and honour?</l>
+       </lg>
+      </sp>
+      <sp who="#pisanio">
+       <speaker>PISANIO.</speaker>
+       <lg>
+        <l>Away, and save thy life, thou swagg'ring boy,</l>
+        <l>By Romulus, my vengeance would not stoop</l>
+        <l>(Albeit a thousand souls are groaning for't)</l>
+        <l>To such a lout as thee.</l>
+       </lg>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>Hah! didst thou learn</l>
+        <l>Thy valour at a dancing school?—I'll try</l>
+        <l>Your lightsomness of foot—Fool, I will hunt thee</l>
+        <l>E'en to thy master's throne.—</l>
+       </lg>
+      </sp>
+      <sp who="#pisanio">
+       <speaker>PISANIO.</speaker>
+       <lg>
+        <l>Come on, rash hind—</l>
+        <stage>(Fight, <hi>Pisanio</hi> falls.)</stage>
+        <l>Thou hast o'erpower'd me stripling—the just Gods</l>
+        <l>
+         <pb n="65" facs="301"/>
+Unbrac'd my arm—the heaviness of guilt</l>
+        <l>Took off my manhood—I've bely'd a lady,</l>
+        <l>The princess of this country; and the air on't</l>
+        <l>Revengingly enfeebled me; brave youth,</l>
+        <l>Witness the penance of my dying hour,</l>
+        <l>And let the noble Leonatus know</l>
+        <l>I crav'd in death his pardon—</l>
+       </lg>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>How is this?</l>
+        <l>Roman, proceed.</l>
+       </lg>
+      </sp>
+      <sp who="#pisanio">
+       <speaker>PISANIO.</speaker>
+       <lg>
+        <l>I was confederate with</l>
+        <l>Cloten (than whom a viler wretch not lives</l>
+        <l>'Twixt sky and ground)</l>
+       </lg>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>Nay, by the Gods, he lives not;</l>
+        <l>I slew him but to-day, and sure e're this</l>
+        <l>He is the food of sharks.</l>
+       </lg>
+      </sp>
+      <sp who="#pisanio">
+       <speaker>PISANIO.</speaker>
+       <lg>
+        <l>Thou hast the arm</l>
+        <l>That heav'n does justice with—I can no more—</l>
+        <l>Take thou this note of Cloten's <stage>(gives a note)</stage> it doth speak</l>
+        <l>In terms full relative to the device</l>
+        <l>Then hatching in his brain; and farther marks</l>
+        <l>The lowly bendings of his love to Caesar—</l>
+        <l>This shall confirm thy by-and-by report</l>
+        <l>Strongly as living evidence—I've done</l>
+        <l>More good in my last hour, than can be pick'd</l>
+        <l>From my whole piece of life—there's hope in that,</l>
+        <l>And in that hope I die— <stage>(dies)</stage>
+        </l>
+       </lg>
+      </sp>
+      <sp who="#palador">
+       <pb n="66" facs="302"/>
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>Nay, if thou hop'st,</l>
+        <l>I'll write despair down folly—Jupiter,</l>
+        <l>What a vile rogue was this? and yet he wore</l>
+        <l>A worthy seeming—I perceive my garb</l>
+        <l>Doth shame the guise o'th' world—I will set out</l>
+        <l>New fashion; less without, and more within.</l>
+        <l>What have we here? <stage>(Flourish.)</stage>
+        </l>
+       </lg>
+      </sp>
+      <stage>
+       <hi>Enter</hi> LEONATUS.</stage>
+      <sp who="#leonatus">
+       <speaker>LEONATUS.</speaker>
+       <lg>
+        <l>Hermit, our wars are done;</l>
+        <l>The Romans turn their backs, and victory</l>
+        <l>To-day is wedded to great Cymbeline.</l>
+        <l>O that the joy of all should touch not me!</l>
+        <l>I am not mortal sure; for death I sought,</l>
+        <l>Yet found him not where I did hear him groan,</l>
+        <l>Nor felt him where he struck. This ugly monster,</l>
+        <l>'Tis strange he hides him in fresh cups, smooth beds,</l>
+        <l>Sweet words, and hath more ministers than we</l>
+        <l>That draw his knives in war.</l>
+       </lg>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>Art thou a Briton,</l>
+        <l>And dost not laugh to-day? Sad looks are treason,</l>
+        <l>And take the part of Rome; the man that feels</l>
+        <l>His own distress, hates more his pers'nal grief,</l>
+        <l>Than he doth love his country.</l>
+       </lg>
+      </sp>
+      <sp who="#leonatus">
+       <pb n="67" facs="303"/>
+       <speaker>LEONATUS.</speaker>
+       <lg>
+        <l>O you know not—</l>
+        <l>Hah! who lies there? Ye Gods, it is Pisanio—</l>
+        <l>The damn'd Italian fiend that stain'd my honour;</l>
+        <l>I would have sav'd an hundred lives in fight</l>
+        <l>To have met his.</l>
+       </lg>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>If thou art Leonatus,</l>
+        <l>(As by thy talk thou should'st be) I have matter</l>
+        <l>For your quick hearing.</l>
+       </lg>
+      </sp>
+      <sp who="#leonatus">
+       <speaker>LEONATUS.</speaker>
+       <l>I am Leonatus,</l>
+       <l>I would I were aught else!</l>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <l>That villain there</l>
+       <l>Did much abuse you, Sir.</l>
+      </sp>
+      <sp who="#leonatus">
+       <speaker>LEONATUS.</speaker>
+       <lg>
+        <l>He did abuse me</l>
+        <l>Beyond the pow'r of all his worthless tribe</l>
+        <l>To make amends—Who robs me of my wealth,</l>
+        <l>May one day have ability, or will</l>
+        <l>To yield me, full repayment—but the villain</l>
+        <l>That doth invade a husband's right in bed,</l>
+        <l>Is murd'rer of his peace, and makes a breach</l>
+        <l>In his life's after-quiet, that the grief</l>
+        <l>Of penitence itself cannot repair.</l>
+       </lg>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>Thou dost mistake thy woe, good Leonatus,</l>
+        <l>Which yet (if the great Gods are merciful)</l>
+        <l>I have a cure for—</l>
+       </lg>
+      </sp>
+      <sp who="#leonatus">
+       <speaker>LEONATUS.</speaker>
+       <l>How! where! which way! when!</l>
+      </sp>
+      <sp who="#palador">
+       <pb n="68" facs="304"/>
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>Sir, your belief in your dear lady's truth</l>
+        <l>Is falsely wounded, who, be sure (for aught</l>
+        <l>This arch impostor Roman could disprove)</l>
+        <l>Has kept her bond of chastity uncrack'd,</l>
+        <l>And is as cold as Dian.</l>
+       </lg>
+      </sp>
+      <sp who="#leonatus">
+       <speaker>LEONATUS.</speaker>
+       <lg>
+        <l>Ay, and colder;</l>
+        <l>For Dian is alive—If thou not fool'st me,</l>
+        <l>Thou curest common sickness with the plague,</l>
+        <l>And killest with relief—I could not find</l>
+        <l>The virtue of my wife untainted now,</l>
+        <l>(That once I priz'd to adoration)</l>
+        <l>For the best carbuncle of Phoebus' wheel,</l>
+        <l>Nay, all the worth of's car.</l>
+       </lg>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>Alas! I'm sorry</l>
+        <l>Your much wrong'd judgment hath proceeded thus.—</l>
+        <l>For free and full confession made this wretch</l>
+        <l>Of most refined stratagem to change</l>
+        <l>Your biass of affection: Sir, this note,</l>
+        <l>Which with his dying hand he did bequeath you,</l>
+        <l>Will more at large illustrate what my tongue</l>
+        <l>Faulters in utt'rance of. <stage>(gives the note.)</stage>
+        </l>
+       </lg>
+      </sp>
+      <sp who="#leonatus">
+       <speaker>LEONATUS.</speaker>
+       <lg>
+        <l>Quick, let me see it,</l>
+        <l>Impatient misery longs to know the worst,</l>
+        <l>E'en when the worst is fatal. <stage>(reads)</stage>
+        </l>
+        <l>The Lord <hi>Cloten</hi> to the <hi>Roman</hi> Knight <hi>Pisanio.</hi>
+        </l>
+        <l>Cloten! the name is ominous—it bodes</l>
+        <l>More than the raven's sullen flap that scents</l>
+        <l>Cadaverous infirmity.—But on—</l>
+       </lg>
+       <pb n="69" facs="305"/>
+       <p>
+        <hi>If thou lov'st me, let me see thee ere night. I have bought the fidelity of the princess's woman with my gold; she will give thee admittance into her chamber, when nothing will be awake but anger and policy; where thou may'st make such note as will be sufficient to the madding of the abhorred Leonatus. Thy service herein will tie me closer to thyself, and to Augustus thy lord. No more till thou dost console with thy presence, thine and Caesar's in affection,</hi> CLOTEN.</p>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <l>How fare you, sir? Alack! his grief is dumb.</l>
+      </sp>
+      <sp who="#leonatus">
+       <speaker>LEONATUS.</speaker>
+       <lg>
+        <l>Are there no Gods? or are they Gods that sleep,</l>
+        <l>And leave us to ourselves?—Oh! I have done it—</l>
+        <l>I've reach'd the point of shame, and villainy</l>
+        <l>Is less than 'twas.—Twice doubly curst be he</l>
+        <l>That first did graff the failings of his wife</l>
+        <l>On a fool's head's suspicion.—I've destroy'd</l>
+        <l>The temple of fair virtue, yea herself—</l>
+        <l>Spit, and throw stones, cast mire upon me, set</l>
+        <l>The dogs o'th' street to bait me; ev'ry fool</l>
+        <l>Be Leonatus call'd. O! Imogen,</l>
+        <l>My queen, my love my wife, oh! Imogen!</l>
+       </lg>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>Mark thou unhappy Briton, how my soul</l>
+        <l>Catches thy grief—my eyes half drown my tongue.</l>
+        <l>Wife—what is wife? what is it thou dost feel?</l>
+        <l>The pang that gripes thee seems more keen than mine was,</l>
+        <l>When my good mother, and Fidele died!</l>
+        <l>
+         <pb n="70" facs="306"/>
+—Yet then I mourn'd heart-deep—O that thy woes</l>
+        <l>Had remedy within the reach of power,</l>
+        <l>I would pursue endeavours infinite</l>
+        <l>'Till rashness should be virtue. Pardon me</l>
+        <l>This vain, vain boast—Valour himself must weep</l>
+        <l>When he cannot redress—I'll sit down by thee,</l>
+        <l>And mourn 'till I beguile thee of thy sorrows—</l>
+        <l>We'll give our shares in this day's triumph up</l>
+        <l>To riot and hard hearted jollity.</l>
+        <l>O Imogen, where art thou?—soft—here comes</l>
+        <l>Philario, my good uncle.</l>
+       </lg>
+      </sp>
+      <stage>
+       <hi>Enter</hi> PHILARIO.</stage>
+      <sp who="#leonatus">
+       <speaker>LEONATUS.</speaker>
+       <lg>
+        <l>How! Philario?</l>
+        <l>O turn a thousand Romans loose upon me,</l>
+        <l>But shew me not Philario.</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>Palador,</l>
+        <l>Have we a madman here?</l>
+       </lg>
+      </sp>
+      <sp who="#leonatus">
+       <speaker>LEONATUS.</speaker>
+       <lg>
+        <l>Ay, of thy making.</l>
+        <l>Thou cred'lous fool, egregious murtherer,</l>
+        <l>Thief, any thing, that's due to villains past,</l>
+        <l>In being, or to come.—</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <l>I know thee not.</l>
+      </sp>
+      <sp who="#leonatus">
+       <speaker>LEONATUS.</speaker>
+       <l>Know'st thou not Leonatus?</l>
+      </sp>
+      <sp who="#philario">
+       <pb n="71" facs="307"/>
+       <speaker>PHILARIO.</speaker>
+       <l>Art thou he?</l>
+       <l>And dost thou greet me thus?</l>
+      </sp>
+      <sp who="#leonatus">
+       <speaker>LEONATUS.</speaker>
+       <lg>
+        <l>Where is my wife?</l>
+        <l>My wife, my wife, my Imogen, thou villain!</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>Base and ungrateful! is it come to this?</l>
+        <l>Have I then offer'd up my mind's repose,</l>
+        <l>My better judgment, and my nature's pity,</l>
+        <l>To thy injunction? Have I stain'd my sword</l>
+        <l>With blood as rich as ever yet did wash</l>
+        <l>A British heart, to be bequestion'd now</l>
+        <l>With, villain, where's my wife, my Imogen?</l>
+        <l>—But that thy will was absolute herein,</l>
+        <l>I could have wish'd the damned charge had aim'd</l>
+        <l>At universal ruin of the sex,</l>
+        <l>And her alone left out.</l>
+       </lg>
+      </sp>
+      <sp who="#leonatus">
+       <speaker>LEONATUS.</speaker>
+       <lg>
+        <l>I'm wild—forgive me;</l>
+        <l>I've kill'd my wife, and shall my friend escape</l>
+        <l>Th' abuses of my fury?—Read, Philario,</l>
+        <l>Read this black scroll, <stage>(gives him the letter)</stage> read it, and after tell me,</l>
+        <l>If jealousy be written in the list</l>
+        <l>Of sins that mercy reaches.</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>You're undone;</l>
+        <l>And so am I—come not to me for comfort,</l>
+        <l>For my own pers'nal grief out-measures all</l>
+        <l>The patience I was born with.</l>
+       </lg>
+      </sp>
+      <sp who="#leonatus">
+       <pb n="72" facs="308"/>
+       <speaker>LEONATUS.</speaker>
+       <lg>
+        <l>Patience! who</l>
+        <l>Is patient in despair? Can patience wake</l>
+        <l>The sleep of death? Can it command old time</l>
+        <l>To render back the hours he snatch'd away,</l>
+        <l>Or what is done, make undone? Give me cord,</l>
+        <l>Poison, or knife, some upright justicer,</l>
+        <l>And then prescribe me patience.</l>
+       </lg>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>O Bellarius,</l>
+        <l>Thy lectures all were true, and this world holds</l>
+        <l>Nothing but woe and villainy—where's Cadwal?</l>
+        <l>We'll homeward to the rock.—</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>Hold thee, young man—</l>
+        <l>The king must thank you for your services—</l>
+        <l>Anon he will be here; and, Leonatus,</l>
+        <l>Do not, I pray, with rashness over-ripe</l>
+        <l>A vi'lence on thyself—best wait we both</l>
+        <l>The royal sentence on our lives, and die</l>
+        <l>Without more folly on our heads—to me</l>
+        <l>The op'ning leave of this.</l>
+       </lg>
+      </sp>
+      <sp who="#leonatus">
+       <speaker>LEONATUS.</speaker>
+       <lg>
+        <l>Well, let me die—</l>
+        <l>The rest you shall command—I see her now—</l>
+        <l>Bloody and pale she looks—her snow-white breast</l>
+        <l>Whose fragrance sent up incense to the Gods,</l>
+        <l>Is soil'd with clotted gore—her jetty locks,</l>
+        <l>Where Cupid and a thousand graces play'd,</l>
+        <l>Are turn'd to fury's snakes—and in her eye,</l>
+        <l>At whose kind beams glad Hymen light his torch,</l>
+        <l>
+         <pb n="73" facs="309"/>
+Sits fiery vengeance now with direful looks</l>
+        <l>Chilling my faculties.</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>If thou art man,</l>
+        <l>Be like one now—die as a soldier should do,</l>
+        <l>And do not start at shadows—I've bethought me</l>
+        <l>How we may fit and full disclosure make</l>
+        <l>Of all our purposes to Cymbeline;</l>
+        <l>Yea, and of Cloten's too, (whereof the truth</l>
+        <l>Shall the king's heart sore smite) that devil Cloten</l>
+        <l>Of whom this gallant youth has well reveng'd us.</l>
+       </lg>
+      </sp>
+      <sp who="#leonatus">
+       <speaker>LEONATUS.</speaker>
+       <lg>
+        <l>Has he? who, what art thou, thou wond'rous man!</l>
+        <l>To whom I am indebted for the scourge</l>
+        <l>Of my two deadly foes.</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>He is a wonder</l>
+        <l>Myself can scarce explain;—But hark, the king.—</l>
+        <stage>(Flourish.)</stage>
+        <l>Let us, my wretched friend, appear a while,</l>
+        <l>What our now-habits speak us.</l>
+       </lg>
+      </sp>
+      <stage>
+       <hi>Enter</hi> CYMBELINE, BELLARIUS, CADWAL, Lords, <hi>and</hi> Soldiers.</stage>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <lg>
+        <l>Thanks to all;</l>
+        <l>Chiefly to you, whom the great Gods have made</l>
+        <l>Best pillars of my throne. Where are the rest?</l>
+        <l>O here's your worthy kinsman, your brave son,</l>
+        <l>And the poor soldier that in rags did shame</l>
+        <l>
+         <pb n="74" facs="310"/>
+Rich coats of war, and with his naked breast</l>
+        <l>Stept before shields of proof—we owe our life</l>
+        <l>To his true valour.</l>
+       </lg>
+      </sp>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <lg>
+        <l>I did never see</l>
+        <l>Such noble fury in so mean a thing;</l>
+        <l>Such precious deeds in one that promis'd nought</l>
+        <l>But begg'ry and bad luck.</l>
+       </lg>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <lg>
+        <l>All bow your knees—</l>
+        <stage>(Bellarius, Philario, Palador, Cadwal <hi>and</hi> Leonatus <hi>kneel.)</hi>
+        </stage>
+        <l>Arise, my knights o'th' battle; we create you</l>
+        <l>Companions to our person, and will give you</l>
+        <l>Estates becoming your new dignities.</l>
+       </lg>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>My Lord, the honour I have won to-day</l>
+        <l>Is sustenance for me—I fought for fame,</l>
+        <l>And riches give not that—I'll carry home</l>
+        <l>The strange experience of some seven hours,</l>
+        <l>And live upon't hereafter.</l>
+       </lg>
+      </sp>
+      <sp who="#cadwal">
+       <speaker>CADWAL.</speaker>
+       <l>Most brave brother.</l>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <l>We must not lose you so.</l>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>So please your grace,</l>
+        <l>I would intreat a word.</l>
+       </lg>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <l>Say on, and freely.</l>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>Then, in the name of all our brotherhood,</l>
+        <l>
+         <pb n="75" facs="311"/>
+I do beseech your majesty to bless</l>
+        <l>With your high presence our poor hermitage;</l>
+        <l>Which (I am ready to make good the boast)</l>
+        <l>Is fit to give a mighty monarch welcome,</l>
+        <l>If cleanly wholesomeness, and simple plenty,</l>
+        <l>Be worth your appetite; and, sir, the more</l>
+        <l>I do solicit this, for that I have</l>
+        <l>Much matter for your ear, which only there</l>
+        <l>My spirit groans to utter.—May I hope</l>
+        <l>This invitation likes your majesty?</l>
+       </lg>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <lg>
+        <l>Ay, passing well.—My sirs, return you with</l>
+        <l>A monarch in your train—we long to know</l>
+        <l>What 'tis you would impart—come thou brave fellow! <stage>
+          <hi>(To</hi> Leonatus.)</stage>
+        </l>
+        <l>Some of you lords attend us, and the rest</l>
+        <l>Abide here in the camp.—Is there close guard</l>
+        <l>Upon the Roman prisoners?</l>
+       </lg>
+      </sp>
+      <sp who="#1st_lord">
+       <speaker>1st LORD.</speaker>
+       <l>My gracious liege, there is.</l>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <l>'Tis well—Hermit, lead on.</l>
+      </sp>
+      <stage>[Exeunt <hi>Cymbelline, Bellarius, Philario, Palador, Cadwal, Leonatus,</hi> and <hi>Lords</hi> at one door, and other <hi>Lords</hi> at another.</stage>
+      <trailer>The End of the Fourth <hi>ACT.</hi>
+      </trailer>
+     </div>
+    </div>
+    <div n="5" type="act">
+     <pb n="76" facs="312"/>
+     <head>ACT V.</head>
+     <div type="scene">
+      <head>
+       <hi>SCENE</hi>
+       <stage>The Forest and Cave.</stage>
+      </head>
+      <stage>
+       <hi>Enter</hi> PALADOR, <hi>and</hi> CADWAL.</stage>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>
+         <seg rend="decorInit">C</seg>ADWAL, once more all hail our happy home!</l>
+        <l>I've seen enough of this wide world to day,</l>
+        <l>To turn my back upon society—</l>
+        <l>Saving the manly hardiments of war,</l>
+        <l>There's nought on earth desirable—but come,</l>
+        <l>Do we our errand, and the cave prepare,</l>
+        <l>(For therefore were we will'd to speed us first)</l>
+        <l>For the reception of high majesty.—</l>
+       </lg>
+      </sp>
+      <sp who="#cadwal">
+       <speaker>CADWAL.</speaker>
+       <l>They will o'ertake us soon—</l>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>
+         <stage>(Looking into the cave)</stage> Stay, come not in—</l>
+        <l>But that I know this figure, I should think</l>
+        <l>It were a fairy.</l>
+       </lg>
+      </sp>
+      <sp who="#cadwal">
+       <speaker>CADWAL.</speaker>
+       <l>What's the matter, brother?</l>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>By Jupiter, a spirit!—Gods! one sand</l>
+        <l>Another doth not more resemble, than</l>
+        <l>This sorm the rosy lad who died, and was</l>
+        <l>Fidele—</l>
+       </lg>
+      </sp>
+      <sp who="#cadwal">
+       <speaker>CADWAL.</speaker>
+       <l>Ev'n the same dead thing alive—</l>
+      </sp>
+      <sp who="#palador">
+       <pb n="77" facs="313"/>
+       <speaker>PALADOR.</speaker>
+       <l>Peace, peace, see more—he eyes us not—forbear—</l>
+       <l>It is Fidele's ghost—</l>
+      </sp>
+      <sp who="#cadwal">
+       <speaker>CADWAL.</speaker>
+       <l>Hist! it comes forward!</l>
+      </sp>
+      <stage>Enter <hi>IMOGEN</hi> from the cave.</stage>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>Cadwal, stand close—nay shake not—look, it smiles.</l>
+        <l>What art thou, beauteous vision, that dost take</l>
+        <l>So sweet a form—thou can'st not mean us harm.</l>
+        <l>Mischief ne'er travell'd in a shape like that—</l>
+        <l>Art thou Fidele? speak—why hast thou left</l>
+        <l>Thy flow'ry grave? why dost thou haunt our rock?</l>
+        <l>Or art some spirit in his borrow'd likeness,</l>
+        <l>That for thy merriment dost wear a semblance,</l>
+        <l>Deluding us poor mortals?—Gentle, speak.—</l>
+       </lg>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <l>Give me your hands—I am your living brother,</l>
+       <l>The true Fidele—</l>
+      </sp>
+      <sp who="#cadwal">
+       <speaker>CADWAL.</speaker>
+       <lg>
+        <l>Can it be ye Gods!</l>
+        <l>This is a day of wonders—</l>
+       </lg>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>I'll no more</l>
+        <l>Witness the thing I see—art thou alive?</l>
+        <l>Dear boy, I feel thou art— <stage>
+          <hi>(Embracing</hi> Imogen.)</stage>
+        </l>
+       </lg>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <lg>
+        <l>Sirs, I did take</l>
+        <l>A certain drowsy potion, that fast seiz'd</l>
+        <l>The present pow'r of life; but in short time</l>
+        <l>
+         <pb n="78" facs="314"/>
+All offices of nature did again</l>
+        <l>Resume due functions.—Wherefore I took this,</l>
+        <l>Hereafter ask—and let me now demand,</l>
+        <l>Where's good Bellarius? where's my uncle? why</l>
+        <l>Those weapons at your sides? for thus you ne'er</l>
+        <l>Equip'd for hunting.</l>
+       </lg>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>No, my dearest brother,</l>
+        <l>We've been at better sport in the fair field,</l>
+        <l>Where honour chases danger—what we've done</l>
+        <l>Fame shall set down in brass, and shew't to Caesar;</l>
+        <l>And then 'twill task arithmetic to count</l>
+        <l>All the wet cheeks in Rome.</l>
+       </lg>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <l>How! have your rapiers</l>
+       <l>Been drawn in battle?</l>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <l>To victorious purpose—</l>
+       <l>The king is coming hither—</l>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <l>Hah! the king!</l>
+       <l>What and who brings him?</l>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>O your worthy uncle,</l>
+        <l>Unknown, and in disguise; my father too,</l>
+        <l>And a long lordly train; ere night, the book</l>
+        <l>Of fate, wide open'd to inspection,</l>
+        <l>Great secrets shall disclose.—Here comes Philario,</l>
+        <l>The rest are not far off.—Cadwal, we'll in—</l>
+        <l>Do you, Fidele, meet him here, and strike</l>
+        <l>New matter of amazement to his heart.</l>
+       </lg>
+      </sp>
+      <stage>[Exeunt <hi>Palador</hi> and <hi>Cadwal</hi> into the cave.</stage>
+      <stage>
+       <pb n="79" facs="315"/>
+       <hi>Enter</hi> PHILARIO.</stage>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>Fairest, and best of women, pardon me <stage>(kneeling)</stage>
+        </l>
+        <l>The tortures I have put thy virtue to</l>
+        <l>In trial, not in malice.—O forgive me;</l>
+        <l>For till thy lips have pass'd remission on me,</l>
+        <l>Mine must be lock'd in silence.</l>
+       </lg>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <lg>
+        <l>Rise, Philario!</l>
+        <l>Thy stratagem has more complexion in't</l>
+        <l>Of wisdom, than of guilt—my honour tried,</l>
+        <l>I'm serv'd, and not offended—That same drug,</l>
+        <l>Murd'rous awhile to sense, I thank'd thee for</l>
+        <l>With the first breath I wak'd with—hence of that</l>
+        <l>Put the remembrance by—My brothers tell me</l>
+        <l>Of something strange at hand.—</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>My gracious lady,</l>
+        <l>Since last we parted, the big hours have teem'd</l>
+        <l>With great, and sad events—pardon me, Gods,</l>
+        <l>One fiction more.— <stage>(aside.)</stage>
+        </l>
+       </lg>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <lg>
+        <l>Hast thou heard aught, Philario,</l>
+        <l>Of Leonatus? What is in thy mind</l>
+        <l>That makes thee stare thus? Wherefore breaks that sigh</l>
+        <l>From th' inward of thee? Speak—where is my husband?</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <pb n="80" facs="316"/>
+       <speaker>PHILARIO.</speaker>
+       <l>Say he were dead—his villainous intent</l>
+       <l>Should cure thy present sorrow.</l>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <lg>
+        <l>Thy supposing</l>
+        <l>Confirms his death, and my hereafter woe—</l>
+        <l>Thou tell'st me he was jealous, false, and cruel—</l>
+        <l>Grant he had faults, yet they were faults that others</l>
+        <l>Haply infus'd into his honest nature—</l>
+        <l>Grant he had faults, yet faults his future life</l>
+        <l>Might have amended all.—But, oh! this death</l>
+        <l>Chills mortally, and with the scythe of winter</l>
+        <l>Cuts down my spring of hope—O Leonatus!</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>Nay, lady, mark me—He did leave the world</l>
+        <l>Without one drop of pity for your fate.</l>
+        <l>I saw him down in fight, whereto his rage</l>
+        <l>Had brought him, 'midst the hottest fumes of war</l>
+        <l>To make a desp'rate end; and first explaining</l>
+        <l>This hermit's garb, (which I to-day put on</l>
+        <l>To cheat the wary eye of Cymbeline)</l>
+        <l>Vow'd in the doing his will my heart</l>
+        <l>Rebell'd against my hand. "'Tis well, he cry'd,</l>
+        <l>"I go to meet the strumpet, and consign her</l>
+        <l>"To other fires than lust." He said no more,</l>
+        <l>But to the last breath'd anger.</l>
+       </lg>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <lg>
+        <l>If 'tis so,—</l>
+        <l>Some daemon, envious of his peace and mine,</l>
+        <l>Did witch his sober judgment; nought but magic</l>
+        <l>
+         <pb n="81" facs="317"/>
+In subtle potency of transformation,</l>
+        <l>Could ruin make of such a noble piece</l>
+        <l>Of heav'nly workmanship. Gods! what is man</l>
+        <l>When error outlives honour? Yet, Philario,</l>
+        <l>I will remember the good thing he was,</l>
+        <l>Ere fury bent him wrongwards—What he did</l>
+        <l>Let insolence, that wags his head in scorn</l>
+        <l>O'er virtue fall'n, proclaim—but never so</l>
+        <l>Shall his poor wife reproach him—O my lord,</l>
+        <l>Wise, valiant, gentle, constant, just, and true,</l>
+        <l>The world did tack to thy all-honour'd name;</l>
+        <l>Thou wert the mark that Jupiter did point to,</l>
+        <l>When he prais'd mortal beings.</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>Noblest princess,</l>
+        <l>What shall my wonder call thee?—thy great father</l>
+        <l>Yet knows not half thy worth—hither he's coming;</l>
+        <l>And I will put into his royal pow'r</l>
+        <l>The now-disposal of our destinies—</l>
+        <l>Lo, he is here—Be silent, and attend—</l>
+        <l>Hail to king Cymbeline.—</l>
+       </lg>
+      </sp>
+      <stage>
+       <hi>Enter</hi> CYMBELINE, BELLARIUS, LEONATUS, <hi>and</hi> Lords.</stage>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <l>We thank you, hermit.—</l>
+      </sp>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <l>Good heav'ns! Fidele living!</l>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <l>Hist—a word—</l>
+       <stage>(Phil. <hi>whispers</hi> Bell.)</stage>
+      </sp>
+      <sp who="#cymbeline">
+       <pb n="82" facs="318"/>
+       <speaker>CYMBELINE.</speaker>
+       <lg>
+        <l>In troth, this rock hath a most pleasant site</l>
+        <l>To tempt a king from home—O luxury,</l>
+        <l>How art thou put to shame, if comfort lives</l>
+        <l>Where lowliness inhabits—our good hosts,</l>
+        <l>Where are the valiant boys?</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>Dread sovereign,</l>
+        <l>They shall come forth.—Ho! Cadwal! Palador!</l>
+       </lg>
+       <stage>Enter <hi>CADWAL</hi> and <hi>PALADOR</hi> from the Cave.</stage>
+       <lg>
+        <l>And now, so please your highness, I will ope,</l>
+        <l>Before you do betake you to repast,</l>
+        <l>A volume of high marvels to your ear.</l>
+       </lg>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <l>Pray you begin.</l>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>First know then, mighty sir,</l>
+        <l>He, that addresses here your royal presence,</l>
+        <l>No hermit is, but your true slave Philario.—</l>
+        <l>Nay, start not, sir, but know all criminals,</l>
+        <l>And then proceed to justice—here is one</l>
+        <stage>(pointing to <hi>Leonatus.)</hi>
+        </stage>
+        <l>Has travell'd far to meet your fierce displeasure,</l>
+        <l>Yet once deserv'd your grace—</l>
+       </lg>
+      </sp>
+      <sp who="#leonatus">
+       <speaker>LEONATUS.</speaker>
+       <lg>
+        <l>Ay, I am he—</l>
+        <l>No beggar, king, but yet a wretch more curst</l>
+        <l>Than ever fortune spurn'd at.—Know'st me not?</l>
+        <l>Send for ingenious torturers; command</l>
+        <l>The art of cruelty to practise on me,</l>
+        <l>For I do all abhorred things amend</l>
+        <l>
+         <pb n="83" facs="319"/>
+By being worse than they.—Know'st me not yet?</l>
+        <l>The villain that did steal thy princely daughter;</l>
+        <l>(Yet that was theft for Gods!) the damned villain</l>
+        <l>That, in a fit of jealous lunacy,</l>
+        <l>Murder'd all precious qualities that man</l>
+        <l>Loves woman for—that—</l>
+       </lg>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <stage>(running, and laying hold of her.)</stage>
+       <l>Peace, my lord, hear, hear—</l>
+      </sp>
+      <sp who="#leonatus">
+       <speaker>LEONATUS.</speaker>
+       <l>Shall's have a play of this? thou scornful page</l>
+       <l>Come not athwart my grief— <stage>(strikes her.)</stage>
+       </l>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>Hold, Leonatus,</l>
+        <l>Or thou wilt murder do, who art so hurt</l>
+        <l>In a conceit 'tis done—Why gaze you so?</l>
+        <l>Didst thou not hear her speak? and know'st thou not</l>
+        <l>The tune of Imogen?</l>
+       </lg>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <l>The rock goes round.</l>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>Nay, wonder is the gen'ral word to all!</l>
+        <l>You that ne'er lov'd, look on that virtuous pair—</l>
+        <l>Mark! how he anchors upon Imogen!</l>
+        <l>See! how she hangs on Leonatus' arm!</l>
+        <l>While both are mute in sweet extremity</l>
+        <l>Of truest love, and joy!</l>
+       </lg>
+      </sp>
+      <sp who="#leonatus">
+       <speaker>LEONATUS</speaker>
+       <stage>(after a pause.)</stage>
+       <lg>
+        <l>Joy! who names joy?—</l>
+        <l>It is a word too cold—What heav'n shall be</l>
+        <l>Hereafter, I feel now—Whom had I lost,</l>
+        <l>
+         <pb n="84" facs="320"/>
+But Imogen?—Whom did I hold corrupt,</l>
+        <l>But Imogen?—Whom did I drive to death,</l>
+        <l>But Imogen?—Yet Imogen is found—</l>
+        <l>Yet Imogen is purer than the star</l>
+        <l>That leads her virgin train to light the morn—</l>
+        <l>Yet Imogen still lives, and lives to love me!—</l>
+        <l>—Divide all matter of discourse among you—</l>
+        <l>What can I say or think but Imogen!</l>
+       </lg>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <lg>
+        <l>How do the gracious Gods hide kindness, neath</l>
+        <l>The sable veil of sad appearances?</l>
+        <l>O Leonatus! had we never parted,</l>
+        <l>Had I ne'er stood the mark of thy revenge,</l>
+        <l>Ne'er had we known what 'tis to meet again,</l>
+        <l>What 'tis to meet again in life, and love!</l>
+        <stage>(Embrace.)</stage>
+       </lg>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>Why so, farewel</l>
+        <l>The boy Fidele! I begin to fear</l>
+        <l>I shall hold manhood vile, for sure the graces,</l>
+        <l>Which fair perfection is compounded of,</l>
+        <l>Are all bound up in woman! princely Imogen,</l>
+        <l>Altho' thou art the daughter of a king,</l>
+        <l>I have ambition in me, that could wish</l>
+        <l>To call thee sister▪—</l>
+       </lg>
+      </sp>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <l>Wond'rous nature still! <stage>(aside.)</stage>
+       </l>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>My sword has from their hearts drawn the best blood</l>
+        <l>Of those you're little bound to—and I'll wear it,</l>
+        <l>Whilst it is mine, for your protection, lady—</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <pb n="85" facs="321"/>
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>I do believ't—enough—now Cymbeline▪</l>
+        <l>Wait we your royal sentence—for myself,</l>
+        <l>That I have cover'd honesty with guile,</l>
+        <l>In which I had in aim the gen'ral good,</l>
+        <l>I rather sue for thanks from all▪ than pardon—</l>
+        <l>For this my friend, <stage>(points to <hi>Leonatus)</hi>
+         </stage>—dread</l>
+        <l>Sir, your clearest judgment</l>
+        <l>Has seal'd his virtue sterling; and albeit</l>
+        <l>In jealous mood he did conceive an act</l>
+        <l>That tenderness calls terrible, yet think I,</l>
+        <l>His jealousy had ground more seeming▪ sure▪</l>
+        <l>Than common frenzy treads on—</l>
+       </lg>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <l>Sir, I know it▪</l>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>Well, by-and-by—for this unparagon'd,</l>
+        <l>She'as cur'd me of some spleen against her sex;</l>
+        <l>I've prov'd her (as anon at large you'll hear</l>
+       </lg>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <l>When we shall make past terrors our disport,)</l>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>The sweetest lady, and the truest wife,</l>
+        <l>That ever swore her faith—your sentence, sir,</l>
+        <l>Which I forestal a kind one.</l>
+       </lg>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <lg>
+        <l>Since 'tis thus▪</l>
+        <l>I will not counteract the mighty Gods</l>
+        <l>In what they have ordained—My children, take</l>
+        <l>Full pardon in a blessing—heaven's good gifts</l>
+        <l>Fall on your heads like dew!</l>
+       </lg>
+      </sp>
+      <sp who="#leonatus">
+       <speaker>LEONATUS.</speaker>
+       <lg>
+        <l>Thus on our knees— <stage>(Leonat. <hi>and</hi> Imogen <hi>kneel.)</hi>
+         </stage>
+        </l>
+        <l>
+         <pb n="86" facs="322"/>
+Take we with pious thankfulness the bounty.</l>
+        <l>My Imogen!—</l>
+       </lg>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <l>My Leonatus!</l>
+      </sp>
+      <sp who="#palador #cadwal">
+       <speaker>BOTH.</speaker>
+       <l>Oh!— <stage>(Embracing.)</stage>
+       </l>
+      </sp>
+      <sp who="#philario">
+       <speaker>PHILARIO.</speaker>
+       <l>How glutton-like thou dost devour thy joy,</l>
+       <l>And can'st not spare one morsel to a friend!</l>
+      </sp>
+      <sp who="#leonatus">
+       <speaker>LEONATUS.</speaker>
+       <lg>
+        <l>O yes, to thee—for 'tis to thee I owe</l>
+        <l>The bliss that I am wild with—O believe me,</l>
+        <l>Scarce went that angry mandate from my hand,</l>
+        <l>But my repentance fetch'd it back, e'en tho'</l>
+        <l>I thought my bride-bed stain'd with violation—</l>
+        <l>I landed 'midst a herd of vulgar Romans,</l>
+        <l>In hope to intercept the fell revenge</l>
+        <l>That freighted thy commission, or myself</l>
+        <l>To barter life of future wretchedness</l>
+        <l>For death of present glory—</l>
+       </lg>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <lg>
+        <l>Well resolv'd—</l>
+        <l>But still there doth remain behind, Philario,</l>
+        <l>Long maze to be unravell'd—who are these?</l>
+        <l>This old man and his boys? How join'd you them?</l>
+        <l>Or knowst thou aught of Cloten, our dear son?</l>
+        <l>Upon whose widow'd hopes we're bound in honour</l>
+        <l>To shed some comfort—him we shall endow with</l>
+        <l>A moiety of this fair realm—</l>
+       </lg>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>What him!</l>
+        <l>Would you make puppets princes? I'm right glad</l>
+        <l>(Your pardon king) he will not heed your offer—</l>
+       </lg>
+      </sp>
+      <sp who="#cymbeline">
+       <pb n="87" facs="323"/>
+       <speaker>CYMBELINE.</speaker>
+       <l>Say'st thou bold boy?</l>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>If honesty is boldness,</l>
+        <l>I am a lion—to be brief, my lord—</l>
+        <l>Wherefore that frown? I was not born to stand</l>
+        <l>In awe of eye-brows—Your son Cloten ranks</l>
+        <l>'Mongst those that were your subjects—</l>
+       </lg>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <lg>
+        <l>How is this?</l>
+        <l>Stripling beware—who trifles with a king</l>
+        <l>Plays with his peril—</l>
+       </lg>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>He is dead—I slew him—</l>
+        <l>Upon the very spot thou standst, I slew him—</l>
+        <l>The foulest blood my hand has spilt is his—</l>
+        <l>Monarch, thou knew'st him not—</l>
+       </lg>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <lg>
+        <l>Audacious boy!</l>
+        <l>Thou hast condemn'd thyself—and spight of all</l>
+        <l>That thou hast done to-day, dost from my lips</l>
+        <l>Pluck a hard sentence—thou must die—</l>
+       </lg>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>Hah! hah!</l>
+        <l>Die, Sir! why then let treason be true service,</l>
+        <l>And loyalty make capital—I'm sorry</l>
+        <l>To anger you—but the bare name of Cloten</l>
+        <l>Untunes my spirits; my enraged soul</l>
+        <l>Catches like tinder at it; it doth fret me,</l>
+        <l>And make me quarrelous and testy as</l>
+        <l>Infirmity untended—Good Philario,</l>
+        <l>Produce thy scroll—</l>
+       </lg>
+      </sp>
+      <sp who="#philario">
+       <pb n="88" facs="324"/>
+       <speaker>PHILARIO.</speaker>
+       <lg>
+        <l>Marry, and willingly.</l>
+        <stage>(Gives <hi>Cloten</hi>'s letter.)</stage>
+        <l>So please your grace read this. It doth contain</l>
+        <l>Matter important to the point. <stage>(Cymbeline <hi>reads.)</hi>
+         </stage> Good Sirs,</l>
+        <l>Comes it within the compass of belief,</l>
+        <l>Such wisdom and such valour e'er could grow</l>
+        <l>Beneath so poor a roof?—This virtuous hermit</l>
+        <l>Is fit to train up emperors—These youths—</l>
+        <l>But peace—the king</l>
+       </lg>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <l>This letter, sir, whence came it?</l>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <l>My lord, Pisanio, with his dying hand</l>
+       <l>Lodg'd it in mine—</l>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <lg>
+        <l>It doth appear by this▪</l>
+        <l>That Cloten villainous connection held</l>
+        <l>With the new-beaten Caesar—I'm abus'd,</l>
+        <l>And fool is he that thinks the heart of man</l>
+        <l>Hangs at his tongue—loudly this caitif roar'd</l>
+        <l>For Britain, and for me; and when he breath'd</l>
+        <l>His am'rous plaints, pin'd like a nightingale.—</l>
+        <l>This mischief-breeding serpent! Palador,</l>
+        <l>We thank thy valour, tho' thy tongue was rude</l>
+        <l>In roughness of reply.</l>
+       </lg>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>If I have valour,</l>
+        <l>It is my nature, sir, for my harsh language</l>
+        <l>I learn'd it 'mongst these rocks.</l>
+       </lg>
+      </sp>
+      <sp who="#cymbeline">
+       <pb n="89" facs="325"/>
+       <speaker>CYMBELINE.</speaker>
+       <lg>
+        <l>We would know more</l>
+        <l>Of who, and what thou art—Bellarius speak,</l>
+        <l>Make full discov'ry of yourselves, and fortunes,</l>
+        <l>And end our present wonders.</l>
+       </lg>
+      </sp>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <lg>
+        <l>It is meet</l>
+        <l>Your will should be obey'd—My sons, I must</l>
+        <l>For my own part unfold much dang'rous truth,</l>
+        <l>Tho' haply well for you—</l>
+       </lg>
+      </sp>
+      <sp who="#palador">
+       <speaker>PALADOR.</speaker>
+       <l>Your danger's ours.</l>
+      </sp>
+      <sp who="#cadwal">
+       <speaker>CADWAL.</speaker>
+       <l>And our good your's.</l>
+      </sp>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <l>Most mighty Cymbeline!</l>
+       <l>Thou hadst a subject that was Edwin call'd.</l>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <l>Edwin! ay, what of him? a banish'd traitor—</l>
+      </sp>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <l>Indeed, a banish'd man, but not a traitor;</l>
+       <l>For I am he—</l>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <l>The whole world shall not save him!</l>
+       <l>Lords bear him hence—</l>
+      </sp>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <l>Nay, not so hot, great king—First pay me for</l>
+       <l>The breeding of thy sons—</l>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <l>Breeding my sons!</l>
+      </sp>
+      <sp who="#bellarius">
+       <pb n="90" facs="326"/>
+       <speaker>BELLARIUS.</speaker>
+       <lg>
+        <l>I am too blunt, and saucy; here's my knee;</l>
+        <l>E'er I arise, I will prefer my sons, <stage>(kneels.)</stage>
+        </l>
+        <l>Then spare not the old father. Mighty sir,</l>
+        <l>These two young gentlemen, that call me father,</l>
+        <l>Are the true issue of your royal loins,</l>
+        <l>And blood of your begetting.</l>
+       </lg>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <l>How! my issue!</l>
+      </sp>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <lg>
+        <l>So sure, as you your sire's. These noble princes</l>
+        <l>(For such and so they are) these twenty years</l>
+        <l>Have I train'd up; such arts they have as I</l>
+        <l>Could put into them—Sir, my breeding was</l>
+        <l>As your grace knows—Their nurse Euriphile,</l>
+        <l>Whom for the theft I wedded, stole these children</l>
+        <l>Upon my banishment. The loss of these</l>
+        <l>The more by you 'twas felt, the more it shap'd</l>
+        <l>Unto my end of stealing them; the vengeance</l>
+        <l>Of slander'd loyalty—but, royal sir,</l>
+        <l>Here are your sons again; and I must lose</l>
+        <l>Two of the sweet'st companions in the world—</l>
+        <l>Heaven's grace be with them both, for they are worthy</l>
+        <l>To in-lay heav'n with stars.</l>
+       </lg>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <lg>
+        <l>Thou weep'st, and speak'st—</l>
+        <l>I lost my children, and if these be they</l>
+        <l>They are a pair of worthies.</l>
+       </lg>
+      </sp>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <lg>
+        <l>Sir, your patience—</l>
+        <l>
+         <pb n="91" facs="327"/>
+This gentleman whom I call Palador,</l>
+        <l>Most worthy prince, as your's, is true Guiderius;</l>
+        <l>This gentleman, my Cadwal, is Arviragus,</l>
+        <l>Your younger princely son; he, sir, was lapt</l>
+        <l>In a most curious mantle, wrought by the hand</l>
+        <l>Of his queen mother, which for more probation</l>
+        <l>I can with ease produce.</l>
+       </lg>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <lg>
+        <l>Guiderius had</l>
+        <l>Upon his neck a mole, a sanguine star;</l>
+        <l>It was a mark of wonder.</l>
+       </lg>
+      </sp>
+      <sp who="#bellarius">
+       <speaker>BELLARIUS.</speaker>
+       <lg>
+        <l>This is he,</l>
+        <l>Who hath upon him still that nat'ral stamp;</l>
+        <l>It was wise nature's end in the donation</l>
+        <l>To be his evidence now.</l>
+       </lg>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <lg>
+        <l>'Tis he! 'tis he!</l>
+        <l>O sure to-day the Gods do mean to strike me</l>
+        <l>To death with mortal joy— <stage>
+          <hi>(Embracing</hi> Palador <hi>and</hi> Cadwal.)</stage> My sons! my sons!</l>
+        <l>O Imogen! my child, thou'st found two brothers,</l>
+        <l>But thou hast lost a kingdom.</l>
+       </lg>
+      </sp>
+      <sp who="#imogen">
+       <speaker>IMOGEN.</speaker>
+       <lg>
+        <l>No, my lord,</l>
+        <l>I've got two worlds by this. O my dear brothers,</l>
+        <l>Do we meet thus? oh! never say hereafter</l>
+        <l>But I am truest speaker.—You call'd me brother,</l>
+        <l>When I was but your sister; I, you brothers,</l>
+        <l>When you were so indeed.</l>
+       </lg>
+      </sp>
+      <sp who="#palador">
+       <pb n="92" facs="328"/>
+       <speaker>PALADOR.</speaker>
+       <lg>
+        <l>Why e'en let honour</l>
+        <l>Come, as the Gods foresay it; I'm a prince,</l>
+        <l>But still the British Palador; sweet sister,</l>
+        <l>The moiety my father meant for Cloten</l>
+        <l>Is thine, and thy brave lord's, if my request,</l>
+        <l>The first I make, be granted—thee, Bellarius,</l>
+        <l>We must at leisure thank; and you, Philario,</l>
+        <l>We shall set down our friend; dear brother Cadwal,</l>
+        <l>(I can't yet call thee by that other name)</l>
+        <l>Thou shalt be part'ner of my royalty;</l>
+        <l>We'll turn our hermitage into a temple,</l>
+        <l>And yearly smoak it with our sacrifices.</l>
+       </lg>
+      </sp>
+      <sp who="#cadwal">
+       <speaker>CADWAL.</speaker>
+       <l>Agreed! O never was a day like this!</l>
+      </sp>
+      <sp who="#cymbeline">
+       <speaker>CYMBELINE.</speaker>
+       <lg>
+        <l>Laud we the Gods!—Bellarius, be our brother.</l>
+        <l>Sirs, we are much indebted to you all,</l>
+        <l>And we will shew it in our courtesies—</l>
+        <l>Come, let us in, and to more joyous feast</l>
+        <l>Than princes e'er regal'd at—In your stories,</l>
+        <l>Of which th' abridgement fills us with amazement,</l>
+        <l>Distinction shall be rich—to-morrow, sirs,</l>
+        <l>We will to Lud's Town march—Caesar shall pay</l>
+        <l>Large ransom for the lives we have in hold,</l>
+        <l>And sue to us for terms—ne'er war did cease,</l>
+        <l>With fairer prospect of a glorious peace.</l>
+        <stage>[Exeunt omnes.</stage>
+       </lg>
+      </sp>
+     </div>
+    </div>
+    <trailer>FINIS.</trailer>
+   </div>
+  </body>
+ </text>
+</TEI>
