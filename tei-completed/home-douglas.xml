@@ -1,0 +1,3253 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">Douglas</title>
+    <title type="sub">a tragedy. As it is acted at the Theatre-Royal in Covent-Garden.</title>
+    <author>
+     <persName>
+      <surname>Home</surname>
+      <forename>John</forename>
+      <idno type="VIAF">49234619</idno>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>Douglas: a tragedy. As it is acted at the Theatre-Royal in Covent-Garden.</name>
+     <author>Home, John, 1722-1808.</author>
+     <publisher>printed for A. Millar,</publisher>
+     <date>1757.</date>
+     <pubPlace>London :</pubPlace>
+     <note>Anonymous. By John Home.</note>
+     <note>With a half-title and epilogue.</note>
+     <note>The titlepage ornament is rectangular in shape and has a basket of flowers in a foliage framework.</note>
+     <note>Reproduction of original from the British Library.</note>
+     <note>English Short Title Catalog, ESTCT34870.</note>
+     <note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note>
+    </bibl>
+    <biblFull n="printed source">
+     <publicationStmt>
+      <authority ref="#JJ">Jan Jokisch</authority>
+      <date>2024 December</date>
+      <idno type="ECCO_Drama">K036942.000</idno>
+      <idno type="DLPS">004803145</idno>
+      <idno type="ESTC">T34870</idno>
+      <idno type="DocNo">CW114475162</idno>
+      <idno type="TCP">K036942.000</idno>
+      <idno type="GaleDocNo">CW3314475162</idno>
+      <idno type="ContentSet">ECLL</idno>
+      <idno type="ImageSetID">0814501800</idno>
+      <availability>
+       <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+      </availability>
+     </publicationStmt>
+    </biblFull>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    <person xml:id="lord_randolph"><persName>Lord Randolph</persName><sex value="MALE"/></person><person xml:id="glenalvon"><persName>Glenalvon</persName><sex value="MALE"/></person><person xml:id="norval"><persName>Norval</persName><sex value="MALE"/></person><person xml:id="stranger"><persName>Stranger</persName><sex value="MALE"/></person><person xml:id="lady_randolph"><persName>Lady Randolph</persName><sex value="FEMALE"/></person><person xml:id="anna"><persName>Anna</persName><sex value="FEMALE"/></person><person xml:id="douglas"><persName>Douglas</persName><sex value="MALE"/></person><person xml:id="servant"><persName>Servant</persName><sex value="MALE"/></person><person xml:id="officer"><persName>Officer</persName><sex value="MALE"/></person><person xml:id="first_servant"><persName>First Servant</persName><sex value="MALE"/></person><person xml:id="prisoner"><persName>Prisoner</persName><sex value="MALE"/></person></listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1757">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text xml:lang="en">
+  <front>
+   <div type="titlepage">
+    <pb facs="1" ana="y"/>
+    <p>DOUGLAS: A TRAGEDY.</p>
+    <p>As it is acted at the THEATRE-ROYAL IN COVENT-GARDEN.</p>
+    <p>Non ego sum vates, sed prisci conscius aevi.</p>
+    <p>LONDON: Printed for A. MILLAR, in the Strand.</p>
+    <p>MDCCLVII.</p>
+   </div>
+   <div type="prologue">
+    <pb facs="2"/>
+    <head>PROLOGUE.</head>
+    <byline>Spoken by Mr. SPARKS.</byline>
+    <sp>
+     <l>IN antient times, when <hi>Britain</hi>'s trade was arms,</l>
+     <l>And the lov'd musick of her youth, alarms.</l>
+     <l>A god-like race sustain'd fair <hi>England</hi>'s fame:</l>
+     <l>Who has not heard of gallant <hi>PIERCY</hi>'s name?</l>
+     <l>Ay, and of <hi>DOUGLAS?</hi> Such illustrious foes</l>
+     <l>In rival <hi>Rome</hi> and <hi>Carthage</hi> never rose!</l>
+     <l>From age to age bright shone the <hi>British</hi> fire,</l>
+     <l>And every hero was a hero's sire.</l>
+     <l>When powerful fate decreed one warrior's doom,</l>
+     <l>Up sprung the Phoenix from his parent's tomb.</l>
+     <l>But whilst these generous rivals fought and fell,</l>
+     <l>These generous rivals lov'd each other well:</l>
+     <l>Tho' many a bloody field was lost and won,</l>
+     <l>Nothing in hate, in honour all was done.</l>
+     <l>When <hi>PIERCY</hi> wrong'd defy'd his prince or peers,</l>
+     <l>Fast came the <hi>DOUGLAS,</hi> with his <hi>Scottish</hi> spears;</l>
+     <l>And, when proud <hi>DOUGLAS</hi> made his King his foe,</l>
+     <l>For <hi>DOUGLAS, PIERCY</hi> bent his <hi>English</hi> bow.</l>
+     <l>Expell'd their native homes by adverse fate,</l>
+     <l>They knock'd alternate at each other's gate:</l>
+     <l>
+      <pb facs="3"/>Then blaz'd the castle, at the midnight hour,</l>
+     <l>For him whose arms had shook its firmest tower.</l>
+     <l>This night a <hi>DOUGLAS</hi> your protection claims;</l>
+     <l>A wife! a mother! pity's softest names:</l>
+     <l>The story of her woes indulgent hear,</l>
+     <l>And grant your suppliant all she begs, a tear.</l>
+     <l>In confidence she begs; and hopes to find</l>
+     <l>Each <hi>English</hi> breast, like noble <hi>PIERCY</hi>'s kind.</l>
+    </sp>
+   </div>
+   <div type="Dramatis_Personae">
+    <pb facs="4"/>
+    <castList>
+     <head>DRAMATIS PERSONAE.</head>
+     <castItem>
+      <role>Lord RANDOLPH</role>
+      <actor>Mr. RIDOUT</actor>
+     </castItem>
+     <castItem>
+      <role>GLENALVON</role>
+      <actor>Mr. SMITH</actor>
+     </castItem>
+     <castItem>
+      <role>NORVAL, DOUGLAS</role>
+      <actor>Mr. BARRY</actor>
+     </castItem>
+     <castItem>
+      <role>STRANGER</role>
+      <actor>Mr. SPARKS</actor>
+     </castItem>
+     <castItem>SERVANTS.</castItem>
+     <castItem>WOMEN.</castItem>
+     <castItem>
+      <role>MATILDA, Lady RANDOLPH</role>
+      <actor>Mrs. WOFFINGTON</actor>
+     </castItem>
+     <castItem>
+      <role>ANNA</role>
+      <actor>Mrs. VINCENT</actor>
+     </castItem>
+    </castList>
+   </div>
+   <div type="Dramatis_Personae">
+    <pb facs="5"/>
+    <castList>
+     <head>DRAMATIS PERSONAE, as represented at EDINBURGH.</head>
+     <castItem>
+      <role>Lord RANDOLPH</role>
+      <actor>Mr. YOUNGER</actor>
+     </castItem>
+     <castItem>
+      <role>GLENALVON</role>
+      <actor>Mr. LOVE</actor>
+     </castItem>
+     <castItem>
+      <role>NORVAL, DOUGLAS</role>
+      <actor>Mr. DIGGS</actor>
+     </castItem>
+     <castItem>
+      <role>STRANGER</role>
+      <actor>Mr. HAYMAN</actor>
+     </castItem>
+     <castItem>SERVANTS, &amp;c.</castItem>
+     <castItem>WOMEN.</castItem>
+     <castItem>
+      <role>MATILDA, Lady RANDOLPH</role>
+      <actor>Mrs. WARD</actor>
+     </castItem>
+     <castItem>
+      <role>ANNA</role>
+      <actor>Mrs. HOPKINS</actor>
+     </castItem>
+    </castList>
+   </div>
+  </front>
+  <body>
+   <div type="play">
+    <pb facs="6"/>
+    <head>DOUGLAS: A TRAGEDY.</head>
+    <div n="1" type="act">
+     <head>ACT I.</head>
+     <div n="1" type="scene">
+      <head>SCENE I.</head>
+      <stage>The court of a castle, surrounded with woods.</stage>
+      <sp>
+       <stage>
+        <hi>Enter</hi> Lady RANDOLPH.</stage>
+       <l>YE woods and wilds, whose melancholy gloom</l>
+       <l>Accords with my soul's sadness, and draws forth</l>
+       <l>The voice of sorrow from my bursting heart,</l>
+       <l>Farewel a while: I will not leave you long;</l>
+       <l>For in your shades I deem some spirit dwells,</l>
+       <l>Who from the chiding stream, or groaning oak,</l>
+       <l>Still hears, and answers to MATILDA's moan.</l>
+       <l>O DOUGLAS! DOUGLAS! If departed ghosts</l>
+       <l>
+        <pb n="2" facs="7"/>Are e'er permitted to review this world,</l>
+       <l>Within the circle of that wood thou art,</l>
+       <l>And with the passion of immortals hear'st</l>
+       <l>My lamentation: hear'st thy wretched wife</l>
+       <l>Weep for her husband slain, her infant lost.</l>
+       <l>My brother's timeless death I seem to mourn;</l>
+       <l>Who perish'd with thee on this fatal day.</l>
+       <l>To thee I lift my voice; to thee address</l>
+       <l>The plaint which mortal ear has never heard.</l>
+       <l>O disregard me not; though I am call'd</l>
+       <l>Another's now, my heart is wholly thine.</l>
+       <l>Incapable of change, affection lies</l>
+       <l>Buried, my DOUGLAS, in thy bloody grave.</l>
+       <l>But RANDOLPH comes, whom fate has made my Lord,</l>
+       <l>To chide my anguish, and defraud the dead.</l>
+      </sp>
+      <sp>
+       <stage>
+        <hi>Enter</hi> Lord RANDOLPH.</stage>
+       <l>Again these weeds of woe! say, do'st thou well</l>
+       <l>To feed a passion which consumes thy life?</l>
+       <l>The living claim some duty; vainly thou</l>
+       <l>Bestow'st thy cares upon the silent dead.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Silent, alas! is he for whom I mourn:</l>
+       <l>Childless, without memorial of his name,</l>
+       <l>He only now in my remembrance lives.</l>
+      </sp>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>Time, that wears out the trace of deepest anguish,</l>
+       <l>Has past o'er thee in vain. Wou'd thou wer't not</l>
+       <l>Compos'd of grief and tenderness alone!</l>
+       <l>Sure thou art not the daughter of Sir MALCOLM:</l>
+       <l>Strong was his rage, eternal his resentment:</l>
+       <l>For when thy brother fell, he smil'd to hear</l>
+       <l>That DOUGLAS' son in the same field was slain.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Oh! rake not up the ashes of my fathers:</l>
+       <l>Implacable resentment was their crime,</l>
+       <l>And grievous has the expiation been.</l>
+       <l>
+        <pb n="3" facs="8"/>Contending with the DOUGLAS, gallant lives</l>
+       <l>Of either house were lost; my ancestors</l>
+       <l>Compell'd, at last, to leave their ancient seat</l>
+       <l>On Tiviot's pleasant banks; and now, of them</l>
+       <l>No heir is left. Had they not been so stern,</l>
+       <l>I had not been the last of all my race.</l>
+      </sp>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>Thy grief wrests to its purposes my words.</l>
+       <l>I never ask'd of thee that ardent love,</l>
+       <l>Which in the breasts of fancy's children burns.</l>
+       <l>Decent affection, and complacent kindness</l>
+       <l>Were all I wish'd for; but I wish'd in vain.</l>
+       <l>Hence with the less regret my eyes behold</l>
+       <l>The storm of war that gathers o'er this land:</l>
+       <l>If I should perish by the Danish sword,</l>
+       <l>MATILDA would not shed one tear the more.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Thou do'st not think so: woeful as I am</l>
+       <l>I love thy merit, and esteem thy virtues.</l>
+       <l>But whither goest thou now?</l>
+      </sp>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>Straight to the camp,</l>
+       <l>Where every warrior on the tip-toe stands</l>
+       <l>Of expectation, and impatient asks</l>
+       <l>Each who arrives, if he is come to tell</l>
+       <l>The Danes are landed.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>O, may adverse winds,</l>
+       <l>Far from the coast of Scotland, drive their fleet!</l>
+       <l>And every soldier of both hosts return</l>
+       <l>In peace and safety to his pleasant home!</l>
+      </sp>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>Thou speak'st a woman's, hear a warrior's wish:</l>
+       <l>Right from their native land, the stormy north,</l>
+       <l>May the wind blow, till every keel is fix'd</l>
+       <l>
+        <pb n="4" facs="9"/>Immoveable in Caledonia's strand!</l>
+       <l>Then shall our foes repent their bold invasion,</l>
+       <l>And roving armies shun the fatal shore.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>War I detest: but war with foreign foes,</l>
+       <l>Whose manners, language, and whose looks are strange,</l>
+       <l>Is not so horrid, nor to me so hateful,</l>
+       <l>As that which with our neighbours oft we wage.</l>
+       <l>A river here, there an ideal line</l>
+       <l>By fancy drawn, divides the sister kingdoms.</l>
+       <l>On each side dwells a people similar,</l>
+       <l>As twins are to each other, valiant both,</l>
+       <l>Both for their valour famous thro' the world.</l>
+       <l>Yet will they not unite their kindred arms,</l>
+       <l>And, if they must have war, wage distant war,</l>
+       <l>But with each other fight in cruel conflict.</l>
+       <l>Gallant in strife, and noble in their ire,</l>
+       <l>The battle is their pastime. They go forth</l>
+       <l>Gay in the morning, as to summer sport:</l>
+       <l>When ev'ning comes, the glory of the morn,</l>
+       <l>The youthful warrior, is a clod of clay.</l>
+       <l>Thus fall the prime of either hapless land;</l>
+       <l>And such the fruit of Scotch and English wars.</l>
+      </sp>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>I'll hear no more: this melody would make</l>
+       <l>A soldier drop his sword, and doff his arms,</l>
+       <l>Sit down and weep the conquests he has made;</l>
+       <l>Yea, (like a monk), sing rest and peace in heav'n</l>
+       <l>To souls of warriours in his battles slain.</l>
+       <l>Lady, farewel: I leave thee not alone;</l>
+       <l>Yonder comes one whose love makes duty light.</l>
+      </sp>
+      <stage>
+       <hi>Enter</hi> ANNA.</stage>
+      <sp who="#anna">
+       <speaker>ANNA.</speaker>
+       <l>Forgive the rashness of your ANNA's love:</l>
+       <l>Urg'd by affection, I have thus presum'd</l>
+       <l>
+        <pb n="5" facs="10"/>To interrupt your solitary thoughts;</l>
+       <l>And warn you of the hours that you neglect,</l>
+       <l>And lose in sadness.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>So to lose my hours</l>
+       <l>Is all the use I wish to make of time.</l>
+      </sp>
+      <sp who="#anna">
+       <speaker>ANNA.</speaker>
+       <l>To blame thee, lady, suits not with my state:</l>
+       <l>But sure I am, since death first prey'd on man,</l>
+       <l>Never did sister thus a brother mourn.</l>
+       <l>What had your sorrows been if you had lost,</l>
+       <l>In early youth, the husband of your heart?</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Oh!</l>
+      </sp>
+      <sp who="#anna">
+       <speaker>ANNA.</speaker>
+       <l>Have I distrest you with officious love,</l>
+       <l>And ill-tim'd mention of your brother's fate?</l>
+       <l>Forgive me, lady: humble tho' I am,</l>
+       <l>The mind I bear partakes not of my fortune:</l>
+       <l>So fervently I love you, that to dry</l>
+       <l>These piteous tears, I'd throw my life away.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>What power directed thy unconscious tongue</l>
+       <l>To speak as thou hast done? to name —</l>
+      </sp>
+      <sp who="#anna">
+       <speaker>ANNA.</speaker>
+       <l>I know not:</l>
+       <l>But since my words have made my mistress tremble,</l>
+       <l>I will speak so no more; but silent mix</l>
+       <l>My tears with hers.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>No, thou shalt not be silent.</l>
+       <l>I'll trust thy faithful love, and thou shalt be</l>
+       <l>Henceforth th' instructed partner of my woes.</l>
+       <l>But what avails it? Can thy feeble pity</l>
+       <l>Roll back the flood of never-ebbing time?</l>
+       <l>
+        <pb n="6" facs="11"/>Compell the earth and ocean to give up</l>
+       <l>Their dead alive?</l>
+      </sp>
+      <sp who="#anna">
+       <speaker>ANNA.</speaker>
+       <l>What means my noble mistress?</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Didst thou not ask what had my sorrows been?—</l>
+       <l>If I in early youth had lost a husband? —</l>
+       <l>In the cold bosom of the earth is lodg'd,</l>
+       <l>Mangl'd with wounds, the husband of my youth;</l>
+       <l>And in some cavern of the ocean lyes</l>
+       <l>My child and his.—</l>
+      </sp>
+      <sp who="#anna">
+       <speaker>ANNA.</speaker>
+       <l>O! lady, most rever'd!</l>
+       <l>The tale wrapt up in your amazing words</l>
+       <l>Deign to unfold.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Alas! an ancient feud,</l>
+       <l>Hereditary evil, was the source</l>
+       <l>Of my misfortunes. Ruling fate decreed,</l>
+       <l>That my brave brother should in battle save</l>
+       <l>The life of DOUGLAS' son, our house's foe:</l>
+       <l>The youthful warriours vow'd eternal friendship.</l>
+       <l>To see the vaunted sister of his friend</l>
+       <l>Impatient, DOUGLAS to Balarmo came,</l>
+       <l>Under a borrow'd name.—My heart he gain'd;</l>
+       <l>Nor did I long refuse the hand he begg'd:</l>
+       <l>My brother's presence authoriz'd our marriage.</l>
+       <l>Three weeks, three little weeks, with wings of down,</l>
+       <l>Had o'er us flown, when my lov'd lord was call'd</l>
+       <l>To fight his father's battles; and with him,</l>
+       <l>In spite of all my tears, did MALCOLM go.</l>
+       <l>Scarce were they gone, when my stern sire was told</l>
+       <l>That the false stranger was lord DOUGLAS' son.</l>
+       <l>Frantic with rage, the baron drew his sword</l>
+       <l>And question'd me. Alone, forsaken, faint,</l>
+       <l>Kneeling beneath his sword, fault'ring I took</l>
+       <l>
+        <pb n="7" facs="12"/>An oath equivocal, that I ne'er would</l>
+       <l>Wed one of DOUGLAS name. Sincerity</l>
+       <l>Thou first of virtues, let no mortal leave</l>
+       <l>Thy onward path! altho' the earth should gape,</l>
+       <l>And from the gulf of hell destruction cry</l>
+       <l>To take dissimulation's winding way.</l>
+      </sp>
+      <sp who="#anna">
+       <speaker>ANNA.</speaker>
+       <l>Alas! how few of woman's fearful kind</l>
+       <l>Durst own a truth so hardy!</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>The first truth</l>
+       <l>Is easiest to avow. This moral learn,</l>
+       <l>This precious moral, from my tragic tale.—</l>
+       <l>In a few days the dreadful tidings came</l>
+       <l>That DOUGLAS and my brother both were slain.</l>
+       <l>My lord! my life! my husband!—mighty God!</l>
+       <l>What had I done to merit such affliction?</l>
+      </sp>
+      <sp who="#anna">
+       <speaker>ANNA.</speaker>
+       <l>My dearest lady! Many a tale of tears</l>
+       <l>I've listen'd to; but never did I hear</l>
+       <l>A tale so sad as this.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>In the first days</l>
+       <l>Of my distracting grief, I found myself—</l>
+       <l>As women wish to be who love their lords.</l>
+       <l>But who durst tell my father? The good priest</l>
+       <l>Who join'd our hands, my brother's antient tutour,</l>
+       <l>With his lov'd MALCOLM, in the battle fell:</l>
+       <l>They two alone were privy to the marriage.</l>
+       <l>On silence and concealment I resolv'd,</l>
+       <l>Till time should make my father's fortune mine.</l>
+       <l>That very night on which my son was born,</l>
+       <l>My nurse, the only confident I had,</l>
+       <l>Set out with him to reach her sister's house:</l>
+       <l>But nurse, nor infant, have I ever seen,</l>
+       <l>Or heard of, ANNA, since that fatal hour.</l>
+       <l>My murder'd child!—had thy fond mother fear'd</l>
+       <l>
+        <pb n="8" facs="13"/>The loss of thee, she had loud fame defy'd,</l>
+       <l>Despis'd her father's rage, her father's grief,</l>
+       <l>And wander'd with thee thro' the scorning world.</l>
+      </sp>
+      <sp who="#anna">
+       <speaker>ANNA.</speaker>
+       <l>Not seen, nor heard of! then perhaps he lives.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>No. It was dark December: wind and rain</l>
+       <l>Had beat all night. Across the Carron lay</l>
+       <l>The destin'd road; and in it's swelling flood</l>
+       <l>My faithful servant perish'd with my child.</l>
+       <l>O hapless son! of a most hapless sire!—</l>
+       <l>But they are both at rest; and I alone</l>
+       <l>Dwell in this world of woe, condemn'd to walk,</l>
+       <l>Like a guilt-troubl'd ghost, my painful rounds:</l>
+       <l>Nor has despiteful fate permitted me</l>
+       <l>The comfort of a solitary sorrow.</l>
+       <l>Tho' dead to love, I was compell'd to wed</l>
+       <l>RANDOLPH, who snatch'd me from a villain's arms;</l>
+       <l>And RANDOLPH now possesses the domains,</l>
+       <l>That by Sir MALCOLM's death on me devolv'd;</l>
+       <l>Domains, that should to DOUGLAS' son have giv'n</l>
+       <l>A baron's title, and a baron's power.</l>
+       <l>Such were my foothing thoughts, while I bewail'd</l>
+       <l>The slaughter'd father of a son unborn.</l>
+       <l>And when that son came, like a ray from heav'n,</l>
+       <l>Which shines and disappears; alas! my child!</l>
+       <l>How long did thy fond mother grasp the hope</l>
+       <l>Of having thee, she knew not how, restor'd.</l>
+       <l>Year after year hath worn her hope away;</l>
+       <l>But left still undiminish'd her desire.</l>
+      </sp>
+      <sp who="#anna">
+       <speaker>ANNA.</speaker>
+       <l>The hand, that spins th' uneven thread of life,</l>
+       <l>May smooth the length that's yet to come of your's.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Not in this world: I have consider'd well</l>
+       <l>Its various evils, and on whom they fall.</l>
+       <l>
+        <pb n="9" facs="14"/>Alas! how oft does goodness wound itself?</l>
+       <l>And sweet affection prove the spring of woe</l>
+       <l>O! had I died when my lov'd husband fell!</l>
+       <l>Had some good angel op'd to me the book</l>
+       <l>Of providence, and let me read my life,</l>
+       <l>My heart had broke, when I beheld the sum</l>
+       <l>Of ills, which one by one I have endur'd.</l>
+      </sp>
+      <sp who="#anna">
+       <speaker>ANNA.</speaker>
+       <l>That God, whose ministers good angels are,</l>
+       <l>Hath shut the book in mercy to mankind.</l>
+       <l>But we must leave this theme: GLENALVON comes:</l>
+       <l>I saw him bend on you his thoughtful eyes,</l>
+       <l>And hitherwards he slowly stalks his way.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>I will avoid him. An ungracious person</l>
+       <l>Is doubly irksome in an hour like this.</l>
+      </sp>
+      <sp who="#anna">
+       <speaker>ANNA.</speaker>
+       <l>Why speaks my lady thus of RANDOLPH's heir?</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Because he's not the heir of RANDOLPH's virtues.</l>
+       <l>Subtle and shrewd, he offers to mankind</l>
+       <l>An artificial image of himself:</l>
+       <l>And he with ease can vary to the taste</l>
+       <l>Of different men, it's features. Self-denied,</l>
+       <l>And master of his appetites he seems:</l>
+       <l>But his fierce nature, like a fox chain'd up,</l>
+       <l>Watches to seize unseen the wish'd-for prey.</l>
+       <l>Never were vice and virtue pois'd so ill,</l>
+       <l>As in GLENALVON's unrelenting mind.</l>
+       <l>Yet is he brave and politic in war,</l>
+       <l>And stands aloft in these unruly times.</l>
+       <l>Why I describe him thus I'll tell hereafter;</l>
+       <l>Stay and detain him till I reach the castle.</l>
+      </sp>
+      <stage>
+       <hi>Exit</hi> Lady RANDOLPH.</stage>
+      <sp who="#anna">
+       <pb n="10" facs="15"/>
+       <speaker>ANNA.</speaker>
+       <l>O happiness! where art thou to be found?</l>
+       <l>I see thou dwellest not with birth and beauty,</l>
+       <l>Tho' grac'd with grandeur, and in wealth array'd:</l>
+       <l>Nor dost thou, it would seem, with virtue dwell;</l>
+       <l>Else had this gentle lady miss'd thee not.</l>
+      </sp>
+      <stage>
+       <hi>Enter</hi> GLENALVON.</stage>
+      <sp who="#glenalvon">
+       <speaker>GLENALVON.</speaker>
+       <l>What dost thou muse on, meditating maid?</l>
+       <l>Like some entranc'd and visionary seer</l>
+       <l>On earth thou stand'st, thy thoughts ascend to heaven.</l>
+      </sp>
+      <sp who="#anna">
+       <speaker>ANNA.</speaker>
+       <l>Wou'd that I were, e'en as thou say'st, a seer,</l>
+       <l>To have my doubts by heav'nly vision clear'd!</l>
+      </sp>
+      <sp who="#glenalvon">
+       <speaker>GLENALVON.</speaker>
+       <l>What dost thou doubt of? what hast thou to do</l>
+       <l>With subjects intricate? Thy youth, thy beauty,</l>
+       <l>Cannot be questioned: think of these good gifts;</l>
+       <l>And then thy contemplations will be pleasing.</l>
+      </sp>
+      <sp who="#anna">
+       <speaker>ANNA.</speaker>
+       <l>Let women view yon monument of woe,</l>
+       <l>Then boast of beauty: who so fair as she?</l>
+       <l>But I must follow: this revolving day</l>
+       <l>Awakes the memory of her ancient woes.</l>
+      </sp>
+      <stage>
+       <hi>Exit</hi> ANNA.</stage>
+      <sp who="#glenalvon">
+       <speaker>GLENALVON</speaker>
+       <stage>solus.</stage>
+       <l>So!—Lady RANDOLPH shuns me; by and by</l>
+       <l>I'll woo her as the lion wooes his brides.</l>
+       <l>The deed's a doing now, that makes me lord</l>
+       <l>Of these rich valleys, and a chief of power.</l>
+       <l>The season is most apt; my sounding steps</l>
+       <l>Will not be heard amidst the din of arms.</l>
+       <l>
+        <pb n="11" facs="16"/>RANDOLPH has liv'd too long: his better fate</l>
+       <l>Had the ascendant once, and kept me down:</l>
+       <l>When I had seiz'd the dame, by chance he came,</l>
+       <l>Rescu'd and had the lady for his labour;</l>
+       <l>I 'scap'd unknown: a slender consolation!</l>
+       <l>Heaven is my witness that I do not love</l>
+       <l>To sow in peril, and let others reap</l>
+       <l>The jocund harvest. Yet I am not safe:</l>
+       <l>By love, or something like it, stung, inflam'd,</l>
+       <l>Madly I blabb'd my passion to his wife,</l>
+       <l>And she has threaten'd to acquaint him of it.</l>
+       <l>The way of woman's will I do not know:</l>
+       <l>But well I know the baron's wrath is deadly.</l>
+       <l>I will not live in fear: the man I dread</l>
+       <l>Is as a Dane to me; ay, and the man</l>
+       <l>Who stands betwixt me and my chief desire.</l>
+       <l>No bar but he; she has no kinsman near;</l>
+       <l>No brother in his sister's quarrel bold;</l>
+       <l>And for the righteous cause, a stranger's cause,</l>
+       <l>I know no chief that will defy GLENALVON.</l>
+      </sp>
+     </div>
+     <trailer>
+      <hi>End of the</hi> FIRST ACT.</trailer>
+    </div>
+    <div n="2" type="act">
+     <pb n="12" facs="17"/>
+     <head>ACT II.</head>
+     <div n="1" type="scene">
+      <head>SCENE I.</head>
+      <stage>
+       <hi>A Court,</hi> &amp;c.</stage>
+      <stage>
+       <hi>Enter servants and a stranger at one door, and Lady</hi> RANDOLPH <hi>and</hi> ANNA <hi>at another.</hi>
+      </stage>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>WHAT means this clamour? stranger, speak secure;</l>
+       <l>Hast thou been wrong'd? have these rude men presum'd</l>
+       <l>To vex the weary traveller on his way?</l>
+      </sp>
+      <sp who="#first_servant">
+       <speaker>First SERVANT.</speaker>
+       <l>By us no stranger ever suffer'd wrong:</l>
+       <l>This man with outcry wild has call'd us forth;</l>
+       <l>So sore afraid he cannot speak his fears.</l>
+      </sp>
+      <stage>
+       <hi>Enter Lord</hi> RANDOLPH <hi>and young man, with their swords drawn and bloody.</hi>
+      </stage>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Not vain the stranger's fears! how fares my lord?</l>
+      </sp>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>That it fares well, thanks to this gallant youth,</l>
+       <l>Whose valour sav'd me from a wretched death!</l>
+       <l>As down the winding dale I walk'd alone,</l>
+       <l>At the cross way four armed men attack'd me:</l>
+       <l>Rovers, I judge, from the licentious camp,</l>
+       <l>Who would have quickly laid Lord RANDOLPH low,</l>
+       <l>Had not this brave and generous stranger come,</l>
+       <l>
+        <pb n="13" facs="18"/>Like my good angel in the hour of fate,</l>
+       <l>And, mocking danger, made my foes his own.</l>
+       <l>They turn'd upon him: but his active arm</l>
+       <l>Struck to the ground, from whence they rose no more,</l>
+       <l>The fiercest two; the others fled amain,</l>
+       <l>And left him master of the bloody field.</l>
+       <l>Speak, Lady RANDOLPH: upon Beauty's tongue</l>
+       <l>Dwell accents pleasing to the brave and bold.</l>
+       <l>Speak, noble dame, and thank him for thy lord.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>My lord, I cannot speak what now I feel.</l>
+       <l>My heart o'erflows with gratitude to heav'n,</l>
+       <l>And to this noble youth, who all unknown</l>
+       <l>To you and yours, deliberated not,</l>
+       <l>Nor paus'd at peril, but humanely brave</l>
+       <l>Fought on your side, against such fearful odds.</l>
+       <l>Have you yet learn'd of him whom we should thank?</l>
+       <l>Whom call the saviour of Lord RANDOLPH's life?</l>
+      </sp>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>I ask'd that question, and he answer'd not:</l>
+       <l>But I must know who my deliverer is.
+<stage>(to the Stranger)</stage>
+       </l>
+      </sp>
+      <sp who="#stranger">
+       <speaker>STRANGER.</speaker>
+       <l>A low born man, of parentage obscure,</l>
+       <l>Who nought can boast but his desire to be</l>
+       <l>A soldier, and to gain a name in arms.</l>
+      </sp>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>Whoe'er thou art, thy spirit is ennobled</l>
+       <l>By the great King of Kings! thou art ordain'd</l>
+       <l>And stampt a hero by the sovereign hand</l>
+       <l>Of nature! blush not, flower of modesty</l>
+       <l>As well as valour, to declare thy birth.</l>
+      </sp>
+      <sp who="#stranger">
+       <speaker>STRANGER.</speaker>
+       <l>My name is NORVAL: on the Grampian hills</l>
+       <l>My father feeds his flocks; a frugal swain,</l>
+       <l>Whose constant cares were to encrease his store,</l>
+       <l>
+        <pb n="14" facs="19"/>And keep his only son, myself, at home.</l>
+       <l>For I had heard of battles, and I long'd</l>
+       <l>To follow to the field some warlike lord;</l>
+       <l>And heaven soon granted what my sire denied.</l>
+       <l>This moon which rose last night, round as my shield,</l>
+       <l>Had not yet fill'd her horns, when, by her light,</l>
+       <l>A band of fierce barbarians, from the hills,</l>
+       <l>Rush'd like a torrent down upon the vale,</l>
+       <l>Sweeping our flocks and herds. The shepherds fled</l>
+       <l>For safety, and for succour. I alone,</l>
+       <l>With bended bow, and quiver full of arrows,</l>
+       <l>Hover'd about the enemy, and mark'd</l>
+       <l>The road he took, then hasted to my friends;</l>
+       <l>Whom, with a troop of fifty chosen men,</l>
+       <l>I met advancing. The pursuit I led,</l>
+       <l>Till we o'ertook the spoil-encumber'd foe.</l>
+       <l>We fought and conquer'd. E're a sword was drawn,</l>
+       <l>An arrow from my bow had pierc'd their chief,</l>
+       <l>Who wore that day the arms which now I wear.</l>
+       <l>Returning home in triumph, I disdain'd</l>
+       <l>The shepherd's slothful life; and having heard</l>
+       <l>That our good king had summon'd his bold peers</l>
+       <l>To lead their warriours to the Carron side,</l>
+       <l>I left my father's house, and took with me</l>
+       <l>A chosen servant to conduct my steps:—</l>
+       <l>Yon trembling coward who forsook his master.</l>
+       <l>Journeying with this intent, I past these towers.</l>
+       <l>And, heaven-directed, came this day to do</l>
+       <l>The happy deed that gilds my humble name.</l>
+      </sp>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>He is as wise as brave. Was ever tale</l>
+       <l>With such a gallant modesty rehears'd?</l>
+       <l>My brave deliverer! thou shalt enter now</l>
+       <l>A nobler list, and in a monarch's sight</l>
+       <l>Contend with princes for the prize of fame.</l>
+       <l>
+        <pb n="15" facs="20"/>I will present thee to our Scottish king,</l>
+       <l>Whose valiant spirit ever valour lov'd.</l>
+       <l>Ha! my MATILDA! wherefore starts that tear?</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>I cannot say: for various affections,</l>
+       <l>And strangely mingled, in my bosom swell;</l>
+       <l>Yet each of them may well command a tear.</l>
+       <l>I joy that thou art safe; and admire</l>
+       <l>Him and his fortunes who hath wrought thy safety.</l>
+       <l>Obscure and friendless, he the army sought,</l>
+       <l>Bent upon peril, in the range of death</l>
+       <l>Resolv'd to hunt for fame, and with his sword</l>
+       <l>To gain distinction which his birth denied.</l>
+       <l>In this attempt unknown he might have perish'd,</l>
+       <l>And gain'd, with all his valour, but oblivion.</l>
+       <l>Now grac'd by thee, his virtue serves no more</l>
+       <l>Beneath despair. The soldier now of hope</l>
+       <l>He stands conspicuous; fame and great renown</l>
+       <l>Are brought within the compass of his sword.</l>
+       <l>On this my mind reflected, whilst you spoke,</l>
+       <l>And bless'd the wonder-working Lord of heaven.</l>
+      </sp>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>Pious and grateful ever are thy thoughts!</l>
+       <l>My deeds shall follow where thou point'st the way.</l>
+       <l>Next to myself, and equal to GLENALVON,</l>
+       <l>In honour and command shall NORVAL be.</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>I know not how to thank you. Rude I am,</l>
+       <l>In speech and manners: never till this hour</l>
+       <l>Stood I in such a presence: yet, my lord,</l>
+       <l>There's something in my breast which makes me bold</l>
+       <l>To say, that NORVAL ne'er will shame thy favour.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>I will be sworn thou wilt not. Thou shalt be</l>
+       <l>
+        <pb n="16" facs="21"/>My knight; and ever, as thou didst to-day,</l>
+       <l>With happy valour guard the life of RANDOLPH.</l>
+      </sp>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>Well hast thou spoke. Let me forbid reply.
+<stage>
+         <hi>To</hi> NORVAL.</stage>
+       </l>
+       <l>We are thy debtors still; thy high desert</l>
+       <l>O'ertops our gratitude. I must proceed,</l>
+       <l>As was at first intended, to the camp.</l>
+       <l>Some of my train I see are speeding hither,</l>
+       <l>Impatient, doubtless, of their lord's delay.</l>
+       <l>Go with me, NORVAL, and thine eyes shall see</l>
+       <l>The chosen warriors of thy native land,</l>
+       <l>Who languish for the fight, and beat the air</l>
+       <l>With brandish'd swords.</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>Let us begone, my lord.</l>
+      </sp>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <stage>
+        <hi>To Lady</hi> RANDOLPH.</stage>
+       <l>About the time that the declining sun</l>
+       <l>Shall his broad orbit o'er yon hills suspend,</l>
+       <l>Expect us to return. This night once more</l>
+       <l>Within these walls I rest; my tent I pitch</l>
+       <l>To-morrow in the field. Prepare the feast.</l>
+       <l>Free is his heart who for his country fights:</l>
+       <l>He in the eve of battle may resign</l>
+       <l>Himself to social pleasure; sweetest then,</l>
+       <l>When danger to a soldier's soul endears</l>
+       <l>The human joy that never may return.</l>
+      </sp>
+      <stage>
+       <hi>Exeunt</hi> RANDOLPH <hi>and</hi> NORVAL.</stage>
+     </div>
+     <div n="2" type="scene">
+      <head>SCENE II.</head>
+      <stage>Lady RANDOLPH and ANNA.</stage>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>His parting words have struck a fatal truth.</l>
+       <l>O DOUGLAS! DOUGLAS! tender was the time</l>
+       <l>
+        <pb n="17" facs="22"/>When we two parted, ne'er to meet again!</l>
+       <l>How many years of anguish and despair</l>
+       <l>Has heav'n annex'd to those swift passing hours</l>
+       <l>Of love and fondness! Then my bosom's flame</l>
+       <l>Oft, as blown back by the rude breath of fear,</l>
+       <l>Return'd, and with redoubled ardour blaz'd.</l>
+      </sp>
+      <sp who="#anna">
+       <speaker>ANNA.</speaker>
+       <l>May gracious heav'n pour the sweet balm of peace</l>
+       <l>Into the wounds that fester in your breast!</l>
+       <l>For earthly consolation cannot cure them.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>One only cure can heav'n itself bestow;—</l>
+       <l>A grave—that bed in which the weary rest.</l>
+       <l>Wretch that I am! Alas! why am I so?</l>
+       <l>At every happy parent I repine!</l>
+       <l>How blest the mother of yon gallant NORVAL!</l>
+       <l>She for a living husband bore her pains,</l>
+       <l>And heard him bless her when a man was born:</l>
+       <l>She nurs'd her smiling infant on her breast;</l>
+       <l>Tended the child, and rear'd the pleasing boy:</l>
+       <l>She, with affection's triumph, saw the youth</l>
+       <l>In grace and comeliness surpass his peers:</l>
+       <l>Whilst I to a dead husband bore a son,</l>
+       <l>And to the roaring waters gave my child.</l>
+      </sp>
+      <sp who="#anna">
+       <speaker>ANNA.</speaker>
+       <l>Alas! alas! why will you thus resume</l>
+       <l>Your grief afresh? I thought that gallant youth</l>
+       <l>Would for a while have won you from your woe.</l>
+       <l>On him intent you gazed, with a look</l>
+       <l>Much more delighted, than your pensive eye</l>
+       <l>Has deign'd on other objects to bestow.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Delighted say'st thou? Oh! even there mine eye</l>
+       <l>
+        <pb n="18" facs="23"/>Found fuel for my life-consuming sorrow.</l>
+       <l>I thought, that had the son of DOUGLAS liv'd,</l>
+       <l>He might have been like this young gallant stranger,</l>
+       <l>And pair'd with him in features and in shape,</l>
+       <l>In all endowments, as in years, I deem,</l>
+       <l>My boy with blooming NORVAL might have number'd.</l>
+       <l>Whilst thus I mus'd, a spark from fancy fell</l>
+       <l>On my sad heart, and kindled up a fondness</l>
+       <l>For this young stranger, wand'ring from his home,</l>
+       <l>And like an orphan cast upon my care.</l>
+       <l>I will protect thee, (said I to myself)</l>
+       <l>With all my power, and grace with all my favour.</l>
+      </sp>
+      <sp who="#anna">
+       <speaker>ANNA.</speaker>
+       <l>Sure heav'n will bless so gen'rous a resolve.</l>
+       <l>You must, my noble dame, exert your power:</l>
+       <l>You must awake: devices will be fram'd,</l>
+       <l>And arrows pointed at the breast of NORVAL.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>GLENALVON's false and crafty head will work</l>
+       <l>Against a rival in his kinsman's love,</l>
+       <l>If I deter him not: I only can.</l>
+       <l>Bold as he is, GLENALVON will beware</l>
+       <l>How he pulls down the fabric that I raise.</l>
+       <l>I'll be the artist of young NORVAL's fortune.</l>
+       <l>'Tis pleasing to admire! most apt was I</l>
+       <l>To this affection in my better days;</l>
+       <l>Though now I seem to you shrunk up, retir'd</l>
+       <l>Within the narrow compass of my woe.</l>
+       <l>Have you not sometimes seen an early flower</l>
+       <l>Open it's bud, and spread it's silken leaves,</l>
+       <l>To catch sweet airs, and odours to bestow;</l>
+       <l>Then, by the keen blast nipt, pull in it's leaves,</l>
+       <l>And, tho' still living, die to scent and beauty?</l>
+       <l>
+        <pb n="19" facs="24"/>Emblem of me: affliction, like a storm,</l>
+       <l>Hath kill'd the forward blossom of my heart.</l>
+      </sp>
+      <stage>
+       <hi>Enter</hi> GLENALVON.</stage>
+      <sp who="#glenalvon">
+       <speaker>GLENALVON.</speaker>
+       <l>Where is my dearest kinsman, noble RANDOLPH?</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Have you not heard, GLENALVON, of the base—</l>
+      </sp>
+      <sp who="#glenalvon">
+       <speaker>GLENALVON.</speaker>
+       <l>I have: and that the villains may not scape,</l>
+       <l>With a strong band I have begirt the wood.</l>
+       <l>If they lurk there, alive they shall be taken,</l>
+       <l>And torture force from them th' important secret</l>
+       <l>Whether some foe of RANDOLPH hir'd their swords,</l>
+       <l>Or if—</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>That care becomes a kinsman's love.</l>
+       <l>I have a counsel for GLENALVON's ear.
+<stage>(<hi>Exit</hi> ANNA.)</stage>
+       </l>
+      </sp>
+      <sp who="#glenalvon">
+       <speaker>GLENALVON.</speaker>
+       <l>To him your counsels always are commands.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>I have not found so: thou art known to me.</l>
+      </sp>
+      <sp who="#glenalvon">
+       <speaker>GLENALVON.</speaker>
+       <l>Known!</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>And most certain is my cause of knowledge.</l>
+      </sp>
+      <sp who="#glenalvon">
+       <speaker>GLENALVON.</speaker>
+       <l>What do you know? By the most blessed cross,</l>
+       <l>You much amaze me. No created thing,</l>
+       <l>Yourself except, durst thus accost GLENALVON.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Is guilt so bold? and dost thou make a merit</l>
+       <l>Of thy pretended meekness? This to me,</l>
+       <l>Who, with a gentleness which duty blames,</l>
+       <l>Have hitherto conceal'd what, if divulg'd,</l>
+       <l>Would make thee nothing; or, what's worse than that,</l>
+       <l>
+        <pb n="20" facs="25"/>An outcast beggar, and unpitied too:</l>
+       <l>For mortals shudder at a crime like thine.</l>
+      </sp>
+      <sp who="#glenalvon">
+       <speaker>GLENALVON.</speaker>
+       <l>Thy virtue awes me. First of womankind!</l>
+       <l>Permit me yet to say, that the fond man</l>
+       <l>Whom love transports beyond strict virtue's bounds,</l>
+       <l>If he is brought by love to misery,</l>
+       <l>In fortune ruin'd, as in mind forlorn,</l>
+       <l>Unpitied cannot be. Pity's the alms</l>
+       <l>Which on such beggars freely is bestow'd:</l>
+       <l>For mortals know that love is still their lord,</l>
+       <l>And o'er their vain resolves advances still:</l>
+       <l>As fire, when kindled by our shepherds, moves</l>
+       <l>Thro' the dry heath before the fanning wind.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Reserve these accents for some other ear.</l>
+       <l>To love's apology I listen not.</l>
+       <l>Mark thou my words; for it is meet thou should'st.</l>
+       <l>His brave deliverer RANDOLPH here retains.</l>
+       <l>Perhaps his presence may not please thee well:</l>
+       <l>But, at thy peril, practise ought against him:</l>
+       <l>Let not thy jealousy attempt to shake</l>
+       <l>And loosen the good root he has in RANDOLPH;</l>
+       <l>Whose favourites I know thou hast supplanted.</l>
+       <l>Thou look'st at me, as if thou fain would'st pry</l>
+       <l>Into my heart. 'Tis open as my speech.</l>
+       <l>I give this early caution, and put on</l>
+       <l>The curb, before thy temper breaks away.</l>
+       <l>The friendless stranger my protection claims:</l>
+       <l>His friend I am, and be not thou his foe.
+<stage>Exit.</stage>
+       </l>
+      </sp>
+     </div>
+     <div n="3" type="scene">
+      <pb n="21" facs="26"/>
+      <head>SCENE III.</head>
+      <sp>
+       <stage>Manet GLENALVON.</stage>
+       <l>Child that I was, to start at my own shadow,</l>
+       <l>And be the shallow fool of coward conscience!</l>
+       <l>I am not what I have been; what I should be.</l>
+       <l>The darts of destiny have almost pierc'd</l>
+       <l>My marble heart. Had I one grain of faith</l>
+       <l>In holy legends, and religious tales,</l>
+       <l>I should conclude there was an arm above</l>
+       <l>That fought against me, and malignant turn'd,</l>
+       <l>To catch my self, the subtle snare I set.</l>
+       <l>Why, rape and murder are not simple means!</l>
+       <l>Th' imperfect rape to RANDOLPH gave a spouse;</l>
+       <l>And the intended murder introduc'd</l>
+       <l>A favourite to hide the sun from me;</l>
+       <l>And worst of all, a rival. Burning hell!</l>
+       <l>This were thy center, if I thought she lov'd him!</l>
+       <l>'Tis certain she contemns me; nay commands me,</l>
+       <l>And waves the flag of her displeasure o'er me,</l>
+       <l>In his behalf. And shall I thus be brav'd?</l>
+       <l>Curb'd, as she calls it, by dame chastity?</l>
+       <l>Infernal fiends, if any fiends there are</l>
+       <l>More fierce than love, ambition, and revenge,</l>
+       <l>Rise up and fill my bosom with your fires</l>
+       <l>And policy remorseless! Chance may spoil</l>
+       <l>A single aim; but perseverance must</l>
+       <l>Prosper at last. For chance and fate are words:</l>
+       <l>Persistive wisdom is the fate of man.</l>
+       <l>Darkly a project peers upon my mind,</l>
+       <l>Like the red moon when rising in the east,</l>
+       <l>
+        <pb n="22" facs="27"/>Cross'd and divided by strange-colour'd clouds.</l>
+       <l>I'll seek the slave who came with NORVAL hither,</l>
+       <l>And for his cowardice was spurned from him.</l>
+       <l>I've known a follower's rankled bosom breed</l>
+       <l>Venom most fatal to his heedless lord.
+<stage>Exit.</stage>
+       </l>
+      </sp>
+     </div>
+     <trailer>
+      <hi>End of the</hi> SECOND ACT.</trailer>
+    </div>
+    <div n="3" type="act">
+     <pb n="23" facs="28"/>
+     <head>ACT III.</head>
+     <div n="1" type="scene">
+      <head>SCENE I.</head>
+      <stage>
+       <hi>A Court,</hi> &amp;c. <hi>as before.</hi>
+      </stage>
+      <stage>
+       <hi>Enter</hi> ANNA.</stage>
+      <sp who="#anna">
+       <speaker>ANNA.</speaker>
+       <l>THY vassals, Grief! great nature's order break,</l>
+       <l>And change the noon-tide to the midnight hour.</l>
+       <l>Whilst Lady RANDOLPH sleeps I will walk forth,</l>
+       <l>And taste the air that breathes on yonder bank.</l>
+       <l>Sweet may her slumbers be! Ye ministers</l>
+       <l>Of gracious heaven who love the human race,</l>
+       <l>Angels and seraphs who delight in goodness!</l>
+       <l>Forsake your skies, and to her couch descend!</l>
+       <l>There from her fancy chase those dismal forms</l>
+       <l>That haunt her waking; her sad spirit charm</l>
+       <l>With images celestial, such as please</l>
+       <l>The blest above upon their golden beds.</l>
+      </sp>
+      <stage>
+       <hi>Enter</hi> SERVANT.</stage>
+      <sp who="#servant">
+       <speaker>SERVANT.</speaker>
+       <l>One of the vile assassins is secur'd.</l>
+       <l>We found the villain lurking in the wood:</l>
+       <l>With dreadful imprecations he denies</l>
+       <l>All knowledge of the crime. But this is not</l>
+       <l>His first essay: these jewels were conceal'd</l>
+       <l>In the most secret places of his garment;</l>
+       <l>Belike the spoils of some that he has murder'd.</l>
+      </sp>
+      <sp who="#anna">
+       <speaker>ANNA.</speaker>
+       <l>Let me look on them. Ha! here is a heart,</l>
+       <l>The chosen crest of DOUGLAS' valiant name!</l>
+       <l>
+        <pb n="24" facs="29"/>These are no vulgar jewels. Guard the wretch.</l>
+      </sp>
+      <stage>
+       <hi>Exit</hi> ANNA.</stage>
+      <stage>Enter servants with a Prisoner.</stage>
+      <sp who="#prisoner">
+       <speaker>PRISONER.</speaker>
+       <l>I know no more than does the child unborn</l>
+       <l>Of what you charge me with.</l>
+      </sp>
+      <sp who="#first_servant">
+       <speaker>First SERVANT.</speaker>
+       <l>You say so, sir!</l>
+       <l>But torture soon shall make you speak the truth.</l>
+       <l>Behold the Lady of Lord RANDOLPH comes:</l>
+       <l>Prepare yourself to meet her just revenge.</l>
+      </sp>
+     </div>
+     <div n="2" type="scene">
+      <head>SCENE II.</head>
+      <stage>
+       <hi>Enter</hi> Lady RANDOLPH <hi>and</hi> ANNA.</stage>
+      <sp who="#anna">
+       <speaker>ANNA.</speaker>
+       <l>Summon your utmost fortitude, before</l>
+       <l>You speak with him. Your dignity, your fame,</l>
+       <l>Are now at stake. Think of the fatal secret,</l>
+       <l>Which in a moment from your lips may fly.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Thou shalt behold me, with a desperate heart,</l>
+       <l>Hear how my infant perish'd. See he kneels.</l>
+      </sp>
+      <stage>[The prisoner kneels.]</stage>
+      <sp who="#prisoner">
+       <speaker>PRISONER.</speaker>
+       <l>Heav'n bless that countenance, so sweet and mild!</l>
+       <l>A judge like thee makes innocence more bold.</l>
+       <l>O save me, lady! from these cruel men,</l>
+       <l>Who have attack'd and seiz'd me; who accuse</l>
+       <l>Me of intended murder. As I hope</l>
+       <l>For mercy at the judgment seat of God,</l>
+       <l>The tender lamb, that never nipt the grass,</l>
+       <l>Is not more innocent than I of murder.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <pb n="25" facs="30"/>
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Of this man's guilt what proof can ye produce?</l>
+      </sp>
+      <sp who="#first_servant">
+       <speaker>First SERVANT.</speaker>
+       <l>We found him lurking in the hollow Glynn.</l>
+       <l>When view'd and call'd upon, amaz'd, he fled.</l>
+       <l>We overtook him, and enquir'd from whence</l>
+       <l>And what he was: he said he came from far,</l>
+       <l>And was upon his journey to the camp.</l>
+       <l>Not satisfied with this, we search'd his cloaths,</l>
+       <l>And found these jewels; whose rich value plead</l>
+       <l>Most powerfully against him. Hard he seems</l>
+       <l>And old in villainy. Permit us try</l>
+       <l>His stubborness against the torture's force.</l>
+      </sp>
+      <sp who="#prisoner">
+       <speaker>PRISONER.</speaker>
+       <l>O gentle lady! by your lord's dear life!</l>
+       <l>Which these weak hands, I swear, did ne'er assail;</l>
+       <l>And by your children's welfare, spare my age!</l>
+       <l>Let not the iron tear my ancient joints,</l>
+       <l>And my grey hairs bring to the grave with pain.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Account for these: thine own they cannot be:</l>
+       <l>For these, I say: be stedfast to the truth;</l>
+       <l>Detected falsehood is most certain death.</l>
+      </sp>
+      <stage>[ANNA <hi>removes the servants and returns.</hi>]</stage>
+      <sp who="#prisoner">
+       <speaker>PRISONER.</speaker>
+       <l>Alas! I'm fore beset! let never man,</l>
+       <l>For sake of lucre, sin against his soul!</l>
+       <l>Eternal justice is in this most just!</l>
+       <l>I, guiltless now, must former guilt reveal.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>O! ANNA hear!—once more I charge thee speak</l>
+       <l>The truth direct: for these to me foretell</l>
+       <l>And certify a part of thy narration;</l>
+       <l>With which if the remainder tallies not,</l>
+       <l>An instant and a dreadful death abides thee.</l>
+      </sp>
+      <sp who="#prisoner">
+       <pb n="26" facs="31"/>
+       <speaker>PRISONER.</speaker>
+       <l>Then, thus adjur'd, I'll speak to you as just</l>
+       <l>As if you were the minister of heaven,</l>
+       <l>Sent down to search the secret sins of men.</l>
+       <l>Some eighteen years ago, I rented land</l>
+       <l>Of brave Sir MALCOLM, then BALARMO's lord;</l>
+       <l>But falling to decay, his servants seiz'd</l>
+       <l>All that I had, and then turn'd me and mine,</l>
+       <l>(Four helpless infants and their weeping mother)</l>
+       <l>Out to the mercy of the winter winds.</l>
+       <l>A little hovel by the river's side</l>
+       <l>Receiv'd us: there hard labour, and the skill</l>
+       <l>In fishing, which was formerly my sport,</l>
+       <l>Supported life. Whilst thus we poorly liv'd,</l>
+       <l>One stormy night, as I remember well,</l>
+       <l>The wind and rain beat hard upon our roof:</l>
+       <l>Red came the river down, and loud and oft</l>
+       <l>The angry spirit of the water shrick'd.</l>
+       <l>At the dead hour of night was heard the cry</l>
+       <l>Of one in jeopardy. I rose, and ran</l>
+       <l>To where the circling eddy of a pool</l>
+       <l>Beneath the ford, us'd oft to bring within</l>
+       <l>My reach whatever floating thing the stream</l>
+       <l>Had caught. The voice was ceas'd; the person lost:</l>
+       <l>But looking sad and earnest on the waters,</l>
+       <l>By the moon's light I saw, whirl'd round and round,</l>
+       <l>A basket: soon I drew it to the bank,</l>
+       <l>And nestled curious there an infant lay.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Was he alive?</l>
+      </sp>
+      <sp who="#prisoner">
+       <speaker>PRISONER.</speaker>
+       <l>He was.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Inhuman that thou art!</l>
+       <l>How couldst thou kill what waves and tempests spar'd?</l>
+      </sp>
+      <sp who="#prisoner">
+       <pb n="27" facs="32"/>
+       <speaker>PRISONER.</speaker>
+       <l>I am not so inhuman.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Didst thou not?</l>
+      </sp>
+      <sp who="#anna">
+       <speaker>ANNA.</speaker>
+       <l>My noble mistress, you are mov'd too much:</l>
+       <l>This man has not the aspect of stern murder;</l>
+       <l>Let him go on, and you, I hope, will hear</l>
+       <l>Good tidings of your kinsman's long lost child.</l>
+      </sp>
+      <sp who="#prisoner">
+       <speaker>PRISONER.</speaker>
+       <l>The needy man, who has known better days,</l>
+       <l>One whom distress has spited at the world,</l>
+       <l>Is he whom tempting fiends would pitch upon</l>
+       <l>To do such deeds, as makes the prosperous men</l>
+       <l>Lift up their hands and wonder who could do them.</l>
+       <l>And such a man was I; a man declin'd,</l>
+       <l>Who saw no end of black adversity:</l>
+       <l>Yet, for the wealth of kingdoms, I would not</l>
+       <l>Have touch'd that infant, with a hand of harm.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Ha! dost thou say so? Then perhaps he lives!</l>
+      </sp>
+      <sp who="#prisoner">
+       <speaker>PRISONER.</speaker>
+       <l>Not many days ago he was alive.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>O! God of heav'n! Did he then die so lately?</l>
+      </sp>
+      <sp who="#prisoner">
+       <speaker>PRISONER.</speaker>
+       <l>I did not say he died; I hope he lives.</l>
+       <l>Not many days ago these eyes beheld</l>
+       <l>Him, flourishing in youth, and health, and beauty.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Where is he now?</l>
+      </sp>
+      <sp who="#prisoner">
+       <speaker>PRISONER.</speaker>
+       <l>Alas! I know not where.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <pb n="28" facs="33"/>
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Oh fate! I fear thee still. Thou riddler, speak</l>
+       <l>Direct and clear; else I will search thy soul.</l>
+      </sp>
+      <sp who="#anna">
+       <speaker>ANNA.</speaker>
+       <l>Permit me, ever honour'd! Keen impatience,</l>
+       <l>Tho' hard to be restrain'd, defeats itself.—</l>
+       <l>Pursue thy story with a faithful tongue,</l>
+       <l>To the last hour that thou didst keep the child.</l>
+      </sp>
+      <sp who="#prisoner">
+       <speaker>PRISONER.</speaker>
+       <l>Fear not my faith, tho' I must speak my shame.</l>
+       <l>Within the cradle, where the infant lay,</l>
+       <l>Was stow'd a mighty store of gold and jewels;</l>
+       <l>Tempted by which we did resolve to hide,</l>
+       <l>From all the world, this wonderful event,</l>
+       <l>And like a peasant breed the noble child.</l>
+       <l>That none might mark the change of our estate,</l>
+       <l>We left the country, travell'd to the north,</l>
+       <l>Bought flocks and herds, and gradually brought forth</l>
+       <l>Our secret wealth, But God's all-seeing eye</l>
+       <l>Beheld our avarice, and smote us sore.</l>
+       <l>For one by one all our own children died,</l>
+       <l>And he, the stranger, sole remain'd the heir</l>
+       <l>Of what indeed was his. Fain then would I,</l>
+       <l>Who with a father's fondness lov'd the boy,</l>
+       <l>Have trusted him, now in the dawn of youth,</l>
+       <l>With his own secret: but my anxious wife,</l>
+       <l>Foreboding evil, never would consent.</l>
+       <l>Mean while the stripling grew in years and beauty;</l>
+       <l>And, as we oft observ'd, he bore himself,</l>
+       <l>Not as the offspring of our cottage blood;</l>
+       <l>For nature will break out: mild with the mild,</l>
+       <l>But with the froward he was fierce as fire,</l>
+       <l>And night and day he talk'd of war and arms.</l>
+       <l>I set myself against his warlike bent;</l>
+       <l>But all in vain: for when a desperate band</l>
+       <l>Of robbers from the savage mountains came —</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <pb n="29" facs="34"/>
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Eternal providence! What is thy name?</l>
+      </sp>
+      <sp who="#prisoner">
+       <speaker>PRISONER.</speaker>
+       <l>My name is NORVAL; and my name he bears,</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>'Tis he; 'tis he himself! It is my son!</l>
+       <l>O sovereign mercy! 'Twas my child I saw!</l>
+       <l>No wonder, ANNA, that my bosom burn'd.</l>
+      </sp>
+      <sp who="#anna">
+       <speaker>ANNA.</speaker>
+       <l>Just are your transports: ne'er was woman's heart</l>
+       <l>Prov'd with such fierce extremes. High fated dame!</l>
+       <l>But yet remember that you are beheld</l>
+       <l>By servile eyes; your gestures may be seen</l>
+       <l>Impassion'd, strange; perhaps your words o'erheard.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Well dost thou counsel, ANNA: Heaven bestow</l>
+       <l>On me that wisdom which my state requires!</l>
+      </sp>
+      <sp who="#anna">
+       <speaker>ANNA.</speaker>
+       <l>The moments of deliberation pass,</l>
+       <l>And soon you must resolve. This useful man</l>
+       <l>Must be dismiss'd in safety, e'er my lord</l>
+       <l>Shall with his brave deliverer return.</l>
+      </sp>
+      <sp who="#prisoner">
+       <speaker>PRISONER.</speaker>
+       <l>If I, amidst astonishment and fear,</l>
+       <l>Have of your words and gestures rightly judg'd,</l>
+       <l>Thou art the daughter of my ancient master;</l>
+       <l>The child I rescu'd from the flood is thine.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>With thee dissimulation now were vain.</l>
+       <l>I am indeed the daughter of Sir MALCOLM;</l>
+       <l>The child thou rescu'dst from the flood is mine</l>
+      </sp>
+      <sp who="#prisoner">
+       <speaker>PRISONER.</speaker>
+       <l>Blest be the hour that made me a poor man!</l>
+       <l>My poverty hath sav'd my master's house!</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <pb n="30" facs="35"/>
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Thy words surprize me: sure thou dost not feign:</l>
+       <l>The tear stands in thine eye: such love from thee</l>
+       <l>Sir MALCOLM's house deserv'd not; if aright</l>
+       <l>Thou told'st the story of thy own distress.</l>
+      </sp>
+      <sp who="#prisoner">
+       <speaker>PRISONER.</speaker>
+       <l>Sir MALCOLM of our barons was the flower;</l>
+       <l>The fastest friend, the best and kindest master.</l>
+       <l>But ah! he knew not of my sad estate.</l>
+       <l>After that battle, where his gallant son,</l>
+       <l>Your own brave brother, fell, the good old lord</l>
+       <l>Grew desperate and reckless of the world;</l>
+       <l>And never, as he erst was wont, went forth</l>
+       <l>To overlook the conduct of his servants.</l>
+       <l>By them I was thrust out, and them I blame:</l>
+       <l>May heaven so judge me as I judg'd my master!</l>
+       <l>And God so love me as I love his race!</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>His race shall yet reward thee. On thy faith</l>
+       <l>Depends the fate of thy lov'd master's house.</l>
+       <l>Rememb'rest thou a little lonely hut,</l>
+       <l>That like a holy hermitage appears</l>
+       <l>Among the clifts of Carron?</l>
+      </sp>
+      <sp who="#prisoner">
+       <speaker>PRISONER.</speaker>
+       <l>I remember</l>
+       <l>The cottage of the clifts.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>'Tis that I mean:</l>
+       <l>There dwells a man of venerable age,</l>
+       <l>Who in my father's service spent his youth:</l>
+       <l>Tell him I sent thee, and with him remain,</l>
+       <l>'Till I shall call upon thee to declare,</l>
+       <l>Before the king and nobles, what thou now</l>
+       <l>
+        <pb n="31" facs="36"/>To me hast told. No more but this, and thou</l>
+       <l>Shalt live in honour all thy future days;</l>
+       <l>Thy son so long shall call thee father still,</l>
+       <l>And all the land shall bless the man, who sav'd</l>
+       <l>The son of DOUGLAS, and Sir MALCOLM'S heir.</l>
+       <l>Remember well my words: if thou shouldst meet</l>
+       <l>Him whom thou call'st thy son, still call him so;</l>
+       <l>And mention nothing of his nobler father.</l>
+      </sp>
+      <sp who="#prisoner">
+       <speaker>PRISONER.</speaker>
+       <l>Fear not that I shall mar so fair an harvest,</l>
+       <l>By putting in my sickle 'ere 'tis ripe.</l>
+       <l>Why did I leave my home and ancient dame?</l>
+       <l>To find the youth, to tell him all I knew,</l>
+       <l>And make him wear these jewels in his arms;</l>
+       <l>Which might, I thought, be challeng'd, and so bring</l>
+       <l>To light the secret of his noble birth.</l>
+      </sp>
+      <stage>
+       <hi>Lady</hi> RANDOLPH <hi>goes towards the Servants.</hi>
+      </stage>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>This man is not th'assassin you suspected,</l>
+       <l>Tho' chance combin'd some likelyhoods against him.</l>
+       <l>He is the faithful bearer of the jewels</l>
+       <l>To their right owner, whom in haste he seeks.</l>
+       <l>'Tis meet that you should put him on his way,</l>
+       <l>Since your mistaken zeal hath dragg'd him hither.</l>
+      </sp>
+      <stage>Exeunt Stranger and Servants▪</stage>
+     </div>
+     <div n="3" type="scene">
+      <head>SCENE III.</head>
+      <stage>
+       <hi>Lady</hi> RANDOLPH <hi>and</hi> ANNA.</stage>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>My faithful ANNA! dost thou share my joy?</l>
+       <l>I know thou dost. Unparalell'd event!</l>
+       <l>Reaching from heaven to earth, Jehovah's arm</l>
+       <l>Snatch'd from the waves, and brings to me my son!</l>
+       <l>Judge of the widow, and the orphan's father!</l>
+       <l>
+        <pb n="32" facs="37"/>Accept a widow's and a mother's thanks</l>
+       <l>For such a gift! What does my ANNA think</l>
+       <l>Of the young eaglet of a valiant nest?</l>
+       <l>How soon he gaz'd on bright and burning arms,</l>
+       <l>Spurn'd the low dunghill where his fate had thrown him,</l>
+       <l>And tower'd up to the region of his sire!</l>
+      </sp>
+      <sp who="#anna">
+       <speaker>ANNA.</speaker>
+       <l>How fondly did your eyes devour the boy!</l>
+       <l>Mysterious nature, with the unseen cord</l>
+       <l>Of powerful instinct, drew you to your own.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>The ready story of his birth believ'd</l>
+       <l>Supprest my fancy quite; nor did he owe</l>
+       <l>To any likeness my so sudden favour:</l>
+       <l>But now I long to see his face again,</l>
+       <l>Examine every feature, and find out</l>
+       <l>The lineaments of DOUGLAS, or my own.</l>
+       <l>But most of all, I long to let him know</l>
+       <l>Who his true parents are, to clasp his neck,</l>
+       <l>And tell him all the story of his father.</l>
+      </sp>
+      <sp who="#anna">
+       <speaker>ANNA.</speaker>
+       <l>With wary caution you must bear yourself</l>
+       <l>In public, lest your tenderness break forth,</l>
+       <l>And in observers stir conjectures strange.</l>
+       <l>For, if a cherub in the shape of woman</l>
+       <l>Should walk this world, yet defamation would,</l>
+       <l>Like a vile cur, bark at the angel's train—</l>
+       <l>To-day the baron started at your tears.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>He did so, ANNA! well thy mistress knows,</l>
+       <l>If the least circumstance, mote of offence,</l>
+       <l>Should touch the baron's eye, his sight would be</l>
+       <l>With jealousy disorder'd. But the more</l>
+       <l>It does behove me instant to declare</l>
+       <l>The birth of DOUGLAS, and assert his rights.</l>
+       <l>
+        <pb n="33" facs="38"/>This night I purpose with my son to meet,</l>
+       <l>Reveal the secret and consult with him:</l>
+       <l>For wise he is, or my fond judgment errs.</l>
+       <l>As he does now, so look'd his noble father,</l>
+       <l>Array'd in nature's ease: his mien, his speech,</l>
+       <l>Were sweetly simple, and full oft deceiv'd</l>
+       <l>Those trivial mortals who seem always wise.</l>
+       <l>But, when the matter match'd his mighty mind,</l>
+       <l>Uprose the Hero: on his piercing eye</l>
+       <l>Sat Observation; on each glance of thought</l>
+       <l>Decision follow'd, as the thunder-bolt</l>
+       <l>Pursues the flash.</l>
+      </sp>
+      <sp who="#anna">
+       <speaker>ANNA.</speaker>
+       <l>That demon haunts you still:</l>
+       <l>Behold GLENALVON.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Now I shun him not.</l>
+       <l>This day I brav'd him in behalf of NORVAL;</l>
+       <l>Perhaps too far: at least my nicer fears</l>
+       <l>For DOUGLAS thus interpret.</l>
+      </sp>
+      <stage>
+       <hi>Enter</hi> GLENALVON.</stage>
+      <sp who="#glenalvon">
+       <speaker>GLENALVON.</speaker>
+       <l>Noble dame!</l>
+       <l>The hov'ring Dane at last his men hath landed:</l>
+       <l>No band of pirates; but a mighty host,</l>
+       <l>That come to settle where their valour conquers;</l>
+       <l>To win a country, or to lose themselves.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>But whence comes this intelligence, GLENALVON?</l>
+      </sp>
+      <sp who="#glenalvon">
+       <speaker>GLENALVON.</speaker>
+       <l>A nimble courier sent from yonder camp,</l>
+       <l>To hasten up the chieftains of the north,</l>
+       <l>Inform'd me, as he past, that the fierce Dane</l>
+       <l>Had on the eastern coast of Lothian landed,</l>
+       <l>
+        <pb n="34" facs="39"/>Near to that place where the sea-rock immense,</l>
+       <l>Amazing Bass looks o'er a fertile land.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Then must this western army march to join</l>
+       <l>The warlike troops that guard Edena's tow'rs.</l>
+      </sp>
+      <sp who="#glenalvon">
+       <speaker>GLENALVON.</speaker>
+       <l>Beyond all question. If impairing time</l>
+       <l>Has not effac'd the image of a place,</l>
+       <l>Once perfect in my breast, there is a wild</l>
+       <l>Which lyes to westward of that mighty rock,</l>
+       <l>And seems by nature formed for the camp</l>
+       <l>Of water-wafted armies, whose chief strength</l>
+       <l>Lies in firm foot, unflank'd with warlike horse:</l>
+       <l>If martial skill directs the Danish lords,</l>
+       <l>There inaccessible their army lies</l>
+       <l>To our swift scow'ring horse, the bloody field</l>
+       <l>Must man to man, and foot to foot, be fought.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>How many mothers shall bewail their sons!</l>
+       <l>How many widows weep their husbands slain?</l>
+       <l>Ye dames of Denmark! ev'n for you I feel,</l>
+       <l>Who, sadly sitting on the sea-beat shore,</l>
+       <l>Long look for lords that never shall return.</l>
+      </sp>
+      <sp who="#glenalvon">
+       <speaker>GLENALVON.</speaker>
+       <l>Oft has th'unconquer'd Caledonian sword</l>
+       <l>Widow'd the north. The children of the slain</l>
+       <l>Come, as I hope, to meet their fathers' fate.</l>
+       <l>The monster war, with her infernal brood,</l>
+       <l>Loud yelling fury, and life-ending pain,</l>
+       <l>Are objects suited to GLENALVON's soul.</l>
+       <l>Scorn is more grievous than the pains of death;</l>
+       <l>Reproach, more piercing than the pointed sword.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>I scorn thee not, but when I ought to scorn;</l>
+       <l>
+        <pb n="35" facs="40"/>Nor e'er reproach, but when insulted virtue</l>
+       <l>Against audacious vice asserts herself.</l>
+       <l>I own thy worth, GLENALVON; none more apt</l>
+       <l>Than I to praise thine eminence in arms,</l>
+       <l>And be the echo of thy martial fame.</l>
+       <l>No longer vainly feed a guilty passion:</l>
+       <l>Go and pursue a lawful mistress, glory.</l>
+       <l>Upon the Danish crests redeem thy fault,</l>
+       <l>And let thy valour be the shield of RANDOLPH.</l>
+      </sp>
+      <sp who="#glenalvon">
+       <speaker>GLENALVON.</speaker>
+       <l>One instant stay, and hear an alter'd man.</l>
+       <l>When beauty pleads for virtue, vice abash'd</l>
+       <l>Flies it's own colours, and goes o'er to virtue.</l>
+       <l>I am your convert; time will shew how truely:</l>
+       <l>Yet one immediate proof I mean to give.</l>
+       <l>That youth for whom your ardent zeal to-day,</l>
+       <l>Somewhat too haughtily, defy'd your slave,</l>
+       <l>Amidst the shock of armies I'll defend,</l>
+       <l>And turn death from him, with a guardian arm.</l>
+       <l>Sedate by use, my bosom maddens not</l>
+       <l>At the tumultuous uproar of the field.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Act thus, GLENALVON, and I am thy friend:</l>
+       <l>But that's thy least reward. Believe me, sir,</l>
+       <l>The truly generous is the truely wise;</l>
+       <l>And he who loves not others, lives unblest.</l>
+      </sp>
+      <stage>
+       <hi>Exit Lady</hi> RANDOLPH.</stage>
+      <sp who="#glenalvon">
+       <speaker>GLENALVON</speaker>
+       <stage>solus.</stage>
+       <l>Amen! and virtue is it's own reward! —</l>
+       <l>I think that I have hit the very tone</l>
+       <l>In which she loves to speak. Honey'd assent</l>
+       <l>How pleasing art thou to the taste of man,</l>
+       <l>And woman also! flattery direct</l>
+       <l>Rarely disgusts. They little know mankind</l>
+       <l>Who doubt it's operation: 'tis my key,</l>
+       <l>
+        <pb n="36" facs="41"/>And opes the wicket of the human heart.</l>
+       <l>How far I have succeeded now I know not.</l>
+       <l>Yet I incline to think her stormy virtue</l>
+       <l>Is lull'd awhile: 'tis her alone I fear:</l>
+       <l>Whilst she and RANDOLPH live, and live in faith</l>
+       <l>And amity, uncertain is my tenure.</l>
+       <l>Fate o'er my head suspends disgrace and death,</l>
+       <l>By that weak hair, a peevish female's will.</l>
+       <l>I am not idle: but the ebbs and flows</l>
+       <l>Of fortune's tide cannot be calculated.</l>
+       <l>That slave of NORVAL's I have found most apt:</l>
+       <l>I shew'd him gold, and he has pawn'd his soul</l>
+       <l>To say and swear whatever I suggest.</l>
+       <l>NORVAL, I'm told, has that alluring look,</l>
+       <l>'Twixt man and woman, which I have observ'd</l>
+       <l>To charm the nicer and fantastick dames,</l>
+       <l>Who are, like lady RANDOLPH, full of virtue.</l>
+       <l>In raising RANDOLPH's jealousy I may</l>
+       <l>But point him to the truth. He seldom errs</l>
+       <l>Who thinks the worst he can of womankind.</l>
+      </sp>
+     </div>
+     <trailer>
+      <hi>The End of the</hi> THIRD ACT.</trailer>
+    </div>
+    <div n="4" type="act">
+     <pb n="37" facs="42"/>
+     <head>ACT IV.</head>
+     <div n="1" type="scene">
+      <head>SCENE I.</head>
+      <stage>Flourish of Trumpets.</stage>
+      <stage>
+       <hi>Enter</hi> Lord RANDOLPH <hi>attended.</hi>
+      </stage>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>SUmmon an hundred horse, by break of day,</l>
+       <l>To wait our pleasure at the castle gate.</l>
+      </sp>
+      <stage>
+       <hi>Enter</hi> Lady RANDOLPH.</stage>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Alas! my lord! I've heard unwelcome News;</l>
+       <l>The Danes are landed.</l>
+      </sp>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>Ay, no inroad this</l>
+       <l>Of the Northumbrian bent to take a spoil:</l>
+       <l>No sportive war, no tournament essay,</l>
+       <l>Of some young knight resolv'd to break a spear,</l>
+       <l>And stain with hostile blood his maiden arms.</l>
+       <l>The Danes are landed: we must beat them back,</l>
+       <l>Or live the slaves of Denmark.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Dreadful times!</l>
+      </sp>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>The fenceless villages are all forsaken;</l>
+       <l>The trembling mothers, and their children lodg'd</l>
+       <l>In well-girt towers and castles; whilst the men</l>
+       <l>
+        <pb n="38" facs="43"/>Retire indignant. Yet, like broken waves,</l>
+       <l>They but retire more awful to return.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Immense, as fame reports, the Danish host!</l>
+      </sp>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>Were it as numerous as loud fame reports,</l>
+       <l>An army knit like ours wou'd pierce it thro':</l>
+       <l>Brothers, that shrink not from each others side,</l>
+       <l>And fond companions, fill our warlike files:</l>
+       <l>For his dear offspring, and the wife he loves,</l>
+       <l>The husband, and the fearless father arm.</l>
+       <l>In vulgar breasts heroic ardor burns,</l>
+       <l>And the poor peasant mates his daring lord.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Men's minds are temper'd, like their swords, for war;</l>
+       <l>Lovers of danger, on destruction's brink</l>
+       <l>They joy to rear erect their daring forms.</l>
+       <l>Hence, early graves; hence the lone widow's life;</l>
+       <l>And the sad mother's grief-embitter'd age.</l>
+       <l>Where is our gallant guest?</l>
+      </sp>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>Down in the vale</l>
+       <l>I left him, managing a fiery steed,</l>
+       <l>Whose stubbornness had foil'd the strength and skill</l>
+       <l>Of every rider. But behold he comes,</l>
+       <l>In earnest conversation with GLENALVON.</l>
+       <stage>
+        <hi>Enter</hi> NORVAL <hi>and</hi> GLENALVON.</stage>
+       <l>GLENALVON! with the lark arise; go forth,</l>
+       <l>And lead my troops that ly in yonder vale:</l>
+       <l>Private I travel to the royal camp:</l>
+       <l>NORVAL, thou goest with me. But say young man!</l>
+       <l>Where didst thou learn so to discourse of war,</l>
+       <l>And in such terms, as I o'erheard to day?</l>
+       <l>War is no village science, nor it's phrase</l>
+       <l>
+        <pb n="39" facs="44"/>A language taught amongst the shepherd swains.</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>Small is the skill my lord delights to praise</l>
+       <l>In him he favours. — Hear from whence it came.</l>
+       <l>Beneath a mountain's brow, the most remote</l>
+       <l>And inaccessible by shepherds trod,</l>
+       <l>In a deep cave, dug by no mortal hand,</l>
+       <l>A hermit liv'd; a melancholy man,</l>
+       <l>Who was the wonder of our wand'ring swains.</l>
+       <l>Austere and lonely, cruel to himself,</l>
+       <l>Did they report him; the cold earth his bed,</l>
+       <l>Water his drink, his food the shepherd's alms.</l>
+       <l>I went to see him, and my heart was touch'd</l>
+       <l>With reverence and pity. Mild he spake,</l>
+       <l>And, entring on discourse, such stories told</l>
+       <l>As made me oft revisit his sad cell.</l>
+       <l>For he had been a soldier in his youth;</l>
+       <l>And fought in famous battles, when the peers</l>
+       <l>Of Europe, by the bold GODFREDO led,</l>
+       <l>Against th' usurping Infidel display'd</l>
+       <l>The cross of Christ, and won the Holy Land.</l>
+       <l>Pleas'd with my admiration, and the fire</l>
+       <l>His speech struck from me, the old man wou'd shake</l>
+       <l>His years away, and act his young encounters:</l>
+       <l>Then, having shew'd his wounds, he'd sit him down,</l>
+       <l>And all the live-long day discourse of war.</l>
+       <l>To help my fancy, in the smooth green turf</l>
+       <l>He cut the figures of the marshall'd hosts;</l>
+       <l>Describ'd the motions, and explain'd the use</l>
+       <l>Of the deep column, and the lengthen'd line,</l>
+       <l>The square, the crescent, and the phalanx firm.</l>
+       <l>For all that Saracen, or Christian knew</l>
+       <l>Of war's vast art, was to this hermit known.</l>
+      </sp>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>Why did this soldier in a desart hide</l>
+       <l>
+        <pb n="40" facs="45"/>Those qualities, that shou'd have grac'd a camp?</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>That too at last I learn'd. Unhappy man!</l>
+       <l>Returning homewards by Messina's port,</l>
+       <l>Loaded with wealth and honours bravely won,</l>
+       <l>A rude and boist'rous captain of the sea</l>
+       <l>Fasten'd a quarrel on him. Fierce they fought:</l>
+       <l>The stranger fell, and with his dying breath</l>
+       <l>Declar'd his name and lineage. Mighty God!</l>
+       <l>The soldier cried, my brother! Oh! my brother!</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>His brother!</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>Yes; of the same parents born;</l>
+       <l>His only brother. They exchang'd forgiveness:</l>
+       <l>And happy, in my mind, was he that died:</l>
+       <l>For many deaths has the survivor suffer'd.</l>
+       <l>In the wild desart on a rock he sits,</l>
+       <l>Or on some nameless stream's untrodden banks,</l>
+       <l>And ruminates all day his dreadful fate.</l>
+       <l>At times, alas! not in his perfect mind!</l>
+       <l>Holds dialogues with his lov'd brother's ghost;</l>
+       <l>And oft each night forsakes his sullen couch,</l>
+       <l>To make sad orisons for him he slew.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>To what mysterious woes are mortals born!</l>
+       <l>In this dire tragedy were there no more</l>
+       <l>Unhappy persons? did the parents live?</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>No; they were dead: kind heav'n had clos'd their eyes</l>
+       <l>Before their son had shed his brother's blood.</l>
+      </sp>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>Hard is his fate; for he was not to blame!</l>
+       <l>There is a destiny in this strange world,</l>
+       <l>
+        <pb n="41" facs="46" ana="y"/>Which oft decrees an undeserved doom:</l>
+       <l>Let schoolmen tell us why.—From whence these sounds?</l>
+      </sp>
+      <stage>[Trumpets at a distance.]</stage>
+      <stage>
+       <hi>Enter an</hi> OFFICER.</stage>
+      <sp who="#officer">
+       <speaker>OFFICER.</speaker>
+       <l>My Lord, the trumpets of the troops of Lorn:</l>
+       <l>Their valiant leader hails the noble RANDOLPH.</l>
+      </sp>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>Mine ancient guest! does he the warriors lead?</l>
+       <l>Has Denmark rous'd the brave old knight to arms?</l>
+      </sp>
+      <sp who="#officer">
+       <speaker>OFFICER.</speaker>
+       <l>No; worn with warfare, he resigns the sword.</l>
+       <l>His eldest hope, the vallant John of Lorn,</l>
+       <l>Now leads his kindred bands.</l>
+      </sp>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>GLENALVON, go.</l>
+       <l>With hospitality's most strong request</l>
+       <l>Entreat the chief.</l>
+      </sp>
+      <stage>[<hi>Exit</hi> GLENALVON.]</stage>
+      <sp who="#officer">
+       <speaker>OFFICER.</speaker>
+       <l>My lord, requests are vain.</l>
+       <l>He urges on, impatient of delay,</l>
+       <l>Stung with the tidings of the foe's approach.</l>
+      </sp>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>May victory sit on the warriour's plume!</l>
+       <l>Bravest of men! his flocks and herds are safe;</l>
+       <l>Remote from wars alarms his pastures lye,</l>
+       <l>By mountains inaccessible secur'd:</l>
+       <l>Yet foremost he into the plain descends,</l>
+       <l>Eager to bleed in battles not his own.</l>
+       <l>Such were the heroes of the ancient world:</l>
+       <l>Contemners they of indolence and gain;</l>
+       <l>But still for love of glory, and of arms,</l>
+       <l>
+        <pb n="42" facs="47"/>Prone to encounter peril, and to lift</l>
+       <l>Against each strong antagonist the spear.</l>
+       <l>I'll go and press the hero to my breast.</l>
+      </sp>
+      <stage>[<hi>Exit</hi> RANDOLPH.]</stage>
+      <stage>
+       <hi>Manet</hi> Lady RANDOLPH <hi>and</hi> NORVAL.</stage>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>The soldier's loftiness, the pride and pomp</l>
+       <l>Investing awful war, NORVAL, I see,</l>
+       <l>Transport thy youthful mind.</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>Ah! should they not?</l>
+       <l>Blest be the hour I left my father's house!</l>
+       <l>I might have been a shepherd all my days,</l>
+       <l>And stole obscurely to a peasant's grave.</l>
+       <l>Now, if I live, with mighty chiefs I stand;</l>
+       <l>And, if I fall, with noble dust I lye.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>There is a gen'rous spirit in thy breast,</l>
+       <l>That could have well sustain'd a prouder fortune.</l>
+       <l>This way with me; under yon spreading beech,</l>
+       <l>Unseen, unheard, by human eye or ear,</l>
+       <l>I will amaze thee with a wond'rous tale.</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>Let there be danger lady with the secret,</l>
+       <l>That I may hug it to my grateful heart,</l>
+       <l>And prove my faith. Command my sword, my life:</l>
+       <l>These are the sole possessions of poor NORVAL.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Know'st thou these gems?</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>Durst I believe mine eyes</l>
+       <l>I'd say I knew them, and they were my father's.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Thy father's say'st thou! ah! they were thy father's!</l>
+      </sp>
+      <sp who="#norval">
+       <pb n="43" facs="48"/>
+       <speaker>NORVAL.</speaker>
+       <l>I saw them once, and curiously enquir'd</l>
+       <l>Of both my parents whence such splendor came?</l>
+       <l>But I was check'd, and more could never learn.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Then learn of me, thou art not NORVAL's son.</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>Not NORVAL's son!</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Nor of a shepherd sprung.</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>Lady, who am I then?</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Noble thou art;</l>
+       <l>For noble was thy sire!</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>I will believe—</l>
+       <l>O! tell me farther! Say who was my father?</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>DOUGLAS!</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>Lord DOUGLAS, whom to day I saw?</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>His younger brother.</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>And in yonder camp?</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Alas!</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>You make me tremble — Sighs and tears!</l>
+       <l>Lives my brave father?</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <pb n="44" facs="49"/>
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Ah! too brave indeed!</l>
+       <l>He fell in battle e're thyself was born.</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>Ah me unhappy! e're I saw the light?</l>
+       <l>But does my mother live? I may conclude,</l>
+       <l>From my own fate, her portion has been sorrow.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>She lives; but wastes her life in constant woe,</l>
+       <l>Weeping her husband slain, her infant lost.</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>You that are skill'd so well in the sad story</l>
+       <l>Of my unhappy parents, and with tears</l>
+       <l>Bewail their destiny, now have compassion</l>
+       <l>Upon the offspring of the friends you lov'd.</l>
+       <l>O! tell me who, and where my mother is!</l>
+       <l>Opprest by a base world, perhaps she bends</l>
+       <l>Beneath the weight of other ills than grief;</l>
+       <l>And desolate, implores of heav'n, the aid</l>
+       <l>Her son should give. It is, it must be so —</l>
+       <l>Your countenance confesses that she's wretched.</l>
+       <l>O! tell me her condition! Can the sword —</l>
+       <l>Who shall resist me in a parent's cause?</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Thy virtue ends her woe. — My son, my son!</l>
+       <l>I am thy mother, and the wife of DOUGLAS!</l>
+      </sp>
+      <stage>Falls upon his neck.</stage>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>O heav'n and earth, how wond'rous is my fate!</l>
+       <l>Art thou my mother? Ever let me kneel!</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <pb n="45" facs="50"/>
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Image of DOUGLAS! Fruit of fatal love!</l>
+       <l>All that I owe thy sire I pay to thee.</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>Respect and admiration still possess me,</l>
+       <l>Checking the love and fondness of a son.</l>
+       <l>Yet I was filial to my humble parents.</l>
+       <l>But did my sire surpass the rest of men,</l>
+       <l>As thou excellest all of womankind?</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Arise, my son! In me thou dost behold</l>
+       <l>The poor remains of beauty once admir'd:</l>
+       <l>The autumn of my days is come already;</l>
+       <l>For sorrow made my summer haste away.</l>
+       <l>Yet in my prime I equal'd not thy father:</l>
+       <l>His eyes were like the eagle's, yet sometimes</l>
+       <l>Liker the dove's; and, as he pleas'd, he won</l>
+       <l>All hearts with softness, or with spirit aw'd.</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>How did he fall? Sure 'twas a bloody field</l>
+       <l>When DOUGLAS died. O I have much to ask!</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Hereafter thou shalt hear the lengthen'd tale</l>
+       <l>Of all thy father's and thy mother's woes.</l>
+       <l>At present this: Thou art the rightful heir</l>
+       <l>Of yonder castle, and the wide domains</l>
+       <l>Which now Lord RANDOLPH, as my husband, holds.</l>
+       <l>But thou shalt not be wrong'd; I have the power</l>
+       <l>To right thee still: Before the king I'll kneel,</l>
+       <l>And call Lord DOUGLAS to protect his blood.</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>The blood of DOUGLAS will protect itself.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <pb n="46" facs="51"/>
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>But we shall need both friends and favour, boy,</l>
+       <l>To wrest thy lands and lordship from the gripe</l>
+       <l>Of RANDOLPH and his kinsman. Yet I think</l>
+       <l>My tale will move each gentle heart to pity,</l>
+       <l>My life incline the virtuous to believe.</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>To be the son of DOUGLAS is to me</l>
+       <l>Inheritance enough. Declare my birth,</l>
+       <l>And in the field I'll seek for same and fortune.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Thou dost not know what perils and injustice</l>
+       <l>Await the poor man's valour. O! my son!</l>
+       <l>The noblest blood in all the land's abash'd,</l>
+       <l>Having no lacquey but pale poverty.</l>
+       <l>Too long hast thou been thus attended, DOUGLAS!</l>
+       <l>Too long hast thou been deem'd a peasant's child.</l>
+       <l>The wanton heir of some inglorious chief</l>
+       <l>Perhaps has scorn'd thee, in the youthful sports;</l>
+       <l>Whilst thy indignant spirit swell'd in vain!</l>
+       <l>Such contumely thou no more shalt bear:</l>
+       <l>But how I purpose to redress thy wrongs</l>
+       <l>Must be hereafter told. Prudence directs</l>
+       <l>That we should part before yon chiefs return.</l>
+       <l>Retire, and from thy rustick follower's hand</l>
+       <l>Receive a billet, which thy mother's care,</l>
+       <l>Anxious to see thee, dictated before</l>
+       <l>This casual opportunity arose</l>
+       <l>Of private conference. It's purport mark;</l>
+       <l>For as I there appoint we meet again.</l>
+       <l>Leave me, my son! and frame thy manners still</l>
+       <l>To NORVAL's, not to noble DOUGLAS' state.</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>I will remember. Where is NORVAL now?</l>
+       <l>That good old man.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <pb n="47" facs="52"/>
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>At hand conceal'd he lies,</l>
+       <l>An useful witness. But beware, my son,</l>
+       <l>Of yon GLENALVON; in his guilty breast</l>
+       <l>Resides a villain's shrewdness, ever prone</l>
+       <l>To false conjecture. He hath griev'd my heart.</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NARVOL.</speaker>
+       <l>Has he indeed? Then let yon false GLENALVON</l>
+       <l>Beware of me.</l>
+      </sp>
+      <stage>
+       <hi>Exit</hi> DOUGLAS.</stage>
+      <sp>
+       <stage>Manet Lady RANDOLPH.</stage>
+       <l>There burst the smother'd flame!</l>
+       <l>O! thou all righteous and eternal King!</l>
+       <l>Who father of the fatherless art call'd,</l>
+       <l>Protect my son! — Thy inspiration, Lord!</l>
+       <l>Hath fill'd his bosom with that sacred fire,</l>
+       <l>Which in the breasts of his forefathers burn'd:</l>
+       <l>Set him on high like them, that he may shine</l>
+       <l>The star and glory of his native land!</l>
+       <l>Then let the minister of death descend,</l>
+       <l>And bear my willing spirit to it's place.</l>
+       <l>Yonder they come. How do bad women find</l>
+       <l>Unchanging aspects to conceal their guilt?</l>
+       <l>When I by reason, and by justice urg'd,</l>
+       <l>Full hardly can dissemble with these men</l>
+       <l>In nature's pious cause.</l>
+      </sp>
+      <stage>
+       <hi>Enter</hi> Lord RANDOLPH <hi>and</hi> GLENALVON.</stage>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>Yon gallant chief,</l>
+       <l>Of arms enamour'd, all repose disclaims.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <pb n="48" facs="53"/>
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Be not, my Lord, by his example sway'd:</l>
+       <l>Arrange the business of to-morrow now,</l>
+       <l>And, when you enter, speak of war no more.</l>
+      </sp>
+      <stage>
+       <hi>Exit</hi> Lady RANDOLPH.</stage>
+      <stage>
+       <hi>Manent</hi> Lord RANDOLPH <hi>and</hi> GLENALVON.</stage>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>'Tis so by heav'n! her mien, her voice, her eye,</l>
+       <l>And her impatience to be gone, confirm it.</l>
+      </sp>
+      <sp who="#glenalvon">
+       <speaker>GLENALVON.</speaker>
+       <l>He parted from her now: Behind the mount,</l>
+       <l>Amongst the trees, I saw him glide along.</l>
+      </sp>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>For sad, sequester'd virtue she's renown'd!</l>
+      </sp>
+      <sp who="#glenalvon">
+       <speaker>GLENALVON.</speaker>
+       <l>Most true, my Lord.</l>
+      </sp>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>Yet this distinguish'd dame</l>
+       <l>Invites a youth, the acquaintance of a day,</l>
+       <l>Alone to meet her at the midnight hour.</l>
+       <l>This assignation,
+<stage>(shews a letter)</stage>
+the assassin freed,</l>
+       <l>Her manifest affection for the youth,</l>
+       <l>Might breed suspicion in a husband's brain,</l>
+       <l>Whose gentle consort all for love had wedded:</l>
+       <l>Much more in mine. MATILDA never lov'd me.</l>
+       <l>Let no man, after me, a woman wed,</l>
+       <l>Whose heart he knows he has not; tho' she brings</l>
+       <l>A mine of gold, a kingdom for her dowry,</l>
+       <l>For let her seem, like the night's shadowy queen,</l>
+       <l>Cold and contemplative; — He cannot trust her:</l>
+       <l>She may, she will, bring shame and sorrow on him;</l>
+       <l>The worst of sorrow, and the worst of shames!</l>
+      </sp>
+      <sp who="#glenalvon">
+       <pb n="49" facs="54"/>
+       <speaker>GLENALVON.</speaker>
+       <l>Yield not, my Lord, to such afflicting thoughts;</l>
+       <l>But let the spirit of an husband sleep,</l>
+       <l>'Till your own senses make a sure conclusion.</l>
+       <l>This billet must to blooming NORVAL go:</l>
+       <l>At the next turn awaits my trusty spy;</l>
+       <l>I'll give it him refitted for his master.</l>
+       <l>In the close thicket take your secret stand;</l>
+       <l>The moon shines bright, and your own eyes may judge</l>
+       <l>Of their behaviour.</l>
+      </sp>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>Thou dost counsel well.</l>
+      </sp>
+      <sp who="#glenalvon">
+       <speaker>GLENALVON.</speaker>
+       <l>Permit me now to make one slight essay.</l>
+       <l>Of all the trophies which vain mortal's boast,</l>
+       <l>By wit, by valour, or by wisdom won,</l>
+       <l>The first and fairest, in a young mans eye,</l>
+       <l>Is woman's captive heart. Successful love</l>
+       <l>With glorious fumes intoxicates the mind;</l>
+       <l>And the proud conqueror in triumph moves</l>
+       <l>Air-born, exalted above vulgar men.</l>
+      </sp>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>And what avails this maxim?</l>
+      </sp>
+      <sp who="#glenalvon">
+       <speaker>GLENALVON.</speaker>
+       <l>Much, my lord!</l>
+       <l>Withdraw a little: I'll accost young NORVAL,</l>
+       <l>And with ironical derisive counsel</l>
+       <l>Explore his spirit. If he is no more</l>
+       <l>Than humble NORVAL, by thy favour rais'd,</l>
+       <l>Brave as he is, he'll shrink astonish'd from me:</l>
+       <l>But if he be the favourite of the fair,</l>
+       <l>Lov'd by the first of Caledonia's dames,</l>
+       <l>He'll turn upon me, as the lion turns</l>
+       <l>Upon the hunter's spear.</l>
+      </sp>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>'Tis shrewdly thought.</l>
+      </sp>
+      <sp who="#glenalvon">
+       <pb n="50" facs="55"/>
+       <speaker>GLENALVON.</speaker>
+       <l>When we grow loud, draw near. But let my Lord</l>
+       <l>His rising wrath restrain.</l>
+      </sp>
+      <stage>
+       <hi>Exit</hi> RANDOLPH.</stage>
+      <sp>
+       <stage>Manet GLENALVON.</stage>
+       <l>'Tis strange by heav'n!</l>
+       <l>That she should run full tilt her fond career,</l>
+       <l>To one so little known. She too that seem'd</l>
+       <l>Pure as the winter stream, when ice emboss'd</l>
+       <l>Whitens it's course. Even I did think her chaste,</l>
+       <l>Whose charity exceeds not. Precious sex!</l>
+       <l>Whose deeds lascivious pass GLENALVON's thoughts!</l>
+       <stage>NORVAL <hi>appears.</hi>
+       </stage>
+       <l>His port I love; he's in a proper mood</l>
+       <l>To chide the thunder, if at him it roar'd.</l>
+       <l>Has NORVAL seen the troops?</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>The setting sun,</l>
+       <l>With yellow radiance lighten'd all the vale,</l>
+       <l>And as the warriours mov'd, each polish'd helm,</l>
+       <l>Corslet, or spear, glanc'd back his gilded beams.</l>
+       <l>The hill they climb'd, and halting at it's top,</l>
+       <l>Of more than mortal size, tow'ring, they seem'd,</l>
+       <l>An host angelic, clad in burning arms.</l>
+      </sp>
+      <sp who="#glenalvon">
+       <speaker>GLENALVON.</speaker>
+       <l>Thou talk'st it well; no leader of our host,</l>
+       <l>In sounds more lofty, speaks of glorious war.</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>If I shall e'er acquire a leader's name,</l>
+       <l>My speech will be less ardent. Novelty</l>
+       <l>Now prompts my tongue, and youthful admiration</l>
+       <l>Vents itself freely; since no part is mine</l>
+       <l>Of praise, pertaining to the great in arms.</l>
+      </sp>
+      <sp who="#glenalvon">
+       <pb n="51" facs="56"/>
+       <speaker>GLENALVON.</speaker>
+       <l>You wrong yourself, brave sir; your martial deeds</l>
+       <l>Have rank'd you with the great: but mark me NORVAL;</l>
+       <l>Lord RANDOLPH's favour now exalts your youth</l>
+       <l>Above his veterans of famous service.</l>
+       <l>Let me, who know these soldiers, counsel you.</l>
+       <l>Give them all honour; seem not to command;</l>
+       <l>Else they will scarcely brook your late sprung power,</l>
+       <l>Which nor alliance props, nor birth adorns.</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>Sir, I have been accustom'd all my days</l>
+       <l>To hear and speak the plain and simple truth:</l>
+       <l>And tho' I have been told, that there are men</l>
+       <l>Who borrow friendship's tongue to speak their scorn,</l>
+       <l>Yet in such language I am little skill'd.</l>
+       <l>Therefore I thank GLENALVON for his counsel,</l>
+       <l>Altho' it sounded harshly. Why remind</l>
+       <l>Me of my birth obscure? Why slur my power</l>
+       <l>With such contemptuous terms?</l>
+      </sp>
+      <sp who="#glenalvon">
+       <speaker>GLENALVON.</speaker>
+       <l>I did not mean</l>
+       <l>To gall your pride, which now I see is great.</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>My pride!</l>
+      </sp>
+      <sp who="#glenalvon">
+       <speaker>GLENALVON.</speaker>
+       <l>Suppress it as you wish to prosper.</l>
+       <l>Your pride's excessive. Yet for RANDOLPH's sake</l>
+       <l>I will not leave you to it's rash direction.</l>
+       <l>If thus you swell, and frown at high-born men,</l>
+       <l>Will high-born men endure a shepherd's scorn?</l>
+      </sp>
+      <sp who="#norval">
+       <pb n="52" facs="57"/>
+       <speaker>NORVAL.</speaker>
+       <l>A shepherd's scorn!</l>
+      </sp>
+      <sp who="#glenalvon">
+       <speaker>GLENALVON.</speaker>
+       <l>Yes; if you presume</l>
+       <l>To bend on soldiers these disdainful eyes,</l>
+       <l>As if you took the measure of their minds,</l>
+       <l>And said in secret, you're no match for me;</l>
+       <l>What will become of you?</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>If this were told! —
+<stage>Aside</stage>
+       </l>
+       <l>Hast thou no fears for thy presumptuous self!</l>
+      </sp>
+      <sp who="#glenalvon">
+       <speaker>GLENALVON.</speaker>
+       <l>Ha! Dost thou threaten me?</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>Didst thou not hear?</l>
+      </sp>
+      <sp who="#glenalvon">
+       <speaker>GLENALVON.</speaker>
+       <l>Unwillingly I did; a nobler foe</l>
+       <l>Had not been question'd thus. But such as thee—</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>Whom dost thou think me?</l>
+      </sp>
+      <sp who="#glenalvon">
+       <speaker>GLENALVON.</speaker>
+       <l>Norval.</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>So I am —</l>
+       <l>And who is NORVAL in GLENALVON's eyes?</l>
+      </sp>
+      <sp who="#glenalvon">
+       <speaker>GLENALVON.</speaker>
+       <l>A peasant's son, a wandering beggar-boy;</l>
+       <l>At best no more, even if he speaks the truth.</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>False as thou art, dost thou suspect my truth?</l>
+      </sp>
+      <sp who="#glenalvon">
+       <pb n="53" facs="58"/>
+       <speaker>GLENALVON.</speaker>
+       <l>Thy truth! thou'rt all a lye; and false as hell</l>
+       <l>Is the vain-glorious tale thou told'st to RANDOLPH.</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>If I were chain'd, unarm'd, and bedrid old,</l>
+       <l>Perhaps I should revile: But as I am</l>
+       <l>I have no tongue to rail. The humble NORVAL</l>
+       <l>Is of a race, who strive not but with deeds.</l>
+       <l>Did I not fear to freeze thy shallow valour,</l>
+       <l>And make thee sink too soon beneath my sword,</l>
+       <l>I'd tell thee—what thou art. I know thee well.</l>
+      </sp>
+      <sp who="#glenalvon">
+       <speaker>GLENALVON.</speaker>
+       <l>Dost thou not know GLENALVON, born to command</l>
+       <l>Ten thousand slaves like thee?</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>Villain, no more:</l>
+       <l>Draw and defend thy life. I did design</l>
+       <l>To have defy'd thee in another cause:</l>
+       <l>But heaven accelerates it's vengeance on thee.</l>
+       <l>Now for my own and Lady RANDOLPH's wrongs.</l>
+      </sp>
+      <stage>
+       <hi>Enter</hi> Lord RANDOLPH.</stage>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>Hold, I command you both. The man that stirs</l>
+       <l>Makes me his foe.</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>Another voice than thine</l>
+       <l>That threat had vainly sounded, noble RANDOLPH.</l>
+      </sp>
+      <sp who="#glenalvon">
+       <speaker>GLENALVON.</speaker>
+       <l>Hear him, my lord; he's wond'rous condescending!</l>
+       <l>Mark the humility of shepherd NORVAL!</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>Now you may scoff in safety.</l>
+      </sp>
+      <stage>(Sheaths his sword.)</stage>
+      <sp who="#lord_randolph">
+       <pb n="54" facs="59"/>
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>Speak not thus,</l>
+       <l>Taunting each other; but unfold to me</l>
+       <l>The cause of quarrel, then I judge betwixt you.</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>Nay, my good lord, tho' I revere you much,</l>
+       <l>My cause I plead not, nor demand your judgment.</l>
+       <l>I blush to speak; I will not, cannot speak</l>
+       <l>Th' opprobrious words that I from him have borne.</l>
+       <l>To the liege-lord of my dear native land</l>
+       <l>I owe a subject's homage: but ev'n him</l>
+       <l>And his high arbitration I'd reject.</l>
+       <l>Within my bosom reigns another lord;</l>
+       <l>Honour, sole judge and umpire of itself.</l>
+       <l>If my free speech offend you, noble RANDOLPH,</l>
+       <l>Revoke your favours, and let NORVAL go</l>
+       <l>Hence as he came, alone, but not dishonour'd.</l>
+      </sp>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>Thus far I'll mediate with impartial voice:</l>
+       <l>The ancient foe of Caledonia's land</l>
+       <l>Now waves his banners o'er her frighted fields.</l>
+       <l>Suspend your purpose, 'till your country's arms</l>
+       <l>Repel the bold invader: then decide,</l>
+       <l>The private quarrel.</l>
+      </sp>
+      <sp who="#glenalvon">
+       <speaker>GLENALVON.</speaker>
+       <l>I agree to this.</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>And I.</l>
+      </sp>
+      <stage>
+       <hi>Enter</hi> SERVANT.</stage>
+      <sp who="#servant">
+       <speaker>SERVANT.</speaker>
+       <l>The banquet waits.</l>
+      </sp>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>We come.</l>
+      </sp>
+      <stage>
+       <hi>Exit</hi> RANDOLPH.</stage>
+      <sp who="#glenalvon">
+       <speaker>GLENALVON.</speaker>
+       <l>Norval,</l>
+       <l>
+        <pb n="55" facs="60"/>Let not our variance mar the social hour,</l>
+       <l>Nor wrong the hospitality of RANDOLPH.</l>
+       <l>Nor frowning anger, nor yet wrinkl'd hate,</l>
+       <l>Shall stain my countenance. Smooth thou thy brow;</l>
+       <l>Nor let our strife disturb the gentle dame.</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>Think not so lightly, Sir, of my resentment:</l>
+       <l>When we contend again, our strife is mortal.</l>
+      </sp>
+     </div>
+     <trailer>
+      <hi>End of the</hi> FOURTH ACT.</trailer>
+    </div>
+    <div n="5" type="act">
+     <pb n="56" facs="61"/>
+     <head>ACT V.</head>
+     <div n="1" type="scene">
+      <head>SCENE I.</head>
+      <stage>The Wood.</stage>
+      <sp>
+       <stage>
+        <hi>Enter</hi> DOUGLAS.</stage>
+       <l>THIS is the place the centre of the grove.</l>
+       <l>Here stands the oak, the monarch of the wood.</l>
+       <l>How sweet and solemn is this mid-night scene!</l>
+       <l>The silver moon, unclouded, holds her way</l>
+       <l>Thro' skies where I could count each little star.</l>
+       <l>The fanning west wind scarcely stirs the leaves;</l>
+       <l>The river, rushing o'er its pebbled bed,</l>
+       <l>Imposes silence with a stilly sound.</l>
+       <l>In such a place as this at such an hour,</l>
+       <l>If ancestry can be in ought believ'd,</l>
+       <l>Descending spirits have convers'd with man,</l>
+       <l>And told the secrets of the world unknown.</l>
+      </sp>
+      <stage>
+       <hi>Enter</hi> Old NORVAL.</stage>
+      <sp who="#norval">
+       <speaker>Old NORVAL.</speaker>
+       <l>'Tis he. But what if he should chide me hence?</l>
+       <l>His just reproach I fear.</l>
+       <stage>DOUGLAS <hi>turns and sees him.</hi>
+       </stage>
+       <l>Forgive, forgive,</l>
+       <l>Can'st thou forgive the man, the selfish man,</l>
+       <l>Who bred Sir MALCOLM's heir a shepherd's son.</l>
+      </sp>
+      <sp who="#douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Kneel not to me: thou art my father still:</l>
+       <l>Thy wish'd-for presence now compleats my joy.</l>
+       <l>
+        <pb n="57" facs="62"/>Welcome to me, my fortunes thou shalt share,</l>
+       <l>And ever honour'd with thy DOUGLAS live.</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>Old NORVAL.</speaker>
+       <l>And do'st thou call me father? O my son!</l>
+       <l>I think that I could die to make amends</l>
+       <l>For the great wrong I did thee. 'Twas my crime</l>
+       <l>Which in the wilderness so long conceal'd</l>
+       <l>The blossom of thy youth.</l>
+      </sp>
+      <sp who="#douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Not worse the fruit,</l>
+       <l>That in the wilderness the blossom blow'd.</l>
+       <l>Amongst the shepherds, in the humble cote,</l>
+       <l>I learn'd some lessons, which I'll not forget</l>
+       <l>When I inhabit yonder lofty towers.</l>
+       <l>I, who was once a swain, will ever prove</l>
+       <l>The poor man's friend; and, when my vassals bow.</l>
+       <l>NORVAL shall smooth the crested pride of DOUGLAS.</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>Let me but live to see thine exaltation!</l>
+       <l>Yet grievous are my fears. O leave this place,</l>
+       <l>And those unfriendly towers.</l>
+      </sp>
+      <sp who="#douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Why should I leave them?</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>Lord RANDOLPH and his kinsman seek your life.</l>
+      </sp>
+      <sp who="#douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>How know'st thou that?</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>I will inform you how.</l>
+       <l>When evening came, I left the secret place</l>
+       <l>Appointed for me by your mother's care,</l>
+       <l>And fondly trod in each accustom'd path</l>
+       <l>That to the castle leads. Whilst thus I rang'd,</l>
+       <l>I was alarm'd with unexpected sounds</l>
+       <l>
+        <pb n="58" facs="63"/>Of earnest voices. On the persons came:</l>
+       <l>Unseen I lurk'd, and overheard them name</l>
+       <l>Each other as they talk'd, lord RANDOLPH this,</l>
+       <l>And that GLENALVON: still of you they spoke,</l>
+       <l>And of the lady: threatning was their speech,</l>
+       <l>Tho' but imperfectly my ear could hear it.</l>
+       <l>'Twas strange, they said, a wonderful discov'ry;</l>
+       <l>And ever and anon they vow'd revenge.</l>
+      </sp>
+      <sp who="#douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Revenge! for what?</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>For being what you are;</l>
+       <l>Sir MALCOLM's heir: how else have you offended?</l>
+       <l>When they were gone, I hied me to my cottage,</l>
+       <l>And there sat musing how I best might find</l>
+       <l>Means to inform you of their wicked purpose.</l>
+       <l>But I could think of none: at last perplex'd</l>
+       <l>I issued forth, encompassing the tower</l>
+       <l>With many a weary step and wishful look.</l>
+       <l>Now providence hath brought you to my sight,</l>
+       <l>Let not your too couragious spirit scorn</l>
+       <l>The caution which I give.</l>
+      </sp>
+      <sp who="#douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>I scorn it not.</l>
+       <l>My mother warn'd me of GLENALVON's baseness:</l>
+       <l>But I will not suspect the noble RANDOLPH.</l>
+       <l>In our encounter with the vile assassins,</l>
+       <l>In mark'd his brave demeanor: him I'll trust.</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>I fear you will too far.</l>
+      </sp>
+      <sp who="#douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Here in this place</l>
+       <l>I wait my mother's coming: she shall know</l>
+       <l>What thou hast told: her counsel I will follow:</l>
+       <l>
+        <pb n="59" facs="64"/>And cautious ever are a mother's counsels.</l>
+       <l>You must depart; your presence may prevent</l>
+       <l>Our interview.</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>My blessing rest upon thee!</l>
+       <l>O may heav'n's hand, which sav'd thee from the wave,</l>
+       <l>And from the sword of foes, be near thee still;</l>
+       <l>Turning mischance, if ought hangs o'er thy head,</l>
+       <l>All upon mine!</l>
+      </sp>
+      <stage>
+       <hi>Exit Old</hi> NORVAL.</stage>
+      <sp who="#douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>He loves me like a parent;</l>
+       <l>And must not, shall not lose the son he loves,</l>
+       <l>Altho' his son has found a nobler father.</l>
+       <l>Eventful day▪ how hast thou chang'd my state!</l>
+       <l>Once on the cold, and winter shaded side</l>
+       <l>Of a bleak hill, mischance had rooted me,</l>
+       <l>Never to thrive, child of another soil:</l>
+       <l>Transplanted now to the gay sunny vale,</l>
+       <l>Like the green thorn of May my fortune flowers.</l>
+       <l>Ye glorious stars! high heav'n's resplendent host!</l>
+       <l>To whom I oft have of my lot complain'd,</l>
+       <l>Hear and record my soul's unalter'd wish!</l>
+       <l>Dead or alive, let me but be renown'd!</l>
+       <l>May heav'n inspire some fierce gigantic Dane,</l>
+       <l>To give a bold defiance to our host!</l>
+       <l>Before he speaks it out I will accept;</l>
+       <l>Like DOUGLAS conquer, or like DOUGLAS die.</l>
+      </sp>
+      <stage>
+       <hi>Enter</hi> Lady RANDOLPH.</stage>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>My son! I heard a voice—</l>
+      </sp>
+      <sp who="#douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>—The voice was mine.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <pb n="60" facs="65"/>
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Didst thou complain aloud to nature's ear,</l>
+       <l>That thus in dusky shades, at mid-night hours,</l>
+       <l>By stealth the mother and the son should meet?</l>
+      </sp>
+      <stage>Embracing him.</stage>
+      <sp who="#douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>No; on this happy day, this better birth-day,</l>
+       <l>My thoughts and words are all of hope and joy.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Sad fear and melancholy still divide</l>
+       <l>The empire of my breast with hope and joy.</l>
+       <l>Now hear what I advise.</l>
+      </sp>
+      <sp who="#douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>First, let me tell</l>
+       <l>What may the tenor of your counsel change.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>My heart forebodes some evil!</l>
+      </sp>
+      <sp who="#douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>'Tis not good. —</l>
+       <l>At eve, unseen by RANDOLPH and GLENALVON,</l>
+       <l>The good old NORVAL in the grove o'er heard</l>
+       <l>Their conversation: oft they mention'd me</l>
+       <l>With dreadful threatnings; you they sometimes nam'd</l>
+       <l>'Twas strange, they said, a wonderful discov'ry;</l>
+       <l>And ever and anon they vow'd revenge.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Defend us gracious God! we are betray'd:</l>
+       <l>They have found out the secret of thy birth;</l>
+       <l>It must be so. That is the great discovery.</l>
+       <l>Sir MALCOLM's heir is come to claim his own;</l>
+       <l>And they will be reveng'd. Perhaps even now,</l>
+       <l>Arm'd and prepar'd for murder, they but wait</l>
+       <l>A darker and more silent hour, to break,</l>
+       <l>
+        <pb n="61" facs="66"/>Into the chamber where they think thou sleep'st.</l>
+       <l>This moment, this, heav'n hath ordain'd to save thee!</l>
+       <l>Fly to the camp, my son!</l>
+      </sp>
+      <sp who="#douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>And leave you here?</l>
+       <l>No: to the castle let us go together,</l>
+       <l>Call up the ancient servants of your house,</l>
+       <l>Who in their youth did eat your father's bread.</l>
+       <l>Then tell them loudly that I am your son.</l>
+       <l>If in the breasts of men one spark remains</l>
+       <l>Of sacred love, fidelity, or pity,</l>
+       <l>Some in your cause will arm. I ask but few</l>
+       <l>To drive those spoilers from my father's house.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>O nature, nature! what can check thy force?</l>
+       <l>Thou genuine offspring of the daring DOUGLAS!</l>
+       <l>But rush not on destruction: save thyself,</l>
+       <l>And I am safe. To me they mean no harm.</l>
+       <l>Thy stay but risks thy precious life in vain.</l>
+       <l>That winding path conducts thee to the river.</l>
+       <l>Cross where thou seest a broad and beaten way,</l>
+       <l>Which running eastward leads thee to the camp.</l>
+       <l>Instant demand admittance to Lord DOUGLAS.</l>
+       <l>Shew him these jewels, which his brother wore.</l>
+       <l>Thy look, thy voice, will make him feel the truth,</l>
+       <l>Which I by certain proof will soon confirm.</l>
+      </sp>
+      <sp who="#douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>I yield me and obey: but yet my heart</l>
+       <l>Bleeds at this parting. Something bids me stay</l>
+       <l>And guard a mother's life. Oft have I read</l>
+       <l>Of wond'rous deeds by one bold arm atchiev'd.</l>
+       <l>Our foes are two; no more: let me go forth,</l>
+       <l>And see if any shield can guard GLENALVON.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>If thou regard'st thy mother, or rever'st</l>
+       <l>Thy father's mem'ry, think of this no more.</l>
+       <l>
+        <pb n="62" facs="67"/>One thing I have to say before we part:</l>
+       <l>Long wert thou lost; and thou art found, my child,</l>
+       <l>In a most fearful season. War and battle</l>
+       <l>have great cause to dread. Too well I see</l>
+       <l>Which way the current of thy temper sets:</l>
+       <l>To day I've found thee. Oh! my long lost hope!</l>
+       <l>If thou to giddy valour giv'st the rein,</l>
+       <l>To morrow I may lose my son for ever.</l>
+       <l>The love of thee, before thou saw'st the light,</l>
+       <l>Sustain'd my life when thy brave father fell.</l>
+       <l>If thou shalt fall, I have nor love nor hope</l>
+       <l>In this waste world! my son, remember me!</l>
+      </sp>
+      <sp who="#douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>What shall I say? how can I give you comfort?</l>
+       <l>The God of battles of my life dispose</l>
+       <l>As may be best for you! for whose dear sake</l>
+       <l>I will not bear myself as I resolv'd.</l>
+       <l>But yet consider, as no vulgar name</l>
+       <l>That which I boast sounds amongst martial men.</l>
+       <l>How will inglorious caution suit my claim?</l>
+       <l>The post of fate unshrinking I maintain.</l>
+       <l>My country's foes must witness who I am.</l>
+       <l>On the invaders heads I'll prove my birth,</l>
+       <l>'Till friends and foes confess the genuine strain.</l>
+       <l>If in this strife I fall, blame not your son,</l>
+       <l>Who if he lives not honour'd, must not live.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>I will not utter what my bosom feels.</l>
+       <l>Too well I love that valour which I warn.</l>
+       <l>Farewell, my son! my counsels are but vain.</l>
+       <stage>Embracing.</stage>
+       <l>And as high heaven hath will'd it all must be.
+<stage>separate.</stage>
+       </l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Gaze not on me, thou wilt mistake the path;</l>
+       <l>
+        <pb n="63" facs="68"/>I'll point it out again.</l>
+      </sp>
+      <stage>[<hi>Just as they are separating, enter from the wood Lord</hi> RANDOLPH <hi>and</hi> GLENALVON.]</stage>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>Not in her presence.</l>
+       <l>Now —</l>
+      </sp>
+      <sp who="#glenalvon">
+       <speaker>GLENALVON.</speaker>
+       <l>I'm prepar'd.</l>
+      </sp>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>No: I command thee stay.</l>
+       <l>I go alone: it never shall be said</l>
+       <l>That I took odds to combat mortal man.</l>
+       <l>The noblest vengeance is the most compleat.</l>
+      </sp>
+      <stage>[<hi>Exit Lord</hi> RANDOLPH.]</stage>
+      <stage>[GLENALVON <hi>makes some steps to the same side of the stage, listens and speaks.</hi>]</stage>
+      <sp who="#glenalvon">
+       <speaker>GLENALVON.</speaker>
+       <l>Demons of death come settle on my sword,</l>
+       <l>And to a double slaughter guide it home!</l>
+       <l>The lover and the husband both must die.</l>
+      </sp>
+      <stage>[Lord RANDOLPH <hi>behind the scenes.</hi>]</stage>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>Draw, Villain! draw.</l>
+      </sp>
+      <sp who="#douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Assail me not Lord, RANDOLPH;</l>
+       <l>Not as thou lov'st thy self.</l>
+       <stage>[Clashing of swords.]</stage>
+       <stage>[GLENALVON <hi>running out.</hi>]</stage>
+       <l>Now is the time.</l>
+      </sp>
+      <stage>
+       <hi>Enter</hi> Lady RANDOLPH <hi>at the opposite side of the stage, faint and breathless.</hi>
+      </stage>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Lord RANDOLPH hear me; all shall be thine own:</l>
+       <l>
+        <pb n="64" facs="69"/>But spare! Oh spare my son!</l>
+       <stage>
+        <hi>Enter</hi> DOUGLAS <hi>with a sword in each hand.</hi>
+       </stage>
+       <l>My mother's voice!</l>
+       <l>I can protect thee still.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>He lives, he lives:</l>
+       <l>For this, for this to heaven eternal praise!</l>
+       <l>But sure I saw thee fall.</l>
+      </sp>
+      <sp who="#douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>It was GLENALVON.</l>
+       <l>Just as my arm had master'd RANDOLPH's sword,</l>
+       <l>The villain came behind me; but I flew him.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Behind thee! Ah; thou'rt wounded! O my child,</l>
+       <l>How pale thou look'st! and shall I lose thee now?</l>
+      </sp>
+      <sp who="#douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Do not despair: I feel a little faintness;</l>
+       <l>I hope it will not last.</l>
+      </sp>
+      <stage>[Leans upon his sword.]</stage>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>There is no hope!</l>
+       <l>And we must part! the hand of death is on thee!</l>
+       <l>O my beloved child! O DOUGLAS, DOUGLAS!</l>
+      </sp>
+      <stage>[DOUGLAS <hi>growing more and more faint.</hi>]</stage>
+      <sp who="#douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Too soon we part: I have not long been DOUGLAS.</l>
+       <l>O destiny! hardly thou dealst with me:</l>
+       <l>Clouded and hid, a stranger to myself,</l>
+       <l>In low and poor obscurity I liv'd.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Has heav'n preserv'd thee for an end like this?</l>
+      </sp>
+      <sp who="#douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>O had I fallen as my brave fathers fell,</l>
+       <l>
+        <pb n="65" facs="70"/>Turning with fatal arm the tide of battle!</l>
+       <l>Like them I should have smil'd and welcom'd death.</l>
+       <l>But thus to perish by a villain's hand!</l>
+       <l>Cut off from nature's and from glory's course,</l>
+       <l>Which never mortal was so fond to run.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Hear justice! hear! are these the fruits of virtue?</l>
+      </sp>
+      <stage>[DOUGLAS <hi>falls.</hi>]</stage>
+      <sp who="#douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Unknown I die; no tongue shall speak of me. —</l>
+       <l>Some noble spirits, judging by themselves,</l>
+       <l>May yet conjecture what I might have prov'd,</l>
+       <l>And think life only wanting to my fame:</l>
+       <l>But who shall comfort thee?</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Despair! despair!</l>
+      </sp>
+      <sp who="#douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>O had it pleas'd high heaven to let me live</l>
+       <l>A little while! — my eyes that gaze on thee</l>
+       <l>Grow dim apace! my mother —
+<stage>[Dies.]</stage>
+       </l>
+      </sp>
+      <stage>
+       <hi>Enter Lord</hi> RANDOLPH <hi>and</hi> ANNA.</stage>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>Thy words, the words of truth, have pierc'd my heart.</l>
+       <l>I am the stain of knighthood and of arms.</l>
+       <l>Oh! if my brave deliverer survives</l>
+       <l>The traitor's sword —</l>
+      </sp>
+      <sp who="#anna">
+       <speaker>ANNA.</speaker>
+       <l>Alas! look there, my lord.</l>
+      </sp>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>The mother and her son! How curst I am!</l>
+       <l>Was I the cause? No: I was not the cause.</l>
+       <l>Yon matchless villain did seduce my soul</l>
+       <l>To frantic jealousy.</l>
+      </sp>
+      <sp who="#anna">
+       <pb n="66" facs="71"/>
+       <speaker>ANNA.</speaker>
+       <l>My lady lives:</l>
+       <l>The agony of grief hath but supprest</l>
+       <l>Awhile her powers.</l>
+      </sp>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>But my deliverer's dead!</l>
+       <l>The world did once esteem Lord RANDOLPH well.</l>
+       <l>Sincere of heart, for spotless honour fam'd:</l>
+       <l>And, in my early days, glory I gain'd</l>
+       <l>Beneath the holy banner of the cross.</l>
+       <l>Now past the noon of life, shame comes upon me;</l>
+       <l>Reproach, and infamy, and public hate,</l>
+       <l>Are near at hand: for all mankind will think</l>
+       <l>That RANDOLPH basely stab'd Sir MALCOLM's heir.</l>
+      </sp>
+      <stage>Lady RANDOLPH <hi>recovering.</hi>
+      </stage>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Where am I now? still in this wretched world!</l>
+       <l>Grief cannot break a heart so hard as mine.</l>
+       <l>My youth was worn in anguish: but youth's strength,</l>
+       <l>With hope's assistance, bore the brunt of sorrow;</l>
+       <l>And train'd me on to be the object now,</l>
+       <l>On which omnipotence displays itself,</l>
+       <l>Making a spectacle, a tale of me,</l>
+       <l>To awe it's vassal, man.</l>
+      </sp>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>O misery!</l>
+       <l>Amidst thy raging grief I must proclaim</l>
+       <l>My innocence.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Thy innocence!</l>
+      </sp>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>My guilt</l>
+       <l>Is innocence, compared with what thou think'st it.</l>
+      </sp>
+      <sp who="#lady_randolph">
+       <pb n="67" facs="72"/>
+       <speaker>Lady RANDOLPH.</speaker>
+       <l>Of thee I think not: what have I to do</l>
+       <l>With thee, or any thing? My son! my son!</l>
+       <l>My beautiful! my brave! how proud was I</l>
+       <l>Of thee, and of thy valour! My fond heart</l>
+       <l>O'erflow'd this day with transport, when I thought</l>
+       <l>Of growing old amidst a race of thine,</l>
+       <l>Who might make up to me their father's childhood,</l>
+       <l>And bear my brother's and my husband's name:</l>
+       <l>Now all my hopes are dead! A little while</l>
+       <l>Was I a wife! a mother not so long!</l>
+       <l>What am I now? — I know. — But I shall be</l>
+       <l>That only whilst I please; for such a son</l>
+       <l>And such a husband make a woman bold.</l>
+      </sp>
+      <stage>Runs out.</stage>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>Follow her, ANNA: I myself would follow,</l>
+       <l>But in this rage she must abhor my presence.</l>
+      </sp>
+      <stage>
+       <hi>Exit</hi> ANNA.</stage>
+      <stage>
+       <hi>Enter</hi> Old NORVAL.</stage>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>I heard the voice of woe; heaven guard my child!</l>
+      </sp>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>Already is the idle gaping croud,</l>
+       <l>The spiteful vulgar, come to gaze on RANDOLPH.</l>
+       <l>Begone.</l>
+      </sp>
+      <sp who="#norval">
+       <speaker>NORVAL.</speaker>
+       <l>I fear thee not. I will not go.</l>
+       <l>Here I'll remain. I'm an accomplice, Lord,</l>
+       <l>
+        <pb n="68" facs="73"/>With thee in murder. Yes, my sins did help</l>
+       <l>To crush down to the ground this lovely plant.</l>
+       <l>O noblest youth that ever yet was born!</l>
+       <l>Sweetest and best, gentlest and bravest spirit,</l>
+       <l>That ever bless'd the world! Wretch that I am,</l>
+       <l>Who saw that noble spirit swell and rise</l>
+       <l>Above the narrow limits that confin'd it!</l>
+       <l>Yet never was by all thy virtues won</l>
+       <l>To do thee justice, and reveal the secret,</l>
+       <l>Which timely known, had rais'd thee far above</l>
+       <l>The villain's snare. Oh! I am punish'd now!</l>
+       <l>These are the hairs that should have strew'd the ground,</l>
+       <l>And not the locks of DOUGLAS.</l>
+      </sp>
+      <stage>Tears his hair, and throws himself upon the ground.</stage>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>I know thee now: thy boldness I forgive:</l>
+       <l>My crest is fallen. For thee I will appoint</l>
+       <l>A place of rest, if grief will let thee rest.</l>
+       <l>I will reward, altho' I cannot punish.</l>
+       <l>Curst, curst GLENALVON, he escap'd too well,</l>
+       <l>Tho' slain and baffled by the hand he hated.</l>
+       <l>Foaming with rage and fury to the last,</l>
+       <l>Cursing his conqueror, the felon dy'd.</l>
+      </sp>
+      <stage>
+       <hi>Enter</hi> ANNA.</stage>
+      <sp who="#anna">
+       <speaker>ANNA.</speaker>
+       <l>My Lord, my Lord!</l>
+      </sp>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>Speak: I can hear of horror.</l>
+      </sp>
+      <sp who="#anna">
+       <pb n="69" facs="74"/>
+       <speaker>ANNA.</speaker>
+       <l>Horror indeed!</l>
+      </sp>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>MATILDA?</l>
+      </sp>
+      <sp who="#anna">
+       <speaker>ANNA.</speaker>
+       <l>Is no more:</l>
+       <l>She ran, she flew like light'ning up the hill,</l>
+       <l>Nor halted till the precipice she gain'd,</l>
+       <l>Beneath whose low'ring top the river falls</l>
+       <l>Ingulph'd in rifted rocks: thither she came,</l>
+       <l>As fearless as the eagle lights upon it,</l>
+       <l>And headlong down. —</l>
+      </sp>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>'Twas I! alas! 'twas I</l>
+       <l>That fill'd her breast with fury; drove her down</l>
+       <l>The precipice of death! Wretch that I am!</l>
+      </sp>
+      <sp who="#anna">
+       <speaker>ANNA.</speaker>
+       <l>O had you seen her last despairing look!</l>
+       <l>Upon the brink she stood, and cast her eyes</l>
+       <l>Down on the deep: then lifting up her head</l>
+       <l>And her white hands to heaven, seeming to say,</l>
+       <l>Why am I forc'd to this? She plung'd herself</l>
+       <l>Into the empty air.</l>
+      </sp>
+      <sp who="#lord_randolph">
+       <speaker>Lord RANDOLPH.</speaker>
+       <l>I will not vent,</l>
+       <l>In vain complaints, the passion of my soul.</l>
+       <l>Peace in this world I never can enjoy.</l>
+       <l>These wounds the gratitude of RANDOLPH gave.</l>
+       <l>They speak aloud, and with the voice of fate</l>
+       <l>
+        <pb n="70" facs="75"/>Denounce my doom. I am resolv'd. I'll go</l>
+       <l>Straight to the battle, where the man that makes</l>
+       <l>Me turn aside must threaten worse than death.</l>
+       <l>Thou, faithful to thy mistress, take this ring,</l>
+       <l>Full warrant of my power. Let every rite</l>
+       <l>With cost and pomp upon their funerals wait:</l>
+       <l>For RANDOLPH hopes he never shall return.</l>
+      </sp>
+     </div>
+    </div>
+    <trailer>FINIS.</trailer>
+   </div>
+  </body>
+  <back>
+   <div type="epilogue">
+    <pb facs="76"/>
+    <head>EPILOGUE.</head>
+    <byline>Spoken by Mr. BARRY.</byline>
+    <sp>
+     <l>AN Epilogue I ask'd; but not one word</l>
+     <l>Our bard will write. He vows 'tis most absurd</l>
+     <l>With comick wit to contradict the strain</l>
+     <l>Of tragedy, and make your sorrows vain.</l>
+     <l>Sadly he says, that pity is the best,</l>
+     <l>And noblest passion of the human breast:</l>
+     <l>For when its sacred streams the heart o'er-flow,</l>
+     <l>In gushes pleasure with the tide of woe;</l>
+     <l>And when its waves retire, like those of <hi>Nile,</hi>
+     </l>
+     <l>They leave behind them such a golden soil,</l>
+     <l>That there the virtues without culture grow,</l>
+     <l>There the sweet blossoms of affection blow.</l>
+     <l>These were his words; void of delusive art</l>
+     <l>I felt them; for he spoke them from his heart.</l>
+     <l>Nor will I now attempt, with witty folly,</l>
+     <l>To chace away celestial melancholy.</l>
+    </sp>
+   </div>
+  </back>
+ </text>
+</TEI>

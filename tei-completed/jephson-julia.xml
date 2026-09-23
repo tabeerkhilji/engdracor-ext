@@ -1,0 +1,4102 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">Julia</title>
+    <title type="sub">or, the Italian lover. A tragedy. As it is acted at the Theatre-Royal, in Drury-Lane. By Robert Jephson, Esq.</title>
+    <author>
+     <persName>
+      <surname>Jephson</surname>
+      <forename>Robert</forename>
+      <idno type="VIAF">59440783</idno>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>Julia: or, the Italian lover. A tragedy. As it is acted at the Theatre-Royal, in Drury-Lane. By Robert Jephson, Esq.</name>
+     <author>Jephson, Robert, 1736-1803.</author>
+     <publisher>printed for Charles Dilly,</publisher>
+     <date>1787.</date>
+     <pubPlace>London :</pubPlace>
+     <note>With a half-title.</note>
+     <note>Reproduction of original from the British Library.</note>
+     <note>English Short Title Catalog, ESTCT29278.</note>
+     <note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note>
+    </bibl>
+    <biblFull n="printed source">
+     <publicationStmt>
+      <authority ref="#JJ">Jan Jokisch</authority>
+      <date>2024 December</date>
+      <idno type="ECCO_Drama">K033714.000</idno>
+      <idno type="DLPS">004799611</idno>
+      <idno type="ESTC">T29278</idno>
+      <idno type="DocNo">CW113880691</idno>
+      <idno type="TCP">K033714.000</idno>
+      <idno type="GaleDocNo">CW3313880691</idno>
+      <idno type="ContentSet">ECLL</idno>
+      <idno type="ImageSetID">0532001300</idno>
+      <availability>
+       <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+      </availability>
+     </publicationStmt>
+    </biblFull>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    <person xml:id="duke_of_genoa"><persName>Duke of Genoa</persName><sex value="MALE"/></person><person xml:id="durazzo"><persName>Durazzo</persName><sex value="MALE"/></person><person xml:id="mentevole"><persName>Mentevole</persName><sex value="MALE"/></person><person xml:id="marcellus"><persName>Marcellus</persName><sex value="MALE"/></person><person xml:id="camillo"><persName>Camillo</persName><sex value="MALE"/></person><person xml:id="manoa"><persName>Manoa</persName><sex value="MALE"/></person><person xml:id="fulvia"><persName>Fulvia</persName><sex value="FEMALE"/></person><person xml:id="julia"><persName>Julia</persName><sex value="FEMALE"/></person><person xml:id="olympia"><persName>Olympia</persName><sex value="FEMALE"/></person><person xml:id="nernia"><persName>Nernia</persName><sex value="FEMALE"/></person><person xml:id="officer"><persName>Officer</persName><sex value="MALE"/></person><person xml:id="servant"><persName>Servant</persName><sex value="MALE"/></person></listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1787">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text xml:lang="en">
+  <front>
+   <div type="halftitle">
+    <pb facs="1" ana="y"/>
+    <p>JULIA; OR, THE ITALIAN LOVER. A TRAGEDY.</p>
+   </div>
+   <div type="bythesameauthor">
+    <pb facs="2"/>
+    <p>LATELY PUBLISHED, BY THE SAME AUTHOR, (A NEW EDITION,) THE COUNT OF NARBONNE, A TRAGEDY.</p>
+   </div>
+   <div type="titlepage">
+    <pb facs="3" ana="y"/>
+    <p>JULIA; OR, THE ITALIAN LOVER. A TRAGEDY. AS IT IS ACTED AT THE THEATRE-ROYAL, IN DRURY-LANE.</p>
+    <p>By ROBERT JEPHSON, ESQ.</p>
+    <quote>—primus amor deceptam morte fefellit.</quote>
+    <bibl>VIRG.</bibl>
+    <p>LONDON: PRINTED FOR CHARLES DILLY, IN THE POULTRY. M DCC LXXXVII.</p>
+   </div>
+   <div type="dedication">
+    <pb facs="4"/>
+    <p>TO HIS GRACE CHARLES DUKE OF RUTLAND, KNIGHT OF THE MOST NOBLE ORDER OF THE GARTER, LORD LIEUTENANT OF IRELAND, &amp;c. &amp;c. &amp;c. IN TESTIMONY OF UNALTERABLE ESTEEM, AFFECTION, AND GRATITUDE, THIS TRAGEDY IS INSCRIBED, BY HIS GRACE'S MUCH OBLIGED, AND MOST OBEDIENT, HUMBLE SERVANT▪</p>
+    <closer>
+     <signed>ROBERT JEPHSON.</signed>
+     <dateline>DURLIN CASTLE, <date>
+       <hi>April</hi> 11, 1787.</date>
+     </dateline>
+    </closer>
+   </div>
+   <div type="prologue">
+    <pb facs="5"/>
+    <head>PROLOGUE;</head>
+    <byline>Written by EDMOND MALONE, Esq.</byline>
+    <byline>Spoken by Mr. KEMBLE.</byline>
+    <sp>
+     <l>FROM Thespis' days to this enlighten'd hour,</l>
+     <l>The stage has shewn the dire abuse of power;</l>
+     <l>What mighty mischief from ambition springs;</l>
+     <l>The fate of heroes, and the fall of kings.</l>
+     <l>But these high themes, howe'er adorn'd by art,</l>
+     <l>Have seldom gain'd the passes of the heart:</l>
+     <l>Calm we behold the pompous mimick woe,</l>
+     <l>Unmov'd by sorrows we can never know.</l>
+     <l>Far other feelings in the soul arise,</l>
+     <l>When private griefs arrest our ears and eyes;</l>
+     <l>When the false friend, and blameless, suffering wife,</l>
+     <l>Reflect the image of domestick life:</l>
+     <l>And still more wide the sympathy, more keen,</l>
+     <l>When to each breast responsive is the scene;</l>
+     <l>And the sine cords that <hi>every</hi> heart intwine,</l>
+     <l>Dilated, vibrate with the glowing line.—</l>
+     <l>Such is the theme, that now demands your ear,</l>
+     <l>And claims the silent plaudit of a tear.</l>
+     <l>One tyrant passion all mankind must prove;</l>
+     <l>The balm or poison of our lives—is <hi>love.</hi>
+     </l>
+     <l>Love's sovereign sway extends o'er every clime,</l>
+     <l>Nor owns a limit or of space or time.</l>
+     <l>For love, the generous fair one hath sustain'd</l>
+     <l>More poignant ilis than ever poet feign'd.</l>
+     <l>For love, the maid partakes her lover's tomb,</l>
+     <l>Or pines long life out in sad foothless gloom.</l>
+     <l>
+      <pb facs="6"/>Ne'er shall Oblivion shroud the Grecian wife<note n="*" place="foot">—Spectant subeuntem fata mariti, <bibl>
+        <hi>Alcenstem. JUV.</hi>
+       </bibl>
+      </note>,</l>
+     <l>Who gave her own, to save a husband's life.</l>
+     <l>With her contending, see our Edward's bride,</l>
+     <l>Imbibing poison from his mangled side.</l>
+     <l>Nor less, though proud of intellectual sway,</l>
+     <l>Does haughty man the tyrant power obey:</l>
+     <l>From youth to age by love's wild tempest tost,</l>
+     <l>For love, even mighty kingdoms has he lost.</l>
+     <l>Vain—wealth, and fame, and Fortune's fost'ring care<note n="†" place="foot">
+       <l>Thou art slave, whom Fortune's tender arm</l>
+       <l>With favour never clasp'd.</l>
+       <bibl>
+        <hi>Timon of Athens.</hi>
+       </bibl>
+      </note>,</l>
+     <l>If no fond breast the splendid blessings share;</l>
+     <l>And, each day's bustling pageantry once past,</l>
+     <l>
+      <hi>There, only</hi> there, his bliss is found at last.</l>
+     <l>For woes fictitious oft your tears have flow'd;</l>
+     <l>Your cheek for wrongs imaginary glow'd.</l>
+     <l>To-night our poet means not to assail</l>
+     <l>Your throbbing bosoms with a fancy'd tale.</l>
+     <l>Scarce sixty suns their annual course have roll'd,</l>
+     <l>Since all was real that our scenes unfold.</l>
+     <l>To touch your breasts with no unpleasing pain,</l>
+     <l>The Muse's magick bids it live again:</l>
+     <l>Bids mingled character, as once in life,</l>
+     <l>Resume their functions, and renew their strife;</l>
+     <l>While pride, revenge, and jealousy's wild rage,</l>
+     <l>Rouse all the genius of the impassion'd stage.</l>
+    </sp>
+   </div>
+   <div type="Dramatis_Personae">
+    <pb facs="7"/>
+    <p>
+     <hi>Officer, Guards, and Attendants.</hi>
+    </p>
+    <castList>
+     <head>Persons Represented.</head>
+     <castItem>
+      <role>Duke of Genoa</role>
+      <actor>Mr. PACKER</actor>
+     </castItem>
+     <castItem>
+      <role>Durazzo, a Nobleman, father of Julia</role>
+      <actor>Mr. BENSLEY</actor>
+     </castItem>
+     <castItem>
+      <role>Mentevole, a young Nobleman, in love with Julia</role>
+      <actor>Mr. KEMBLE</actor>
+     </castItem>
+     <castItem>
+      <role>Marcellus, a young Nobleman, son of Fulvia</role>
+      <actor>Mr. PALMER</actor>
+     </castItem>
+     <castItem>
+      <role>Camillo, his cousin, and friend</role>
+      <actor>Mr. WHITFIELD</actor>
+     </castItem>
+     <castItem>
+      <role>Manoa, a Merchant</role>
+      <actor>Mr. AIKIN</actor>
+     </castItem>
+     <castItem>
+      <role>Fulvia, mother of Marcellus</role>
+      <actor>Mrs. WARD</actor>
+     </castItem>
+     <castItem>
+      <role>Julia, daughter of Durazzo</role>
+      <actor>Mrs. SIDDONS</actor>
+     </castItem>
+     <castItem>
+      <role>Olympia, her friend, and sister of Mentevole</role>
+      <actor>Mrs. BRERETON</actor>
+     </castItem>
+     <castItem>
+      <role>Nerina, attendant on Julia</role>
+      <actor>Miss TIDSWELL</actor>
+     </castItem>
+    </castList>
+   </div>
+   <set>
+    <p>
+     <hi>SCENE,</hi> Genoa.</p>
+   </set>
+  </front>
+  <body>
+   <div type="play">
+    <pb facs="8"/>
+    <head>JULIA; OR, THE ITALIAN LOVER. A TRAGEDY.</head>
+    <div n="1" type="act">
+     <head>ACT I.</head>
+     <div n="1" type="scene">
+      <head>
+       <hi>SCENE I.</hi>
+      </head>
+      <stage>A Platform.</stage>
+      <stage>
+       <hi>Enter</hi> MARCELLUS, <hi>supporting</hi> MANOA; <hi>Attendants behind.</hi>
+      </stage>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>LOOK up, sir; you are safe. The tempest's wildness</l>
+       <l>Seems hush'd on shore. Where was your vessel bound?</l>
+      </sp>
+      <sp who="#manoa">
+       <speaker>MANOA.</speaker>
+       <l>Ancona was her port; the hurricane</l>
+       <l>Baffled our pilot's skill, and drove us headlong</l>
+       <l>(Just as your ship made good her anchorage,)</l>
+       <l>On the sharp rock, where you beheld her split.</l>
+       <l>All my companions, fifty luckless men,</l>
+       <l>Sunk in my sight; and I had shar'd their fate,</l>
+       <l>Had not your strong arm sav'd me. But, alas,</l>
+       <l>We are in Genoa, if mine eyes deceive not.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>The same.</l>
+      </sp>
+      <sp who="#manoa">
+       <pb n="2" facs="9"/>
+       <speaker>MANOA.</speaker>
+       <l>Too well I know it. Shield me Heaven!</l>
+       <l>For what am I reserv'd?</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>I hope, to lose</l>
+       <l>The memory of your grief, and find peace here.</l>
+      </sp>
+      <sp who="#manoa">
+       <speaker>MANOA.</speaker>
+       <l>O no! to lose my life, if I'm found here.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>Pray, let me know your story. By your habit</l>
+       <l>I guess you are not of our faith or nation.</l>
+      </sp>
+      <sp who="#manoa">
+       <speaker>MANOA.</speaker>
+       <l>I am by birth of Syria; but here sojourn'd</l>
+       <l>Twice twenty years in wealth and fair repute,</l>
+       <l>Till Christian malice, or my nation's curse,</l>
+       <l>Or both combining, turn'd me forth a wanderer.</l>
+       <l>Look there, that very mansion once was mine.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>I now recall some traces of that face:</l>
+       <l>Your name is Manoa?</l>
+      </sp>
+      <sp who="#manoa">
+       <speaker>MANOA.</speaker>
+       <l>Ay, that wretch am I.</l>
+       <l>Thou hast an aspect to benign and noble,</l>
+       <l>Thou could'st not injure me.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS,</speaker>
+       <l>Myself much sooner.</l>
+      </sp>
+      <sp who="#manoa">
+       <speaker>MANOA.</speaker>
+       <l>This state, for its late levies 'gainst the Turk,</l>
+       <l>Call'd on all traffickers for sums of gold;</l>
+       <l>
+        <pb n="3" facs="10"/>Our tribe, at my persuasion, furnish'd them,</l>
+       <l>On rates so easy to the borrowers,</l>
+       <l>The native merchants' offers were refus'd,</l>
+       <l>And publick clamour, and disgrace, pursued them:</l>
+       <l>Thence grew their hate. Of black and monstrous crimes,</l>
+       <l>Avouch'd on oath by witnesses suborn'd,</l>
+       <l>They charg'd me guiltless: flight alone was left,</l>
+       <l>To save my hunted life.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>And I remember,</l>
+       <l>'Twas rumour'd you had perish'd by the sea,</l>
+       <l>Attempting your escape; and so believ'd:</l>
+       <l>Knaves call'd your fate a judgment.</l>
+      </sp>
+      <sp who="#manoa">
+       <speaker>MANOA.</speaker>
+       <l>To prevent</l>
+       <l>A hot pursuit, the Hebrews here in Genoa</l>
+       <l>By common concert spread abroad that rumour.</l>
+       <l>The death they feign'd, this morning, but for thee,</l>
+       <l>My brave preserver, had indeed o'erta'en me.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>I can do more to serve you. Name your wish.</l>
+      </sp>
+      <sp who="#manoa">
+       <speaker>MANOA.</speaker>
+       <l>At present, this. Not far from hence resides</l>
+       <l>The lord Durazzo, whose great wealth and power,</l>
+       <l>As heaven sends dews and sunshine, are dispens'd</l>
+       <l>To gladden every humble thing beneath them.</l>
+       <l>Let your men help me there, for I am feeble;</l>
+       <l>And this disguise may save me from the note</l>
+       <l>Of those who pass,—though in this slothful city</l>
+       <l>Few leave their down so early.</l>
+      </sp>
+      <sp who="#marcellus">
+       <pb n="4" facs="11"/>
+       <speaker>MARCELLUS.</speaker>
+       <l>Sir, farewel!</l>
+       <l>You shall hear more of me.</l>
+      </sp>
+      <sp who="#manoa">
+       <speaker>MANOA.</speaker>
+       <l>Accept my prayers!</l>
+       <l>My heart's too full to speak the thanks I owe you.</l>
+      </sp>
+      <stage>
+       <hi>Exit</hi> MANOA. <hi>with Attendants.</hi>
+      </stage>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>He has been sorely wrong'd.—But who goes there?</l>
+       <stage>CAMILLO <hi>passes over the stage.</hi>
+       </stage>
+       <l>I cannot sure mistake him: 'Tis Camillo.</l>
+       <l>Good kinsman, turn, and own a friend who loves you.</l>
+      </sp>
+      <stage>CAMILLO <hi>returns.</hi>
+      </stage>
+     </div>
+     <div n="2" type="scene">
+      <head>SCENE II.</head>
+      <stage>CAMILLO, MARCELLUS.</stage>
+      <sp who="#camillo">
+       <speaker>CAMILLO.</speaker>
+       <l>A gentle invitation. Ha! Marcellus!</l>
+       <l>Welcome once more to Genoa, my dear cousin, <stage>embracing.</stage>
+       </l>
+       <l>We heard you had escap'd with some slight hurts</l>
+       <l>That bloody lingering business there at Candia;</l>
+       <l>But such fierce storms of late have swept our coasts,</l>
+       <l>Our fears were, lest the angry elements,</l>
+       <l>Leaguing alike against the Christian cross,</l>
+       <l>Might prove worse foes even than the infidels.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>We had rough weather, but our sturdy bark</l>
+       <l>Out-rode it. Is my mother well? At leisure</l>
+       <l>I shall fatigue your ear with other questions</l>
+       <l>My ignorance and your kindness must excuse.</l>
+      </sp>
+      <sp who="#camillo">
+       <pb n="5" facs="12"/>
+       <speaker>CAMILLO.</speaker>
+       <l>You have not seen her then?</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>No. I arriv'd</l>
+       <l>Within this hour; and knowing how she lov'd,</l>
+       <l>Lov'd even to dotage, my poor brother Claudio,</l>
+       <l>(Lost by a fate so strange and horrible,)</l>
+       <l>I would not rush at once into her presence,</l>
+       <l>Till some kind friend, like you, should first inform me,</l>
+       <l>How best to assuage her grief, and hide my own.</l>
+      </sp>
+      <sp who="#camillo">
+       <speaker>CAMILLO.</speaker>
+       <l>Thought like a son. But O, his vanish'd form,</l>
+       <l>Again presented in your living likeness,</l>
+       <l>Will with the strong extreme convulse her soul,</l>
+       <l>And joy so mix'd with anguish doubly shake her.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>'Twas what I fear'd, Camillo. I must try then</l>
+       <l>To fix her fond attention on myself,</l>
+       <l>And shun that direful theme.</l>
+      </sp>
+      <sp who="#camillo">
+       <speaker>CAMILLO.</speaker>
+       <l>Direful indeed!</l>
+       <l>(How my heart shrinks even now think of it!)</l>
+       <l>'Tis ever present to her tortur'd fancy:</l>
+       <l>And we who daily see her, have observ'd,</l>
+       <l>Our care to give the current of her thoughts</l>
+       <l>A different course, but swells up her impatience.</l>
+       <l>You know the lady Fulvia's ardent temper,</l>
+       <l>How sudden, yet how strong in every feeling.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>Our burning mountains, when their fires burst forth,</l>
+       <l>
+        <pb n="6" facs="13"/>Rage not more fiercely than her breast inflam'd.</l>
+       <l>But is it possible, in all this time,</l>
+       <l>Months after months elaps'd, no light, no spark,</l>
+       <l>To guide to a discovery has been trac'd?</l>
+       <l>The Turkish gallies so o'erspread the sea,</l>
+       <l>My letters rarely reach'd me while at Candia.</l>
+      </sp>
+      <sp who="#camillo">
+       <speaker>CAMILLO.</speaker>
+       <l>What have you heard?</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>But thus much, and no more:</l>
+       <l>Two days ere that for his intended marriage</l>
+       <l>With good Durazzo's daughter, lovely Julia,</l>
+       <l>Was Claudio missing; two days more were pass'd</l>
+       <l>In fruitless search, and sad anxiety:</l>
+       <l>When on the fifth, some weary mariners,</l>
+       <l>Flying for shelter from a furious storm,</l>
+       <l>Midst the white caverns on the western shore,</l>
+       <l>A mile from Genoa, found his lifeless body:</l>
+       <l>In his clench'd hand was his own blood-stain'd sword,</l>
+       <l>And in his manly breast a mortal wound.</l>
+      </sp>
+      <sp who="#camillo">
+       <speaker>CAMILLO.</speaker>
+       <l>And there ends all our knowledge. Proclamation</l>
+       <l>Of vast rewards to find his murderer,</l>
+       <l>Is still abroad through all the Italian states.</l>
+       <l>The untouch'd jewels of his costly habit,</l>
+       <l>Bright and conspicuous, clearly manifest</l>
+       <l>'Twas not the crime of men who kill for spoil.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>Alas, Camillo, well I know the place;</l>
+       <l>When we were boys it was our favourite haunt.</l>
+       <l>He could not sure have fall'n by his own sword?</l>
+      </sp>
+      <sp who="#camillo">
+       <pb n="7" facs="14"/>
+       <speaker>CAMILLO.</speaker>
+       <l>Impossible: A thought so black and sullen</l>
+       <l>Ne'er dim'd the sunshine of his chearful breast.</l>
+       <l>The joy he long had sigh'd for in his reach,</l>
+       <l>Possess'd of all that gilds the morn of life,</l>
+       <l>And each fair prospect bright'ning to his hopes;</l>
+       <l>Besides, the exalted tenour of his mind,</l>
+       <l>Too firm and full for wild extremities;</l>
+       <l>They crush that black conclusion: nay, the skilful,</l>
+       <l>Who search'd the wound with closest art and care,</l>
+       <l>Pronounc'd it, not the execrable work</l>
+       <l>Of his own sword, but some assassin's steel.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>May wakeful conscience, like a writhing snake,</l>
+       <l>If still he lives, curl round the villain's heart,</l>
+       <l>With sharpest venom to consume and gnaw him!</l>
+       <l>I know our base, Italian, stabbing spirit;</l>
+       <l>In the close art of murder none excell us.</l>
+       <l>We read the very earth, breathe the same air,</l>
+       <l>With our old Latian fires; but, for their virtues,</l>
+       <l>As well might eagles rustle their large plumes</l>
+       <l>Where owlets roost, or filthy kites engender.</l>
+       <l>As they find shelter in our dastard breasts.</l>
+      </sp>
+      <sp who="#camillo">
+       <speaker>CAMILLO.</speaker>
+       <l>Let others rail; but thine's a nobler task;</l>
+       <l>To shame desen'racy by fair example:</l>
+       <l>For twenty forward spirits, like thine own,</l>
+       <l>Might shake this state from its inglorious trance.</l>
+       <l>And rouse our sloth to gallant enterprise.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>I left it a luxurious, worthless city,</l>
+       <l>Proud of its trash, its wealth, if such I find it,</l>
+       <l>
+        <pb n="8" facs="15"/>I will not strike my lazy root at home,</l>
+       <l>To rot in rank contagious apathy,</l>
+       <l>But seek again a scene of vigorous action.</l>
+       <l>The unskilful perseverance of the Turk</l>
+       <l>Still wakes excitement for a soldier's ardour.—</l>
+       <l>But who are those to earnest in discourse?</l>
+       <l>This way they move.</l>
+      </sp>
+      <sp who="#camillo">
+       <speaker>CAMILLO.</speaker>
+       <l>Durazzo is the eldest.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>Fair Julia's father; him I know. The other?</l>
+      </sp>
+      <sp who="#camillo">
+       <speaker>CAMILLO.</speaker>
+       <l>Mentevole his name, a noble youth,</l>
+       <l>And suitor (hopelessly, I think,) to Julia,</l>
+       <l>Though vulgar fame calls him a favour'd wooer.</l>
+       <l>But this report, startling your mother's ear,</l>
+       <l>(Who brooks no slight to her son's memory,)</l>
+       <l>Has much estrang'd her from Durazzo's house:</l>
+       <l>And thus, the bonds of their long amity</l>
+       <l>The lie with many mouths has puff'd asunder.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>My care all be to reunite their friendship.</l>
+       <l>But how must I esteem Mentevole?</l>
+      </sp>
+      <sp who="#camillo">
+       <speaker>CAMILLO.</speaker>
+       <l>As one accomplish'd, brave, and liberal.</l>
+       <l>Soon after your departure for the siege,</l>
+       <l>He came from travel home, and was to Claudio</l>
+       <l>A second self.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>So shall he be to me;</l>
+       <l>
+        <pb n="9" facs="16"/>I'll wear him here. But go thou to my mother,</l>
+       <l>Prepare her for my coming. For a moment</l>
+       <l>Leave me to greet this venerable lord,</l>
+       <l>And beg his introduction to the stranger. <stage>
+         <hi>Exit</hi> CAMILLO,</stage>
+       </l>
+      </sp>
+     </div>
+     <div n="3" type="scene">
+      <head>SCENE III.</head>
+      <stage>
+       <hi>To</hi> MARCELLUS, DURAZZO, <hi>and</hi> MENTEVOLE.</stage>
+      <sp>
+       <l>The ruddy hue your visage owns, my lord,</l>
+       <l>I see with pleasure is sound health's true ensign:</l>
+       <l>Your eye's quick spirit too, proclaims you fresh</l>
+       <l>As when the race of careless youth began.</l>
+      </sp>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>Such is your wish, Marcellus, and I thank you.</l>
+       <l>O welcome, to thy country! thy smooth cheek</l>
+       <l>Has chang'd its down for manhood since we parted.</l>
+       <l>But for these well-known kindred lineaments,</l>
+       <l>I scarce durst swear, thou wert that playful boy,</l>
+       <l>Whose frolicks used to mar our gravity,</l>
+       <l>And make us smile while chiding.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>I remember</l>
+       <l>Your goodness always; now entreat your favour,</l>
+       <l>To recommend me to this lord's esteem,</l>
+       <l>As, by the title of my brother's friend,</l>
+       <l>He claims already mine.</l>
+      </sp>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>Mentevole,</l>
+       <l>Give him your hand.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>My heart too, 'twas his brother's;</l>
+       <l>And by that pledge grows thus at once acquainted.</l>
+      </sp>
+      <sp who="#durazzo">
+       <pb n="10" facs="17"/>
+       <speaker>DURAZZO.</speaker>
+       <l>Marcellus, you must tell me of your wars,</l>
+       <l>Your mines, your sallies, ambuscades, and dangers.</l>
+       <l>Though now 'tis long since I was cased in steel,</l>
+       <l>The cresent of our swarthy foe has felt me.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>They are slugglish soldiers, but right obstinate:</l>
+       <l>So numerous too, it seems an caller task</l>
+       <l>To kill, than count them. Now twice fifty thousand,</l>
+       <l>And more, have fall'n, in sacking one poor isle;</l>
+       <l>Yet, like light foam chaf'd by the curling surge,</l>
+       <l>Each hour new turbans whiten round its shores.—</l>
+       <l>But yet I have not visited my mother,</l>
+       <l>And she by this expects me.</l>
+      </sp>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>Get thee to her.</l>
+       <l>Unhappy lady, may your presence cheer her!</l>
+      </sp>
+      <stage>
+       <hi>Exit</hi> MARCELLUS</stage>
+     </div>
+     <div n="4" type="scene">
+      <head>SCENE IV.</head>
+      <stage>DURAZZO, MENTEVOLE.</stage>
+      <sp>
+       <l>Is he not like to Claudie?</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>Rather say,</l>
+       <l>Is't not himself, as ere the tomb receiv'd him?</l>
+       <l>But dear my lord, by all that charm'd your youth,</l>
+       <l>Forgive me, though I seem importunate:</l>
+       <l>O, win your daughter to accept my vows;</l>
+       <l>For I have lov'd to such a mad excess,</l>
+       <l>So stor'd up every thought of happiness</l>
+       <l>
+        <pb n="11" facs="18"/>In that fond hope, should I prove bankrupt there,</l>
+       <l>I dare not look to earth or Heaven for comfort.</l>
+      </sp>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>Mentevole, I doubt not of your love;</l>
+       <l>My daughter too believes it; a feign'd passion</l>
+       <l>Speaks not your fervent language:—</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>A feign'd passion!</l>
+       <l>Thus hear me swear—</l>
+      </sp>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>Oaths are unnecessary.</l>
+       <l>My tongue has not been niggard of your praise;</l>
+       <l>I've tried entreaties too. A harsh command,</l>
+       <l>Heard with repugnancy, that she should love,</l>
+       <l>Because her anxious father deems it meet,</l>
+       <l>Or you would have it so, might change at once</l>
+       <l>The indifference you complain of to aversion.</l>
+       <l>Thus the calm lake that slept at peace before,</l>
+       <l>Turns a strong tide, and sets against your wishes.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>O, the degrees, my lord, are infinite,</l>
+       <l>Between a harsh command, and such persuasion</l>
+       <l>As every day the fondest parents use,</l>
+       <l>In tender strife with a coy maid's reluctance.</l>
+       <l>Were I to plead as a feed advocate,</l>
+       <l>Even for a scanty rood of barren earth,</l>
+       <l>I should account me faithless to my charge,</l>
+       <l>My rhetorick o'erpriz'd at one poor ducat,</l>
+       <l>Did I neglect a gloss, or argument,</l>
+       <l>Might sway the unwilling judge to my decision.</l>
+      </sp>
+      <sp who="#durazzo">
+       <pb n="12" facs="19"/>
+       <speaker>DURAZZO.</speaker>
+       <l>Instruct me to speed better. I shall thank you.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>My words, my action, should have life and grace;</l>
+       <l>I'd probe his reason, try his every humour,</l>
+       <l>Wind to his inmost soul, grow to his eye,</l>
+       <l>Watch where impression stole upon his sense;</l>
+       <l>There ply my strength, where most I found him weak,</l>
+       <l>Nor cease to urge till I had conquer'd him.</l>
+      </sp>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>Passion thus blindfold sees no obstacle.</l>
+       <l>Young man, young man, be calm a while, and hear me.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>Yet tell me not, my suit is desperate;</l>
+       <l>Sooth, though you cannot heal; and I will listen,</l>
+       <l>As if I liv'd by every sound you utter'd,</l>
+       <l>And death and inattention were the same.</l>
+      </sp>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>You knew long since, to see my daughter wedded,</l>
+       <l>Without a variance 'twixt her choice and mine,</l>
+       <l>Was my prime wish. Malignant destiny</l>
+       <l>Marr'd that fair prospect. The assassin's stab</l>
+       <l>Had almost pierc'd with one pernicious stroke</l>
+       <l>Two faithful breasts. Anguish unutterable</l>
+       <l>On her soft frame lay'd such a deadly grasp,</l>
+       <l>Too long I trembled for her life and reason.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>Spare me, my lord, O spare me the remembrance;</l>
+       <l>It harrows me too deeply.</l>
+      </sp>
+      <sp who="#durazzo">
+       <pb n="13" facs="20"/>
+       <speaker>DURAZZO.</speaker>
+       <l>Can you question,</l>
+       <l>I wish to see her unavailing sorrow</l>
+       <l>Chang'd to gay festivals, and bridal joy?</l>
+       <l>Or think you, that supinely I can view</l>
+       <l>(Thus childless, but in her,) my house's honours,</l>
+       <l>My large estates, sunk in a virgin's tomb,</l>
+       <l>Or scatter'd 'mongst remote and thankless kindred;</l>
+       <l>When, by alliance with your well-match'd love,</l>
+       <l>Such near and natural heirs may spring to bless me?</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>Why, grant it all, yet how have I prevail'd?</l>
+       <l>My presence she endures, for you desir'd it;</l>
+       <l>Yet, if the only theme can touch me nearly,</l>
+       <l>But trembles from my tongue, her cheek turns pale;</l>
+       <l>Her blood runs back, as mustering to her heart,</l>
+       <l>To fortify the access more strong against me.</l>
+       <l>I pity him, who thinks he has known distress,</l>
+       <l>And never felt the pang of hopeless love:</l>
+       <l>The consummation of all other ills</l>
+       <l>Is light and trivial to that misery.</l>
+      </sp>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>Time may do much, nor shall my aid be wanting.</l>
+       <l>Urge me no more, nor doubt me. Your kind sister,</l>
+       <l>Olympia, the companion she holds dear,</l>
+       <l>May unobserv'd watch every soft approach,</l>
+       <l>And steal a lover's image on her fancy.</l>
+       <l>But lo, she comes. Farewel! I go to serve you.</l>
+      </sp>
+      <stage>
+       <hi>Exit</hi> DURAZZO.</stage>
+     </div>
+     <div n="5" type="scene">
+      <pb n="14" facs="21"/>
+      <head>SCENE V.</head>
+      <sp>
+       <stage>MENTEVOLE, <hi>alone.</hi>
+       </stage>
+       <l>He goes to serve me! Let his feeble breath</l>
+       <l>Turn ice to fire, wake in her frozen bosom</l>
+       <l>Such hot consuming flames as I feel here!</l>
+       <l>O, I could sluice my veins, mangle this form,</l>
+       <l>This common form, that wants the power to move her.</l>
+      </sp>
+     </div>
+     <div n="6" type="scene">
+      <head>SCENE VI.</head>
+      <stage>
+       <hi>To him</hi> OLYMPIA.</stage>
+      <sp>
+       <l>Tell me, Olympia, are not women woo'd</l>
+       <l>By constancy, and deep-protested oaths?</l>
+       <l>By living on their smiles, by nice attentions?</l>
+       <l>By yielding up our reason to their humours?</l>
+       <l>By adoration of their beauty's power?</l>
+       <l>By sighs, and tears, by flattery, kneeling, fawning?</l>
+       <l>Tell me how many ways a manly mind</l>
+       <l>Must be debas'd, to win a lady's smile?</l>
+      </sp>
+      <sp who="#olympia">
+       <speaker>OLYMPIA.</speaker>
+       <l>That which by baseness only can be gain'd,</l>
+       <l>Were better undesir'd. But say, good brother,</l>
+       <l>Why do you question with such angry haste,</l>
+       <l>And what strange fury ruffles all your mien?</l>
+       <l>Give me your hand: it burns. You are not well.</l>
+       <l>Your mind unquiet fevers thus your blood.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>No, no: a woman's coldness. Your fair friend,—</l>
+       <l>Teach her to smile, and my distemper dies.</l>
+      </sp>
+      <sp who="#olympia">
+       <speaker>OLYMPIA.</speaker>
+       <l>She has no sense of joy: that beauteous flower</l>
+       <l>Bows its sweet head o'er Claudio's bloody grave.</l>
+      </sp>
+      <sp who="#mentevole">
+       <pb n="15" facs="22"/>
+       <speaker>MENTEVOLE.</speaker>
+       <l>Must that eternal sound grate on me still!</l>
+       <l>Hast thou been faithful to me? Hast thou told her,</l>
+       <l>How thou hast seen these lids, even at her name.</l>
+       <l>Swell with unbidden tides or melting fondness?</l>
+       <l>Whole nights how I have fill'd thy patient ear,</l>
+       <l>And she my only theme? How many times,</l>
+       <l>When chance has given her beauties to my sight,</l>
+       <l>Thou hast beheld me, trembling, try to speak,</l>
+       <l>And gaze away my meaning?</l>
+      </sp>
+      <sp who="#olympia">
+       <speaker>OLYMPIA.</speaker>
+       <l>Nay, my lord,</l>
+       <l>Endeavours true as mine disdain suspicion:</l>
+       <l>And let me say, if she should ne'er consent,—</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>How's that? take heed! if she shou'd ne'er consent?</l>
+       <l>Put not my life on chilling supposition;</l>
+       <l>Make it the doubt, Olympia, of a moment,</l>
+       <l>And though thou art my sister, and a dear one.</l>
+       <l>By heaven, I almost think that I shall hate thee:</l>
+       <l>For here I swear, deeply and calmly swear it,</l>
+       <l>The hour which sees me desperate of her love,</l>
+       <l>Shall be my last.</l>
+      </sp>
+      <sp who="#olympia">
+       <speaker>OLYMPIA.</speaker>
+       <l>For shame! be more a man.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>By the great power which gave me sense and being,</l>
+       <l>I'll wrest from fate my folly's chastisement,</l>
+       <l>And this right hand shall end me.</l>
+      </sp>
+      <sp who="#olympia">
+       <speaker>OLYMPIA.</speaker>
+       <l>Oh! how shocking,</l>
+       <l>To hear with what devout impiety,</l>
+       <l>
+        <pb n="16" facs="23"/>Thou dar'st call heaven the witness of an oath,</l>
+       <l>Outrageous to its own bless'd providence!</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>Well, be it as it may, I have sworn it.</l>
+       <l>Knows she that young Marcellus is arriv'd?</l>
+      </sp>
+      <sp who="#olympia">
+       <speaker>OLYMPIA.</speaker>
+       <l>Yes; and the pleasing tidings for a moment</l>
+       <l>Dispell'd the cloud that dim'd her beauteous eyes.</l>
+       <l>Instant she beg'd me, and with warmth unusual,</l>
+       <l>To bear her greetings to his mother Fulvia;</l>
+       <l>I now was on my way.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>Then, bear thy message;</l>
+       <l>Go, be the agent to destroy thy brother.</l>
+       <l>This compliment, I know, is but the prelude,</l>
+       <l>To invite a second Claudio, in Marcellus.</l>
+      </sp>
+      <sp who="#olympia">
+       <speaker>OLYMPIA.</speaker>
+       <l>If peace be worth a wish, and love be such</l>
+       <l>In every other bosom, as in thine,</l>
+       <l>Let the short story on my grave-stone tell,</l>
+       <l>"Nor loving, nor belov'd, Olympia died."</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>You never wish'd more wisely: but forgive me:</l>
+       <l>Pardon my infirmity, 'tis too like madness.</l>
+      </sp>
+      <sp who="#olympia">
+       <speaker>OLYMPIA.</speaker>
+       <l>'Tis worse, for madmen have their intervals;</l>
+       <l>Thine's an eternal rage. <stage>going</stage>
+       </l>
+      </sp>
+      <sp who="#mentevole">
+       <pb n="17" facs="24"/>
+       <speaker>MENTEVOLE.</speaker>
+       <l>Go not in anger:</l>
+       <l>Return; I will be calm; return, Olympia.</l>
+       <l>Thus on my knee let me entreat you hear me.</l>
+      </sp>
+      <stage>offering to knee.</stage>
+      <sp who="#olympia">
+       <speaker>OLYMPIA.</speaker>
+       <l>Pray, rise. We may be seen. What is't? go on.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>I have a never-failing instinct here,</l>
+       <l>Which prompts me what to dread. This young Marcellus,—</l>
+      </sp>
+      <sp who="#olympia">
+       <speaker>OLYMPIA.</speaker>
+       <l>Well, what of him?</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>I know, will see her shortly▪</l>
+       <l>Crowd all thy faculties into thine eye;</l>
+       <l>Read his reception keenly; mark <hi>him</hi> too;</l>
+       <l>And give me note of every circumstance:</l>
+       <l>Their words, their looks, let not a glance escape thee.</l>
+       <l>Promise me so, and from this hour, Olympia,</l>
+       <l>Thy prudence shall be my sole counsellor:</l>
+       <l>Though you enjoin me to be blind and mute,</l>
+       <l>I'll bear it patient as the tutor'd child,</l>
+       <l>Whose fond instructor smiles, and teaches him.</l>
+      </sp>
+      <sp who="#olympia">
+       <speaker>OLYMPIA.</speaker>
+       <l>Keep these conditions, and command my service.</l>
+       <l>I linger here too long.—Remember patience.</l>
+      </sp>
+      <stage>
+       <hi>Exit</hi> OLYMPIA.</stage>
+     </div>
+     <div n="7" type="scene">
+      <head>SCENE VII.</head>
+      <sp>
+       <stage>MENTEVOLE, <hi>alone.</hi>
+       </stage>
+       <l>And what more likely? He is Claudio's brother;</l>
+       <l>
+        <pb n="18" facs="25"/>Noble as he, and deck'd too with the plume</l>
+       <l>Of brave adventure in the Candian war;</l>
+       <l>Younger, and not less comely. She may call it</l>
+       <l>(As women make shrewd logick for their likings)</l>
+       <l>Truth to the memory of her former vows,</l>
+       <l>To embrace the living brother for the dead;</l>
+       <l>And so find faith in her inconstancy.</l>
+       <l>I know not why, my genius shrinks at him:</l>
+       <l>The very <hi>fear</hi> craves vengeance, like a wrong.</l>
+       <l>Beware, gay stripling! no degenerate awe</l>
+       <l>Of what <hi>may</hi> be, can check my firy course:</l>
+       <l>She must be mine, and <hi>shall</hi> be. For the means,</l>
+       <l>Or good or ill, necessity must shape them.</l>
+      </sp>
+     </div>
+     <trailer>THE END OF THE FIRST ACT.</trailer>
+    </div>
+    <div n="2" type="act">
+     <pb n="19" facs="26"/>
+     <head>ACT II.</head>
+     <div n="1" type="scene">
+      <head>
+       <hi>SCENE I.</hi>
+       <stage>A Chamber in <hi>Durazzo's</hi> Palace.</stage>
+      </head>
+      <sp>
+       <stage>JULIA, <hi>alone at a Table, putting up papers which she has been reading. She presses them passionately to her heart, kisses them, and speaks.</hi>
+       </stage>
+       <l>Dear, sad remembrances, my tears have stain'd you.</l>
+       <l>O, foolish drops, wash not away my treasure!</l>
+       <l>Unenvied, unobserv'd, and solitary,</l>
+       <l>Let me indulge this luxury of grief.</l>
+       <l>My Claudio's soul was pour'd out on these papers;</l>
+       <l>And every little word recalls him to me,</l>
+       <l>Lovely, belov'd, in beauty's manly bloom,</l>
+       <l>Protesting welcome vows, and breathing passion.</l>
+      </sp>
+     </div>
+     <div n="2" type="scene">
+      <head>SCENE II.</head>
+      <stage>
+       <hi>To her</hi> OLYMPIA.</stage>
+      <sp>
+       <l>Return'd so speedily, my gentle friend?</l>
+       <l>Your cares are so preventive of my wishes.</l>
+       <l>I shall begin to expect beyond all bounds,</l>
+       <l>And grow presuming from too much indulgence.</l>
+      </sp>
+      <sp who="#olympia">
+       <speaker>OLYMPIA.</speaker>
+       <l>From Fulvia and her son I bring, my Julia,</l>
+       <l>A thousand kind endearments. Both together</l>
+       <l>With cordial acceptation heard your message,</l>
+       <l>And presently both mean to visit you.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Why does not pleasure kindle through my frame,</l>
+       <l>And mount up to my cheek, at such glad tidings?</l>
+       <l>The time has been, I should have glow'd at this,</l>
+       <l>
+        <pb n="20" facs="27"/>Counting the impatient moments till her coming:—</l>
+       <l>But my repining heart deserves no blessings.</l>
+      </sp>
+      <sp who="#olympia">
+       <speaker>OLYMPIA.</speaker>
+       <l>To labour to forget, I know, is vain;</l>
+       <l>The fond endeavour toils against itself,</l>
+       <l>And deeper graves the idea 'twould efface;</l>
+       <l>Yet there are means—</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Unprofitable all.</l>
+       <l>How have I dragg'd about this weary load,</l>
+       <l>Through every change of place and circumstance!</l>
+       <l>I mingled with the young, the gay, the happy;</l>
+       <l>Forcing a hollow smile at giddy joy,</l>
+       <l>While my pale heart sat mocking it within:</l>
+       <l>The arrow sticking here, from scene to scene</l>
+       <l>You led my sad insensibility,</l>
+       <l>The objects varying, but my soul the same.</l>
+      </sp>
+      <sp who="#olympia">
+       <speaker>OLYMPIA.</speaker>
+       <l>Too much, I fear, we try'd, and you endur'd</l>
+       <l>Our well-meant, unavailing services.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Could I forbear, I would not weep, Olympia;</l>
+       <l>Indeed I would not; for it pains my friends.</l>
+       <l>'Twas such a black, unapprehended horrour,</l>
+       <l>So sudden, and so dreadfully consummate,</l>
+       <l>I sometimes for a moment close my eyes,</l>
+       <l>And strive to think, I've had a hideous dream;</l>
+       <l>That, quite awake, 'twill vanish from my brain;</l>
+       <l>That, still he lives, and I again shall see him:</l>
+       <l>Ah, no! the short illusion is the dream;</l>
+       <l>Claudio, thy death the dire reality.</l>
+      </sp>
+      <sp who="#olympia">
+       <pb n="21" facs="28"/>
+       <speaker>OLYMPIA.</speaker>
+       <l>The volume of his days too soon was clos'd;</l>
+       <l>But grace and honour had so fill'd the record,</l>
+       <l>Each page out-weigh'd a long life's history.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>This was the hour, when my dear father came,</l>
+       <l>Trembling and pale, to falter out the tidings.</l>
+       <l>That instant, mighty ruler of our fates!</l>
+       <l>Had thy exterminating arm reach'd here,</l>
+       <l>These floods of bitter tears, this black despair,</l>
+       <l>Had not beep number'd with the sins of Julia.</l>
+      </sp>
+      <sp who="#olympia">
+       <speaker>OLYMPIA.</speaker>
+       <l>Tame languid minds, whose course glides dully on,</l>
+       <l>Yield, as the stream to the sharp severing keel,</l>
+       <l>To close as quickly on each transient wound;</l>
+       <l>But woe's deep traces never leave thy breast.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Was I not mad, Olympia? I remember,</l>
+       <l>I felt the stab in Genoa.—When I wak'd,</l>
+       <l>The place, nor aught around me, were the fame:</l>
+       <l>I saw the smooth Bisagnio, as I lay,</l>
+       <l>Rolling his quiet tide beneath my window;</l>
+       <l>It seem'd Elysium, and the peaceful shades</l>
+       <l>Where guiltless lovers are no more divided.</l>
+      </sp>
+      <sp who="#olympia">
+       <speaker>OLYMPIA.</speaker>
+       <l>But now, my friend, collect your fortitude;</l>
+       <l>Nor start, when you behold your Claudio's image</l>
+       <l>Recall'd to life, and blooming in Marcellus:</l>
+       <l>I know, he'll soon be here.</l>
+      </sp>
+      <sp who="#julia">
+       <pb n="22" facs="29"/>
+       <speaker>JULIA.</speaker>
+       <l>Why should I dread it?—</l>
+       <l>Disus'd even to the shadow of a joy,</l>
+       <l>My fickly apprehension plays the coward:</l>
+       <l>Yet I will see him.</l>
+      </sp>
+      <sp who="#olympia">
+       <speaker>OLYMPIA.</speaker>
+       <l>You turn pale, my Julia;</l>
+       <l>Shall I forbid his coming?</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>No. This weakness</l>
+       <l>Will pass away. A treacherous hectick wastes me:</l>
+       <l>I shall not suffer long.—Is he to like,</l>
+       <l>So very like his brother?</l>
+      </sp>
+      <sp who="#olympia">
+       <speaker>OLYMPIA.</speaker>
+       <l>Features, stature,</l>
+       <l>Almost the same. Somewhat a bolder air,</l>
+       <l>Yet gentle still; and (youthful as he is)</l>
+       <l>A little frown of discontented thought</l>
+       <l>Casts o'er his brow a momentary shade,</l>
+       <l>That seems not native to his generous aspect.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>In such an aspect was my paradise.</l>
+       <l>But now pale lead lies on that mouldering face:</l>
+       <l>Whose beams shot rapture once to Julia's bosom.</l>
+      </sp>
+      <sp who="#olympia">
+       <speaker>OLYMPIA.</speaker>
+       <l>By nature fram'd for every genial bliss,</l>
+       <l>Turn, gently turn, from that cold retrospect!</l>
+       <l>And there is one—</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>I know whom you would name.</l>
+      </sp>
+      <sp who="#olympia">
+       <pb n="23" facs="30"/>
+       <speaker>OLYMPIA.</speaker>
+       <l>Then smile, and name him for me.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>No, I cannot;</l>
+       <l>I cannot smile, and name Mentevole:</l>
+       <l>But yet, I much respect him.</l>
+      </sp>
+      <sp who="#olympia">
+       <speaker>OLYMPIA.</speaker>
+       <l>Bare respect</l>
+       <l>For passion such as his!</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Olympia, spare me;</l>
+       <l>In this alone I must seem obstinate.</l>
+      </sp>
+      <sp who="#olympia">
+       <speaker>OLYMPIA.</speaker>
+       <l>Alas, poor brother!<stage>aside.</stage>
+       </l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Hark! my father comes;</l>
+       <l>Hold him a little moment in discourse;</l>
+       <l>I would not have him see I had been weeping.</l>
+      </sp>
+      <stage>JULIA <hi>retires a little.</hi>
+      </stage>
+     </div>
+     <div n="3" type="scene">
+      <head>SCENE III.</head>
+      <stage>
+       <hi>To</hi> JULIA <hi>and</hi> OLYMPIA, DURAZZO.</stage>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>I come, Olympia, to this chamber door,</l>
+       <l>To learn my destiny. As we inquire</l>
+       <l>From those who wake us, if the sun looks bright,</l>
+       <l>Or clouds obscure him, and then suit our garments</l>
+       <l>To meet the changeful temper of the sky,</l>
+       <l>So, by the colour of my daughter's health,</l>
+       <l>My mind is dress'd for gladness or dejection.</l>
+      </sp>
+      <sp who="#olympia">
+       <pb n="24" facs="31"/>
+       <speaker>OLYMPIA.</speaker>
+       <l>I think, she mends. Her sorrow, that was silent,</l>
+       <l>Finds some relief in utterance. She approaches.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Your blessing, sir!</l>
+      </sp>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>O, may it drop upon thee,</l>
+       <l>Refreshing as mild dews on vernal flowers,</l>
+       <l>To kill the canker that consumes thy fragrance!</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>My heart, my grateful heart, owns all your goodness;</l>
+       <l>And could my first devotion reach the sky,</l>
+       <l>Time and your honour'd days should end together.</l>
+      </sp>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>Not too long life, pray not for curses on me!</l>
+       <l>Helpless, uncomely, loath'd, and burdensome,</l>
+       <l>I would not cling to the last hold of nature,</l>
+       <l>Nor lag without one social cord to aid me.</l>
+       <l>Surviving my companions of the voyage,</l>
+       <l>The world to me would seem a ruin'd vessel,</l>
+       <l>A worthless wreck, when mann'd alone by strangers.</l>
+       <l>Let my heart burst at once with some great feeling!</l>
+       <l>Let me go all together to my grave,</l>
+       <l>Not maim'd and piece-meal with infirmity!—</l>
+       <l>I have liv'd enough, could I but see thee happy.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>That will not be.</l>
+      </sp>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>I swear, it must, it shall be;</l>
+       <l>And come, I have a suit which you must grant me.</l>
+      </sp>
+      <sp who="#julia">
+       <pb n="25" facs="32"/>
+       <speaker>JULIA.</speaker>
+       <l>My dearest father!<stage>throwing her arms round him.</stage>
+       </l>
+      </sp>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>Change these mourning weeds:</l>
+       <l>For outward signs, though trifles in themselves,</l>
+       <l>When the mind's weak, and spirits delicate,</l>
+       <l>To fancy, in herself too powerful,</l>
+       <l>Lend their mute aid, and make her workings stronger.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>This habit was best suited to my mood,</l>
+       <l>But shall no more offend you.</l>
+      </sp>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>Fair Olympia,</l>
+       <l>I now must beg your aid. Your constant brother,</l>
+       <l>(Nor does proud Genoa boast a nobler youth,)</l>
+       <l>With adoration such as saints pay heaven,</l>
+       <l>Devotes his service here.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Ah sir, for pity!</l>
+       <l>I feel myself not worthy of his passion.</l>
+       <l>My soul is out of tune to flattery:</l>
+       <l>The fondest vows that ever lover sigh'd,</l>
+       <l>Might wring my eyes, but never warm my heart.</l>
+      </sp>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>Nay, stop these tears; I'll urge this theme no more.</l>
+       <l>And see, an honour'd visitant approaches;</l>
+       <l>Receive her not in sorrow.</l>
+      </sp>
+     </div>
+     <div n="4" type="scene">
+      <pb n="26" facs="33"/>
+      <head>SCENE IV.</head>
+      <stage>
+       <hi>To them</hi> FULVIA; MARCELLUS <hi>behind.</hi> JULIA <hi>and</hi> FULVIA <hi>embrace.</hi>
+      </stage>
+      <sp who="#fulvia">
+       <speaker>FULVIA.</speaker>
+       <l>Lovely Julia,</l>
+       <l>In this embrace I hop'd to have clasp'd a daughter;</l>
+       <l>To have call'd thee mine, by an endearing tie,</l>
+       <l>That yields alone to nature's closest bond:</l>
+       <l>But though that fleet delusive dream is vanish'd,</l>
+       <l>With pride I own thy native excellence.</l>
+       <l>These eager throbbings, while I hold thee thus,</l>
+       <l>Are stronger protestations how I prize thee,</l>
+       <l>Than all the lavish praise my tongue could utter.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Here let me grow for ever, none divide us!</l>
+       <l>Methinks, when these protecting arms enfold me,</l>
+       <l>Long-vanish'd peace seems to return once more,</l>
+       <l>And spread her dove-like wings again to shield me.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>They told me truth, I never saw such beauty.</l>
+      </sp>
+      <stage>
+       <hi>aside, looking at</hi> JULIA.</stage>
+      <sp who="#fulvia">
+       <speaker>FULVIA.</speaker>
+       <l>Vile slander, on my life, has wrong'd her virtue.— <stage>aside,</stage>
+       </l>
+       <l>Have I not seem'd unkind, so many months</l>
+       <l>A stranger here, where ever-new delight</l>
+       <l>Sprung in our paths; where each returning morn,</l>
+       <l>Among the happy, found me happiest?</l>
+       <l>But O, I fear'd for thee, and for myself;</l>
+       <l>Our walks, these chambers, every senseless object,</l>
+       <l>
+        <pb n="27" facs="34"/>By known relation to our common loss,</l>
+       <l>Had conjur'd up to our accustom'd sense</l>
+       <l>Sad visions of his looks, his gestures, words,</l>
+       <l>And multiplied the ideas we should banish.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>I judg'd it not unkindness, for I know</l>
+       <l>Your generous nature feels for all who suffer.</l>
+       <l>And if to have been once supremely bless'd,</l>
+       <l>To have reach'd the height of every human wish,</l>
+       <l>Then sudden—but your swelling eyes reproach me.</l>
+       <l>You own'd him first, before his birth you lov'd him;</l>
+       <l>But O, this selfish grief forgets all titles.</l>
+      </sp>
+      <sp who="#fulvia">
+       <speaker>FULVIA.</speaker>
+       <l>Yet join with me to bless that providence,</l>
+       <l>Which bending gracious to a parent's prayer,</l>
+       <l>'Midst all the perils of destructive war,</l>
+       <l>Preserv'd one pillar of my falling house.</l>
+       <l>Come near, my son; and in this fair perfection.</l>
+       <l>Behold, what, next to thee, the world contains</l>
+       <l>Most precious to thy mother.</l>
+      </sp>
+      <stage>MARCELLUS, <hi>who has been behind with</hi> DURAZZO, <hi>advances.</hi>
+      </stage>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Saints and angels!<stage>starting.</stage>
+       </l>
+       <l>Am I awake, or is this mockery?</l>
+       <l>O, I could gaze for ever on that face,</l>
+       <l>Nor wish to rouse me from the dear delusion.</l>
+       <l>Still let me know him only by my eyes!</l>
+       <l>O, do not speak, lest some unusual sound,</l>
+       <l>An alien to my ear, dissolve this vision,</l>
+       <l>And tell me thou but wear'st my Claudio's outside!</l>
+      </sp>
+      <sp who="#marcellus">
+       <pb n="28" facs="35"/>
+       <speaker>MARCELLUS.</speaker>
+       <l>If it commend me, Madam, to your favour,</l>
+       <l>I would not change it for the comliest form</l>
+       <l>That ever charm'd the eye with fair proportion.</l>
+       <l>But stop not at the exterior, search me deeply;</l>
+       <l>For proof, command me instant to your service:</l>
+       <l>Though peril walk with death in the achievement,</l>
+       <l>Swifter than falcons through the trackless air</l>
+       <l>My eager thoughts shall fly to your obedience.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Take heed, take heed, tempt not the dangerous shore;</l>
+       <l>Rocks, shelves, and quicksands lurk, I fear, around me;</l>
+       <l>And let one gallant vessel's shipwreck warn thee,—</l>
+       <l>Shun the same course, and find a happier fortune.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>I fear no shelves, no quicksands, but thy frown.</l>
+       <l>Aw'd and enraptur'd I behold such beauty;</l>
+       <l>And while I talk thus, wish to find some language</l>
+       <l>Fit for a being of a sphere above me.</l>
+      </sp>
+      <stage>
+       <hi>A</hi> Servant <hi>enters, and whispers</hi> OLYMPIA.</stage>
+      <sp who="#olympia">
+       <speaker>OLYMPIA.</speaker>
+       <l>Julia, a word. Mentevole attends, <stage>
+         <hi>to</hi> JULIA <hi>aside.</hi>
+        </stage>
+       </l>
+       <l>And asks to be admitted.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Now! Not now;</l>
+       <l>Indeed I cannot see him. Quick, my Olympia.</l>
+       <l>Prevent his entrance. My poor fluttering heart,</l>
+       <l>(If suddenly that name is founded to me,)</l>
+       <l>Beats, like a prison'd bird against its cage,</l>
+       <l>When some annoying hand is stretch'd to seize it.</l>
+      </sp>
+      <sp who="#durazzo">
+       <pb n="29" facs="36"/>
+       <speaker>DURAZZO.</speaker>
+       <l>Madam, this day which brings you back to us, <stage>
+         <hi>to</hi> FULVIA.</stage>
+       </l>
+       <l>We should make festival. Your presence here</l>
+       <l>Has wrought a miracle. I have not seen</l>
+       <l>A smile of joy enlighten that dear face,</l>
+       <l>Heaven knows how long, till you brought sunshine with you.</l>
+      </sp>
+      <sp who="#fulvia">
+       <speaker>FULVIA.</speaker>
+       <l>I have upbraidings for my absence, <hi>here;</hi>
+       </l>
+       <l>The cause, I'm sure, a false one. In atonement,</l>
+       <l>Let me observe her with a mother's care.</l>
+       <l>Invention shall be rack'd to find new means,</l>
+       <l>To lure her thoughts to sweet serenity.</l>
+       <l>She shall not see the frequent tears that wear</l>
+       <l>Their woeful channel down a parent's cheeks;</l>
+       <l>And to the brightest source of mortal comfort,</l>
+       <l>I will commend her, when I kneel to heaven.</l>
+      </sp>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>May plumes of seraphs waft your pious prayers!</l>
+       <l>The tenderness of women has a charm,</l>
+       <l>Our rougher natures can attain but rudely.</l>
+       <l>Your voices are such dulcet instruments,</l>
+       <l>They steal the listening soul from its affliction,</l>
+       <l>To wind it gently in the soft enchantment.</l>
+      </sp>
+      <sp who="#fulvia">
+       <speaker>FULVIA.</speaker>
+       <l>O, may that power be mine! Observe, my Julia,</l>
+       <l>My lord commits you to my guardianship;</l>
+       <l>Do you confirm the trust?</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>An outcast's fortune</l>
+       <l>A light pitiless fall on me, could I fail</l>
+       <l>To bend with reverence for your dear protection.</l>
+      </sp>
+      <sp who="#fulvia">
+       <pb n="30" facs="37"/>
+       <speaker>FULVIA.</speaker>
+       <l>Come, let us hence; the air is mild abroad.</l>
+       <l>Julia, we must not sink, but strive to banish</l>
+       <l>That restless inbred foe to the afflicted,</l>
+       <l>Reflection, from our bosoms.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Would, I could!</l>
+       <l>But death's long sleep alone can banish him.</l>
+      </sp>
+      <stage>
+       <hi>Exeunt all but</hi> MARCELUS.</stage>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>My soul and all its faculties go with her: <stage>
+         <hi>looking after</hi> JULIA.</stage>
+       </l>
+       <l>Grace, beauty, sweetness, all that captivates,</l>
+       <l>And holds us long in dear delicious bonds,</l>
+       <l>Indissoluble bonds, for time too strong,</l>
+       <l>For change, or casualty, are summ'd up there.</l>
+       <l>Divinity of love, absolute master,</l>
+       <l>From this white hour, to thy all-potent sway</l>
+       <l>Thus I submit me: hence, all idle thoughts,</l>
+       <l>I chase you forth. Full-plum'd ambition, glory,</l>
+       <l>Arms, and the war, farewel! Her brighter image</l>
+       <l>Claims all my bosom, and disdains a rival. <stage>Exit.</stage>
+       </l>
+      </sp>
+     </div>
+     <div n="6" type="scene">
+      <head>
+       <hi>SCENE VI.</hi>
+       <stage>A Place before <hi>Durazzo's</hi> Palace.</stage>
+      </head>
+      <sp>
+       <stage>MENTEVOLE, <hi>with a letter; and a</hi> Servant.</stage>
+       <l>Convey this letter to the lady Fulvia;</l>
+       <l>Be muffled close, and cloak'd, that none may know you:</l>
+       <l>Speak not a word, but leave it, and return. <stage>
+         <hi>Exit</hi> Servant</stage>
+       </l>
+       <l>Pride and suspicion, in her violent temper,</l>
+       <l>From this short scroll will work rare mischief for me;</l>
+       <l>One spark will set her passions in a blaze:</l>
+       <l>A hint to her is proof demonstrative.—</l>
+       <l>
+        <pb n="31" facs="38"/>So,—I must bear this too; she will not see me,</l>
+       <l>Her health is delicate. But young Marcellus,</l>
+       <l>He fits a lady's chamber at all seasons;</l>
+       <l>Soft as Favonius,—and a cherub's cheek</l>
+       <l>Is not so smooth and rosy. Precious minion!</l>
+       <l>They think me sure a tame enduring slave,</l>
+       <l>A trampled clod: they shall not find me such.</l>
+       <l>The scanty drop which once was patience here,</l>
+       <l>Flames as it flows, and kindles all my nature</l>
+       <l>To its own element of tire within me.</l>
+       <l>Ha! he appears. Choke me not, indignation!</l>
+       <l>Prey inwards! down! while I dissemble calmness.</l>
+      </sp>
+      <stage>MENTEVOLE <hi>retires a little.</hi>
+      </stage>
+     </div>
+     <div n="7" type="scene">
+      <head>SCENE VII.</head>
+      <sp>
+       <stage>MARCELLUS <hi>enters, looking back.</hi>
+       </stage>
+       <l>Ay, there's the attraction. Thou unconscious house,</l>
+       <l>Thy turrets should be cased with beaten gold;</l>
+       <l>For thou enshrin'st a goddess.—Can it be?</l>
+       <l>Not three years pass'd, regardless of her charms</l>
+       <l>Day after day I saw her, and forgot them.</l>
+       <l>Or does the beauty of the full-blown rose</l>
+       <l>Surpass the promise of the opening bud?</l>
+       <l>I sure lov'd Claudio well; no brother's bond</l>
+       <l>Was truer to a brother; yet self! self!</l>
+       <l>This sudden flower now springs up from his grave,</l>
+       <l>That in a brother lies a rival buried.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <stage>advances.</stage>
+       <l>My lord, well met. You then have seen this wonder.</l>
+       <l>Has fame exceeded, think you?</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>How exceeded?</l>
+      </sp>
+      <sp who="#mentevole">
+       <pb n="32" facs="39"/>
+       <speaker>MENTEVOLE.</speaker>
+       <l>Spoke Julia fairer than your eyes confess her?</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>All eyes, all hearts, with rapture must confess her.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>Then I must think, you do not mean to pine</l>
+       <l>In silent adoration?</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>What bless'd strain</l>
+       <l>Can touch that gentle bosom?</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>Take my counsel;</l>
+       <l>Devote thy soul to any thing but love;</l>
+       <l>Steep thy drench'd senses in the mad'ning bowl;</l>
+       <l>Heap gold, and hug the mammon for itself;</l>
+       <l>Set provinces on dice; o'er the pale lamp</l>
+       <l>Of sickly science waste thy vigorous youth;</l>
+       <l>Rush to the war, or cheer the deep-tongu'd hound;</l>
+       <l>Be thou the proverb'd slave of each, or all;</l>
+       <l>They shall not be so noxious to thy soul,</l>
+       <l>As dainty woman's love.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>If this be counsel,</l>
+       <l>It comes with such a harsh and boisterous breath,</l>
+       <l>I more discern the freedom, than the friendship.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>Falsly our poets deck the barbarous god</l>
+       <l>With roseat hue, with infants' dimpling smiles,</l>
+       <l>With wanton curls, and wings of downy gold:—</l>
+       <l>He dips his darts in poisonous aconite;</l>
+       <l>
+        <pb n="33" facs="40"/>The firy venom rankles in our veins,</l>
+       <l>Infuses rage, and murderous cruelty.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>The richest juice pour'd in a tainted jar,</l>
+       <l>Turns to a nauseous and unwholesome draught,</l>
+       <l>But we condemn the vessel, not the wine;</l>
+       <l>So gentle love, lodg'd in a savage breast,</l>
+       <l>May change his nature to a tyger's fierceness.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>Away with vain disguise! Mark me, my lord,</l>
+       <l>I long have lov'd this lady with a passion,</l>
+       <l>Too quick and jealous, not to find a rival,</l>
+       <l>Too fierce to brook him. She receives my vows;</l>
+       <l>Her father favours them. Wealth, titles, honour,</l>
+       <l>My rank in the state, and many fair additions</l>
+       <l>(Surpass'd by none) keep buoyant my full hopes.</l>
+       <l>If yet your heart's untouch'd, I ask, entreat it,</l>
+       <l>(And strangers grant such common courtesies,)</l>
+       <l>Forbear your visits to her.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>Believe this;</l>
+       <l>Were there a fasting lion in my path,</l>
+       <l>I'd rather this good steel here by my side</l>
+       <l>Should grow one piece with the sheath, or in my grasp</l>
+       <l>Shrink to a bulrush, but to mock the wielder,</l>
+       <l>Than feed you with the smallest hope or promise</l>
+       <l>I mean, not to fulfil.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>Then we are foes.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>I'm sorry for't.</l>
+      </sp>
+      <sp who="#mentevole">
+       <pb n="34" facs="41"/>
+       <speaker>MENTEVOLE.</speaker>
+       <l>Deadly, irreconcilable.</l>
+       <l>Two eager racers starting for one goal,</l>
+       <l>Both cannot win, but shame must find the loser.</l>
+       <l>You step between me, and the light of heaven,</l>
+       <l>You strive to rob me of my life's best hope,</l>
+       <l>(For life without her were my curse, my burden,)</l>
+       <l>With cruel calmness you pluck out my heart;</l>
+       <l>Therefore, were the world's bounds more wide and large,</l>
+       <l>They could not hold us both.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>I little thought</l>
+       <l>To draw my sword against my brother's friend;</l>
+       <l>And here attest heaven, and my peaceful soul,</l>
+       <l>You drag this quarrel on me.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>Yonder herd,</l>
+       <l>Who prying now would interrupt our purpose,</l>
+       <l>Will two hours hence be hous'd, to avoid the sun,</l>
+       <l>Then riding at his height; at home I'll wait you,</l>
+       <l>And lead you thence to a sequester'd spot,</l>
+       <l>Fit for the mortal issue of our meeting.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>Since you will have it so,—</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>The die is cast.</l>
+       <l>Have I the bulk, and sinewy strength of man,</l>
+       <l>But to sustain a heavier injury?</l>
+       <l>Let cowards shiver with a smother'd hate,</l>
+       <l>And fear the evil, valour might avert:</l>
+       <l>The brave man's sword secures his destiny. <stage>Exeunt severally.</stage>
+       </l>
+      </sp>
+     </div>
+     <trailer>THE END OF THE SECOND ACT.</trailer>
+    </div>
+    <div n="3" type="act">
+     <pb n="35" facs="42"/>
+     <head>ACT III.</head>
+     <div n="1" type="scene">
+      <head>
+       <hi>SCENE I.</hi>
+       <stage>A Garden, behind <hi>Mentevole's</hi> house.</stage>
+      </head>
+      <sp>
+       <stage>MENTEVOLE <hi>alone, on a garden seat, looking at a picture.</hi>
+       </stage>
+       <l>And must I be content with thee, poor shadow?</l>
+       <l>Yet she's less kind than this her counterfeit,</l>
+       <l>For this looks pleas'd, and seems to smile upon me.</l>
+       <l>O, what a form is here! her polish'd front,</l>
+       <l>Blue slender veins, winding their silken maze,</l>
+       <l>Through flesh of living snow. Young Hebe's hue,</l>
+       <l>Blushing ambrosial health. Her plenteous tresses,</l>
+       <l>Luxuriant beauty! Those bewitching eyes,</l>
+       <l>That shot their soft contagion to my soul;—</l>
+       <l>But where's their varied sweetness? Where the fire</l>
+       <l>To drive men wild with passion to their ruin?</l>
+       <l>Where are her gentle words? the dewy breath</l>
+       <l>Balming the new-blown roses 'tis exhaled through?</l>
+       <l>Thou envious happy lawn, hide those white orbs</l>
+       <l>That swell beneath thy folds! O power of beauty,</l>
+       <l>If thou canst sanctify—By heaven, my sister:— <stage>rise.</stage>
+       </l>
+       <l>Up fair perdition!<stage>attempting hastily to put up the picture, he drops it on the ground.</stage>
+       </l>
+      </sp>
+     </div>
+     <div n="2" type="scene">
+      <head>SCENE II.</head>
+      <stage>
+       <hi>To him,</hi> OLYMPIA,</stage>
+      <sp>
+       <l>'Twas not well, Olympia,</l>
+       <l>To break thus on my privacy. My orders</l>
+       <l>Were strictly given that none should now have entrance.</l>
+      </sp>
+      <sp who="#olympia">
+       <speaker>OLYMPIA.</speaker>
+       <l>I would not be deny'd; and when you know</l>
+       <l>
+        <pb n="36" facs="43"/>Why I am here, you will have cause to bless,</l>
+       <l>Not chide me for the intrusion.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>Then be quick;</l>
+       <l>For other cares, and of more serious import,</l>
+       <l>Will presently demand me. Speak your purpose.</l>
+      </sp>
+      <sp who="#olympia">
+       <speaker>OLYMPIA.</speaker>
+       <l>My lips would give my purpose little grace,</l>
+       <l>When she, who sent me forward but to find you,</l>
+       <l>Can speak it for herself, I came with Julia.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>With Julia? Do not mock me.</l>
+      </sp>
+      <sp who="#olympia">
+       <speaker>OLYMPIA.</speaker>
+       <l>Turn your eyes</l>
+       <l>To yonder cypress, see who there expects you.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>By all my hopes of happiness 'tis she:</l>
+       <l>Like a descended angel there she stands.</l>
+      </sp>
+      <sp who="#olympia">
+       <speaker>OLYMPIA.</speaker>
+       <l>Herself indeed; then haste, conduct her hither.</l>
+      </sp>
+      <stage>MENTEVOLE <hi>rushes out.</hi>
+      </stage>
+     </div>
+     <div n="3" type="scene">
+      <head>SCENE III.</head>
+      <sp>
+       <stage>OLYMPIA <hi>sees, and take up the picture.</hi>
+       </stage>
+       <l>Ay, as I thought, her picture. On this face</l>
+       <l>His eyes were fed, when my approach surpris'd him.</l>
+       <l>Thou fair consumer of his pining soul,</l>
+       <l>O, thou delicious poison, for a while,</l>
+       <l>
+        <pb n="37" facs="44"/>Though he may grieve, let me withhold thee from him!</l>
+       <l>With what a blaze of wealth has he adorn'd it!</l>
+       <l>What gems are here! I'll leave it in her sight;</l>
+       <l>This silent proof should more commend his suit,</l>
+       <l>Than hot-breath'd vows, whose common vehemence</l>
+       <l>Their common violation quickly follows.</l>
+      </sp>
+     </div>
+     <div n="4" type="scene">
+      <head>SCENE IV.</head>
+      <stage>
+       <hi>To</hi> OLYMPIA, MENTEVOLE, <hi>leading in</hi> JULIA.</stage>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Well may you be surpris'd, nor can you question,</l>
+       <l>When you behold me here, how deep the interest</l>
+       <l>That urges me to seek you.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>To behold you,</l>
+       <l>(Whate'er the cause) is such excess of bliss,</l>
+       <l>How, how shall I pour out my enraptur'd sense,</l>
+       <l>How thank this condescension?</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Good my lord,</l>
+       <l>The anxious bosom, ill at ease like mine,</l>
+       <l>Partakes no raptures. Calmness and attention,</l>
+       <l>(If I deserve your thanks,) will better thank me.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>Thou soul of all my passions! this fond breast</l>
+       <l>Is but the obedient instrument, whose chords,</l>
+       <l>As you think meet, sound high, or sink to silence.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>I have heard of your late outrage to Marcellus.</l>
+      </sp>
+      <sp who="#mentevole">
+       <pb n="38" facs="45"/>
+       <speaker>MENTEVOLE.</speaker>
+       <l>Has he complain'd, and to a lady's ear?</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Wrong not his well-tried courage. No; the attendants</l>
+       <l>Saw all your furious gestures, heard your challenge;</l>
+       <l>And, for prevention, to Olympia ran,</l>
+       <l>To alarm us of the danger.</l>
+      </sp>
+      <sp who="#olympia">
+       <speaker>OLYMPIA.</speaker>
+       <l>He's conceal'd,</l>
+       <l>And has been since your parting. That confirms it.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Waste not the precious minutes in denial.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>Fool that I was! no kind concern for me,</l>
+       <l>The safety of Marcellus, made you seek me</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>And I avow the motive. Am I held,</l>
+       <l>Like those grim idols barbarous nations worship,</l>
+       <l>By cruel rites to be propitiated?</l>
+       <l>If love prevail not, dress'd in smiles and softness,</l>
+       <l>Array'd in blood will the fell monster charm me?</l>
+       <l>No; if you prize my peace, it you desire</l>
+       <l>I ever more should name Mentevole,</l>
+       <l>Or suffer him in thought, but with abhorrence,</l>
+       <l>Dismiss your causeless hate to Claudio's brother.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>Let him dismiss his love to Claudio's mistress.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Your own, imaginary, light suggestion</l>
+       <l>
+        <pb n="39" facs="46"/>He boasts it, glories in it. Causeless hate!</l>
+       <l>Causeless, to hate the envenom'd thing that stings me?</l>
+       <l>Diseases curdle up his youthful blood,</l>
+       <l>And mar his specious outside!</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Watchful angels,</l>
+       <l>Keep him in charge, and o'er his gallant head</l>
+       <l>Spread their protecting wings, to avert thy curses!</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>Ha! am I then—</l>
+      </sp>
+      <sp who="#olympia">
+       <speaker>OLYMPIA.</speaker>
+       <l>Is this your promis'd patience?</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>What can I do?</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>What reason bids you do.</l>
+       <l>Not to repent, but to commit a wrong,</l>
+       <l>Gives shame's true crimson to the ingenuous cheek.</l>
+       <l>Ask his indulgence, and confess your frenzy.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>The boy may think I fear him.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>No, not so.</l>
+       <l>What generous spirit is not slow to ascribe</l>
+       <l>Motives to others, which itself would scorn?</l>
+       <l>Are you alone too mighty to have err'd?</l>
+       <l>Rather suspect, your pride revolts to own it;</l>
+       <l>Acknowledge it, and then have cause for pride,</l>
+       <l>And rise exalted by humility.</l>
+       <l>
+        <pb n="40" facs="47"/>Contrition is fair virtue's meek-ey'd sister;</l>
+       <l>Her drops can wash offence to fleecy white,</l>
+       <l>Turning our sins to gracious intercessors.</l>
+       <l>The wisest sometimes may do wrong from passion;</l>
+       <l>But conscious of that wrong, the ruffian only,</l>
+       <l>By brutal perseverance, twice does wrong:</l>
+       <l>Mean pride! false principle! true honour scorns them.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>It goes against my nature's bent.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Indeed!</l>
+       <l>Then hear me, hear this solemn protestation:</l>
+       <l>If you persist, by that benevolent power,</l>
+       <l>Whose blessed beams avert from violence,</l>
+       <l>Whose law forbids it,—</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>O, enough; forbear</l>
+       <l>Yes, you shall be obey'd; I will put on</l>
+       <l>The meek demeanour of repenting rashness;</l>
+       <l>And to the foe I hate, thus bending, cry,</l>
+       <l>
+        <hi>Forgive me,</hi> since you will it. Yet remember,</l>
+       <l>I thus degrade me in mine own esteem,</l>
+       <l>Only to rise in yours. Your liberal nature</l>
+       <l>Will give my free compliance its best gloss.</l>
+       <l>It shews your full dominion o'er my soul,</l>
+       <l>That joyfully prefers your least command,</l>
+       <l>Even to my honour, which I risk to obey you.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>The act bespeaks itself. I must remember,</l>
+       <l>My peace, or misery, was in your power:</l>
+       <l>You chose the gentler part, and made me happy.</l>
+      </sp>
+      <sp who="#mentevole">
+       <pb n="41" facs="48"/>
+       <speaker>MENTEVOLE.</speaker>
+       <l>Transporting thought! behold, I fly to meet him.</l>
+       <l>The hour is come. Marcellus now expects me.</l>
+       <l>Farewel! my eyes, at variance with my tongue,</l>
+       <l>Still gaze, and cannot bear to lose thy beauties.</l>
+      </sp>
+      <stage>
+       <hi>Exit</hi> MENTEVOLE.</stage>
+     </div>
+     <div n="5" type="scene">
+      <head>SCENE V.</head>
+      <stage>JULIA, OLYMPIA.</stage>
+      <sp who="#olympia">
+       <speaker>OLYMPIA.</speaker>
+       <l>Indeed he loves you.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>'Would to heaven he did not!</l>
+       <l>It looks, methinks, like hard ingratitude,</l>
+       <l>To render aught for love, but equal love.</l>
+       <l>Esteem, the best affection I can offer,</l>
+       <l>Seems but a dull, unvalued counterpoise,</l>
+       <l>And pays the glowing ore with worthless lead.</l>
+       <l>Though all be little, to give all, is bounty. <stage>Exeunt.</stage>
+       </l>
+      </sp>
+     </div>
+     <div n="6" type="scene">
+      <head>SCENE VI.</head>
+      <stage>
+       <hi>Enter, at an opposite side,</hi> MARCELLUS <hi>and</hi> MENTEVOLE.</stage>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>Enough, my lord. This fair acknowledgment</l>
+       <l>Has rais'd your justice high in my esteem.</l>
+       <l>A soldier's honour can require no more;</l>
+       <l>And sure, tis better, thus to join our hands,</l>
+       <l>Than try their strength in rude hostility.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>I was your brother's friend; and while he liv'd,</l>
+       <l>
+        <pb n="42" facs="49"/>Though the same passion that still fires my soul,</l>
+       <l>Then fiercely burn'd for this enchanting Julia;</l>
+       <l>Yet, from respect for his precedent claim,</l>
+       <l>And to her choice avow'd, within my breast</l>
+       <l>I kept the painful secret. He so lov'd me,</l>
+       <l>The wound he could not heal, I would not shew:</l>
+       <l>Then sure, full equally, from you, Marcellus,</l>
+       <l>New to her charms, at least I may expect</l>
+       <l>A like declining.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>Good Mentevole,</l>
+       <l>Let's find some safer subject.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>No, this only.</l>
+       <l>I cannot speak, or think, of aught but her:</l>
+       <l>She is my essence; feeds, wakes, sleeps, with me;</l>
+       <l>Is vital to me as the air I breathe.</l>
+       <l>But mark, I am compos'd; no violence</l>
+       <l>Lives in my thoughts, or shall disgrace my tongue.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>Then, lest I move your temper, let me leave you.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>No, pr'ythee no, not thus unsatisfied.</l>
+       <l>I'll not contend, but her transcendent beauty,</l>
+       <l>Even at first sight, must strike the gazer's eye</l>
+       <l>With admiration, which might <hi>grow</hi> to love.</l>
+       <l>But is it possible, <hi>one</hi> interview,</l>
+       <l>(For you but once have seen her,) should so root</l>
+       <l>Her image in your soul, that all your bliss,</l>
+       <l>Or future misery, depends on her?</l>
+      </sp>
+      <sp who="#marcellus">
+       <pb n="43" facs="50"/>
+       <speaker>MARCELLES.</speaker>
+       <l>Regard not me, but reason for yourself.</l>
+       <l>If all your faithful vows, your length of courtship,</l>
+       <l>Her father's favour, and the nameless aids</l>
+       <l>Which time and opportunity have furnish'd,</l>
+       <l>Raise not your hopes above a rival's power;</l>
+       <l>Say, were it not more wise, and manly too,</l>
+       <l>To rouse, and shake off such a hard dominion?</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>How cold you talk? Good heaven! I might as well</l>
+       <l>Resolve to change my nature; bid my ear</l>
+       <l>See for my eye, or turn my blood to milk;</l>
+       <l>New-stamp my features, and new-mould my limbs;</l>
+       <l>Make this soft flesh, that yields to every print,</l>
+       <l>Impassive as thin air; waste time and thought</l>
+       <l>On any wild impossibility;</l>
+       <l>As be the thing I am, and cease to love her.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>Then take, my lord, your course, while I shall follow</l>
+       <l>The counsel which I offer. Once rejected,</l>
+       <l>No more to persecute, where most I love,</l>
+       <l>I shall retire, and mourn repulse in silence.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>So then, my lord, my suit is persecution?</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>I said it not; but since you will search further,</l>
+       <l>I've heard almost as much.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>And who inform'd you?</l>
+      </sp>
+      <sp who="#marcellus">
+       <pb n="44" facs="51"/>
+       <speaker>MARCELLUS.</speaker>
+       <l>A lower tone, perhaps, may meet an answer.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>I <hi>will</hi> be answered.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>Will!—hot man, farewell!<stage>going.</stage>
+       </l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>Come back. I'll answer for you. Your own pride;—</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>Ha! have a care!</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>Your boyish vanity;</l>
+       <l>Your fond conceit of that imposing form;—</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>I'll bear no more; this insolence and rudeness</l>
+       <l>Have rous'd my rage, and thus I answer thee.</l>
+      </sp>
+      <stage>
+       <hi>They fight.</hi> MENTEVOLE <hi>is disarmed.</hi>
+      </stage>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>My life is yours. Strike home. <stage>shewing his breast.</stage>
+       </l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>Take back your sword;</l>
+       <l>And when your peevish spleen next swells within you,</l>
+       <l>Let this deserv'd rebuke subdue your choler.</l>
+      </sp>
+      <stage>
+       <hi>Exit</hi> MARCELLUS.</stage>
+     </div>
+     <div n="7" type="scene">
+      <head>SCENE VII.</head>
+      <sp>
+       <stage>MENTEVOLE, <hi>alone.</hi>
+       </stage>
+       <l>He triumphs every way, Vile baffled wretch!</l>
+       <l>
+        <pb n="45" facs="52"/>Where shall I hide my ignominious head,</l>
+       <l>While love, remorse, and rage, at once o'erwhelm me.</l>
+      </sp>
+      <stage>
+       <hi>Exit</hi> MENTEVOLE.</stage>
+     </div>
+     <div n="8" type="scene">
+      <head>
+       <hi>SCENE VIII.</hi>
+       <stage>A Chamber in <hi>Durazzo's</hi> Palace, with a toilet, &amp;c.</stage>
+      </head>
+      <stage>OLYMPIA, <hi>with a picture in her hand</hi>; NERINA <hi>attending</hi>▪</stage>
+      <sp who="#olympia">
+       <speaker>OLYMPIA.</speaker>
+       <l>The danger's pass'd, and Julia smiles again.</l>
+       <l>My brother, thy divining was too true;</l>
+       <l>Her fears were not for thee. But now, to try</l>
+       <l>This new, this last expedient.—Good Nerina.</l>
+       <l>Observe this picture. This day, in his garden,</l>
+       <l>Mentevole, my enamour'd brother, dropp'd it.</l>
+       <l>It is the lovely likeness of thy lady.</l>
+       <l>I leave it here. Should it escape her view,</l>
+       <l>Find you some means to bring it to her notice.</l>
+       <l>If prodigality proclaim a passion,</l>
+       <l>The diadems of kings are here outluster'd.</l>
+       <l>And yet I fear—The mother of Marcellus:—</l>
+       <l>Her eye looks cold upon me. I'll not meet her.</l>
+      </sp>
+      <stage>OLYMPIA <hi>hangs the picture on the frame of</hi> JULIA's <hi>dressing-glass, and exit.</hi> NERINA <hi>retires.</hi>
+      </stage>
+     </div>
+     <div n="9" type="scene">
+      <head>SCENE IX.</head>
+      <sp>
+       <stage>FULVIA, <hi>with a paper.</hi>
+       </stage>
+       <l>What can this mean? They draw me here to insult me.</l>
+       <l>I ask for this disconsolate, this mourner,</l>
+       <l>And find her, where? Why, with a second lover,</l>
+       <l>With young Mentevole. Her panting bosom</l>
+       <l>Cannot <hi>expect</hi> his visit, bur explores</l>
+       <l>
+        <pb n="46" facs="53"/>His chambers secretly. O my poor son!</l>
+       <l>And could not all thy graces, all thy virtues,</l>
+       <l>One twelvemonth, keep a mistress faithful to thee?</l>
+       <l>The Indian pile, that, with the bridegroom dead,</l>
+       <l>In the same blaze consumes his life-warm bride,</l>
+       <l>Is wild romance to our Italian ladies.—</l>
+       <l>Who cheers our inconsolable in private?</l>
+       <l>Why, the kind sister of Mentevole.</l>
+       <l>Then rumour, which I slander'd, told me truth,</l>
+       <l>And <hi>this</hi> tells truth. Let me once more peruse it. <stage>reads.</stage>
+       </l>
+       <l>If you respect the safety of Marcellus,</l>
+       <l>Prevent his visits to Durazzo's daughter.</l>
+       <l>A favour'd lover has her plighted faith,</l>
+       <l>Who will not brook a rival. Trust this warning.</l>
+       <l>And see, the fair dissimulation comes,</l>
+       <l>Again to sigh, to flatter,—and deceive me.</l>
+      </sp>
+     </div>
+     <div n="10" type="scene">
+      <head>SCENE X.</head>
+      <stage>
+       <hi>To her,</hi> JULIA.</stage>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Madam, forgive my anxiety: that paper,—</l>
+       <l>I hope it brought you no distressful tidings.</l>
+       <l>When your eye ran it o'er, your colour chang'd,</l>
+       <l>And a sad presage instant seiz'd my heart,</l>
+       <l>Fearful perhaps from weakness, more than reason.</l>
+      </sp>
+      <sp who="#fulvia">
+       <speaker>FULVIA.</speaker>
+       <l>I thank you, no; the import is not new;</l>
+       <l>It tells me, what the world has long believ'd,</l>
+       <l>That women can dissemble, and are sickle.</l>
+      </sp>
+      <sp who="#julia">
+       <pb n="47" facs="54"/>
+       <speaker>JULIA.</speaker>
+       <l>But why choose you for the rude confidence?</l>
+      </sp>
+      <sp who="#fulvia">
+       <speaker>FULVIA.</speaker>
+       <l>I fear, there was a reason.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Pardon me;</l>
+       <l>Perhaps I've been intrusive; for that brow</l>
+       <l>Seems to reprove me, for a wish to know,</l>
+       <l>What you think fit to hide.</l>
+      </sp>
+      <sp who="#fulvia">
+       <speaker>FULVIA.</speaker>
+       <l>My interests, madam,</l>
+       <l>Must henceforth be confin'd to my own breast.</l>
+       <l>I have no sunshine there; and would not cloud</l>
+       <l>The cheerful prospect of your coming joys</l>
+       <l>With ill-tim'd sorrow.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Have I Joys to come?—</l>
+       <l>To mix my grief with yours; dejected, lost,</l>
+       <l>To keep one object in my wounded mind;</l>
+       <l>To hold discourse with his ideal form;</l>
+       <l>To make my present state, my future hope,</l>
+       <l>Fears, wishes, prayers, all studies of my life,</l>
+       <l>But slaves to one afflicting memory;</l>
+       <l>These are <hi>my</hi> joys, and who shall envy them?</l>
+      </sp>
+      <sp who="#fulvia">
+       <speaker>FULVIA.</speaker>
+       <l>Hateful hypocrisy! O ten times devil, <stage>aside.</stage>
+       </l>
+       <l>When, to beguile, at wears an angel's outside!</l>
+       <stage>
+        <hi>Turning from</hi> JULIA, <hi>she sees the picture on the table.</hi>
+       </stage>
+       <l>Ha! can I trust my sight? What's this before me?</l>
+      </sp>
+      <sp who="#julia">
+       <pb n="48" facs="55"/>
+       <speaker>JULIA.</speaker>
+       <l>What's this, indeed?</l>
+      </sp>
+      <sp who="#fulvia">
+       <speaker>FULVIA.</speaker>
+       <l>It curdles up my blood</l>
+       <l>The very same; I know these precious gems,</l>
+       <l>Bought with such cost: the east was ransack'd for them.</l>
+       <l>How came it here?</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>By all my tears and sorrows,</l>
+       <l>My murder'd Claudio, on the day we lost him,</l>
+       <l>Wore this around his neck.</l>
+      </sp>
+      <sp who="#fulvia">
+       <speaker>FULVIA.</speaker>
+       <l>He did, he did.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>He shew'd it to me; next his heart it hung</l>
+       <l>That fatal morning. By what means unknown,</l>
+       <l>What wond'rous magick I again behold it,</l>
+       <l>Confounds me with amazement.</l>
+      </sp>
+      <sp who="#nernia">
+       <speaker>NERINA.</speaker>
+       <stage>advancing.</stage>
+       <l>Madam, hear me.</l>
+       <l>In part I can explain the mystery.</l>
+       <l>Olympia, but a little ere you enter'd,</l>
+       <l>Thus plac'd it on the table. bade me mark it,</l>
+       <l>And should it chance to escape my lady's eye,</l>
+       <l>Present it to her notice. In his garden,</l>
+       <l>This morn, (she added) Lord Mentevole,</l>
+       <l>Her brother, dropp'd it. But I know no further.</l>
+      </sp>
+      <sp who="#fulvia">
+       <speaker>FULVIA.</speaker>
+       <l>Dropp'd by Mentevole! his sister said so?</l>
+      </sp>
+      <sp who="#nernia">
+       <pb n="49" facs="56"/>
+       <speaker>NERINA.</speaker>
+       <l>Madam, she did.</l>
+      </sp>
+      <sp who="#fulvia">
+       <speaker>FULVIA.</speaker>
+       <stage>
+        <hi>to</hi> JULIA.</stage>
+       <l>Ha! did you hear that tale?</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Eternal providence! 'twill then be found;</l>
+       <l>The hellish deed be traced to its dark source.</l>
+       <l>O true-divining instinct! now I know,</l>
+       <l>Why, at his sight, oppress'd with chilling horrour,</l>
+       <l>Cold tremörs crept through all my shivering frame;</l>
+       <l>Why faithful nature, shrinking, felt the alarm,</l>
+       <l>As if some fatal deadly thing approach'd me.</l>
+       <l>Haste, madam, haste! that clue shall be our guide.</l>
+       <l>Yes, I shall live to see the black detection;</l>
+       <l>The secret villain's shame, blood shed for blood;</l>
+       <l>While Claudio's sainted spirit from above</l>
+       <l>Smiles to applaud, and urge the righteous justice.</l>
+      </sp>
+      <sp who="#fulvia">
+       <speaker>FULVIA.</speaker>
+       <l>Can I bear this! Such zeal is worthy of you,</l>
+       <l>It quite transports you. But first answer me,</l>
+       <l>How did Mentevole possess this picture?</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>O, 'would I knew!—But let us fly this moment.—</l>
+      </sp>
+      <sp who="#fulvia">
+       <speaker>FULVIA.</speaker>
+       <l>Did you not <hi>secretly,</hi> this morning, see him?</l>
+       <l>Answer me quick.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>I did. Of that hereafter.</l>
+      </sp>
+      <sp who="#fulvia">
+       <speaker>FULVIA.</speaker>
+       <l>Hold, When a lover has a lady's picture,</l>
+       <l>
+        <pb n="50" facs="57"/>A favour'd lover too, though she should swear,</l>
+       <l>Swear deeply, till the host of heaven blush for her,</l>
+       <l>She's ignorant how he had it, O, to trust her,</l>
+       <l>Asks such a reach of blind credulity,</l>
+       <l>As turns belief to folly.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Your fierce looks,</l>
+       <l>This sudden anger, are so strange to me,</l>
+       <l>I stand like one just startled from a dream,</l>
+       <l>And cannot, dare not, think, I wake and hear you.</l>
+      </sp>
+      <sp who="#fulvia">
+       <speaker>FULVIA.</speaker>
+       <l>Then let me rouse you from your lethargy.</l>
+       <l>The flimsy tissue of your artifice</l>
+       <l>Is all unravell'd. By no doubtful proofs</l>
+       <l>I am confirm'd,—your fondness for my son,</l>
+       <l>Your tender care of me, your tears, distractions,</l>
+       <l>Your mourning weeds, (which now, I see, are chang'd,)</l>
+       <l>Ay, and your high-wrought rhapsody this moment,</l>
+       <l>Were all a publick ostentatious sorrow,</l>
+       <l>Nought but an acted passion, a stage transport;</l>
+       <l>And I, the fool who pitied you, your scorn.</l>
+       <l>Do you now wake? Now do you understand me?</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Too well, too well. The peal of dreadful thunder</l>
+       <l>Will sound till death in my astonish'd ears.</l>
+       <l>O, stab me to the heart, dash me to earth,</l>
+       <l>And trample my poor body in the dust;</l>
+       <l>Try every labour'd, cunning cruelty,</l>
+       <l>That rage, revenge, or malice, e'er devised,</l>
+       <l>Or was sustain'd by woman's constancy;</l>
+       <l>I'll bear it all,—I would not shed one tear;</l>
+       <l>
+        <pb n="51" facs="58"/>Would bless you, think it mercy, to the pangs</l>
+       <l>Which wring my soul from every word you have utter'd.</l>
+      </sp>
+      <sp who="#fulvia">
+       <speaker>FULVIA.</speaker>
+       <l>And may the fiend who visits guilt like thine,</l>
+       <l>If my reproaches fail, or the world's justice,</l>
+       <l>Supply a sharper scourge, and more afflict thee!</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>I thought the rigour of my fate accomplish'd</l>
+       <l>By Claudio's death; secure in one great woe,</l>
+       <l>Look'd forward with a smile to all the ills</l>
+       <l>Adversity's worst wrath could pour upon me:</l>
+       <l>But you, inhuman! you have found the way,</l>
+       <l>To wake such new, such unimagin'd horrours!—</l>
+       <l>If there be any power, whose melting eye</l>
+       <l>Sheds soft compassion on us, may that power</l>
+       <l>Hear, and receive my fervent supplication;</l>
+       <l>Let me be mad, and lose this sense of anguish!</l>
+      </sp>
+      <sp who="#fulvia">
+       <speaker>FULVIA.</speaker>
+       <l>What can'st thou hope from me, but rage and vengeance?</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>No, nothing else, I have deserv'd them from thee.</l>
+      </sp>
+      <sp who="#fulvia">
+       <speaker>FULVIA.</speaker>
+       <l>I'll to the duke, the senate shall assemble.</l>
+       <l>When this dumb evidence appears before them,</l>
+       <l>With all that chance has now reveal'd against thee,</l>
+       <l>Think, when thou art summon'd to their dread tribunal,</l>
+       <l>Will that fair face of innocence and wonder,</l>
+       <l>This wringing of thy hands, a few false tears,</l>
+       <l>Shake their stern justice?</l>
+      </sp>
+      <sp who="#julia">
+       <pb n="52" facs="59"/>
+       <speaker>JULIA.</speaker>
+       <l>O, heaven pardon you!</l>
+      </sp>
+      <sp who="#fulvia">
+       <speaker>FULVIA.</speaker>
+       <l>If you have prayers, reserve them for yourself,</l>
+       <l>Your state perhaps may need them.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <stage>kneeling,</stage>
+       <l>Turn, and hear me!</l>
+      </sp>
+      <sp who="#fulvia">
+       <speaker>FULVIA.</speaker>
+       <l>Kneel not to me.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>I kneel not for myself.</l>
+       <l>To thee I am as spotless from offence</l>
+       <l>As the soft sleep of cradled infancy.</l>
+       <l>But when your cruelty has broke my heart,</l>
+       <l>And sunk me unresenting to my grave,</l>
+       <l>If your mistaken rage gives way to reason,</l>
+       <l>(As sure it will,) in that calm, searching hour,</l>
+       <l>When you shall find how sorely you have wrong'd me,</l>
+       <l>Wrong'd her, who lov'd you with a child's affection,</l>
+       <l>Then censure not your rashness too severely;</l>
+       <l>Then try to reconcile your soul to peace,</l>
+       <l>And O, forgive yourself, as I forgive you.</l>
+      </sp>
+     </div>
+     <div n="11" type="scene">
+      <head>SCENE XI.</head>
+      <stage>
+       <hi>To them,</hi> DURAZZO.</stage>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>How's this? my daughter kneeling, and in tears!</l>
+       <l>And anger glowing on the cheek of Fulvia!</l>
+       <l>Rise, Julia, rise.—Madam, that stern regard—</l>
+      </sp>
+      <sp who="#julia">
+       <pb n="53" facs="60"/>
+       <speaker>JULIA.</speaker>
+       <l>O, sir, you must not pity, nor approach me;</l>
+       <l>I dare not trust to nature or affection:</l>
+       <l>Your breast perhaps may turn to marble too.</l>
+       <l>Source of my life! dear even as thee, my father,</l>
+       <l>Your Julia lov'd her:—See these bitter tears;</l>
+       <l>With agonies like these am I requited.</l>
+      </sp>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>A fury's brand must sure have sear'd the breast,</l>
+       <l>That could give thee a pang, my joy! my comfort!—</l>
+       <l>What have you done?<stage>
+         <hi>to</hi> FULVIA.</stage>
+       </l>
+      </sp>
+      <sp who="#fulvia">
+       <speaker>FULVIA.</speaker>
+       <l>Do you behold this picture?</l>
+       <l>Claudio my son, the day the assassin stabb'd him,</l>
+       <l>Wore this detested bawble next his heart.</l>
+       <l>Mentevole, that weeping lady's lover,</l>
+       <l>This morning dropp'd it. Ask you, how he had it,</l>
+       <l>Let that light woman, and her minion, answer.</l>
+      </sp>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>And is that scornful finger for my daughter?</l>
+       <l>Injurious as thou art—</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>For pity, hold!</l>
+       <l>I have enough of misery already,</l>
+       <l>Revil'd, upbraided, charg'd with monstrous guilt;</l>
+       <l>She knew not what she said,—indeed I hope so;</l>
+       <l>But let me here fall lifeless at her feet,</l>
+       <l>My heaving heart burst with its throbs before her,</l>
+       <l>Rather than hear your tongue cast back reproach,</l>
+       <l>To violate the reverence I still owe her.</l>
+      </sp>
+      <sp who="#durazzo">
+       <pb n="54" facs="61"/>
+       <speaker>DURAZZO.</speaker>
+       <l>Hear'st thou, inhuman?</l>
+      </sp>
+      <sp who="#fulvia">
+       <speaker>FULVIA.</speaker>
+       <l>Yes, with scorn I hear her;</l>
+       <l>That syren's voice has lost the power to charm.</l>
+       <l>Why stay I here to breathe the infectious air?</l>
+       <l>May curses rest on these devoted walls,</l>
+       <l>Till livid lightning to the centre shake them!<stage>
+         <hi>Exit</hi> FULVIA.</stage>
+       </l>
+      </sp>
+     </div>
+     <div n="12" type="scene">
+      <head>SCENE XII.</head>
+      <stage>DURAZZO, <hi>and</hi> JULIA.</stage>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>Heaven be our guard! What means she by that picture,</l>
+       <l>Mentevole, and thee?</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>I cannot speak it.</l>
+       <l>Pray, lead me hence.</l>
+      </sp>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>Scarce have I power to aid thee.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>O for a friendly draught of long oblivion,</l>
+       <l>To freeze up every feeling faculty!</l>
+       <l>Against calamity I strive in vain;</l>
+       <l>Since thus each distant gleam of flattering hope</l>
+       <l>Mocks with false light, or bursts in storms upon me.</l>
+      </sp>
+      <stage>Exeunt.</stage>
+     </div>
+     <trailer>THE END OF THE THIRD ACT.</trailer>
+    </div>
+    <div n="4" type="act">
+     <pb n="55" facs="62"/>
+     <head>ACT IV.</head>
+     <div n="1" type="scene">
+      <head>SCENE I. <stage>A Chamber in <hi>Durazzo's</hi> Palace.</stage>
+      </head>
+      <stage>DURAZZO, MARCELLUS, <hi>and</hi> CAMILLO.</stage>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>Not so, not so; deem me not lost to reason;</l>
+       <l>My breast is ever open to receive you.</l>
+       <l>Though Fulvia's son, I hold you not allied</l>
+       <l>To Fulvia's enmity, and violence.</l>
+       <l>Nay, were we foes, (which I should grieve to think,)</l>
+       <l>The qualities and virtue of Marcellus</l>
+       <l>Could find no tongue more prompt in their report,</l>
+       <l>Than old Durazzo's.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>My much honour'd lord,</l>
+       <l>These friendly sounds are cordials to my ear.</l>
+       <l>Soon as I heard my mother's frantick tale,</l>
+       <l>(Though tears and exclamations scarce gave room</l>
+       <l>For her distemper'd rage to tell the story,)</l>
+       <l>Such consternation seiz'd me, as if earth</l>
+       <l>Convuls'd had yawn'd at once beneath my feet,</l>
+       <l>And livid flames shot upwards to consume me,</l>
+      </sp>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>Did I not scorn to mate a woman's malice,</l>
+       <l>What vengeful spunge, though steep'd in Stygian gall,</l>
+       <l>Could wipe away my deep-dy'd injuries?</l>
+       <l>My house's ancient honour set at nonght;</l>
+       <l>The little spark of health, which, just rekindling,</l>
+       <l>Glow'd in the check of my dear innocent child,</l>
+       <l>
+        <pb n="56" facs="63"/>And warm'd her father's hopes, rudely extinguish'd;</l>
+       <l>Her name that like a holy word was utter'd,</l>
+       <l>Grace and good will still ushering the sound,</l>
+       <l>Cast for vile question to the publick streets,</l>
+       <l>'Midst scurril casuists, and the lees of Genoa:—</l>
+       <l>By my just rage, the sanctity of virtue</l>
+       <l>Never sustain'd so gross a profanation.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>With burning blushes, as the shame were mine,</l>
+       <l>And hooting crowds made me derision's scoff,</l>
+       <l>I own the justice of a father's anger.</l>
+       <l>Descend, mild patience, to her harrow'd breast!</l>
+       <l>What fortitude can arm her feeling heart</l>
+       <l>Against the rankling barb of this fell arrow?</l>
+       <l>'Gainst galling taunts, 'gains mortal accusations,</l>
+       <l>From lips whose every sound should sooth and bless her?</l>
+      </sp>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>The malice of a foe may be endur'd;</l>
+       <l>But friendship's stab,—the very plank we cling to</l>
+       <l>Turn'd to a barbarous engine for destruction!—</l>
+       <l>And yet her gentle, her forgiving nature</l>
+       <l>Unwillingly permits my just reproach;</l>
+       <l>She checks my indignation, by rememb'ring,</l>
+       <l>How kind, how tender, Fulvia once was to her;</l>
+       <l>And how the exalted virtues of her soul</l>
+       <l>Transcend her frailties, and efface this error.</l>
+      </sp>
+     </div>
+     <div n="2" type="scene">
+      <pb n="57" facs="64"/>
+      <head>SCENE II.</head>
+      <stage>
+       <hi>Enter an</hi> Officer.</stage>
+      <sp who="#officer">
+       <speaker>OFFICER.</speaker>
+       <l>Be on your guard, my lord; we have certain notice,</l>
+       <l>The rabble stir'd up by some strange report,</l>
+       <l>Mustering from every quarter are assembled,</l>
+       <l>And threaten insult here.</l>
+      </sp>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>I thank you, sir.</l>
+       <l>Let them come on, we are prepar'd to meet them.</l>
+       <l>The love of tumult, and not zeal for justice,</l>
+       <l>Is their great principle. What think you now?</l>
+      </sp>
+      <stage>
+       <hi>Exit</hi> Officer.</stage>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>The wretch arraign'd, whose gasping expectation</l>
+       <l>Hangs on the aweful pause that dooms or saves him,</l>
+       <l>Feels peace and bliss to what my breast endures,</l>
+       <l>Till, prostrate at her feet, I clear my honour,</l>
+       <l>My reason, and each spark of manhood in me,</l>
+       <l>From vile concurrence in this monstrous outrage.</l>
+       <l>This instant lead me to her.</l>
+      </sp>
+      <sp who="#camillo">
+       <speaker>CAMILLO.</speaker>
+       <l>Hold, Marcellus.</l>
+       <l>We must not give too loose a rein to passion,</l>
+       <l>At such a trembling crisis. Good my lord, <stage>
+         <hi>to</hi> DURAZZO.</stage>
+       </l>
+       <l>To check the shameful licence, and disorder,</l>
+       <l>Which hourly spread more wide by our inaction,</l>
+       <l>One way at least is plain.</l>
+      </sp>
+      <sp who="#durazzo">
+       <pb n="58" facs="65"/>
+       <speaker>DURAZZO.</speaker>
+       <l>My mind's distracted.</l>
+       <l>I should before have told you our resolves;</l>
+       <l>But my vex'd spirit this way finds relief,</l>
+       <l>And vents itself in railing. But 'tis thus.</l>
+       <l>The duke, (and much I'm bound to thank his grace.)</l>
+       <l>Though urg'd to every harsh extremity</l>
+       <l>By that fierce woman, kindly has determin'd</l>
+       <l>To take the milder course. Himself in person,</l>
+       <l>When I appoint the hour, will visit us.</l>
+       <l>He knows already every circumstance,</l>
+       <l>In its true state, nor heeds our foe's perversion;</l>
+       <l>And resting so, with honour I must own,</l>
+       <l>Suspicion has its mark.</l>
+      </sp>
+      <sp who="#camillo">
+       <speaker>CAMILLO.</speaker>
+       <l>Mentevole.</l>
+      </sp>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>My favour to that lord, his daily boast,</l>
+       <l>The prattle of this busy babbling city,</l>
+       <l>Pregnant and positive in slanderous falshoods,</l>
+       <l>The picture dropp'd by him, and found with Julia,</l>
+       <l>But most, her secret meeting him this morning,</l>
+       <l>(Which, till explain'd, gives colour to suggestion,)</l>
+       <l>Have so perversely wound us in the snare;</l>
+       <l>We stand, like him, expos'd the common butt</l>
+       <l>For every shaft of venom'd calumny.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MASCELLUS.</speaker>
+       <l>Heavens, can it be? That angel! she expos'd</l>
+       <l>To bear the prying eye, the insidious question,</l>
+       <l>Of proud, unfeeling, quaint authority;</l>
+       <l>
+        <pb n="59" facs="66"/>Each sauntering varlet, worthless of the honour</l>
+       <l>To strew her paths with rushes, unabash'd</l>
+       <l>Gaze on the emotions of her lovely face,</l>
+       <l>And find a heighten'd zest in her confusion!</l>
+       <l>I will not trust myself to wear my sword,</l>
+       <l>Lest, with a firy instinct, from my side</l>
+       <l>It start at once, and in their blood avenge her.</l>
+      </sp>
+      <sp who="#camillo">
+       <speaker>CAMILLO.</speaker>
+       <l>Reason and justice are her best avengers.</l>
+       <l>Be calm then, good Marcellus; hear the means.</l>
+       <l>Just now, an order issued from the state,</l>
+       <l>That none should pass the city's suburb gates,</l>
+       <l>Nor vessel leave the port, till the duke's licence</l>
+       <l>Permits the usual egress. This, though pointed</l>
+       <l>But at Mentevole, being general,</l>
+       <l>Wounds not his pride; nor can awake suspicion.</l>
+      </sp>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>I fear the wise precaution was in vain;</l>
+       <l>Suspicion will awake, when conscience sleeps not,</l>
+       <l>And his—but I am to blame;—appearances</l>
+       <l>Are indexes full oft which point to error.</l>
+      </sp>
+      <sp who="#camillo">
+       <speaker>CAMILLO.</speaker>
+       <l>His sister, as we learn; has sought a convent,</l>
+       <l>And will no more be found.</l>
+      </sp>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>I pity her,</l>
+       <l>Poor wretch! unconsciously, the instrument</l>
+       <l>To speed perhaps a brother's infamy:</l>
+       <l>But all she knew already is divulg'd.</l>
+       <l>
+        <pb n="60" facs="67"/>Keep eye, Camillo, on Mentevole.</l>
+       <l>For you, dear youth, be sure, no mean mistrust</l>
+       <l>Unworthy my esteem, and your high honour,</l>
+       <l>Can ever harbour here.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>Yet, O, Durazzo,</l>
+       <l>I feel but half assur'd. An ugly shame,</l>
+       <l>Chilling the native freedom of my spirit,</l>
+       <l>Hangs on me, loads me, drags me to the ground.</l>
+       <l>Nor can I shake the vile dejection off,</l>
+       <l>Till sweeter than the gale from new-born flowers;</l>
+       <l>Her balmy lips breathe peace into my bosom.</l>
+       <l>Will you not lead me to her?</l>
+      </sp>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>Yes, Marcellus,</l>
+       <l>Deplore with me the ruins of a mind</l>
+       <l>Where nature lavish'd every grace and virtue,</l>
+       <l>To make misfortune still more eminent.</l>
+       <l>Come then, let's on.—Without there? <stage>
+         <hi>Enter</hi> Sarv.</stage> Is my daughter</l>
+       <l>Still in her chamber?</l>
+      </sp>
+      <sp who="#servant">
+       <speaker>SERVANT.</speaker>
+       <l>She but now was seen,</l>
+       <l>Without attendants, near the orange grove.</l>
+      </sp>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>Ere we return here, should the duke arrive,</l>
+       <l>You'll find us near the grove. Now I attend you. <stage>
+         <hi>to</hi> MAR.</stage>
+       </l>
+      </sp>
+      <sp who="#servant">
+       <speaker>SERVANT.</speaker>
+       <l>My lord, the stranger we this morn admitted,</l>
+       <l>Waits in the outward chamber.—If your leisure—</l>
+      </sp>
+      <sp who="#durazzo">
+       <pb n="61" facs="68"/>
+       <speaker>DURAZZO.</speaker>
+       <l>I had forgot. Good man! yes, bid him enter. <stage>
+         <hi>Exit</hi> Serv.</stage>
+       </l>
+       <l>Marcellus, for a moment, pardon me.</l>
+      </sp>
+      <stage>
+       <hi>Exeunt</hi> MARCELLUS <hi>and</hi> CAMILLO.</stage>
+     </div>
+     <div n="3" type="scene">
+      <head>SCENE III.</head>
+      <sp>
+       <stage>DURAZZO, <hi>alone.</hi>
+       </stage>
+       <l>He has known better days; and, to my thought,</l>
+       <l>No cares, however near us, can excuse</l>
+       <l>Our hard neglect of humble misery.</l>
+      </sp>
+     </div>
+     <div n="4" type="scene">
+      <head>SCENE IV.</head>
+      <stage>
+       <hi>To</hi> DURAZZO, MANOA <hi>enters with humility.</hi>
+      </stage>
+      <sp who="#manoa">
+       <speaker>MANOA.</speaker>
+       <l>I am too bold.</l>
+      </sp>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>No, worthy Manoa;</l>
+       <l>Pride may intrude, but not the unfortunate.</l>
+       <l>But how? Thy cheeks are pale; thy started eye</l>
+       <l>Looks fearfully around. What sudden terrour</l>
+       <l>Shakes thus thy manhood?</l>
+      </sp>
+      <sp who="#manoa">
+       <speaker>MANOA.</speaker>
+       <l>O, my gracious lord,</l>
+       <l>In vain I hoped, your pity and protection</l>
+       <l>Might be stretch'd forth to screen me from my foes.</l>
+       <l>The cruel vigilance of fate has found me;</l>
+       <l>I am discover'd, lost.</l>
+      </sp>
+      <sp who="#durazzo">
+       <pb n="62" facs="69"/>
+       <speaker>DURAZZO.</speaker>
+       <l>I trust, not so.</l>
+      </sp>
+      <sp who="#manoa">
+       <speaker>MANOA.</speaker>
+       <l>A dreadful order is but now gone forth,</l>
+       <l>To close the port up, and the city gates.</l>
+       <l>It must be meant 'gainst me; to hem me in,</l>
+       <l>And yield my life to cruel men who hate me.</l>
+      </sp>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>Dismiss that fear, I know the cause too well;</l>
+       <l>'Tis distant far from thee.</l>
+      </sp>
+      <sp who="#manoa">
+       <speaker>MANOA.</speaker>
+       <l>Indeed?</l>
+      </sp>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>Most sure.</l>
+      </sp>
+      <sp who="#manoa">
+       <speaker>MANOA.</speaker>
+       <l>I breathe again. May every blessing crown you!</l>
+      </sp>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>I know your innocence, and will not fail</l>
+       <l>To impress the duke and senate in your favour.</l>
+       <l>Nor can I think but for some special end</l>
+       <l>A providence so visible preserv'd you.</l>
+       <l>Mean time, take comfort to you, and rest here,</l>
+       <l>Secure; these walls shall be your sanctuary.</l>
+      </sp>
+      <sp who="#manoa">
+       <speaker>MANOA.</speaker>
+       <l>O, ever-bounteous to the oppress'd and wretched,</l>
+       <l>The strength of our forefathers be your shield!</l>
+       <l>And, for this manna to my famish'd hopes,</l>
+       <l>
+        <pb n="63" facs="70"/>When full of age and honours you lie down,</l>
+       <l>Protect your generations to time's end!<stage>
+         <hi>Exit</hi> MANOA.</stage>
+       </l>
+      </sp>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>Who waits? <stage>
+         <hi>Enter</hi> Serv.</stage> Observe that stranger with respect,</l>
+       <l>And see that none molest him. <stage>
+         <hi>Exit</hi> Serv.</stage> O, Mentevole!—</l>
+       <l>It must be so. A thousand distant hints,</l>
+       <l>Like meteor glancing through a dusky sky,</l>
+       <l>That nothing shew distinctly, cross my brain.</l>
+       <l>But soon the dim horizon will be clear,</l>
+       <l>And truth's bright ray dispel the doubtful twilight.</l>
+      </sp>
+      <stage>
+       <hi>Exit</hi> DURAZZO.</stage>
+     </div>
+     <div n="5" type="scene">
+      <head>
+       <hi>SCENE V.</hi>
+       <stage>The Garden of <hi>DURAZZO's</hi> Palace.</stage>
+      </head>
+      <sp>
+       <stage>MENTEVOLE, <hi>alone. A Whistle is heard.</hi>
+       </stage>
+       <l>Hark! that's my signal. Then she's near the grove:</l>
+       <l>And see, a woman's form. Be firm, my heart!</l>
+       <l>No fluttering now. Let dire necessity</l>
+       <l>(That in itself contains all arguments)</l>
+       <l>Fix its strong fiat on my resolution,</l>
+       <l>And cancel nature's fear. She must be mine.</l>
+       <l>I have buffetted beyond the midway flood;</l>
+       <l>Nor shall my sinews shrink so near the shore.</l>
+       <l>But come the worst, 'gainst shame and disappointment,</l>
+       <l>Thou sharp, but friendly leech, I will apply thee.</l>
+       <stage>He draws a dagger, which he holds up, and returns again to his bosom.</stage>
+       <l>Soft, soft; from hence, unseen I may observe her. <stage>he retires.</stage>
+       </l>
+      </sp>
+      <sp>
+       <stage>
+        <hi>Enter</hi> JULIA.</stage>
+       <l>No, I must still endure; for death is proud,</l>
+       <l>Owes none obedience; nor will come when summon'd:</l>
+       <l>
+        <pb n="64" facs="71"/>The happy who avoid him, he pursues;</l>
+       <l>And with malignant triumph loves to enter,</l>
+       <l>Where dreams of long security and joy</l>
+       <l>Give ten-fold terrours to the grim intruder.</l>
+       <l>To thee I stretch my arms, thee I invoke,</l>
+       <l>For in thy cold and leaden grasp there—Ha!</l>
+       <stage>
+        <hi>seeing</hi> MENTEVOLE, <hi>she starts.</hi>
+       </stage>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>Why start you, madam? Have a few short hours</l>
+       <l>So chang'd the man you sought, nay, kinder still,</l>
+       <l>With gentle intercession sooth'd, and won</l>
+       <l>To mercy for a rival, that a serpent</l>
+       <l>Rising on mortal spires to sting your life,</l>
+       <l>Could not excite more horrour than his presence?</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Thou art, indeed, a serpent, coil'd for mischief;</l>
+       <l>To dart out on the unwary, drink his blood,</l>
+       <l>And slink again to thy dark lurking place.</l>
+       <l>Why art thou here?</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>To talk to thee of love.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Of murder rather.—Hence!<stage>going.</stage>
+       </l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>I must detain you. <stage>holding her.</stage>
+       </l>
+       <l>A moment is not long. And can thy wisdom,</l>
+       <l>For such a feather, for one light surmise,</l>
+       <l>That picture, rashly deem me capable</l>
+       <l>Of shedding human blood, nay, a friend's blood?</l>
+      </sp>
+      <sp who="#julia">
+       <pb n="65" facs="72"/>
+       <speaker>JULIA.</speaker>
+       <l>Of every crime I deem thee capable:</l>
+       <l>Thy furious temper knows no sacred bond;</l>
+       <l>Death on thyself, even kneeling at my feet,</l>
+       <l>Thou hast vow'd with frantick oaths. O, patient heaven!</l>
+       <l>Why did not fire from yon insulted sky</l>
+       <l>Consume him quick, ere his pernicious rage</l>
+       <l>Had plung'd me in this gulph of wretchedness?</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>I am so clear from any conscious taint,</l>
+       <l>On that foul charge, I would not waste a moment</l>
+       <l>To purge me of so gross a villainy.</l>
+       <l>What state, what sex, what excellence of mind,</l>
+       <l>E'er found an armour against calumny?</l>
+       <l>Give the most monstrous slander but a birth,</l>
+       <l>Folly shall own, and malice cherish it.</l>
+       <l>It moves but my contempt. Consider this,</l>
+       <l>Art not thou too accus'd? thy spotless self,</l>
+       <l>Alike call'd criminal? by what? by madness.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>I thank thee, yes. Thy most unwelcome love,</l>
+       <l>Like some contagious vapour breath'd upon me,</l>
+       <l>Has made me loathsome to the publick view:</l>
+       <l>The persecution of thy hateful vows,</l>
+       <l>That first disturb'd my peace, now blasts my honour.</l>
+       <l>I stand a poor, defam'd, suspected creature:</l>
+       <l>The eyes, whose gentle pity balm'd my sorrows,</l>
+       <l>Now turn their beams with indignation on me;</l>
+       <l>And thou the cause of all.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>You hate me then?</l>
+      </sp>
+      <sp who="#julia">
+       <pb n="66" facs="73"/>
+       <speaker>JULIA.</speaker>
+       <l>Hate thee! the term's too weak. 'Tis vital horrour:</l>
+       <l>The helpless dove views not the ravening kite,</l>
+       <l>With such instinctive dread, and detestation.</l>
+       <l>The principle by which we start from death,—</l>
+       <l>Crave needful food,—nature's original print</l>
+       <l>To shun our evil, and pursue our good,</l>
+       <l>By reason strengthen'd with increasing age,</l>
+       <l>Are not so mix'd, and general through my frame.</l>
+       <l>Hence from my eyes! Thy sight is deadly to me.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>O, thou unthankful beauty! think a little,</l>
+       <l>How envy'd, but for thee, had been my lot:</l>
+       <l>My youth had glided down life's easy stream,</l>
+       <l>With every sail out-spread for every pleasure.</l>
+       <l>But since the hour I saw thy fatal charms,</l>
+       <l>My bosom has been hell. How I have lov'd,</l>
+       <l>All my neglected duties of the world,</l>
+       <l>Friends, parents, interest, country, all forgotten.</l>
+       <l>Cry out against me; now I count the exchange,</l>
+       <l>And find all barter'd for thy hate and scorn.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Dar'st thou upbraid me, or assume a pride</l>
+       <l>Even from the homely meanness of thy soul,</l>
+       <l>Thy long ungenerous importunity?</l>
+       <l>Mere sensual love, contented with the outside?</l>
+       <l>The pure, exalted, incorporeal flame,</l>
+       <l>Fann'd not by sympathy's soft breath, expires.</l>
+       <l>I never gave thee hope, no, not a look,</l>
+       <l>Thy vanity could construe into kindness.</l>
+       <l>I play'd no hypocrite; my heart at once</l>
+       <l>Diffus'd its honest dictates to my eyes;</l>
+       <l>
+        <pb n="67" facs="74"/>They told thee my aversion, my disdain;</l>
+       <l>And were this air the last I should respire,</l>
+       <l>Here, in the face of heaven, my tongue confirms them.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>O eloquence of hatred! noble candour!</l>
+       <l>I am thy fool no more, my doubts are vanish'd.</l>
+       <l>Thou hast not left in all my swelling veins,</l>
+       <l>One cold compunctious drop, to chill my purpose:</l>
+       <l>The lover scorn'd, the man now rouses here.</l>
+       <l>Mark me, ungrateful!</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Ha! what means the traitor?<stage>aside.</stage>
+       </l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>This garden leads to mine; the passages</l>
+       <l>Are all secur'd. A ready priest within</l>
+       <l>Waits to unite us; therefore yield at once;</l>
+       <l>Vain is resistance. If I raise my voice,</l>
+       <l>Four faithful slaves behind yon thicket lodg'd,</l>
+       <l>Will bear thee off.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Am I betray'd thus vilely?</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>Look round, no aid is near thee. Thou art mine:</l>
+       <l>All thy reluctant beauties are my spoil,</l>
+       <l>And, won by wit, shall be enjoy'd at will.</l>
+       <l>Come;—nay, no strife.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <stage>kneeling.</stage>
+       <l>O, give me instant death!</l>
+       <l>See, at your feet I fall.</l>
+      </sp>
+      <sp who="#mentevole">
+       <pb n="68" facs="75"/>
+       <speaker>MENTEVOLE.</speaker>
+       <l>For worlds on worlds,</l>
+       <l>I would not hurt thy charms. My eyes, my soul,</l>
+       <l>Are not so dear to me.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Satiate thy rage;</l>
+       <l>With new-invented cruelty deface me;</l>
+       <l>I will but smile at the uplifted steel,</l>
+       <l>And bless you while you kill me.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>Have a care!</l>
+       <l>I mean thee no dishonour; but these struggles,</l>
+       <l>That heaving bosom, those resistless beams,</l>
+       <l>Darting their subtle heat through all my frame,</l>
+       <l>May fire my senses to so wild a tumult,—</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>O, fatal thought! I will choke in my breath;</l>
+       <l>Fall lifeless here. Is there no pitying power?</l>
+       <l>Are prayers in vain above?</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>As empty air.</l>
+       <l>Love only wakes, for he inspires my ardour.</l>
+       <l>O, fond reluctance! must I call for aid?</l>
+       <l>No, gently thus— <stage>stooping to raise her, in the struggle, the dagger falls from his breast, which she seizes instantly, and rises.</stage>
+       </l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Ha! was it sent from heaven?</l>
+       <l>Lo, thine own dagger. See, I grasp it strongly:</l>
+       <l>Now, monster, I defy thee.</l>
+      </sp>
+      <sp who="#mentevole">
+       <pb n="69" facs="76"/>
+       <speaker>MENTEVOLE.</speaker>
+       <l>Plagues! confusion!</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>The righteous guardian of the innocent</l>
+       <l>Has look'd from yon bright firmament to earth,</l>
+       <l>And sends this timely succour.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>Meddling daemons,</l>
+       <l>In black confed'racy combin'd against me,</l>
+       <l>Turn all my engines to their own destruction.</l>
+       <l>Yet hear with patience—</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>If thou dar'st approach me,</l>
+       <l>Stir but thy foot, or call thy bate associates,—</l>
+       <l>Swift as the ray that darts from yonder orb,</l>
+       <l>(I feel the artery here,) this friendly point</l>
+       <l>Shall pierce my heart, and, as death's shades close round me,</l>
+       <l>I'll bless the night which shuts thee out for ever.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>Obdurate as thou art, alas, my dotage</l>
+       <l>Would still preserve thee; and implores thee, pardon</l>
+       <l>The mad attempt by desperation prompted.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Sunk to the lowest in my esteem before,</l>
+       <l>Lower thou could'st not fall. Degrading guilt,</l>
+       <l>How mean, how abject, are the souls which own thee!</l>
+       <l>How vile thy thraldom! See the baffled ruffian,</l>
+       <l>Though bravoes lurk all round to abet his fury,</l>
+       <l>Abash'd, and pale, before an injur'd woman.</l>
+      </sp>
+      <sp who="#mentevole">
+       <pb n="70" facs="77"/>
+       <speaker>MENTEVOLE.</speaker>
+       <l>I must endure it all;—perfidious fortune!</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>But lo, my father and Marcellus near.</l>
+       <l>Keep thy dark secret, for I will not rouse</l>
+       <l>Their indignation to demand thy life,</l>
+       <l>And snatch the forfeit from impending justice:</l>
+       <l>Thou should'st not die so nobly. Hence! begone!</l>
+      </sp>
+      <stage>JULIA <hi>throws down the dagger, and exit.</hi>
+      </stage>
+     </div>
+     <div n="6" type="scene">
+      <head>SCENE VI.</head>
+      <sp>
+       <stage>MENTEVOLE, <hi>alone.</hi>
+       </stage>
+       <l>Again I grasp thee, faithless instrument!</l>
+       <stage>takes up the dagger.</stage>
+       <l>Revenge, that latest sunshine of the accurs'd,</l>
+       <l>If I must perish, still may gild my downfall. <stage>Exit.</stage>
+       </l>
+      </sp>
+     </div>
+     <trailer>THE END OF THE FOURTH ACT.</trailer>
+    </div>
+    <div n="5" type="act">
+     <pb n="71" facs="78"/>
+     <head>ACT V.</head>
+     <div n="1" type="scene">
+      <head>
+       <hi>SCENE I.</hi>
+       <stage>A Chamber in <hi>Durazzo's</hi> Palace.</stage>
+      </head>
+      <stage>JULIA, <hi>and</hi> MARCELLUS.</stage>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>'Tis true, too true; my astonish'd eyes beheld it.</l>
+       <l>The duke is come, is in the hall this instant;</l>
+       <l>And (shame to Genoa!) armed guards are posted,</l>
+       <l>To save this palace from the people's outrage.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>O, if my prayers have any power to move you,</l>
+       <l>Or, if you would not add to my distress,</l>
+       <l>(Most sure you cannot mean it,) I implore you,</l>
+       <l>Wide, as if spotted plagues encompass'd me,</l>
+       <l>Avoid me, fly me, in fierce Fulvia's presence.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>With joy, in all but this, I would obey you.</l>
+       <l>Shall I retire, and seem to abet a cause,</l>
+       <l>By tame neutrality, and timorous silence,</l>
+       <l>Which, but to think of, chills my heart's warm blood,</l>
+       <l>And drives my sober sense to wild amazement?</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Think then what I feel here! yet, O, remember</l>
+       <l>She has a parent's claim to your respect;</l>
+       <l>And how I lov'd her, heaven that knows can witness;</l>
+       <l>In publick to confront her, might enkindle</l>
+       <l>Her rage to madness. Has she not accus'd me</l>
+       <l>(O, that I could forget it!) of such crimes,</l>
+       <l>As calumny's foul lips might shrink to utter?</l>
+      </sp>
+      <sp who="#marcellus">
+       <pb n="72" facs="79"/>
+       <speaker>MARCELLUS.</speaker>
+       <l>Her's is the shame, but our's, alas, the anguish.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Stung thus to frenzy, she would hurl on me</l>
+       <l>Your disobedience; all her house's woe</l>
+       <l>Impute to me alone, unhappy me;</l>
+       <l>While trembling, sinking, I could but oppose</l>
+       <l>The feeble shield of innocence and tears.</l>
+       <l>No, justice must for once give way to duty.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>O, do not freeze me with so cold a word;</l>
+       <l>Nor wrong the ardours of my glowing bosom.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>The great disposer of events on earth,</l>
+       <l>For some unsearchable, mysterious end,</l>
+       <l>Has pleas'd to mark me for adversity.</l>
+       <l>With constancy unshaken, my firm soul</l>
+       <l>Shall meet the black succession of my fates.</l>
+       <l>When the full storm has emptied all its fury,</l>
+       <l>This shatter'd bark may sink at length to peace;</l>
+       <l>And the last wave that rolls the welcome death,</l>
+       <l>Bury my much-wrong'd name in cold oblivion.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>What eye that with delight has gaz'd on beauty;</l>
+       <l>What ear that e'er was ravish'd with sweet sounds;</l>
+       <l>Who that has sense and soul to feel perfection,</l>
+       <l>And witness'd thy unrivall'd excellence;</l>
+       <l>Can let thee be forgotten? Hear, O, hear me!</l>
+       <l>I Can no more suppress my burning passion;</l>
+       <l>
+        <pb n="73" facs="80"/>It will have way. My fate is in thy breath,</l>
+       <l>And all my enamour'd soul, enslav'd, adores thee.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Marcellus!</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>Ha! that cold averted brow,</l>
+       <l>Presumptuous man! bespeaks my doom too plainly.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Is this an hour for love?</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>At every hour,</l>
+       <l>(Enchanting as thou art) thy eyes command it.</l>
+       <l>Thus on my knee I seize the blest occasion,</l>
+       <l>To tell thee all thy wond'rous charms inspire,</l>
+       <l>Though ages might glide by, ere half was utter'd.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>There is an aweful witness of this scene,</l>
+       <l>For ever present here, who hovers round me.</l>
+       <l>Through the still void I hear a solemn voice;</l>
+       <l>On his pale lips the unwilling accents hang:</l>
+       <l>Our vows, he cries, were register'd above;</l>
+       <l>For thee my breast was pierc'd; see this red wound,</l>
+       <l>Nor lose the memory in a brother's arms.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>What canst thou mean? Why do thy lovely eyes</l>
+       <l>Thus waste their beams on air? O, turn them here,</l>
+       <l>To warm my breast, and light up ecstacy!</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>May ghastly spectres deck my bridal couch,</l>
+       <l>
+        <pb n="74" facs="81"/>Hemlock and poisonous weeds be strew'd for flowers,</l>
+       <l>The nuptial torch scatter despair and death,</l>
+       <l>And mutter'd curses blast the unhallow'd rite,</l>
+       <l>If my false hand receive another love,</l>
+       <l>Or my frail heart forget its early passion!</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>O, fatal sound! my inauspicious sighs</l>
+       <l>Awake no gentle sympathy for me;</l>
+       <l>But fan the flame for a dead rival's ashes.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>All the most tender interest can inspire,</l>
+       <l>Soft friendship, and an anxious sister's kindness,</l>
+       <l>Unask'd I offer; but of love no more:</l>
+       <l>The object, and the passion died with him.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>Too near, and too remote. It cannot be:</l>
+       <l>For, O, 'tis lingering torment, hourly death,</l>
+       <l>To touch the cup might quench our fever's thirst,</l>
+       <l>And know we must not taste it. Angels guard you!</l>
+       <l>Farewel! Let chance direct my wandering way;</l>
+       <l>The world, without thee, has no choice for me.</l>
+      </sp>
+      <stage>
+       <hi>Exit</hi> MARCELLUS.</stage>
+     </div>
+     <div n="2" type="scene">
+      <head>SCENE II.</head>
+      <sp who="#julia">
+       <speaker>JULIA</speaker>
+       <stage>
+        <hi>, alone.</hi>
+       </stage>
+       <l>Most brave, most generous, and by me undone!</l>
+       <l>Judge of the secret heart, what unknown sin</l>
+       <l>Did I commit, that fate stands ready arm'd,</l>
+       <l>To visit all whose peace is dear to me?</l>
+       <l>
+        <pb n="75" facs="82"/>Take me, O, take me, to thy wish'd-for rest,</l>
+       <l>And leave mankind to their own destiny!<stage>Exit.</stage>
+       </l>
+      </sp>
+     </div>
+     <div n="3" type="scene">
+      <head>SCENE III.</head>
+      <stage>
+       <hi>A magnificent Hall in</hi> Durazzo's <hi>Palace. The</hi> Duke <hi>of</hi> Genoa, <hi>with Guards and other Attendants in the center;</hi> FULVIA, <hi>&amp;c. on one side;</hi> DURAZZO, CAMILLO, <hi>and</hi> JULIA, <hi>with their Attendants, on the other.</hi>
+      </stage>
+      <sp who="#fulvia">
+       <speaker>FULVIA.</speaker>
+       <l>I have obey'd the summons of your grace.</l>
+       <l>Yet when I see the seat of justice chang'd</l>
+       <l>From the grave bench, where once she us'd to frown,</l>
+       <l>Even to the chambers of my adversaries,</l>
+       <l>I look for such an issue, as hereafter</l>
+       <l>Will make this novelty no precedent;</l>
+       <l>But to be shun'd, and noted for the abuse.</l>
+      </sp>
+      <sp who="#duke_of_genoa">
+       <speaker>DUKE.</speaker>
+       <l>The sanctity of justice is the heart</l>
+       <l>Of him who judges; place makes no distinction.</l>
+       <l>And when the veil of passion is remov'd,</l>
+       <l>When with clear eyes you see the good we mean you,</l>
+       <l>Yourself, I know, will thank us for this course;</l>
+       <l>And own our swerving from the common form</l>
+       <l>Was kind to all concern'd.</l>
+      </sp>
+      <sp who="#fulvia">
+       <speaker>FULVIA.</speaker>
+       <l>May it prove so!</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>You see me here, brought for so strange a cause,</l>
+       <l>I can but with astonishment look round,</l>
+       <l>Nor know I whom to oppose, or what to answer.</l>
+       <l>
+        <pb n="76" facs="83"/>'Tis hard to make my affliction my offence;</l>
+       <l>And the black deed which saddens all my days,—</l>
+       <l>The source, the bitter source, of every sorrow,—</l>
+       <l>The ground to load me with reproach and shame.</l>
+       <l>Yet here am I accus'd,—I cannot speak it,—</l>
+       <l>Accus'd of what?—To say, I am innocent,</l>
+       <l>Would be such mean, such base indignity</l>
+       <l>To the great spirit of my exalted love,</l>
+       <l>I'd rather burst with the proud sense of scorn,</l>
+       <l>And leave my silence to your worst surmise,</l>
+       <l>Than utter such a word.</l>
+      </sp>
+      <sp who="#duke_of_genoa">
+       <speaker>DUKE.</speaker>
+       <l>O! 'tis too much.</l>
+      </sp>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>You are appris'd, my lord, with what intent</l>
+       <l>My daughter secretly this morning sought</l>
+       <l>A meeting with Mentevole?</l>
+      </sp>
+      <sp who="#duke_of_genoa">
+       <speaker>DUKE.</speaker>
+       <l>I know it;</l>
+       <l>And grieve to find so gentle an intent</l>
+       <l>Has met such hard construction from good Fulvia.</l>
+      </sp>
+      <sp who="#fulvia">
+       <speaker>FULVIA.</speaker>
+       <l>Reserve, my lord, your pity till we ask it,</l>
+       <l>And counsel ignorance. We know our purpose▪</l>
+      </sp>
+      <sp who="#duke_of_genoa">
+       <speaker>DUKE.</speaker>
+       <l>As we our duty. And behold the man</l>
+       <l>First in our present search. <stage>takes his seat.</stage>
+       </l>
+      </sp>
+     </div>
+     <div n="4" type="scene">
+      <pb n="77" facs="84"/>
+      <head>SCENE IV.</head>
+      <stage>
+       <hi>Enter</hi> MENTEVOLE.</stage>
+      <sp>
+       <l>Know you, my lord,</l>
+       <l>Why we assemble here?</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>Yes. Clamour's throat</l>
+       <l>Has roar'd it in our streets. I pass'd along</l>
+       <l>Through files of obloquy. Our sapient rabble</l>
+       <l>Reverse the order of the magistracy,</l>
+       <l>And, ere they hear, condemn us.</l>
+      </sp>
+      <sp who="#duke_of_genoa">
+       <speaker>DUKE.</speaker>
+       <l>Then, my lord,</l>
+       <l>As you regard your honour, and your life,</l>
+       <l>Touch'd by suspicion to the quick, this instant</l>
+       <l>Account for your possession of that picture.</l>
+       <l>That lady there, dead Claudio's mother, swears,</l>
+       <l>It was her son's, and worn around his neck</l>
+       <l>The day he disappear'd. Behold, do you know it?</l>
+       <l>Do you allow you dropp'd it?</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>Yes; but not</l>
+       <l>That it was Claudio's. Yet, I cannot wonder,</l>
+       <l>Two objects so alike, should seem the same.</l>
+      </sp>
+      <sp who="#fulvia">
+       <speaker>FULVIA.</speaker>
+       <l>Should <hi>seem</hi> the same!</l>
+      </sp>
+      <sp who="#duke_of_genoa">
+       <speaker>DUKE.</speaker>
+       <l>Have patience, gentle lady.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>I say, should <hi>seem;</hi> for it is barely seeming.</l>
+       <l>From that which Claudio own'd, (the artist's boast,)</l>
+       <l>
+        <pb n="78" facs="85"/>Myself, not meanly in the science skill'd,</l>
+       <l>Painted this picture; love, my pencil's guide;</l>
+       <l>And, from the image in my heart engrav'd,</l>
+       <l>Assisted by the model, such I made it,</l>
+       <l>That not the most discerning, nicest eye</l>
+       <l>From the first beauteous draught could know that copy.</l>
+      </sp>
+      <sp who="#fulvia">
+       <speaker>FULVIA.</speaker>
+       <l>And had you skill to paint those jewels too,</l>
+       <l>Those jewels in the round? their hue and lustre</l>
+       <l>So singular, and bright? By every power,</l>
+       <l>These were my son's.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>No. Give me hearing, madam.</l>
+       <l>Those too I purchas'd from the very merchant</l>
+       <l>Who furnish'd Claudio. All who hear me, know</l>
+       <l>The name of Manoa; his services</l>
+       <l>To this ungrateful state; his flight, his death;</l>
+       <l>Which I lament, since living, he could witness,</l>
+       <l>And strike you dumb, that by my special order</l>
+       <l>He chose these precious gems, in form and colour</l>
+       <l>So like to Claudio's, none could mark distinction.</l>
+       <l>To pay their value, my estate was strain'd;</l>
+       <l>But had their estimation been twice doubled,</l>
+       <l>A crown imperial deem'd the mighty price,</l>
+       <l>Rather than yield him preference in aught</l>
+       <l>Might seem a test of my extravagant love,</l>
+       <l>I would have grasp'd at it; and so remain'd</l>
+       <l>The ruin'd, happy lord of that sole treasure.</l>
+       <l>Now learn from hence, how wisdom should demur</l>
+       <l>To found a sentence on appearances.</l>
+       <l>Your grace is satisfied. <stage>
+         <hi>Here</hi> DURAZZO <hi>whispers</hi> CAMILLO, <hi>who goes out.</hi>
+        </stage>
+       </l>
+      </sp>
+      <sp who="#duke_of_genoa">
+       <pb n="79" facs="86"/>
+       <speaker>DUKE.</speaker>
+       <l>I own, to me,</l>
+       <l>(No proof appearing to the contrary,)</l>
+       <l>If this be so, your honour seems acquitted.</l>
+      </sp>
+      <sp who="#fulvia">
+       <speaker>FULVIA.</speaker>
+       <l>But not to me. O, undiscerning lord!</l>
+       <l>Is this your inquisition, this your justice?</l>
+       <l>I am not satisfied; my heart still tells me,</l>
+       <l>That picture was my son's; so reason tells me;</l>
+       <l>Nor should a voucher from the yawning grave</l>
+       <l>Shake my conviction.—That good Manoa</l>
+       <l>Did sell these jewels to my slaughter'd son;</l>
+       <l>And he, 'tis true, conveniently is dead:</l>
+       <l>But he had heirs and kindred; summon them;</l>
+       <l>A treasure such as this, could not be sold</l>
+       <l>Without their knowledge; instantly convene them,</l>
+       <l>And act through shame, as if you sought for truth;</l>
+       <l>Else, your grave robes will be the jest of boys,</l>
+       <l>And my son's blood will cry till death against you.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>Do not suppose I scoff at this grave presence,</l>
+       <l>When thus I smile in my security.</l>
+       <l>Produce such witnesses, what could they prove?</l>
+       <l>Their ignorance perhaps in what you ask them;</l>
+       <l>But we have clear and positive laws to guard us.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>So long I have said little, fearful ever</l>
+       <l>To give offence, where all my care has been</l>
+       <l>To manifest respect, esteem, and honour,</l>
+       <l>Even with a daughter's duteous humbleness.</l>
+       <l>But thus much let me add: I here disclaim</l>
+       <l>
+        <pb n="80" facs="87"/>(As most abhorrent to my thoughts, and nature,)</l>
+       <l>All common interest, union, and accord,</l>
+       <l>With him, for whom I suffer in the censure</l>
+       <l>Of that ungentle lady; and believe,</l>
+       <l>Firmly, like her, that picture was her son's,</l>
+       <l>And there, before you, stands his murderer.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>Why stay I here? My lord, if you have power</l>
+       <l>To give me reparation for the stain</l>
+       <l>Cast on my honour by this foolish process,</l>
+       <l>Pronounce it straight; if not, thus I withdraw</l>
+       <l>From those vex'd eyes which glare with fury on me.</l>
+      </sp>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>Soft you a while; for lo you, who comes here,</l>
+       <l>Even to your wish, to make all clear for you.</l>
+      </sp>
+     </div>
+     <div n="5" type="scene">
+      <head>SCENE V.</head>
+      <stage>
+       <hi>Re-enter</hi> CAMILLO, <hi>leading in</hi> MANOA.</stage>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <stage>starting.</stage>
+       <l>Swallow me, earth! he lives. But I must brave it.</l>
+      </sp>
+      <sp who="#duke_of_genoa">
+       <speaker>DUKE.</speaker>
+       <stage>rising.</stage>
+       <l>Ha! can I trust my senses? Manoa!</l>
+      </sp>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>The same, my lord, and by no miracle.</l>
+      </sp>
+      <sp who="#duke_of_genoa">
+       <speaker>DUKE.</speaker>
+       <l>Yet things so strange are next to miracles,</l>
+       <l>And his appearance such. We thought him dead.—</l>
+       <l>This is beyond your hopes. <stage>
+         <hi>to</hi> MENTEVOLE.</stage>
+       </l>
+      </sp>
+      <sp who="#mentevole">
+       <pb n="81" facs="88"/>
+       <speaker>MENTEVOLE.</speaker>
+       <l>O, much beyond them.—</l>
+       <l>All curses of his nation light upon him!<stage>aside.</stage>
+       </l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>The villain's cheek turns pale; his fate has found him. <stage>aside.</stage>
+       </l>
+      </sp>
+      <sp who="#duke_of_genoa">
+       <speaker>DUKE.</speaker>
+       <l>Surprise to see you here, no way abates <stage>
+         <hi>to</hi> MANOA.</stage>
+       </l>
+       <l>Our pleasure at your welfare. Blushing deeply,</l>
+       <l>We own the state has wrong'd you, but soon purpose</l>
+       <l>To give you full redress.</l>
+      </sp>
+      <sp who="#manoa">
+       <speaker>MANOA.</speaker>
+       <l>My humblest thanks.</l>
+      </sp>
+      <sp who="#duke_of_genoa">
+       <speaker>DUKE.</speaker>
+       <stage>takes is seat.</stage>
+       <l>At present we must set aside that care</l>
+       <l>For one which now employs us. No more thanks,</l>
+       <l>We yet deserve them not.—Come nearer still;</l>
+       <stage>
+        <hi>gives</hi> MANOA <hi>the picture.</hi>
+       </stage>
+       <l>Take this, examine it. Do you remember</l>
+       <l>(Observe them well) the jewels round that picture?</l>
+      </sp>
+      <sp who="#manoa">
+       <speaker>MANOA.</speaker>
+       <l>Most sure, my lord; they are by no means common;</l>
+       <l>But all, indeed, most rare and singular.</l>
+      </sp>
+      <sp who="#duke_of_genoa">
+       <speaker>DUKE.</speaker>
+       <l>They once were yours. Who was their purchaser?</l>
+      </sp>
+      <sp who="#manoa">
+       <speaker>MANOA.</speaker>
+       <l>A noble youth, by whose untimely death</l>
+       <l>Genoa has lost her brightest ornament,</l>
+       <l>
+        <pb n="82" facs="89"/>Even in the depth of my own misery,</l>
+       <l>My heart dropp'd blood to hear the fate of Claudio.</l>
+      </sp>
+      <sp who="#duke_of_genoa">
+       <speaker>DUKE.</speaker>
+       <l>Did you at any time, (think, ere you answer,)</l>
+       <l>Procure for any other purchaser</l>
+       <l>Jewels like these?</l>
+      </sp>
+      <sp who="#manoa">
+       <speaker>MANOA.</speaker>
+       <l>Never, my lord.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>Out, dotard!</l>
+       <l>Thy miseries have craz'd thy memory.</l>
+       <l>To me these gems were sold; look on me well,</l>
+       <l>I was the friend of Claudio: think, old man,</l>
+       <l>A noble person's life, and reputation,</l>
+       <l>(More dear than life,) hang on the words you utter.</l>
+      </sp>
+      <sp who="#manoa">
+       <speaker>MANOA.</speaker>
+       <l>I've said, what I have said; were my soul's fate</l>
+       <l>Link'd to the testimony, thus I stake it:</l>
+       <l>As I do hops forgiveness of my sins,</l>
+       <l>And peace in death, I never sold these gems,</l>
+       <l>Nor any like them, save to noble Claudio.</l>
+      </sp>
+      <sp who="#duke_of_genoa">
+       <speaker>DUKE.</speaker>
+       <l>Hear you, my lord?</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>I hear a faithless Jew.</l>
+       <l>A slave suborn'd, a traitor to the state,</l>
+       <l>A bankrupt, fugitive, and outcast Hebrew,</l>
+       <l>
+        <pb n="83" facs="90"/>Aver—he knows not what;—and still more strange,</l>
+       <l>I see the credulous duke of Genoa,</l>
+       <l>The first in estimation as in place,</l>
+       <l>Gaping to swallow monstrous perjuries.</l>
+      </sp>
+      <sp who="#manoa">
+       <speaker>MANOA.</speaker>
+       <l>What interest, lord, have I to do this wrong?</l>
+       <l>I enter'd, uninstructed of the cause</l>
+       <l>For which you summon'd me; nor know I now,</l>
+       <l>Why I am thus revil'd for my true answer.</l>
+      </sp>
+      <sp who="#duke_of_genoa">
+       <speaker>DUKE.</speaker>
+       <stage>
+        <hi>to</hi> MENTEVOLE.</stage>
+       <l>It can avail you nought, to disallow</l>
+       <l>The proof yourself appeal'd to.</l>
+      </sp>
+      <sp who="#manoa">
+       <speaker>MANOA.</speaker>
+       <l>Mighty signor,</l>
+       <l>I have an attestation of my truth,</l>
+       <l>Beyond all oaths, or sacred form of words.</l>
+       <l>If I am not a liar, and suborn'd,</l>
+       <l>There rests within this frame a spring conceal'd</l>
+       <l>With nicest art, and known to me alone,</l>
+       <l>And its first master. Touch'd, it will discover</l>
+       <l>The noble Claudio's image.—Ay, 'tis here.—</l>
+       <l>Ill-fated youth!—Is this to be a liar?</l>
+      </sp>
+      <stage>
+       <hi>He touches a spring, and shews a picture of</hi> CLAUDIO <hi>beneath that of</hi> JULIA.</stage>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <stage>eagerly.</stage>
+       <l>Give me that picture. O, my promis'd love,</l>
+       <l>This was thy form. Thy brow, the throne of honour,</l>
+       <l>And grace thy minister.—For ever gone!</l>
+       <l>So look'd those glossy eyes when turn'd on Julia.—</l>
+       <l>Cold is that tongue.—Come, animating warmth,</l>
+       <l>
+        <pb n="84" facs="91"/>Breathe through my lips, give life to this dear shade,</l>
+       <l>And let me die thus gazing!</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>Daemons seize thee!<stage>
+         <hi>to</hi> MANOA.</stage>
+       </l>
+       <l>Cramps and cold palsies wither thy curs'd hand!</l>
+       <l>Thou hast undone me.</l>
+      </sp>
+      <sp who="#duke_of_genoa">
+       <speaker>DUKE.</speaker>
+       <stage>rising.</stage>
+       <l>Sir, you are our prisoner;</l>
+       <l>And in our palace you must hear your sentence.—</l>
+       <l>Bear him away this instant.</l>
+      </sp>
+      <stage>Two of the Guards attempt to seize him.</stage>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>Stand aloof!</l>
+       <l>Nor raise a hand in violence against me;</l>
+       <l>Or with one stroke I'll frustrate all your forms,</l>
+       <l>And the dark tale dies with me.</l>
+      </sp>
+      <sp who="#duke_of_genoa">
+       <speaker>DUKE.</speaker>
+       <l>Hold;—let's hear him.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>I did kill Claudio. On the morn you miss'd him,</l>
+       <l>We took together our accustom'd walk;</l>
+       <l>When this too certain arm achiev'd the deed,</l>
+       <l>Which long lay brooding in my jealousy.</l>
+      </sp>
+      <sp who="#fulvia">
+       <speaker>FULVIA.</speaker>
+       <l>Deliberate, curs'd assassin!</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>O, my heart!</l>
+      </sp>
+      <sp who="#mentevole">
+       <pb n="85" facs="92"/>
+       <speaker>MENTEVOLE.</speaker>
+       <l>He talk'd with rapture of the approaching bliss,</l>
+       <l>Till passion drown'd his sight; with eyes upcast,</l>
+       <l>Then drew that picture, hanging round his neck,</l>
+       <l>From underneath his garment; glew'd his lips</l>
+       <l>With transport, to the beauteous, lifeless form.</l>
+       <l>My smother'd fury rose at once to madness;</l>
+       <l>With one hand, from his grasp I tore the picture,</l>
+       <l>And with the other smote him to the heart. <stage>JULIA <hi>faints.</hi>
+        </stage>
+       </l>
+      </sp>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>My daughter! ha! the blood forsakes her cheeks.</l>
+       <l>My life, my all, look up!</l>
+      </sp>
+      <sp who="#fulvia">
+       <speaker>FULVIA.</speaker>
+       <stage>
+        <hi>running to</hi> JULIA.</stage>
+       <l>Dear, injur'd, maid,</l>
+       <l>Live but to see my penitence, my tears!</l>
+       <l>Thou lovely sufferer, O wake, and hear me!</l>
+       <l>Alas! she heeds me not. My barbarous tongue,</l>
+       <l>Sharp as the felon's steel, was fatal to thee,—</l>
+       <l>See, she revives.</l>
+      </sp>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>Thank heaven! she breathes again.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>O, who has call'd me back to this dark world,</l>
+       <l>From choirs of angels, and celestial light,</l>
+       <l>To view that murderer? Yet, <hi>let</hi> me view him:</l>
+       <l>For I would find the speediest way to peace;</l>
+       <l>And in the hollow of his cruel eye,</l>
+       <l>There should be mortal mischief, freezing terror,</l>
+       <l>To stop the tide of nature.—Monster, think,</l>
+       <l>Pain, ignominy, death, which wait thee here,</l>
+       <l>
+        <pb n="86" facs="93"/>Will have their lengthen'd end, but to consign thee</l>
+       <l>To ever-during misery hereafter.</l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>My sentence here I know; the rest's uncertain.</l>
+       <l>But least of all, fair sorceress! that tongue</l>
+       <l>Should aggravate the crime, those eyes persuaded;</l>
+       <l>Thou, thou, the cause of all this guilt and ruin.</l>
+       <l>Why did I kill my friend? Why, but for thee,</l>
+       <l>Why risk my soul's perdition? Still for thee.</l>
+       <l>Why forfeit life and honour? All for thee.</l>
+       <l>Then where should I seek vengeance, but from thee?</l>
+       <l>And thus, insulted love thus bids me take it.</l>
+      </sp>
+      <stage>
+       <hi>He stabs</hi> JULIA, <hi>and attempts to stab himself, but is prevented.</hi>
+      </stage>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Ha!</l>
+      </sp>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>Seize his arm! O, execrable wretch!</l>
+       <l>Fly, fly for succour! See, she bleeds, she dies:</l>
+       <l>The fiend, the inhuman fiend has kill'd my daughter.</l>
+      </sp>
+      <sp who="#duke_of_genoa">
+       <speaker>DUKE.</speaker>
+       <l>Quick, bear him hence; each hour while he draws breath,</l>
+       <l>All laws divine and human are insulted. <stage>
+         <hi>Exit</hi> DUKE.</stage>
+       </l>
+      </sp>
+      <sp who="#mentevole">
+       <speaker>MENTEVOLE.</speaker>
+       <l>'Tis done; I laugh at you. Your triumph's past.</l>
+       <l>See there, the last despair of outraged love.</l>
+       <l>Now plunge me in your dungeons; tire your code,</l>
+       <l>To wake new torments for me. The great spirit</l>
+       <l>Which dared such deeds, shall brave their penalty.</l>
+      </sp>
+      <stage>MENTEVOLE <hi>is carried off.</hi>
+      </stage>
+      <sp who="#durazzo">
+       <pb n="87" facs="94"/>
+       <speaker>DURAZZO.</speaker>
+       <l>Good heaven, in pity to a father's anguish,</l>
+       <l>Let me not lose her thus!—my child, my child!</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>The pain of this deep wound is light, my father;</l>
+       <l>But O, to think, that your declining age</l>
+       <l>Will want the comfort of a daughter's care;</l>
+       <l>That cold obedience must discharge the office</l>
+       <l>Affection made so welcome to your Julia!</l>
+      </sp>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>My heart's best blood! I shall not long survive thee.</l>
+      </sp>
+      <sp who="#fulvia">
+       <speaker>FULVIA.</speaker>
+       <l>Hide me, O earth! I tremble to approach.——</l>
+       <l>Has thy soft generous heart one drop of mercy,</l>
+       <l>To fall upon a wretch, whose savage fury</l>
+       <l>Outraged thy virtues, pierc'd thy tender soul,</l>
+       <l>Mocking thy bitterest pangs. O, Julia! Julia!<stage>kneeling.</stage>
+       </l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Rise, madam, rise. These supplicating hands,</l>
+       <l>Your streaming eyes, and that respected body,</l>
+       <l>Thus bow'd with grief, and groveling on the earth,</l>
+       <l>Are sights unfit for her, whose dying beams</l>
+       <l>With tender reverence must still behold you.</l>
+       <l>Alas! resentment, at this awful moment,</l>
+       <l>Can find no place in my departing spirit;</l>
+       <l>For all will soon be peace.</l>
+      </sp>
+      <sp who="#fulvia">
+       <speaker>FULVIA.</speaker>
+       <l>Thou saint-like goodness!</l>
+       <l>Unmov'd I saw thy tears, saw the sweet blush</l>
+       <l>
+        <pb n="88" facs="95"/>Of thy wrong'd innocence. For pity hate me;</l>
+       <l>In life, in death, rise not so much above me.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Give me your hand; my last tears fall upon it.</l>
+       <l>As these dissolving drops part from my eyes,</l>
+       <l>So melts the memory of all past unkindness.</l>
+      </sp>
+      <sp who="#fulvia">
+       <speaker>FULVIA.</speaker>
+       <l>O, could they quench my everlasting shame!</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <stage>without.</stage>
+       <l>I will not be withheld. <stage>Enters.</stage> O, grief and horrour,</l>
+       <l>Why, why did I obey?—thy cruel order</l>
+       <l>Kept me far off. My presence might have saved thee:</l>
+       <l>The ruthless ruffian in my faithful breast</l>
+       <l>Should first have drench'd his steel. These fruitless tears</l>
+       <l>Are all I now have left thee.</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <l>Thus 'tis better.</l>
+       <l>A life of sorrow, (such alas, was mine,)</l>
+       <l>Is well exchang'd for bless'd eternity;</l>
+       <l>Thine shall be long and happy.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>Never, never:</l>
+       <l>Infinite woe from this black hour awaits me.</l>
+       <l>Yet let me print on that pale beauteous hand</l>
+       <l>One sad adieu. O, that my soul could pass thus!</l>
+       <l>By every sacred power that hears, I swear,</l>
+       <l>My lips thus hallow'd by this holy kiss,</l>
+       <l>Shall ne'er again—</l>
+      </sp>
+      <sp who="#julia">
+       <pb n="89" facs="96"/>
+       <speaker>JULIA.</speaker>
+       <stage>eagerly.</stage>
+       <l>As you regard my peace,</l>
+       <l>My last, my earnest prayer, let no rash vow,</l>
+       <l>Blasting the hopes of all your noble race,</l>
+       <l>Replunge the dagger in my bleeding bosom.</l>
+      </sp>
+      <sp who="#marcellus">
+       <speaker>MARCELLUS.</speaker>
+       <l>Yet, there are means of death—</l>
+      </sp>
+      <sp who="#fulvia">
+       <speaker>FULVIA.</speaker>
+       <l>My best Marcellus!</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <stage>
+        <hi>to</hi> FULVIA.</stage>
+       <l>I beg you do not leave my poor remains,</l>
+       <l>But lighten that sad office to my father.</l>
+      </sp>
+      <sp who="#durazzo">
+       <speaker>DURAZZO.</speaker>
+       <l>O, misery!</l>
+      </sp>
+      <sp who="#julia">
+       <speaker>JULIA.</speaker>
+       <stage>taking papers from her breast.</stage>
+       <l>These papers,—pray observe me,—</l>
+       <l>Bury these papers with me. Lay that picture</l>
+       <l>Close to my heart, and let my coffin rest</l>
+       <l>In the same tomb which holds my murder'd Claudio;</l>
+       <l>One love, one death, and the same sepulchre.</l>
+       <l>I thank your tender tears.—Fountain of mercy!</l>
+       <l>Mild peace, and heavenly light, dawn on my sense;</l>
+       <l>My pains grow less; this load will soon fall off:</l>
+       <l>I shall be happy. Weep not. Mercy! Oh!<stage>Dies.</stage>
+       </l>
+      </sp>
+      <stage>Curtain falls.</stage>
+     </div>
+     <trailer>THE END OF THE FIFTH ACT.</trailer>
+    </div>
+   </div>
+  </body>
+  <back>
+   <div type="epilogue">
+    <pb facs="97"/>
+    <head>EPILOGUE;</head>
+    <byline>Written by JOHN COURTENAY, Esq.</byline>
+    <byline>Spoken by Mrs. SIDDONS.</byline>
+    <sp>
+     <l>THOUGH tender sighs breathe in the tragick page,</l>
+     <l>What lover now complains—but on the stage?</l>
+     <l>No suitor now attempts his rival's life,</l>
+     <l>But lets him take that cordial balm—a wife:</l>
+     <l>And yet, to prove his pure and constant flame,</l>
+     <l>Still loves his mistress in the wedded dame;</l>
+     <l>Still courts his friend, and still devoutly bows</l>
+     <l>At the fair shrine where first he breath'd his vows.</l>
+     <l>For love, she knows some gratitude is due,</l>
+     <l>Searches her heart, and finds there's room for two;</l>
+     <l>And often sees, her coy reluctance o'er,</l>
+     <l>Good cause to prize her <hi>caro sposo</hi> more.</l>
+     <l>Thus modish wives, with sentimental spirit,</l>
+     <l>May go astray, to prove their husbands' merit,—</l>
+     <l>Or ope the door, in this commodious age,</l>
+     <l>Without death's aid, to 'scape from wedlock's cage.—</l>
+     <l>Abjuring rules, that soon will seem romance,</l>
+     <l>Love's gayer system we import from France;</l>
+     <l>Rescind politely our old English <hi>duty,</hi>
+     </l>
+     <l>And take off all restraints from wine and beauty;</l>
+     <l>While lighter manners cheer our native gloom,</l>
+     <l>As Spanish wool refines the British loom.</l>
+     <l>Had fashion's law of old such influence shed,</l>
+     <l>The raptur'd Claudio ne'er had timeless bled:</l>
+     <l>His bliss with joy Mentevole had seen,</l>
+     <l>And Julia's favourite Cicishe' had been.</l>
+     <l>The assiduous lover, and the husband bland,</l>
+     <l>Like Brentford's kings, had still walk'd hand in hand;</l>
+     <l>Together still had shone at Park, and play,</l>
+     <l>Quaffing the fragrance of the same bouquet.</l>
+     <l>
+      <pb facs="98" ana="y"/>Our varlet poet, with licentious speech,</l>
+     <l>Thus far our injur'd sex has dar'd <hi>impeach.</hi>
+     </l>
+     <l>The female character thus rudely slurr'd,</l>
+     <l>'Tis fit, at last, that <hi>I</hi> should have a word.—</l>
+     <l>First then, without rejoinder or dispute,</l>
+     <l>This <hi>virtuous</hi> circle might each <hi>charge</hi> refute.</l>
+     <l>That 'tis a <hi>nuptial age,</hi> I sure may say,</l>
+     <l>With their own wives when husbands run away.—</l>
+     <l>But truce with jest. Howe'er the wits may rail,</l>
+     <l>The cause of truth and virtue must prevail.</l>
+     <l>Of former times whatever may be told,</l>
+     <l>We are just as good as e'er they were of old.</l>
+     <l>Connubial Love here long has fix'd his throne,</l>
+     <l>And bliss is ours, to foreign climes unknown.</l>
+     <l>If <hi>now and then</hi> a tripping fair is sound,</l>
+     <l>On Scandal's wings the buzzing tale flies round:</l>
+     <l>While blameless <hi>thousands,</hi> in sequester'd life,</l>
+     <l>Adorn each state, of parent, friend, and wife;</l>
+     <l>From private cares ne'er wish abroad to roam,</l>
+     <l>And bless, each day, the sunshine of their home;</l>
+     <l>Unnoticed keep their noiseless happy course,</l>
+     <l>Nor dream of second wedlock or divorce.—</l>
+     <l>I see the verdict's ours; you smile applause;</l>
+     <l>So, with your leave, again I'll plead our cause;</l>
+     <l>New triumphs nightly o'er this railer gain,</l>
+     <l>And to the last our female rights maintain.</l>
+    </sp>
+    <trailer>FINIS.</trailer>
+   </div>
+  </back>
+ </text>
+</TEI>

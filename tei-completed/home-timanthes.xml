@@ -1,0 +1,3531 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">Timanthes</title>
+    <title type="sub">a tragedy. As it is performed at the Theatre Royal in Covent-Garden. By John Hoole.</title>
+    <author>
+     <persName>
+      <surname>Home</surname>
+      <forename>John</forename>
+      <idno type="VIAF">49234619</idno>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>Timanthes: a tragedy. As it is performed at the Theatre Royal in Covent-Garden. By John Hoole.</name>
+     <author>Hoole, John, 1727-1803.</author>
+     <publisher>printed for T. Becket and Co.,</publisher>
+     <date>1770.</date>
+     <pubPlace>London :</pubPlace>
+     <note>With a half-title.</note>
+     <note>With the words "Spoken by Mr. Bensley." at the head of the Prologue.</note>
+     <note>Variant; in some copies the statement "Spoken by Mr. Bensley" is not at the head of the prologue.</note>
+     <note>Reproduction of original from the British Library.</note>
+     <note>English Short Title Catalog, ESTCT2455.</note>
+     <note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note>
+    </bibl>
+    <biblFull n="printed source">
+     <publicationStmt>
+      <authority ref="#JJ">Jan Jokisch</authority>
+      <date>2024 December</date>
+      <idno type="ECCO_Drama">K021515.000</idno>
+      <idno type="DLPS">004796924</idno>
+      <idno type="ESTC">T2455</idno>
+      <idno type="DocNo">CW111524017</idno>
+      <idno type="TCP">K021515.000</idno>
+      <idno type="GaleDocNo">CW3311524017</idno>
+      <idno type="ContentSet">ECLL</idno>
+      <idno type="ImageSetID">0332300900</idno>
+      <availability>
+       <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+      </availability>
+     </publicationStmt>
+    </biblFull>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    <person xml:id="demophoon"><persName>Demophoon</persName><sex value="MALE"/></person><person xml:id="timanthes"><persName>Timanthes</persName><sex value="MALE"/></person><person xml:id="cherinthus"><persName>Cherinthus</persName><sex value="MALE"/></person><person xml:id="mathusius"><persName>Mathusius</persName><sex value="MALE"/></person><person xml:id="adrastus"><persName>Adrastus</persName><sex value="MALE"/></person><person xml:id="orcanes"><persName>Orcanes</persName><sex value="MALE"/></person><person xml:id="ismena"><persName>Ismena</persName><sex value="FEMALE"/></person><person xml:id="cephisa"><persName>Cephisa</persName><sex value="FEMALE"/></person><person xml:id="officer"><persName>Officer</persName><sex value="MALE"/></person></listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1770">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text xml:lang="en">
+  <front>
+   <div type="halftitle">
+    <pb facs="1" ana="y"/>
+    <p>TIMANTHES: A TRAGEDY.</p>
+    <p>[Price One Shilling and Sixpence.]</p>
+   </div>
+   <div type="titlepage">
+    <pb facs="2"/>
+    <p>TIMANTHES: A TRAGEDY.</p>
+    <p>As it is performed at the THEATRE ROYAL IN COVENT-GARDEN.</p>
+    <p>BY JOHN HOOLE.</p>
+    <p>LONDON: Printed for T. BECKET and Co. in the Strand.</p>
+    <p>M.DCC.LXX.</p>
+   </div>
+   <div type="prologue">
+    <pb facs="3"/>
+    <head>PROLOGUE.</head>
+    <byline>Spoken by Mr. BENSLEY.</byline>
+    <lg>
+     <l>WHEN first our bard advent'rous left the shore,</l>
+     <l>To tempt the drama's depth, untry'd before;</l>
+     <l>With beating heart his trembling sail he rear'd,</l>
+     <l>While critic sands and envious rocks he fear'd.</l>
+     <l>But your indulgence swell'd the prosp'rous wind,</l>
+     <l>And sase convey'd him to the port design'd.</l>
+     <l>The track, yourselves approv'd, he now pursues,</l>
+     <l>And for a second trip his care renews.</l>
+    </lg>
+    <lg>
+     <l>Oft, in the silent hours of teeming thought,</l>
+     <l>As flatt'ring prospects in his bosom wrought,</l>
+     <l>Hope imag'd to his sight your starting tear,</l>
+     <l>And brought the welcome plaudit to his ear!</l>
+     <l>But while he now revolves that mutual fame</l>
+     <l>Should join the poet's and the actor's name,</l>
+     <l>O! let him here one tender tribute pay,</l>
+     <l>To early worth, untimely snatch'd away!</l>
+     <l>To HIM, who once, alas! his scene inspir'd,</l>
+     <l>Whose softness melted, and whose spirit fir'd!</l>
+     <l>While to the friend this grateful debt he pays,</l>
+     <l>Each gen'rous breast will sure confirm the praise;</l>
+     <l>With you, his honest zeal must stand approv'd,</l>
+     <l>Which makes this off'ring to the man he lov'd!</l>
+    </lg>
+   </div>
+   <div type="Dramatis_Personae">
+    <pb facs="4"/>
+    <p>OLINTHUS, a Child.</p>
+    <p>Officer, Guards, Attendants; Chorus of PRIESTS and VIRGINS.</p>
+    <castList>
+     <head>Dramatis Personae.</head>
+     <castItem>
+      <role>DEMOPHOON</role>
+      <actor>Mr. BENSLEY</actor>
+     </castItem>
+     <castItem>
+      <role>TIMANTHES</role>
+      <actor>Mr. SMITH</actor>
+     </castItem>
+     <castItem>
+      <role>CHERINTHUS</role>
+      <actor>Mr. WROUGHTON</actor>
+     </castItem>
+     <castItem>
+      <role>MATHUSIUS</role>
+      <actor>Mr. CLARKE</actor>
+     </castItem>
+     <castItem>
+      <role>ADRASTUS</role>
+      <actor>Mr. GARDNER</actor>
+     </castItem>
+     <castItem>
+      <role>ORCANES</role>
+      <actor>Mr. DAVIS</actor>
+     </castItem>
+     <castItem>
+      <role>ISMENA</role>
+      <actor>Mrs. YATES</actor>
+     </castItem>
+     <castItem>
+      <role>CEPHISA</role>
+      <actor>Mrs. BULKLEY</actor>
+     </castItem>
+    </castList>
+   </div>
+   <set>
+    <p>SCENE, Thrace.</p>
+   </set>
+  </front>
+  <body>
+   <div type="play">
+    <pb facs="5"/>
+    <head>TIMANTHES: A TRAGEDY.</head>
+    <div n="1" type="act">
+     <head>ACT I.</head>
+     <div type="scene">
+      <head>SCENE, <stage>
+        <hi>The palace.</hi>
+       </stage>
+      </head>
+      <stage>
+       <hi>Enter</hi> ADRASTUS <hi>and</hi> ORCANES.</stage>
+      <sp who="#orcanes">
+       <speaker>ORCANES.</speaker>
+       <l>TIMANTHES is arriv'd.</l>
+      </sp>
+      <sp who="#adrastus">
+       <speaker>ADRASTUS.</speaker>
+       <l>The setting sun</l>
+       <l>Gilds his returning ensigns.—Great Demophoon</l>
+       <l>Prepares to welcome home his conquering son,</l>
+       <l>And meet him with a father's love.</l>
+      </sp>
+      <sp who="#orcanes">
+       <speaker>ORCANES.</speaker>
+       <l>And yet</l>
+       <l>Amidst this hour of triumph, sorrow clouds</l>
+       <l>The splendor of a victor's arms: this eve</l>
+       <l>Fore-runs a day of sad solemnity.</l>
+      </sp>
+      <sp who="#adrastus">
+       <speaker>ADRASTUS.</speaker>
+       <l>Orcanes, yes—that sun, whose chearful light</l>
+       <l>Smiles on the harmless swain, that piping leads</l>
+       <l>
+        <pb n="2" facs="6"/>
+His flock to fold, must, ere to-morrow's noon,</l>
+       <l>Behold his altar stain'd with guiltless blood.</l>
+       <l>Thou know'st long since the oracle requir'd</l>
+       <l>A virgin's life in annual sacrifice;</l>
+       <l>And every year, on this returning day,</l>
+       <l>In solemn rites our weeping Thrace gives up</l>
+       <l>The melancholy victim.</l>
+      </sp>
+      <sp who="#orcanes">
+       <speaker>ORCANES.</speaker>
+       <l>Have the priests</l>
+       <l>Receiv'd the virgins yet, whose names must stand</l>
+       <l>To-morrow's dreadful chance?</l>
+      </sp>
+      <sp who="#adrastus">
+       <speaker>ADRASTUS.</speaker>
+       <l>Not yet—and thence</l>
+       <l>I fear new evils may arise: 'tis whisper'd,</l>
+       <l>I know not what, of something that portends</l>
+       <l>Contest and tumult to the state: Mathusius,</l>
+       <l>The hoary chief, beneath whose fostering care</l>
+       <l>Our young Timanthes learn'd the trade of war,</l>
+       <l>Grown old in toils, an alien to the court,</l>
+       <l>Now lives sequester'd, since the king displeas'd</l>
+       <l>Recall'd him from command, and in his stead</l>
+       <l>Left his brave son to guide the Thracian files:</l>
+       <l>Retir'd he dwells, where on the city's skirts</l>
+       <l>The sea in tempests breaks; or where, in calms;</l>
+       <l>Its glassy waves reflect the trembling towers;</l>
+       <l>With him resides his daughter fair Ismena.</l>
+      </sp>
+      <sp who="#orcanes">
+       <speaker>ORCANES.</speaker>
+       <l>The coldness 'twixt Demophoon and Mathusius</l>
+       <l>Has reach'd the public notice; born to shine</l>
+       <l>In camps alone, Mathusius has not learnt</l>
+       <l>The soft address to rise in courts.</l>
+      </sp>
+      <sp who="#adrastus">
+       <speaker>ADRASTUS.</speaker>
+       <l>'Tis true,</l>
+       <l>And bred with him, Timanthes has imbib'd</l>
+       <l>
+        <pb n="3" facs="7"/>
+His temper's warmth, which oft, by youth inflam'd,</l>
+       <l>Flies to extremes—Cherinthus, his young brother,</l>
+       <l>Is form'd of softer mould; yet both possess</l>
+       <l>Demophoon's heart; and born of different queens,</l>
+       <l>He in Timanthes seems to prize the gifts</l>
+       <l>Of manly fortitude, while in Cherinthus</l>
+       <l>He loves the milder virtues that revive</l>
+       <l>His queen Serena's memory.</l>
+      </sp>
+      <sp who="#orcanes">
+       <speaker>ORCANES.</speaker>
+       <l>Cherinthus</l>
+       <l>Is now expected from the Phrygian land,</l>
+       <l>Sent by Demophoon on some embassy</l>
+       <l>Of high concern—but see the king approaches.</l>
+       <stage>
+        <hi>Enter</hi> DEMOPHOON <hi>attended.</hi>
+       </stage>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>'Tis well—Mathusius' absence on the eve</l>
+       <l>Of this important day, when he should meet</l>
+       <l>My conquering son, the pupil of his arms,</l>
+       <l>Argues a stubbornness and disregard</l>
+       <l>A sovereign ill can brook: we own his deeds,</l>
+       <l>His years of service for the state;—but tell</l>
+       <l>The all-presuming man, that merit, self</l>
+       <l>O'er-rated, cancels its reward—Adrastus,</l>
+       <l>Ought hears't thou of Cherinthus?</l>
+      </sp>
+      <sp who="#adrastus">
+       <speaker>ADRASTUS.</speaker>
+       <l>No, my liege,</l>
+       <l>But to the Thracian port, the fav'ring winds</l>
+       <l>Must bring his vessel, ere the close of eve.</l>
+       <l>Forgive a subject's freedom, but you seem</l>
+       <l>Oppress'd with secret care.</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>The time, Adrastus,</l>
+       <l>Now calls for meditation, and how few</l>
+       <l>
+        <pb n="4" facs="8"/>
+Are a king's hours of peace, whose every day</l>
+       <l>Teems with some counsel for the public weal.</l>
+      </sp>
+      <sp who="#adrastus">
+       <speaker>ADRASTUS.</speaker>
+       <l>Yet this auspicious day my king must own</l>
+       <l>Sets not with common lustre; when your son,</l>
+       <l>The brave Timanthes, from the Scythian land,</l>
+       <l>Adds to his father's brow new wreaths of fame,</l>
+       <l>And to his people gives the palms of peace.</l>
+       <l>No, sacred sir, the hardy sons of Thrace</l>
+       <l>Did never celebrate with greater joy</l>
+       <l>A conquering chief's return.</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>Well pleas'd I hear</l>
+       <l>My faithful people's shouts ascend the sky;</l>
+       <l>And sympathize in those exulting sounds,</l>
+       <l>That to the much-lov'd name of my Timanthes,</l>
+       <l>Join every wish—but hark! the victor comes.</l>
+       <stage>
+        <hi>Enter</hi> TIMANTHES <hi>attended.</hi>
+       </stage>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Royal sir!</l>
+       <l>To whom Timanthes owns the double tie</l>
+       <l>Of son and subject; see him now return'd</l>
+       <l>From Scythia's kingdom with success and conquest</l>
+       <l>To grace a father's throne—</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>Timanthes, rise:</l>
+       <l>The king and father give thee double welcome,</l>
+       <l>And treble praise to Mars the armipotent,</l>
+       <l>That gives Demophoon in his darling son</l>
+       <l>His kingdom's best defender.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Thanks to heaven,</l>
+       <l>Whose smiles have grac'd my unexperienc'd arms,</l>
+       <l>
+        <pb n="5" facs="9"/>
+I may, without a blush, confess my deeds:</l>
+       <l>Yes, we have conquer'd; never view'd the sun</l>
+       <l>A more extensive slaughter: 'midst the tumult</l>
+       <l>Of fear and rage, were blended undistinguish'd</l>
+       <l>The brave, the base, the victor and the vanquish'd.</l>
+       <l>The day at length was ours; if you demand</l>
+       <l>A proof of this, behold yon' captive bands,</l>
+       <l>Behold yon' shatter'd arms and streaming ensigns.</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>'Tis not alone o'er the stern Scythian foe</l>
+       <l>Thou spread'st thy trophies; by subduing him,</l>
+       <l>Thou triumph'st in Demophoon's breast—mean-time</l>
+       <l>In this embrace receive my pledge of love:</l>
+       <l>Thy father welcomes thee—proceed, my son,</l>
+       <l>Urge on thy course to honour's furthest goal,</l>
+       <l>Till verging on the extreme of age, Demophoon</l>
+       <l>Beholds thy fame eclipse his own—but toils</l>
+       <l>Demand refreshment, and the weary'd arm</l>
+       <l>Of valour gains new vigour from repose.</l>
+       <l>But I have that requires thy private ear;</l>
+       <l>Let all, except Timanthes, leave the presence.</l>
+       <stage>[Exeunt attendants.</stage>
+       <stage>
+        <hi>Manent</hi> DEMOPHOON <hi>and</hi> TIMANTHES.</stage>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>Come near, my son—thou little think'st how much</l>
+       <l>Thy happiness employs my careful breast.</l>
+       <l>While in the distant fields of fame Timanthes</l>
+       <l>Encounter'd dangers for his father's honour,</l>
+       <l>Demophoon's thoughts were all employ'd at home,</l>
+       <l>To bless his glad return with halcyon days.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Have I not felt your goodness? since the time</l>
+       <l>Of early childhood to the ripening age</l>
+       <l>
+        <pb n="6" facs="10"/>
+Of manly life, a father has prevented</l>
+       <l>My every wish.—</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>Thou know'st Argea dy'd</l>
+       <l>Ere twice six moons had taught thy tongue to lisp</l>
+       <l>A mother's name—two years elaps'd, once more</l>
+       <l>I try'd the nuptial band: Cherinthus crown'd</l>
+       <l>This second union—but his birth, alas!</l>
+       <l>Was fatal to Serena; and with her,</l>
+       <l>In me the husband dy'd; and now the father</l>
+       <l>Engrosses all my soul.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Still may Timanthes</l>
+       <l>With filial duty sooth your days in peace,</l>
+       <l>And oft as war shall call your banners forth</l>
+       <l>Return with conquest home.</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>Thou canst not tell</l>
+       <l>How dear I hold thee—to the toil of arms</l>
+       <l>Love gives its soft relief, and beauty best</l>
+       <l>Smooths the rough front of war: tho' now my years</l>
+       <l>Roll forward, and the summer of my life</l>
+       <l>Yields to declining autumn, well I know</l>
+       <l>What youth has been, and what befits the age</l>
+       <l>When jocund spring leads up the laughing hours.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Alas! my lord, let not your goodness task</l>
+       <l>Timanthes' gratitude, I ask no more</l>
+       <l>To crown my labours than Demophoon's smiles.</l>
+       <l>What bliss is wanting to that chief, whose arms</l>
+       <l>Defend his sovereign's crown and guard his people?</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>Yes, my lov'd son, Cephisa's virgin charms,</l>
+       <l>Cephisa, daughter to the Phrygian king,</l>
+       <l>Shall be thy valour's great reward.</l>
+      </sp>
+      <sp who="#timanthes">
+       <pb n="7" facs="11"/>
+       <speaker>TIMANTHES.</speaker>
+       <l>Cephisa!</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>What mean'st thou? Wherefore hangs this sudden gloom</l>
+       <l>O'er thy chang'd features? Can Cephisa's beauties</l>
+       <l>Whom sighing kings—nay more—</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Yet hear me, sir,</l>
+       <l>Be not displeas'd with your Timanthes—Heav'n's</l>
+       <l>My witness, gladly would I yield my life,</l>
+       <l>If such a sacrifice could aught avail</l>
+       <l>To insure Demophoon's peace—but I confess</l>
+       <l>Repugnance here.—</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>Timanthes!—</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Tho' I own,</l>
+       <l>(What fame has loudly spoken) every virtue</l>
+       <l>That decks the royal virgin, yet if aught</l>
+       <l>My deeds have merited—</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>Where can we find</l>
+       <l>Another partner for Timanthes' bed,</l>
+       <l>Unless a subject born?—Think not, my son,</l>
+       <l>The shades of our great ancestors shall blush</l>
+       <l>To see their line disgrac'd—from them we hold</l>
+       <l>The statute, that condemns to death the subject</l>
+       <l>Who weds with royal blood; and whilst I live</l>
+       <l>I'm guardian of the laws, and will enforce them</l>
+       <l>Even with severest rigour.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Sacred sir—</l>
+       <pb n="8" facs="12"/>
+       <stage>
+        <hi>Enter</hi> ORCANES.</stage>
+      </sp>
+      <sp who="#orcanes">
+       <speaker>ORCANES.</speaker>
+       <l>The Phrygian ships, my lord, are now descry'd</l>
+       <l>Full steering to the port, their spreading sails</l>
+       <l>Swell in the winds that waft them to the shore.</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>'Tis well—go thou, my son, to meet thy brother,</l>
+       <l>And bid the princess welcome to the land:</l>
+       <l>Myself would with thee, but the priests demand</l>
+       <l>My presence at the temple, to consult</l>
+       <l>To-morrow's mournful rites.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <stage>[aside.]</stage>
+       <l>Doubts rise on doubts!</l>
+       <l>This dreadful sacrifice—yet stay, my father—</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>What would'st thou?—speak—</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Alas! I know not what—</l>
+       <l>Fain would I utter—but—</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>No more, I cannot</l>
+       <l>Prolong the precious time in vain debate:</l>
+       <l>The terms are settled, prince—then summon all</l>
+       <l>Thy virtue to respect a parent's will,</l>
+       <l>And dress thy looks in smiles to meet Cephisa.</l>
+       <stage>
+        <hi>[Exeunt</hi> Demophoon <hi>and</hi> Orcanes▪</stage>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES</speaker>
+       <stage>alone.</stage>
+       <l>Ha! dress my looks in smiles to meet Cephisa!</l>
+       <l>What have I heard!—O! where's Ismena now,</l>
+       <l>That once could sooth my cares! whose beauty best</l>
+       <l>Smooth'd the rough task of war—Methinks ev'n now</l>
+       <l>She chides the lingering hours—then let me fly,</l>
+       <l>
+        <pb n="9" facs="13"/>
+Steal unperceiv'd upon the beauteous mourner,</l>
+       <l>And with Timanthes' love relieve her sorrows!</l>
+       <stage>[Exit.</stage>
+      </sp>
+     </div>
+     <div type="scene">
+      <head>SCENE, <stage>
+        <hi>A Garden.</hi>
+       </stage>
+      </head>
+      <stage>
+       <hi>Enter</hi> MATHUSIUS <hi>and</hi> ISMENA.</stage>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>Yet hear me, sir, nor chide your lov'd Ismena,</l>
+       <l>If she presume, with unexperienc'd counsel,</l>
+       <l>To guide a father's thoughts—Alas! I fear</l>
+       <l>The fond impatience of paternal tenderness</l>
+       <l>But makes that evil sure, which fortune else</l>
+       <l>May otherwise dispose.—Has not Demophoon</l>
+       <l>Dispatch'd some delegates to Delphos' shrine,</l>
+       <l>Once more to seek a period to the scourge</l>
+       <l>That hangs each year on our devoted Thrace?</l>
+      </sp>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <l>From thence no comfort springs—This very morn</l>
+       <l>Arriv'd, they from the sacred tripos brought</l>
+       <l>This doubtful answer, that the land must groan</l>
+       <l>Beneath the wrath of heaven, till to himself</l>
+       <l>Th' offender shall be known, who, guiltless now,</l>
+       <l>Usurps a prince's right.</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>Mysterious all!</l>
+      </sp>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <l>Mean-time destruction with remorseless fury</l>
+       <l>Hangs o'er my child, the darling of my age▪</l>
+       <l>And shall I then consent—</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>Yet recollect</l>
+       <l>Your wonted fortitude—why should you hope</l>
+       <l>That, 'midst the weeping maids of Thrace, Ismena</l>
+       <l>
+        <pb n="10" facs="14"/>
+Should stand exempted from the fatal urn?</l>
+       <l>You plead the king perhaps—</l>
+      </sp>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <l>And just the plea:</l>
+       <l>Am I, because a subject, less a father?</l>
+       <l>Apollo wills some virgin, nobly born,</l>
+       <l>Should stain his altar every year with blood.</l>
+       <l>Let him recall his daughter, kept at distance</l>
+       <l>With artful policy—let him expose</l>
+       <l>Her name in yonder urn, and let him prove</l>
+       <l>What pangs distract a wretched parent's breast</l>
+       <l>When his heart trembles, as the priest draws near</l>
+       <l>The sacred vase, while with a solemn mien</l>
+       <l>His lips prepare to speak the victim's name.</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>Alas! my lord, cast round your eyes, behold</l>
+       <l>The Thracian court, and mark her proudest nobles</l>
+       <l>Whose hearts have shudder'd on this awful day</l>
+       <l>For a child's threaten'd life—'tis true Arsene</l>
+       <l>The first-born off-spring of his queen Argea,</l>
+       <l>Resides at distance from Demophoon's palace:</l>
+       <l>But yet reflect, that, singly to refuse</l>
+       <l>Ismena's name, will but incense the king:</l>
+       <l>Let not my danger urge you to expose</l>
+       <l>Your age to further woe—too much already</l>
+       <l>He views you with an unpropitious eye.</l>
+       <l>I dread to think, if now too far provok'd,</l>
+       <l>What mischief may ensue!</l>
+      </sp>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <l>In vain thou tell'st me</l>
+       <l>Of wrath or hatred in his breast, while reason</l>
+       <l>Asserts my cause, and heav'n inspires my thoughts.</l>
+       <l>Was it for this I taught his arms to conquer,</l>
+       <l>And bred his son to greatness? Yes, by me</l>
+       <l>
+        <pb n="11" facs="15"/>
+The Scythian foe is vanquish'd; and by me</l>
+       <l>This eve Timanthes comes in triumph home▪</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>Timanthes, O! my heart! <stage>[aside.]</stage> What says my father,</l>
+       <l>Is then the prince return'd?</l>
+      </sp>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <l>He is, Ismena,</l>
+       <l>And comes in happy hour: his generous soul</l>
+       <l>Disdains not to remember that Mathusius</l>
+       <l>Taught his young sword to reap in glory's field▪</l>
+       <l>To him I will appeal—he will, with pity,</l>
+       <l>Behold a parent's sufferings.</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>Yet, my father,</l>
+       <l>Should the brave prince, with sympathizing heart,</l>
+       <l>Plead vainly with Demophoon, O! forbear</l>
+       <l>To urge the contest further: hope, the genius</l>
+       <l>That still has watch'd your years of danger past,</l>
+       <l>Will guard your age from anguish.</l>
+      </sp>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <l>Cease, Ismena,</l>
+       <l>To oppose, with fruitless words, my fix'd resolve:</l>
+       <l>No, if I still must be condemn'd to feel</l>
+       <l>This anguish of the soul, yon haughty monarch</l>
+       <l>Shall share with me those fears a father knows,</l>
+       <l>Nor stand excluded from Mathusius' pangs!</l>
+       <stage>[Exit.</stage>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA</speaker>
+       <stage>alone.</stage>
+       <l>The tempest thickens round! my little bark</l>
+       <l>That, till this hour, has stemm'd life's boisterous wave,</l>
+       <l>At length, I fear, must sink—Timanthes comes,</l>
+       <l>He comes with conquest crown'd, but where are now</l>
+       <l>Ismena's smiles to meet him! Is it thus,</l>
+       <l>
+        <pb n="12" facs="16"/>
+With tears ill-omen'd, with foreboding sighs,</l>
+       <l>I give him welcome here.</l>
+       <stage>
+        <hi>Enter</hi> TIMANTHES.</stage>
+       <l>My life! my lord!</l>
+       <l>Com'st thou again, preserv'd from danger's field,</l>
+       <l>To these fond arms!</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Yes, 'midst the sterner deeds</l>
+       <l>Which glory claim'd, thy image, present still,</l>
+       <l>Sooth'd every toil—And art thou then the same</l>
+       <l>As when I left thee at the call of honour?</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>Canst thou then doubt me! If thy heart, Timanthes,</l>
+       <l>In the rough shock of war, and clang of arms,</l>
+       <l>Forgot not softer hours of peace and love,</l>
+       <l>Think'st thou, Ismena, 'midst these shades, that oft</l>
+       <l>Have witness'd to our mutual vows, would ever</l>
+       <l>Cast off remembrance that she once was happy?</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Forgive the fondness of o'erflowing love</l>
+       <l>That wishes still to hear those gentle lips</l>
+       <l>Breathe their soft vows—How fares my boy Olinthus?</l>
+       <l>The precious pledge of our connubial joys,</l>
+       <l>That heaven bestow'd while, distant with thy father,</l>
+       <l>Four springs renewing since the Thracian grove,</l>
+       <l>Timanthes march'd against his country's foes?</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>Some God, that watches o'er this pledge of love,</l>
+       <l>Sure crowns his tender age with growing beauty,</l>
+       <l>Or the fond mother with imagin'd grace</l>
+       <l>Has deck'd his infancy; his looks already</l>
+       <l>Assume thy manly sternness; when he smiles,</l>
+       <l>
+        <pb n="13" facs="17"/>
+He's all thyself; and oft as I can steal</l>
+       <l>A wish'd-for look, I gaze with rapture on him,</l>
+       <l>And think I view Timanthes, till deceiv'd</l>
+       <l>With the dear thought, I strain him to my breast,</l>
+       <l>And in the son embrace the absent father.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>What place contains our infant hope! O! lead,</l>
+       <l>Lead me, Ismena, where these longing eyes</l>
+       <l>May in his features read a father's likeness,</l>
+       <l>Or see them blooming with his mother's charms.</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>Alas! my lord, awhile suppress these warm</l>
+       <l>Paternal feelings—some few miles remote,</l>
+       <l>Sequester'd from the city, on the edge</l>
+       <l>Of the rude forest, Arcas and Ianthe,</l>
+       <l>A rustic pair, unconscious of their charge,</l>
+       <l>Rear his young life—Amidst the observing eyes</l>
+       <l>That watch a prince's deeds, you must beware,</l>
+       <l>And but with caution see him—Heav'n allows</l>
+       <l>To us with scanty hand the parent's joys,</l>
+       <l>In the soft moments of o'erflowing nature,</l>
+       <l>To clasp him in our fond endearing arms,</l>
+       <l>And bless the prattler with the tongue of transport.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>By heav'n it shall not be—I'll burst at once</l>
+       <l>From dark dissimulation's veil—'tis now</l>
+       <l>The crisis of our fate!</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>It is indeed:</l>
+       <l>To-morrow's sun lights up the solemn day</l>
+       <l>Of annual sacrifice: Ismena's name</l>
+       <l>Must stand enroll'd amongst th' elected train</l>
+       <l>That wait the dreadful chance.</l>
+      </sp>
+      <sp who="#timanthes">
+       <pb n="14" facs="18"/>
+       <speaker>TIMANTHES.</speaker>
+       <l>Ismena's name!</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>'Tis so decreed,—and think not that I fear</l>
+       <l>To die for Thrace—no, for her country's sake,</l>
+       <l>Ismena gladly would embrace her doom.</l>
+       <l>But Phoebus' words demand a virgin's blood;</l>
+       <l>Shall I, a wife and mother, dare approach</l>
+       <l>His sacred altar, an unhallow'd victim?</l>
+       <l>Thus, if I speak or not, I still am guilty,</l>
+       <l>My silence heav'n offends, my speech the king.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>The king must know the secret of our nuptials:</l>
+       <l>All, all demands is now—for, O Ismena,</l>
+       <l>This very hour perhaps Cherinthus brings</l>
+       <l>A rival to thy love—Cephisa comes;</l>
+       <l>But now Demophoon urg'd me to receive</l>
+       <l>The Phrygian princess—but, be witness heav'n!</l>
+       <l>Not all the cruel policy of courts,</l>
+       <l>Not the stern mandates of a king and father,</l>
+       <l>Shall e'er dissolve those tender ties which love</l>
+       <l>Has form'd, and virtue sanctifies.</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>Alas!</l>
+       <l>What can it all avail! our union publish'd,</l>
+       <l>Thou know'st the sentence of the law impends</l>
+       <l>On my devoted head.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>A monarch made,</l>
+       <l>A monarch can revoke the stern decree:</l>
+       <l>Demophoon, tho' severe, is still a parent,</l>
+       <l>
+        <pb n="15" facs="19"/>
+His kind indulgence shall avert the stroke</l>
+       <l>That threats Ismena.</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>Rather let it come:</l>
+       <l>Too long, Timanthes, hast thou sacrific'd</l>
+       <l>Thy glory to Ismena—O! reflect</l>
+       <l>How ill the name of Thracia's heir agrees</l>
+       <l>With secret nuptials and clandestine love.</l>
+       <l>Let me embrace my fate—I die with joy,</l>
+       <l>Since I, in death, can call Timanthes mine!</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>O! fortune, wherefore did thy lavish hand</l>
+       <l>Give my Ismena every charm, yet place</l>
+       <l>Her virtues in the vale of private life?</l>
+       <l>But be it so—it rests on me to amend</l>
+       <l>The partial error—Thrace, some future day,</l>
+       <l>With joy shall view her partner of my throne.</l>
+       <l>Farewell, my love, and let this fix'd assurance</l>
+       <l>Dwell in thy mind, and calm thy troubled thoughts:</l>
+       <l>Timanthes will be ever watchful o'er thee,</l>
+       <l>And hold thy peace far dearer than his own.</l>
+       <stage>[Exeunt severally.</stage>
+      </sp>
+      <trailer>END <hi>of the</hi> FIRST ACT.</trailer>
+     </div>
+    </div>
+    <div n="2" type="act">
+     <pb n="16" facs="20"/>
+     <head>ACT II.</head>
+     <div type="scene">
+      <head>SCENE, <stage>
+        <hi>A sea-port.</hi>
+       </stage>
+      </head>
+      <stage>
+       <hi>Enter</hi> CHERINTHUS, CEPHISA, <hi>and Attendants.</hi>
+      </stage>
+      <sp who="#cephisa">
+       <speaker>CEPHISA.</speaker>
+       <l>WHAT means this sadness, prince? With silent gaze</l>
+       <l>You look and sigh, and if with friendly speech</l>
+       <l>I urge your converse, when you seem prepar'd</l>
+       <l>To tell me much, your fault'ring tongue is mute.</l>
+       <l>Where is your wonted chearfulness? the grace</l>
+       <l>That season'd your discourse? Are you in Thrace</l>
+       <l>The same Cherinthus that I knew in Phrygia?</l>
+       <l>Or is it thus, with melancholy looks,</l>
+       <l>You Thracians to her lord conduct a bride?</l>
+      </sp>
+      <sp who="#cherinthus">
+       <speaker>CHERINTHUS.</speaker>
+       <l>If my afflictions bear a sad presage,</l>
+       <l>On me, fair princess, every evil fall:</l>
+       <l>My stars can little add to griefs like mine,</l>
+       <l>Nor breathes a wretch so hopeless as Cherinthus.</l>
+      </sp>
+      <sp who="#cephisa">
+       <speaker>CEPHISA.</speaker>
+       <l>And claims Cephisa then so little share</l>
+       <l>In your esteem! The time has been—</l>
+      </sp>
+      <sp who="#cherinthus">
+       <speaker>CHERINTHUS.</speaker>
+       <l>Forgive</l>
+       <l>This cold reserve—and yet believe me, fair-one,</l>
+       <l>There is a something here commands my silence.</l>
+      </sp>
+      <sp who="#cephisa">
+       <pb n="17" facs="21"/>
+       <speaker>CEPHISA.</speaker>
+       <l>'Tis true, I am a woman, and your secret</l>
+       <l>Were ill confided to our sex's weakness.</l>
+       <l>I urge no further—lead me to the palace.</l>
+      </sp>
+      <sp who="#cherinthus">
+       <speaker>CHERINTHUS.</speaker>
+       <l>Yet hear—those eyes like light'ning pierce my soul,</l>
+       <l>And all my firm resolves are lost before them.</l>
+       <l>O! turn, Cephisa, and with gentler looks</l>
+       <l>Unbend those brows, while trembling I confess,</l>
+       <l>'Tis thou hast robb'd me of my peace—I gaze</l>
+       <l>With rapture on thy matchless charms; I own</l>
+       <l>My love is fruitless all, that these fond wishes</l>
+       <l>Would grasp they know not what: I know that death</l>
+       <l>Alone can end my pains.</l>
+      </sp>
+      <sp who="#cephisa">
+       <speaker>CEPHISA.</speaker>
+       <l>What means Cherinthus!</l>
+      </sp>
+      <sp who="#cherinthus">
+       <speaker>CHERINTHUS.</speaker>
+       <l>I knew too well I should offend—And yet</l>
+       <l>The faults of love—</l>
+      </sp>
+      <sp who="#cephisa">
+       <speaker>CEPHISA.</speaker>
+       <l>Forbear—I'll hear no more.—</l>
+       <l>Is this the brother of Timanthes? This</l>
+       <l>The prince deputed by the Thracian king?</l>
+       <l>And is it thus Cherinthus thinks to guard</l>
+       <l>That faith a brother and a father claim?</l>
+      </sp>
+      <sp who="#cherinthus">
+       <speaker>CHERINTHUS.</speaker>
+       <l>I own my crime—I know that every tie</l>
+       <l>Of son and brother should forbid my passion.</l>
+       <l>Why was I only singled by Demophoon,</l>
+       <l>To bring thee to Timanthes? Could I view</l>
+       <l>Thy charms, and yet resist?—I saw and lov'd.</l>
+       <l>Each day beheld me near thee, while the name</l>
+       <l>Of kinsman gave a license to my tongue:</l>
+       <l>
+        <pb n="18" facs="22"/>
+Nor did this name alone deceive the world,</l>
+       <l>I was deceiv'd myself—that love, which made</l>
+       <l>Me sigh for ever for Cephisa's presence,</l>
+       <l>Appear'd but duty, and a thousand times</l>
+       <l>I thought to paint the affections of a brother,</l>
+       <l>While my too eager speech betray'd my own.</l>
+      </sp>
+      <sp who="#cephisa">
+       <speaker>CEPHISA.</speaker>
+       <stage>[aside.]</stage>
+       <l>Alas! 'twas not in vain—Cephisa too</l>
+       <l>Perceiv'd a something she would fain disown.</l>
+      </sp>
+      <sp who="#cherinthus">
+       <speaker>CHERINTHUS.</speaker>
+       <l>And yet sometimes I felt a flattering hope:</l>
+       <l>Methought I oft observ'd a tender sigh</l>
+       <l>Steal from thy breast, view'd in thy eyes a softness</l>
+       <l>That seem'd much more than friendship—</l>
+      </sp>
+      <sp who="#cephisa">
+       <speaker>CEPHISA.</speaker>
+       <l>Hold, Cherinthus,</l>
+       <l>Thou dost begin to abuse my easy nature.</l>
+       <l>It ill befits the daughter of Nicanor,</l>
+       <l>Affianc'd to Timanthes, heir of Thrace,</l>
+       <l>To hear with calmness these injurious vows,</l>
+       <l>At once destructive to her peace and fame.</l>
+      </sp>
+      <sp who="#cherinthus">
+       <speaker>CHERINTHUS.</speaker>
+       <l>Forgive me, princess, and I will obey;</l>
+       <l>Thou shalt no more reproach my daring love,</l>
+       <l>Injurious to thy glory—Spite of all</l>
+       <l>The pangs that rend my heart, conviction's force</l>
+       <l>Dwells in thy words, and I'll no more offend.</l>
+       <l>No, I will strive to wear the face of joy,</l>
+       <l>And kindly bless my happier brother's fate.</l>
+       <stage>
+        <hi>Enter</hi> TIMANTHES.</stage>
+       <l>Welcome, Timanthes, to thy native land,</l>
+       <l>Fame, the loud harbinger of thy approach,</l>
+       <l>
+        <pb n="19" facs="23"/>
+Has rous'd each Thracian son to hail thy presence,</l>
+       <l>And I but join the common voice.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Receive</l>
+       <l>In this embrace my thanks—but say, Cherinthus,</l>
+       <l>Is this the royal fair one who forsakes</l>
+       <l>Her country's gentle seat to visit Thrace,</l>
+       <l>And with her beauties gild our rougher clime?</l>
+      </sp>
+      <sp who="#cherinthus">
+       <speaker>CHERINTHUS.</speaker>
+       <l>It is—Behold, while others with applause</l>
+       <l>Congratulate thy fortune, what a treasure</l>
+       <l>Thy brother brings, to give thee every blessing</l>
+       <l>That love and beauty can bestow.—</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Her looks</l>
+       <l>Bespeak perfection—Let Timanthes then,</l>
+       <l>Imperial virgin, greet thy save arrival</l>
+       <l>From Phrygia's happy shore—Vouchsafe awhile,</l>
+       <l>Cherinthus, to retire apart—my thoughts</l>
+       <l>Revolve some secret of import, that claims</l>
+       <l>The princess' ear alone.</l>
+      </sp>
+      <sp who="#cherinthus">
+       <speaker>CHERINTHUS.</speaker>
+       <l>I shall obey.</l>
+       <l>What can this mean? But wherefore ask, or what</l>
+       <l>Avails their converse to the lost Cherinthus?</l>
+       <stage>[walks aside.</stage>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>How shall Timanthes, beauteous princess, dress</l>
+       <l>His thoughts in apt expression? I should now</l>
+       <l>Pour forth the raptures of a heart, decreed</l>
+       <l>To excellence like yours—but O! there is</l>
+       <l>Fatality in man, and oft when Heaven</l>
+       <l>Holds out an unexpected blessing to us,</l>
+       <l>Some mystery forbids—</l>
+      </sp>
+      <sp who="#cephisa">
+       <pb n="20" facs="24"/>
+       <speaker>CEPHISA.</speaker>
+       <l>What would the prince?</l>
+       <l>Let not Timanthes seek the low disguise</l>
+       <l>Of art, the refuge of ignoble minds,</l>
+       <l>But boldly, as he meets his foes in battle,</l>
+       <l>Speak out his secret soul.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>The statesman oft</l>
+       <l>Joins with the specious plea of public good</l>
+       <l>Two hearts averse: our parents have decreed</l>
+       <l>An union to thyself perhaps ungrateful.</l>
+       <l>Thy virtues might demand the noblest heart;</l>
+       <l>But fate forbids us ever to unite:</l>
+       <l>There is a bar which nothing can surmount:</l>
+       <l>My father knows it not, nor must I speak it;</l>
+       <l>Refuse, refuse me then, enlarge my faults,</l>
+       <l>And thus preserve thy fame, my peace and life!</l>
+      </sp>
+      <sp who="#cephisa">
+       <speaker>CEPHISA.</speaker>
+       <l>'Tis well—my lord—</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>I see the conscious pride</l>
+       <l>Of greatness rising on thy cheek—my presence</l>
+       <l>But adds to your displeasure—my Cherinthus,</l>
+       <l>The care be thine, with every mark of honour,</l>
+       <l>Such as may suit her station and desert,</l>
+       <l>To lead from hence the princess to the palace.</l>
+       <stage>[Exit.</stage>
+      </sp>
+      <sp who="#cephisa">
+       <speaker>CEPHISA.</speaker>
+       <l>What have I heard! Is this the boasted youth</l>
+       <l>Whom fame extols for gallantry and arms!</l>
+       <l>And is it thus he treats a virgin, sprung</l>
+       <l>From Phrygia's scepter'd kings!—neglected! Heavens!</l>
+       <l>And shall I tamely bear this outrage?</l>
+      </sp>
+      <sp who="#cherinthus">
+       <pb n="21" facs="25"/>
+       <speaker>CHERINTHUS.</speaker>
+       <stage>coming forward.</stage>
+       <l>Princess,</l>
+       <l>What indignation rises in your breast?</l>
+       <l>Your looks are chang'd—has then my brother—</l>
+      </sp>
+      <sp who="#cephisa">
+       <speaker>CEPHISA.</speaker>
+       <l>Yes,</l>
+       <l>I see your mutual purpose to betray me:</l>
+       <l>Was it for this I left my native land,</l>
+       <l>Left the lov'd arms of an indulgent father,</l>
+       <l>To meet with insult on this foreign shore!</l>
+       <l>To bear unmov'd the injury that waits</l>
+       <l>Cherinthus' passion, and his brother's scorn?</l>
+       <l>But if Demophoon—</l>
+       <stage>
+        <hi>Enter</hi> ADRASTUS.</stage>
+      </sp>
+      <sp who="#adrastus">
+       <speaker>ADRASTUS.</speaker>
+       <l>To the fair Cephisa,</l>
+       <l>Our sovereign wishes health; the Thracian palace,</l>
+       <l>Adorn'd with every pomp, expects your presence;</l>
+       <l>Demophoon now, as annual rites require,</l>
+       <l>Sequester'd with the priests till morning dawn,</l>
+       <l>Invokes the powers divine; mean while he sends</l>
+       <l>By me to pay the tribute of respect</l>
+       <l>Your rank demands, and to conduct you hence</l>
+       <l>Where suppliant crowds attend with duteous zeal,</l>
+       <l>To pay their homage to their future queen.</l>
+      </sp>
+      <sp who="#cephisa">
+       <speaker>CEPHISA.</speaker>
+       <l>I thank thee, lord—Cephisa hopes no less</l>
+       <l>From great Demophoon and her father's friend.</l>
+       <l>Cherinthus, let us hence—but still remember</l>
+       <l>Thy plighted word; for know, whatever chance</l>
+       <l>Subjects Cephisa to unlook'd-for insult,</l>
+       <l>Yet nothing from her mind can e'er erase,</l>
+       <l>Such thoughts as fit the daughter of a king.</l>
+       <stage>[Exeunt.</stage>
+      </sp>
+     </div>
+     <pb n="22" facs="26"/>
+     <div type="scene">
+      <head>
+       <stage>SCENE <hi>changes to the garden.</hi>
+       </stage>
+      </head>
+      <sp who="#ismena">
+       <speaker>ISMENA</speaker>
+       <stage>alone.</stage>
+       <l>What would my fate!—But now Mathusius bade me</l>
+       <l>Prepare for flight—and whither must I fly?</l>
+       <l>What region will receive forlorn Ismena</l>
+       <l>To end her wretched life!—O! my Olinthus,</l>
+       <l>Must I forsake thy innocence, forsake</l>
+       <l>My much-lov'd lord without one parting look!</l>
+       <l>I sicken at the thought—</l>
+       <stage>
+        <hi>Enter</hi> TIMANTHES.</stage>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>What new distress</l>
+       <l>Hangs o'er my love! tho' distant from thy sight</l>
+       <l>My sympathizing spirit mourn'd with thee,</l>
+       <l>And whisper'd that thy sorrow claim'd my aid.</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>O! no—thy cares are vain—leave, leave me then</l>
+       <l>Alone to perish—the big tempest swells</l>
+       <l>That soon must hide me from thy sight for ever.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>What means Ismena!</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>I must quit Timanthes,</l>
+       <l>Mathusius warns me hence—but now he left me,</l>
+       <l>Some dreadful purpose labouring in his breast;</l>
+       <l>Yet 'ere we part, to thy paternal care</l>
+       <l>I here commend my child; for me embrace him,</l>
+       <l>Give him this kiss, and when his ripening age</l>
+       <l>Can feel compassion, tell him all my story.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>It must not be—Timanthes with the wings</l>
+       <l>Of love shall fly, o'ertake thy fleeting peace</l>
+       <l>And bring her back to her forsaken home.</l>
+       <l>
+        <pb n="23" facs="27"/>
+Soon as the morning dawns I'll seek the king,</l>
+       <l>With filial reverence clasp his honour'd knees:</l>
+       <l>Doubt not, my love, but all shall yet be well!</l>
+       <stage>
+        <hi>Enter</hi> MATHUSIUS.</stage>
+      </sp>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <l>My daughter, let us haste—art thou Timanthes,</l>
+       <l>Son of Demophoon? Let me gaze awhile;</l>
+       <l>These features once bespoke thee kind and brave,</l>
+       <l>Till now I ever held thee such—but say,</l>
+       <l>Is not injustice stamp'd upon thy nature,</l>
+       <l>And all thy father in thy heart—O! no,</l>
+       <l>Thou'rt still the same—yes, I had sought thee, prince,</l>
+       <l>Thy old Mathusius, once rever'd, in thee</l>
+       <l>Had vested every hope—but now 'tis past—</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>Alas! my father, must Ismena then</l>
+       <l>For ever load a parent's breast with anguish?</l>
+       <l>Am I th' unhappy cause—</l>
+      </sp>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <l>Now hear, Timanthes,</l>
+       <l>And if thou ever held'st Mathusius dear,</l>
+       <l>Thy generous breast will feel a father's pangs,</l>
+       <l>A father, whom the rage of tyrant power</l>
+       <l>Pursues to ruin—O! my child, my child!</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Mathusius, speak—Has then Ismena's name</l>
+       <l>Been drawn to-morrow's victim?</l>
+      </sp>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <l>No—Demophoon</l>
+       <l>Has doom'd her life a guiltless sacrifice</l>
+       <l>Without the sentence of the fatal urn.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Condemn'd to die, the lots of death undrawn.</l>
+       <l>All-powerful Gods!—</l>
+      </sp>
+      <sp who="#ismena">
+       <pb n="24" facs="28"/>
+       <speaker>ISMENA.</speaker>
+       <l>O sir! weep not for me,</l>
+       <l>I merit not the tears that stain those cheeks,</l>
+       <l>Too deep they enter here—no, let me bear</l>
+       <l>Affliction's pressure, till the fainting sense</l>
+       <l>Sink with its anguish, so I may, retir'd</l>
+       <l>From mortal eyes, indulge my griefs alone,</l>
+       <l>Nor bend that hoary head to earth with sorrow.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>It cannot be—Mathusius, thou 'rt deceiv'd—</l>
+       <l>How couldst thou kindle thus the king's resentment</l>
+       <l>Against her helpless life?</l>
+      </sp>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <l>Because I sought</l>
+       <l>To exclude Ismena from the lots of fate,</l>
+       <l>Because I durst produce his own example:</l>
+       <l>But now I met him near the temple's porch,</l>
+       <l>Encompass'd by the priests; with all the warmth</l>
+       <l>Of a fond father trembling for his child,</l>
+       <l>I urg'd, entreated—but in vain—the king</l>
+       <l>Beheld me with an haughty eye; enrag'd</l>
+       <l>My tongue reproach'd the monarch's partial voice</l>
+       <l>That to his subjects, prodigal of death,</l>
+       <l>Gave to the bloody knife our Thracian virgins,</l>
+       <l>While kept at distance from the suffering land,</l>
+       <l>His own Arsene shunn'd the fatal stroke.</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>I tremble for th' event—not for myself,</l>
+       <l>But thee, Ismena fears—Ah! wherefore, sir,</l>
+       <l>Would you for me rashly incense a power</l>
+       <l>Which sovereigns, ever jealous, still defend?</l>
+       <l>What answer made the king?</l>
+      </sp>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <l>His indignation</l>
+       <l>Repress'd within himself, found little vent</l>
+       <l>
+        <pb n="25" facs="29"/>
+In words—at length—"presumptuous man, (he cry'd)</l>
+       <l>"Soon shalt thou feel that still Demophoon knows</l>
+       <l>"How to avenge affronted majesty."</l>
+       <l>Then turning from me swift, the temple gates</l>
+       <l>Receiv'd and shut him from my sight—since when</l>
+       <l>I've heard that secret orders have been given</l>
+       <l>To seize Ismena.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Ha!—direct me Heaven,</l>
+       <l>What now befits Timanthes—</l>
+       <stage>[Aside.</stage>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>Yes, it dawns!</l>
+       <l>The work of fate now opens to my view,</l>
+       <l>And all must be reveal'd—be firm, my soul,</l>
+       <l>And nobly meet the trial.</l>
+       <stage>[Aside.</stage>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Is it possible!</l>
+       <l>In this extreme what course remains?</l>
+      </sp>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <l>Beside</l>
+       <l>The clifted rock, mann'd with a chosen few</l>
+       <l>And trusty servants, rides a bark prepar'd</l>
+       <l>With secret care, that will convey us hence,</l>
+       <l>To some far distant hospitable clime,</l>
+       <l>Where 'tis not criminal to be a father.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>It must not be—O sir!—</l>
+      </sp>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <l>What means Timanthes?</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Ismena must not quit the Thracian shore—</l>
+      </sp>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <l>Not quit the Thracian shore!—now by yon' powers</l>
+       <l>That sit in judgment o'er a father's wrongs,</l>
+       <l>
+        <pb n="26" facs="30"/>
+No human breath shall stay us—haste, my daughter,</l>
+       <l>Prepare this instant to depart—</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Distraction!</l>
+       <l>And shall I then permit—Mathusius, hear,</l>
+       <l>Urge not my temper further—well thou know'st</l>
+       <l>My soul has ever held thee as her best,</l>
+       <l>Her earliest guide—if I oppose thee now—</l>
+      </sp>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <l>Is this thy love? Would'st thou forbid a father</l>
+       <l>To save his only child from cruel death?</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>O no!—thou canst not tell how dear I prize</l>
+       <l>Her safety here—come danger in her worst,</l>
+       <l>Her ugliest form, this breast shall meet the dart</l>
+       <l>That threats Ismena.</l>
+      </sp>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <l>We but waste the time</l>
+       <l>That, with destruction wing'd, unheeded flies:</l>
+       <l>Away, my daughter—</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Not th' united force</l>
+       <l>Of earth shall bear her hence—</l>
+      </sp>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <l>Nay then, the sword</l>
+       <l>Shall vindicate the rights a father claims.</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>Hold, sir, and hear Ismena—O! Mathusius,</l>
+       <l>Dost thou not see some secret labouring here</l>
+       <l>Too big for speech—thou claim'st a father's right,</l>
+       <l>And sacred is that claim, but yet beware,</l>
+       <l>Nor let the hasty sword, with thoughtless rage,</l>
+       <l>Invade a right more sacred than your own.</l>
+       <l>The prince—how shall I speak?</l>
+      </sp>
+      <sp who="#mathusius">
+       <pb n="27" facs="31"/>
+       <speaker>MATHUSIUS.</speaker>
+       <l>What new alarm</l>
+       <l>Runs thro' my soul!—Is't possible!</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>My father,</l>
+       <l>For such thou art—think not thy breast can feel</l>
+       <l>Severer anguish for Ismena's danger</l>
+       <l>Than what a husband feels—</l>
+      </sp>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <l>Her husband!</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Yes,</l>
+       <l>She is, she is my wife—then judge, Mathusius,</l>
+       <l>If I could bear, without the sharpest pang,</l>
+       <l>To see her torn for ever from my sight.</l>
+      </sp>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <l>Ah! prince, what hast thou done! thy cruel love</l>
+       <l>Has fill'd the measure of Mathusius' woes.</l>
+       <l>Thou most unkind! Is this the recompense,</l>
+       <l>Awaits my suffering age?—Unhappy girl!</l>
+       <l>To tye the fatal knot that ends in death!</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>Here prostrate at your feet, permit me now</l>
+       <l>To own the fault excess of love inspir'd:</l>
+       <l>And yet you can forgive; for if I read</l>
+       <l>Those looks aright, resentment dwells not there:</l>
+       <l>Nor will I plead the virtues of the prince,</l>
+       <l>Tho' these, my lord, were oft your lip's fond theme,</l>
+       <l>While under covert of yon' arching shade,</l>
+       <l>I drank, with greedy ears, his grateful praise.</l>
+      </sp>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <l>No more, my child—O! I forgive thee all—</l>
+       <l>But dangers thicken round, these nuptials known,</l>
+       <l>
+        <pb n="28" facs="32"/>
+The rigid law shall seal thee for destruction,</l>
+       <l>And mock a father's sorrows.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>No, Mathusius,</l>
+       <l>By every future hour of hop'd-for peace,</l>
+       <l>My life shall be her safe-guard.</l>
+       <stage>
+        <hi>Enter</hi> Officer <hi>and</hi> Guard.</stage>
+      </sp>
+      <sp who="#officer">
+       <speaker>Officer.</speaker>
+       <l>Pardon, sir,</l>
+       <l>If, with reluctance, I obey the charge</l>
+       <l>My sovereign gives—Guards, bear Ismena hence.</l>
+      </sp>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <l>What means this violence?</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>The lot is cast;</l>
+       <l>Come every spirit that has fir'd my sex,</l>
+       <l>Thro' the long records of succeeding time,</l>
+       <l>To dare, beyond the softness of our kind,</l>
+       <l>Now steel my thoughts—my fortune claims it all!</l>
+       <l>So may'st thou own, my father, though one fond</l>
+       <l>Unguarded hour betray'd my yielding soul,</l>
+       <l>Yet shall the sufferings of this awful day,</l>
+       <l>The little span of life that fate allows,</l>
+       <l>Atone for every error.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Death to hear!</l>
+       <l>Unhand her, slaves!</l>
+      </sp>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <l>Age has not yet unnerv'd</l>
+       <l>This arm so far—</l>
+      </sp>
+      <sp who="#officer">
+       <pb n="29" facs="33"/>
+       <speaker>Officer.</speaker>
+       <l>Forbear—if either moves</l>
+       <l>To give her aid, this dagger drinks her blood—</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Inhuman villain! hold—</l>
+      </sp>
+      <sp who="#officer">
+       <speaker>Officer.</speaker>
+       <l>The royal mandate</l>
+       <l>Shall justify my deeds—Away.</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>Yet stay,</l>
+       <l>A moment's pause—still, still, the woman here</l>
+       <l>Is struggling in my breast—my father—Oh—</l>
+       <l>I dare no further—</l>
+       <stage>
+        <hi>[looking at</hi> Timanthes.</stage>
+      </sp>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <l>Speak—</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>Think not, Mathusius,</l>
+       <l>Though black adversity now folds me round,</l>
+       <l>That aught of anguish for myself can shake</l>
+       <l>Thy daughter's mind—No! I could bear it all!</l>
+       <l>But when we view the pangs of those we love,</l>
+       <l>The firmest temper shrinks, and even the tear</l>
+       <l>Of weakness then is virtue—Gracious heaven!</l>
+       <l>Protect, defend—I would, but must not speak—</l>
+       <l>Ye powers! who read my thoughts, supply the prayer</l>
+       <l>I cannot utter, and, whate'er her doom,</l>
+       <l>At least, in those she loves, preserve Ismena!</l>
+       <stage>[Exit guarded.</stage>
+       <stage>TIMANTHES, MATHUSIUS.</stage>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>O! give me patience, Gods!</l>
+      </sp>
+      <sp who="#mathusius">
+       <pb n="30" facs="34"/>
+       <speaker>MATHUSIUS.</speaker>
+       <l>Earth opens not,</l>
+       <l>Nor light'nings fly to punish such injustice!</l>
+       <l>And shall we say Jove watches o'er mankind!</l>
+       <l>Timanthes, speak—for we are now united</l>
+       <l>In bands of wretchedness.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Go, good Mathusius,</l>
+       <l>And learn the place to which they bear Ismena,</l>
+       <l>For should I strive in vain to appease my father,</l>
+       <l>Yet love shall point the way—</l>
+      </sp>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <l>No—every hope</l>
+       <l>Is now extinct, and black despair shuts up</l>
+       <l>The gloomy prospect.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Can the son in vain</l>
+       <l>Plead with a father for his life, his all!</l>
+       <l>O! 'tis a cause will call down every soft</l>
+       <l>Propitious power that feels for human sufferings,</l>
+       <l>To heal the anguish of a parent's breast,</l>
+       <l>To calm a lover's and a husband's pains,</l>
+       <l>To arrest the hand of fate, and save Ismena!</l>
+      </sp>
+      <trailer>END <hi>of the</hi> SECOND ACT.</trailer>
+     </div>
+    </div>
+    <div n="3" type="act">
+     <pb n="31" facs="35"/>
+     <head>ACT III.</head>
+     <div type="scene">
+      <head>SCENE, <stage>
+        <hi>A royal Apartment.</hi>
+       </stage>
+      </head>
+      <stage>
+       <hi>Enter</hi> DEMOPHOON <hi>and</hi> CEPHISA.</stage>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>RETURN to Phrygia, princess? Canst thou ask</l>
+       <l>Abruptly thus to bid adieu to Thrace?</l>
+       <l>While now Timanthes with presaging hope</l>
+       <l>Anticipates the hour, decreed to bless</l>
+       <l>The prince and lover, when this solemn day</l>
+       <l>Shall pass, whose rising light now faintly strikes</l>
+       <l>The sacred laurels, where the temple's grove</l>
+       <l>Receives the dawn.</l>
+      </sp>
+      <sp who="#cephisa">
+       <speaker>CEPHISA.</speaker>
+       <l>Believe me, my resolves</l>
+       <l>Are such as suit my sex and rank; the name</l>
+       <l>Of virgin and of princess both require me</l>
+       <l>To quit the Thracian palace—for Timanthes</l>
+       <l>No longer urge—</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>I can forgive thy anger:</l>
+       <l>Nurs'd in the pleasures of the Phrygian court,</l>
+       <l>A Thracian's manners may be harsh to thee:</l>
+       <l>Wonder not then if so Timanthes seems,</l>
+       <l>Inur'd to rugged arms; be thine the glory</l>
+       <l>To teach him first the flowery path that leads</l>
+       <l>To the calm dwelling of domestic sweets:</l>
+       <l>What cannot charms like thine?—yes, fair Cephisa,</l>
+       <l>Those eyes shall thaw the ice around his heart,</l>
+       <l>And warm the youth to unexperienc'd love.</l>
+      </sp>
+      <sp who="#cephisa">
+       <pb n="32" facs="36"/>
+       <speaker>CEPHISA.</speaker>
+       <l>My lord, it cannot be—as soon this morn</l>
+       <l>That spreads the veil of sorrow o'er the land,</l>
+       <l>Might raise each heart with gladness, as Cephisa</l>
+       <l>Find happiness in Thrace—at thy command,</l>
+       <l>And thine alone, the ships can quit the port,</l>
+       <l>To bear me back to my paternal land:</l>
+       <l>Give orders then to loose the bark, whose sails</l>
+       <l>Must waft me hence for ever.</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>Think not, princess,</l>
+       <l>Demophoon would detain thee while thy thoughts</l>
+       <l>Revisit Phrygia; yet permit me now</l>
+       <l>To say I hop'd far other from the daughter</l>
+       <l>Of him, whose wish'd alliance promis'd all</l>
+       <l>An anxious king and parent could demand.</l>
+       <l>But yet, whate'er thy wish, till the next sun,</l>
+       <l>Thou canst not hence; no vessel from the port</l>
+       <l>Presumes to rear the mast, or spread the sail,</l>
+       <l>Till this sad day declines.</l>
+      </sp>
+      <sp who="#cephisa">
+       <speaker>CEPHISA.</speaker>
+       <l>Since now the law</l>
+       <l>Forbids to quit the realm, I must submit</l>
+       <l>To breathe the air of Thrace—yet I respect</l>
+       <l>The friend of great Nicanor, but remember</l>
+       <l>My father's honour and my own; nay more,</l>
+       <l>Demophoon's urges me to leave a court,</l>
+       <l>Where every moment's voluntary stay</l>
+       <l>Insults my sex's rights, and stains my glory.</l>
+       <stage>[Exit.</stage>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON</speaker>
+       <stage>alone.</stage>
+       <l>Ha! whence is this? sure something lurks beneath</l>
+       <l>That yet I know not—I remember now,</l>
+       <l>When first I nam'd the princess, that my son</l>
+       <l>
+        <pb n="33" facs="37"/>
+Heard with reluctance—should he disobey—</l>
+       <l>A father's just resentment—but no more,</l>
+       <l>It cannot be—I am alarm'd too soon.</l>
+       <stage>
+        <hi>Enter</hi> TIMANTHES.</stage>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Where is my king!</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>Timanthes, thou art come</l>
+       <l>In happy time—</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Dread sir, permit your son,</l>
+       <l>To sue for grace and pardon—</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>Say, for whom</l>
+       <l>Dost thou intreat?</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>For an unhappy victim?</l>
+       <l>One, whose misfortune is her only crime,</l>
+       <l>The daughter of Mathusius—</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>'Tis too late,</l>
+       <l>Her doom is seal'd—</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Grant to your suppliant son</l>
+       <l>Her guiltless life!—</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>And dar'st thou still presume</l>
+       <l>To name her? If thou valu'st ought my love,</l>
+       <l>Forego this vain request—</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Alas! my father,</l>
+       <l>I cannot now obey you—O! if ever</l>
+       <l>I have deserv'd a parent's tenderness,</l>
+       <l>
+        <pb n="34" facs="38"/>
+If with a bosom seam'd with honest scars,</l>
+       <l>I have return'd a conqueror to your arms,</l>
+       <l>If e'er my triumphs in the glorious field,</l>
+       <l>Have drawn the tear of pleasure from your eyes,</l>
+       <l>Release, forgive Ismena—lost, unhappy,</l>
+       <l>She has no friend but me to plead her cause!</l>
+       <l>And shall she perish!—think you view her now</l>
+       <l>In early bloom of life, who never knew</l>
+       <l>The thoughts of guilt, stretch'd on the fatal altar</l>
+       <l>In all the pangs of suffering—think you see</l>
+       <l>The life-warm blood gush from her tender breast,</l>
+       <l>Hear the last accents from her trembling lips,</l>
+       <l>Behold her dying eyes—but thou art pale!</l>
+       <l>Why look'st thou thus upon me!—O! my father!</l>
+       <l>I see, I see the gracious signs of pity;</l>
+       <l>Do not repent, my lord—indulge it still,</l>
+       <l>For never will I quit these sacred feet</l>
+       <l>Till thou hast given the word to spare Ismena.</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>Rise, prince—Almighty powers! what must I think</l>
+       <l>That with such tenderness thou nam'st Ismena.</l>
+       <l>Yet mark how far my fond indulgence yields;</l>
+       <l>On one condition I recall her sentence:</l>
+       <l>Ismena yet may live, but if the father,</l>
+       <l>Impell'd by love, forgets his just resentment,</l>
+       <l>Let not the son forget the sacred ties</l>
+       <l>Of gratitude and duty—</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Never, never</l>
+       <l>Timanthes shall forget them, every hour</l>
+       <l>To come shall bless your goodness for this pardon,</l>
+       <l>Which life itself were cheaply given to parchase.</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>No, my dear son, my future peace and thine</l>
+       <l>Ask but one sacrifice, and all is well:</l>
+       <l>
+        <pb n="35" facs="39"/>
+What hast thou done to offend the Phrygian princess?</l>
+       <l>Learn to respect my choice in fair Cephisa—</l>
+       <l>Have I not felt compassion for thy weakness?</l>
+       <l>Do thou preserve my honour—think, Timanthes,</l>
+       <l>Nor let the breath of rumour taint my name;</l>
+       <l>Then, let us seek Cephisa, there, my son,</l>
+       <l>Instruct thy lips to deprecate the anger</l>
+       <l>I fear thy scorn has justly rais'd—to-morrow</l>
+       <l>We'll to the temple, thither shalt thou lead</l>
+       <l>Thy beauteous bride, and at the altar there,</l>
+       <l>At once before th' attesting Gods fulfill</l>
+       <l>What justice claims from thee and from Demophoon.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>My lord, I cannot—</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>Prince, thou yet hast heard</l>
+       <l>The father only; force me not to employ</l>
+       <l>The king's authority.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Sacred alike,</l>
+       <l>I hold the dictates of the king and father,</l>
+       <l>But love disdains compulsion—</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>In the heart</l>
+       <l>Of subjects, love may rule with sovereign sway;</l>
+       <l>But in a prince, on whom a nation's weal</l>
+       <l>Depends, it ill beseems to sacrifice</l>
+       <l>The good of thousands to the selfish weakness</l>
+       <l>That better fits a cottage than a throne.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Hard state of royalty! if on such terms</l>
+       <l>Timanthes must be king, take back, ye powers!</l>
+       <l>The dignity ye gave—can Heaven decree,</l>
+       <l>
+        <pb n="36" facs="40"/>
+That public virtue never should reside</l>
+       <l>Where the soft passions dwell? Must he, whose cares</l>
+       <l>Incessant labour for the good of others,</l>
+       <l>Still want that happiness he gives to all?</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>And dar'st thou dress thy disobedience thus</l>
+       <l>In reason's garb, to oppose my sovereign will?</l>
+       <l>Hence every partial weakness—just resentment</l>
+       <l>Points out the way to reach thy stubborn heart:</l>
+       <l>This darling of thy soul, Ismena—she</l>
+       <l>Shall pay the forfeit—now I see full well</l>
+       <l>What caus'd thy coldness—she shall die.—</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>O heaven!</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>Away!</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Yet hear me, sir,—</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>I've heard too much!</l>
+       <l>This day Ismena dies—</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Forbid it heaven!</l>
+       <l>Now by yon skies—</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>Still dost thou linger here?</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>I go—but should she fall—this desperate hand—</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>Gods! dost thou threaten!</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Force me not, my father,</l>
+       <l>To passion's wild extreme—would'st thou preserve</l>
+       <l>
+        <pb n="37" facs="41"/>
+The peace of thy unhappy son, preserve</l>
+       <l>His fame, his all—revoke Ismena's doom—</l>
+       <l>He answers not—that look confirms her death—</l>
+       <l>Farewell—but whither, whither shall I fly</l>
+       <l>To shun myself?—Ismena's image still</l>
+       <l>Hangs on my sight, and haunts my tortur'd soul!</l>
+       <stage>[Exit.</stage>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON</speaker>
+       <stage>alone.</stage>
+       <l>Where, where, Demophoon, is the mighty power</l>
+       <l>A monarch boasts, when all insult thee thus?</l>
+       <l>'Tis time to assert my rights—Adrastus!</l>
+       <stage>
+        <hi>Enter</hi> ADRASTUS.</stage>
+       <l>Haste,</l>
+       <l>Give orders that the victim be prepar'd</l>
+       <l>This instant for the sacrifice.—</l>
+      </sp>
+      <sp who="#adrastus">
+       <speaker>ADRASTUS.</speaker>
+       <l>Already,</l>
+       <l>Ismena, vested in the robes of death,</l>
+       <l>Expects the fatal hour.—I heard the priests</l>
+       <l>Exhort her with becoming fortitude</l>
+       <l>To yield her life a sacrifice for Thrace,</l>
+       <l>While with a down-cast look the virgin stood</l>
+       <l>In all the majesty of silent woe;</l>
+       <l>And now they wait thy last command alone</l>
+       <l>To bear her to the temple.</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>Her misfortune</l>
+       <l>Excites my pity; but her father's bold</l>
+       <l>Rebellious insults on my crown and fame,</l>
+       <l>My own repose, the glory of my realm,</l>
+       <l>Demand her death—the weal of Thrace requires</l>
+       <l>Timanthes' marriage with the Phrygian princess,</l>
+       <l>But this Timanthes never will compleat</l>
+       <l>While she survives—this obstacle remov'd,</l>
+       <l>
+        <pb n="38" facs="42"/>
+The flame of stubborn love shall soon decay,</l>
+       <l>And the rash youth, who now condemns my power,</l>
+       <l>Shall yield obedience to a parent's will.</l>
+       <stage>[Exeunt.</stage>
+      </sp>
+     </div>
+     <div type="scene">
+      <head>SCENE, <stage>
+        <hi>An open part of the city.</hi>
+       </stage>
+      </head>
+      <stage>
+       <hi>Enter</hi> TIMANTHES <hi>and</hi> MATHUSIUS.</stage>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <l>And canst thou then partake Mathusius' fortune,</l>
+       <l>A willing exile from thy father's kingdom?</l>
+       <l>Think, think, my son, when thou shalt wander hence,</l>
+       <l>An obscure fugitive, will then Ismena,</l>
+       <l>With chaste endearments, from thy mind erase</l>
+       <l>Remembrance of the prince? Will not the phantom</l>
+       <l>Of royalty still haunt thy lonely hours?</l>
+       <l>Wilt thou not then regret paternal wealth</l>
+       <l>Abandon'd, and a scepter lost?</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>No more—</l>
+       <l>My wife and son are dearer far than all:</l>
+       <l>Each other good has no intrinsic worth;</l>
+       <l>Opinion makes it great; the tender feelings</l>
+       <l>Of father, husband, are not bred by custom,</l>
+       <l>Or early thoughts instill'd from infancy:</l>
+       <l>The seeds are in ourselves, are with us born,</l>
+       <l>Grow with our life, and but with life expire.</l>
+      </sp>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <l>But how to set her free? Is she not now</l>
+       <l>Encompass'd by Demophoon's guards?</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>The care</l>
+       <l>Be mine to elude their utmost vigilance:</l>
+       <l>Assisted by some chosen friends, I'll bear</l>
+       <l>Ismena safe from danger.</l>
+      </sp>
+      <sp who="#mathusius">
+       <pb n="39" facs="43"/>
+       <speaker>MATHUSIUS.</speaker>
+       <l>Mighty powers!</l>
+       <l>Direct our flight—each moment that detains us</l>
+       <l>I'm on the rack of doubt—O! prince, remember</l>
+       <l>To thee alone I trust my all, my last</l>
+       <l>Remains of ebbing life.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Haste then, Mathusius,</l>
+       <l>Ascend thy bark, and near yon rocks, that rise</l>
+       <l>Right of the port, expect my coming, thither</l>
+       <l>With all the speed of love I'll bear Ismena!—</l>
+       <stage>[Exeunt severally.</stage>
+      </sp>
+     </div>
+     <div type="scene">
+      <head>SCENE, <stage>
+        <hi>a view of an arch leading from the city, through which the procession for the sacrifice appears; first the guards, who range themselves on each side the stage; then a train of priests and virgins:</hi> Ismena, <hi>in white vestments, supported by two virgins, advances towards the front of the stage, while the following words are sung; the Music composed by Mr.</hi> Arnold.</stage>
+      </head>
+      <sp>
+       <lg>
+        <head>CHORUS.</head>
+        <l>Hail God of light! whose chearing ray</l>
+        <l>Dispels the gloom, reveals the day,</l>
+        <l>And glads the universe with all-creating sway!</l>
+       </lg>
+       <lg>
+        <head>SONG, by a PRIEST.</head>
+        <l>To him the pow'r, whose awful will</l>
+        <l>Trembling mortals must fulfill,</l>
+        <l>To him the dreadful altar rear,</l>
+        <l>And swell the notes till Phoebus hear!</l>
+       </lg>
+       <lg>
+        <head>CHORUS.</head>
+        <l>Phoebus hear!</l>
+       </lg>
+       <lg>
+        <pb n="40" facs="44"/>
+        <head>SONG, by a VIRGIN.</head>
+        <l>
+         <stage>
+          <hi>to</hi> Ism.]</stage> Sad victim! learn the stroke to brave</l>
+        <l>That renders Heav'n the life it gave,</l>
+        <l>And sheds thy blood a land to save!</l>
+       </lg>
+       <lg>
+        <head>CHORUS.</head>
+        <l>Hear and save!</l>
+       </lg>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>Yet, yet, Ismena, drain the bitter dregs</l>
+       <l>Of sorrow's cup—but some few painful moments</l>
+       <l>And all may then be well!—each step I tread</l>
+       <l>Leads me still nearer to the fated land</l>
+       <l>Where I shall rest in peace—but, O! support</l>
+       <l>My fainting sense—'tis he! what adverse power</l>
+       <l>Directs him hither, in this hour of terror,</l>
+       <l>To shake my firm resolves!</l>
+       <stage>
+        <hi>Enter</hi> TIMANTHES.</stage>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Eyes! can it be!</l>
+       <l>Ismena, speak—what means this dreadful pomp!</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>At length 'tis past, and ruthless death demands</l>
+       <l>Its victim—yes, Timanthes, we must part,</l>
+       <l>Demophoon has decreed my fate—even now</l>
+       <l>These ministers of heaven receiv'd the mandate.</l>
+       <l>My soul seem'd more than half releas'd, but thou</l>
+       <l>Hast call'd her back to life—this meeting wakes</l>
+       <l>A thousand tender thoughts—</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Cease, cease, Ismena,</l>
+       <l>It wakes distraction—shall I thus behold thee</l>
+       <l>Torn from my hopes—no first—</l>
+      </sp>
+      <sp who="#ismena">
+       <pb n="41" facs="45"/>
+       <speaker>ISMENA.</speaker>
+       <l>Alas! what means</l>
+       <l>Timanthes—</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Never whilst I live, this sword</l>
+       <l>That oft has mow'd my way thro' sanguine fields,</l>
+       <l>Shall sleep inglorious—</l>
+       <stage>[lays his hand on his sword.</stage>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>Ah! what wild despair</l>
+       <l>Unmans thy better sense—thou wilt but rush</l>
+       <l>On certain ruin, nor preserve my life.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>It shall be so—farewell!</l>
+       <stage>[going.</stage>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>Some dreadful purpose</l>
+       <l>Hangs on thy brow—yet hear me—</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Fate cuts short</l>
+       <l>Each precious moment—still I can command</l>
+       <l>A few but trusty friends, whose blood will flow</l>
+       <l>For their Timanthes—go then—seek the temple,</l>
+       <l>I'll save thee yet or die!</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>Forbid it, heaven!</l>
+       <l>Be calm again—</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Be calm!—Impossible!</l>
+       <l>Is there a power on earth—let ruin come,</l>
+       <l>If midst the wreck one treasure still is mine!</l>
+       <stage>[Exit.</stage>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA,</speaker>
+       <stage>Priests, Virgins, and Guards.</stage>
+       <l>Forbear—he heeds me not—Eternal powers!</l>
+       <l>Preserve him still—for me, my mind has fix'd</l>
+       <l>
+        <pb n="42" facs="46"/>
+Its last resolve—'tis death, and death alone</l>
+       <l>Shall quickly close the scene, and ere the priest</l>
+       <l>Strike in my breast the consecrated steel,</l>
+       <l>This dagger shall prevent the unhallow'd offering!</l>
+       <l>So shall I fall a spotless wife, nor stain</l>
+       <l>The sacred altar with forbidden blood!</l>
+       <l>Yet hear me, Phoebus, still defend Timanthes,</l>
+       <l>And guard him 'midst this whirlwind of the soul!</l>
+       <stage>
+        <hi>Enter</hi> CEPHISA <hi>and Attendant.</hi>
+       </stage>
+      </sp>
+      <sp who="#cephisa">
+       <speaker>CEPHISA.</speaker>
+       <l>Look, look, Clemene, view a sight to move</l>
+       <l>The breast that never felt the touch of sorrow:</l>
+       <l>Behold yon' maid, this day decreed to death,</l>
+       <l>Yet, midst this awful pomp, see with what grace</l>
+       <l>She moves, while fortitude and beauty join'd,</l>
+       <l>Proclaim her more than woman—but observe,</l>
+       <l>She sees us and approaches.</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>Pardon, princess,</l>
+       <l>But if I err not I behold Cephisa.</l>
+      </sp>
+      <sp who="#cephisa">
+       <speaker>CEPHISA.</speaker>
+       <l>I am indeed Cephisa.</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>Fame that speaks</l>
+       <l>Thy virtues, tells me, that affliction never</l>
+       <l>Will pass unpity'd by thy tender breast.</l>
+      </sp>
+      <sp who="#cephisa">
+       <speaker>CEPHISA.</speaker>
+       <l>My sympathizing heart!—Unhappy maid!</l>
+       <l>What would'st thou? speak.</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>The fortune of Ismena</l>
+       <l>Who has not known? my life will soon have run</l>
+       <l>Its race of grief, this pomp proclaims me near</l>
+       <l>
+        <pb n="43" facs="47"/>
+The wish'd-for goal, where the freed soul shall leave</l>
+       <l>Her cumberous chains—I go prepar'd to die,</l>
+       <l>Nor deprecate my fate—not for myself</l>
+       <l>I plead, but for the poor distress'd Timanthes!</l>
+       <l>To guard my life he courts his own destruction▪</l>
+       <l>If e'er th' intreaties of the dying move,</l>
+       <l>Still let him find in you a kind protectress,</l>
+       <l>Prevent his rage, or O! procure his pardon</l>
+       <l>For all the frantic deeds of wild despair.</l>
+      </sp>
+      <sp who="#cephisa">
+       <speaker>CEPHISA.</speaker>
+       <l>Ill-fated virgin! canst thou, with the shade</l>
+       <l>Of cruel death already compass'd round,</l>
+       <l>Forgetful of thyself, in generous care,</l>
+       <l>Dwell on another's safety.</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>Search not, princess,</l>
+       <l>Too deep my bosom's woe—but if thy goodness</l>
+       <l>Shall mediate with the king—to avert those evils</l>
+       <l>Whose only fear now weighs me down to earth,</l>
+       <l>The blessings of a wretch, whose latest breath</l>
+       <l>By thee shall leave its care-worn breast in peace,</l>
+       <l>Attend thy gentle steps!</l>
+      </sp>
+      <sp who="#cephisa">
+       <speaker>CEPHISA.</speaker>
+       <l>Doubt not, Ismena,</l>
+       <l>But every good Cephisa can obtain,</l>
+       <l>Shall sooth thy parting hour—I'll seek Cherinthus,</l>
+       <l>He, with a brother's warmest tenderest zeal,</l>
+       <l>Shall calm the ungovern'd fury of Timanthes,</l>
+       <l>While I, on his behalf, intreat the king.</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>Then all is well—and now I've not a thought</l>
+       <l>That here detains my flight—farewell! for ever—</l>
+       <l>
+        <pb n="44" facs="48"/>
+And every happiness to me deny'd,</l>
+       <l>Be doubled on thy head—lead to the temple.</l>
+       <stage>
+        <hi>[Exeunt</hi> Cephisa <hi>and Attendant.</hi>
+       </stage>
+       <lg>
+        <head>RECITATIVE by a PRIEST.</head>
+        <l>Now slowly lead the solemn train</l>
+        <l>To reach the grove and hallow'd sane!</l>
+        <stage>
+         <hi>Here</hi> Ismena <hi>falls again into the order of procession, while the priests and virgins sing the following Chorus, as they go out:</hi>
+        </stage>
+       </lg>
+       <lg>
+        <head>CHORUS.</head>
+        <l>Phoebus, to thee our choral hymn we raise,</l>
+        <l>Each year the land this sad oblation pays;</l>
+        <l>O! save at length—descend with healing grace,</l>
+        <l>And from thy scourge relieve unhappy Thrace!</l>
+       </lg>
+       <stage>[Exeunt.</stage>
+      </sp>
+      <trailer>END <hi>of the</hi> THIRD ACT.</trailer>
+     </div>
+    </div>
+    <div n="4" type="act">
+     <pb n="45" facs="49"/>
+     <head>ACT IV.</head>
+     <div type="scene">
+      <head>SCENE, <stage>
+        <hi>The palace.</hi>
+       </stage>
+      </head>
+      <stage>CHERINTHUS, CEPHISA, <hi>meeting.</hi>
+      </stage>
+      <sp who="#cherinthus">
+       <speaker>CHERINTHUS.</speaker>
+       <l>I'VE sought, but cannot find him, yet I fear</l>
+       <l>The worst from his ungovern'd warmth—but say,</l>
+       <l>Cephisa, hast thou pleaded with the king?</l>
+       <l>Could he refuse thy suit?</l>
+      </sp>
+      <sp who="#cephisa">
+       <speaker>CEPHISA.</speaker>
+       <l>Demophoon, fix'd</l>
+       <l>In his resentment, with averted ear</l>
+       <l>Rejects the voice of pity—Hark! what noise!—</l>
+      </sp>
+      <sp who="#cherinthus">
+       <speaker>CHERINTHUS.</speaker>
+       <l>A second louder yet—Ha! or I dream,</l>
+       <l>It thickens from the temple's hallow'd grove;</l>
+       <l>Adrastus comes disorder'd from the fane:</l>
+       <l>Gods! what presaging horror chills my soul!</l>
+       <stage>
+        <hi>Enter</hi> ADRASTUS.</stage>
+      </sp>
+      <sp who="#adrastus">
+       <speaker>ADRASTUS.</speaker>
+       <l>Where's, where's the king?</l>
+      </sp>
+      <sp who="#cherinthus">
+       <speaker>CHERINTHUS.</speaker>
+       <l>What means Adrastus! whence</l>
+       <l>Those looks of fear!</l>
+      </sp>
+      <sp who="#adrastus">
+       <speaker>ADRASTUS.</speaker>
+       <l>The rites were now prepar'd,</l>
+       <l>And nought was wanting but Demophoon's presence,</l>
+       <l>When, with a desperate band, the prince Timanthes</l>
+       <l>
+        <pb n="46" facs="50"/>
+Broke thro' the guards that watch'd the portal, rush'd</l>
+       <l>With daring footsteps thro' the sacred dome,</l>
+       <l>Drove from the altar's foot the affrighted priests,</l>
+       <l>And seiz'd the victim—then while fell distraction</l>
+       <l>Storm'd with unlicens'd rage, I left the temple,</l>
+       <l>And flew to bear the tidings to the king,</l>
+       <l>Who best may quell this tumult.</l>
+       <stage>[Exit.</stage>
+      </sp>
+      <sp who="#cephisa">
+       <speaker>CEPHISA.</speaker>
+       <l>Wherefore stands</l>
+       <l>Cherinthus thus, when now his brother's life</l>
+       <l>Hangs on the brink of fate?</l>
+      </sp>
+      <sp who="#cherinthus">
+       <speaker>CHERINTHUS.</speaker>
+       <l>Alas! Cephisa,</l>
+       <l>I tremble at the thought—what shall I do?</l>
+       <l>Instruct me, heaven, I'll to you scene of terror,</l>
+       <l>And prove what yet remains to save Timanthes!</l>
+       <stage>[Exeunt severally.</stage>
+      </sp>
+     </div>
+     <div type="scene">
+      <head>SCENE, <stage>
+        <hi>outside view of a magnificent temple dedicated to</hi> Apollo; <hi>a flight of steps ascending to it;—clashing of swords is heard.—</hi>Ismena, <hi>in the greatest agitation, descends from the temple, and looks up towards</hi> Timanthes <hi>with the utmost fear and astonishment.</hi>
+       </stage>
+      </head>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>Where shall I fly!—Night, stretch thy blackest wings</l>
+       <l>And hide us from mankind!—O! horror, horror!</l>
+       <l>What demon urg'd this more than frantic deed!</l>
+       <l>My love—Timanthes—Is there yet in heaven</l>
+       <l>One pitying God that hears—on me, on me!</l>
+       <l>Now let your justice fall—but spare Timanthes!</l>
+       <l>O most unhappy!</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Where's my life?—Ismena—</l>
+       <l>Clasp'd in a husband's arms embrace thy safety.</l>
+      </sp>
+      <sp who="#ismena">
+       <pb n="47" facs="51"/>
+       <speaker>ISMENA.</speaker>
+       <l>Alas! what hast thou done?—</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Preserv'd Ismena!</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>Preserv'd! but how preserv'd?</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Dispel thy fears,</l>
+       <l>Time presses—let us haste—but, ha! a guard</l>
+       <l>Advances yonder—where are now my friends?</l>
+       <l>All moulder'd from me—be it so—this sword</l>
+       <l>Shall singly force thy way—</l>
+       <stage>[going.</stage>
+       <stage>
+        <hi>Enter</hi> CHERINTHUS.</stage>
+       <l>Cherinthus here!</l>
+       <l>Art thou too arm'd against me!</l>
+      </sp>
+      <sp who="#cherinthus">
+       <speaker>CHERINTHUS.</speaker>
+       <l>O! Timanthes!</l>
+       <l>Know'st thou thy brother thus? Does this bespeak</l>
+       <l>My enmity? <stage>[embrace]</stage> but haste, destruction now</l>
+       <l>Pursues thee close—I came to warn thee hence—</l>
+       <l>Demophoon is at hand.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Thou art indeed</l>
+       <l>My friend, my brother—</l>
+      </sp>
+      <sp who="#cherinthus">
+       <speaker>CHERINTHUS.</speaker>
+       <l>Linger not—away,</l>
+       <l>While I remain to appease the king's resentment.</l>
+       <l>Then let us hence—</l>
+       <stage>[going.</stage>
+       <stage>
+        <hi>Enter on the other side</hi> DEMOPHOON, ADRASTUS, ORCANES, <hi>Priests and Guards.</hi>
+       </stage>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>Timanthes, stay!—</l>
+      </sp>
+      <sp who="#timanthes">
+       <pb n="48" facs="52"/>
+       <speaker>TIMANTHES.</speaker>
+       <l>My father!</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>Persidious boy!</l>
+       <stage>
+        <hi>[Guards prepare to surround</hi> Ismena.</stage>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Let none presume to approach,</l>
+       <l>My life shall guard Ismena.</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>Urge not thus</l>
+       <l>Thy fate, see heaven itself is arm'd against thee,</l>
+       <l>Then yield, in pity yield, and sheath thy sword.</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>Touch him not, guards, but give his madness way,</l>
+       <l>And let us see how far it can transport him!</l>
+       <l>Here let thy arm complete the glorious work</l>
+       <l>Thou hast but now begun, here in this bosom</l>
+       <l>Plunge deep thy steel—thou canst not tremble, traitor,</l>
+       <l>To pierce a father with the same right-hand</l>
+       <l>That in their fanes has dar'd insult the Gods!</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Some friendly mountain, with o'erwhelming shade,</l>
+       <l>Hide me from light and from a father's presence!</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>Why dost thou pause! Behold I offer here</l>
+       <l>Thy greatest foe defenceless to thy sword:</l>
+       <l>Now glut the secret hatred, that so long</l>
+       <l>Has rankled in thy breast—let me be punish'd</l>
+       <l>For giving birth to thee—thou want'st but little</l>
+       <l>To gain the prize of envy'd wickedness,</l>
+       <l>The glorious height's in view—it but remains</l>
+       <l>To plunge thy weapon in a parent's heart,</l>
+       <l>And give thy bloody hand to her thou lov'st.</l>
+      </sp>
+      <sp who="#timanthes">
+       <pb n="49" facs="53"/>
+       <speaker>TIMANTHES.</speaker>
+       <l>O! hold, my father, hold—those cruel words</l>
+       <l>More sharp than daggers pierce my inmost soul!</l>
+       <l>Low at your feet behold this guilty wretch,</l>
+       <l>Behold this sword, the minister of rage,</l>
+       <l>Now take it, search this breast, and free your son</l>
+       <l>From life, but O! in pity speak not thus!</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>Had I not proofs so glaring of his perfidy</l>
+       <l>He would seduce me—but I'll hear no more;</l>
+       <l>Yield, impious, yield, submit thy rebel hands</l>
+       <l>To slavish manacles.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <stage>[giving up his sword]</stage>
+       <l>Where, where, my friends,</l>
+       <l>Where are your chains? behold these ready hands,</l>
+       <l>For never shall the son refuse to obey</l>
+       <l>The mandates of a just, offended father.</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>Lead back the victim to the insulted God,</l>
+       <l>Ye holy priests, and slay her in my presence.</l>
+       <stage>
+        <hi>[guards prepare to seize her,</hi> Timanthes <hi>snatches a sword from one of them.]</hi>
+       </stage>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>He dies that touches her—off, off, ye slaves!—</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>Disarm him, guards!</l>
+       <stage>[Timanthes <hi>is disarmed.</hi>
+       </stage>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <stage>
+        <hi>[To</hi> Ismena.]</stage>
+       <l>I can no more defend thee!</l>
+       <l>My king! my father!</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>Leave me!</l>
+      </sp>
+      <sp who="#ismena">
+       <pb n="50" facs="54"/>
+       <speaker>ISMENA.</speaker>
+       <l>Yet Demophoon,</l>
+       <l>Thou may'st, without resentment, hear the suit</l>
+       <l>Ismena makes, who fearless thus steps forth</l>
+       <l>To welcome death—but O! forgive the prince,</l>
+       <l>Whose partial warmth to assist a wretch's cause,</l>
+       <l>The glorious weakness of heroic minds,</l>
+       <l>Impell'd him to this fatal deed—behold</l>
+       <l>What deep contrition now o'erspreads his soul;</l>
+       <l>Hear then my last, my only prayer; complete</l>
+       <l>The unfinish'd rites—lead me to sacrifice,</l>
+       <l>And bless me with oblivion!</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>I must praise</l>
+       <l>Thy generous fortitude—yes, hapless maid,</l>
+       <l>Did not the powers profan'd demand atonement</l>
+       <l>My pity yet might save—but duty here,</l>
+       <l>And fame forbid—conduct her to the temple.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Shall it be said I saw Ismena slain!</l>
+       <l>At least defer her fate—hear, reverend priests,</l>
+       <l>My father, hear—Ismena cannot be</l>
+       <l>The victim now required—the sacrifice</l>
+       <l>Would prove a profanation.</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>Ha! what mean'st thou!</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>What does the god demand?</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>A virgin's blood.</l>
+      </sp>
+      <sp who="#timanthes">
+       <pb n="51" facs="55"/>
+       <speaker>TIMANTHES.</speaker>
+       <l>Ismena must not then be led to death,</l>
+       <l>She's wedded—she's a mother—she's my wife!</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>What do I hear!—suspend the rites, are these</l>
+       <l>The hopes I vainly form'd, perfidious son!</l>
+       <l>Respect'st thou thus divine and human laws,</l>
+       <l>And dost thou comfort thus thy father's age?</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>O mighty king! before your sacred feet</l>
+       <l>Behold the cause of all—then from Timanthes</l>
+       <l>Avert your wrath, and let Ismena bear</l>
+       <l>The punishment; 'tis I, and I alone</l>
+       <l>Am guilty—think that I, with artful wiles,</l>
+       <l>Seduc'd him first to love, that I enforc'd him</l>
+       <l>With frequent tears to these forbidden nuptials.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Believe it not—she did not—no, by heaven,</l>
+       <l>The deed was mine alone—with all the warmth</l>
+       <l>Of unremitted love I still pursu'd her:</l>
+       <l>A thousand times she banish'd me her sight,</l>
+       <l>As often I return'd—I vow'd, intreated,</l>
+       <l>But all in vain, till frantic with despair</l>
+       <l>I menac'd with a desperate hand my life.</l>
+      </sp>
+      <sp who="#cherinthus">
+       <speaker>CHERINTHUS.</speaker>
+       <l>O! sir, if e'er you held Cherinthus dear,</l>
+       <l>Let me now plead, nor plead in vain his pardon:</l>
+       <l>Extend your royal grace, and O! restore</l>
+       <l>To me a brother, to yourself a son.</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>What means this softness that unmans me thus?</l>
+       <l>Away—</l>
+      </sp>
+      <sp who="#ismena">
+       <pb n="52" facs="56"/>
+       <speaker>ISMENA.</speaker>
+       <l>Yet hear, my lord—methinks I see</l>
+       <l>Compassion dawning—O! look there, shall he,</l>
+       <l>Who once was all your joy, now fail to move</l>
+       <l>A father's pity?—Is he not your son?</l>
+       <l>Were not his infant years your darling hope?</l>
+       <l>Oft have I heard that, when in arms array'd,</l>
+       <l>You sought the foe, you press'd his lips to yours,</l>
+       <l>And, when you came victorious from the field,</l>
+       <l>His tender kiss first welcom'd your return.</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>No more—I feel the mingled agony</l>
+       <l>Of struggling passions labouring in my breast!</l>
+       <l>But oh! Demophoon—think thou art a king,</l>
+       <l>And let that thought confirm thee—yes, my soul,</l>
+       <l>Be greatly wretched, but be greatly just!—</l>
+       <l>Orcanes, see that these be kept apart—</l>
+       <l>Cherinthus, let us hence, while to the temple</l>
+       <l>These ministers of heaven retire to appease</l>
+       <l>The angry pow'rs!—</l>
+       <stage>
+        <hi>[Exeunt, on one side,</hi> Demophoon, Cherinthus, Adrastus, <hi>and part of the guards, while the priests ascend the steps, and enter the temple.]</hi>
+       </stage>
+       <stage>
+        <hi>Manent</hi> Timanthes, Ismena, Orcanes, <hi>Guards.</hi>
+       </stage>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>And must Ismena prove</l>
+       <l>The bane of him whom more than life she loves?</l>
+       <l>Is wretchedness the dowry which she brings?</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>What shall I answer thee?—I cannot speak!</l>
+       <l>These matchless proofs of unexampled love</l>
+       <l>But fix new scorpions here!—have I not murder'd</l>
+       <l>Thy peace, thy all—heap'd anguish and disgrace</l>
+       <l>
+        <pb n="53" facs="57"/>
+On him who bred my youth to fame and greatness?</l>
+       <l>Good old Mathusius!—</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>There indeed I feel</l>
+       <l>Distress anew—my father!—</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Now elate</l>
+       <l>With hope, he waits your coming, but in vain</l>
+       <l>The ready bark expects its lovely freight,</l>
+       <l>Which, but for me, had hence been borne in safety.</l>
+       <l>'Twas I oppos'd your flight—I fondly thought</l>
+       <l>That even the stern Demophoon must behold</l>
+       <l>My lov'd Ismena with a husband's eyes.</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>Forbear to chide thyself—and heaven forbid</l>
+       <l>My thoughts should e'er reproach thee with the sufferings</l>
+       <l>That fate decrees us—yet thy words have rais'd</l>
+       <l>New scenes of tenderness—methinks I see</l>
+       <l>Mathusius, with a trembling heart, cast round</l>
+       <l>His longing looks, while as the wasting hour</l>
+       <l>Declines, his fears increase, till his poor bosom</l>
+       <l>Throbs with an anxious father's sharpest pangs.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Think not I can forget his suffering age—</l>
+       <l>Some messenger shall to his ear convey</l>
+       <l>This day's events—Timanthes still has friends</l>
+       <l>That love their prince, and feel for his misfortunes.</l>
+      </sp>
+      <sp who="#orcanes">
+       <speaker>ORCANES.</speaker>
+       <l>My lord, Arsetes with dispatch shall bear</l>
+       <l>Your tidings to Mathusius, this the king</l>
+       <l>Forbids not, and whate'er Orcanes can,</l>
+       <l>Which duty may permit, attends your will.</l>
+      </sp>
+      <sp who="#timanthes">
+       <pb n="54" facs="58"/>
+       <speaker>TIMANTHES.</speaker>
+       <l>I thank thee, good Orcanes—lead me now</l>
+       <l>To obey the king's command—farewell, Ismena,</l>
+       <l>And every guardian power descend to save us!</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>Still, still I fear, but stand prepar'd for all—</l>
+       <l>Yet one reflection sheds a healing balm</l>
+       <l>On my torn mind, to think I may again</l>
+       <l>Hang on his reverend neck—O! thou whose goodness</l>
+       <l>Shall bear Timanthes' greeting to Mathusius,</l>
+       <l>Hear now a daughter's voice—tell him, Ismena</l>
+       <l>Waits with a fond impatience to behold</l>
+       <l>His venerable face, while join'd to mine</l>
+       <l>His cheeks shall mingle sorrows, as his lips</l>
+       <l>Pronounce my blessing, and confirm my pardon,</l>
+       <l>For every anguish that his age endures.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Thou brightest excellence—and shall not heaven</l>
+       <l>Protect that virtue it inspir'd—my soul</l>
+       <l>Revives with hope—we yet may meet again—</l>
+       <l>Mathusius shall return; who knows what here</l>
+       <l>His presence may avail—all, all shall join</l>
+       <l>To win Demophoon's grace—once more, farewell</l>
+       <l>My life—Ismena—</l>
+       <stage>[embrace.</stage>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>Words are poor to speak</l>
+       <l>The tumult struggling here—let this speak for me</l>
+       <l>And sum up all in silence.</l>
+       <stage>[embrace.</stage>
+       <stage>
+        <hi>[Exit</hi> Timanthes <hi>guarded.</hi>
+       </stage>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA,</speaker>
+       <stage>Guards.</stage>
+       <l>Yes—he's gone!</l>
+       <l>And at his parting resolution now</l>
+       <l>Ebbs out apace, and in its stead a crowd</l>
+       <l>
+        <pb n="55" facs="59"/>
+Of tender images—wife! daughter! mother!</l>
+       <l>Olinthus O! that lov'd idea still</l>
+       <l>Clings round my heart—but look Cephisa comes</l>
+       <l>Once more to share in sufferings not her own!</l>
+       <stage>
+        <hi>Enter</hi> CEPHISA.</stage>
+      </sp>
+      <sp who="#cephisa">
+       <speaker>CEPHISA.</speaker>
+       <l>Art thou Ismena, she for whom so late</l>
+       <l>My bosom bled? And may I now believe</l>
+       <l>The mouth of fame that speaks thee yet more wretched</l>
+       <l>Than when I saw thee led to death, that speaks</l>
+       <l>Of secret nuptials, of a broken union,</l>
+       <l>And all the woes that wait thy hapless love?</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>Alas! Cephisa, I am one whom fortune</l>
+       <l>Has singled for her frowns, one whom in vain</l>
+       <l>The hand of goodness would preserve from ruin;</l>
+       <l>Whom even Cephisa's pity cannot save—</l>
+       <l>And yet too generous princess—</l>
+      </sp>
+      <sp who="#cephisa">
+       <speaker>CEPHISA.</speaker>
+       <l>No, Ismena,</l>
+       <l>As yet perhaps all is not lost—the power</l>
+       <l>That watches o'er the unhappy still may hear thee:</l>
+       <l>Demophoon has confess'd that nature's plea</l>
+       <l>Is strongly for Timanthes, that his soul</l>
+       <l>Is rent with passions, while by turns the judge,</l>
+       <l>By turns the father sways: the public eye</l>
+       <l>Confirm'd the wavering king; but now retir'd</l>
+       <l>Within himself, the parent must prevail.</l>
+       <l>Then speak, O speak, and case thy swelling heart,</l>
+       <l>Methinks I see distraction labouring there!</l>
+       <l>And as but now thy eyes encounter'd mine,</l>
+       <l>The tear, that stood till then supprest, gush'd forth.</l>
+       <l>Give words to all the pangs a wife can feel,</l>
+       <l>To all a mother's anguish.</l>
+      </sp>
+      <sp who="#ismena">
+       <pb n="56" facs="60"/>
+       <speaker>ISMENA.</speaker>
+       <l>Thou hast touch'd me,</l>
+       <l>Too nearly there—I am indeed a mother,</l>
+       <l>Here, here his image dwells—and O! Cephisa,</l>
+       <l>Could I but hope, and yet I wrong thy virtues,</l>
+       <l>We have a son, the dear, the only offspring</l>
+       <l>Of our ill-omen'd loves—his innocence</l>
+       <l>Alas! is guiltless of his parent's deeds—</l>
+       <l>Could I but once more clasp him to my breast—</l>
+       <l>Thy goodness might intreat the king—</l>
+      </sp>
+      <sp who="#cephisa">
+       <speaker>CEPHISA.</speaker>
+       <l>And will</l>
+       <l>Ismena—yes, by all the virtuous grief</l>
+       <l>Of sympathy, when for another's woe,</l>
+       <l>The generous bosom feels, I'll seek Demophoon,</l>
+       <l>And urge thy suit with friendship's kindest warmth.</l>
+       <l>Perhaps yet more—but rest assur'd, Ismena,</l>
+       <l>Thus much at least Cephisa can obtain</l>
+       <l>To give thy little fondling to thy arms,</l>
+       <l>To shed soft comfort on thy lonely hours,</l>
+       <l>To calm thy troubled breast and sooth thy cares!</l>
+       <stage>[Exit.</stage>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA,</speaker>
+       <stage>Guards.</stage>
+       <l>Conduct me now, where I may patient wait</l>
+       <l>What yet remains to suffer, while I count</l>
+       <l>Each tardy moment till Olinthus comes!</l>
+       <l>And he will come—Cephisa has pronounc'd it—</l>
+       <l>My heart already meets him—lead me, friends,</l>
+       <l>To prison!—no—the mind, still uncontroul'd,</l>
+       <l>Knows no confinement—to a place of sorrow!</l>
+       <l>O! no—that cannot be, when my Olinthus,</l>
+       <l>Love's dearest pledge, shall smile away distress</l>
+       <l>Even in the dungeon's gloom—the thought alone</l>
+       <l>Wings my rapt soul, and lightens every pain!</l>
+       <stage>[Exit guarded.</stage>
+      </sp>
+      <trailer>END <hi>of the</hi> FOURTH ACT.</trailer>
+     </div>
+    </div>
+    <div n="5" type="act">
+     <pb n="57" facs="61"/>
+     <head>ACT V.</head>
+     <div type="scene">
+      <head>SCENE, <stage>
+        <hi>A prison.</hi>
+       </stage>
+      </head>
+      <stage>ISMENA <hi>seated,</hi> OLINTHUS <hi>asleep by her, Attendant.</hi>
+      </stage>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>ALREADY hush'd in slumber!—O! sleep on,</l>
+       <l>Dear guiltless babe! these rugged walls to thee,</l>
+       <l>Are as the costly arras that surrounds</l>
+       <l>A prince's chamber, and the solemn clank</l>
+       <l>Of these rude chains, is as the music's note</l>
+       <l>To lull thee to thy rest—Where is my love,</l>
+       <l>My lord Timanthes?—Gracious powers! assist him,</l>
+       <l>And reconcile his soul to life and happiness!</l>
+       <l>He must, he shall—but look, Ianthe, see</l>
+       <l>My poor Olinthus smiles—blest omen sure</l>
+       <l>Of his lov'd father's fortune—happy state,</l>
+       <l>Of childish innocence—ha! smile again!</l>
+       <l>Thou dear resemblance of thy hapless sire,</l>
+       <l>His little self!—O! I could gaze for ever,</l>
+       <l>Till all the mother, 'wakening in my soul,</l>
+       <l>Would fix me down to life, to life and thee!</l>
+       <stage>
+        <hi>Enter</hi> DEMOPHOON <hi>and</hi> CEPHISA.</stage>
+      </sp>
+      <sp who="#cephisa">
+       <speaker>CEPHISA.</speaker>
+       <l>Behold, Demophoon, where reclin'd she hangs</l>
+       <l>O'er her young son; the silent mourner weeps</l>
+       <l>In heart-felt anguish—claims not this the tear</l>
+       <l>Of sympathizing sorrow?</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>Yes, Cephisa,</l>
+       <l>My breast has caught th' infection—and behold</l>
+       <l>Lost in herself she heeds us not, do thou</l>
+       <l>Speak comfort to her woes.</l>
+      </sp>
+      <sp who="#cephisa">
+       <pb n="58" facs="62"/>
+       <speaker>CEPHISA.</speaker>
+       <stage>
+        <hi>[going towards</hi> Ismena.]</stage>
+       <l>Ismena—</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>Ha!</l>
+       <l>Cephisa!—like some guardian spirit still</l>
+       <l>Thou nover'st round me—yet can grief retire,</l>
+       <l>Where goodness such as thine will not pursue?</l>
+       <l>To thee a mother owes this dear embrace!</l>
+       <l>But O! what do I see, Demophoon here!</l>
+       <l>Ah! sir, what means this visit? Com'st thou now</l>
+       <l>To give my sorrows peace? 'Tis but a moment</l>
+       <l>That severs life and wretchedness, and, Oh!</l>
+       <l>Would the same lips that seal Ismena's doom,</l>
+       <l>Restore Timantnes to a father's love,</l>
+       <l>To life—to pardon—</l>
+       <stage>[kneels.</stage>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>Rise—</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>Still let me kneel,</l>
+       <l>'Tis for Timanthes—wherefore dost thou turn</l>
+       <l>Thy face to hide the starting tear—O! think,</l>
+       <l>You see him banish'd from a father's sight,</l>
+       <l>A wretched prisoner—yet, you answer not—</l>
+       <l>O speak!—Olinthus! look he wakes—Ianthe,</l>
+       <l>Haste, bring him, he shall plead his father's cause:</l>
+       <l>Come, little suppliant, see, Demophoon, see,</l>
+       <l>Mark but his looks, they cannot plead in vain—</l>
+       <l>He is your own, whate'er his mother's guilt,</l>
+       <l>Your royal blood flows in his infant veins,</l>
+       <l>Think that in him your once-lov'd son implores,</l>
+       <l>And in Olinthus now behold Timanthes.</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>This is too much—O! rise—my daughter rise,</l>
+       <l>And in a parent's arms forget thy sufferings.</l>
+      </sp>
+      <sp who="#ismena">
+       <pb n="59" facs="63"/>
+       <speaker>ISMENA.</speaker>
+       <l>What do I hear!</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>Thy virtues have aton'd</l>
+       <l>For all that's past—Timanthes shall again</l>
+       <l>Be yours—Olinthus too—at once we'll bless</l>
+       <l>The husband and the father.</l>
+      </sp>
+      <sp who="#cephisa">
+       <speaker>CEPHISA.</speaker>
+       <l>Why, Ismena,</l>
+       <l>Art thou still silent—see'st thou not that heaven</l>
+       <l>Crowns every hope Cephisa wish'd to raise?</l>
+       <l>And dost thou yet distrust the flattering scene?</l>
+       <l>Dispel thy doubts—</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>And shall I then forget</l>
+       <l>These dreams of grief and terror!—let us leave</l>
+       <l>In these abodes the phantoms of despair,</l>
+       <l>And haste to life, to rapture, and Timanthes!</l>
+       <stage>[Exeunt.</stage>
+      </sp>
+     </div>
+     <div type="scene">
+      <head>SCENE, <stage>
+        <hi>another part of the prison.</hi>
+       </stage>
+      </head>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES</speaker>
+       <stage>alone.</stage>
+       <l>Why should we covet life? What are its charms,</l>
+       <l>Since all degrees are wretched? Every state</l>
+       <l>Partakes of misery: in infancy</l>
+       <l>We tremble at a frown; in ripening youth</l>
+       <l>We're made the sport of fortune and of love:</l>
+       <l>In age we groan beneath the weight of years:</l>
+       <l>Now we're tormented with the thirst of gain,</l>
+       <l>And now the fear of loss: eternal war</l>
+       <l>The wicked with themselves maintain; the just</l>
+       <l>With fraud and envy: all our schemes are shadow</l>
+       <l>Vain and illusive as a sick man's dream,</l>
+       <l>
+        <pb n="60" facs="64"/>
+And when we but begin at last to know</l>
+       <l>Our life's whole folly, death cuts short the scene.</l>
+       <stage>
+        <hi>Enter</hi> CHERINTHUS.</stage>
+      </sp>
+      <sp who="#cherinthus">
+       <speaker>CHERINTHUS.</speaker>
+       <l>Where is my friend, my brother!</l>
+       <stage>[embrace.</stage>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Ha! Cherinthus,</l>
+       <l>Are these the tears due to thy brother's death,</l>
+       <l>When thus you press me with a last embrace?</l>
+      </sp>
+      <sp who="#cherinthus">
+       <speaker>CHERINTHUS.</speaker>
+       <l>What last embrace, what tears, what death, Timanthes!</l>
+       <l>Still live, and still be bless'd—these hands shall loose</l>
+       <l>Thy galling chains, these lips shall breathe the sound</l>
+       <l>Of life and happiness.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Is't possible!</l>
+      </sp>
+      <sp who="#cherinthus">
+       <speaker>CHERINTHUS.</speaker>
+       <l>Our father now relents; the holy priests</l>
+       <l>With due libations have appeas'd the powers,</l>
+       <l>And purg'd the fane from sacrilegious guilt:</l>
+       <l>A powerful advocate asserts thy cause—</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>What tongue will plead for me, a wretched outcast</l>
+       <l>Of heaven and earth!</l>
+      </sp>
+      <sp who="#cherinthus">
+       <speaker>CHERINTHUS.</speaker>
+       <l>Cephisa—</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Ha! Cephisa!</l>
+       <l>She whom my scorn offended!</l>
+      </sp>
+      <sp who="#cherinthus">
+       <speaker>CHERINTHUS.</speaker>
+       <l>Not alone</l>
+       <l>For thee she pleads—She pleads Ismena's cause—</l>
+      </sp>
+      <sp who="#timanthes">
+       <pb n="61" facs="65"/>
+       <speaker>TIMANTHES.</speaker>
+       <l>For my Ismena!—breath of gods inspire</l>
+       <l>Her lips with eloquence!—O! my Cherinthus!</l>
+       <l>Should heaven propitious now—but O! I feel</l>
+       <l>A father's anguish here—couldst thou for me</l>
+       <l>Discharge his promise to the Phrygian king,</l>
+       <l>Give, in my stead, thy hand to fair Cephisa—</l>
+      </sp>
+      <sp who="#cherinthus">
+       <speaker>CHERINTHUS.</speaker>
+       <l>I own my soul has long ador'd Cephisa;</l>
+       <l>I love her with the tenderest passion, yet</l>
+       <l>I must not hope the princess e'er will deign</l>
+       <l>To accept my hand: thou know'st she came to wed</l>
+       <l>The kingdom's heir—</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Is this the only bar?</l>
+       <l>Then she is yours—I here renounce my claim</l>
+       <l>To Thrace, to empire.</l>
+      </sp>
+      <sp who="#cherinthus">
+       <speaker>CHERINTHUS.</speaker>
+       <l>Whither would Timanthes!</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Away, and seek the king; tell him, Cherinthus</l>
+       <l>Will from dishonour save the Thracian name:</l>
+       <l>O! fly, and with a brother's speed return,</l>
+       <l>My all depends on this eventful hour!</l>
+       <stage>
+        <hi>[Exit</hi> Cherinthus.</stage>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES</speaker>
+       <stage>alone.</stage>
+       <l>Indulgent powers! methinks my heart dilates</l>
+       <l>With new-reviving joy! shall I once more</l>
+       <l>Without a pang embrace my wife and son!</l>
+       <stage>
+        <hi>Enter</hi> MATHUSIUS <hi>with a paper.</hi>
+       </stage>
+      </sp>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <l>Timanthes! O! ill fated prince!</l>
+      </sp>
+      <sp who="#timanthes">
+       <pb n="62" facs="66"/>
+       <speaker>TIMANTHES.</speaker>
+       <l>Mathusius!</l>
+       <l>Thou know'st not what has chanc'd; the pitying hand</l>
+       <l>Of heaven even yet may save us, bring once more</l>
+       <l>Thy daughter to my arms—</l>
+      </sp>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <l>Forbid it nature,</l>
+       <l>That thou should'st e'er embrace Ismena more!</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>What means Mathusius?—speak—</l>
+      </sp>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <l>Fate has unveil'd</l>
+       <l>A dreadful secret—and Ismena—</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Ha!</l>
+       <l>Say, what of her?</l>
+      </sp>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <l>She is—Timanthes' sister.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>My sister!—what delusion—</l>
+      </sp>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <l>No, Timanthes,</l>
+       <l>Too certain are the prooss.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>'Tis madness all—</l>
+       <l>Take heed, old man, my love can brook but ill</l>
+       <l>The dreams of doating age.</l>
+      </sp>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <l>Unhappy youth!</l>
+       <l>Hear then the dreadful tale—when late for flight</l>
+       <l>I gather'd all my treasures to the shore,</l>
+       <l>I found a casket, that had lain conceal'd</l>
+       <l>
+        <pb n="63" facs="67"/>
+E'er since I lost the partner of my bed:</l>
+       <l>Doubtless thou oft hast heard Barcene bore</l>
+       <l>Such faithful friendship to the queen deceas'd,</l>
+       <l>Our king's first consort, that the day which saw</l>
+       <l>Argea's death, beheld Barcene's too.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>I know it well—</l>
+      </sp>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <l>This casket by Argea</l>
+       <l>Was trusted to Barcene, which contain'd</l>
+       <l>This paper, written by the queen's own hand.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>What paper? ha!—</l>
+      </sp>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <l>Now mark the fatal scroll!</l>
+       <stage>[reads.</stage>
+       <l>"Ismena is not daughter to Mathusius,</l>
+       <l>"But owes her birth to me and to Demophoon,</l>
+       <l>"By what event her fortune has been chang'd,</l>
+       <l>"Another mystic paper must disclose;</l>
+       <l>"Let this be sought for in the houshould temple,</l>
+       <l>"Beneath the footstool of the god.</l>
+       <l>"ARGEA."</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Imposture all!</l>
+      </sp>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <l>Behold the royal signet—</l>
+       <stage>[gives the paper.</stage>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>What, say'st thou! Oh!</l>
+       <stage>[drops the paper.</stage>
+      </sp>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <l>My prince—</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Away, Mathusius!</l>
+      </sp>
+      <sp who="#mathusius">
+       <pb n="64" facs="68"/>
+       <speaker>MATHUSIUS.</speaker>
+       <l>I dare not leave thee thus—</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>I charge thee hence,</l>
+       <l>Thou minister of fate—haste to the temple,</l>
+       <l>And open all this tale of guilt and horror!</l>
+      </sp>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <l>Yes, I must go—but O! ye pitying powers,</l>
+       <l>Look down, and send some messenger of peace</l>
+       <l>To guard him in this hour of dreadful trial.</l>
+       <stage>[Exit.</stage>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES</speaker>
+       <stage>alone.</stage>
+       <l>Heaven hears him not—a night of black despair</l>
+       <l>For ever wraps me round—Olinthus now</l>
+       <l>Nephew and son! Ismena wife and sister!</l>
+       <l>Detested union! horrible to thought!</l>
+       <l>Fly, fly, Timanthes, hide thee from mankind,</l>
+       <l>Thou now must prove thy father's curse—behold</l>
+       <l>The furies here reviv'd of Thebes and Argos!</l>
+       <l>O! that these eyes had never seen Ismena!</l>
+       <l>What then I deem'd the violence of love</l>
+       <l>Was nature's secret force—what sound was that!</l>
+       <stage>
+        <hi>Enter</hi> DEMOPHOON <hi>and</hi> CHERINTHUS.</stage>
+       <l>My father!—hide me earth!—</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>My dearest son,</l>
+       <l>In these lov'd arms—</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Forbear—no more Demophoon</l>
+       <l>Must call Timanthes by that tender name.</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>Perhaps thou know'st not—</l>
+      </sp>
+      <sp who="#timanthes">
+       <pb n="65" facs="69"/>
+       <speaker>TIMANTHES.</speaker>
+       <l>O! I know too much—</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>I come to chace the clouds of black despair—</l>
+       <l>Thy faults are now forgiven—and once again</l>
+       <l>Ismena shall be thine—Still art thou silent!</l>
+       <l>Receive this dear embrace, thy pledge of pardon—</l>
+       <l>But say—why dost thou fly thy father's sight?</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>I dare not look on thee—</l>
+       <stage>
+        <hi>Enter</hi> ISMENA, OLINTHUS, <hi>and Attendant.</hi>
+       </stage>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>My lord, my husband!</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Away and leave me.</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>Ha! what means my love!</l>
+       <l>Are we not one? Has not relenting fate</l>
+       <l>Unravell'd all our sorrows?—this blest hour</l>
+       <l>Indulgent heaven restores thee to Ismena,</l>
+       <l>And dost thou welcome thus—</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Oh!—</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>Speak, Timanthes—</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>I cannot speak—Ah! whither shall I fly</l>
+       <l>To hide—</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>Whom fly'st thou from?</l>
+      </sp>
+      <sp who="#timanthes">
+       <pb n="66" facs="70"/>
+       <speaker>TIMANTHES.</speaker>
+       <l>From men and gods!</l>
+       <l>From you and from myself—to solitude,</l>
+       <l>Where my remembrance may be lost for ever!</l>
+      </sp>
+      <sp who="#cherinthus">
+       <speaker>CHERINTHUS.</speaker>
+       <l>'Tis frenzy all!—Hast thou forgot each name</l>
+       <l>That wakes the soul to tenderness—behold</l>
+       <l>Thy brother here, thy son—</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>Behold thy wife,</l>
+       <l>Who thus adjures thee by each thought, that now</l>
+       <l>Should fill thy breast, to hear and pity her!</l>
+       <l>Or if thy wife must plead in vain, yet hear</l>
+       <l>In this poor innocent the voice of nature—</l>
+       <l>What has he done, that thou should'st cast him off?</l>
+       <l>He never could offend—why dost thou shun</l>
+       <l>His harmless looks?—O! take him to thy bosom—</l>
+       <l>Now, by this hand—you shall not wrest it from me—</l>
+       <l>Once the dear pledge of happiness—</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>No more—</l>
+       <l>Thou rend'st my heart—wife, father, son, and brother,</l>
+       <l>Are names of transport to a mind at ease,</l>
+       <l>To me they're sounds of horror!—take, O! take</l>
+       <l>That infant from my sight—his presence starts</l>
+       <l>A thousand dreadful thoughts—art thou not chang'd?</l>
+       <l>Dost thou not shudder—hear then, wretched woman!</l>
+       <l>Thou art—I cannot speak it—O, Ismena!</l>
+       <stage>[Exit.</stage>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>Stay, stay, Timanthes, if I must be wretched,</l>
+       <l>Thy lips shall seal my doom—</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>Cherinthus, go—</l>
+       <l>
+        <pb n="67" facs="71"/>
+Pursue thy brother's steps, and learn the cause</l>
+       <l>Of this mysterious grief—</l>
+       <stage>
+        <hi>[Exit</hi> Cherinthus.</stage>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>And is he gone?</l>
+       <l>Did he not cast me from his lov'd embrace?</l>
+       <l>Did he not spurn Olinthus from his arms?</l>
+       <l>Some horrid secret!—O! what art thou, great</l>
+       <l>Mysterious evil! that in darkness hid,</l>
+       <l>Gives double terror—but I'll seek Timanthes,</l>
+       <l>Nor leave him till I share in all he suffers!</l>
+       <stage>
+        <hi>[Exeunt</hi> Ism. Olin. <hi>and Attendant.</hi>
+       </stage>
+       <stage>
+        <hi>Enter</hi> ADRASTUS.</stage>
+      </sp>
+      <sp who="#adrastus">
+       <speaker>ADRASTUS.</speaker>
+       <l>The sacred pontiff now requests your presence</l>
+       <l>To meet Mathusius in the houshould temple,</l>
+       <l>On some important business that regards</l>
+       <l>Your house's honour, and the kingdom's weal.</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>To meet Mathusius!—let us hence, Adrastus,</l>
+       <l>And learn what yet remains for suffering Thrace.</l>
+       <stage>[Exeunt.</stage>
+      </sp>
+     </div>
+     <div type="scene">
+      <head>SCENE, <stage>
+        <hi>The palace.</hi>
+       </stage>
+      </head>
+      <stage>
+       <hi>Enter</hi> TIMANTHES <hi>and</hi> CHERINTHUS.</stage>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Away, Cherinthus—wilt thou follow still</l>
+       <l>These steps accurst—what would'st thou more of horror?</l>
+       <l>Leave, leave me to my woes—</l>
+      </sp>
+      <sp who="#cherinthus">
+       <speaker>CHERINTHUS.</speaker>
+       <l>O! yield not thus</l>
+       <l>To madness of despair thou art indeed</l>
+       <l>Unhappy, but the hand of fate alone</l>
+       <l>Has driven thee down this precipice of ruin;</l>
+       <l>Thy blameless thoughts—</l>
+      </sp>
+      <sp who="#timanthes">
+       <pb n="68" facs="72"/>
+       <speaker>TIMANTHES.</speaker>
+       <l>No more, no more, Cherinthus,</l>
+       <l>Nought can extenuate—have I not destroy'd</l>
+       <l>A father's peace, and stain'd a royal race</l>
+       <l>With blackest infamy—by horrid love</l>
+       <l>Impell'd, did I not trample on the laws,</l>
+       <l>And leap the bound, that seem'd by heaven design'd</l>
+       <l>To stop the dreadful union—has not rage</l>
+       <l>Urg'd these destructive hands—hold, hold, reflection—</l>
+       <l>Incest and sacrilege—</l>
+      </sp>
+      <sp who="#cherinthus">
+       <speaker>CHERINTHUS.</speaker>
+       <l>Now by the love</l>
+       <l>You bear Cherinthus, by those awful powers</l>
+       <l>That view the soul's recess, whose justice marks</l>
+       <l>The deed of hood-wink'd fate from the black dye</l>
+       <l>Of voluntary guilt, whose pity still</l>
+       <l>May sooth thy future life—</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>My future life!—</l>
+       <l>Shall I then live to aggravate my crime</l>
+       <l>To love—for, O! with horror I confess</l>
+       <l>I cannot shake Ismena from my soul—</l>
+       <l>Here, here she dwells—nor can this awful moment</l>
+       <l>Raze from my breast the husband and the father,</l>
+       <l>It will not be—one way—</l>
+       <stage>[draws a dagger.</stage>
+      </sp>
+      <sp who="#cherinthus">
+       <speaker>CHERINTHUS.</speaker>
+       <l>Hold, hold, my brother—</l>
+       <l>What would'st thou do?</l>
+      </sp>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <stage>[within.]</stage>
+       <l>Give, give him to my arms—</l>
+       <stage>
+        <hi>Enter</hi> MATHUSIUS.</stage>
+       <l>Timanthes! my Timanthes! Oh!—</l>
+       <stage>[embrace.</stage>
+      </sp>
+      <sp who="#timanthes">
+       <pb n="69" facs="73"/>
+       <speaker>TIMANTHES.</speaker>
+       <l>Mathusius!</l>
+       <l>Why wilt thou save a wretch that must not live?</l>
+       <l>Away—</l>
+      </sp>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <l>O! thou art innocent—Demophoon</l>
+       <l>Gave thee not birth—but I—I am thy father—</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Thou!—gracious heaven! Is not Ismena then</l>
+       <l>My sister—Speak, Mathusius—</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <stage>[entering.]</stage>
+       <l>Let me fly</l>
+       <l>To greet him with the sound of love and joy.</l>
+       <stage>
+        <hi>Enter</hi> ISMENA, CEPHISA, <hi>and</hi> OLINTHUS.</stage>
+       <l>Yes, I will hold him ever to my heart!</l>
+       <l>Timanthes! 'tis too much—hence every vain</l>
+       <l>And busy fear that frights thee from my arms!</l>
+       <l>No sister now—no rigid laws oppose</l>
+       <l>Our union more; Demophoon has confirm'd</l>
+       <l>Our mutual bliss, and universal Thrace</l>
+       <l>Shall now be witness to my boundless love!</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>And is it given me then to clasp thee thus!</l>
+       <l>To gaze with guiltless transport! speak, my friends,</l>
+       <l>It cannot be—o'erwhelm'd but now with horrors—</l>
+       <stage>
+        <hi>Enter</hi> DEMOPHOON <hi>with a paper, and</hi> ADRASTUS.</stage>
+       <l>O royal sir! and may I then believe</l>
+       <l>These blest events—and is Ismena sprung</l>
+       <l>From your illustrious race—and may I now</l>
+       <l>Indulge the fond idea—</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>Yes, Timanthes,</l>
+       <l>This has unravell'd all—from yonder fane</l>
+       <l>
+        <pb n="70" facs="74"/>
+I bring this scroll, which has dispell'd the fears</l>
+       <l>Which first Mathusius rais'd.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>All-gracious Heaven!</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>Thou wert exchang'd an infant for Ismena;</l>
+       <l>Argea, baffled in her hopes to give</l>
+       <l>An heir to Thrace, first by Arsene's birth,</l>
+       <l>And next Ismena's, from Mathusius' wife</l>
+       <l>Receiv'd, and gave thee to me as her own;</l>
+       <l>But verging on the brink of life, she left</l>
+       <l>A paper with Barcene, to produce,</l>
+       <l>If aught of danger should attend Ismena,</l>
+       <l>That paper which Mathusius gave thee first,</l>
+       <l>While in the houshould temple she dispos'd</l>
+       <l>This second scroll which has reveal'd thy birth.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Then am I happy still—O! sacred sir!</l>
+       <l>Forgive each rebel act—but 'twas a cause</l>
+       <l>Might surely plead—'twas your Ismena—</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>Rise,</l>
+       <l>Come to my arms and be again my son,</l>
+       <l>This cancels all—</l>
+       <stage>[embrace.</stage>
+      </sp>
+      <sp who="#cephisa">
+       <speaker>CEPHISA.</speaker>
+       <stage>
+        <hi>[leading</hi> Olinthus <hi>to him.]</hi>
+       </stage>
+       <l>See, see, Timanthes, one</l>
+       <l>Who claims your dearest care—behold him now—</l>
+       <l>Look how he reaches out his little hands</l>
+       <l>To clasp a father's knees, and meet his blessing.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <l>Thy mother's joy!—Olinthus—</l>
+      </sp>
+      <sp who="#ismena">
+       <speaker>ISMENA.</speaker>
+       <l>Yes, Timanthes,</l>
+       <l>It is Olinthus, whom but late you spurn'd</l>
+       <l>
+        <pb n="71" facs="75"/>
+From your embrace—you spurn'd Ismena too—</l>
+       <l>And will you shun me still—no, no, Timanthes,</l>
+       <l>I have thee here — my beating heart confesses</l>
+       <l>Its wonted guest—O! we will part no more!</l>
+       <l>Our sufferings past shall be the grateful theme</l>
+       <l>Of many a future hour—Olinthus oft</l>
+       <l>Shall listen to our talk, and while he dwells</l>
+       <l>With infant wonder on his parents' story,</l>
+       <l>Drop the young tear of pity from his eye,</l>
+       <l>Cling to our breasts, and pay for all our sorrows.</l>
+      </sp>
+      <sp who="#timanthes">
+       <speaker>TIMANTHES.</speaker>
+       <stage>
+        <hi>[to</hi> Cher.]</stage>
+       <l>My brother! still that tender name is ours,</l>
+       <l>'Twas doubtless heaven inspir'd me to resign</l>
+       <l>The birthright I usurp'd—receive thy own.</l>
+      </sp>
+      <sp who="#mathusius">
+       <speaker>MATHUSIUS.</speaker>
+       <l>Take back, my fate, what now remains of life,</l>
+       <l>For nothing more is worth an old man's care?</l>
+      </sp>
+      <sp who="#demophoon">
+       <speaker>DEMOPHOON.</speaker>
+       <l>Mathusius, yes—thou still hast days of joy:</l>
+       <l>Here let oblivion's veil conceal the past;</l>
+       <l>We both have been to blame—see in Timanthes</l>
+       <l>The innocent usurper: thus we stand</l>
+       <l>Deliver'd from the annual sacrifice;</l>
+       <l>Cherinthus shall succeed—in him, Cephisa,</l>
+       <l>Behold the kingdom's heir—but this glad hour</l>
+       <l>Demands that tribute which the tongue of praise</l>
+       <l>Owes to that ruling Power who governs all!</l>
+      </sp>
+      <trailer>END <hi>of the</hi> FIFTH ACT.</trailer>
+     </div>
+    </div>
+   </div>
+  </body>
+  <back>
+   <div type="epilogue">
+    <pb facs="76"/>
+    <head>EPILOGUE.</head>
+    <byline>Written by GEORGE COLMAN, <abbr>Esq</abbr>
+    </byline>
+    <byline>Spoken by Mrs. BULKLEY.</byline>
+    <lg>
+     <l>WHAT horrors fill the tragic poet's brain!</l>
+     <l>Plague, murder, rape, and incest, croud his train;</l>
+     <l>He pants for miseries, delights in ills,</l>
+     <l>The blood of fathers, mothers, children, spills;</l>
+     <l>Stabs, poisons, massacres; and, in his rage,</l>
+     <l>With daggers, bowls, and carpets, strews the stage.</l>
+    </lg>
+    <lg>
+     <l>Our gentler poet, in soft opera bred,</l>
+     <l>Italian crotchets singing in his head,</l>
+     <l>Winds to a prosp'rous end the fine-drawn tale,</l>
+     <l>And roars—but roars like any nightingale.—</l>
+    </lg>
+    <lg>
+     <l>Woman, whate'er she be—maid, widow, wife,</l>
+     <l>A quiet woman is the charm of life:</l>
+     <l>And sure Cephisa was a gentle creature,</l>
+     <l>Fuil of the milk and honey of good-nature.</l>
+     <l>Imported for a spouse—by spouse refus'd!</l>
+     <l>Was ever maid so shamefully abus'd?</l>
+     <l>And yet, alas, poor prince! I could not blame him—</l>
+     <l>One wife, I'knew, was full enough to tame him.</l>
+     <l>Ismena, and Timanthes, and Olinthus,</l>
+     <l>Might all be happy—for I chose Cherinthus.</l>
+    </lg>
+    <lg>
+     <l>But what a barb'rous law was this of Thrace!</l>
+     <l>How cruel <hi>there</hi> was each young lady's case!</l>
+     <l>A virgin, plac'd upon the dreadful roll,</l>
+     <l>A hapless virgin must have stood the poll,</l>
+     <l>But by Timanthes made a lucky bride,</l>
+     <l>Ismena prudently <hi>disqualify'd.</hi>
+     </l>
+    </lg>
+    <lg>
+     <l>Ladies, to you alone our author sues;</l>
+     <l>'Tis yours to cherish, or condemn his muse.</l>
+     <l>The theatre's a mirror, and each play</l>
+     <l>Should be a very looking-glass, they say;</l>
+     <l>His looking-glass reflects no moles or pimples,</l>
+     <l>But shews you full of graces, smiles, and dimples.</l>
+     <l>If you approve yourselves, resolve to spare,</l>
+     <l>And, critics! then attack him, if ye dare.</l>
+    </lg>
+    <trailer>FINIS.</trailer>
+   </div>
+  </back>
+ </text>
+</TEI>

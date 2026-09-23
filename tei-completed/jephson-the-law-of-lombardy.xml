@@ -1,0 +1,3840 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">The law of Lombardy</title>
+    <title type="sub">a tragedy: as it is performed at the Theatre-Royal in Drury-Lane. Written by Robert Jephson, ...</title>
+    <author>
+     <persName>
+      <surname>Jephson</surname>
+      <forename>Robert</forename>
+      <idno type="VIAF">59440783</idno>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>The law of Lombardy: a tragedy: as it is performed at the Theatre-Royal in Drury-Lane. Written by Robert Jephson, ...</name>
+     <author>Jephson, Robert, 1736-1803.</author>
+     <publisher>printed for T. Evans,</publisher>
+     <date>1779.</date>
+     <pubPlace>London :</pubPlace>
+     <note>The second leaf contains the dedication.</note>
+     <note>With two final leaves containing prologue, epilogue and advertisements.</note>
+     <note>Copies consist of mixed sheets; press figures can vary.</note>
+     <note>Reproduction of original from the British Library.</note>
+     <note>English Short Title Catalog, ESTCT37612.</note>
+     <note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note>
+    </bibl>
+    <biblFull n="printed source">
+     <publicationStmt>
+      <authority ref="#JJ">Jan Jokisch</authority>
+      <date>2024 December</date>
+      <idno type="ECCO_Drama">K038561.000</idno>
+      <idno type="DLPS">004804778</idno>
+      <idno type="ESTC">T37612</idno>
+      <idno type="DocNo">CW106676499</idno>
+      <idno type="TCP">K038561.000</idno>
+      <idno type="GaleDocNo">CW3306676499</idno>
+      <idno type="ContentSet">ECFA</idno>
+      <idno type="ImageSetID">1193000400</idno>
+      <availability>
+       <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+      </availability>
+     </publicationStmt>
+    </biblFull>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    <person xml:id="rinaldo"><persName>Rinaldo</persName><sex value="MALE"/></person><person xml:id="ascanio"><persName>Ascanio</persName><sex value="MALE"/></person><person xml:id="lucio"><persName>Lucio</persName><sex value="MALE"/></person><person xml:id="senator"><persName>Senator</persName><sex value="MALE"/></person><person xml:id="shepherd"><persName>Shepherd</persName><sex value="MALE"/></person><person xml:id="squire"><persName>Squire</persName><sex value="MALE"/></person><person xml:id="bireno"><persName>Bireno</persName><sex value="MALE"/></person><person xml:id="princess"><persName>Princess</persName><sex value="FEMALE"/></person><person xml:id="alinda"><persName>Alinda</persName><sex value="FEMALE"/></person><personGrp xml:id="foresters"><persName>Foresters</persName><sex value="MALE"/></personGrp><person xml:id="paladore"><persName>Paladore</persName><sex value="MALE"/></person><person xml:id="king"><persName>King</persName><sex value="MALE"/></person><person xml:id="officer"><persName>Officer</persName><sex value="MALE"/></person><person xml:id="first_forester"><persName>First Forester</persName><sex value="MALE"/></person><person xml:id="second_forester"><persName>Second Forester</persName><sex value="MALE"/></person><person xml:id="attendant"><persName>Attendant</persName><sex value="MALE"/></person><person xml:id="first_senator"><persName>First Senator</persName><sex value="MALE"/></person></listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1779">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text xml:lang="en">
+  <front>
+   <div type="titlepage">
+    <pb facs="1" ana="y"/>
+    <p>THE LAW OF LOMBARDY; A TRAGEDY: AS IT IS PERFORMED AT THE THEATRE-ROYAL IN DRURY-LANE.</p>
+    <p>WRITTEN BY ROBERT JEPHSON, ESQ. AUTHOR OF BRAGANZA.</p>
+    <p>LONDON. PRINTED FOR T. EVANS, NEAR YORK-BUILDINGS, STRAND. MDCCLXXIX. [Price One Shilling and Sixpence.]</p>
+   </div>
+   <div type="dedication">
+    <pb facs="2"/>
+    <head>TO THE KING.</head>
+    <opener>
+     <salute>SIR,</salute>
+    </opener>
+    <p>YOUR Majesty's having graciously permitted me to prefix your royal name to this tragedy, has impress'd me with so deep a sense of the honor, that I despair of finding terms sufficient to express my acknowledgments.</p>
+    <p>Tho' the public, which is seldom disposed to receive favourably, performances destitute of merit, has been pleased to give this a very indulgent reception, I must still regret its imperfections, when I consider that it may for a moment become the object of your Majesty's attention. Having omitted nothing in my power to render it not entirely unworthy of such an exalted patronage, I can't forbear to flatter myself, that it may raise in the breast of your Majesty those emotions which well imagined distress never fails to excite in the noblest natures: but at the same time I more anxiously wish, that no other uneasiness but from such fictitious sorrow may ever approach you; and that the greatest and most amiable sovereign in Europe, may be also for ever distinguished as the most prosperous and happy.</p>
+    <closer>
+     <salute>I am, SIR,</salute>
+     <signed>Your Majesty's most dutiful subject, and most obliged humble servant, ROBERT JEPHSON.</signed>
+    </closer>
+   </div>
+   <div type="Dramatis_Personae">
+    <pb facs="3"/>
+    <p>AND</p>
+    <castList>
+     <head>DRAMATIS PERSONAE.</head>
+     <castItem>
+      <role>PALADORE</role>
+      <actor>Mr. SMITH</actor>
+     </castItem>
+     <castItem>
+      <role>KING</role>
+      <actor>Mr. BENSLEY</actor>
+     </castItem>
+     <castItem>
+      <role>RINALDO</role>
+      <actor>Mr. PACKER</actor>
+     </castItem>
+     <castItem>
+      <role>ASCANIO</role>
+      <actor>Mr. HURST</actor>
+     </castItem>
+     <castItem>
+      <role>LUCIO</role>
+      <actor>Mr. FARREN</actor>
+     </castItem>
+     <castItem>
+      <role>SENATOR</role>
+      <actor>Mr. CHAMBERS</actor>
+     </castItem>
+     <castItem>
+      <role>SHEPHERD</role>
+      <actor>Mr. WRIGHT</actor>
+     </castItem>
+     <castItem>
+      <role>FORESTERS</role>
+     </castItem>
+     <castItem>
+      <role>SQUIRE TO PALADORE</role>
+      <actor>Mr. PHILEMORE</actor>
+     </castItem>
+     <castItem>
+      <role>BIRENO</role>
+      <actor>Mr. HENDERSON</actor>
+     </castItem>
+     <castItem>
+      <role>PRINCESS</role>
+      <actor>Miss YOUNGE</actor>
+     </castItem>
+     <castItem>
+      <role>ALINDA</role>
+      <actor>Mrs. ROBINSON</actor>
+     </castItem>
+    </castList>
+   </div>
+  </front>
+  <body>
+   <div type="play">
+    <pb facs="4"/>
+    <head>THE LAW OF LOMBARDY. A TRAGEDY.</head>
+    <div n="1" type="act">
+     <head>ACT I.</head>
+     <div n="1" type="scene">
+      <head>
+       <hi>SCENE I.</hi>
+      </head>
+      <stage>A Chamber in the Palace.</stage>
+      <stage>BIRENO, ALINDA.</stage>
+      <sp who="#alinda">
+       <speaker>ALINDA.</speaker>
+       <l>I Wonder not you should suspect me slow</l>
+       <l>In this strange office: had you but enjoin'd me,</l>
+       <l>Shut out the sun ten times his annual rounds,</l>
+       <l>Feed all my life on pulse, or with coarse weeds</l>
+       <l>Obscure the little grace which Nature's hand</l>
+       <l>Has lent my outside, then, without a wherefore,</l>
+       <l>(From the meek humbleness of love I bear you)</l>
+       <l>My obedience wou'd have follow'd.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>Sweet impatience,</l>
+       <l>Smooth that contracted brow—</l>
+      </sp>
+      <sp who="#alinda">
+       <speaker>ALINDA.</speaker>
+       <l>But to commend</l>
+       <l>To any other woman, those fond vows</l>
+       <l>I hop'd to own unpartner'd, is it less</l>
+       <l>Than to expect my tongue suborn'd, should plead</l>
+       <l>Against the dearest interest of my life,</l>
+       <l>And make me earnest for my own undoing?</l>
+      </sp>
+      <sp who="#bireno">
+       <pb n="2" facs="5"/>
+       <speaker>BIRENO.</speaker>
+       <l>Must I again call down the saints to witness,</l>
+       <l>That for convenience only, not from love,</l>
+       <l>I seek to wed the princess? My ambition</l>
+       <l>Aims at the crown, her dower; were that bright gem</l>
+       <l>Heir'd by a pigmy, the meer mock of sight,</l>
+       <l>By ideot drawling, and a shrew's perverseness,</l>
+       <l>No less shou'd I desire it. If I prosper,</l>
+       <l>My heart, as ever, shall be thine; and hers,</l>
+       <l>The dull legitimate languor of the husband.</l>
+      </sp>
+      <sp who="#alinda">
+       <speaker>ALINDA.</speaker>
+       <l>But when to royal state Sophia joins</l>
+       <l>Such rare endowments, as make doubtful strife</l>
+       <l>'Twixt Nature's gifts, and Fortune's; can I hope</l>
+       <l>More than some grateful note from memory,</l>
+       <l>How much Alinda lov'd you?</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>Trust me, fair one,</l>
+       <l>Beauty's degrees are in the lover's fancy,</l>
+       <l>Not in a scal'd perfection. Varying nature</l>
+       <l>Has lineaments for every appetite:</l>
+       <l>Not her arch'd brows, nor stature Juno-like,</l>
+       <l>Her crisped tresses spun from finest gold,</l>
+       <l>Nor the intelligent lustre of her eye,</l>
+       <l>To me have half such charms as thy soft mien,</l>
+       <l>The pure carnation of thy dimpling cheek,</l>
+       <l>And unassuming sweet simplicity.—</l>
+       <l>But hast thou urg'd my suit?</l>
+      </sp>
+      <sp who="#alinda">
+       <speaker>ALINDA.</speaker>
+       <l>Spite of ourselves,</l>
+       <l>The tongue interprets from the abundant heart.</l>
+       <l>Bireno's image filling all my thoughts,</l>
+       <l>Cou'd I be silent on a theme so lov'd?</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>And how does she receive the gentle tale?</l>
+      </sp>
+      <sp who="#alinda">
+       <pb n="3" facs="6"/>
+       <speaker>ALINDA.</speaker>
+       <l>Sometimes she chides, and sometimes smiling tells me,</l>
+       <l>But that she knows me wise, such lavish praise</l>
+       <l>Might hint a heart touch'd deeply, and ill suits</l>
+       <l>The sober preference of an humble maid,</l>
+       <l>Who cannot hope to call you hers in honour.</l>
+       <l>Then with discreetest lessons will she school me,</l>
+       <l>To guard my breast 'gainst love; forgetting still</l>
+       <l>How much she wants the counsel she bestows.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>Does she then love?</l>
+      </sp>
+      <sp who="#alinda">
+       <speaker>ALINDA.</speaker>
+       <l>She never told me so;</l>
+       <l>But signs far more significant than speech</l>
+       <l>Reveal it hourly.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>Let me know my rival,</l>
+       <l>Tho' my foreboding heart already whispers</l>
+       <l>It must be Paladore.</l>
+      </sp>
+      <sp who="#alinda">
+       <speaker>ALINDA.</speaker>
+       <l>Oh, rightly guess'd!</l>
+       <l>Her love for him makes her unjust to you.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>Curses o'ertake him! Near his brighter fires</l>
+       <l>My star shines dimly; I was wonder'd at</l>
+       <l>Till this new meteor shot across men's eyes,</l>
+       <l>And drew all gaze to follow. At our tournaments</l>
+       <l>He foils me like a novice; in grave council</l>
+       <l>I prate unmark'd, while hoary heads bow down</l>
+       <l>In reverence to his weighty utterance;</l>
+       <l>And thus the upstart heresy of opinion</l>
+       <l>Runs on this smooth impostor—By what signs</l>
+       <l>Take you this note of her affection towards him?</l>
+      </sp>
+      <sp who="#alinda">
+       <speaker>ALINDA.</speaker>
+       <l>By such we women deem infallible.</l>
+       <l>If unexpectedly she hears him nam'd,</l>
+       <l>
+        <pb n="4" facs="7"/>Sweet discomposure seizes all her frame;</l>
+       <l>Suffasion, softer than Aurora's blush,</l>
+       <l>Spreads o'er her beauteous cheek. If she expect</l>
+       <l>His presence at the court, studious to please,</l>
+       <l>Beyond her wonted elegance of dress,</l>
+       <l>With nicer care she counsels at her glass,</l>
+       <l>To make the daintiest workmanship of nature</l>
+       <l>By ornament more winning.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>Indications</l>
+       <l>That speak, and shrewdly; yet their vanity</l>
+       <l>To catch the flattery of the fool they scorn,</l>
+       <l>Will bait such hooks as these. Have you no proof</l>
+       <l>More unequivocal?</l>
+      </sp>
+      <sp who="#alinda">
+       <speaker>ALINDA.</speaker>
+       <l>What wou'd you more?</l>
+       <l>We reason from ourselves, looking within,</l>
+       <l>We find in our own breasts the according springs</l>
+       <l>Of motions similar; when first I lov'd,</l>
+       <l>So did I wish to please, so doubt my power.</l>
+       <l>Yet more than this; her eye still follows him,</l>
+       <l>And when the unwelcome hour of parting comes,</l>
+       <l>The chearful flame that lighted up her countenance</l>
+       <l>Expires; sighs heave, and a soft silent tear</l>
+       <l>Steals down her cheek.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>Enough, I'm satisfied</l>
+       <l>She loves him, and the frost of my reception</l>
+       <l>Conspires in proof. Now then, my best Alinda!</l>
+       <l>You must assist me; on this single push</l>
+       <l>Hang all my fortunes—If my rival wed her,</l>
+       <l>Farewel my hopes, my country—</l>
+      </sp>
+      <sp who="#alinda">
+       <speaker>ALINDA.</speaker>
+       <l>How! your country!</l>
+       <l>A voluntary exile for the loss</l>
+       <l>Of one you swear you love not—</l>
+      </sp>
+      <sp who="#bireno">
+       <pb n="5" facs="8"/>
+       <speaker>BIRENO.</speaker>
+       <l>My possessions,</l>
+       <l>The means of pleasure to my thriftless youth,</l>
+       <l>Moulder in confiscation; thus my dukedom,</l>
+       <l>My royal ancestry, and rank in the state,</l>
+       <l>So scantily supported will but mock me.</l>
+       <l>A marriage with the princess wou'd heal all.</l>
+       <l>But if I fail, I will not stay to see</l>
+       <l>Upstarts made rich by my inheritance;</l>
+       <l>Nor the proud finger of the slave I scorn</l>
+       <l>Point at the princely beggar.</l>
+      </sp>
+      <sp who="#alinda">
+       <speaker>ALINDA.</speaker>
+       <l>Oh, good heaven!</l>
+       <l>Devise, command—Can my best industry</l>
+       <l>Prevent this ruin? Tell me but the means,</l>
+       <l>And bid me fly.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>No more of jealousy,</l>
+       <l>But with appliance dext'rous call her thoughts</l>
+       <l>To me, and my deservings; speak with slight</l>
+       <l>(Yet not as by suggestion) of my rival.</l>
+       <l>I've known more way made in a woman's grace</l>
+       <l>By such confederate arts, than could be won</l>
+       <l>By a long siege of amorous enginry,</l>
+       <l>Soft flatteries, sighs, protestings infinite,</l>
+       <l>And all the fervor of impatient love.</l>
+      </sp>
+      <sp who="#alinda">
+       <speaker>ALINDA.</speaker>
+       <l>But should this fail!</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>I'll spread a finer snare,</l>
+       <l>Subtle as fabled Vulcan forg'd in Lemnos,</l>
+       <l>To enmesh them: thy soft hand, my dear Alinda!</l>
+       <l>Must help to hold the toils—</l>
+      </sp>
+      <sp who="#alinda">
+       <speaker>ALINDA.</speaker>
+       <l>But see, she comes;</l>
+       <l>The king too and her lover—</l>
+      </sp>
+      <sp who="#bireno">
+       <pb n="6" facs="9"/>
+       <speaker>BIRENO.</speaker>
+       <l>I'll retire,</l>
+       <l>And seek thee presently: rivet thine ear</l>
+       <l>Meantime to what they utter: thy report</l>
+       <l>Shall somewhat shape my course. High-flighted fool!</l>
+       <l>Check thy bold soaring, else my hot revenge</l>
+       <l>Shall melt thy waxed plumes, and hurl thee down</l>
+       <l>To a devouring sea that roars beneath thee.
+<stage>Exit.</stage>
+       </l>
+      </sp>
+      <stage>Alinda <hi>retires.</hi>
+      </stage>
+     </div>
+     <div n="2" type="scene">
+      <head>SCENE II.</head>
+      <stage>KING, PRINCESS, PALADORE, ATTENDANTS.</stage>
+      <sp who="#king">
+       <speaker>KING.</speaker>
+       <l>You shall no more, Sophia, to the chase;</l>
+       <l>This morning's danger makes my blood run cold.</l>
+       <l>Had not thy well-sped lance, brave Paladore,</l>
+       <l>Pierc'd the huge boar that gor'd her foaming horse,</l>
+       <l>These eyes, now rais'd in thanks to heaven and thee,</l>
+       <l>Had wept her lifeless.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>Ever prais'd be Fortune,</l>
+       <l>That plac'd me near her! Since a common feat</l>
+       <l>That daily dies our weapons, thus ennobled</l>
+       <l>By blest conjunct on with her precious safety,</l>
+       <l>I would not change for the best garland won</l>
+       <l>By Caesar's conquering sword.</l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>We are not nice</l>
+       <l>In dangers imminent to chuse the means</l>
+       <l>Of our deliverance; yet, believe me, Sir,</l>
+       <l>More than for life preserv'd, I thank the chance</l>
+       <l>That made you my preserver. Th' unwelcome hand</l>
+       <l>Rendering us service, like sharp frost in sunshine,</l>
+       <l>Chills the fresh blossom of our gratitude,</l>
+       <l>Which else uncheck'd would put forth all its sweetness.</l>
+      </sp>
+      <sp who="#king">
+       <pb n="7" facs="10"/>
+       <speaker>KING.</speaker>
+       <l>I have much serious matter for your ear;
+<stage>
+         <hi>To</hi> Paladore.</stage>
+       </l>
+       <l>Our helms must be lac'd close, our swords new edg'd</l>
+       <l>'Gainst fiercer foes than these rude foresters,</l>
+       <l>That make us sport with peril.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>By my life!</l>
+       <l>My cruel heart beats high to give it welcome;</l>
+       <l>For Virtue's test is action.</l>
+      </sp>
+      <sp who="#king">
+       <speaker>KING.</speaker>
+       <l>Thus my paper:</l>
+       <l>(Brief its contents, but fearful) Burgundy,</l>
+       <l>Stung by refusal of my daughter's love,</l>
+       <l>Stirs up commotion 'gainst our kingdom's peace;</l>
+       <l>And soon the golden grain of Lombardy</l>
+       <l>Shall be trod down beneath the furious heel</l>
+       <l>Of peasants cas'd in iron.</l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>Heaven avert it!</l>
+       <l>For sure 'twere better I had ne'er been born,</l>
+       <l>Than live the fatal cause why war's rude blast</l>
+       <l>Disturb'd the quiet of my father's age,</l>
+       <l>Which soft repose shou'd foster. The griev'd people</l>
+       <l>Will chide your gentleness, that did not bend</l>
+       <l>My heart to this obedience; and your virtue,</l>
+       <l>Seen thro' th' unwelcome colour of the event,</l>
+       <l>For reverence find upbraiding.</l>
+      </sp>
+      <sp who="#king">
+       <speaker>KING.</speaker>
+       <l>No, Sophia!</l>
+       <l>I would not violate the meanest right</l>
+       <l>Of my least subject, for the fear or promise</l>
+       <l>Of any issue. Is my child, my daughter,</l>
+       <l>(Sweet, duteous, amiable, burn free and royal)</l>
+       <l>Less charter'd from oppression than a stranger?</l>
+       <l>A self-invited wooer here he sojourn'd,</l>
+       <l>To thrive as your approving gave him licence:</l>
+       <l>I fed him not with promise, you with hope,</l>
+       <l>
+        <pb n="8" facs="11"/>Nor shall audacious menace ere extort</l>
+       <l>What courtesy denied him.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>To his teeth</l>
+       <l>Hurl your defiance, King! 'tis proud to threaten,</l>
+       <l>But baseness to be aw'd by it. From my breast</l>
+       <l>I'd tear these hallow'd symbols, give this steel</l>
+       <l>To be a baby's play-thing, cou'd my heart,</l>
+       <l>Distrustful of the event, forbode one fear,</l>
+       <l>To cast black presage on a cause so noble.</l>
+      </sp>
+      <sp who="#king">
+       <speaker>KING.</speaker>
+       <l>Thou gem of Britain! Dear in my esteem</l>
+       <l>As wert thou native here, be Pavias' shield</l>
+       <l>Her pride, her pillar; yes, our hardy files,</l>
+       <l>Led on by thee, shall drive the boaster back,</l>
+       <l>To mourn at home his baffled preparations.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>Oh, wou'd the fortune of this glorious strife</l>
+       <l>Hung on my arm alone!</l>
+      </sp>
+      <sp who="#king">
+       <speaker>KING.</speaker>
+       <l>Our daughter's hand</l>
+       <l>Is destin'd for a prince who draws his blood</l>
+       <l>From the same source as mine, our kingdom's heir,</l>
+       <l>(Did not this sweet prevention stand between)</l>
+       <l>To bless Bireno with two matchless gifts,</l>
+       <l>Her beauty and a royal diadem.</l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>Bireno, Sir!</l>
+      </sp>
+      <sp who="#king">
+       <speaker>KING.</speaker>
+       <l>Even he, I know his worth—</l>
+       <l>But is there poison in my kinsman's name?</l>
+       <l>It pales the healthful vermeil of your cheek,</l>
+       <l>Dims your bright eye, and viels your wonted smiles.</l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>Alas! I cannot speak—</l>
+      </sp>
+      <sp who="#king">
+       <pb n="9" facs="12"/>
+       <speaker>KING.</speaker>
+       <l>Why then, hereafter</l>
+       <l>Will better suit this subject. Sir, farewel!</l>
+       <l>We shall expect your aid to counsel with us,</l>
+       <l>What present mounds our wisdom, best may raise</l>
+       <l>'Gainst this loud torrent that at distance roars,</l>
+       <l>Ere it rush down to spread its ruin round us.
+<stage>Exit.</stage>
+       </l>
+      </sp>
+     </div>
+     <div n="3" type="scene">
+      <head>SCENE III.</head>
+      <stage>PRINCESS, PALADORE.</stage>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>Oh, stay, and hear me now! Alas! he's gone</l>
+       <l>Who smiles on me, and kills me; bids my heart</l>
+       <l>Be traitor to itself, yet with soft words</l>
+       <l>Fetters my tongue, which free, wou'd boldly answer!</l>
+       <l>Such kindness but destroys me.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>My soul's idol!</l>
+       <l>I was indeed presumptuous to believe</l>
+       <l>These humble arms were destin'd to enfold</l>
+       <l>So vast a treasure, yet aspiring love</l>
+       <l>Hopes things impossible.</l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>Bireno! He!</l>
+       <l>I'd rather waste my life in singleness;</l>
+       <l>Like the pale votarist, pour faint orisons</l>
+       <l>At the cold shrines of senseless marble saints,</l>
+       <l>And wear the eternal pavement with my knees,</l>
+       <l>Than at the sacred altar load my soul</l>
+       <l>With holy perjuries, to love the man,</l>
+       <l>At whose approach my heart alarm'd shrinks back,</l>
+       <l>While thought confirms instinctive Nature's hate.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>See, like a haughty conqueror he comes;</l>
+       <l>Pleasure and pride on his exulting brow</l>
+       <l>At distance speak his triumph.</l>
+      </sp>
+      <sp who="#princess">
+       <pb n="10" facs="13"/>
+       <speaker>PRINCESS.</speaker>
+       <l>Arm me, Disdain,</l>
+       <l>To meet the bold intruder!—Gentle Paladore!</l>
+       <l>'Tis thus thy rival woo's me. Courtship's season</l>
+       <l>Is the short date of woman's sovereignty.</l>
+       <l>For liberty, we have but in exchange</l>
+       <l>The little tribute of a lover's sighs,</l>
+       <l>His humble seeming, and soft courtesy;</l>
+       <l>Yet these, he thinks too rich a sacrifice,</l>
+       <l>And owns no advocate but pride in love.</l>
+      </sp>
+     </div>
+     <div n="4" type="scene">
+      <head>SCENE IV.</head>
+      <stage>
+       <hi>To them</hi> BIRENO.</stage>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>Confirm'd, fair princess! By the King's command</l>
+       <l>You see me here a joyful visitant.</l>
+       <l>'Tis not unknown why warlike Burgundy,</l>
+       <l>Spreading his hostile banners to the wind,</l>
+       <l>Makes sword and fire his dreadful harbingers.</l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>The cause I have heard—But on.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <stage>[Aside.]</stage>
+       <l>Down, swelling heart!</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>Your yet unplighted hand gives to this war</l>
+       <l>Its edge and colour; to remove that prize</l>
+       <l>Beyond the invader's reach, my sovereign's wisdom</l>
+       <l>Deems the best means to blunt his hostile sword;</l>
+       <l>Therefore on me he deigns—</l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>I understand;</l>
+       <l>But have no present ear for such a theme.</l>
+       <l>My father's goodness left my choice unforc'd</l>
+       <l>Of one unwelcome suitor; the same justice</l>
+       <l>Secures me from compulsion in a second.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>And must I bear this answer to the King?</l>
+      </sp>
+      <sp who="#princess">
+       <pb n="11" facs="14"/>
+       <speaker>PRINCESS.</speaker>
+       <l>Myself will be my own interpreter,</l>
+       <l>And save your trouble. Once more, Sir, I thank you.</l>
+      </sp>
+      <stage>
+       <hi>To</hi> Paladore <hi>and exit.</hi>
+      </stage>
+     </div>
+     <div n="5" type="scene">
+      <head>SCENE V.</head>
+      <stage>BIRENO, PALADORE.</stage>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>Well! go thy ways, woman's epitome!</l>
+       <l>Beauteous aenigma! Who wou'd solve you rightly,</l>
+       <l>Must thus interpret: make your outward semblance</l>
+       <l>An index pointing to its contrary.</l>
+       <l>When your smooth polish'd vizors beam in smiles,</l>
+       <l>Displeasure's at your hearts; the moody brow</l>
+       <l>Tells inward sun-shine; tears are joy, not sorrow;</l>
+       <l>You sooth where you approve not, and look gall,</l>
+       <l>When sweet content honies your appetites.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>These common railings 'gainst that gentle sex,</l>
+       <l>Denote his humour more who utters them,</l>
+       <l>Than their defect, or any deep conception.</l>
+       <l>But you have chosen a season for hard thoughts</l>
+       <l>Rebukes your censure; still the chamber's air</l>
+       <l>Winnows her balmy breathing; from our eyes</l>
+       <l>Scarce glides her beauteous form, when your dark spleen</l>
+       <l>As venom'd things suck poison from sweet flowers,</l>
+       <l>Finds matter for distemper's nourishment,</l>
+       <l>And food for calumny in excellence.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>Her form indeed is fair.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>Ay, and her mind</l>
+       <l>(If more can be) more fair, more amiable.</l>
+       <l>Thy never-render'd snow-cold Apenine,</l>
+       <l>Is not so free from taint, as from offence</l>
+       <l>Her spotless bosom; yet has she a tear,</l>
+       <l>
+        <pb n="12" facs="15"/>Healing as balm for others frailties,</l>
+       <l>That makes remission heavenly; sweet persuasion</l>
+       <l>Hangs on her words with power oracular,</l>
+       <l>To shame the cynic's chiding—Spirit of truth!</l>
+       <l>She is thy visible divinity,</l>
+       <l>And 'tis thy reverence to pay homage to her.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>'Tis to my wish
+<stage>[Aside.]</stage>
+—I grant her well endow'd,</l>
+       <l>And in fair seeming most pre-eminent;</l>
+       <l>But for these other virtues you have nam'd,</l>
+       <l>They are of different climes, and earlier ages;</l>
+       <l>Our Pavias ladies, cast in earthly moulds,</l>
+       <l>They make the most of Nature's liberal gifts,</l>
+       <l>Put pleasure out to usury, and love</l>
+       <l>As ease, convenience, or the moment sways them.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>You're pleasant, lord!</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>No, soberly thy friend.</l>
+       <l>Shall I be plain?</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>What call you your past measure,</l>
+       <l>Was it a courtier's strain!</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>You love the princess?</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>And heaven may be belov'd—</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>Ay, and hop'd too;</l>
+       <l>For heaven has many mansions, and receives,</l>
+       <l>Too large for limitation, all deservers;</l>
+       <l>But in a lady's heart, there's but one place,</l>
+       <l>Though many may contend for't: therefore, friend,</l>
+       <l>Waste not your precious sighs, which might enkindle</l>
+       <l>Bright sparks of equal love in some soft breast</l>
+       <l>Destined to mate your fondness, in hopeless wooing.</l>
+       <l>
+        <pb n="13" facs="16"/>Search not the cause; believe me, on my truth,</l>
+       <l>'Tis past all reckoning hopeless.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>Nothing's hopeless,</l>
+       <l>Though deeds, untried, oft seem impossible;</l>
+       <l>And craven Sloth molting his sleekless plumes</l>
+       <l>With drowsy wonder views the advent'rous wing</l>
+       <l>That soars the shining azure o'er his head.</l>
+       <l>What will not yield to daring? Victory</l>
+       <l>Sits on the helm whose crest is Confidence;</l>
+       <l>And boldness wins success in love's soft strife,</l>
+       <l>As in the dangerous din of rattling war.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>How cou'd I make me sport were I light minded,</l>
+       <l>Were I malignant; mischief, from this mood,</l>
+       <l>That runs so contrary to all sober sense—</l>
+       <l>But here I rest in kindness—Be advis'd,</l>
+       <l>Push not a desperate purpose; by my life!</l>
+       <l>The princess loves you not.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>I'll bear no more—</l>
+       <l>Matchless audacity! Let me take thee in</l>
+       <l>From crown to toe, walk round thee, and survey thee</l>
+       <l>Like a prodigious thing; for such thou should'st be,</l>
+       <l>To put my course of love in circumscription,</l>
+       <l>And school me, like a boy, with unsought precept.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>Lovers are sick with fevers of the brain,</l>
+       <l>Diseas'd by airy hope, high flighted fancy,</l>
+       <l>Imaginations bred from self-conceit.</l>
+       <l>An arch deluder, which presents the Juno</l>
+       <l>Their frenzy grasps at, with a zone unbound;</l>
+       <l>While, like Ixion's mistress, the coy queen</l>
+       <l>Slumbers on golden beds in high Olympus.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>Hear me, proud duke▪ had I no other spur</l>
+       <l>But thy forbidding; were there no incitement</l>
+       <l>
+        <pb n="14" facs="17"/>From her transcendent beauty; did no beam</l>
+       <l>Shoot from her eye to light eternal love</l>
+       <l>At passion's altar; were she swart, and froward,</l>
+       <l>(Oh, blasphemy to think it) in despight,</l>
+       <l>I would assume an unfelt extasy,</l>
+       <l>Invoke her name, till echo should grow faint</l>
+       <l>With the perpetual burden, and devise</l>
+       <l>All means of contradiction, to proclaim</l>
+       <l>Scorn of thy council, and defiance to thee.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>Then hear, to dash thy pride, since thus you urge me.</l>
+       <l>My experience of her lightness, well she knows</l>
+       <l>Would freeze me as her husband, and her hand</l>
+       <l>(Which, but to save appearances, I ask)</l>
+       <l>I wou'd reject, if offer'd; so her craft</l>
+       <l>Sooths you with feign'd endearments. As a mistress,</l>
+       <l>I find her worth my holding; but a wife,</l>
+       <l>Fit for a prince, must come with better gifts</l>
+       <l>Than amorous blood, and beauty—Nay, but mark me.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>Trust not too far the reverence of this place—</l>
+       <l>Away—thou yet art safe—my sword once drawn—</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>Am I so lost in your esteem, you hold me</l>
+       <l>(Your friend profess'd) in malice capable,</l>
+       <l>Or falsehood thus to wound you?</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>Both, by Heaven!</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>And will maintain this thinking?</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALODORE.</speaker>
+       <l>With my life.—</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>'Tis a deep venture—Mine upon my truth—</l>
+       <l>When full-orb'd Phoebe wheel her fleecy car</l>
+       <l>To silver yon blue concave, midst the pines</l>
+       <l>
+        <pb n="15" facs="18"/>That wave their green tops o'er the battlement</l>
+       <l>Of her night-chamber, in the garden meet me</l>
+       <l>Alone: when we encounter in that place,</l>
+       <l>You there shall listen to conditions meet</l>
+       <l>For both our honours. So till then, farewel.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE,</speaker>
+       <stage>alone.</stage>
+       <l>I'll meet thee, be assur'd I will.</l>
+       <l>Gird on thy keenest edge: if thou hast aught</l>
+       <l>Unsettled in this world, dispatch it quickly;</l>
+       <l>We stand upon the utmost verge of Fate,</l>
+       <l>And one, or both of us, must plunge for ever.
+<stage>Exit.</stage>
+       </l>
+      </sp>
+     </div>
+     <div n="6" type="scene">
+      <head>SCENE VI.</head>
+      <sp who="#bireno">
+       <speaker>BIRENO</speaker>
+       <stage>alone.</stage>
+       <l>The wise should watch the event on fortune's wheel,</l>
+       <l>That for a moment circles at the top,</l>
+       <l>And seiz'd not, vanishes—I must about it,</l>
+       <l>My all's at stake—Ye ministers of vengeance!</l>
+       <l>That hide your gory locks in mist-hung caves,</l>
+       <l>And roll your deadly eyeballs o'er the edge</l>
+       <l>Of your insatiate daggers, shaking ever</l>
+       <l>Dews of oblivious sleep from your stung brows,</l>
+       <l>Receive me of your band! ne'er to know peace</l>
+       <l>Till this keen writhing vulture quit my heart,</l>
+       <l>And with blunt beak, and flagging wings outstretch'd,</l>
+       <l>Drowze o'er the mangled victims of my rage.</l>
+      </sp>
+     </div>
+     <trailer>END OF THE FIRST ACT.</trailer>
+    </div>
+    <div n="2" type="act">
+     <pb n="16" facs="19"/>
+     <head>ACT II.</head>
+     <div n="1" type="scene">
+      <head>SCENE I.</head>
+      <stage>
+       <hi>a Chamber.</hi>
+      </stage>
+      <sp who="#princess">
+       <speaker>PRINCESS,</speaker>
+       <stage>alone.</stage>
+       <l>OH, blessed, most blessed are the insensible!</l>
+       <l>In the mild zone of calm indifference:</l>
+       <l>No hatred chills them, and no passion burns;</l>
+       <l>To feed, and sleep, and do observance due</l>
+       <l>To the stale ritual of quaint ceremony,</l>
+       <l>Fills up the humble measure of their hope;</l>
+       <l>Smooth and unruffled glides their temperate stream,</l>
+       <l>And one day rounds their whole life's history.</l>
+       <l>Oh, had my heart been such! but Nature poiz'd</l>
+       <l>In distribution, when she gives the touch</l>
+       <l>Alive to exstacy, in like extreme</l>
+       <l>Subjects the sense to anguish: the same soul,</l>
+       <l>That in the hope of wedding Paladore,</l>
+       <l>Enjoy'd its sum of bliss, with equal pain</l>
+       <l>Averts me from his rival: thus entranc'd</l>
+       <l>'Twixt love and fear, I feel the pangs of both,</l>
+       <l>And the sharp conflict rends me. Ha! my father!</l>
+       <l>Now comes the trial.</l>
+      </sp>
+     </div>
+     <div n="2" type="scene">
+      <head>SCENE II.</head>
+      <stage>KING, PRINCESS.</stage>
+      <sp who="#king">
+       <speaker>KING.</speaker>
+       <l>How! in tears, Sophia?</l>
+       <l>Come, 'tis not well—I fear, I guess the cause.</l>
+       <l>This morn I did but hint a purpose to you,</l>
+       <l>Of import, dear to your own happiness,</l>
+       <l>And your chang'd brow reproving my intent</l>
+       <l>Cut short my free discourse.</l>
+      </sp>
+      <sp who="#princess">
+       <pb n="17" facs="20"/>
+       <speaker>PRINCESS.</speaker>
+       <l>Oh, good my Lord!</l>
+       <l>I am not practis'd to conceal my thoughts</l>
+       <l>(And least from you) by casting o'er my looks</l>
+       <l>The unalter'd vizor of tranquility,</l>
+       <l>When perturbation, like a sleepless guest,</l>
+       <l>Forbids my bosom's quiet.</l>
+      </sp>
+      <sp who="#king">
+       <speaker>KING.</speaker>
+       <l>I have lov'd thee</l>
+       <l>With fondness so unbated, that 'twere needless,</l>
+       <l>For confirmation, to attest by words,</l>
+       <l>What all my thoughts, my life's whole carriage towards thee,</l>
+       <l>Have set beyond the question.</l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>Oh, to me,</l>
+       <l>Your love has been like those perpetual springs,</l>
+       <l>"That ever flow," and waste not my least wish</l>
+       <l>Scarce had its birth, ere its accomplishment</l>
+       <l>In your preventive kindness.</l>
+      </sp>
+      <sp who="#king">
+       <speaker>KING.</speaker>
+       <l>Since 'tis so,</l>
+       <l>If chance the current of my present will</l>
+       <l>To yours run contrary, you must not deem</l>
+       <l>That meerly to enforce authority,</l>
+       <l>Or wake controlement, which might sleep to death.</l>
+       <l>In its difuse, I now expect the course</l>
+       <l>Of your desires should lose themselves in mine,</l>
+       <l>Or flow by my direction.</l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>As my father,</l>
+       <l>The giver of my life, I reverence you;</l>
+       <l>Next, as your subject, my obedience stands</l>
+       <l>Bound by the general tie; but since your power</l>
+       <l>Has still been temper'd so with lenity,</l>
+       <l>That even the stranger's cause, with patient hearing,</l>
+       <l>Is weigh'd ere you determine; I, your daughter,</l>
+       <l>
+        <pb n="18" facs="21"/>May hope, at least, an equal privilege,</l>
+       <l>With favour in my audience.</l>
+      </sp>
+      <sp who="#king">
+       <speaker>KING.</speaker>
+       <l>I were else</l>
+       <l>Unnatural, withholding from my child,</l>
+       <l>What aliens claim by justice. Give me hearing—</l>
+       <l>The Duke Bireno loves you, has my promise,</l>
+       <l>That like a well-grac'd advocate, my tongue</l>
+       <l>Shou'd win your gentle favour to his suit,</l>
+       <l>Urging such commendations of his love,</l>
+       <l>As modesty, though conscious of desert,</l>
+       <l>May wish you hear, yet cannot speak itself.</l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>Ah, Sir! forbear, he knows my heart already,</l>
+       <l>Already has he heard, from my own lips</l>
+       <l>I cannot love him; poorly he engages</l>
+       <l>Your honour'd combination, in a league</l>
+       <l>That (whatsoe'er its issue) must conspire</l>
+       <l>To wound your daughter's peace.</l>
+      </sp>
+      <sp who="#king">
+       <speaker>KING.</speaker>
+       <l>By heaven, you wrong him.</l>
+       <l>To wound your peace! He seeks your happiness,</l>
+       <l>And so am I his second.</l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>But these means</l>
+       <l>Are adverse to the end; for if I wed him,</l>
+       <l>(This is no raving of rash extacy)</l>
+       <l>On death, that only can dissolve my chain,</l>
+       <l>Will hang my future hope: as eagerly</l>
+       <l>As the poor weary sea-beat mariner</l>
+       <l>Pants for the shore, so shall my outstretch'd arms</l>
+       <l>Embrace the welcome terror. My refusal</l>
+       <l>To you, the gentlest, kindest, best of fathers,</l>
+       <l>Must seem repugnance harsh, and o'er my duty,</l>
+       <l>Before untainted, casts the sickly hue</l>
+       <l>Of pale suspicion; thus begins his love,</l>
+       <l>Fearful to me in each alternative.</l>
+      </sp>
+      <sp who="#king">
+       <pb n="19" facs="22"/>
+       <speaker>KING.</speaker>
+       <l>Why, this is infant rhet'ric, to protest</l>
+       <l>The impulse of a strong antipathy,</l>
+       <l>Which never causeless sways the human breast,</l>
+       <l>Yet give no reason why.</l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>Alas! to feel it,</l>
+       <l>O'er-masters every reason. Need we search</l>
+       <l>To ground aversion on weigh'd argument,</l>
+       <l>When instinct cuts the tedious process short,</l>
+       <l>And makes the heart our umpire?</l>
+      </sp>
+      <sp who="#king">
+       <speaker>KING.</speaker>
+       <l>Hear me calmly—</l>
+       <l>My days are almost number'd: this white head</l>
+       <l>Bears not in vain its reverend monitors;</l>
+       <l>Time puts a tongue in every hoary hair,</l>
+       <l>To warn the wise man of mortality:</l>
+       <l>When I am gone, behold thy single state</l>
+       <l>Unhusbanded, unfather'd, stands expos'd,</l>
+       <l>Ev'n as the tender solitary shrub,</l>
+       <l>On the bleak mountain's summit—Every blast</l>
+       <l>May bend or break thy sweetness: this strong fence,</l>
+       <l>This union, would enroot its shelter round,</l>
+       <l>And, like a forest, shield thee.</l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>Let me hope</l>
+       <l>A stronger sence in a whole people's love:</l>
+       <l>Their grateful memory of my father's virtue,</l>
+       <l>And loyalty hereditarly mine,</l>
+       <l>Descending, like the sceptre, to your issue.</l>
+      </sp>
+      <sp who="#king">
+       <speaker>KING.</speaker>
+       <l>Think'st thou, my aspiring kinsman, whose ambition,</l>
+       <l>Impatient, waits till my declining beam</l>
+       <l>Give place to his meridian, who, already</l>
+       <l>Wins from my side a moiety of my court,</l>
+       <l>By his succession's hope, will tamely view</l>
+       <l>That sceptre wielded by a woman's hand,</l>
+       <l>
+        <pb n="20" facs="23"/>Nor wrest it from thy grasp? No, my fair kingdom!</l>
+       <l>I see the meeting torrents of contention</l>
+       <l>Deluge thy peaceful vales, while her weak sex,</l>
+       <l>Unable to direct, or stem the tide,</l>
+       <l>Will be borne down, and swept to ruin with it.</l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>These evils, but in possibility,</l>
+       <l>May never come: but, Oh, 'tis certain sorrow</l>
+       <l>To promise love, obedience, duty, honor,</l>
+       <l>When the heart's record vouches 'gainst the tongue:</l>
+       <l>It changes order's course; the holy tie</l>
+       <l>Of weil-proportion'd marriage still supposes</l>
+       <l>These bonds have gone before; nor is there power</l>
+       <l>Creative in the simple ceremony,</l>
+       <l>The seed unsown, to give that harvest growth.</l>
+      </sp>
+      <sp who="#king">
+       <speaker>KING.</speaker>
+       <l>Here break we off—To sue, and sue in vain,</l>
+       <l>But ill becomes a father: may my augury</l>
+       <l>Be more in fear than wisdom. Hold; to-morrow</l>
+       <l>The council meets to scan this threaten'd war:</l>
+       <l>The people call it thine: then be thou present</l>
+       <l>To thank and animate their zeal to serve us.
+<stage>Exit.</stage>
+       </l>
+      </sp>
+     </div>
+     <div n="3" type="scene">
+      <head>SCENE III.</head>
+      <sp who="#princess">
+       <speaker>PRINCESS,</speaker>
+       <stage>alone.</stage>
+       <l>I shall attend your order. This cold parting</l>
+       <l>Speaks his displeasure; and my heart accustom'd</l>
+       <l>To the kind sunshine of approving smiles,</l>
+       <l>Droops at the chilling change. Ye gentle breasts,</l>
+       <l>Strangers as yet to love, be warn'd by me.</l>
+       <l>Soft as the printless step of midnight sleep,</l>
+       <l>The subtle tyrant steals into the soul:</l>
+       <l>Once seated there, securely he controuls</l>
+       <l>The idle strife of unimpassion'd ties,</l>
+       <l>And laughs to scorn their sober impotence.</l>
+       <l>As feeble vassals list their arms in vain,</l>
+       <l>In the unequal conflict soon o'erthrown,</l>
+       <l>They prove their weakness, and his power supreme.
+<stage>Exit.</stage>
+       </l>
+      </sp>
+     </div>
+     <div n="4" type="scene">
+      <pb n="21" facs="24"/>
+      <head>SCENE IV.</head>
+      <stage>
+       <hi>A Garden.</hi>
+      </stage>
+      <sp who="#rinaldo">
+       <speaker>RINALDO</speaker>
+       <stage>alone. Night.</stage>
+       <l>He must pass this way: thro' the postern gate</l>
+       <l>That leads here only, with distemper'd pace</l>
+       <l>I saw him hasten. Since the evening banquet</l>
+       <l>His wild demeanour "<hi>has put on more change</hi>"</l>
+       <l>Than yonder fickle planet in her orb.</l>
+       <l>Just now he seiz'd his sword, look'd at, and poiz'd it,</l>
+       <l>Then girt it round him, while his bloodshot eye,</l>
+       <l>And heaving bosom, spoke the big conception</l>
+       <l>Of some dire purpose. There is mischief towards—</l>
+       <l>I may perhaps prevent it—these tall shrubs</l>
+       <l>Will hide me from his view.—Soft, soft, 'tis he.</l>
+      </sp>
+      <stage>Rinaldo <hi>retires.</hi>
+      </stage>
+     </div>
+     <div n="5" type="scene">
+      <head>SCENE V.</head>
+      <stage>PALADORE <hi>alone.</hi>
+      </stage>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>Why do I shake thus? If, indeed, she's false,</l>
+       <l>I shou'd rejoice to have the spell unbound</l>
+       <l>That chains me to delusion. He swears deeply:</l>
+       <l>But bad men's oaths are breath, and their base lies</l>
+       <l>With holiest adjurations stronger vouch'd</l>
+       <l>Than native truth, which center'd in itself,</l>
+       <l>Rests in its simpleness; then this bold carriage</l>
+       <l>Urging the proof by test infallible,</l>
+       <l>The witness of my sight. Why these combin'd,</l>
+       <l>(Spite of my steady seeming) viper-tooth'd</l>
+       <l>Gnaw at my constancy, and inward spread</l>
+       <l>Suggestions, which unmaster'd, soon would change</l>
+       <l>The ruddy heart to blackness. But, Oh, shame!</l>
+       <l>These doubts are Slander's leigers.—Sweetest innocence!</l>
+       <l>That now, perhaps, lapt in Elysian sleep</l>
+       <l>Seest heaven in vision, let not these base sounds</l>
+       <l>Creep on thy slumber, lest they startle rest,</l>
+       <l>And change thy trance to horror.—Lo, he comes:</l>
+       <l>
+        <pb n="22" facs="25"/>Yon light that glimmers 'twixt the quivering leaves</l>
+       <l>(Like a small star) directs his footsteps hither.</l>
+      </sp>
+     </div>
+     <div n="6" type="scene">
+      <head>SCENE VI.</head>
+      <stage>
+       <hi>To him</hi> BIRENO, <hi>with a Lanthorn.</hi>
+      </stage>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>Your pardon, Sir; I fear I've made you wait—</l>
+       <l>But here, beneath the window of his mistress,</l>
+       <l>A lover favour'd, and assur'd like you,</l>
+       <l>Must have a thousand pleasant fantasies</l>
+       <l>To entertain his musing.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>Sir, my fancy</l>
+       <l>Has various meditations; no one thought</l>
+       <l>Mix'd with disloyalty of her whose honour</l>
+       <l>Your boldness wou'd attaint.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>Then you hold firm,</l>
+       <l>I am a boaster?</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>'Tis my present creed.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>'Twere kind, perhaps, to leave you in that error.</l>
+       <l>The wretch who dreams of bliss, while his sleep lasts,</l>
+       <l>Is happy as in waking certainty;</l>
+       <l>But if he's rous'd, and rous'd to misery,</l>
+       <l>He sure must curse the hand that shook his curtain.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>I have no time for maxims, and your mirth</l>
+       <l>Is most unseasonable. Thus far to endure</l>
+       <l>Perhaps is too much tameness.—To the purpose—</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>With all convenient speed. You're not to learn,</l>
+       <l>We have a law peculiar to this realm,</l>
+       <l>
+        <pb n="23" facs="26"/>That subjects to a mortal penalty,</l>
+       <l>All women nobly born (be their estate</l>
+       <l>Single or husbanded) who to the shame</l>
+       <l>Of chastity, o'er-leap its thorny bounds,</l>
+       <l>To wanton in the flowery path of pleasure.</l>
+       <l>Nor is the proper issue of the king</l>
+       <l>By royalty exempted.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>So I have heard.</l>
+       <l>But wherefore urge you this?</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>Not without reason.</l>
+       <l>I draw my sword in peace. Now place your lips</l>
+       <l>Here on this sacred cross. By this deep oath,</l>
+       <l>Most binding to our order, you must swear,</l>
+       <l>Whate'er you see, or whatsoe'er your wrath</l>
+       <l>From what you see, that never shall your tongue</l>
+       <l>Reveal it to the danger of the princess.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>A most superfluous bond!—But on; I swear.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>Hold yet a little. Now, Sir, once again</l>
+       <l>Let this be touch'd.—Your enmity to me,</l>
+       <l>If by the process it should be provok'd,</l>
+       <l>Must in your breast be smother'd, not break out</l>
+       <l>In tilting at my life, nor your gage thrown</l>
+       <l>For any after quarrel. The cause weigh'd,</l>
+       <l>I might expect your love: but 'tis the stuff,</l>
+       <l>And proper quality of hoodwink'd rage,</l>
+       <l>To wrest offence from kindness.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>Should your proof</l>
+       <l>Keep pace with your assurance, scorn, not rage,</l>
+       <l>Will here be paramount, and my sword sleep,</l>
+       <l>From my indifference to a worthless toy,</l>
+       <l>Valued but in my untried ignorance.</l>
+      </sp>
+      <sp who="#bireno">
+       <pb n="24" facs="27"/>
+       <speaker>BIRENO.</speaker>
+       <l>So you determine wisely. I must bind you</l>
+       <l>To one condition more. If I make palpable</l>
+       <l>Her preference in my favour, you must turn</l>
+       <l>Your back on Lombardy, and never more</l>
+       <l>Seek her encounter.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>By a soldier's faith!</l>
+       <l>Should it be so, I wou'd not breathe your air</l>
+       <l>A moment longer, for the sov'reignty</l>
+       <l>Of all the soil wash'd by your wand'ring Po.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>Summon your patience now, for sure you'll need it.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>You have tried it to the last: dally no more,</l>
+       <l>I shiver in expectance. Come, your proofs.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>Well you will have them. Know you first this writing?</l>
+      </sp>
+      <stage>Gives a paper.</stage>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>It is the character of fair Sophia.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>I think so, and as such receiv'd it from her;</l>
+       <l>Convey'd with such sweet action to my hand,</l>
+       <l>As wak'd the nimble spirit of my blood,</l>
+       <l>Whispering how kind were the contents within.</l>
+       <l>This light will aid the moon, tho' now she shines</l>
+       <l>In her full splendor. At your leisure read it.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE,</speaker>
+       <stage>reading.</stage>
+       <l>Kind words indeed; I fear, I fear too common.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>It works as I could wish. How his cheek whitens!</l>
+       <l>His fiery eye darts thro' each tender word</l>
+       <l>As it would burn the paper.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE,</speaker>
+       <stage>reading.</stage>
+       <l>
+        <hi>Ever constant—</hi>
+       </l>
+       <l>
+        <pb n="25" facs="28"/>Let me look once again. Is my fight false?</l>
+       <l>Oh, wou'd it were! Fain wou'd I cast the blame,</l>
+       <l>To save her crime, on my imperfect sense.</l>
+       <l>But did she give you this?</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>Look to the address.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>Oh, darkness on my eyes! I've seen too much.</l>
+       <l>There's not a letter, but like necromancy</l>
+       <l>Withers my corporal functions. Shame confound her!</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>As you before were tardy of belief,</l>
+       <l>You now are rash. Behold these little shadows.</l>
+       <l>These you have seen before.
+<stage>Producing two pictures.</stage>
+       </l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>What's this, what's this!</l>
+       <l>My picture, as I live, I gave the false one,</l>
+       <l>And her's she promis'd me! Oh, woman's faith!</l>
+       <l>I was your champion once, deceitful sex!</l>
+       <l>Thought your fair minds—But hold, I may be rash—</l>
+       <l>This letter, and these pictures, might be your's</l>
+       <l>By the king's power, compelling her reluctant</l>
+       <l>To write and send them; therefore let me see</l>
+       <l>All you have promis'd.—You expect her summons</l>
+       <l>At yon Miranda—</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>Yes, the time draws near;</l>
+       <l>She ever is most punctual. This small light</l>
+       <l>Our wonted signal: stand without its ray;</l>
+       <l>For shou'd she spy more than myself beneath,</l>
+       <l>Fearing discovery, she'll retire again</l>
+       <l>Into her chamber—When her beauteous form</l>
+       <l>Breaks like the moon, as fair, tho' not so cold,</l>
+       <l>From yonder window.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>Ha! by hell it opens!—</l>
+      </sp>
+      <sp who="#bireno">
+       <pb n="26" facs="29"/>
+       <speaker>BIRENO.</speaker>
+       <l>Stand you apart a moment. While I climb,</l>
+       <l>Yon orb, now braz'd to this accustom'd scene,</l>
+       <l>Will shew you who invites me. I'll detain her,</l>
+       <l>To give you ample leisure for such note</l>
+       <l>As counterfeits abide not.
+<stage>Bireno <hi>retires</hi>▪</stage>
+       </l>
+      </sp>
+     </div>
+     <div n="7" type="scene">
+      <head>SCENE VII.</head>
+      <sp who="#paladore">
+       <speaker>PALADORE</speaker>
+       <stage>alone.</stage>
+       <l>Death! 'tis she!</l>
+       <l>There's not a silken braid that binds her hair,</l>
+       <l>One little shred of all that known attire</l>
+       <l>That wantons in the wind, but to my heart</l>
+       <l>Has sent such sweet disturbance, that it beat</l>
+       <l>Instinctive of her coming, ere my sight</l>
+       <l>Enjoy'd the beauteous wonder.—Soft! What now!</l>
+       <l>See she lets down the cordage of her shame,</l>
+       <l>To hoist him to her arms, I'll look no more—</l>
+       <l>Distraction! Devil! How she welcomes him!</l>
+       <l>That's well! that's well!—Again: grow to her lips—</l>
+       <l>Poison and aspics rot them! Now she woo's him,</l>
+       <l>Points to her chamber, and invites him inward.</l>
+       <l>May adder's hiss around their guilty couch!</l>
+       <l>And ghosts of injur'd lovers rise to scare them!—</l>
+       <l>Ay, get you gone—Oh, for a griffin's wing,</l>
+       <l>To bear me thro' the casement! Deeds like this</l>
+       <l>Shou'd startle every spirit of the grove,</l>
+       <l>And wake Enchantment from her spell-hung grot,</l>
+       <l>To shake the conscious roof about their heads,</l>
+       <l>And bare them to the scoff of modest eyes</l>
+       <l>Twin'd in the wanton fold. Oh, wretch accurs'd!</l>
+       <l>See there the blasted promise of thy joys,</l>
+       <l>Thy best hopes bankrupt.—Do I linger still?</l>
+       <l>Here find a grave, and let thy mangled corse,</l>
+       <l>When her lascivious eye peers o'er the lawn,</l>
+       <l>Satiate the harlot's gaze.</l>
+      </sp>
+      <stage>
+       <hi>Going to fall on his sword,</hi> Rinaldo <hi>rushes out and prevents him.</hi>
+      </stage>
+      <sp who="#rinaldo">
+       <pb n="27" facs="30"/>
+       <speaker>RINALDO.</speaker>
+       <l>What frenzy's this!</l>
+       <l>Arm'd 'gainst your life! In pity turn the point</l>
+       <l>On your old faithful servant, whose heart heaves</l>
+       <l>Almost to bursting to behold you thus.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>Hast seen it then?</l>
+      </sp>
+      <sp who="#rinaldo">
+       <speaker>RINALDO.</speaker>
+       <l>I have seen your wild despair;</l>
+       <l>And bless'd be the kind monitor within</l>
+       <l>That led me here to save you.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>Rather curs'd</l>
+       <l>Be thy officious fondness, since it dooms me</l>
+       <l>To lingering misery. Give me back my sword—</l>
+       <l>Is't come to this! Oh, I cou'd tear my hair!</l>
+       <l>Rip us this credulous breast! Blind dotard! Fool!</l>
+       <l>Did Wit, or Malice, ere devise a legend</l>
+       <l>To parellel this vile reality?</l>
+      </sp>
+      <sp who="#rinaldo">
+       <speaker>RINALDO.</speaker>
+       <l>Disgrace not the best gift of manly nature,</l>
+       <l>Your reason, in this wild extravagance.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>And think'st thou I am mad without a cause!</l>
+       <l>I'll tell thee—'Sdeath! It choaks me—Lead me hence—</l>
+       <l>I will walk boldly on the billowy deep,</l>
+       <l>Or blindfold tread the sharp and perilous ridge</l>
+       <l>Of icy Caucasus, nor fear my footing;</l>
+       <l>Play with a fasting lion's fangs unharm'd,</l>
+       <l>And stroke his rage to tameness.—But hereafter,</l>
+       <l>When men wou'd try impossibilities,</l>
+       <l>Let them seek faith in woman.—Furies seize them!</l>
+      </sp>
+      <stage>Exeunt.</stage>
+     </div>
+     <trailer>END OF THE SECOND ACT.</trailer>
+    </div>
+    <div n="3" type="act">
+     <pb n="28" facs="31"/>
+     <head>ACT III.</head>
+     <div n="1" type="scene">
+      <head>SCENE I.</head>
+      <stage>
+       <hi>A Hall.</hi>
+      </stage>
+      <sp who="#bireno">
+       <speaker>BIRENO</speaker>
+       <stage>alone.</stage>
+       <l>HER death must be the means. If these be crimes,</l>
+       <l>Thou bright Ambition, whose rare alchimy,</l>
+       <l>Like Midas' palm, turns all it grasps to gold,</l>
+       <l>Give them thy glorious splendor! What a coil</l>
+       <l>Does puny Conscience make in little minds,</l>
+       <l>Ere they o'erleap obstruction! Fear, not virtue,</l>
+       <l>Keeps mankind honest. Each inordinate wish</l>
+       <l>Is guilt unacted, and the canon points</l>
+       <l>More 'gainst the coward heart, that wou'd and dare not,</l>
+       <l>Than the bold deed, that braves the penalty.</l>
+      </sp>
+     </div>
+     <div n="2" type="scene">
+      <head>SCENE II.</head>
+      <sp who="#bireno">
+       <speaker>BIRENO, ASCANIO.</speaker>
+       <l>Welcome, Ascanio! Thanks for this kind speed</l>
+       <l>To meet my summons. I have business for thee,</l>
+       <l>Worthy thy subtle genius; thou shalt aid me</l>
+       <l>To spread a banquet forth, where two sharp guests,</l>
+       <l>Ambition and Revenge, shall both be feasted,</l>
+       <l>Even to satiety.</l>
+      </sp>
+      <sp who="#ascanio">
+       <speaker>ASCANIO.</speaker>
+       <l>I will not pall</l>
+       <l>Performance by protesting. Is there aught</l>
+       <l>In which a pliant tongue, and ready hand,</l>
+       <l>(No despicable engines) may do service?</l>
+       <l>To their best cunning use them; your poor bondman</l>
+       <l>Will think himself much honour'd in obedience.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>I have profess'd myself thy friend, Ascanio!</l>
+       <l>
+        <pb n="29" facs="32"/>And when the golden autumn of my hopes,</l>
+       <l>(Whose rich maturity I now wou'd hasten)</l>
+       <l>Is ripe for bearing, thou shall taste the fruit</l>
+       <l>That bends my swelling branches.</l>
+      </sp>
+      <sp who="#ascanio">
+       <speaker>ASCANIO.</speaker>
+       <l>I have liv'd</l>
+       <l>The creature of your bounty; and my life</l>
+       <l>I would cast from me, like a useless load,</l>
+       <l>When to your gracious ends unprofitable.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>My means have hitherto been poor and scanty,</l>
+       <l>My power confin'd; but I shall be, Ascanio,</l>
+       <l>Like a great river, whose large urns dispense</l>
+       <l>Abundance to the subject rills around him,</l>
+       <l>Till they o'erpeer their banks.</l>
+      </sp>
+      <sp who="#ascanio">
+       <speaker>ASCANIO.</speaker>
+       <l>Oh, my good lord!</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>I'll trust thee as I know thee—for a villain.—
+<stage>Aside.</stage>
+       </l>
+       <l>Place thyself near me when the council meets,</l>
+       <l>(I shall make matter for them they foresee not)</l>
+       <l>Whate'er I urge, or whomsoe'er I charge,</l>
+       <l>Be ready thou with the grave mockery</l>
+       <l>Of uplift eyes, thy hand thus on thy breast,</l>
+       <l>And heaven-attesting oaths to second me.</l>
+      </sp>
+      <sp who="#ascanio">
+       <speaker>ASCANIO.</speaker>
+       <l>Prime in the catalogue of mortal sins,</l>
+       <l>I hold unthankfulness, and a friend's need,</l>
+       <l>Makes fiction virtue when its end is kindness.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>To give more ready credence to the imposture,</l>
+       <l>Put on reluctant seeming; earnestly</l>
+       <l>Entreat, they urge you not; sadden thy brow,</l>
+       <l>And cry, "Alas! compell me not to speak—</l>
+       <l>"I know not what I saw." Mumble some cant,</l>
+       <l>"Of frailty, and compassion, sins of youth,</l>
+       <l>
+        <pb n="30" facs="33"/>"The danger of the law, if it were urg'd</l>
+       <l>"'Gainst all transgressions;" thus shall thy declining</l>
+       <l>Be eked out to a stubborn certainty</l>
+       <l>In each suspended hearer.</l>
+      </sp>
+      <sp who="#ascanio">
+       <speaker>ASCANIO.</speaker>
+       <l>Nay, my Lord;</l>
+       <l>Disparage not the good gifts were born with me,</l>
+       <l>To think I can want schooling for this office.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>I pray you pardon me.—Oh, Nature! Nature!
+<stage>Aside.</stage>
+       </l>
+       <l>There is a pride even in stark villainy,</l>
+       <l>Which flattery's heat must soften, ere the metal</l>
+       <l>Bend to our purposes.—Come this way with me,</l>
+       <l>The hall will soon be throng'd; what more remains</l>
+       <l>I will impart within.—No ceremony.
+<stage>Exeunt.</stage>
+       </l>
+      </sp>
+     </div>
+     <div n="3" type="scene">
+      <head>SCENE III.</head>
+      <stage>LUCIO, <hi>an</hi> OFFICER.</stage>
+      <sp who="#officer">
+       <speaker>OFFICER.</speaker>
+       <l>See where they pass; what bodes that conference?</l>
+      </sp>
+      <sp who="#lucio">
+       <speaker>LUCIO.</speaker>
+       <l>Danger, my life on't. That smooth knave Ascanio</l>
+       <l>Is the Duke's crucible, his breast receives</l>
+       <l>The mass of his crude projects, and his brain</l>
+       <l>A subtle fire refines the drossy ore,</l>
+       <l>To bear the ready stamp for present mischief.</l>
+      </sp>
+      <sp who="#officer">
+       <speaker>OFFICER.</speaker>
+       <l>The Duke of late grows past his custom courteous,</l>
+       <l>Joins hands with us, and calls us by our names,</l>
+       <l>Gives praise, and largess to the soldiery,</l>
+       <l>Whom he was wont to style, State caterpillars,</l>
+       <l>Burthens of peace, and but endur'd in war,</l>
+       <l>As necessary evils.</l>
+      </sp>
+      <sp who="#lucio">
+       <speaker>LUCIO.</speaker>
+       <l>It denotes</l>
+       <l>
+        <pb n="31" facs="34"/>(Or I lack charity) trouble to the state.</l>
+       <l>I know him proud, subtle, and pitiless;</l>
+       <l>Nor will his nature change these elements,</l>
+       <l>However for a season he put on</l>
+       <l>A smoother guise, and fashion suitable</l>
+       <l>To the end he aims at.</l>
+      </sp>
+      <sp who="#officer">
+       <speaker>OFFICER.</speaker>
+       <l>Best conceal these thoughts,</l>
+       <l>For one day he may rule us.</l>
+      </sp>
+      <sp who="#lucio">
+       <speaker>LUCIO.</speaker>
+       <l>Ay, that <hi>may,</hi>
+       </l>
+       <l>If I mistake not, he will snatch from chance,</l>
+       <l>And make a certainty. But see the king.</l>
+       <l>The providence of heaven be ever round him!</l>
+      </sp>
+     </div>
+     <div n="4" type="scene">
+      <head>SCENE IV.</head>
+      <stage>KING, <hi>Counsellors, Knights, Attendants.</hi>
+      </stage>
+      <sp>
+       <l>Health to your Majesty!</l>
+      </sp>
+      <sp who="#king">
+       <speaker>KING.</speaker>
+       <l>Thanks, gentle friends!</l>
+       <l>But why this faintness in your salutations?</l>
+       <l>Why wear your brows that ominous livery?</l>
+       <l>I trust our gallant spirits will not palter,</l>
+       <l>Because a rash invader threatens us.</l>
+       <l>When I was young as you, to hear of war</l>
+       <l>Made my blood dance: but these good days are past,</l>
+       <l>This sapless trunk shrinks from its mailed bark;</l>
+       <l>Yet age has still its use, count me your steward,</l>
+       <l>Holding the honours of the state in trust</l>
+       <l>For all deservers;—She shall better thank you;</l>
+      </sp>
+     </div>
+     <div n="5" type="scene">
+      <head>SCENE V.</head>
+      <stage>
+       <hi>To the above,</hi> PRINCESS, <hi>Attendants.</hi>
+      </stage>
+      <sp>
+       <l>More retribution dwells in beauty's smile,</l>
+       <l>Than in whole volumes of an old man's praise.</l>
+       <l>
+        <pb n="32" facs="35"/>Approach, my child! Come, grace thy father's side:</l>
+       <l>These are thy champions; give your women tasks,</l>
+       <l>Bid all the looms of Pavia ply their labors,</l>
+       <l>A scarf for every warrior, they'll deserve them.</l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>They will not want my thanks, nor such poor tokens</l>
+       <l>How much I prize their worth; their high-touch'd virtue</l>
+       <l>Finds in itself the source and end of action;</l>
+       <l>Secures its right to praise, but scorns to take it.</l>
+      </sp>
+     </div>
+     <div n="6" type="scene">
+      <head>SCENE VI.</head>
+      <stage>
+       <hi>To the above,</hi> BIRENO, ASCANIO.</stage>
+      <sp who="#king">
+       <speaker>KING.</speaker>
+       <l>Welcome, my cousin! Doubt not of my zeal;</l>
+       <l>Tho' ill has the success kept pace with it,</l>
+       <l>To speed your amorous suit, still let us hope,</l>
+       <l>Time, and your fair pretensions, will have weight</l>
+       <l>To win her to our wishes.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>Let it pass;</l>
+       <l>I must take comfort: women's appetites</l>
+       <l>Will be their own purveyors. Are we met?</l>
+       <l>The hall, methinks, seems full.</l>
+      </sp>
+      <sp who="#king">
+       <speaker>KING.</speaker>
+       <l>Where's Paladore?</l>
+       <l>He had our summons, yet I see him not:</l>
+       <l>His skill in war, and wisdom to advise,</l>
+       <l>Have been most tutelary to our realm,</l>
+       <l>And well deserve the waiting.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>Take your place;</l>
+       <l>He cannot now be present; when we are seated,</l>
+       <l>I will declare the reason.</l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <stage>[Aside.]</stage>
+       <l>Ha! not present!</l>
+       <l>
+        <pb n="33" facs="36"/>What fatal bar prevents him? Oh, my heart!</l>
+       <l>Is Paladore the fountain of thy life,</l>
+       <l>That thy stream scarce can flow, when sever'd from him?</l>
+      </sp>
+      <stage>
+       <hi>They take their places; the</hi> Princess <hi>on the</hi> King's <hi>right hand, a little beneath him.</hi> Bireno <hi>and</hi> Ascanio <hi>in the front of the stage, some seated, others standing round.</hi>
+      </stage>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>The danger of our frontiers, you, sage lords,</l>
+       <l>Calls this assembly; but, as wise physicians,</l>
+       <l>The heart being touch'd, neglect the extremities,</l>
+       <l>Giving their first care to the seat of life:</l>
+       <l>So now, the wounded vitals of our honour,</l>
+       <l>Demand our prior tendence.</l>
+      </sp>
+      <sp who="#king">
+       <speaker>KING.</speaker>
+       <l>Speak, good cousin!</l>
+       <l>Do dark conspiracy, and home-bred treason,</l>
+       <l>(Unnatural leaguers with a foreign foe)</l>
+       <l>Bid the sharp sword of vengeance turn its edge</l>
+       <l>'Gainst our own children?</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>Yes; though nature bleeds,</l>
+       <l>Justice will take her course; I see before me</l>
+       <l>The prime of the kingdom; and from some among you,</l>
+       <l>Since they, in whose authority abides</l>
+       <l>The executive of power, best can tell.</l>
+       <l>I now wou'd hear, why do our registers</l>
+       <l>Contain that rigorous ordinance, which respects</l>
+       <l>The chastity of women?</l>
+      </sp>
+      <sp who="#first_senator">
+       <speaker>FIRST SENATOR.</speaker>
+       <l>To that question,</l>
+       <l>The law's preamble answers. 'Tis rehears'd,</l>
+       <l>That the wild licence of our countrywomen,</l>
+       <l>O'erleapt all modest bounds. Sweet pudency</l>
+       <l>(That ruby of the sex) had been cast by</l>
+       <l>For casual wantonness, till our name abroad</l>
+       <l>Became a by-word, and confusion, strange,</l>
+       <l>
+        <pb n="34" facs="37"/>Disturb'd domestic peace. A spurious issue,</l>
+       <l>The slips of chance and wildness, were engrafted</l>
+       <l>In rich inheritances, while the sire</l>
+       <l>Caress'd the child, not his, and left to fortune,</l>
+       <l>The true heirs of his fondness: these abuses</l>
+       <l>Required an iron curb; so pass'd the law,</l>
+       <l>Making transgression death, with no remittance</l>
+       <l>To high rank, or degree in the offender,</l>
+       <l>But in its bloody gripe comprizing all.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>And is this so allow'd?</l>
+      </sp>
+      <sp who="#first_senator">
+       <speaker>FIRST SENATOR.</speaker>
+       <l>'Tis so allow'd:</l>
+       <l>Nor is there a decretal, in our rolls,</l>
+       <l>Of less ambiguous import, or more known.</l>
+      </sp>
+      <sp who="#king">
+       <speaker>KING.</speaker>
+       <l>This is beyond devining: I have mark'd</l>
+       <stage>
+        <hi>To the</hi> Princess, <hi>half aside.</hi>
+       </stage>
+       <l>His changing feature: some strong passion shakes him.</l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>He plays emotion well, most masterly,</l>
+       <l>Even to the life of feigning.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>May I on?</l>
+       <l>Or must I, like a novice to your forms,</l>
+       <l>First prove my right of audience?</l>
+      </sp>
+      <sp who="#king">
+       <speaker>KING.</speaker>
+       <l>Be not anger'd;</l>
+       <l>We questioned not your right—All counsellors</l>
+       <l>Speak what they list with freedom. You, our cousin,</l>
+       <l>Have with your right, pre-audience.</l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>Pray, proceed.</l>
+      </sp>
+      <sp who="#bireno">
+       <pb n="35" facs="38"/>
+       <speaker>BIRENO</speaker>
+       <stage>
+        <hi>to the</hi> SENATOR.</stage>
+       <l>Most learned lord, now please you to recite</l>
+       <l>The dangerous predicament of those</l>
+       <l>Who do awake this statute?</l>
+      </sp>
+      <sp who="#first_senator">
+       <speaker>FIRST SENATOR.</speaker>
+       <l>Willingly.</l>
+       <l>'Tis there provided, that, the accus'd being cited</l>
+       <l>In the king's presence, he, who brings the charge,</l>
+       <l>Shou'd state each circumstance: that done, the herald</l>
+       <l>Thrice in six hours, first, in the market place,</l>
+       <l>Next, in the hippodrome, last, in the porch</l>
+       <l>Of the great temple, must invite all knights</l>
+       <l>(Whether impell'd by pity, love, or justice)</l>
+       <l>To appear her champions in the marshal'd lists:</l>
+       <l>There, if the accuser falls, she is held free,</l>
+       <l>And her fair fame restor'd; but, if he conquers,</l>
+       <l>The event confirms her guilt, and the sharp axe</l>
+       <l>Severs the wanton's life.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>Then in this peril</l>
+       <l>Stand I at present—Bid your trumpets sound;</l>
+       <l>And call forth every bold adventurer.</l>
+       <l>To try what desperate valour may achieve</l>
+       <l>'Gainst truth, and my keen sword.</l>
+      </sp>
+      <sp who="#king">
+       <speaker>KING.</speaker>
+       <l>But whither wou'd'st thou?</l>
+       <l>Suspense and horror fit on every brow;</l>
+       <l>Like the red comet, thy denouncing eye,</l>
+       <l>Forebodes disaster.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>Oh, relentless justice!</l>
+       <l>If these be drops of weakness, let them fall:</l>
+       <l>'Tis the last tribute of a human sorrow,</l>
+       <l>And now I am wholly thine.</l>
+      </sp>
+      <sp who="#king">
+       <pb n="36" facs="39"/>
+       <speaker>KING.</speaker>
+       <l>Pr'ythee, go on.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>'Twere vain to waste your patience in persuasion;</l>
+       <l>I would not wantonly play with the fangs</l>
+       <l>Of such a lion law, whose terrible roar</l>
+       <l>Must be appeas'd with blood—So rests my truth.</l>
+       <l>A lover's fondness, last night, prompted me,</l>
+       <l>Attended by this gentleman.
+<stage>
+         <hi>Pointing to</hi> Ascanio.</stage>
+       </l>
+      </sp>
+      <sp who="#ascanio">
+       <speaker>ASCANIO.</speaker>
+       <l>Curs'd chance!</l>
+       <l>Oh, would the darkness of the delving mole</l>
+       <l>Had been my portion; then I had not seen—</l>
+       <l>What have I said? Nay, do not call on me;</l>
+       <l>Was it for this I was commanded hither?</l>
+       <l>I'll close my lips for ever.</l>
+      </sp>
+      <sp who="#first_senator">
+       <speaker>FIRST SENATOR.</speaker>
+       <l>We have ways</l>
+       <l>To force a necessary truth—My Lord,</l>
+       <l>Please you, proceed—The rack shall make him answer.</l>
+       <l>Have eye upon him—He was your companion.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>He was, he was, when love or destiny</l>
+       <l>Led me a wanderer, in the palace garden,</l>
+       <l>To gaze upon the window of the princess.</l>
+       <l>When, Oh, sad object for a lover's eyes!</l>
+       <l>The casement open'd, and the full-orb'd moon,</l>
+       <l>Bright as the radiance of meridian day,</l>
+       <l>Shew'd me a lusty rival in her arms,</l>
+       <l>Embracing, and embrac'd—
+<stage>All rise from the table.</stage>
+       </l>
+      </sp>
+      <sp who="#king">
+       <speaker>KING.</speaker>
+       <l>Shame! Death! Confusion!</l>
+       <l>My daughter! Oh, my daughter!</l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>Host of heaven!</l>
+       <l>Does no deep thunder roll, no lightning flash?</l>
+       <l>
+        <pb n="37" facs="40"/>Can the tremendous courriers of your wrath,</l>
+       <l>Sleep o'er this perjury?</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>My gage is thrown;</l>
+       <l>And here I stand to answer with my life,</l>
+       <l>If I have charg'd her falsely.</l>
+      </sp>
+      <sp who="#ascanio">
+       <speaker>ASCANIO.</speaker>
+       <stage>[Kneeling.]</stage>
+       <l>On my knees,</l>
+       <l>If ever pity touch'd your noble breast,</l>
+       <l>I beg you speak no more.</l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <stage>[<hi>To</hi> Ascanio.]</stage>
+       <l>Thou vile confederate</l>
+       <l>Of his bloody-thirsty malice! Have I liv'd</l>
+       <l>To hear a wretch suborn'd, his sycophant,</l>
+       <l>Mock me with intercession?
+<stage>[<hi>To</hi> Bireno.]</stage>
+I behold thee,</l>
+       <l>And scorn so struggles with astonishment,</l>
+       <l>That my full heart, and intercepted tongue</l>
+       <l>Almost refuse their active offices,</l>
+       <l>Till passion's choak'd in silence.</l>
+      </sp>
+      <sp who="#king">
+       <speaker>KING.</speaker>
+       <l>Powers of mercy!</l>
+       <l>Am I reserv'd for this? My only child,</l>
+       <l>The pride, the joy, the treasure of my soul,</l>
+       <l>My age's cordial, and my life's best prop,</l>
+       <l>In the sweet spring, and blossom of her youth,</l>
+       <l>Thus blasted in my sight!—
+<stage>[<hi>To</hi> Bireno.]</stage>
+But, Oh, dark fiend!</l>
+       <l>Whom hell lets loose to spread destruction round thee,</l>
+       <l>Why does thy vengeance fasten upon me?</l>
+       <l>Have I deserv'd this from thee? Well thou know'st,</l>
+       <l>I strove to make her thine; I would have given thee</l>
+       <l>My crown, and daughter. Thou requit'st my love,</l>
+       <l>By daggers steep'd in poison to my heart.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>I thank thy kindness, and forgive thy rage;</l>
+       <l>The father shall have licence—Honor, witness!</l>
+       <l>Nor malice, nor ambition loos'd my tongue,</l>
+       <l>
+        <pb n="38" facs="41"/>To this heart-rending office. Reverend Lords!</l>
+       <l>Let your unclouded wisdom judge between us.</l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>Can I be patient? Most abandon'd ruffian!</l>
+       <l>Thou scoffer at all ties! with the same breath</l>
+       <l>That violates a virgin's sanctity,</l>
+       <l>(Holy and pure beyond thy gross conceiving)</l>
+       <l>Thus conscious of thy lie, dar'st thou invoke</l>
+       <l>Honour to witness for thee? Wherefore call</l>
+       <l>On these to judge between us? See, barbarian!</l>
+       <l>Amaz'd, and struck with horror, they have heard thee;</l>
+       <l>Too well, thou know'st, they must pronounce me guilty;</l>
+       <l>Thy oath must be their law: but there is one,</l>
+       <l>An unseen judge, an all discerning eye:</l>
+       <l>Now if thou dar'st look up, poor shivering wretch!</l>
+       <l>He views the dark recesses of thy soul:</l>
+       <l>Tremble at him thy judge.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>I were a slave,</l>
+       <l>Fit for abuses, cou'd I tamely bear</l>
+       <l>To see the rich reversion of my blood</l>
+       <l>Seiz'd by a base, and spurious progeny,</l>
+       <l>An alien Briton, in his sport of lust,</l>
+       <l>Stamping a brood of illegitimate kings,</l>
+       <l>To bend our necks to bastard tyranny.</l>
+      </sp>
+      <sp who="#king">
+       <speaker>KING.</speaker>
+       <l>An alien Briton!</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>Bid <hi>her</hi> answer thee,</l>
+       <l>Call for her paramour, her Paladore.</l>
+       <l>Say, why is he not present?</l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>Why indeed!</l>
+       <l>Hast thou not practis'd on his precious life?</l>
+       <l>And to consummate this day's guilt and horror,</l>
+       <l>Crown'd perjury with murder?</l>
+      </sp>
+      <sp who="#king">
+       <pb n="39" facs="42"/>
+       <speaker>KING.</speaker>
+       <l>Paladore!</l>
+       <l>Search, find him out; put pinions to your speed,</l>
+       <l>And bear him to our presence.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>Spare your labour—</l>
+       <l>Fear will outstrip their haste—The dastard's gone;</l>
+       <l>He had my challenge for this injury,</l>
+       <l>And answer'd it by flight.</l>
+      </sp>
+      <sp who="#king">
+       <speaker>KING.</speaker>
+       <l>Confusion! fled!</l>
+       <l>Am I then doubly wretched? Must she die?</l>
+       <l>And die dishonour'd too?</l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <stage>[Kneeling.]</stage>
+       <l>All-seeing Heaven!</l>
+       <l>If e'er thy interposing Providence</l>
+       <l>Dash'd the audacious councils of the wicked;</l>
+       <l>If innocence, ensnar'd, may raise its eye,</l>
+       <l>In humble hope, to thy eternal throne,</l>
+       <l>Look down, and succour me! I kneel before thee,</l>
+       <l>Distrest, forlorn, abandon'd to despair,</l>
+       <l>By all deserted, and my life beset;</l>
+       <l>The man, my soul adores, traduc'd, and wrong'd:</l>
+       <l>Yet, Oh, there is a pang surpassing all!</l>
+       <l>While the envenom'd rancour of this fiend</l>
+       <l>Casts its contagion on my spotless fame,</l>
+       <l>And, unrebuk'd, persists to blast my virtue.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>Hear, she avows her love—</l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>Yes, glory in it—</l>
+      </sp>
+      <sp who="#king">
+       <speaker>KING.</speaker>
+       <l>Ha, have a care, rash girl! nor turn my grief</l>
+       <l>To curses on thy head—Dar'st thou confirm</l>
+       <l>Thy doubtful infamy?</l>
+      </sp>
+      <sp who="#princess">
+       <pb n="40" facs="43"/>
+       <speaker>PRINCESS.</speaker>
+       <l>A love so pure,</l>
+       <l>What bosom might not feel, what tongue not own?</l>
+       <l>It was a fault to hide the secret from you:</l>
+       <l>But are such fighs as vestal breasts might heave,</l>
+       <l>Such spotless vows as angels might record,</l>
+       <l>Pollution worthy death? These are my crimes;</l>
+       <l>And if I labour with with a guilt more black,</l>
+       <l>May the full malice of that villain reach me.</l>
+      </sp>
+      <sp who="#king">
+       <speaker>KING.</speaker>
+       <l>What can I think? His absence—Yet thy truth,</l>
+       <l>Thy nature's modesty plead strongly for thee—</l>
+       <l>Away with doubt—Oh, thou obdurate heart!</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>We trifle time—The lists must be-prepar'd,</l>
+       <l>The heralds sound defiance—</l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>Hold a moment—</l>
+       <l>I'll tell thee how to arm thee for the combat:</l>
+       <l>Steep thy keen sword in poison, that no balm</l>
+       <l>May heal the wounds it gives, but each be mortal;</l>
+       <l>Let a staunch blood-hound, with devouring fangs,</l>
+       <l>And eye-balls fiery red, couch o'er thy helm;</l>
+       <l>The deadly sable of thy mail besmear'd</l>
+       <l>With scaffolds, wheels, and engines, virgin's heads</l>
+       <l>Fresh bleeding from the axe's severing stroke:</l>
+       <l>Scorn thou the mean device of vulgar knights,</l>
+       <l>Who fight for what they reverence, truth and honour;</l>
+       <l>But be profess'd their champion whom thou serv'st,</l>
+       <l>And write in bloody letters, hell and falshood.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>This passion, lady! ill becomes your state:</l>
+       <l>Shame is wash'd out by sorrow, not by anger.</l>
+      </sp>
+      <sp who="#king">
+       <pb n="41" facs="44"/>
+       <speaker>KING.</speaker>
+       <l>Hence, from my sight, detested parricide!</l>
+       <l>Assassin! butcher! lest these feeble hands,</l>
+       <l>Brac'd by my wrongs to more than mortal strength,</l>
+       <l>Fix on thy throat, and bare thy treacherous heart.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>Old man, I go—Compassion for thy grief,</l>
+       <l>Forbids me to retort these outrages.</l>
+       <l>Let frenzy take its course—When next we meet,</l>
+       <l>Summon thy fortitude; and learn, mean time,</l>
+       <l>Crowns cannot save the wearer from affliction,</l>
+       <l>But kings, like meaner men, were born to suffer.</l>
+      </sp>
+      <stage>
+       <hi>Exeunt</hi> Bireno, Ascanio, Senators.</stage>
+     </div>
+     <div n="7" type="scene">
+      <head>SCENE VII.</head>
+      <stage>KING, PRINCESS.</stage>
+      <sp who="#king">
+       <speaker>KING.</speaker>
+       <l>Morality from thee! He braves high heaven,</l>
+       <l>And well may scorn my anger. Oh, my child!</l>
+       <l>This little hour, while I can call thee mine,</l>
+       <l>Close let me strain thee to my bursting heart:</l>
+       <l>Alas! thy aged father can no more</l>
+       <l>Than thus to fold thee; pour these scalding tears,</l>
+       <l>And drench thy tender bosom with his sorrows.</l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>By my best hopes of happiness hereafter!</l>
+       <l>To see that reverend frame thus torn with anguish;</l>
+       <l>To hear those heart-fetch'd groans, is greater misery,</l>
+       <l>Than all the horrors of the doom that waits me:</l>
+       <l>I could put on a Roman constancy,</l>
+       <l>And go to death like sleep, did no soft sorrow</l>
+       <l>Hang on the mourning of surviving friends,</l>
+       <l>And wake a keener pang for their affliction.</l>
+      </sp>
+     </div>
+     <div n="8" type="scene">
+      <pb n="42" facs="45"/>
+      <head>SCENE VIII.</head>
+      <stage>
+       <hi>To them,</hi> LUCIO.</stage>
+      <sp who="#lucio">
+       <speaker>LUCIO.</speaker>
+       <l>Forgive the obedience of reluctant duty!</l>
+       <l>I have the council's order to commit</l>
+       <l>The Princess to a guard's close custody.</l>
+      </sp>
+      <sp who="#king">
+       <speaker>KING.</speaker>
+       <l>Thou art my subject, Lucio! and my soldier;</l>
+       <l>Do thy unhappy master one last service;</l>
+       <l>Draw forth thy sword, and strike it through my heart.</l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>No; let our grief be sacred: if we weep,</l>
+       <l>Let them not see, and triumph in our tears.</l>
+       <l>Martyrs have died in voluntary flames,</l>
+       <l>And heroes rush'd on death inevitable,</l>
+       <l>By faith inspir'd, or glory. Thou, Sophia!</l>
+       <l>Sustain'd alone by peace and innocence,</l>
+       <l>Meet fate as firmly, and transcend their daring.
+<stage>Exeunt.</stage>
+       </l>
+      </sp>
+     </div>
+     <trailer>END OF THE THIRD ACT.</trailer>
+    </div>
+    <div n="4" type="act">
+     <pb n="43" facs="46"/>
+     <head>ACT IV.</head>
+     <div n="1" type="scene">
+      <head>SCENE I.</head>
+      <stage>
+       <hi>a Forest.</hi>
+      </stage>
+      <stage>PALADORE, RINALDO <hi>following.</hi>
+      </stage>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>AM I the slave of sense, that know her fickle,</l>
+       <l>Ungrateful, perjur'd, yet still doat thus fondly?</l>
+       <l>Faith, prudence, honor, govern'd appetites,</l>
+       <l>(Whose everlasting bonds make passion wise)</l>
+       <l>In her were only seeming, or like ornament</l>
+       <l>Thrown by, or worn at pleasure; then this sorrow</l>
+       <l>Hangs on her outside only, that's unchang'd,</l>
+       <l>For falshood did not dim her radiant eyes,</l>
+       <l>Her cheek was damask'd with as pure a rose,</l>
+       <l>Her breath as odorous, when she most deceiv'd,</l>
+       <l>As when her virture, like her specious form,</l>
+       <l>Seem'd spotless, and unparagon'd.</l>
+      </sp>
+      <sp who="#rinaldo">
+       <speaker>RINALDO.</speaker>
+       <l>My Lord!</l>
+       <l>Court not this solitude, speak out your grief;</l>
+       <l>Mine is no flinty breast; this dangerous spleen,</l>
+       <l>That makes your bane its nurture, then shews worst,</l>
+       <l>When nothing spent in loudness, and complaint,</l>
+       <l>Like a deep stream it rolls its noiseless way,</l>
+       <l>Mining the banks in silence.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>Wou'd the pain</l>
+       <l>Vanish with the exposure of the cause,</l>
+       <l>I shou'd make blunt the patience of your ear</l>
+       <l>By endless iteration. But why tell thee?</l>
+       <l>
+        <pb n="44" facs="47"/>Thinkst thou there is a charm in soothing words</l>
+       <l>To pluck the sting from anguish? Good Rinaldo,</l>
+       <l>Thou hadst a son and lost him.</l>
+      </sp>
+      <sp who="#rinaldo">
+       <speaker>RINALDO.</speaker>
+       <l>True, I had so.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>See there, his very name provokes thy tears.</l>
+       <l>Say, can wise counsel stop them? Shall I tell thee,</l>
+       <l>The lot of mortals is mortality?</l>
+       <l>That fate will take its course, 'twas Heaven's high will;</l>
+       <l>And man is born to sorrow. This is wise;</l>
+       <l>The sum of consolation. Strains like these</l>
+       <l>Flow smoothly from the tongues of moralists,</l>
+       <l>Patient as sleep in others sufferings,</l>
+       <l>But vex'd as wasps and hornets in their own.</l>
+      </sp>
+      <sp who="#rinaldo">
+       <speaker>RINALDO.</speaker>
+       <l>From these imperfect starts I cannot answer,</l>
+       <l>They speak but passion. If my guess deceive not,</l>
+       <l>A woman sure has wrong'd you.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>A true woman;</l>
+       <l>I thought her angel once, most basely wrong'd me.</l>
+       <l>Yet if revenge kept measure with her shame,</l>
+       <l>I cou'd wash out in her polluted blood</l>
+       <l>This stain to modesty. Yes, fair falsehood!</l>
+       <l>Shou'd I appeal thee of the incontinence</l>
+       <l>My blasted eyes have witness'd, the stern law</l>
+       <l>Wou'd give me ample vengeance.</l>
+      </sp>
+      <sp who="#rinaldo">
+       <speaker>RINALDO.</speaker>
+       <l>Your great spirit</l>
+       <l>(Whoe'er she be that thus has injur'd you)</l>
+       <l>Wou'd scorn your reparation from that law,</l>
+       <l>The shame even of justice.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>Fear not; still she twines</l>
+       <l>Here round my heartstrings. No, let late remorse,</l>
+       <l>
+        <pb n="45" facs="48"/>For sure it will o'ertake, punish her sin.</l>
+       <l>But hie thee back to Pavia presently,</l>
+       <l>Dismiss my attendants, (useless pageantry</l>
+       <l>To my now alter'd state!) send hither to me</l>
+       <l>My arms and horses; these may hasten death</l>
+       <l>Fitting a soldier; then return and seek me.</l>
+       <l>A little longer will I hold in life,</l>
+       <l>Till in requital of her father's kindness,</l>
+       <l>I render some brave service. 'Midst these oaks,</l>
+       <l>Till you return, I'll keep my lonely haunt.</l>
+      </sp>
+      <sp who="#rinaldo">
+       <speaker>RINALDO.</speaker>
+       <l>There stands an humble hamlet in yon glade,</l>
+       <l>Own'd by some simple peasants, who supply</l>
+       <l>The western suburbs with such homely fare</l>
+       <l>As their few fields afford; thither bestow you,</l>
+       <l>And take some nourishment. I will return</l>
+       <l>With my best diligence.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>Go, get thee gone.</l>
+       <l>Sorrow's my food; I'll drink my falling tears.</l>
+       <l>Ye savage denizons of this wild wood,</l>
+       <l>Gaunt wolves, and tusky boars! No more my hounds</l>
+       <l>Shall dash the spangled dew-drops from your brakes!</l>
+       <l>No more with echoing cries, or mellow horn,</l>
+       <l>I'll rouse your dreadful slumber! Sleep securely—</l>
+       <l>With disposition deadly as your own,</l>
+       <l>I go to mingle with you.
+<stage>Exeunt severally.</stage>
+       </l>
+      </sp>
+     </div>
+     <div n="2" type="scene">
+      <head>SCENE II.</head>
+      <stage>TWO FORESTERS.</stage>
+      <sp who="#first_forester">
+       <speaker>FIRST FORESTER.</speaker>
+       <l>This place will suit our purpose, 'twere lost time</l>
+       <l>To lead her further; so we but dispatch her,</l>
+       <l>No matter for the spot. The deed once done,</l>
+       <l>The Duke will not be nice, but pay us nobly.</l>
+      </sp>
+      <sp who="#second_forester">
+       <pb n="46" facs="49"/>
+       <speaker>SECOND FORESTER.</speaker>
+       <l>Half of our hire's to come. How shall we do it</l>
+       <l>Stab her, or strangle?</l>
+      </sp>
+      <sp who="#first_forester">
+       <speaker>FIRST FORESTER.</speaker>
+       <l>Make this cord her necklace:</l>
+       <l>Blood may beget suspicion. When she's dead,</l>
+       <l>We'll drag her body to yon hazel copse,</l>
+       <l>And leave the maws of wolves to bury it.</l>
+       <l>There's scarce a bush in this green labyrinth</l>
+       <l>But is familiar to me. Many a traveller,</l>
+       <l>When I was master of us stout a gang</l>
+       <l>As ere defied the law, here has paid down</l>
+       <l>His life in conflict for the gold I wanted,</l>
+       <l>And never more was heard of.</l>
+      </sp>
+      <sp who="#second_forester">
+       <speaker>SECOND FORESTER.</speaker>
+       <l>Sound your horn.</l>
+       <l>I told her, we'd a little on before</l>
+       <l>To give our horses forage, and directed</l>
+       <l>Her way to follow; shou'd she miss the path,</l>
+       <l>Her ear will be her guide —See, Carlo! see,</l>
+       <l>The pretty innocent caught by her eye</l>
+       <l>Stops for a while to pluck the velvet bells</l>
+       <l>That blow beneath her feet, then forward bounds,</l>
+       <l>Light as the roe, till some fresh floweret</l>
+       <l>Lures her again.</l>
+      </sp>
+      <sp who="#first_forester">
+       <speaker>FIRST FORESTER.</speaker>
+       <l>Ay, like the lamb that plays,</l>
+       <l>And crops his pasture, in the butcher's eye,</l>
+       <l>Even while the knife's a whetting. Hush! She's here.</l>
+      </sp>
+     </div>
+     <div n="3" type="scene">
+      <head>SCENE III.</head>
+      <stage>
+       <hi>To them</hi> ALINDA.</stage>
+      <sp who="#alinda">
+       <speaker>ALINDA.</speaker>
+       <l>Beneath a rugged thorn I found this flower</l>
+       <l>Blushing unmark'd its odorous life away;</l>
+       <l>I'll wear it in my breast, and all who see,</l>
+       <l>Will praise its beauty, modest worth's sweet emblem,</l>
+       <l>That first must be conspicuous ere 'tis priz'd.</l>
+       <l>
+        <pb n="47" facs="50"/>Oh, are you there? I'm ready, my good guides!</l>
+       <l>Where is our equipage? The way's but short,</l>
+       <l>We shall be there ere moonshine.</l>
+      </sp>
+      <sp who="#first_forester">
+       <speaker>FIRST FORESTER.</speaker>
+       <l>Pretty lady!</l>
+       <l>You have a longer journey than you wot of,</l>
+       <l>And a dark dreary road to travel thro.'</l>
+      </sp>
+      <sp who="#alinda">
+       <speaker>ALINDA.</speaker>
+       <l>Why then the Duke deceiv'd me, for he said</l>
+       <l>The way was pleasant, and the distance nothing.</l>
+      </sp>
+      <sp who="#second_forester">
+       <speaker>SECOND FORESTER.</speaker>
+       <l>We have helped many forward the same way,</l>
+       <l>And all were much averse to travel it.</l>
+      </sp>
+      <sp who="#alinda">
+       <speaker>ALINDA.</speaker>
+       <l>They had no lover to obey like me,</l>
+       <l>For I am light, and were it ten times further,</l>
+       <l>To please my Lord I'd go it blithesomely.</l>
+       <l>Come, come, to horse.</l>
+      </sp>
+      <sp who="#first_forester">
+       <speaker>FIRST FORESTER.</speaker>
+       <l>Are you prepar'd to die?</l>
+      </sp>
+      <sp who="#alinda">
+       <speaker>ALINDA.</speaker>
+       <l>Mercy defend me! How! Prepar'd to die!</l>
+       <l>'Tis a strange question.</l>
+      </sp>
+      <sp who="#first_forester">
+       <speaker>FIRST FORESTER.</speaker>
+       <l>But most seasonable;</l>
+       <l>As fit as if your couch were spread at midnight</l>
+       <l>To ask if you were weary. With our will</l>
+       <l>We do it not, for we were gently bred,</l>
+       <l>And hous'd with gallants once: but this rough trade</l>
+       <l>Necessity enforces. Come, prepare.</l>
+      </sp>
+      <sp who="#alinda">
+       <speaker>ALINDA.</speaker>
+       <l>What do you search for? And why turn you pale?</l>
+       <l>You make me shake, to see your stedfast eye.</l>
+       <l>Does this become the servants of the Duke,</l>
+       <l>To frighten whom they shou'd protect from fear?</l>
+      </sp>
+      <sp who="#second_forester">
+       <pb n="48" facs="51"/>
+       <speaker>SECOND FORESTER.</speaker>
+       <l>We are, indeed, the servants of the Duke,</l>
+       <l>For we receive his hire; then for your fears,</l>
+       <l>We mean to rid you of them by your death.</l>
+      </sp>
+      <sp who="#alinda">
+       <speaker>ALINDA.</speaker>
+       <l>Can this be sport? Alas! What have I done,</l>
+       <l>That such detested thoughts shou'd rise in you?</l>
+      </sp>
+      <sp who="#first_forester">
+       <speaker>FIRST FORESTER.</speaker>
+       <l>You are troublesome. Our business is to kill you.</l>
+       <l>If you have a ready prayer, and brief, kneel there,</l>
+       <l>And say it presently. We run great hazard</l>
+       <l>To let you live so long.</l>
+      </sp>
+      <sp who="#alinda">
+       <speaker>ALINDA.</speaker>
+       <l>I'll kneel to you,</l>
+       <l>Make you my saint, if you'll have mercy on me.</l>
+       <l>I never injur'd you, nay, cou'd not injure,</l>
+       <l>For till this hour that I was made your charge,</l>
+       <l>I never saw you. Do not turn away.</l>
+       <l>Think how you'll answer this to him whose love</l>
+       <l>Trusted me to your care. He will require</l>
+       <l>A strict account.</l>
+      </sp>
+      <sp who="#second_forester">
+       <speaker>SECOND FORESTER.</speaker>
+       <l>Pr'ythee let go my arm.</l>
+      </sp>
+      <sp who="#alinda">
+       <speaker>ALINDA.</speaker>
+       <l>May I not know why you do wish to kill me?</l>
+       <l>If for these sparkling bawbles, take them freely;</l>
+       <l>Rob me of all, but do not murder me.</l>
+       <l>I am not fit to die.</l>
+      </sp>
+      <sp who="#first_forester">
+       <speaker>FIRST FORESTER.</speaker>
+       <l>We need not thank you</l>
+       <l>For what you can't withhold. Fall to your prayers.</l>
+      </sp>
+      <sp who="#alinda">
+       <speaker>ALINDA.</speaker>
+       <l>But are you not the servants of the Duke?</l>
+       <l>Think how you swore to tend me faithfully,</l>
+       <l>How he enjoin'd you, as you priz'd his favor.</l>
+       <l>
+        <pb n="49" facs="52"/>Ev'n in your looks he'll read this cruelty,</l>
+       <l>And find how you have abus'd him. Think on that.</l>
+      </sp>
+      <sp who="#first_forester">
+       <speaker>FIRST FORESTER.</speaker>
+       <l>'Twere pity she shou'd die in ignorance.</l>
+       <l>Caught in the falcon's pounce, the dove as well</l>
+       <l>Might gurgle to the kite to stoop, and save her,</l>
+       <l>As you cry to Bireno. Know, 'tis he</l>
+       <l>Who laid this snare, and pays us for your blood.</l>
+      </sp>
+      <sp who="#alinda">
+       <speaker>ALINDA.</speaker>
+       <l>The Duke Bireno?</l>
+      </sp>
+      <sp who="#second_forester">
+       <speaker>SECOND FORESTER.</speaker>
+       <l>Yes, the Duke Bireno.</l>
+       <l>You have been privy to some passages</l>
+       <l>Require concealment. Being wise, he thinks</l>
+       <l>They are safest when you are dumb, so gives us gold</l>
+       <l>To stop your blabbing. If you doubt our word,</l>
+       <l>Peruse that paper. Are you satisfied?
+<stage>Shews a paper.</stage>
+       </l>
+      </sp>
+      <sp who="#alinda">
+       <speaker>ALINDA.</speaker>
+       <l>Yes, if 'tis satisfaction to be torn</l>
+       <l>With worse than death ere death, I'm satisfied.</l>
+       <l>But yet you will not kill me.</l>
+      </sp>
+      <sp who="#first_forester">
+       <speaker>FIRST FORESTER.</speaker>
+       <l>There's no end.</l>
+       <l>She'll prate us from our purpose. Bind her arms.</l>
+       <l>All strife is vain.</l>
+      </sp>
+      <sp who="#alinda">
+       <speaker>ALINDA.</speaker>
+       <l>Oh, Sir! yet hold a moment;</l>
+       <l>You murder more than one. An innocent pledge</l>
+       <l>Of my disastrous love leaps at my side,</l>
+       <l>And joins his speechless prayer.</l>
+      </sp>
+      <sp who="#second_forester">
+       <speaker>SECOND FORESTER.</speaker>
+       <l>And not his wife!</l>
+       <l>Why then your head's a forfeit to the law,</l>
+       <l>And we but take before, what sport or malice</l>
+       <l>Might make you render at the bloody block,</l>
+       <l>With process more afflicting.</l>
+      </sp>
+      <sp who="#alinda">
+       <pb n="50" facs="53"/>
+       <speaker>ALINDA.</speaker>
+       <l>Barbarous villains!</l>
+       <l>Is there no help? Oh, spare me!—With my cries</l>
+       <l>I'll wake the dead.</l>
+      </sp>
+      <sp who="#second_forester">
+       <speaker>SCCOND FORESTER.</speaker>
+       <l>Dispatch her with your dagger.</l>
+       <l>Be quick.</l>
+      </sp>
+      <sp who="#first_forester">
+       <speaker>FIRST FORESTER.</speaker>
+       <l>'Tis done.
+<stage>Stabs her.</stage>
+       </l>
+      </sp>
+     </div>
+     <div n="4" type="scene">
+      <head>SCENE IV.</head>
+      <stage>
+       <hi>To them</hi> PALADORE.</stage>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>Sure 'twas the scream of woe—</l>
+       <l>A woman struggling! Villains, loose your hold!</l>
+       <l>Dogs! hell-hounds!
+<stage>He drives them out and returns.</stage>
+       </l>
+      </sp>
+      <sp who="#alinda">
+       <speaker>ALINDA,</speaker>
+       <stage>fainting.</stage>
+       <l>Oh!</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>Guilt has the wings of wind,</l>
+       <l>My sight can scarce o'ertake them. On the ground!</l>
+       <l>I came too late to save her. Hearts of stone</l>
+       <l>Might feel compunction sure, to mar a form</l>
+       <l>So soft and fair as this. Thou beauteous marble,</l>
+       <l>Forgive my tardy succour! Here's a mould</l>
+       <l>So delicate, 'twere worth a miracle</l>
+       <l>To give it second life. I've seen this face.—</l>
+       <l>Ha! As I live, 'tis she; the beauteous girl</l>
+       <l>That waited on the Princess. Soft! the blood</l>
+       <l>Steals to her cheek again, the azure lids</l>
+       <l>Begin to open.</l>
+      </sp>
+      <sp who="#alinda">
+       <speaker>ALINDA.</speaker>
+       <l>Oh!</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>Lock up, sweet maid!</l>
+      </sp>
+      <sp who="#alinda">
+       <pb n="51" facs="54"/>
+       <speaker>ALINDA.</speaker>
+       <l>Bless me! Where am I?</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>Safe from violence,</l>
+       <l>Nor in a stranger's arms.</l>
+      </sp>
+      <sp who="#alinda">
+       <speaker>ALINDA.</speaker>
+       <l>Your voice is gentle.</l>
+       <l>But will you save me from these barbarous men,</l>
+       <l>Shou'd they again return? I tremble still,</l>
+       <l>Still feel their ruffian gripe, nor can believe</l>
+       <l>I yet am safe, tho' I no more behold them.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>They are fled far: but, ah! thy side is pierc'd;</l>
+       <l>Nor does this houseless solitude afford</l>
+       <l>The chance of timely succour.</l>
+      </sp>
+      <sp who="#alinda">
+       <speaker>ALINDA.</speaker>
+       <l>Heaven is just,</l>
+       <l>(For now I know you) since it bids me die,</l>
+       <l>Weeping for pardon at your injur'd knees;</l>
+       <l>For I have basely wrong'd you.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>Wrong'd me! How?</l>
+       <l>All who have ever serv'd, or lov'd that false one,</l>
+       <l>As they bring back her irksome memory,</l>
+       <l>I shou'd avoid in wisdom. So confin'd,</l>
+       <l>It is not in thy sphere to wake a thought,</l>
+       <l>More than compassion for thy helpless sex,</l>
+       <l>And aid my order binds to.</l>
+      </sp>
+      <sp who="#alinda">
+       <speaker>ALINDA.</speaker>
+       <l>Have but patience,</l>
+       <l>Nor waste the few short moments fate allows me</l>
+       <l>To doubt my truth; the seal of death is on it.</l>
+       <l>You left the court on much supposed proof</l>
+       <l>Of her incontinence.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>Supposed proof!</l>
+       <l>
+        <pb n="52" facs="55"/>By Heaven! I saw her in the fulsome twine</l>
+       <l>Of riotous dalliance with one she swore,</l>
+       <l>That very noon, (a budding perjury)</l>
+       <l>Excited but her loathing.</l>
+      </sp>
+      <sp who="#alinda">
+       <speaker>ALINDA.</speaker>
+       <l>At her window</l>
+       <l>I know you think you saw her.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>Think I saw her!</l>
+       <l>Is there for visible objects better sense</l>
+       <l>Than sight to hold by?</l>
+      </sp>
+      <sp who="#alinda">
+       <speaker>ALINDA.</speaker>
+       <l>Oh, most injur'd lady!</l>
+       <l>My sullied lips wou'd but profane thy virtue</l>
+       <l>To say I know it spotless.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>Do not mock me</l>
+       <l>With hopes impossible. I see her still—</l>
+       <l>Her snowy veil and sparkling coronet,</l>
+       <l>Peculiar in their form—</l>
+      </sp>
+      <sp who="#alinda">
+       <speaker>ALINDA.</speaker>
+       <l>By me were worn,</l>
+       <l>While she and harmless thoughts slept sound together:</l>
+       <l>Bireno's was the fraud; my boundless love</l>
+       <l>Made me his instrument.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>Oh, hold my brain!—</l>
+       <l>But one thing more—How came he by that letter?</l>
+       <l>Her picture, mine?</l>
+      </sp>
+      <sp who="#alinda">
+       <speaker>ALINDA.</speaker>
+       <l>These too I found, and gave him,</l>
+       <l>By her for you intended. 'Midst her notes</l>
+       <l>I found his title writ, and trac'd the address</l>
+       <l>Stroke after stroke agreeing.</l>
+      </sp>
+      <sp who="#paladore">
+       <pb n="53" facs="56"/>
+       <speaker>PALADORE.</speaker>
+       <l>Wretch! fond wretch!</l>
+       <l>Have I for this with viperous calumny</l>
+       <l>Traduc'd her virgin fame? With desperate hand</l>
+       <l>Rais'd this sharp sword against my tortur'd breast?</l>
+       <l>But I will turn an usurer in revenge,</l>
+       <l>And take such bloody interest for my wrongs—</l>
+      </sp>
+      <sp who="#alinda">
+       <speaker>ALINDA.</speaker>
+       <l>Let Heaven be my avenger—How I lov'd him!</l>
+       <l>Oh, savage! merciless! To snare my life,</l>
+       <l>From mere suspicion my unwary tongue</l>
+       <l>Might publish his contrivance—</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>How! thy life!</l>
+       <l>Inhuman dog! Were these his ruffians then,</l>
+       <l>I found thee struggling with?</l>
+      </sp>
+      <sp who="#alinda">
+       <speaker>ALINDA.</speaker>
+       <l>I thought they led me,</l>
+       <l>By his especial care, far from the city,</l>
+       <l>Where he ordain'd I shou'd remain secure</l>
+       <l>To hide this swelling witness of my shame</l>
+       <l>My fatal passion bears him.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>Heaven defend me!</l>
+      </sp>
+      <sp who="#alinda">
+       <speaker>ALINDA.</speaker>
+       <l>There lies the bloody contract. Oh, forgive me!</l>
+       <l>I have struggled hard to make this last confession:</l>
+       <l>The icy grasp of death chills my shrunk heart.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>Wou'd I cou'd save thee!</l>
+      </sp>
+      <sp who="#alinda">
+       <speaker>ALINDA.</speaker>
+       <l>Say but you forgive me.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>As I wou'd be forgiven.</l>
+      </sp>
+      <sp who="#alinda">
+       <pb n="54" facs="57"/>
+       <speaker>ALINDA.</speaker>
+       <l>And will you plead</l>
+       <l>My pardon with my ever gracious mistress,</l>
+       <l>When she shall know?—'Tis dark—Let this attone.
+<stage>Dies.</stage>
+       </l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>Peace to thy hapless shade! Thou hast wash'd out</l>
+       <l>Thy offences in thy blood.—Unnatural slave!</l>
+       <l>Hell shou'd invent new torments for thy crimes,</l>
+       <l>And howling fiends avoid thee. I have heard,</l>
+       <l>Have read, bold fables of enormity,</l>
+       <l>Devis'd to make men wonder, and confirm</l>
+       <l>The abhorrence of our nature, but this hardness</l>
+       <l>Transcends all fiction. Mover of the world!</l>
+       <l>Send not thy sulphurous lightning forth to strike,</l>
+       <l>Nor cleave the ground to gape and swallow him;</l>
+       <l>But, Oh! reserve him for the sharper pangs</l>
+       <l>My vengeance meditates. Poor blasted flower!</l>
+       <l>Which way shall I bestow thee? It were cruel</l>
+       <l>To leave thee thus to insult.—Hold, yon peasant</l>
+       <l>May help to bear her hence. Shepherd, approach.</l>
+      </sp>
+     </div>
+     <div n="5" type="scene">
+      <head>SCENE V.</head>
+      <stage>
+       <hi>To</hi> PALADORE <hi>a</hi> SHEPHERD.</stage>
+      <sp>
+       <l>Hast thou a habitation near this place?</l>
+      </sp>
+      <sp who="#shepherd">
+       <speaker>SHEPHERD.</speaker>
+       <l>Fair Sir, I have. There eastward turn your eyes;</l>
+       <l>The curling smoke above yon tufted trees</l>
+       <l>Mounts from my cottage fire.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>Then call for aid,</l>
+       <l>And bear this body thither.</l>
+      </sp>
+      <sp who="#shepherd">
+       <speaker>SHEPHERD.</speaker>
+       <l>Mercy guard us!</l>
+       <l>This is a piteous sight. What cou'd provoke</l>
+       <l>
+        <pb n="55" facs="58"/>A youth of such a sweet and comely outside,</l>
+       <l>To act so sad a deed?</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>You wrong me, shepherd;</l>
+       <l>She fell by ruffians. Pr'ythee call thy hinds,</l>
+       <l>And for thy soul's sake do this courtesy.</l>
+      </sp>
+      <sp who="#shepherd">
+       <speaker>SHEPHERD.</speaker>
+       <l>Good Sir, detain me not. I haste to the city,</l>
+       <l>Where all our villagers flock to behold</l>
+       <l>A most strange sight, and sad as it is strange;</l>
+       <l>With their best speed, my old limbs will be late;</l>
+       <l>The sun goes down apace.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>Whate'er the sight,</l>
+       <l>Respite thy curiosity for gold.</l>
+       <l>Take this, and give a covering to that corse.
+<stage>Gives a purse.</stage>
+       </l>
+       <l>I must away; you shall hear further from me.
+<stage>Exit.</stage>
+       </l>
+      </sp>
+     </div>
+     <div n="6" type="scene">
+      <head>SCENE VI.</head>
+      <stage>
+       <hi>To the</hi> SHEPHERD, <hi>at an opposite Entrance,</hi> RINALDO.</stage>
+      <sp who="#shepherd">
+       <speaker>SHEPHERD.</speaker>
+       <l>He had a hard heart, lady, struck thee down.</l>
+       <l>I wou'd not for the herds that graze these hills</l>
+       <l>Beyond my eyes, not, no, nor for the wealth</l>
+       <l>Of all who throng the city, I or mine</l>
+       <l>Shou'd answer for a sin like this at doom's-day.</l>
+       <l>Oh, if thy father lives, what bitter tears</l>
+       <l>Will this misdeed wring from his watery eyes!</l>
+       <l>Thou shalt not want what I can do for thee.</l>
+       <l>I'll make thy bed with leaves, and strew thee o'er</l>
+       <l>With herbs and flowers, wild thyme and lavender,</l>
+       <l>White lilies, and the prime of all our fields:</l>
+       <l>And for thy soul's peace, till thy knell is toll'd,</l>
+       <l>I'll number many an ave.—Come, for help.</l>
+      </sp>
+      <sp who="#rinaldo">
+       <pb n="56" facs="59"/>
+       <speaker>RINALDO.</speaker>
+       <l>Oh, cursed chance! Vain is my search to find him;</l>
+       <l>Yet all his life to come, from one lost moment</l>
+       <l>May take its mournful colour. Doom'd to die;</l>
+       <l>And he alike accus'd, leave her to perish!</l>
+       <l>Most horrible!—Kind shepherd! answer quickly;</l>
+       <l>Saw'st thou a youth clad in a shining robe,</l>
+       <l>Of noble port, wandering these tangled woods?</l>
+      </sp>
+      <sp who="#shepherd">
+       <speaker>SHEPHERD.</speaker>
+       <l>Even such a one as you describe, but now,</l>
+       <l>(Him of your question doubtless) went from hence,</l>
+       <l>And left with me in charge—</l>
+      </sp>
+      <sp who="#rinaldo">
+       <speaker>RINALDO.</speaker>
+       <l>No matter what.</l>
+       <l>Know you the path he took, which way his course?</l>
+      </sp>
+      <sp who="#shepherd">
+       <speaker>SHEPHERD.</speaker>
+       <l>I follow'd him a little with my eye,</l>
+       <l>And saw him wind round yonder shrubby hill,</l>
+       <l>Then pass the row of olives.</l>
+      </sp>
+      <sp who="#rinaldo">
+       <speaker>RINALDO.</speaker>
+       <l>Leads it not</l>
+       <l>Strait to the city?</l>
+      </sp>
+      <sp who="#shepherd">
+       <speaker>SHEPHERD.</speaker>
+       <l>As the falcon flies.</l>
+      </sp>
+      <sp who="#rinaldo">
+       <speaker>RINALDO.</speaker>
+       <l>Oh, Fortune! Guide his steps once more to Pavia,</l>
+       <l>Else, never ending misery awaits him.</l>
+      </sp>
+      <stage>Exeunt severally.</stage>
+     </div>
+     <trailer>END OF THE FOURTH ACT.</trailer>
+    </div>
+    <div n="5" type="act">
+     <pb n="57" facs="60"/>
+     <head>ACT V.</head>
+     <div n="1" type="scene">
+      <head>SCENE I.</head>
+      <stage>
+       <hi>a Hall.</hi>
+      </stage>
+      <stage>LUCIO, <hi>an</hi> OFFICER.</stage>
+      <sp who="#officer">
+       <speaker>OFFICER.</speaker>
+       <l>THINK on the danger.</l>
+      </sp>
+      <sp who="#lucio">
+       <speaker>LUCIO.</speaker>
+       <l>Who sees only that,</l>
+       <l>Will ne'er surmount it. More than life I owe her.</l>
+       <l>Adversity's hard hand had crush'd my hopes,</l>
+       <l>Doom'd my sweet wife, and infant family,</l>
+       <l>To shameful beggary: my affliction reach'd her:</l>
+       <l>Can I forget her all-dispensing bounty,</l>
+       <l>That rais'd my soul from comfortless despair,</l>
+       <l>That bad my cheerful house again receive me,</l>
+       <l>Bless'd us with plenty?—If I fall, and save her,</l>
+       <l>'Tis well; I ask no nobler epitaph.</l>
+      </sp>
+      <sp who="#officer">
+       <speaker>OFFICER.</speaker>
+       <l>There's virtue in your motive, and your purpose;</l>
+       <l>But how effect her rescue?</l>
+      </sp>
+      <sp who="#lucio">
+       <speaker>LUCIO.</speaker>
+       <l>Will you join us?</l>
+      </sp>
+      <sp who="#officer">
+       <speaker>OFFICER.</speaker>
+       <l>Or why these questions?</l>
+      </sp>
+      <sp who="#lucio">
+       <speaker>LUCIO.</speaker>
+       <l>I dare trust your honour,</l>
+       <l>The bond of soldiers. Know then, I command</l>
+       <l>(And sought it with this hope) her prison guard:</l>
+       <l>I have sounded them, they hate the cruel service.</l>
+       <l>A little, ere the fatal hour's approach,</l>
+       <l>
+        <pb n="58" facs="61"/>We mean to pass their unresisting force,</l>
+       <l>Throw wide the iron gates, and bear her safe</l>
+       <l>Beyond the danger of this bloody edict.</l>
+      </sp>
+      <sp who="#officer">
+       <speaker>OFFICER.</speaker>
+       <l>It looks success, may fortune second it!</l>
+       <l>The throngs assembled to behold the sight,</l>
+       <l>Will count for idle gazers, and conceal</l>
+       <l>Your bold design, till 'tis too late to twhart it.</l>
+       <l>How brooks she her sad plight?</l>
+      </sp>
+      <sp who="#lucio">
+       <speaker>LUCIO.</speaker>
+       <l>With fortitude</l>
+       <l>So sweet, so even-temper'd, that her death</l>
+       <l>Seems but a phantom, dress'd by Fancy's trick,</l>
+       <l>To frighten children. All her soul's employ'd</l>
+       <l>In minist'ring, with softest piety,</l>
+       <l>To her distracted father.</l>
+      </sp>
+      <sp who="#officer">
+       <speaker>OFFICER.</speaker>
+       <l>There's a spectacle,</l>
+       <l>Indeed, heart-rending. Cast on the cold ground,</l>
+       <l>He strews his head with ashes, by the roots</l>
+       <l>Tears out his silver hair, beats his poor breast;</l>
+       <l>While the significant dumbness of his gesture,</l>
+       <l>Beggars all power of words.</l>
+      </sp>
+      <sp who="#lucio">
+       <speaker>LUCIO.</speaker>
+       <l>Thou blind mischance,</l>
+       <l>Stand neuter! we shall cheer him presently.</l>
+       <l>I'll to my station. Keep thy sword conceal'd,</l>
+       <l>Nor sheathe it drawn, but in the villain's breast,</l>
+       <l>That dare oppose us. Be but firm, and fear not.</l>
+      </sp>
+      <stage>Exeunt severally.</stage>
+     </div>
+     <div n="2" type="scene">
+      <head>SCENE II.</head>
+      <sp who="#bireno">
+       <speaker>BIRENO,</speaker>
+       <stage>alone.</stage>
+       <l>By their description, it was Paladore;</l>
+       <l>The place, the glittering robe, his courage too,</l>
+       <l>
+        <pb n="59" facs="62"/>In so assailing them. If their keen daggers</l>
+       <l>Left her enough of breath to tell the tale,</l>
+       <l>She has, no doubt, told all, and wing'd him back,</l>
+       <l>To wreak his vengeance on me; this way only,</l>
+       <l>Can I be safe; firm as he is, and fearless,</l>
+       <l>My ambush cuts him off; and, by his death,</l>
+       <l>The full tide of my prosperous fortune flows,</l>
+       <l>Never to ebb.</l>
+      </sp>
+     </div>
+     <div n="3" type="scene">
+      <head>SCENE III.</head>
+      <stage>
+       <hi>To</hi> BIRENO, ASCANIO.</stage>
+      <sp>
+       <l>Well, the great period comes;</l>
+       <l>No champion meets my challenge?</l>
+      </sp>
+      <sp who="#ascanio">
+       <speaker>ASCANIO.</speaker>
+       <l>No, not one.</l>
+       <l>Fear puts the livery of conscience on:</l>
+       <l>They cannot think one of your nobleness,</l>
+       <l>Wou'd charge a lady falsely to the death;</l>
+       <l>And few are the examples of success</l>
+       <l>Against conviction: "true, 'tis pitiful,</l>
+       <l>"That one so fair, so young, of royal birth,</l>
+       <l>"For the meer frailty of impulsive nature,</l>
+       <l>"Should meet so sad a doom; the law's to blame,</l>
+       <l>"That bloodily enrolls a venial trespass,</l>
+       <l>"With those o'ergrown and huge enormities,</l>
+       <l>"That shake society;" but they can no more,</l>
+       <l>Than drop a tear or two, and let her die.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>True; she must die; and the heart-wounded king,</l>
+       <l>Whose age already totters o'er the grave,</l>
+       <l>Like a crush'd serpent, but a little longer</l>
+       <l>Will drag his painful being. Yet one fear</l>
+       <l>Sits, like a boding raven o'er my breast,</l>
+       <l>And flaps its heavy wing to damp my joy.</l>
+      </sp>
+      <sp who="#ascanio">
+       <speaker>ASCANIO.</speaker>
+       <l>What fear can reach you now? From Paladore?</l>
+      </sp>
+      <sp who="#bireno">
+       <pb n="60" facs="63"/>
+       <speaker>BIRENO.</speaker>
+       <l>Perdition seize him! yes. But, my good ruffians,</l>
+       <l>Ere this, I trust, have sent to his account,</l>
+       <l>That ill-star'd Briton. Doubly arm'd they wait him—</l>
+       <l>Close by a brambled cavern he must pass,</l>
+       <l>Returning hither. Yet, should he escape—</l>
+       <l>It cannot be—Heart, re-assume thy seat.</l>
+       <l>But, come, the time draws on—Bear to the lists,</l>
+       <l>My martial ensigns; I must seem prepar'd</l>
+       <l>To oppose a danger that will never meet me.</l>
+       <stage>As be is going, a servant delivers a paper. Reads.</stage>
+       <l>The hand of Bernardine, my trusty spy.</l>
+       <l>Confusion! rescue her! Come back, Ascanio!</l>
+       <l>Fly to St. Mark's, collect the cohort there;</l>
+       <l>Go, place them instantly around the prison;</l>
+       <l>Bid them disarm the guard that holds that place,</l>
+       <l>And, on their lives, drive back the populace.</l>
+       <l>I'll to Honorias—These stout veterans</l>
+       <l>Will sweep the rabble like vile chaff before them.</l>
+       <l>Away—A moment may be fatal to us.
+<stage>Exeunt severally.</stage>
+       </l>
+      </sp>
+     </div>
+     <div n="4" type="scene">
+      <head>SCENE IV.</head>
+      <stage>
+       <hi>a Prison.</hi>
+      </stage>
+      <stage>PRINCESS, WOMEN <hi>attending.</hi>
+      </stage>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>Nay, dry these tears—The aweful eve of death</l>
+       <l>Is but profan'd by shews of common sorrow.</l>
+       <l>I have a triple armour round my heart,</l>
+       <l>'Gainst all the shapes of terror; yet it owns</l>
+       <l>The soft contagion of affection's drops,</l>
+       <l>And melts at kindness. Come, this must not be —</l>
+       <l>You, Laura! must be near me at the block,</l>
+       <l>And help to disarray me.—What, more tears?</l>
+       <l>Stop them, for shame; I must have strangers else,</l>
+       <l>For this last office. When the axe has fallen,</l>
+       <l>They have no further power—Save from disgrace,</l>
+       <l>My poor remains, and on your loves, I charge you,</l>
+       <l>
+        <pb n="61" facs="64"/>When I am dead, see, that they touch me not.</l>
+       <l>I have not been unmindful of your service.</l>
+       <l>It is not much—There were too many poor,</l>
+       <l>Too many comfortless, to leave me rich:</l>
+       <l>But you will find a father in the king,</l>
+       <l>And, for my sake, he will be bounteous to you.</l>
+       <l>Retire, and weep, I dare not look upon you.</l>
+       <stage>Takes a picture from her breast.</stage>
+       <l>Thou dear dumb image of a form belov'd!</l>
+       <l>Soul of my soul, and precious even in death,</l>
+       <l>A while be sensible! Receive this sigh,</l>
+       <l>And take my last farewel. When thou shalt know</l>
+       <l>My truth, and sufferings, let not the sad tale</l>
+       <l>Blast the fair promise of thy noble youth,</l>
+       <l>But, with a sweet, a sacred melancholy,</l>
+       <l>Embalm the soft remembrance of my love.</l>
+       <l>My father! Oh, angelic host support me,</l>
+       <l>To bear this parting, and death's pang is past!</l>
+      </sp>
+     </div>
+     <div n="5" type="scene">
+      <head>SCENE V.</head>
+      <sp who="#princess">
+       <speaker>PRINCESS, KING.</speaker>
+       <l>I am indeed subdued—To see thee thus!</l>
+      </sp>
+      <sp who="#king">
+       <speaker>KING.</speaker>
+       <l>They would not let me die—</l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>These few short hours,</l>
+       <l>Alas, how have they chang'd thee! Murderous sorrow!</l>
+       <l>Thy furrows sink more deep than age or time.</l>
+       <l>Your cheek is ashy pale, your eyes quite sunk.</l>
+       <l>Will you not look upon me?</l>
+      </sp>
+      <sp who="#king">
+       <speaker>KING.</speaker>
+       <l>Oh, no, no;</l>
+       <l>I came to give thee comfort, to sustain thee;</l>
+       <l>But, looking on thee, I shall weep again,</l>
+       <l>And add my load of misery to thine.</l>
+       <l>Yet teach me to be patient.</l>
+      </sp>
+      <sp who="#princess">
+       <pb n="62" facs="65"/>
+       <speaker>PRINCESS.</speaker>
+       <l>View me well;</l>
+       <l>Nor think these tears fall for my own distress;</l>
+       <l>The throbbings of my heart are for my father.</l>
+       <l>'Tis apprehension makes death terrible;</l>
+       <l>Cowards, from weakness, tremble; guilt, from conscience;</l>
+       <l>But the firm bosom innocence invests;</l>
+       <l>Knows it a fix'd inevitable end,</l>
+       <l>Meets the pale guest, nor startles at the encounter.</l>
+      </sp>
+      <sp who="#king">
+       <speaker>KING.</speaker>
+       <l>Thou wert my all, a mote that vex'd thy eye,</l>
+       <l>A thorn that raz'd thy finger, snatch'd my thoughts</l>
+       <l>From every care but thee. And thus to lose thee!</l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>Oh, were our being circumscrib'd by earth,</l>
+       <l>This end indeed might shake my constancy:</l>
+       <l>But, faith apart: think what bright evidence</l>
+       <l>Shines here within of immortality.</l>
+       <l>Who has not felt the heavenly overflow</l>
+       <l>Of thought congenial to the eternal mind?</l>
+       <l>Why are there tears of virtuous sympathy?</l>
+       <l>Whence that coelestial fluid of the eye,</l>
+       <l>That sheds such full, such satisfied delight?</l>
+       <l>But that the God of all benevolence,</l>
+       <l>Thus gives a glimpse of blessedness to come,</l>
+       <l>In joys refin'd from sense, and far transcending?</l>
+      </sp>
+      <sp who="#king">
+       <speaker>KING.</speaker>
+       <l>What has old age to lose? Is the poor remnant</l>
+       <l>Of life worn thread-bare, precious for itself?</l>
+       <l>Can we be fond of pain, and feebleness?</l>
+       <l>No; but our second spring, our soul's renew'd</l>
+       <l>In our dear children, there we cling to life:</l>
+       <l>Mortality! thy last, thy heaviest curse.</l>
+       <l>Bids us remain the mournful monument,</l>
+       <l>The living tomb of all our comforts buried,</l>
+       <l>Telling no more in our sepulchral sorrow,</l>
+       <l>Than that they were, and are not.</l>
+      </sp>
+      <sp who="#princess">
+       <pb n="63" facs="66"/>
+       <speaker>PRINCESS.</speaker>
+       <l>You must live</l>
+       <l>(For sure the hour will come) to see this cloud</l>
+       <l>Pass from my memory; and the shame he merits,</l>
+       <l>Fall on my base accuser.</l>
+      </sp>
+      <sp who="#king">
+       <speaker>KING.</speaker>
+       <stage>[Kneeling.]</stage>
+       <l>Hear me, Heaven?</l>
+       <l>On the devoted murderer of my child,</l>
+       <l>With tenfold visitation pour my sorrow!</l>
+       <l>Let fear, mistrust, and horror ever haunt him!</l>
+       <l>Slumber forsake his couch, and joy his table!</l>
+       <l>If he must reign, Oh, line his crown with thorns!</l>
+       <l>Turn reverence to contempt, the friend he trusts,</l>
+       <l>Meet him for smiles with daggers: war abroad,</l>
+       <l>Treason at home, pursue, and harrass him!</l>
+       <l>And may the steam, that mounts from innocent blood,</l>
+       <l>Make heavier the dire thunderbolt,</l>
+       <l>Lanc'd from thy red right arm, at last to crush him!</l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>Spirit of peace! on his distemper'd rage,</l>
+       <l>Oh, shed thy healing balm!
+<stage>A noise without.</stage>
+       </l>
+       <l>What mean these shouts?</l>
+       <l>This wild tumultuous noise?</l>
+      </sp>
+      <stage>
+       <hi>To them an</hi> ATTENDANT.</stage>
+      <sp who="#attendant">
+       <speaker>ATTENDANT.</speaker>
+       <l>Our prayers are heard:</l>
+       <l>The guard gives way, the massy bars are forc'd;</l>
+       <l>And, like delivering angels, the rous'd people,</l>
+       <l>Burst in to lead you from this den of horror.</l>
+      </sp>
+      <sp who="#king">
+       <speaker>KING.</speaker>
+       <l>Oh, joy unhop'd! Millions of blessings crown them!</l>
+      </sp>
+      <sp who="#attendant">
+       <speaker>ATTENDANT.</speaker>
+       <l>Led by the gallant Lucio, they advance.</l>
+      </sp>
+      <sp who="#king">
+       <pb n="64" facs="67"/>
+       <speaker>KING.</speaker>
+       <l>The tiger then may seek his prey in vain;</l>
+       <l>My brave, my generous people! Hark! they come.</l>
+      </sp>
+      <stage>More noise.</stage>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>Ah, Sir! retire—Your heart must thank their purpose;</l>
+       <l>Yet sure 'twere most unmeet for royalty.</l>
+       <l>Whose sway, and throne, are hallow'd in obedience,</l>
+       <l>To countenance this outrage. Pray, retire.</l>
+      </sp>
+      <sp who="#king">
+       <speaker>KING.</speaker>
+       <l>Yes, I will go; but, Oh, be swift, my child!</l>
+       <l>Nor dally with this blessed chance to save thee.
+<stage>Exit.</stage>
+       </l>
+      </sp>
+     </div>
+     <div n="6" type="scene">
+      <head>SCENE VI.</head>
+      <stage>
+       <hi>To her,</hi> LUCIO, <hi>his sword drawn.</hi>
+      </stage>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <stage>[Advancing.]</stage>
+       <l>Your purpose, quickly?</l>
+      </sp>
+      <sp who="#lucio">
+       <speaker>LUCIO.</speaker>
+       <stage>[Kneeling.]</stage>
+       <l>Your deliverance, lady!</l>
+       <l>I owe a debt of boundless gratitude,</l>
+       <l>And thus in part wou'd pay it. Madam, fly!</l>
+       <l>The people all are yours, a chosen band,</l>
+       <l>Faithful, and brave, wait to conduct you hence:</l>
+       <l>This smiling moment seiz'd, may place you safe,</l>
+       <l>Beyond the dreadful fate that threatens you.</l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>But not beyond the reach of soul disgrace,</l>
+       <l>The noble mind's worst fate—I know thee, Lucio!</l>
+       <l>And thank thy kind intention. Cou'd my flight</l>
+       <l>Restore my name to its original whiteness,</l>
+       <l>Make palpable his lie who slanders me,</l>
+       <l>I'd think thee thus commission'd from above,</l>
+       <l>And welcome life with transport.</l>
+      </sp>
+      <sp who="#lucio">
+       <speaker>LUCIO.</speaker>
+       <l>Do I wake!</l>
+       <l>When your good angel thus by me invites you,</l>
+       <l>
+        <pb n="65" facs="68"/>Is this a time to doubt? Can you devote</l>
+       <l>That rosy youth, that all commanding beauty,</l>
+       <l>To voluntary death?</l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>Were it a pain,</l>
+       <l>Worse than the fear of cowards can conceive,</l>
+       <l>I wou'd abide it. Have I not endur'd</l>
+       <l>A greater horror, heard myself proclaim'd,</l>
+       <l>The thing I scorn to utter? Shall I live,</l>
+       <l>To bear about a disputable fame,</l>
+       <l>Scattering the eternal seeds of strife and war,</l>
+       <l>Over my country, for the privilege</l>
+       <l>To draw a little transitory breath,</l>
+       <l>And be consign'd to infamy, or honour,</l>
+       <l>But as the sword of conquest arbitrates?</l>
+      </sp>
+      <sp who="#lucio">
+       <speaker>LUCIO.</speaker>
+       <l>These are suggestions of your generous anger,</l>
+       <l>And not your reason—Oh, most honour'd lady!</l>
+       <l>Again behold me prostrate at your feet:</l>
+       <l>Thus, thus, by me the people supplicate.
+<stage>Kneels.</stage>
+       </l>
+       <l>We have but one short moment left to save you;</l>
+       <l>Seize it, and live, live to be still rever'd</l>
+       <l>Your country's pride, her boast, her ornament.</l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>I am not to be chang'd. But, Oh, my father!</l>
+       <l>The good old king, he wants a friend like thee.</l>
+      </sp>
+      <sp who="#ascanio">
+       <speaker>ASCANIO.</speaker>
+       <stage>[Without.]</stage>
+       <l>Force down the bridge. Kill all who dare oppose.</l>
+       <l>They fly; stand fast —</l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>He cuts my purpose short.</l>
+      </sp>
+     </div>
+     <div n="7" type="scene">
+      <pb n="67" facs="69"/>
+      <head>SCENE VII.</head>
+      <stage>ASCANIO, <hi>with Soldiers to them.</hi>
+      </stage>
+      <sp who="#lucio">
+       <speaker>LUCIO.</speaker>
+       <l>Oh, death to all our hopes! 'tis now too late.</l>
+       <l>I cast thee from my hand, vile instrument!</l>
+       <l>Since she disdains thy service.
+<stage>Throws down his sword.</stage>
+       </l>
+      </sp>
+      <sp who="#ascanio">
+       <speaker>ASCANIO.</speaker>
+       <l>Seize that traitor—</l>
+       <l>Quick, bear him hence—Madam, I grieve to speak it,</l>
+       <l>The herald, to the temple porch, has issued</l>
+       <l>For final proclamation.</l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>Spare your sorrow—</l>
+       <l>A shameful world, disgrac'd by souls like thine,</l>
+       <l>Turns grief to joy, when noble natures leave it.</l>
+      </sp>
+      <stage>
+       <hi>Exit</hi> Princess <hi>guarded.</hi>
+      </stage>
+     </div>
+     <div n="8" type="scene">
+      <head>SCENE VIII.</head>
+      <stage>
+       <hi>To</hi> ASCANIO, BIRENO.</stage>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>Oh, let me clasp thee! This was worthy service.</l>
+       <l>But for thy zeal, the high-rais'd edifice</l>
+       <l>So near complete, had tumbled to the earth,</l>
+       <l>And crush'd me in its fall.</l>
+      </sp>
+      <sp who="#ascanio">
+       <speaker>ASCANIO.</speaker>
+       <l>Haste to the lists;</l>
+       <l>A moment more consummates our design,</l>
+       <l>And Fate itself may strive in vain to shake us.
+<stage>Exeunt.</stage>
+       </l>
+      </sp>
+     </div>
+     <div n="9" type="scene">
+      <pb n="67" facs="70"/>
+      <head>SCENE IX.</head>
+      <stage>
+       <hi>The Lists in the middle of the stage. A scaffold, guard, and executioner at the bottom. Many spectators, officers, and senators, preceding the Princess, supported by women.</hi> Bireno <hi>with</hi> Ascanio, <hi>who bears his shield and sword. Heralds, with trumpets, on the sides.</hi>
+      </stage>
+      <sp who="#officer">
+       <speaker>OFFICER.</speaker>
+       <l>Make room. Fall back. Let the procession pass.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>'Tis known why I stand here; yet once again,</l>
+       <l>And for the last time, herald, sound my challenge.</l>
+       <l>Proceed, none answer.
+<stage>Bireno'<hi>s Trumpet sounds.</hi>
+        </stage>
+       </l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>I wou'd have it so.</l>
+       <l>You generous people, who behold with horror</l>
+       <l>These gloomy preparations, do not deem me</l>
+       <l>Cold, and unthankful, for my offer'd safety,</l>
+       <l>Tho' I prefer'd this dire alternative.</l>
+       <l>Before the tongue of slander struck my fame,</l>
+       <l>The rude hand of affliction never touch'd me;</l>
+       <l>Life had a thousand bonds to tie me to it,</l>
+       <l>Young spirits, royal birth, fortune, and greatness:</l>
+       <l>But honour was the prop, round which, like stalks</l>
+       <l>Tender and weak, these accessaries twin'd.</l>
+       <l>When Calumny's sharp edge cut down that trunk,</l>
+       <l>Then these poor tendrils lost their hue, and wither'd.</l>
+       <l>With that great ruin fell my happiness.</l>
+       <l>I now stand on eternity's dark verge,</l>
+       <l>Nor dare I to the God, and Judge of Truth,</l>
+       <l>Bring lips with falsehood fullied. Of the offence</l>
+       <l>Cast on me by vile malice, I am free,</l>
+       <l>Even to abhorrence; this to Heaven is known,</l>
+       <l>My own heart, and my accuser: therefore boldly,</l>
+       <l>And for your sakes, will I arraign the law,</l>
+       <l>Which thus has pass'd upon me.</l>
+      </sp>
+      <sp who="#first_senator">
+       <pb n="68" facs="71"/>
+       <speaker>FIRST SENATOR.</speaker>
+       <l>Gracious lady!</l>
+       <l>If in this censure we too stand accus'd,</l>
+       <l>Think we pronounc'd, but did not make the law.</l>
+       <l>And let my bleeding heart bear witness for me,</l>
+       <l>I wou'd lay down the dearest thing I own,</l>
+       <l>To save you from the forfeit.</l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>Good, my Lord!</l>
+       <l>All forms of justice have been well observ'd;</l>
+       <l>My blame lights on the law, not on your office,</l>
+       <l>Which you with truth and mercy minister.</l>
+       <l>But let these mute spectators mark my counsel:</l>
+       <l>Fall at the king's feet, clasp the senate's knees,</l>
+       <l>And pray them, they wipe out clear from their rolls,</l>
+       <l>This more than cruel edict; else, be sure</l>
+       <l>From every roof there hangs a dangerous sword,</l>
+       <l>(Hangs by a thread) which each dark hand may drop</l>
+       <l>To pierce and sever nature's dearest ties.</l>
+       <l>She who profanes her honor's sanctity,</l>
+       <l>Upbraided by her heart, by her own sex</l>
+       <l>Shun'd or neglected, nay, held cheap, and vile,</l>
+       <l>Even to the loathing of the lover's sense,</l>
+       <l>Who wrought her easy nature to transgress;</l>
+       <l>These are sharp penalties: but added death</l>
+       <l>Turns the clear stream of justice into blood,</l>
+       <l>And makes such law more curs'd than anarchy.</l>
+       <l>Forget not my example; let me perish:</l>
+       <l>But if you pluck your safety from my ruin,</l>
+       <l>I shall not die in vain. Farewel—Lead on—</l>
+      </sp>
+      <stage>Princess <hi>goes toward the Scaffold, a Trumpet sounds.</hi>
+      </stage>
+      <sp who="#first_senator">
+       <speaker>FIRST SENATOR.</speaker>
+       <l>Hold, on your lives.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>What means that trumpet's voice?</l>
+       <l>It sounds a shrill alarm.</l>
+      </sp>
+     </div>
+     <div n="10" type="scene">
+      <pb n="69" facs="72"/>
+      <head>SCENE X.</head>
+      <stage>
+       <hi>To them a</hi> SQUIRE.</stage>
+      <sp who="#squire">
+       <speaker>SQUIRE.</speaker>
+       <l>Arrest your sentence.</l>
+       <l>I come in the name of one, who hears with horror</l>
+       <l>This barbarous process, to proclaim the accuser</l>
+       <l>Of that most innocent and royal lady,</l>
+       <l>A slanderer and villain; who accepts</l>
+       <l>Her just defence, and by the law of arms</l>
+       <l>Throws down this gage, and claims the combat for her.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>Take it, Ascanio. Bid your knight appear,</l>
+       <l>(If such his order) for to none beneath</l>
+       <l>Am I thus bound to answer. Speak his titles.</l>
+      </sp>
+      <sp who="#squire">
+       <speaker>SQUIRE.</speaker>
+       <l>He wills not I reveal him; but suffice it,</l>
+       <l>He has a name in arms that will not shame</l>
+       <l>The noble cause he fights for.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>Bid him enter.</l>
+       <l>My shield and sword. Say, I am deck'd to meet him.</l>
+       <stage>
+        <hi>Exit</hi> Squire.</stage>
+       <l>Some rash adventurer, prodigal of life,</l>
+       <l>Brib'd by her father's gold to grace her fall,</l>
+       <l>And add an easy trophy to my banners.—</l>
+       <l>Confusion! Paladore!</l>
+      </sp>
+     </div>
+     <div n="11" type="scene">
+      <head>SCENE XI.</head>
+      <stage>
+       <hi>To them</hi> PALADORE.</stage>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>'Tis he, 'tis he!—</l>
+       <l>Then, life, thou art welcome.—</l>
+      </sp>
+      <stage>A loud Murmur among the People.</stage>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>Marshal, do your office!</l>
+       <l>
+        <pb n="70" facs="73"/>Furies and hell!—Keep order in the lists!—</l>
+       <l>Silence that uproar—</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>Yes, behold me, villain!</l>
+       <l>I have thee in the toils; thou can'st not scape me.—</l>
+       <l>But Oh! most wrong'd, and heavenly excellence!</l>
+       <stage>
+        <hi>To the</hi> Princess.</stage>
+       <l>How shall I plead for pardon?—Can the abuse</l>
+       <l>Of his deep craft, and devilish artifice,</l>
+       <l>Fooling my nature's plainness, blanch my cheek</l>
+       <l>From the deep shame that my too easy faith</l>
+       <l>Combin'd with hell against thee?</l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>Rise, my soldier!</l>
+       <l>Though yet I know not by what subtle practice</l>
+       <l>Thy nobleness was wrought on, nor the means</l>
+       <l>That since reveal'd his fraud, praise be to Heaven!</l>
+       <l>Thy presence plucks my honour from the grave;</l>
+       <l>Thou liv'st, thou know'st my truth, thou wilt avenge me.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>Avenge thee!—Yes—Did his right-hand grasp thunder,</l>
+       <l>Did yelling furies combat on his side,</l>
+       <l>(Pal'd in with circling fires) I wou'd assail him,</l>
+       <l>Nor cast a look to Fortune for the event.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>Presumptuous Briton! Think not that bold mien,</l>
+       <l>A wanton's favour, or thy threats, have power</l>
+       <l>To shrink the finews of a soldier's arm.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>A soldier's arm! Thou double murderer!</l>
+       <l>Assassin in thy intention, and in act.</l>
+       <l>But ere my falchion cleave thy treacherous breast</l>
+       <l>I will divulge thee.—Bring that russian forth.—</l>
+       <stage>
+        <hi>One of</hi> Alinda<hi>'s murderers is brought out.</hi>
+       </stage>
+       <l>Two hell-hounds, such as this, he set upon me;</l>
+       <l>One fell beneath my sword; that wretch I spar'd,</l>
+       <l>Kneeling for mercy: let your justice doom him.</l>
+       <l>Look you amaz'd! Peruse that paper, Lords,</l>
+       <l>
+        <pb n="71" facs="74"/>His compact for the blood of a fair minion,</l>
+       <l>He taught to sin, and made her wages death.—</l>
+       <l>Ha! Does it shake thee? See Alinda's form,</l>
+       <l>Thy panting image mangled in her side,</l>
+       <l>Stalks from her sanguine bed, and ghastly smiles,</l>
+       <l>To aid the prowess of this dauntless soldier.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <stage>[Aside.]</stage>
+       <l>Destruction! All's reveal'd!—</l>
+      </sp>
+      <sp who="#ascanio">
+       <speaker>ASCANIO</speaker>
+       <stage>
+        <hi>to</hi> BIRENO.</stage>
+       <l>What, turn'd to stone!</l>
+       <l>Droop not, for shame.—Be quick, retort the charge.</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>All false as hell! And thou—Defend thyself;</l>
+       <l>Nor blast me thus with thy detested presence.—</l>
+       <l>This to thy heart.
+<stage>
+         <hi>Fight.</hi> Bireno <hi>falls.</hi>
+        </stage>
+       </l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>Oh, impotence of guilt!</l>
+       <l>An infant's lath had fell'd him. Villain, die!</l>
+       <l>And know thy shame, and the deep wound that wriths thee,</l>
+       <l>Are but a feeble earnest of the pangs</l>
+       <l>Reserv'd beneath for giant crimes like thine.</l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>Haste to the King, proclaim this bless'd event!</l>
+      </sp>
+      <sp who="#bireno">
+       <speaker>BIRENO.</speaker>
+       <l>Perfidious chance! Caught in my own device!—</l>
+       <l>Accursed!—Ha! they drag me, tear me!—Oh!—
+<stage>Dies.</stage>
+       </l>
+      </sp>
+      <sp who="#princess">
+       <speaker>PRINCESS.</speaker>
+       <l>I have a thousand things to ask, to hear:</l>
+       <l>But, Oh! the joy to see thee thus again,</l>
+       <l>To owe my life, my honour, to thy love—</l>
+       <l>These tears, these rapturous tears, let them speak for me.</l>
+      </sp>
+      <sp who="#paladore">
+       <speaker>PALADORE.</speaker>
+       <l>I cou'd endure the malice of my fate:</l>
+       <l>But this full tide of such excessive bliss,</l>
+       <l>Sure 'tis illusion all! It quite transports me.</l>
+       <l>
+        <pb n="72" facs="75"/>When I have borne thee from this scene of horror,</l>
+       <l>Perhaps I may grow calm, and talk with reason.</l>
+      </sp>
+     </div>
+     <div n="12" type="scene">
+      <head>SCENE XII. <hi>and last.</hi>
+      </head>
+      <stage>
+       <hi>To them,</hi> KING, LUCIO, <hi>&amp;c.</hi>
+      </stage>
+      <sp who="#king">
+       <speaker>KING.</speaker>
+       <l>Where is she? Let me strain her to my heart.—</l>
+       <l>They cannot part us now, my joy! my comfort!—</l>
+       <l>Thou generous youth! How can my o'erflowing soul</l>
+       <l>Find words to thank thee?—Words! Poor recompense!</l>
+       <l>Here I invest thee with the forfeit lands,</l>
+       <l>The wealth and honours of that prostrate traitor.</l>
+       <l>This too is little—then receive her hand,</l>
+       <l>Due to thy love, thy courage, and thy virtue,</l>
+       <l>And joys unutterable crown your union.</l>
+      </sp>
+     </div>
+     <trailer>END OF THE FIFTH ACT.</trailer>
+    </div>
+   </div>
+  </body>
+  <back>
+   <div type="prologue">
+    <pb facs="76"/>
+    <head>PROLOGUE to the LAW of LOMBARDY,</head>
+    <byline>Written by the AUTHOR.</byline>
+    <byline>Spoken by Mr. FARREN.</byline>
+    <sp>
+     <l>HARD is the task, in modern days to choose,</l>
+     <l>Congenial subjects for the tragic muse:</l>
+     <l>The historian's page, the fertile epic store,</l>
+     <l>Were known, and ransack'd centuries before:</l>
+     <l>Like luscious gardens, unenclos'd they lay,</l>
+     <l>To ev'ry saunt'ring bard an easy prey.</l>
+     <l>They enter'd, and, as taste impell'd, they fed</l>
+     <l>On Homer some, and some on Hollingshead.</l>
+     <l>From loftiest numbers, or from humblest prose,</l>
+     <l>As each conspir'd, the artless structures rose.</l>
+     <l>Thus one great labour of their work was o'er,</l>
+     <l>They found a fable, and they fought no more.</l>
+     <l>Careless were they of action, place, or time,</l>
+     <l>Whose only toil was dialogue and rhyme.</l>
+     <l>"Rules which the rigid Stagyrite devis'd,</l>
+     <l>"Our fathers knew not, or, if known, despis'd.</l>
+     <l>Whilst side by side, were mingled in the scene,</l>
+     <l>A laughing rustic, and a weeping queen.</l>
+     <l>Space was obedient to the boundless piece,</l>
+     <l>That op'd in Mexico, and clos'd in Greece.</l>
+     <l>Then thick with plots the crowded tale was sown,</l>
+     <l>'Till the divided bosom felt for none;</l>
+     <l>"They fear'd no censures of a frowning pit,</l>
+     <l>"That judg'd as loosely as the authors writ."</l>
+     <l>But we, who posted in time's tardy rear,</l>
+     <l>Before a learn'd tribunal now appear;</l>
+     <l>With anxious art a fable must design,</l>
+     <l>Where probability, and interest join:</l>
+     <l>Where time, and place, and action, all agree</l>
+     <l>To violate no sacred unity.</l>
+     <l>And thus each candid critic must confess</l>
+     <l>The labour greater, and indulgence less;</l>
+     <l>When such the task, the wonder is to meet,</l>
+     <l>Not many pieces bad, but one complete.</l>
+     <l>Nor let presumptious poets fondly claim</l>
+     <l>From rules exemption, by great Shakespeare's name;</l>
+     <l>Though comets move with wild excentric force,</l>
+     <l>Yet humbler planets keep their stated course.</l>
+     <l>But now, a bard, who touch'd your hearts before,</l>
+     <l>Again salutes you from a neighbouring shore.</l>
+     <l>Fir'd by the applause you gave his early lays,</l>
+     <l>He stands again a candidate for praise;</l>
+     <l>Nor from your former favour dares foresee</l>
+     <l>To worthless strains a partial destiny.</l>
+     <l>But if his virgin palm was fairly won,</l>
+     <l>And this next course with equal vigour's run,</l>
+     <l>Now join to bind his fresher laurels on.</l>
+     <l>He fears no jaundic'd rival's envious breath,</l>
+     <l>The hands which twin'd, shall still preserve the wreath.</l>
+    </sp>
+   </div>
+   <div type="epilogue">
+    <pb facs="77"/>
+    <head>EPILOGUE to the LAW of LOMBARDY.</head>
+    <byline>Written by the AUTHOR.</byline>
+    <byline>Spoken by Miss YOUNGE.</byline>
+    <sp>
+     <l>OF all the Gothic laws I ever heard,</l>
+     <l>This Lombard Law was sure the most absurd:</l>
+     <l>What! could the monsters mean to make us die,</l>
+     <l>But for a little harmless gallantry?</l>
+     <l>Were such a barbarous custom now in fashion,</l>
+     <l>Good Lord! it would unpeople half the nation.</l>
+     <l>Scaffolds on scaffolds now the streets would fill,</l>
+     <l>As sign-posts did, before the paving-bill.</l>
+     <l>Were British law-makers such rigorous churls,</l>
+     <l>They'd hardly leave a head to wear false curls.</l>
+     <l>Besides, what champion now would risque his life,</l>
+     <l>To gain what most men shudder at—a wife.</l>
+     <l>Instead of arm'd knights, at trumpet's summons,</l>
+     <l>Commend me to our proctors, and the Commons.</l>
+     <l>There, though we lose our husbands, and our fame,</l>
+     <l>We get our portion, and a maiden name.</l>
+     <l>And if her fortune, and her charms remain,</l>
+     <l>Then Miss may wed—and be divorc'd again.</l>
+     <l>Yet, though these frolics have of late been common,</l>
+     <l>Lay not the blame entirely on weak woman.</l>
+     <l>The careless mate his rival recommends,</l>
+     <l>We find him 'midst his own obliging friends.</l>
+     <l>Some swain, who swears he lives but in our eyes,</l>
+     <l>And plies us with such cunning flatteries,</l>
+     <l>That spouse neglecting us, and lover wooing,</l>
+     <l>One strives, and t'other leads us, to our ruin.</l>
+     <l>So, if weak ladies, chance to go astray,</l>
+     <l>Their lords, methinks, are more in fault than they:</l>
+     <l>The goal of marriage reach'd, the men lie down,</l>
+     <l>Like weary racers when the prize is won;</l>
+     <l>Mere catching us alone their care engages;</l>
+     <l>The nets they spread, but never mind the cages.</l>
+     <l>The married gamester more delight can find,</l>
+     <l>In "Seven's the main," than all dear womankind.</l>
+     <l>Acteon wedded, to our voice prefers</l>
+     <l>The sweeter music of his yelping ours;</l>
+     <l>While the dull sot, who his six bottles boasts,</l>
+     <l>Thinks women good for nothing—but for toasts.</l>
+     <l>Thus slighted for the glass, the hound, the die,</l>
+     <l>Our pride steps in, and to revenge we fly;</l>
+     <l>One obvious method only can preserve us,</l>
+     <l>Strive, by your own attentions, to deserve us;</l>
+     <l>And now, as formerly, be sure you'll prove,</l>
+     <l>Contempt will meet contempt, as love meets love.</l>
+    </sp>
+   </div>
+   <div type="publisher'sadvertisement">
+    <pb facs="78"/>
+    <head>Books printed for T. Evans in the Strand.</head>
+    <list>
+     <item>1 BRAGANZA, a Tragedy, by Robert Jephson, <abbr>Esq</abbr> 1s. 6d.</item>
+     <item>2 The Countess of Salisbury, a Tragedy, by Hall Hartson, <abbr>Esq</abbr> 1s. 6d.</item>
+     <item>3 The Heroine of the Cave, a Tragedy, by the Author of the Earl of Essex, 1s. 6d.</item>
+     <item>4 Cleonice, a Tragedy, by John Hoole, <abbr>Esq</abbr> 1s. 6d.</item>
+     <item>5 The Man is the Master, a Comedy, by Sir William Davenant, 1s. 6d.</item>
+     <item>6 Zenobia, a Tragedy, by Arthur Murphy, <abbr>Esq</abbr> 1s. 6d.</item>
+     <item>7 The Songs in the Duenna, by R. B. Sheridan, <abbr>Esq</abbr> 1s.</item>
+     <item>8 The Brothers, a Comedy, by R. Cumberland, <abbr>Esq</abbr> 1s. 6d.</item>
+     <item>9 The Fashionable Lover, a Comedy, by R. Cumberland, <abbr>Esq</abbr> 1s. 6d.</item>
+     <item>10 The Duellist, a Comedy, by Dr. Kenrick, 1s. 6d.</item>
+     <item>11 Southerne's Plays, with an Account of his Life and Writings, 3 vol. <hi>price bound</hi> 10s. 6d.</item>
+     <item>12 Shakespeare's Plays, with the Notes of various Commentators, and S. Johnson and George Steevens, Esqrs; 10 vol. <hi>new edit. price bound</hi> 3l. 10s.</item>
+     <item>13 Beaumont and Fletcher's Plays, with Notes of various Commentators, and a preface by George Colman, <abbr>Esq</abbr> adorned with fifty-five elegant Engravings, <hi>price bound</hi> 3l. 10s.</item>
+     <item>14 Massinger's Plays, with Notes, by Mr. Mason, and Critical Reflections on old English Dramatic Writers, by George Colman, <abbr>Esq</abbr> 4 vol. <hi>new edit. price bound</hi> 1l. 4s.</item>
+     <item>15 A Collection of old Plays, illustrative of Shakespeare, with a Preface, 2 vol. <hi>price bound</hi> 8s.</item>
+     <item>16 Plays and Poems written by his Grace George Villiers, Duke of Buckingham, 2 vol. <hi>price bound</hi> 8s.</item>
+     <item>17 Plays and Poems written by Richard Savage, <abbr>Esq</abbr> son of the Earl Rivers, with an Account of his Life and Writings, by Dr. Samuel Johnson, 2 vol. <hi>price bound</hi> 8s.</item>
+     <item>18 Plays and Poems written by T. Smollet, M. D. with an Account of his Life and Writings, <hi>price bound</hi> 4s.</item>
+     <item>19 Poems written by William Shakespeare, <hi>price bound</hi> 4s.</item>
+     <item>20 Old Ballads, Historical and Narrative, (<hi>none of which are included in Dr. Percy's Collection</hi>) with Notes, 2 vol. with an elegant Engraving, <hi>price bound</hi> 8s.</item>
+     <item>21 The complete Works of M. De Montesquieu, containing his Spirit of Laws, and other Pieces, now first collected, with his Eulogium, by M. D'Alembert, 4 vol. large 8vo. with an elegant Engraving, <hi>price bound</hi> 1l. 4s.</item>
+     <item>
+      <pb facs="79"/>22 The Universal History of M. Bossuet, Bishop of Meaux, Preceptor to the Dauphin, <hi>a new edit. complete, in one volume, large</hi> 8<hi>vo. price bound</hi> 6s.</item>
+     <item>23 Letters from Yorick to Eliza, <hi>price sewed</hi> 2s. <hi>These Letters complete Mr. Sterne's Works.</hi>
+     </item>
+     <item>24 Select Works of Mr. Abraham Cowley, <hi>a Supplement to Bishop Hurd's Edition, price sewed</hi> 3s.</item>
+     <item>25 The Universal Mentor, or entertaining Instructor; consisting of Essays on the most important Subjects in Life, selected from the best Writers, by Sir John Fielding, <hi>price bound</hi> 3s.</item>
+     <item>26 The Grand Tour; or a Journey through the Netherlands, Germany, Italy and France: <hi>containing a Description of the principal Cities and Towns, the public Edifices, Seats and Palaces, their Libraries, Cabinets, Paintings and Statues, Coins, Commerce, &amp;c. and an exact List of the Post Routs and Prices,</hi> by M. Nugent, 4 vol. <hi>new edit. price bound</hi> 14s.</item>
+     <item>27 Desiderata Curiosa, a Collection of curious Tracts, chiefly on English History, Lives, Memoirs, Wills, Letters, Epitaphs, &amp;c. from Original MSS. by Francis Peck, 2 vol. Royal Quarto, with Plates, <hi>price in boards,</hi> 1l. 11s. 6d.</item>
+    </list>
+    <p>
+     <hi>In a few Days will be published,</hi>
+    </p>
+    <list>
+     <item>THE WORKS OF THE ENGLISH POETS, With Portraits elegantly engraven, and Prefaces Biographical and Critical, by Dr. Johnson, 57 vol. <hi>price, sewed,</hi> 7l.</item>
+     <item>In 2 vol. small Octavo, adorned with a most exquisite Engraving by Sherwin, from a Design of Mortimer, <hi>price, sewed,</hi> 7s. THE POETICAL WORKS OF MATTHEW PRIOR, New, first collected with Explanatory Notes and Memoirs of the Author.</item>
+     <item>Proposals for printing by Subscription, an elegant Edition, in one Volume, Folio, NOTITIA MONASTICA. By WILLIAM TANNER, Lord Bishop of St. Asaph.</item>
+    </list>
+   </div>
+  </back>
+ </text>
+</TEI>
