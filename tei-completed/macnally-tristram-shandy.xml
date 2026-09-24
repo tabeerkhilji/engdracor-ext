@@ -1,0 +1,1556 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">Tristram Shandy</title>
+    <title type="sub">a sentimental, Shandean bagatelle, in two acts. By the author of Retaliation.</title>
+    <author>
+     <persName>
+      <surname>MacNally</surname>
+      <forename>Leonard</forename>
+      <idno type="VIAF">8442670</idno>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>Tristram Shandy: a sentimental, Shandean bagatelle, in two acts. By the author of Retaliation.</name>
+     <author>MacNally, Leonard, 1752-1820.</author>
+     <publisher>printed for S. Bladon,</publisher>
+     <date>1783.</date>
+     <pubPlace>London :</pubPlace>
+     <note>The dedication signed: Leonard Mac Nally.</note>
+     <note>Reproduction of original from the British Library.</note>
+     <note>English Short Title Catalog, ESTCT67195.</note>
+     <note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note>
+    </bibl>
+    <biblFull n="printed source">
+     <publicationStmt>
+      <authority ref="#JJ">Jan Jokisch</authority>
+      <date>2024 December</date>
+      <idno type="ECCO_Drama">K057725.000</idno>
+      <idno type="DLPS">004841492</idno>
+      <idno type="ESTC">T67195</idno>
+      <idno type="DocNo">CW113806144</idno>
+      <idno type="TCP">K057725.000</idno>
+      <idno type="GaleDocNo">CW3313806144</idno>
+      <idno type="ContentSet">ECLL</idno>
+      <idno type="ImageSetID">0671101200</idno>
+      <availability>
+       <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+      </availability>
+     </publicationStmt>
+    </biblFull>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    <person xml:id="mr_shandy"><persName>Mr. Shandy</persName><sex value="MALE"/></person><person xml:id="captain_shandy"><persName>Captain Shandy</persName><sex value="MALE"/></person><person xml:id="trim"><persName>Trim</persName><sex value="MALE"/></person><person xml:id="dr_slop"><persName>Dr. Slop</persName><sex value="MALE"/></person><person xml:id="obadiah"><persName>Obadiah</persName><sex value="MALE"/></person><person xml:id="mrs_wadman"><persName>Mrs. Wadman</persName><sex value="FEMALE"/></person><person xml:id="susannah"><persName>Susannah</persName><sex value="FEMALE"/></person><person xml:id="toby"><persName>Toby</persName><sex value="MALE"/></person></listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1783">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text xml:lang="en">
+  <front>
+   <div type="titlepage">
+    <pb facs="1"/>
+    <p>TRISTRAM SHANDY, A SENTIMENTAL, SHANDEAN BAGATELLE, IN TWO ACTS.</p>
+    <p>By the AUTHOR of RETALIATION.</p>
+    <p>THE SECOND EDITION.</p>
+    <p>LONDON: Printed for S. BLADON, No. 13. Pater-noster-Row. MDCCLXXXIII.</p>
+   </div>
+   <div type="note">
+    <pb facs="2"/>
+    <p>This Book is Entered at Stationers Hall, according to Act of Parliament.</p>
+    <closer>
+     <dateline>
+      <date>October 21, 1783.</date>
+     </dateline>
+    </closer>
+   </div>
+   <div type="dedication">
+    <pb facs="3"/>
+    <head>DEDICATION. TO THE RIGHT HONORABLE LORD FALCONBRIDGE,</head>
+    <opener>
+     <salute>MY LORD,</salute>
+    </opener>
+    <p>AS the Practice of that Philanthropy which breathes through the Sentiments of Sterne, illustrates your Lordship's Character, I take the Liberty of claiming your Lordship's Patronage to the annexed Trifle.</p>
+    <closer>
+     <signed>I have the Honor to be, Your Lordship's most Humble and Obedient Servant, LEONARD MAC NALLY.</signed>
+     <dateline>
+      <hi>Middle-Temple,</hi>
+      <date>18<hi>th October,</hi> 1783.</date>
+     </dateline>
+    </closer>
+   </div>
+   <div type="bythesameauthor">
+    <pb facs="4"/>
+    <head>Lately published, by the same Author</head>
+    <p>Price 23. 6d. sewed, The SECOND EDITION, of SENTIMENTAL EXCURSIONS TO WINDSOR, and other Places. A SHANDEAN BAGATELLE, under various HEADS and TALES, viz.</p>
+    <p>The Highwayman—The Star and Garter—Origin of Hoops—The Waggon Rut—Travelling Picquet—The poor Seaman—Windsor Terrace—The Departure—Lord Praetor's electioneering Expedition—The Meeting—The old Maid and old Soldier—Chit Chat—Story of Count O'Reily—Aquatic Sport of Swan Hopping—Tristram Shandy—Story of Count O'Dunn, and the Queen of Portugal—<hi>Un petit Souper</hi>—The <hi>Illustration</hi> by an Extinguisher, &amp;c.</p>
+    <p>With NOTES, illustrative, historical, critical, philological, &amp;c, &amp;c.</p>
+    <quote>As a MOTTO is a Word to the Wise, or rather a broad Hint to the whole World of a Person's Taste and Principles, VIVE LA BACATELLE would be most expressive of your Ladyship's Characteristic.</quote>
+    <bibl>MACKLIN'S MAN OF THE WORLD.</bibl>
+    <p>
+     <hi>Also, Price</hi> 1s.</p>
+    <p>The SECOND EDITION of RETALIATION, a FARCE, in two Acts, as it is performed, with universal Applause, at the Theatre Royal, Covent-Garden.</p>
+   </div>
+   <div type="prologue">
+    <pb facs="5"/>
+    <head>PROLOGUE.</head>
+    <byline>Written by Mr. CHALMERS.</byline>
+    <byline>Spoken by Mr. WHITFIELD.</byline>
+    <sp>
+     <l>FORTH from the closet to the improving stage,</l>
+     <l>We bring the beauties of poor Yorick's page—</l>
+     <l>In doing so, we but fulfil his plan</l>
+     <l>To draw in public view the heart of man;</l>
+     <l>To make the stage a vehicle of wit,</l>
+     <l>And every varied humour kindly hit;</l>
+     <l>To raise your sympathy by gentle force,</l>
+     <l>And reconcile man to his hobby-horse.</l>
+     <l>Sterne's hobby-horse was sympathy of mind,</l>
+     <l>And we, in this night's piece, get up behind;</l>
+     <l>Retain his jokes, keep pity on the trot,</l>
+     <l>Leave out digressions, and connect by plot;</l>
+     <l>Bring Toby's goodness and his antique whim,</l>
+     <l>The Doctor's foible, and the soul of Trim—</l>
+     <l>In their odd fancies, we our own perceive,</l>
+     <l>For on some hobby horse all mankind live:</l>
+     <l>The politician, whose all-conquering pate,</l>
+     <l>Is fill'd with nothing but affairs of state;</l>
+     <l>In one short evening, with his pint of beer,</l>
+     <l>Scudds o'er the acts of many a distant year;</l>
+     <l>Tells you how Marlbro' fought—how it had been</l>
+     <l>If heroes now could emulate Eugene.</l>
+     <l>With broken pipe describes the bloody field,</l>
+     <l>Retakes the captured, makes the victor yield;</l>
+     <l>Regains our honour by post-dated schemes,</l>
+     <l>And credit lost last age in this redeems! —</l>
+     <l>Yet modern victors have their hobby too,</l>
+     <l>In bringing ancient valour to our view.</l>
+     <l>Eager our, foes to humble, fame to gain,</l>
+     <l>(By way of hobby-horse) they ride the main.</l>
+     <l>
+      <pb facs="6"/>Some strive for bucks and bloods themselves to pass:</l>
+     <l>Poor men! their hobby's neither horse nor ass;</l>
+     <l>Heedless they gallop on their mongrel beast,</l>
+     <l>And heedless fall, when they expect it least.</l>
+     <l>Some on less dang'rous hobbies whip along,</l>
+     <l>Fickle in taste, in prejudices strong;</l>
+     <l>Or dress, or books their every thought engage,</l>
+     <l>And e'en to some good eating is the rage.</l>
+     <l>See Gobble clear the plate, and by mere force,</l>
+     <l>Keeps riding on—e'en in the second course.</l>
+     <l>Each rides apace, nor fears his horse may stumble—</l>
+     <l>The very best of riders should be humble—</l>
+     <l>Since to dismount them all our art defies,</l>
+     <l>Let them ride gently—there the merit lies</l>
+     <l>Let them not kick to cause the in weaker fall,</l>
+     <l>
+      <hi>The world, God knows, is wide enough for all!</hi>
+     </l>
+     <l>Our fav'rite hobby is to hit your taste,</l>
+     <l>When you are pleas'd some hours with us to waste</l>
+     <l>To night our author every merit stakes,</l>
+     <l>And this gay ring his place of starting makes.</l>
+     <l>Former success inspires with hopes to win—</l>
+     <l>Let not the knowing ones be taken in!</l>
+     <l>Spur our ambition then in this night's course</l>
+     <l>And Tristram Shandy make your hobby-horse.</l>
+    </sp>
+   </div>
+   <div type="Dramatis_Personae">
+    <pb facs="7"/>
+    <castList>
+     <head>DRAMATIS PERSONAE.</head>
+     <castItem>
+      <role>Mr. SHANDY</role>
+      <actor>Mr. HULL</actor>
+     </castItem>
+     <castItem>
+      <role>Capt. SHANDY</role>
+      <actor>Mr. WILSON</actor>
+     </castItem>
+     <castItem>
+      <role>TRIM</role>
+      <actor>Mr. EDWIN</actor>
+     </castItem>
+     <castItem>
+      <role>Dr. SLOP</role>
+      <actor>Mr. WEWITZER</actor>
+     </castItem>
+     <castItem>
+      <role>OBADIAH</role>
+      <actor>Mr. FEARON</actor>
+     </castItem>
+     <castItem>
+      <role>Mrs. WADMAN</role>
+      <actor>Mrs. MORTON</actor>
+     </castItem>
+     <castItem>
+      <role>SUSANNAH</role>
+      <actor>Mrs. WILSON</actor>
+     </castItem>
+    </castList>
+   </div>
+   <set>
+    <p>SCENE. Mr. SHANDY's HOUSE.</p>
+   </set>
+  </front>
+  <body>
+   <div type="play">
+    <pb facs="8"/>
+    <head>TRISTRAM SHANDY.</head>
+    <div n="1" type="act">
+     <head>ACT I.</head>
+     <div type="scene">
+      <head>SCENE — <stage>A CHAMBER, <hi>ornamented with Views of Fortifications, Arms hanging up.</hi>
+       </stage>
+      </head>
+      <stage>SHANDY <hi>sitting at a Table, large Folios on it</hi>— TRIM <hi>and</hi> SUSAN <hi>attending.</hi>
+      </stage>
+      <sp who="#mr_shandy">
+       <speaker>Shan.</speaker>
+       <p>WELL, you tell me love has made a progress in both their bosoms; but say, Trim, how does my brother Toby stand the assaults of the widow Wadman?</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>An't please your honor, he has capitulated—the Captain has taken in love, as he has taken in every thing else—he has taken it in like a lamb.</p>
+      </sp>
+      <sp who="#susannah">
+       <speaker>Sus.</speaker>
+       <p>And the Widow Wadman, I assure you, Sir, is as far gone as the Captain—poor gentlewoman! she has taken in love like a lamb too.</p>
+      </sp>
+      <sp who="#mr_shandy">
+       <speaker>Shan.</speaker>
+       <p>Then must we pursue our scheme—You must continue, Trim, to keep the Captain's flame alive, and you, Susan, must lay fresh fuel upon
+<pb n="2" facs="9"/>
+the widow's fire; this peace, Trim, will break my poor brother's heart, unless we get employment for his mind, I have philosophiz'd with him in vain—nothing but love can soothe him—Love, Trim—mark Susannah—Love is a passion derived from heaven.</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>Yes, your honor, and it replenishes the earth.</p>
+      </sp>
+      <sp who="#mr_shandy">
+       <speaker>Shan.</speaker>
+       <p>Where is my brother?</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>An't please your honor, he's gone over to the Inn, to visit poor Lieutenant Lefevre.</p>
+      </sp>
+      <sp who="#mr_shandy">
+       <speaker>Shan.</speaker>
+       <p>Then I'll go to him—Trim, drink success to the Captain.
+<stage>(gives money)</stage>
+If the widow gets this brother of mine, she gets an invaluable treasure, he has'nt a heart to hurt a fly—Go, says he, one day to an overgrown one, which he had caught as it buzz'd about his nose, and tormented him cruelly, poor devil, I'll not hurt a hair of thy head. Go, said he, lifting up the sash, the world is wide enough for thee and me.—It was a lesson which might serve governors and parents better than a whole volume on the subject of humanity
+<stage>Exit Shandy.</stage>
+       </p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>My master, his honor the captain, and your master his worship, Mr. Shandy, could not be match'd in a day's march, Susan;—good hearts! when the unfortunate claim assistance, they fling down their money with that spirited jerk of an honest welcome with which generous souls only are able to fling down money;—For each man's sorrow they have a tear, for each man's need they have a shilling—may heaven ever bless them both.</p>
+      </sp>
+      <sp who="#susannah">
+       <speaker>Sus.</speaker>
+       <p>La! Mr. Trim, I thought as how you gentlemen of the army never pray'd.</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>It is not half an hour, Susan, since I heard Lieutenant Lefevre, a soldier, and a brave
+<pb n="3" facs="10"/>
+soldier pray devoutly; a soldier, Susan, prays as often of his own accord as a parson; and when he's fighting for his king, and for his country, and for his own life, and for his honor too, he has the most reason to pray to heaven, of any man in the world.</p>
+      </sp>
+      <sp who="#susannah">
+       <speaker>Sus.</speaker>
+       <p>Very true, Mr. Trim.</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>But when a soldier, my dear girl, has been standing twelve hours in the trenches—</p>
+      </sp>
+      <sp who="#susannah">
+       <speaker>Sus.</speaker>
+       <p>A great while to stand indeed, Mr. Trim.</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>Up to his knees in cold water, or engag'd in long and dangerous marches, harrass'd in his rear to-day, harrassing others to-morrow;—detach'd here,
+<stage>(wheeling to right)</stage>
+countermanded there
+<stage>(wheeling to the left)</stage>
+resting this night perhaps upon his arms—beat up the next in his shirt —benumb'd in his joints, without straw in his tent to kneel on, he must say his prayers how and when he can.</p>
+      </sp>
+      <sp who="#susannah">
+       <speaker>Sus.</speaker>
+       <p>And it's my opinion when a soldier gets time to pray, he prays as heartily as any parson of them all, though not with so much fuss and hypocrisy.</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>Don't say that, Susan; heaven only knows who is hypocrite and who is not; at the great and general review of all, and not till then, it will be seen who have deserted from their duty in this world, and who have stood to their posts, and we shall be advanced accordingly
+<stage>(standing upright.)</stage>
+       </p>
+      </sp>
+      <sp who="#susannah">
+       <speaker>Sus.</speaker>
+       <p>And it will never be enquired whether we were flaunting fine ladies, or humble servant maids.</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>No, sweet Susan, nor whether we did our duty in a red coat or a black one.—But to business, Susan, the Captain is certainly smitten,
+<pb n="4" facs="11"/>
+what marks of love have you perceived in the widow.</p>
+      </sp>
+      <sp who="#susannah">
+       <speaker>Sus.</speaker>
+       <p>Why she nightly reads over her marriage-settlement, and every time she reads, cries for her first husband—a strong sign that she's thinking of a second.—But do you know the marks of love, Mr. Trim.</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>Know them, I have felt them, Susannah,
+<stage>(pressing her hand.)</stage>
+But say, what dost thou think of love thyself, my girl?</p>
+      </sp>
+      <sp who="#susannah">
+       <speaker>Sus.</speaker>
+       <p>I can tell you what it is through the whole alphabet; parson Yorick taught me. You must give me the letter, Mr. Trim, just as you give the word of command—begin with A.</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>Very well;—now mind the word—take care.
+<stage>(as he gives the word he exercises with his stick, and as she answers, she reckons with the fore-finger of her right hand upon her left hand)</stage>
+       </p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>A!</p>
+      </sp>
+      <sp who="#susannah">
+       <speaker>Sus.</speaker>
+       <p>Agitation.</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>B!</p>
+      </sp>
+      <sp who="#susannah">
+       <speaker>Sus.</speaker>
+       <p>Bewitching.</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>C!</p>
+      </sp>
+      <sp who="#susannah">
+       <speaker>Sus.</speaker>
+       <p>Charming.</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>D!</p>
+      </sp>
+      <sp who="#susannah">
+       <speaker>Sus.</speaker>
+       <p>Delightful, or dev'lish, which you please; in short, Love is the most E—extravagant, F— funny, G—gigglish, H—humorous, I—interesting, K—O there is no key to it!</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>What no key to love, Susannah? O there is a key!—Well, go on.—</p>
+      </sp>
+      <sp who="#susannah">
+       <speaker>Sus.</speaker>
+       <p>Love is the most L—longing, M—misguiding, N—natural, O—the O expresses its own meaning, its the same with the heigh-ho!
+<stage>(sighs)</stage>
+P—pleasant, Q.—quarrelsome, R—rapturous— but here comes Obadiah, so the next time we
+<pb n="5" facs="12"/>
+meet, I'll give you the S, T, U, W, X, Y, and Z, of love.</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>With the <hi>et caetera,</hi> I hope, Susan—for the <hi>et caetera</hi> is worth the whole alphabet.</p>
+      </sp>
+      <stage>
+       <hi>Enter</hi> OBADIAH.</stage>
+      <sp who="#obadiah">
+       <speaker>Oba.</speaker>
+       <p>Alas! alas! Corporal! as sure as I'm alive, the poor Lieutenant at the inn will die—and yet he was better this morning.</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>
+        <stage>(<hi>standing in the middle.</hi>)</stage>
+Alas!
+<stage>(<hi>extending his right arm</hi>)</stage>
+What is this morning, or any other morning, to the time present?—Are we not here now—
+<stage>(<hi>setting his stick perpendicular</hi>)</stage>
+and are we not gone in a moment?
+<stage>Dropping his hat.</stage>
+       </p>
+      </sp>
+      <sp who="#susannah">
+       <speaker>Sus.</speaker>
+       <p>O yes, gone in a moment.
+<stage>Weeps.</stage>
+       </p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>I own, that since the morning it is not long till now, it is nothing; but to those, Obadiah, who know not what death is, and what havoc and destruction he can make before a man can wheel about,
+<stage>(<hi>wheeling.</hi>)</stage>
+it is a whole age.</p>
+      </sp>
+      <sp who="#obadiah">
+       <speaker>Oba.</speaker>
+       <p>How learnedly the Corporal preaches.</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>O Obadiah! O Susannah! it would make a good natur'd man's heart bleed, to consider, how many a brave upright fellow hath been laid low since that time—Trust me, Susan, before that time comes again, many a bright eye will be dim.
+<stage>Points to Susan's eye.</stage>
+       </p>
+      </sp>
+      <sp who="#susannah">
+       <speaker>Sus.</speaker>
+       <p>Yes, Mr. Trim, many a bright eye will be dim.
+<stage>Curtsies and rubs her eyes.</stage>
+       </p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>Are we not like the flower of the field?</p>
+      </sp>
+      <stage>Looking at Susan.</stage>
+      <sp who="#susannah">
+       <speaker>Sus.</speaker>
+       <p>Yes, we are like the flowers of the field.</p>
+      </sp>
+      <stage>Smiles.</stage>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>Is not all flesh grass?</p>
+      </sp>
+      <stage>Looking at Obadiah.</stage>
+      <sp who="#obadiah">
+       <speaker>Oba.</speaker>
+       <p>Yes—all flesh is grass.</p>
+      </sp>
+      <sp who="#trim">
+       <pb n="6" facs="13"/>
+       <speaker>Trim.</speaker>
+       <p>'Tis clay, 'tis dirt—
+<stage>(<hi>points to Obadiah.</hi>)</stage>
+—What is the finest face that a man ever look'd on?
+<stage>pointing to Susan.</stage>
+       </p>
+      </sp>
+      <sp who="#susannah">
+       <speaker>Sus.</speaker>
+       <p>I could hear Trim talk for ever.</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>What is the finest face
+<stage>(<hi>taps Susan's cheek, she lays her hand upen his shoulder and smiles.</hi>)</stage>
+What is it but corruption?
+<stage>(<hi>she takes away her hand.</hi>)</stage>
+—Out of doors I value not death at all, not this—
+<stage>(<hi>snapping his fingers.</hi>)</stage>
+—Let him not take me cowardly, what is he? a pull of a trigger, a push of a bayonet. The best way is to stand up to him, the man who flies, is in ten times more danger, than he who marches up to his jaws. I have look'd him an hundred times in his face.— Death is nothing in the field.</p>
+      </sp>
+      <sp who="#obadiah">
+       <speaker>Oba.</speaker>
+       <p>But he's woundedly frightful in the house.</p>
+      </sp>
+      <sp who="#susannah">
+       <speaker>Sus.</speaker>
+       <p>For my part, I think it's most natural to meet him in bed.</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>And could I escape him in bed, by creeping into the worst calf-skin that ever was made into a knapsack, I'd do it there—but that is nature.</p>
+      </sp>
+      <sp who="#obadiah">
+       <speaker>Oba.</speaker>
+       <p>Well, I must go see after the sick cow, tho' I could hear the corporal for ever.</p>
+      </sp>
+      <stage>Exit Obadiah.</stage>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>There's Captain Shandy fears not death, he fears only what every honest man fears—doing a wrong thing. He's as kind an officer as ever stepp'd before a platoon, and would march up to the muzzle of a cannon, tho' there were a lighted match at the touch-hole. He'll take care of Lefevre's son—I'd serve him to the day of my death for love.</p>
+      </sp>
+      <sp who="#susannah">
+       <speaker>Sus.</speaker>
+       <p>And I'd sooner be his servant for seven pounds a year, than serve other people for eight.</p>
+      </sp>
+      <sp who="#trim">
+       <pb n="7" facs="14"/>
+       <speaker>Trim.</speaker>
+       <p>Thank thee for thy twenty shillings a year, as much, Susan, as if thou puttest the money into my own pocket. I must kiss thee for it, Susan.
+<stage>Kisses her.</stage>
+       </p>
+      </sp>
+      <stage>
+       <hi>Enter</hi> OBADIAH, (<hi>calling.</hi>)</stage>
+      <sp who="#obadiah">
+       <speaker>Oba.</speaker>
+       <p>Susay! Susan! Susannah! you are call'd for here, call'd for there, call'd for every where! there's mistress taken woundedly▪ ill, Jane is sent for the midwife, and Jerry for Mrs. Wadman, and I must gallop for Dr. Slop—But what beast shall I take? The coach-horse wants a shoe.</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>Don't take him, poor creature.</p>
+      </sp>
+      <sp who="#obadiah">
+       <speaker>Oba.</speaker>
+       <p>The Scotch horse is gall'd, and can't bear a saddle upon his back.</p>
+      </sp>
+      <sp who="#susannah">
+       <speaker>Sus.</speaker>
+       <p>Take Patriot, Obadiah.</p>
+      </sp>
+      <sp who="#obadiah">
+       <speaker>Oba.</speaker>
+       <p>Patriot! ah Susan! no—poor Patriot's sold! Well, I'll e'en borrow the miller's cart-horse, or walk, for better to walk thro' thick and thin all the days of a man's life, than to ride a poor unshod devil, or a devil with a gall'd back, that must feel pain every inch of the road—But I forgot, master's returned from the inn, and would speak with you, Mr. Trim.</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>Farewell, Susan, when the widow comes remember your master's instructions—Susan, we must all marry.
+<stage>Exit Trim and Obadiah.</stage>
+       </p>
+      </sp>
+      <sp who="#susannah">
+       <speaker>Sus.</speaker>
+       <p>Well, 'tis twenty to one but mistress dies this bout—poor gentlewoman, she has always had a hard time, and she has as good cloaths as any lady in the county, and master would give them all to me no doubt.
+<stage>(<hi>bell rings.</hi>)</stage>
+Coming! Her green sattin is vastly pretty, green becomes my complexion, yes, I was always fond of a green gown,
+<stage>(<hi>rings.</hi>)</stage>
+why coming! then her red damask stands an end,
+<stage>(<hi>rings.</hi>)</stage>
+coming! and she has an
+<pb n="8" facs="15"/>
+orange tawny armozine, a white padua, and a yellow lutestring, besides a world of linen, bedgowns, laces, and comfortable under-petticoats.
+<stage>(<hi>rings.</hi>)</stage>
+       </p>
+      </sp>
+      <stage>
+       <hi>Enter</hi> SHANDY <hi>and</hi> TRIM, <hi>as</hi> SUSAN <hi>goes out.</hi>
+      </stage>
+      <sp who="#mr_shandy">
+       <speaker>Shan.</speaker>
+       <p>Why Susan, Susan, they are calling for you all over the house—away, my girl, away.
+<stage>(<hi>Exit Susan.</hi>)</stage>
+Should the Lieutenant die, Trim, 'twould go to my brother's heart, so let's pursue our scheme against him and the widow with all expedition.</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>And please your honor, I fear I shall want spirits.</p>
+      </sp>
+      <sp who="#mr_shandy">
+       <speaker>Shan.</speaker>
+       <p>Nay, Trim, never be grave—gravity is an errant scoundrel, and of the most dangerous kind too—because a sly one; more honest, well meaning people are bubbled out of their goods and monies by gravity in a twelve-month, than by pocket picking and shop-lifting in seven years. Here comes my brother, I'll step into the library to overlook my catalogue of christian names, but will come out if I see occasion.</p>
+      </sp>
+      <stage>
+       <hi>Enter</hi> CAPTAIN SHANDY <hi>on a Crutch,</hi> TRIM <hi>hands a Chair,</hi> TOBY <hi>sits.</hi>
+      </stage>
+      <sp who="#captain_shandy">
+       <speaker>Capt.</speaker>
+       <p>I have seen the Lieutenant, Trim, he is the same Lefevre who serv'd at Angus's at Breda, and whose wife was unfortunately kill'd by a musket ball, as she lay in his arms in his tent.</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>I remember the story an't please your honor.</p>
+      </sp>
+      <sp who="#captain_shandy">
+       <speaker>Capt.</speaker>
+       <p>Then well may the poor Lieutenant remember it—when you waited on the Lieutenant, and made him an offer of my services, did
+<pb n="9" facs="16"/>
+you offer him my purse?—Sickness and travelling are both expensive, and thou knowest he was a poor Lieutenant, with a son to subsist as well as himself out of his pay—Thou should'st have made him an offer of my purse, because if he stood in need, Trim, thou knowest he had been as welcome to it as myself.</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>Your honor knows I had no orders.</p>
+      </sp>
+      <sp who="#captain_shandy">
+       <speaker>Capt.</speaker>
+       <p>True,
+<stage>(<hi>rising.</hi>)</stage>
+thou had'st not orders, and thou did'st very right, Trim, as a soldier, but very ill as a man.
+<stage>(<hi>sits, Trim bows.</hi>)</stage>
+Then when thou offeredst whatever was in my house, thou should'st have offered him my house too.
+<stage>(<hi>Trim bows.</hi>)</stage>
+A sick brother officer should have the best quarters, Trim, and what with my care, and thy care, and the old woman's care, and his boy's care, we might recruit him again, and set him on his legs.
+<stage>(<hi>rises.</hi>)</stage>
+In a fortnight or three weeks he might march.</p>
+       <stage>Putting forward his right leg.</stage>
+       <p>
+        <hi>Shandy, peeping.</hi> Precious souls! what are their two noddles together about?</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>He will never march, an't please your honor, in this world.
+<stage>Drawing back his left leg.</stage>
+       </p>
+      </sp>
+      <sp who="#captain_shandy">
+       <speaker>Capt.</speaker>
+       <p>He will march.</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>A'nt please your honor, he will never march but to the grave.</p>
+      </sp>
+      <sp who="#captain_shandy">
+       <speaker>Capt.</speaker>
+       <p>He shall march to his regiment.</p>
+      </sp>
+      <stage>Raises his crutch.</stage>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>He cannot stand it, your honor.</p>
+      </sp>
+      <sp who="#captain_shandy">
+       <speaker>Capt.</speaker>
+       <p>He shall be supported.</p>
+      </sp>
+      <stage>Leans on his crutch.</stage>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>He will drop at last, and what will become of his boy?</p>
+      </sp>
+      <sp who="#captain_shandy">
+       <speaker>Capt.</speaker>
+       <p>He shall not drop.</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>Ah, well aday! do what we can for him, the poor soul will die.</p>
+      </sp>
+      <sp who="#captain_shandy">
+       <pb n="10" facs="17"/>
+       <speaker>Capt.</speaker>
+       <p>He shall not die by—heaven!</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>Don't swear, your honor.</p>
+      </sp>
+      <stage>SHANDY <hi>comes forward.</hi>
+      </stage>
+      <sp who="#mr_shandy">
+       <speaker>Shan.</speaker>
+       <p>Your hand, brother—the accusing spirit which flew up to heaven's chancery with thy oath, blush'd as he gave it in, and the recording angel, as he wrote it down, dropp'd a tear upon the word, that blotted it out for ever.—But consider, dear Toby, all must die! monarchs, princes, dance in the same ring with us.</p>
+      </sp>
+      <sp who="#captain_shandy">
+       <speaker>Capt.</speaker>
+       <p>Has the widow been here, Trim?</p>
+      </sp>
+      <sp who="#mr_shandy">
+       <speaker>Shan.</speaker>
+       <p>Kingdoms and provinces, towns and cities, have they not their period? when those principles and powers which first put them together—</p>
+      </sp>
+      <sp who="#captain_shandy">
+       <speaker>Capt.</speaker>
+       <p>Brother brother,
+<stage>(<hi>laying his hand upon his breast.</hi>)</stage>
+I hope you except this country from your principles and powers, there was no principle in the powers which oppose her, and she has now principle and power sufficient within herself, to keep her firm upon her own broad basis.</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>Yes, an't please your honor, and having justice on her side, she's able to drive France and Spain and—and the devil if he should join them, out of the field.</p>
+      </sp>
+      <sp who="#mr_shandy">
+       <speaker>Shan.</speaker>
+       <p>The approaches of death, Toby, make but little alteration in a great man—Vespasian died in a jest, Galba with a sentence, Septimus Severus with a dispatch, Tiberius with dissimulation, and Caesar Augustus with a compliment.</p>
+      </sp>
+      <stage>Capt. whistles Lillibullero.</stage>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>I hope your honor, it was a sincere one.</p>
+      </sp>
+      <sp who="#mr_shandy">
+       <speaker>Shan.</speaker>
+       <p>It was to his wife, Trim—but lastly comes the anecdote, which, like the gilded dome,
+<pb n="11" facs="18"/>
+crowns in all—never did man receive such severe lashes as Cornelius Gallus.</p>
+      </sp>
+      <sp who="#captain_shandy">
+       <speaker>Capt.</speaker>
+       <p>The greatest number of lashes I ever saw given, was to a grenadier in Mackay's regiment.</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>O heav'ns! he was innocent, yet he was flogg'd to death's door, they had better shot him outright, as he begg'd, and he'd have gone to heaven directly.
+<stage>Weeps.</stage>
+       </p>
+      </sp>
+      <sp who="#captain_shandy">
+       <speaker>Capt.</speaker>
+       <p>It was a misfortune, great as ever the eye of pity dropp'd a tear on—it would be a pity, Trim, thou should'st ever feel sorrows of thy own, thou feel'st so tenderly for others—But whilst thy master has a shilling, thou shalt not ask elsewhere for a penny.</p>
+      </sp>
+      <stage>DR. SLOP <hi>without.</hi>
+      </stage>
+      <sp who="#dr_slop">
+       <speaker>Slop.</speaker>
+       <p>Scoundrel, I wish you hang'd, I wish you shot.</p>
+      </sp>
+      <sp who="#captain_shandy">
+       <speaker>Capt.</speaker>
+       <p>This cursing, Dr. Slop, is no more than sparrow shot fired again a bastion. Our armies swore terribly in Flanders, Doctor, but nothing to this—My heart would not let me curse the devil with so much bitterness.</p>
+      </sp>
+      <sp who="#dr_slop">
+       <speaker>Slop.</speaker>
+       <p>The devil's damn'd already to all eternity.</p>
+      </sp>
+      <sp who="#captain_shandy">
+       <speaker>Capt.</speaker>
+       <p>Poor devil,
+<stage>(<hi>sighs.</hi>)</stage>
+I'm sorry for him!</p>
+      </sp>
+      <sp who="#dr_slop">
+       <speaker>Slop.</speaker>
+       <p>That rascal, Obadiah, has injur'd me.</p>
+      </sp>
+      <sp who="#obadiah">
+       <speaker>Oba.</speaker>
+       <p>No, Doctor, I would not injure a toad from my heart, and I's no rascal, and I scorn a lie—I met Mr. Doctor, an't please you, coming slowly along, waddling thro' the dirt, at a duck's gait, upon his little poney, the poor beast scarce able to set foot to ground under its heavy burden, for the Doctor is a mortal load of human flesh, as you mon see—he! he! he!</p>
+      </sp>
+      <sp who="#dr_slop">
+       <pb n="12" facs="19"/>
+       <speaker>Slop.</speaker>
+       <p>Who do you laugh at, Sirrah? I was coming to pay my devoirs to the widow Wadman, not knowing of your lady's alarm, when this fellow came posting down the narrow lane, at a monstrous and tremendous rate, mounted on a huge cart horse, prick'd into a full gallop.</p>
+      </sp>
+      <sp who="#obadiah">
+       <speaker>Oba.</speaker>
+       <p>It was the miller's old troop horse, and 'tis as good natur'd a beast—</p>
+      </sp>
+      <sp who="#dr_slop">
+       <speaker>Slop.</speaker>
+       <p>As yourself, Sirrah,—you came splashing and plunging like a devil thro' thick and thin, a phenomenon with a vortex of mud and water round its axis—What must be my terror and hydrophobia, when advancing warily in an ambling motion, this Obadiah and his miller's troop horse, turns a corner furious, pop full upon me.</p>
+      </sp>
+      <sp who="#obadiah">
+       <speaker>Oba.</speaker>
+       <p>But, Doctor, you were in fault, for you looked round when I cried out to you to hold the pummel of the saddle, and in looking round you let go your whip, and attempting to save your whip, you lost your seat.</p>
+      </sp>
+      <sp who="#mr_shandy">
+       <speaker>Shan.</speaker>
+       <p>And when the Doctor lost his seat, he lost his presence of mind.</p>
+      </sp>
+      <sp who="#obadiah">
+       <speaker>Oba.</speaker>
+       <p>And before I was near him, your honor, he fell from his poney, for all the world like a pack of wool, quite at his ease, with the broader part of him sunk in the mud twelve inches.
+<stage>Laughs.</stage>
+       </p>
+      </sp>
+      <sp who="#dr_slop">
+       <speaker>Slop.</speaker>
+       <p>You're an ill-manner'd knave.</p>
+      </sp>
+      <sp who="#obadiah">
+       <speaker>Oba.</speaker>
+       <p>Nay, as to my manners, did'nt I pull off my hat twice, once when your worship was falling,
+<stage>(laughs)</stage>
+and again when I saw you in the mud?
+<stage>Laughs.</stage>
+       </p>
+      </sp>
+      <stage>
+       <hi>Enter</hi> SUSAN.</stage>
+      <sp who="#susannah">
+       <speaker>Sus.</speaker>
+       <p>My poor mistress is ready to faint! and the drops are spilt, and the bottle of julip is broken, the nurse has cut her arm, and the midwife
+<pb n="13" facs="20"/>
+has fall'n upon the fender, and bruis'd her hip.</p>
+      </sp>
+      <sp who="#dr_slop">
+       <speaker>Slop.</speaker>
+       <p>If the midwife's hip be bruis'd, it is fitting I should go look at it.</p>
+      </sp>
+      <sp who="#mr_shandy">
+       <speaker>Shan.</speaker>
+       <p>No, Doctor, I request your immediate attendance on Mrs. Shandy—Obadiah will pull off your boots, and supply you with a pair of slippers.</p>
+      </sp>
+      <sp who="#dr_slop">
+       <speaker>Slop.</speaker>
+       <p>And had I my will, Obadiah should be supplied with a halter.</p>
+      </sp>
+      <stage>Exeunt Susan, Slop, and Obadiah.</stage>
+      <sp who="#mr_shandy">
+       <speaker>Shan</speaker>
+       <p>I am convinc'd, Toby, that Mrs. Shandy will have a boy.</p>
+      </sp>
+      <sp who="#captain_shandy">
+       <speaker>Capt.</speaker>
+       <p>The widow Wadman, brother, is before my eyes day and night.</p>
+      </sp>
+      <sp who="#mr_shandy">
+       <speaker>Shan.</speaker>
+       <p>My son's name shall be Trismegistus.
+<stage>(Trim peeps in.)</stage>
+Who's there?</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>
+        <stage>(<hi>half in.</hi>)</stage>
+It is nothing, an't please your honor, but two mortars.
+<stage>In a low voice.</stage>
+       </p>
+      </sp>
+      <sp who="#mr_shandy">
+       <speaker>Shan.</speaker>
+       <p>They shan't make a clatter with their mortars here—If Dr. Slop has any drugs to pound, let him do it in the kitchen.</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>May it please your honor, they are two mortar pieces for a siege, which I have been making
+<stage>(comes on with a pair of jack boots in his hand.)</stage>
+out of a pair of jack boots, which Obadiah told me, your honor had left off wearing.</p>
+      </sp>
+      <sp who="#mr_shandy">
+       <speaker>Shan.</speaker>
+       <p>
+        <stage>(<hi>taking a boot.</hi>)</stage>
+By heav'n! I have not one appointment belonging to me, which I set so much store by, as I do by these jack-boots.— They were our grandfather's, Toby, they were hereditary.</p>
+      </sp>
+      <sp who="#captain_shandy">
+       <speaker>Capt.</speaker>
+       <p>
+        <stage>(<hi>taking the other boot.</hi>)</stage>
+Then I fear, Trim has cut off the entail.</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>Cut off the tail!—no, please your honor,
+<stage>(taking the boot from Toby.)</stage>
+I have only cut off the top.</p>
+      </sp>
+      <sp who="#mr_shandy">
+       <pb n="14" facs="21"/>
+       <speaker>Shan.</speaker>
+       <p>I hate perpetuities as much as any man alive, Toby; but these boots were worn by Sir Roger Shandy, at the battle of Marston Moor— I would not have taken ten pounds for them.</p>
+      </sp>
+      <sp who="#captain_shandy">
+       <speaker>Capt.</speaker>
+       <p>I'll pay you the money, brother, with all my heart.</p>
+      </sp>
+      <sp who="#mr_shandy">
+       <speaker>Shan.</speaker>
+       <p>Trim, step into the kitchen, and enquire how things go on up stairs,
+<stage>(<hi>exit Trim.</hi>)</stage>
+Brother Toby, you care not what money you throw away, provided it is upon a siege—Dear Toby, these military operations are above your strength, and will in the end quite ruin and make a beggar of you.—What's your modern artillery, to the battering rams of the ancients, to the catapulta—</p>
+      </sp>
+      <stage>
+       <hi>Enter</hi> TRIM.</stage>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>An't please your honor, there is no one soul in the kitchen, except Dr. Slop.</p>
+      </sp>
+      <sp who="#mr_shandy">
+       <speaker>Shan.</speaker>
+       <p>Some retrogade planet is hanging over this house of mine, turning every thing out of its place—I thought the Doctor had been with Mrs. Shandy! what can he be puzzling about in the kitchen?</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>He's buzy, an't please your honor, in making a bridge.</p>
+      </sp>
+      <sp who="#captain_shandy">
+       <speaker>Capt.</speaker>
+       <p>It's very obliging in him—Pray give my humble service to Dr. Slop, and tell him I thank him heartily—He's making his bridge, I suppose, after the model of the Marquis de Hospitals.</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>Heaven bless your honor! it's a bridge for young master's nose.—</p>
+      </sp>
+      <sp who="#mr_shandy">
+       <speaker>Shan.</speaker>
+       <p>Confusion!</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>Madam has got a son, but Dr. Slop, as Susan told me on the stair head, has crush'd his nose as flat as a pancake, and is making a false
+<pb n="15" facs="22"/>
+bridge with a piece of cotton, and a bit of whalebone to raise it up.</p>
+      </sp>
+      <sp who="#mr_shandy">
+       <speaker>Shan.</speaker>
+       <p>Lead me, brother Toby, lead me to my room this instant.</p>
+      </sp>
+      <sp who="#toby">
+       <speaker>Toby.</speaker>
+       <p>Keep up your spirits—Meet me presently in the bowling-green with the mortars, Trim..</p>
+      </sp>
+      <sp who="#mr_shandy">
+       <speaker>Shan.</speaker>
+       <p>Crush'd his nose! O heaven—O unfortunate mutilated child.</p>
+      </sp>
+     </div>
+    </div>
+    <div n="2" type="act">
+     <pb n="16" facs="23"/>
+     <head>ACT II.</head>
+     <div type="scene">
+      <head>SCENE <stage>
+        <hi>a Room.</hi>
+       </stage>
+      </head>
+      <stage>WIDOW WADMAN <hi>and</hi> SUSAN.</stage>
+      <sp who="#mrs_wadman">
+       <speaker>Widow.</speaker>
+       <p>AND are you convinc'd, Susan, that Capt. Shandy intends paying his addresses to me?</p>
+      </sp>
+      <sp who="#susannah">
+       <speaker>Sus.</speaker>
+       <p>No, Madam, the Captain is as mild as new milk, and Trim says, he loves you better than gun-powder, yet indeed, Madam, he is so modest a gentleman, that you must court him.</p>
+      </sp>
+      <sp who="#mrs_wadman">
+       <speaker>Wid.</speaker>
+       <p>And you'll sound the Corporal upon what I have spoken to you, you know the Captain has been wounded, and one would not wish to turn nurse, and marry a patient—Here comes the Corporal, so remember your business.
+<stage>Exit.</stage>
+       </p>
+      </sp>
+      <sp who="#susannah">
+       <speaker>Sus.</speaker>
+       <p>Yes, I'll discover every thing for this poor widow, I'll serve her, for she has really made me a genteel present—perhaps this is her last stake, so I'll cut the cards cautiously, and who knows but hearts may turn up trumps.
+<stage>(enter Trim.)</stage>
+La, Mr. Trim, is it true that the Captain can never recover his wound?—Dr. Slop says he cannot.</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>Upon my life, Susan, the Doctor's insinuations are as false as hell—but why do'st thou ask? thou art good and modest by nature, and so generous a girl, thou would'st not wound an insect, much less the honor of so
+<pb n="17" facs="24"/>
+worthy and gallant a soul as my master—Thou hast been set on and deluded, Susan, as is often a woman's case, to please others more than themselves, whose suspicion has misled thee—Tell me, for by my Montero cap I love thee.</p>
+      </sp>
+      <sp who="#susannah">
+       <speaker>Sus.</speaker>
+       <p>Do you really love me? To be sure, you soldiers are the cleanest, neatest, uprightest men—and indeed Mr. Trim, I always liked you, and will tell you the truth—I was set on to make my enquiries by the widow Wadman—Here comes the Captain.</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>Well, Susan, meet me presently at the fortifications, and I'll shew you our new Dutch bridge.</p>
+      </sp>
+      <sp who="#susannah">
+       <speaker>Sus.</speaker>
+       <p>I shall not fail—but you men are not to be trusted.</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>Nay, 'tis you women are not to be trusted—Always changing your appearances, and, considering the changes of life, there is no answering for one of you a moment—Some grow out like pumkins, and lose their shape—Others go off like flowers, and lose their beauty—Nay, sweet Susan, how many go off like husseys, and lose themselves?
+<stage>Exit Susan.</stage>
+       </p>
+      </sp>
+      <stage>
+       <hi>Enter</hi> TOBY.</stage>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>I believe, your honor, I am going to say a foolish kind of a thing for a soldier.</p>
+      </sp>
+      <sp who="#toby">
+       <speaker>Toby.</speaker>
+       <p>A soldier, Trim, is no more exempt from saying foolish things, than a man of letters.</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>But a soldier, your honor, does not say foolish things so often as a man of letters—Since the peace, your honor, I have never once whistled,
+<pb n="18" facs="25"/>
+nor laughed, nor cried, nor talk'd of past done deeds, nor told your honor a good nor a bad story.</p>
+      </sp>
+      <sp who="#toby">
+       <speaker>Toby.</speaker>
+       <p>I have remark'd it, Trim.</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>Then since the war is over, your honor, we should look for other employment—We have wounded the widow Wadman, and I believe, your honor, she has returned the fire.</p>
+      </sp>
+      <sp who="#toby">
+       <speaker>Toby.</speaker>
+       <p>She has attacked my breast works from the battery of her eyes, and has left a ball here.
+<stage>Pointing to his heart.</stage>
+       </p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>Your honor must attack her in return— she can no more stand a siege than she can fly— we'll get your honor's regimentals brushed up, and I'll put your ramilie wig in pipes.</p>
+      </sp>
+      <sp who="#toby">
+       <speaker>Toby.</speaker>
+       <p>And get some chalk for my sword.</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>It will be in your honor's way—but when your honor is shaved, and your clean shirt on, and every thing ready for the attack, we will match up to the widow, as boldly as to the face of a bastion.</p>
+      </sp>
+      <sp who="#toby">
+       <speaker>Toby.</speaker>
+       <p>I declare, Corporal, I'd rather march up to the edge of a Trench—</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>A Trench, your honor! a woman is quite a different thing—But I must retire, your honor, for here comes the widow, running down the gallery like one bewitched—We should never have fallen in love but for the peace.</p>
+      </sp>
+      <stage>Exit.</stage>
+      <stage>
+       <hi>Enter</hi> MRS. WADMAN, (<hi>running.</hi>)</stage>
+      <sp who="#mrs_wadman">
+       <speaker>Widow.</speaker>
+       <p>I am half distracted, Capt. Shandy, a mote or sand, or something has got into this
+<pb n="19" facs="26"/>
+eye of mine—For pity's sweet sake, look at it.</p>
+      </sp>
+      <sp who="#toby">
+       <speaker>Toby.</speaker>
+       <p>I protest, Madam, I can see nothing—
+<stage>(<hi>looks with a glass.</hi>)</stage>
+Nothing can I see, but the eye itself.</p>
+      </sp>
+      <sp who="#mrs_wadman">
+       <speaker>Wid.</speaker>
+       <p>Is it not in the white, Captain, look into it again?</p>
+      </sp>
+      <sp who="#toby">
+       <speaker>Toby.</speaker>
+       <p>As I am a soldier, Mrs. Wadman, it is in vain, I have reconnoitered every corner, and can see nothing, Widow—but fire!—fire!— shooting from every part.</p>
+      </sp>
+      <sp who="#mrs_wadman">
+       <speaker>Wid.</speaker>
+       <p>It is easy now—well, the eye is the most tender part about us—and the most ornamental.</p>
+      </sp>
+      <sp who="#toby">
+       <speaker>Toby.</speaker>
+       <p>And the most dangerous, Madam—an eye is for all the world, in this respect, exactly like a cannon, that it is not so much the eye nor the cannon themselves, as it is the carriage of the eye and the carriage of the cannon, by which both the one and the other are enabled to do so much execution—</p>
+      </sp>
+      <sp who="#mrs_wadman">
+       <speaker>Wid.</speaker>
+       <p>Then there are many kinds of eyes—</p>
+      </sp>
+      <sp who="#toby">
+       <speaker>Toby.</speaker>
+       <p>Yes, widow, and many kinds of cannon.</p>
+      </sp>
+      <sp who="#mrs_wadman">
+       <speaker>Wid.</speaker>
+       <p>The rolling eye—</p>
+      </sp>
+      <sp who="#toby">
+       <speaker>Toby.</speaker>
+       <p>And the battering cannon.</p>
+      </sp>
+      <sp who="#mrs_wadman">
+       <speaker>Wid.</speaker>
+       <p>The commanding eye—</p>
+      </sp>
+      <sp who="#toby">
+       <speaker>Toby.</speaker>
+       <p>And the field piece.</p>
+      </sp>
+      <sp who="#mrs_wadman">
+       <speaker>Wid.</speaker>
+       <p>The languishing eye—</p>
+      </sp>
+      <sp who="#toby">
+       <speaker>Toby.</speaker>
+       <p>And the howitzer.</p>
+      </sp>
+      <sp who="#mrs_wadman">
+       <speaker>Wid.</speaker>
+       <p>The forbidding eye—</p>
+      </sp>
+      <sp who="#toby">
+       <speaker>Toby.</speaker>
+       <p>And the horn petard.</p>
+      </sp>
+      <sp who="#mrs_wadman">
+       <speaker>Wid.</speaker>
+       <p>The imperious eye—</p>
+      </sp>
+      <sp who="#toby">
+       <speaker>Toby.</speaker>
+       <p>Of all eyes, good Heaven! defend me from the imperious one—There are more evils in such an eye, widow, than in a whole train of artillery
+<pb n="20" facs="27"/>
+—
+<stage>(<hi>She gives him her hand.</hi>)</stage>
+O give me, Mrs. Wadman, an eye full of gentle salutations and soft notes, whispering like the last low accents of a dying saint.</p>
+      </sp>
+      <sp who="#mrs_wadman">
+       <speaker>Wid.</speaker>
+       <p>I see, Captain, you are acquainted with the soft passions of love as well as the horrors of war—</p>
+      </sp>
+      <sp who="#toby">
+       <speaker>Toby.</speaker>
+       <p>War, Madam! What is war? But getting together a number of quiet and harmless people with swords in their hands, to keep the turbulent and ambitious within bounds—It is one thing to gather laurels, it is another to scatter cypress.</p>
+      </sp>
+      <sp who="#mrs_wadman">
+       <speaker>Wid.</speaker>
+       <p>Stop, Captain—You are so gallant, so ardent, I wonder a gentleman of your figure could so long have lived comfortably alone, without a bosom to rest your head on, or trust your cares to. But then that dreadful wound—where did you receive it, Captain?</p>
+      </sp>
+      <sp who="#toby">
+       <speaker>Toby.</speaker>
+       <p>You shall see, Madam, the very spot where I—
+<stage>(<hi>pulls out a plan.</hi>)</stage>
+Just here, Madam, before the gate of St. Nicholas, in one of the traverses of the French, opposite to the salient angle of the demi bastion of St. Roch—I suppose you understand the geography of the place.</p>
+      </sp>
+      <sp who="#mrs_wadman">
+       <speaker>Wid.</speaker>
+       <p>A fig for the geography—We were speaking of love and matrimony.</p>
+      </sp>
+      <sp who="#toby">
+       <speaker>Toby.</speaker>
+       <p>But must postpone the conversation, sweet widow, for here comes my brother.</p>
+      </sp>
+      <sp who="#mrs_wadman">
+       <speaker>Wid.</speaker>
+       <p>What an interruption!
+<stage>(<hi>aside.</hi>)</stage>
+Well, Captain, I shall take a view of your fortifications, as soon as I pay a short visit to poor Mrs. Shandy.</p>
+      </sp>
+      <stage>Exit.</stage>
+      <stage>
+       <pb n="21" facs="28"/>
+       <hi>Enter</hi> SHANDY, <hi>walking solemnly in his Night Gown, Slippers, and Cap—a large Folio under his Arm.</hi>
+      </stage>
+      <sp who="#toby">
+       <speaker>Toby.</speaker>
+       <p>Hem—</p>
+      </sp>
+      <sp who="#mr_shandy">
+       <speaker>Shan.</speaker>
+       <p>We should be overset and torn to pieces an hundred times a day, brother Toby, was it not for a secret spring within us—</p>
+      </sp>
+      <sp who="#toby">
+       <speaker>Toby.</speaker>
+       <p>Which spring I take to be religion.</p>
+      </sp>
+      <sp who="#mr_shandy">
+       <speaker>Shan.</speaker>
+       <p>Will that set my boy's nose on.</p>
+      </sp>
+      <sp who="#toby">
+       <speaker>Toby.</speaker>
+       <p>Religion, brother, makes every thing strait.</p>
+      </sp>
+      <sp who="#mr_shandy">
+       <speaker>Shan.</speaker>
+       <p>Since the greatest evil has befallen him, I must counteract and undo it with the greatest good—His name shall save him—He shall be baptized Trismegistus.</p>
+      </sp>
+      <sp who="#toby">
+       <speaker>Toby.</speaker>
+       <p>I wish his long name may answer for his short nose.</p>
+      </sp>
+      <sp who="#mr_shandy">
+       <speaker>Shan.</speaker>
+       <p>It is a name will bring all things to rights. This Trismegistus was the greatest of all earthly beings—He was the greatest king, the greatest philosopher, the greatest priest—</p>
+      </sp>
+      <sp who="#toby">
+       <speaker>Toby.</speaker>
+       <p>And engineer, I suppose.</p>
+      </sp>
+      <sp who="#mr_shandy">
+       <speaker>Shan.</speaker>
+       <p>No doubt, brother, he was an engineer, as he was a priest.</p>
+      </sp>
+      <stage>
+       <hi>Enter</hi> SUSAN.</stage>
+      <sp who="#susannah">
+       <speaker>Sus.</speaker>
+       <p>The child is dying, Sir, dying—but the curate is in the dressing room, waiting for the name.</p>
+      </sp>
+      <sp who="#mr_shandy">
+       <speaker>Shan.</speaker>
+       <p>How!</p>
+      </sp>
+      <sp who="#susannah">
+       <speaker>Sus.</speaker>
+       <p>He's as black in the face as my—</p>
+      </sp>
+      <sp who="#mr_shandy">
+       <speaker>Shan.</speaker>
+       <p>What—</p>
+      </sp>
+      <sp who="#susannah">
+       <speaker>Sus.</speaker>
+       <p>Why my shoe.</p>
+      </sp>
+      <sp who="#toby">
+       <speaker>Toby.</speaker>
+       <p>He is to be called Trismegistus.</p>
+      </sp>
+      <sp who="#mr_shandy">
+       <pb n="22" facs="29"/>
+       <speaker>Shan.</speaker>
+       <p>Can'st thou carry Trismegistus in thy head across the gallery without forgetting.</p>
+      </sp>
+      <stage>Sits and buttons his knees.</stage>
+      <sp who="#susannah">
+       <speaker>Sus.</speaker>
+       <p>Can I!—Tris—tris—tris—gistus—gistus.</p>
+      </sp>
+      <stage>Exit.</stage>
+      <sp who="#mr_shandy">
+       <speaker>Shan.</speaker>
+       <p>Of all the puzzling riddles in the married state, brother Toby, there is not one that has more intricacies in it than this—That from the moment the mistress of the house is brought to bed, every female in it, from the lady's gentlewoman down to the cinder wench, become an inch taller, and give themselves more airs on that single inch, than on all their other inches put together—Now we'll go see Trismegistus▪</p>
+      </sp>
+      <stage>
+       <hi>Enter</hi> TRIM.</stage>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>The child is christened, and please your honor—</p>
+      </sp>
+      <sp who="#mr_shandy">
+       <speaker>Shan.</speaker>
+       <p>And Susannah has not forgot the name.
+<stage>
+         <hi>Enter</hi> SUSAN (<hi>crying.</hi>)</stage>
+       </p>
+       <p>What's the matter, Susan?</p>
+      </sp>
+      <sp who="#susannah">
+       <speaker>Sus.</speaker>
+       <p>No body is in fault but Mr. Yorick's curate—I ran all the way calling over the name, and told him it was Tristramgistus</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>She did, indeed▪ your honor.</p>
+      </sp>
+      <sp who="#susannah">
+       <speaker>Sus.</speaker>
+       <p>He called me noodle, and said there was no gistus in it, and christened my young master, Tristram, which he said was his own name.</p>
+      </sp>
+      <sp who="#mr_shandy">
+       <speaker>Shand.</speaker>
+       <p>Retire—
+<stage>(<hi>pushes her out.</hi>)</stage>
+fire! fury! women! and wind!—Unhappy Tristram—Child of decripitude—What misfortune or disaster in
+<pb n="23" facs="30"/>
+the book of amylratic evils, which could unmechanize thy frame, which has not fallen upon thy head?
+<stage>Going.</stage>
+       </p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>It was all owing, an't please your honor, to Susan's mistake—it was her error, not a fault.</p>
+      </sp>
+      <sp who="#toby">
+       <speaker>Toby.</speaker>
+       <p>Trim, thou wer't ever a friend to the distressed—And a true friend, for thou hast assisted them behind their backs—I have left, Trim, my Bowling-green brother—I have left him a pension! he always obeyed orders, whether from his officer or from Heaven.</p>
+      </sp>
+      <sp who="#mr_shandy">
+       <speaker>Shan.</speaker>
+       <p>Had Count Solmes done the same at the battle of Steenkirk, Trim, it would have saved thee from having been run over by the dragoons.</p>
+      </sp>
+      <stage>Peevishly.</stage>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>Sav'd me! your honor, it would have saved five battalions!</p>
+      </sp>
+      <sp who="#toby">
+       <speaker>Toby.</speaker>
+       <p>Trim's right! perfectly right!</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>Count Solmes should have sent up the foot, not the horse—We would have fired with them muzzle to muzzle for their lives—</p>
+      </sp>
+      <sp who="#mr_shandy">
+       <speaker>Shan.</speaker>
+       <p>O Tristram!
+<stage>(<hi>wringing his hand.</hi>)</stage>
+       </p>
+      </sp>
+      <sp who="#toby">
+       <speaker>Toby.</speaker>
+       <p>The French, brother; had the advantage of a wood; and give them a moment's time to retrench themselves, they are a nation will pop, and pop at you for ever—There is no way but to march cooly up to them, receive their fire, and fall upon them—</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>Pell, mell—</p>
+      </sp>
+      <sp who="#toby">
+       <speaker>Toby.</speaker>
+       <p>Ding dong—</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>Horse and foot—</p>
+      </sp>
+      <sp who="#toby">
+       <speaker>Toby.</speaker>
+       <p>Helter skelter—</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>Right and left—</p>
+      </sp>
+      <sp who="#toby">
+       <speaker>Toby.</speaker>
+       <p>Front and flank—</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>Sword in hand—</p>
+      </sp>
+      <sp who="#toby">
+       <pb n="24" facs="31"/>
+       <speaker>Toby.</speaker>
+       <p>Blood and 'ouns—</p>
+      </sp>
+      <sp who="#trim #toby">
+       <speaker>Both.</speaker>
+       <p>Huzza!—huzza!</p>
+      </sp>
+      <stage>Exeunt Toby and Trim.</stage>
+      <sp who="#mr_shandy">
+       <speaker>Shan.</speaker>
+       <p>Heaven! how the battle rages! But is not a man's Hobby-horse the tenderest part about him—and why should I hurt a brother's? I'll send the Widow Wadman to him this instant, she must put an end to this brother's military frenzy—O Tristram! Tristram!
+<stage>Exit.</stage>
+       </p>
+      </sp>
+     </div>
+     <div type="scene">
+      <head>SCENE, <stage>
+        <hi>a</hi> HEDGE <hi>across the Stage, with a Gate.—A Centry Box and Garden Chair on one side, on the other the Ruins of a Fortification— a Draw-Bridge, and several Pioneers Instruments on the Stage.</hi>
+       </stage>
+      </head>
+      <stage>
+       <hi>Enter</hi> TRIM <hi>with a Spade.</hi>
+      </stage>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>And so our fortifications are destroyed —Well I'll throw the implements into the barrow and roll them off the field.
+<stage>(<hi>sighs</hi>)</stage>
+No, I'll do it before his honor rises in the morning —He took pleasure in them and to see them removed might give him pain—</p>
+      </sp>
+      <stage>
+       <hi>Enter</hi> SUSAN.</stage>
+      <sp who="#susannah">
+       <speaker>Sus.</speaker>
+       <p>La, Mr. Trim, what dreadful havoc you have made with your fortifications—</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>Here stood the bastion, and here were the ravelins, and there lay the French—and here was the gate of St. Nicholas, where his honor received his wound.—Thy crying, Susan, hath made thee look charming—thou look'st like the moist eye of an April morn!</p>
+      </sp>
+      <sp who="#susannah">
+       <pb n="25" facs="32"/>
+       <speaker>Sus.</speaker>
+       <p>I do believe you love me, Trim—</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>Yes, and we'll marry, Susan—We'll marry —The peace will make us all marry!— But here comes the Captain, so get behind the draw-bridge, and I will come to thee presently, and tell thee a story I promised—of the King of Bohemia and his seven castles.</p>
+      </sp>
+      <sp who="#susannah">
+       <speaker>Sus.</speaker>
+       <p>Well, I'll wait, for I would not for the world be taken in confusion by the Captain.
+<stage>(<hi>goes behind the bridge.</hi>)</stage>
+       </p>
+      </sp>
+      <stage>
+       <hi>Enter</hi> TOBY.</stage>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>I think, an't please your honour, that the fortifications are almost destroyed, and the bason is upon a level with the mole—</p>
+      </sp>
+      <sp who="#toby">
+       <speaker>Toby.</speaker>
+       <p>Then there is no further occasion for our services—But, Trim, the widow has promised to meet me here immediately.</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>Does she know any thing of your honor's being in love?</p>
+      </sp>
+      <sp who="#toby">
+       <speaker>Toby.</speaker>
+       <p>Heaven help her, no more than the child unborn.</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>Ah! your honor, she does—I know women, and have observed the widow's bush-firing from behind the yew hedge.—Well, I'll stand centinel behind the bridge, and give your honor notice if any one approaches
+<stage>(goes behind the bridge.)</stage>
+       </p>
+      </sp>
+      <stage>
+       <hi>Enter</hi> WIDOW WADMAN.</stage>
+      <sp who="#mrs_wadman">
+       <speaker>Wid.</speaker>
+       <p>You see, Captain, I am punctual to my appointment—La! you can't think what I have
+<pb n="26" facs="33"/>
+been meditating on—But what is your opinion, Captain Shandy? Are not the cares and anxiety of the marriage state very great?</p>
+      </sp>
+      <sp who="#toby">
+       <speaker>Toby.</speaker>
+       <p>I suppose so—</p>
+      </sp>
+      <sp who="#mrs_wadman">
+       <speaker>Wid.</speaker>
+       <p>You can have no inclination for changing your state;—Indeed I can see no reason for a man's marrying—</p>
+      </sp>
+      <stage>
+       <hi>Enter</hi> SLOP.</stage>
+      <sp who="#dr_slop">
+       <speaker>Slop.</speaker>
+       <p>Then, madam, you'll see a very good reason written in the law of Moses.</p>
+      </sp>
+      <sp who="#mrs_wadman">
+       <speaker>Wid.</speaker>
+       <p>This intrusion, Dr. Slop,
+<stage>(he retreats, she follows.)</stage>
+       </p>
+      </sp>
+      <sp who="#dr_slop">
+       <speaker>Slop.</speaker>
+       <p>Are not children the very end of the institution.</p>
+      </sp>
+      <sp who="#mrs_wadman">
+       <speaker>Wid.</speaker>
+       <p>A fiddle stick!</p>
+      </sp>
+      <sp who="#dr_slop">
+       <speaker>Stop.</speaker>
+       <p>She wants you to marry her, Captain Shandy.</p>
+      </sp>
+      <sp who="#mrs_wadman">
+       <speaker>Wid.</speaker>
+       <p>'Tis false
+<stage>(<hi>Slop retreats, the Widow following, till they throw down the bridge, and discover Trim and Susan sitting behind it.</hi>
+        </stage>
+       </p>
+      </sp>
+      <sp who="#mrs_wadman">
+       <speaker>Wid.</speaker>
+       <p>Mercy defend us!</p>
+      </sp>
+      <sp who="#susannah">
+       <speaker>Sus.</speaker>
+       <p>Hem!</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>Hem!</p>
+      </sp>
+      <sp who="#dr_slop">
+       <speaker>Slop.</speaker>
+       <p>Oh! Madam Lucretia, have we caught you.</p>
+      </sp>
+      <sp who="#toby">
+       <speaker>Toby.</speaker>
+       <p>I told you, Trim, that bed-cords would never be sufficient to secure the bridge if attacked by cavalry.</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>It was a Dutch bridge, your honor, and so there was no depending on it.</p>
+      </sp>
+      <sp who="#susannah">
+       <speaker>Sus.</speaker>
+       <p>He was shewing it to me, he! he! he!</p>
+      </sp>
+      <sp who="#dr_slop">
+       <speaker>Slop.</speaker>
+       <p>And in the proof of its excellency and
+<pb n="27" facs="34"/>
+strength some how or other the captain's bridge has been broken down, he! he! he!</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>It was all a misfortune-shewing Susan the spot where his honour got his wound, and going too near the edge of the fosse—</p>
+      </sp>
+      <sp who="#dr_slop">
+       <speaker>Slop.</speaker>
+       <p>You unfortunately slipped in—</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>And having Susan under the arm.</p>
+      </sp>
+      <sp who="#susannah">
+       <speaker>Sus.</speaker>
+       <p>He dragged me in after him, he! he! he!</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>By means of which, Susan fell backwards soss against the bridge, and my foot getting into the curvette, I fell forward full against the bridge too.</p>
+      </sp>
+      <sp who="#dr_slop">
+       <speaker>Slop.</speaker>
+       <p>And pray, pretty madam, how do you intend to repair your reputation?</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>Who dare injure her reputation?—She has a soldier to protect her—he who injures the character of a woman is a villain, and a coward in his heart.</p>
+      </sp>
+      <sp who="#dr_slop">
+       <speaker>Slop.</speaker>
+       <p>That may be—but I'll make an incision in her character.</p>
+      </sp>
+      <stage>Exit.</stage>
+      <sp who="#toby">
+       <speaker>Toby.</speaker>
+       <p>Widow, will you marry me?</p>
+      </sp>
+      <stage>
+       <hi>Enter</hi> SHANDY.</stage>
+      <sp who="#mr_shandy">
+       <speaker>Shan.</speaker>
+       <p>Marry, brother!</p>
+      </sp>
+      <sp who="#toby">
+       <speaker>Toby.</speaker>
+       <p>Yes, I wish to marry the widow with all my heart.</p>
+      </sp>
+      <sp who="#mrs_wadman">
+       <speaker>Wid.</speaker>
+       <p>And the widow has not the heart to refuse you.</p>
+      </sp>
+      <sp who="#trim">
+       <speaker>Trim.</speaker>
+       <p>Your honour has carried the place by <hi>coup de main.</hi>
+       </p>
+      </sp>
+      <sp who="#mr_shandy">
+       <speaker>Shan.</speaker>
+       <p>Thou art a true daughter of Eve—Well, Toby, thou wilt never lie diagonally in thy bed
+<pb n="28" facs="35"/>
+again!
+<stage>(<hi>joins their hands</hi>)</stage>
+and since peace is now established, I hope every unmarried man and single woman will follow the example of you and the widow, and encrease the strength of the nation by raising supplies for the next war.</p>
+      </sp>
+     </div>
+    </div>
+    <trailer>FINIS.</trailer>
+   </div>
+  </body>
+ </text>
+</TEI>

@@ -1,0 +1,3741 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">Caractacus</title>
+    <title type="sub">a dramatic poem: written on the model of the ancient Greek tragedy. By the author of Elfrida.</title>
+    <author>
+     <persName>
+      <surname>Mason</surname>
+      <forename>William</forename>
+      <idno type="VIAF">95718679</idno>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>Caractacus: a dramatic poem: written on the model of the ancient Greek tragedy. By the author of Elfrida.</name>
+     <author>Mason, William, 1725-1797.</author>
+     <publisher>printed for J. Knapton; and R. and J. Dodsley,</publisher>
+     <date>1759.</date>
+     <pubPlace>London :</pubPlace>
+     <note>The author of Elfrida = William Mason, who signs the dedicatory poem.</note>
+     <note>Titlepage in red and black.</note>
+     <note>With a half-title.</note>
+     <note>Press figure on p. 84 (sig. M2v): 1; variant: no press figure on p. 84.</note>
+     <note>Reproduction of original from the British Library.</note>
+     <note>English Short Title Catalog, ESTCT96176.</note>
+     <note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note>
+    </bibl>
+    <biblFull n="printed source">
+     <publicationStmt>
+      <authority ref="#JJ">Jan Jokisch</authority>
+      <date>2024 December</date>
+      <idno type="ECCO_Drama">K077446.000</idno>
+      <idno type="DLPS">004861169</idno>
+      <idno type="ESTC">T96176</idno>
+      <idno type="DocNo">CW109759767</idno>
+      <idno type="TCP">K077446.000</idno>
+      <idno type="GaleDocNo">CW3309759767</idno>
+      <idno type="ContentSet">ECLL</idno>
+      <idno type="ImageSetID">0081800300</idno>
+      <availability>
+       <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+      </availability>
+     </publicationStmt>
+    </biblFull>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    <person xml:id="aulus_didius"><persName>Aulus Didius</persName><sex value="MALE"/></person><person xml:id="vellinus"><persName>Vellinus</persName><sex value="MALE"/></person><person xml:id="elidurus"><persName>Elidurus</persName><sex value="MALE"/></person><personGrp xml:id="chorus"><persName>Chorus</persName><sex value="MALE"/></personGrp><person xml:id="evilina"><persName>Evilina</persName><sex value="FEMALE"/></person><person xml:id="arviragus"><persName>Arviragus</persName><sex value="MALE"/></person><person xml:id="caractacus"><persName>Caractacus</persName><sex value="MALE"/></person><person xml:id="bard"><persName>Bard</persName><sex value="MALE"/></person></listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1759">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text xml:lang="en">
+  <front>
+   <div type="halftitle">
+    <pb facs="1"/>
+    <p>CARACTACUS, A Dramatic Poem.</p>
+   </div>
+   <div type="titlepage">
+    <pb facs="2" ana="y"/>
+    <p>CARACTACUS, A Dramatic Poem: Written on the MODEL of The Ancient GREEK Tragedy.</p>
+    <p>By the Author of ELFRIDA.</p>
+    <quote>Misimus &amp; lectas Druidum de gente Chorëas.</quote>
+    <p>LONDON: Printed for J. KNAPTON in Ludgate-Street; and R. and J. DODSLEY in Pall-Mall. MDCCLIX.</p>
+   </div>
+   <div type="dedicatorypoem">
+    <pb facs="3"/>
+    <head>TO The Rev<span rend="sup">d</span> Mr HURD.</head>
+    <lg type="elegy">
+     <head>ELEGY.</head>
+     <l>FRIEND of my youth, who, when the willing Muse</l>
+     <l>Stream'd o'er my breast her warm poetic rays,</l>
+     <l>Saw'st the fresh seeds their vital powers diffuse,</l>
+     <l>And fed'st them with the fost'ring dew of praise!</l>
+     <l>Whate'er the produce of th' unthrifty soil,</l>
+     <l>The leaves, the flowers, the fruits, to thee belong:</l>
+     <l>The labourer earns the wages of his toil;</l>
+     <l>Who form'd the Poet, well may claim the song.</l>
+     <l>Yes, 'tis my pride to own, that taught by thee</l>
+     <l>My conscious soul superior flights essay'd;</l>
+     <l>Learnt from thy lore the Poet's dignity,</l>
+     <l>And spurn'd the hirelings of the rhyming trade.</l>
+     <l>Say, scenes of Science, say, thou haunted stream!</l>
+     <l>[For oft my Muse-led steps did'st thou behold]</l>
+     <l>How on thy banks I rifled every theme,</l>
+     <l>That Fancy fabled in her age of gold.</l>
+     <l>How oft I cry'd, " O come, thou tragic Queen!</l>
+     <l>" March from thy Greece with firm majestic tread!</l>
+     <l>" Such as when Athens saw thee fill her scene,</l>
+     <l>" When Sophocles thy choral Graces led;</l>
+     <l>
+      <pb n="6" facs="4"/>
+" Saw thy proud pall it's purple length devolve,</l>
+     <l>" Saw thee uplift the glitt'ring dagger high,</l>
+     <l>" Ponder with fixed brow thy deep resolve</l>
+     <l>" Prepar'd to strike, to triumph, and to die.</l>
+     <l>" Bring then to Britain's plain that choral throng,</l>
+     <l>" Display thy buskin'd pomp, thy golden lyre,</l>
+     <l>" Give her historic forms the soul of song,</l>
+     <l>" And mingle Attic art with Shakespear's fire."</l>
+     <l>" Ah what, fond Boy, dost thou presume to claim?"</l>
+     <l>The Muse reply'd. " Mistaken suppliant, know,</l>
+     <l>" To light in Shakespear's breast the dazzling flame</l>
+     <l>" Exhausted all Parnassus could bestow.</l>
+     <l>" True; Art remains; and, if from his bright page</l>
+     <l>" Thy mimic power one vivid beam can seize,</l>
+     <l>" Proceed; and in that best of tasks engage,</l>
+     <l>" Which tends at once to profit, and to please."</l>
+     <l>She spake; and Harewood's Towers spontaneous rose;</l>
+     <l>Soft virgin warblings eccho'd thro' the grove;</l>
+     <l>And fair Elfrida pour'd forth all her woes,</l>
+     <l>The hapless pattern of connubial Love.</l>
+     <l>More awful scenes old Mona next display'd;</l>
+     <l>Her caverns gloom'd, her forests wav'd on high,</l>
+     <l>While flam'd within their consecrated shade</l>
+     <l>The Genius stern of British liberty.</l>
+     <l>And see, my HURD! to thee those scenes consign'd;</l>
+     <l>O! take and stamp them with thy honour'd name.</l>
+     <l>Around the page be friendship's chaplet twin'd;</l>
+     <l>And, if they find the road to honest Fame,</l>
+     <l>
+      <pb n="7" facs="5"/>
+Perchance the candour of some nobler age</l>
+     <l>May praise the Bard, who bad gay Folly bear</l>
+     <l>
+      <note n="*" place="foot">
+       <l>Nil equidem feci (tu scis hoc ipse) Theatris;</l>
+       <l>Musa nec in plausus ambitiosa mea est</l>
+       <bibl>OVID. Trist. Lib. V. El. vii. 23.</bibl>
+      </note> Her cheap applauses to the busy stage</l>
+     <l>And leave him pensive Virtue's silent tear;</l>
+     <l>Chose too to consecrate his fav'rite strain</l>
+     <l>To Him, who grac'd by ev'ry liberal art,</l>
+     <l>That best might shine amid the learned train,</l>
+     <l>Yet more excell'd in morals, and in heart:</l>
+     <l>Whose equal mind could see vain fortune shower</l>
+     <l>Her flimzy favours on the fawning crew,</l>
+     <l>While in low Thurcaston's sequester'd bower</l>
+     <l>She fixt him distant from Promotion's view:</l>
+     <l>Yet, shelter'd there by calm Contentment's wing;</l>
+     <l>Pleas'd he could smile, and with sage HOOKER's eye</l>
+     <l>
+      <note n="†" place="foot">Part of a sentence in a letter of Hooker to Archbishop Whitgift. See his Life in the Biographia Britannica.</note> " See from his mother earth God's blessings spring</l>
+     <l>" And eat his bread in peace and privacy."</l>
+     <closer>
+      <dateline>
+       <date>20 March 1759.</date>
+      </dateline>
+      <signed>W. MASON.</signed>
+     </closer>
+    </lg>
+   </div>
+   <div type="Dramatis_Personae">
+    <pb facs="6"/>
+    <castList>
+     <head>Persons of the DRAMA.</head>
+     <castItem>AULUS DIDIUS, the Roman General.</castItem>
+     <castItem>VELLINUS, ELIDURUS, Sons of Cartismandua.</castItem>
+     <castItem>The dramatic part of the Chorus is supposed to be spoken by the chief Druid; the lyrical part sung by the Bards.CHORUS of Druids and Bards.</castItem>
+     <castItem>CARACTACUS.</castItem>
+     <castItem>EVILINA, Daughter to Caractacus.</castItem>
+     <castItem>ARVIRAGUS, Son to Caractacus.</castItem>
+    </castList>
+   </div>
+   <set>
+    <p>Scene, MONA.</p>
+   </set>
+  </front>
+  <body>
+   <div type="text">
+    <pb n="1" facs="7"/>
+    <head>CARACTACUS, A Dramatic Poem.</head>
+    <stage>AULUS DIDIUS, with Romans.</stage>
+    <sp>
+     <l>THIS is the secret centre of the isle:</l>
+     <l>Here, Romans, pause, and let the eye of wonder</l>
+     <l>Gaze on the solemn scene; behold yon oak,</l>
+     <l>How stern he frowns, and with his broad brown arms</l>
+     <l>Chills the pale plain beneath him: mark yon altar,</l>
+     <l>The dark stream brawling round it's rugged base,</l>
+     <l>These cliffs, these yawning caverns, this wide circus,</l>
+     <l>Skirted with unhewn stone: they awe my soul,</l>
+     <l>As if the very Genius of the place</l>
+     <l>Himself appear'd, and with terrific tread</l>
+     <l>Stalk'd thro' his drear domain. And yet, my friends,</l>
+     <l>(If shapes like his be but the fancy's coinage)</l>
+     <l>Surely there is a hidden power, that reigns</l>
+     <l>'Mid the lone majesty of untam'd nature,</l>
+     <l>Controuling sober reason; tell me else,</l>
+     <l>Why do these haunts of barb'rous superstition</l>
+     <l>O'ercome me thus? I scorn them, yet they awe me.</l>
+     <l>Call forth the British Princes: in this gloom</l>
+     <l>I mean to school them to our enterprize.</l>
+     <stage>Enter Vellinus and Elidurus.</stage>
+    </sp>
+    <stage>
+     <pb n="2" facs="8"/>AULUS DIDIUS, VELLINUS, ELIDURUS.</stage>
+    <sp>
+     <l>Ye pledges dear of Cartismandua's faith,</l>
+     <l>Approach! and to my uninstructed ear</l>
+     <l>Explain this scene of horror.</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>Daring Roman,</l>
+     <l>Thy footsteps press on consecrated ground:</l>
+     <l>These mighty piles of magic-planted rock,</l>
+     <l>Thus rang'd in mystic order, mark the place</l>
+     <l>Where but at times of holiest festival</l>
+     <l>The Druid leads his train.</l>
+    </sp>
+    <sp who="#aulus_didius">
+     <speaker>AULUS DIDIUS.</speaker>
+     <l>Where dwells the seer?</l>
+    </sp>
+    <sp who="#vellinus">
+     <speaker>VELLINUS.</speaker>
+     <l>In yonder shaggy cave; on which the moon</l>
+     <l>Now sheds a side-long gleam. His brotherhood</l>
+     <l>Possess the neighb'ring cliffs.</l>
+    </sp>
+    <sp who="#aulus_didius">
+     <speaker>AULUS DIDIUS.</speaker>
+     <l>Yet up the hill</l>
+     <l>Mine eye descrys a distant range of caves,</l>
+     <l>Delv'd in the ridges of the craggy steep:</l>
+     <l>And this way still another.</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>On the left</l>
+     <l>Refide the Sages skill'd in Nature's lore:</l>
+     <l>The changeful universe, it's numbers, powers,</l>
+     <l>Studious they measure, save when meditation</l>
+     <l>Gives place to holy rites: then in the grove</l>
+     <l>Each hath his rank and function. Yonder grots</l>
+     <l>Are tenanted by Bards, who nightly thence,</l>
+     <l>
+      <pb n="3" facs="9"/>
+Rob'd in their flowing vests of innocent white,</l>
+     <l>Descend, with harps that glitter to the moon,</l>
+     <l>Hymning immortal strains. The spirits of air,</l>
+     <l>Of earth, of water, nay of heav'n itself,</l>
+     <l>Do listen to their lay: and oft, 'tis said,</l>
+     <l>In visible shapes dance they a magic round</l>
+     <l>To the high minstrelsy. Now, if thine eye</l>
+     <l>Be sated with the view, haste to thy ships;</l>
+     <l>And ply thine oars; for, if the Druids learn</l>
+     <l>This bold intrusion, thou wilt find it hard</l>
+     <l>To foil their fury.</l>
+    </sp>
+    <sp who="#aulus_didius">
+     <speaker>AULUS DIDIUS.</speaker>
+     <l>Prince, I did not moor</l>
+     <l>My light-arm'd shallops on this dangerous strand,</l>
+     <l>To sooth a fruitless curiosity:</l>
+     <l>I come in quest of proud Caractacus;</l>
+     <l>Who, when our veterans put his troops to flight,</l>
+     <l>Found refuge here.</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>If here the Monarch rests,</l>
+     <l>Presumptuous Chief! thou might'st as well essay</l>
+     <l>To pluck him from yon stars: Earth's ample range</l>
+     <l>Contains no surer refuge: underneath</l>
+     <l>The soil we tread, a hundred secret paths,</l>
+     <l>Scoopt thro' the living rock in winding maze,</l>
+     <l>Lead to as many caverns, dark, and deep:</l>
+     <l>'Mid which the hoary sages act their rites</l>
+     <l>Mysterious, rites of such strange potency,</l>
+     <l>As, done in open day, would dim the sun,</l>
+     <l>
+      <pb n="4" facs="10"/>
+Tho' thron'd in noontide brightness. In such dens</l>
+     <l>He may for life lie hid.</l>
+    </sp>
+    <sp who="#aulus_didius">
+     <speaker>AULUS DIDIUS.</speaker>
+     <l>We know the task</l>
+     <l>Most difficult: yet has thy royal mother</l>
+     <l>Furnish'd the means.</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>My mother sayst thou, Roman?</l>
+    </sp>
+    <sp who="#aulus_didius">
+     <speaker>AULUS DIDIUS.</speaker>
+     <l>In proof of that firm faith she lends to Rome,</l>
+     <l>She gave ye up her honour's hostages.</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>She did: and we submit.</l>
+    </sp>
+    <sp who="#aulus_didius">
+     <speaker>AULUS DIDIUS.</speaker>
+     <l>To Rome we bear ye;</l>
+     <l>From your dear country bear ye; from your joys,</l>
+     <l>Your loves, your friendships, all your souls hold precious.</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>And dost thou taunt us, Roman, with our fate?</l>
+    </sp>
+    <sp who="#aulus_didius">
+     <speaker>AULUS DIDIUS.</speaker>
+     <l>No, Youth, by heav'n, I would avert that fate.</l>
+     <l>Wish ye for liberty?</l>
+    </sp>
+    <sp who="#vellinus">
+     <speaker>VELLINUS, ELIDURUS.</speaker>
+     <l>More than for life.</l>
+    </sp>
+    <sp who="#aulus_didius">
+     <speaker>AULUS DIDIUS.</speaker>
+     <l>And would do much to gain it?</l>
+    </sp>
+    <sp who="#vellinus">
+     <speaker>VELLINUS.</speaker>
+     <l>Name the task.</l>
+    </sp>
+    <sp who="#aulus_didius">
+     <pb n="5" facs="11"/>
+     <speaker>AULUS DIDIUS.</speaker>
+     <l>The task is easy. Haste ye to these Druids;</l>
+     <l>Tell them ye come, commission'd by your Queen,</l>
+     <l>To seek the great Caractacus; and call</l>
+     <l>His valour to her aid, against the Legions,</l>
+     <l>Which, led by our Ostorius, now assail</l>
+     <l>Her frontiers. The late treaty she has seal'd</l>
+     <l>Is yet unknown: and this her royal signet,</l>
+     <l>Which more to mask our purpose was obtain'd,</l>
+     <l>Shall be your pledge of faith. The eager king</l>
+     <l>Will gladly take the charge; and, he consenting,</l>
+     <l>What else remains, but to the Meinaï's shore</l>
+     <l>Ye lead his credulous step? there will we seize him:</l>
+     <l>Bear him to Rome, the substitute for you,</l>
+     <l>And give you back to freedom.</l>
+    </sp>
+    <sp who="#vellinus">
+     <speaker>VELLINUS.</speaker>
+     <l>If the Druids.—</l>
+    </sp>
+    <sp who="#aulus_didius">
+     <speaker>AULUS DIDIUS.</speaker>
+     <l>If they, or he, prevent this artifice,</l>
+     <l>Then force must take it's way: then flaming brands,</l>
+     <l>And biting axes, weilded by our soldiers,</l>
+     <l>Must level these thick shades; and so unlodge</l>
+     <l>The lurking savage.</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>Gods, shall Mona perish?</l>
+    </sp>
+    <sp who="#aulus_didius">
+     <speaker>AULUS DIDIUS.</speaker>
+     <l>Princes, her ev'ry trunk shall on the ground</l>
+     <l>Measure it's magnitude; unless ere dawn,</l>
+     <l>Ye lure this untam'd lion to our toils.</l>
+     <l>Go then, and prosper; I shall to the ships,</l>
+    </sp>
+    <sp who="#caractacus">
+     <pb n="6" facs="12"/>
+     <speaker>CARACTACUS.</speaker>
+     <l>And there expect his coming. Youths, remember,</l>
+     <l>He must to Rome to grace great Caesar's triumph:</l>
+     <l>Caesar and Fate demand him at your hands.</l>
+     <stage>Exit Aulus Didius, and Romans.</stage>
+    </sp>
+    <stage>ELIDURUS, VELLINUS.</stage>
+    <sp>
+     <l>And will heav'n suffer it? Will the just gods,</l>
+     <l>That tread yon spangled pavement o'er our heads,</l>
+     <l>Look from their sky and yield them? Will these Druids,</l>
+     <l>Their sage vicegerents, not call down the thunder;</l>
+     <l>And will not instant it's hot bolts be darted</l>
+     <l>In such a righteous cause? Yes, good old king,</l>
+     <l>Yes, last of Britons, thou art heav'ns own pledge;</l>
+     <l>And shalt be such 'till death.</l>
+    </sp>
+    <sp who="#vellinus">
+     <speaker>VELLINUS.</speaker>
+     <l>What means my brother,</l>
+     <l>Dost thou refuse the charge?</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>Dost thou accept it?</l>
+    </sp>
+    <sp who="#vellinus">
+     <speaker>VELLINUS.</speaker>
+     <l>It gives us liberty.</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>It makes us traytors.</l>
+     <l>Gods, would Vellinus do a deed of baseness?</l>
+    </sp>
+    <sp who="#vellinus">
+     <speaker>VELLINUS.</speaker>
+     <l>Will Elidurus scorn the profer'd boon</l>
+     <l>Of freedom?</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>Yes, when such it's guilty price,</l>
+     <l>Brother, I spurn it.</l>
+    </sp>
+    <sp who="#vellinus">
+     <pb n="7" facs="13"/>
+     <speaker>VELLINUS.</speaker>
+     <l>Go then, foolish boy!</l>
+     <l>I'll do the deed myself.</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>It shall not be:</l>
+     <l>I will proclaim the fraud.</l>
+    </sp>
+    <sp who="#vellinus">
+     <speaker>VELLINUS.</speaker>
+     <l>Wilt thou? 'tis well.</l>
+     <l>Hie to you cave; call loudly on the Druid;</l>
+     <l>And bid him drag to ignominious death</l>
+     <l>The partner of thy blood. Yet hope not thou</l>
+     <l>To 'scape; for thou didst join my impious steps:</l>
+     <l>Therefore his wrath shall curse thee: thou shalt live;</l>
+     <l>Yet shalt thou live an interdicted wretch,</l>
+     <l>All rights of nature cancell'd.</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>O Vellinus!</l>
+     <l>Rend not my soul: by heav'n thou know'st I love thee,</l>
+     <l>As fervently as brother e'er lov'd brother:</l>
+     <l>And, loving thee, I thought I lov'd mine honour.</l>
+     <l>Ah! do not wake, dear youth, in this true breast</l>
+     <l>So fierce a conflict.</l>
+    </sp>
+    <sp who="#vellinus">
+     <speaker>VELLINUS.</speaker>
+     <l>Honour's voice commands</l>
+     <l>Thou shouldst obey thy mother, and thy queen.</l>
+     <l>Honour and sage religion both conspire</l>
+     <l>To bid thee save these consecrated groves</l>
+     <l>From Roman devastation.</l>
+    </sp>
+    <sp who="#elidurus">
+     <pb n="8" facs="14"/>
+     <speaker>ELIDURUS.</speaker>
+     <l>Horrid thought!</l>
+     <l>Hence let us haste, ev'n to the furthest nook</l>
+     <l>Of this wide isle; nor view the sacrilege.</l>
+    </sp>
+    <sp who="#vellinus">
+     <speaker>VELLINUS.</speaker>
+     <l>No, let us stay, and by our prosperous art</l>
+     <l>Prevent the sacrilege. Mark me, my brother,</l>
+     <l>More years, and more experience have matur'd</l>
+     <l>My sober thought; I will convince thy youth,</l>
+     <l>That this our deed has ev'ry honest sanction</l>
+     <l>Cool reason may demand.</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>To Rome with reason:</l>
+     <l>Try if 'twill bring her deluging ambition</l>
+     <l>Into the level course of right and justice:</l>
+     <l>Try if 'twill tame these insolent invaders;</l>
+     <l>Who thus, in savageness of conquest, claim</l>
+     <l>Whom chance of war has spar'd. Do this, and prosper.</l>
+     <l>But, pray thee, do not reason from my soul</l>
+     <l>It's inbred honesty: that holy flame</l>
+     <l>How e'er eclips'd by Rome's black influence</l>
+     <l>In vulgar minds, ought still to glow in ours.</l>
+    </sp>
+    <sp who="#vellinus">
+     <speaker>VELLINUS.</speaker>
+     <l>Vain talker leave me.</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>No, I will not leave thee:</l>
+     <l>I must not, dare not, in these perilous shades.</l>
+     <l>Think, if thy fraud should fail, these holy men,</l>
+     <l>How will their justice rend thy traitrous limbs?</l>
+     <l>If thou succeed'st, the fiercer pangs of conscience,</l>
+     <l>
+      <pb n="9" facs="15"/>
+How will they ever goad thy guilty soul?</l>
+     <l>Mercy, defend us! see, the awful Druids</l>
+     <l>Are issuing from their caves: hear'st thou yon signal?</l>
+     <l>Lo, on the instant all the mountain whitens</l>
+     <l>With slow-descending Bards. Retire, retire;</l>
+     <l>This is the hour of sacrifice: to stay</l>
+     <l>Is death.</l>
+    </sp>
+    <sp who="#vellinus">
+     <speaker>VELLINUS.</speaker>
+     <l>I'll wait the closing of their rites</l>
+     <l>In yonder vale: do thou, as likes thee best,</l>
+     <l>Betray, or aid me.</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>To betray thee, youth,</l>
+     <l>That love forbids; honour, alas! to aid thee.</l>
+     <stage>Exeunt.</stage>
+    </sp>
+    <stage>Enter CHORUS.</stage>
+    <sp who="#chorus">
+     <speaker>SEMICHORUS.</speaker>
+     <l>Sleep and Silence reign around;</l>
+     <l>Not a night-breeze wakes to blow;</l>
+     <l>Circle, sons, this holy ground;</l>
+     <l>Circle close, in triple row;</l>
+     <l>And, if mask'd in vapors drear,</l>
+     <l>Any earth-born Spirit dare</l>
+     <l>To hover round this sacred space,</l>
+     <l>Haste with light spells the murky foe to chace.</l>
+     <l>Lift your boughs of vervain blue,</l>
+     <l>Dipt in cold September dew;</l>
+     <l>And dash the moisture chaste, and clear,</l>
+     <l>O'er the ground, and thro' the air.</l>
+     <l>Now the place is purg'd and pure.</l>
+     <l>
+      <pb n="10" facs="20"/>
+Brethren! say, for this high hour</l>
+     <l>Are the milk-white steers prepar'd?</l>
+     <l>Whose necks the rude yoke never scar'd,</l>
+     <l>To the furrow yet unbroke?</l>
+     <l>For such must bleed beneath yon oak.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>SEMICHORUS.</speaker>
+     <l>Druid, these, in order meet,</l>
+     <l>Are all prepar'd.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>SEMICHORUS.</speaker>
+     <l>But tell me yet,</l>
+     <l>Cadwall! did thy step profound</l>
+     <l>Dive into the cavern deep,</l>
+     <l>Twice twelve fathom under ground,</l>
+     <l>Where our sage fore-fathers sleep?</l>
+     <l>Thence with reverence hast thou born,</l>
+     <l>From the consecrated chest,</l>
+     <l>The golden sickle, scrip, and vest,</l>
+     <l>Whilom by old Belinus worn?</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>SEMICHORUS.</speaker>
+     <l>Druid, these, in order meet,</l>
+     <l>Are all prepar'd.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>SEMICHORUS.</speaker>
+     <l>But tell me yet,</l>
+     <l>From the grot of charms and spells,</l>
+     <l>Where our matron sister dwells,</l>
+     <l>Brennus! has thy holy hand</l>
+     <l>Safely brought the druid wand?</l>
+     <l>And the potent adder-stone,</l>
+     <l>Gender'd 'fore th' autumnal moon?</l>
+     <l>When, in undulating twine,</l>
+     <l>
+      <pb n="11" facs="21"/>
+The foaming snakes prolific join;</l>
+     <l>When they hiss, and when they bear</l>
+     <l>Their wond'rous egg aloof in air;</l>
+     <l>Thence, before to earth it fall,</l>
+     <l>The Druid, in his hallow'd pall,</l>
+     <l>Receives the prize;</l>
+     <l>And instant flys,</l>
+     <l>Follow'd by th' envenom'd brood,</l>
+     <l>'Till he cross the crystal flood.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>SEMICHORUS.</speaker>
+     <l>Druid, these, in order meet,</l>
+     <l>Are all prepar'd.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>SEMICHORUS.</speaker>
+     <l>Then all's compleat.</l>
+     <l>And now let nine of the selected band,</l>
+     <l>Whose greener years befit such station best,</l>
+     <l>With wary circuit pace around the grove:</l>
+     <l>And guard each inlet; watchful, lest the eye</l>
+     <l>Of busy curiosity profane</l>
+     <l>Pry on our rites: which now must be as close</l>
+     <l>As done i'th' very central womb of earth.</l>
+     <l>Occasion claims it; for Caractacus</l>
+     <l>This night demands admission to our train.</l>
+     <l>He, once our king, while ought his power avail'd</l>
+     <l>To save his country from the rod of tyrants;</l>
+     <l>That duty past, does wisely now retire</l>
+     <l>To end his days in secrecy and peace;</l>
+     <l>Druid with Druids, in this chief of groves,</l>
+     <l>Ev'n in the heart of Mona. See, he comes!</l>
+     <l>How awful is his port! mark him, my friends!</l>
+     <l>
+      <pb n="12" facs="22"/>
+He looks, as doth the tower, whose nodding walls,</l>
+     <l>After the conflict of heav'n's angry bolts,</l>
+     <l>Frown with a dignity unmark'd before,</l>
+     <l>Ev'n in it's prime of strength. Health to the king!</l>
+    </sp>
+    <stage>CARACTACUS, EVILINA, CHORUS.</stage>
+    <sp>
+     <l>This holy place, methinks, doth this night wear</l>
+     <l>More than it's wonted gloom: Druid, these groves</l>
+     <l>Have caught the dismal colouring of my soul,</l>
+     <l>Changing their dark dun garbs to very sable,</l>
+     <l>In pity to their guest. Hail, hallow'd oaks!</l>
+     <l>Hail, British born! who, last of British race,</l>
+     <l>Hold your primaeval rights by nature's charter;</l>
+     <l>Not at the nod of Caesar. Happy foresters,</l>
+     <l>Ye wave your bold heads 'mid the liberal air;</l>
+     <l>Nor ask, for priviledge, a praetor's edict.</l>
+     <l>Ye, with your tough and intertwisted roots,</l>
+     <l>Grasp the firm rocks ye sprung from; and, erect</l>
+     <l>In knotty hardihood, still proudly spread</l>
+     <l>Your leafy banners 'gainst the tyrannous north,</l>
+     <l>Who Roman like assails you. Tell me, Druid,</l>
+     <l>Is it not better to be such as these,</l>
+     <l>Than be the thing I am?</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>To be the thing,</l>
+     <l>Eternal wisdom wills, is ever best.</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>But I am lost to that predestin'd use</l>
+     <l>Eternal wisdom will'd, and fitly therefore</l>
+     <l>
+      <pb n="13" facs="23"/>
+May wish a change of being. I was born</l>
+     <l>A king; and Heav'n, who bade these warrior oaks</l>
+     <l>Lift their green shields against the fiery sun,</l>
+     <l>To fence their subject plain, did mean, that I</l>
+     <l>Should, with as firm an arm, protect my people,</l>
+     <l>Against the pestilent glare of Rome's ambition.</l>
+     <l>I fail'd; and how I fail'd, thou know'st too well;</l>
+     <l>So does the babbling world: and therefore, Druid,</l>
+     <l>I would be any thing save what I am.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>See, to thy wish, the holy rites prepar'd,</l>
+     <l>Which, if heav'n frown not, consecrate thee Druid:</l>
+     <l>See to the altar's base the victims led,</l>
+     <l>From whose free-gushing blood ourself shall read</l>
+     <l>Its high behests; which if assenting found,</l>
+     <l>These hands around thy chosen limbs shall wrap</l>
+     <l>The vest of sanctity; while at the act</l>
+     <l>Yon white-rob'd bards, sweeping their solemn harps,</l>
+     <l>Shall lift their choral warblings to the skies,</l>
+     <l>And call the gods to witness. Mean-while, Prince,</l>
+     <l>Bethink thee well if ought on this vain earth</l>
+     <l>Still holds too firm an union with thy soul,</l>
+     <l>Estranging it from peace.</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>I had a queen:</l>
+     <l>Bear with my weakness, Druid! this tough breast</l>
+     <l>Must heave a sigh, for she is unreveng'd.</l>
+     <l>And can I taste true peace, she unreveng'd?</l>
+     <l>So chaste, so lov'd a queen? ah, Evilina!</l>
+     <l>
+      <pb n="14" facs="24"/>
+Hang not thus weeping on the feeble arm</l>
+     <l>That cou'd not save thy mother.</l>
+    </sp>
+    <sp who="#evilina">
+     <speaker>EVILINA.</speaker>
+     <l>To hang thus</l>
+     <l>Softens the pang of grief; and the sweet thought,</l>
+     <l>That a fond father still supports his child,</l>
+     <l>Sheds, on my pensive mind, such soothing balm,</l>
+     <l>As doth the blessing of these pious seers,</l>
+     <l>When most they wish our welfare. Would to heav'n</l>
+     <l>A daughter's presence could as much avail,</l>
+     <l>To ease her father's woes, as his doth mine.</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>Ever most gentle! come unto my bosom:</l>
+     <l>Dear pattern of the precious prize I lost,</l>
+     <l>Lost, so inglorious lost; my friends, these eyes</l>
+     <l>Did see her torn from my defenceless camp;</l>
+     <l>Whilst I, hemm'd round by squadrons, could not save her:</l>
+     <l>My boy, still nearer to the darling pledge,</l>
+     <l>Beheld her shrieking in the ruffian's arm;</l>
+     <l>Beheld, and fled.</l>
+    </sp>
+    <sp who="#evilina">
+     <speaker>EVILINA.</speaker>
+     <l>Ah! Sir, forbear to wound</l>
+     <l>My brother's fame; he fled, but to recall</l>
+     <l>His scatter'd forces to pursue and save her.</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>Daughter, he fled. Now, by yon gracious moon,</l>
+     <l>That rising saw the deed, and instant hid</l>
+     <l>Her blushing face in twilight's dusky veil,</l>
+     <l>The flight was parricide.</l>
+    </sp>
+    <sp who="#evilina">
+     <pb n="15" facs="25"/>
+     <speaker>EVILINA.</speaker>
+     <l>Indeed, indeed,</l>
+     <l>I know him valiant; and not doubt he fell</l>
+     <l>'Mid slaughter'd thousands of the haughty foe,</l>
+     <l>Victim to filial love. Arviragus,</l>
+     <l>Thou hadst no sister near the bloody field,</l>
+     <l>Whose sorrowing search, led by yon orb of night,</l>
+     <l>Might find thy body; wash with tears thy wounds;</l>
+     <l>And wipe them with her hair.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Peace, virgin, peace:</l>
+     <l>Nor thou, sad prince, reply; whate'er he is,</l>
+     <l>Be he a captive, fugitive, or corse,</l>
+     <l>He is what heav'n ordain'd: these holy groves</l>
+     <l>Permit no exclamation. 'gainst heav'n's will</l>
+     <l>To violate their echoes: Patience, here,</l>
+     <l>Her meek hands folded on her modest breast,</l>
+     <l>In mute submission lifts th' adoring eye,</l>
+     <l>Ev'n to the storm that wrecks her.</l>
+    </sp>
+    <sp who="#evilina">
+     <speaker>EVILINA.</speaker>
+     <l>Holy Druid,</l>
+     <l>If ought my erring tongue has said pollutes</l>
+     <l>This sacred place, I from my soul abjure it.</l>
+     <l>And will these lips bar with eternal silence,</l>
+     <l>Rather than speak a word, or act a deed</l>
+     <l>Unmeet for thy sage daughters; blessing first</l>
+     <l>This hallow'd hour, that takes me from the world,</l>
+     <l>And joins me to their sober sisterhood.</l>
+    </sp>
+    <sp who="#chorus">
+     <pb n="16" facs="26"/>
+     <speaker>CHORUS.</speaker>
+     <l>'Tis wisely said. See, prince, this prudent maid,</l>
+     <l>Now, while the ruddy flame of sparkling youth</l>
+     <l>Glows on her beauteous cheek, can quit the world</l>
+     <l>Without a sigh, whilst thou—</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>Would save my queen</l>
+     <l>From a base ravisher; would wish to plunge</l>
+     <l>This falchion in his breast, and so avenge</l>
+     <l>Insulted royalty. O holy men!</l>
+     <l>Ye are the sons of piety and peace;</l>
+     <l>Ye never felt the sharp vindictive spur,</l>
+     <l>That goads the injur'd warrior; the hot tide,</l>
+     <l>That flushes crimson on the conscious cheek</l>
+     <l>Of him, who burns for glory; else indeed</l>
+     <l>Ye much would pity me: would curse the fate</l>
+     <l>That coops me here inactive in your groves,</l>
+     <l>Robs me of hope, tells me this trusty steel</l>
+     <l>Must never cleave one Roman helm again,</l>
+     <l>Never avenge my queen, nor free my country.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>'Tis heav'n's high will—</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>I know it, reverend fathers!</l>
+     <l>'Tis heav'n's high will, that these poor aged eyes</l>
+     <l>Shall never more behold that virtuous woman,</l>
+     <l>To whom my youth was constant, 'twas heav'n's will</l>
+     <l>To take her from me at that very hour,</l>
+     <l>When best her love might sooth me; that black hour,</l>
+     <l>[May memory ever raze it from her records]</l>
+     <l>
+      <pb n="17" facs="27"/>
+When all my squadrons fled, and left their king</l>
+     <l>Old and defenceless: him, who nine whole years</l>
+     <l>Had stemm'd all Rome with their firm phallanx: yes,</l>
+     <l>For nine whole years, my friends, I bravely led</l>
+     <l>The valiant veterans, oft to victory,</l>
+     <l>Never 'till then to shame. Bear with me, Druid,</l>
+     <l>I've done: begin the rites.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>O would to heav'n</l>
+     <l>A frame of mind, more fitted to these rites,</l>
+     <l>Possest thee, Prince! that Resignation meek,</l>
+     <l>That dove-ey'd Peace, handmaid of Sanctity,</l>
+     <l>Approach'd this altar with thee: 'stead of these,</l>
+     <l>See I not gaunt Revenge, ensanguin'd Slaughter,</l>
+     <l>And mad Ambition, clinging to thy soul,</l>
+     <l>Eager to snatch thee back to their domain,</l>
+     <l>Back to a vain and miserable world;</l>
+     <l>Whose misery, and vanity, tho' try'd,</l>
+     <l>Thou still hold'st dearer than these solemn shades,</l>
+     <l>Where Quiet reigns with Virtue? Try we yet</l>
+     <l>What Holiness can do; for much it can:</l>
+     <l>Much is the potency of pious prayer:</l>
+     <l>And much the sacred influence convey'd</l>
+     <l>By sage mysterious office: when the soul,</l>
+     <l>Snatch'd by the power of musick from her cell</l>
+     <l>Of fleshly thraldom, feels herself upborn</l>
+     <l>On plumes of extasy, and boldly springs,</l>
+     <l>'Mid swelling harmonies and pealing hymns,</l>
+     <l>Up to the porch of heav'n. Strike, then, ye Bards!</l>
+     <l>Strike all your strings symphonious; wake a strain</l>
+     <l>
+      <pb n="18" facs="28"/>
+May penetrate, may purge, may purify,</l>
+     <l>His yet unhallow'd bosom; call ye hither</l>
+     <l>The airy tribe, that on yon mountain dwell,</l>
+     <l>Ev'n on majestic Snowdon: they, who never</l>
+     <l>Deign visit mortal men, save on some cause</l>
+     <l>Of highest import, but, fublimely shrin'd</l>
+     <l>On it's hoar top in domes of crystaline ice,</l>
+     <l>Hold converse with those spirits, that possess</l>
+     <l>The skies pure sapphire, nearest heav'n itself.</l>
+    </sp>
+    <sp>
+     <lg type="ode">
+      <head>ODE.</head>
+      <lg n="1. 1">
+       <head>I. 1.</head>
+       <l>MONA on Snowdon calls:</l>
+       <l>Hear, thou King of mountains, hear;</l>
+       <l>Hark, she speaks from all her strings;</l>
+       <l>Hark, her loudest echo rings;</l>
+       <l>King of mountains, bend thine ear:</l>
+       <l>Send thy spirits, send them soon,</l>
+       <l>Now, when Midnight and the Moon</l>
+       <l>Meet upon thy front of snow:</l>
+       <l>See, their gold and ebon rod,</l>
+       <l>Where the sober sisters nod,</l>
+       <l>And greet in whispers sage and slow.</l>
+       <l>Snowdon mark! 'tis Magic's hour;</l>
+       <l>Now the mutter'd spell hath pow'r;</l>
+       <l>Pow'r to rend thy ribs of rock,</l>
+       <l>And burst thy base with thunder's shock;</l>
+       <l>But to thee no ruder spell</l>
+       <l>Shall Mona use, than those that dwell</l>
+       <l>
+        <pb n="19" facs="29"/>
+In music's secret cells, and lie</l>
+       <l>Steep'd in the stream of harmony.</l>
+      </lg>
+      <lg n="1. 2">
+       <head>I. 2.</head>
+       <l>Snowdon has heard the strain:</l>
+       <l>Hark, amid the wond'ring grove</l>
+       <l>Other harpings answer clear,</l>
+       <l>Other voices meet our ear,</l>
+       <l>Pinnions flutter, shadows move,</l>
+       <l>Busy murmurs hum around,</l>
+       <l>Rustling vestments brush the ground;</l>
+       <l>Round, and round, and round they go,</l>
+       <l>Thro' the twilight, thro' the shade,</l>
+       <l>Mount the oak's majestic head,</l>
+       <l>And gild the tufted misseltoe.</l>
+       <l>Cease, ye glittering race of light,</l>
+       <l>Close your wings, and check your flight:</l>
+       <l>Here, arrang'd in order due,</l>
+       <l>Spread your robes of saffron hue;</l>
+       <l>For lo, with more than mortal fire,</l>
+       <l>Mighty Mador smites the lyre:</l>
+       <l>Hark he sweeps the master-strings;</l>
+       <l>Listen all—</l>
+      </lg>
+     </lg>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Break off; a sullen smoak involves the altar;</l>
+     <l>The central oak doth shake; I hear the sound</l>
+     <l>Of steps prophane: Caractacus, retire;</l>
+     <l>Bear off the victims; Mona is polluted.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>SEMICHORUS.</speaker>
+     <l>Father, as we did watch the eastern side,</l>
+     <l>We spied and instant seiz'd two stranger youths,</l>
+     <l>
+      <pb n="20" facs="30"/>
+Who, in the bottom of a shadowy dell,</l>
+     <l>Held earnest converse: Britons do they seem,</l>
+     <l>And of Brigantian race.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Haste, drag them hither.</l>
+    </sp>
+    <stage>VELLINUS, ELIDURUS, CHORUS.</stage>
+    <sp>
+     <l>O spare, ye sage and venerable Druids!</l>
+     <l>Your countrymen and sons.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>And are ye Britons?</l>
+     <l>Unheard of profanation! Rome herself,</l>
+     <l>Ev'n impious Rome, whom conquest makes more impious,</l>
+     <l>Would not have dar'd so rashly. O! for words,</l>
+     <l>Big with the fiercest force of execration,</l>
+     <l>To blast the deed, and doers.</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>Spare the curse,</l>
+     <l>Oh spare our youth!</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Is it not now the hour,</l>
+     <l>The holy hour, when to the cloudless height</l>
+     <l>Of yon starr'd concave climbs the full-orb'd moon,</l>
+     <l>And to this nether world in solemn stillness</l>
+     <l>Gives sign, that to the list'ning ear of Heav'n</l>
+     <l>Religion's voice should plead; the very babe</l>
+     <l>Knows this, and, chance awak'd, his little hands</l>
+     <l>Lifts to the gods, and on his innocent couch</l>
+     <l>Calls down a blessing. Shall your manly years</l>
+     <l>Plead ignorance, and impiously presume</l>
+     <l>To press, with vile unconsecrated feet,</l>
+     <l>
+      <pb n="21" facs="31"/>
+On Mona's hallow'd plain? know, wretches, know,</l>
+     <l>At any hour such boldness is a crime,</l>
+     <l>At this 'tis sacrilege.</l>
+    </sp>
+    <sp who="#vellinus">
+     <speaker>VELLINUS.</speaker>
+     <l>Were Mona's plain</l>
+     <l>More hallow'd still, hallow'd as is Heav'n's self,</l>
+     <l>The cause might plead our pardon.</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>Mighty Druid!</l>
+     <l>True, we have rashly dar'd, yet, forc'd by duty,</l>
+     <l>Our sov'reign's mandate—</l>
+    </sp>
+    <sp who="#vellinus">
+     <speaker>VELLINUS.</speaker>
+     <l>Elder by my birth,</l>
+     <l>Brother, I claim, in right of eldership,</l>
+     <l>To open our high embassy.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Speak then;</l>
+     <l>But see thy words answer in honest weight</l>
+     <l>To this proud prelude. Youth! they must be weighty,</l>
+     <l>T' atone for such a crime.</l>
+    </sp>
+    <sp who="#vellinus">
+     <speaker>VELLINUS.</speaker>
+     <l>If then to give</l>
+     <l>New nerves to vanquish'd valour, if to do,</l>
+     <l>What, with the blessing of the Gods, may save</l>
+     <l>A bleeding country from oppression's sword,</l>
+     <l>Be weighty business, know, on our commission,</l>
+     <l>And on it's hop'd success, that weight depends.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Declare it then at once, briefly and boldly.</l>
+    </sp>
+    <sp who="#vellinus">
+     <pb n="22" facs="32"/>
+     <speaker>VELLINUS.</speaker>
+     <l>Caractacus is here.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Say'st thou, proud boy?</l>
+     <l>'Tis boldly said, and, grant 'twere truly said,</l>
+     <l>Think'st thou he were not here from fraud or force</l>
+     <l>As safe as 'midst a camp of conquerors?</l>
+     <l>Here, youth, he would be guarded by the gods;</l>
+     <l>Their own high hostage; and each sacred hair</l>
+     <l>Of his selected head, would in these caverns</l>
+     <l>Sleep with the unsunn'd silver of the mine,</l>
+     <l>As precious and as safe; record the time,</l>
+     <l>When Mona e'er betray'd the hapless wretch,</l>
+     <l>That made her groves his refuge.</l>
+    </sp>
+    <sp who="#vellinus">
+     <speaker>VELLINUS.</speaker>
+     <l>Holy Druid!</l>
+     <l>Think not so harshly of our enterprize.</l>
+     <l>Can force, alas! dwell in our unarm'd hands?</l>
+     <l>Can fraud in our young bosoms? No, dread seer,</l>
+     <l>Our business told, I trust thou'lt soon disclaim</l>
+     <l>The vain suspicion; and thy holy ear</l>
+     <l>(Be brave Caractacus or here or absent)</l>
+     <l>Shall instant learn it. From the north we come;</l>
+     <l>The sons of her, whose heav'n-intrusted sway</l>
+     <l>Blesses the bold Brigantes; men who firmly</l>
+     <l>Have three long moons withstood those Roman powers,</l>
+     <l>Which, led by fell Ostorius, still assail</l>
+     <l>Our frontiers: yet so oft have our stout swords</l>
+     <l>Repell'd their hot assault, that now, like falcons,</l>
+     <l>They hang suspended, loth to quit their prey,</l>
+     <l>
+      <pb n="23" facs="33"/>
+Nor daring yet to seize it. Such the state</l>
+     <l>Of us and Rome; 'mid which our prudent mother,</l>
+     <l>Revolving what might to her people's weal</l>
+     <l>Best sink the dubious scale, gave us swift charge</l>
+     <l>To seek the great Caractacus, and call</l>
+     <l>His valour to her aid, to lead her bands,</l>
+     <l>To fight the cause of liberty and Britain,</l>
+     <l>And quell these ravagers.</l>
+     <stage>Caractacus starts from behind the altar.</stage>
+    </sp>
+    <stage>CARACTACUS, VELLINUS, ELIDURUS, CHORUS.</stage>
+    <sp>
+     <l>And ye have found me;</l>
+     <l>Friends, ye have found me: lead me to your Queen,</l>
+     <l>And the last purple drop in these old veins</l>
+     <l>Shall fall for her and Britain.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Rash, rash Prince!</l>
+    </sp>
+    <sp who="#vellinus">
+     <speaker>VELLINUS.</speaker>
+     <l>Ye blest immortal pow'rs! is this the man,</l>
+     <l>The more than man, who for nine bloody years</l>
+     <l>Withstood all Rome? He is; that war-like front,</l>
+     <l>Seam'd o'er with honest scars, proclaims he is:</l>
+     <l>Kneel, brother, kneel, while in his royal hand</l>
+     <l>We lodge the signet: this, in pledge of faith,</l>
+     <l>Great Cartismandua sends, and with it tells thee</l>
+     <l>She has a nobler pledge than this behind;</l>
+     <l>Thy Queen—</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>Guideria!</l>
+    </sp>
+    <sp who="#vellinus">
+     <pb n="24" facs="34"/>
+     <speaker>VELLINUS.</speaker>
+     <l>Safely with our mother.</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>How, when, where rescued? mighty Gods, I thank ye.</l>
+     <l>For it is true, this signet speaks it true.</l>
+     <l>O tell me briefly.</l>
+    </sp>
+    <sp who="#vellinus">
+     <speaker>VELLINUS.</speaker>
+     <l>In a sally, Prince,</l>
+     <l>Which, wanting abler chiefs, my gracious mother</l>
+     <l>Committed to my charge, our troops assail'd</l>
+     <l>One outwork of the camp; the mask of night</l>
+     <l>Favour'd our arms, and there my happy hand</l>
+     <l>Was doom'd 'mid other prisoners to release</l>
+     <l>The captive matron.</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>Let me clasp thee, youth,</l>
+     <l>And thou shalt be my son; I had one, stranger,</l>
+     <l>Just of thy years; he look'd like thee right honest;</l>
+     <l>Had just that freeborn boldness on his brow,</l>
+     <l>And yet he fail'd me. Were it not for him,</l>
+     <l>Who, as thou seest, ev'n at this hour of joy,</l>
+     <l>Draws tears down mine old cheek, I were as blest</l>
+     <l>As the great gods. Oh, he has all disgrac'd</l>
+     <l>His high-born ancestry! But I'll forget him.</l>
+     <l>Haste, Evelina, barb my knotty spear,</l>
+     <l>Bind fast this trusty falchion to my thigh,</l>
+     <l>My bow, my target—</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Rash Caractacus!</l>
+     <l>What hast thou done? What dost thou mean to do?</l>
+    </sp>
+    <sp who="#caractacus">
+     <pb n="25" facs="35"/>
+     <speaker>CARACTACUS.</speaker>
+     <l>To save my country.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>To betray thyself.</l>
+     <l>That thou hast done; the rest thou canst not do,</l>
+     <l>If Heav'n forbids; and of it's awful will</l>
+     <l>Thy fury recks not: Has the bleeding victim</l>
+     <l>Pour'd a propitious stream? the milk-white steeds</l>
+     <l>Unrein'd and neighing pranc'd with fav'ring steps?</l>
+     <l>Say, when these youths approach'd, did not a gust</l>
+     <l>Of livid smoak involve the bickering flame?</l>
+     <l>Did not the forest tremble? every omen</l>
+     <l>Led thee to doubt their honesty of purpose;</l>
+     <l>And yet, before their tongues could tell that purpose,</l>
+     <l>Ere I had tender'd, as our laws ordain,</l>
+     <l>Their test of faith, thy rudeness rush'd before me,</l>
+     <l>Infringing my just rights.</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>Druid, methinks,</l>
+     <l>At such a time, in such a cause, Reproof</l>
+     <l>Might bait it's sternness. Now, by Heav'n, I feel,</l>
+     <l>Beyond all omens, that within my breast,</l>
+     <l>That marshals me to conquest; something here</l>
+     <l>That snatches me beyond all mortal fears,</l>
+     <l>Lifts me to where upon her jasper throne</l>
+     <l>Sits flame-rob'd Victory, who calls me son,</l>
+     <l>And crowns me with a palm, whose deathless green</l>
+     <l>Shall bloom when Caesar's fades.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Vain confidence!</l>
+    </sp>
+    <sp who="#caractacus">
+     <pb n="26" facs="36"/>
+     <speaker>CARACTACUS.</speaker>
+     <l>Yet I submit in all—</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>'Tis meet thou should'st.</l>
+     <l>Thou art a King, a sov'reign o'er frail man;</l>
+     <l>I am a Druid, servant of the Gods;</l>
+     <l>Such service is above such sov'reignty,</l>
+     <l>As well thou know'st: if they should prompt these lips</l>
+     <l>To interdict the thing thou dar'st to do,</l>
+     <l>What would avail thy daring?</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>Holy man!</l>
+     <l>But thou wilt bless it; Heav'n will bid thee bless it;</l>
+     <l>Thou know'st that, when we fight to save our country,</l>
+     <l>We fight the cause of Heav'n. The man that falls,</l>
+     <l>Falls hallow'd; falls a victim for the Gods;</l>
+     <l>For them and for their altars.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Valiant Prince?</l>
+     <l>Think not we lightly rate our country's weal,</l>
+     <l>Or thee our country's champion. Well we know</l>
+     <l>The glorious meed of those exalted souls,</l>
+     <l>Who flame like thee for freedom: mark me, Prince.</l>
+     <l>The time will come, when Destiny and Death,</l>
+     <l>Thron'd in a burning car, the thund'ring wheels</l>
+     <l>Arm'd with gigantic scythes of adamant,</l>
+     <l>Shall scour this field of life, and in their rear</l>
+     <l>The fiend Oblivion: kingdoms, empires, worlds</l>
+     <l>Melt in the general blaze: when, lo, from high</l>
+     <l>Andraste darting, catches from the wreck</l>
+     <l>
+      <pb n="27" facs="37"/>
+The roll of fame, claps her ascending plumes,</l>
+     <l>And stamps on orient stars each patriot name,</l>
+     <l>Round her eternal dome.</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>Speak ever thus,</l>
+     <l>And I will hear thee, 'till attention faint</l>
+     <l>In heedless extasy.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>This tho' we know,</l>
+     <l>Let man beware with headlong zeal to rush</l>
+     <l>Where slaughter calls; it is not courage, Prince,</l>
+     <l>No nor the pride and practis'd skill in arms,</l>
+     <l>That gains this meed: the warrior is no patriot,</l>
+     <l>Save when, obsequious to the will of Heav'n,</l>
+     <l>He draws the sword of vengeance.</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>Surely, Druid,</l>
+     <l>Such fair occasion speaks the will of Heav'n—</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Monarch, perchance thou hast a fair occasion:</l>
+     <l>But, if thou hast, the Gods will soon declare it:</l>
+     <l>Their sov'reign will thou know'st not; this to learn</l>
+     <l>Demands our search. Ye mortals all retire!</l>
+     <l>Leave ye the grove to us and Inspiration;</l>
+     <l>Nor let a step, or ev'n one glance prophane,</l>
+     <l>Steal from your caverns: stay, my holy brethren,</l>
+     <l>Ye time-ennobled Seers, whose rev'rend brows</l>
+     <l>Full eighty winters whiten; you, ye Bards,</l>
+     <l>Leoline, Cadwall, Hoel, Cantaber,</l>
+     <l>Attend upon our slumbers: Wondrous men,</l>
+     <l>
+      <pb n="28" facs="38"/>
+Ye, whose skill'd fingers know how best to lead,</l>
+     <l>Thro' all the maze of sound the wayward step</l>
+     <l>Of Harmony, recalling oft, and oft</l>
+     <l>Permitting her unbridled course to rush</l>
+     <l>Thro' dissonance to concord, sweetest then</l>
+     <l>Ev'n when expected harshest. Mador, thou</l>
+     <l>Alone shalt lift thy voice; no choral peal</l>
+     <l>Shall drown thy solemn warblings; thou best know'st</l>
+     <l>That opiate charm which lulls corporeal sense:</l>
+     <l>Thou hast the key, great Bard! that best can ope</l>
+     <l>The portal of the soul; unlock it strait,</l>
+     <l>And lead the pensive pilgrim on her way,</l>
+     <l>Thro' the vast regions of futurity.</l>
+     <stage>
+      <hi>Exeunt Caractacus, Vellinus,</hi> &amp;c. &amp;c.</stage>
+    </sp>
+    <sp>
+     <lg type="ode">
+      <head>ODE.</head>
+      <lg>
+       <lg n="I. 1">
+        <head>I. 1.</head>
+        <l>HAIL, thou harp of Phrygian frame!</l>
+        <l>In years of yore that Camber bore</l>
+        <l>From Troy's sepulchral flame;</l>
+        <l>With ancient Brute, to Britain's shore</l>
+        <l>The mighty minstrel came:</l>
+        <l>Sublime upon the burnish'd prow,</l>
+        <l>He bad thy manly modes to flow;</l>
+        <l>Britain heard the descant bold,</l>
+        <l>She flung her white arms o'er the sea;</l>
+        <l>Proud in her leafy bosom to unfold</l>
+        <l>The freight of harmony.</l>
+       </lg>
+       <lg n="1. 2">
+        <pb n="29" facs="39"/>
+        <head>I. 2.</head>
+        <l>Mute 'till then was ev'ry plain,</l>
+        <l>Save where the flood 'mid mountains rude</l>
+        <l>Tumbled his tide amain;</l>
+        <l>And echo from th' impending wood</l>
+        <l>Resounded the hoarse strain;</l>
+        <l>While from the north the sullen gale</l>
+        <l>With hollow whistlings shook the vale;</l>
+        <l>Dismal notes, and answer'd soon</l>
+        <l>By savage howl the heaths among,</l>
+        <l>What time the wolf doth bay the trembling moon,</l>
+        <l>And thin the bleating throng.</l>
+       </lg>
+       <lg n="1. 3">
+        <head>I. 3.</head>
+        <l>Thou spak'st, imperial Lyre,</l>
+        <l>The rough roar ceas'd, and airs from high</l>
+        <l>Lapt the land in extasy:</l>
+        <l>Fancy, the fairy, with thee came;</l>
+        <l>And Inspiration, bright-ey'd dame,</l>
+        <l>Oft at thy call would leave her sapphire sky;</l>
+        <l>And, if not vain the verse presumes,</l>
+        <l>Ev'n now some chast Divinity is near:</l>
+        <l>For lo! the sound of distant plumes</l>
+        <l>Pants thro' the pathless desart of the air.</l>
+        <l>'Tis not the flight of her;</l>
+        <l>'Tis Sleep, her dewy harbinger.</l>
+        <l>Change, my harp, O change thy measures;</l>
+        <l>Cull, from thy mellifluous treasures,</l>
+        <l>Notes that steal on even feet,</l>
+        <l>Ever slow, yet never pausing,</l>
+        <l>Mixt with many a warble sweet,</l>
+        <l>In a ling'ring cadence closing,</l>
+        <l>
+         <pb n="30" facs="40"/>
+While the pleas'd power sinks gently down the skies,</l>
+        <l>And seals with hand of down the Druids slumb'ring eyes.</l>
+       </lg>
+      </lg>
+      <lg>
+       <lg n="2. 1">
+        <head>II. 1.</head>
+        <l>Thrice I pause, and thrice I sound</l>
+        <l>The central string, and now I ring</l>
+        <l>(By measur'd lore profound)</l>
+        <l>A sevenfold chime, and sweep, and swing</l>
+        <l>Above, below, around,</l>
+        <l>To mix thy music with the spheres,</l>
+        <l>That warble to immortal ears.</l>
+        <l>Inspiration hears the call;</l>
+        <l>She rises from her throne above,</l>
+        <l>And, sudden as the glancing meteors fall,</l>
+        <l>She comes, she fills the grove.</l>
+       </lg>
+       <lg n="2. 2">
+        <head>II. 2.</head>
+        <l>High her port; her waving hand</l>
+        <l>A pencil bears; the days, the years,</l>
+        <l>Arise at her command,</l>
+        <l>And each obedient colouring wears.</l>
+        <l>So, where Time's pictur'd band</l>
+        <l>In hues aethereal glide along;</l>
+        <l>O mark the transitory throng;</l>
+        <l>Now they dazzle, now they die,</l>
+        <l>Instant they flit from light to shade,</l>
+        <l>Mark the blue forms of faint futurity,</l>
+        <l>O mark them ere they fade.</l>
+       </lg>
+       <lg n="2. 3">
+        <head>II. 3.</head>
+        <l>Whence was that inward groan?</l>
+        <l>Why bursts thro' closed lids the tear?</l>
+        <l>Why uplifts the bristling hair</l>
+        <l>
+         <pb n="31" facs="41"/>
+It's white and venerable shade,</l>
+        <l>Why down the consecrated head</l>
+        <l>Courses in chilly drops the dews of fear?</l>
+        <l>All is not well, the pale-ey'd moon</l>
+        <l>Curtains her head in clouds, the stars retire,</l>
+        <l>Save from the sultry south alone</l>
+        <l>The swart star flings his pestilential fire;</l>
+        <l>Ev'n Sleep herself will fly,</l>
+        <l>If not recall'd by harmony.</l>
+        <l>Wake, my lyre! thy softest numbers,</l>
+        <l>Such as nurse ecstatic slumbers,</l>
+        <l>Sweet as tranquil virtue feels</l>
+        <l>When the toil of life is ending,</l>
+        <l>While from earth the spirit steals,</l>
+        <l>And, on new-born plumes ascending,</l>
+        <l>Hastens to lave in the bright fount of day,</l>
+        <l>'Till Destiny prepare a shrine of purer clay.</l>
+       </lg>
+      </lg>
+     </lg>
+     <stage>The Druid waking, speaks.</stage>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>It may not be. Avaunt terrific ax!</l>
+     <l>Why hangs thy bright edge glaring o'er the grove?</l>
+     <l>O for a giant's nerve to ward the stroke!</l>
+     <l>It bows, it falls.</l>
+     <l>Where am I? hush, my soul!</l>
+     <l>'Twas all a dream. Resume no more the strain:</l>
+     <l>The hour is past: my brethren! what ye saw,</l>
+     <l>(If what ye saw, as by your looks I read,</l>
+     <l>Bore like ill-omen'd shape) hold it in silence.</l>
+     <l>The midnight air falls chilly on my breast;</l>
+     <l>
+      <pb n="32" facs="42"/>
+And now I shiver, now a fev'rish glow</l>
+     <l>Scorches my vitals. Hark, some step approaches.</l>
+    </sp>
+    <stage>EVELINA, CHORUS.</stage>
+    <sp>
+     <l>Thus, with my wayward fears, to burst unbidden</l>
+     <l>On your dread synod, rousing, as ye seem,</l>
+     <l>From holy trance, appears a desperate deed,</l>
+     <l>Ev'n to the wretch who dares it.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Virgin! quickly</l>
+     <l>Pronounce the cause.</l>
+    </sp>
+    <sp who="#evilina">
+     <speaker>EVELINA.</speaker>
+     <l>Bear with a simple maid</l>
+     <l>Too prone to fear, perchance my fears are vain.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>But yet declare them.</l>
+    </sp>
+    <sp who="#evilina">
+     <speaker>EVELINA.</speaker>
+     <l>I suspect me much</l>
+     <l>The faith of these Brigantes.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Say'st thou, Virgin?</l>
+     <l>Heed what thou say'st; Suspicion is a guest</l>
+     <l>That in the breast of man, of ireful man,</l>
+     <l>Too oft' his welcome finds; yet seldom sure</l>
+     <l>In that submissive calm that smooths the mind</l>
+     <l>Of maiden innocence.</l>
+    </sp>
+    <sp who="#evilina">
+     <speaker>EVELINA.</speaker>
+     <l>I know it well:</l>
+     <l>Yet must I still distrust the elder stranger:</l>
+     <l>For while he talks, (and much the flatterer talks)</l>
+     <l>
+      <pb n="33" facs="43"/>
+His brothers silent carriage gives disproof</l>
+     <l>Of all his boast; indeed I mark'd it well;</l>
+     <l>And, as my father with the elder held</l>
+     <l>Bold speech and warlike, as is still his wont</l>
+     <l>When fir'd with hope of conquest, oft I saw</l>
+     <l>A sigh unbidden heave the younger's breast,</l>
+     <l>Half check'd as it was rais'd; sometimes, methought,</l>
+     <l>His gentle eye would cast a glance on me,</l>
+     <l>As if he pitied me; and then again</l>
+     <l>Would fasten on my father, gazing there</l>
+     <l>To veneration; then he'd sigh again,</l>
+     <l>Look on the ground, and hang his modest head</l>
+     <l>Most pensively.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>This may demand, my breth'ren,</l>
+     <l>More serious search: Virgin! proceed.</l>
+    </sp>
+    <sp who="#evilina">
+     <speaker>EVELINA.</speaker>
+     <l>'Tis true,</l>
+     <l>My father, rapt in high heroic zeal,</l>
+     <l>His ev'ry thought big with his country's freedom,</l>
+     <l>Heeds not the different carriage of these brethren,</l>
+     <l>The elder takes him wholly; yet, methinks,</l>
+     <l>The younger's manners have I know not what,</l>
+     <l>That speaks him far more artless. This besides,</l>
+     <l>Is it not strange, if, as the tale reports,</l>
+     <l>My mother sojourns with this distant queen,</l>
+     <l>She should not send or to my sire, or me,</l>
+     <l>Some fond remembrance of her love? ah! none,</l>
+     <l>With tears I speak it, none, not her dear blessing</l>
+     <l>Has reach'd my longing ears.</l>
+    </sp>
+    <sp who="#chorus">
+     <pb n="34" facs="44"/>
+     <speaker>CHORUS.</speaker>
+     <l>The gods, my brethren,</l>
+     <l>Have wak'd these doubts in the untainted breast</l>
+     <l>Of this mild maiden; oft to female softness,</l>
+     <l>Oft to the purity of virgin souls</l>
+     <l>Doth heav'n it's voluntary light dispense,</l>
+     <l>When victims bleed in vain. They must be spies.</l>
+     <l>Hie thee, good Cantaber, and to our presence</l>
+     <l>Summon the young Brigantian.</l>
+    </sp>
+    <sp who="#evilina">
+     <speaker>EVILINA.</speaker>
+     <l>Do not that,</l>
+     <l>Or, if ye do, yet treat him nothing sternly:</l>
+     <l>The softest terms from such a tender breast</l>
+     <l>Will draw confession, and, if ye shall find</l>
+     <l>The treason ye suspect, forbear to curse him.</l>
+     <l>(Not that my weakness means to guide your wisdom)</l>
+     <l>Yet, as I think he would not wittingly</l>
+     <l>E'er do a deed of baseness, were it granted</l>
+     <l>That I might question him, my heart forbodes</l>
+     <l>It more could gain by gentleness and prayers,</l>
+     <l>Than will the fiercest threats.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Perchance it may:</l>
+     <l>And quickly shalt thou try. But see the King!</l>
+     <l>And with him both the youths.</l>
+    </sp>
+    <sp who="#evilina">
+     <speaker>EVILINA.</speaker>
+     <l>Alas! my fears</l>
+     <l>Forewent my errand, else had I inform'd thee</l>
+     <l>That therefore did I come, and from my father</l>
+     <l>To gain admission. Mark the younger, Druid,</l>
+     <l>
+      <pb n="35" facs="45"/>
+How sad he seems; oft did he in the cave</l>
+     <l>So fold his arms—</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>We mark him much, and much</l>
+     <l>The elder's free and dreadless confidence.</l>
+     <l>Virgin, retire a while in yonder vale,</l>
+     <l>Nor, 'till thy royal father quits the grove,</l>
+     <l>Resume thy station here.</l>
+     <stage>Exit Evilina.</stage>
+    </sp>
+    <stage>CARACTACUS, CHORUS, VELLINUS, ELIDURUS.</stage>
+    <sp>
+     <l>Forgive me, Druid!</l>
+     <l>My eager soul no longer could sustain</l>
+     <l>The pangs of expectation; hence I sent</l>
+     <l>The virgin innocence of Evilina,</l>
+     <l>Safest to break upon your privacy:</l>
+     <l>She not return'd, O pardon! that uncall'd</l>
+     <l>I follow: the great cause, I trust, absolves me:</l>
+     <l>'Tis your's, 'tis freedom's, 'tis the cause of heav'n;</l>
+     <l>And sure heav'n owns it such.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Caractacus,</l>
+     <l>All that by sage and sanctimonious rites</l>
+     <l>Might of the gods be ask'd, we have essay'd,</l>
+     <l>And yet, nor to our wish, nor to their wont,</l>
+     <l>Gave they benign assent.</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>Death to our hopes!</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>While yet we lay in sacred slumber tranc'd,</l>
+     <l>
+      <pb n="36" facs="46"/>
+Sullen and sad to fancy's frighted eye</l>
+     <l>Did shapes of dun and murky hue advance,</l>
+     <l>In train tumultuous, all of gesture strange,</l>
+     <l>And passing horrible; starting we wak'd,</l>
+     <l>Yet felt no waking calm; still all was dark,</l>
+     <l>Still rang our tinkling ears with screams of woe.</l>
+     <l>Suspicious tremors still—</l>
+    </sp>
+    <sp who="#vellinus">
+     <speaker>VELLINUS.</speaker>
+     <l>Of what suspicious?</l>
+     <l>Druid, our Queen—</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Restrain thy way-ward tongue,</l>
+     <l>Insolent youth! in such licentious mood</l>
+     <l>To interupt our speech ill suits thy years,</l>
+     <l>And worse our sanctity.</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>'Tis his distress</l>
+     <l>Makes him forget, what else his reverent zeal</l>
+     <l>Would pay ye holily. Think what he feels,</l>
+     <l>Poor youth! who fears yon moon, before she wanes,</l>
+     <l>May see his country conquer'd; see his mother</l>
+     <l>The victor's slave, her royal blood debas'd,</l>
+     <l>Dragging her chains thro' the throng'd streets of Rome,</l>
+     <l>To grace oppression's triumph. Horrid thought!</l>
+     <l>Say, can it be that he, whose strenuous youth</l>
+     <l>Adds vigor to his virtue, e'er can bear</l>
+     <l>This patiently? he comes to ask my aid,</l>
+     <l>And, that witheld, (as now he needs must fear)</l>
+     <l>What means, alas! are left? search Britain round,</l>
+     <l>What chief dares cope with Rome? what king but holds</l>
+     <l>
+      <pb n="37" facs="47"/>
+His loan of power at a Proconsul's will,</l>
+     <l>At best a scepter'd slave?</l>
+    </sp>
+    <sp who="#vellinus">
+     <speaker>VELLINUS.</speaker>
+     <l>Yes, Monarch, yes,</l>
+     <l>If Heav'n restrains thy formidable sword,</l>
+     <l>Or to it's stroke denies that just success</l>
+     <l>Which Heav'n alone can give, I fear me much</l>
+     <l>Our Queen, ourselves, nay Britain's self, must perish.</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>But is not this a fear makes Virtue vain?</l>
+     <l>Tears from yon ministring regents of the sky</l>
+     <l>Their right? Plucks from firm-handed Providence,</l>
+     <l>The golden reins of sublunary sway,</l>
+     <l>And gives them to blind Chance? If this be so,</l>
+     <l>If Tyranny must lord it o'er the earth,</l>
+     <l>There's Anarchy in Heav'n. Nay, frown not, Druid,</l>
+     <l>I do not think 'tis thus.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>We trust thou dost not.</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>Masters of Wisdom! No: my soul confides</l>
+     <l>In that all-healing and all-forming Power,</l>
+     <l>Who, on the radiant day when Time was born,</l>
+     <l>Cast his broad eye upon the wild of ocean,</l>
+     <l>And calm'd it with a glance: then, plunging deep</l>
+     <l>His mighty arm, pluck'd from it's dark domain</l>
+     <l>This throne of Freedom, lifted it to light,</l>
+     <l>Girt it with silver cliffs, and call'd it Britain:</l>
+     <l>He did, and will preserve it.</l>
+    </sp>
+    <sp who="#chorus">
+     <pb n="38" facs="48"/>
+     <speaker>CHORUS.</speaker>
+     <l>Pious Prince,</l>
+     <l>In that all-healing and all-forming power</l>
+     <l>Still let thy soul confide; but not in men,</l>
+     <l>No, not in these, ingenuous as they seem,</l>
+     <l>'Till they are try'd by that high test of faith</l>
+     <l>Our ancient laws ordain.</l>
+    </sp>
+    <sp who="#vellinus">
+     <speaker>VELLINUS.</speaker>
+     <l>Illustrious Seer,</l>
+     <l>Methinks our Sov'reign's signet well might plead</l>
+     <l>Her envoy's faith. Thy pardon, mighty Druid,</l>
+     <l>Not for ourselves, but for our Queen we plead;</l>
+     <l>Mistrusting us, ye wound her honour.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Peace;</l>
+     <l>Our will admits no parly. Thither, Youths,</l>
+     <l>Turn your astonish'd eyes; behold yon huge</l>
+     <l>And unhewn sphere of living adamant,</l>
+     <l>Which, pois'd by magic, rests it's central weight</l>
+     <l>On yonder pointed rock: firm as it seems,</l>
+     <l>Such is it's strange and virtuous property,</l>
+     <l>It moves obsequious to the gentlest touch</l>
+     <l>Of him, whose breast is pure; but to a traytor,</l>
+     <l>Tho ev'n a giant's prowess nerv'd his arm,</l>
+     <l>It stands as fixt as Snowdon. No reply;</l>
+     <l>The Gods command that one of you must now</l>
+     <l>Approach and try it: in your snowy vests,</l>
+     <l>Ye Priests, involve the lots, and to the younger,</l>
+     <l>As is our wont, tender the choice of Fate.</l>
+    </sp>
+    <sp who="#elidurus">
+     <pb n="39" facs="49"/>
+     <speaker>ELIDURUS.</speaker>
+     <l>Heav'ns! is it fall'n on me?</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Young Prince, it is;</l>
+     <l>Prepare thee for thy tryal.</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>Gracious Gods!</l>
+     <l>Who may look up to your tremendous thrones,</l>
+     <l>And say his breast is pure? All-searching Powers,</l>
+     <l>Ye know already how and what I am;</l>
+     <l>And what ye mean to publish me in Mona,</l>
+     <l>To that I yield and tremble.</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>Rouse thee, Youth!</l>
+     <l>And, with that courage honest Truth supplies,</l>
+     <l>(For sure ye both are true) haste to the tryal;</l>
+     <l>Behold I lead thee on.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Prince, we arrest</l>
+     <l>Thy hasty step; to witness this high test</l>
+     <l>Pertains to us alone. Awhile retire,</l>
+     <l>And in yon cave his brother be thy charge;</l>
+     <l>The tryal past, again will we confer,</l>
+     <l>Touching that part which Heav'n's deciding choice</l>
+     <l>Wills thee to act.</l>
+     <stage>Exeunt Caractacus and Vellinus.</stage>
+    </sp>
+    <stage>
+     <pb n="40" facs="50"/>CHORUS, ELIDURUS.</stage>
+    <sp>
+     <l>Now be the rites prepar'd:</l>
+     <l>And now, ye Bards, chaunt ye that custom'd hymn,</l>
+     <l>The prelude of this fam'd solemnity.</l>
+    </sp>
+    <sp>
+     <lg type="ode">
+      <head>ODE.</head>
+      <lg n="1. 1">
+       <head>I. 1.</head>
+       <l>THOU Spirit pure, that spread'st unseen</l>
+       <l>Thy pinions o'er this pond'rous sphere,</l>
+       <l>And, breathing thro' each rigid vein,</l>
+       <l>Fill'st with stupendous life the marble mass,</l>
+       <l>And bid'st it bow upon it's base,</l>
+       <l>When sov'reign Truth is near;</l>
+       <l>Spirit invisible! to thee</l>
+       <l>We swell the solemn harmony;</l>
+       <l>Hear us, and aid:</l>
+       <l>Thou, that in Virtue's cause</l>
+       <l>O'er-rulest Nature's laws,</l>
+       <l>O hear, and aid with influence high</l>
+       <l>The sons of Peace and Piety.</l>
+      </lg>
+      <lg n="1. 2">
+       <head>I. 2.</head>
+       <l>First-born of that aethereal tribe</l>
+       <l>Call'd into birth ere time or place,</l>
+       <l>Whom wave nor wind can circumscribe,</l>
+       <l>Heirs of the liquid liberty of Light,</l>
+       <l>That float on rainbow pennons bright</l>
+       <l>Thro' all the wilds of space,</l>
+       <l>Yet thou alone of all thy kind</l>
+       <l>Canst range the regions of the mind,</l>
+       <l>
+        <pb n="41" facs="51"/>
+Thou only know'st</l>
+       <l>That dark meandring maze,</l>
+       <l>Where wayward Falshood strays,</l>
+       <l>And, seizing swift the lurking sprite,</l>
+       <l>Forces her forth to shame and light.</l>
+      </lg>
+      <lg n="1. 3">
+       <head>I. 3.</head>
+       <l>Thou canst enter the dark cell</l>
+       <l>Where the vulture Conscience slumbers,</l>
+       <l>And, unarm'd by charming spell,</l>
+       <l>Or magic numbers,</l>
+       <l>Canst rouse her from her formidable sleep,</l>
+       <l>And bid her dart her raging talons deep;</l>
+       <l>Yet, ah! too seldom doth the furious fiend</l>
+       <l>Thy bidding wait; vindictive, self-prepar'd,</l>
+       <l>She knows her tort'ring time; too sure to rend</l>
+       <l>The trembling heart, when Virtue quits her guard.</l>
+       <l>Pause then, celestial guest!</l>
+       <l>And, brooding on thine adamantine sphere,</l>
+       <l>If fraud approach, Spirit, that fraud declare;</l>
+       <l>To Conscience and to Mona leave the rest.</l>
+      </lg>
+     </lg>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Heard'st thou the awful invocation, Youth,</l>
+     <l>Wrapt in those holy harpings?</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>Sage, I did;</l>
+     <l>And it came o'er my soul as doth the thunder,</l>
+     <l>While distant yet, it, with expected burst</l>
+     <l>Threatens the trembling ear. Now to the tryal.</l>
+    </sp>
+    <sp who="#chorus">
+     <pb n="42" facs="52"/>
+     <speaker>CHORUS.</speaker>
+     <l>Ere that, bethink thee well what rig'rous doom</l>
+     <l>Threatens thine act, if failing, certain death:</l>
+     <l>So certain, that in our absolving tongues</l>
+     <l>Rests not that power may save thee: Thou must die.</l>
+    </sp>
+    <stage>EVILINA, ELIDURUS, CHORUS.</stage>
+    <sp>
+     <l>Die, say'st thou? Druid!</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>Evilina here!</l>
+     <l>Lead to the rock.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>No, youth, a while we spare thee;</l>
+     <l>And, in our stead, permit this royal maiden</l>
+     <l>To urge thee first with virgin gentleness;</l>
+     <l>Respect our clemency, and meet her questions</l>
+     <l>With answers prompt and true; so may'st thou 'scape</l>
+     <l>A sterner tryal.</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>Rather to the rock—</l>
+    </sp>
+    <sp who="#evilina">
+     <speaker>EVILINA.</speaker>
+     <l>Dost thou disdain me, Prince? Lost as I am,</l>
+     <l>Methinks the daughter of Caractacus</l>
+     <l>Might merit milder treatment: I was born</l>
+     <l>To royal hopes and promise, nurs'd i'th' lap</l>
+     <l>Of soft prosperity, alas the change!</l>
+     <l>I meant but to address a few brief words</l>
+     <l>To this young Prince, and he doth turn his eye,</l>
+     <l>And scorns to answer me.</l>
+    </sp>
+    <sp who="#elidurus">
+     <pb n="43" facs="53"/>
+     <speaker>ELIDURUS.</speaker>
+     <l>Scorn thee, sweet Maid?</l>
+     <l>No, 'tis the fear—</l>
+    </sp>
+    <sp who="#evilina">
+     <speaker>EVILINA.</speaker>
+     <l>And canst thou fear me, Youth?</l>
+     <l>Ev'n while I led a life of royalty,</l>
+     <l>I bore myself to all with meek deportment,</l>
+     <l>In nothing harsh, or cruel: and, howe'er</l>
+     <l>Misfortune works upon the minds of men,</l>
+     <l>(For some they say it turns to very stone)</l>
+     <l>Mine I am sure it softens. Wert thou guilty.</l>
+     <l>Yet I should pity thee; nay, wert thou leagu'd</l>
+     <l>To load this suffering heart with more misfortunes,</l>
+     <l>Still should I pity thee; nor e'er believe</l>
+     <l>Thou would'st, on free and voluntary choice,</l>
+     <l>Betray the innocent.</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>Indeed I would not.</l>
+    </sp>
+    <sp who="#evilina">
+     <speaker>EVILINA.</speaker>
+     <l>No, gracious Youth, I do believe thou would'st not:</l>
+     <l>For on thy brow the liberal hand of Heav'n</l>
+     <l>Has portray'd Truth as visible and bold,</l>
+     <l>As were the pictur'd suns that deckt the brows</l>
+     <l>Of our brave ancestors. Say then, young Prince,</l>
+     <l>(For therefore have I wish'd to question thee)</l>
+     <l>Bring ye no token of a mother's fondness</l>
+     <l>To her expecting child? Gentle thou seemest,</l>
+     <l>And sure that gentleness would prompt thine heart</l>
+     <l>To visit, and to sooth with courteous office,</l>
+     <l>Distress like her's. A captive and a queen</l>
+     <l>
+      <pb n="44" facs="54"/>
+Has more than common claim for pity, Prince,</l>
+     <l>And, ev'n the ills of venerable age</l>
+     <l>Were cause enough to move thy tender nature.</l>
+     <l>The tears o'er-charge thine eye. Alas, my fears!</l>
+     <l>Sickness or sore infirmity had seiz'd her,</l>
+     <l>Before thou left'st the palace, else her lips</l>
+     <l>Had to thy care intrusted some kind message,</l>
+     <l>And blest her hapless daughter by thy tongue.</l>
+     <l>Would she were here!</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>Would Heav'n she were!</l>
+    </sp>
+    <sp who="#evilina">
+     <speaker>EVILINA.</speaker>
+     <l>Ah why?</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>Because you wish it.</l>
+    </sp>
+    <sp who="#evilina">
+     <speaker>EVILINA.</speaker>
+     <l>Thanks, ingenuous youth,</l>
+     <l>For this thy courtesy. Yet, if the queen</l>
+     <l>Thy mother shines with such rare qualities,</l>
+     <l>As late thy brother boasted, she will calm</l>
+     <l>Her woes, and I shall clasp her aged knees</l>
+     <l>Again, in peace and liberty.—Alas!</l>
+     <l>He speaks not; all my fears are just.</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>What fears?</l>
+     <l>The Queen Guideria is not dead.</l>
+    </sp>
+    <sp who="#evilina">
+     <speaker>EVILINA.</speaker>
+     <l>Not dead!</l>
+     <l>But is she in that sacred state of freedom,</l>
+     <l>Which we were taught to hope? Why sigh'st thou, Youth?</l>
+     <l>
+      <pb n="45" facs="55"/>
+Thy years have yet been prosp'rous. Did thy father</l>
+     <l>E'er lose his kingdom? Did captivity</l>
+     <l>E'er seize thy shrieking mother? thou can'st go</l>
+     <l>To yonder cave, and find thy brother safe:</l>
+     <l>He is not lost, as mine is. Youth, thou sigh'st</l>
+     <l>Again; thou hast not sure such cause for sorrow;</l>
+     <l>But if thou hast, give me thy griefs, I pray thee;</l>
+     <l>I have a heart can softly sympathize,</l>
+     <l>And sympathy is soothing.</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>O gods! gods!</l>
+     <l>She tears my soul. What shall I say?</l>
+    </sp>
+    <sp who="#evilina">
+     <speaker>EVILINA.</speaker>
+     <l>Perchance,</l>
+     <l>For all in this bad world must have their woes,</l>
+     <l>Thou too hast thine; and may'st, like me, be wretched</l>
+     <l>Haply amid the ruinous waste of war,</l>
+     <l>'Mid that wild havock, which these sons of blood</l>
+     <l>Bring on our groaning country, some chaste maid,</l>
+     <l>Whose tender soul was link'd by love to thine,</l>
+     <l>Might fall the trembling prey to Roman rage,</l>
+     <l>Ev'n at the golden hour, when holy rites</l>
+     <l>Had seal'd your virtuous vows. If it were so,</l>
+     <l>Indeed I pity her!</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>Not that: not that.</l>
+     <l>Never 'till now did beauty's matchless beam—</l>
+     <l>But I am dumb.</l>
+    </sp>
+    <sp who="#evilina">
+     <speaker>EVILINA.</speaker>
+     <l>Why that dejected eye?</l>
+     <l>
+      <pb n="46" facs="56"/>
+And why this silence? that some weighty grief</l>
+     <l>O'erhangs thy soul, thy ev'ry look proclaims.</l>
+     <l>Why then refuse it words? The heart, that bleeds</l>
+     <l>From any stroak of fate or human wrongs,</l>
+     <l>Loves to disclose itself, that list'ning pity</l>
+     <l>May drop a healing tear upon the wound.</l>
+     <l>'Tis only, when with inbred horror smote</l>
+     <l>At some base act, or done, or to be done,</l>
+     <l>That the recoiling soul, with conscious dread,</l>
+     <l>Shrinks back into itself. But thou, good youth—</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>Cease, royal maid! permit, me to depart.—</l>
+    </sp>
+    <sp who="#evilina">
+     <speaker>EVILINA.</speaker>
+     <l>Yet hear me, stranger! Truth and Secrecy,</l>
+     <l>Tho' friends, are seldom necessary friends—</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>I go to try my truth—</l>
+    </sp>
+    <sp who="#evilina">
+     <speaker>EVILINA.</speaker>
+     <l>O! go not hence,</l>
+     <l>In wrath; think not, that I suspect thy virtue:</l>
+     <l>Yet ignorance may oft make virtue slide,</l>
+     <l>And if—</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>In pity spare me.</l>
+    </sp>
+    <sp who="#evilina">
+     <speaker>EVILINA.</speaker>
+     <l>If thy brother—</l>
+     <l>Nay, start not, do not turn thine eye from mine;</l>
+     <l>Speak, I conjure thee, is his purpose honest?</l>
+     <l>I know the guilty price, that barbarous Rome</l>
+     <l>Sets on my father's head; and gold, vile gold,</l>
+     <l>
+      <pb n="47" facs="57"/>
+Has now a charm for Britons: Brib'd by this,</l>
+     <l>Should he betray him—Yes, I see thou shudder'st</l>
+     <l>At the dire thought; yet not, as if 'twere strange;</l>
+     <l>But as our fears were mutual. Ah, young stranger;</l>
+     <l>That open face scarce needs a tongue to utter</l>
+     <l>What works within. Come then, ingenuous Prince,</l>
+     <l>And instant make discovery to the Druid,</l>
+     <l>While yet 'tis not too late.</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>Ah! what discover?</l>
+     <l>Say, whom must I betray?</l>
+    </sp>
+    <sp who="#evilina">
+     <speaker>EVILINA.</speaker>
+     <l>Thy brother.</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>Ha!</l>
+    </sp>
+    <sp who="#evilina">
+     <speaker>EVILINA.</speaker>
+     <l>Who is no brother, if his guilty soul</l>
+     <l>Teems with such perfidy. O all ye stars!</l>
+     <l>Can he be brother to a youth like thee,</l>
+     <l>Who would betray an old and honour'd King,</l>
+     <l>That King his countryman, and one whose prowess</l>
+     <l>Once guarded Britain 'gainst th' assailing world?</l>
+     <l>Can he be brother to a youth like thee,</l>
+     <l>Who from a young, defenceless, innocent maid,</l>
+     <l>Would take that King her father? Make her suffer</l>
+     <l>All that an orphan suffers? More perchance:</l>
+     <l>The ruffian foe.—O tears, ye choak my utterance!</l>
+     <l>Can he be brother to a youth like thee,</l>
+     <l>Who would defile his soul by such black deeds?</l>
+     <l>It cannot be—And yet, thou still are silent.</l>
+     <l>
+      <pb n="48" facs="58"/>
+Turn, youth, and see me weep. Ah, see me kneel:</l>
+     <l>I am of royal blood, not wont to kneel,</l>
+     <l>Yet will I kneel to thee. O save my father!</l>
+     <l>Save a distressful maiden from the force</l>
+     <l>Of barbarous men! Be thou a brother to me,</l>
+     <l>For mine alas! hah!</l>
+     <stage>[Sees Arviragus entring.</stage>
+    </sp>
+    <stage>ARVIRAGUS, EVILINA, ELIDURUS, CHORUS.</stage>
+    <sp>
+     <l>Evilina rise!</l>
+     <l>Know, maid, I ne'er will tamely see thee kneel,</l>
+     <l>Ev'n at the foot of Caesar</l>
+    </sp>
+    <sp who="#evilina">
+     <speaker>EVILINA.</speaker>
+     <l>'Tis himself:</l>
+     <l>And he will prove my father's fears were false,</l>
+     <l>False, as his son is brave. Thou best of brothers.</l>
+     <l>Come to my arms. Where hast thou been, thou wanderer?</l>
+     <l>How wer't thou sav'd? indeed, Arviragus,</l>
+     <l>I never shed such tears, since thou wer't lost,</l>
+     <l>For these are tears of rapture.</l>
+    </sp>
+    <sp who="#arviragus">
+     <speaker>ARVIRAGUS.</speaker>
+     <l>Evelina!</l>
+     <l>Fain would I greet thee, as a brother ought:</l>
+     <l>But wherefore did'st thou kneel?</l>
+    </sp>
+    <sp who="#evilina">
+     <speaker>EVELINA.</speaker>
+     <l>O! ask not now.</l>
+    </sp>
+    <sp who="#arviragus">
+     <speaker>ARVIRAGUS.</speaker>
+     <l>By heav'n I must, and he must answer me,</l>
+     <l>Who'er he be. What art thou, sullen stranger?</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>A Briton.</l>
+    </sp>
+    <sp who="#arviragus">
+     <pb n="49" facs="59"/>
+     <speaker>ARVIRAGUS.</speaker>
+     <l>Brief and bold.</l>
+    </sp>
+    <sp who="#evilina">
+     <speaker>EVELINA.</speaker>
+     <l>Ah, spare the taunt:</l>
+     <l>He merits not thy wrath. Behold the Druids;</l>
+     <l>Lo, they advance: with holy reverence first</l>
+     <l>Thou must address their sanctity.</l>
+    </sp>
+    <sp who="#arviragus">
+     <speaker>ARVIRAGUS.</speaker>
+     <l>I will.</l>
+     <l>But see, proud Boy, thou dost not quit the grove,</l>
+     <l>Till Time allows us parley.</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>Prince, I mean not.</l>
+    </sp>
+    <sp who="#arviragus">
+     <speaker>ARVIRAGUS.</speaker>
+     <l>Sages, and Sons of Heav'n! Illustrious Druids!</l>
+     <l>Abruptly I approach your sacred Presence:</l>
+     <l>Yet such dire tidings—</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>On thy peril peace!</l>
+     <l>Thou standst accus'd, and by a Father's voice,</l>
+     <l>Of crimes abhorr'd, of Cowardice and Flight;</l>
+     <l>And therefore mayst not in these sacred groves</l>
+     <l>Utter polluted accents. Quickly say,</l>
+     <l>Wherefore thou fledst? For that base fact unclear'd</l>
+     <l>We hold no further converse.</l>
+    </sp>
+    <sp who="#arviragus">
+     <speaker>ARVIRAGUS.</speaker>
+     <l>O ye Gods!</l>
+     <l>Am I the Son of your Caractacus?</l>
+     <l>And could I fly?</l>
+    </sp>
+    <sp who="#chorus">
+     <pb n="50" facs="60"/>
+     <speaker>CHORUS.</speaker>
+     <l>Waste not or Time or Words:</l>
+     <l>But tell us, why thou fledst?</l>
+    </sp>
+    <sp who="#arviragus">
+     <speaker>ARVIRAGUS.</speaker>
+     <l>I fled not, Druid!</l>
+     <l>By the great Gods I fled not! Save to stop</l>
+     <l>Our dastard troops, that bafely turn'd their backs.</l>
+     <l>I stopt, I rallied them, when lo a shaft</l>
+     <l>Of random cast did level me with Earth,</l>
+     <l>Where pale and senseless, as the slain around me,</l>
+     <l>I lay till midnight: Then, as from long trance</l>
+     <l>Awoke, I crawl'd upon my feeble Limbs</l>
+     <l>To a lone cottage, where a pitying Hind</l>
+     <l>Lodg'd me and nourish'd me. My strength repair'd,</l>
+     <l>It boots not that I tell, what humble arts</l>
+     <l>Compell'd I us'd to screen me from the foe.</l>
+     <l>How now a peasant from a beggarly scrip</l>
+     <l>I sold cheap food to slaves, that nam'd the price,</l>
+     <l>Nor after gave it. Now a Minstrel poor</l>
+     <l>With ill-tun'd Harp and uncouth descant shrill</l>
+     <l>I ply'd a thriftless trade, and by such shifts</l>
+     <l>Did win Obscurity to shroud my name.</l>
+     <l>At length to other conquests in the north</l>
+     <l>Ostorius led his legions: Safer now,</l>
+     <l>Yet not secure, I to some valiant Chiefs,</l>
+     <l>Whom War had spar'd, discover'd, what I was;</l>
+     <l>And with them plan'd, how surest we might draw</l>
+     <l>Our scatter'd forces to some rocky fastness</l>
+     <l>In rough Caernarvon, there to breathe in freedom,</l>
+     <l>If not with brave incursion to oppress</l>
+     <l>
+      <pb n="51" facs="61"/>
+The thinly-station'd foe. And soon our art</l>
+     <l>So well avail'd, that now at Snowdon's foot</l>
+     <l>Full twenty troops of hardy veterans wait</l>
+     <l>To call my Sire their leader.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Valiant Youth—</l>
+    </sp>
+    <sp who="#evilina">
+     <speaker>EVELINA.</speaker>
+     <l>He is—I said, he was a valiant Youth,</l>
+     <l>Nor has he sham'd his race.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>We do believe</l>
+     <l>Thy modest tale: And may the righteous Gods</l>
+     <l>Thus ever shed upon thy noble breast</l>
+     <l>Discretion's cooling dew. When nurtur'd so,</l>
+     <l>Then, only then, doth Valour bloom mature.</l>
+    </sp>
+    <sp who="#arviragus">
+     <speaker>ARVIRAGUS.</speaker>
+     <l>Yet vain is Valour howsoe'er it bloom:</l>
+     <l>Druid, the Gods frown on us. All my hopes</l>
+     <l>Are blasted; I shall ne'er rejoin my Friends</l>
+     <l>Ne'er bless them with my Father. Holy Men,</l>
+     <l>I have a tale to tell, will shake your Souls.</l>
+     <l>Your Mona is invaded, Rome approaches,</l>
+     <l>E'en to these Groves approaches.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>SEMICHORUS.</speaker>
+     <l>Horror! Horror!</l>
+    </sp>
+    <sp who="#arviragus">
+     <speaker>ARVIRAGUS.</speaker>
+     <l>Late, as I landed on you highest beach,</l>
+     <l>Where nodding from the rocks the Poplars fling</l>
+     <l>Their scatter'd arms, and dash them in the wave,</l>
+     <l>There were their Vessels moor'd, as if they sought</l>
+     <l>
+      <pb n="52" facs="62"/>
+Concealment 'mid the shade, and as I past</l>
+     <l>Up you thick-planted ridge, I spy'd their helms</l>
+     <l>'Mid brakes and boughs trench'd in the heath below</l>
+     <l>Where like a nest of night-worms did they glitter,</l>
+     <l>Sprinkling the plain with brightness. On I sped</l>
+     <l>With silent step, yet oft did pass so near,</l>
+     <l>'Twas next to prodigy, I 'scap'd unseen.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Their number, Prince?</l>
+    </sp>
+    <sp who="#arviragus">
+     <speaker>ARVIRAGUS.</speaker>
+     <l>Few, if mine hasty Eye</l>
+     <l>Did find, and count them all.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>O Brethren, Brethren,</l>
+     <l>Treason and sacrilege, worse foes than Rome,</l>
+     <l>Have led Rome hither. Instant seize that wretch,</l>
+     <l>And bring him to our presence.</l>
+    </sp>
+    <stage>CHORUS, ELIDURUS, ARVIRAGUS.</stage>
+    <sp>
+     <l>Say thou, false one!</l>
+     <l>What doom befits the slave, who sells his country?</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>Death, sudden death!</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>No, ling'ring peace-meal death;</l>
+     <l>And to such death thy brother and thyself</l>
+     <l>We now devote. Villain, thy deeds are known,</l>
+     <l>'Tis known, ye led the impious Romans hither</l>
+     <l>To slaughter us ev'n on our holy Altars.</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>That on my soul doth lie some secret grief,</l>
+     <l>These looks perforce will tell: It is not fear,</l>
+     <l>
+      <pb n="53" facs="63"/>
+Druids, it is not fear, that shakes me thus;</l>
+     <l>The great Gods know, it is not: Ye can never:</l>
+     <l>For, what tho' Wisdom lifts ye next those Gods,</l>
+     <l>Ye cannot, like to them, unlock Mens breasts,</l>
+     <l>And read their inmost thoughts. Ah! that ye could.</l>
+    </sp>
+    <sp who="#arviragus">
+     <speaker>ARVIRAGUS.</speaker>
+     <l>What hast thou done?</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>What, Prince, I will not tell.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Wretch, there are means—</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>I know, and terrible means;</l>
+     <l>And 'tis both fit, that you should try those means,</l>
+     <l>And I endure them: Yet I think, my patience</l>
+     <l>Will for some space baffle your torturing fury.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Be that best known, when our inflicted goads</l>
+     <l>Harrow thy flesh!</l>
+    </sp>
+    <sp who="#arviragus">
+     <speaker>ARVIRAGUS.</speaker>
+     <l>Stranger, e'er this is try'd,</l>
+     <l>Confess the whole of thy black perfidy;</l>
+     <l>So black, that when I look upon thy youth,</l>
+     <l>Read thy mild eye, and mark thy modest brow,</l>
+     <l>I think indeed, thou durst not.</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>Such a crime</l>
+     <l>Indeed, I durst not; and would rather be</l>
+     <l>The very wretch, thou seest. I'll speak no more.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Brethren 'tis so. The Virgins thoughts were just:</l>
+     <l>This Youth has been deceived.</l>
+    </sp>
+    <sp who="#elidurus">
+     <pb n="54" facs="64"/>
+     <speaker>ELIDURUS.</speaker>
+     <l>Yes, one Word more.</l>
+     <l>You say, the Romans have invaded Mona.</l>
+     <l>Give me a sword and twenty honest Britons,</l>
+     <l>And I will quell those Romans. Vain demand!</l>
+     <l>Alas! you cannot: Ye are Men of Peace:</l>
+     <l>Religion's self forbids. Lead then to torture.</l>
+    </sp>
+    <sp who="#arviragus">
+     <speaker>ARVIRAGUS.</speaker>
+     <l>Now on my Soul this Youth doth move me much.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Think not, Religion and our holy Office</l>
+     <l>Doth teach us tamely, like the bleating Lamb,</l>
+     <l>To crouch before Oppression, and with neck</l>
+     <l>Outstretch'd await the stroke. Mistaken Boy!</l>
+     <l>Did not strict Justice claim thee for her Victim,</l>
+     <l>We might full safely send thee to these Romans,</l>
+     <l>Inviting their hot charge. Know, when I blow</l>
+     <l>That sacred Trumpet bound with sable fillets</l>
+     <l>To yonder branching Oak, the awful sound</l>
+     <l>Calls forth a thousand Britons train'd alike</l>
+     <l>In holy and in martial exercise,</l>
+     <l>Not by such mode and rule, as Romans use,</l>
+     <l>But of that fierce potentous horrible sort,</l>
+     <l>As shall appall ev'n Romans.</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>Gracious Gods!</l>
+     <l>Then there are hopes indeed. O call them instant</l>
+     <l>This Prince will lead them on: I'll follow him,</l>
+     <l>Tho' in my Chains, and some way dash them round</l>
+     <l>To harm the haughty foe.</l>
+    </sp>
+    <sp who="#arviragus">
+     <pb n="55" facs="65"/>
+     <speaker>ARVIRAGUS.</speaker>
+     <l>A thousand Britons,</l>
+     <l>And arm'd! O instant blow the sacred trump,</l>
+     <l>And let me head them. Yet methinks this Youth.—</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>I know, what thou wouldst say, might join thee, Prince.</l>
+     <l>True, were he free from crime, or had confest.</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>Confest. Ah, think not, I will e'er—</l>
+    </sp>
+    <sp who="#arviragus">
+     <speaker>ARVIRAGUS.</speaker>
+     <l>Reflect.</l>
+     <l>Either thyself or brother must have wrong'd us:</l>
+     <l>Then why conceal—</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>Hast thou a Brother? no!</l>
+     <l>Else hadst thou spar'd the word; and yet a sister</l>
+     <l>Lovely as thine might more than teach thee, Prince,</l>
+     <l>What 'tis to have a Brother. Hear me, Druids,</l>
+     <l>Tho' I would prize an hour of Freedom now,</l>
+     <l>Before an age of any after date:</l>
+     <l>Tho' I would seize it, as the gift of heav'n,</l>
+     <l>And use it as heaven's gift: yet do not think,</l>
+     <l>I so will purchase it. Give it me freely,</l>
+     <l>I yet will spurn the boon, and hug my Chains,</l>
+     <l>Till you do swear by your own hoary heads,</l>
+     <l>My Brother shall be safe.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Excellent Youth!</l>
+     <l>Thy words do speak thy soul, and such a soul,</l>
+     <l>As wakes our wonder. Thou art free; thy Brother</l>
+     <l>
+      <pb n="56" facs="66"/>
+Shall be thine honour's pledge; so will we use him,</l>
+     <l>As thou art false, or true.</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>I ask no other.</l>
+    </sp>
+    <sp who="#arviragus">
+     <speaker>ARVIRAGUS.</speaker>
+     <l>Thus then, my fellow soldier, to thy clasp</l>
+     <l>I give the hand of Friendship. Noble Youth,</l>
+     <l>We'll speed, or die together</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Hear us Prince!</l>
+     <l>Mona permits not, that he fight her battles,</l>
+     <l>Till duly purified: For, tho his Soul</l>
+     <l>Took up unwittingly this deed of baseness,</l>
+     <l>Yet is Lustration meet. Learn, that in Vice</l>
+     <l>There is a noisome rankness unperceiv'd</l>
+     <l>By gross corporeal sense, which so offends</l>
+     <l>Heaven's pure Divinities, as us the stench</l>
+     <l>Of vapour wafted from sulphureous pool,</l>
+     <l>Or pois'nous weed obscene. Hence doth the Man,</l>
+     <l>Who ev'n converses with a villain, need</l>
+     <l>As much purgation, as the pallid wretch</l>
+     <l>'Scap'd from the walls, where frowning Pestilence</l>
+     <l>Spreads wide her livid Banners. For this cause</l>
+     <l>Ye Priests, conduct the Youth to yonder grove,</l>
+     <l>And do the needful rites.</l>
+     <stage>[Exeunt Priests with Elidurus.</stage>
+     <l>Mean while ourself</l>
+     <l>Will lead thee, Prince, unto thy Father's presence.</l>
+     <l>—But hold, the King comes forth.</l>
+    </sp>
+    <stage>
+     <pb n="57" facs="67"/>CARACTACUS, ARVIRAGUS, CHORUS, EVELINA.</stage>
+    <sp>
+     <l>My son! My son!</l>
+     <l>What joy, what transport, doth thine aged sire</l>
+     <l>Feel in these filial foldings! Speak not, boy,</l>
+     <l>Nor interrupt that heart-felt ecstacy</l>
+     <l>Should strike us mute. I know, what thou wouldst say,</l>
+     <l>Yet prithee, peace. Thy sister's voice hath clear'd thee,</l>
+     <l>And could excuse find words at this blest moment,</l>
+     <l>Trust me, I'd give it vent. But, 'tis enough,</l>
+     <l>Thy father welcomes thee to him and honour:</l>
+     <l>Honour, that now with rapt'rous certainty</l>
+     <l>Calls thee his own true offspring. Dost thou weep?</l>
+     <l>Ah, if thy tears swell not from joy's free spring,</l>
+     <l>I beg thee, spare them: I have done thee wrong,</l>
+     <l>Can make thee no atonement: None, alas!</l>
+     <l>Thy father scarce can bless thee, as he ought;</l>
+     <l>Unblest himself, beset with Foes around,</l>
+     <l>Bereft of queen, of kingdom, and of soldiers,</l>
+     <l>He can but give thee portion of his dangers,</l>
+     <l>Perchance and of his chains: Yet droop not, boy,</l>
+     <l>Virtue is still thine own.</l>
+    </sp>
+    <sp who="#arviragus">
+     <speaker>ARVIRAGUS.</speaker>
+     <l>It is, my father;</l>
+     <l>Pure as from thine illustrious fount it came;</l>
+     <l>And that unsullied, let the world oppress us;</l>
+     <l>Let Fraud and Falshood rivet fetters on us;</l>
+     <l>Still shall our souls be free: Yet Hope is ours,</l>
+     <l>As well as Virtue.</l>
+    </sp>
+    <sp who="#caractacus">
+     <pb n="58" facs="68"/>
+     <speaker>CARACTACUS.</speaker>
+     <l>Spoken like a Briton.</l>
+     <l>True, Hope is ours, and therefore let's prepare:</l>
+     <l>The moments now are precious. Tell us, Druid,</l>
+     <l>Is it not meet, we see the bands drawn out,</l>
+     <l>And mark their due array?</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Monarch, ev'n now</l>
+     <l>They skirt the grove.</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>Then let us to their front.—</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>But is the traitor-youth in safety lodg'd?</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>Druid, he fled—</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>O fatal flight to Mona!</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>But what of that? Arviragus is here,</l>
+     <l>My son is here, then let the traitor go,</l>
+     <l>By this he has join'd the Romans: Let him join them,</l>
+     <l>A single arm, and that a villain's arm,</l>
+     <l>Can lend but little aid to any powers</l>
+     <l>Oppos'd to Truth and Virtue. Come, my son,</l>
+     <l>Let's to the troops, and marshall them with speed.</l>
+     <l>That done, we from these venerable men</l>
+     <l>Will claim their ready blessing: Then to battle;</l>
+     <l>And the swift sun ev'n at his purple dawn</l>
+     <l>Shall spy us crown'd with conquest, or with death.</l>
+     <stage>[Exeunt Caractacus and Arviragus.</stage>
+    </sp>
+    <stage>
+     <pb n="59" facs="69"/>CHORUS, EVELINA.</stage>
+    <sp>
+     <l>What may his flight portend! Say, Evelina,</l>
+     <l>How came this youth to 'scape?</l>
+    </sp>
+    <sp who="#evilina">
+     <speaker>EVELINA.</speaker>
+     <l>And that to tell</l>
+     <l>Will fix much blame on my impatient folly:</l>
+     <l>For, ere your hallow'd lips had given permission,</l>
+     <l>I flew with eager haste to bear my father</l>
+     <l>News of his son's return. Enflam'd with that,</l>
+     <l>Think, how a sister's zealous breast must glow!</l>
+     <l>Your looks give mild assent. I glow'd indeed</l>
+     <l>With the dear tale, and sped me in his ear</l>
+     <l>To pour the precious tidings: But my tongue</l>
+     <l>Scarce nam'd Arviragus, ere the false stranger</l>
+     <l>(As I bethink me since) with stealthy pace</l>
+     <l>Fled to the cavern's mouth.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>The king pursued?</l>
+    </sp>
+    <sp who="#evilina">
+     <speaker>EVELINA.</speaker>
+     <l>Alas! he mark'd him not, for 'twas the moment,</l>
+     <l>When he had all to ask and all to fear,</l>
+     <l>Touching my brother's valour. Hitherto</l>
+     <l>His safety only, which but little mov'd him,</l>
+     <l>Had reach'd his ears: But when my tongue unfolded</l>
+     <l>The story of his bravery and his peril,</l>
+     <l>O how the tears cours'd plenteous down his cheeks!</l>
+     <l>How did he lift unto the heav'ns his hands</l>
+     <l>In speechless transport! Yet he soon bethought him</l>
+     <l>Of Rome's invasion, and with fiery glance</l>
+     <l>
+      <pb n="60" facs="70"/>
+Survey'd the cavern round; then snatch'd his spear,</l>
+     <l>And menac'd to pursue the flying traitor:</l>
+     <l>But I with prayers (O pardon, if they err'd)</l>
+     <l>Witheld his step, for to the left the youth</l>
+     <l>Had wing'd his way, where the thick underwood</l>
+     <l>Afforded sure retreat. Besides, if found,</l>
+     <l>Was age a match for youth?</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Maiden, enough.</l>
+     <l>Better perchance for us, if he was captive:</l>
+     <l>But in the justice of their cause, and heav'n,</l>
+     <l>Do Mona's sons confide.</l>
+    </sp>
+    <stage>BARD, CHORUS, ELIDURUS, EVELINA.</stage>
+    <sp>
+     <l>Druid, the rites</l>
+     <l>Are finish'd, all save that which crowns the rest,</l>
+     <l>And which pertains to thy blest hand alone:</l>
+     <l>For that he kneels before thee.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Take him hence,</l>
+     <l>We may not trust him forth to fight our cause.</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>Now by Andraste's throne—</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Nay, swear not, youth,</l>
+     <l>The tie is broke, that held thy fealty:</l>
+     <l>Thy brother's fled.</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>Fled!</l>
+    </sp>
+    <sp who="#chorus">
+     <pb n="61" facs="71"/>
+     <speaker>CHORUS.</speaker>
+     <l>To the Romans fled.</l>
+     <l>Yes, thou hast cause to tremble.</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>Ah, Vellinus!</l>
+     <l>Does thus our love, does thus our friendship end!</l>
+     <l>Was I thy brother, youth, and hast thou left me!</l>
+     <l>Yes; and how left me, cruel, as thou art,</l>
+     <l>The victim of thy crimes!</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>True, thou must die.</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>I pray ye then on your best mercy, Fathers,</l>
+     <l>It may be speedy. I would fain be dead,</l>
+     <l>If this be life. Yet I must doubt ev'n that,</l>
+     <l>For falshood of this strange stupendous sort</l>
+     <l>Sets firm-ey'd Reason on a gaze, mistrusting,</l>
+     <l>That what she sees in palpable plain form,</l>
+     <l>The stars in yon blue arch, these woods, these caverns,</l>
+     <l>Are all mere tricks of cozenage, nothing real,</l>
+     <l>The vision of a vision. If he's fled,</l>
+     <l>I ought to hate this brother.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Yet thou dost not.</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>But when Astonishment will give me leave,</l>
+     <l>Perchance I shall.—And yet he is my brother,</l>
+     <l>And he was virtuous once. Yes, ye vile Romans,</l>
+     <l>Yes, I must die, before my thirsty sword</l>
+     <l>
+      <pb n="62" facs="72"/>
+Drinks one rich drop of vengeance. Yet, ye robbers,</l>
+     <l>Yet will I curse you with my dying lips:</l>
+     <l>'Twas you, that stole away my brother's virtue.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Now then prepare to die.</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>I am prepar'd.</l>
+     <l>Yet, since I cannot now (what most I wish'd)</l>
+     <l>By manly prowess guard this lovely maid:</l>
+     <l>Permit, that on your holiest earth I kneel,</l>
+     <l>And pour one fervent prayer for her protection.</l>
+     <l>Allow me this, for tho' you think me false,</l>
+     <l>The gods will hear me.</l>
+    </sp>
+    <sp who="#evilina">
+     <speaker>EVELINA.</speaker>
+     <l>I can hold no longer!</l>
+     <l>O Druid, Druid, at thy feet I fall:</l>
+     <l>Yes, I must plead (away with virgin-blushes)</l>
+     <l>For such a youth must plead. I'll die to save him,</l>
+     <l>O take my life, and let him fight for Mona.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Virgin, arise. His virtue hath redeem'd him,</l>
+     <l>And he shall fight for thee and for his country.</l>
+     <l>Youth, thank us with thy deeds. The time is short,</l>
+     <l>And now with reverence take our high lustration:</l>
+     <l>Thrice do we sprinkle thee with day-break dew</l>
+     <l>Shook from the May-thorn blossom; twice and thrice</l>
+     <l>Touch we thy forehead with our holy wand:</l>
+     <l>Now thou art fully purg'd. Now rise restor'd</l>
+     <l>To virtue and to us. Hence then my son,</l>
+     <l>
+      <pb n="63" facs="73"/>
+Hie thee to yonder altar, where our Bards</l>
+     <l>Shall arm thee duly both with helm and sword</l>
+     <l>For warlike enterprize.</l>
+     <stage>[Exit Elidurus.</stage>
+    </sp>
+    <stage>CARACTACUS, CHORUS, ARVIRAGUS, EVELINA.</stage>
+    <sp>
+     <l>'Tis true, my Son,</l>
+     <l>Bold are their bearings, and I fear me not</l>
+     <l>But they have hearts will not belie their looks.</l>
+     <l>I like them well. Yet would to righteous heav'n</l>
+     <l>Those valiant Veterans, that on Snowdon guard</l>
+     <l>Their scanty pittance of bleak Liberty,</l>
+     <l>Were here to join them: we would teach these wolves,</l>
+     <l>Tho' we permit their rage to prowl our coasts,</l>
+     <l>That Vengeance waits them ere they rob our altars.</l>
+     <l>Druid, all hail! we find thy valiant guards</l>
+     <l>Accoutred so, as well bespeaks the wisdom,</l>
+     <l>That fram'd their phalanx. We but wait thy blessing</l>
+     <l>To lead them 'gainst the foe.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Caractacus!</l>
+     <l>Behold this sword: The sword of old Belinus,</l>
+     <l>Stain'd with the blood of giants, and its name</l>
+     <l>TRIFINGUS. Many an age its charmed blade</l>
+     <l>Has slept within you consecrated trunk.</l>
+     <l>Lo, I unsheath it, king; I wave it o'er thee;</l>
+     <l>Mark, what portentous streams of scarlet light</l>
+     <l>Flow from the brandish'd falchion. On thy knee</l>
+     <l>Receive the sacred pledge.—And mark our words.</l>
+     <l>By the bright circle of the golden Sun,</l>
+     <l>
+      <pb n="64" facs="74"/>
+By the brief courses of the errant Moon,</l>
+     <l>By the dread potency of every Star</l>
+     <l>In the mysterious Zodiac's burning girth,</l>
+     <l>By each, and all of these supernal signs,</l>
+     <l>We do adjure thee with this trusty blade,</l>
+     <l>To guard yon central oak, whose holy stem</l>
+     <l>Involves the spirit of high Taranis:</l>
+     <l>This be thy charge; to which in aid we join</l>
+     <l>Ourselves, and our sage brethren. With our vassals</l>
+     <l>Thy son and the Brigantian prince shall make</l>
+     <l>Incursion on the foe.</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>In this, and all,</l>
+     <l>Your holy will be done. Yet surely, Druid,</l>
+     <l>The fresh and active vigour of these youths</l>
+     <l>Might better suit with this important charge.</l>
+     <l>Not that my heart shrinks at the glorious task,</l>
+     <l>But will with ready zeal pour forth its blood</l>
+     <l>Upon the sacred roots, my firmest courage</l>
+     <l>Might fail to save. Think, Fathers, I am old;</l>
+     <l>And if I fell the foremost in the onset,</l>
+     <l>Should leave a son behind, might still defend you.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>The sacred adjuration we have utter'd</l>
+     <l>May never be recall'd.</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>Then be it so.</l>
+     <l>Yet do not think, I counsel this thro' fear:</l>
+     <l>Old as I am, I trust with half our powers</l>
+     <l>I could drive back these Romans to their ships;</l>
+     <l>
+      <pb n="65" facs="75"/>
+Dastards, that come as doth the cow'ring fowler</l>
+     <l>To tangle me with snares and take me tamely;</l>
+     <l>Slaves, they shall find, that ere they gain their prey,</l>
+     <l>They have to hunt it boldly with barb'd spears,</l>
+     <l>And meet such conflict, as the chafed boar</l>
+     <l>Gives to his stout assailants. O ye gods!</l>
+     <l>That I might instant face them.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Be thy son's</l>
+     <l>The onset.</l>
+    </sp>
+    <sp who="#arviragus">
+     <speaker>ARVIRAGUS.</speaker>
+     <l>From his soul that son doth thank ye,</l>
+     <l>Blessing the wisdom, that preserves his father</l>
+     <l>Thus to the last. O if the fav'ring gods</l>
+     <l>Direct this arm, if their high will permit,</l>
+     <l>I pour a prosperous vengeance on the foe,</l>
+     <l>I ask for life no longer, than to crown</l>
+     <l>The valiant task. Steel then, ye powers of heav'n,</l>
+     <l>Steel my firm soul with your own fortitude,</l>
+     <l>Free from alloy of passion. Give me courage,</l>
+     <l>That knows not rage; revenge, that knows not malice;</l>
+     <l>Let me not thirst for carnage, but for conquest:</l>
+     <l>And, conquest gain'd, sleep vengeance in my breast,</l>
+     <l>Ere in its sheath my sword.</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>O hear his father!</l>
+     <l>If ever rashness spur'd me on, great gods,</l>
+     <l>To acts of danger thirsting for renown;</l>
+     <l>If e'er my eager soul pursued its course</l>
+     <l>Beyond just reason's limit, visit not</l>
+     <l>
+      <pb n="66" facs="76"/>
+My faults on him. I am the thing, you made me,</l>
+     <l>Vindictive, bold, precipitate, and fierce:</l>
+     <l>But as you gave to him a milder mind,</l>
+     <l>O bless him, bless him with a milder fate!</l>
+    </sp>
+    <sp who="#evilina">
+     <speaker>EVELINA.</speaker>
+     <l>Nor yet unheard let Evelina pour</l>
+     <l>Her pray'rs and tears. O hear a hapless maid,</l>
+     <l>That ev'n thro' half the years, her life has number'd,</l>
+     <l>Ev'n nine long years has drag'd a trembling being,</l>
+     <l>Beset with pains and perils. Give her peace;</l>
+     <l>And, to endear it more, be that blest peace</l>
+     <l>Won by her brother's sword. O bless his arm,</l>
+     <l>And bless his valiant followers, One, and all.</l>
+    </sp>
+    <stage>ELIDURUS <hi>entering armed.</hi>
+    </stage>
+    <sp>
+     <l>Hear heav'n! and let this pure and virgin prayer</l>
+     <l>Plead ev'n for Elidurus, whose sad soul</l>
+     <l>Cannot look up to your immortal thrones,</l>
+     <l>And urge his own request: Else would he ask,</l>
+     <l>That all the dangers of th' approaching fight</l>
+     <l>Might fall on him alone: That every spear</l>
+     <l>The Romans wield might at his breast be aim'd;</l>
+     <l>Each arrow darted on his rattling helm;</l>
+     <l>That so the brother of this beauteous maid,</l>
+     <l>Returning safe with victory and peace,</l>
+     <l>Might bear them to her bosom.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS</speaker>
+     <l>Now rise all,</l>
+     <l>And heav'n, that knows, what most ye ought to ask,</l>
+     <l>Grant all, ye ought to have. The stars on high</l>
+     <l>
+      <pb n="67" facs="77"/>
+Are faded now, and darkness reigns o'er all.</l>
+     <l>Now is the dreadful hour, now will our torches</l>
+     <l>Glare with more livid horror, now our shrieks</l>
+     <l>And clanking arms will more appall the foe.</l>
+     <l>But heed, ye Bards, that for the sign of onset</l>
+     <l>Ye sound the antientest of all your rhymes,</l>
+     <l>Whose birth tradition notes not, nor who fram'd</l>
+     <l>Its lofty strains: The force of that high air</l>
+     <l>Did Julius feel, when, fir'd by it, our fathers</l>
+     <l>First drove him recreant to his Ships; and ill</l>
+     <l>Had far'd his second landing, but that Fate</l>
+     <l>Silenc'd the master Bard, who led the song.</l>
+     <l>Now forth, brave Pair! Go, with our blessing go;</l>
+     <l>Mute be the march, as ye ascend the hill:</l>
+     <l>Then, when ye hear the sound of our shrill trumpet,</l>
+     <l>Fall on the foe.</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>Now glory be thy guide;</l>
+     <l>Pride of my soul, go forth and conquer.</l>
+    </sp>
+    <sp who="#evilina">
+     <speaker>EVELINA.</speaker>
+     <l>Brother,</l>
+     <l>Yet one embrace. O thou much honour'd Stranger,</l>
+     <l>I charge thee fight by my dear brother's side,</l>
+     <l>And shield him from the foe; for he is brave,</l>
+     <l>And will with bold and well-directed arm</l>
+     <l>Return thy succour.</l>
+     <stage>[Exeunt Arviragus and Elidurus.</stage>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Now, ye Priests,</l>
+     <l>Strew on the altar's height your sacred leaves,</l>
+     <l>
+      <pb n="68" facs="78"/>
+And light the morning flame. But why is this?</l>
+     <l>Why doth our brother Mador snatch his harp</l>
+     <l>From yonder bough? why this way bend his step?</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>He is entranc'd. The fillet bursts, that bound</l>
+     <l>His liberal locks; his snowy vestments fall</l>
+     <l>In ampler folds; and all his floating form</l>
+     <l>Doth seem to glisten with divinity!</l>
+     <l>Yet is he speechless. Say, thou Chief of Bards,</l>
+     <l>What is there in this airy vacancy,</l>
+     <l>That thou with fiery and irregular glance</l>
+     <l>Should'st scan thus wildly? wherefore heaves thy breast?</l>
+     <l>Why starts—</l>
+    </sp>
+    <sp>
+     <lg type="ode">
+      <head>ODE.</head>
+      <lg>
+       <lg n="1. 1">
+        <head>1. 1.</head>
+        <l>Hark! heard ye not yon footstep dread,</l>
+        <l>That shook the earth with thund'ring tread?</l>
+        <l>'Twas Death.—In haste</l>
+        <l>The Warrior past;</l>
+        <l>High tower'd his helmed head:</l>
+        <l>I mark'd his mail, I mark'd his shield,</l>
+        <l>I 'spi'd the sparkling of his spear,</l>
+        <l>I saw his giant-arm the falchion wield;</l>
+        <l>Wide wav'd the bick'ring blade, and fir'd the angry air.</l>
+       </lg>
+       <lg n="1. 2">
+        <head>1. 2.</head>
+        <l>On me (he cry'd) my Britons, wait.</l>
+        <l>To lead you to the field of fate</l>
+        <l>I come: Yon car,</l>
+        <l>That cleaves the air,</l>
+        <l>Descends to throne my state:</l>
+        <l>
+         <pb n="69" facs="79"/>
+I mount your Champion, and your God.</l>
+        <l>My proud steeds neigh beneath the thong:</l>
+        <l>Hark! to my wheels of brass, that rattle loud!</l>
+        <l>Hark! to my <note n="*" place="foot">Here one of the Druids blows the sacred trumpet.</note> clarion shrill, that brays the woods among!</l>
+       </lg>
+       <lg n="1. 3">
+        <head>1. 3.</head>
+        <l>Fear not now the fever's fire,</l>
+        <l>Fear not now the death-bed groan,</l>
+        <l>Pangs that torture, pains that tire,</l>
+        <l>Bed-rid age with feeble moan:</l>
+        <l>These domestic terrors wait</l>
+        <l>Hourly at my palace gate;</l>
+        <l>And when o'er slothful realms my rod I wave,</l>
+        <l>These on the tyrant king and coward slave Rush with vindictive rage, and drag them to their grave.</l>
+       </lg>
+      </lg>
+      <lg>
+       <lg n="2. 1">
+        <head>2. 1.</head>
+        <l>But you, my Sons, at this high hour</l>
+        <l>Shall share the fulness of my power:</l>
+        <l>From all your bows,</l>
+        <l>In level'd rows,</l>
+        <l>My own dread shafts shall shower.</l>
+        <l>Go then to conquest, gladly go,</l>
+        <l>Deal forth my dole of destiny,</l>
+        <l>With all my fury dash the trembling foe</l>
+        <l>Down to those darksome dens, where Rome's pale spectres lie.</l>
+       </lg>
+       <lg n="2. 2">
+        <head>2. 2.</head>
+        <l>Where creeps the ninefold stream profound.</l>
+        <l>Her black inexorable round,</l>
+        <l>And on the bank,</l>
+        <l>To willows dank,</l>
+        <l>The shivering ghosts are bound.</l>
+        <l>
+         <pb n="70" facs="80"/>
+Twelve thousand crescents all shall swell</l>
+        <l>To full-orb'd pride, and all decline,</l>
+        <l>Ere they again in life's gay mansions dwell:</l>
+        <l>Not such the meed that crowns the sons of freedom's line.</l>
+       </lg>
+       <lg n="2. 3">
+        <head>2. 3.</head>
+        <l>No, my Britons! battle-slain,</l>
+        <l>Rapture gilds your parting hour:</l>
+        <l>I, that all despotic reign,</l>
+        <l>Claim but there a moment's power.</l>
+        <l>Swiftly the soul of British flame</l>
+        <l>Animates some kindred frame,</l>
+        <l>Swiftly to life and light triumphant flies,</l>
+        <l>Exults again in martial ecstacies,</l>
+        <l>Again for freedom fights, again for freedom dies.</l>
+       </lg>
+      </lg>
+     </lg>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>It does, it does! unconquer'd, undismaid,</l>
+     <l>The British soul revives—Champion, lead on,</l>
+     <l>I follow—give me way. Some blessed shaft</l>
+     <l>Will rid me of this clog of cumb'rous age;</l>
+     <l>And I again shall in some happier mould</l>
+     <l>Rise to redeem my country.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Stay thee, Prince,</l>
+     <l>And mark what clear and amber-skirted clouds</l>
+     <l>Rise from the altar's verge, and cleave the skies:</l>
+     <l>O 'tis a prosperous omen! Soon expect</l>
+     <l>To hear glad tidings.</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>I will send them to thee.</l>
+    </sp>
+    <sp who="#chorus">
+     <pb n="71" facs="81"/>
+     <speaker>CHORUS.</speaker>
+     <l>But see, a Bard approaches, and he bears them:</l>
+     <l>Else is his eye no herald to his heart.</l>
+    </sp>
+    <stage>BARD, CHORUS, CARACTACUS, CARACTACUS.</stage>
+    <sp>
+     <l>Speedily tell thy tale.</l>
+    </sp>
+    <sp who="#bard">
+     <speaker>BARD.</speaker>
+     <l>A tale like mine,</l>
+     <l>I trust your ears will willingly pursue</l>
+     <l>Thro' each glad circumstance. First, Monarch, learn,</l>
+     <l>The Roman troop is fled.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Great gods, we thank ye!</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>Fought they not ere they fled? O tell me all.</l>
+    </sp>
+    <sp who="#bard">
+     <speaker>BARD.</speaker>
+     <l>Silent, as night, that wrapt us in her veil,</l>
+     <l>We pac'd up yonder hill, whose woody ridge</l>
+     <l>O'erhung the ambush'd foe. No sound was heard,</l>
+     <l>Step felt, or sight descry'd: for safely hid,</l>
+     <l>Beneath the purple pall of sacrifice</l>
+     <l>Did sleep our holy fire, nor saw the air,</l>
+     <l>Till to that pass we came, where whilom Brute</l>
+     <l>Planted his five hoar altars. To our rites</l>
+     <l>Then swift we hasted, and in one short moment</l>
+     <l>Each rocky pile was cloth'd with livid flame.</l>
+     <l>Near each a white-rob'd Druid, whose stern voice</l>
+     <l>Thunder'd deep execrations on the foe.</l>
+     <l>
+      <pb n="72" facs="82"/>
+Now wak'd our horrid symphony, now all</l>
+     <l>Our harps terrific rang: Meanwhile the grove</l>
+     <l>Trembled, the altars shook, and thro' our ranks</l>
+     <l>Our sacred sisters rush'd in sable robes,</l>
+     <l>With hair dishevel'd and funereal brands</l>
+     <l>Hurl'd round with menacing fury. On they rush'd</l>
+     <l>In fierce and frantic mood, as is their wont</l>
+     <l>Amid the magic rites, they do to night</l>
+     <l>In our deep dens below. Motions like these</l>
+     <l>Were never dar'd before in open air!</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Did I not say we had a power within us,</l>
+     <l>That might appall ev'n Romans?</l>
+    </sp>
+    <sp who="#bard">
+     <speaker>BARD.</speaker>
+     <l>And it did.</l>
+     <l>They stood agast, and to our vollied darts,</l>
+     <l>That thick as hail fell on their helms and corslets,</l>
+     <l>Scarce rais'd a warding shield. The sacred trumpet</l>
+     <l>Then rent the air, and instant at the signal</l>
+     <l>Rush'd down Arviragus with all our vassals;</l>
+     <l>A hot, but short-liv'd, conflict then ensued:</l>
+     <l>For soon they fled. I saw the Romans fly,</l>
+     <l>Before I left the field.</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>My son pursued?</l>
+    </sp>
+    <sp who="#bard">
+     <speaker>BARD.</speaker>
+     <l>The prince and Elidurus, like twin lions,</l>
+     <l>Did side by side engage. Death seem'd to guide</l>
+     <l>Their swords, no stroke fell fruitless, every wound</l>
+     <l>Gave him a victim.</l>
+    </sp>
+    <sp who="#caractacus">
+     <pb n="73" facs="83"/>
+     <speaker>CARACTACUS.</speaker>
+     <l>Thus my friend Ebrancus!</l>
+     <l>Ill-fated prince! didst thou and I in youth</l>
+     <l>Unite our valours. In his prime he fell,</l>
+     <l>On Conway's banks. I saw him fall, and slew</l>
+     <l>His murderer.—But how far did they pursue?</l>
+    </sp>
+    <sp who="#bard">
+     <speaker>BARD.</speaker>
+     <l>Ev'n to the ships: For I descry'd the rout,</l>
+     <l>Far as the twilight gleam would aid my sight.</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>Now, thanks to the bright star, that rul'd his birth;</l>
+     <l>Yes, he will soon return to claim my blessing,</l>
+     <l>And he shall have it pour'd in tears of joy</l>
+     <l>On his bold breast! methought, I heard a step:</l>
+     <l>Is it not his?</l>
+    </sp>
+    <sp who="#bard">
+     <speaker>BARD.</speaker>
+     <l>'Tis some of our own train,</l>
+     <l>And, as I think, they lead six Romans captive.</l>
+    </sp>
+    <stage>CHORUS, CARACTACUS, CAPTIVES.</stage>
+    <sp>
+     <l>My brethren, bear the prisoners to the cavern,</l>
+     <l>Till we demand them.</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>Pause ye yet a while.</l>
+     <l>They seem of bold demeanor, and have helms,</l>
+     <l>That speak them leaders. Hear me, Romans, hear.</l>
+     <l>That you are captives, is the chance of war:</l>
+     <l>Yet captives as ye are, in Britain's eye</l>
+     <l>
+      <pb n="74" facs="84"/>
+You are not slaves. Barbarians tho' you call us,</l>
+     <l>We know the native rights, man claims from man,</l>
+     <l>And therefore never shall we gall your necks</l>
+     <l>With chains, or drag you at our scythed cars</l>
+     <l>In arrogance of triumph. Nor, till taught</l>
+     <l>By Rome (what Britain sure should scorn to learn)</l>
+     <l>Her avarice, will we barter ye for gold.</l>
+     <l>True ye are captives, and our country's safety</l>
+     <l>Forbids, we give you back to liberty:</l>
+     <l>We give ye therefore to the immortal gods,</l>
+     <l>To them we lift ye in the radiant cloud</l>
+     <l>Of sacrifice. They may in limbs of freedom</l>
+     <l>Replace your free-born souls, and their high mercy</l>
+     <l>Haply shall to some better world advance you;</l>
+     <l>Or else in this restore that golden gift,</l>
+     <l>Which lost, leaves life a burden. Does there breathe</l>
+     <l>A wretch so 'pall'd with the vain fear of death</l>
+     <l>Can call this cruelty? 'tis love, 'tis mercy,</l>
+     <l>And grant, ye gods, if ere I'm made a captive</l>
+     <l>I meet the like fair treatment from the foe,</l>
+     <l>Whose stronger star quells mine. Now lead them on,</l>
+     <l>And, while they live, treat them, as men should men,</l>
+     <l>And not, as Rome treats Britain.</l>
+     <stage>[Exeunt Captives.</stage>
+     <l>Druid, these,</l>
+     <l>Ev'n should their chief escape, may blaze to-morrow</l>
+     <l>Our gratitude—Whence was that shriek?</l>
+    </sp>
+    <stage>
+     <pb n="75" facs="85"/>EVELINA, CARACTACUS, CHORUS.</stage>
+    <sp>
+     <l>My father,</l>
+     <l>Support me, take me trembling to your arms;</l>
+     <l>All is not well. Ah me, my fears o'ercome me!</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>What means my child?</l>
+    </sp>
+    <sp who="#evilina">
+     <speaker>EVELINA.</speaker>
+     <l>Alas! we are betray'd.</l>
+     <l>Ev'n now, as wand'ring in yon eastern grove</l>
+     <l>I call'd the gods to aid us, the dread sound</l>
+     <l>Of many hasty steps did meet mine ear:</l>
+     <l>This way they prest.</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>Daughter, thy fears are vain.</l>
+    </sp>
+    <sp who="#evilina">
+     <speaker>EVELINA.</speaker>
+     <l>Methought I saw the flame of lighted brands,</l>
+     <l>And what did glitter to my dazzled sight,</l>
+     <l>Like swords and helms.</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>All, all the feeble coinage</l>
+     <l>Of maiden fear.</l>
+    </sp>
+    <sp who="#evilina">
+     <speaker>EVELINA.</speaker>
+     <l>Nay, if mine ear mistook not,</l>
+     <l>I heard the traitor's voice, who that way 'scap'd,</l>
+     <l>Calling to arms.</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>Away with idle terrors!</l>
+     <l>Know, thy brave brother's crest is crown'd with conquest,</l>
+     <l>
+      <pb n="76" facs="86"/>
+The Romans fled, their leaders are our captives.</l>
+     <l>Smile, my lov'd child, and imitate the sun,</l>
+     <l>That rises ruddy from behind yon oaks</l>
+     <l>To hail him victor.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>That the rising sun!</l>
+     <l>O horror! horror! sacrilegious fires</l>
+     <l>Devour our groves: They blaze, they blaze! O sound</l>
+     <l>The trump again; recall the prince, or all</l>
+     <l>Is lost!</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>Druid, where is thy fortitude?</l>
+     <l>Do not I live? Is not this holy sword</l>
+     <l>Firm in my grasp? I will preserve your groves.</l>
+     <l>Britons, I go: Let those, that dare die nobly,</l>
+     <l>Follow my step.</l>
+     <stage>[Exit Caractacus.</stage>
+    </sp>
+    <sp who="#evilina">
+     <speaker>EVELINA.</speaker>
+     <l>O whither does he go?</l>
+     <l>Return, return: Ye holy men, recall him.</l>
+     <l>What is his arm against a host of Romans?</l>
+     <l>O I have lost a father!</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Ruthless gods!</l>
+     <l>Ye take away our souls: A general panic</l>
+     <l>Reigns thro' the grove. O fly, my brethren, fly,</l>
+     <l>To aid the king, fly to preserve your altars!</l>
+     <l>Alas! 'tis all in vain; our fate is fixt.</l>
+     <l>Look there, look there, thou miserable maid!</l>
+     <l>Behold thv bleeding brother.</l>
+    </sp>
+    <stage>
+     <pb n="77" facs="87"/>ARVIRAGUS, ELIDURUS, EVELINA, CHORUS.</stage>
+    <sp>
+     <l>Thanks, good youth:</l>
+     <l>Safe hast thou brought me to that holy spot,</l>
+     <l>Where I did wish to die. Support me still.</l>
+     <l>O, I am sick to death. Yet one step more:</l>
+     <l>Now lay me gently down. I would drag out</l>
+     <l>This life, tho' at some cost of throbs and pangs,</l>
+     <l>Just long enough to claim my father's blessing,</l>
+     <l>And sigh my last breath in my sister's arms.</l>
+     <l>—And here she kneels, poor maid! all dumb with grief.</l>
+     <l>Restrain thy sorrow, gentlest Evelina,</l>
+     <l>True thou dost see me bleed; I bleed to death.</l>
+    </sp>
+    <sp who="#evilina">
+     <speaker>EVELINA.</speaker>
+     <l>Say'st thou to death? O gods! the barbed shaft</l>
+     <l>Is buried in his breast. Yes, he must die;</l>
+     <l>And I, alas! am doom'd to see him die.</l>
+     <l>Where are your healing arts, medicinal herbs,</l>
+     <l>Ye holy men, your wonder-working spells?</l>
+     <l>Pluck me but out this shaft, staunch but this blood,</l>
+     <l>And I will call down blessings on your heads</l>
+     <l>With such a fervency.—And can ye not!</l>
+     <l>Then let me beg you on my bended knee,</l>
+     <l>Give to my misery some opiate drug,</l>
+     <l>May shut up all my senses.—Yes, good fathers,</l>
+     <l>Mingle the potion so, that it may kill me</l>
+     <l>Just at the instant, this poor languisher</l>
+     <l>Heaves his last sigh.</l>
+    </sp>
+    <sp who="#arviragus">
+     <pb n="78" facs="88"/>
+     <speaker>ARVIRAGUS.</speaker>
+     <l>Talk not thus wildly, sister,</l>
+     <l>Think on our father's age.—</l>
+    </sp>
+    <sp who="#evilina">
+     <speaker>EVELINA.</speaker>
+     <l>Alas! my brother!</l>
+     <l>We have no father now; or if we have,</l>
+     <l>He is a captive.</l>
+    </sp>
+    <sp who="#arviragus">
+     <speaker>ARVIRAGUS.</speaker>
+     <l>Captive! O my wound!</l>
+     <l>It stings me now.—But is it so? <stage>[turning to the Chorus.</stage>
+     </l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Alas!</l>
+     <l>We know no more, save that he sallied single</l>
+     <l>To meet the foe, whose unexpected host</l>
+     <l>Round by the east had wound their fraudful march,</l>
+     <l>And fir'd our groves.</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>O fatal, fatal valour!</l>
+     <l>Then is he seiz'd, or slain.</l>
+    </sp>
+    <sp who="#arviragus">
+     <speaker>ARVIRAGUS.</speaker>
+     <l>Too sure he is!</l>
+     <l>Druid, not half the Romans met our swords;</l>
+     <l>We found the fraud too late: the rest are yonder.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>How could they gain the pass?</l>
+    </sp>
+    <sp who="#arviragus">
+     <speaker>ARVIRAGUS.</speaker>
+     <l>The wretch, that fled</l>
+     <l>That way, return'd, conducting half their powers;</l>
+     <l>And—But thy pardon, youth, I will not wound thee,</l>
+     <l>He is thy brother.</l>
+    </sp>
+    <sp who="#elidurus">
+     <pb n="79" facs="89"/>
+     <speaker>ELIDURUS.</speaker>
+     <l>Thus my honest sword</l>
+     <l>Shall force the blood from the detested heart,</l>
+     <l>That holds alliance with him.</l>
+    </sp>
+    <sp who="#arviragus">
+     <speaker>ARVIRAGUS.</speaker>
+     <l>Elidurus,</l>
+     <l>Hold, on our friendship, hold. Thou noble youth,</l>
+     <l>Look on this innocent maid. She must to Rome,</l>
+     <l>Captive to Rome. Thou seest warm life flow from me,</l>
+     <l>Ere long she'll have no brother. Heav'n's my witness,</l>
+     <l>I do not wish, that thou shouldst live the slave</l>
+     <l>Of Rome: But yet she is my sister.</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>Prince,</l>
+     <l>Thou urgest that, might make me drag an age</l>
+     <l>In fetters worse than Roman. I will live,</l>
+     <l>And while I live—</l>
+    </sp>
+    <stage>
+     <hi>Enter</hi> BARD.</stage>
+    <sp>
+     <l>Fly to your caverns, Druids,</l>
+     <l>The grove's beset around. The chief approaches.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Let him approach, we will confront his pride,</l>
+     <l>The chief that rules amid the groves of Mona</l>
+     <l>Has not to fear his fury. What tho' age</l>
+     <l>Slackens our sinews; what tho' shield, and sword</l>
+     <l>Give not their iron aid to guard our body;</l>
+     <l>Yet virtue arms our soul, and 'gainst that panoply</l>
+     <l>What 'vails the rage of robbers. Let him come.</l>
+    </sp>
+    <sp who="#arviragus">
+     <pb n="80" facs="90"/>
+     <speaker>ARVIRAGUS.</speaker>
+     <l>I faint apace.—Ye venerable men,</l>
+     <l>If ye can save this body from pollution,</l>
+     <l>If ye can tomb me in this sacred place,</l>
+     <l>I trust, ye will. I fought to save these groves,</l>
+     <l>And, fruitless tho' I fought, some grateful oak,</l>
+     <l>I trust, will spread its reverential gloom</l>
+     <l>O'er my pale ashes.—Ah! that pang was death!</l>
+     <l>My sister, Oh!—</l>
+     <stage>[dies.</stage>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>She faints! Ah raise her!—</l>
+    </sp>
+    <sp who="#evilina">
+     <speaker>EVELINA.</speaker>
+     <l>Yes,</l>
+     <l>Now he is dead. I felt his spirit go</l>
+     <l>In a cold sigh, and as it past, methought</l>
+     <l>It paus'd a while, and trembled on my lips!</l>
+     <l>Take me not from him: Breathless as he is,</l>
+     <l>He is my brother still, and if the gods</l>
+     <l>Do please to grace him with some happier being,</l>
+     <l>They ne'er can give to him a fonder sister.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Brethren, surround the corse, and, ere the foe</l>
+     <l>Approaches, chaunt with meet solemnity</l>
+     <l>That grateful dirge your dying champion claims.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>SEMICHORUS.</speaker>
+     <l>Lo, where incumbent o'er the shade</l>
+     <l>Rome's ravening eagle bows her beaked head!</l>
+     <l>Yet while a moment fate affords,</l>
+     <l>While yet a moment freedom stays,</l>
+     <l>
+      <pb n="81" facs="91"/>
+That moment, which outweighs</l>
+     <l>Eternity's unmeasur'd hoards,</l>
+     <l>Shall Mona's grateful Bards employ</l>
+     <l>To hymn their godlike Hero to the sky.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>SEMICHORUS.</speaker>
+     <l>Ring out, ye mortal strings;</l>
+     <l>Answer thou heav'nly harp, instinct with spirit all,</l>
+     <l>That o'er the jasper arch self-warbling swings</l>
+     <l>Of blest Andraste's throne:</l>
+     <l>Thy sacred sounds alone</l>
+     <l>Can celebrate the fall</l>
+     <l>Of bold Arviragus—</l>
+     <stage>[Enter Aulus Didius and Romans.</stage>
+    </sp>
+    <stage>AULUS DIDIUS, CHORUS, EVELINA, ELIDURUS.</stage>
+    <sp>
+     <l>Ye bloody priests,</l>
+     <l>Behold, we burst on your infernal rites,</l>
+     <l>And bid ye pause. Instant restore our soldiers,</l>
+     <l>Nor hope that superstition's ruthless step</l>
+     <l>Shall wade in Roman gore. Ye savage men,</l>
+     <l>Did not our laws give licence to all faiths,</l>
+     <l>We would o'erturn your altars, headlong heave</l>
+     <l>These shapeless symbols of your barbarous gods,</l>
+     <l>And let the golden sun into your caves.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Servant of Caesar, has thine impious tongue</l>
+     <l>Spent the black venom of thy blasphemy?</l>
+     <l>It has. Then take our curses on thine head,</l>
+     <l>Ev'n his fell curses, who doth reign in Mona</l>
+     <l>Vicegerent of those gods thy pride insults.</l>
+    </sp>
+    <sp who="#aulus_didius">
+     <pb n="82" facs="92"/>
+     <speaker>AULUS DIDIUS.</speaker>
+     <l>Bold priest, I scorn thy curses, and thyself.</l>
+     <l>Soldiers, go search the caves, and free the prisoners.</l>
+     <l>Take heed, you seize Caractacus alive.</l>
+     <l>Arrest yon youth; load him with heaviest irons.</l>
+     <l>He shall to Caesar answer for his crime.</l>
+    </sp>
+    <sp who="#elidurus">
+     <speaker>ELIDURUS.</speaker>
+     <l>I stand prepar'd to triumph in my crime!</l>
+    </sp>
+    <sp who="#aulus_didius">
+     <speaker>AULUS DIDIUS.</speaker>
+     <l>'Tis well, proud boy.—</l>
+     <l>Look to the beauteous maid, <stage>[to the soldiers.</stage>
+     </l>
+     <l>That tranc'd in grief bends o'er yon bleeding corse,</l>
+     <l>Respect her sorrows.</l>
+    </sp>
+    <sp who="#evilina">
+     <speaker>EVELINA.</speaker>
+     <l>Hence, ye barbarous men,</l>
+     <l>Ye shall not take him weltring thus in blood</l>
+     <l>To shew at Rome, what British virtue was.</l>
+     <l>Avaunt! The breathless body that you touch</l>
+     <l>Was once Arviragus!</l>
+    </sp>
+    <sp who="#aulus_didius">
+     <speaker>AULUS DIDIUS.</speaker>
+     <l>Fear us not, princess,</l>
+     <l>We reverence the dead.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Would too to heav'n,</l>
+     <l>Ye reverenc'd the gods but ev'n enough</l>
+     <l>Not to debase with slavery's cruel chain,</l>
+     <l>What they created free.</l>
+    </sp>
+    <sp who="#aulus_didius">
+     <speaker>AULUS DIDIUS.</speaker>
+     <l>The Romans fight</l>
+     <l>Not to enslave, but humanize the world.</l>
+    </sp>
+    <sp who="#chorus">
+     <pb n="83" facs="93"/>
+     <speaker>CHORUS.</speaker>
+     <l>Go too, we will not parley with thee, Roman:</l>
+     <l>Instant pronounce our doom.</l>
+    </sp>
+    <sp who="#aulus_didius">
+     <speaker>AULUS DIDIUS.</speaker>
+     <l>Hear it, and thank us.</l>
+     <l>This once our clemency shall spare your groves,</l>
+     <l>If at our call ye yield the British king:</l>
+     <l>Yet learn, when next ye aid the foes of Caesar,</l>
+     <l>That each old oak, whose solemn gloom ye boast,</l>
+     <l>Shall bow beneath our axes.</l>
+    </sp>
+    <sp who="#chorus">
+     <speaker>CHORUS.</speaker>
+     <l>Be they blasted,</l>
+     <l>Whene'er their shade forgets to shelter virtue.</l>
+    </sp>
+    <stage>
+     <hi>Enter</hi> BARD.</stage>
+    <sp>
+     <l>Mourn, Mona, mourn. Caractacus is captive!</l>
+     <l>And dost thou smile, false Roman? do not think</l>
+     <l>He fell an easy prey. Know, ere he yielded,</l>
+     <l>Thy bravest veterans bled. He too, thy spy,</l>
+     <l>The base Brigantian prince, hath seal'd his fraud</l>
+     <l>With death. Bursting thro' armed ranks, that hemm'd</l>
+     <l>The caitiff round, the brave Caractacus</l>
+     <l>Seiz'd his false throat; and as he gave him death</l>
+     <l>Indignant thunder'd, 'Thus is my last stroke</l>
+     <l>'The stroke of justice.' Numbers then opprest him:</l>
+     <l>I saw the slave, that cowardly behind</l>
+     <l>Pinion'd his arms; I saw the sacred sword</l>
+     <l>Writh'd from his grasp; I saw, what now ye see,</l>
+     <l>Inglorious sight! those barbarous bonds upon him.</l>
+    </sp>
+    <stage>
+     <pb n="84" facs="94"/>CARACTACUS, AULUS DIDIUS, CHORUS, &amp;c.</stage>
+    <sp>
+     <l>Romans, methink the malice of your tyrant</l>
+     <l>Might furnish heavier chains. Old as I am</l>
+     <l>And wither'd as ye see these war-worn limbs,</l>
+     <l>Trust me, they shall support the weightiest load</l>
+     <l>Injustice dares impose.</l>
+     <l>Proud-crested soldier! <stage>[to Didius.</stage>
+     </l>
+     <l>Who seemst the master-mover in this business,</l>
+     <l>Say, dost thou read less terror on my brow,</l>
+     <l>Than when thou met'st me in the fields of war</l>
+     <l>Heading my nations? No, my free-born soul</l>
+     <l>Has scorn still left to sparkle thro' these eyes,</l>
+     <l>And frown defiance on thee.</l>
+     <l>Is it thus! <stage>[seeing his Son's body.</stage>
+     </l>
+     <l>Then I'm indeed a captive. Mighty gods!</l>
+     <l>My soul, my soul submits: Patient it bears</l>
+     <l>The pondrous load of grief ye heap upon it.</l>
+     <l>Yes, it will grovel in this shatter'd breast,</l>
+     <l>And be the sad tame thing, it ought to be</l>
+     <l>Coopt in a servile body.</l>
+    </sp>
+    <sp who="#aulus_didius">
+     <speaker>AULUS DIDIUS.</speaker>
+     <l>Droop not, king.</l>
+     <l>When Claudius, the great master of the world.</l>
+     <l>Shall hear the noble story of thy valour,</l>
+     <l>His pity—</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>Can a Roman pity, soldier?</l>
+     <l>And if he can, gods! must a Briton bear it?</l>
+     <l>
+      <pb n="85" facs="95"/>
+Arviragus, my bold, my breathless boy,</l>
+     <l>Thou hast escap'd such pity: thou art free.</l>
+     <l>Here in high Mona shall thy noble limbs</l>
+     <l>Rest in a noble grave; posterity</l>
+     <l>Shall to thy tomb with annual reverence bring</l>
+     <l>Sepulchral stones, and pile them to the clouds:</l>
+     <l>Whilst mine—</l>
+    </sp>
+    <sp who="#aulus_didius">
+     <speaker>AULUS DIDIUS.</speaker>
+     <l>The morn doth hasten our departure.</l>
+     <l>Prepare thee, king, to go: A fav'ring gale</l>
+     <l>Now swells our sails.</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>Inhuman, that thou art!</l>
+     <l>Dost thou deny a moment for a father</l>
+     <l>To shed a few warm tears o'er his dead son?</l>
+     <l>I tell thee, chief, this act might claim a life</l>
+     <l>To do it duly; even a longer life,</l>
+     <l>Than sorrow ever suffer'd. Cruel man!</l>
+     <l>And thou deniest me moments. Be it so.</l>
+     <l>I know you Romans weep not for your children;</l>
+     <l>You triumph o'er your tears, and think it valour:</l>
+     <l>I triumph in my tears. Yes, best-lov'd boy,</l>
+     <l>Yes, I can weep, can fall upon thy corse,</l>
+     <l>And I can tear my hairs, these few grey hairs,</l>
+     <l>The only honours war and age have left me.</l>
+     <l>Ah son! thou mightst have rul'd o'er many nations,</l>
+     <l>As did thy royal ancestry: But I,</l>
+     <l>Rash that I was, ne'er knew the golden curb,</l>
+     <l>Discretion hangs on brav'ry: Else perchance</l>
+     <l>These men, that fasten fetters on thy father,</l>
+     <l>Had sued to him for peace, and claim'd his friendship.</l>
+    </sp>
+    <sp who="#aulus_didius">
+     <pb n="86" facs="96"/>
+     <speaker>AULUS DIDIUS.</speaker>
+     <l>But thou wast still implacable to Rome,</l>
+     <l>And scorn'd her friendship.</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS</speaker>
+     <stage>starting up from the body.</stage>
+     <l>Soldier, I had arms,</l>
+     <l>Had neighing steeds to whirl my iron cars,</l>
+     <l>Had wealth, dominion. Dost thou wonder, Roman,</l>
+     <l>I fought to save them? What if Caesar aims</l>
+     <l>To lord it universal o'er the world,</l>
+     <l>Shall the world tamely crouch at Caesar's footstool?</l>
+    </sp>
+    <sp who="#aulus_didius">
+     <speaker>AULUS DIDIUS.</speaker>
+     <l>Read in thy fate our answer. Yet if sooner</l>
+     <l>Thy pride had yielded—</l>
+    </sp>
+    <sp who="#caractacus">
+     <speaker>CARACTACUS.</speaker>
+     <l>Thank thy gods, I did not.</l>
+     <l>Had it been so, the glory of thy master,</l>
+     <l>Like my misfortunes, had been short and trivial,</l>
+     <l>Oblivion's ready prey: Now after struggling</l>
+     <l>Nine years, and that right bravely 'gainst a tyrant,</l>
+     <l>I am his slave to treat as seems him good;</l>
+     <l>If cruelly, 'twill be an easy task</l>
+     <l>To bow a wretch, alas! how bow'd already!</l>
+     <l>Down to the dust: If well, his clemency,</l>
+     <l>When trick'd and varnish'd by your glossing penmen,</l>
+     <l>Will shine in honour's annals, and adorn</l>
+     <l>Himself; it boots not me. Look there, look there,</l>
+     <l>The slave, that shot that dart, left not a hope</l>
+     <l>For lost Caractacus! Arise, my daughter.</l>
+     <l>Alas! poor prince; art thou too in vile fetters? <stage>[to Elidurus.</stage>
+     </l>
+     <l>
+      <pb n="87" facs="97"/>
+Come hither, youth: Be thou to me a son,</l>
+     <l>To her a brother. Thus with trembling arms</l>
+     <l>I lead ye forth; children, we go to Rome.</l>
+     <l>Weepst thou, my girl? I prithee hoard thy tears</l>
+     <l>For the sad meeting of thy captive mother:</l>
+     <l>For we have much to tell her, much to say</l>
+     <l>Of these good men, who nurtur'd us in Mona;</l>
+     <l>Much of the fraud and malice, that pursued us;</l>
+     <l>Much of her son, who pour'd his precious blood</l>
+     <l>To save his sire and sister: Thinkst thou, maid,</l>
+     <l>Her gentleness can hear the tale, and live?</l>
+     <l>And yet she must. O gods, I grow a talker!</l>
+     <l>Grief and old age are ever full of words:</l>
+     <l>But I'll be mute. Adieu! ye holy men;</l>
+     <l>Yet one look more—Now lead us hence for ever.</l>
+    </sp>
+    <trailer>THE END.</trailer>
+   </div>
+  </body>
+  <back>
+   <div type="commentary">
+    <pb n="89" facs="98"/>
+    <head>ILLUSTRATIONS.</head>
+    <p>THE few following quotations, from ancient authors, are here thrown together, in order to support and explain some passages in the Drama, that respect the manners of the Druids; and which, the general account of their customs, to be found in our histories of Britain, does not include.</p>
+    <div type="note">
+     <head>Page 2. ℣. 15.</head>
+     <l>On the left.</l>
+     <l>Beside the *sages skill'd in nature's lore:</l>
+     <p>*<hi>i.e.</hi> The Euvates; one of the three classes of the Druids, according to Am. Marcellinus. Studia liberalium doctrinarum inchoata per Bardos, Euvates, &amp; Druidas. This class, Strabo tells us, had the care of the sacrifices, and studied natural philosophy; which here, by <hi>the changeful universe,</hi> is shewn to be on Pythagorean principles. Whenever the <hi>Priests</hi> are mentioned in the subsequent parts of the Drama, this order of men is intended to be meant, as distinguished from the Druids and Bards.</p>
+    </div>
+    <div type="note">
+     <head>Page 7. ℣. 7.</head>
+     <l>Thou shalt live;</l>
+     <l>Yet shalt thou live an interdicted wretch,</l>
+     <l>All rights of nature cancell'd.</l>
+     <p>Alluding to the Druidical power of excommunication, mentioned by Caesar. Si quis aut privatus, aut publicus, eorum decreto non stetit, sacrificiis interdicunt. Haec poena apud eos est gravissirra.
+<pb n="90" facs="99"/>
+Quibus ita est interdictum, ii numero impiorum ac sceleratorum habentur—neque iis petentibus jus redditur, neque honos ullus communicatur. C. Comment. Lib. vi.</p>
+    </div>
+    <div type="note">
+     <head>P. 10. ℣. 2.</head>
+     <l>Are the milk-white steers prepar'd?</l>
+     <p>In the minute description which Pliny gives us of the ceremony of gathering the misletoe, he tells us, they sacrificed two white bulls. See Pliny's Natural History, L. 16. c. 44. which Drayton, in his Polyolbion, thus versifies.<l>Sometimes within my shades, in many an ancient wood,</l>
+      <l>Whose often-twined tops great Phoebus' fires withstood,</l>
+      <l>The fearless British priests, under an aged oak,</l>
+      <l>Taking a milk-white bull, unstrained with the yoke,</l>
+      <l>And with an ax of gold, from that Jove-sacred tree</l>
+      <l>The misletoe cut down; then with a bended knee</l>
+      <l>On th' unhew'd altar laid, put to the hallow'd fires;</l>
+      <l>And whilst in the sharp flame the trembling flesh expires,</l>
+      <l>As their strong fury mov'd (when all the rest adore)</l>
+      <l>Pronouncing their desires the sacrifice before,</l>
+      <l>Up to th' eternal heav'n their bloodied hands did rear:</l>
+      <l>And whilst the murm'ring woods ev'n shudder'd as with fear,</l>
+      <l>Preach'd to the beardless youth the soul's immortal state;</l>
+      <l>To other bodies still how it should transmigrate,</l>
+      <l>That to contempt of death them strongly did excite.</l>
+      <bibl>Ninth Song.</bibl>
+     </p>
+    </div>
+    <div type="note">
+     <head>Page 10. ℣. 19.</head>
+     <l>Where our matron sister dwells.</l>
+     <p>The existence of female Druids seems ascertained by Taeitus, in his description of the final destruction of Mona by Paulinus Suetonius. Stabat pro litore diversa acies densa armis virisque <hi>intercursantibus</hi>
+      <pb n="91" facs="100"/>
+      <hi>faeminis,</hi> &amp;c. Also by the known story of Dioclesian, on which Fletcher formed a play, called the Prophetess.</p>
+    </div>
+    <div type="note">
+     <head>Page 10. ℣. 21.</head>
+     <l>And the potent adder-stone.</l>
+     <p>The ovum anguinum, or serpent's egg; a famous Druidical amulet, thus circumstantially described by Pliny.—Praeterea est ovorum genus in magna Galliarum fama, omissum Graecis. Angues innumeri aestate convoluti, salivis faucium corporumque spumis artifici complexu glomerantur; anguinum appellatur. Druidae sibilis id dicunt in sublime jactari, sagoque oportere intercipi, ne tellurem attingat. Profugere raptorem equo, serpentes enim insequi, donec arceantur amnis alicujus interventu, &amp;c. Nat. Hist. Lib. xxix. c. 3.</p>
+     <p>There are remains of this superstition still, both in the north and west parts of our island. For Lhwyd, the author of the Archeologia, writes thus to Rowland; see Mona Antiqua, p. 338. "The Druid doctrine about the <hi>Glain Neidr,</hi> obtains very much thro' all Scotland, as well lowlands as highlands; but there is not a word of it in this kingdom (Ireland); where, as there are no snakes, they could not propagate it. Besides snake-stones, the highlanders have their snail-stones, paddock-stones, &amp;c. to all which they attribute their several virtues, and wear them as amulets." And in another letter he writes, "The Cornish retain variety of charms, and have still, towards the land's-end, the amulet of Maen Magal, and Glain Neidr, which latter they call a Milpreu, or Melpreu, and have a charm for the snake to make it, when they have found one asleep, and struck a hazel wand in the centre of her spires."</p>
+    </div>
+    <div type="note">
+     <head>Page 25. ℣. 5.</head>
+     <l>Have the milk white steeds</l>
+     <l>Unrein'd, and, neighing, pranc'd with fav'ring steps.</l>
+     <p>
+      <pb n="92" facs="101"/>
+The few and imperfect accounts antiquity gives us of ceremonies, &amp;c. which are unquestionably Druidical, makes it necessary in this, and in other places of the Drama, to have recourse to Tacitus's account of the Germans, amongst whom, if there were really no established Druids, there was certainly a great correspondency, in religious opinions, with the Gauls and Britons. The passage here alluded to is taken from his 10th chapter. Proprium gentis, equorumque quoque praesagia ac monitus experiri. Publice aluntur iisdem nemoribus ac lucis, candidi &amp; nullo mortali opere contacti, quos pressos sacro curru, sacerdos ac rex, vel princeps civitatis comitantur, hinnitus &amp; fremitus observant, nec ulli auspicio major sides non solum apud plebem, sed apud proceres, apud sacerdotes.</p>
+    </div>
+    <div type="note">
+     <head>Page 26. ℣. 2.</head>
+     <l>Thou art a king, a sov'reign o'er frail man:</l>
+     <l>I am a Druid, servant of the gods.</l>
+     <l>Such service is above such sovereignty.</l>
+     <p>The supreme authority of the Druids over their kings, is thus ascertained by Dion. Chrysostom. <gap resp="oxf" extent="1 span" reason="foreign"/>. Helmodus also de Slavis, l. ii. c. 12. asserts, Rex apud eos modicae est aestimationis in comparatione flaminis.</p>
+    </div>
+    <div type="note">
+     <head>Page 26. ℣. 17.</head>
+     <l>The time shall come, when destiny and death,</l>
+     <l>Thron'd in a burning car.</l>
+     <p>Strabo, and other writers, tell us, the Druids taught, that the world was finally to be destroyed by fire; upon which this allegory is founded.</p>
+    </div>
+    <div type="note">
+     <pb n="93" facs="102"/>
+     <head>Page 34. ℣. 1.</head>
+     <l>The gods, my brethren,</l>
+     <l>Have wak'd these doubts in the untained breast</l>
+     <l>Of this mild maiden.</l>
+     <p>Inesse enim sanctum quid &amp; providum foeminis putant. Nec aut consilia ipsorum aspernantur, aut responsa negant. Tac. de morib. Germ. and Strabo to the like purpose, l. vii. <gap resp="oxf" extent="1 span" reason="foreign"/>.</p>
+    </div>
+    <div type="note">
+     <head>Page 38. ℣. 13.</head>
+     <l>Behold yon huge</l>
+     <l>And unhewn sphere of living adamant.</l>
+     <p>This is meant to describe the rocking-stone, of which there are several still to be seen in Wales, Cornwall, and Derbyshire. They are universally thought, by antiquarians, to be Druid monuments; and Mr. Toland thinks, "that the Druids made the people believe that they only could move them, and that by a miracle, by which they condemned or acquitted the accused, and often brought criminals to confess what could in no other way be extorted from them." 'Twas this conjecture which gave the hint for this piece of machinery. The reader may find a description of one of these rocking-stones in Camden's Britannia, in his account of Pembrokeshire; and also several in Borlase's history of Cornwall.</p>
+    </div>
+    <div type="note">
+     <head>Page 63. ℣. 19.</head>
+     <l>—And its name</l>
+     <l>TRIFINGUS.</l>
+     <p>The name of the inchanted sword in the Hervarer Saga.</p>
+    </div>
+    <div type="note">
+     <head>Page 63. ℣. 25.</head>
+     <l>By the bright circle of the golden sun.</l>
+     <p>
+      <pb n="94" facs="103"/>
+This adjuration is taken from the literal form of the old Druidical oath, which they administered to their disciples; and which the learned Selden, in Prolog. de Diis Syr. gives us from Vettius Valens Antiochenus, l. vii. It is as follows: <gap resp="oxf" extent="1 span" reason="foreign"/>, &amp;c.</p>
+    </div>
+    <div type="note">
+     <head>Page 71. ℣. 20.</head>
+     <l>Near each a white-rob'd Druid, whose stern voice</l>
+     <l>Thunder'd deep execrations on the foe.</l>
+     <p>This account is taken from what history tells us did really happen some years after, when the groves of Mona were destroyed by Suetonius Paulinus. Igitur Monam insulam incolis validam, &amp; receptaculum perfugarum aggredi parat, navesque fabricatur plano alveo, adversus breve litus &amp; incertum. Sic Pedes; equites vado secuti, aut altiores inter undas, adnantes equis transmisere. Stabat pro litore diversa acies densa armis virisque, intercursantibus foeminis: in modum Furiarum, veste ferali crinibus dejectis <hi>faces</hi> praeferebant. Druidae circum, preces diras sublatis ad coelum manibus fundentes, novitate aspectus perculere milites ut quasi haerentibus membris, immobile corpus vulneribus praeberent. Dein cohortationibus ducis, &amp; se ipsi stimulantes ne muliebre &amp; fanaticum agmen pavescerent, inferunt signa, sternuntque obvios &amp; igni suo involvunt. Tac. Ann. l. xiv. c. 29.</p>
+    </div>
+    <div type="note">
+     <head>Page 81. ℣. 19.</head>
+     <l>These shapeless symbols of your barbarous gods.</l>
+     <p>The Druids did not really worship the divinity under any symbol. But this is put intentionally into the mouth of the Roman, as
+<pb n="95" facs="104"/>
+mistaking the rude stones placed round the grove, for idols. Thus Lucan in his beautiful description of a Druid grove,<l>—simulacraque moesta deorum</l>
+      <l>Arte carent caesisque extant informia truncis.</l>
+      <bibl>Phar. Lib. iii.</bibl>
+     </p>
+     <p>Some imagery from the same description is also borrowed in the opening of the Drama.</p>
+    </div>
+    <div type="note">
+     <head>Page 86. ℣. 3.</head>
+     <l>—Soldier I had arms.</l>
+     <p>This passage, and some others in this scene, are taken from Caractacus's famous speech in Tacitus, before the throne of Claudius; but here adapted to his dramatic character.</p>
+    </div>
+   </div>
+  </back>
+ </text>
+</TEI>

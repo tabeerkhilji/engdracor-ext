@@ -1,0 +1,3806 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">Percy</title>
+    <title type="sub">a tragedy. As it is acted at the Theatre-Royal in Covent-Garden.</title>
+    <author>
+     <persName>
+      <surname>More</surname>
+      <forename>Hannah</forename>
+      <idno type="VIAF">51802053</idno>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>Percy: a tragedy. As it is acted at the Theatre-Royal in Covent-Garden.</name>
+     <author>More, Hannah, 1745-1833.</author>
+     <publisher>printed for T. Cadell,</publisher>
+     <date>1778.</date>
+     <pubPlace>London :</pubPlace>
+     <note>Anonymous. By Hannah More.</note>
+     <note>With an errata slip inserted.</note>
+     <note>Reproduction of original from the British Library.</note>
+     <note>English Short Title Catalog, ESTCT13245.</note>
+     <note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note>
+    </bibl>
+    <biblFull n="printed source">
+     <publicationStmt>
+      <authority ref="#JJ">Jan Jokisch</authority>
+      <date>2024 December</date>
+      <idno type="ECCO_Drama">K026709.000</idno>
+      <idno type="DLPS">004791428</idno>
+      <idno type="ESTC">T13245</idno>
+      <idno type="DocNo">CW110149301</idno>
+      <idno type="TCP">K026709.000</idno>
+      <idno type="GaleDocNo">CW3310149301</idno>
+      <idno type="ContentSet">ECLL</idno>
+      <idno type="ImageSetID">0058701900</idno>
+      <availability>
+       <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+      </availability>
+     </publicationStmt>
+    </biblFull>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    <person xml:id="percy"><persName>Percy</persName><sex value="MALE"/></person><person xml:id="earl_douglas"><persName>Earl Douglas</persName><sex value="MALE"/></person><person xml:id="earl_raby"><persName>Earl Raby</persName><sex value="MALE"/></person><person xml:id="edric"><persName>Edric</persName><sex value="MALE"/></person><person xml:id="harcourt"><persName>Harcourt</persName><sex value="MALE"/></person><person xml:id="sir_hubert"><persName>Sir Hubert</persName><sex value="MALE"/></person><person xml:id="elwina"><persName>Elwina</persName><sex value="FEMALE"/></person><person xml:id="birtha"><persName>Birtha</persName><sex value="FEMALE"/></person><person xml:id="messenger"><persName>Messenger</persName><sex value="MALE"/></person></listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1778">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text xml:lang="en">
+  <front>
+   <div type="titlepage">
+    <pb facs="1" ana="y"/>
+    <p>PERCY, A TRAGEDY.</p>
+    <p>AS IT IS ACTED AT THE THEATRE-ROYAL IN COVENT-GARDEN.</p>
+    <p>LONDON: PRINTED for T. CADELL, in the Strand. MDCCLXXVIII.</p>
+    <p>[Price One Shiliing and Sixpence.]</p>
+   </div>
+   <div type="dedication">
+    <pb facs="2"/>
+    <p>TO EARL PERCY: This TRAGEDY, AS A SMALL TRIBUTE TO HIS ILLUSTRIOUS CHARACTER, IS VERY RESPECTFULLY INSCRIB'D: By His LORDSHIP'S Most obedient AND Most humble Servant,</p>
+    <closer>
+     <signed>THE AUTHOR.</signed>
+    </closer>
+   </div>
+   <div type="Dramatis_Personae">
+    <pb facs="3" ana="y"/>
+    <p>KNIGHTS, GUARDS, ATTENDANTS, &amp;c.</p>
+    <castList>
+     <head>Dramatis Personae.</head>
+     <castItem>MEN.</castItem>
+     <castItem>
+      <role>PERCY, Earl of Northumberland</role>
+      <actor>Mr.LEWIS</actor>
+     </castItem>
+     <castItem>
+      <role>EARL DOUGLAS</role>
+      <actor>, Mr. WROUGHTON</actor>
+     </castItem>
+     <castItem>
+      <role>EARL RABY, Elwina's Father</role>
+      <actor>Mr. AICKIN</actor>
+     </castItem>
+     <castItem>
+      <role>EDRIC, Friend to Douglas</role>
+      <actor>, Mr. WHITEFIELD</actor>
+     </castItem>
+     <castItem>
+      <role>HARCOURT, Friend to Percy</role>
+      <actor>, Mr. ROBSON</actor>
+     </castItem>
+     <castItem>
+      <role>SIR HUBERT, a Knight</role>
+      <actor>, Mr. HULL</actor>
+     </castItem>
+     <castItem>WOMEN.</castItem>
+     <castItem>
+      <role>ELWINA</role>
+      <actor>, Mrs. BARRY</actor>
+     </castItem>
+     <castItem>
+      <role>BIRTHA</role>
+      <actor>, Mrs. JACKSON</actor>
+     </castItem>
+    </castList>
+   </div>
+   <set>
+    <p>SCENE, <hi>Raby Castle, in Durham.</hi>
+    </p>
+   </set>
+   <div type="prologue">
+    <pb facs="5"/>
+    <head>PROLOGUE.</head>
+    <byline>Written by Mr. GARRICK.</byline>
+    <sp>
+     <stage>Spoken by Mrs. Bulkely.</stage>
+     <l>THO' I'm a <hi>female,</hi> and the rule is ever,</l>
+     <l>For us, in Epilogue, to beg your favour,</l>
+     <l>Yet now I take the lead—and, leaving art</l>
+     <l>And envy to the men—with a warm heart,</l>
+     <l>A <hi>woman</hi> here I come—to take a <hi>woman's part.</hi>
+     </l>
+     <l>No little jealousies my mind perplex,</l>
+     <l>I come, the <hi>friend</hi> and <hi>champion</hi> of my sex;</l>
+     <l>I'll prove, ye fair, that let us have our swing,</l>
+     <l>We can, as well as men, do any thing;</l>
+     <l>Nay, better too, perhaps—for now and then,</l>
+     <l>These times produce some bungling among men,</l>
+     <l>In spite of lordly wits—with force and ease,</l>
+     <l>Can't we write plays, or damn 'em, if we please?</l>
+     <l>The men, who grant not much, allow us charms—</l>
+     <l>Are eyes, shapes, dimples, then, our only arms?</l>
+     <l>To rule this man our sex dame Nature teaches;</l>
+     <l>Mount the high horse we can, and make long speeches;</l>
+     <l>Nay, and with dignity, some wear the breeches;</l>
+     <l>And why not wear' em?—We shall have your votes,</l>
+     <l>While some of t' other sex wear petticoats.</l>
+     <l>Did not a <hi>Lady Knight,</hi> late <hi>Chevalier,</hi>
+     </l>
+     <l>A brave, smart soldier to your eyes appear?</l>
+     <l>Hey'presto! pass! his <hi>sword</hi> becomes a <hi>fan,</hi>
+     </l>
+     <l>A comely <hi>woman</hi> rising from the <hi>man.</hi>
+     </l>
+     <l>
+      <pb facs="6"/>The French their Amazonian maid invite—</l>
+     <l>She goes—a like well skill'd to talk or Write,</l>
+     <l>Dance, ride, negociate, scold, coqet, or fight.</l>
+     <l>If she should set her heart upon a rover,</l>
+     <l>And be prove false, she'd kick her faithless lover.</l>
+     <l>The <hi>Greeks</hi> and <hi>Romans</hi> own our boundless claim—</l>
+     <l>The Muses, Graces, Virtues, Fortune, Fame.</l>
+     <l>wisdom and Nature too, they <hi>women</hi> call;</l>
+     <l>With this sweet <hi>flatt'ry</hi>—yet they mix some gall—</l>
+     <l>'Twill out—the <hi>Furies</hi> too are <hi>females</hi> all.</l>
+     <l>The pow'rs of Riches, Physic, War, and Wine,</l>
+     <l>Sleep, Death, and Devils too—are <hi>masculine.</hi>
+     </l>
+     <l>
+      <hi>Are we unfit to rule?—a poor suggestion!</hi>
+     </l>
+     <l>
+      <hi>Austria</hi> and <hi>Russia</hi> answer well that question.</l>
+     <l>If joy from sense and matchless grace arise,</l>
+     <l>With your own treasure, <hi>Britons,</hi> bless your eyes.</l>
+     <l>If such there are—sure, in an humbler way,</l>
+     <l>The sex, without much guilt, may write a play:</l>
+     <l>That they've done nobler things, there's no denial;</l>
+     <l>With all your judgment, then, prepare for trial—</l>
+     <l>Summon your critic pow'rs, your manhood 'summon,</l>
+     <l>A brave man will <hi>protect,</hi> not <hi>hurt</hi> a <hi>woman;</hi>
+     </l>
+     <l>Let us wish modestly to share with men,</l>
+     <l>If not the <hi>force,</hi> the <hi>feather</hi> of the <hi>pen.</hi>
+     </l>
+    </sp>
+   </div>
+   <div type="epilogue">
+    <pb facs="7"/>
+    <head>EPILOGUE.</head>
+    <byline>Written by Mr. GARRICK.</byline>
+    <sp>
+     <stage>Spoken by Mr. Lee Lewes.</stage>
+     <l>I Must, will speak—I hope my dress and air</l>
+     <l>Announce the man of fashion, and no player;</l>
+     <l>Tho' gentlemen are now forbid the scenes,</l>
+     <l>Yet have I rush'd thro' heroes, kings, and queens;</l>
+     <l>Resolv'd, in pity to this polish'd age,</l>
+     <l>To drive these ballad-heroes from the stage—</l>
+     <l>"To drive the deer with hound and horn,</l>
+     <l>"Earl Percy took his way;</l>
+     <l>"The child may rue, that is unborn,</l>
+     <l>"The hunting of that day."</l>
+     <l>A pretty basis, truly, for a modern play!</l>
+     <l>What! shall a scribbling, senseless woman dare</l>
+     <l>To your refinements offer such <hi>coarse</hi> fare?</l>
+     <l>Is Douglas, or is Percy fir'd wtth passion?</l>
+     <l>Ready for love or glory, death to dash on,</l>
+     <l>Fit company for modern still-life men of fashion?</l>
+     <l>Such madness will our hearts but slightly graze,</l>
+     <l>We've no such frantic nobles now a-days.</l>
+     <l>Heart-strings, like fiddlestrings, vibrate no tone,</l>
+     <l>Unless they're tun'd in perfect unison;</l>
+     <l>And youths of yore, with ours can ne'er agree—</l>
+     <l>They're in too <hi>sharp,</hi> ours in too <hi>flat</hi> a key.</l>
+     <l>Could we believe old stories, those strange fellows</l>
+     <l>Married for <hi>love</hi>—could of their wives be jealous—</l>
+     <l>
+      <pb facs="8"/>Nay, constant to 'em too—and, what is worse,</l>
+     <l>The vulgar souls thought cuckoldom a curse.</l>
+     <l>Most wedded pairs had then site purse, one mind,</l>
+     <l>One bed too—so preposterously kind—</l>
+     <l>From such barbarity (thank heav'n) we're mu'ch refin'd.</l>
+     <l>Old songs their happiness at home record,</l>
+     <l>From <hi>home they sep'rate carriages abhorr'd—</hi>
+     </l>
+     <l>One horse serv'd both—my lady rode behind my lord.</l>
+     <l>'Twas death alone could snap their bonds asunder—</l>
+     <l>Now tack'd so slightly, not to snap's the wonder.</l>
+     <l>Nay, death itself could not their hearts divide,</l>
+     <l>They mix'd their love with monumental pride,</l>
+     <l>For, cut in stone, they still lie side by side,</l>
+     <l>But why these gothic ancestors produce?</l>
+     <l>Why scour their rusty armour's? What's the use?</l>
+     <l>'Twould not your nicer optics much regale,</l>
+     <l>To see us beaux bend under coats of mail;</l>
+     <l>Should we our limbs with iron doublets bruise,</l>
+     <l>Good heav'n! how much court-plaister we should use;</l>
+     <l>We wear no armour now—but en our shoes.</l>
+     <l>Let not with barbarism true taste be blended,</l>
+     <l>Old vulgar virtues cannot be defended,</l>
+     <l>Let the dead rest—we living can't be mended.</l>
+    </sp>
+   </div>
+   <div type="note">
+    <head>ADVERTISEMENT.</head>
+    <p>The French Drama, founded on the famous old Story of Raoul de Coucy, suggested to the Author fome Circumstances in the former Part of this Tragedy.</p>
+   </div>
+  </front>
+  <body>
+   <div type="play">
+    <pb facs="9"/>
+    <head>PERCY, A TRAGEDY.</head>
+    <div n="1" type="act">
+     <head>ACT I.</head>
+     <div type="scene">
+      <head>SCENE, <stage>
+        <hi>A Gothic Hall.</hi>
+       </stage>
+      </head>
+      <stage>
+       <hi>Enter</hi> EDRIC <hi>and</hi> BIRTHA.</stage>
+      <sp who="#birtha">
+       <speaker>BIRTHA.</speaker>
+       <l>What may this mean? Earl Douglas has injoin'd thee</l>
+       <l>To meet him here in private?</l>
+      </sp>
+      <sp who="#edric">
+       <speaker>EDRIC.</speaker>
+       <l>Yes, my sister,</l>
+       <l>And this injunction I have oft receiv'd;</l>
+       <l>But when he comes, big with some painful secret,</l>
+       <l>He starts, looks wild, then drops ambiguous hints,</l>
+       <l>Frowns, hesitates, turns pale; and says' twas nothing;</l>
+       <l>Then feigns to smile, and by his anxious care.</l>
+       <l>To prove himself at ease, betrays his pain</l>
+      </sp>
+      <sp who="#birtha">
+       <pb n="2" facs="10"/>
+       <speaker>BIRTHA.</speaker>
+       <l>Since my short sojourn here, I've mark'd this Earl,</l>
+       <l>And tho' the ties of blood unite us closely,</l>
+       <l>I shudder at his haughtiness of temper,</l>
+       <l>Which not his gentle wife, the bright Elwina,</l>
+       <l>Can charm to rest. Ill are their spirits pair'd,</l>
+       <l>His is the seat of frenzy, her's of softness,</l>
+       <l>His love is transport, her's, is trembling duty,</l>
+       <l>Rage in his soul is as the whirlwind fierce,</l>
+       <l>While her's ne'er felt the pow'r of that rude passion,</l>
+      </sp>
+      <sp who="#edric">
+       <speaker>EDRIC.</speaker>
+       <l>Perhaps the mighty soul of Douglas mourns,</l>
+       <l>Because inglorious love detains him here,</l>
+       <l>While our bold knights, beneath the Christian standard,</l>
+       <l>Press to the bulwarks of Jerusalem,</l>
+      </sp>
+      <sp who="#birtha">
+       <speaker>BIRTHA.</speaker>
+       <l>Tho' every various charm adorns Elwina,</l>
+       <l>And tho' the noble Douglas doats to madness,</l>
+       <l>Yet some dark mystery involves their fate:</l>
+       <l>The canker grief devours Elwina's bloom,</l>
+       <l>And on her brow meek resignation sits,</l>
+       <l>Hopeless, yet uncomplaining.</l>
+      </sp>
+      <sp who="#edric">
+       <speaker>EDRIC.</speaker>
+       <l>'Tis most strange.</l>
+      </sp>
+      <sp who="#birtha">
+       <speaker>BIRTHA.</speaker>
+       <l>Once, not long since, she thought herself alone;</l>
+       <l>Twas then the pent-up anguish burst its bounds;</l>
+       <l>With broken voice, clasp'd hands, and streaming eyes,</l>
+       <l>She call'd upon her father, call'd him cruel,</l>
+       <l>And said her duty claim'd far other recompence.</l>
+      </sp>
+      <sp who="#edric">
+       <pb n="3" facs="11"/>
+       <speaker>EDRIC</speaker>
+       <l>Perhaps the absence of the good Lord Raby,</l>
+       <l>Who, at her nuptials, quitted this fair castle,</l>
+       <l>Resigning it to her, may thus afflict her.</l>
+       <l>Hast thou e'er, question'd her, good Birtha?</l>
+      </sp>
+      <sp who="#birtha">
+       <speaker>BIRTHA.</speaker>
+       <l>Often;</l>
+       <l>But hitherto in vain, and yet she shews me</l>
+       <l>Th'endearing kindness of a sister's love;</l>
+       <l>But if I speak of Douglas—</l>
+      </sp>
+      <sp who="#edric">
+       <speaker>EDRIC.</speaker>
+       <l>See! he comes.</l>
+       <l>It wou'd offend him shou'd he find you here.</l>
+       <stage>
+        <hi>Enter</hi> Douglas.</stage>
+       <l>How! Edric and his sister in close conference?</l>
+       <l>Do they not seem alarm'd at my approach?</l>
+       <l>And see, how suddenly they part! Now, Edric,</l>
+       <stage>Exit Birtha.</stage>
+       <l>Was this well done? or was it like a friend,</l>
+       <l>When I desir'd to meet thee here alone,</l>
+       <l>With all the warmth of trusting confidence,</l>
+       <l>To lay my bosom naked to thy view,</l>
+       <l>And shew thee all its weakness, was it well</l>
+       <l>To call thy sister here, to let her witness</l>
+       <l>Thy friend's infirmity?—perhaps to tell her—</l>
+      </sp>
+      <sp who="#edric">
+       <speaker>EDRIC.</speaker>
+       <l>My lord, I nothing know; I came to learn.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Nay then thou dost suspect there's something wrong!</l>
+      </sp>
+      <sp who="#edric">
+       <pb n="4" facs="12"/>
+       <speaker>EDRIC.</speaker>
+       <l>If we were bred from infancy, together,</l>
+       <l>If I partook in all thy youthful griefs,</l>
+       <l>And every joy thou knew'st was doubly mine;</l>
+       <l>Then tell me all the secret of thy soul:</l>
+       <l>"Or have these few short months of separation,</l>
+       <l>"The only absence we have ever known,</l>
+       <l>"Have these so rent the bands of love asunder,</l>
+       <l>"That Douglas should distrust his Edric's truth?"</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>My friend, I know thee faithful as thou'rt brave,</l>
+       <l>And I will trust shee—but not now, good Edric,</l>
+       <l>'Tis past, 'tis gone, it is not worth the telling,</l>
+       <l>'Twas wrong to cherish what disturb'd my peace;</l>
+       <l>I'll think of it no more.</l>
+      </sp>
+      <sp who="#edric">
+       <speaker>EDRIC.</speaker>
+       <l>Transporting news!</l>
+       <l>I fear'd some hidden trouble vex'd your quiet.</l>
+       <l>In secret I have watch'd—</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Ha! watch'd in secret?</l>
+       <l>A spy? employ'd, perhaps, to note my actions?</l>
+       <l>What have I said? Forgive me, thou art noble:</l>
+       <l>yet do not press me to disclose my grief,</l>
+       <l>For when thou know'st it, I perhaps shall hate thee</l>
+       <l>As much, my Edric, as I hate, myself</l>
+       <l>For my suspicions, I am ill at ease.</l>
+      </sp>
+      <sp who="#edric">
+       <speaker>EDRIC.</speaker>
+       <l>How will the fair Elwina grieve to hear it!</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <pb n="5" facs="13"/>
+       <speaker>DOUGLAS.</speaker>
+       <l>Hold, Edric, hold—thou hast touch'd the fatal string</l>
+       <l>That wakes me into madness. Hear me then,</l>
+       <l>But let the deadly secret be secur'd</l>
+       <l>With bars of adamant in thy close breast.</l>
+       <l>Think of the curse which waits on broken oaths;</l>
+       <l>A knight is bound by more than vulgar ties,</l>
+       <l>And perjury in thee were doubly damn'd,</l>
+       <l>Well then, the king of England—</l>
+      </sp>
+      <sp who="#edric">
+       <speaker>EDRIC.</speaker>
+       <l>Is expected</l>
+       <l>From distant Palestine.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Forbid it, heaven,</l>
+       <l>For with him comes—</l>
+      </sp>
+      <sp who="#edric">
+       <speaker>EDRIC.</speaker>
+       <l>Ah! who?</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Peace, peace,</l>
+       <l>For see Elwina's here. Retire, my Edric;</l>
+       <l>When next we meet thou shalt know all. Farewel.</l>
+       <stage>Exit Edric.</stage>
+       <l>Now to conceal with care my bosom's anguish,</l>
+       <l>And let her beauty chase away my sorrows!</l>
+       <l>Yes, I wou'd meet her with a face of smiles—</l>
+       <l>But 'twill not be.</l>
+      </sp>
+      <stage>
+       <pb n="6" facs="14"/>
+       <hi>Enter</hi> ELWINA.</stage>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Alas, 'tis ever thus!</l>
+       <l>Thus ever clouded is his angry brow. <stage>(aside.</stage>
+       </l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>I were too blest, Elwina, cou'd I hope</l>
+       <l>You met me here by choice, or that your bosom</l>
+       <l>Shar'd the warm transports mine must ever feel.</l>
+       <l>At your approach.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>My lord, if I intrude,</l>
+       <l>The cause which brings me claims at least forgiveness:</l>
+       <l>I sear you are not well, and come, unbidden,</l>
+       <l>Except by faithful duty, to enquire,</l>
+       <l>If haply in my power, my little power,</l>
+       <l>I have the means to minister relief</l>
+       <l>To your affliction?</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>What unwonted goodness!</l>
+       <l>O I were blest above the lot of man,</l>
+       <l>if tenderness, not duty, brought Elwina;</l>
+       <l>Cold, ceremonious, and unfeeling duty,</l>
+       <l>That wretched substitute for love: But know,</l>
+       <l>The heart demands a heart; nor will be paid</l>
+       <l>With less than what it gives. E'en now, Elwina,</l>
+       <l>The glistening tear stands trembling in your eyes,</l>
+       <l>Which casttheir mournful sweetnesson the ground,</l>
+       <l>As if they fear'd to raise their beams to mine,</l>
+       <l>And read the language of reproachful love.</l>
+      </sp>
+      <sp who="#elwina">
+       <pb n="7" facs="15"/>
+       <speaker>ELWINA.</speaker>
+       <l>My lord, I hop'd the thousand daily proofs</l>
+       <l>Of my obedience—</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Death to all my hopes!</l>
+       <l>Heart rending word! obedience? what's obedience?</l>
+       <l>'Tis fear, 'tis hate, 'tis terror, 'tis aversion,</l>
+       <l>'Tis the cold debt of ostentatious duty,</l>
+       <l>Paid with insulting caution, to remind me</l>
+       <l>How much you tremble to offend a tyrant</l>
+       <l>So terrible as Douglas.—"O Elwina—</l>
+       <l>"While duty measures the regard it owes,</l>
+       <l>"With scrupulous precision, and nice justice,</l>
+       <l>"Love never reasons, but profusely gives,</l>
+       <l>"Gives like a thoughtless prodigal its all,</l>
+       <l>"And trembles then, left it has done too little."</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>ELWIHA.</speaker>
+       <l>Indeed I'm most unhappy that my cares,</l>
+       <l>And my solicitude to please, offend.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>True tenderness is less solicitous,</l>
+       <l>Less prudent and more fond; th'enamour'd heart</l>
+       <l>Conscious it loves; and blest in being lov'd,</l>
+       <l>Reposes on the object it adores,</l>
+       <l>And trusts the passion it inspires and feels,—</l>
+       <l>Thou hast not learnt how terrible it is</l>
+       <l>To feed a hopeless flame.—But hear, Elwina,</l>
+       <l>Thou most obdurate hear me.—</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Say, mylord,</l>
+       <l>For your own lips shall vindicate my fame,</l>
+       <pb n="8" facs="16"/>
+       <l>Since at the altar I became your wife;</l>
+       <l>Can malice charge me with an act, a word,</l>
+       <l>I ought to blush at? Have I not still liv'd</l>
+       <l>As open to the eye of observation,</l>
+       <l>As fearless innocence shou'd ever live?</l>
+       <l>I call attesting angels to be witness,</l>
+       <l>If in my open deed, or secret thought,</l>
+       <l>My conduct, or my heart, they've ought discern'd</l>
+       <l>Which did not emulate their purity,</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>This vindication e'er you were accus'd,</l>
+       <l>"This warm defence, repelling all attacks</l>
+       <l>E'er they are made, and construing casual words</l>
+       <l>To formal accusations, trust me, Madam,"</l>
+       <l>Shews rather an alarm'd and vigilant spirit,</l>
+       <l>For ever on the watch to guard its secret,</l>
+       <l>Than the sweet calm of fearless innocence.</l>
+       <l>Who talk'd of guilt? Who testified suspicion?</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Learn, Sir, that virtue, while'tis free from blame,</l>
+       <l>Is modest, lowly, meek, and unassuming;</l>
+       <l>Not apt, like fearful vice, to shield its weakness,</l>
+       <l>Beneath the studied pomp of boastful phrase,</l>
+       <l>Which swells to hide the poverty it shelters;</l>
+       <l>But when this virtue feels itself suspected,</l>
+       <l>Insulted, set at nought, its whiteness stain'd,</l>
+       <l>It then grows proud, forgets its humble worth,</l>
+       <l>And rates: itself above its real value,</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>I did not mean to chide! But think, O think,</l>
+       <l>What pangs must rend this fearful, doating heart,</l>
+       <l>To see you sink impatient of the grave,</l>
+       <l>To feel, distracting thought, to feel you hate me!</l>
+      </sp>
+      <sp who="#elwina">
+       <pb n="9" facs="17"/>
+       <speaker>ELWINA.</speaker>
+       <l>What if the slender thread by which I hold</l>
+       <l>This poor precarious being soon must break;</l>
+       <l>Is it Elwina's crime, or heav'n's decree?</l>
+       <l>Yet I shall meet, I trust, the king of terrors,</l>
+       <l>Submissive and resign'd, without one pang,</l>
+       <l>One fond regret at leaving this gay world.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Yet, Madam, there is one, one man ador'd,</l>
+       <l>For whom your sighs will heave, your tears will flow,</l>
+       <l>For whom this hated world will still be dear,</l>
+       <l>For whom you still wou'd live—</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Hold, hold, my lord,</l>
+       <l>What may this mean?</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Ah! I have gone too far.</l>
+       <l>What have I said?—Your father, sure, your father,</l>
+       <l>The good Lord Raby may at least expect</l>
+       <l>One tender sigh.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Alas, my lord, I thought</l>
+       <l>The precious incense of a daughter's sighs</l>
+       <l>Might rise to heav'n, and not offend its ruler.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>'Tis true; yet Raby is no more belov'd</l>
+       <l>Since he bestow'd his daughter's hand on Douglas:</l>
+       <l>That was a crime the dutiful Elwina</l>
+       <l>
+        <pb n="10" facs="18"/>Can never pardon; and believe me, Madam,</l>
+       <l>My love's so nice, so delicate my honour,</l>
+       <l>I am asham'd to owe my happiness</l>
+       <l>To ties which make you wretched.</l>
+       <stage>Exit Douglas.</stage>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Ah! how's this?</l>
+       <l>Tho' I have ever found him fierce and rash,</l>
+       <l>Full of obscure surmises, and dark hints,</l>
+       <l>Till now he never ventur'd to accuse me.</l>
+       <l>Yet there is one, one man belov'd, ador'd,</l>
+       <l>For whom your tears will flow—these were his words—</l>
+       <l>And then the wretched subterfuge of Raby—</l>
+       <l>How poor th' evasion!—But my Birtha comes.</l>
+       <stage>
+        <hi>Enter</hi> BIRTHA.</stage>
+      </sp>
+      <sp who="#birtha">
+       <speaker>BIRTHA.</speaker>
+       <l>Crossing the Portico I met Lord Douglas,</l>
+       <l>Disorder'd were his looks, his eyes shot fire;</l>
+       <l>He call'd upon your name with such distraction,</l>
+       <l>I sear'd some sudden evil had befall'n you.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Not sudden; no; long has the storm been gathering,.</l>
+       <l>Which threatens speedily to burst in ruin,</l>
+       <l>On this devoted head.</l>
+      </sp>
+      <sp who="#birtha">
+       <speaker>BIRTHA.</speaker>
+       <l>I ne'er beheld</l>
+       <l>Your gentle soul so ruffled, yet I've mark'd you,</l>
+       <l>While others thought you happiest of the happy,</l>
+       <l>Blest with whate'er the world calls great, or good,</l>
+       <l>
+        <pb n="11" facs="19"/>With all that nature, all that fortune gives,</l>
+       <l>I've mark'd you beuding with a weight of sorrow.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>O I will tell thee all! thou cou'dst not find</l>
+       <l>An hour, a moment in Elwina's life,</l>
+       <l>When her full heart so long'd to ease its burthen,</l>
+       <l>And pour its sorrows in thy friendly bosom:</l>
+       <l>Hear then with pity, hear my tale of woe.</l>
+       <l>And, O forgive, kind nature, filial piety,</l>
+       <l>If my presumptuous lips arraign a father!</l>
+       <l>Yes, Birtha, that belov'd, that cruel father,</l>
+       <l>Has doom'd me to a life of hopeless anguish,</l>
+       <l>To die of grief e'er half my days are number'd,</l>
+       <l>Doom'd me to give my trembling hand to Douglas,</l>
+       <l>'Twas all I had to give, my heart was—Percy's.</l>
+      </sp>
+      <sp who="#birtha">
+       <speaker>BIRTHA.</speaker>
+       <l>What do I hear?</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>My mis'ry, not my crime.</l>
+       <l>Long since the battle 'twixt the rival houses,</l>
+       <l>Of Douglas and of Percy, for whose hate</l>
+       <l>This mighty globe's too small a Theatre,</l>
+       <l>One summer's morn my father chas'd the Deer</l>
+       <l>On Cheviot Hills, Northumbria's fair domain.—</l>
+      </sp>
+      <sp who="#birtha">
+       <speaker>BIRTHA.</speaker>
+       <l>On that fam'd spot where first the seuds commenc'd</l>
+       <l>Between the Earls?</l>
+      </sp>
+      <sp who="#elwina">
+       <pb n="12" facs="20"/>
+       <speaker>ELWINA.</speaker>
+       <l>The same. During the chace,</l>
+       <l>Some of my father's knights receiv'd an insult</l>
+       <l>From the Lord Percy's herdsmen, churlish foresters,</l>
+       <l>Unworthy of the gentle blood they serv'd,</l>
+       <l>My father, proud and jealous of his honour,</l>
+       <l>(Thou know'st the fiery temper of our Barons)</l>
+       <l>Swore that Northumberland had been concern'd</l>
+       <l>In this rude outrage, nor wou'd hear of peace,</l>
+       <l>Or reconcilement which the Percy offer'd;</l>
+       <l>But bade me hate, renounce, and banish him.</l>
+       <l>O! 'twas a task too hard for all my duty,</l>
+       <l>I strove, and wept, I strove—but still I lov'd.</l>
+      </sp>
+      <sp who="#birtha">
+       <speaker>BIRTHA.</speaker>
+       <l>Indeed 'twas most unjust; but say what follow'd?</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Why shou'd I dwell on the disastrous tale?</l>
+       <l>Forbid to see me, Percy soon embark'd,</l>
+       <l>With our great king against the Saracen.</l>
+       <l>Soon as the jarring kingdoms were at peace,</l>
+       <l>Earl Douglas, whom till then I ne'er had seen,</l>
+       <l>Came to this castle; 'twas my hapless fate</l>
+       <l>To please him.—Birtha! thou can'st tell what follow'd:</l>
+       <l>But who shall tell the agonies I felt?</l>
+       <l>My barbarous father forc'd me to dissolve</l>
+       <l>The tender vows himself had bid me form—</l>
+       <l>He dragg'd me trembling, dying, to the altar,</l>
+       <l>I sigh'd, I struggled, fainted, and—complied.</l>
+      </sp>
+      <sp who="#birtha">
+       <speaker>BIRTHA.</speaker>
+       <l>Did Douglas know a marriage had been once</l>
+       <l>Fropos'd 'twixt you and Percy?</l>
+      </sp>
+      <sp who="#elwina">
+       <pb n="13" facs="21"/>
+       <speaker>ELWINA.</speaker>
+       <l>If he did,</l>
+       <l>He thought, like you, it was a match of policy,</l>
+       <l>Nor knew our love surpass'd our father's prudence.</l>
+      </sp>
+      <sp who="#birtha">
+       <speaker>BIRTHA.</speaker>
+       <l>Should he now find he was the instrument</l>
+       <l>Of the Lord Raby's vengeance?</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>'Twere most dreadful!</l>
+       <l>My father lock'd this motive in his breast,</l>
+       <l>And feign'd to have forgot the Chace of Cheviot.</l>
+       <l>Some moons have now completed their slow course</l>
+       <l>Since my sad marriage.—Percy still is absent.</l>
+      </sp>
+      <sp who="#birtha">
+       <speaker>BIRTHA.</speaker>
+       <l>Nor will return before his sov'reign comes.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Talk not of his return! this coward heart</l>
+       <l>Can know no thought of peace but in his absence.</l>
+       <l>How, Douglas here again? some fresh alarm!</l>
+       <stage>Enter <hi>Douglas,</hi> agitated, with letters in his hand.</stage>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Madam, your pardon—</l>
+      </sp>
+      <sp who="#elwina">
+       <pb n="14" facs="22"/>
+       <speaker>ELWINA.</speaker>
+       <l>What disturbs my lord?</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Nothing.—Disturb? I ne'er was more at ease.</l>
+       <l>These letters from your father give us notice</l>
+       <l>He will be here to-night;—He further adds</l>
+       <l>The king's each hour expected.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>How? the king?</l>
+       <l>Said you the king?</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>And 'tis Lord Raby's pleasure</l>
+       <l>That you among the foremost bid him welcome</l>
+       <l>You must attend the court.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Must I, my lord?</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Now to observe how she receives the news! <stage>Aside.</stage>
+       </l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>I must not, —cannot—By all the tender love</l>
+       <l>You have so oft prosess'd for poor Elwina,</l>
+       <l>Indulge this one request—O let me stay!</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Enchanting; sounds! she does not wish to go— <stage>Aside.</stage>
+       </l>
+      </sp>
+      <sp who="#elwina">
+       <pb n="15" facs="23"/>
+       <speaker>ELWINA.</speaker>
+       <l>The bustling world, the pomp which waits on greatness,</l>
+       <l>Ill suits my humble, unambitious soul;—</l>
+       <l>Then leave me here, to tread the safer path</l>
+       <l>Of private life, here, where my peaceful course</l>
+       <l>Shall be as silent as the shades around me;</l>
+       <l>Nor shall one vagrant wish be e'er allow'd</l>
+       <l>To stray beyond the bounds of Raby Castle.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>O music to my ears! <stage>Aside.</stage> Can you resolve</l>
+       <l>To hide those wondrous beauties in the shade,</l>
+       <l>Which rival kings wou'd cheaply buy with empire?</l>
+       <l>Can you renounce the pleasures of a court,</l>
+       <l>Whole roofs refound with minstrelsy and mirth?</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>My lord, retirement is a wife's best duty,</l>
+       <l>And virtue's safest station is retreat.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>My soul 's in transports! <stage>Aside.</stage> —But can you forego'</l>
+       <l>What wins the soul of woman—admiration?</l>
+       <l>A world, where charms inferior far to yours,</l>
+       <l>Only presume to shine when you are absent?</l>
+       <l>Will you not long to meet the public gaze?</l>
+       <l>Long to eclipse the fair, and charm the brave?</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>These are delights in which the <hi>mind</hi> partakes not.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <pb n="16" facs="24"/>
+       <speaker>DOUGLAS.</speaker>
+       <l>I'll try her farther. <stage>Aside</stage>
+       </l>
+       <stage>(Takes her hand, and looks stedfastly at her as he speaks.)</stage>
+       <l>But reflect once more;</l>
+       <l>When yon shall hear that England's gallant peers,</l>
+       <l>Fresh from the fields of war, and gay with glory,</l>
+       <l>All vain with conquest, and elate with same,</l>
+       <l>When you shall hear these princely youths contend,</l>
+       <l>In many a tournament for beauty's prize;</l>
+       <l>When you shall hear of revelry, and masking,</l>
+       <l>Of mimic combats, and of festive halls,</l>
+       <l>Of lances shiver'd in the cause of love,</l>
+       <l>Will you not then repent, then wish your fate,</l>
+       <l>Your happier fate had till that hour reserv'd you</l>
+       <l>For some plum'd conqueror?</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>My fate, my lord,</l>
+       <l>Is now bound up with yours.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Here let me kneel—</l>
+       <l>Yes, I will kneel, and gaze, and weep, and wonder;</l>
+       <l>Thou paragon of goodness!—pardon, pardon,</l>
+       <stage>(Kisses her hand.)</stage>
+       <l>I am convine'd—I can no longer doubt,</l>
+       <l>Nor talk, nor hear, nor reason, nor reflect.</l>
+       <l>—I must retire, and give a loose to joy.</l>
+       <stage>Exit Douglas.</stage>
+      </sp>
+      <sp who="#birtha">
+       <speaker>BIRTHA.</speaker>
+       <l>The king returns.</l>
+      </sp>
+      <sp who="#elwina">
+       <pb n="17" facs="25"/>
+       <speaker>ELWINA.</speaker>
+       <l>And with him Percy comes!</l>
+      </sp>
+      <sp who="#birtha">
+       <speaker>BIRTHA.</speaker>
+       <l>You needs must go.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Shall I folicit ruin,</l>
+       <l>And pull destruction on me ere its time?</l>
+       <l>I, who have held it criminal to name him?</l>
+       <l>I will not go—I disobey thee, Douglas,</l>
+       <l>But disobey thee to preserve thy honour.</l>
+      </sp>
+      <trailer>End of the First Act.</trailer>
+     </div>
+    </div>
+    <div n="2" type="act">
+     <pb n="18" facs="26"/>
+     <head>ACT II.</head>
+     <div type="scene">
+      <head>SCENE, <stage>
+        <hi>The Hall.</hi>
+       </stage>
+      </head>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS,</speaker>
+       <stage>speaking as be enters.</stage>
+       <l>SEE that the traytor instantly be feiz'd,</l>
+       <l>And strictly watch'd: let none have access to him.</l>
+       <l>O jealousy, thou aggregate of woes!</l>
+       <l>Were there no hell, thy torments wou'd create one.</l>
+       <l>But yet she may be guiltless—may? she must.</l>
+       <l>How beautiful she look'd! pernicious beauty!</l>
+       <l>Yet innocent, as bright, seem'd the sweet blush</l>
+       <l>That mantled on her cheek. But not for me,</l>
+       <l>But not for me those breathing roses blow!</l>
+       <l>And then she wept—what! can I bear her tears?</l>
+       <l>Well—let her weep—her tears are for another;</l>
+       <l>O did they fall for me, to dry their streams,</l>
+       <l>I'd drain the choicest blood that feeds this heart,</l>
+       <l>Nor think the drops I shed were half so precious.</l>
+       <stage>(He stands in a musing posture.)</stage>
+      </sp>
+      <stage>
+       <hi>Enter Lord</hi> RABY.</stage>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>Sure I mistake—Am I in Raby Castle?</l>
+       <l>Impossible! that was the seat of smiles;</l>
+       <l>And Cheerfulness, and Joy, were household gods.</l>
+       <l>
+        <pb n="19" facs="27"/>I us'd to scatter pleasures when Icame,</l>
+       <l>And every servant shar'd his lord's delight.</l>
+       <l>But now Suspicion and Distrust dwell here,</l>
+       <l>And Discontent maintains a sullen sway.</l>
+       <l>Where is the smile unfeign'd, the jovial welcome,</l>
+       <l>Which cheer'd the sad, beguil'd the pilgrim's pain,</l>
+       <l>And made dependency forget its bonds?</l>
+       <l>Where is the antient, hospitable hall,</l>
+       <l>Whose vaultedroof once rung with harmless mirth?</l>
+       <l>Where every passing stranger was a guest,</l>
+       <l>And every guest a friend. I fear me much,</l>
+       <l>If once our nobles scorn their rural seats,</l>
+       <l>Their rural greatness, and their vassal's love,</l>
+       <l>Freedom, and English grandeur, are no more.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <stage>(advancing.)</stage>
+       <l>My lord, you are welcome.</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>Sir, I trust I am;</l>
+       <l>But yet, methinks, I shall not feel I'm welcome,</l>
+       <l>Till my Elwina bless me with her smiles:</l>
+       <l>She was not wont with ling'ring step to meet me,</l>
+       <l>Or greet my coming with a cold embrace;</l>
+       <l>Now, I extend my longing arms in vain,</l>
+       <l>My child, my darling, does not come to fill them.</l>
+       <l>O they were happy days when she wou'd fly</l>
+       <l>To meet me from the camp, or from the chace,</l>
+       <l>And with her fondness overpay my toils!</l>
+       <l>How eager wou'd her tender hands unbrace</l>
+       <l>The ponderous armour from my war-worn limbs,</l>
+       <l>And pluck the helmet which oppos'd her kiss!</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>O sweet delights that never must be mine!</l>
+      </sp>
+      <sp who="#earl_raby">
+       <pb n="20" facs="28"/>
+       <speaker>RABY.</speaker>
+       <l>What do I hear?</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Nothing: enquire no farther.</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>My lord, if you respect an old man's peace,</l>
+       <l>If e'er you doated on my much-lov'd child,</l>
+       <l>As 'tis most sure you made me think you did,</l>
+       <l>Then, by the pangs which you may one day feel,</l>
+       <l>When you, like me, shall be a fond, fond father,</l>
+       <l>And tremble for the treasure of your age,</l>
+       <l>Tell me, what this alarming silence means?</l>
+       <l>You sigh, yet do not speak, nay more, you hear not?</l>
+       <l>Your lab'ring soul turns inward on itself,</l>
+       <l>As there were nothing but your own sad thoughts</l>
+       <l>Deserv'd regard. Does my child live?</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>She does.</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>To bless her father!</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>And to curse her husband!</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>Ah! have a care, my lord, I am not so old—</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <pb n="21" facs="29"/>
+       <speaker>DOUGLAS.</speaker>
+       <l>Nor I so base that I should tamely bear it;</l>
+       <l>Nor am I so inur'd to infamy,</l>
+       <l>That I can say without a burning blush,</l>
+       <l>She lives to be my curse.</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>How's this?</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>I thought</l>
+       <l>The lily op'ning to the heav'n's soft dews,</l>
+       <l>Was not so fragrant, and was not so chaste.</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>Has she prov'd otherwise? I'll not believe it.</l>
+       <l>Who has traduc'd my sweet, my innocent child?</l>
+       <l>Yet she's too good to 'scape calumnious tongues.</l>
+       <l>I know that Slander loves a lofty mark:</l>
+       <l>It saw her soar a flight above her fellows,</l>
+       <l>And hurl'd its arrow to her glorious height,</l>
+       <l>To reach her heart, and bring her to the ground.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Had the rash tongue of Slander so prefum'd,</l>
+       <l>My vengeance had not been of that slow sort,</l>
+       <l>To need a prompter; nor should any arm,</l>
+       <l>No, not a father's, dare dispute with mine,</l>
+       <l>The privilege to die in her defence,</l>
+       <l>None dares accuse Elwina, but—</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>But who?</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <pb n="22" facs="30"/>
+       <speaker>DOUGLAS.</speaker>
+       <l>But Douglas.</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <stage>(puts his hand to his sword.)</stage>
+       <l>You?—O spare my age's weakness!</l>
+       <l>You do not know what 'tis to be a father,</l>
+       <l>You do not know, or you would pity me;</l>
+       <l>The thousand tender throbs, the nameless feelings,</l>
+       <l>The dread to ask, and yet the wish to know,</l>
+       <l>When we adore and fear; but wherefore fear?</l>
+       <l>Does not the blood of Raby fill her veins?</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Percy!—know'st thou that name?</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>How? what of Percy?</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>He loves Elwina, and my curses on him, He is belov'd again.</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>I'm on the rack!</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Not the two Theban brothers bore each other</l>
+       <l>Such deep, such deadly hate, as I and Percy.</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>But tell me of my child.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <pb n="23" facs="31"/>
+       <speaker>DOUGLAS </speaker>
+       <stage>(no' minding him.)</stage>
+       <l>As I and Percy!</l>
+       <l>When at the marriage rites, O rites accurs'd!</l>
+       <l>I seiz'd her trembling hand, she started back,</l>
+       <l>Cold horror thrill'd her veins, her tears flow'd fast.</l>
+       <l>Fool that I was, I thought 'twas maiden fear,</l>
+       <l>Dull, doating ignorance! beneath those terrors,</l>
+       <l>Hatred for me, and love for Percy lurk'd.</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>What proof of guilt is this?</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>E'er since our marriage.</l>
+       <l>Our days have still been cold and joyless all;</l>
+       <l>"Painful restraint, and hatred ill disguis'd,</l>
+       <l>"Her sole return for all my waste of fondness."</l>
+       <l>This very morn I told her 'twas your will</l>
+       <l>She should repair to court; with all those graces,</l>
+       <l>Which first subdu'd my soul, and still enslave it,</l>
+       <l>She begg'd to stay behind in Raby Castle,</l>
+       <l>For courts, and cities had no charms for her.</l>
+       <l>Curse my blind love! I was again ensnar'd,</l>
+       <l>And doated on the sweetness which deceiv'd me.</l>
+       <l>Just at the hour she thought I shou'd be absent,</l>
+       <l>(For chance cou'd ne'er have tim'd their guilt so well,)</l>
+       <l>Arriv'd young Harcourt, one of Percy's knights,</l>
+       <l>Strictly enjoin'd to speak to none but her,</l>
+       <l>I seiz'd the miscreant; hitherto he's silent,</l>
+       <l>But tortures soon shall force him to confess.</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>Percy is absent—They have never met.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <pb n="24" facs="32"/>
+       <speaker>DOUGLAS.</speaker>
+       <l>At what a feeble hold you grasp for succour!</l>
+       <l>Will it content me that her person's pure?</l>
+       <l>No, if her alien heart doats on another,</l>
+       <l>She is unchaste were not that other Percy.</l>
+       <l>Let vulgar spirits basely wait for proof,</l>
+       <l>She loves another—'tis enough for Douglas.</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>Be patient.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Be a tame convenient husband?</l>
+       <l>And meanly wait for circumstantial guilt?</l>
+       <l>No—I am nice as the first Caesar was,</l>
+       <l>And start at bare suspicion.</l>
+       <stage>going</stage>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY </speaker>
+       <stage>(holding him.)</stage>
+       <l>Douglas, hear me;</l>
+       <l>Thou hast nam'd a Roman husband; if she's false,</l>
+       <l>I mean to prove myself a Roman father.</l>
+       <stage>Exit Douglas.</stage>
+       <l>This marriage was my work, and thus I'm punish'd!</l>
+      </sp>
+      <stage>
+       <hi>Enter</hi> ELWINA.</stage>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Where is my father? let me fly to meet him,</l>
+       <l>O let me clasp his venerable knees,</l>
+       <l>And die of joy in his belov'd embrace.</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY </speaker>
+       <stage>(avoiding her embrace.)</stage>
+       <l>Elwina!</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>And is that all? so cold?</l>
+      </sp>
+      <sp who="#earl_raby">
+       <pb n="25" facs="33"/>
+       <speaker>RABY </speaker>
+       <stage>(sternly.)</stage>
+       <l>Elwina!</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Then I'm Undone indeed! How stern his looks!</l>
+       <l>I will not be repuls'd, I am your child,</l>
+       <l>The child of that dear mother you ador'd;</l>
+       <l>You shall not throw me off, I will grow here,</l>
+       <l>And, like the patriarch, wrestle for a blessing.</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY </speaker>
+       <stage>(holding her from him.)</stage>
+       <l>Before I take thee in these aged arms,</l>
+       <l>Press thee with transport to this beating heart,</l>
+       <l>And give a loose to all a parent's fondness,</l>
+       <l>Answer, and see thou answer me as truly</l>
+       <l>As if the dread enquiry came from heaven:—</l>
+       <l>Does no interior sense of guilt confound thee?</l>
+       <l>Canst thou lay all thy naked soul before me?</l>
+       <l>Can thy unconscious eye encounter mine?</l>
+       <l>Canst thou endure the probe, and never shrink?</l>
+       <l>Can thy firm hand meet mine and never tremble?</l>
+       <l>Art thou prepar'd to meet the rigid judge?</l>
+       <l>Or to embrace the fond, the melting father?</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Mysterious heav'n! to what am I reserv'd?</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>Shou'd some rash man, regardless of thy same,</l>
+       <l>And in defiance of thy marriage vows,</l>
+       <l>Presume to plead a guilty passion for thee,</l>
+       <l>What woud'st thou do?</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>What honour bids me do.</l>
+      </sp>
+      <sp who="#earl_raby">
+       <pb n="26" facs="34"/>
+       <speaker>RABY.</speaker>
+       <l>Come to my arms!</l>
+       <stage>they embrace.</stage>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>My father!</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>Yes, Elwina,</l>
+       <l>Thou art my child—thy mother's perfect image.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Forgive these tears of mingled joy and doubt;</l>
+       <l>For why that question? who should seek to please</l>
+       <l>The desolate Elwina?</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>But if any</l>
+       <l>Should so presume, can'st thou resolve to hate him,</l>
+       <l>Whate'er his name, whate'er his pride of blood,</l>
+       <l>Whate'er his former arrogant pretensions?</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Ha!</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>Dost thou falter? Have a care, Elwina.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Sir, do not fear me; am I not your daughter?</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>Thou hast a higher claim upon thy honour;</l>
+       <l>Thou art Earl Douglas' Wife.</l>
+      </sp>
+      <sp who="#elwina">
+       <pb n="27" facs="35"/>
+       <speaker>ELWINA </speaker>
+       <stage>(weeps.)</stage>
+       <l>I am indeed!</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>Unhappy Douglas!</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Has he then complain'd?</l>
+       <l>Has he presum'd to sully my white fame?</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>He knows that Percy—</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Was my destin'd husband;</l>
+       <l>By your own promise mine, a father's promise,</l>
+       <l>And by a tie more strong, more sacred still,</l>
+       <l>Mine, by the fast firm bond of mutual love.</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>Now, by my fears, thy husband told me truth.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>If he has told thee that thy only child</l>
+       <l>Was forc'd, a helpless victim to the altar,</l>
+       <l>Torn from his arms, who had her virgin heart,</l>
+       <l>And forc'd to make false vows to one she hated,</l>
+       <l>Then, I confess, that he has told thee truth.</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>Her words are barbed arrows in my heart.</l>
+       <l>But 'tis too late. <stage>(aside)</stage> Thou hast appointed Harcourt</l>
+       <l>To see thee here by stealth in Douglas' absence.</l>
+      </sp>
+      <sp who="#elwina">
+       <pb n="28" facs="36"/>
+       <speaker>ELWINA.</speaker>
+       <l>No, by my life, nor knew I till this moment</l>
+       <l>That Harcourt was return'd. Was it for this</l>
+       <l>I taught my heart to struggle with its feelings?</l>
+       <l>Was it for this I bore my wrongs in silence?</l>
+       <l>When the fond ties of early love were broken,</l>
+       <l>Did my weak soul break out in fond complaints?</l>
+       <l>Did I reproach thee? Did I call thee cruel?</l>
+       <l>No—I endur'd it all; and weary'd heaven</l>
+       <l>To bless the father who destroy'd my peace.</l>
+      </sp>
+      <stage>
+       <hi>Enter</hi> MESSENGER.</stage>
+      <sp who="#messenger">
+       <speaker>MESSENGER.</speaker>
+       <l>My lord, a knight, Sir Hubert as I think,</l>
+       <l>But newly landed from the holy wars,</l>
+       <l>Intreats admittance,</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>Let the warrior enter.</l>
+       <stage>Exit Messenger.</stage>
+       <l>All private interests sink at his approach;</l>
+       <l>All selfish cares be for a moment banish'd!</l>
+       <l>I've now no child, no kindred but my country.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Weak heart be still, for what hast thou to fear?</l>
+      </sp>
+      <stage>
+       <hi>Enter Sir</hi> HUBERT.</stage>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>Welcome; thou gallant knight, Sir Hubert,</l>
+       <l>welcome!</l>
+       <l>
+        <pb n="29" facs="37"/>Welcome to Raby Castle!—In one word,</l>
+       <l>Is the king safe? Is Palestine subdued?</l>
+      </sp>
+      <stage>
+       <hi>Sir</hi> HUBERT.</stage>
+      <sp who="#sir_hubert">
+       <speaker>HUBERT.</speaker>
+       <l>The king is safe, and Palestine subdued.</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>Blest be the god of armies! Now, Sir Hubert,</l>
+       <l>By all the saints thou'rt a right noble knight!</l>
+       <l>O why was I too old for this crusade?</l>
+       <l>I think it wou'd have made me young again,</l>
+       <l>Cou'd I, like thee, have seen the hated Crescent,</l>
+       <l>Yield to the Christian cross.—How now, Elwina!</l>
+       <l>What! cold at news which might awake the dead!</l>
+       <l>If there's a drop in thy degenerate veins</l>
+       <l>That glows not now, thou art not Raby's daughter.</l>
+       <l>It is religion's cause, the cause of heav'n!</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>When policy assumes religion's name,</l>
+       <l>And wears the sanctimonious garb of faith,</l>
+       <l>Only to colour fraud, and license murder,</l>
+       <l>War then is tenfold guilt.</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>Blaspheming girl!</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>'Tis not the crosier, nor the pontiff's robe,</l>
+       <l>The saintly look, nor elevated eye,</l>
+       <l>Nor Palestine destroy'd, nor Jordan's banks</l>
+       <l>Delug'd with blood of slaughter'd infidels,</l>
+       <l>No, nor th' extinction of the Eastern world,</l>
+       <l>Nor all the mad, pernicious, bigot rage</l>
+       <l>
+        <pb n="30" facs="38"/>Of your crusades, can bribe that pow'r, who sees</l>
+       <l>The motive with the act. O blind to think</l>
+       <l>That cruel war can please the prince of peace!</l>
+       <l>He who erects his altar in the heart,</l>
+       <l>Abhors the sacrifice of human blood,</l>
+       <l>And all the false devotion of that zeal,</l>
+       <l>Which massacres the world he died to save.</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>O impious rage! If thou wou'dst shun my curse</l>
+       <l>No more, I charge thee.—Tell me, good Sir Hubert,</l>
+       <l>Say, have our arms atchiev'd this glorious deed,</l>
+       <l>(I fear to ask,) without much Christian bloodshed?</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Now heaven support me!</l>
+       <stage>aside.</stage>
+      </sp>
+      <stage>
+       <hi>Sir</hi> HUBERT.</stage>
+      <sp who="#sir_hubert">
+       <speaker>HUBERT</speaker>
+       <l>My good lord of Raby,</l>
+       <l>Imperfect is the sum of human glory!</l>
+       <l>Wou'd I cou'd tell thee that the field was won,</l>
+       <l>Without the death of such illustrious knights,</l>
+       <l>As make the high flush'd cheek of victory pale.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Why shou'd I tremble thus?</l>
+       <stage>aside.</stage>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>Who have we lost?</l>
+      </sp>
+      <stage>
+       <hi>Sir</hi> HUBERT.</stage>
+      <sp who="#sir_hubert">
+       <speaker>HUBERT.</speaker>
+       <l>The noble Clifford, Walsingham, and Grey,</l>
+       <l>
+        <pb n="31" facs="39"/>Sir Harry Hastings, and the valiant Pembroke.</l>
+       <l>All men of choicest note.</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>O that my name</l>
+       <l>Had been enroll'd in such a list of heroes!</l>
+       <l>If I was too infirm to serve my country,</l>
+       <l>I might have prov'd my love by dying for her.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Were there no more?</l>
+      </sp>
+      <sp who="#sir_hubert">
+       <speaker>
+        <hi>Sir</hi> HUBERT.</speaker>
+       <l>But few of noble blood.</l>
+       <l>But the brave youth who gain'd the palm of glory,</l>
+       <l>The flower of Knighthood, and the plume of war,</l>
+       <l>Who bore his banner foremost in the field,</l>
+       <l>Yet conquer'd more by mercy than the sword,</l>
+       <l>Was Percy.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Then he lives!</l>
+       <stage>aside.</stage>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>Did he? Did Percy?</l>
+       <l>O gallant boy, then I'm thy foe no more;</l>
+       <l>Who conquers for my country is my friend!</l>
+       <l>His same shall add new glories to a house,</l>
+       <l>Where never maid was false, nor knight disloyal.</l>
+      </sp>
+      <sp who="#sir_hubert">
+       <speaker>
+        <hi>Sir</hi> HUBERT.</speaker>
+       <l>You do embalm him, lady, with your tears:</l>
+       <l>They grace the grave of glory where he lies.</l>
+       <l>He died the death of honour.</l>
+      </sp>
+      <sp who="#elwina">
+       <pb n="32" facs="40"/>
+       <speaker>ELWINA.</speaker>
+       <l>Said'st thou—died?</l>
+      </sp>
+      <sp who="#sir_hubert">
+       <speaker>
+        <hi>Sir</hi> HUBERT.</speaker>
+       <l>Beneath the towers of Solyma he fell.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Oh!</l>
+      </sp>
+      <sp who="#sir_hubert">
+       <speaker>
+        <hi>Sir</hi> HUBERT.</speaker>
+       <l>Look to the lady.</l>
+       <stage>(Elwina faints in her father's arms.)</stage>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>Gentle knight retire—</l>
+       <l>'Tis an infirmity of nature in her,</l>
+       <l>She ever mourns at any tale of blood,</l>
+       <l>She will be well anon—mean time, Sir Hubert,</l>
+       <l>You'll grace our castle with your friendly sojourn.</l>
+      </sp>
+      <sp who="#sir_hubert">
+       <speaker>
+        <hi>Sir</hi> HUBERT.</speaker>
+       <l>I must return with speed—health to the lady.</l>
+       <stage>Exit Hubert.</stage>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>Look up Elwina. Shou'd her husband come!</l>
+       <l>Yet she revives not.</l>
+      </sp>
+      <stage>
+       <hi>Enter</hi> DOUGLAS.</stage>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Ha—Elwina fainting?</l>
+       <l>My lord, I fear you have too harshly chid her.</l>
+       <l>
+        <pb n="33" facs="41"/>Her gentle nature could not brook your sternness.</l>
+       <l>She wakes, she stirs, she feels returning life.</l>
+       <l>My love!</l>
+       <stage>(He takes her hand.)</stage>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>O Percy!</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <stage>(Starts.)</stage>
+       <l>Do my senses fail me?</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>My Percy, tis Elwina calls.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Hell, hell!</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>Retire awhile my daughter.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Douglas here?</l>
+       <l>My father and my husband!—O for pity.</l>
+       <stage>Exit Elwina, casting a look of anguish on both.</stage>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Now, now confess she well deserves my vengeance!</l>
+       <l>Before my face to call upon, my foe!</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>Upon a foe who has no power to hurt thee.</l>
+       <l>Earl Percy's slain.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <pb n="34" facs="46"/>
+       <speaker>DOUGLAS.</speaker>
+       <l>I live again.—But hold—</l>
+       <l>Did she not weep? she did, and wept for Percy.</l>
+       <l>If she laments him, he's my rival still,</l>
+       <l>And not the grave can bary my resentment.</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>The truly brave are still the truly gen'rous;</l>
+       <l>Now, Douglas, is the time to prove thee both.</l>
+       <l>If it be true that she did once love Percy,</l>
+       <l>Thou hast no more to fear, since he is dead.</l>
+       <l>Release young Harcourt, let him see Elwina,</l>
+       <l>'Twill serve a double purpose, 'twill at once</l>
+       <l>Prove Percy's death, and thy unchang'd affection.</l>
+       <l>Be gentle to my child, and win her heart,</l>
+       <l>By confidence, and unreproaching love.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>By heav'n thou counsel'st well: it shall be done.</l>
+       <l>Go get him free, and let him have admittance</l>
+       <l>To my Elwina's presence.</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>Farewel, Douglas.</l>
+       <l>Shew thou believ'st her faithful and she'll prove so.</l>
+       <stage>Exit Raby.</stage>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Northumberland is dead—that thought is peace!</l>
+       <l>Her heart may yet be mine, transporting hope!</l>
+       <l>Percy was gentle, ev'n a foe avows it,</l>
+       <l>And I'll be milder than a summer's breeze.</l>
+       <l>Yes, thou most lovely, most ador'd of women,</l>
+       <l>I'll copy every virtue, every grace,</l>
+       <l>Of my bless'd rival, happier ev'n in death.</l>
+       <l>To be thus lov'd, than living to be scorn'd.</l>
+      </sp>
+      <trailer>End of Act the Second.</trailer>
+     </div>
+    </div>
+    <div n="3" type="act">
+     <pb n="35" facs="47"/>
+     <head>ACT III.</head>
+     <div type="scene">
+      <head>
+       <hi>SCENE,</hi>
+       <stage>A Garden at Raby Castle, with a Bower.</stage>
+      </head>
+      <stage>
+       <hi>Enter</hi> PERCY <hi>and Sir</hi> HUBERT.</stage>
+      <sp who="#sir_hubert">
+       <speaker>
+        <hi>Sir</hi> HUBERT.</speaker>
+       <l>THAT Percy lives, and is return'd in safety,</l>
+       <l>More joys my soul, than all the mighty conquests</l>
+       <l>That sun beheld, which rose on Syria's ruin.</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>I've told thee, good Sir Hubert, by what wonder</l>
+       <l>I was preserv'd, tho' number'd with the slain.</l>
+      </sp>
+      <sp who="#sir_hubert">
+       <speaker>
+        <hi>Sir</hi> HUBERT.</speaker>
+       <l>'Twas strange indeed!</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>'Twas heav'ns immediate work!</l>
+       <l>But let me now indulge a dearer joy,</l>
+       <l>
+        <pb n="36" facs="48"/>Talk of a richer gift of Mercy's hand;</l>
+       <l>A gift so precious to my doating heart,</l>
+       <l>That life preserv'd is but a second blessing.</l>
+       <l>O Hubert, let my soul indulge its softness!</l>
+       <l>The hour, the spot is sacred to Elwina.</l>
+       <l>This was her fav'rite walk; I well remember,</l>
+       <l>(For who forgets that loves as I have lov'd?)</l>
+       <l>'Twas in that very bower she gave this scarf,</l>
+       <l>Wrought by the hand of love; she bound it on,</l>
+       <l>And, smiling, cried, Whate'er befal us, Percy,</l>
+       <l>Be this the sacred pledge of faith between us.</l>
+       <l>I knelt, and swore, call'd every pow'r to witness,</l>
+       <l>No time, nor circumstance, shou'd force it from me!</l>
+       <l>But I wou'd lose my life and that together.</l>
+       <l>Here I repeat my vow.</l>
+      </sp>
+      <sp who="#sir_hubert">
+       <speaker>
+        <hi>Sir</hi> HUBERT.</speaker>
+       <l>Is this the man</l>
+       <l>Beneath whose single arm an host was crush'd?</l>
+       <l>He, at whose name the Saracen turn'd pale?</l>
+       <l>And when he fell, victorious armies wept,</l>
+       <l>And mourn'd a conquest they had bought so dear?</l>
+       <l>How has he chang'd the trumpet's martial note,</l>
+       <l>And all the stirring clangor of the war,</l>
+       <l>For the soft melting of the lover's lute!</l>
+       <l>Why are thine eyes still bent upon the bower?</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>O Hubert, Hubert, to a soul enamour'd,</l>
+       <l>There is a sort of local sympathy,</l>
+       <l>Which, when we view the seenes of early passion,</l>
+       <l>Paints the bright image of the object lov'd,</l>
+       <l>In stronger colours, than remoter scenes</l>
+       <l>Cou'd ever pant it, realizes shade,</l>
+       <l>
+        <pb n="37" facs="49"/>Dresses it up in all the charms it wore,</l>
+       <l>Talks to it nearer, frames its answers kinder,</l>
+       <l>Gives form to fancy, and embodies thought.</l>
+      </sp>
+      <sp who="#sir_hubert">
+       <speaker>
+        <hi>Sir</hi> HUBERT.</speaker>
+       <l>I should not be believ'd in Percy's camp,</l>
+       <l>If I shou'd tell them that their gallant leader,</l>
+       <l>The thunder of the war, the bold Northumberland,</l>
+       <l>Renouncing Mars, dissolv'd in amorous wishes,</l>
+       <l>Loiter'd in shades, and pin'd in rosy bowers,</l>
+       <l>To catch a transient glance of two bright eyes.</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>Enough of conquest, and enough of war!</l>
+       <l>Ambition's cloy'd—the heart resumes its rights.</l>
+       <l>When England's king, and England's good requir'd,</l>
+       <l>This arm not idly the keen falchion brandish'd:</l>
+       <l>Enough—for vaunting misbecomes a soldier.</l>
+       <l>I live, I am return'd—am near Elwina!</l>
+       <l>See'st thou those turrets? Yes, that castle holds her.</l>
+       <l>But wherefore tell thee this? for thou hast seen her.</l>
+       <l>How look'd, what said she? Did she hear the tale</l>
+       <l>Of my imagin'd death without emotion?</l>
+      </sp>
+      <sp who="#sir_hubert">
+       <speaker>
+        <hi>Sir</hi> HUBERT.</speaker>
+       <l>Percy, thou hast seen the musk-rose newly blown,</l>
+       <l>Disclose its bashful beauties to the sun,</l>
+       <l>Till an unfriendly, chilling storm descended,</l>
+       <l>Crush'd all its blushing glories in their prime,</l>
+       <l>Bow'd its fair head, and blasted all its sweetness.</l>
+       <l>So droop'd the maid, beneath the cruel weight</l>
+       <l>Of my sad tale.</l>
+      </sp>
+      <sp who="#percy">
+       <pb n="38" facs="50"/>
+       <speaker>PERCY.</speaker>
+       <l>So tender, and so true!</l>
+      </sp>
+      <sp who="#sir_hubert">
+       <speaker>
+        <hi>Sir</hi> HUBERT.</speaker>
+       <l>I left her fainting in her father's arms,</l>
+       <l>The dying flower yet hanging on the tree.</l>
+       <l>Ev'n Raby melted at the news I brought,</l>
+       <l>And envy'd thee thy glory.</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>Then I am blest!</l>
+       <l>His hate subdued, I've nothing more to fear.</l>
+      </sp>
+      <sp who="#sir_hubert">
+       <speaker>
+        <hi>Sir</hi> HUBERT.</speaker>
+       <l>My embassy dispatch'd, I left the castle,</l>
+       <l>Nor spoke to any of Lord Raby's household,</l>
+       <l>For fear the king shou'd chide the tardiness</l>
+       <l>Of my return. My joy to find you living,</l>
+       <l>You have already heard.</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>But where is Harcourt?</l>
+       <l>E'er this he shou'd have seen her, told her all,</l>
+       <l>How I surviv'd, return'd, and how I love!</l>
+       <l>I tremble at the near approach of bliss,</l>
+       <l>And scarcely can sustain the joy which waits me.</l>
+      </sp>
+      <sp who="#sir_hubert">
+       <speaker>
+        <hi>Sir</hi> HUBERT.</speaker>
+       <l>Grant heaven the fair-one prove but half so true!</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>O she is truth itself!</l>
+      </sp>
+      <sp who="#sir_hubert">
+       <pb n="39" facs="51"/>
+       <speaker>
+        <hi>Sir</hi> HUBERT.</speaker>
+       <l>She may be chang'd,</l>
+       <l>Spite of her tears, her fainting, and alarms.</l>
+       <l>I know the sex, know them as nature made 'em,</l>
+       <l>Not such as lovers; wish, and poets feign.</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>To doubt her virtue were suspecting heaven,</l>
+       <l>'Twere little less than infidelity!</l>
+       <l>And yet I tremble. Why does terror; shake</l>
+       <l>These firm-strung nerves? But 'twill be ever thus,</l>
+       <l>When fate prepares us more than mortal bliss,</l>
+       <l>And gives us only human strength to bear it.</l>
+      </sp>
+      <sp who="#sir_hubert">
+       <speaker>
+        <hi>Sir</hi> HUBERT.</speaker>
+       <l>What beam of brightness breaks thro' yonder gloom?</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>Hubert—she comes! By all my hopes she comes!</l>
+       <l>'Tis she—the blissful, vision is Elwina!</l>
+       <l>But ah! what mean those tears?—She weeps for me!</l>
+       <l>O transport!—go.—I'll listen unobserv'd,—</l>
+       <l>And for a moment taste the precious joy,</l>
+       <l>The banquet of a tear which falls for love.</l>
+       <stage>Exit Sir Hubert.</stage>
+      </sp>
+      <stage>Percy goes into the Bower.</stage>
+      <stage>
+       <pb n="40" facs="52"/>
+       <hi>Enter</hi> ELWINA.</stage>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Shall I not weep, and have I then no cause?</l>
+       <l>If I cou'd break th' eternal bands of death,</l>
+       <l>And wrench the sceptre from his iron grasp;</l>
+       <l>If I cou'd bid the yawning sepulchre</l>
+       <l>Restore to life its long committed dust;</l>
+       <l>If I could teach the slaught'ring hand of war,</l>
+       <l>To give me back, my dear, my murder'd Percy,</l>
+       <l>Then I indeed might once more cease to weep.</l>
+      </sp>
+      <stage>[Percy comes out of the Bower.]</stage>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>Then cease, for Percy lives.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Protest me heav'n!</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>O joy unspeakable! My life, my love!</l>
+       <l>End of my toils, and crown of all my cares!</l>
+       <l>Kind as consenting peace, as conquest bright,</l>
+       <l>Dearer than arms, and lovelier than renown!</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>It is his voice—it is, it is my Percy!</l>
+       <l>And dost thou live?</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>I never liv'd till now.</l>
+      </sp>
+      <sp who="#elwina">
+       <pb n="41" facs="53"/>
+       <speaker>ELWINA.</speaker>
+       <l>And did, my sighs, and did my sorrows reach thee?</l>
+       <l>And art thou come at last to dry my tears?</l>
+       <l>How didst thou scape the fury of the foe?</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>Thy guardian genius hover'd o'er the field;</l>
+       <l>And turn'd the hostile spear from Percy's breast,</l>
+       <l>Left thy fair image shou'd be wounded there.</l>
+       <l>But Harcourt should have told thee all my fate.</l>
+       <l>How I surviv'd—</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Alas! I have not seen him.</l>
+       <l>Oh! I have suffer'd much.</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>Of that no more;</l>
+       <l>For every minute of our future lives.</l>
+       <l>Shall be so bless d, that we will learn to wonder,</l>
+       <l>How we cou'd ever think we were unhappy.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Percy—I cannot speak.</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>Those tears how eloquent!</l>
+       <l>I would not change this motlionless, mute joy</l>
+       <l>For the sweet strains of angels: I look down,</l>
+       <l>With pity on the rest of human kind,</l>
+       <l>However great may be their same of happiness,</l>
+       <l>And think their niggard fate has giv'n them nothing.</l>
+       <l>
+        <pb n="42" facs="54"/>Not giving thee; or granting some small blessing,</l>
+       <l>Denies them my capacity to feel it.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Alas! what mean you?</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>Can I speak my meaning?</l>
+       <l>Tis of such magnitude that words wou'd wrong it;</l>
+       <l>But surely my Elwina's faithful bosom,</l>
+       <l>Shou'd beat in kind responses of delight,</l>
+       <l>And feel, but never question what I mean.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Hold, hold, my heart, thou hast much more to suffer!</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>Let the slow form, and tedious ceremony</l>
+       <l>Wait on the splendid victims of ambition.</l>
+       <l>Love stays for none of these. Thy father's soften'd,</l>
+       <l>He will forget the fatal Cheviot Chace;</l>
+       <l>Raby is brave, and I have serv'd my country;</l>
+       <l>I wou'd not boast, it was for thee I conquer'd.</l>
+       <l>Then come, my love.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>O never, never, never.</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>Am I awake? Is that Elwina's voice?</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Percy, thou most ador'd—and most deceiv'd!</l>
+       <l>If ever fortitude sustain'd thy soul,</l>
+       <l>
+        <pb n="43" facs="55"/>When vulgar minds hare sunk beneath the stroke,</l>
+       <l>Let thy imperial spirit now support thee.—</l>
+       <l>If thou canst be so wondrous merciful,</l>
+       <l>Do not, O do not curse me!—but thou wilt,</l>
+       <l>Thou must—for I have done a fearful deed,</l>
+       <l>A deed of wild despair, a deed of horror.</l>
+       <l>I am, I am—</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>Speak, say, what art thou?</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Married.</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>Oh!</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Percy, I think I begg'd thee not to curse me;</l>
+       <l>But now I do revoke the fond petition.</l>
+       <l>Speak! ease thy bursting soul; reproach, upbraid,</l>
+       <l>O'erwhelm me with thy wrongs—I'll bear it all.</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>Open, thou earth, and hide me from her sight!</l>
+       <l>Didst thou not bid me curse thee?</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Mercy! mercy!</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>And have I 'scap'd the Saracen's fell sword,</l>
+       <l>Only to perish by Elwina's guilt?</l>
+       <l>I wou'd have bar'd my bosom to the foe,</l>
+       <l>I wou'd have died, had I but known you wish'd it.</l>
+      </sp>
+      <sp who="#elwina">
+       <pb n="44" facs="56"/>
+       <speaker>ELWINA.</speaker>
+       <l>Percy, I lov'd thee most when most I wrong'd thee:</l>
+       <l>Yes, by these tears I did.</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>Married! just heav'n!</l>
+       <l>Married? to whom? Yet wherefore should I know?</l>
+       <l>It cannot add fresh horrors to thy crime,</l>
+       <l>Or my destruction.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Oh! 'twill add to both.</l>
+       <l>How shall I tell? Prepare for something dreadful.</l>
+       <l>Hast thou not heard of—Douglas?</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>Why 'tis well!</l>
+       <l>Thou awful power why waste thy wrath on me?</l>
+       <l>Why arm omnipotence to crush a worm?</l>
+       <l>I cou'd have fall'n without this waste of ruin.</l>
+       <l>Married to Douglas! By my wrongs I like it,</l>
+       <l>'Tis perfidy compleat, 'tis finish'd falsehood,</l>
+       <l>'Tis adding fresh perdition to the sin,</l>
+       <l>And filling up the measure of offence!</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Oh! 'twas my father's deed! he made his child</l>
+       <l>An instrument of vengeance on thy head.</l>
+       <l>He wept and threaten'd, sooth'd me, and commanded.</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>And you complied, most duteously complied!</l>
+      </sp>
+      <sp who="#elwina">
+       <pb n="45" facs="57"/>
+       <speaker>ELWINA.</speaker>
+       <l>I cou'd withstand his fury; but his tears,</l>
+       <l>Ah, they undid me! Percy, dost thou know</l>
+       <l>The cruel tyranny of tenderness?</l>
+       <l>Hast thou e'er felt a father's warm embrace?</l>
+       <l>Hast thou e'er seen a father's flowing tears,</l>
+       <l>And known that thou cou'dst wipe those tears away?</l>
+       <l>If thou hast felt, and hast resisted these,</l>
+       <l>Then thou may'st curse my weakness; but if not,</l>
+       <l>Thou canst not pity, for thou canst not judge.</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>Let me not hear the music of thy voice,</l>
+       <l>Or I shall love thee still; I shall forget</l>
+       <l>Thy fatal marriage, and my savage wrongs.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Dost thou not hate me, Percy?</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>Hate thee? Yes,</l>
+       <l>As dying martyrs hate the righteous cause</l>
+       <l>Of that bless'd Power for whom they bleed—I hate thee.</l>
+       <stage>They look at each other in silent agony.</stage>
+      </sp>
+      <stage>
+       <hi>Enter</hi> HARCOURT.</stage>
+      <sp who="#harcourt">
+       <speaker>HARCOURT</speaker>
+       <l>Forgive, my lord, your faithful knight—</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>Come, Harcourt,</l>
+       <l>Come and behold the wretch who once was Percy.</l>
+      </sp>
+      <sp who="#harcourt">
+       <pb n="46" facs="58"/>
+       <speaker>HARCOURT.</speaker>
+       <l>With grief I've learn'd the whole unhappy tale.</l>
+       <l>Earl Douglas, whose suspicion never sleeps—</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>What, is the tyrant jealous?</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Hear him, Percy.</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>I will command my rage—Go on.</l>
+      </sp>
+      <sp who="#harcourt">
+       <speaker>HARCOURT.</speaker>
+       <l>Earl Douglas</l>
+       <l>Knew by my arms, and my accoutrements,</l>
+       <l>That I belong'd to you; he question'd much,</l>
+       <l>And much he menaced me, but both alike</l>
+       <l>In vain, he then arrested and confin'd me.</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>Arrest my knight? The Scot shall answer it.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>How came you now releas'd?</l>
+      </sp>
+      <sp who="#harcourt">
+       <speaker>HARCOURT.</speaker>
+       <l>Your noble father</l>
+       <l>Obtain'd my freedom, having learn'd from Hubert</l>
+       <l>The news of Percy's death. The good old Lord,</l>
+       <l>Hearing the king's return, has left the Castle</l>
+       <l>To do him homage.</l>
+       <stage>To Percy.</stage>
+       <l>Sir, you had best retire;</l>
+       <l>Your safety is endanger'd by your stay.</l>
+       <l>I fear shou'd Douglas know—</l>
+      </sp>
+      <sp who="#percy">
+       <pb n="47" facs="59"/>
+       <speaker>PERCY.</speaker>
+       <l>Shou'd Douglas know?</l>
+       <l>Why what new magic's in the name of Douglas,</l>
+       <l>That it shou'd strike Northumberland with fear?</l>
+       <l>Go, seek the haughty Scot, and tell him—no—</l>
+       <l>Conduct me to his presence.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Percy, hold;</l>
+       <l>Think not 'tis Douglas—'tis—</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>I know it well,</l>
+       <l>Thou mean'st to tell me 'tis Elwina's husband;</l>
+       <l>But that inflames me to superior madness.</l>
+       <l>This happy husband, this triumphant Douglas,</l>
+       <l>Shall not insult my misery with his bliss.</l>
+       <l>I'll blast the golden promise of his joys.</l>
+       <l>Conduct me to him—nay, I will have way —</l>
+       <l>Come, let us seek this husband.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Percy, hear me.</l>
+       <l>When I was robb'd of all my peace of mind,</l>
+       <l>My cruel fortune left me still one blessing,</l>
+       <l>One solitary blessing, to console me;</l>
+       <l>It was my fame.—'Tis a rich jewel, Percy,</l>
+       <l>And I must keep it spotless, and unsoil'd:</l>
+       <l>But thou wou'dst plunder what e'en Douglas spar'd,</l>
+       <l>And rob this single gem of all its brightness.</l>
+      </sp>
+      <sp who="#percy">
+       <pb n="48" facs="60"/>
+       <speaker>PERCY.</speaker>
+       <l>Go—thou wast born to rule the fate of Percy.</l>
+       <l>Thou art my conqueror still.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>What noise is that?</l>
+       <stage>Harcourt goes to the side of the Stage.</stage>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>Why art thou thus alarm'd?</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Alas! I feel</l>
+       <l>The cowardice and terrors of the wicked.</l>
+       <l>Without their sense of guilt.</l>
+      </sp>
+      <sp who="#harcourt">
+       <speaker>HARCOURT.</speaker>
+       <l>My lord, 'tis Douglas.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Fly, Percy, and for ever?</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>Fly from Douglas?</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Then stay, barbarian, and at once destroy My life and fame.</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>That thought is death. I go.</l>
+       <l>My honour to thy dearer honour yields.</l>
+      </sp>
+      <sp who="#elwina">
+       <pb n="49" facs="61"/>
+       <speaker>ELWINA</speaker>
+       <l>Yet, yet thou art not gone!</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY</speaker>
+       <l>Farewel, farewel!</l>
+       <stage>Exit Percy.</stage>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>I dare not meet the searching eye of Douglas.</l>
+       <l>I must conceal my terrors;</l>
+      </sp>
+      <stage>Douglas at the Side with his sword drawn, Edric holds him</stage>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Give me way.</l>
+      </sp>
+      <sp who="#edric">
+       <speaker>EDRIC.</speaker>
+       <l>Thou shalt not enter.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS</speaker>
+       <stage>struggling with Edric:</stage>
+       <l>If there were no hell,</l>
+       <l>It wou'd defraud my vengeance of it's edge,</l>
+       <l>And he shou'd live.</l>
+       <stage>(Breaks from Edric and comes forward.)</stage>
+       <l>Curs'd chance! he is not here;</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Let us retire, my friend, the storm is up;</l>
+       <l>dare not meet its fury.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>See she flies</l>
+       <l>With ev'ry mark of guilt.—Go search the Bow'r,</l>
+       <stage>Aside to Edric.</stage>
+       <l>
+        <pb n="50" facs="62"/>He shall not thus escape. Madam, return.</l>
+       <stage>Aloud.</stage>
+       <l>Now honest Douglas learn of her to feign.</l>
+       <stage>Aside.</stage>
+       <l>Alone, Elwina? who just parted hence?</l>
+       <stage>With affected composure.</stage>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>My lord, 'twas Harcourt; sure you must have met him.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>O exquisite dissembler! No one else?</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>My lord!</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>How I enjoy her criminal confusion!</l>
+       <l>You tremble, Madam.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Wherefore shou'd I tremble?</l>
+       <l>By your permission Harcourt was admitted;</l>
+       <l>'Twas no mysterious, secret introduction.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>And yet you seem alarm'd. If Harcourt's presence</l>
+       <l>Thus agitates each nerve, makes ev'ry pulse</l>
+       <l>Thus wildly throb, and the warm tides of blood,</l>
+       <l>Mount in quick rushing tumults to your cheek;</l>
+       <l>If friendihip can excite such strong emotions,</l>
+       <l>What tremors had a lover's presence caus'd?</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Ungenerous man!</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <pb n="51" facs="63"/>
+       <speaker>DOUGLAS.</speaker>
+       <l>I feast upon her terrors.</l>
+       <stage>Aside.</stage>
+       <l>The story of his death was well contriv'd,</l>
+       <stage>to her.</stage>
+       <l>But it affects not me; I have a wife,</l>
+       <l>Compar'd with whom cold Dian was unchaste.</l>
+       <stage>Takes her hand.</stage>
+       <l>But mark me well—tho' it concerns not you—</l>
+       <l>If there's a sin more deeply black than others,</l>
+       <l>Distinguish'd from the list of common crimes,</l>
+       <l>A legion in itself, and doubly dear</l>
+       <l>To the dark prince of hell, it is—hypocrisy.</l>
+       <stage>Throws her from him and Exit.</stage>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Yes, I will bear his fearful indignation!</l>
+       <l>Thou melting heart be firm as adamant;</l>
+       <l>Ye shatter'd nerves be strung with manly force,</l>
+       <l>That I may conquer all my sex's weakness,</l>
+       <l>Nor let this bleeding bosom lodge one thought,</l>
+       <l>Cherish one wish, or harbour one desire,</l>
+       <l>That angels may not hear, and Douglas know.</l>
+      </sp>
+      <trailer>End of the Third Act.</trailer>
+     </div>
+    </div>
+    <div n="4" type="act">
+     <pb n="52" facs="64"/>
+     <head>ACT IV.</head>
+     <div type="scene">
+      <head>SCENE, <stage>
+        <hi>The Hall.</hi>
+       </stage>
+      </head>
+      <stage>
+       <hi>Enter</hi> DOUGLAS, <hi>his sword drawn and bloody in one hand, in the other a letter.</hi> HARCOURT <hi>wounded.</hi>
+      </stage>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>TRAYTOR no more. This letter shews thy office.</l>
+       <l>Twice hast thou robb'd me of my dear revenge.</l>
+       <l>I took thee for thy leader.—Thy base blood</l>
+       <l>Wou'd stain the noble temper of my sword,</l>
+       <l>But as the pander to thy master's lust,</l>
+       <l>Thou justly fall'st by a wrong'd husband's hand.</l>
+      </sp>
+      <sp who="#harcourt">
+       <speaker>HARCOURT.</speaker>
+       <l>Thy wife is innocent.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Take him away.</l>
+      </sp>
+      <sp who="#harcourt">
+       <speaker>HARCOURT.</speaker>
+       <l>Percy, revenge my fall!</l>
+       <stage>Guards bear Harcourt in.</stage>
+      </sp>
+      <sp who="#earl_douglas">
+       <pb n="53" facs="65"/>
+       <speaker>DOUGLAS.</speaker>
+       <l>Now for the letter!</l>
+       <l>Het begs once more to see her.—so 'tis plain</l>
+       <l>They have already met!—but to the rest—</l>
+       <stage>Reads,</stage>
+       <l>"In vain you wish me to restore the scarf,</l>
+       <l>Dear pledge of love, while I have life I'll wear it,</l>
+       <l>'Tis next my heart; no pow'r shall force it thence.</l>
+       <l>Whene'er you see it in another's hand</l>
+       <l>Conclude me dead."—My curses on them both!</l>
+       <l>How tamely I peruse my shame! But thus,</l>
+       <l>Thus, let me tear the guilty chtacters</l>
+       <l>Which register my infamy. And thus,</l>
+       <l>Thus wou'd I scatter to the winds of heav'n,</l>
+       <l>The vile complotters of my soul dishonour.</l>
+       <stage>Tears the letter in the utmost agitation.</stage>
+      </sp>
+      <stage>
+       <hi>Enter</hi> EDRIC.</stage>
+      <sp who="#edric">
+       <speaker>EDRIC.</speaker>
+       <l>My lord—</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <stage>(in the utmost fury, not seeing Edric)</stage>
+       <l>The scarf!</l>
+      </sp>
+      <sp who="#edric">
+       <speaker>EDRIC.</speaker>
+       <l>Lord Douglas.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS</speaker>
+       <stage>(still not hearing him)</stage>
+       <l>Yes, the scarf!</l>
+       <l>Percy, I thank thee for the glorious thought!</l>
+       <l>I'll cherish it; 'twill sweeten all my pangs,</l>
+       <l>And add a higher relish to revenge!</l>
+      </sp>
+      <sp who="#edric">
+       <pb n="54" facs="66"/>
+       <speaker>EDRIC.</speaker>
+       <l>My lord!</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>How, Edric here?</l>
+      </sp>
+      <sp who="#edric">
+       <speaker>EDRIC.</speaker>
+       <l>What new distress?</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Dost thou expect I shou'd recount my shame?</l>
+       <l>Dwell on each circumstance of my disgrace,</l>
+       <l>And swell my infamy into a tale?</l>
+       <l>Rage will not let me—But—my wife is false.</l>
+      </sp>
+      <sp who="#edric">
+       <speaker>EDRIC.</speaker>
+       <l>Art thou convinc'd?</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>The chronicles of hell</l>
+       <l>Cannot produce a falser.—But what news</l>
+       <l>Of her curs'd paramour?</l>
+      </sp>
+      <sp who="#edric">
+       <speaker>EDRIC.</speaker>
+       <l>He has escap'd.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Hast thou examin'd ev'ry avenue?</l>
+       <l>Each spot? The grove? the bower, her fav'rite haunt?</l>
+      </sp>
+      <sp who="#edric">
+       <speaker>EDRIC.</speaker>
+       <l>I've scarch'd them all.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <pb n="55" facs="67"/>
+       <speaker>DOUGLAS.</speaker>
+       <l>He shall be yet pursu'd.</l>
+       <l>Set guards at every gate—Let none depart,</l>
+       <l>Or gain admittance here without my knowledge,</l>
+      </sp>
+      <sp who="#edric">
+       <speaker>EDRIC.</speaker>
+       <l>What can their purpose be?</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Is it not clear?</l>
+       <l>Harcourt has rais'd his arm against my life?</l>
+       <l>He fail'd; the blow is now reserv'd for Percy;</l>
+       <l>Then with his sword fresh reeking from my heart,</l>
+       <l>He'll revel with that wanton o'er my tomb;</l>
+       <l>Nor will he bring her ought she'll hold so dear,</l>
+       <l>As the curs'd hand with which he slew her husband.</l>
+       <l>But he shall die! I'll drown my rage in blood,</l>
+       <l>Which I will offer as a rich libation,</l>
+       <l>On thy infernal altar, black Revenge!</l>
+       <stage>Exeunt.</stage>
+      </sp>
+     </div>
+     <div type="scene">
+      <head>
+       <stage>SCENE <hi>changes to the Garden.</hi>
+       </stage>
+      </head>
+      <stage>
+       <hi>Enter</hi> ELWINA.</stage>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Each avenue is so beset with guards,</l>
+       <l>And lynx-ey'd Jealousy so broad awake,</l>
+       <l>He cannot pass unseen. Protect him heav'n!</l>
+       <stage>
+        <hi>Enter</hi> Birtha.</stage>
+       <l>My Birtha, is he safe? Has he escap'd?</l>
+      </sp>
+      <sp who="#birtha">
+       <pb n="56" facs="68"/>
+       <speaker>BIRTHA.</speaker>
+       <l>I know not. I dispatch'd young Harcourt to him</l>
+       <l>To bid him quit the Castle, as you order'd,</l>
+       <l>Restore the scarf, and never see you more.</l>
+       <l>But how the hard injunction was receiv'd,</l>
+       <l>Or what has happen'd since, I'm yet to learn,</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>O when shall I be eas'd of all my cares,</l>
+       <l>And in the quiet bosom of the grave</l>
+       <l>Lay down this weary head?—I'm sick at heart</l>
+       <l>Shou'd. Douglas intercept his flight?</l>
+      </sp>
+      <sp who="#birtha">
+       <speaker>BIRTHA.</speaker>
+       <l>Be calm;</l>
+       <l>Douglas this very moment left the Castle,</l>
+       <l>With seeming peace.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Ah, then indeed there's danger!</l>
+       <l>Birtha, whene'er Suspicion seigns to sleep,</l>
+       <l>'Tis but to make its careless prey secure.</l>
+      </sp>
+      <sp who="#birtha">
+       <speaker>BIRTHA.</speaker>
+       <l>Shou'd Percy once again entreat to see thee;</l>
+       <l>'Twere best admit him; from thy lips alone,</l>
+       <l>He will submit to hear his final doom</l>
+       <l>Of everlasting exile,</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Birtha, no:</l>
+       <l>If honour wou'd allow the wife of Douglas</l>
+       <l>To meet his rival, yet I durst not do it.</l>
+       <l>Percy! too much this rebel heart is thine:</l>
+       <l>
+        <pb n="57" facs="69"/>Too deeply should I feel each pang I gave;</l>
+       <l>I cannot hate—but I will banish thee.</l>
+       <l>Inexorable duty, O forgive,</l>
+       <l>If I can do no more!</l>
+      </sp>
+      <sp who="#birtha">
+       <speaker>BIRTHA.</speaker>
+       <l>If he remains,</l>
+       <l>As I suspect, within the castle walls,</l>
+       <l>'Twere best I sought him out.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Then tell him, Birtha,</l>
+       <l>But Oh! with gentleness, with mercy tell him,</l>
+       <l>'That we must never, never meet again.</l>
+       <l>The purport of thy tale must be severe,</l>
+       <l>But let thy tenderness embalm the wound</l>
+       <l>My virtue gives. O soften his despair;</l>
+       <l>But say—we meet no more.</l>
+       <stage>
+        <hi>Enter</hi> Percy.</stage>
+       <l>Rash man, he's here!</l>
+       <stage>(She attempts to go, he seizes her hand.)</stage>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>I will be heard; nay, fly not; I will speak;</l>
+       <l>Lost as I am, I will not be denied</l>
+       <l>The mournful consolation to complain.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Percy, I charge thee, leave me.</l>
+      </sp>
+      <sp who="#percy">
+       <pb n="58" facs="70"/>
+       <speaker>PERCY.</speaker>
+       <l>Tyrant, no:</l>
+       <l>I blush at my obedience, blush to think</l>
+       <l>I left thee here alone, to brave the danger</l>
+       <l>I now return to share.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>That danger's past:</l>
+       <l>Douglas was soon appeas'd; he nothing knows.</l>
+       <l>Then leave me I conjure thee, nor again</l>
+       <l>Endanger my repose. Yet, e'er thou goest,</l>
+       <l>Restore the scarf.</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>Unkind Elwina, never.</l>
+       <l>'Tis all that's left me of my buried, joys,</l>
+       <l>All, which' reminds me that I once was happy.</l>
+       <l>My letter told thee! wou'd ne'er restore it.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Letter? what letter?</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>That I sent by Harcourt.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Which I have ne'er receiv'd. Douglas, perhaps—Who knows?</l>
+      </sp>
+      <sp who="#birtha">
+       <speaker>BIRTHA.</speaker>
+       <l>Harcourt, t' elude his watchfulness,</l>
+       <l>Might prudently retire.</l>
+      </sp>
+      <sp who="#elwina">
+       <pb n="59" facs="71"/>
+       <speaker>ELWINA.</speaker>
+       <l>Grant heav'n it prove so!</l>
+      </sp>
+      <stage>(Elwina going, Percy holds her.)</stage>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>Hear me, Elwina, the most savage honour</l>
+       <l>Forbids not that poor grace.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>It bids me fly thee,</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>Then e'er thou go'st, if we indeed must part,</l>
+       <l>To sooth the horrors of eternal exile,</l>
+       <l>Say but—thou pity'st me!</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA. </speaker>
+       <stage>(weeps.)</stage>
+       <l>O Percy—pity thee!</l>
+       <l>Imperious honour!—surely I may pity him.</l>
+       <l>Yet, wherefore pity? no, I envy thee:</l>
+       <l>For thou hast still the liberty to weep,</l>
+       <l>in thee 'twill be no crime; thy tears are guiltless,</l>
+       <l>For they infringe no duty, stain no honour,</l>
+       <l>And blot no vow: But mine are criminal,</l>
+       <l>Are drops of shame which wash the cheek of guilt,</l>
+       <l>And every tear I shed dishonours Douglas.</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>I swear my jealous love e'en grudges thee</l>
+       <l>Thy sad pre-eminence in wretchedness.</l>
+      </sp>
+      <sp who="#elwina">
+       <pb n="60" facs="72"/>
+       <speaker>ELWINA.</speaker>
+       <l>Rouse, rouse, my slumb'ring virtue! Percy, hear me.</l>
+       <l>Heav'n, when it gives such high-wrought souls as thine,</l>
+       <l>Still gives as great occasions to exert them.</l>
+       <l>If thou wast form'd so noble, great, and gen'rous,</l>
+       <l>'Twas to surmount the passions which enslave</l>
+       <l>The gross of humankind.—Then think, O think,</l>
+       <l>She, whom thou once didst love, is now another's.</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>Go on—and tell me that that other's Douglas.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Whate'er his name, he claims respect from me:</l>
+       <l>His honour's in my keeping, and I hold</l>
+       <l>The trust so pure, its sanctity is hurt,</l>
+       <l>Ev'n by thy presence.</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>Thou again hast conquer'd.</l>
+       <l>Celestial Virtue, like the angel-spirit,</l>
+       <l>Whose flaming sword defended Paradise,</l>
+       <l>Stands guard on ev'ry charm.—Elwina, yes,</l>
+       <l>To triumph over Douglas, we'll be virtuous.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>'Tis not enough to be,—we must appear so:</l>
+       <l>Great souls disdain the shadow of offence,</l>
+       <l>Nor must their whiteness wear the stain of guilt.</l>
+      </sp>
+      <sp who="#percy">
+       <pb n="61" facs="73"/>
+       <speaker>PERCY.</speaker>
+       <l>I shall retract—I dare not gaze upon thee;</l>
+       <l>My feeble virtue staggers, and again</l>
+       <l>The fiends of jealousy torment and haunt me.</l>
+       <l>They tear my heart-strings.—Oh!</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>No more;</l>
+       <l>But spare my injur'd honour the affront</l>
+       <l>To vindicate, itself.</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>But love!</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>But glory!</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>Enough! a ray of thy sublimer spirit,</l>
+       <l>Has wann'd my dying honour to a flame!</l>
+       <l>One effort, and 'tis done. The world shall say,</l>
+       <l>When they shall speak of my disastrous love,</l>
+       <l>Percy deserv'd Elwina though he lost her.</l>
+       <l>Fond tears blind me not yet! a little longer,</l>
+       <l>Let my sad eyes a little longer gaze,</l>
+       <l>And leave their last beams here.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <stage>turns from him.</stage>
+       <l>I do not weep.</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>Not weep? Then why those eyes avoiding mine?</l>
+       <l>
+        <pb n="62" facs="74"/>And why that broken voice? those trembling accents?</l>
+       <l>That sigh which rends my soul?</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>No more, no more.</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>That pang decides it. Come—I'll die at once;</l>
+       <l>Thou pow'r supreme! take all the length of days,</l>
+       <l>And all the blessings kept in store for me,</l>
+       <l>And add to her account;—Yet turn once more.</l>
+       <l>One little look, one last, short glimpse of day,</l>
+       <l>And then a long, dark night.—Hold, hold my heart.</l>
+       <l>O break not yet, while I behold her sweetness;</l>
+       <l>For after this dear, mournful, tender moment,</l>
+       <l>I shall have nothing more to do with life,</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>I do conjure thee go.</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>'Tis terrible to nature?</l>
+       <l>With pangs like these the soul and body part!</l>
+       <l>And thus, but Oh, with far less agony,</l>
+       <l>The poor departing wretch still grasps at being,</l>
+       <l>Thus clings to life, thus dreads the dark unknown,</l>
+       <l>Thus struggles to the last to keep his hold;</l>
+       <l>And when the dire convulsive groan of death</l>
+       <l>Dislodges the sad spirit—thus it stays,</l>
+       <l>And fondly hovers o'er the form it lov'd.</l>
+       <l>Once, and no more—farewel, farewel!</l>
+      </sp>
+      <sp who="#elwina">
+       <pb n="63" facs="75"/>
+       <speaker>ELWINA.</speaker>
+       <l>For ever!</l>
+       <stage>They look at each other for some time, then</stage>
+       <stage>Exit Percy.</stage>
+       <stage>After a pause,</stage>
+       <l>'Tis past—the conflict's past! retire, my Birtha,</l>
+       <l>I wou'd address me to the throne of grace.</l>
+      </sp>
+      <sp who="#birtha">
+       <speaker>BIRTHA.</speaker>
+       <l>May heav'n restore that peace thy bosom wants?</l>
+       <stage>Exit Birtha.</stage>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <stage>kneels.</stage>
+       <l>Look, down, thou awful, heart-inspecting judge,</l>
+       <l>Look down, with mercy, on thy erring creature,</l>
+       <l>And teach my soul the lowliness it needs!</l>
+       <l>And if some sad remains of human weakness,</l>
+       <l>Shou'd sometimes mingle with my best resolves,</l>
+       <l>O breathe thy spirit on this wayward heart,</l>
+       <l>And teach me to repent th' intruding sin,</l>
+       <l>In its first birth of thought!</l>
+       <stage>(Noise without)</stage>
+       <l>What noise is that?</l>
+       <l>The clash of swords! Shou'd Douglas be return'd?</l>
+      </sp>
+      <stage>
+       <hi>Enter</hi> Douglas <hi>and</hi> Percy <hi>fighting.</hi>
+      </stage>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Yield, villain, yield.</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>Not till this good right arm</l>
+       <l>Shall fail its master.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <pb n="64" facs="76"/>
+       <speaker>DOUGLAS.</speaker>
+       <l>This to thy heart then.</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>Defend thy own.</l>
+       <stage>(They fight. Percy disarms Douglas.)</stage>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Confusion, death, and hell!</l>
+      </sp>
+      <sp who="#edric">
+       <speaker>EDRIC. </speaker>
+       <stage>(Without.)</stage>
+       <l>This way I heard the noise.</l>
+       <stage>(Enter Edric and many Knights and Guards from every part of the Stage.)</stage>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>Curs'd treachery!</l>
+       <l>But dearly will I sell my life.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Seize on him.</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>I'm taken in the toils.</l>
+       <stage>Percy is surrounded by Guards, who take his sword.</stage>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>In the curs'd snare</l>
+       <l>Thou laid'st for me, traytor, thyself art caught.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>He never sought thy life.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <pb n="65" facs="77"/>
+       <speaker>DOUGLAS.</speaker>
+       <l>Adulteress, peace.</l>
+       <l>The villain Harcourt too—but he's at rest.</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>Douglas, I'm in thy pow'r; but do not triumph,</l>
+       <l>Percy's <hi>betray'd,</hi> not <hi>conquer'd.</hi> Come, dispatch me.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA. </speaker>
+       <stage>(to Douglas.)</stage>
+       <l>O do not, do not kill him!</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>Madam, forbear;</l>
+       <l>For by the glorious shades of my great fathers,</l>
+       <l>Their godlike spirit is not so extinct,</l>
+       <l>That I shou'd owe my life to that vile Scot.</l>
+       <l>Tho' dangers close me round on every side,</l>
+       <l>And death besets me—I am Percy still.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Sorceress, I'll disappoint thee—he shall die;</l>
+       <l>Thy minion shall expire before thy face,</l>
+       <l>That I may feast my hatred with your pangs,</l>
+       <l>And make his dying groans, and thy fond tears,</l>
+       <l>A banquet for my vengeance.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Savage tyrant!</l>
+       <l>I wou'd have fall'n a silent sacrifice,</l>
+       <l>So thou had'st spar'd my fame. I never wrong'd thee,</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>She knew not of my coming; I alone,</l>
+       <l>Have been to blame—spite of her interdiction,</l>
+       <l>I hither came. She's pure as spotless saints.</l>
+      </sp>
+      <sp who="#elwina">
+       <pb n="66" facs="78"/>
+       <speaker>ELWINA.</speaker>
+       <l>I will not be excus'd by Percy's crime;</l>
+       <l>So white my innocence, it does not ask</l>
+       <l>The shade of others' faults to set it off;</l>
+       <l>Nor shall he need to fully his fair fame,</l>
+       <l>To throw a brighter lustre round my virtue.</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>Enough of words. Thou know'st. I hate thee, Douglas;</l>
+       <l>'Tis stedfast, fix'd, hereditary hate,</l>
+       <l>As thine for me; our fathers did bequeath it,</l>
+       <l>As part of our unalienable birthright,</l>
+       <l>Which nought but death can end.—Come, end it here.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA. </speaker>
+       <stage>(kneels.)</stage>
+       <l>Hold, Douglas, hold!—not for myself I kneel,</l>
+       <l>I do not plead for Percy, but for thee:</l>
+       <l>Arm not thy hand against thy future peace,</l>
+       <l>Spare thy brave breast the tortures of remorse,—</l>
+       <l>Stain not a life of unpolluted, honour,</l>
+       <l>For oh! as surely as thou strik'st at Percy,</l>
+       <l>Thou wilt for ever stab the same of Douglas.</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>Finish the bloody work.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <pb n="67" facs="79"/>
+       <speaker>DOUGLAS.</speaker>
+       <l>Then take thy wish.</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>Why dost thou start?</l>
+       <stage>Percy bares his bosom, Douglas advances to stab him, and discovers the Scarf.</stage>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Her scarf upon his breast!</l>
+       <l>The blasting sight converts me into stone;</l>
+       <l>Withers my powers like cowardice, or age,</l>
+       <l>Curdles the blood within my shiv'ring veins,</l>
+       <l>And palsies my bold arm.</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY. </speaker>
+       <stage>(ironically to the Knights.)</stage>
+       <l>Hear you, his friends!</l>
+       <l>Bear witness to the glorious, great exploit,</l>
+       <l>Record it in the annals of his race,</l>
+       <l>That Douglas the renown'd—the valiant Douglas.</l>
+       <l>Fenc'd round with guards, and safe in his own castle,</l>
+       <l>Surpris'd a knight unarm'd, and bravely slew him.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS. </speaker>
+       <stage>(throwing away his dagger.)</stage>
+       <l>'Tis true—I am the very stain of knighthood.</l>
+       <l>How is my glory dimm'd!</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>It blazes brighter!</l>
+       <l>Douglas was only brave—he now is gen'rous!</l>
+      </sp>
+      <sp who="#percy">
+       <pb n="68" facs="80"/>
+       <speaker>PERCY.</speaker>
+       <l>This action has restor'd thee to thy rank,</l>
+       <l>And makes thee worthy to contend with Percy.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Thy joy will be as short, as tis insulting.</l>
+       <stage>(to Elwina.)</stage>
+       <l>And thou, imperious boy, restrain thy boasting.</l>
+       <l>Thou hast sav'd my honour, not remov'd my hate,</l>
+       <l>For my soul loaths thee for the obligation.</l>
+       <l>Give him his sword.</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>Now thou'rt a noble foe,</l>
+       <l>And in the field of honour I will meet thee,</l>
+       <l>As knight encountring knight.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Stay, Percy, stay,</l>
+       <l>Strike at the wretched cause of all, strike here,</l>
+       <l>Here sheathe thy thirsty sword, but spare my husband.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Turn, Madam, and address those vows to me,</l>
+       <l>To spare the precious life of him you love.</l>
+       <l>Ev'n now you triumph in the death of Douglas,</l>
+       <l>Now your loose fancy kindles at the thought,</l>
+       <l>And wildly rioting in lawless hope,</l>
+       <l>Indulges the adultery of the mind.</l>
+       <l>But I'll defeat that wish.—Guards bear her in.</l>
+       <l>Nay, do not struggle.</l>
+       <stage>She is borne in.</stage>
+      </sp>
+      <sp who="#percy">
+       <pb n="69" facs="81"/>
+       <speaker>PERCY.</speaker>
+       <l>Let our death's suffice,</l>
+       <l>And rev'rence virtue in that form inshrin'd,</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Provoke my rage no farther.—I have kindled</l>
+       <l>The burning torch of never-dying vengeance</l>
+       <l>At Love's expiring lamp.—But mark me, friends,</l>
+       <l>If Percy's happier genius shou'd prevail,</l>
+       <l>And I shou'd fall, give him safe conduct hence,</l>
+       <l>Be all observance paid him.—Go—I follow thee.</l>
+       <stage>Aside to Edric.</stage>
+       <l>Within I've something for thy private ear.</l>
+      </sp>
+      <sp who="#percy">
+       <speaker>PERCY.</speaker>
+       <l>Now shall this mutual fury be appeas'd!</l>
+       <l>These eager hands shall soon be drench'd in slaughter!</l>
+       <l>Yes—like two famish'd vultures snuffing blood,</l>
+       <l>And panting to destroy, we'll rush to combat;</l>
+       <l>Yet I've the deepest, deadliest cause of hate,</l>
+       <l>I'm but Percy, thou'rt—Elwina's husband.</l>
+      </sp>
+      <trailer>End of the Fourth Act.</trailer>
+     </div>
+    </div>
+    <div n="5" type="act">
+     <pb n="70" facs="82"/>
+     <head>ACT V.</head>
+     <div type="scene">
+      <head>SCENE, <stage>
+        <hi>Elwina's Apartment.</hi>
+       </stage>
+      </head>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>THOU who in judgment still remember'st mercy,</l>
+       <l>Look, down upon my woes, preserve. my husband,</l>
+       <l>Preserve my husband! Ah, I dare not ask it;</l>
+       <l>If Douglas shou'd survive, what then becomes</l>
+       <l>Of—him—I dare not name? And if he conquers</l>
+       <l>I have no husband. Agonizing state!</l>
+       <l>When I can neither hope, nor think, nor pray,</l>
+       <l>But guilt involves me. Sure to know the worst,</l>
+       <l>Cannot exceed the torture of suspense,</l>
+       <l>When each event is big with equal horror.</l>
+       <stage>Looks out.</stage>
+       <l>What no one yet? This solitude is dreadful!</l>
+       <l>My horrors multiply!</l>
+       <stage>
+        <hi>Enter</hi> Birtha.</stage>
+       <l>Thou messenger of woe!</l>
+      </sp>
+      <sp who="#birtha">
+       <speaker>BIRTHA.</speaker>
+       <l>Of woe indeed!</l>
+      </sp>
+      <sp who="#elwina">
+       <pb n="71" facs="83"/>
+       <speaker>ELWINA.</speaker>
+       <l>How, is my husband dead?</l>
+       <l>Oh speak.</l>
+      </sp>
+      <sp who="#birtha">
+       <speaker>BIRTHA.</speaker>
+       <l>Your husband lives.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Then farewel Percy!</l>
+       <l>He was the tenderes;t, truest!—Bless him heav'n,</l>
+       <l>With crowns of glory, and immortal joys!</l>
+      </sp>
+      <sp who="#birtha">
+       <speaker>BIRTHA.</speaker>
+       <l>Still are you wrong; the combat is not over.</l>
+       <l>Stay flowing tears, and give me leave to speak.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Thou say'st that Percy and my husband live;</l>
+       <l>Then why this sorrow?</l>
+      </sp>
+      <sp who="#birtha">
+       <speaker>BIRTHA.</speaker>
+       <l>What a talk is mine?</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Thou talk'st as if I were a child in grief,</l>
+       <l>And scarce acquainted with calamity.</l>
+       <l>Speak out, unfold thy tale whate'er it be,</l>
+       <l>For I am so familiar with affliction,</l>
+       <l>It cannot come in any shape will shock me.</l>
+      </sp>
+      <sp who="#birtha">
+       <speaker>BIRTHA.</speaker>
+       <l>How shall I speak? Thy husband—</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>What of Douglas?</l>
+      </sp>
+      <sp who="#birtha">
+       <pb n="72" facs="84"/>
+       <speaker>BIRTHA.</speaker>
+       <l>When all was ready for the fatal combat,</l>
+       <l>He call'd his chosen knights, then drew his sword,</l>
+       <l>And on it made them swear a solemn oath,</l>
+       <l>Confirm'd by ev'ry rite religion bids,</l>
+       <l>That they wou'd see perform'd his last request,</l>
+       <l>Be it whate'er it wou'd. Alas! they swore.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>What did the dreadful preparation mean?</l>
+      </sp>
+      <sp who="#birtha">
+       <speaker>BIRTHA.</speaker>
+       <l>Then to their hands he gave a poison'd cup,</l>
+       <l>Compounded of the deadliest herbs, and drugs;</l>
+       <l>Take this, said he, it is a husband's legacy;</l>
+       <l>Percy may conquer—and—I have a wife!</l>
+       <l>If Douglas falls, Elwina must not live.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Spirit of Herod! Why 'twas greatly thought!</l>
+       <l>'Twas worthy of the bosom which conceiv'd it!</l>
+       <l>Yet 'twas too merciful to be his own.</l>
+       <l>Yes, Douglas, yes, my husband, I'll obey thee,</l>
+       <l>And bless thy genius which has found the means</l>
+       <l>To reconcile thy vengeance with my peace,</l>
+       <l>The deadly means to make obedience pleasant.</l>
+      </sp>
+      <sp who="#birtha">
+       <speaker>BIRTHA.</speaker>
+       <l>O spare, for pity spare my bleeding heart:</l>
+       <l>Inhuman to the last. Unnatural! poison!</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>My gentle friend, what is there in a name?</l>
+       <l>The means are little where the end is kind.</l>
+       <l>If it disturb thee do not call it poison;</l>
+       <l>Call it the sweet oblivion of my cares,</l>
+       <l>My balm of woe, my cordial of affliction,</l>
+       <l>
+        <pb n="73" facs="85"/>The drop of mercy to my fainting soul,</l>
+       <l>My kind dismission from a world of sorrow,</l>
+       <l>My cup of bliss, my passport to the skies,</l>
+      </sp>
+      <sp who="#birtha">
+       <speaker>BIRTHA.</speaker>
+       <l>Hark! what alarm is that?</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>The combat's over!</l>
+       <stage>Birtha goes out.</stage>
+       <stage>(Elwina stands in a fix'd attituide, her hands clasp'd.)</stage>
+       <l>Now gracious heav'n sustain me in the trial,</l>
+       <l>And bow my spirit to thy great decrees!</l>
+      </sp>
+      <stage>
+       <hi>Re-enter</hi> BIRTHA.</stage>
+      <stage>(Elwina looks stedfastly at her without speaking.)</stage>
+      <sp who="#birtha">
+       <speaker>BIRTHA.</speaker>
+       <l>Douglas is fall'n.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Bring me the poison.</l>
+      </sp>
+      <sp who="#birtha">
+       <speaker>BIRTHA.</speaker>
+       <l>Never.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Where are the knights? I summon you—approach!</l>
+       <l>Draw near ye awful ministers of fate,</l>
+       <l>Dire instruments of posthumous revenge!</l>
+       <l>Come—I am ready; but your tardy justice</l>
+       <l>Defrauds the injur'd dead.—Go, haste, my friend,</l>
+       <l>Sec that the castle be securely guarded,</l>
+       <l>Let ev'ry gate be barr'd—prevent his entrance.</l>
+      </sp>
+      <sp who="#birtha">
+       <pb n="74" facs="86"/>
+       <speaker>BIRTHA.</speaker>
+       <l>Whose entrance?</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>His—the murderer of my husband.</l>
+      </sp>
+      <sp who="#birtha">
+       <speaker>BIRTHA.</speaker>
+       <l>He's single, we have hosts of friends.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>No matter;</l>
+       <l>Who knows what love and madness may attempt?</l>
+       <l>But here I swear by all that binds the good,</l>
+       <l>Never to see him more.—Unhappy Douglas!</l>
+       <l>O if thy troubled spirit still is conscious</l>
+       <l>Of our past woes, look down and hear me swear,</l>
+       <l>That when the legacy thy rage bequeathed me,</l>
+       <l>Works at my heart, and conquers struggling nature,</l>
+       <l>Ev'n in that agony I'll still be faithful.</l>
+       <l>She who cou'd never love, shall yet obey thee,</l>
+       <l>Weep thy hard fate, and die to prove her truth.</l>
+      </sp>
+      <sp who="#birtha">
+       <speaker>BIRTHA.</speaker>
+       <l>O unexampled virtue!</l>
+       <stage>a noise without.</stage>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Heard you nothing?</l>
+       <l>By all my fears th' insulting conqueror comes.</l>
+       <l>O save me, shield me!</l>
+       <stage>
+        <hi>Enter</hi> DOUGLAS.</stage>
+       <l>Heav'n and earth, my husband!</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Yes—</l>
+       <l>To blast thee with the sight of him thou hat'st,</l>
+       <l>
+        <pb n="75" facs="87"/>Of him thou hast wrong'd, Adulteress, <hi>'tis</hi> thy husband.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA. </speaker>
+       <stage>(kneels.)</stage>
+       <l>Blest be the fountain of eternal mercy,</l>
+       <l>This load of guilt is spar'd me! Douglas lives!</l>
+       <l>Perhaps both live! <stage>(to Birtha)</stage> Cou'd I be sure of that,</l>
+       <l>The poison were superfluous, joy wou'd kill me.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Be honest now; for once, and curse thy stars;</l>
+       <l>Curse thy detested fate which brings thee back</l>
+       <l>A hated husband, when thy guilty soul</l>
+       <l>Revell'd in fond, imaginary joys</l>
+       <l>With my too happy rival; when thou slew'st,</l>
+       <l>To gratify, impatient, boundless passion,</l>
+       <l>And join adulterous lust to bloody murder;</l>
+       <l>Then to reverse the scene! polluted woman!</l>
+       <l>Mine is the transport now, and thine the pang.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Whence sprung the false report that thou had'st fall'n?</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>To give thy guilty breast a deeper wound,</l>
+       <l>To add a deadlier sting to disappointment,</l>
+       <l>I rais'd it—I contriv'd—I sent it thee.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Thou seest me bold but bold in conscious virtue.</l>
+       <l>—That my sad soul may not be stain'd with blood,</l>
+       <l>That I may spend my few short hours in peace,</l>
+       <l>And die in holy hope of heav'n's forgiveness,</l>
+       <l>Relieve the terrors of my lab'ring breast,</l>
+       <l>Say I am clear of murder—say he lives.</l>
+       <l>Say but that little word that Percy lives,</l>
+       <l>
+        <pb n="76" facs="88"/>And Alps, and Oceans shall divide us ever,</l>
+       <l>As far as universal space can part us.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Canst thou renounce him?</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Tell me that he lives,</l>
+       <l>And thou shalt be the ruler of my fate,</l>
+       <l>For ever hide me in a convent's gloom,</l>
+       <l>From cheerful day-light, and the haunts of men;</l>
+       <l>Where sad austerity, and ceaseless pray'r,</l>
+       <l>Shall share my uncomplaining day between them.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>O hypocrite! now vengeance to thy office.</l>
+       <l>I had forgot—Percy commends him to thee,</l>
+       <l>And by my hand—</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>How—by thy hand?</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Has sent thee,</l>
+       <l>This precious pledge of love.</l>
+       <stage>(He gives her Percy's Scarf.)</stage>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Then Percy's dead!</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>He is.—O great revenge, thou now art mine!</l>
+       <l>See how convulsive sorrow rends her frame!</l>
+       <l>This, this is transport!—injur'd honour, now,</l>
+       <l>Receives its vast, its ample retribution.</l>
+       <l>She sheds no tears, her grief's too highly wrought;</l>
+       <l>
+        <pb n="77" facs="89"/>'Tis speechless agony.—She must not faint—</l>
+       <l>She shall not 'scape her portion of the pain.</l>
+       <l>No! she, shall feel the fulness of distress,</l>
+       <l>And wake to keen perception of her loss.</l>
+      </sp>
+      <sp who="#birtha">
+       <speaker>BIRTHA.</speaker>
+       <l>Monster! Barbarian! leave her to her sorrows.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA. </speaker>
+       <stage>(In a low broken voice.)</stage>
+       <l>Douglas—think not I faint, because thou see'st</l>
+       <l>The pale, and bloodless cheek of wan despair.</l>
+       <l>Fail me not yet, my spirits; thou cold heart,</l>
+       <l>Cherish thy freezing current one short moment,</l>
+       <l>And bear thy mighty load a little longer.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Percy, I must avow it, bravely sought;—</l>
+       <l>Died as a hero shou'd;—but, as he fell,</l>
+       <l>Hear it, fond wanton, call'd upon thy name,</l>
+       <l>And his lastly guilty breath. sigh'd out—Elwina!</l>
+       <l>Come—give a loose to rage, and feed my soul</l>
+       <l>With wild complaints, and womanish upbraidings.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA. </speaker>
+       <stage>(In a low solemn voice.)</stage>
+       <l>No:</l>
+       <l>The sorrow's weak that wastes itself in words.</l>
+       <l>Mine is substantial anguish—deep, not loud;</l>
+       <l>I do not rave.—Resentment's the return</l>
+       <l>Of common souls for common injuries.</l>
+       <l>Light grief is proud of state, and courts compassion;</l>
+       <l>But there's a dignity in cureless sorrow,</l>
+       <l>A sullen grandeur which disdains complaint.</l>
+       <l>Rage is for little wrongs—Despair is dumb.</l>
+       <stage>Exeunt Elwina and Birtha.</stage>
+      </sp>
+      <sp who="#earl_douglas">
+       <pb n="78" facs="90"/>
+       <speaker>DOUGLAS.</speaker>
+       <l>Why this is well!—her sense of woe is strong!</l>
+       <l>The sharp, keen tooth of gnawing Grief devours her,—</l>
+       <l>Feeds on her heart, and pays me back my pangs.</l>
+       <l>Since I must perish, 'twill be glorious ruin:</l>
+       <l>I fall not singly; but, like some proud tower,</l>
+       <l>I'll crush surrounding objects in the wreck,</l>
+       <l>And make the devastation wide and dreadful.</l>
+      </sp>
+      <stage>
+       <hi>Enter</hi> RABY.</stage>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>O whither shall a wretched father turn?</l>
+       <l>Where fly for comfort? Douglas, art thou here?</l>
+       <l>I do not ask for comfort at thy hands.</l>
+       <l>I'd but one little casket where I lodg'd</l>
+       <l>My precious hoard of wealth, and, like an ideot,</l>
+       <l>I gave my treasure to another's keeping,</l>
+       <l>Who threw away the gem, nor knew its value,</l>
+       <l>But left the plunder'd owner quite a beggar.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>What! art thou come to see thy race dishonour'd,</l>
+       <l>And thy bright sun of glory set in blood?</l>
+       <l>I wou'd have spar'd thy virtues, and thy age,</l>
+       <l>The knowledge of her infamy.</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>Tis false.</l>
+       <l>Had she been base, this sword had drank her blood.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Ha! dost thou vindicate the wanton?</l>
+      </sp>
+      <sp who="#earl_raby">
+       <pb n="79" facs="91"/>
+       <speaker>RABY.</speaker>
+       <l>Wanton?</l>
+       <l>Thou hast defam'd a noble lady's honour—</l>
+       <l>My spotless child—in me behold her champion:</l>
+       <l>The strength of Hercules will nerve this arm,</l>
+       <l>When lifted in defence of innocence.</l>
+       <l>The daughter's virtue for the father's shield,</l>
+       <l>Will make old Raby still invincible.</l>
+       <stage>Offers to draw.</stage>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Forbear.</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>Thou dost disdain my feeble arm,</l>
+       <l>And scorn my age.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>There will be blood enough;</l>
+       <l>Nor need thy wither'd veins, old lord, be drain'd,</l>
+       <l>To swell the copious stream.</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>Thou wilt not kill her?</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Oh, 'tis a day of horror!</l>
+      </sp>
+      <stage>
+       <hi>Enter</hi> EDRIC <hi>and</hi> BIRTHA.</stage>
+      <sp who="#edric">
+       <speaker>EDRIC.</speaker>
+       <l>Where is Douglas?</l>
+       <l>I come to save him from the deadliest crime</l>
+       <l>Revenge did ever meditate.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>What mean'st thou?</l>
+      </sp>
+      <sp who="#edric">
+       <pb n="80" facs="92"/>
+       <speaker>EDRIC.</speaker>
+       <l>This insant fly, and save thy guiltless wife.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Save that persidious—?</l>
+      </sp>
+      <sp who="#edric">
+       <speaker>EDRIC.</speaker>
+       <l>That much injur'd woman.</l>
+      </sp>
+      <sp who="#birtha">
+       <speaker>BIRTHA.</speaker>
+       <l>Unfortunate indeed, but O most innocent!</l>
+      </sp>
+      <sp who="#edric">
+       <speaker>EDRIC.</speaker>
+       <l>In the last solemn article of death,</l>
+       <l>That truth-compelling state, when ev'n bad 'men</l>
+       <l>Fear to speak falsely, Percy clear'd her fame.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>I heard him.—'Twas the guilty fraud of love.</l>
+       <l>The scarf, the scarf! that proof of mutual passion,</l>
+       <l>Giv'n but this day, to ratify their crimes!</l>
+      </sp>
+      <sp who="#birtha">
+       <speaker>BIRTHA.</speaker>
+       <l>What means my lord? Alas! that fatal scarf,</l>
+       <l>Was giv'n long since, a toy of childish friendship;</l>
+       <l>Long e'er your marriage, e'er you knew Elwina.</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>'Tis I am guilty.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Ha!</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>I,—I alone.</l>
+       <l>Confusion, honour, pride, parental fondness</l>
+       <l>
+        <pb n="81" facs="93"/>Distract my soul.—Percy was not to blame,</l>
+       <l>He was—the destin'd husband of Elwina!</l>
+       <l>He lov'd her—was belov'd,—and I approv'd.</l>
+       <l>The tale is long.—I chang'd my purpose since,</l>
+       <l>Forbad their marriage.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>And confirm'd my mis'ry!</l>
+       <l>Twice did they meet to-day—my wife and Percy.</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>I know it.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Ha! thou knew'st of my dishonour?</l>
+       <l>Thou wast a witness, an approving witness,</l>
+       <l>At least a tame one!</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>Percy came, 'tis true,</l>
+       <l>A constant, tender, but a guiltless lover.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>I shall grow mad indeed! a guiltless lover!</l>
+       <l>Percy, the guiltless lover of my wife!</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>He knew, not she was married.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>How? is't possible?</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>Douglas, 'tis true; both, both were innocent:</l>
+       <l>He, of her marriage; she, of his return.</l>
+      </sp>
+      <sp who="#birtha">
+       <speaker>BIRTHA.</speaker>
+       <l>But now, when we believ'd thee dead, she vow'd</l>
+       <l>
+        <pb n="82" facs="94"/>Never to see thy rival. Instantly,</l>
+       <l>Not in a start of momentary passion,</l>
+       <l>But with a martyr's dignity and calmness,</l>
+       <l>She bade me bring the poison.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Had'st thou done it,</l>
+       <l>Despair had been my portion! Fly good Birtha,</l>
+       <l>Find out the suff'ring saint—describe my penitence,</l>
+       <l>And paint my vast extravagance of fondness,</l>
+       <l>Tell her I love, as never mortal lov'd—</l>
+       <l>Tell her I know her virtues, and adore them—</l>
+       <l>Tell her I come, but dare not seek here presence,</l>
+       <l>Till she pronounce my pardon.</l>
+      </sp>
+      <sp who="#birtha">
+       <speaker>BIRTHA.</speaker>
+       <l>I obey.</l>
+       <stage>Exit Birtha.</stage>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>My child is innocent! ye choirs of saints,</l>
+       <l>Catch the blest sounds—my child is innocent!</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>O I will kneel, and sue for her forgiveness,</l>
+       <l>And thou shall help me plead the cause of love,</l>
+       <l>And thou shalt weep—she cannot sure refuse,</l>
+       <l>A kneeling husband, and a weeping father.</l>
+       <l>Thy venerable cheek is wet already.</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>Douglas! it is the dew of grateful joy!</l>
+       <l>My child is innocent! I now wou'd die,</l>
+       <l>Lest fortune shou'd grow weary of her kindness</l>
+       <l>And grudge me this short transport.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <pb n="83" facs="95"/>
+       <speaker>DOUGLAS.</speaker>
+       <l>Where, where is she?</l>
+       <l>My fond impatience brooks not her delay;</l>
+       <l>Quick let me find her, hush her troubled soul,</l>
+       <l>And sooth her into peace!—She comes, she comes,</l>
+       <l>To crown my pardon and reward my love!</l>
+      </sp>
+      <stage>
+       <hi>Enter</hi> Birtha.</stage>
+      <sp who="#birtha">
+       <speaker>BIRTHA.</speaker>
+       <l>O horror; horror, horror!</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Ah what mean'st thou?</l>
+      </sp>
+      <sp who="#birtha">
+       <speaker>BIRTHA.</speaker>
+       <l>Elwina—</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Speak—</l>
+      </sp>
+      <sp who="#birtha">
+       <speaker>BIRTHA.</speaker>
+       <l>Her grief wrought up to frenzy,</l>
+       <l>She has, in her delirium swallow'd poison.</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>Frenzy and poison!</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Both a husband's gift;</l>
+       <l>But thus I do her justice.</l>
+      </sp>
+      <stage>As Douglas goes to stab himself enter Elwina distracted, her hair dishevell'd, Percy's Scarf in her hand.</stage>
+      <sp who="#elwina">
+       <speaker>ELWINA. </speaker>
+       <stage>(goes up to Douglas.)</stage>
+       <l>What blood again? We cannot kill him twice</l>
+       <l>Soft, soft—no violence—he's dead already;—</l>
+       <l>I did it—Yes—I drown'd him with my tears;</l>
+       <l>But hide the cruel deed! I'll scratch him out</l>
+       <l>A shallow grave, and lay the green Sod on it;</l>
+       <l>Aye—and I'll bind the wild briar o'er the turf,</l>
+       <l>And plant a Willow there, a weeping Willow—</l>
+       <stage>She sits on the ground.</stage>
+       <l>
+        <pb n="84" facs="96"/>But look you tell not Douglas, he'll disturb him,</l>
+       <l>He'll pluck the willow up—and plant a thorn,</l>
+       <l>He will not let me sit upon his grave,</l>
+       <l>And sing all day, and weep, and pray all night.</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>Dost thou not know me?</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Yes—I do remember</l>
+       <l>You had a harmless lamb.</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>I had indeed!</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>From all the flock you chose her out a Mate,</l>
+       <l>In sooth a fair one, you bid her love it,</l>
+       <l>But while the Shepherd slept, the Wolf devour'd it.</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>My heart will break. This is too much, too much.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA. </speaker>
+       <stage>(smiling.)</stage>
+       <l>O 'twas a cordial draught—I drank it all.</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>What means my child?</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>The poison—Oh the poison!</l>
+       <l>Thou dear wrong'd innocence—</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Off—murderer, off!</l>
+       <l>Do not defile me with those crimson hands.</l>
+       <stage>
+        <pb n="85" facs="97"/>
+        <hi>(Shews the Scarf.)</hi>
+       </stage>
+       <l>This is his winding Sheet—I'll wrap him in it—</l>
+       <l>I wrought for my love—there—now see I've drest him.</l>
+       <l>How brave he looks! my father will forgive him,</l>
+       <l>He dearly lov'd him once—but that is over.</l>
+       <l>See where he comes—beware my gallant Percy,</l>
+       <l>Ah! come not here, this is the cave of Death,</l>
+       <l>And there's the dark, dark Palace of Revenge!</l>
+       <l>See, the pale king sits on his blood-stain'd throne!</l>
+       <l>He points to me—I come, I come, I come.</l>
+       <stage>
+        <hi>(She faints, they run to her, Douglas takes up his Sword, and stabs himself.</hi>
+       </stage>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>Thus, thus I follow thee.</l>
+      </sp>
+      <sp who="#edric">
+       <speaker>EDRIC.</speaker>
+       <l>Hold thy rash hand.</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS.</speaker>
+       <l>It is too late. No remedy but this,</l>
+       <l>Cou'd med'cine a disease so desperate.</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>Ah she revives!</l>
+      </sp>
+      <sp who="#earl_douglas">
+       <speaker>DOUGLAS. </speaker>
+       <stage>(raising himself.)</stage>
+       <l>She lives? bear, bear me to her!</l>
+       <l>We shall be happy yet.</l>
+       <stage>He struggles to get to her, but sinks down.</stage>
+       <l>It will not be—</l>
+       <l>O for a last embrace—Alas I faint—</l>
+       <l>She lives—Now death is terrible indeed—</l>
+       <l>Fair Spirit how I lov'd thee—O—Elwina!</l>
+       <stage>Dies.</stage>
+      </sp>
+      <sp who="#elwina">
+       <pb n="86" facs="98"/>
+       <speaker>ELWINA.</speaker>
+       <l>Where have I been? The damps of death are on me.</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>Look up, my child; O do not leave me thus;</l>
+       <l>Pity the anguish of thy aged father.</l>
+       <l>Hast thou forgot me?</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>No—You are my father?</l>
+       <l>O you are kindly come to close my eyes,</l>
+       <l>And take the kiss of death from my cold lips.</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>Do we meet thus?</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>We soon shall meet in peace.</l>
+       <l>I've but a faint remembrance of the past—</l>
+       <l>But something tells me—O those painful struggles!</l>
+       <l>Raise me a little—there—</l>
+       <stage>She sees the body of Douglas.</stage>
+       <l>What sight is that?</l>
+       <l>A sword, and bloody? Ah! and Douglas murder'd?</l>
+      </sp>
+      <sp who="#edric">
+       <speaker>EDRIC.</speaker>
+       <l>Convinc'd too late of your unequal'd virtues,</l>
+       <l>And wrung with deep compunction for your wrongs,</l>
+       <l>By his own hand the wretched Douglas fell.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>This adds another, sharper pang to death.</l>
+       <l>
+        <pb n="87" facs="99"/>O thou Eternal! take him to thy mercy,</l>
+       <l>Nor let this sin be on his head, or mine!</l>
+      </sp>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>I have undone you all—the crime is mine!</l>
+       <l>O thou poor injur'd saint, forgive thy father,</l>
+       <l>He kneels to his wrong'd child.</l>
+      </sp>
+      <sp who="#elwina">
+       <speaker>ELWINA.</speaker>
+       <l>Now you are cruel.</l>
+       <l>Come near, my father, nearer—I wou'd see you,</l>
+       <l>But mists and darkness cloud my failing sight.</l>
+       <l>O Death! suspend thy rights for one short moment,</l>
+       <l>'Till I have ta'en a father's last embrace—</l>
+       <l>A father's blessing.—Once—and now 'tis over.</l>
+       <l>Receive me to thy mercy—gracious heaven.</l>
+      </sp>
+      <stage>She dies.</stage>
+      <sp who="#earl_raby">
+       <speaker>RABY.</speaker>
+       <l>She's gone! for ever gone! Cold, dead and cold,</l>
+       <l>Am I a father? Fathers love their children—</l>
+       <l>I murder mine! With impious pride I snatch'd</l>
+       <l>The bolt of vengeance from the hand of heav'n.</l>
+       <l>My punishment is great—but Oh! 'tis just.</l>
+       <l>My soul submissive bows. A righteous god</l>
+       <l>Has made my crime become my chastisement!</l>
+      </sp>
+      <trailer>End of the Fifth ACT.</trailer>
+     </div>
+    </div>
+   </div>
+  </body>
+  <back>
+   <div type="bythesameauthor">
+    <pb facs="100"/>
+    <list>
+     <head>Lately Published by the same <hi>AUTHOR.</hi>
+     </head>
+     <item>1. SIR ELDRED of the BOWER and THE BLEEDING ROCK, Legendary Tales. A New Edition. Price 1s. 6d.</item>
+     <item>2. The SEARCH after HAPPINESS. A Pastoral Drama. The Sixth Edition. Price 1s. 6d.</item>
+     <item>3. ESSAYS on VARIOUS SUBJECTS, principally designed for YOUNG LADIES. Price 3s. sew'd.</item>
+     <item>4. An ODE to DRAGON.</item>
+    </list>
+    <p>Prited for T. CADELL, in the Strand.</p>
+   </div>
+  </back>
+ </text>
+</TEI>

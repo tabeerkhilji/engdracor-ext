@@ -1,0 +1,3006 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">The sister</title>
+    <title type="sub">a comedy. By Mrs. Charlotte Lennox.</title>
+    <author>
+     <persName>
+      <surname>Lennox</surname>
+      <forename>Charlotte</forename>
+      <idno type="VIAF">100288562</idno>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>The sister: a comedy. By Mrs. Charlotte Lennox.</name>
+     <author>Lennox, Charlotte, ca. 1729-1804.</author>
+     <publisher>printed for J. Dodsley; and T. Davies,</publisher>
+     <date>1769.</date>
+     <pubPlace>London :</pubPlace>
+     <note>Prologue written by Mr. Colman.</note>
+     <note>Epilogue written by Dr. Goldsmith.</note>
+     <note>Reproduction of original from the British Library.</note>
+     <note>English Short Title Catalog, ESTCT10798.</note>
+     <note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note>
+    </bibl>
+    <biblFull n="printed source">
+     <publicationStmt>
+      <authority ref="#JJ">Jan Jokisch</authority>
+      <date>2024 December</date>
+      <idno type="ECCO_Drama">K025327.000</idno>
+      <idno type="DLPS">004789875</idno>
+      <idno type="ESTC">T10798</idno>
+      <idno type="DocNo">CW116674436</idno>
+      <idno type="TCP">K025327.000</idno>
+      <idno type="GaleDocNo">CW3316674436</idno>
+      <idno type="ContentSet">ECLL</idno>
+      <idno type="ImageSetID">1181201000</idno>
+      <availability>
+       <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+      </availability>
+     </publicationStmt>
+    </biblFull>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    <person xml:id="earl_of_belmont"><persName>Earl of Belmont</persName><sex value="MALE"/></person><person xml:id="lord_clairville"><persName>Lord Clairville</persName><sex value="MALE"/></person><person xml:id="courteney"><persName>Courteney</persName><sex value="MALE"/></person><person xml:id="will"><persName>Will</persName><sex value="MALE"/></person><person xml:id="lady_autumn"><persName>Lady Autumn</persName><sex value="FEMALE"/></person><person xml:id="miss_autumn"><persName>Miss Autumn</persName><sex value="FEMALE"/></person><person xml:id="miss_courteney"><persName>Miss Courteney</persName><sex value="FEMALE"/></person><person xml:id="simple"><persName>Simple</persName><sex value="FEMALE"/></person><person xml:id="betty"><persName>Betty</persName><sex value="FEMALE"/></person><person xml:id="footman"><persName>Footman</persName><sex value="MALE"/></person></listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1769">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text xml:lang="en">
+  <front>
+   <div type="titlepage">
+    <pb facs="1" ana="y"/>
+    <p>THE SISTER: A COMEDY.</p>
+    <p>By Mrs. CHARLOTTE LENNOX.</p>
+    <p>LONDON, Printed for J. DODSLEY, in Pall-Mall; and T. DAVIES, in Russel-Street, Covent-Garden. M DCC LXIX.</p>
+    <p>[Price One Shilling and Six Pence.]</p>
+   </div>
+   <div type="prologue">
+    <pb facs="2"/>
+    <head>PROLOGUE.</head>
+    <byline>Written by Mr. COLMAN.</byline>
+    <byline>Spoken by Mrs. MATTOCKS.</byline>
+    <sp>
+     <lg>
+      <l>THE law of custom is the law of fools—</l>
+      <l>And yet the wise are govern'd by her rules.</l>
+      <l>Why should <hi>Men</hi> only prologue all our plays,</l>
+      <l>Gentlemen-Ushers to each modern Bayes?</l>
+      <l>Why are the Fair to Epilogues confin'd,</l>
+      <l>Whose tongues are loud, and gen'ral as the wind?</l>
+      <l>Mark how in real life each sex is class'd!</l>
+      <l>Woman has <hi>there</hi> the <hi>first</hi> word and the <hi>last.</hi>
+      </l>
+     </lg>
+     <lg>
+      <l>Boast not your gallant deeds, romantic men!</l>
+      <l>To-night a Female Quixote draws the pen.</l>
+      <l>Arm'd by the Comic Muse, these lists she enters,</l>
+      <l>And sallies forth—in quest of strange adventures!</l>
+      <l>War, open war, 'gainst recreant knights declares,</l>
+      <l>Nor Giant-Vice nor Windmill-Folly spares:</l>
+      <l>Side-saddles Pegasus, and courts Apollo,</l>
+      <l>While I, (you see!) her female Sancho, follow.</l>
+     </lg>
+     <lg>
+      <l>Ye that in this enchanted castle sit,</l>
+      <l>Dames, squires, and dark magicians of the pit,</l>
+      <l>Smile on our fair knight-errantry to-day,</l>
+      <l>And raise no spells to blast a female play.</l>
+     </lg>
+     <lg>
+      <l>Oft has our Author, upon other ground,</l>
+      <l>Courted your smiles, and oft indulgence found.</l>
+      <l>Read in the closet, you approv'd her page;</l>
+      <l>Yet still she dreads the perils of the stage.</l>
+      <l>Reader with Writer due proportion keeps,</l>
+      <l>And if the Poet nods, the Critic sleeps!</l>
+      <l>If lethargied by dullness here you sit,</l>
+      <l>Sonorous catcalls rouse the sleeping pit.</l>
+     </lg>
+     <lg>
+      <l>Plac'd at the threshold of the weather-house,</l>
+      <l>There stands a pasteboard husband and his spouse,</l>
+      <l>Each doom'd to mark the changes of the weather,</l>
+      <l>But still—true man and wife!—ne'er seen together.</l>
+      <l>When low'ring clouds the face of heav'n deform,</l>
+      <l>The muffled husband stands and braves the storm;</l>
+      <l>But when the fury of the tempest's done,</l>
+      <l>Break out at once the Lady and the Sun.</l>
+      <l>Thus oft has man, in custom's beaten track,</l>
+      <l>Come forth, as doleful Prologue, all in black!</l>
+      <l>Gloomy prognostick of the bard's disgrace,</l>
+      <l>With omens of foul weather in his face.</l>
+      <l>Trick'd out in silk and smiles let me appear,</l>
+      <l>And six, as sign of peace, the rainbow here;</l>
+      <l>Raise your compassion and your mirth together,</l>
+      <l>And prove to-day an emblem of fair weather!</l>
+     </lg>
+    </sp>
+   </div>
+   <div type="Dramatis_Personae">
+    <pb facs="3"/>
+    <castList>
+     <head>Dramatis Personae.</head>
+     <castItem>
+      <role>Earl of Belmont, Father to Lord Clairville</role>
+      <actor>Mr. CLARKE</actor>
+     </castItem>
+     <castItem>
+      <role>Lord Clairville, under the Name of Belmour</role>
+      <actor>Mr. SMITH</actor>
+     </castItem>
+     <castItem>
+      <role>Courteney, under the Name of Freeman, Governor to Lord Clairville</role>
+      <actor>Mr. POWELL</actor>
+     </castItem>
+     <castItem>
+      <role>Will, Servant to Courteney</role>
+      <actor>Mr. CUSHING</actor>
+     </castItem>
+     <castItem>
+      <role>Lady Autumn, a Widow</role>
+      <actor>Mrs. WARD</actor>
+     </castItem>
+     <castItem>
+      <role>Miss Autumn, Daughter of Lord Autumn by a former Wife</role>
+      <actor>Mrs. BULKLEY</actor>
+     </castItem>
+     <castItem>
+      <role>Miss Courteney, Sister to Courteney, under the Name of D'Arcy</role>
+      <actor>Miss MORRIS</actor>
+     </castItem>
+     <castItem>
+      <role>Simple, Woman to Lady Autumn</role>
+      <actor>Miss PIERCE</actor>
+     </castItem>
+     <castItem>
+      <role>Betty, Woman to Miss Autumn</role>
+      <actor>Mrs. GARDINER</actor>
+     </castItem>
+    </castList>
+   </div>
+   <set>
+    <p>SCENE, <hi>Windsor.</hi>
+    </p>
+   </set>
+  </front>
+  <body>
+   <div type="play">
+    <pb facs="4"/>
+    <head>THE SISTER: A COMEDY.</head>
+    <div n="1" type="act">
+     <head>ACT I.</head>
+     <div n="1" type="scene">
+      <head>SCENE I. <stage>
+        <hi>Windsor</hi> Park.</stage>
+      </head>
+      <stage>
+       <hi>Lord</hi> Clairville <hi>and</hi> Courteney <hi>meeting.</hi>
+      </stage>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>I THOUGHT I should find you here, my Lord: this new taste for solitude is a mortal symptom in your distemper. A lover seldom desires better company than his own thoughts.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>I should have been glad of your company, however. Why did you not join me sooner?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>I come now to bring you unwelcome news—the Earl of Belmont is in town.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>My father in town!</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Will, whom I sent to London upon some particular business, is just now returned, and tells me my Lord came from his country-seat two days ago.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <pb n="2" facs="5"/>
+       <speaker>CLAIRVILLE.</speaker>
+       <p>My dear Courteney, I shall never be able to look my father in the face.—To return to England without his orders—to be three weeks here under a borrowed name—If he has been informed of this, how can I excuse my conduct?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Tell him the truth.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>The truth!</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Yes—That his Lordship, in his last letter to you at Paris, proposed a match to you; your impatience to see the lady made you anticipate his orders for your return; you left Paris <hi>incognito,</hi> saw the lady at Ranelagh, and—</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>What then?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Are ready to obey him.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Pshaw! why will you trifle? You know I cannot.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Cannot! my Lord—
+<stage>gravely.</stage>
+       </p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>No: Lady Ann does not please me.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Because Miss D'Arcy pleases you too well.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Pr'ythee, do not torment me, Courteney.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Doubtless, his Lordship will excuse the violence of a passion, which keeps you here at Windsor,
+<pb n="3" facs="6"/>
+under a fictitious name, sighing at the feet of a young divinity, that has visited this sublunary world in the shape of an humble dependant upon a haughty lady of quality.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>What a blunder has Fortune committed, to place her in that state!—Courteney, she is an angel.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>An angel! Lovers have a fine creative fancy! It costs them little to make angels, goddesses, nymphs—</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Are you apprehensive, then, that my passion for Miss D'Arcy may lead me too far?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Why, truly, my Lord, there seems to be some reason for my apprehension.—However this may be, some particular business obliges me to leave you.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Particular business! Is this affair to be a secret to your friend?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>I have no secrets that I would hide from you, my Lord. My sister, whom you have often heard me mention with tenderness, though I have not seen her since she was a child, has privately withdrawn herself from an aunt, with whom she has resided since the death of her parents; and it is conjectured she is gone to Paris to meet me, my last letter to her being dated from thence.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Her aunt had made some <hi>prudent</hi> choice of a husband for her, perhaps—</p>
+      </sp>
+      <sp who="#courteney">
+       <pb n="4" facs="7"/>
+       <speaker>COURTENEY.</speaker>
+       <p>No—the old lady is a bigoted Roman Catholick—and, having a large fortune to bestow, attempted to make a proselyte of the poor girl, promising her, in that case, to settle her estate upon her. This failing, she laid a scheme for entrapping her into a convent; which my sister being informed of, fled to me.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Who gave you this intelligence?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>A friend of my father's, whom I accidentally met with upon the terrace, who had seen me at Leyden, while I was at the university there, and knew me immediately. We cannot hope, you see, to be longer concealed; therefore it is absolutely necessary, my Lord, that you should present yourself as soon as possible to your father.—What do you resolve to do, my Lord?</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Give me a day or two to consider.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>But, in the mean time, my sister—</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>True—You ought to fly immediately to her assistance.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>And leave you here, my Lord?</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Why not? Do you doubt my prudence?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Your Lordship's in love.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <pb n="5" facs="8"/>
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Can you think me weak enough to form a rash engagement with a young woman, to whose birth and circumstances I am wholly a stranger.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>You are in love, my Lord.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>You are determined, then, to acquaint my father with my being here?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Certainly, unless you resolve to present yourself to him immediately. My friendship for you, my Lord, has already carried me farther than it ought: I have indulged you, in coming over privately, that you might gratify your curiosity with a sight of the lady your father designs for you; this done, you promised to go back with me to Paris, there to wait his express orders for your return; but you have not kept your word. You still linger here— my remonstrances have hitherto been fruitless.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Well, since it must be so, I will go back with you to Paris.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Were it not better to wait upon your father, who is perhaps, by this time, informed of your return?</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>I cannot see my father; I cannot resolve to marry the lady he has chosen for me. Kind and indulgent as he has ever been, I have not fortitude enough to meet his frown — I will write to him when we get to Paris, and we will set out to-morrow. Now are you satisfied?</p>
+      </sp>
+      <sp who="#courteney">
+       <pb n="6" facs="9"/>
+       <speaker>COURTENEY.</speaker>
+       <p>I am, my Lord, your servant; I will go home, and give the necessary orders for our journey.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Nay, pr'ythee, take a turn with me, dear Courteney; my heart is oppressed, and I have a thousand things to say to you.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Your Lordship must excuse me; we have not a moment to spare.</p>
+       <stage>[<hi>Going; Miss</hi> Autumn <hi>and Miss</hi> Courteney <hi>appear at a distance</hi>; Courteney <hi>stops, looks at them, then comes back to</hi> Clairville, <hi>and says,</hi>]</stage>
+       <p>If your Lordship is only for a short walk, I think I will accompany you.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE</speaker>
+       <stage>(laughs).</stage>
+       <p>So, you have a moment to spare then; confess honestly, that the sight of Miss Autumn has brought you back.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Miss Autumn! sure, my Lord, you do not imagine that I would neglect any serious business for the conversation of such a vain coquet?</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Not unless you were in love, Courteney.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Well, I am not in love with Miss Autumn, I do assure you, my Lord.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>With whom then?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Nor with your Pastorella, my Lord, your blushing Dryad, who, with all her innocence and
+<pb n="7" facs="10"/>
+simplicity, has had art enough to ensnare your affections.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Dear Courteney, speak with more reverence of what I love—they are again in sight; shall we go round and meet them?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Well, since it must be so, I will attend you.</p>
+      </sp>
+      <stage>
+       <hi>Exeunt</hi> Courteney <hi>and</hi> Clairville.</stage>
+     </div>
+     <div n="2" type="scene">
+      <head>SCENE II.</head>
+      <stage>
+       <hi>Enter Miss</hi> Autumn <hi>and Miss</hi> Courteney.</stage>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>It is very true, my dear, when I told you this morning, that you would make but an awkward fine lady, you surveyed yourself in my glass with a certain consciousness
+<stage>(<hi>mimicking her</hi>):</stage>
+well, I will allow that you are tolerably handsome; but half that bloom which you brought from the country might be spared, provided you knew what to do with the remainder—indeed, Harriet, I am almost ashamed of your simplicity.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Why, my dear whimsical friend, what faults have I committed lately?</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>Faults! you never do one earthly thing that is right—all my documents are thrown away upon you—you blush, truly, when a sop looks attentively on you—you cannot meet the steady gaze with the confident stare. You speak without lisping; walk without tottering, and courtesy without tossing back your head.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <pb n="8" facs="11"/>
+       <speaker>MISS COURTENEY.</speaker>
+       <p>All this is gross affectation.</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>Indeed, Harriet, you are a silly girl, with all your knowledge—you have spent eighteen years of your life in cultivating your understanding, without reflecting that it is by your beauty only you can hope to make your fortune; cease to be wise, child, and grow prudent; do not study the belle lettres, but the belle air—reason less with your tongue, and more with your eyes—why, really now, I believe you imagine nature gave you those two sparkling orbs for no other purpose but to see with.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>You railly your sex's follies so agreeably, my dear, that one would conclude you despised them, were you not too often seen practising them yourself—your eyes serve you for many other purposes besides seeing.</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>My eyes, child, are well-disciplined troops; they know how to attack, conquer, pursue, retreat, beg quarter—</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Beg quarter! I am sure they will never give any, if they can possibly help it—what an obstinate siege have they laid to the heart of poor Freeman!</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>True; and they have carried the place at last, you find.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Well, and what do you intend to do with it?</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <pb n="9" facs="12"/>
+       <speaker>MISS AUTUMN.</speaker>
+       <p>Do with it—? why, throw a garrison into it, and march off to new conquests.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>I doubt the place is not tenable, my dear; two enemies to your power, pride and resentment, have got admittance, and it is more than probable will expell your garrison.</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>That, indeed, would be a great disgrace upon my generalship.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Mr. Freeman is a man of sense: he has perceived that your design was only to torment him. You are too much and too little of a coquet, my fair friend; and have not artifice enough to dissemble the want of it.</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>Prodigious! What, the sage Harriet taking upon her to give me lessons in coquetry!</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>I might profit by your faults, were I disposed to commence coquet.</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>Well, since I find you have some skill, I may venture to consult you sometimes upon my operations; tell me truly then, do you think Freeman will escape me?</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>I think he has already.</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>This would mortify me extremely, if I did not despise the rebel.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <pb n="10" facs="13"/>
+       <speaker>MISS COURTENEY.</speaker>
+       <p>I perceive you do.</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>Not that I think him despicable, I assure you.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>No, really!</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>No, really! why, is he not handsome? has he not wit, learning, elegance?</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Ha! ha! ha! and yet you despise him, my dear.</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>Despise him—why yes—and yet I do not despise him neither. — I only mean that I do not like him.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Why should you not like him? is he not handsome? has he not wit, learning, elegance?</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>Pooh! to convince you that I do not like him, observe how ill I will treat him the next time we meet.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>That will be the way to convince me that you do like him.</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>Strange indeed! you could not say more were I to treat him well.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>No, but I should say as much.</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>You have a mind to maintain paradoxes, I perceive.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <pb n="11" facs="14"/>
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Indeed you are mistaken, I have no mind to be ridiculous; the glitter of false wit, like the shine of false jewels, serve at once to shew the poverty and vanity of the possessor. What I mean, my dear, is, that if you are indeed—indifferent towards Mr. Freeman, you will treat him with that general politeness, which a man of real merit is sure to meet with from a woman of sense: too much or too little attention to such a man, is alike liable to be construed into a secret attachment.</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>According to this rule, my dear Harriet, you have certainly a secret attachment for his friend Mr. Belmour.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY</speaker>
+       <stage>(confused.)</stage>
+       <p>I, a secret attachment! why, is it possible you can have discovered—that is, that you suspect—</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>Ha! ha! ha! no, my dear, your extreme reserve made me first suspect, and afterwards discover—</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>What have you discovered?</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>That you love Mr. Belmour—aye, you may blush.—This was a secret that required all my sagacity to discover; but as for his passion for you — any ideot might have found that out.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Yet does not reserve become one in my circumstances? An unhappy orphan, compelled by my ill fate, to become a fugitive from the friend to whom I owed my past, and from whom I expected my future support; thus distrest — perhaps censured—</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <pb n="12" facs="15"/>
+       <speaker>MISS AUTUMN.</speaker>
+       <p>I will not hear you talk so, censured you cannot be; you have acted upon motives too justifiable; and I hope my fortune is sufficient to keep distress far from us both.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Generous Charlotte! yet if Lady Autumn should discover me, she will think it her duty to force me back to my aunt.</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>Most certainly; what favour can youth and beauty expect from a coquet of fifty?</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Indeed, my dear, you make too free with the foibles of your father's widow; but you ought to remember, that, if she loves admiration at fifty, it is because she was a coquet at fifteen.</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>That is true; — I protest I tremble at the idea, of being one day, what my step-mother is at present. Oh heavens! in the midst of wrinkles and grey hairs, to dream of gentle languishments, vows, ardors!—but there is some comfort yet, fifty and I are at an immense distance.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Do not cheat yourself, my dear, with that thought; young though you are, you will be old: whatever advances with such rapidity, cannot be accounted far distant—</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>Well, I am determined to grow grave in time: dear Harriet, give me a lesson every day till you have compleated my reformation:—but is not that Freeman and Belmour yonder? They are certainly come in search of us; —come hither, Harriet—you
+<pb n="13" facs="16"/>
+who pronounced the rebel had escaped me—mark that pensive air, those folded arms.—Well, my sage monitress of eighteen, will you pretend to assert that he is not thinking on me? Now can I not for my life resist my inclination to teaze him a little.—Do, dear girl, indulge me this once; I promise you, I will not be very cruel.—Nay, you shall prescribe the utmost limits of my triumph; and when you think I am carrying it too far,— only pull me by the sleeve, and I will instantly recollect myself.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Ha! ha! ha! I see your reformation is begun.</p>
+      </sp>
+     </div>
+     <div n="3" type="scene">
+      <head>SCENE III.</head>
+      <stage>
+       <hi>Enter</hi> Lord Clairville <hi>and</hi> Courteney.</stage>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Your servant, ladies; we have been looking for you this half hour.</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>One would think you expected to find us like daisies springing up under your steps. I observed your eyes bent constantly on the ground.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>My friend is a little thoughtful to-day.</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN</speaker>
+       <stage>
+        <hi>(aside to Miss</hi> Courteney.)</stage>
+       <p>Mark that, Harriet; he has certainly escaped me: do you not think so?</p>
+       <stage>(<hi>To</hi> Courteney.)</stage>
+       <p>That is your melancholy, is it not so, Mr. Freeman? Well, does not this prove what I have often told you; there is not the least sympathy in our minds; you are always sad when I am gay; but I have a mind to be complaisant for once, and will permit you to chuse the humour I shall be of during the next half hour.</p>
+      </sp>
+      <sp who="#courteney">
+       <pb n="14" facs="17"/>
+       <speaker>COURTENEY</speaker>
+       <stage>(carelessly bowing.)</stage>
+       <p>Pardon me, Madam, you must chuse for yourself; you are so agreeable in whatever humour you assume, that it is impossible for me to give the preference to any. Your smiles and frowns become you in my opinion so equally, that I am charmed alike whether you smile or frown.</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN</speaker>
+       <stage>(aside, a little disconcerted.)</stage>
+       <p>Indeed! so indifferent!</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY</speaker>
+       <stage>(aside to her.)</stage>
+       <p>I think I must pull <hi>him</hi> by the sleeve, my dear.</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>Mr. Bellmour, my mamma sent you a card this morning; you and your friend dine with us, I hope.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>We will certainly wait on you, ladies.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>It must be a farewell visit then, ladies; for we set out for Paris to-morrow.</p>
+      </sp>
+      <stage>
+       <hi>(Here</hi> Clairville <hi>and Miss</hi> Courteney <hi>talk apart.)</hi>
+      </stage>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>(Going, and so unconcerned too!
+<stage>(aside.)</stage>
+This resolution is very sudden, Sir. To be sure, Paris is a charming place; you are vastly in the right to go. Miss D'Arcy, my dear, we have but just time to dress for dinner.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>We will wait on you home, ladies.</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN</speaker>
+       <stage>
+        <hi>(drawing away her hand from</hi> Courteney, <hi>who offers to lead her.)</hi>
+       </stage>
+       <p>No ceremony, Sir; I can walk without assistance.</p>
+      </sp>
+      <sp who="#courteney">
+       <pb n="15" facs="18"/>
+       <speaker>COURTENEY.</speaker>
+       <p>Piqued by heaven! this is better than I expected.</p>
+      </sp>
+      <stage>
+       <hi>Exeunt</hi> Courteney, Clairville, <hi>Miss</hi> Autumn, <hi>and Miss</hi> Courteney.</stage>
+     </div>
+     <div n="4" type="scene">
+      <head>SCENE IV.</head>
+      <stage>
+       <hi>Enter Lady</hi> Autumn, <hi>and her woman at the other side.</hi>
+      </stage>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>There they are, but I shall not join them; these girls are never weary of walking.</p>
+      </sp>
+      <sp who="#simple">
+       <speaker>SIMPLE.</speaker>
+       <p>They are young, Madam.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>Young! well, I suppose you do not think me old; and yet I hate walking, it is a robust exercise.</p>
+      </sp>
+      <sp who="#simple">
+       <speaker>SIMPLE.</speaker>
+       <p>To be sure, there can be no pleasure in walking, when one has the <hi>rheumatism</hi> so bad as your Ladyship has.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>The rheumatism! who told you I had the rheumatism? What, because I was laid up with a sprain, which I got by running rather too giddily indeed after my squirrel, it passed for the rheumatism?</p>
+      </sp>
+      <sp who="#simple">
+       <speaker>SIMPLE.</speaker>
+       <p>I am sure, Madam, the doctors called it so.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>The doctors were blockheads then.—(Not return to join me! <stage>aside, and looking about.</stage>) Simple, observe, whether Mr. Freeman be coming back.</p>
+      </sp>
+      <sp who="#simple">
+       <speaker>SIMPLE.</speaker>
+       <p>No, indeed, Madam; he is walking on towards the house, with the young ladies.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <pb n="16" facs="19"/>
+       <speaker>LADY AUTUMN</speaker>
+       <stage>(aside.)</stage>
+       <p>It is certainly so, he is vexed, I treated him with too much rigour last night; rigour was always my fault, I cannot help it.</p>
+       <stage>sighs.</stage>
+      </sp>
+      <sp who="#simple">
+       <speaker>SIMPLE.</speaker>
+       <p>Bless me! I hope your Ladyship is not taken ill</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>Ill! no; and yet one cannot be very well, when one is the cause of so much pain to others.</p>
+      </sp>
+      <sp who="#simple">
+       <speaker>SIMPLE.</speaker>
+       <p>Madam!</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>It does not signify, there is no living without a confidant;—Simple, you have been in my service but a short time; but I have a notion that you are very discreet.</p>
+      </sp>
+      <sp who="#simple">
+       <speaker>SIMPLE</speaker>
+       <stage>(curtseying.)</stage>
+       <p>Indeed I am, Madam.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>Aye, I know you are, I am seldom mistaken in my judgement of people: to shew you then that I think you very discreet, I am resolved to make you my confidant.</p>
+      </sp>
+      <sp who="#simple">
+       <speaker>SIMPLE.</speaker>
+       <p>Confidant! I thank you, Madam, — but, but—I had rather keep the place I was hired for, Madam.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>Yes, I am determined to deposite all my secrets in your breast.—Know then, Simple, that there is a young man who seems—but why do I say seems—who is desperately—what shall I call it— who really languishes with an unconquerable, invincible, hopeless, fatal, dying passion, for—for— me;—is not this a sad thing?</p>
+      </sp>
+      <sp who="#simple">
+       <pb n="17" facs="20"/>
+       <speaker>SIMPLE.</speaker>
+       <p>Yes, indeed, Madam, it is a very strange thing!</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>A strange thing! I say, is it not a sad thing?</p>
+      </sp>
+      <sp who="#simple">
+       <speaker>SIMPLE.</speaker>
+       <p>To be sure, it is a sad thing, Madam; and I am very sorry for it.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>Poor Freeman! I am sorry too;—but there was a kind of fatality in it.—I never told you, Simple, the manner of our first acquaintance?</p>
+      </sp>
+      <sp who="#simple">
+       <speaker>SIMPLE.</speaker>
+       <p>No, Madam.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>One morning, when I was sauntering in the forest, habited in a loose white sack, with my walking-crook in my hand—poor Lord Autumn used to say I looked like a nymph in this dress—I found myself fatigued, and was obliged to rest under a tree.—Here I sat, or rather reclined, in a pensive attitude, when I was roused by the sight of a monstrous snake, that had fastened on my arm—</p>
+      </sp>
+      <sp who="#simple">
+       <speaker>SIMPLE.</speaker>
+       <p>Lord bless me! Madam, what did you do?—</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>Do!—I screamed so loud, that two young gentlemen, who were walking at a little distance, came running to me:—both were eager to assist me;— but Mr. Freeman's assiduity was so animated, so languishing—so—so—in short, the blow was struck; I perceived immediately that I had made a violent impression.</p>
+      </sp>
+      <sp who="#simple">
+       <pb n="18" facs="21"/>
+       <speaker>SIMPLE.</speaker>
+       <p>But pray, Madam, if I may be so bold, how did your Ladyship get rid of the snake?</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>The snake!—O, I was mistaken: it was only a caterpillar, which my fears had magnified into a snake. Mr. Freeman then offered me his hand, to lead me home; but it was with such a timid aspect!—Since that day, his friend Belmour and he have been constant visitors at my house; and although his passion has been continually increasing, yet he has concealed it so carefully, that no person in the family has discovered it but myself.</p>
+      </sp>
+      <sp who="#simple">
+       <speaker>SIMPLE.</speaker>
+       <p>I'll answer for it, Madam, nobody dreams of any such thing.—But I wonder the gentleman has not broke his mind to your Ladyship!—</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>No, he has ever been silent, awfully silent, as to that point—such is his extreme timidity!— Timidity, Simple, ever accompanies a violent passion; for flames, as the poet says, burn highest, when they tremble most.</p>
+      </sp>
+      <sp who="#simple">
+       <speaker>SIMPLE</speaker>
+       <stage>(<hi>looking out.</hi>)</stage>
+       <p>I vow, Madam, here is Mr. Freeman coming, all alone. — Sure he intends to break his mind now.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>It is he, indeed!—This can never be chance: he has certainly followed me hither. His passion has at length got the better of his timidity, and he is resolved to declare himself. — I must not be too reserved—I must not kill his hope.—Simple, observe his looks when he accosts me.</p>
+      </sp>
+      <stage>
+       <pb n="19" facs="22"/>
+       <hi>Enter</hi> Courteney.</stage>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Your Ladyship's most humble servant. I did not expect to meet you here, Madam.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>No! you had a mind for a solitary walk, then?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>No, indeed, Madam: I have been walking all the morning. I left Mr. Belmour with the young ladies, to take leave; for we set out for Paris tomorrow.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>How! do you leave us to-morrow?—Is this to try me?
+<stage>(<hi>aside.</hi>)</stage>
+Positively, Mr. Freeman, you must not go.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Indeed, Madam, I must: there is an absolute necessity for it.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>Indeed, but there is no absolute necessity for it. Do you think I have so little penetration as not to have discovered the cause of this sudden resolution?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>So, she means my Lord's passion for Miss D'Arcy! —If I could but draw some intelligence from her, concerning this young woman, it might be of use.
+<stage>(<hi>aside.</hi>)</stage>
+       </p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>Now is he considering with himself, whether he may venture to make a discovery of his passion.— I protest, I am all in a slutter! He wants courage.
+<stage>(<hi>aside.</hi>)</stage>
+—Mr. Freeman, have I guessed truly, as to the cause of your sudden departure?</p>
+      </sp>
+      <sp who="#courteney">
+       <pb n="20" facs="23" ana="y"/>
+       <speaker>COURTENEY.</speaker>
+       <p>I cannot answer that question, till I know what it is your Ladyship guesses.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN</speaker>
+       <stage>(<hi>Looking down upon her fan, affectedly.</hi>)</stage>
+       <p>Nay now, Mr. Freeman—this is too much!— you throw me into the greatest confusion imaginable!—To be sure, I have guessed—a passion so very obvious;—but, methinks, it would better become you to explain yourself—</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Why, Madam, I confess you have guessed truly: my friend's passion is indeed pretty obvious; but there are certain reasons which make it highly improper for him to indulge it.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>His friend's passion! prettily turned.—How cautious! how diffident!
+<stage>(<hi>aside.</hi>)</stage>
+—Well, Sir, this you may assure your friend of, however, that to <hi>my</hi> certain knowledge he need not despair.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>So, she favours this business, I find.
+<stage>aside.</stage>
+       </p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>Well, Sir, do you still hold your resolution of leaving us?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Your Ladyship may easily imagine, that I am somewhat interested in this affair.—</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>Yes, yes, I can very easily imagine that.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>I should be glad, therefore, to know—</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Positively, you shall know no more now.—You men are so importunate!—But suppose now I should
+<pb n="21" facs="24"/>
+give you an opportunity of talking to me upon this affair?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>I should be greatly obliged to you, Madam.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>He might have thrown a little more rapture into his answer.
+<stage>(<hi>aside.</hi>)</stage>
+—Well, I shall be alone, in the drawing-room, after dinner—and—But this looks so like an assignation, that I have a good mind to withdraw my promise.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Assignation! how could that come into her head?
+<stage>(<hi>aside.</hi>)</stage>
+—No, no, Madam; depend upon it, I will hold you to your promise.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>Adieu, then, till dinner. Simple, do you hear, lay out my pink and white.—I shall dress immediately.</p>
+      </sp>
+      <stage>
+       <hi>Exeunt Lady</hi> Autumn <hi>and</hi> Simple.</stage>
+      <sp who="#courteney">
+       <speaker>COURTENEY</speaker>
+       <stage>(<hi>alone.</hi>)</stage>
+       <p>What a piece of affectation! But if she has not entered heartily into the interest of this Miss D'Arcy, with whom my pupil is madly in love, I shall be able to discover her character and circumstances, and must take my measures accordingly.</p>
+      </sp>
+      <stage>
+       <hi>Exit</hi> Courteney.</stage>
+     </div>
+     <trailer>END OF THE FIRST ACT.</trailer>
+    </div>
+    <div n="2" type="act">
+     <pb n="22" facs="25"/>
+     <head>ACT II.</head>
+     <div n="1" type="scene">
+      <head>SCENE, <stage>
+        <hi>a drawing-room, in Lady</hi> Autumn's <hi>house.</hi>
+       </stage>
+      </head>
+      <stage>
+       <hi>Enter</hi> Courteney, <hi>as from dinner.</hi>
+      </stage>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>IF I do not hit upon some method to rescue Lord Clairville, he is undone; I observed him all dinner-time—his attachment to this young creature is amazing!</p>
+      </sp>
+      <stage>
+       <hi>Enter Lord</hi> Clairville.</stage>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Courteney, I wished to speak a word to you in private; I have been thinking all day on this journey to Paris.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Well, my Lord.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>I find, I cannot resolve to go—</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>I suspected as much.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Without first seeing my father.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>There you are perfectly right, my Lord; you intend to wait on him to-morrow, I suppose?</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <pb n="23" facs="26"/>
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Not so neither; I would prepare him first—I intend to write to him, to explain my reasons for returning before I had received his orders; and to assure him, that I cannot think of marrying Lady Anne, and that I wait his answer here. I will just step to my lodgings and write my letter, and return immediately.</p>
+      </sp>
+      <stage>
+       <hi>Exit</hi> Clairville.</stage>
+      <sp who="#courteney">
+       <speaker>COURTENEY</speaker>
+       <stage>(alone.)</stage>
+       <p>My Lord has a very contented air, he has certainly brought his mistress to terms; but what those terms are, I must endeavour to find out. This girl, I fear, will draw him into some rash engagement. I can form no judgement of her character and designs, she is so reserved. Ha! here she comes—I will try to found her; and for once, in order to preserve my pupil, I will assume a language foreign to my heart.</p>
+      </sp>
+      <stage>
+       <hi>Enter Miss</hi> Courteney.</stage>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Mr. Freeman, is it certain that you set out for Paris to-morrow?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>If not to-morrow, Madam, most certainly the next day.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>I have a relation in Paris, whom I have not heard from for several weeks—it is of great importance to me to have a letter safely conveyed to his hands—will you execute this little commission for me?</p>
+      </sp>
+      <sp who="#courteney">
+       <pb n="24" facs="27"/>
+       <speaker>COURTENEY</speaker>
+       <stage>(Receiving the letter, which he puts into his pocket book.)</stage>
+       <p>With pleasure, Madam; but the honour you do me, in employing me upon this occasion, will be envied by my friend.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Mr. Belmour tells me, he does not go with you.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>He once resolved otherwise, and his affairs required it should be so; but I, who know how difficult it is to be in love and to be wise, am not surprized that he has changed his mind.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY</speaker>
+       <stage>(<hi>in confusion.</hi>)</stage>
+       <p>This is an affair which I do not pretend to judge of. Will you walk into the next room? the coffee is brought in.
+<stage>going.</stage>
+       </p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY</speaker>
+       <stage>(<hi>detaining her.</hi>)</stage>
+       <p>Nay, but this is an affair which concerns you, Madam, more than any other person—you must, indeed you must, permit me to plead for my friend —I know the sincerity and ardor of his passion for you—</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Hold, Mr. Freeman—am I to think you serious?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>You wrong yourself and me, by supposing I would jest upon so delicate a subject.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>It is strange, methinks, that you should encourage him in the liking, you say, he has entertained for me! his fortunes seem to be high; I am poor and dependant—do you think his parents will approve of so unequal match?</p>
+      </sp>
+      <sp who="#courteney">
+       <pb n="25" facs="28"/>
+       <speaker>COURTENEY.</speaker>
+       <p>What have parents to do with a tender engagement?</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Ha!</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>His, I believe, have destined his hand to another; but his heart, I am sure, will always be yours.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY</speaker>
+       <stage>(aside, in great confusion.)</stage>
+       <p>What can he mean?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>My friend adores you, Madam; he has the power and the will to make you happy—to place you in affluence and splendor—it is true, that, circumscribed by a father's authority, he cannot offer you his hand—but—</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>No more, Sir—this insult is too plain
+<stage>(turns, and weeps).</stage>
+Oh! why am I thus weak?— indignation, scorn, contempt would better become me.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>She is strangely moved! in tears too! —her beautiful disorder affects me—surely I have been to blame.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY</speaker>
+       <stage>(endeavouring to seem composed)</stage>
+       <p>I will not ask you, Sir, what you have observed in my behaviour, which could encourage you to treat me thus freely.—You, no doubt, act upon principle; and it is not surprizing that persons, who hold riches to be the greatest good, should think they are more than an equivalent for virtue.</p>
+      </sp>
+      <sp who="#courteney">
+       <pb n="26" facs="29"/>
+       <speaker>COURTENEY.</speaker>
+       <p>Charming creature!
+<stage>aside.</stage>
+       </p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>You boast your friend's rank and affluence— it belongs, indeed, to the great to be licentious with impunity. My humbler fate makes other maxims safer. I have been taught to think poverty a less evil than dishonour; and to aspire to that distinction only, which is attainable by all, the distinction due to virtue.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>How could I harbour a profane thought of such a woman!
+<stage>(<hi>aside</hi>)</stage>
+—I have offended so greatly. Madam, that I hardly dare solicit, much less hope for pardon; but if you knew—</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>No apologies, Sir, to me; your offence is general, and proceeds from the bad opinion you have formed of my sex; yet to judge of all, from an acquaintance, perhaps, with the worst, is an error which a man of sense ought surely to have avoided. —It is sinning against conviction, for, whatever libertines pretend, the contempt they feel for those they have seduced, is a proof of that secret homage which all men pay to virtue.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>I am ashamed and confounded at what has past— yet permit me—</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>No more, Sir; we must be strangers for the future; therefore return the letter I gave you, I shall find a fitter way of conveying it.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Do not, Madam, deprive me of an opportunity of doing yon this small service.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <pb n="27" facs="30"/>
+       <speaker>MISS COURTENEY</speaker>
+       <stage>(with some emotion.)</stage>
+       <p>No, Sir, no—that letter would introduce you to the friendship of a man, whose sentiments and conduct are very different from yours.—Alas! what would his generous heart suffer, were he to know the insult his sister has been subjected to this day!</p>
+      </sp>
+      <stage>turns and weeps.</stage>
+      <sp who="#courteney">
+       <speaker>COURTENEY</speaker>
+       <stage>(looking earnestly at her.)</stage>
+       <p>Her brother! — good heaven! —should it be possible!
+<stage>(<hi>takes out the letter, and reads the direction.</hi>)</stage>
+Ha! "To Mr. Courteney!"—her well-known hand too!—confusion! have I then been all this time practising on the virtue of my sister!</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY</speaker>
+       <stage>(turning towards him.)</stage>
+       <p>Give me the letter, Sir.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>The letter belongs to me; for oh! my dear Harriet, my amiable, my virtuous sister! I—I, am Courteney—I am your your brother.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Is it possible!</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>I am; nay, shrink not from my embrace—and yet your doubts are natural; you were so young when we parted, it is impossible you should recollect my features.—But I have tokens that may convince you; see here, your mother's picture; this bracelet of her hair; her last dear gift.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>You are—you are my brother! but why have you concealed yourself so long? and why—why this severe trial of your sister?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>My dear Harriet, I must take shame to myself; I knew you not under a borrowed name, and in a
+<pb n="28" facs="31"/>
+place where I so little expected to meet you;—I shall never think on what has passed without the deepest confusion and remorse. Anxious to preserve my pupil from offending his father by an unequal marriage, and suspicious of your real character, I have insulted innocence; and Heaven, to punish me, has turned that insult on my sister.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Oh! that my brother may be taught by this adventure, never more to insult distress and innocence; and to consider every virtuous, unprotected young woman as a sister. Alas! I was afraid my slight from my aunt had exposed me to your suspicions.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>I know your motives; they free you from all blame.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>But why did you assume the name of Freeman?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>I believe you already guess, that the young gentleman you see with me is the Earl of Belmont's son, whom I have accompanied in his travels; his father having provided a match for him, he prevailed upon me to come with him privately to England, in order to see his intended bride without being known by her.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>His intended bride!</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Yes, his intended bride;—but why this emotion, sister? You love Mr. Belmour:—ah! this is what I fear;—but remember, my dear Harriet, that Mr. Belmour is Lord Clairville, and never can be yours; and, were he weak enough to offer you his hand, I am bound in honour to prevent it. He was committed
+<pb n="29" facs="32"/>
+to my care by my benefactor and my friend; and, should I encourage his passion for you, it would be such a scandalous breach of trust as would sink me below the meanest of mankind. By Heaven, I would rather lose my life than incur the infamy of having betrayed my pupil into a clandestine marriage with my sister.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Be calm, brother, and place some confidence in me; you will find that I deserve it.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>'Tis well, then promise me to conceal your name and family still from Lord Clairville; if he knows I am your brother, he will possibly be weak enough to expect my concurrence with his designs; and my fixed resolution to oppose them may occasion a breach between us.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Heaven forbid!</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Nor would I have Miss Autumn know me yet by any other name than Freeman.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>And is this necessary?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>I am apprehensive, from her mistaken kindness for you, that she will certainly acquaint Lord Clairville with the truth.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Well, I will be entirely governed by you.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Then, my dear Harriet, you must resolve to go with me to-morrow to your aunt: I am assured that she is very desirous of being reconciled to you;
+<pb n="30" facs="33"/>
+and you cannot with any propriety stay here, where Lord Clairville may have such easy access to you.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>To return to my aunt, is the hardest injunction you have laid upon me yet; but even in this you shall be obeyed.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>To-morrow morning early a post-chaise shall be ready for you; I will join you on the road, and conduct you to Essex.—But how is this, Harriet? You are in tears;—I expected more firmness from you.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>I am to blame—but—</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Here is somebody coming,— retire and compose yourself; and oh! remember the honour of your brother is in your keeping.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Farewell; rely upon me.</p>
+      </sp>
+      <stage>
+       <hi>Exit Miss</hi> Courteney.</stage>
+      <sp who="#courteney">
+       <speaker>COURTENEY</speaker>
+       <stage>(looking after her.)</stage>
+       <p>It were a sin to doubt her, yet she loves Lord Clairville; what a difficult task does my situation impose upon me! compelled to make two persons miserable, whose happiness I would purchase at the expence of my own.</p>
+      </sp>
+      <stage>
+       <hi>Enter</hi> Lady Autumn.</stage>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>Waiting in expectation of my coming.— So it should be— a passionate lover will always prevent the hour.
+<stage>Aside.</stage>
+       </p>
+      </sp>
+      <sp who="#courteney">
+       <pb n="31" facs="34"/>
+       <speaker>COURTENEY</speaker>
+       <stage>(without seeing her.)</stage>
+       <p>If I can but avoid a discovery till I have placed her out of his reach, my honour will be safe.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>Lost in tender contemplation!
+<stage>Aside.</stage>
+       </p>
+       <p>Mr. Freeman!
+<stage>(<hi>advancing.</hi>)</stage>
+       </p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>I ask your Ladyship's pardon, I did not see you.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>No! well, here I am, according to my promise— but you must not impute this condescension—you must not presume upon it.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Presume! Madam.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>Nay, positively you shall not gaze upon me thus;—I shall blush ten times more if you do.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Gaze upon you! Madam.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>How his respect for me embarrasses him!
+<stage>(aside.)</stage>
+You were talking to me this morning of your friend's passion, Mr. Freeman; you remember the phrase—your <hi>friend's</hi> passion—need I tell you that I am — very favourably —disposed —to hear all you have to say upon that subject?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>My friend's passion! —I must put that notion out of her head
+<stage>(<hi>aside</hi>).</stage>
+Oh! dear Madam, I was only jesting.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>How, Sir?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Raillery, I do assure your Ladyship.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <pb n="32" facs="35"/>
+       <speaker>LADY AUTUMN.</speaker>
+       <p>I am confounded!</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>You were certainly mistaken, Madam, if you looked upon my friend's attachment in any other light than meer gallantry.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>This is strange! yet he owns an attachment; that is something, however
+<stage>(<hi>aside</hi>).</stage>
+—So then I am to suppose that—</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Nothing more than such homage as the young and beautiful will always claim from our sex.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>When you speak of beauty, there I am sure you flatter; and yet poor Lord Autumn used to think —but Lord Autumn, perhaps, was singular in his opinion.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>What does she mean?
+<stage>Aside.</stage>
+       </p>
+      </sp>
+      <stage>
+       <hi>Enter</hi> Footman.</stage>
+      <sp who="#footman">
+       <speaker>FOOTMAN.</speaker>
+       <p>Madam, Miss Autumn sends to acquaint your Ladyship, that the coffee is upon the table.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>What an unseasonable interruption!
+<stage>(<hi>aside</hi>).</stage>
+— Mr. Freeman, I do not think you have any great inclination for coffee?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Indeed I have, Madam; I will attend your Ladyship
+<stage>(<hi>offering his hand</hi>).</stage>
+       </p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>I protest he trembles; all this inconsistency is nothing but extreme respect
+<stage>aside</stage>
+—Come, Sir, we will talk of this affair another time.</p>
+      </sp>
+      <stage>
+       <hi>Exeunt</hi> Courteney <hi>and</hi> Lady Autumn.</stage>
+      <trailer>END OF THE SECOND ACT.</trailer>
+     </div>
+    </div>
+    <div n="3" type="act">
+     <pb n="33" facs="36"/>
+     <head>ACT III.</head>
+     <div n="1" type="scene">
+      <head>SCENE I. <stage>
+        <hi>The Drawing-Room.</hi>
+       </stage>
+      </head>
+      <stage>
+       <hi>Miss</hi> Autumn <hi>and her Woman.</hi>
+      </stage>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>I AM astonished! — Leave me to-morrow morning, and return to her aunt! What can have occasioned this sudden resolution? Sure Lady Autumn has not affronted her!—Betty—</p>
+      </sp>
+      <sp who="#betty">
+       <speaker>BETTY.</speaker>
+       <p>Madam—</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>Have you observed any coldness lately between Lady Autumn and Miss D'Arcy?—She talks of leaving me to-morrow. I am afraid she has taken some disgust.</p>
+      </sp>
+      <sp who="#betty">
+       <speaker>BETTY.</speaker>
+       <p>O, dear Ma'am, you are quite mistaken; Miss D'Arcy has other thoughts in her head.</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>Other thoughts! What do you mean?</p>
+      </sp>
+      <sp who="#betty">
+       <speaker>BETTY.</speaker>
+       <p>Lord, Ma'am, I mean nothing, not I; but I know—</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>What do you know?</p>
+      </sp>
+      <sp who="#betty">
+       <speaker>BETTY.</speaker>
+       <p>Nay, Ma'am, I know nothing, not I;—but I have seen something, and I have been told something.</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <pb n="34" facs="37"/>
+       <speaker>MISS AUTUMN.</speaker>
+       <p>Then, pray, say something. What have you seen? and what have you heard?</p>
+      </sp>
+      <sp who="#betty">
+       <speaker>BETTY.</speaker>
+       <p>For that matter, Ma'am, nobody knows how to keep a secret better than I do.</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>Oh! if you have been trusted with a secret—I shall not tempt you to betray it, I assure you.—Go, and tell Miss D'Arcy, that I wish to speak with her here—</p>
+      </sp>
+      <sp who="#betty">
+       <speaker>BETTY.</speaker>
+       <p>Depend upon it, Ma'am, Miss D'Arcy will confess nothing; she has carried this matter too closely.</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>You would fain disclose this secret, I perceive; but I will not gratify my curiosity at the expence of your fidelity.—Go, and deliver my message.</p>
+      </sp>
+      <sp who="#betty">
+       <speaker>BETTY.</speaker>
+       <p>Nay, Ma'am, since you will have it—though, I am sure, I never thought to have told—</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>Be gone, impertinent; I will not hear you.</p>
+      </sp>
+      <sp who="#betty">
+       <speaker>BETTY.</speaker>
+       <p>Nay, Ma'am, what I know is no great matter; it is only, that Mr. Freeman is in love with Miss D'Arcy.</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>What is that you say? Come back—Mr. Freeman in love with Miss D'Arcy! impossible!</p>
+      </sp>
+      <sp who="#betty">
+       <speaker>BETTY.</speaker>
+       <p>Oh, dear Ma'am, why impossible? Miss D'Arcy is a fine young lady; and, to be sure, Mr. Freeman doats upon her.</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <pb n="35" facs="38"/>
+       <speaker>MISS AUTUMN.</speaker>
+       <p>Doats upon her! —Tormenting wretch! — But tell me instantly all you know.</p>
+      </sp>
+      <sp who="#betty">
+       <speaker>BETTY.</speaker>
+       <p>I would have told you before, Ma'am; but you were so nice about betraying a secret—you would not hear me.</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>That is true;—but this is a secret which ought not to be concealed. You know, Miss D'Arcy is my friend—she may be taking some rash step.—It is fit I should enquire into this matter.—So, Mr. Freeman is <hi>her</hi> lover, then?
+<stage>sighs.</stage>
+       </p>
+      </sp>
+      <sp who="#betty">
+       <speaker>BETTY.</speaker>
+       <p>Yes, Ma'am, I am sure he is; for you must know, Ma'am, that they met here, in this very room, to-day: I saw them with my own eyes;—I was passing by the door when they were in earnest discourse.—Now, I abhor listening, Ma'am—I am above it:—so I stood still, and shut the door halfway, that they might not see me; but I could scarcely hear a word they said—they talked so low. —At last, I saw Miss D'Arcy burst into tears; and presently afterwards, Mr. Freeman threw his arms about her neck, and kissed her.</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>Kissed her! and did she suffer that?</p>
+      </sp>
+      <sp who="#betty">
+       <speaker>BETTY.</speaker>
+       <p>Yes, indeed, did she, Ma'am; and kissed him again, very cordially too.</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>Amazement! Her motive for leaving me is now too plain.</p>
+      </sp>
+      <sp who="#betty">
+       <speaker>BETTY.</speaker>
+       <p>To be sure, Ma'am. Why, Ma'am, Mr. Freeman is to go along with her.</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <pb n="36" facs="39"/>
+       <speaker>MISS AUTUMN.</speaker>
+       <p>How do you know that?</p>
+      </sp>
+      <sp who="#betty">
+       <speaker>BETTY.</speaker>
+       <p>Why, Ma'am, you must know that Mr. William, Mr. Freeman's servant—his gentleman, I should say; for he is above wearing a livery—</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>What is that to the purpose? Go on—</p>
+      </sp>
+      <sp who="#betty">
+       <speaker>BETTY.</speaker>
+       <p>I hope you will excuse me, Ma'am;—but Mr. William has for some days made his addresses to me, upon honourable terms.</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>Absurd creature! What then?</p>
+      </sp>
+      <sp who="#betty">
+       <speaker>BETTY.</speaker>
+       <p>He told me, Ma'am, under a promise of secresy, that his master was certainly going to steal a marriage with Miss D'Arcy; for that he had ordered him to hire a post-chaise for her; that he was to attend her as far as London, and Mr. Freeman was to join them there; but where they were to proceed afterwards, he did not know.</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>It is certainly so!—What a dupe have I been all this time!—Treacherous Harriet!</p>
+      </sp>
+      <sp who="#betty">
+       <speaker>BETTY.</speaker>
+       <p>If I had thought this news would have discomposed you so much, Ma'am, I would not have told you.</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>Discomposed! What is it to me whom Mr. Freeman marries?—Leave me.</p>
+      </sp>
+      <stage>
+       <hi>Exit</hi> Betty.</stage>
+      <sp who="#miss_autumn">
+       <pb n="37" facs="40"/>
+       <speaker>MISS AUTUMN</speaker>
+       <stage>(<hi>alone</hi>).</stage>
+       <p>Discomposed!—yes, I feel it but too sensibly.— Ungrateful Harriet! But why do I complain of her? Have I not always affected to despise this man? laughed at, and raillied him continually? He is coming! Let me laugh and railly still. Let me conceal my weakness at least.— It will not be! I cannot look at him without betraying myself.</p>
+      </sp>
+      <stage>going.</stage>
+      <stage>
+       <hi>Enter</hi> Courteney.</stage>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Miss Autumn, you are wanted at the quadrilletable.</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>I shall not play to-night, Sir.
+<stage>Exit.</stage>
+       </p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>That was spoke in a peevish tone—I am sure:— her eyes seemed full of tears too. Can that impenetrable heart have feelings! Charming creature! She only wants a little sensibility to make her irresistible.</p>
+      </sp>
+      <stage>
+       <hi>Enter Lord</hi> Clairville.</stage>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>I am in no humour to play this evening—dear Courteney, take my place—</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>That you may have an opportunity of entertaining Miss D'Arcy.—Is it not so, my Lord?</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>I confess it is. But why must I find you eternally in my way? What is it you apprehend?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Great inconveniences, from this attachment, my Lord; and I think it my duty to oppose it.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <pb n="38" facs="41"/>
+       <speaker>CLAIRVILLE.</speaker>
+       <p>I must dissemble with him
+<stage>(<hi>aside</hi>).</stage>
+—What! do you imagine I am weak enough to be honourably in love with this girl?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Ha! and do you own, my Lord, you have dishonourable designs upon this girl, as you call her?</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Why, if I had, what then?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>What then! confusion! dishonourable designs upon—upon—this is too much, my Lord. Let us talk no more upon this subject.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>This is astonishing! By Heaven, his colour changes; what can this mean?
+<stage>aside.</stage>
+       </p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>My Lord, I must advise, nay I intreat, you to think no more of Miss D'Arcy; you will find insuperable difficulties in your way. Hereafter I will explain myself more fully.</p>
+      </sp>
+      <stage>bows, and exit.</stage>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Stay, Courteney; I insist upon your explaining yourself now—gone!—what am I to think of this? he loves her himself perhaps—what then? does he expect I should resign her to him? has he been base enough?—no, that is not possible.</p>
+      </sp>
+      <stage>
+       <hi>Enter Miss</hi> Courteney.</stage>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>I thought Mr. Freeman had been with you, Sir?</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <pb n="39" facs="42"/>
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Mr. Freeman! Madam? it was Mr. Freeman then you wished to see?</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>I have a little business with him.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Business with Mr. Freeman! Madam? how long has Mr. Freeman been honoured with your confidence?</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>I always esteemed Mr. Freeman. Sir.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Well, Madam, he is worthy of your esteem.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>He seems chagrined at something
+<stage>(<hi>aside</hi>).</stage>
+—Will you not join the company, Sir, in the next room?</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Her looks are colder than usual; but I will clear up all my doubts at once
+<stage>(<hi>aside</hi>).</stage>
+—Indulge me with a few moments. Madam, while I intreat your pardon for having concealed my real name and circumstances from you. I am now at liberty to declare myself, since my father, by this time, knows my resolution never to marry the lady he designed for me.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>What would he say?
+<stage>aside.</stage>
+       </p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>My name is not Belmour; it is Clairville. I am son to the Earl of Belmont, and heir to his title and estate; but title and estate with you, I am sure, will weigh nothing, if the man is unworthy. But if, as Belmour, I have been so fortunate as to
+<pb n="40" facs="43"/>
+gain your esteem, you will not refuse your hand to Clairville.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Generous youth! oh, my hard fate!
+<stage>aside.</stage>
+       </p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>You turn from me; you answer me not. — Was it then a vain hope I flattered myself with, when I believed I was not disagreeable to you?</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTEVEY.</speaker>
+       <p>Oh! brother, what a task have you imposed upon me!
+<stage>aside.</stage>
+       </p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Keep me not, dear Miss D'Arcy, in this cruel suspence—but why do I say suspence?—your silence speaks plainly enough—your affections are bestowed upon another.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Oh! think not so, my Lord; my heart—</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Go on, Madam, I conjure you.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Is sensible to your worth; but—</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Finish the harsh sentence, Madam; you love another.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Love another! oh, heavens!
+<stage>(aside)</stage>
+— What can I say, my Lord? the honour you do me demands my most grateful acknowledgements; but there are obstacles—</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>My father—he will consent, perhaps—if not, he will forgive.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <pb n="41" facs="44"/>
+       <speaker>MISS COURTENEY.</speaker>
+       <p>I understand you, my Lord. No, this can never be—there are difficulties which cannot be surmounted.—Yet do not suppose me ungrateful— insensible of—what am I going to say?—Think of me no more, my Lord, and obey the commands of your father.</p>
+      </sp>
+      <stage>
+       <hi>Exit Miss</hi> Courteney.</stage>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Think of her no more!—difficulties that never can be surmounted!—Courteney said the very same words!—I fear it is too true that they love each other. Their secret conferences, the simularity of their conduct, their mutual confusion and reserve, all contribute to heighten my suspicions. Distraction! this double jealousy of the objects both of my friendship and my love is intolerable.—Can then Courteney?—I cannot bear these doubts—I must and will be satisfied.
+<stage>Exit.</stage>
+       </p>
+      </sp>
+      <stage>
+       <hi>Enter Lady</hi> Autumn <hi>and</hi> Simple.</stage>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>Did Betty tell you this?</p>
+      </sp>
+      <sp who="#simple">
+       <speaker>SIMPLE.</speaker>
+       <p>Yes, indeed, Madam.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>It cannot be—I will not believe it—I know I am the object of his secret affection.</p>
+      </sp>
+      <sp who="#simple">
+       <speaker>SIMPLE.</speaker>
+       <p>I would lay ever so much, your Ladyship is mistaken.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>Simple, I begin to think you have not so much understanding as I once imagined you had.</p>
+      </sp>
+      <sp who="#simple">
+       <pb n="42" facs="45"/>
+       <speaker>SIMPLE.</speaker>
+       <p>Here is Mr. Belmour; Madam, pray ask him: I dare say he knows all his secrets.</p>
+      </sp>
+      <stage>
+       <hi>Enter</hi> Clairville.</stage>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>Leave me.
+<stage>(<hi>exit</hi> Simple.)</stage>
+—Mr. Belmour, where have you been this half hour?</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE</speaker>
+       <stage>(with impatience.)</stage>
+       <p>Is Mr. Freeman gone home, Madam?</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>No, certainly; he sups here to-night, and you too, I hope.—We will join him in the garden, he is there—but first, Mr. Belmour, I would ask you a question—do you suspect your friend to be in love?</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Ha! this may lead to a discovery
+<stage>(<hi>aside</hi>).</stage>
+—I do, Madam.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>You do?—well, that is candidly said. And so do I
+<stage>(<hi>laughs</hi>).</stage>
+—Poor Freeman!—yes, he is in love; a person of the least discernment in the world might have perceived his passion.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Then your Ladyship has perceived it?</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>His sighs, his languishments, his tender assiduity.—Do you imagine all this could escape observation?</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Yet it did mine—how have I been deceived?</p>
+      </sp>
+      <stage>aside.</stage>
+      <sp who="#lady_autumn">
+       <pb n="43" facs="46"/>
+       <speaker>LADY AUTUMN.</speaker>
+       <p>But has he not trusted you with the secret?</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Me, Madam! was it likely he would own his passion to me?</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>I think so; but you have found it out, however; and, I doubt not can guess the object.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE</speaker>
+       <stage>(sighing.)</stage>
+       <p>Yes, Madam, I believe I can—but your Ladyship knows, I am sure.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>I vow this is very provoking—know—yes, certainly, I know—that is, I can guess—but sure you would not be so unpolite, as to oblige me to name her?</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Well, Madam, I will name her then; but your Ladyship must condescend—</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>Condescend—bless me! you are leading me very far, methinks—I will not hear another word upon this subject —you are making conditions for your friend, I find;—but come, tell me what would you have me condescend to?</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>When I have named the lady, to tell me if I have guessed truly.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>Well, I protest this is a very modest request!— and to you would have me own—but name her— name her.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Miss D'Arcy.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <pb n="44" facs="47"/>
+       <speaker>LADY AUTUMN</speaker>
+       <stage>(looking disappointed).</stage>
+       <p>Miss D'Arcy! Is this your discernment? You never was more mistaken in your life.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Am I mistaken, Madam?</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>Certainly; but I know upon what grounds— Miss D'Arcy has surprized us all, with a sudden resolution to go into the country to-morrow; and Miss Autumn's tattling woman has told us, that it is at Mr. Freeman's instigation— that he has provided a post-chaise for her, and is to conduct her himself. She pretends to know this from his own servant—idle stuff—but we will railly him upon it.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>So! it is all out; persidious Courteney!
+<stage>Aside.</stage>
+       </p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>Well, what do you think of this absurd report?</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>That it may possibly be true, Madam; for you say Miss D'Arcy is to leave you to-morrow.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>Yes, but not to steal a marriage with Mr. Freeman. Ha! ha! ha! how people may be deceived! Do you understand the language of the eyes, Mr. Belmour?</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>The language of the eyes, Madam?</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>If you did, you would not have been so much mistaken with regard to your friend's attachment; your suspicions would have fallen somewhere else, I assure you.—Come, shall we take the air in the garden? The sun is almost set.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <pb n="45" facs="48"/>
+       <speaker>LORD CLAIRVILLE.</speaker>
+       <p>Excuse me, Madam; I have a little private business with Mr. Freeman.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>You will find him in the garden — I will bring you to him.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>I will follow you. Madam.
+<stage>(<hi>Exeunt Lady</hi> Autumn <hi>and</hi> Simple).</stage>
+Perfidious Courtney! it is too plain he has supplanted me, basely supplanted me; and the story he has told me of his sister was invented to excuse his sudden absence. Is this the friend who possessed more than a brother's part of my affections? I have been his dupe, his bubble: I will find him instantly, acquaint him with my detection of his perfidy, and demand satisfaction.</p>
+      </sp>
+     </div>
+     <trailer>END OF THE THIRD ACT.</trailer>
+    </div>
+    <div n="4" type="act">
+     <pb n="46" facs="49"/>
+     <head>ACT IV.</head>
+     <div n="1" type="scene">
+      <head>SCENE I. <stage>
+        <hi>A garden.</hi>
+       </stage>
+      </head>
+      <stage>
+       <hi>Enter</hi> Courteney <hi>and Miss</hi> Courteney <hi>talking.</hi>
+      </stage>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>YES, my dear sister, I agree with you that Lord Clairville has acted with great delicacy; and this frank offer of his hand is a proof that his esteem of you is equal to his love—but do not carry your gratitude too far; do not encourage sentiments that must be suppressed: the Earl of Belmont will never consent to your marriage—I am bound by honour to prevent it—endeavour then to banish him from your thoughts.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>To banish him from my thoughts, is—perhaps— not in my power; but never to be his without your approbation, I can, and do promise, because I am convinced you ought to act as you do.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>And you hold to your resolution of going tomorrow?</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>I do.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>How does this generous self-denial endear you to me! Believe me, my dear Harriet, it wrings my soul to be obliged thus to oppose your happiness— were any thing less than my honour at stake— but you are just enough to perceive the reasonableness of my conduct.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <pb n="47" facs="50"/>
+       <speaker>MISS COURTENEY.</speaker>
+       <p>No more, I beg you, on this subject—but tell me, when you will permit me to regain the confidence of my friend?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Whom do you mean?</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Miss Autumn—my sudden resolution to leave her to-morrow, without being able to give her a satisfactory reason for it; and your design of conducting me yourself, having by some means or other come to her knowledge, she suspects you are my lover, and her resentment—</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Resentment! does the suspicion of my being your lover give her any concern?</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>I am to blame; I have betrayed my friend's secret, without being sure of his sentiments for her.</p>
+      </sp>
+      <stage>Aside.</stage>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>But tell me, dear Harriet, is it possible that Miss Autumn can be jealous?</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Jealous! what an inference has your vanity drawn! Miss Courteney thinks I have entered into some engagements with you, and considers my not having communicated them to her, as a breach of our friendship.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY</speaker>
+       <stage>(confused).</stage>
+       <p>Yes, to be sure—that is very natural—then she is angry—but, as you say, she considers it as a breach of friendship—that indeed accounts for her
+<pb n="48" facs="51"/>
+anger. But tell me, Harriet, are Miss Autumn's affections wholly disengaged? is there not one happy man in the world who has been able to touch her heart?</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Perhaps I may not tell you that; but I will tell you whose heart she has touched.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>That is no great matter—whose?</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Yours, brother.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>You may be mistaken.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Am I mistaken?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>No—now laugh if you will—but do not tell your friend; I would not swell her triumph, and be numbered in the list of her discarded admirers—</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>There is no danger of that, I believe.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>But what proofs have you of her partiality for me?</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>The strongest in one of her temper; she affects to hate you.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>That is a good sign, I confess.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>And me she has ceased to love; now that she suspects me to be her rival. I can perceive her heart is torn with jealousy, yet she affects her usual gaiety and unconcern—but indifference is of all
+<pb n="49" facs="52"/>
+dispositions of the mind, the hardest to feign, and she is too little practised in dissimulation to feign it well.—I wish it were consistent with your plan to own our secret.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Do not press me on this subject;—my situation is already sufficiently perplexing.—Should Lord Clairville suspect you are my sister—but I think I see him in the next walk.—Leave me, dear Harriet:— I would not have him find us alone.</p>
+      </sp>
+      <stage>
+       <hi>Exit Miss</hi> Courteney.</stage>
+      <stage>
+       <hi>Enter Lord</hi> Clairville.</stage>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>It was she!—They separated at my approach.— Both, both are perfidious—
+<stage>(<hi>aside.</hi>)</stage>
+       </p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>My Lord, you seem chagrined at something!— What is the matter?</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Ask your own heart!—Have you dealt ingenuously with me, in regard to the lady who parted from you this moment?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY</speaker>
+       <stage>(<hi>hesitating</hi>).</stage>
+       <p>My Lord—</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>I will spare you any further dissimulation, Sir: I know all.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>I am sorry for it, my Lord, because it convinces me of my sister's imprudence.—She has broke her word with me: weak girl!
+<stage>(<hi>aside.</hi>)</stage>
+       </p>
+      </sp>
+      <sp who="#lord_clairville">
+       <pb n="50" facs="53"/>
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Your sister's imprudence!—Yes, that was one of your artifices, to furnish you with an excuse for quitting me—false, false Courteney!</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Forbear these unjust reproaches, my Lord.—By Heaven! till this day, I knew not that my sister—</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>No more of your evasions, Sir!—The story you told me of your sister, may, or may not be true: it matters not; though it is most likely it was feigned, to cover your designs upon Miss D'Arcy.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>He knows her not yet, I find: she has kept her promise—my generous sister!
+<stage>(<hi>aside.</hi>)</stage>
+       </p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>You knew my passion for Miss D'Arcy!—Confiding in your friendship, my unsuspecting heart trusted you without reserve; and, while you were treacherously supplanting me in her affections, I was weak enough to believe that your eagerness of opposition, was the effect of a prudential regard to my interest.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>And so it was—so it is still.—</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Villain! 'tis false.—</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Ha! Villain!—He thinks I have wronged him.— But then this outrage.—Villain! 'tis too much—</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Yes, Villain! I repeat the term, and will support my assertion. Lead where you please, I will follow you.</p>
+      </sp>
+      <sp who="#courteney">
+       <pb n="51" facs="54"/>
+       <speaker>COURTENEY</speaker>
+       <stage>(<hi>after a pause</hi>).</stage>
+       <p>No, my Lord; I will neither lead nor follow you at present. You think I am your rival—think so still.—After the treatment I have received from you, it would be mean to undeceive you.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Against such plain, such convincing circumstances, what can you offer in your justification?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Nothing—I will offer nothing;—and yet I could undeceive you with a single word:—but you do not deserve this condescension, my Lord—you, who have condemned your friend unheard—who have suffered a light, ill-grounded suspicion to rob him of the merit of many years faithful attachment— injured, insulted, and branded him with the name of Villain!—while he—but no more.—Hereafter you will know the motives upon which I have acted:—then, when shame and remorse for your offence have intitled you to my forgiveness, then I may think you worthy of an explanation.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>This language is very bold, Sir!—Sure, you forget—</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Oh, no—I remember you are a Lord; a title greatly inferior to that of a man of honour.—</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>How, Sir!</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>My Lord, nobility is virtue, or it is nothing.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Well, grant it possible I may have wronged you by my suspicions—answer me then one question; is it true, that you go with Miss D'Arcy to-morrow?</p>
+      </sp>
+      <sp who="#courteney">
+       <pb n="52" facs="55"/>
+       <speaker>COURTENEY.</speaker>
+       <p>It is—</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>You own it?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>I do—and—</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>No more!—I am convinced!—Thou mean seducer!—But hope not to carry it thus triumphantly!—Within this half hour, meet me behind the garden-wall:—there, if I cannot obtain satisfaction from the man, I will at least do justice on a coward!—</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Coward! My Lord, I'll meet you.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>'Tis well—I shall expect you.
+<stage>
+         <hi>Exit</hi> Clairville.</stage>
+       </p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY</speaker>
+       <stage>(<hi>after a pause</hi>).</stage>
+       <p>In taking revenge, a man is only even with his enemy; in passing it over, he is superior:—this sounds well; the practice is something difficult.— But is Lord Clairville my enemy?—a lover, and jealous! appearances strong too, against me! But such an outrage! Villain! Coward!</p>
+      </sp>
+      <stage>
+       <hi>Enter Miss</hi> Courteney.</stage>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Oh, brother! how greatly you distress me! I heard high words between Lord Clairville and you: he shot by me this moment, with looks inflamed with rage—scarce bowed to me in passing!—I fear you have quarreled.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Calm yourself, dear Harriet; and conside in my prudence.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <pb n="53" facs="56"/>
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Excuse me, brother; but I cannot help telling you, that your prudence has hitherto produced nothing but confusion: by some means or other, the whole family knows that I go under your conduct to-morrow.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>This must be owing to some <hi>imprudence</hi>—I doubt—</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Your relation to me being a secret, this has raised a suspicion of my having entered into a clandestine engagement with you: on this account, Miss Autumn has withdrawn her friendship from me, Lord Clairville despises me, and you are become the object of his resentment. All these inconveniences might have been prevented, had you declared yourself my brother.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Perhaps not.—Obliged as I am in honour to oppose Lord Clairville's passion for you, had I acknowledged you to be my sister, I should have exposed myself to importunities, which it would have been difficult to have rejected; and, after all, my conduct might have had the appearance of artifice.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>My heart forebodes some misfortune!—Were it not better to own me now to Lord Clairville, than to leave him in a mistake which draws his suspicions on you?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>It is, indeed, unlucky that he should suspect me to be his rival: had he been more temperate, I believe I should have undeceived him; but now an explanation would seem cowardice.
+<stage>walks aside.</stage>
+       </p>
+      </sp>
+      <sp who="#miss_courteney">
+       <pb n="54" facs="57"/>
+       <speaker>MISS COURTENEY</speaker>
+       <stage>(<hi>aside.</hi>)</stage>
+       <p>Ah! I perceive how it is. I must and will prevent it.—Lady Autumn! this is fortunate!</p>
+      </sp>
+      <stage>
+       <hi>Enter Lady</hi> Autumn.</stage>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>I beg of you, dear Madam, not to quit Mr. Freeman!—Something has happened—</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>What!—has he explained himself to you, then?</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Explained himself to me, Madam! I find your Ladyship knows something of the matter.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>I believe I do.—</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Then, Madam, you see the necessity of preventing—</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>I understand you.—Leave me with him.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>If I can but see Lord Clairville before they meet again—
+<stage>aside, and exit hastily.</stage>
+       </p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>'Tis so!—He has not had courage to declare his passion to me himself, and has employed her to mediate for him.—I think, I have carried punctilio far enough:—so respectful a flame deserves—he sees me, and advances.—Mr. Freeman, you have chosen the most retired part of the garden to walk in. These shades are a nurse for tender thoughts, as the poet says.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>My thoughts, Madam!—</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <pb n="55" facs="58"/>
+       <speaker>LADY AUTUMN.</speaker>
+       <p>Come, come—I have known your thoughts for some time: I know you love—I know, too, that you are beloved.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>And do you condescend to tell me so, Madam?</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>I do; and yet perhaps I ought not: but your respectful silence has had its weight with me, I assure you.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>And has Miss Autumn, Madam, consented?</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>Miss Autumn, though mistress of her fortune by her father's will, has yet much to hope for from my favour:—she will hardly presume to offer any opposition; or, if she should—</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Ah! Madam, did you not this moment flatter me with the hope of being beloved?</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>Yes; you are beloved: I repeat it.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Then, surely, no opposition is to be apprehended!—Your consent secures my happiness!— Thus let me thank your Ladyship—</p>
+      </sp>
+      <stage>kneels, and kisses her hand.</stage>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>Oh! rise—These raptures!—Yet methinks he scarcely touched my hand—what invincible respect!
+<stage>(<hi>aside.</hi>)</stage>
+       </p>
+      </sp>
+      <stage>
+       <pb n="56" facs="59"/>
+       <hi>Enter a Footman.</hi>
+      </stage>
+      <sp who="#footman">
+       <speaker>FOOTMAN.</speaker>
+       <p>Madam, the Earl of Belmont is at the gate, and sends to know if your Ladyship is at home?</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>The Earl of Belmont! I hardly know him.— Admit his Lordship. What can this visit mean?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>'Tis strange, yet it is lucky.—
+<stage>(<hi>aside.</hi>)</stage>
+Nothing could happen more fortunate for me. Madam, than my Lord Belmont's visit. Whatever be the occasion of it, his Lordship can acquaint you with some particulars relating to my family and character, which it is necessary you should know; and which will serve to shew you, that I am not wholly unworthy of the honour you design me.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>I am impatient 'till I see him.—Adieu!</p>
+      </sp>
+      <stage>
+       <hi>Exit Lady</hi> Autumn.</stage>
+      <stage>
+       <hi>Enter Miss</hi> Courteney.</stage>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Sure, never was any thing so unfortunate! Lord Clairville is not to be found.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>My dear sister, I have the most surprizing news to tell you!—</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>It is good news, then; for you look pleased.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Lady Autumn is the most generous woman in the world! and I am the happiest of men!—</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>What do you mean?</p>
+      </sp>
+      <sp who="#courteney">
+       <pb n="57" facs="60"/>
+       <speaker>COURTENEY.</speaker>
+       <p>Would you think it? Your dear, saucy, tormenting, lovely friend, has owned an inclination for me to her step-mother; and this paragon of step-mothers, overlooking the inequality of fortune, is determined to make us happy, and has promised me her hand.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>You amaze me!</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>'Tis true! and just at the moment when I was preparing to acquaint her with my real name, Lord Belmont arrives; from whom the discovery will come with more advantage.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Lord Belmont here! my fears of a quarrel are at an end.—I suppose I am now at liberty to convince Miss Autumn that I cannot be her rival?—She promised to join me in the garden.—</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Paint, if you can, your brother's transports; and obtain me permission to throw myself at her feet. Mean time, I will attend Lord Belmont, who is doubtless come hither in search of his son: our little excursion will draw some reproaches from him; but, when he knows all, I shall be justified in his opinion. As for you, my dear Harriet, your conduct has been so generous—</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>No more on this subject, I intreat you.—I shall be impatient to know what passes between
+<pb n="58" facs="61"/>
+the Earl and you.—You will find me here in the garden.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>I'll come to you.—Adieu.</p>
+      </sp>
+      <stage>Exeunt severally.</stage>
+     </div>
+     <trailer>END OF THE FOURTH ACT.</trailer>
+    </div>
+    <div n="5" type="act">
+     <pb n="59" facs="62"/>
+     <head>ACT V.</head>
+     <div n="1" type="scene">
+      <head>SCENE I. <stage>
+        <hi>The drawing-room.</hi>
+       </stage>
+      </head>
+      <stage>
+       <hi>Enter Lady</hi> Autumn and <hi>Lord</hi> Belmont.</stage>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>WHAT you tell me, my Lord, surprises me greatly; your son here in Windsor, under a borrowed name, and a constant visitor at my house—what an adventure!</p>
+      </sp>
+      <sp who="#earl_of_belmont">
+       <speaker>LORD BELMONT.</speaker>
+       <p>It is very true, Madam; he left Paris with his governor some weeks ago, without acquainting me with their intention; and, as I am informed, have passed the greatest part of their time here.—Are there not two young gentlemen, who visit your Ladyship under the names of Belmour and Freeman?</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>Pray, my Lord, which of them is your son?</p>
+      </sp>
+      <sp who="#earl_of_belmont">
+       <speaker>LORD BELMONT.</speaker>
+       <p>He who calls himself Belmour; the other is his governor, a young man of a good family, but low fortunes, whose father was my friend; and upon that account, as well as for the good qualities I observed in him, I determined to take care of his fortune; I placed him at the university of Leyden, and, when he had finished his studies, sent him to travel with my son, to whose care I confided him—young as he is, his merit justified my choice of him for this trust.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <pb n="60" facs="63"/>
+       <speaker>LADY AUTUMN.</speaker>
+       <p>No doubt of it, my Lord;—all the world must approve of your choice; Mr. Freeman's merit— but Freeman is not his name, your Lordship says?</p>
+      </sp>
+      <sp who="#earl_of_belmont">
+       <speaker>LORD BELMONT.</speaker>
+       <p>No, Madam; Courteney is his real name.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>Courteney!—your Lordship had reason to say he is of a good family!—Courteney is a name that any person might be proud to own.</p>
+      </sp>
+      <sp who="#earl_of_belmont">
+       <speaker>LORD BELMONT.</speaker>
+       <p>And he always supported the honour of it till now.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>'Till now, my Lord;—I am sorry—your Lordship must excuse me—but any imputation cast upon Mr. Freeman—Mr. Courteney, I mean—</p>
+      </sp>
+      <sp who="#earl_of_belmont">
+       <speaker>LORD BELMONT.</speaker>
+       <p>I see, Madam, you are prejudiced in his favour; I am not surprised at it—Courteney has many good qualities; but to me he has shewn himself ungrateful. I confided my son to his care; and he has either led him into this misconduct, or has concurred with him in it; either way he has betrayed his trust.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>A youthful frolic; perhaps love.</p>
+      </sp>
+      <sp who="#earl_of_belmont">
+       <speaker>LORD BELMONT.</speaker>
+       <p>Aye, Madam, that is what I apprehend.—Your Ladyship must excuse me; but, although Miss Antumn is an accomplished young lady—</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>Your Lordship is extremely mistaken; Miss Autumn is not the object of Mr. Courteney's vows, I assure you.</p>
+      </sp>
+      <sp who="#earl_of_belmont">
+       <pb n="61" facs="64"/>
+       <speaker>LORD BELMONT.</speaker>
+       <p>Mr. Courteney, Madam, is his own master: he may offer his vows where he pleases; but I persuade myself your Ladyship will not encourage my son in a clandestine address to Miss Autumn, when you know that I have other views for him.— It was to tell you this, Madam, that I took the liberty to trouble you with a visit.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>I do assure you, my Lord, I know of no correspondence between Lord Clairville and Miss Autumn—I never expected to be consulted by her upon these occasions; a mother-in-law of my years cannot be supposed to have much authority over a girl of one and twenty.</p>
+      </sp>
+      <stage>
+       <hi>Enter</hi> Simple <hi>hastily.</hi>
+      </stage>
+      <sp who="#simple">
+       <speaker>SIMPLE.</speaker>
+       <p>Oh! dear Madam, I am in such a fright! I hope your Ladyship will excuse me; but here is Mr. Belmour's servant, who tells us, that his master and Mr. Freeman have quarrelled, and are gone out to fight.</p>
+      </sp>
+      <sp who="#earl_of_belmont">
+       <speaker>LORD BELMONT.</speaker>
+       <p>What can this mean?—quarrelled!—with your leave. Madam—bid the fellow come hither.</p>
+      </sp>
+      <stage>
+       <hi>Exit</hi> Simple.</stage>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>It cannot be, my Lord; I left Mr. Courteney a few minutes ago.</p>
+      </sp>
+      <stage>
+       <hi>Enter</hi> William.</stage>
+      <sp who="#will">
+       <speaker>WILLIAM.</speaker>
+       <p>My old Lord here! we are all blown up.
+<stage>aside.</stage>
+       </p>
+      </sp>
+      <sp who="#earl_of_belmont">
+       <pb n="62" facs="65"/>
+       <speaker>LORD BELMONT.</speaker>
+       <p>Well, Sir; what is the meaning of the alarm you have given the family?</p>
+      </sp>
+      <sp who="#will">
+       <speaker>WILLIAM.</speaker>
+       <p>Pray, my Lord, pardon me; I am but a servant, and was obliged to obey the orders that were given me.</p>
+      </sp>
+      <sp who="#earl_of_belmont">
+       <speaker>LORD BELMONT.</speaker>
+       <p>What orders?</p>
+      </sp>
+      <sp who="#will">
+       <speaker>WILLIAM.</speaker>
+       <p>I brought my young Lord his pistols, as he commanded me; and, to be sure, I believe some mischief is going forwards; for I know my Lord and his governor have quarrelled: I overheard them in the garden; I was behind an hedge—a challenge passed between them; and my young Lord, meeting me, sent me to bring his case of pistols. I followed my Lord unobserved, and saw which way he went; and some time afterwards I saw Mr. Courteney taking the same path.</p>
+      </sp>
+      <sp who="#earl_of_belmont">
+       <speaker>LORD BELMONT.</speaker>
+       <p>Bring me instantly to the place; I may yet prevent their rashness.</p>
+      </sp>
+      <stage>
+       <hi>Exeunt Lord</hi> Belmont <hi>and</hi> William.</stage>
+      <stage>
+       <hi>Enter Miss</hi> Courteney.</stage>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Oh! Madam, I thought my brother had been with you.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>Your brother!—but this is no time for explanations. I'll follow Lord Belmont—my fears distract me.
+<stage>
+         <hi>Exit Lady</hi> Autumn.</stage>
+       </p>
+      </sp>
+      <sp who="#miss_courteney">
+       <pb n="63" facs="66"/>
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Alas! what are your fears to mine!— Oh! Charlotte!</p>
+      </sp>
+      <stage>
+       <hi>Enter Miss</hi> Autumn.</stage>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>Well, Madam, your coquetry has produced fine effects!—two of the most amiable young men in the world are this moment, perhaps, dying by each other's hand, and you the cause! —false woman!—</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>My coquetry! dear Charlotte. Mr. Freeman!</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>Name him not, would I had never seen him!— but you, how have you deceived me!—such insatiate vanity in one who pretended to be so far superior to all the little foibles of her sex!—who was continually pressing her grave rebukes upon me, and throwing out moral sentences at every turn— away—hypocrisy at eighteen—unnatural vice!</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>My dear Charlotte, these are unjust reproaches; I never was your rival—Mr. Freeman is my brother.</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>Freeman your brother!—Freeman Mr. Courteney!—how barbarously have I treated you!</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Alas! perhaps I have no brother now; neither of us knew each other till this day, and then an accident—but I cannot enter into particulars—dear Charlotte, let us haste—</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <pb n="64" facs="67"/>
+       <speaker>MISS AUTUMN.</speaker>
+       <p>Whither would you go, my dear? we shall have some intelligence presently—all the servants are gone after them.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Shocking intelligence, perhaps!—oh! why have I concealed this fatal secret so long?</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>Why, indeed! but let me not blame you —I have been too rash already in my censures.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Sure the sight of Lord Belmont;— but he may come too late—I cannot bear this cruel suspence any longer.
+<stage>going.</stage>
+       </p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN</speaker>
+       <stage>(stopping her.)</stage>
+       <p>Here is somebody coming—my dear, dear Harriet; I give you joy! your brother's safe, it is him—</p>
+      </sp>
+      <stage>
+       <hi>Enter Mr.</hi> Courteney.</stage>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>My brother—thank Heaven!—but oh! Lord Clairville
+<stage>(<hi>aside</hi>)</stage>
+—what terrors have you caused us! where is your friend?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Be not alarmed, my dear; nothing has happened —but the whole house is in strange confusion; how came this foolish affair to be known?—Miss Autumn, ha! she looks as if she had been weeping, delightful thought! her fears perhaps for me.
+<stage>(<hi>Going up to Miss</hi> Autumn)</stage>
+Will you pardon me, Madam, for the disingenuity I have been guilty of, in appearing before you so long under a borrowed name? my sister may have informed you that—</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN.</speaker>
+       <p>Your sister, Sir, has been under too much anxiety for you to enter into explanations—my dear
+<pb n="65" facs="68"/>
+Harriet, when you have chid your brother sufficiently for the fright he has put you into, come and give me the history of this pretty adventure, that I may know whether I ought to pardon him or not.
+<stage>
+         <hi>Exit Miss</hi> Autumn.</stage>
+       </p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Oh! brother, what affliction would you have spared me, had you permitted me to undeceive Lord Clairville?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>As things were situated, it was not fit you should.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>But have you met?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Yes, I met him; I thought I could not in honour avoid it.</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY.</speaker>
+       <p>Oh! Heavens—</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Be calm, and hear the event; he brought pistols, and insisted upon my taking one; he then bid me fire: I refused, saying, that, as I was resolved he should in every point be the aggressor, he should fire first; he did, and missed me, and on my soul I believe designedly; for by the changes in his countenance, I could perceive that grief, and not anger, was then the predominant passion in his mind—my turn was next; I fired my pistol in the air, then calmly told him, that his father was here, and that I would explain myself in his presence; he spoke not a word, but bowed and left me, and we took different paths to the house—but tell me, dear Harriet, does Miss Autumn seem to know her mother's favourable intentions? has she acknowledged any thing to you?</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <pb n="66" facs="69"/>
+       <speaker>MISS COURTENEY.</speaker>
+       <p>I have seen her but for a few moments since you left me, and neither of us was then in a humour to enter upon a discourse of that kind; but now that she knows who you are, she will certainly have no reserves to me.— Adieu! I am going to her.</p>
+      </sp>
+      <stage>
+       <hi>Exit Miss</hi> Courteney.</stage>
+      <sp who="#courteney">
+       <speaker>COURTENEY</speaker>
+       <stage>(<hi>alone.</hi>)</stage>
+       <p>Lady Autumn's generosity is so surprizing, that it looks more like caprice than a design taken up upon reflection; I don't know what to make of it.</p>
+      </sp>
+      <stage>
+       <hi>Enter Lord</hi> Belmont.</stage>
+      <sp who="#earl_of_belmont">
+       <speaker>LORD BELMONT.</speaker>
+       <p>So, Sir, you are here; I have been in search of you: where is my son? How has your <hi>honourable</hi> rencounter ended?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Not <hi>dis</hi>-honourably, my Lord, for either of us— Lord Clairville will be here this moment, he will do me the justice to acknowledge that this affair was forced upon me.</p>
+      </sp>
+      <sp who="#earl_of_belmont">
+       <speaker>LORD BELMONT.</speaker>
+       <p>Ungrateful youth! and dare you own! to me too, dare you own a quarrel with my son?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>My Lord, I can no more suffer an injury, than I dare do one.</p>
+      </sp>
+      <sp who="#earl_of_belmont">
+       <speaker>LORD BELMONT.</speaker>
+       <p>This is the language of conscious worth, and but ill becomes a man who has so basely betrayed the trust that was reposed in him.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Basely betrayed my trust, my Lord!</p>
+      </sp>
+      <sp who="#earl_of_belmont">
+       <speaker>LORD BELMONT.</speaker>
+       <p>Yes, Sir, basely.</p>
+      </sp>
+      <sp who="#courteney">
+       <pb n="67" facs="70"/>
+       <speaker>COURTENEY.</speaker>
+       <p>This reproach, this unjust reproach, my Lord— but you have been my benefactor; I know how much that sacred title claims from me—rail on, my Lord; you shall never force me to be ungrateful.</p>
+      </sp>
+      <stage>
+       <hi>Enter</hi> Clairville.</stage>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>My father! how can I appear before you after what has passed? how can I hope for pardon?</p>
+      </sp>
+      <sp who="#earl_of_belmont">
+       <speaker>LORD BELMONT.</speaker>
+       <p>Rise, Clairville; you have been to blame, but so have I; your fault has been the consequence of my imprudent choice of a governor for you. You have forgot your duty, but he was your seducer.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>No, my Lord; whatever reason I may have to complain of Mr. Courteney in one particular instance in which I only am concerned, yet let me justify to yourself your choice: he has in every respect fulfilled your intentions, and faithfully discharged the trust which you reposed in him.</p>
+      </sp>
+      <sp who="#earl_of_belmont">
+       <speaker>LORD BELMONT.</speaker>
+       <p>Faithfully discharged his trust! he who could engage in licentious brawls with his pupil, and attempt the life of one committed to his care.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>My Lord—</p>
+      </sp>
+      <sp who="#earl_of_belmont">
+       <speaker>LORD BELMONT.</speaker>
+       <p>Be silent, you can say nothing that can extenuate guilt like this. Mr. Courteney, after what has happened, you must not reckon upon my friendship—the salary I allowed you while travelling with my son, is yours for life—but we must meet no more; if you consider the loss of my protection
+<pb n="68" facs="71"/>
+as a misfortune, remember you have yourself only to blame for it.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>There is but one real misfortune, my Lord, which a man can suffer; and that is, when he is conscious of a crime, and has any thing to reproach himself with. The salary your Lordship offers me I will not accept; judging of me as you do, you cannot mean it as a reward; and, low as my fortunes are, I will not be indebted to compassion, for that which your esteem only ought to bestow upon me. Lord Clairville, I promised you an explanation before your father; and—</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Hold, Sir; it is but just that I should first clear you of an imputation which cannot wound you, more than it has me.—My Lord, you have reproached Mr. Courteney without cause; he sought not my life, but gave it me when in his power: I urged him with the most opprobrious terms to accept my challenge; and when my rashness had given him an advantage, he forbore to take it.</p>
+      </sp>
+      <sp who="#earl_of_belmont">
+       <speaker>LORD BELMONT.</speaker>
+       <p>If this be true, I have wronged him, greatly wronged him.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Oh! Courteney, a treacherous rival and a generous enemy! how can you reconcile this contradiction?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>I never was your rival, my Lord; it is my sister whom you have all this time addressed under the name of D'Arcy.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Miss D'Arcy your sister?</p>
+      </sp>
+      <sp who="#courteney">
+       <pb n="69" facs="72"/>
+       <speaker>COURTENEY.</speaker>
+       <p>Neither she nor I knew this circumstance till today, when an accident which I shall ever remember discovered us to each other. I opposed your passion for her at first through prudence; but, when I knew her to be my sister, my honour was more immediately concerned, to prevent the continuance of an attachment which could never have the sanction of your father's consent; my sister, with a spirit becoming her birth, adopted my sentiments; she refused your offered hand, and consented that I should conduct her where you could not have access to her; hence rose your jealousy, and the consequences that followed.</p>
+      </sp>
+      <sp who="#earl_of_belmont">
+       <speaker>LORD BELMONT.</speaker>
+       <p>Courteney, you have acted nobly in this affair.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>I have done my duty.</p>
+      </sp>
+      <sp who="#earl_of_belmont">
+       <speaker>LORD BELMONT.</speaker>
+       <p>But what brought your sister hither? and why did she conceal her name?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>She took refuge with Miss Autumn from the bigotry of her aunt, who, not having been able to pervert her to the Roman Catholick religion by the offer of settling her whole fortune upon her, was laying schemes to entrap her into a convent.</p>
+      </sp>
+      <sp who="#earl_of_belmont">
+       <speaker>LORD BELMONT.</speaker>
+       <p>Something of this I heard before, and had determined to enquire into it.—Is Miss Courteney still here?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>She is, my Lord; but to-morrow I shall take her into the country; Lord Clairville will then, I hope, forget a slight impression, which he will have no oppurtunity of increasing.</p>
+      </sp>
+      <sp who="#earl_of_belmont">
+       <pb n="70" facs="73"/>
+       <speaker>LORD BELMONT.</speaker>
+       <p>Generous youth!—Yet you have one more task to perform, worthy your disinterestedness:—engage my son—I know your influence over him—engage him to submit to my choice.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Alas! my Lord, were it possible for me to cease to love Miss Courteney, your commands were sufficient.—In this, and only in this one point, I cannot obey you.</p>
+      </sp>
+      <sp who="#earl_of_belmont">
+       <speaker>LORD BELMONT.</speaker>
+       <p>Courteney, I rely upon your honour.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>You may, my Lord, securely.</p>
+      </sp>
+      <sp who="#earl_of_belmont">
+       <speaker>LORD BELMONT.</speaker>
+       <p>Worthy son of a father whom I loved and esteemed! I will not intreat you to pardon the harsh treatment you have received from me, till I have made you an atonement equal to the injury.—I leave you to complete your reconciliation with your friend.</p>
+      </sp>
+      <stage>
+       <hi>Exit Lord</hi> Belmont.</stage>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>I scarce can look up to you, Courteney! —Such nobleness, such generosity, to fall under my mean suspicions!—Can you forgive me?</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Let us exchange forgiveness, my Lord.—I was to blame for leaving you so long in a mistake which occasioned these suspicions.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>My friend! my brother!—yes, Courteney, it must be so—your sister—</p>
+      </sp>
+      <sp who="#courteney">
+       <pb n="71" facs="74"/>
+       <speaker>COURTENEY.</speaker>
+       <p>Think of her no more, my Lord.—Are you not convinced, by what has past to-day, that you are not to expect my concurrence in this affair?</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Alas! I am, indeed!—Yet leave your sister to her own determination.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>My sister is already determined.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>I see I am doomed to be miserable! There is no hope of obtaining my father's consent; and your too rigid honour—</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Banish from your heart, then, a hopeless passion; and, if possible, bend your will to your father's choice.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Never. Do not urge me on that head: my resolution is fixed.</p>
+      </sp>
+      <stage>
+       <hi>Enter Lord</hi> Belmont, <hi>Lady</hi> Autumn, <hi>Miss</hi> Autumn, <hi>Miss</hi> Courteney, <hi>and</hi> Simple.</stage>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>Oh! Mr. Freeman—Mr. Courteney, I mean— how have you distressed me! But I have pardoned you.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Your Ladyship is all goodness.</p>
+      </sp>
+      <stage>
+       <hi>Goes to Miss</hi> Autumn. <hi>They talk apart.</hi>
+      </stage>
+      <sp who="#earl_of_belmont">
+       <speaker>LORD BELMONT.</speaker>
+       <p>Clairville, you have still my pardon to obtain. — May I promise myself that you will merit it, by submitting to my will?</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <pb n="72" facs="75"/>
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Alas! my Lord, what can I say? I have not a heart to bestow: I can promise only a negative obedience—I will not dispose of myself without your consent; but—</p>
+      </sp>
+      <sp who="#earl_of_belmont">
+       <speaker>LORD BELMONT.</speaker>
+       <p>This you promise, then?</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>I do, my Lord.
+<stage>(<hi>sighing.</hi>)</stage>
+       </p>
+      </sp>
+      <sp who="#earl_of_belmont">
+       <speaker>LORD BELMONT.</speaker>
+       <p>'Tis something, though not all that I have a right to expect from you.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>You have, indeed, my Lord, a right to expect my obedience in all things possible; but I can never—</p>
+      </sp>
+      <sp who="#earl_of_belmont">
+       <speaker>LORD BELMONT.</speaker>
+       <p>Make no rash resolutions, son; for I will be obeyed. Behold my choice!</p>
+      </sp>
+      <stage>
+       <hi>(Taking Miss</hi> Courteney's <hi>hand, and leading her towards him.</hi>)</stage>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY</speaker>
+       <stage>(surprized.)</stage>
+       <p>My Lord!</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <speaker>CLAIRVILLE.</speaker>
+       <p>My father! can this be real?</p>
+      </sp>
+      <sp who="#earl_of_belmont">
+       <speaker>LORD BELMONT.</speaker>
+       <p>Take her, Clairville; the best, the worthiest gift a father can bestow, a truly virtuous woman! She who could sacrifice her fortune to her conscience, and subject her inclinations to her duty; who could despise riches, and triumph over love; she brings you in herself a treasure more valuable than both the Indies. Take her, my son; and endeavour to deserve her.</p>
+      </sp>
+      <sp who="#lord_clairville">
+       <pb n="73" facs="76"/>
+       <speaker>CLAIRVILLE.</speaker>
+       <p>Best of fathers!—this amazing goodness!—Oh! let me thank you thus—
+<stage>(kneels.)</stage>
+       </p>
+      </sp>
+      <sp who="#earl_of_belmont">
+       <speaker>LORD BELMONT.</speaker>
+       <p>Courteney, I have yet but half discharged the debt I owe you.—Generous young man! had I a daughter—but in all things, except the name, I am your father.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>All the gratitude, the reverence, the duty, that sacred title claims, expect from me, my Lord.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>Mr. Courteney, after such a testimony to your merit, I need not blush to declare my intentions—</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>I acknowledge your Ladyship's goodness.—You have permitted me to hope for favour here—
+<stage>(<hi>addressing himself to Miss</hi> Autumn.)</stage>
+—How blest should I be, if you, Madam, would confirm it!</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>How is this!</p>
+      </sp>
+      <sp who="#miss_courteney">
+       <speaker>MISS COURTENEY</speaker>
+       <stage>(<hi>half aside to Miss</hi> Autumn.)</stage>
+       <p>Now, dear Charlotte, do not play off any of your too agreeable airs.—Did you not, half an hour ago, own to me that—</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN</speaker>
+       <stage>(smiling.)</stage>
+       <p>Ah! do not betray me.—Well, Sir, since you have obtained my mama's consent, though I cannot imagine how, I will not hazard the loss of her favour by my disobedience.—Here is my hand, since it must be so.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Charming creature! to deserve it, will be my glory.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <pb n="74" facs="77"/>
+       <speaker>LADY AUTUMN.</speaker>
+       <p>I am confounded!—Simple—do I dream?</p>
+      </sp>
+      <stage>aside to her.</stage>
+      <sp who="#simple">
+       <speaker>SIMPLE.</speaker>
+       <p>No, indeed, Madam, you do not dream now; you are but just awake, and have been dreaming all this time—I always told your Ladyship, that if the gentleman was in love, it must be with one of the young ladies.</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>Confusion!</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>What can this disorder mean? dear Madam, if I have been so unfortunate as to have offended you—</p>
+      </sp>
+      <sp who="#lady_autumn">
+       <speaker>LADY AUTUMN.</speaker>
+       <p>Ah, that seducing accent!—Simple, even at this moment might not one believe?—but I shall relapse—lead me to my chamber—my Lord, a sudden indisposition—oh! what a delusion!</p>
+      </sp>
+      <stage>
+       <hi>Exeunt Lady</hi> Autumn <hi>and</hi> Simple.</stage>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Here is some mystery.</p>
+      </sp>
+      <sp who="#miss_autumn">
+       <speaker>MISS AUTUMN</speaker>
+       <stage>(<hi>aside to Miss</hi> Courteney.)</stage>
+       <p>I could unfold it, I believe.</p>
+      </sp>
+      <sp who="#earl_of_belmont">
+       <speaker>LORD BELMONT</speaker>
+       <stage>
+        <hi>(to Miss</hi> Autumn.)</stage>
+       <p>Be not uneasy, Madam; I take upon myself to reconcile Lady Autumn to your generous choice.</p>
+      </sp>
+      <sp who="#courteney">
+       <speaker>COURTENEY.</speaker>
+       <p>Lord Clairville, I give you joy; and yet congratulations from me, on the completion of your
+<pb n="75" facs="78"/>
+wishes, may appear self-interested; but, if my sister continues to maintain those sentiments she has this day manifested, the rectitude of her heart will, in some measure, atone for the inferiority of her rank and fortune. As for me, though perhaps I have proved myself rather too young to be your governor, I am yet old enough to be your friend, and shall ever be proud of that distinction, not from the consideration of your wealth and honour; but because I am convinced that you want neither example, nor precept to instruct you, that there are no characters so truly noble, as that of a woman of virtue, and a man of real honour.</p>
+      </sp>
+     </div>
+    </div>
+   </div>
+  </body>
+  <back>
+   <div type="epilogue">
+    <pb facs="79"/>
+    <head>EPILOGUE.</head>
+    <byline>Written by Dr. GOLDSMITH.</byline>
+    <byline>Spoken by Mrs. BULKLEY.</byline>
+    <sp>
+     <l>WHAT! five long acts—and all to make us wiser!</l>
+     <l>Our authoress sure has wanted an adviser.</l>
+     <l>Had she consulted <hi>me,</hi> she should have made</l>
+     <l>Her moral play a speaking masquerade.</l>
+     <l>Warm'd up each bustling scene, and in her rage</l>
+     <l>Have emptied all the Green-room on the stage.</l>
+     <l>My life on't, this had kept her play from sinking,</l>
+     <l>Have pleas'd our eyes, and sav'd the pain of thinking.</l>
+     <l>Well, since she thus has shewn her want of skill,</l>
+     <l>What if I give a masquerade? I will.</l>
+     <l>But how! ay, there's the rub!
+<stage>(pausing)</stage>
+I've got my cue:</l>
+     <l>The world's a masquerade! the masquers, you, you, you.</l>
+     <stage>To Boxes, Pit, Gall.</stage>
+     <l>Lud! what a groupe the motley scene discloses!</l>
+     <l>False wits, false wives, false virgins, and false spouses:</l>
+     <l>Statesmen with bridles on; and, close beside 'em,</l>
+     <l>Patriots, in party colour'd suits, that ride 'em.</l>
+     <l>There Hebes, turn'd of fifty, try once more,</l>
+     <l>To raise a flame in Cupids of threescore.</l>
+     <l>These, in their turn, with appetites as keen,</l>
+     <l>Deserting fifty, fasten on fifteen.</l>
+     <l>Miss, not yet full fifteen, with fire uncommon,</l>
+     <l>Flings down her sampler, and takes up the woman:</l>
+     <l>The little urchin smiles, and spreads her lure,</l>
+     <l>And tries to kill ere she's got power to cure.</l>
+     <l>Thus 'tis with all—Their chief and constant care</l>
+     <l>Is to seem every thing—but what they are.</l>
+     <l>Yon broad, bold, angry, spark, I fix my eye on,</l>
+     <l>Who seems t' have robb'd his vizor from the lion,</l>
+     <l>Who frowns, and talks, and swears, with round parade.</l>
+     <l>Looking, as who should say, <hi>Damme! who's afraid!</hi>
+      <stage>mimicking.</stage>
+     </l>
+     <l>Strip but his vizor off, and sure I am,</l>
+     <l>You'll find his lionship a very lamb.</l>
+     <l>Yon politician, famous in debate,</l>
+     <l>Perhaps to vulgar eyes bestrides the state;</l>
+     <l>Yet, when he deigns his real shape t' assume,</l>
+     <l>He turns old woman, and bestrides a broom.</l>
+     <l>Yon patriot too, who presses on your sight,</l>
+     <l>And seems to every gazer all in white;</l>
+     <l>If with a bribe his candour you attack,</l>
+     <l>He bows, turns round, and whip—the man's a black!</l>
+     <l>Yon critic too—but whither do I run?</l>
+     <l>If I proceed, our bard will be undone!</l>
+     <l>Well then, a truce, since she requests it too;</l>
+     <l>Do you spare her, and I'll for once spare you.</l>
+    </sp>
+   </div>
+  </back>
+ </text>
+</TEI>

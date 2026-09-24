@@ -1,0 +1,3971 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">The inflexible captive</title>
+    <title type="sub">A tragedy. By Miss Hannah More.</title>
+    <author>
+     <persName>
+      <surname>More</surname>
+      <forename>Hannah</forename>
+      <idno type="VIAF">51802053</idno>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>The inflexible captive: A tragedy. By Miss Hannah More.</name>
+     <author>More, Hannah, 1745-1833.</author>
+     <publisher>printed for J. Williams,</publisher>
+     <date>1775.</date>
+     <pubPlace>Dublin :</pubPlace>
+     <note>Reproduction of original from the British Library.</note>
+     <note>English Short Title Catalog, ESTCT37172.</note>
+     <note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note>
+    </bibl>
+    <biblFull n="printed source">
+     <publicationStmt>
+      <authority ref="#JJ">Jan Jokisch</authority>
+      <date>2024 December</date>
+      <idno type="ECCO_Drama">K038307.000</idno>
+      <idno type="DLPS">004804521</idno>
+      <idno type="ESTC">T37172</idno>
+      <idno type="DocNo">CW114876153</idno>
+      <idno type="TCP">K038307.000</idno>
+      <idno type="GaleDocNo">CW3314876153</idno>
+      <idno type="ContentSet">ECLL</idno>
+      <idno type="ImageSetID">0163902600</idno>
+      <availability>
+       <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+      </availability>
+     </publicationStmt>
+    </biblFull>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    <person xml:id="regulus"><persName>Regulus</persName><sex value="MALE"/></person><person xml:id="publius"><persName>Publius</persName><sex value="MALE"/></person><person xml:id="manlius"><persName>Manlius</persName><sex value="MALE"/></person><person xml:id="licinius"><persName>Licinius</persName><sex value="MALE"/></person><person xml:id="hamilcar"><persName>Hamilcar</persName><sex value="MALE"/></person><person xml:id="attila"><persName>Attila</persName><sex value="FEMALE"/></person><person xml:id="barce"><persName>Barce</persName><sex value="FEMALE"/></person><personGrp xml:id="people"><persName>People</persName><sex value="UNKNOWN"/></personGrp></listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1775">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text xml:lang="en">
+  <front>
+   <div type="titlepage">
+    <pb facs="1" ana="y"/>
+    <p>THE INFLEXIBLE CAPTIVE.</p>
+    <p>A TRAGEDY.</p>
+    <p>BY Miss HANNAH MORE.</p>
+    <l>The Man resolv'd, and steady to his Trust,</l>
+    <l>In flexible to ill, and obstinately just.</l>
+    <bibl>HORACE, Book III. Ode 3.</bibl>
+    <p>DUBLIN: Printed for J. WILLIAMS, No. 21, SKINNER-ROW, MDCCLXXV.</p>
+   </div>
+   <div type="dedication">
+    <pb facs="2"/>
+    <head>TO THE Honourable Mrs. BOSCAWEN.</head>
+    <opener>
+     <salute>MADAM,</salute>
+    </opener>
+    <p>IT seems somewhat extraordinary, that altho' with persons of merit, no virtue stands in higher estimation than the love of truth; yet the surest means to offend them in addrsses of this nature, is a strict adherence to it; and it will be a singular circumstance to see a Dedication without praise, to a Lady possessed of every quality and accomplishment, which can justly intitle her to it.</p>
+    <closer>
+     <signed>
+      <hi>I am,</hi> Madam, <hi>with great Respect, Your most obedient, And most humble Servant,</hi>
+H. MORE.</signed>
+     <dateline>BRISTOL, <date>March 1, 1774.</date>
+     </dateline>
+    </closer>
+   </div>
+   <div type="argument">
+    <pb facs="3"/>
+    <head>THE ARGUMENT.</head>
+    <p>AMONG the great names, which have done honor to antiquity in general, and to the Roman Republic in particular, that of <hi>Marcus Attilius Regulus</hi> has, by the general consent of all ages, been considered as one of the most respectable, since he not only sacrificed his labours, his liberty, and his life for the good of his country; But by a greatness of soul, almost peculiar to himself, contrived to make his very misfortunes contribute to that glorious end.</p>
+    <p>After the Romans had met with various successes in the first Punic War, under the command of Regulus, victory at length declared for the opposite party, the Roman Army was totally overthrown, and Regulus himself taken prisoner, by <hi>Xantippus,</hi> a Lacedoemonian General in the service of the Carthaginians: the victorious enemy, exulting in so important a conquest, kept him many years in close imprisonment, and loaded him with the most cruel Indignities. They thought it was new in their power to make their own terms with Rome, and determined to send Regulus thither, with their Ambassador, to negotiate a peace, or at least, an exchange of captives, thinking be would gladly persuade his countrymen to discontinue a war, which necessarily prolonged his captivity. They previously exacted from him an oath to return should his embassy prove unsuccessful; at the same time giving him to understand, that he must expect to suffer a cruel death if he failed in it; this they artfully intimated, as the strongest motive for him to leave no means unattempted to accomplish their purpose.</p>
+    <p>At the unexpected arrival of this venerable hero, the Romans express'd the wildest transports of joy, and would have submitted to almost any conditions to procure his enlargement;
+<pb facs="4" ana="y"/>
+but, Regulus so far from availing himself of his influence with the Senate to obtain any personal advantages, employed it to induce them to reject proposals so evidently tending to dishonour their country, declaring his fixed resolution to return to bondage, and death, rather than violate his cath.</p>
+    <p>He at Last extorted from them their consent; and departed amidst the tears of his family, the importunities of his friends, the applauses of the Senate, and the tumultuous opposition of the people; and as a great poet of his own nation beautifully observes, he embarked for Carthage as calm and unconcerned, as if, on finishing the tedious law-suits of his clients, he was retiring to Venafrian fields, or the sweet country of <hi>Tarentum.</hi>
+     <note place="foot">HOR. Book III. Ode 5.</note>
+    </p>
+    <p>In the above, and many other important particulars, the Author has paid the strictest regard to historical truth: In some less essential points, where she thought it would rather obstruct than advance her purpose, she has ventured to deviate from it; particularly, in fixing the return of Regulus to Rome, posterior to the death of his wife Martia. In <hi>this,</hi> and in the <hi>general</hi> conduct of the story, she has followed the Italian poet Metastasio in his Opera of <hi>three</hi> acts: of which she has given a free translation, and made such <hi>additions,</hi> as were necessary to form it into a tragedy of <hi>five</hi> acts.</p>
+   </div>
+   <div type="prologue">
+    <pb facs="5"/>
+    <head>PROLOGUE</head>
+    <byline>BY THE REV. DR. LANGHORNE.</byline>
+    <l>DEEP in the bosom of departed days,</l>
+    <l>Where the first gems of human glory blaze;</l>
+    <l>Where, crown'd with flowers, in wreaths immortal drest,</l>
+    <l>The sacred shades of ancient virtue rest;</l>
+    <l>With joy they search, who joy can feel, to find</l>
+    <l>Some honest reason still to love mankind.</l>
+    <l>There the fair foundress of the scene to night,</l>
+    <l>Explores the paths that dignify delight;</l>
+    <l>The regions of the mighty dead pervades;</l>
+    <l>The sybil she that leads us to the shades.</l>
+    <l>O may each blast of ruder breath forbear</l>
+    <l>To wast her light leaves on the worthless air,</l>
+    <l>Since she, as heedless, strives not to maintain</l>
+    <l>This tender offspring of her teeming brain:</l>
+    <l>For this poor birth was no provision made,</l>
+    <l>A flower that sprung, and languish'd in the shade.</l>
+    <l>On Avon's banks, forsaken and forlorn,</l>
+    <l>This careless mother left her elder born;</l>
+    <l>And tho' unlike that Avon hail'd of yore,</l>
+    <l>Those giant sons that Shakespeare's banners bore,</l>
+    <l>Yet may we yield this little offspring grace,</l>
+    <l>And love the last and least of such a race.</l>
+    <l>Shall the strong scenes, where senatorial Rome</l>
+    <l>Mourn'd o'er the rigour of her patriot's doom;</l>
+    <l>Where melting nature, aw'd by virtue's eye,</l>
+    <l>Hid the big drop, and held the bursting sigh;</l>
+    <l>Where all that Majesty of soul can give,</l>
+    <l>Truth, honor, pity, fair affection, live;</l>
+    <l>Shall scenes like these, the glory of an age,</l>
+    <l>Gleam from the press, nor triumph on the stage</l>
+    <l>Forbid it, Britons! and, as Romans brave,</l>
+    <l>Like Romans boast one citizen to save.</l>
+   </div>
+   <div type="Dramatis_Personae">
+    <pb facs="6" ana="y"/>
+    <p>Guards, Lictors, People, &amp;c.</p>
+    <castList>
+     <head>Dramatis Personae.</head>
+     <castItem>MEN.</castItem>
+     <castItem>REGULUS.</castItem>
+     <castItem>PUBLIUS, his Son.</castItem>
+     <castItem>MANLIUS, the Consul.</castItem>
+     <castItem>LICINIUS, a Tribune.</castItem>
+     <castItem>HAMILCAR, the Carthaginian Ambass.</castItem>
+     <castItem>WOMEN.</castItem>
+     <castItem>ATTILIA, Daughter of Regulus.</castItem>
+     <castItem>BARCE, a Carthaginian Captive.</castItem>
+    </castList>
+   </div>
+   <set>
+    <p>SCENE, near the Gates of <hi>ROME.</hi>
+    </p>
+   </set>
+  </front>
+  <body>
+   <div type="play">
+    <pb facs="7"/>
+    <head>THE INFLEXIBLE CAPTIVE.</head>
+    <head type="sub">A TRAGEDY.</head>
+    <div n="1" type="act">
+     <head>ACT I.</head>
+     <div type="scene">
+      <head>SCENE, <stage>a Hall in the Consul's Palace.</stage>
+      </head>
+      <stage>
+       <hi>Enter</hi> LICINIUS, ATTILIA, <hi>Lictors and People.</hi>
+      </stage>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>AH, my Attilia, do I find thee here?</l>
+       <l>Is this a place for Regulus's daughter?</l>
+       <l>Just Gods! must that incomparable maid</l>
+       <l>Associate here with Lictors and Plebeians?</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Yes, on this threshold patiently I wait</l>
+       <l>The Consul's coming; I would make him blush</l>
+       <l>To see me here his suitor. O Licinius,</l>
+       <l>This is no time for form, and cold decorum;</l>
+       <l>Five lagging years have crept their tedious round</l>
+       <l>And Regulus, alas! is, still a slave;</l>
+       <l>A wretched slave, unpitied, and forgotten;</l>
+       <l>No other tribute paid his memory,</l>
+       <l>Than the sad tears of his unhappy child;</l>
+       <l>If <hi>she</hi> be silent who will speak for Regulus?</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>Let not her sorrows make my Fair unjust.</l>
+       <l>Is there in Rome a heart so dead to virtue</l>
+       <l>That does not beat in Regulus's cause?</l>
+       <l>That wearies not the Gods for his return?</l>
+       <l>That does not think all subjugated Afric,</l>
+       <l>A slender, unimportant acquisition,</l>
+       <l>If, in return, for all this added empire,</l>
+       <l>The freedom of thy father be the purchase?</l>
+       <l>
+        <pb n="2" facs="8"/>These are <hi>Rome</hi>'s feelings, for my lov'd Attilia,</l>
+       <l>If were superfluous, to declare <hi>my own.</hi>
+       </l>
+       <l>If thy <hi>Licinius</hi> were to weigh his merit,</l>
+       <l>That he's <hi>thy father</hi> were sufficient glory.</l>
+       <l>He was my leader, train'd me up to arms,</l>
+       <l>And if I boast some sparks of Roman honor,</l>
+       <l>I owe them to his precepts and <hi>his</hi> virtues.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>And yet I have not aught observ'd, Licinius—</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>Ah! spare me thy reproaches—what could I</l>
+       <l>When but a private Citizen perform?</l>
+       <l>'Tis not the lust of power, or pride of rank,</l>
+       <l>Has made me seek the dignity of Tribune;</l>
+       <l>No, my Attilia, but I fondly hop'd</l>
+       <l>'Twould strengthen and inforce the just request,</l>
+       <l>Which as a <hi>private</hi> man I <hi>vainly</hi> made;</l>
+       <l>But now, the people's representative,</l>
+       <l>I shall <hi>demand,</hi> Attilia, to be heard.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Ah! let us not too hastily apply</l>
+       <l>This dang'rous remedy; I would not rouse</l>
+       <l>Fresh tumults 'twixt the people and the senate:</l>
+       <l>Each views with jealousy the idol, power,</l>
+       <l>Which, each possessing, would alike abuse.</l>
+       <l>Whatever wish'd-for boon the <hi>one</hi> demands,</l>
+       <l>The <hi>other</hi> thro' reluctant pride denies.</l>
+       <l>Might <hi>I</hi> advise you, try a <hi>gentler</hi> method;</l>
+       <l>I know that every moment Rome expects</l>
+       <l>Th' Ambassador of Carthage, and I've heard</l>
+       <l>The Conscript Fathers are already met</l>
+       <l>To give him audience in Bellona's temple.</l>
+       <l>There might the Consul at my suit, Licinius,</l>
+       <l>Propose the ransom of my captive father.</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>Ah! think, Attilia, who that Consul is,</l>
+       <l>Manlius, thy father's rival, and his foe:</l>
+       <l>His ancient rival, and his foe prosess'd;</l>
+       <l>To hope in him, my fair, were fond delusion.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Yet, tho' his <hi>rival,</hi> Manlius is a <hi>Roman:</hi>
+       </l>
+       <l>Nor will he think of private enmities,</l>
+       <l>Weigh'd in the balance with the good of Rome.</l>
+       <l>Let me at least make trial of his honour.</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>Be it so, my fair, but <hi>elsewhere</hi> make thy suit,</l>
+       <l>
+        <pb n="3" facs="9"/>Let not the Consul meet Attilia <hi>here,</hi>
+       </l>
+       <l>Confounded with the refuse of the people;</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Yes, I will see him <hi>here,</hi> e'en <hi>here,</hi> Licinius.</l>
+       <l>Let <hi>Manlius</hi> blush, not <hi>me: Here</hi> will I speak,</l>
+       <l>
+        <hi>Here</hi> shall he answer me.</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>Behold he comes.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Do thou retire.</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>O bless me with a look,</l>
+       <l>One parting look at least.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Know, my Licinius,</l>
+       <l>That at this moment I am all the <hi>daughter,</hi>
+       </l>
+       <l>The <hi>filial</hi> feelings <hi>now</hi> possess my soul,</l>
+       <l>And <hi>other</hi> passions find no entrance there.</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>O sweet, yet powerful influence of virtue,</l>
+       <l>That charms tho' cruel, tho' unkind subdues,</l>
+       <l>And what was love exalts to admiration!</l>
+       <l>Yes, 'tis the privilege of souls like thine</l>
+       <l>To conquer most when least they aim at conquest.</l>
+       <l>Yet, ah! vouchsafe, thou noblest among women,</l>
+       <l>Sometimes to think with pity on Licinius,</l>
+       <l>Nor fear to rob thy father of his due;</l>
+       <l>For surely Virtue, and the Gods, approve</l>
+       <l>Unwearied constancy, and spotless love.</l>
+      </sp>
+      <stage>
+       <hi>Exit</hi> Licinius.</stage>
+      <stage>
+       <hi>Enter</hi> MANLIUS.</stage>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Ah! Manlius stay, a moment stay, and hear me.</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>I did not think to meet thee here, Attilia,</l>
+       <l>Here, in a place so little worthy of thee.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>It <hi>were</hi> unworthy, did Attilia boast</l>
+       <l>A godlike father free from cruel bondage;</l>
+       <l>But for the daughter of a slave to Carthage,</l>
+       <l>It surely is most sitting.</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>Say, Attilia,</l>
+       <l>What is the purpose of thy coming hither?</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>What is the purpose, patience, patience,</l>
+       <l>Heaven!</l>
+       <l>Tell me, how long, to Rome's eternal shame,</l>
+       <l>To fill with horror all the wond'ring world,</l>
+       <l>My father still must groan in Punic chains,</l>
+       <l>
+        <pb n="4" facs="10"/>And waste the tedious hours in sad captivity?</l>
+       <l>Days follow days, and years to years succeed,</l>
+       <l>And Rome forgets her hero is a slave.</l>
+       <l>Has he, alas! <hi>deserv'd</hi> to be forgotten?</l>
+       <l>What is his crime? is it to have preferr'd</l>
+       <l>His country's profit to his children's good?</l>
+       <l>Is it th' unshaken firmness of his soul,</l>
+       <l>Just, uncorrupt, invariably good?</l>
+       <l>Perhaps his <hi>pov'erty</hi> has been his fault,</l>
+       <l>
+        <hi>Poor</hi> in the highest dignities of <hi>Rome:</hi>
+       </l>
+       <l>
+        <hi>Illustrious error, glorious poverty!</hi>
+       </l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>But know, Attilia —</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Yet awhile attend.</l>
+       <l>And can ungrateful <hi>Rome</hi> so soon forget?</l>
+       <l>Can those who breathe the air <hi>he</hi> breath'd forget</l>
+       <l>The great, the godlike virtues of my father?</l>
+       <l>There's not <hi>a part</hi> of Rome but speaks his praise.</l>
+       <l>The <hi>streets</hi>—thro' them the <hi>hero</hi> pass'd triumphant</l>
+       <l>The <hi>Forum</hi>—there the <hi>Legislator</hi> plann'd</l>
+       <l>The wisest, wholsomest, and purest laws;</l>
+       <l>The <hi>Senate-house</hi>—there spoke the <hi>patriot Roman,</hi>
+       </l>
+       <l>There oft' his voice secur'd the public safety:</l>
+       <l>The wisdom of his councils match'd his valor.</l>
+       <l>Enter the <hi>Temples</hi>—mount the <hi>Capitol.</hi>—</l>
+       <l>And tell me, Manlius, to what hand but <hi>his</hi>
+       </l>
+       <l>They owe their trophies, and their ornaments,</l>
+       <l>Their foreign banners, and their boasted ensigns,</l>
+       <l>Tarentine, Punic, and Sicilian spoils?</l>
+       <l>Nay ev'n those Lictors, who precede thy steps,</l>
+       <l>This Consul's purple, which invests thy limbs.</l>
+       <l>All, all were Regulus's, were my father's.</l>
+       <l>And yet this hero, this exalted patriot,</l>
+       <l>This man of virtue, this immortal Roman,</l>
+       <l>In base requital for his services,</l>
+       <l>Is left to linger out a life in chains,</l>
+       <l>No honors paid him but a daughter's tears,</l>
+       <l>O Rome! O Regulus! O thankless Citizens!</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>Just are thy tears:—Thy father well deserves them</l>
+       <l>But know thy censure is unjust, Attilia.</l>
+       <l>The fate of Regulus is felt by all:</l>
+       <l>
+        <pb n="5" facs="11"/>We know and mourn the cruel woes he suffers</l>
+       <l>From barbarous Carthage.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Manlius, you mistake,</l>
+       <l>Alas! it is not Carthage, which is barbarous;</l>
+       <l>'Tis Rome, ungrateful Rome is the Barbarian;</l>
+       <l>Carthage but punishes a foe profess'd,</l>
+       <l>But Rome betrays her hero, and her father;</l>
+       <l>Carthage remembers how he slew her sons,</l>
+       <l>But Rome forgets the blood he lost for <hi>her;</hi>
+       </l>
+       <l>Carthage revenges an acknowledg'd foe,</l>
+       <l>But Rome with basest perfidy rewards</l>
+       <l>The glorious hand, that bound her brow with laurels.</l>
+       <l>Which now is the barbarian, Rome, or Carthage?</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>What can be done?</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Need I instruct you what?</l>
+       <l>Convene the Senate; let them strait propose</l>
+       <l>A ransom, or exchange for Regulus,</l>
+       <l>To Africa's Ambassador. Do this,</l>
+       <l>And heav'n's best blessings crown your days with peace.</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>Thou speakest like a <hi>daughter,</hi> I, Attilia,</l>
+       <l>Must as a <hi>Consul</hi> act; I must consult</l>
+       <l>The good of Rome, her glory, her renown.</l>
+       <l>Would it not tarnish her unspotted fame,</l>
+       <l>To sue to Carthage on the terms thou wishest?</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Ah! rather own thou art still my father's foe.</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>Is it <hi>my</hi> fault, Attilia, if thy father</l>
+       <l>By Carthaginian power was overcome?</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Before that fatal period oft' he taught you—</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>Farewel! ere this the Senate is assembled—</l>
+       <l>My presence is requir'd.—Speak to the fathers,</l>
+       <l>And try to soften <hi>their</hi> austerity,</l>
+       <l>
+        <hi>My</hi> rigor they may render vain, for know,</l>
+       <l>I am Rome's <hi>Consul</hi> not her <hi>King,</hi> Attilia.</l>
+      </sp>
+      <stage>
+       <hi>Exit</hi> Manlius <hi>with the Lictors, &amp;c.</hi>
+      </stage>
+      <sp who="#attila">
+       <speaker>Attil. </speaker>
+       <stage>(alone.)</stage>
+       <l>This flattering hope, alas! has prov'd abortive.</l>
+       <l>
+        <hi>One</hi> Consul is our <hi>foe,</hi> the <hi>other, absent.</hi>
+       </l>
+       <l>What shall the sad Attilia next attempt?</l>
+       <l>Shall I then try for <hi>popular</hi> assistance?</l>
+       <l>Ah! my unhappy father, on what hazards,</l>
+       <l>What strange vicissitudes, what various turns,</l>
+       <l>Thy life, thy liberty, thy all depends!</l>
+       <stage>
+        <pb n="6" facs="12"/>
+        <hi>Enter</hi> BARCE, <hi>in haste.</hi>
+       </stage>
+       <l>Ah my Attilia!</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Whence this eager haste?</l>
+      </sp>
+      <sp who="#barce">
+       <speaker>Barce.</speaker>
+       <l>Th' Ambassador of Carthage is arriv'd.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>And why does <hi>that</hi> excite such wondrous transport?</l>
+      </sp>
+      <sp who="#barce">
+       <speaker>Barce.</speaker>
+       <l>I bring <hi>another</hi> cause of greater still.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Name it, my Barce.</l>
+      </sp>
+      <sp who="#barce">
+       <speaker>Barce.</speaker>
+       <l>
+        <hi>Regulus</hi> comes with him.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>My father! can it be?</l>
+      </sp>
+      <sp who="#barce">
+       <speaker>Barce.</speaker>
+       <l>Thy father—Regulus.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Thou art deceiv'd, or thou deceiv'st thy friend.</l>
+      </sp>
+      <sp who="#barce">
+       <speaker>Barce.</speaker>
+       <l>Indeed I saw him not, but every tongue</l>
+       <l>Speaks the glad tidings.</l>
+      </sp>
+      <stage>
+       <hi>Enter</hi> PUBLIUS.</stage>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>See where Publius comes.</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>My sister, I'm transported! Oh Attilia,</l>
+       <l>He's here, our father—Regulus is come!</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>I thank you, Gods: O my full heart! where is he?</l>
+       <l>Hasten, my brother, lead, O lead me to him.</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>It is too soon, restrain thy fond impatience.</l>
+       <l>With Africa's Ambassador he waits,</l>
+       <l>Until th' assembled senate give him audience.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Where was he, Publius, when thou saw'st him first?</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>You know, in quality of Roman Quaestor,</l>
+       <l>My duty 'tis to find a fit abode</l>
+       <l>For all Ambassadors of foreign states.</l>
+       <l>Hearing the Carthaginian was arriv'd,</l>
+       <l>I hasten'd to the port, when, O just Gods!</l>
+       <l>No foreigner, no foe, no African</l>
+       <l>Salutes my eye, but Regulus—my father!</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Oh mighty joy! too exquisite delight!</l>
+       <l>What said the hero? tell me, tell me all,</l>
+       <l>And ease my anxious breast.</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>Ere I arriv'd,</l>
+       <l>My father stood already on the shore,</l>
+       <l>Fixing his eyes with anxious eagerness,</l>
+       <l>
+        <pb n="7" facs="13"/>As straining to descry the Capitol.</l>
+       <l>I saw, and flew with transport to embrace him,</l>
+       <l>Pronounc'd with wildest joy the name of father—</l>
+       <l>With reverence seiz'd his venerable hand,</l>
+       <l>And wou'd have kiss'd it; when the awful hero</l>
+       <l>With that stern grandeur which made Carthage tremble,</l>
+       <l>Drew back—stood all collected in himself,</l>
+       <l>And said austerely, know, thou rash young man,</l>
+       <l>That <hi>slaves</hi> in <hi>Rome</hi> have not the rights of <hi>fathers.</hi>
+       </l>
+       <l>Then ask'd, if yet the senate was assembled,</l>
+       <l>And <hi>where;</hi> which having heard, without indulging</l>
+       <l>The fond effusions of his soul, or mine,</l>
+       <l>He suddenly retir'd. I flew with speed</l>
+       <l>To find the Consul, but as yet, success</l>
+       <l>Attends not my pursuit. Direct me to him.</l>
+      </sp>
+      <sp who="#barce">
+       <speaker>Barce.</speaker>
+       <l>Publius, you'll find him in Bellona's temple.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Then Regulus returns to Rome a slave!</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>Yes, but be comforted, I know he brings</l>
+       <l>Proposals for a peace; his will's his fate.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Rome may perhaps refuse to treat of peace.</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>Did'st thou behold the universal joy</l>
+       <l>At his return, thou would'st not <hi>doubt,</hi> my sister.</l>
+       <l>There's not a man you meet but wild with transport,</l>
+       <l>Proclaims aloud that Regulus is come!</l>
+       <l>The streets are fill'd with thronging multitudes,</l>
+       <l>Pressing with eager gaze to catch a look.</l>
+       <l>The happy man who can descry him first</l>
+       <l>Points him to his next neighbour, <hi>he</hi> to <hi>his,</hi>
+       </l>
+       <l>Then what a thunder of applause goes round;</l>
+       <l>What music to the ear of filial love!</l>
+       <l>Attilia! there was not a Roman eye</l>
+       <l>But shed pure tears of exquisite delight.</l>
+       <l>Judge of <hi>my</hi> feelings by thy <hi>own</hi> my sister,</l>
+       <l>By the large measure of thy fond affection.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Where is Licinius? find him out, my Brother,</l>
+       <l>My joy is incompleat till he partakes it.</l>
+       <l>When doubts, and fears have rent my anxious heart,</l>
+       <l>In all my <hi>woes</hi> he kindly bore a part:</l>
+       <l>Felt all my sorrows with a soul sincere,</l>
+       <l>Sigh'd as I sigh'd, and number'd tear for tear;</l>
+       <l>
+        <pb n="8" facs="14"/>Now favouring Heav'n my ardent vows has blest,</l>
+       <l>He shall divide the <hi>transports</hi> of my breast.</l>
+      </sp>
+      <stage>Exit Attilia.</stage>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>Barce, adieu!</l>
+      </sp>
+      <sp who="#barce">
+       <speaker>Barce.</speaker>
+       <l>Publius, a moment hear me.</l>
+       <l>Know'st thou the name of Africa's Ambassador?</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>Hamilcar.</l>
+      </sp>
+      <sp who="#barce">
+       <speaker>Barce.</speaker>
+       <l>Son of Hanno?</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>Yes! the same.</l>
+      </sp>
+      <sp who="#barce">
+       <speaker>Barce.</speaker>
+       <l>Ah me! my lover—How shall I support it!</l>
+      </sp>
+      <stage>[Aside.]</stage>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>Ah charming maid! the blood forsakes thy cheek,</l>
+       <l>Is he the rival of thy Publius? speak</l>
+       <l>And tell me all the rigor of my fate.</l>
+      </sp>
+      <sp who="#barce">
+       <speaker>Barce.</speaker>
+       <l>Hear me, my lord. Since I have been thy slave,</l>
+       <l>Thy goodness, and the friendship of Attilia,</l>
+       <l>Have soften'd all the horrors of my fate.</l>
+       <l>'Till now I have not felt the weight of bondage.</l>
+       <l>'Till now—ah Publius!—think me not ungrateful,</l>
+       <l>I would not wrong thee—I will be sincere—</l>
+       <l>I will expose the weakness of my soul.</l>
+       <l>Know then, my lord—how shall I tell thee all?</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>Stop, cruel maid, nor wound thy Publius more,</l>
+       <l>I dread the fatal frankness of thy words;</l>
+       <l>Spare me the pain of knowing I am hated;</l>
+       <l>And if thy heart's devoted to another,</l>
+       <l>Yet do not tell it me; in tender pity</l>
+       <l>Do not, my fair, dissolve the fond illusion,</l>
+       <l>The dear delightful visions I have form'd,</l>
+       <l>Of future joy, and fond exhaustless love.</l>
+      </sp>
+      <stage>Exit Publius.</stage>
+      <sp who="#barce">
+       <speaker>Barce, </speaker>
+       <stage>(alone.)</stage>
+       <l>And shall I see him then, see my Hamilcar,</l>
+       <l>Pride of my soul, and lord of all my wishes?</l>
+       <l>The only man in all our burning Afric,</l>
+       <l>Who ever taught my bosom how to love!</l>
+       <l>Down, foolish heart! be calm, my busy thoughts;</l>
+       <l>If at his <hi>name</hi> I feel these strange emotions,</l>
+       <l>How shall I <hi>see,</hi> how <hi>meet</hi> my conqueror?</l>
+       <l>
+        <pb n="9" facs="15"/>O let not those presume to talk of joy</l>
+       <l>Who ne'er have felt the pangs of deep distress.</l>
+       <l>Such tender transport those alone can prove,</l>
+       <l>Who long, like me, have known disastrous Love;</l>
+       <l>The tears that fell, the sighs that once were paid,</l>
+       <l>Like grateful incense on his altar laid,</l>
+       <l>The lambent flame now brighten, not destroy;</l>
+       <l>And woes remember'd turn to present joy.</l>
+      </sp>
+      <stage>Exit.</stage>
+     </div>
+    </div>
+    <div n="2" type="act">
+     <head>ACT II.</head>
+     <div type="scene">
+      <head>Scene <stage>the Inside of the Temple of Bellona, Seats for the Senators and Ambassadors, Lictors guarding the Entrance.</stage>
+      </head>
+      <stage>MANLIUS, PUBLIUS, <hi>and</hi> Senators.</stage>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>LET Regulus be sent for to our presence,</l>
+       <l>And with him the Ambassador of Carthage.</l>
+       <l>Is it then true the foe would treat of peace?</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>They wish at least our captives were exchang'd,</l>
+       <l>And send my father to declare their purpose:</l>
+       <l>If he obtain it, well: if not, then Regulus</l>
+       <l>Returns to meet the vengeance of the foe,</l>
+       <l>And pay for your refusal with his blood:</l>
+       <l>He ratified this treaty with his oath,</l>
+       <l>And, ere he quitted Carthage, heard, unmov'd,</l>
+       <l>The fatal preparations for his death,</l>
+       <l>Should he return. O Romans, O my countrymen,</l>
+       <l>Can you resign your Hero to their rage?</l>
+       <l>Say, can you give up Regulus to Carthage?</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>Peace, Publius, peace, for see thy father comes.</l>
+      </sp>
+      <stage>
+       <hi>Enter</hi> HAMILCAR <hi>and</hi> REGULUS.</stage>
+      <sp who="#hamilcar">
+       <speaker>Hamil.</speaker>
+       <l>Why dost thou stop? dost thou not know this Temple?</l>
+       <l>I thought these walls had nothing new to Regulus.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Hamilcar! I was thinking <hi>what</hi> I <hi>was</hi>
+       </l>
+       <l>
+        <pb n="10" facs="16"/>When <hi>last</hi> I saw them, and <hi>what now</hi> I <hi>am.</hi>
+       </l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Hamilc.</speaker>
+       <stage>[To the Consul.]</stage>
+       <l>Carthage by me to Rome her greeting sends,</l>
+       <l>And wearied out at length with bloody war,</l>
+       <l>If Rome inclines to peace she offers it.</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>We will at leisure answer thee. Be seated.</l>
+       <l>Come, Regulus, resume thine ancient place.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Who then are these?</l>
+      </sp>
+      <stage>[Pointing to the Senators.]</stage>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>The Senators of Rome.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>And who art thou?</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>Her Consul, Regulus.</l>
+       <l>Hast thou so soon forgotten Manlius?</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>And shall a <hi>slave</hi> then have a place in Rome,</l>
+       <l>Among her Consuls and her Senators?</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>Yes!—For her <hi>Heroes,</hi> Rome forgets her <hi>Laws;</hi>
+       </l>
+       <l>Softens their harsh austerity for <hi>thee,</hi>
+       </l>
+       <l>To whom she owes her conquests, and her triumphs.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Rome may forget, but <hi>Regulus</hi> remembers</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>Was ever man so obstinately good?</l>
+      </sp>
+      <stage>[Aside.]</stage>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <stage>[Rising.]</stage>
+       <l>Fathers! your pardon. I can sit no longer.</l>
+      </sp>
+      <stage>[To the Senators.]</stage>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Publius, what dost thou mean?</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>To do my duty:</l>
+       <l>Where Regulus must stand, shall Publius fit?</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Alas, O Rome, how are thy manners chang'd!</l>
+       <l>When last I left thee, ere I fail'd for Afric,</l>
+       <l>It was a crime to think of <hi>private</hi> duties</l>
+       <l>When <hi>public</hi> cares requir'd attention.—Sit,</l>
+       <stage>[To Publius.]</stage>
+       <l>And learn to occupy thy place with honour.</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>Forgive me, Sir, if I refuse obedience:</l>
+       <l>My heart o'erflows with duty to my father.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Publius, alas <hi>that</hi> duty's at an end,</l>
+       <l>Thy father <hi>died</hi> when he became a <hi>slave.</hi>
+       </l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>Now urge thy suit, Hamilcar, we attend.</l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Hamil.</speaker>
+       <l>Afric hath chosen Regulus her messenger,</l>
+       <l>In him, both Carthage and Hamilcar speak.</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Man.</speaker>
+       <stage>to Reg.</stage>
+       <l>We are prepar'd to hear thee.</l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Hamil.</speaker>
+       <stage>to Reg.</stage>
+       <l>Ere thou speakest,</l>
+       <l>Maturely weigh what thou hast sworn to do,</l>
+       <l>Should Rome refuse to treat with us of peace.</l>
+      </sp>
+      <sp who="#regulus">
+       <pb n="11" facs="17"/>
+       <speaker>Reg.</speaker>
+       <l>What I have sworn I will fulfil, Hamilcar.</l>
+       <l>Be satisfied.</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>Ye guardian Gods of Rome,</l>
+       <l>Inspire his soul with your own eloquence!</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Carthage by me this embassy has sent;</l>
+       <l>If Rome will leave her undisturb'd possession</l>
+       <l>Of all she now enjoys, she offers <hi>peace;</hi>
+       </l>
+       <l>But if you rather wish protracted war,</l>
+       <l>Her next proposal is, <hi>exchange</hi> of <hi>captives;</hi>—</l>
+       <l>If you demand advice of <hi>Regulus,</hi>
+       </l>
+       <l>
+        <hi>Reject</hi> them <hi>both.</hi>—</l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Hamil.</speaker>
+       <l>What dost thou mean?</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>My father!</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>Exalted fortitude! I'm lost in wonder.</l>
+      </sp>
+      <stage>[Aside.]</stage>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Romans! I will not idly spend my breath,</l>
+       <l>To shew the dire effects of such a peace;</l>
+       <l>The foes, who beg it, shew their dread of war.</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>But the exchange of prisoners thou proposest?</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>That artful scheme conceals some Punic fraud.</l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Hamil.</speaker>
+       <l>Roman, beware! hast thou so soon forgotten?</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>I will fulfil the treaty I have sworn to.</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>All will be ruin'd.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Conscript fathers! hear me.—</l>
+       <l>Tho' this exchange teems with a thousand ills,</l>
+       <l>Yet 'tis th' <hi>example</hi> which alarms me most.</l>
+       <l>This treaty fix'd, Rome's honor is no more.</l>
+       <l>Her fame, her valor, military pride,</l>
+       <l>Her glory, virtue, fortitude, all lost,</l>
+       <l>Should her degenerate sons, for recompence,</l>
+       <l>Be promis'd life, and liberty inglorious.</l>
+       <l>What honest captive of them all would wish▪</l>
+       <l>With shame to enter her imperial gates,</l>
+       <l>The servile scourge of slavery on his back?</l>
+       <l>None, none, my friends, would wish a fate so vile,</l>
+       <l>But those base cowards who resign'd their arms,</l>
+       <l>Unstain'd with hostile blood, and poorly sued,</l>
+       <l>Thro' ignominious fear of death, for bondage;</l>
+       <l>The scorn, the laughter of th' insulting foe.</l>
+       <l>O shame! shame! shame! eternal infamy!</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>However hurtful the <hi>exchange</hi> may be,</l>
+       <l>The life, and liberty of Regulus,</l>
+       <l>
+        <pb n="12" facs="18"/>More than compensate for it.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Thou art mistaken,—</l>
+       <l>This Regulus is but a mortal man,</l>
+       <l>Yielding apace to all th' infirmities</l>
+       <l>Of weak, decaying nature—I am old,</l>
+       <l>Nor can my future, feeble services</l>
+       <l>Assist my country much; but know, the young,</l>
+       <l>Ferocious heroes you'd restore to Carthage,</l>
+       <l>In lien of this old man, are her chief bulwarks.</l>
+       <l>In youth, with well-strung sinews this bold arm</l>
+       <l>Fought for my country— fought and conquer'd for her:</l>
+       <l>Now, weak and nerveless, let the foe possess it;</l>
+       <l>Let Carthage have the poor, the wretched triumph</l>
+       <l>To close these failing eyes;—but, O my Countrymen!</l>
+       <l>Check their vain hopes, and shew aspiring Afric</l>
+       <l>That heroes are the <hi>common</hi> growth of Rome.</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>Unequall'd fortitude!</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>O fatal virtue!</l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Hamil.</speaker>
+       <l>What do I hear? this constancy confounds me.</l>
+      </sp>
+      <stage>MANLIUS <hi>to the</hi> SENATORS.</stage>
+      <sp>
+       <l>Let <hi>honor</hi> be the spring of all our actions,</l>
+       <l>Not <hi>interest,</hi> Fathers. Honor disallows</l>
+       <l>Ingratitude to this exalted patriot.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>If Rome wou'd thank me, I will teach her how.</l>
+       <l>—Know, Fathers, that these savage Africans</l>
+       <l>Thought me so base, so very low of soul,</l>
+       <l>That the poor wretched privilege of breathing</l>
+       <l>Would force me to betray my <hi>country</hi> to them.</l>
+       <l>Have these barbarians any tortures, think you,</l>
+       <l>To match the cruelty of such suspicions?</l>
+       <l>Revenge me, Fathers! and I'm still a Roman.</l>
+       <l>Arm, arm yourselves, prepare your Citizens,</l>
+       <l>Rush eager onwards to the gates of Carthage,</l>
+       <l>Snatch the imprison'd Eagles from their Fanes,</l>
+       <l>Dye every Roman sword in Punic blood—</l>
+       <l>And do such deeds—that when I shall return,</l>
+       <l>(As I have <hi>sworn,</hi> and am resolv'd to do)</l>
+       <l>I may behold, with exquisite delight,</l>
+       <l>
+        <pb n="13" facs="19"/>The terrors of your rage in the dire visages</l>
+       <l>Of my astonish'd executioners.</l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Ham.</speaker>
+       <l>Surprise has chill'd my blood! I'm lost in wonder!</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>Does no one answer? must my father perish?</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>Romans, we must defer th' important question,</l>
+       <l>Maturest councils must determine on it.</l>
+       <l>Rest we awhile;—Nature requires some pause</l>
+       <l>From high-rais'd admiration. Thou, Hamilcar,</l>
+       <l>Shalt shortly know our final resolution.</l>
+       <l>Mean time we go to supplicate the Gods.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Have you a doubt remaining? Manlius, speak.</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>Yes, Regulus, I think the danger less</l>
+       <l>To lose th' advantage thy advice suggests,</l>
+       <l>Than would accrue to Rome in losing thee,</l>
+       <l>Whose wisdom might direct, and valour guard her;</l>
+       <l>A thirst for glory thou wouldst rush on death,</l>
+       <l>And for thy country's sake wouldst greatly perish.</l>
+       <l>Too vast a sacrifice thy zeal requires,</l>
+       <l>For Rome must bleed when Regulus expires.</l>
+      </sp>
+      <stage>Exeunt Consul and Senators.</stage>
+      <stage>
+       <hi>Manent</hi> REGULUS, PUBLIUS, HAMILCAR, <hi>to them enter</hi> ATTILIA, <hi>and</hi> LICINIUS.</stage>
+      <sp who="#hamilcar">
+       <speaker>Hamil.</speaker>
+       <l>Does Regulus fulfil his promise thus?</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>I've promis'd to return, and I will do it.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>My Father; think a moment.</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>Ah! my friend!</l>
+      </sp>
+      <sp who="#licinius #attila">
+       <speaker>Lic. and Att.</speaker>
+       <l>O by this hand we beg,—</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Away, no more.</l>
+       <l>Thanks to Rome's guardian Gods I'm yet a slave!</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Was the exchange refus'd? Oh ease my fears.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Publius! conduct Hamilcar, and myself</l>
+       <l>To the abode thou hast for each provided.</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>And will my father then no more enjoy</l>
+       <l>The smiling blessings of his cheerful home?</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Dost thou not know the laws of Rome forbid</l>
+       <l>A foe's Ambassador within her gates?</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>This rigid law does not extend to thee.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Yes; did it not alike extend to all,</l>
+       <l>'Twere tyranny, not law.</l>
+      </sp>
+      <sp who="#attila">
+       <pb n="14" facs="20"/>
+       <speaker>Attil.</speaker>
+       <l>Then, O my father,</l>
+       <l>Allow thy daughter to partake thy fate!</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Attilia! no. The present exigence</l>
+       <l>Demands far other thoughts, than the soft cares,</l>
+       <l>The fond effusions, the delightful weakness,</l>
+       <l>The dear affections 'twixt the child and parent.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>How is my father chang'd from what I've known him!</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>The <hi>fate</hi> of Regulus is chang'd, not <hi>Regulus.</hi>
+       </l>
+       <l>
+        <hi>I</hi> am the same in <hi>laurels</hi> as in <hi>chains!</hi>
+       </l>
+       <l>'Tis the same virtue which informs my mind,</l>
+       <l>Unalter'd still, tho' circumstances change;</l>
+       <l>It <hi>struggles with,</hi> and <hi>conquers</hi> adverse fortune.</l>
+       <l>The native, free-born vigor of my <hi>mind</hi>
+       </l>
+       <l>Soars <hi>above</hi> slavery.—My <hi>soul's invincible.</hi>
+       </l>
+      </sp>
+      <stage>Exeunt Reg. and Pub.</stage>
+      <stage>ATTILIA, HAMILCAR <hi>going, enter</hi> BARCE.</stage>
+      <sp who="#barce">
+       <speaker>Barce.</speaker>
+       <l>Ah! my Hamilcar.</l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Hamil.</speaker>
+       <l>Ah! my long-lost Barce,</l>
+       <l>Again I loose thee. Regulus rejects</l>
+       <l>Th' exchange of prisoners Africa proposes.</l>
+      </sp>
+      <sp who="#attila #barce">
+       <speaker>Attil. and Barce.</speaker>
+       <l>Ah! cruel fate.</l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Hamil.</speaker>
+       <l>Farewel! my all of joy—</l>
+       <l>My heart's too full.—Oh I have much to say!</l>
+      </sp>
+      <sp who="#barce">
+       <speaker>Barce.</speaker>
+       <l>Yet you unkindly leave me, and say nothing.</l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Hamil.</speaker>
+       <l>Ah! didst thou love, as thy <hi>Hamilcar</hi> loves,</l>
+       <l>
+        <hi>Words</hi> were superfluous; in my <hi>eyes,</hi> my Barce,</l>
+       <l>Thou'dst read the tender eloquence of <hi>love,</hi>
+       </l>
+       <l>Th' uncounterfeited language of my heart.</l>
+       <l>A single look betrays the soul's soft feelings,</l>
+       <l>And shews imperfect speech of little worth.</l>
+       <l>If but a <hi>sigh</hi> escape my gentle Barce,</l>
+       <l>I catch it's meaning, and am bless'd indeed!</l>
+      </sp>
+      <stage>Exit Hamilcar.</stage>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>My father then conspires his own destruction.</l>
+       <l>Is it not so?</l>
+      </sp>
+      <sp who="#barce">
+       <speaker>Barce.</speaker>
+       <l>Indeed I fear it much;</l>
+       <l>But as the Senate has not yet resolv'd,</l>
+       <l>There is at least some room for hope, Attilia.</l>
+       <l>Hasten, my friend, lose not a single moment,</l>
+       <l>
+        <pb n="15" facs="21"/>And, ere the conscript Fathers are assembled,</l>
+       <l>Try all thy powers of winning eloquence,</l>
+       <l>Each gentle art of feminine perswasion</l>
+       <l>The love of kindred, and the faith of friends,</l>
+       <l>To bend the rigid Romans to thy purpose.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Yes, Barce, I will go, I will exert</l>
+       <l>My little pow'r, tho' hopeless of success.</l>
+       <l>Undone Attilia! in a moment fall'n</l>
+       <l>From the high pinnacle of flattering hope,</l>
+       <l>Down the vast precipice of sad despair.</l>
+       <l>So some tir'd mariner the coast espies,</l>
+       <l>And his lov'd home explores with straining eyes;</l>
+       <l>Prepares with joy to quit the treacherous deep,</l>
+       <l>Hush'd every wave, and every wind asleep;</l>
+       <l>But ere he lands upon the well-known shore,</l>
+       <l>Wild storms arise, and furious billows roar,</l>
+       <l>Tear the fond wretch from all his hopes away,</l>
+       <l>And drive his shatter'd bark again to sea.</l>
+      </sp>
+     </div>
+    </div>
+    <div n="3" type="act">
+     <head>ACT III.</head>
+     <div type="scene">
+      <head>Scene <stage>a Portico of a Palace without the Gates of Rome, the Abode of the Carthaginian Ambassador.</stage>
+      </head>
+      <stage>
+       <hi>Enter</hi> REGULUS, <hi>and</hi> PUBLIUS <hi>meeting.</hi>
+      </stage>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>AH! Publius here, at such a time as this?</l>
+       <l>Know'st thou th' important question that the Senate</l>
+       <l>This very hour debate?—Thy country's glory,</l>
+       <l>Thy father's honour, and the public good?</l>
+       <l>And lingerest here?</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>They're not yet met.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Away—</l>
+       <l>Support my counsel in th' assembled Senate,</l>
+       <l>Confirm their wav'ring virtue by thy courage,</l>
+       <l>And Regulus shall glory in his boy.</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>Ah! spare thy son the most ungrateful task.</l>
+       <l>What!—supplicate the ruin of my father?</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>The good of Rome can never hurt her sons.</l>
+      </sp>
+      <sp who="#publius">
+       <pb n="16" facs="22"/>
+       <speaker>Pub.</speaker>
+       <l>In pity to thy children, spare thyself.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Dost thou then think that mine's a <hi>frantic</hi> brav'ry,</l>
+       <l>That Regulus wou'd <hi>rashly</hi> seek his fate?</l>
+       <l>Publius! how little dost thou know thy fire!</l>
+       <l>Misjudging youth! learn, that like <hi>other</hi> men,</l>
+       <l>I shun the <hi>evil,</hi> and I seek the <hi>good,</hi>
+       </l>
+       <l>But <hi>that</hi> I find in <hi>guilt,</hi> and <hi>this</hi> in <hi>virtue.</hi>
+       </l>
+       <l>Were it not guilt, guilt of the blackest dye,</l>
+       <l>Even to <hi>think</hi> of freedom at th' expence</l>
+       <l>Of my dear, bleeding country? therefore life</l>
+       <l>And liberty wou'd be my <hi>heaviest evils;</hi>
+       </l>
+       <l>But to <hi>preserve</hi> that country, to <hi>restore</hi> her,</l>
+       <l>To heal her wounds tho' at the price of <hi>life,</hi>
+       </l>
+       <l>Is <hi>virtue</hi>—therefore <hi>servitude</hi> and <hi>death,</hi>
+       </l>
+       <l>Are Regulus<hi>'s good</hi>—his <hi>wish</hi>—his <hi>choice.</hi>
+       </l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>Yet sure our country—</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>is a <hi>whole,</hi> my Publius,</l>
+       <l>Of which we all are <hi>parts,</hi> nor should a citizen</l>
+       <l>Regard <hi>his</hi> interests as distinct from <hi>her's;</hi>
+       </l>
+       <l>No hopes, or fears, shou'd touch his patriot soul</l>
+       <l>But what affect <hi>her</hi> honor, or <hi>her</hi> shame.</l>
+       <l>Ev'n when in hostile fields he <hi>bleeds</hi> to save her,</l>
+       <l>'Tis not <hi>his</hi> blood he loses, 'tis his <hi>country'</hi>s;</l>
+       <l>He only pays her back a debt he owes.</l>
+       <l>To <hi>her</hi> he's bound for birth, and education:</l>
+       <l>Her <hi>laws</hi> secure him from <hi>domestic</hi> feuds,</l>
+       <l>And from the <hi>foreign</hi> foe her <hi>arms</hi> protect him.</l>
+       <l>She lends him honors, dignity, and rank,</l>
+       <l>His wrongs revenges, and his merit pays;</l>
+       <l>And, like a tender and indulgent mother,</l>
+       <l>Loads him with comforts, and wou'd make his state</l>
+       <l>As blest, as nature, and the Gods design'd it.</l>
+       <l>Such gifts, my son, have their alloy of <hi>pain,</hi>
+       </l>
+       <l>And let th' unworthy wretch, who will not bear</l>
+       <l>His portion of the <hi>public burthen,</hi> lose</l>
+       <l>Th' <hi>advantages</hi> it yields;—let him retire</l>
+       <l>From the dear blessings of a social life,</l>
+       <l>Renounce the civiliz'd abodes of man,</l>
+       <l>And with associate brutes a shelter seek</l>
+       <l>In horrid wilds, and dens, and dreary caves,</l>
+       <l>And with their shaggy tenants share the spoil;</l>
+       <l>
+        <pb n="17" facs="23"/>Or, if the savage hunters miss their prey,</l>
+       <l>From scatter'd acorns pick a scanty meal;—</l>
+       <l>Far from the sweet civilities of life;</l>
+       <l>There let him live, and vaunt his wretched freedom.</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>With reverence and astonishment I hear thee!</l>
+       <l>Thy words, my father, have convinc'd my <hi>reason,</hi>
+       </l>
+       <l>But cannot touch my <hi>heart</hi>—nature denies</l>
+       <l>Obedience so repugnant to her feelings.</l>
+       <l>Alas! can I forget I am a son?</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>A poor excuse, unworthy of a Roman!</l>
+       <l>Brutus, Virginius, Manlius—they were fathers.</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>'Tis true they were; but this heroic greatness,</l>
+       <l>This glorious elevation of the soul,</l>
+       <l>Hath been confin'd to <hi>fathers.</hi>—Rome 'till now</l>
+       <l>Boasts not <hi>son</hi> of such <hi>surpassing virtue,</hi>
+       </l>
+       <l>Who, spurning all the ties of blood and nature,</l>
+       <l>Hath labor'd to procure his father's death.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Then be the <hi>first</hi> to <hi>give</hi> the great example—</l>
+       <l>Go, hasten, be <hi>thyself</hi> that <hi>son,</hi> my Publius.—</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>My father! ah!</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Publius, no more, be gone—</l>
+       <l>Attend the Senate—let me know my fate,</l>
+       <l>'Twill be more glorious if announc'd by thee.</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>Too much, too much thy rigid virtue claims</l>
+       <l>From thy unhappy son. Oh nature, nature!</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Publius! am I a stranger, or thy father?</l>
+       <l>If thou regard'st me as an <hi>alien</hi> here,</l>
+       <l>Learn to prefer to <hi>mine</hi> the good of <hi>Rome;</hi>
+       </l>
+       <l>If as a <hi>father</hi>—reverence my <hi>commands.</hi>
+       </l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>Ah! could'st thou look into my inmost soul</l>
+       <l>And see how warm it burns with love, and duty,</l>
+       <l>Thou would'st abate the rigor of thy words.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Could I explore the secrets of thy breast,</l>
+       <l>The virtue I wou'd wish shou'd flourish there</l>
+       <l>Were <hi>fortitude,</hi> not weak, complaining <hi>love.</hi>
+       </l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>If thou requir'st the <hi>blood</hi> of wretched Publius,</l>
+       <l>I'll shed it all, and grieve to do so little;</l>
+       <l>But when thou dost injoin the harsher talk</l>
+       <l>Of lab'ring to procure his father's death,</l>
+       <l>Forgive thy son—he has not so much virtue.</l>
+      </sp>
+      <stage>
+       <hi>Exit</hi> Publius.</stage>
+      <sp>
+       <pb n="18" facs="24"/>
+       <stage>Manet Reg.</stage>
+       <l>Th' important hour approaches, and my soul</l>
+       <l>Loses her wonted calmness, lest the Senate</l>
+       <l>Should doubt what answer to return to Carthage.</l>
+       <l>O ye protecting deities of Rome!</l>
+       <l>Ye guardian Gods, look down propitious on her,</l>
+       <l>Inspire her Senate with your sacred wisdom,</l>
+       <l>And call up all that's Roman in their souls!</l>
+      </sp>
+      <sp>
+       <stage>
+        <hi>Enter</hi> MANLIUS, <hi>speaking.</hi>
+       </stage>
+       <l>See that the lictors wait, and guard the entrance—</l>
+       <l>Take care that none intrude.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Ah! Manlius here?</l>
+       <l>What can this mean?</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manli.</speaker>
+       <l>Where where is Regulus?</l>
+       <l>The great, the god-like, the invincible?</l>
+       <l>Oh let me strain the hero to my breast.—</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg. </speaker>
+       <stage>(avoiding him)</stage>
+       <l>Manlius, stand off, remember I'm a slave!</l>
+       <l>And thou Rome's Consul.—</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>I am something <hi>more:</hi>
+       </l>
+       <l>I am a man enamour'd of thy <hi>virtues;</hi>
+       </l>
+       <l>Thy fortitude and courage have subdued me.</l>
+       <l>I <hi>was</hi> thy <hi>rival</hi>—I am <hi>now</hi> thy <hi>friend,</hi>
+       </l>
+       <l>Allow me that distinction, dearer far</l>
+       <l>Than all the honors Rome can give <hi>without</hi> it.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>This is the temper still of <hi>noble</hi> minds,</l>
+       <l>And these the blessings of an humble fortune.</l>
+       <l>Had I not been a <hi>slave,</hi> I ne'er had gain'd</l>
+       <l>The treasure of thy friendship.</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>I confess,</l>
+       <l>Thy grandeur cast a veil before my eyes,</l>
+       <l>Which thy reverse of fortune has remov'd.</l>
+       <l>Oft have I seen thee on the day of triumph,</l>
+       <l>A conqueror of <hi>nations</hi> enter Rome,</l>
+       <l>Now, thou hast conquer'd <hi>fortune,</hi> and <hi>thyself.</hi>
+       </l>
+       <l>Thy <hi>laurels</hi> oft have mov'd my soul to <hi>envy,</hi>
+       </l>
+       <l>Thy <hi>chains</hi> awaken my <hi>respect</hi> and <hi>reverence;</hi>
+       </l>
+       <l>
+        <hi>Then</hi> Regulus appear'd a <hi>hero</hi> to me,</l>
+       <l>He rises <hi>now</hi> a <hi>God.</hi>
+       </l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Manlius, enough.</l>
+       <l>Cease thy applause; for praises such as thine</l>
+       <l>
+        <pb n="19" facs="25"/>Might tempt the most severe and cautious virtue.</l>
+       <l>Bless'd be the Gods, who gild my latter days</l>
+       <l>With the bright glory of the Consul's friendship!</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>Forbid, it Jove! said'st thou thy <hi>latter</hi> days?</l>
+       <l>May gracious Heav'n to a far distant hour</l>
+       <l>Protract thy valued life. Be it <hi>my</hi> care</l>
+       <l>To crown the hopes of thy admiring country,</l>
+       <l>By giving back her long lost hero to her.</l>
+       <l>I will exert my power to bring about</l>
+       <l>Th' exchange of captives Africa proposes.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Manlius, and is it <hi>thus,</hi> is <hi>this</hi> the way</l>
+       <l>Thou dost <hi>begin</hi> to give me proofs of friendship?</l>
+       <l>Ah! if thy <hi>love</hi> be so destructive to me,</l>
+       <l>Tell me, alas! what wou'd thy <hi>hatred</hi> be?</l>
+       <l>Shall I then lose the <hi>merit</hi> of my sufferings,</l>
+       <l>Be thus <hi>defrauded</hi> of the benefit</l>
+       <l>I vainly hop'd from all my years of <hi>bondage?</hi>
+       </l>
+       <l>I did not come to shew my chains to Rome,</l>
+       <l>To move my country to a weak compassion;</l>
+       <l>I came to save her <hi>honor,</hi> to preserve her</l>
+       <l>From tarnishing her glory, by accepting</l>
+       <l>Proposals so injurious to her fame.</l>
+       <l>O Manlius! either give me proofs more worthy</l>
+       <l>A Roman's friendship, or renew thy <hi>hate.</hi>
+       </l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>Dost thou not know, that, this exchange refus'd,</l>
+       <l>Inevitable <hi>death</hi> must be thy fate?</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>And has the name of <hi>death</hi> such terror in it</l>
+       <l>To strike with dread the mighty soul of Manlius?</l>
+       <l>'Tis not <hi>to-day</hi> I learn that I am mortal.</l>
+       <l>The foe can only take from Regulus</l>
+       <l>What wearied nature would have shortly yielded;</l>
+       <l>It will be <hi>now</hi> a voluntary <hi>gift,</hi>
+       </l>
+       <l>'Twould <hi>then</hi> become a necessary <hi>tribute.</hi>
+       </l>
+       <l>Yes, Manlius, tell the world that as I <hi>liv'd</hi>
+       </l>
+       <l>For Rome alone, when I cou'd live no longer,</l>
+       <l>'Twas my last care how, <hi>dying</hi> to assist,</l>
+       <l>To <hi>save</hi> that <hi>country</hi> I had <hi>liv'd</hi> to <hi>serve.</hi>
+       </l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>O worth unparallel'd! thrice happy Rome!</l>
+       <l>Unequal'd in the heroes thou produced!</l>
+       <l>Hast thou then sworn, thou awfully-good man!</l>
+       <l>Never to bless the Consul with thy friendship?</l>
+      </sp>
+      <sp who="#regulus">
+       <pb n="20" facs="26"/>
+       <speaker>Reg.</speaker>
+       <l>If thou wilt love me, love me like a <hi>Roman.</hi>
+       </l>
+       <l>These are the terms on which I take thy friendship.</l>
+       <l>We both must make a sacrifice to Rome,</l>
+       <l>I of my life, and thou of <hi>Regulus:</hi>
+       </l>
+       <l>One must resign his being, one his friend.</l>
+       <l>It is but just, that what procures our country</l>
+       <l>Such real blessings, such substantial good,</l>
+       <l>Shou'd cost <hi>thee</hi> something—I shall lose but little.</l>
+       <l>Go then, my friend! but promise, ere thou goest,</l>
+       <l>With all the Consular Authority,</l>
+       <l>Thou wilt support my counsel in the Senate.</l>
+       <l>If thou art willing to accept these terms,</l>
+       <l>With transport I embrace thy proffer'd friendship.</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl. </speaker>
+       <stage>(after a pause.)</stage>
+       <l>Yes, I do promise.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Bounteous Gods, I thank you!</l>
+       <l>Ye never gave, in all your round of blessing,</l>
+       <l>A gift so greatly welcome to my soul,</l>
+       <l>As Manlius' friendship on the terms of honor!</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>Immortal powers! why am not I a slave?</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>My friend! there's not a moment to be lost;</l>
+       <l>Ere this perhaps the Senate is assembled.</l>
+       <l>To thee, and to thy virtues, I commit</l>
+       <l>The dignity of Rome— my peace and honor.</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>Illustrious man, farewell!</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Farewell, my friend!</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>O what a flame thou hast kindled in my soul!</l>
+       <l>It raises me to something more than man,</l>
+       <l>Glows in each vein, and trembles in each nerve.</l>
+       <l>My blood is fired with virtue, and with Rome,</l>
+       <l>And every pulse beats an alarm to glory.</l>
+       <l>Who wou'd not spurn the sceptre of a King</l>
+       <l>As an unworthy bauble, when compar'd</l>
+       <l>With chains like thine? Thou man of every virtue,</l>
+       <l>Farewell! may all the Gods protect, and bless thee!</l>
+      </sp>
+      <stage>
+       <hi>Exit</hi> Manlius.</stage>
+      <stage>
+       <hi>Enter</hi> LICINIUS.</stage>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Now I begin to live. Propitious Heaven</l>
+       <l>Inclines to favour me.—Licinius here?</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>With joy, my honor'd friend, I seek thy presence.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>And why with joy?</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>Because my heart once more Beats
+<pb n="21" facs="27"/>high with flattering hope. In thy great cause</l>
+       <l>I have been laboring.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Say'st thou in <hi>my</hi> cause!</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>In thine, and Rome's. Does it excite thy wonder?</l>
+       <l>Could'st thou then think so poorly of Licinius,</l>
+       <l>That base ingratitude cou'd find a place</l>
+       <l>Within his bosom?—that he cou'd forget</l>
+       <l>Thy thousand acts of friendship to his youth,</l>
+       <l>Forget it too at that important moment</l>
+       <l>When most he might assist thee?—Regulus,</l>
+       <l>Thou wast my leader, general, father,—all.</l>
+       <l>Didst thou not teach me early how to tread</l>
+       <l>The noble path of virtue and of glory;</l>
+       <l>Point out the way, and shew me how to love it?</l>
+       <l>—Ev'n from my infant years.—</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>But say, Licinius,</l>
+       <l>What hast thou done to serve me?</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>I have defended</l>
+       <l>Thy liberty and life!</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Ah! speak—explain.—</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>Just as the fathers were about to meet,</l>
+       <l>I hasten'd to the temple—at the entrance</l>
+       <l>Their passage I retarded, by the force</l>
+       <l>Of strong intreaty; then address'd myself</l>
+       <l>To each successively, from each obtain'd</l>
+       <l>A declaration, that their utmost power</l>
+       <l>Should be exerted for thy life, and freedom.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Great Gods! what do I here? Licinius too?</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>Not he alone, no, 'twere indeed unjust,</l>
+       <l>To rob the fair Attilia of her claim</l>
+       <l>To filial merit.—What I cou'd, I did.</l>
+       <l>But <hi>she</hi>—thy charming daughter—Heav'n and earth,</l>
+       <l>What did she not to save her father!</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Who?</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Lic.</speaker>
+       <l>Attilia, thy belov'd—thy age's darling!</l>
+       <l>Was ever father bless'd with such a child?</l>
+       <l>Gods! how her looks took captive all who saw her!</l>
+       <l>How did her soothing eloquence subdue</l>
+       <l>The stoutest hearts of Rome! How did she rouse</l>
+       <l>Contending passions in the breasts of all!</l>
+       <l>How sweetly temper dignity with grief!</l>
+       <l>
+        <pb n="22" facs="28"/>With what a soft, inimitable grace,</l>
+       <l>She prais'd, reproach'd, intreated, flatter'd, sooth'd!</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>What said the Senators?</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>What could they say?</l>
+       <l>Who could resist the lovely conqueror?</l>
+       <l>See where she comes—Hope dances in her eyes,</l>
+       <l>And lights up all her beauties into smiles.</l>
+      </sp>
+      <stage>
+       <hi>Enter</hi> ATTILIA.</stage>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Once more my dearest father—</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Ah, presume not</l>
+       <l>To call me by that name. 'Till now, Attilia,</l>
+       <l>I did not number <hi>thee</hi> among my foes.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>What do I hear? thy foe? my father's foe</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>His worst of foes—the murd'rer of his glory.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Ah! is it then a proof of enmity</l>
+       <l>To wish thee all the good the Gods can give thee,</l>
+       <l>To yield my <hi>life,</hi> if needful for thy service?</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Thou rash, imprudent girl! thou little know'st</l>
+       <l>The dignity and weight of <hi>public</hi> cares.</l>
+       <l>Who made a weak, and inexperienc'd <hi>woman</hi>
+       </l>
+       <l>The Arbiter of Regulus's fate?</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>For pity's sake, my Lord!</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Peace, peace, young man.</l>
+       <l>Her silence better than thy language pleads.</l>
+       <l>
+        <hi>That</hi> bears at least the semblance of repentance.</l>
+       <l>Immortal powers!—a daughter, and a Roman</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Because I <hi>am</hi> a Roman, I presum'd</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>Because I <hi>am</hi> a Roman, I aspir'd</l>
+       <l>T' oppose th' inhuman rigor of thy fate.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Peace, peace, Licinius. He can ne'er becall'd</l>
+       <l>A Roman who can live with infamy.;</l>
+       <l>Or how can she be Regulus's daughter</l>
+       <l>Whose coward mind wants fortitude and honor?</l>
+       <l>Unhappy children? now you make me <hi>feel</hi>
+       </l>
+       <l>The burthen of my chains: your feeble souls</l>
+       <l>Have made me know I am indeed a slave</l>
+      </sp>
+      <stage>
+       <hi>Exit</hi> Reg.</stage>
+      <sp who="#attila">
+       <speaker>Attil</speaker>
+       <l>Tell me, Licinius, and oh! tell me truly,</l>
+       <l>If thou believ'st, in all the round of time,</l>
+       <l>There ever breath'd a maid so truly wretched?</l>
+       <l>To weep, to mourn, a father's cruel fate—</l>
+       <l>To love him with soul-rending tenderness—</l>
+       <l>
+        <pb n="23" facs="29"/>To know no peace by day, or rest by night—</l>
+       <l>To bear a bleeding heart in this poor bosom,</l>
+       <l>Which aches, and trembles but to <hi>think</hi> he suffers:</l>
+       <l>This is my crime—in any <hi>other</hi> child.</l>
+       <l>'Twould be a merit.</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>Oh! my best Attilia,</l>
+       <l>Do not repent thee of the pious deed:</l>
+       <l>It was a virtuous error. <hi>That</hi> in <hi>us</hi>
+       </l>
+       <l>Is a just duty, which the god-like soul</l>
+       <l>Of Regulus would think a shameful weakness.</l>
+       <l>If the contempt of life in him be virtue,</l>
+       <l>It were in us a crime to let him perish.</l>
+       <l>Perhaps at last he may consent to live:</l>
+       <l>He then will thank us for our cares to save him:</l>
+       <l>Let not his anger fright thee. Tho' our love</l>
+       <l>Offend him now, yet, when his mighty soul</l>
+       <l>Is reconcil'd to life, he will not chide us.</l>
+       <l>The sick man loaths, and with reluctance takes</l>
+       <l>The remedy by which his health's restor'd:</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Licinius! his reproaches wound my soul.</l>
+       <l>I cannot live and bear his indignation.</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>Wou'd my Attilia rather <hi>lose</hi> her father</l>
+       <l>Than, by offending him, preserve his life?</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Ah! no. If he but live I am contented.</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>Yes, he shall live, and we again be bless'd:</l>
+       <l>Then dry thy tears, and let those lovely orbs</l>
+       <l>Beam with their wonted lustre on Licinius,</l>
+       <l>Who lives but in the sun-shine of thy smiles.</l>
+      </sp>
+      <stage>
+       <hi>Exit</hi> Licinius.</stage>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <stage>alone:</stage>
+       <l>O fortune, fortune, thou capricious Goddess!</l>
+       <l>Thy frowns and favours have alike no bounds:</l>
+       <l>Unjust, or prodigal in each extreme.</l>
+       <l>When thou wou'd'st humble human vanity,</l>
+       <l>By singling out a wretch to bear thy wrath,</l>
+       <l>Thou crushest him with anguish to excess:</l>
+       <l>If thou wou'd'st <hi>bless,</hi> thou mak'st the happiness</l>
+       <l>Too poignant for his giddy sense to bear.—</l>
+       <l>Immortal Gods, who rule the fates of men,</l>
+       <l>Preserve my father! bless him, bless him, Heav'n!</l>
+       <l>If your avenging thunderbolts <hi>must</hi> fall,</l>
+       <l>Strike <hi>here</hi>—this bosom will invite the blow,</l>
+       <l>
+        <pb n="24" facs="30"/>And <hi>thank</hi>-you for it: But, in mercy spare,</l>
+       <l>Oh! spare <hi>his</hi> sacred venerable head:</l>
+       <l>Respect in <hi>him</hi> an image of yourselves;</l>
+       <l>And leave a world, who wants it, an example</l>
+       <l>Of courage, wisdom, constancy and truth.</l>
+       <l>Yet if, eternal Powers who rule this ball!</l>
+       <l>You have decreed that Regulus must fall;</l>
+       <l>Teach me to yield to your divine command,</l>
+       <l>And meekly bow to your correcting hand;</l>
+       <l>Contented to resign, or pleas'd receive,</l>
+       <l>What wisdom may with-hold, or mercy give.</l>
+      </sp>
+     </div>
+    </div>
+    <div n="4" type="act">
+     <head>ACT IV.</head>
+     <div type="scene">
+      <head>Scene, <stage>a Gallery in the Ambassador's Palace.</stage>
+      </head>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <stage>alone.</stage>
+       <l>BE calm, my soul, what strange emotions shake thee?</l>
+       <l>Emotions thou hast never felt till now,</l>
+       <l>Thou hast defied the dangers of the deep,</l>
+       <l>Th' impetuous hurricane, the thunder's roar,</l>
+       <l>And all the terrors of the burning South:</l>
+       <l>Yet, now thou tremblest, fearful, and dismay'd</l>
+       <l>With anxious expectation of thy fate.—</l>
+       <l>Yes — thou hast amplest reason for thy fears;</l>
+       <l>For till this hour, so pregnant with events,</l>
+       <l>Thy fame and glory never were alarm'd.</l>
+       <l>Soft—let me think—what is this thing call'd <hi>glory?</hi>
+       </l>
+       <l>'Tis the Soul's tyrant, that shou'd be dethron'd,</l>
+       <l>And learn subjection like her other passions!</l>
+       <l>Ah! no! 'Tis false: This is the <hi>coward's plea;</hi>
+       </l>
+       <l>The specions language of refining <hi>vice.</hi>
+       </l>
+       <l>
+        <hi>That</hi> man was born in vain, whose pow'r of serving</l>
+       <l>Is circumscrib'd within the wretched bounds</l>
+       <l>Of <hi>self</hi>—a narrow miserable sphere!</l>
+       <l>Glory exalts, enlarges, dignifies,</l>
+       <l>Absorbs the <hi>selfish</hi> in the <hi>social</hi> feelings,</l>
+       <l>And teaches virtue how to charm mankind.—</l>
+       <l>It is this principle, this spark of deity,</l>
+       <l>
+        <pb n="25" facs="31"/>Rescues debased humanity from guilt;</l>
+       <l>And elevates it by her strong excitements.—</l>
+       <l>It takes off sensibility from pain,</l>
+       <l>From peril, fear; plucks out the sting from death;</l>
+       <l>Changes ferocious into gentle manners;</l>
+       <l>And teaches <hi>men</hi> to imitate the Gods.</l>
+       <l>It shews—but see, alas! where Publius comes.</l>
+       <l>Ah! he advances with a down-cast eye,</l>
+       <l>And step irresolute.—</l>
+      </sp>
+      <stage>
+       <hi>Enter</hi> PUBLIUS.</stage>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>My Publius, welcome!</l>
+       <l>What tidings dost thou bring? what says the Senate?</l>
+       <l>Is yet my fate determin'd? quickly tell me.—</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>I cannot speak, and yet, alas! I must.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Tell me the whole.—</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>Wou'd I were rather dumb!</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Publius, no more delay:—I charge thee speak.</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub</speaker>
+       <l>The Senate has decreed you shall depart.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Blest spirit of Rome! thou hast at last prevail'd—</l>
+       <l>I thank the Gods, I have not liv'd in vain!</l>
+       <l>Where is Hamilcar?—find him—let us go,</l>
+       <l>For Regulus has nought to do in Rome;</l>
+       <l>I have accomplish'd her important work,</l>
+       <l>And must depart.</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>Ah my unhappy father!</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>
+        <hi>Unhappy,</hi> Publius, didst thou say <hi>unhappy?</hi>
+       </l>
+       <l>Can the distinguish'd man deserve that name</l>
+       <l>Who, to his latest breath, can serve his country?</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>Like thee, my father, I adore my country,</l>
+       <l>Yet weep with anguish o'er thy cruel chains.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Dost thou not know that <hi>life</hi>'s a slavery!</l>
+       <l>The body is the chain that binds the soul;</l>
+       <l>A yoke that every mortal must endure.</l>
+       <l>Wou'd'st thou lament—lament the <hi>general</hi> fate,</l>
+       <l>The chain that <hi>nature</hi> gives, entail'd on all,</l>
+       <l>Not these <hi>I</hi> wear.</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>Forgive, forgive my sorrows:</l>
+       <l>I know, alas! too well, those fell barbarians</l>
+       <l>Intend thee instant death.</l>
+      </sp>
+      <sp who="#regulus">
+       <pb n="26" facs="32"/>
+       <speaker>Reg.</speaker>
+       <l>So shall my life</l>
+       <l>And servitude together have an end.—</l>
+       <l>Publius, farewell! nay do not follow me.—</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>Alas! my father, if thou ever lov'd'st me,</l>
+       <l>Rufuse me not the mournful consolation,</l>
+       <l>To pay the last sad offices of duty</l>
+       <l>I e'er can shew thee.—</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>No!—Thou can'st fulfill</l>
+       <l>Thy duty to thy father, in a way</l>
+       <l>More grateful to him: I must strait embark.</l>
+       <l>Be it mean-while thy pious care to keep</l>
+       <l>The poor Attilia from a sight, I fear,</l>
+       <l>Would rend her gentle heart —Her tears, my son,</l>
+       <l>Would dim the glories of thy father's triumph.</l>
+       <l>Her sinking spirits are subdu'd by grief;</l>
+       <l>And shou'd her sorrows pass the bounds of reason,</l>
+       <l>Publius, have pity on her tender age,</l>
+       <l>Compassionate the weakness of her sex;</l>
+       <l>We must not hope to find, in <hi>her</hi> soft soul,</l>
+       <l>The strong exertion of a <hi>manly</hi> courage.—</l>
+       <l>Support her fainting spirit, and instruct her,</l>
+       <l>By thy example, how a Roman ought</l>
+       <l>To bear misfortune. O indulge her weakness!</l>
+       <l>And <hi>be</hi> to her the father she will lose.</l>
+       <l>I leave my <hi>daughter</hi> to thee— I do <hi>more</hi>—</l>
+       <l>I leave to thee the conduct of—<hi>thyself.</hi>
+       </l>
+       <l>—Ah Publius! I perceive thy courage fails—</l>
+       <l>I see the quivering <hi>lip,</hi> the starting <hi>tear;</hi>—</l>
+       <l>
+        <hi>That</hi> lip, <hi>that</hi> tear calls down my mounting soul.</l>
+       <l>Resume thyself—Oh! do not blast my hope!</l>
+       <l>Yes—I'm compos'd—thou wilt not mock my age—</l>
+       <l>Thou <hi>art</hi>—thou art a <hi>Roman</hi>—and my <hi>son.</hi>
+       </l>
+      </sp>
+      <stage>Exit.</stage>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>And is he gone?—now be thyself, my soul—</l>
+       <l>Hard is the conflict, but the triumph glorious.</l>
+       <l>Yes.—I must conquer these too tender feelings,</l>
+       <l>The blood that fills these veins demands it of me,</l>
+       <l>My Father's great example too requires it.</l>
+       <l>Forgive me, <hi>Rome,</hi> and <hi>glory,</hi> if I yielded</l>
+       <l>To nature's strong attack:—I must subdue it.</l>
+       <l>Now Regulus I <hi>feel</hi> I am thy <hi>son.</hi>
+       </l>
+      </sp>
+      <stage>
+       <pb n="27" facs="33"/>
+       <hi>Enter</hi> ATTILIA <hi>and</hi> BARCE.</stage>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>My brother, I'm distracted, wild with fear—</l>
+       <l>Tell me, O tell me what I dread to know.</l>
+       <l>Is it then true?—I cannot speak—my father!</l>
+      </sp>
+      <sp who="#barce">
+       <speaker>Barce.</speaker>
+       <l>May we believe the fatal news?</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>Yes, Barce.</l>
+       <l>It is determin'd. Regulus must go.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Immortal Powers!—What say'st thou?</l>
+      </sp>
+      <sp who="#barce">
+       <speaker>Barce.</speaker>
+       <l>Can it be?</l>
+       <l>Thou canst not mean it.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Then you've all betray'd me.</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>Thy grief avails not.</l>
+      </sp>
+      <stage>
+       <hi>Enter</hi> HAMILCAR <hi>and</hi> LICINIUS.</stage>
+      <sp who="#barce">
+       <speaker>Barce.</speaker>
+       <l>pity us, Hamilcar!</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Oh help, Licinius, help the lost Attilia!</l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Hamil.</speaker>
+       <l>My Barce! there's no hope.</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>Ah I my fair mourner.</l>
+       <l>All's lost.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>What <hi>all,</hi> Licinius, saidst thou <hi>all?</hi>
+       </l>
+       <l>Not <hi>one</hi> poor glimpse of comfort left behind?</l>
+       <l>Tell me at least where Regulus is gone:</l>
+       <l>The daughter shall partake the father's chains,</l>
+       <l>And share the woes she knew not to prevent.</l>
+      </sp>
+      <stage>Going</stage>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>What wou'd thy wild despair? Attilia, stay,</l>
+       <l>Thou must not follow; this excess of grief</l>
+       <l>Wou'd much offend him.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Atil.</speaker>
+       <l>Dost thou hope to <hi>stop</hi> me?</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>I hope thou wilt resume thy better self,</l>
+       <l>And recollect thy father will not bear—</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>I only recollect I am a <hi>daughter,</hi>
+       </l>
+       <l>A poor, defenceless, helpless, wretched daughter!</l>
+       <l>Away—and let me follow.</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>No, my sister.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Detain me not—Ah! while thou hold'st me here,</l>
+       <l>He goes, and I shall never see him more.</l>
+      </sp>
+      <sp who="#barce">
+       <speaker>Barce.</speaker>
+       <l>My friend, be comforted, he cannot go</l>
+       <l>Whilst here Hamilcar stays.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>O Barce, Barce!</l>
+       <l>
+        <pb n="28" facs="34"/>Who will advise, who comfort, who assist me?</l>
+       <l>Hamilcar, pity me.—Thou wilt not answer?</l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Hamil.</speaker>
+       <l>Rage and astonishment divide my soul.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Licinius, wilt thou not relieve my sorrows?</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>Yes, at my life's expence, my heart's best treasure,</l>
+       <l>Would'st thou instruct me how.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>My brother too—</l>
+       <l>Ah! look with mercy on thy sister's woes!</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>I will at least instruct thee how to <hi>bear</hi> them.</l>
+       <l>My sister—yield thee to thy adverse fate;</l>
+       <l>Think of thy father, think of Regulus;</l>
+       <l>Has he not taught thee how to brave misfortune?</l>
+       <l>'Tis but by following his illustrious steps</l>
+       <l>Thou e'er canst merit to be call'd his daughter.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>And is it thus thou dost advise thy sister?</l>
+       <l>Are these, ye Gods, the feelings of a son?</l>
+       <l>Indifference here becomes impiety—</l>
+       <l>Thy savage heart ne'er felt the dear delights</l>
+       <l>Of filial tenderness—the thousand joys</l>
+       <l>That flow from blessing, and from being bless'd!</l>
+       <l>No—did'st thou love thy father as <hi>I</hi> love him,</l>
+       <l>Our kindred souls wou'd be in unison;</l>
+       <l>And all my sighs be echoed back by thine.</l>
+       <l>Thou would'st—alas!—I know not what I say.—</l>
+       <l>Forgive me, Publius,—but indeed, my brother,</l>
+       <l>I do not understand this cruel coldness.</l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Hamil.</speaker>
+       <l>Thou may'st not — but I understand it well.</l>
+       <l>His mighty soul, full as to thee it seems</l>
+       <l>Of Rome, and glory— is enamour'd — caught—</l>
+       <l>Enraptur'd with the beauties of fair Barce.—</l>
+       <l>
+        <hi>She</hi> stays behind if Regulus <hi>departs.</hi>
+       </l>
+       <l>Behold the cause of all the well-feign'd virtue</l>
+       <l>Of this mock patriot—curst dissimulation!</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>And canst thou entertain such vile suspicions?</l>
+       <l>Gods! what an outrage to a son like me!</l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Hamil.</speaker>
+       <l>Yes, Roman! now I see thee as thou art,</l>
+       <l>Thy naked soul divested of it's veil,</l>
+       <l>It's specious colouring, it's dissembled virtues:</l>
+       <l>Thou hast plotted with the Senate to prevent</l>
+       <l>Th' exchange of captives. All thy subtle arts,</l>
+       <l>
+        <pb n="29" facs="35"/>Thy smooth inventions have been set to work—</l>
+       <l>The base refinements of your <hi>polish'd</hi> land.</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>In truth the doubt is worthy of an African.</l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Hamil.</speaker>
+       <l>I know—</l>
+      </sp>
+      <stage>Contemptuously.</stage>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>Peace, Carthaginian, peace, and hear me.</l>
+       <l>Dost thou not know, that on the very man</l>
+       <l>Thou hast insulted Barce's fate depends?</l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Hamil.</speaker>
+       <l>Too well I know, the cruel chance of war</l>
+       <l>Gave her, a blooming captive, to thy mother;</l>
+       <l>Who, dying, lest the beauteous prize to thee.</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>Now, see the use a <hi>Roman</hi> makes of power.</l>
+       <l>Heav'n is my witness how I lov'd the maid!</l>
+       <l>O she was dearer to my soul than light!</l>
+       <l>Dear as the vital stream that feeds my heart!</l>
+       <l>But know my <hi>honor</hi>'s dearer still than <hi>her.</hi>
+       </l>
+       <l>I do not even hope <hi>thou</hi> wilt believe me;</l>
+       <l>
+        <hi>Thy</hi> brutal soul, as savage as thy clime,</l>
+       <l>Can never taste those elegant delights,</l>
+       <l>Those pure refinements, love and glory yield:</l>
+       <l>'Tis not to <hi>thee</hi> I stoop for vindication,</l>
+       <l>Alike to me thy friendship or thy hate;</l>
+       <l>But, to remove from <hi>others</hi> a pretence</l>
+       <l>For branding Publius with the name of villain,</l>
+       <l>That <hi>they</hi> may see no sentiment but honor</l>
+       <l>Informs this bosom—Barce, thou art <hi>free.</hi>
+       </l>
+       <l>Thou hast my leave with him to quit this shore.—</l>
+       <l>Now learn, Barbarian, how a <hi>Roman</hi> loves!</l>
+      </sp>
+      <stage>Exit.</stage>
+      <sp who="#barce">
+       <speaker>Barce.</speaker>
+       <l>He cannot mean it!</l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Hamil.</speaker>
+       <l>Oh exalted virtue!</l>
+       <l>Which challenges esteem tho' from a foe.</l>
+      </sp>
+      <stage>Looking after Publius.</stage>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Ah! cruel Publius, wilt thou leave me thus?</l>
+       <l>Thus leave thy sister?</l>
+      </sp>
+      <sp who="#barce">
+       <speaker>Barce.</speaker>
+       <l>Didst thou hear, Hamilcar?</l>
+       <l>Oh! didst thou hear the god-like youth resign me?</l>
+      </sp>
+      <stage>HAMILCAR <hi>and</hi> LICINIUS <hi>seem lost in Thought.</hi>
+      </stage>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <stage>to Licin.</stage>
+       <l>Wilt thou not speak to me?</l>
+      </sp>
+      <sp who="#barce">
+       <speaker>Barce.</speaker>
+       <l>My lov'd Hamilcar</l>
+       <l>Ungrateful I not'one word, one smile, one look.</l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Hamil.</speaker>
+       <l>Farewel, I will return.</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>Farewel, my love!</l>
+      </sp>
+      <stage>To Attilia.</stage>
+      <sp who="#barce">
+       <speaker>Barce.</speaker>
+       <l>Hamilcar, where—</l>
+      </sp>
+      <sp who="#attila">
+       <pb n="30" facs="36"/>
+       <speaker>Attil.</speaker>
+       <stage>To Licin.</stage>
+       <l>Alas! where art thou going?</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>If possible, to save the life of Regulus.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>But by what means!—Ah! how canst thou effect it?</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>Since the disease so desperate is become,</l>
+       <l>We must apply a desperate remedy,</l>
+       <stage>HAMILCAR, <hi>after a long Pause.</hi>
+       </stage>
+       <l>Yes—I will mortify this generous foe;</l>
+       <l>I'll be reveng'd upon this stubborn Roman;</l>
+       <l>Not by defiance bold, or feats of arms,</l>
+       <l>But by a means more sure to work its end;</l>
+       <l>By emulating his exalted worth.</l>
+       <l>And shewing him a virtue like his own;</l>
+       <l>Such a refin'd revenge as noble minds</l>
+       <l>Alone can practise, and alone can feel.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>If thou wilt go, Licinius, let Attilia</l>
+       <l>At least go with thee.</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>No, my gentle love,</l>
+       <l>Too much I prize thy safety and thy peace.</l>
+       <l>Let me in treat thee stay with Barce here.</l>
+      </sp>
+      <sp who="#barce">
+       <speaker>Barce.</speaker>
+       <l>I go with my Hamilcar.</l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Hamil.</speaker>
+       <l>Barce, no;</l>
+       <l>I do conjure thee by our former loves,</l>
+       <l>Thou wilt not follow me!</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Then, ere ye go,</l>
+       <l>Explain the latent purpose of your souls.</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>Soon shalt thou know it all—Farewel!</l>
+       <l>Farewel!</l>
+       <l>Let us keep Regulus in <hi>Rome,</hi> or <hi>die.</hi>
+       </l>
+      </sp>
+      <stage>[To Hamilcar as he goes out.]</stage>
+      <sp who="#hamilcar">
+       <speaker>Hamil.</speaker>
+       <l>Yes—These smooth, polish'd Romans shall confess</l>
+       <l>The soil of <hi>Afric</hi> too produces heroes.</l>
+       <l>What, tho' our <hi>pride</hi> perhaps be less than their's,</l>
+       <l>Our <hi>virtue</hi> may be equal: They shall own</l>
+       <l>The path of honor's not unknown to Carthage,</l>
+       <l>Nor, as they arrogantly think, confin'd</l>
+       <l>To their proud Capitol:—Yes.—They shall learn</l>
+       <l>The Gods look down on <hi>other</hi> climes than <hi>their</hi>'s.</l>
+      </sp>
+      <stage>Exit.</stage>
+      <sp who="#attila">
+       <speaker>Attil</speaker>
+       <l>What gone, <hi>both</hi> gone? What can I think or do?</l>
+       <l>Licinius leaves me, led by love and virtue,</l>
+       <l>
+        <pb n="31" facs="37"/>To rouse the citizens to war and tumult,</l>
+       <l>Which may, alas! be fatal to himself,</l>
+       <l>May injure Rome, and yet not benefit</l>
+       <l>My father. Ah! my Barce, I am lost</l>
+       <l>In a wild labyrinth of doubt and fear.</l>
+       <l>Protecting Deities! preserve them both I</l>
+      </sp>
+      <sp who="#barce">
+       <speaker>Barce.</speaker>
+       <l>Nor is thy Barce more at ease, my friend;</l>
+       <l>I dread the fierceness of Hamilcar's courage;</l>
+       <l>Rous'd by the grandeur of thy brother's deed,</l>
+       <l>And stung by his reproaches, his great soul</l>
+       <l>Will scorn to be outdone by him in glory.</l>
+       <l>Who, who can tell what perils he may run,</l>
+       <l>To what alarming accidents expose</l>
+       <l>A life, to Barce dearer than her own?</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Ah me! what dangers may attend them both,</l>
+       <l>I tremble but to think!—My brother too!</l>
+      </sp>
+      <sp who="#barce">
+       <speaker>Bar.</speaker>
+       <l>Come, let us rise to courage and to life,</l>
+       <l>Forget the weakness of our helpless sex,</l>
+       <l>And mount above those coward woman's fears.</l>
+       <l>Hope dawns upon my mind—my prospect clears,</l>
+       <l>And every cloud now brightens into day.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>How different are our souls! Thy sanguine temper</l>
+       <l>Flush'd with the native vigor of thy soil,</l>
+       <l>Supports thy spirits, while the sad Attilia,</l>
+       <l>Sinking with more than all her sex's fears,</l>
+       <l>Sees not a beam of hope; or, if she sees it,</l>
+       <l>'Tis not the bright, warm splendor of the sun;</l>
+       <l>It is a sickly and uncertain glimmer,</l>
+       <l>A feeble ray, which, like a languid glare</l>
+       <l>Of instantaneous light'ning, passes by.</l>
+       <l>It shews, but not diminishes the danger,</l>
+       <l>And leaves my poor benighted soul, as dark</l>
+       <l>As it had never shone.</l>
+      </sp>
+      <sp who="#barce">
+       <speaker>Barce.</speaker>
+       <l>Come, let us go.</l>
+       <l>Yes, Joys unlook'd for now shall gild thy days;</l>
+       <l>And brighter suns reflect propitious rays.</l>
+       <stage>Exeunt.</stage>
+      </sp>
+     </div>
+     <div type="scene">
+      <head>Scene, <stage>a Hall looking towards the Garden.</stage>
+      </head>
+      <stage>
+       <hi>Enter</hi> Regulus <hi>speaking to one of Hamilcar's Attendants.</hi>
+      </stage>
+      <sp>
+       <l>Where's your Ambassador? where is Hamilcar?</l>
+       <l>Ere this he doubtless knows the Senate's.will.</l>
+       <l>
+        <pb n="32" facs="38"/>Go seek him out—Tell him we must depart—</l>
+       <l>Rome has no <hi>hope</hi> for <hi>him,</hi> or <hi>wish</hi> for <hi>me.</hi>
+       </l>
+       <l>Longer delay were criminal in <hi>both.</hi>
+       </l>
+      </sp>
+      <stage>
+       <hi>Enter</hi> MANLIUS.</stage>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>He comes. The Consul comes! my noble friend!</l>
+       <l>O let me strain thee to this grateful heart,</l>
+       <l>And thank thee for the vast, vast debt I owe thee!</l>
+       <l>But for <hi>thy</hi> friendship I had been a wretch—</l>
+       <l>Had been compell'd to shameful <hi>liberty.</hi>
+       </l>
+       <l>To thee I owe the glory of these chains,</l>
+       <l>My faith inviolate, my fame preserv'd.</l>
+       <l>My honor, virtue, glory, bondage,—all!</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Man.</speaker>
+       <l>But we shall <hi>lose</hi> thee, so it is decreed—</l>
+       <l>Thou must <hi>depart?</hi>
+       </l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Because I <hi>must</hi> depart,</l>
+       <l>You will not lose me; I were lost indeed</l>
+       <l>Did I remain in Rome</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Man.</speaker>
+       <l>Ah! Regulus,</l>
+       <l>Why, why so late do I begin to love thee?</l>
+       <l>Alas! why have the adverse fates decreed,</l>
+       <l>I ne'er must give thee other proofs of friendship,</l>
+       <l>Than those so fatal and so full of woe?</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Thou hast perform'd the duties of a friend:</l>
+       <l>Of a just, faithful, true and noble friend;</l>
+       <l>Yet, generous as thou art, if thou constrain me</l>
+       <l>To sink beneath a weight of obligation,</l>
+       <l>I con'd—yes, Manlius—I could ask him more.</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Man.</speaker>
+       <l>Explain thyself.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>I think I have fulfill'd</l>
+       <l>The various duties of a citizen;</l>
+       <l>Nor have I aught beside to do for Rome.</l>
+       <l>Now, nothing for the <hi>public</hi> good remains.</l>
+       <l>Manlius! I recollect I am a <hi>father!</hi>
+       </l>
+       <l>My <hi>Publius!</hi> my <hi>Attilia!</hi> ah! my friend,</l>
+       <l>They are—(forgive the weakness of a parent)</l>
+       <l>To my fond heart, dear as the drops that warm it.</l>
+       <l>Next to my country they're my all of life;</l>
+       <l>And, if a weak old man be not deceiv'd,</l>
+       <l>They will not shame that country.—Yes, my friend,</l>
+       <l>Young as they are, I think I can perceive</l>
+       <l>The love of virtue blazes in their souls.</l>
+       <l>
+        <pb n="33" facs="39"/>As yet these tender plants are immature,</l>
+       <l>And ask the fostering hand of cultivation;</l>
+       <l>Heav'n, in its wisdom, would not let their <hi>father</hi>
+       </l>
+       <l>Accomplish this great work,—To thee, my friend,</l>
+       <l>The tender parent delegates the trust:</l>
+       <l>Do not refuse a <hi>poor</hi> man's legacy;</l>
+       <l>I do bequeath my orphans to thy love—</l>
+       <l>If thou wilt kindly take them to thy bosom,</l>
+       <l>Their loss will be repaid with usury.</l>
+       <l>O let the father owe his <hi>glory</hi> to thee,</l>
+       <l>The children their <hi>protection!</hi>
+       </l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>Regulus,</l>
+       <l>With grateful joy I do accept the trust:</l>
+       <l>Oh! I will shield, with jealous tenderness,</l>
+       <l>The precious blossoms from a blasting world.</l>
+       <l>In me thy children shall possess a father,</l>
+       <l>Tho' not as worthy, yet as fond as thee.</l>
+       <l>The pride be mine to fill their youthful breasts</l>
+       <l>With every virtue—'twill not cost me much:</l>
+       <l>I shall have nought to teach, nor they to learn,</l>
+       <l>But the great history of their god-like fire.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>I will not hurt the grandeur of thy virtue,</l>
+       <l>By paying thee so poor a thing as <hi>thanks.</hi>
+       </l>
+       <l>Now, all is over, and I bless the Gods,</l>
+       <l>I've nothing more to do.</l>
+       <stage>
+        <hi>Enter</hi> PUBLIUS, <hi>in Haste.</hi>
+       </stage>
+       <l>O Regulus!</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Say what has happen'd?</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>Rome is in a tumult—</l>
+       <l>There's scarce a citizen but runs to arms—</l>
+       <l>They will not let thee go.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Is't possible?</l>
+       <l>Can Rome so far forget her dignity.</l>
+       <l>As to desire this infamous exchange?</l>
+       <l>I blush to think it!</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>Ah! not so, my father.</l>
+       <l>Rome cares not for the <hi>peace,</hi> nor for th' <hi>exchange;</hi>
+       </l>
+       <l>She only wills that Regulus shall stay.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>How, stay? my oath—my faith—my honor! —ah!</l>
+       <l>Do they forget?</l>
+      </sp>
+      <sp who="#publius">
+       <pb n="34" facs="40"/>
+       <speaker>Pub.</speaker>
+       <l>No: Every man exclaims</l>
+       <l>That neither faith, nor honor, shou'd be kept</l>
+       <l>With Carthaginian perfidy and fraud.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Gods! Gods! on what vile principles they reason!</l>
+       <l>Can guilt in <hi>Carthage</hi> palliate guilt in <hi>Rome,</hi>
+       </l>
+       <l>Or vice in <hi>one</hi> absolve it in <hi>another?</hi>
+       </l>
+       <l>Ah! who hereafter shall be criminal,</l>
+       <l>If <hi>precedents</hi> are us'd to justify</l>
+       <l>The blackest crimes.</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>Th' infatuated people</l>
+       <l>Have call'd the Augurs to the sacred fane,</l>
+       <l>There to determine this momentous point.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>I have no need of <hi>Oracles,</hi> my son,</l>
+       <l>
+        <hi>Honor</hi>'s the Oracle of honest men.</l>
+       <l>I gave my promise, which I will observe</l>
+       <l>With most religious strictness. Rome, 'tis true,</l>
+       <l>Had power to chuse the peace, or change of slaves;</l>
+       <l>But whether Regulus return, or not,</l>
+       <l>Is <hi>his</hi> concern, not the concern cf <hi>Rome.</hi>
+       </l>
+       <l>
+        <hi>That</hi> was a <hi>public, this</hi> a private care.</l>
+       <l>Publius! thy father is not what he was;</l>
+       <l>
+        <hi>I</hi> am the slave of <hi>Carthage,</hi> nor has Rome</l>
+       <l>Power to dispose of captives not her own.</l>
+       <l>Guards! let us to the port— Farewel, my friend.</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Man.</speaker>
+       <l>Let me intreat thee stay; for should'st thou go.</l>
+       <l>To stem this tumult of the populace,</l>
+       <l>They will by force detain thee: then, alas!</l>
+       <l>Both Regulus and Rome must break their faith.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>What! must I then remain?</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Man.</speaker>
+       <l>No. Regulus,</l>
+       <l>I will not check thy great career of glory:</l>
+       <l>Thou shalt depart; Mean-while, I go to calm</l>
+       <l>This wild tumultuous uproar of the people.</l>
+       <l>The Consular authority shall still them.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Thy virtue is my safeguard—but—</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Man.</speaker>
+       <l>Enough.—</l>
+       <l>
+        <hi>I</hi> know <hi>thy</hi> honor, and trust thou to <hi>mine.</hi>
+       </l>
+       <l>I am a <hi>Roman,</hi> and I feel some sparks</l>
+       <l>Of Regulus's virtue in my breast.</l>
+       <l>The' fate denies me thy illustrious chains,</l>
+       <l>I will at least endeavour to <hi>deserve</hi> them.</l>
+      </sp>
+      <stage>Exit.</stage>
+      <sp who="#regulus">
+       <pb n="35" facs="41"/>
+       <speaker>Reg.</speaker>
+       <l>How is my country alter'd! how, alas,</l>
+       <l>Is the great spirit of old Rome extinct!</l>
+       <l>
+        <hi>Restraint</hi> and <hi>force</hi> must now be put to use</l>
+       <l>To <hi>make</hi> her virtuous. She must be <hi>compell'd</hi>
+       </l>
+       <l>To faith and honor.—Ah! what Publius here?</l>
+       <l>And dost thou leave so tamely to my friend,</l>
+       <l>The honor to assist me? Go, my boy,</l>
+       <l>'Twill make me <hi>more</hi> in love with chains and death,</l>
+       <l>To owe them to a <hi>son.</hi>
+       </l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>I go, my father—</l>
+       <l>I will, I will obey thee.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Do not sigh—</l>
+       <l>It will impede the progress of thy glory.</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>Yes, I will own the pangs of death itself</l>
+       <l>Wou'd be less cruel than these agonies:</l>
+       <l>Yet do not frown austerely on thy son:</l>
+       <l>His <hi>anguish</hi> is his <hi>virtue:</hi> If to conquer</l>
+       <l>The feelings of my soul were <hi>easy</hi> to me,</l>
+       <l>'Twou'd be no merit. Do not then defraud</l>
+       <l>The sacrifice I make thee of it's glory.</l>
+      </sp>
+      <stage>Exeunt severally.</stage>
+      <stage>MANLIUS, ATTILIA,</stage>
+      <sp who="#attila">
+       <speaker>Attil. </speaker>
+       <stage>(speaking as she enters.)</stage>
+       <l>Where, is the Consul?</l>
+       <l>—where, oh! where is Manlius?</l>
+       <l>I come to breathe the voice of mourning to him,</l>
+       <l>To supplicate his mercy, to conjure him</l>
+       <l>To whisper peace to my afflicted bosom,</l>
+       <l>And heal the anguish of a wounded spirit.</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>What would the daughter of my noble friend?</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil. </speaker>
+       <stage>(kneeling.)</stage>
+       <l>If ever pity's sweet emotions touch'd thee,—</l>
+       <l>If ever gentle love assail'd thy breast,—</l>
+       <l>If ever virtuous friendship fir'd thy soul;—</l>
+       <l>By the dear names of husband, and of parent—</l>
+       <l>By all the soft, yet powerful ties of nature;—</l>
+       <l>If e'er thy lisping infants charm'd thine ear,</l>
+       <l>And waken'd all the father in thy soul,—</l>
+       <l>If e'er thou hop'st to have thy latter days</l>
+       <l>Blest by their love, and sweeten'd by their duty—</l>
+       <l>Oh! hear a kneeling, weeping, wretched daughter,</l>
+       <l>Who begs, intreats, implores a father's life—</l>
+       <l>Nor <hi>her</hi>'s alone—but <hi>Rome</hi>'s — his <hi>country</hi>'s father.</l>
+      </sp>
+      <sp who="#manlius">
+       <pb n="36" facs="42"/>
+       <speaker>Manl.</speaker>
+       <l>Rise, gentle maid—nay, I conjure thee rise.</l>
+       <l>Oh! spare this soft, subduing eloquence!—</l>
+       <l>Nay, rise. I shall forget I am a <hi>Roman</hi>—</l>
+       <l>Forget the mighty debt I owe my <hi>country</hi>—</l>
+       <l>Forget the fame and glory of thy <hi>father.</hi>
+       </l>
+       <l>I must conceal this weakness.</l>
+      </sp>
+      <stage>Turns from her.</stage>
+      <sp who="#attila">
+       <speaker>Attil. </speaker>
+       <stage>(rises eagerly)</stage>
+       <l>Ah! you weep!</l>
+       <l>Indulge, indulge, my Lord, the virtuous softness:</l>
+       <l>Was ever sight so graceful, so becoming,</l>
+       <l>As Pity's tear upon the Hero's cheek?</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>No more—I must not hear thee.</l>
+      </sp>
+      <stage>Going.</stage>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>How! not hear me?</l>
+       <l>You must—you shall—nay, nay return my Lord—</l>
+       <l>Oh! fly not from me—look upon my woes,</l>
+       <l>And imitate the mercy of the Gods:</l>
+       <l>'Tis not their <hi>thunder</hi> that excites our reverence,</l>
+       <l>'Tis their mild <hi>mercy,</hi> and forgiving <hi>love.</hi>
+       </l>
+       <l>'Twill add a brighter lustre to thy laurels,</l>
+       <l>When men shall say, and proudly point Thee out,</l>
+       <l>"Behold the Consul!—<hi>He</hi> who sav'd his friend."</l>
+       <l>Oh! what a tide of joy will overwhelm thee!</l>
+       <l>Who will not envy thee thy glorious feelings?</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>Thy father soorns his liberty and life,</l>
+       <l>Nor will accept of either, at th' expence</l>
+       <l>Of honour, virtue, glory, faith and Rome.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Think you behold the god-like Regulus</l>
+       <l>The prey of unrelenting savage foes,</l>
+       <l>Ingenious only in contriving ill:—</l>
+       <l>Eager to glut their hunger of revenge,</l>
+       <l>They'll plot such new, such dire, unheard-of-tortures—</l>
+       <l>Such dreadful, and such complicated vengeance,</l>
+       <l>As ev'n the Punic annals have not known;</l>
+       <l>And, as they heap fresh torments on his head,</l>
+       <l>With horrid exultation they'll applaud</l>
+       <l>Their curs'd, pernicious genius for destruction.</l>
+       <l>—Ah! Manlius—now methinks I see my father—</l>
+       <l>My faithful fancy full of his idea</l>
+       <l>Presents him to me—mangled, gash'd, and torn—</l>
+       <l>Stretch'd on the rack in writhing agony—</l>
+       <l>The torturing pincers tear his quivering flesh,</l>
+       <l>And the dire murderers view the gaping wounds</l>
+       <l>
+        <pb n="37" facs="43"/>With smiles malignant, and with fiend-like rapture—</l>
+       <l>His groans their music, and his pangs their sport;—</l>
+       <l>And if they lend some interval of case,</l>
+       <l>Some dear bought intermission, meant to make</l>
+       <l>The following pang more exquisitely felt,</l>
+       <l>Th' insulting executioners exclaim,</l>
+       <l>—"Now, Roman! <hi>feel</hi> the vengeance thon hast <hi>scorn'd!"</hi>
+       </l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Man.</speaker>
+       <l>Repress thy sorrows—</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Ah!—repress my sorrows!—</l>
+       <l>And can the friend of Regulus advise</l>
+       <l>His hapless daughter not to <hi>mourn</hi> his fate?</l>
+       <l>How cold, alas! is friendship when compar'd</l>
+       <l>To ties of blood—to nature's powerful impulse;</l>
+       <l>Yes—she asserts her empire in my soul,</l>
+       <l>'Tis nature pleads—she will—she must be heard;</l>
+       <l>With warm, resistless eloquence she pleads.—</l>
+       <l>Ah thou art soften'd—see—the Consul yields—</l>
+       <l>The feelings triumph — tenderness prevails—</l>
+       <l>The Roman is subdued—the daughter conquers!</l>
+      </sp>
+      <stage>Catching hold of his Robe.</stage>
+      <sp who="#manlius">
+       <speaker>Man.</speaker>
+       <l>Ah! hold me not—I must not, cannot stay,</l>
+       <l>The softness of thy sorrow is contagious;</l>
+       <l>
+        <hi>I</hi> too may <hi>feel</hi> when I shou'd only <hi>reason.</hi>
+       </l>
+       <l>I dare not hear thee—Regulus and Rome,</l>
+       <l>The Patriot and the Friend—all, all forbid it.</l>
+      </sp>
+      <stage>Breaks from her and exit.</stage>
+      <sp who="#attila">
+       <speaker>Manet Attil.</speaker>
+       <l>Oh feeble grasp!—and is he gone, quite gone?</l>
+       <l>Hold, hold thy empire, <hi>reason,</hi> firmly hold it,</l>
+       <l>Or rather quit at once thy feeble throne,</l>
+       <l>Since thou but serv'st to shew me what I've lost,</l>
+       <l>To heighten all the horrors that await me;</l>
+       <l>To summon up a wild, distracted croud</l>
+       <l>Of fatal images, to shake my soul,</l>
+       <l>To scare sweet peace, and banish hope itself.</l>
+       <l>Farewel! delusive dreams of joy, farewel!</l>
+       <l>Come, fell Despair! thou pale-ey'd spectre, come,</l>
+       <l>For thou shalt be Attilia's inmate now,</l>
+       <l>And thou shalt grow, and twine about her heart,</l>
+       <l>And she shall be so much enamour'd of thee,</l>
+       <l>
+        <pb n="38" facs="44"/>The pageant Pleasure ne'er shall interpose</l>
+       <l>Her gaudy presence to divide you more.</l>
+      </sp>
+      <stage>Stands in an Attitude of silent Grief.</stage>
+      <sp who="#licinius">
+       <speaker>Enter Licin.</speaker>
+       <l>At length I've found thee—ah, my charming maid!</l>
+       <l>How have I sought thee out with anxious fondness!</l>
+       <l>Alas! she hears me not—My best Attilia!</l>
+       <l>Ah! grief oppresses every gentle sense,</l>
+       <l>Still, still she hears not—'tis Licinius speaks,</l>
+       <l>He comes to sooth the anguish of thy spirit,</l>
+       <l>And hush thy tender sorrows into peace.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Who's he that dares assume the voice of love,</l>
+       <l>And comes unbidden to these dreary haunts;</l>
+       <l>Steals on the sacred treasury of woe,</l>
+       <l>And breaks the league Despair and I have made.</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>'Tis one who comes the messenger of Heav'n,</l>
+       <l>To talk of peace, of comfort and of joy.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Didst thou not mock me with the sound of joy.</l>
+       <l>Thou little know'st the anguish of my soul,</l>
+       <l>If thou believ'st I ever can again,</l>
+       <l>So long the wretched sport of angry fortune,</l>
+       <l>Admit delusive Hope to my sad bosom</l>
+       <l>No—I abjure the flatterer and her train.</l>
+       <l>Let those, who ne'er have been like me deceiv'd,</l>
+       <l>Embrace the fair fantastic sycophant—</l>
+       <l>For I, alas! am wedded to despair,</l>
+       <l>And will not hear the sound of comfort more.</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>Cease, cease, my love, this tender voice of woe,</l>
+       <l>Tho' softer than the dying Cygnet's plaint:</l>
+       <l>She ever chaunts her most melodious strain</l>
+       <l>When death and sorrow harmonize her note.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Yes—I will listen now with fond delight;</l>
+       <l>For <hi>death</hi> and <hi>sorrow</hi> are my darling themes.</l>
+       <l>Well!—what hast thou to say of <hi>death</hi> and <hi>sorrow?</hi>
+       </l>
+       <l>Believe me, thou wilt find me apt to listen,</l>
+       <l>And, if my tongue be slow to answer thee,</l>
+       <l>Instead of words I'll give thee sighs and tears.</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>I come to <hi>day</hi> thy tears, not make them <hi>flow;</hi>
+       </l>
+       <l>The Gods once more propitious smile upon us,</l>
+       <l>Joy shall again await each happy morn,</l>
+       <l>
+        <pb n="39" facs="45"/>And ever-new delight shall crown the day!</l>
+       <l>Yes, Regulus shall live.—</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Ah me! what say'st thou?</l>
+       <l>Alas! I'm but a poor, weak, trembling woman—</l>
+       <l>I cannot bear these wild extremes of fate—</l>
+       <l>Then mock me not.—I think thon art Licinius,</l>
+       <l>The generous lover, and the faithful friend!</l>
+       <l>I think thou would'st not sport with my afflictions.</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>Mock thy afflictions? May eternal Jove,</l>
+       <l>And every power at whose dread shrine we worship,</l>
+       <l>Blast all the hopes my fond ideas form</l>
+       <l>Of tender transport in Attilia's love</l>
+       <l>If I deceive thee! Yes, my beauteous mourner,</l>
+       <l>Thy father yet shall live to give thee to Licinius' arms.</l>
+       <l>Oh! we will smooth his downward path of life,</l>
+       <l>By our kind cares and unremitting love;</l>
+       <l>And after a long length of virtuous years,</l>
+       <l>At the last verge of honourable age,</l>
+       <l>When nature's glimmering lamp goes gently out,</l>
+       <l>We'll close, together close his eyes in peace—</l>
+       <l>Together drop the sweetly-painful tear—</l>
+       <l>Then copy out his virtues in our lives.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>And <hi>shall</hi> we be so blest? is't <hi>possible?</hi>
+       </l>
+       <l>Forgive me, my Licinius, if I doubt thee.</l>
+       <l>Fate never gave such exquisite delight,</l>
+       <l>As flatt'ring hope hath imag'd to thy soul.</l>
+       <l>But how?—Explain this bounty of the Gods.</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>Thou, know'st what influence the name of Tribune</l>
+       <l>Gives it's possessor o'er the people's minds;</l>
+       <l>That power I have exerted, not in vain;</l>
+       <l>All are prepar'd to second my designs:</l>
+       <l>The plot is ripe,—there's not a man but swears</l>
+       <l>To keep thy god-like father here in Rome—</l>
+       <l>To save <hi>his</hi> life at hazard of his <hi>own.</hi>
+       </l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>By what gradation does my joy ascend?</l>
+       <l>I thought that if my father had been sav'd</l>
+       <l>By any means, I had been rich in bliss:</l>
+       <l>But that he lives, and lives preserv'd by thee,</l>
+       <l>Is such a prodigality of fate,</l>
+       <l>I cannot bear my joy with moderation:</l>
+       <l>
+        <pb n="40" facs="46"/>Heaven should have dealt it with a scantier hand,</l>
+       <l>And not have shower'd such plenteous blessings on me,</l>
+       <l>They are too great, too flattering to be real;</l>
+       <l>'Tis some delightful vision, which enchants,</l>
+       <l>And cheats my senses, weaken'd by misfortune.</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>Ador'd Attilin! now you overpay</l>
+       <l>A life of love, an age of expectation;</l>
+       <l>We'll seek thy father, and mean-while, my fair,</l>
+       <l>Compose and calm thy agitated soul,</l>
+       <l>And hush it's sweet emotions ere thou seest him.</l>
+       <l>Pleasure itself is painful in excess;</l>
+       <l>For joys, like sorrows, in extreme, oppress:</l>
+       <l>The Gods themselves our pious cares approve,</l>
+       <l>And to reward our virtue crown our love.</l>
+      </sp>
+      <stage>Exeunt.</stage>
+     </div>
+    </div>
+    <div n="5" type="act">
+     <head>ACT V.</head>
+     <div type="scene">
+      <stage>An Apartment in the Ambassador's Palace. Guards and other Attendants seen at a Distance.</stage>
+      <sp who="#hamilcar">
+       <speaker>Ham.</speaker>
+       <l>WHERE is this wondrous man, this matchless hero,</l>
+       <l>This arbiter of kingdoms and of kings,</l>
+       <l>This Delegate of Heaven, this Roman God?</l>
+       <l>I long to shew his soaring mind an equal,</l>
+       <l>And bring it to the standard of humanity.</l>
+       <l>What pride, what glory will it be to fix</l>
+       <l>An obligation on his stubborn soul!</l>
+       <l>Oh! to constrain a foe to be obliged!</l>
+       <l>The very thought exalts me e'en to rapture.</l>
+      </sp>
+      <stage>
+       <hi>Enter</hi> RECULUS <hi>and</hi> Guards.</stage>
+      <sp who="#hamilcar">
+       <speaker>Ham.</speaker>
+       <l>Well, Regalus!—At last—</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>I know it all;</l>
+       <l>I know the motive of thy just complaint.—</l>
+       <l>Be not alarm'd at this licentious uproar</l>
+       <l>Of the mad populace. I will depart—</l>
+       <l>Fear not—I will not stay in Rome <hi>alive.</hi>
+       </l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Ham.</speaker>
+       <l>What dost thou mean by uproar and alarms?</l>
+       <l>Hamilcar does not come to vent complaints;</l>
+       <l>
+        <pb n="41" facs="47"/>He rather comes to prove, that Afric too</l>
+       <l>Produces heroes, and that Tiber's banks</l>
+       <l>May find a rival on the Punic coast.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Be it so.—'Tis not a time for vain debate:</l>
+       <l>Collect thy people.—Let us strait depart.</l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Ham.</speaker>
+       <l>Lend me thy hearing first.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>O patience, patience!</l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Ham.</speaker>
+       <l>Is it esteem'd a glory to be grateful?</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>The time has been when 'twas a <hi>duty</hi> only,</l>
+       <l>But 'tis a duty now so little practis'd,</l>
+       <l>That to perform it is become a glory.</l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Ham.</speaker>
+       <l>If to fulfil it shou'd expose to danger?</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>It rises then to an illustrious virtue.</l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Ham.</speaker>
+       <l>Then grant this merit to an <hi>African.</hi>
+       </l>
+       <l>Give me a patient hearing—Thy great son,</l>
+       <l>As delicate in honor as in love,</l>
+       <l>Hath nobly given my Barce to my arms;</l>
+       <l>And yet, I know he doats upon the maid.</l>
+       <l>I come to emulate the generous deed;</l>
+       <l>He gave me back my love, and in return</l>
+       <l>I will restore his father.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Ah! what say'st thou?</l>
+       <l>Wilt thou preserve me then?</l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Ham.</speaker>
+       <l>I will.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>But how?</l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Ham.</speaker>
+       <l>By leaving thee at liberty to <hi>fly.</hi>
+       </l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Ah!</l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Ham.</speaker>
+       <l>I will dismiss my guards on some pretence,</l>
+       <l>Mean-while do thou escape, and lie conceal'd:</l>
+       <l>I will affect a rage I shall not feel,</l>
+       <l>Unmoor my ships, and sail for Africa.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Abhorr'd barbarian!</l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Ham.</speaker>
+       <l>Well, what dost thou say?</l>
+       <l>Art thou not much surpris'd?</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>I am indeed.</l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Hamil</speaker>
+       <l>Thou could'st not then have hop'd it?</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>No! I could not.</l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Ham.</speaker>
+       <l>And yet I'm not a Roman.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>I perceive it.</l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Ham.</speaker>
+       <l>You may retire</l>
+      </sp>
+      <stage>[Aloud to the Guards.]</stage>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>No!—Stay, I charge you stay.</l>
+      </sp>
+      <sp who="#hamilcar">
+       <pb n="42" facs="48"/>
+       <speaker>Hamil.</speaker>
+       <l>And wherefore stay?</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>I thank thee for thy offer,</l>
+       <l>But I shall <hi>go</hi> with thee.</l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Hamil.</speaker>
+       <l>'Tis well, proud man!</l>
+       <l>Thou dost <hi>despise</hi> me then?</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>No—but I <hi>pity</hi> thee.</l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Hamil.</speaker>
+       <l>Why pity me?</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Because thy poor, dark soul</l>
+       <l>Hath never felt the piercing ray of virtue.</l>
+       <l>Know, African! the scheme thou dost propose</l>
+       <l>Would injure <hi>me,</hi> thy <hi>country,</hi> and <hi>thyself.</hi>
+       </l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Hamil.</speaker>
+       <l>Thou dost mistake.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Who was it gave thee power</l>
+       <l>To rule the destiny of Regulus?</l>
+       <l>Am I a slave to <hi>Carthage,</hi> or to <hi>thee?</hi>
+       </l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Hamil.</speaker>
+       <l>What does it signify from whom, proud Roman!</l>
+       <l>Thou dost receive this benefit?</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>A benefit!</l>
+       <l>O savage ignorance! is it a benefit</l>
+       <l>To lie, elope, deceive, and be a villain?</l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Hamil</speaker>
+       <l>What not when life itself, when all's at stake?</l>
+       <l>Know'st thou my countrymen prepare thee tortures,</l>
+       <l>That shock imagination but to think of?</l>
+       <l>Thou wilt be mangled, butcher'd, rack'd, impal'd.—</l>
+       <l>Does not thy nature shrink?</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Rig. </speaker>
+       <stage>(smiling at his Threats)</stage>
+       <l>Hamilcar! no.</l>
+       <l>Dost thou not know the Roman genius better?</l>
+       <l>We live on honor—'tis our food, our all,</l>
+       <l>The motive, and the measure of our deeds!</l>
+       <l>We look on death as on a common object;</l>
+       <l>The tongue nor faulters, nor the cheek turns pale,</l>
+       <l>Nor the calm eye betrays a single terror;</l>
+       <l>We court, and we embrace him undismay'd;</l>
+       <l>We smile at tortures if they lead to glory,</l>
+       <l>And only cowardice and guilt alarm us.</l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Hamil.</speaker>
+       <l>Fine sophistry! the valor of the tongue,</l>
+       <l>The heart disclaims it; leave this pomp of words,</l>
+       <l>And cease dissembling with a friend like me.</l>
+       <l>I know that life is dear to all who live,</l>
+       <l>That death is dreadful,—yes, and must be fear'd;</l>
+       <l>E'en by the frozen Apathists of Rome.</l>
+      </sp>
+      <sp who="#regulus">
+       <pb n="43" facs="49"/>
+       <speaker>Reg.</speaker>
+       <l>Did I fear death when on Bagrada's banks,</l>
+       <l>I fac'd and slew the formidable serpent,</l>
+       <l>That made your boldest Africans recoil,</l>
+       <l>And shrink with horror, tho' the monster liv'd</l>
+       <l>A native inmate of their own parch'd deserts?</l>
+       <l>Did I fear death before the gates of Adis?—</l>
+       <l>Ask Bostar, or let Asdrubal declare.</l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Hamil.</speaker>
+       <l>Or shall I rather of <hi>Xantippus</hi> ask,</l>
+       <l>Who dar'd to undeceive deluded Rome,</l>
+       <l>And prove this vaunter not invincible?</l>
+       <l>'Tis even said, in Africa I mean,</l>
+       <l>He made a prisoner of this Demi god.—</l>
+       <l>Did we not triumph then?</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Vain boaster, no!</l>
+       <l>No <hi>Carthaginian</hi> conquer'd Regulus;</l>
+       <l>Xantippus was a <hi>Greek</hi>—a brave one too!</l>
+       <l>Yet what distinction did your Afric make</l>
+       <l>Between the man who serv'd her, and her foe;</l>
+       <l>I was the object of her open hate:</l>
+       <l>He, of her secret, dark malignity.</l>
+       <l>He durst not trust the nation he had sav'd;</l>
+       <l>He knew, and therefore fear'd you—Yes, he knew</l>
+       <l>Where once you were oblig'd, you ne'er forgave;</l>
+       <l>Cou'd you forgive at all, you'd rather pardon</l>
+       <l>The man who <hi>hated,</hi> than the man who <hi>serv'd</hi> you.</l>
+       <l>Xantippus found his ruin ere it reach'd him,</l>
+       <l>Lurking behind your honors and rewards,</l>
+       <l>In your feign'd courtesies, and treacherous fawnings.</l>
+       <l>When vice intends to strike a master stroke,</l>
+       <l>It's veil is smiles, it's language protestations.</l>
+       <l>The Spartan's merit <hi>threaten'd,</hi> but his service</l>
+       <l>
+        <hi>Compell'd</hi> his ruin.—<hi>Both</hi> you <hi>could</hi> not pardon.</l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Hamil.</speaker>
+       <l>Come, come, I know full well—</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Barbarian! peace.</l>
+       <l>I've heard too much—Go, call thy followers:</l>
+       <l>Prepare thy ships and learn to do thy duty.</l>
+      </sp>
+      <sp who="#hamilcar">
+       <speaker>Hamil.</speaker>
+       <l>Yes!—show thyself intrepid, and insult me;</l>
+       <l>Call mine the blindness of barbarian friendship;</l>
+       <l>On Tiber's banks I hear thee, and am calm:</l>
+       <l>But know, thou scornful Roman! that too soon</l>
+       <l>In Carthage thou may'st fear and feel my vengeance:</l>
+       <l>
+        <pb n="44" facs="50"/>Thy cold, obdurate pride shall there confess,</l>
+       <l>Tho' Rome may talk—'tis Africa can punish.</l>
+      </sp>
+      <stage>Exit.</stage>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Farewel! I've not a thought to waste on <hi>thee.</hi>
+       </l>
+       <l>Where is the Consul? why does Publius stay?</l>
+       <l>Alas! I fear—but see Attilia comes!—</l>
+      </sp>
+      <stage>
+       <hi>Enter</hi> ATTILIA.</stage>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>What brings thee here, my child? what eager joy</l>
+       <l>Transports thee thus?</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>I cannot speak—my father!</l>
+       <l>Joy choaks my utterance—Rome, dear grateful Rome,</l>
+       <l>(Oh! may her cup with blessings overflow)</l>
+       <l>Gives up our common destiny to thee;</l>
+       <l>Faithful and constant to th' advice thou gav'st her,</l>
+       <l>She will not hear of peace, or change of slaves,</l>
+       <l>But she insists—reward and bless her, Gods.—</l>
+       <l>That <hi>thou</hi> shalt here remain.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>What! with the shame—</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Oh! no—the sacred senate hath consider'd</l>
+       <l>That, when to Carthage thou did'st pledge thy faith,</l>
+       <l>Thou wast a slave, and in captivity</l>
+       <l>Thou could'st not bind thyself in covenant.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>He, who can die, is always free, my child!</l>
+       <l>Learn farther, he who owns another's strength</l>
+       <l>Confesses his own weakness.—Let them know,</l>
+       <l>I swore I wou'd return because I <hi>chose</hi> it,</l>
+       <l>And <hi>will</hi> return, because I swore to do it.</l>
+      </sp>
+      <stage>
+       <hi>Enter</hi> PUBLIUS.</stage>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>Vain is that hope, my father.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Who shall stop me?</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>All Rome.—The citizens are up in arms:</l>
+       <l>In vain wou'd reason stop the growing torrent;</l>
+       <l>In vain wou'd'st thou attempt to reach the port,</l>
+       <l>The way is barr'd by thronging multitudes:</l>
+       <l>The other streets of Rome are all deserted.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Where, where is Manlius?</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>He is still thy friend;</l>
+       <l>His single voice opposes a whole people;</l>
+       <l>This moment threatens and the next intreats,</l>
+       <l>But all in vain, none hear him, none obey.</l>
+       <l>The general fury rises ev'n to madness,</l>
+       <l>
+        <pb n="45" facs="51"/>The axes tremble in the Lictor's hands,</l>
+       <l>Who pale and spiritless want power to use them—</l>
+       <l>And one wild scene of anarchy prevails.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Farewel! my daughter. Publius, follow me.</l>
+      </sp>
+      <stage>
+       <hi>Exit</hi> Publius.</stage>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Ah! where? I tremble.—</l>
+      </sp>
+      <stage>(<hi>Detaining</hi> Reg.)</stage>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>To assist my friend—</l>
+       <l>T' upbraid my hapless country with her crime—</l>
+       <l>To keep the glory of these chains to Regulus—</l>
+       <l>To go, my child, or perish in th' attempt.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Ah no! have mercy. Oh!</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Attilia! hold;</l>
+      </sp>
+      <sp>
+       <l>I have been patient with thee; have indulg'd</l>
+       <l>Too much the fond affections of thy soul;</l>
+       <l>I've spar'd thy gentle sex, and tender age.</l>
+       <l>It is enough; thy grief would now offend</l>
+       <l>Thy father's honor; do not let thy tears</l>
+       <l>Conspire with Rome to rob me of my triumph.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Alas! it wounds my soul.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>I know it does.</l>
+       <l>I know 'twill grieve thy gentle heart to lose me;</l>
+       <l>But think, thou mak'st the sacrifice to Rome,</l>
+       <l>And all is well again.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Alas! my father, In aught beside—</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>What would'st thou do, my child?</l>
+       <l>Canst thou direct the destiny of Rome,</l>
+       <l>And boldly plead amid th' assembled senate?</l>
+       <l>Canst thou, forgetting all thy sex's softness,</l>
+       <l>Fiercely engage in hardy deeds of arms?</l>
+       <l>Canst thou encounter labour, toil and famine,</l>
+       <l>Fatigue and hardships, watchings, cold and heat?</l>
+       <l>Canst thou attempt to serve thy country <hi>thus?</hi>
+       </l>
+       <l>Thou canst not:—but thou may'st sustain my loss</l>
+       <l>Without these agonizing pangs of grief,</l>
+       <l>And set a bright example of submission,</l>
+       <l>Worthy a <hi>Roman</hi>'s daughter.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Yet such fortitude—</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Is a most painful virtue;—but Attilia</l>
+       <l>Is Regulus's daughter, and must have it.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>I will intreat the Gods to give it me.</l>
+       <l>Ah! thou art offended! I have lost thy love.</l>
+      </sp>
+      <sp who="#regulus">
+       <pb n="46" facs="52"/>
+       <speaker>Reg.</speaker>
+       <l>Is this concern a mark that thou hast lost it?</l>
+       <l>I cannot, cannot spurn my weeping child.</l>
+       <l>Receive this proof of my paternal fondness;—</l>
+       <l>Thou lov'st Licinius—He too loves my daughter.</l>
+       <l>I give thee to his <hi>wishes,</hi> I do more,</l>
+       <l>I give thee to his <hi>virtues.</hi>—Yes, Attilia,</l>
+       <l>The noble youth deserves this dearest pledge</l>
+       <l>Thy father's friendship ever can bestow</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>My lord! my father! wilt thou, canst thou leave me?</l>
+       <l>The tender father will not quit his child!</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>I <hi>am,</hi> I <hi>am</hi> thy father! as a proof,</l>
+       <l>I leave thee my example how to suffer.</l>
+       <l>My child! I have a <hi>heart</hi> within this bosom;</l>
+       <l>That heart has <hi>passions</hi>—they require subjection.</l>
+       <l>Passion—which is <hi>thy</hi> tyrant—is <hi>my</hi> slave.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Ah! stay, my father. Ah!</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Farewel! farewel!</l>
+      </sp>
+      <stage>Exit.</stage>
+      <sp who="#attila">
+       <speaker>Attil</speaker>
+       <l>And is he gone? then hope is at end;</l>
+       <l>I'll find at least some comfort in despair.</l>
+       <l>Yes, Regulus! I feel thy spirit here,</l>
+       <l>Thy mighty spirit struggling in this breast,</l>
+       <l>And it shall conquer all these coward feelings,</l>
+       <l>It shall ubdue the <hi>woman,</hi> in my soul;</l>
+       <l>A Roman virgin should be someth ng <hi>more</hi>—</l>
+       <l>Shou'd dare above her sex's narrow limits—</l>
+       <l>And I <hi>will</hi> dare—and mis'ry shall assist me—</l>
+       <l>My father! now I am indeed thy daughter!</l>
+       <l>The hero shall no more disdain his child;</l>
+       <l>Attilia shall not be the only branch</l>
+       <l>That yields dishonor to the parent tree.</l>
+       <stage>
+        <hi>Enter</hi> BARCE.</stage>
+       <l>Attilia! is it true that Regulus,</l>
+       <l>In spite of Senate, People, Augurs, Friends,</l>
+       <l>And Children, will depart?</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Yes, it is true.</l>
+      </sp>
+      <sp who="#barce">
+       <speaker>Barce.</speaker>
+       <l>Oh! what romantic madness!</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>You forget—</l>
+       <l>Barce, the deeds of heroes claim resspect.</l>
+      </sp>
+      <sp who="#barce">
+       <speaker>Barce.</speaker>
+       <l>And does Attilia then <hi>applaud</hi> the deed?</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Thy friend adores the virtues of her father!</l>
+      </sp>
+      <sp who="#barce">
+       <pb n="47" facs="53"/>
+       <speaker>Barce.</speaker>
+       <l>Dost thou approve a virtue which must lead</l>
+       <l>To chains, to tortures, and to certain death?</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Barce! those chains, those tortures, and that death</l>
+       <l>Will be his triumph.</l>
+      </sp>
+      <sp who="#barce">
+       <speaker>Barce.</speaker>
+       <l>Thou art <hi>pleas'd,</hi> Attilia,</l>
+       <l>By heaven thou dost exult in his destruction!</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Ah pitying powers!</l>
+      </sp>
+      <sp who="#barce">
+       <speaker>Barce.</speaker>
+       <l>I do not comprehend thee. Wee's.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>No, Barce, I believe it—Why how should'st thou?</l>
+       <l>If I mistake not, thou wast born in Carthage,</l>
+       <l>In a barbarian land, where never child</l>
+       <l>Was taught to triumph in a father's chains.</l>
+      </sp>
+      <sp who="#barce">
+       <speaker>Barce.</speaker>
+       <l>Yet thou dost weep—thy eyes at least are honest,</l>
+       <l>For they refuse to share thy tongue's deceit,</l>
+       <l>They speak the genuine language of affliction,</l>
+       <l>And tell the sorrows that oppress thy soul.</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Grief, that disolves in tears, relieves the heart.—</l>
+       <l>When congregated vapors melt in rain,</l>
+       <l>The sky is calm'd, and all's serene again.</l>
+      </sp>
+      <stage>Exit.</stage>
+      <sp who="#barce">
+       <speaker>Barce.</speaker>
+       <l>Why—what a strange, fantastic land is this!</l>
+       <l>This love of glory's the disease of Rome?</l>
+       <l>It makes her mad, it is a wild delirium,</l>
+       <l>An universal and contagious frenzy;</l>
+       <l>It preys on all, it spares nor sex nor age:</l>
+       <l>The Consul envies Regulus his chains—</l>
+       <l>He, not less mad, contemns his life and freedom—</l>
+       <l>The daughter glories in the father's ruin—</l>
+       <l>And Publius, more distracted than the rest,</l>
+       <l>Resigns the object that his soul adores,</l>
+       <l>For this vain phantom, for this empty glory.</l>
+       <l>This may be virtue; but I thank the Gods,</l>
+       <l>The soul of Barce's not a Roman soul.</l>
+      </sp>
+      <stage>Exit.</stage>
+     </div>
+     <div type="scene">
+      <head>
+       <stage>Scene within sight of the Tiber, ships ready for the embarkation of Regulus and the Ambassador, Tribune and People stopping up the passage, Consul and Lictors endeavouring to clear it.</stage>
+      </head>
+      <stage>MANLIUS <hi>and</hi> LICINIUS <hi>advance.</hi>
+      </stage>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>Rome will not suffer Regulus to go.</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>I thought the Consul and the Senators</l>
+       <l>Had been a <hi>part</hi> of Rome.</l>
+      </sp>
+      <sp who="#licinius">
+       <pb n="48" facs="54"/>
+       <speaker>Licin.</speaker>
+       <l>I grant they are—</l>
+       <l>But still the people are the greater part.</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>The greater, not the <hi>wiser</hi>
+       </l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>The less <hi>cruel.</hi>—</l>
+       <l>Full of esteem and gratitude to Regulus,</l>
+       <l>We wou'd preserve his <hi>life</hi>
+       </l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>And we his <hi>honor.</hi>
+       </l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>His honour—</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>Yes. Time presses. Words are vain.</l>
+       <l>Make way there—clear the passage.</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>On your lives Stir not a man.</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>I do <hi>command</hi> you, go.</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>And I <hi>forbid</hi> it.</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>Clear the way, my friends.</l>
+       <l>How dares Licinius thus oppose the Consul?</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>How dar'st thou, Manlius, thus oppose the Tribune?</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>I'll shew thee what I dare, imprudent boy!—</l>
+       <l>Lictors, force thro' the passage.</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>Romans, guard it.</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>Gods! is my power then refisted with arms?</l>
+       <l>Thou dost affront the Majesty of Rome.</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>The Majesty of Rome is in the people;</l>
+       <l>Thou dost insult it by opposing them.</l>
+      </sp>
+      <sp who="#people">
+       <speaker>People.</speaker>
+       <l>Let noble Regulus remain in Rome.</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>My friends, let me explain this treacherous scheme.</l>
+      </sp>
+      <sp who="#people">
+       <speaker>People.</speaker>
+       <l>We will not hear thee—Regulus shall stay.</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>What none obey me?</l>
+      </sp>
+      <sp who="#people">
+       <speaker>People.</speaker>
+       <l>Regulus shall stay.</l>
+      </sp>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>Romans, attend —</l>
+      </sp>
+      <sp who="#people">
+       <speaker>People.</speaker>
+       <l>Let Regulus remain.</l>
+      </sp>
+      <stage>
+       <hi>Enter</hi> REGULUS, <hi>followed by</hi> PUBLIUS, ATTILIA, HAMILCAR, BARCE, <hi>&amp;c</hi>
+      </stage>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Let Regulus remain! What do I hear?</l>
+       <l>Is't possible the wish should come from you?</l>
+       <l>Can Romans give, or Regulus accept,</l>
+       <l>A life of infamy, reproach and shame?</l>
+       <l>Where is the ancient virtue of my country?</l>
+       <l>Rise, rise, ye mighty spirits of old Rome!</l>
+       <l>I do invoke you from your silent tombs;</l>
+       <l>
+        <pb n="49" facs="55"/>Fabricius, Cocles, and Camillas, rise,</l>
+       <l>And shew your sons what their great fathers were.</l>
+       <l>My countrymen, what crime have I committed?</l>
+       <l>Alas! how has the wretched Regulus</l>
+       <l>Deserv'd your hatred?</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>Hatred! ah! my friend, It is our Love would break these cruel chains,</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>If you deprive me of my chains, I'm nothing;</l>
+       <l>They are my honors, riches, titles,—all!</l>
+       <l>They'll shame my enemies, and grace my country,</l>
+       <l>Convey her glory to remotest climes,</l>
+       <l>Beyond her provinces and conquer'd realms,</l>
+       <l>Where her victorious eagles never flew;</l>
+       <l>Nor shall she blush hereafter if she find</l>
+       <l>Recorded with her worthiest Citizens</l>
+       <l>The name of Regulus, the <hi>Captive</hi> Regulus.</l>
+       <l>My countrymen I what, think you, kept in awe</l>
+       <l>The Volsci, Sabines, Aequi and Hernici?</l>
+       <l>The <hi>arms</hi> of Rome alone? no, 'twas her <hi>virtue;</hi>
+       </l>
+       <l>That sole surviving Good, which men may keep</l>
+       <l>Tho' fate and warring worlds combine against them;</l>
+       <l>This still is mine—and I'll preserve it, Romans!</l>
+       <l>The wealth of Plutus shall not bribe it from me!</l>
+       <l>If you, alas! require this sacrifice,</l>
+       <l>Carthage herself was less my foe than Rome;</l>
+       <l>She took my freedom—she could take no more;</l>
+       <l>But Rome, to crown her work, wou'd take my honor.</l>
+       <l>My friends I if you deprive me of my chains,</l>
+       <l>I am no more than any other slave:</l>
+       <l>Yes, Regulus becomes a common captive,</l>
+       <l>A wretched, lying, perjur'd sugitive!</l>
+       <l>But if, to grace my bonds, you leave my honor,</l>
+       <l>I shall be still a Roman, tho! a slave.</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>What faith should be observ'd with savages?</l>
+       <l>What promise should be kept with bonds extort?</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Unworthy subterfuge! ah! let us leave,</l>
+       <l>To the wild Arab and the faithless Moor,</l>
+       <l>These wretched maxims of deceit and fraud:</l>
+       <l>Examples ne'er can justify the coward:</l>
+       <l>The brave man never seeks a vindication,</l>
+       <l>Save from his own just bosom and the Gods;</l>
+       <l>From principle, not precedent, he acts:</l>
+       <l>
+        <pb n="50" facs="56"/>As that arraigns him, or as that acquits,</l>
+       <l>He stands, or falls; condemn'd, or justify'd.</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>Rome is no more if Regulus departs.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Let Rome remember Regulus must die!</l>
+       <l>Nor wou'd the moment of my death be distant,</l>
+       <l>If nature's work had been reserv'd for nature.</l>
+       <l>What Carthage means to do, <hi>she</hi> wou'd have done,</l>
+       <l>As speedily perhaps, at least as surely.</l>
+       <l>My wearied life has almost reach'd it's goal;</l>
+       <l>The once-warm current stagnates in these veins,</l>
+       <l>Or thro' it's icey channels slowly creeps:</l>
+       <l>View the weak arm, and the pale, surrow'd cheek,</l>
+       <l>The slacken'd finew, and the dim, sunk eye,</l>
+       <l>And tell me <hi>then</hi> I must not think of dying!</l>
+       <l>How can I serve you else? My feeble limbs</l>
+       <l>Wou'd totter now beneath the armour's weight,</l>
+       <l>The burthen of that body it once shielded.</l>
+       <l>You see, me friends, you see, my countrymen,</l>
+       <l>I can no longer shew myself a Roman,</l>
+       <l>Except by <hi>dying</hi> like one.—Gracious Heaven</l>
+       <l>Has pointed out a glorious way to crown</l>
+       <l>A life of virtue with a death of honor.</l>
+       <l>Oh! do not frustrate then the will of Jove,</l>
+       <l>And load my latest hours with infamy.</l>
+       <l>Come, come, I know my noble Romans better;</l>
+       <l>I see your souls. I read repentance in them;</l>
+       <l>Yon all applaud me—nay, you wish my chains:</l>
+       <l>'Twas nothing but excess of love misled you,</l>
+       <l>And, as you're Romans, you will conquer that.</l>
+       <l>Yes!—I perceive your weakness is subdu'd.—</l>
+       <l>Seize, seize the moment of returning virtue;</l>
+       <l>Throw to the ground, my sons, those hostile arms:</l>
+       <l>Retard no longer Regulus's triumph:</l>
+       <l>I do request it of you, as a friend,</l>
+       <l>Exhort you to your duty, as a patriot,</l>
+       <l>And, were I still your Gen'ral, would command you.</l>
+      </sp>
+      <sp who="#licinius">
+       <speaker>Licin.</speaker>
+       <l>Lay down your arms—Let Regulus depart.</l>
+      </sp>
+      <stage>To the People, who clear the Way, and quit their Arms.</stage>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Gods! Gods! I thank you—you indeed are righteous.</l>
+      </sp>
+      <sp who="#publius">
+       <speaker>Pub.</speaker>
+       <l>See every man difarm'd. Oh, Rome! oh, father!</l>
+      </sp>
+      <sp who="#attila">
+       <speaker>Attil.</speaker>
+       <l>Hold, hold my heart. Alas! they all obey.</l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>The way is, clear. Hamilcar, I attend thee.</l>
+      </sp>
+      <sp who="#hamilcar">
+       <pb n="51" facs="57"/>
+       <speaker>Hamil.</speaker>
+       <l>Why I begin to envy this old man!</l>
+      </sp>
+      <stage>Aside.</stage>
+      <sp who="#manlius">
+       <speaker>Manl.</speaker>
+       <l>Not the proud Victor on the day of triumph,</l>
+       <l>Warm from the slaughter of dispeopled realms,</l>
+       <l>Tho' conquer'd princes grace his chariot wheels,</l>
+       <l>Tho' tributary monarchs wait his nod,</l>
+       <l>And vanquish'd nations bend the knee before him,</l>
+       <l>E'er shone with half the lustre that surrounds</l>
+       <l>This voluntary sacrifice for Rome!</l>
+       <l>Who loves his <hi>country</hi> will obey her <hi>laws;</hi>
+       </l>
+       <l>Who <hi>most</hi> obeys them is the truest <hi>Patriot.</hi>
+       </l>
+      </sp>
+      <sp who="#regulus">
+       <speaker>Reg.</speaker>
+       <l>Be our last parting worthy of ourselves.</l>
+       <l>Farewel! my friends.—I bless the Gods who rule us,</l>
+       <l>Since I must leave you, that I leave you Romans.</l>
+       <l>Preserve, preserve the mighty name untainted,</l>
+       <l>And you shall be the rulers of the globe,</l>
+       <l>The arbiters of earth; the farthest east,</l>
+       <l>Beyond where Ganges rolls his rapid flood,</l>
+       <l>Shall proudly emulate the Roman name.</l>
+       <stage>Kneels.</stage>
+       <l>Ye Gods, the guardians of this glorious people,</l>
+       <l>Ye Goddesses, who watch <hi>Aeneas'</hi> race,</l>
+       <l>This land of heroes I commit to <hi>you;</hi>
+       </l>
+       <l>This ground, these walls, this people be your care!</l>
+       <l>Oh! bless them, bless them with a liberal hand!</l>
+       <l>Let fortitude and valor, truth and justice,</l>
+       <l>For ever flourish and increase among them:</l>
+       <l>And if some baneful planet threat the Capitol</l>
+       <l>With it's malignant influence, oh! avert it.—</l>
+       <l>Be <hi>Regulus</hi> the victim of your wrath.—</l>
+       <l>On this white head be all your vengeance pour'd,</l>
+       <l>But spare, oh! spare, and bless immortal Rome!</l>
+       <l>Ah! tears? my Romans weep! Farewel! farewel!</l>
+      </sp>
+      <stage>Attilia struggles to get to Regulus, is prevented—she faints—he fixes his Eyes steadily on her for some time, and then departs to the ships.</stage>
+      <sp who="#manlius">
+       <speaker>Manl. </speaker>
+       <stage>(looking after him.)</stage>
+       <l>Farewel! farewel, thou glory of mankind!</l>
+       <l>Protector, father, saviour of thy country!</l>
+       <l>Thro' Regulus the Roman name shall live,</l>
+       <l>Triumph o'er future time, and mock oblivion.—</l>
+       <l>Farewel! thou pride of this immortal coast!</l>
+       <l>'Tis Rome alone a Regulus can boast.</l>
+      </sp>
+     </div>
+    </div>
+    <trailer>FINIS.</trailer>
+   </div>
+  </body>
+  <back>
+   <div type="epilogue">
+    <pb facs="58" ana="y"/>
+    <head>EPILOGUE</head>
+    <byline>
+     <hi>by</hi> DAVID GARRICK, <hi>
+      <abbr>Esq</abbr>
+     </hi>
+    </byline>
+    <l>WHAT son of physic, but his art extends,</l>
+    <l>As well as hand, when call'd on by his friends?</l>
+    <l>What landlord is so weak to make you fast,</l>
+    <l>When guests like you bespeak a good repast?</l>
+    <l>But weaker still were he whom sate has plac'd</l>
+    <l>To sooth your cares, and gratify your taste,</l>
+    <l>Should be neglect to bring before your eyes</l>
+    <l>Those dainty dramas which from Genius rise;</l>
+    <l>Whether your luxury be to smile or weep,</l>
+    <l>His and your profits just proportion keep.</l>
+    <l>To night he brought, nor fears a due reward,</l>
+    <l>A Roman patriot by a female bird.</l>
+    <l>Britons who feel his flame, his worth will rate,</l>
+    <l>No common spirit his, no common fate,</l>
+    <l>INFLEXIBLE and CAPTIVE must be great.</l>
+    <l>"How," cries a sucking fop, thus lounging, straddling,</l>
+    <l>(Whose head shews want of ballast by its noddling)</l>
+    <l>"A woman write? learn, madam, of your betters,</l>
+    <l>"And read a noble Lord's <hi>Post-hu-mous Letters.</hi>
+    </l>
+    <l>"There you will learn the sex may merit praise,</l>
+    <l>"By making puddings—not by making plays:</l>
+    <l>"They can make tea and mischief, dance and sing;</l>
+    <l>"Their heads, tho' full of feathers, can't take wing."</l>
+    <l>I thought they cou'd, Sir;—now and then by chance,</l>
+    <l>Maids fly to Scotland, and some wives to France.</l>
+    <l>He still went noddling on—"Do all she can,</l>
+    <l>"Woman's a trifle—play-thing—like her fan;</l>
+    <l>Right, Sir, and when a wife the <hi>rattle</hi> of man.</l>
+    <l>And shall such things as these become the test</l>
+    <l>Of female worth? the fairest and the best</l>
+    <l>Of all heaven's creatures? for so Milton sung us,</l>
+    <l>And with such champions, who shall dare to wrong us?</l>
+    <l>Come forth, proud man, in all your powers array'd;</l>
+    <l>Shine out in all your splendor—Who's afraid?</l>
+    <l>Who on French wit has made a glorious war,</l>
+    <l>Defended Shakespear, and subdu'd Voltaire?</l>
+    <l>Woman<note n="†" place="foot">Mrs. Montagne, author of an essay on the writings of Shakespeare.</note>—Who, rich in knowledge, knows no pride,</l>
+    <l>Can boast ten tongues, and yet not satisfied?</l>
+    <l>Woman<note n="‡" place="foot">Mrs.Carter, well known for her skill in ancient and modern languages.</note>—Who lately sung the sweetest lay?</l>
+    <l>A woman, woman, woman<note n="‖" place="foot">Miss Aikin, who latly published some excellent poems.</note> still I say.</l>
+    <l>Well then, who dares deny our power and might?</l>
+    <l>Will any married man dispute our right?</l>
+    <l>Speak boldly, Sirs,—your wives are not in sight.</l>
+    <l>What! are you silent? then you are content;</l>
+    <l>Silence, the proverb tells us, gives consent.</l>
+    <l>Critics, will you allow our honest claim?</l>
+    <l>Are you dumb too? This night has fix'd our fame.</l>
+   </div>
+  </back>
+ </text>
+</TEI>
