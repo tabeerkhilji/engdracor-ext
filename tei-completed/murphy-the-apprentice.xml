@@ -1,0 +1,2076 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">The apprentice</title>
+    <title type="sub">A farce, in two acts, as it is perform'd at the Theatre-Royal, in Drury-Lane. By Mr. Murphy.</title>
+    <author>
+     <persName>
+      <surname>Murphy</surname>
+      <forename>Arthur</forename>
+      <idno type="VIAF">24641385</idno>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>The apprentice: A farce, in two acts, as it is perform'd at the Theatre-Royal, in Drury-Lane. By Mr. Murphy.</name>
+     <author>Murphy, Arthur, 1727-1805.</author>
+     <publisher>printed for Paul Vaillant,</publisher>
+     <date>1756.</date>
+     <pubPlace>London :</pubPlace>
+     <note>With a final leaf of epilogue.</note>
+     <note>Reproduction of original from the British Library.</note>
+     <note>English Short Title Catalog, ESTCT77884.</note>
+     <note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note>
+    </bibl>
+    <biblFull n="printed source">
+     <publicationStmt>
+      <authority ref="#JJ">Jan Jokisch</authority>
+      <date>2024 December</date>
+      <idno type="ECCO_Drama">K064728.000</idno>
+      <idno type="DLPS">004848472</idno>
+      <idno type="ESTC">T77884</idno>
+      <idno type="DocNo">CW110068156</idno>
+      <idno type="TCP">K064728.000</idno>
+      <idno type="GaleDocNo">CW3310068156</idno>
+      <idno type="ContentSet">ECLL</idno>
+      <idno type="ImageSetID">0054801600</idno>
+      <availability>
+       <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+      </availability>
+     </publicationStmt>
+    </biblFull>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    <person xml:id="wingate"><persName>Wingate</persName><sex value="MALE"/></person><person xml:id="dick"><persName>Dick</persName><sex value="MALE"/></person><person xml:id="gargle"><persName>Gargle</persName><sex value="MALE"/></person><person xml:id="charlotte"><persName>Charlotte</persName><sex value="FEMALE"/></person><person xml:id="simon"><persName>Simon</persName><sex value="MALE"/></person><person xml:id="scotchman"><persName>Scotchman</persName><sex value="MALE"/></person><person xml:id="irishman"><persName>Irishman</persName><sex value="MALE"/></person><person xml:id="catchpole"><persName>Catchpole</persName><sex value="MALE"/></person><person xml:id="porter"><persName>Porter</persName><sex value="MALE"/></person><person xml:id="watchman"><persName>Watchman</persName><sex value="MALE"/></person><person xml:id="club_member_1"><persName>Club Member 1</persName><sex value="MALE"/></person><person xml:id="club_member_2"><persName>Club Member 2</persName><sex value="MALE"/></person><person xml:id="club_president"><persName>Club President</persName><sex value="MALE"/></person><person xml:id="1st_watchman"><persName>1st Watchman</persName><sex value="MALE"/></person><person xml:id="2nd_watchman"><persName>2nd Watchman</persName><sex value="MALE"/></person><person xml:id="follower"><persName>Follower</persName><sex value="MALE"/></person></listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1756">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text xml:lang="en">
+  <front>
+   <div type="titlepage">
+    <pb facs="1" ana="y"/>
+    <p>THE APPRENTICE. A FARCE, IN TWO ACTS, As it is Perform'd at the THEATRE-ROYAL, in <hi>Drury-Lane.</hi>
+    </p>
+    <p>By Mr. MURPHY.</p>
+    <p>LONDON. Printed for PAUL VAILLANT, facing <hi>Southamptonstreet,</hi> in the <hi>Strand.</hi> 1756.</p>
+    <p>[Price One Shilling.]</p>
+   </div>
+   <div type="author'snote">
+    <pb facs="2"/>
+    <head>ADVERTISEMENT.</head>
+    <p>THERE was Room to apprehend, before the Representation of the following Farce, that the Subject might appear extravagant and merely ideal; but the real existence of it is displayed in such a lively and picturesque Manner by the Author of the Prologue, and was at once so universally felt by the Audience, that all necessity of saying any thing farther on this Head is now entirely superseded. What at present remains to be feared, is, that the <hi>Apprentice</hi> will not make so lively a figure in the closet, as on the Stage, where the Parts in general were allowed to be well performed; where <hi>Simon</hi> was represented with a perfection of folly, where the Skill of Mr. <hi>Yates</hi> exhibited the Impotence of a Mind, whose Ideas extend very little beyond the multiplication Table, and whose Passions are ever in a crazy Conflict, unless when they all subside into a sordid Love of Gain; and where Mr. <hi>Woodward's</hi> admirable comic Genius gave such a Spirit to the whole, that there is Reason to think, whenever he relinquishes the Part, the <hi>Apprentice</hi> may again elope from his Friends, without any one's desiring him to Return to his Business.</p>
+    <p>The Author has however endeavoured to render all its Defects as excusable as he could, and he wishes no stronger Criticism could be brought against him, than the two following Observations, which he thinks very singular and somewhat entertaining. <hi>I can't,</hi> says one, <hi>give my Opinion of the Piece, till I have</hi>
+     <pb facs="3"/>
+Time to consider the Depth of it—<hi>Po!</hi> says another, <hi>this is not all his</hi> OWN, <hi>I remember some of it in other Plays.</hi>—In order to assist the former in his deep Researches, and to enable the latter to make good his charge of Plagiarism, References are made to the several Plays, from which the distempered Hero of the piece makes up his motley, but characteristick Dialect. The intelligent Reader, if he think it worth his while to turn over these Leaves, will be pleased to remember that a Parody does not always carry with it a Burlesque on the Lines alluded to. For (as it is judiciously remarked in a note to Mr. <hi>Pope's</hi> Dunciad) <hi>It is a common, but foolish, mistake that a ludicrous Parody of a grave and celebrated Passage; is a Ridicule of that Passage. A Ridicule indeed there is in every Parody, but where the Image is transferred from one Object to another, there the Ridicule falls not on the Thing</hi> imitated, <hi>but</hi> imitating. <hi>Thus for Instance, when</hi>
+     <note n="*" place="foot">A Line of pope's in a ludicrous Account of the coronation in Henry the VIIIth.</note>
+     <hi>Old Edward's Armour beams on Cibbers Breast.</hi> It is without Doubt an Object ridiculous enough; but then, I think, <hi>it falls neither on old King</hi> Edward, <hi>nor his</hi> Armour, <hi>but on his</hi> Armour-Bearer <hi>only.</hi>
+    </p>
+    <p>But this is prefacing a Farce as if it were a Thing of moment; I shall therefore dismiss it to the Press, without adding any Thing farther, except my grateful Acknowledgements for the very favourable Reception, with which the Public has honoured the trifling Scenes of</p>
+    <closer>
+     <signed>
+      <hi>Their most obliged and most obedient Servant,</hi> ARTHUR MURPHY.</signed>
+     <dateline>
+      <hi>Tavistock Row</hi>
+      <date>5th Jan. 1756.</date>
+     </dateline>
+    </closer>
+   </div>
+   <div type="prologue">
+    <pb facs="4"/>
+    <head>PROLOGUE</head>
+    <byline>written by Mr. GARRICK,</byline>
+    <sp>
+     <stage>spoken by Mr. MURPHY, <hi>dressed in Black.</hi>
+     </stage>
+     <l>BEhold a Wonder for Theatric Story!</l>
+     <l>The <hi>Culprit</hi> of this Night, appears before ye.</l>
+     <l>Before his Judges dares these Boards to tread,</l>
+     <l>"With all his Imperfections on his Head!"</l>
+     <l>Prologues precede the <hi>Piece,</hi>—in mournful Verse;</l>
+     <l>As Undertakers — walk before the Hearse.</l>
+     <l>Whose doleful March may strike the harden'd Mind,</l>
+     <l>And wake it's feelings — for the Dead — behind.</l>
+     <l>Trickt out in Black thus Actors try their Art,</l>
+     <l>To melt that <hi>Rock</hi> of <hi>ROCKS,</hi> — the Critic's Heart.</l>
+     <l>No <hi>acted</hi> Fears my Vanity betray;</l>
+     <l>
+      <hi>I am indeed,</hi> — what others only play.</l>
+     <l>Thus far myself — The Farce come next in View;</l>
+     <l>Tho' many are it's Faults, at least 'tis <hi>NEW.</hi>
+     </l>
+     <l>No smuggled, pilfer'd Scenes from France we show,</l>
+     <l>'Tis English — English, Sirs! — from Top to Toe.</l>
+     <l>Tho' Coarse my Colours and my Hand unskill'd,</l>
+     <l>From real life my little Cloth is fill'd.</l>
+     <l>My Hero is a Youth, — by Fate design'd</l>
+     <l>
+      <hi>For culling simples,</hi> — but whose Stage-struck Mind,</l>
+     <l>Nor <hi>Fate</hi> could <hi>rule,</hi> nor his <hi>Indentures</hi> bind.</l>
+     <l>A Place there is where such young Quixots meet;</l>
+     <l>'Tis call'd the <hi>SPOTING-CLUB;</hi>—a glorious Treat!</l>
+     <l>Where Prentic'd-Kings — alarm the Gaping Street!</l>
+     <l>Three <hi>Brutus</hi> starts and stares by midnight Taper;</l>
+     <l>Who all the <hi>DAY</hi> enacts — a Woollen Draper.</l>
+     <l>
+      <pb facs="5"/>There <hi>Hamlet's</hi> Ghost stalks-forth with doubl'd Fist▪</l>
+     <l>Cries out with hollow Voice, — <hi>List, List, O List"</hi>
+     </l>
+     <l>And frightens Denmark's Prince— a young Tobacconist.</l>
+     <l>The Spirit too, clear'd from his deadly White,</l>
+     <l>Rises — a Haberdasher to the Sight!</l>
+     <l>Not young Attorneys — have this Rage withstood,</l>
+     <l>But change their <hi>Pens</hi> for <hi>TRUNCHEONS, Ink</hi> for <hi>BLOOD;</hi>
+     </l>
+     <l>And (Strange Reverse!) —die for their Country's Good.</l>
+     <l>Thro' all the Town this Folly you may trace;</l>
+     <l>Myself am Witness — 'tis a common Case.</l>
+     <l>I've further Proofs, could ye but think I wrong ye;</l>
+     <l>—Look round — you'l find some Spouting Youths among ye.</l>
+     <l>To check these Heroes, and their Laurels crop,</l>
+     <l>To bring 'em back to <hi>Reason,</hi> — and their <hi>SHOP,</hi>
+     </l>
+     <l>To raise an harmless Laugh was all my Aim,</l>
+     <l>And if I shun Contempt, — I seek not <hi>FAME.</hi>
+     </l>
+     <l>Indulge this Firstling, — let me but <hi>BEGIN,</hi>
+     </l>
+     <l>Nor nip me — in the Buddings of my Sin;</l>
+     <l>Some Hopes I cherish — in <hi>your SMILES</hi> I read 'em;</l>
+     <l>Whate'er my Faults, — your Candor can exceed 'em.</l>
+    </sp>
+   </div>
+   <div type="epilogue">
+    <pb facs="6"/>
+    <head>EPILOGUE</head>
+    <byline>written by a FRIEND,</byline>
+    <stage>spoken by Mrs. CLIVE.</stage>
+    <stage>[Enters reading the Play-Bill.]</stage>
+    <sp>
+     <l>A Very pretty Bill, — as I'm alive!</l>
+     <l>The Part of — Nobody — by Mrs. <hi>Clive!</hi>
+     </l>
+     <l>A paltry, scribling Fool — to have me out —</l>
+     <l>He'll say perhaps — he thought I could not <hi>spout.</hi>
+     </l>
+     <l>Malice and Envy to the last Degree!</l>
+     <l>And why? — I wrote a Farce as well as He.</l>
+     <l>And fairly ventur'd it, — without the Aid</l>
+     <l>Of Prologue dress'd in black, and Face in Masquerade;</l>
+     <l>O Pit — have Pity — see how I'm dismay'd!</l>
+     <l>Poor Soul! — this canting Stuff will never do,</l>
+     <l>Unless, like Bay's, he brings his Hangman too.</l>
+     <l>But <hi>granting</hi> that from these same Obsequies,</l>
+     <l>Some Pickings to our Bard in black arise;</l>
+     <l>Should your Applause to Joy convert his Fear,</l>
+     <l>As Pallas turns to feast — <hi>Lardella's Bier;</hi>
+     </l>
+     <l>Yet 'twould have been a better Scheme by half</l>
+     <l>T'have thrown his Weeds aside, and learn't with me to laugh.</l>
+     <l>I could have shewn him, had he been inclin'd,</l>
+     <l>A spouting Junto of the Female Kind.</l>
+     <l>There dwells a Milliner in yonder Row,</l>
+     <l>Well-dress'd, full-voic'd, and nobly built for Shew,</l>
+     <l>Who, when in Rage, she scolds at <hi>Sue</hi> and <hi>Sarah,</hi>
+     </l>
+     <l>
+      <hi>Damn'd, Damn'd Dissembler!</hi> — thinks she's more than <hi>ZARA.</hi>
+     </l>
+     <l>
+      <pb facs="7"/>She has a Daughter too that deals in Lace,</l>
+     <l>And sings — O <hi>Ponder</hi> well — and <hi>Cherry Chase,</hi>
+     </l>
+     <l>And fain would fill the fair <hi>Ophelia</hi>'s Place.</l>
+     <l>And in her cock't up Hat, and Gown of Camblet,</l>
+     <l>Presumes on something — <hi>touching the Lord Hamlet.</hi>
+     </l>
+     <l>A Cousin too she has, with squinting Eyes,</l>
+     <l>With wadling Gait, and Voice like <hi>London Cries;</hi>
+     </l>
+     <l>Who, for the Stage too short by half a Story,</l>
+     <l>Acts Lady Townly — thus — in all her Glory.</l>
+     <l>And, while she's traversing her scanty Room,</l>
+     <l>Cries — "Lord, my Lord, what can I do at home!"</l>
+     <l>In short, there's Girls enough for all the Fellows,</l>
+     <l>The Ranting, Whining, Starting, and the Jealous,</l>
+     <l>The Hotspurs, Romeos, Hamlets, and Othellos.</l>
+     <l>Oh! Little do those silly People know,</l>
+     <l>What dreadful Trials — Actors undergo.</l>
+     <l>Myself — who most in Hamony delight,</l>
+     <l>Am scolding here from Morning until Night.</l>
+     <l>Then take Advice from me, ye giddy Things,</l>
+     <l>Ye Royal Milliners, ye apron'd Kings;</l>
+     <l>Young Men beware and shun our slipp'ry Ways,</l>
+     <l>Study Arithmetic, and burn your Plays;</l>
+     <l>And you, ye Girls, let not our Tinsel train</l>
+     <l>Enchant your Eyes, and turn your madd'ning Brain;</l>
+     <l>Be timely wise, for oh! be sure of this; —</l>
+     <l>A Shop with Virtue, is the Height of Bliss.</l>
+    </sp>
+   </div>
+   <div type="bythesameauthor">
+    <pb facs="8"/>
+    <p>Speedily will be published <hi>In Two Volumes</hi> 12<span rend="sup">mo</span> PRICE bound SIX SHILLINGS THE GRAYS-INN JOURNAL.</p>
+    <p>BY Mr. <hi>Murphy.</hi>
+    </p>
+   </div>
+   <div type="Dramatis_Personae">
+    <pb facs="9"/>
+    <castList>
+     <head>Dramatis Personae.</head>
+     <castItem>Wingate, a passionate Old Man, particularly fond of Money and Figures, and involuntarily uneasy about his Son. Mr. YATES.</castItem>
+     <castItem>Dick, his Son, bound to an Apothecary, and fond of going on the Stage. Mr. WOODWARD.</castItem>
+     <castItem>Gargle, an Apothecary. Mr. BURTON.</castItem>
+     <castItem>Charlotte, Daughter to Gargle. Miss MINORS.</castItem>
+     <castItem>Simon, Servant to Gargle. Mr. H. VAUGHAN.</castItem>
+     <castItem>Scotchman, Mr. BLAKES.</castItem>
+     <castItem>Irishman, Mr. JEFFERSON.</castItem>
+     <castItem>Catchpole, a Bayliff. Mr. VAUGHAN.</castItem>
+     <castItem>Spouting-club, Watchmen, &amp;c.</castItem>
+    </castList>
+   </div>
+  </front>
+  <body>
+   <div type="play">
+    <pb facs="10"/>
+    <head>THE APPRENTICE.</head>
+    <div n="1" type="act">
+     <head>ACT I.</head>
+     <div n="1" type="scene">
+      <head>SCENE I.</head>
+      <stage>
+       <hi>Enter</hi> WINGATE <hi>and</hi> SIMON.</stage>
+      <sp who="#wingate">
+       <speaker>WINGATE</speaker>
+       <p>
+        <seg rend="decorInit">N</seg>AY nay, but I tell you I am convinced — I know it is so, — and so Friend, don't you think to trifle with me;—I know you're in the Plot, you Scoundrel, and if you don't discover all, I'll</p>
+      </sp>
+      <sp who="#simon">
+       <speaker>Simon.</speaker>
+       <p>Dear Heart, Sir, you won't give a Body Time.</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Zookers! an whole Month missing, and no Account of him far or near, — Wounds! it's unaccountable.— Look ye Friend, — don't you pretend —</p>
+      </sp>
+      <sp who="#simon">
+       <pb n="2" facs="11"/>
+       <speaker>Simon.</speaker>
+       <p>Lord, Sir, — you're so main passionate, you won't let a Body speak.</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Speak out then, —and don't stand muttering—What a lubberly Fellow you are! ha! ha!—Why don't you speak out, you Blockhead?</p>
+      </sp>
+      <sp who="#simon">
+       <speaker>Simon.</speaker>
+       <p>Lord, Sir, to be sure the Gentleman is a fine young Gentleman, and a sweet young Gentleman—but, lack-a-day, Sir, — how should I know any thing of him?</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Sirrah, I say he could not be 'Prentice to your Master so long, and you live so long in one House with him, without knowing his Haunts and all his Ways—and then, Varlet, what brings you here to my House so often?</p>
+      </sp>
+      <sp who="#simon">
+       <speaker>Simon.</speaker>
+       <p>My Master <hi>Gargle</hi> and I, Sir, are so uneasy about un, that I have been runing all over the Town since Morning to enquire for un;—and so in my Way, I thought I might as well call here—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>A Villain, to give his Father all this Trouble—And so you have not heard any Thing of him Friend?</p>
+      </sp>
+      <sp who="#simon">
+       <speaker>Simon.</speaker>
+       <p>Not a Word, Sir, as I hope for Marcy; tho', as sure as you are there, I believe I can guess what's come on un. As sure as any thing, Master, the Gypsies have gotten hold on un, and we shall have un come home as thin as Rake, — like the young Girl in the City,—with living upon nothing but Crusts and Water for six and twenty Days.—</p>
+      </sp>
+      <sp who="#wingate">
+       <pb n="3" facs="12"/>
+       <speaker>Wingate.</speaker>
+       <p>The Gypsies have got hold of him, you Blockhead! — Get out of the Room —Here, you <hi>Simon</hi>—</p>
+      </sp>
+      <sp who="#simon">
+       <speaker>Simon.</speaker>
+       <p>Sir,—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Where are you going in such a Hurry? — let me see; what must be done? —a ridiculous Numskull, with his damned <hi>Cassanders</hi> and <hi>Cloppatra</hi>'s and Trumpery; with his <hi>Romances,</hi> and his Odyssey <hi>Popes,</hi> and a Parcel of Rascals not worth a Groat; — wearing Stone Buckles, and cocking his Hat; —I never wear Stone Buckles,—never cock my Hat— but, zookers, I'll not put myself in a Passion—<hi>Simon,</hi> do you step back to your Master, my Friend <hi>Gargle,</hi> and tell him I want to speak with him — tho' I don't know what I should send for him for—a sly, slow, hesitating Blockhead! — he'll only plague me with his Physical Cant and his Nonsence— why don't you go you Booby, when I bid you?—</p>
+      </sp>
+      <sp who="#simon">
+       <speaker>Simon.</speaker>
+       <p>Yes, Sir —</p>
+       <stage>Exit.</stage>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>This Fellow will be the Death of me at last— I can't Sleep in my Bed sometimes for him. — An absurd insignificant Rascal, —to stand in his own Light! — Death and Fury, that we can't get Children, without having a Love for 'em!—I have been turmoiling for the Fellow all the Days of my Life, and now the Scoundrel's run away — Suppose, I advertise the Dog, and promise a Reward to any one that can give an Account of him — well, but, — why should I throw away my Money after him? — why, as I don't say what Reward, I may give
+<pb n="4" facs="13"/>
+what I please when they come—ay, but if the Villain should deceive me, and happen to be dead, — why then he tricks me out of two Shillings — my Money's flung into the Fire — Zookers, I'll not put myself in a Passion—let him follow his Nose—it's nothing at all to me— what care I? — What do you come back for, Friend?—</p>
+      </sp>
+      <stage>
+       <hi>Re-enter</hi> Simon.</stage>
+      <sp who="#simon">
+       <speaker>Simon.</speaker>
+       <p>As I was going out, Sir, the Post came to the Door, and brought this Letter.</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Let me see it—The Gypsies have got hold of him! ha! ha! what a pretty Fellow you are! ha! ha! why don't you step where I bid you, Sirrah!—</p>
+      </sp>
+      <sp who="#simon">
+       <speaker>Simon.</speaker>
+       <p>Yes Sir.</p>
+       <stage>Exit.</stage>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Well, well, —I'm resolved, and it shall be so—I'll advertise him To-morrow Morning, and promise, if he comes home, all shall be forgiven:—And when the Blockhead comes, I may do as I please—ha! ha! I may do as I please!—Let me see:—He had on—a Silver-loop'd Hat:—I never liked those vile Silver Loops:—A Silver-loop'd Hat;—and—and—Slidikins, what signifiies what he had on?—I'll read my Letter, and think no more about him.— Hey! what a Plague have we here? <stage>[mutters to himself]</stage>
+        <hi>Bristol</hi>—a—what's all this?—</p>
+       <p>Esteemed Friend,<lb/>
+Last was 20th <hi>ultimo,</hi> since none of thine, which will occasion Brevity. The
+<pb n="5" facs="14"/>
+Reason of my writing to thee at present, is to inform thee that thy Son came to our Place with a Company of Strollers, who were taken up by the Magistrate, and committed as Vagabonds, to Jail.—</p>
+       <p>Zooker's! I'm glad of it—a Villain of a Fellow! Let him lie there—</p>
+       <p>I am sorry thy Lad should follow such profane Courses; but out of the Esteem I bear unto thee, I have taken thy Boy out of Confinement, and sent him off for your City in the Waggon, which left this four Days ago. He is consigned to thy Address, being the needful from thy Friend and Servant,<lb/>
+Ebeeneezor Broadbrim.</p>
+       <p>Wounds! what did he take the Fellow out for?—a Scoundrel Rascal!—turn'd Stage-Player—I'll never see the Villain's Face.— Who comes there?—</p>
+      </sp>
+      <stage>
+       <hi>Enter</hi> Simon.</stage>
+      <sp who="#simon">
+       <speaker>Simon.</speaker>
+       <p>I met my Master on the Way, Sir;— our Cares are over: — Here he is, Sir.—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Let him come in—and do you go down Stairs, you Blockhead.—</p>
+       <stage>
+        <hi>Exit</hi> Simon.</stage>
+      </sp>
+      <stage>
+       <pb n="6" facs="15"/>
+       <hi>Enter</hi> Gargle.</stage>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>So, Friend <hi>Gargle,</hi>—Here's a fine Piece of Work—<hi>Dick</hi>'s turned Vagabond!—</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>He must be put under a proper Regimen directly, Sir.—He arrived at my House within these ten Minutes, but in such a Trim!—He's now below Stairs—I judged it proper to leave him there, till I had prepared you for his Reception.—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Death and Fire! what could put it into the Villain's Head to turn Buffoon?</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>Nothing so easily accounted for:—Why, when he ought to be reading the Dispensatory, there was he constantly poring over Plays, and Farces, and <hi>Shakespear.</hi>—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Ay, that damned <hi>Shakespear!</hi>—I hear the Fellow was nothing but a Deer-stealer in <hi>Warwickshire:</hi>—Zookers! if they had hanged him out of the Way, he would not now be the Ruin of honest Men's Children — But what Right had he to read <hi>Shakespear?</hi> —I never read <hi>Shakespear!</hi>—Wounds! I caught the Rascal, myself, reading that nonsensical Play of <hi>Hamblet,</hi> where the Prince is keeping Company with Strollers and Vagabonds: A fine Example, Mr. <hi>Gargle!</hi>—</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>His Disorder is of the malignant Kind, and my Daughter has taken the Infection from him—bless my Heart!—She was as innocent as Water-gruel, till he spoilt
+<pb n="7" facs="16"/>
+her: — I found her, the other Night, in the very Fact.</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Zookers! you don't say so! —caught her in the Fact! —</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>Ay, in the very Fact of reading a Play-book in Bed.</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>O, is that the Fact you mean? —is that all? — tho' that's bad enough.—</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>But I have done for my young Madam: — I have confined her to her Room, and locked up all her Books.</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Look-ye, Friend <hi>Gargle,</hi> I'll never see the Villain's Face:—Let him follow his Nose and bite the Bridle.—</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>Lenitives, Mr. <hi>Wingate,</hi> — Lenitives are properest at present:— His Habit requires gentle Alteratives:— but leave him to my Management; —about twenty Ounces of Blood, with a Cephalic Tincture, —and he may do very well.</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Where is the Scoundrel?</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>Dear Sir, moderate your Anger, and don't use such harsh Language.</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Harsh Language! —Why do you think Man, I'd call him a Scoundrell, if I had not a Regard for him? — You don't hear me call a Stranger a Scoundrel.</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>Dear Sir, he may still do very well, the Boy has very good Sentiments —</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Sentiment! — a Fig for Sentiment! let him get Money, and never miss an Opportunity—I never missed an Opportunity; got up at Five in the Morning, —struck a Light, — made my own Fire—worked my Finger's Ends—and this Vagabond
+<pb n="8" facs="17"/>
+of a Fellow is going his own Way — with all my Heart— what care I? — let him follow his Nose, —let him follow his Nose—a ridiculous—</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>Ay, ridiculous indeed, Sir—Why for a long Time past, he could not converse in the Language of common Sense.— Ask him but a trivial Question, and he'd give some cramp Answer out of some of his Plays that had been running in his Head, and so there's no understanding a Word he says.—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Zookers! this comes of his keeping Company with Wits, and be damned to 'em for Wit's—ha! ha! — Wits! a fine Thing indeed—ha! ha! Its the most beggarly, rascally, —contemptible Thing on Earth.—</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>And then, Sir, I have found out that he went three Times a Week to a Spouting-Club.</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>A Spouting-Club, Friend <hi>Gargle!</hi>—What's a Spouting-Club?</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>A Meeting of Prentices and Clerks and giddy young Men, intoxicated with Plays; and so they meet in Public Houses to act Speeches; there they all neglect Business, despise the Advice of their Friends, and think of nothing but to become Actors.—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>You don't say so!—a Spouting-Club! wounds, I believe they are all mad.</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>Ay, mad indeed, Sir: — Madness is occasioned in a very extraordinary Manner, —the Spirits flowing in particular Channels.—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>'Sdeath, your'e as mad yourself as any of them.—</p>
+      </sp>
+      <sp who="#gargle">
+       <pb n="9" facs="18"/>
+       <speaker>Gargle.</speaker>
+       <p>And continuing to run in the same Ducts.—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>
+        <hi>Ducks!</hi> Damn your <hi>Ducks!</hi> — Who's below there?</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>The Texture of the Brain becomes disorder'd, and <stage>[Wingate <hi>walks about uneasily and</hi> Gargle <hi>follows</hi>]</stage> thus, by the Pressure on the Nerves, the Head is disturbed, and so your Son's Malady is contracted.—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Who's without there?—Don't plague me so, Man.</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>But I shall alter the morbid State of the Juices, correct his Blood, and produce laudable Chyle.—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Zookers, Friend <hi>Gargle,</hi> don't teaze me so—Don't plague me with your physical Nonsense.—Who's below there?—Tell that Fellow to come up.—</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>Dear Sir, be a little cool—Inflammatories may be dangerous. — Do, pray, Sir, moderate your Passions.—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Prithee, be quiet, Man—I'll try what I can do — Here he comes.</p>
+      </sp>
+      <stage>
+       <hi>Enter</hi> Dick.</stage>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>Now, my good Father, what's the Matter?<note n="*" place="foot">Hamlet.</note>
+       </p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>So, Friend,—you have been upon your Travels, have you?—You have had your Frolic?—Look-ye, young Man,—I'll not put myself in a Passion:—But, Death and Fire, you Scoundrel, —what
+<pb n="10" facs="19"/>
+Right have you to plague me in this Manner?—Do you think I must fall in Love with your Face, because I am your Father?—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>A little more than Kin, and less than Kind. —<note n="*" place="foot">Hamlet.</note>
+       </p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Ha! ha! —what a pretty Figure you cut now?—ha! ha!—why don't you speak, you Blockhead?—Have you nothing to say for yourself?—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>Nothing to say for yourself?—what an old Prig it is?</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Mind me, Friend — I have found you out—I see you'll never come to Good.—Turn Stage-player!—Wounds! you'll not have an Eye in your Head in a Month — ha! ha! — you'll have 'em knocked out of the Sockets with withered Apples— remember I tell you so.—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>A Critic too! <stage>[whistles]</stage> Well done old Square-toes.—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Look-ye, young Man—take Notice of what I say:—I made my own Fortune, and I could do the same again. Wounds!—if I were placed at the Bottom of <hi>Chancery-Lane,</hi> with a Brush and Blackball, — I'd make my own Fortune again —you read <hi>Shakespear!</hi>—Get <hi>Cocker</hi>'s <hi>Arithmetic</hi>— you may buy it for a Shilling on any Stall — best Book that ever was wrote.—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>Pretty well, that; — Ingenious, Faith! — Egad, the old Fellow has a pretty Notion of Letters.</p>
+      </sp>
+      <sp who="#wingate">
+       <pb n="11" facs="20"/>
+       <speaker>Wingate.</speaker>
+       <p>Can you tell how much is <hi>five Eigths of three Sixteenths of a Pound?</hi> —Five Eigths of three Sixteenths of a Pound—Ay, ay, I see you're a Blockhead:—Look-ye young Man, — if you have a Mind to thrive in this World, study Figures and make yourself useful — make yourself useful.—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>
+        <note n="*" place="foot">Hamlet.</note>How weary, stale, flat and unprofitable seem to me all the Uses of this World!—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Mind the Scoundrel now.—</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>Do Mr. <hi>Wingate,</hi> let me speak to him — softly, softly — I'll touch him gently:—Come, come, young Man, lay aside this sulky Humour, and speak as becomes a Son.</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>
+        <note n="†" place="foot">Ditto.</note>O <hi>Jeptha,</hi> Judge of <hi>Israel,</hi> what a Treasure hadst thou?—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>What does the Fellow say?</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>He relents, Sir.—Come, come, young Man, he'll forgive.—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>
+        <note n="‡" place="foot">Ditto.</note>They fool me to the Top of my Bent.—Gad, I'll hum 'em, to get rid of 'em,—a truant Disposition, good my Lord:—No, no, stay, that's not right—I have a better Speech. — <note n="‖" place="foot">Suspicious Husband.</note>
+It is as you say—when we are sober, and reflect but ever so little on our Follies, we are ashamed and sorry; and yet, the very next Minute, we rush again into the very same Absurdities.—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Well said Lad, well said—mind me Friend: Commanding our own Passions, and artfully taking Advantage of other People's, is the sure Road to Wealth:— Death and
+<pb n="12" facs="21"/>
+Fire! —but I won't put myself in a Passsion:—It's my Regard for you makes me speak; and if I tell you you're a Scoundrel, its for your Good.</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>Without Doubt, Sir. <stage>stifling a Laugh.</stage>
+       </p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>If you want any Thing, you shall be provided: — Have you any Money in your Pocket? —ha! ha! what a ridiculous Numskull you are now? —ha! ha! —Come, here's some Money for you.— <stage>[Pulls out his Money and looks at it]</stage>— I'll give it to you another Time; and so you'll mind what I say to you and make yourself useful for the future.—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>
+        <note n="*" place="foot">Richard III.</note>Else, wherefore breath I in a Christian Land!</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Zookers! you Blockhead, you'd better stick to your Business, than turn Buffoon, and get Truncheons broke upon your Arm, and be tumbling upon Carpets.—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>
+        <note n="†" place="foot">Hamlet.</note>I shall in all my best obey you, Sir.—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Very well, Friend, —very well said — you may do very well if you please and so I'll say no more to you, but make yourself useful, and so now go and clean yourself, and make ready to go Home to your Business—and mind me young Man, — let me see no more Play-Books, and let me never find that you wear a lac'd Waistcoat — you Scoundrel, what right have you to wear a lac'd Waistcoat?— I never wore a lac'd Waistcoat! —never wore one
+<pb n="13" facs="22"/>
+till I was Forty — But I'll not put myself in a Passion—go and change your Dress, Friend.</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>I shall Sir—</p>
+       <p>
+        <note n="*" place="foot">Hamlet.</note>I must be cruel, only to be kind, Thus bad begins, but worse remains behind.</p>
+      </sp>
+      <sp>
+       <p>
+        <hi>Cocker</hi>'s Arithmetick, Sir?</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Ay, <hi>Cocker</hi>'s Arithmetick—study Figures, and they'll carry you through the World—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>Yes, Sir, <stage>(stifling a Laugh)</stage>
+        <hi>Cocker</hi>'s Arithmetick! <stage>Exit.</stage>
+       </p>
+      </sp>
+      <stage>Wingate <hi>and</hi> Gargle.</stage>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Let him mind me, Friend <hi>Gargle,</hi> and I'll make a Man of him.</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>Ay, Sir, you know the World. —the young Man will do very well—I wish he were out of his Time; he shall then have my Daughter—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Yes, but I'll touch the Cash —he shan't finger it, during my Life.—I must keep a tight Hand over him— <stage>[Goes to the Door.]</stage> — Do ye hear, Friend!—Mind what I say, and go home to your Business immediately— Friend <hi>Gargle,</hi> I'll make a Man of him.—</p>
+      </sp>
+      <stage>
+       <pb n="14" facs="23"/>
+       <hi>Enter</hi> Dick.</stage>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>
+        <note n="†" place="foot">The last new Play called <hi>Barbarossa.</hi>
+        </note>Who called on <hi>Achmet?</hi>— Did not <hi>Barbarossa</hi> require me here?</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>What's the Matter now?—Barosa! — wounds!—what's <hi>Barossa?</hi>— does the Fellow call me Names? —what makes the Blockhead stand in such Confusion?</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>That <hi>Barbarossa</hi> should suspect my Truth!—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>The Fellow's stark staring mad—get out of the Room you Villain, get out of the Room</p>
+      </sp>
+      <stage>Dick stands in a sullen Mood.</stage>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>Come, come, young Man, every thing is easy, don't spoil all again—go and change your Dress, and come Home to your Business—nay, nay, be ruled by me</p>
+      </sp>
+      <stage>Thrusts him off.</stage>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>I'm very peremptory, Friend <hi>Gargle;</hi> if he vexes me once more, I'll have nothing to say to him —well, but, now I think of it—I have <hi>Cocker</hi>'s Arithmetick below Stairs in the Counting-House—I'll step and get it for him, and so he shall take it Home with him — Friend <hi>Gargle</hi> your Servant.</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>Mr. <hi>Wingate</hi> a good Evening to you—you'll send him Home to his Business —</p>
+      </sp>
+      <sp who="#wingate">
+       <pb n="15" facs="24"/>
+       <speaker>Wingate.</speaker>
+       <p>He shall follow you home directly. Five Eighths of Three Sixteenths of a Pound!—multiply the Numerator by the Denominator; five Times Sixteen is ten Times Eight, ten Times Eight is Eighty, and—a—a—carry one <stage>Exit.</stage>
+       </p>
+      </sp>
+      <stage>
+       <hi>Enter</hi> Dick <hi>and</hi> Simon.</stage>
+      <sp who="#simon">
+       <speaker>Simon.</speaker>
+       <p>Lord love ye, Master—I'm so glad you're come back—come, we had as good e'en gang Home to my Master <hi>Gargle</hi>'s—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>No, no, <hi>Simon,</hi> stay a Moment—this is but a scurvy Coat I have on—and I know my Father has always some Jemmy Thing lock'd up in his Closet—I know his Ways—He takes 'em in Pawn, for he'll never part with a Shilling without Security.</p>
+      </sp>
+      <sp who="#simon">
+       <speaker>Simon.</speaker>
+       <p>Hush! he'll hear us—stay, I believe he's coming up Stairs.</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <stage>[Goes to the Door and listens.]</stage>
+       <p>No, no,—no,—he's going down, growling and grumbling — ay, —say ye so Scoundrel, Rascal— Let him bite the Bridle—Six Times Twelve is Seventy-two—all's safe Man, never fear him. — Do you stand here—I shall dispatch this Business in a Crack.—</p>
+      </sp>
+      <sp who="#simon">
+       <speaker>Simon.</speaker>
+       <p>Blessings on him! what is he about now?—why the Door is locked, Master.—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>Ay, but I can easily force the Lock—you shall see me do it as well as any Sir <hi>John Brute</hi> of 'em all — this right Leg here is the
+<pb n="16" facs="25"/>
+best Locksmith in <hi>England</hi>—so, so, — <stage>[forces the Door and goes in.]</stage>
+       </p>
+      </sp>
+      <sp who="#simon">
+       <speaker>Simon.</speaker>
+       <p>He's at his Plays again—Odds my Heart, he's a rare Hand—he'll go through with it, I'll warrant him—Old Cojer must not smoke that I have any Concern—I must be main cautious—Lord bless his Heart, he's to teach me to act <hi>Scrub.</hi>—He begun with me long ago, and I got as far as the Jesuit before a went out of Town:— <note n="*" place="foot">Stratagem.</note> Scrub—Coming, Sir — Lord, Ma'am, Iv'e a whole Packet full of News — some say one Thing and some say another; but, for my Part, Maam, — I believe he's a Jesuit—that's main pleasant—<hi>I believe he's a Jesuit.</hi>
+       </p>
+      </sp>
+      <stage>
+       <hi>Re-enter</hi> Dick.</stage>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>
+        <note n="†" place="foot">Macbeth.</note> I have done the Deed — Didst thou not hear a Noise?</p>
+      </sp>
+      <sp who="#simon">
+       <speaker>Simon.</speaker>
+       <p>No, Master; we're all snug.—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>This Coat will do charmingly — I have bilked the old Fellow nicely.—<note n="‡" place="foot">
+         <hi>Vide</hi> the Mourning Bride.</note> In a dark Corner of his Cabinet, I found this Paper; what it is the Light will shew.</p>
+       <p>I promise to pay— ha!—</p>
+       <p>I promise to pay to Mr. <hi>Moneytrap,</hi> or Order, on Demand— <hi>'tis his Hand</hi> — <hi>a Note of his</hi> — <hi>a Note of his — yet more</hi>—The Sum of seven Pounds fourteen Shillings and Seven-pence, Value received, by me</p>
+       <p>
+        <hi>London</hi> this 15th <hi>June,</hi> 1755.—'Tis wanting what should follow— <hi>his</hi> Name should
+<pb n="17" facs="26"/>
+follow—but 'tis torn off—because the Note is paid.—</p>
+      </sp>
+      <sp who="#simon">
+       <speaker>Simon.</speaker>
+       <p>O Lud! Dear Sir, you'll spoil all—I wish we were well, out of the House—Our best Way, Master, is to make off directly.—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>I will, I will; but first help me on with this Coat — <hi>Simon,</hi> you shall be my Dresser—you'll be fine and happy behind the Scenes. —</p>
+      </sp>
+      <sp who="#simon">
+       <speaker>Simon.</speaker>
+       <p>O Lud! it will be main pleasant—I have been behind the Scenes in the Country, when I liv'd with the Man that shew'd wild Beastices.—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>Hark-ye, <hi>Simon;</hi> — when I am playing some deep Tragedy, and<note n="*" place="foot">Hamlet.</note> cleave the general Ear with horrid Speech, you must stand between the Scenes, and cry bitterly</p>
+      </sp>
+      <stage>Teaches him.</stage>
+      <sp who="#simon">
+       <speaker>Simon.</speaker>
+       <p>Yes, Sir.</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>And when I'm playing Comedy, you must be ready to laugh your Guts out <stage>[Teaches him.]</stage> for I shall be very pleasant—Tolderoll— <stage>[Dances.]</stage>
+       </p>
+      </sp>
+      <sp who="#simon">
+       <speaker>Simon.</speaker>
+       <p>Never doubt me, Sir.—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>Very well; now run down and open the Street-Door; I'll follow you in a Crack.</p>
+      </sp>
+      <sp who="#simon">
+       <speaker>Simon.</speaker>
+       <p>I am gone to serve you, Master—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>
+        <note n="†" place="foot">Richard III.</note>To serve thyself—for look ye, <hi>Simon,</hi> when I am Manager, claim thou of me the Care o'th' Wardrobe, with all those Moveables, whereof the<note n="‡" place="foot">The Property-Man, in the Play-House Phrase, is the Person who gives Truncheons, Daggers, <hi>&amp;c.</hi> to the Actors, as Occasion requires.</note> Property-Man now stands possest.—</p>
+      </sp>
+      <sp who="#simon">
+       <pb n="18" facs="27"/>
+       <speaker>Simon.</speaker>
+       <p>O Lud! this is charming—Hush! I am gone.</p>
+       <stage>Going.</stage>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>Well, but harkye, <hi>Simon,</hi> come hither—<note n="*" place="foot">Every Man in his Humour.</note> what Money have you about you Master <hi>Matthew?</hi>
+       </p>
+      </sp>
+      <sp who="#simon">
+       <speaker>Simon.</speaker>
+       <p>But a Tester, Sir,</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>A Tester!—That's something of the least, Master <hi>Mathew,</hi> —let's see it.</p>
+      </sp>
+      <sp who="#simon">
+       <speaker>Simon.</speaker>
+       <p>You have had fifteen Sixpences now—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dik.</speaker>
+       <p>Never mind that—I'll pay you all at my Benefit—</p>
+      </sp>
+      <sp who="#simon">
+       <speaker>Simon.</speaker>
+       <p>I don't doubt that, Master—but mum.</p>
+       <stage>Exit.</stage>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick</speaker>
+       <stage>
+        <hi>, solus.</hi>
+       </stage>
+       <p>
+        <note n="†" place="foot">Richard III.</note>Thus far we run before the Wind.—An Apothecary!—make an Apothecary of me!—<note n="‡" place="foot">
+         <hi>Vide</hi> Romeo and Juliet.</note> what cramp my Genius over a Pestle and Mortar, or mew me up in a Shop, with an Alligator stuft, and a beggarly Account of empty Boxes! — to be culling Simples, and constantly adding to the he Bills of Mortality. — No! no! It will be much better to be pasted up in Capitals, <hi>The Part of</hi> Romeo <hi>by a young Gentleman who never appeared on any Scage before!</hi> — My Ambition fires at the Thought— But hold,
+<pb n="19" facs="28"/>
+—mayn't I run some Chance of failing in my Attempt—Hissed,—Pelted,—laughed at, — not admitted into the Green-Room—that will never do—<note n="*" place="foot">Venice Preserv'd.</note> Down busy Devil, down, down.—Try it again. —Loved by the Women, envied by the Men, applauded by the Pit, clapped by the Gallery, admired by the Boxes. Dear Colonel, is not he a charming Creature. My Lord, don't you like him of all things.—Makes Love like an Angel.—What an Eye he has?—fine Legs!—I'll certainly go to his Benefit.—Celestial Sounds! — And then I'll get in with all the Painters, and have myself put up in every Print-Shop—in the Character of <hi>Macbeth!</hi> "This is a sorry Sight." <stage>(stands an Attitude.)</stage> In the Character of <hi>Richard (Give me another Horse, bind up my Wounds.)</hi> —this will do rarely—and then I have a Chance of getting well married—O glorious Thought!—<note n="†" place="foot">Tamerlane.</note> By Heaven I will enjoy it, though but in Fancy — But, what's o'Clock? —it must be almost nine. I'll away at once, this is Club-night. —'Egad I'll go to 'em for a while—the Spouters are all met—little they think I'm in Town—they'll be surprized to see me —Off I go, and then for my Assignation with my Master <hi>Gargle</hi>'s Daughter—Poor <hi>Charlotte!</hi> — she's lock'd up, but I shall find Means to settle Matters for her Escape— She's a pretty Theatrical
+<pb n="20" facs="29"/>
+Genius—If she flies to my Arms like a Hawk to its Perch, it will he so rare an Adventure, and so Dramatic an Incident;—</p>
+       <p>
+        <note n="*">The Orphan.</note>Limbs do your Office, and support me well; Bear me but to her, then fail me if you can.</p>
+      </sp>
+     </div>
+     <trailer>
+      <hi>END of the</hi> FIRST ACT.</trailer>
+    </div>
+    <div n="2" type="act">
+     <pb n="21" facs="30"/>
+     <head>ACT II.</head>
+     <div n="1" type="scene">
+      <head>SCENE I.</head>
+      <stage>
+       <hi>Scene discovers the Spouting-Club, the Members seated and roaring out</hi> Bravo, <hi>while one stands at a Distance repeating.</hi>—</stage>
+      <sp who="#club_member_1">
+       <speaker>1st. Member.</speaker>
+       <p>CURS'D be your Senate, curs'd your Constitution The Curse of growing Factions, and Divisions Still vex your Councils.<note n="*" place="foot">Venice Preserv'd.</note>—</p>
+      </sp>
+      <sp who="#club_member_2">
+       <speaker>2d. Memb.</speaker>
+       <p>Don't you think this Action a little confined?</p>
+      </sp>
+      <sp who="#club_member_1">
+       <speaker>1st. Memb.</speaker>
+       <p>Psha! you Blockhead, don't you know that I'm in Chains?—</p>
+      </sp>
+      <sp who="#club_member_2">
+       <speaker>2d. Memb.</speaker>
+       <p>Blockhead say ye?—was not I the first that took compassion on you, when you lay like a sneaking Fellow under the Counter, and swept your Masters Shop in a Morning? when you read nothing but the <hi>Young Man's Pocket Companion,</hi> or the <hi>True Clerks Vade Mecum,</hi> did not I put <hi>Chrononhothonthologos</hi> in your Hand?</p>
+      </sp>
+      <sp who="#club_member_1 #club_member_2">
+       <speaker>All.</speaker>
+       <p>Bravo! Bravo!—</p>
+      </sp>
+      <sp who="#club_president">
+       <speaker>President.</speaker>
+       <p>Come, Gentlemen, let us have no Disputes. Consider Gentlemen, this is the Honourable Society of Spouters, and so to put an end to all Animosities, read the seventh Rule of this Society.</p>
+      </sp>
+      <pb n="22" facs="31"/>
+      <sp who="#club_member_1">
+       <speaker>A Member</speaker>
+       <stage>Reads,</stage>
+       <p>
+        <hi>That Business, or want of Money, shall not be received as an Excuse for Non-Attendance, nor the Anger of Parents or other Relations, nor the Complaints of our Masters be ever heard; by which means this Society will be able to boast its own mimic Heroes, and be a Nursery of Young</hi> Actorlings <hi>for the Stage, in spight of the Mechanic Genius of our Friends.</hi>
+       </p>
+      </sp>
+      <sp who="#club_president">
+       <speaker>President.</speaker>
+       <p>That is not the rule I mean;—but come,<note n="*" place="foot">Macbeth.</note> we'll fill a Measure the Table round—now good Digestion wait on Appetite, and Health on both.</p>
+      </sp>
+      <sp who="#club_member_1 #club_member_2">
+       <speaker>All.</speaker>
+       <p>Huzza, huzza, huzza.</p>
+      </sp>
+      <sp who="#club_president">
+       <speaker>President.</speaker>
+       <p>Come Gentlemen, let us have no Quarrels.</p>
+      </sp>
+      <sp who="#club_member_1 #club_member_2">
+       <speaker>All.</speaker>
+       <p>Huzza, huzza.—</p>
+      </sp>
+      <sp who="#scotchman">
+       <speaker>Scotchman.</speaker>
+       <p>Come now I'll gee you a Touch of <hi>Macbeeth.</hi>—</p>
+      </sp>
+      <sp who="#club_member_1">
+       <speaker>1st. Memb.</speaker>
+       <p>That will be rare, come let's have it.—</p>
+      </sp>
+      <sp who="#scotchman">
+       <speaker>Scotchman.</speaker>
+       <p>What do'st lier at Mon?—I have had muckle Applause at <hi>Edinburgh,</hi> when I enacted in the <hi>Reégiceede,</hi>—and I now intend to do <hi>Macbeeth</hi>—I <hi>seed</hi> the <hi>Degger</hi> Yesterneet, and I thought I should ha' killed every one that came in my way.—</p>
+      </sp>
+      <sp who="#irishman">
+       <speaker>Irishman.</speaker>
+       <p>Stand out of the way Lads, and you'll see me give a Touch of <hi>Othello</hi> my Dear— <stage>(takes the Cork and burns it and blacks his Face)</stage> The Devil burn the Cork—it would not do it fast enough.</p>
+      </sp>
+      <sp who="#club_member_1">
+       <pb n="23" facs="32"/>
+       <speaker>1st. Memb.</speaker>
+       <p>Here, here I'll lend you a helping Hand, <stage>(Blacks him.)</stage>
+       </p>
+      </sp>
+      <stage>(Knocking at the Door.)</stage>
+      <sp who="#club_member_2">
+       <speaker>2d. Memb.</speaker>
+       <p>
+        <note n="*" place="foot">Macbeth.</note>Open Locks, whoever Knocks.—</p>
+      </sp>
+      <stage>
+       <hi>Enter</hi> Dick.</stage>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>
+        <note n="†" place="foot">Ditto.</note>How now ye Secret, Black, and Midnight Hags?—what is't ye do?</p>
+      </sp>
+      <sp who="#club_member_1 #club_member_2">
+       <speaker>All.</speaker>
+       <p>Ha! the Genius come to Town— Huzza! huzza!—the Genius—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>How fare the honest Partners of my Heart?—<hi>Jack Hopeless,</hi> give us your Hand— <hi>Guildersten</hi> yours—Ha! <hi>Rosencross</hi>—Gentlemen I rejoice to see ye—But come, the News, the News of the Town!—has any thing been Damned?—any new Performers this Winter? —How often has <hi>Romeo</hi> and <hi>Juliet</hi> been acted? —come my Bucks inform me, I want News.—</p>
+      </sp>
+      <sp who="#club_member_1">
+       <speaker>1st. Memb.</speaker>
+       <p>You shall know all in good Time.—but prithee my Dear Boy how was it?—you play'd at Bristol, lets hear.—</p>
+      </sp>
+      <sp who="#club_member_2">
+       <speaker>2d. Memb.</speaker>
+       <p>Ay, lets have it Dear <hi>Dick.</hi>—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>Look ye there now—<note n="‡" place="foot">Suspicious Husband.</note> lets have it Dear Boy, and Dear <hi>Dick.</hi> —</p>
+      </sp>
+      <sp who="#club_member_1">
+       <speaker>1st. Memb.</speaker>
+       <p>Nay, nay, but how was you receiv'd—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>
+        <hi>Romeo</hi> was my part — I touch'd their Souls for 'em,—every pale Face from the Wells was there, and so on I went—but rot 'em,—never mind them —<note n="‖" place="foot">Richard III.</note> what Bloody Scene has <hi>Roscius</hi> now to act?—</p>
+      </sp>
+      <sp who="#club_member_1">
+       <pb n="24" facs="33"/>
+       <speaker>1st. Memb.</speaker>
+       <p>Several Things — But Genius; why did you come to us so late?—Why did not you come in the Beginning of the Night?</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>Why, I intended it: But who should I meet in my Way but my Friend <hi>Catcall,</hi> a devilish good Critic;—and so he and I went together and had our Pipes, to<note n="*" place="foot">Every Man in his Humour.</note> close the Orifice of the Stomach you know; — and what do you think I learn'd of him?</p>
+      </sp>
+      <sp who="#club_member_1">
+       <speaker>1st. <hi>Memb.</hi>
+       </speaker>
+       <p>I can't say.</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>Can you tell, now, whether the Emphasis should be laid upon the <hi>Epitaph</hi>
+        <note n="†" place="foot">By Mistake for the <hi>Epithet.</hi>
+        </note>, or the <hi>Substantive?</hi>
+       </p>
+      </sp>
+      <sp who="#club_member_1">
+       <speaker>1st. <hi>Memb.</hi>
+       </speaker>
+       <p>Why, no.—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>Ever, while you live, lay your Emphasis upon the <hi>Epitaph.</hi>—</p>
+      </sp>
+      <sp who="#irishman">
+       <speaker>Irishman.</speaker>
+       <p>Arrah, my Dear, but what is that same Epitaph now?</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>
+        <note n="‡" place="foot">Stratagem.</note>Arrah, my dear Cousin <hi>Mackshane,</hi> won't you put a Remembrance upon me?—</p>
+      </sp>
+      <sp who="#irishman">
+       <speaker>Irishman.</speaker>
+       <p>Ow! but is it mocking you are? — Look-ye; my Dear, if you'd be taking me off—Don't you call it taking off?— By my Shoul I'd be making you take yourself off.—What? If you're for being obstropolous, I would not matter you three Skips of a Flea.—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>Nay, prithee, no Offence— I hope we shall be Brother-players.</p>
+      </sp>
+      <sp who="#irishman">
+       <speaker>Irishman.</speaker>
+       <p>Ow! then we'd be very good Friends; for you know two of a Trade can never agree, my Dear.</p>
+      </sp>
+      <sp who="#scotchman">
+       <pb n="25" facs="34"/>
+       <speaker>Scotchman.</speaker>
+       <p>
+        <hi>Locke</hi> is certainly reet in his Chapter aboot innate Ideas; for this Mon is born without any at all—and the other Mon yonder, I doot, is no great Heed-piece.—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>What do you intend to appear in?</p>
+      </sp>
+      <sp who="#irishman">
+       <speaker>Irishman.</speaker>
+       <p>Othollo, my Dear, let me alone; you'll see how I'll <hi>bodder</hi> 'em — Tho' by my Shoul, myshelf does not know but I'd be frightened when every Thing is in a <hi>Hub-bub,</hi> and nothing to be heard, but <hi>Throw him over</hi>—<hi>over with him</hi>—<hi>off, off, off the Stage</hi>—<hi>Music</hi>—<hi>won't y' ha' some Orange-chips</hi>—<hi>won't y' ha' some Nonpareills.</hi> —Ow!—but may be the dear Craturs in the Boxes will be <hi>lucking</hi> at my Legs — Ow! to be sure — the Devil burn the <hi>Luck</hi> they'll give 'em.—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>I shall certainly laugh in the Fellow's Face. —</p>
+      </sp>
+      <sp who="#irishman">
+       <speaker>Irishman.</speaker>
+       <p>Ow! never mind it — let me alone, my Dear — may-be I'd see a little round Face from <hi>Dublin</hi> in the Pit, may-be I wou'd; but then, won't I be the first Gentleman of my Name that turn'd Stage-Play'r?— My Cousins would rather see me starve like a Gentleman with Honour and Reputation— Myshelf does be asham'd when I think of it.—</p>
+      </sp>
+      <sp who="#scotchman">
+       <speaker>Scotchman.</speaker>
+       <p>Stay till you hear me give a Speecimen of Elocution.</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>What, with that Impediment, Sir?</p>
+      </sp>
+      <sp who="#scotchman">
+       <speaker>Scotchman.</speaker>
+       <p>Impeediment! what Impeediment? I do no leesp—do I?—I do no squeent—I am well leem'd, am I not?—</p>
+      </sp>
+      <sp who="#irishman">
+       <speaker>Irishman.</speaker>
+       <p>By my Shoul, if you go to that, I am as well timber'd myself as any of them,
+<pb n="26" facs="35"/>
+and shall make a Figure in genteel and top Comedy.—</p>
+      </sp>
+      <sp who="#scotchman">
+       <speaker>Scotchman.</speaker>
+       <p>I'll give you Speecimen of <hi>Mockbeeth</hi>—</p>
+      </sp>
+      <sp who="#irishman">
+       <speaker>Irishman.</speaker>
+       <p>Make Haste, then, and I'll begin <hi>Othollo.</hi>—</p>
+      </sp>
+      <sp who="#scotchman">
+       <speaker>Scotchman.</speaker>
+       <p>— Is this a Dagger that I see before me, <hi>&amp;c.</hi>
+       </p>
+      </sp>
+      <sp who="#irishman">
+       <speaker>Irishman.</speaker>
+       <p>
+        <stage>[collaring him.]</stage> Willian, be sure yon prove my Love a Whore, <hi>&amp;c.</hi>
+       </p>
+      </sp>
+      <stage>[Another Member comes forward with his Face powdered, and a pipe in his Hand.]</stage>
+      <sp>
+       <p>—I am thy Father's Spirit, <hi>Hamlet</hi>—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>Po! Prithee! you're not fat enough for a Ghost.—</p>
+      </sp>
+      <sp who="#club_member_1">
+       <speaker>Memb.</speaker>
+       <p>I intend to make my first Appearance in it for all that, only I'm puzzled about one Thing—I want to know, when I come on first, whether I should make a Bow to the Audience?</p>
+      </sp>
+      <sp who="#club_member_2">
+       <speaker>Another Memb.</speaker>
+       <p>Now, Gentlemen, for the true Way of Dying— <stage>[spreads a Blanket.]</stage>—now for a little Phrenzy— <stage>[Repeats a dying Speech, and rolls himself up in the Blanket.]</stage>
+       </p>
+      </sp>
+      <stage>[Watch behind the Scenes; Past Five o'Clock, cloudy Morning.]</stage>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>Hey! past five o'Clock—'Sdeath, I shall miss my Appointment with <hi>Charlotte</hi>— I have staid too long, and shall lose my Proselyte—Come, let us adjourn.—</p>
+      </sp>
+      <sp who="#club_member_1 #club_member_2">
+       <speaker>All.</speaker>
+       <p>Ay, let us sally forth.—</p>
+      </sp>
+      <sp who="#irishman">
+       <speaker>Irishman.</speaker>
+       <p>With all my Heart; tho' I should, have bodder'd 'em finely if they had staid.</p>
+      </sp>
+      <sp who="#scotchman">
+       <speaker>Scotchman.</speaker>
+       <p>I should have sheen'd in <hi>Mocbeeth</hi>—but never meend it — I'll go<note n="*" place="foot">Venice Preserv'd.</note>
+        <pb n="27" facs="36"/>
+now to my Freend the Bookseller, and translate <hi>Cornelius Tacitus,</hi> or <hi>Grotius de Jure Belli,</hi> — and so, Gentlemen, your Servant. —</p>
+      </sp>
+      <sp who="#club_member_1 #club_member_2">
+       <speaker>All.</speaker>
+       <p>Huzza! Huzza</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>
+        <note n="*" place="foot">Sir John Brute.</note>We'll scower the Watch—Confusion to Morality—I wish the Constable were married—Huzza, Huzza—</p>
+      </sp>
+      <sp who="#irishman">
+       <speaker>Irishman.</speaker>
+       <p>By my Shoul, myshelf did not Care if I had a Wife, with a good Fortune, to be hindering me from going on — But no matter—I may meet with a willing Cratur somewhere—</p>
+       <stage>Exit singing.</stage>
+      </sp>
+      <sp who="#club_member_1 #club_member_2">
+       <speaker>All.</speaker>
+       <p>Huzza, Huzza!—</p>
+       <stage>Exeunt.</stage>
+      </sp>
+     </div>
+     <div type="scene">
+      <head>SCENE <stage>a <hi>Street.</hi>
+       </stage>
+      </head>
+      <stage>Enter a Watchman.</stage>
+      <sp>
+       <p>Past five o'Clock, cloudy Morning. Mercy on us—all mad I believe in this House— They're at this Trade three Nights in the Week, I think—Past five o'Clock, a cloudy Morning.</p>
+      </sp>
+      <sp who="#club_member_1 #club_member_2">
+       <speaker>All.</speaker>
+       <p>Huzza,</p>
+       <stage>(without)</stage>
+      </sp>
+      <sp who="#watchman">
+       <speaker>Watchman.</speaker>
+       <p>What in the Name of Wonder are they all at?—</p>
+      </sp>
+      <stage>Hurra, Hurra, without. Enter the Spouters.</stage>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>
+        <note n="†" place="foot">Hamlet.</note>Angels and Ministers of Grace defend us.</p>
+      </sp>
+      <sp who="#club_member_1">
+       <pb n="28" facs="37"/>
+       <speaker>1st Memb.</speaker>
+       <p>
+        <note n="*" place="foot">Romeo.</note>By Heavens I'll tear you Joint by Joint, and strew this hungry Church-yard with your Limbs.</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>
+        <note n="†" place="foot">Macbeth.</note>Avant, and quit my Sight—thy Bones are Marrowless—There's no Speculation in those Eyes, that thou dost glare withal.</p>
+      </sp>
+      <sp who="#watchman">
+       <speaker>Watchman.</speaker>
+       <p>Prithee, don't disturb the Peace—</p>
+      </sp>
+      <sp who="#club_member_1">
+       <speaker>A Member.</speaker>
+       <p>
+        <note n="‡" place="foot">Much ado about Nothing.</note>Be sure you write him down an Ass.</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>
+        <note n="§" place="foot">Macbeth.</note>Be alive again, and dare me to the Desart with thy Pole, — take any Shape but that, and my firm Nerves, shall never tremble—</p>
+      </sp>
+      <sp who="#watchman">
+       <speaker>Watchman.</speaker>
+       <p>Soho! Soho!</p>
+      </sp>
+      <stage>
+       <hi>Enter Watchmen from all Parts, some drunk, some coughing,</hi> &amp;c.</stage>
+      <sp who="#2nd_watchman">
+       <speaker>2d <hi>Watchman</hi>
+       </speaker>
+       <p>What's the Matter there?—</p>
+      </sp>
+      <sp who="#1st_watchman">
+       <speaker>1st <hi>Watchman.</hi>
+       </speaker>
+       <p>Here are the Disturbers of the Peace—I charge 'em all—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>
+        <note n="‖" place="foot">Richard.</note>Unmanner'd Slave, advance your Halbert higher than my Breast, or by St. <hi>Paul,</hi> I'll strike thee down, and spurn thee, Beggar, for this Insolence—</p>
+      </sp>
+      <stage>
+       <hi>They fight,</hi> Dick <hi>is knock'd down.</hi> Exeunt <hi>Watchmen fighting the rest.</hi>
+      </stage>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>
+        <note n="**" place="foot">Romeo.</note>I have it; it will do;—'Egad I'll make my Escape now — O I am Fortune's Fool—</p>
+       <stage>Exit.</stage>
+      </sp>
+      <stage>
+       <pb n="29" facs="38"/>
+       <hi>Re-enter Watchmen,</hi> &amp;c.</stage>
+      <sp who="#watchman">
+       <speaker>Watchman.</speaker>
+       <p>Come, bring 'em along—</p>
+      </sp>
+      <sp who="#club_member_1">
+       <speaker>1st <hi>Memb.</hi>
+       </speaker>
+       <p>
+        <note n="*" place="foot">Revenge.</note>Good Ruffians, hold awhile—</p>
+      </sp>
+      <sp who="#club_member_2">
+       <speaker>2d <hi>Memb.</hi>
+       </speaker>
+       <p>
+        <note n="†" place="foot">Oroonoko.</note>I am unfortunate, but not ashamed of being so</p>
+      </sp>
+      <sp who="#watchman">
+       <speaker>Watchman.</speaker>
+       <p>Come, come, bring 'em along</p>
+       <stage>Exeunt.</stage>
+      </sp>
+     </div>
+     <div type="scene">
+      <head>SCENE, <stage>
+        <hi>another Street.</hi>
+       </stage>
+      </head>
+      <stage>
+       <hi>Enter</hi> Dick, <hi>with a Lanthorn and a Ladder.</hi>
+      </stage>
+      <sp>
+       <p>All's quiet here; the Coast's clear;—now for my Adventure with <hi>Charlotte</hi>—this Ladder will do rarely for the Business—tho' it would be better, if it were a Ladder of Ropes—but hold; have not I seen something like this on the Stage?—yes I have in some of the Entertainments—Ay,<note n="‡" place="foot">Romeo.</note> I remember an Apothecary, and hereabout he dwells—this is my Master <hi>Gargle's;</hi> — being dark the Beggars Shop is shut—what ho! Apothecary — but soft,—what light breaks thro' yonder Window —It is the East, and Juliet is the Sun, arise fair Sun, &amp;c.</p>
+      </sp>
+      <sp who="#charlotte">
+       <speaker>Charlotte.</speaker>
+       <p>Who's there? my <hi>Romeo?</hi>
+       </p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>The same my Love, if it not thee Displease.—</p>
+      </sp>
+      <sp who="#charlotte">
+       <speaker>Charlotte.</speaker>
+       <p>Hush! not so loud, you'll waken my Father.—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>Alas! there's more peril in thy Eye<note n="§" place="foot">Romeo.</note>.</p>
+      </sp>
+      <sp who="#charlotte">
+       <pb n="30" facs="39"/>
+       <speaker>Charlotte.</speaker>
+       <p>Nay, but prithee now—I tell you you'll spoil all—what made you stay so long?</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>
+        <note n="*" place="foot">Fair Penitent.</note>Chide not my Fair, but let the God of Love laugh in thy Eyes, and Revel in thy Heart.—</p>
+      </sp>
+      <sp who="#charlotte">
+       <speaker>Charlotte.</speaker>
+       <p>As I am a living Soul, you'll ruin every thing; be but quiet, and I'll come down to you—</p>
+       <stage>Going.</stage>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>No, no, not so fast—<hi>Charlotte</hi>—let us act the Garden Scene first—</p>
+      </sp>
+      <sp who="#charlotte">
+       <speaker>Charlotte.</speaker>
+       <p>A Fiddlestick for the Garden Scene—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>Nay, then I'll act <hi>Ranger</hi>—up I go, Neck or nothing.</p>
+      </sp>
+      <sp who="#charlotte">
+       <speaker>Charlotte.</speaker>
+       <p>Dear Heart, you're enough to frighten a body out of one's Wits—Don't come up—I tell you there's no occasion for the Ladder—I've settled every thing with <hi>Simon,</hi> and he's to let me thro' the Shop, when he opens it.</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>Well, but I tell you I would not give a Farthing for it without the Ladder, and so, up I go.—</p>
+      </sp>
+      <stage>
+       <hi>Enter</hi> Simon <hi>at the Door.</hi>
+      </stage>
+      <sp who="#simon">
+       <speaker>Simon.</speaker>
+       <p>Sir, Sir, Madam, Madam—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>Prithee be quiet <hi>Simon</hi>—I am ascending the high Top Gallant of my Joy—</p>
+      </sp>
+      <sp who="#simon">
+       <speaker>Simon.</speaker>
+       <p>An't please you Master, my young Mistress may come thro' the Shop—I'am going to sweep it out, and she may Escape that way fast enow—</p>
+      </sp>
+      <sp who="#charlotte">
+       <pb n="31" facs="40"/>
+       <speaker>Charlotte.</speaker>
+       <p>That will do purely—and so do you stay where you are, and prepare to receive me—</p>
+       <stage>Exit from above.</stage>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>No, no, but that won't take—you shan't hinder me from going thro' my Part <stage>(goes up)</stage>
+        <note n="*" place="foot">Suspicious Husband.</note> a Woman by all that's lucky — neither old nor crooked — in I go — <stage>(goes in)</stage> and for Fear of the Pursuit of the Family, I'll make sure of the Ladder.</p>
+      </sp>
+      <sp who="#simon">
+       <speaker>Simon.</speaker>
+       <p>Hist! hist! Master — leave that there to save me from being suspected —</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>With all my Heart <hi>Simon</hi> —</p>
+       <stage>Exit from above.</stage>
+      </sp>
+      <sp who="#simon">
+       <speaker>Simon</speaker>
+       <stage>alone.</stage>
+       <p>Lord love him, how comical he is! — it will be fine for me, when we're playing the Fool together, to call him Brother <hi>Martin.</hi> "<note n="†" place="foot">Stratagem.</note> Brother <hi>Martin.</hi>"</p>
+      </sp>
+      <stage>
+       <hi>Enter</hi> Charlotte.</stage>
+      <sp who="#charlotte">
+       <speaker>Charlotte.</speaker>
+       <p>O Lud! I'm frighted out of my Wits, where is he? —</p>
+      </sp>
+      <sp who="#simon">
+       <speaker>Simon.</speaker>
+       <p>He's a coming, Ma'am — <stage>(calls to him)</stage> "Brother <hi>Martin.</hi>"</p>
+      </sp>
+      <stage>
+       <hi>Enter</hi> Dick.</stage>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>
+        <note n="‡" place="foot">Suspicious Husband.</note>Cuckold him, Ma'am, by all means, — I'm your Man.</p>
+      </sp>
+      <sp who="#charlotte">
+       <speaker>Charlotte.</speaker>
+       <p>Well now, I protest and vow, I wonder how you can serve a Body so — feel with what a Pit-a-pat Action my Heart beats —</p>
+      </sp>
+      <sp who="#dick">
+       <pb n="32" facs="41"/>
+       <speaker>Dick.</speaker>
+       <p>
+        <note n="*" place="foot">Old Batchelor.</note>'Tis an Alarm to Love—quick let me snatch thee to thy <hi>Romeo</hi>'s Arms, <hi>&amp;c.</hi>
+        <stage>Watchman behind the Scenes.</stage> Past Six o'Clock, and a cloudy Morning —</p>
+      </sp>
+      <sp who="#charlotte">
+       <speaker>Charlotte.</speaker>
+       <p>Dear Heart, don't let us stand fooling here — as I live and breathe we shall both be taken — do for Heaven's Sake let us make our Escape.</p>
+      </sp>
+      <sp who="#watchman">
+       <speaker>Watch.</speaker>
+       <p>Past; Six o'Clock, a cloudy Morning —</p>
+      </sp>
+      <sp who="#charlotte">
+       <speaker>Charlotte.</speaker>
+       <p>It comes nearer and nearer; let us make off —</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>Give us your Hand then — my pretty little Adventurer I attend you.<note n="†" place="foot">
+         <hi>Vide</hi> Distress'd Mother.</note> Yes, my dear <hi>Charlotte,</hi> we will go together, Together to the Theatre we'll go, There to their ravish'd Eyes our Skill we'll I shew, And point new Beauties—to the Pit below.</p>
+      </sp>
+      <sp who="#simon">
+       <speaker>Simon.</speaker>
+       <p>Heaven's bless the Couple of 'em; but mum!</p>
+       <stage>Exit, and shuts the Doors after him.</stage>
+      </sp>
+      <stage>Enter Bailiff and his Follower.</stage>
+      <sp who="#catchpole">
+       <speaker>Bailiff.</speaker>
+       <p>That's he yonder, as sure as you're alive—Ay, it is—and he has been about some Mischief here.</p>
+      </sp>
+      <sp who="#follower">
+       <speaker>Follower.</speaker>
+       <p>No, no, that an't he—that one wears a laced Coat—tho' I can't say—as sure as a Gun, it is he—</p>
+      </sp>
+      <sp who="#catchpole">
+       <speaker>Bailiff.</speaker>
+       <p>Ay, I smoked him at once—Do you run that Way and stop at the Bottom of
+<pb n="33" facs="42"/>
+        <hi>Catherine-Street;</hi> I'll go up <hi>Drury-Lane,</hi> and between us both, it will be odds if we miss him.</p>
+       <stage>Exeunt.</stage>
+       <stage>Enter Watchman.</stage>
+      </sp>
+      <sp who="#watchman">
+       <speaker>Watch.</speaker>
+       <p>Past Six a Clock and a cloudy Morning.—Hey-day! what's here, a Ladder, at Master <hi>Gargle</hi>'s Window?—I must alarm the Family—Ho! Master <hi>Gargle</hi>—</p>
+      </sp>
+      <stage>Knocks at the Door.</stage>
+      <sp who="#gargle">
+       <speaker>Gargle</speaker>
+       <stage>above.</stage>
+       <p>What's the Matter?—How comes this Window to be open?—ha!—a Ladder!—Who's below there?</p>
+      </sp>
+      <sp who="#1st_watchman">
+       <speaker>1st. <hi>Watch.</hi>
+       </speaker>
+       <p>I hope you an't robbed, Master <hi>Gargle?</hi>—As I was going my Rounds, I found your Window open.</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>I fear this is some of that young Dog's Tricks—Take away the Ladder; I must enquire into all this.—</p>
+       <stage>Exit.</stage>
+       <stage>
+        <hi>Enter</hi> Simon, <hi>like</hi> Scrub.</stage>
+      </sp>
+      <sp who="#simon">
+       <speaker>Simon.</speaker>
+       <p>
+        <note n="*" place="foot">
+         <hi>Vide</hi> Stratagem.</note>Thieves! Murder! Thieves! Popery! —</p>
+      </sp>
+      <sp who="#watchman">
+       <speaker>Watch.</speaker>
+       <p>What's the Matter with the Fellow?</p>
+      </sp>
+      <sp who="#simon">
+       <speaker>Simon.</speaker>
+       <p>Spare all I have, and take my Life —</p>
+      </sp>
+      <sp who="#watchman">
+       <speaker>Watchman.</speaker>
+       <p>Any Mischief in the House?</p>
+      </sp>
+      <sp who="#simon">
+       <speaker>Simon.</speaker>
+       <p>They broke in with Fire and Sword — they'll be here this Minute — Five and forty — <hi>this will do Charmingly</hi> — <hi>"my young Master taught me this."</hi>
+       </p>
+       <stage>Aside.</stage>
+      </sp>
+      <sp who="#watchman">
+       <pb n="34" facs="43"/>
+       <speaker>Watchman.</speaker>
+       <p>What are there Thieves in the House! —</p>
+      </sp>
+      <sp who="#simon">
+       <speaker>Simon.</speaker>
+       <p>With Sword and Pistol, Sir, — Five and forty</p>
+      </sp>
+      <sp who="#watchman">
+       <speaker>Watch.</speaker>
+       <p>Nay, then it's Time for me to go, — for mayhap I may come to ha' the worst on't —</p>
+       <stage>Exit Watchman.</stage>
+      </sp>
+      <stage>
+       <hi>Enter</hi> Gargle.</stage>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>Dear Heart! dear Heart — she's gone, she's gone—my Daughter! my Daughter! — what's the Fellow in such a Fright for?</p>
+      </sp>
+      <sp who="#simon">
+       <speaker>Simon.</speaker>
+       <p>Down on your Knees — down on your Marrowbones — (this will make him think, I know nothing of the Matter—Bless his Heart for teaching me,—Down on your Marrow-bones.—</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>Get up, you Fool, get up—Dear Heart, I'm all in a Fermentation.</p>
+       <stage>
+        <hi>Enter</hi> Wingate, <hi>reading a News-Paper.</hi>
+       </stage>
+       <p> Wanted, on good Security, Five hundred Pounds, for which lawful Interest will be given, and a good Praemium allowed: Whoever this may suit, Enquire for S. T. at the <hi>Crown and Rolls</hi> in <hi>Chancery-Lane.</hi>— This may be worth looking after.—I'll have a good Praemium—If the Fellow's a Fool, I'll fix my Eye on him—Other People's Follies are an Estate to the Man that knows how to make himself useful — So, Friend <hi>Gargle,</hi> —your up early, I see—nothing like rising
+<pb n="35" facs="44"/>
+eatly—nothing to be got by lying in Bed, like a lubberly Fellow.—What's the Matter with you! — ha! ha! you look like a — ha! ha! —</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>O — no Wonder — My Daughter, my Daughter!</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Your Daughter! —what signifies a foolish Girl? —</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>Oh dear Heart! dear Heart!—out of the Window</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Fallen out of the Window! — well, she was a Woman, and it's no Matter— if she's dead, she's provided for. — Here I found the Book — could not meet with it last Night — Here it is — there's more Sense in it, than in all their <hi>Macbeths</hi> and their Trumpery <stage>(reads)</stage>
+        <hi>Cocker</hi>'s Arithmetick — look ye here now, Friend <hi>Gargle,</hi> — suppose you have the sixteenth-Part of a Ship, and I buy one fifth of you, what Share of the Ship do I buy? —</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>Oh dear, Sir, it's a melancholy Case —</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>A melancholy Case indeed to be so ignorant — why should not a Man know every thing? One Fifth of one Sixteenth, what Part have I of the whole? Let me see—Ill do it a short Way.—</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>Lost beyond Redemption.—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Zookers, be quiet Man, you put me out—Seven Times Seven is Forty-nine, and six Times Twelve is Seventy-two, —and—and—and—a—Here, Friend <hi>Gargle,</hi> take the Book and give it that Scoundrel of a Fellow.—</p>
+      </sp>
+      <sp who="#gargle">
+       <pb n="36" facs="45"/>
+       <speaker>Gargle.</speaker>
+       <p>Lord, Sir,—He's returned to his Tricks.—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Returned to his Tricks!—What, —broke loose again?—</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>Ay, and carried off my Daughter with him.—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Carried off your Daughter— How did the Rascal contrive that?</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>Oh, Dear Sir, — the Watch alarmed us a while ago, and I found a Ladder at the Window—so I suppose my young Madam made her Escape that Way.—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Wounds! what Business had the Fellow with your Daughter?</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>I wish I had never taken him into my House—He may debauch the poor Girl—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>And suppose he does—she's a Woman an't she?—Ha! ha! Friend <hi>Gargle,</hi> Ha! ha!—</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>Dear Sir, how can you talk thus to a Man distracted?</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>I'll never see the Fellow's Face.</p>
+      </sp>
+      <sp who="#simon">
+       <speaker>Simon.</speaker>
+       <p>
+        <hi>Secrets! Secrets!</hi>
+        <note n="†" place="foot">Vide Stratagem.</note>
+       </p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>What are you in the Secret, Friend?—</p>
+      </sp>
+      <sp who="#simon">
+       <speaker>Simon.</speaker>
+       <p>To be sure, there be Secrets in all Families—but, for my Part, I'll not speak a Word <hi>pro</hi> or <hi>con,</hi> till there's a Peace.</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>You won't speak, Sirrah!—I'll make you speak—Do you know nothing of this Numskull?—</p>
+      </sp>
+      <sp who="#simon">
+       <speaker>Simon.</speaker>
+       <p>Who, I Sir? — He came home last Night from your House, and went out again directly.—</p>
+      </sp>
+      <sp who="#wingate">
+       <pb n="37" facs="46"/>
+       <speaker>Wingate.</speaker>
+       <p>You saw him then—</p>
+      </sp>
+      <sp who="#simon">
+       <speaker>Simon.</speaker>
+       <p>Yes Sir, —saw him to be sure Sir—he made me open the Shop Door for him—he stopp'd on the Threshold and pointed at one of the Clouds and asked me if it was not like an <hi>Ouzel?</hi>—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Like an <hi>ouzel?</hi>—wounds! what's an <hi>Ouzel?</hi>—</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>And the young Dog came back in the dead of Night to steal away my Daughter.</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>I'll tell you what Friend <hi>Gargle</hi>—I'll think no more of the Fellow—let him bite the Bridle—I'll go mind my Business, and not miss an Opportunity.</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>Good now Mr. <hi>Wingate,</hi> don't leave me in this Affliction, —consider when the animal Spirits are properly employ'd, the whole System's exhilerated, a proper Circulation in the smaller Dusts or Capillary Vessels—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Look ye there now—the Fellow's at his <hi>Ducks</hi> again, ha! ha!</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>But when the Spirits are under Influence—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Ha! ha! what a fine Fellow you are now?—you're as Mad with your Physical Nonsense, as my Son with his <hi>Shakespear</hi> and <hi>Ben Thompson</hi>—</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>Dear Sir, let us go in quest of him—he shall be well Phlebotomized, and for the future I'll keep his Solids and Fluids in proper Ballance—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Don't tell me of your Solids—I tell you he'll never be Solid—and so I'll go<note n="*" place="foot">Hamlet.</note>
+        <pb n="38" facs="47"/>
+and mind my Business—let me see where is this chap— <stage>(reads)</stage> ay, ay, at the Crown and Rolls—good morning Friend <hi>Gargle</hi>—don't plague yourself about the Numskull—study Fractions Man; Vulgar Fractions will carry you thro' the World, Arithmetical Proportion is when the Antecedent and Consequent, — a —</p>
+       <stage>going.</stage>
+      </sp>
+      <stage>Enter a Porter.</stage>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Who are you pray?—what do you want?—</p>
+      </sp>
+      <sp who="#porter">
+       <speaker>Porter.</speaker>
+       <p>Is one Mr. <hi>Gargle</hi> here?</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>Yes—who wants him?—</p>
+      </sp>
+      <sp who="#porter">
+       <speaker>Porter.</speaker>
+       <p>Here's a Letter for you?—</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>Let me see it. O dear Heart!— <stage>(reads)</stage>
+        <hi>To Mr.</hi> Gargle <hi>at the Pestle and Mortar</hi>—'Slidikins, this is a Letter from that unfortunate young Fellow—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Let me see it <hi>Gargle</hi>—</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>A moments patience good Mr. <hi>Wingate,</hi> and this may unravel all— <stage>(reads)</stage>—Poor young Man!—his Brain is certainly turned—I can't make Head or Tale of it—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Ha! ha!—you're a pretty Fellow—give it me man—I'll make it out for you—'tis his Hand sure enough</p>
+       <stage>(reads)</stage>
+       <p>
+        <hi>To Mr.</hi> Gargle, &amp;c.</p>
+       <p>
+        <hi>Most potent, Grave<note n="*" place="foot">Othello.</note> and Reverend Doctor, my very noble and approved good Master, that I have ta'en away your Daughter it is most true, true I will Marry her;<note n="†" place="foot">Hamlet.</note>—'tis true 'tis</hi>
+        <pb n="39" facs="48"/>
+        <hi>Pity, and Pity 'tis, 'tis true.</hi>—What in the name of Common Sense is all this? <note n="*" place="foot">Othello.</note>
+        <hi>I have done your Shop some Service, and you know it, no more of that—<note n="†" place="foot">Mourning Bride.</note> yet I could wish, that at this Time, I had not been this Thing</hi>—what can the Fellow mean?—<hi>For Time <note n="‡" place="foot">Ditto.</note> may have yet one fated Hour to come which wing'd with Liberty may overtake occasion past</hi>—overtake occasion past!—Time and Tide waits for no Man—"<note n="§" place="foot">Venice Preserv'd.</note>
+        <hi>I expect redress from thy noble Sorrows — thine and my poor Countries ever.</hi>" R. Wingate.</p>
+       <p>Mad as a <hi>March</hi> Hare! I have done with him—let him stay till the Shoe pinches, a crack-brained Numskull!</p>
+      </sp>
+      <sp who="#porter">
+       <speaker>Porter.</speaker>
+       <p>An't please ye Sir, I fancys the Gentleman is a little beside himself —he took hold un me here by the Collar, and called me Villain<note n="**" place="foot">Othello.</note> and bid me prove his Wife a Whore — Lord help him, I never see'd the Gentleman's Spouse in my born Days before.</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>Is she with him now?</p>
+      </sp>
+      <sp who="#porter">
+       <speaker>Porter.</speaker>
+       <p>I believe so — There a likely young Woman with him all in Tears—</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>My Daughter to be sure —</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Let the Fellow go and be hang'd—Wounds! I would not go the Length of my Arm to save the Villain from the Gallows▪ where was he, Friend, when he gave you this Letter? —</p>
+      </sp>
+      <sp who="#porter">
+       <speaker>Porter.</speaker>
+       <p>I fancy, Master, the Gentleman's<note n="‖" place="foot">Macbeth.</note>
+        <pb n="40" facs="49"/>
+under Troubles—I brought it from a Spunging-House.</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>From a Spunging-House!</p>
+      </sp>
+      <sp who="#porter">
+       <speaker>Porter.</speaker>
+       <p>Yes, Sir, in <hi>Grays-Inn-Lane.</hi>
+       </p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Let him lie there, let him lie there—I am glad of it—</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>Do my dear Sir, let us step to him —</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>No, not I, let him stay there—this it is to have a Genius— ha! ha!—a Genius! — ha! ha! — a Genius is a fine Thing indeed! — ha! ha!</p>
+       <stage>Exit:</stage>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>Poor Man! he has certainly a Fever on his Spirits—do you step in with me, honest Man, till I slip on my Coat, and then I'll go after this unfortunate Boy.</p>
+      </sp>
+      <sp who="#porter">
+       <speaker>Porter.</speaker>
+       <p>Yes, Sir, — it's in <hi>Grays-inn-Lane.</hi>
+       </p>
+       <stage>Exeunt.</stage>
+      </sp>
+     </div>
+     <div type="scene">
+      <head>
+       <hi>Scene</hi>
+       <stage>
+        <hi>a Spunging-House,</hi> Dick <hi>and</hi> Bailiff <hi>at a Table, and</hi> Charlotte <hi>sitting in a disconsolate Manner by him.</hi>
+       </stage>
+      </head>
+      <sp who="#catchpole">
+       <speaker>Bailiff.</speaker>
+       <p>Here's my Service to you young Gentleman—Don't be uneasy — the Debt is not much — why do you look so sad?</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>Because<note n="*" place="foot">Mourning Bride.</note>Captivity has robb'd me of a just and dear Diversion.</p>
+      </sp>
+      <sp who="#catchpole">
+       <speaker>Bailiff.</speaker>
+       <p>Never look sulky at me — I never use any body ill—Come, it has been many a good Man's Lot—here's my Service to you—but we've no Liquor—come, we'll have t'other Bowl—</p>
+      </sp>
+      <sp who="#dick">
+       <pb n="41" facs="50"/>
+       <speaker>Dick.</speaker>
+       <p>
+        <note n="*" place="foot">Venice Preserv'd.</note>I've now not fifty Ducats in the World — yet still I am in Love, and pleas'd with Ruin—</p>
+      </sp>
+      <sp who="#catchpole">
+       <speaker>Bailiff.</speaker>
+       <p>What do you say? —you've fifty Shillings, I hope.—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>
+        <note n="†" place="foot">Ditto.</note>Now thank Heaven! I'm not worth a Groat —</p>
+      </sp>
+      <sp who="#catchpole">
+       <speaker>Bailiff.</speaker>
+       <p>Then there's no Credit here, I can tell you that — you must get Bail, or go to <hi>Newgate</hi>—who do you think is to pay House-rent for you? — You see your Friends won't come near you — They've all answered in the old Cant —<hi>I've promised my Wife never to be Bail for any Body;</hi> or, <hi>I've sworn not to do it</hi>—or <hi>I'd lend you the Money if I had it, but desire to be excused from bailing any Man.</hi>—The Porter you just now sent, will bring the same Answer, I warrant — Such Poverty-struck Devils as you shan't stay in my House —you shall go to <hi>Quod,</hi> I can tell you that —</p>
+       <stage>Knocking at the Door.</stage>
+      </sp>
+      <sp who="#catchpole">
+       <speaker>Bailiff.</speaker>
+       <p>Coming, coming, I am coming—I shall lodge you in <hi>Newgate,</hi> I promise you, before Night, — not worth a Groat!—you're a fine Fellow to stay in a Man's House— You shall go to <hi>Quod.</hi>
+       </p>
+       <stage>Exit.</stage>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>Come, clear up, <hi>Charlotte,</hi> never mind this — come, now—let us act the Prison-Scene in the Mourning-Bride—</p>
+      </sp>
+      <sp who="#charlotte">
+       <speaker>Charlotte.</speaker>
+       <p>How can you think of acting Speeches, when we're in such Distress?—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>Nay, but my dear Angel. —</p>
+      </sp>
+      <stage>
+       <pb n="42" facs="51"/>
+       <hi>Enter</hi> Wingate <hi>and</hi> Gargle.</stage>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>Hush! Do, dear Sir, let us listen to him—I dare say he repents—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Wounds! — what Cloaths are those the Fellow has on? — Zookers, the Scoundrel has robbed me.—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>Come, now we'll practice an Attitude—How many of 'em have you?—</p>
+      </sp>
+      <sp who="#charlotte">
+       <speaker>Charlotte.</speaker>
+       <p>Let me see—one—two—three—and then in the fourth Act, and then—O <hi>Gemini</hi> I have ten at least—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>That will do swimmingly—I've a round Dozen <hi>myself</hi>—Come now begin—you fancy me dead, and I think the same of you—now mind—</p>
+       <stage>They stand in Attitudes.</stage>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Only mind the Villain.—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>O thou soft fleeting Form of <hi>Lindamira!</hi>—</p>
+      </sp>
+      <sp who="#charlotte">
+       <speaker>Charlotte.</speaker>
+       <p>
+        <note n="*" place="foot">Romeo and Juliet.</note>Illusive Shade of my beloved Lord!</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>
+        <note n="†" place="foot">Ditto,</note>She lives, she speaks and we shall still be happy.—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate,</speaker>
+       <p>You lye you Villain, you shan't be happy.—</p>
+       <stage>Knocks him down.</stage>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <stage>(on the Ground.)</stage>
+       <p>
+        <note n="‡" place="foot">Richard III.</note>Perdition catch your Arm, the Chance is thine.—</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>So my young Madam—I have found you again.—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>
+        <note n="‖" place="foot">Romeo.</note>
+        <hi>Capulet</hi> forbear; <hi>Paris</hi> let loose your Hold—She is my Wife—our Hearts are twined together.—</p>
+      </sp>
+      <sp who="#wingate">
+       <pb n="43" facs="52"/>
+       <speaker>Wingate.</speaker>
+       <p>Sirrah! Villain! I'll break every Bone in your Body—</p>
+       <stage>Strikes.</stage>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>
+        <note n="*" place="foot">Romeo and Juliet.</note>Parents have flinty Hearts, no Tears can move 'em: Children must be wretched—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Get off the Ground, you Villain; get off the Ground.—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>It's a Pity there are no Scene-drawers to lift me—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>A Scoundrel, to rob your Father; you Rascal I've a Mind to break your Head.</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>
+        <note n="†" place="foot">Barbarossa.</note>What, like this?</p>
+       <stage>Takes off his Wig, and shews two Patches on his Head.</stage>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>It's mighty well, young Man—Zookers! I made my own Fortune; and I'll take a Boy out of the <hi>Blue-coat-Hospital,</hi> and give him all I have.—Look-ye here, Friend <hi>Gargle</hi>—You know I'm not a hard-hearted Man—The Scoundrel, you know, has robbed me; so, d'ye see, I won't hang him,—I'll only transport the Fellow—And so, Mr.<hi>Catchpole,</hi> —you may take him to <hi>Newgate.</hi>—</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>Well but, Dear Sir, you know I always intended to marry my Daughter into your Family; and if you let the young Man be ruined, my Money must all go into another Channel.—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>How's that?—into another Channel!—Must not lose the handling of his Money—Why, I told you, Friend <hi>Gargle,</hi> I'm not a hard-hearted Man.—</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>Why no, Sir—but your Passions—However, if you will but make the young Gentleman serve out the last Year of his Apprenticeship, you know I shall be giving over, and I may put him into all my Practice.—</p>
+      </sp>
+      <sp who="#wingate">
+       <pb n="44" facs="53"/>
+       <speaker>Wingate.</speaker>
+       <p>Ha! ha!—Why—if the Blockhead would but get as many crabbed physical Words from <hi>Hyppocrites</hi> and <hi>Allen,</hi> as he has from his nonsensical Trumpery,—ha! ha!—I don't know, between you and I, but he might pass for a very good Physician.—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>
+        <note n="*" place="foot">Romeo and Juliet.</note>And must I leave thee, <hi>Juliet?</hi>—</p>
+      </sp>
+      <sp>
+       <p>
+        <hi>Charlotte.</hi> Nay, but, prithee now have done with your Speeches — You see we are brought to the last Distress, and so you had better make it up—</p>
+       <stage>
+        <hi>Aside to</hi> Dick.</stage>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>Why for you're Sake, my Dear, I could almost find it in my Heart—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>You'll settle your Money on your Daughter?—</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>You know it was always my Intention.—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>I must not let the Cash slip thro' my Hands: <stage>(Aside.)</stage> Look-ye here, young Man—I am the best-natured Man in the World—How came this Debt, Friend?</p>
+      </sp>
+      <sp who="#catchpole">
+       <speaker>Bailiff.</speaker>
+       <p>The Gentleman gave his Note at <hi>Bristol,</hi> I understands, where he boarded—'tis but twenty Pounds.—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Twenty Pounds! Well, why don't you send to your Friend <hi>Shakespear</hi> now to bail you—ha! ha! I should like to see <hi>Shakespear</hi> give Bail—ha! ha!—Mr. <hi>Catchpole,</hi> will you take Bail of <hi>Ben Thompson,</hi> and <hi>Shakespear</hi> and <hi>Odyssey Popes?</hi> —</p>
+      </sp>
+      <sp who="#catchpole">
+       <speaker>Bailiff.</speaker>
+       <p>No such People have been here, Sir—are they House-keepers?—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>
+        <note n="†" place="foot">Mourning-Bride.</note>You do not come to mock my Miseries?—</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>Hush! young man, you'll spoil all—Let me speak to you—How is your Digestion?</p>
+      </sp>
+      <sp who="#dick">
+       <pb n="45" facs="54"/>
+       <speaker>Dick.</speaker>
+       <p>
+        <note n="*" place="foot">Macbeth.</note>Throw Physic to the Dogs, I'll none of it—</p>
+      </sp>
+      <sp who="#charlotte">
+       <speaker>Charlotte.</speaker>
+       <p>Nay, but dear <hi>Dick</hi> for my Sake—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>What says he, <hi>Gargle</hi>—</p>
+      </sp>
+      <sp who="#gargle">
+       <speaker>Gargle.</speaker>
+       <p>He repents, Sir—he'll reform.—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>That's right Lad—now you're right—and if you will but serve out your Time, my Friend <hi>Gargle</hi> here, will make a Man of you—Wounds! you'll have his Daughter and all his Money—And if I hear no more of your Trumpery, and you mind your Business, and stick to my little <hi>Charlotte,</hi> and make me a Grandfather in my old Days,—Egad, you shall have all mine too—that is when I'm dead.—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>
+        <hi>Charlotte,</hi>—that will do rarely, and we may go to the Play as often as we please—</p>
+      </sp>
+      <sp who="#charlotte">
+       <speaker>Charlotte.</speaker>
+       <p>O <hi>Gemini,</hi> it will be the purest Thing in the World, and we'll see <hi>Romeo</hi> and <hi>Juliet</hi> every Time it is acted.—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>Ay, and that will be a hundred Times in a Season at least. — Besides, it will be like a Play, if I reform at the End—<note n="†" place="foot">Hamlet.</note> Sir, free me so far in your most generous Thoughts, that I have shot my Arrow o'er the House, and hurt my Brother—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>What do you say, Friend?—</p>
+      </sp>
+      <sp who="#charlotte">
+       <speaker>Charlotte.</speaker>
+       <p>Nay, but prithee now do it in plain <hi>English</hi>—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>Well, well, I will—He knows nothing of Metaphors—Sir, you shall find for the future, that we'll both endeavour to give you all the Satisfaction in our Power. —</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Very well, that's right — you may do very well — Friend <hi>Gargle,</hi> I'm overjoy'd—</p>
+      </sp>
+      <sp who="#gargle">
+       <pb n="46" facs="55"/>
+       <speaker>Gargle.</speaker>
+       <p>Chearfulness, Sir, is the principal Ingredient in the Composition of Health.—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Wounds! Man, let's hear no more of your Physick—here, young Man, put this Book in your Pocket, and let me see how soon you'll be Master of Vulgar Fractions. —Mr. <hi>Catchpole,</hi> step home with me, and I'll pay you the Money — you seem to be a notable Sort of a Fellow, Mr. <hi>Catchpole,</hi> —could you nab a Man for me?</p>
+      </sp>
+      <sp who="#catchpole">
+       <speaker>Catchpole.</speaker>
+       <p>— Fast enough, Sir, when I've the Writ—</p>
+      </sp>
+      <sp who="#wingate">
+       <speaker>Wingate.</speaker>
+       <p>Very well, come along—I lent a young Gentleman a Hundred Pounds, — a cool Hundred he call'd it— ha! ha! —it did not stay to cool with him — I had a good Praemium; but I sha'n't wait a Moment for that—come along, young Man;—what Right have you to twenty Pounds?— give you twenty Pounds!—I never was obliged to my Family for twenty Pounds—but I'll say no more — if you have a Mind to thrive in this World, make yourself useful is the <hi>Golden Rule.</hi>
+       </p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>My dear <hi>Charlotte,</hi> as you are to be my Reward, I will be a new Man —</p>
+      </sp>
+      <sp who="#charlotte">
+       <speaker>Charlotte.</speaker>
+       <p>Well, now I shall see how much you love me—</p>
+      </sp>
+      <sp who="#dick">
+       <speaker>Dick.</speaker>
+       <p>It shall be my Study to deserve you—and since we do'n't, go on the Stage, it's some Comfort that the World's a Stage, and all the Men and Women merely Players.</p>
+       <lg>
+        <l>Some play the upper, some the under Parts,</l>
+        <l>And most assume what's foreign to their Hearts:</l>
+        <l>Thus, Life is but a Tragi-comic Jest,</l>
+        <l>And all is Farce and Mummery at best.</l>
+       </lg>
+      </sp>
+     </div>
+    </div>
+    <trailer>FINIS.</trailer>
+   </div>
+  </body>
+ </text>
+</TEI>

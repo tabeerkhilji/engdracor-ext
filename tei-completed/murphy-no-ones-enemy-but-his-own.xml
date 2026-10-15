@@ -1,0 +1,3480 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">No one's enemy but his own</title>
+    <title type="sub">A comedy in three acts, as it is performed at the Theatre-Royal in Covent-Garden.</title>
+    <author>
+     <persName>
+      <surname>Murphy</surname>
+      <forename>Arthur</forename>
+      <idno type="VIAF">24641385</idno>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>No one's enemy but his own: A comedy in three acts, as it is performed at the Theatre-Royal in Covent-Garden.</name>
+     <author>Murphy, Arthur, 1727-1805.</author>
+     <publisher>printed for P. Vaillant,</publisher>
+     <date>1764.</date>
+     <pubPlace>London :</pubPlace>
+     <note>Anonymous. By Arthur Murphy.</note>
+     <note>With a half-title.</note>
+     <note>Reproduction of original from the British Library.</note>
+     <note>English Short Title Catalog, ESTCT43118.</note>
+     <note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note>
+    </bibl>
+    <biblFull n="printed source">
+     <publicationStmt>
+      <authority ref="#JJ">Jan Jokisch</authority>
+      <date>2024 December</date>
+      <idno type="ECCO_Drama">K041852.000</idno>
+      <idno type="DLPS">004808366</idno>
+      <idno type="ESTC">T43118</idno>
+      <idno type="DocNo">CW110073525</idno>
+      <idno type="TCP">K041852.000</idno>
+      <idno type="GaleDocNo">CW3310073525</idno>
+      <idno type="ContentSet">ECLL</idno>
+      <idno type="ImageSetID">0057603800</idno>
+      <availability>
+       <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+      </availability>
+     </publicationStmt>
+    </biblFull>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="bellfield">
+      <persName>BELLFIELD</persName>
+      <sex value="MALE"/>
+     </person>
+     
+     <person xml:id="blunt">
+      <persName>BLUNT</persName>
+      <sex value="MALE"/>
+     </person>
+     <person xml:id="brazen">
+      <persName>BRAZEN</persName>
+      <sex value="MALE"/>
+     </person>
+     <person xml:id="careless">
+      <persName>CARELESS</persName>
+      <sex value="MALE"/>
+     </person>
+     
+     <person xml:id="crib">
+      <persName>CRIB</persName>
+      <sex value="MALE"/>
+     </person>
+     <person xml:id="hortensia">
+      <persName>HORTENSIA</persName>
+      <sex value="FEMALE"/>
+     </person>
+     <person xml:id="la_jeunesse">
+      <persName>LA JEUNESSE</persName>
+      <sex value="MALE"/>
+     </person>
+     <person xml:id="lucinda">
+      <persName>LUCINDA</persName>
+      <sex value="FEMALE"/>
+     </person>
+     
+     <person xml:id="servant">
+      <persName>SERVANT</persName>
+      <sex value="MALE"/>
+     </person>
+     
+     <person xml:id="sir_philip_figurein">
+      <persName>SIR PHILIP FIGUREIN</persName>
+      <sex value="MALE"/>
+     </person>
+     <person xml:id="wisely">
+      <persName>WISELY</persName>
+      <sex value="MALE"/>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1764">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text xml:lang="en">
+  <front>
+   <div type="halftitle">
+    <pb facs="1"/>
+    <p>No One's Enemy but His Own.</p>
+    <p>[Price One Shilling and Six-pence.]</p>
+   </div>
+   <div type="titlepage">
+    <pb facs="2"/>
+    <p>No One's Enemy but His Own.</p>
+    <p>A COMEDY In THREE ACTS.</p>
+    <p>As it is PERFORMED at the THEATRE-ROYAL in COVENT-GARDEN.</p>
+    <p>Plenus rimarum sum; hac atque illac perfluo.</p>
+    <bibl>TER</bibl>
+    <p>LONDON, Printed for P. VAILLANT, facing Southampton-street, in the Strand.</p>
+    <p>MDCCLXIV.</p>
+   </div>
+   <div type="prologue">
+    <pb facs="3"/>
+    <head>PROLOGUE.</head>
+    <byline>Spoken by Mr. SMITH.</byline>
+    <sp>
+     <l>BOLD was the man, and senc'd in ev'ry part</l>
+     <l>With oak, and ten-fold brass about the heart,</l>
+     <l>To build a play who tortur'd first his brain,</l>
+     <l>And then dar'd launch it on this stormy main.</l>
+     <l>What tho', at first, he spreads his little sails</l>
+     <l>To Heav'n's indulgent and propitious gales,</l>
+     <l>As the land gradual lessens to his eye</l>
+     <l>He finds a troubled sea, and low'ring sky:</l>
+     <l>Envy, detraction, calumny, and spite,</l>
+     <l>Ra6ise a worse storm than when the winds unite.</l>
+     <l>Around his bark, in many a dang'rous shoal,</l>
+     <l>Those monsters of the deep, the critics, prowl.</l>
+     <l>"She's a weak vessel, for these seas unfit,</l>
+     <l>"And has on board her not a spice of wit:</l>
+     <l>"She's French-built too; of foreign make," they cry;</l>
+     <l>Like geese still cackling that the Gauls are nigh.</l>
+     <l>If thrown on rocks by the hoarse dashing wave,</l>
+     <l>Th' unhappy crew no hand is stretch'd to save;</l>
+     <l>But round the wreck, like Moors, with furious joy,</l>
+     <l>The witlings crowd—to murder and destroy,</l>
+     <l>These are known dangers; and, still full as certain,</l>
+     <l>The bard meets other ills behind the curtain.</l>
+     <l>Little you think, ere yet you fix his fate,</l>
+     <l>What previous mischiefs there in ambush wait;</l>
+     <l>What plagues arise from all the mimic throng:</l>
+     <l>"My part's too short;—and, Sir, my part's too long."</l>
+     <l>
+      <pb facs="4"/>This calls for incident; that repartee.</l>
+     <l>"Down the back-stairs pen an escape for me.</l>
+     <l>"Give me a ladder, Mr. Bayes, of rope;</l>
+     <l>"I love to wear the breeches, and elope.</l>
+     <l>"Something for me the groundlings ears to split.</l>
+     <l>"Write a dark closet, or a fainting-fit.</l>
+     <l>"Fix Woodward in some whimsical disgrace:</l>
+     <l>"Or be facetious with Ned Shuter's face."</l>
+     <l>This is our way; and yet our bard to night</l>
+     <l>Removes each obstacle, and springs to light.</l>
+     <l>Some scenes, we hope, he brings to nature true;</l>
+     <l>Some gleams of humour, and a moral too;</l>
+     <l>But no strange monsters offers to your view:</l>
+     <l>No forms, grotesque and wild, are here at strife:</l>
+     <l>He boasts an etching from the real life;</l>
+     <l>Exerts his efforts, in a polish'd age,</l>
+     <l>To drive the Smithfield muses from the stage;</l>
+     <l>By easy dialogue would win your praise,</l>
+     <l>And on fair decency graft all his bayes.</l>
+    </sp>
+   </div>
+   <div type="bythesameauthor">
+    <pb facs="5"/>
+    <head>Lately Published, <hi>By the Author of this Piece,</hi>
+    </head>
+    <p>
+     <table>
+      <row>
+       <cell> </cell>
+       <cell role="label">
+        <hi>s.</hi>
+       </cell>
+       <cell role="label">
+        <hi>d.</hi>
+       </cell>
+      </row>
+      <row>
+       <cell>The Orphan of China. A Tragedy.</cell>
+       <cell>1</cell>
+       <cell>6</cell>
+      </row>
+      <row>
+       <cell>The Desert Island. A Dramatic Poem.</cell>
+       <cell>1</cell>
+       <cell>6</cell>
+      </row>
+      <row>
+       <cell>The Way to Keep Him. A Comedy.</cell>
+       <cell>1</cell>
+       <cell>6</cell>
+      </row>
+      <row>
+       <cell>All in the Wrong. A Comedy.</cell>
+       <cell>1</cell>
+       <cell>6</cell>
+      </row>
+      <row>
+       <cell>The Apprentice. A Farce.</cell>
+       <cell>1</cell>
+       <cell>0</cell>
+      </row>
+      <row>
+       <cell>The Upholsterer. A Farce.</cell>
+       <cell>1</cell>
+       <cell>0</cell>
+      </row>
+      <row>
+       <cell>The Old Maid.</cell>
+       <cell>1</cell>
+       <cell>0</cell>
+      </row>
+      <row>
+       <cell>The Citizen.</cell>
+       <cell>1</cell>
+       <cell>0</cell>
+      </row>
+     </table>
+    </p>
+    <p>Also, just Published, As it was intended to be Acted at the Theatre Royal in Covent-Garden, What WE must ALL come to.</p>
+    <p>A Comedy of Two Acts, Price 1 s.</p>
+   </div>
+   <div type="Dramatis_Personae">
+    <pb facs="6"/>
+    <castList>
+     <head>Dramatis Personae.</head>
+     <castItem>MEN.</castItem>
+     <castItem>
+      <role>CARELESS</role>
+      <actor>Mr. WOODWARD</actor>
+     </castItem>
+     <castItem>
+      <role>SIR PHILIP FIGUREIN</role>
+      <actor>Mr. SHUTER</actor>
+     </castItem>
+     <castItem>
+      <role>WISELY</role>
+      <actor>Mr. Ross</actor>
+     </castItem>
+     <castItem>
+      <role>BELLFIELD</role>
+      <actor>Mr. SMITH</actor>
+     </castItem>
+     <castItem>
+      <role>BLUNT</role>
+      <actor>Mr. CLARKE</actor>
+     </castItem>
+     <castItem>
+      <role>BRAZEN, Servant to Wisely</role>
+      <actor>Mr. CUSHING</actor>
+     </castItem>
+     <castItem>
+      <role>A SERVANT to Careless</role>
+      <actor>Mr. WELLER</actor>
+     </castItem>
+     <castItem>
+      <role>CRIB, a Taylor</role>
+      <actor>Mr. COSTOLLO</actor>
+     </castItem>
+     <castItem>
+      <role>LA JEUNESSE, A French Barber</role>
+      <actor>Mr. HOLTOM</actor>
+     </castItem>
+     <castItem>WOMEN.</castItem>
+     <castItem>
+      <role>HORTENSIA</role>
+      <actor>Mrs. WARD</actor>
+     </castItem>
+     <castItem>
+      <role>LUCINDA</role>
+      <actor>Miss ELLIOTT</actor>
+     </castItem>
+    </castList>
+   </div>
+   <set>
+    <p>SCENE, WINDSOR.</p>
+   </set>
+  </front>
+  <body>
+   <div type="play">
+    <pb n="1" facs="7"/>
+    <head>No One's Enemy but his own.</head>
+    <div n="1" type="act">
+     <head>ACT I.</head>
+     <div type="scene">
+      <stage>
+       <hi>Enter</hi> CARELESS <hi>and</hi> BLUNT.</stage>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>
+        <seg rend="decorInit">F</seg>OR all that, Careless, I wish you had a little of that man in your composition.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Of him! of Wisely!—My dear Blunt, not for the wide world.—Wisely has, indeed, the name of a good sort of a sensible kind of man—and he is so—but the heart is never concerned in what he says or does.</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>Why, as to his heart, according to the way of the world—</p>
+      </sp>
+      <sp who="#careless">
+       <pb n="2" facs="8"/>
+       <speaker>CARELESS.</speaker>
+       <p>He has none, Sir; no heart at all: his affections are all contracted into a narrow attention to self; and his understanding acts the subservient part to schemes of interest.—</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>Why that is the very quality I wish you possessed a little of;—you would not then be liable to ridiculous miscarriages in every thing you undertake.—</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>There! going again to harp upon my indiscretions. But prithee no more of that—I am wonderfully altered.—'Tis true, I have had hitherto an unguarded openness of temper; but that's all over.</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>All over!—My dear Careless, you will never give it over. You are the very sieve of your own intentions, the Marplot of your own designs.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Oh! no, no—I am very secret of late.</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>'Sdeath, man, I would as soon trust a secret with the printer of a daily paper.—Was it not but the other day you lost a seat in parliament by not keeping your own counsel?</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>There again now you wrong me: Sir William's interest was weaken'd, and—</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>Psha! I know the whole affair: You blabbed the scheme, and a whisper from above to the corporation undid you.</p>
+      </sp>
+      <sp who="#careless">
+       <pb n="3" facs="9"/>
+       <speaker>CARELESS.</speaker>
+       <p>Well! well! that has taught me wisdom.—</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>Wisdom! have you said nothing of Lucinda lately?</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Not a syllable.</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>Have not you shewn her letter to any body?</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Letter!—why—a—</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>You have shewn it; and there is captain Wimble in a fury about a paragraph relating to himself.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Captain Wimble!—I—I—now there, upon, my soul, I am very ill used.—I never shewed that letter to any body but Jack Tattle;—under the seal of secrecy too.—There is no such thing as trusting any body.</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>It was not he betray'd you.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Nobody else saw a syllable of it.</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>Not my lady Betty Gabble?</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>My lady Betty! I—I repeated a passage to my lady Betty Gabble, merely by way of conversation.</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>And by way of conversation you are for ever marring all your own schemes.</p>
+      </sp>
+      <sp who="#careless">
+       <pb n="4" facs="10"/>
+       <speaker>CARELESS.</speaker>
+       <p>Well, if that's the case, a Jew without renouncing shall as soon gain admission to the Pope's toe, as any man get into my secrets again.</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>Caution is necessary, let me tell you, Careless; men are inquisitive into other people's business.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>So they are, Sir.</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>Ridicule and raillery are the taste of the age: every one you meet is a pleasant fellow; he has picked up a character, an incident, a story, a damn'd high story; and so a friend is sacrificed to the sport of the next company.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Very true;—I find it so;—but I am a new man grown, notwithstanding all your criticisms upon my character.</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>A new man!—Why you have ruin'd yourself with Lucinda: She'll never marry you.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Ha! ha! you see now I can keep a secret.—Ha! ha! my dear Blunt, I don't intend to marry her.</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>No!</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>No;—that has been settled this week; and tho' you and I live here at Windsor in the same house,—ha! ha!—I have kept it from you these six or seven days.</p>
+      </sp>
+      <sp who="#blunt">
+       <pb n="5" facs="11"/>
+       <speaker>BLUNT.</speaker>
+       <p>Well; if you have sufficient motives for breaking off—</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>I have.—Ha! ha!—You must not be in the cabinet-council of my amours.—Ha! ha! tho'—ha! ha!—you will be surpriz'd when you know my reasons.—Ha! ha! the greatest thing in the world for me.—Ha! ha!</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>Well, if it is so, be upon your guard.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Yes, yes; that's absolutely necessary: it all depends upon secrecy.—Ha! ha!—It's a prodigious hit.</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>You'll defeat it yourself. Thou'rt an honest fellow, Careless, and no one's enemy but your own.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Never fear me; ha! ha! you'll be rejoic'd when you hear it.—Ha! ha!</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>I hope so.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Ha! ha! you would never have suspected it.—Ha! ha!—It will astonish the world how I brought it about.—Ha! ha! I have a mind to give you a hint.</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>There again now!</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>How can you be so supercilious? Telling you is nothing. Ha! ha! My dear Blunt, if you will promise me—</p>
+      </sp>
+      <sp who="#blunt">
+       <pb n="6" facs="12"/>
+       <speaker>BLUNT.</speaker>
+       <p>I had rather not hear it.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>It will so astonish you.—Ha! ha! I shall have a borough of my own.</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>Well, but why need you speak? I had rather—</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Only to you, only to you. Ha! ha! it will so surprize you:—The charming, youthful, lovely widow—.</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>Prythee, man, lock it up in your own breast.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Hortensia, my boy!—Ha! ha!—In a few days I am to be married to her.</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>Hortensia! how the devil could you get access to her. Her way of life is so retir'd—</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>I knew it would surprize you.—Is it not a great affair?</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>Very great indeed!</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>My dear Blunt, I am ruin'd if a syllable transpires.—She can't bear to be the topic of the day;—she has broke off several matches because her lovers were imprudent enough to make her the tea-table talk.</p>
+      </sp>
+      <stage>
+       <pb n="7" facs="13"/>
+       <hi>Enter a</hi> SERVANT.</stage>
+      <sp who="#servant">
+       <speaker>SERVANT.</speaker>
+       <p>Your honour's taylor, Sir, from London, and your peruke-maker.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Shew them in. <stage>[<hi>Exit</hi> Servant.]</stage> These are preparations for my wedding—Ha! ha! Have not I manag'd it well?</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>Well, now continue to be upon your guard till all's concluded.—While you are busy with these fellows, I'll just step and write a short letter.—Wisely sets out for London to-day, and he'll take my letter with him.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Ha! ha!—How the world will stare! Ha! ha!</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>They will so.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>But you see all depends upon close management:—Now, if you have the friendship for me you have always profess'd, let me entreat you—</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>Be watchful of yourself, my dear Careless, and—</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Oh! you may be sure of me;—it's too deep a stake—ha! ha!</p>
+       <stage>
+        <hi>Exit</hi> Blunt.</stage>
+       <p>Notwithstanding his notions of my character, he sees now that I—ha! ha!</p>
+      </sp>
+      <stage>
+       <pb n="8" facs="14"/>
+       <hi>Enter</hi> CRIB <hi>and</hi> LA JEUNESSE.</stage>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Walk in, Mr. Crib—Monsieur La Jeunesse, <stage>bien venuë.</stage>
+       </p>
+      </sp>
+      <sp who="#la_jeunesse">
+       <speaker>LA JEUNESSE.</speaker>
+       <p>Monsieur, I have de honour of make you such wig as by gar was never seen.</p>
+      </sp>
+      <sp who="#crib">
+       <speaker>CRIB.</speaker>
+       <p>And I, Sir, have brought you such a suit of cloaths—I shall so admire them when your honour has them on. The greatest pleasure of my life is to admire my own cloaths.</p>
+      </sp>
+      <sp who="#la_jeunesse">
+       <speaker>LA JEUNESSE.</speaker>
+       <p>By gar, me go to de Mall every Sunday, on purpose to see my wig walk by.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Gentlemen, ye are both eminent in your vocations.</p>
+      </sp>
+      <sp who="#crib">
+       <speaker>CRIB.</speaker>
+       <p>Ah, Sir! you will be such a handsome bridegroom in this suit.—Will your honour please to try it on?</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>You adapt your work so perfectly to my person, Mr. Crib, that I am sure it fits me.—Monsieur La Jeunesse, you may try on the wig.</p>
+      </sp>
+      <sp who="#la_jeunesse">
+       <speaker>LA JEUNESSE.</speaker>
+       <p>De tout mon coeur—a ça—wid dis wig you will look <hi>comme un ange.</hi>—Dis wig! pardie, it is not wig, it is head of hair—a ça.—Has it de honour of being easy on de head?</p>
+      </sp>
+      <sp who="#careless">
+       <pb n="9" facs="15"/>
+       <speaker>CARELESS.</speaker>
+       <p>Vastly well, Monsieur La Jeunesse.</p>
+      </sp>
+      <sp who="#la_jeunesse">
+       <speaker>LA JEUNESSE.</speaker>
+       <p>Voions! it is nature make dat, and not me.</p>
+      </sp>
+      <sp who="#crib">
+       <speaker>CRIB.</speaker>
+       <p>With my cloaths on, Sir, madam Lucinda will so admire—</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>You think I am to be married to her, do you, master Crib?</p>
+      </sp>
+      <sp who="#crib">
+       <speaker>CRIB.</speaker>
+       <p>So the world says, your honour.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>The world! ha! ha!</p>
+      </sp>
+      <sp who="#la_jeunesse">
+       <speaker>LA JEUNESSE.</speaker>
+       <p>It is ver fine demoiselle; and it will be so <hi>en amour</hi> wid my wig.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Ha! ha! you are two foolish fellows.—And so you think she is the happy woman, do ye?</p>
+      </sp>
+      <sp who="#la_jeunesse">
+       <speaker>LA JEUNESSE.</speaker>
+       <p>It is all de talk of de great worl.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>The great world is greatly mistaken.—I don't think of her.</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT</speaker>
+       <stage>[Entering].</stage>
+       <p>What is he about now?</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>An intrigue with Lucinda might be agreeable enough; and, not to mince the matter, I believe I shall bring it to that.—The lady seems to think her fortune places her above censure; and
+<pb n="10" facs="16"/>she coquets with so many men, that hang me if I don't believe she means to keep her estate in her own hands, and to have all the pleasures of matrimony without parting with her power.</p>
+      </sp>
+      <sp who="#la_jeunesse">
+       <speaker>LA JEUNESSE.</speaker>
+       <p>Monsieur, that is a leetle a-la-mode.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Yes, I fancy I shall have an affair with the lady.</p>
+      </sp>
+      <sp who="#la_jeunesse">
+       <speaker>LA JEUNESSE.</speaker>
+       <p>By gar, monsieur, you may have intrigue wid who you will.—My wig it is not easy resist.—I assure you, my wig it have more intrigue dan any body at all.</p>
+      </sp>
+      <sp who="#crib">
+       <speaker>CRIB.</speaker>
+       <p>And my cloaths, Sir; my cloaths have had more fine women—And so your honour does not think of marriage?</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Not with Lucinda; but I shall be married for all that.—Ha! ha!—You must not take any notice.</p>
+      </sp>
+      <sp who="#la_jeunesse">
+       <speaker>LA JEUNESSE.</speaker>
+       <p>Oh! d'honneur!</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Ha! ha! when you hear of a rich blooming widow—</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>Death and fury! he is going to divulge all.—Careless, I have finish'd my letter.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Have you?—Gentlemen, I have no further occasion—</p>
+      </sp>
+      <sp who="#crib">
+       <pb n="11" facs="17"/>
+       <speaker>CRIB.</speaker>
+       <p>Your honour's most obedient.</p>
+      </sp>
+      <sp who="#la_jeunesse">
+       <speaker>LA JEUNESSE.</speaker>
+       <p>By gar, I long to know my wig who it is to be married to.</p>
+       <stage>
+        <hi>Exit</hi> Crib <hi>and</hi> La Jeunesse.</stage>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>For shame, Careless!—You were going to trust these fellows:—And you blabb'd about Lucinda.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Psha! that's nothing; they are two silly rascals, and will think no more about it.</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>And thus you reconcile yourself to your follies.—But don't you know, that tho' Hortensia may have as prompt inclinations as any of her sex, she seems to act more from judgment than des;ire?</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Yes, man, I know all that.—She says so herself, here in a charming, charming note she sent me yesterday. <stage>[He searches for it.]</stage> Where the devil is it?—Zoons! I have not lost it!—Here, Richard, George, run to my room, and see if I have left a letter there.—I was upon the terras last night—'Sdeath, if I dropt it there—.</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>This is being qualified for a secret now.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Confusion! this will be the devil and all.—Ho! no! I have it safe—You see, Blunt, I am close enough.—Now you shall hear it.</p>
+      </sp>
+      <stage>
+       <pb n="12" facs="18"/>
+       <hi>Enter</hi> WISELY.</stage>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>Gentlemen, your servant. Is your letter ready, Blunt?</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>My dear Wisely, I am sorry we are to lose you—Some disappointment in love, I reckon.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>There are other perplexities besides those of love, Sir.—But no matter for my concerns; I don't desire to be either pitied or envied.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Now I like to provoke the envy of mankind: And here is that <stage>[Shewing the letter]</stage> will make my acquaintance look on me with a jealous eye.</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>Po! prythee, put up.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Nay, I can trust my friend Wisely;—he is an honest fellow, and minds nobody's business but his own;—he shall know it before he goes to town. <stage>[Reads.]</stage> "Hortensia's compliments to Mr. Careless—"</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>Hortensia to him! <stage>[Aside.]</stage> Well, Sir,</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>Careless, how can you?</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Psha! he is going to town; he'll not obstruct me.</p>
+      </sp>
+      <sp who="#wisely">
+       <pb n="13" facs="19"/>
+       <speaker>WISELY.</speaker>
+       <p>No, truly, not I, Sir.—Unless you put me in the way. <stage>[Aside.]</stage>
+       </p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Hortensia's compliments to Mr. Careless; she thinks it vain to attempt concealing an inclination which he has raised in her heart, and which many circumstances must have already interpreted. She was at first alarmed at Mr. Careless's unguarded temper, but expects from his good sense an absolute silence, till every thing is concluded. You see, Blunt, she thinks differently of my character from what you do.—Ha! ha!</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>Weak, idle man!</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>She will meet him at Sir Philip Figurein's mask this evening: And, in the mean time, desires he will hide—from the world this declaration of her heart, which the merit of Mr. Careless has extorted from her. There's a billet doux for you.</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>Well, you obey the lady's commands most admirably.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Don't be so cynical!—This is among ourselves.</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>Among ourselves!—Suppose Wisely was in love with her.</p>
+      </sp>
+      <sp who="#wisely">
+       <pb n="14" facs="20"/>
+       <speaker>WISELY.</speaker>
+       <p>I, Sir—I—the lady is very little known to me.—I would not be suspected for the world. <stage>[Aside.]</stage>
+       </p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>Po! I hate to see you play the fool thus.—Wisely, let your man deliver this letter for me.—Careless, your servant.</p>
+       <stage>Exit.</stage>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Fare you well, philosoper.—Poor Blunt! he thinks I don't know how to distinguish between men; but I can confide in you—I know thou'rt an honest fellow.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>Oh, you may confide in me, I assure you, Sir. I have such an interest now in this business, that I am heartily oblig'd to you for the intelligence.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Ay, I knew you would be glad to hear it.—Well now, a'n't I a very happy fellow?—Ha! ha!—This letter would be enough to break the heart of a rival; to make him challenge me, fight me, kill me.—Ha! ha!</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>Why it is a serious business for a rival. <stage>[Forcing a laugh.]</stage>
+       </p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Only think of my carrying off Hortensia at last! I think it would gall you now, if you had been one of her many admirers.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>To be rejected by her, in whom beauty and good sense are still at strife for pre-eminence—
+<pb n="15" facs="21"/>to be discarded by her, 'tis enough to drive the mind to madness—that is, I should think so, if the lady had engag'd my heart—Confusion! I had like to have detected myself. <stage>[Aside]</stage>—But I am glad to hear what you have told me.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Oh, I knew you would be glad of it.—But now I have open'd myself to you, not a word for your life.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>I shall make a proper use of it—rely upon me.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>I am sure you will—I read men now—A propos, as you are going to town, do me a slight favour: Here is a snuff-box with her picture in it; I let it fall last night upon the terras, and have damag'd it a little. Prythee leave it at Deard's as you go by, and order it to be mended.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>With all my heart;—I take it with great pleasure.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Only cast your eye on her picture:—How lovely!</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>Charming indeed!—Successful coxcomb! <stage>Aside.</stage>
+       </p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Don't let a mortal see it.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>By no means.</p>
+      </sp>
+      <sp who="#careless">
+       <pb n="16" facs="22"/>
+       <speaker>CARELESS.</speaker>
+       <p>You see the least hint will ruin me.</p>
+       <stage>
+        <hi>Enter</hi> a SERVANT.</stage>
+      </sp>
+      <sp who="#servant">
+       <speaker>SERVANT.</speaker>
+       <p>Sir Philip Figurein, Sir, has sent to know if your honour will meet him on the terras this morning?</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>I'll wait on him <stage>[<hi>Exit</hi> Servant.]</stage> Will you come and take a turn with the knight?</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>I don't care if I do. I shall hardly set out till evening.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>The knight will divert us. What an absurd passion has possessed him in his old days! He is seventy, is not he?</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>Not much short; and in high spirits still.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Spirits! with one foot in the grave, he dances about the world, as if he was bit by a tarantula.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>Why dancing is his ruling passion.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>So much, that he runs about to all the country assemblies, and is a <hi>beau garçon</hi> with all human infirmities.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>He is very harmless and good-natur'd.</p>
+      </sp>
+      <sp who="#careless">
+       <pb n="17" facs="23"/>
+       <speaker>CARELESS.</speaker>
+       <p>Yes; but not a single idea but what is derived from dancing. If you ask him what sort of a place such a town is, "They have a very good Monday-night assembly." Or, if you desire to know what kind of people, "They very often dance thirty couple."</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>You have him exactly.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Can you guess his business with me?</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>No, really.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>He is to have a masquerade at his own house to-night, and wants to give me the invitation.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>Civil!</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>But his wife has been beforehand with him.—Ha! ha!—I could let you into a secret about her.—Ha! ha!—You must not let a word transpire.—Ha! ha!—I am pretty well with her.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>The devil you are!—My own relation, and he is going to betray her.</p>
+       <stage>[Aside.]</stage>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Yes; I am much in her good graces: And if hereafter you should see the likeness of your humble servant in one of my lady Figurein's children, tip me a smile, but keep your mind to yourself.</p>
+      </sp>
+      <sp who="#wisely">
+       <pb n="18" facs="24"/>
+       <speaker>WISELY.</speaker>
+       <p>How, in the name of wonder, do you manage to ingratiate yourself thus?</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Step with me to my dressing room, and you shall know further particulars.—Ha! ha!—This very night, when the mask inflames every spirit to joy and revelry, and while Sir Philip is sacrificing to the graces, as he calls it, her ladyship and I intend a sacrifice to the god of love.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>Thou art an happy fellow.—But I hope I shall be able to counter-act your designs. <stage>[Aside.]</stage>
+       </p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>But, my dear Wisely, not a syllable of all this.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>You may rely upon me.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Not the least hint about Hortensia.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>Not for the world.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Poor Blunt! he calls me the Marplot of my own schemes.—Ha! ha!—But you see I know who to confide in.—I know who are my friends.</p>
+       <stage>Exeunt.</stage>
+      </sp>
+     </div>
+     <div type="scene">
+      <head>
+       <pb n="19" facs="25"/>SCENE <stage>
+        <hi>the Terras.</hi>
+       </stage>
+      </head>
+      <stage>
+       <hi>Enter</hi> LUCINDA <hi>and</hi> BELLFIELD.</stage>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>And so, my dear Lucinda, you think you know your own mind so well, that you can answer for it, I shall never have the rights of an husband over that pretty person of yours.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>No, never; positively never.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>And, on my part, I positively pronounce that you will, one day or other, make me the happy man.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Pray, Mr. Bellfield, have you a patent for my inclinations? or do you intend to lay violent hands upon a weak defenceless woman, and make me your own by force of arms?</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>O fy! no force:—like a good-natur'd general I invite you to capitulate, rather than urge me to the necessity of carrying the town by storm.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>But I find the garrison still able to hold out.—The citadel <stage>[laying her hand on her heart]</stage> is still proof against all the artillery you have play'd off.—I think you have not been able to throw in much fire, Mr. Bellfield.</p>
+      </sp>
+      <sp who="#bellfield">
+       <pb n="20" facs="26"/>
+       <speaker>BELLFIELD.</speaker>
+       <p>Ha! ha! you little know that I have a secret friend in that very citadel, that will betray the place to me.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Indeed you flatter yourself;—There is not a single sentiment, not one desire or inclination here, that has ever whisper'd the smallest good word in your favour.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>Well, well, there is a little destiny in these matters—that's all.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Destiny! and so your system in love-affairs is like that of certain heroes in military matters.—You think, I suppose, that every heart, like every cannon-ball, has its billet.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>Even so, madam. Nature, like a skilful bowler, delivers every heart out of hand with a secret bias to its proper object.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>There is something agreeably impudent in the fellow's vanity. <stage>[Aside]</stage> But you will allow that nature gives little secret antipathies too.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>Oh, certainly!—She delights in blending contradictions, in order to embellish the fair, and give her the graces of variety. A sort of mosaic work, where folly is inlaid with talents, a love of pleasure with virtue, a power of pleasing with a delight in giving pain; and, as the poet says,</p>
+       <l>
+        <pb n="21" facs="27"/>"Fix'd principles with fancy ever new,</l>
+       <l>"Shakes all together, and produces you."</l>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Upon my word this is altogether a new way of making love: By convincing me that you can with curious discernment spy out all the little foibles of the fair, you think to recommend yourself to my notice. Have a care, Mr. Bellfield, remember Apollo's sentence upon the critic who found out all the faults in a celebrated poem: He laid before him a sack of wheat, and bid him separate the chaff, which he gave him for his pains.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>That, madam, was because the man was so unfortunate as to have no relish for the beauties; whereas my admiration—</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Oh, Sir, you manage your admiration as certain prodigals do their money; you grudge the smallest part to your neighbours, and squander all most profusely on yourself: And therefore it is you have been entered in my black list; let me see how long—let me see <stage>[takes out a pocketbook]</stage> Ay, this is it: <stage>[reads]</stage> A list of those I am determined not to marry. Let me see, Mr. Worthless condemn'd May the nineteenth, 1762.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>Worthless! what he that married the great fortune.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>And took on so prodigiously at her death.—He made love to me while he had weepers on
+<pb n="22" facs="28"/>for his deceas'd wife; and so I hated him for an impostor, worse than Maria does Dr. Wolfe, in the Nonjuror.—But where are you, you creature? "Lord Hazard." This was a man of rank, with a pale quality face, and a genteel, enervated figure. I perceiv'd by his passion for play, that the queen of trumps was in his eyes the greatest beauty in the world; so I acquainted his lordship that I had no further occasion for his services; and he told his friends that he resign'd.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>Ha! ha!—I see plainly I must be the man.</p>
+       <stage>[Aside.]</stage>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Where the deuce is your name? "More-love—Ranger—Dorimant—Blackacre."—Well, this Mr. Blackacre was a perfect curiosity: Instead of saying civil things of my person, he talked of nothing but my estate, and assured me when the present leases expired he would let the whole at an improv'd rent.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>Why such a fellow was fitter to be bailiff or steward of your manor.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>There was something handsome about him too;—no, not handsome neither—I don't know how to describe him: A sort of symmetry of features, and a faint bloom that made a comely kind of deformity. No symptoms of sensibility; no expression of a feeling mind; and he appeared to me likely to make that sort of husband, who has no manner of vice, gets up in
+<pb n="23" facs="29"/>a morning regularly, eats his breakfast, looks over his accounts, goes to the coffee-house, comes home to dinner, reads his letters, goes to the coffee-house again, reads the evening-papers, comes home to supper, and goes to-bed.—Ha! ha!</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>Ha! ha! Why you give portraits in miniature as well as any painter of them all.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Ha! ha! I laugh whenever I think of the man.—He brought me all the news of the day.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>Ay.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Oh, all; but none that I valued; no news about the little victories this figure obtain'd in the world; no advices of what was said about my last new cap—the happy arrangement of a patch; no intelligence about a particular bloom of my complexion; never came with a We hear from Ranelagh that Lucinda's eyes scattered death and torment among all the beaus last Friday-night. No, no such thing; it was all political intelligence; and, being a favourite, I had it warm from the mint. At ten in the morning, there was an action in Germany, and the French lost ten thousand men upon the field of battle, three princes of the blood, and five marshals of France. At twelve, the news was premature. At two, an express was arriv'd at the secretary of state's. In the evening, the victory was not so complete; and a noble lord was heard to say, that if a certain general
+<pb n="24" facs="30"/>had done his duty, the balance of Europe would have been settled. At night, the whole report was false, and there was no battle at all.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>You would have had all the joys of dear variety with such an husband.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Oh, horrid!—I told him at length, that I could not consider him in the light of a lover; but that really he was a very good news-paper; and that whenever he was out of hand, or not bespoke, I should be glad to be entertain'd with the topic of the day.—Ha! ha!</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>And so order'd your servants to take him in, instead of the Chronicle, or Public Ledger.—Ha! ha!—By laughing at all her lovers, she is determined to have me. <stage>[Aside.]</stage>—Upon my soul, Lucinda, you have a very pretty groupe of humourists.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Enough to furnish our a comedy.—The vain, the proud, the formal, the brisk, every species of the ridiculous and absurd, has been my most obedient, very humble servant.—And here—here's another character, to help out the piece— "Mr. Bellfield."</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>Well, let us hear.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Condemn'd, August the sixteenth, 1763, for looking at himself in the glass for a full half hour, while he was directing his discourse
+<pb n="25" facs="31"/>to me. There, you are out-law'd for open rebellion against my beauty—hold up your hand—and what have you to say, why judgment of death should not pass upon you?</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>Why, I have your pardon in my pocket.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Oh, to be sure, I, who claim homage from every pretty fellow, am likely to forgive the disaffected person who disputes my title, and becomes a vain pretender to it himself.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>How can you talk thus, when you know I have worshipp'd you even to idolatry, and have offer'd up prayers on my very knees to you?</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>But I require true devotion in your prayers. Would it not provoke the patience of a saint to have a well-powder'd fop kneel at his shrine, with a "There's a handsome fellow for you; mind my cloaths, Brussels lace, diamond-ring, saucy snuff-box, and impudent face?" And this too under the notion of asking a blessing.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>My dear Lucinda, I never knew you so much out. Would not you have a man go to his prayers with a good conscience? And what are the pleasures of a good conscience? The applauses of one's own heart.—Now, my dear ma'am, if, when I approach you, I have some self-approving airs, am not I therefore the better intitled to you?</p>
+      </sp>
+      <sp who="#lucinda">
+       <pb n="26" facs="32"/>
+       <speaker>LUCINDA.</speaker>
+       <p>Heav'ns! I am frighten'd at you.—You are a free-thinker in love:—Preach this doctrine to the ladies, and they will call it downright heresy.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>Very like. But surely, were I to make my advances with darts, and flames, and Cupid, and Venus, and the Graces, I should be a meer uninstructed pagan. Whereas, at present, I only want to discard superstition, and idle ceremonials, and so establish the true system of love.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Which you take to consist in—</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>In the language of the heart.—As instance—I love you, shall study your happiness, and so let me call the parson.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Easy and impudent!—But love's religion is a sort of popery, and requires penance, and fasting, and watching, and that you should pray for favours in a language almost unintelligible.—But you say your prayers in the vulgar tongue: "And so let me call the parson." Why you might as well come most cavalierly to my house, take possession of an arm chair, and, Here, bring me my night-gown and slippers.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>And as all the sighs, and verses, and fine things of lovers, must end in that, you had better wave ceremony; for as to Careless, tho' you may think you have hold of his heart—</p>
+      </sp>
+      <sp who="#lucinda">
+       <pb n="27" facs="33"/>
+       <speaker>LUCINDA.</speaker>
+       <p>Careless!—I desire you will never mention him.—Careless!—A senseless wretch!—A vile inconstant!—who abandons me as if age had suddenly rendered me loathlome.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>Why, faith, though I detest the treachery, I can't, upon this occasion, quarrel with the traitor.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Oh, Sir, I dare say you applaud his conduct; and would like him declare, that I might pass very well for a mistress, to toy an hour with, and must shortly come to that.—But for a wife—oh, shocking!</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>Has he dar'd talk thus, Lucinda?</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Even to the lowest wretch on earth; to that fellow, La Jeunesse, who dress'd my hair about half an hour ago.—Oh, if my brother were in England, he should find I do not want a friend to assert my honour.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>By Heaven, I'll do it, this very day, myself.—Now you shall have proof of the sincerity with which I love.—Pronounce me unworthy of you, if your wrongs are not redress'd within this hour.</p>
+       <stage>Exit.</stage>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Yet, why should vexation thus get the better of me!—Mr. Bellfield gone! Heav'ns! he talk'd something of calling this base man to an account.</p>
+       <p>
+        <pb n="28" facs="34"/>I hope he won't be mad enough to think of such a thing.—So, so, Mr. Careless coming this way.—I will not even condescend to upbraid him with his baseness.—I'll swear, I could almost find in my heart to throw myself into Bellfield's arms, to pique the wretch!</p>
+       <stage>Exit.</stage>
+      </sp>
+      <stage>
+       <hi>Enter</hi> CARELESS <hi>and</hi> WISELY.</stage>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Ha! ha! is not he a ridiculous character?</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>Yes; something singular in his way.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Poor Sir Philip!—A passion for dancing when the use of his limbs has almost left him.—I am glad we have got rid of him.—Ha! ha!—'Sdeath, here he comes again, with St. Vitus strong upon him.</p>
+      </sp>
+      <stage>
+       <hi>Enter Sir</hi> PHILIP FIGUREIN.</stage>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <stage>[In a minuet step.]</stage>
+       <p>I forgot to tell you, Careless, I forgot to tell you, <stage>[sinks gently and rises]</stage> and you too, Mr. Wisely, I forgot to tell you both, that I am to have a mask'd ball at my house to night. <stage>[Hums a Minuet.]</stage>
+       </p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>I am much oblig'd to you, Sir Philip; but your lady has been before-hand with you, and has done me the honour of an invitation.</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <pb n="29" facs="35"/>
+       <speaker>SIR PHILIP.</speaker>
+       <p>Has she? <stage>[turning out his toes.]</stage>—I recollet now—she told me so—you intend to—la loll loll—you intend to come, I hope—la loll loll.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>By all means, Sir Philip; I shall wait upon my lady.</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <stage>[Advancing in a minuet step to Careless.]</stage>
+       <p>We shall be all gaiety, joy, and activity of spirit.—Mr. Wisely, <stage>[in a minuet step to him]</stage> I say, Mr. Wisely, <stage>[turns out his toes, sinks and rises]</stage> I say, I hope, Sir, you intend us the honour.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>I am afraid I can't have that happiness; I am bound for London, Sir.</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>Po! po! prithee, man, stay this night; be in at the diversions with your friends.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>I have not your spirits, Sir Philip; I must beg to be excused.—I am not so young a man as you are.</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>Why, considering all, I am pretty young: <stage>[throws back his shoulders, and turns out his toes.]</stage> All owing to the exercise I take.—I dance three thousand miles a year.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>So much!</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Ay, and more.—Why he goes to all the assemblies within thirty miles round London.</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <pb n="30" facs="36"/>
+       <speaker>SIR PHILIP.</speaker>
+       <stage>[Turning his arms in and out.]</stage>
+       <p>Yes, I go to all: I call it sacrificing to the graces. Socrates the philosopher call'd it so before me. He sacrific'd to the graces at threescore.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>I should like to have seen the old philosopher turning out his toes.</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <stage>[Turns out his toes, and hums a tune.]</stage>
+       <p>The old philosopher, Sir, lov'd the elegant arts. And there was Scaliger a man of great learning, and an eminent critic—he danc'd a Pyrrhic dance—a dance well known to the ancients, Mr. Careless.—Scaliger, Sir, danc'd a Pyrrhic dance, to the astonishment of all Germany. We have his own word for it.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>And well they might be astonished!</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>Why so, Sir? why so?</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Very true, knight, why so?—'Tis a noble exercise.</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>Give me your hand for that.</p>
+       <stage>[Advances to him in a minuet step, and takes his hand gracefully.]</stage>
+       <p>A noble exercise, indeed! it gives the graceful display of the limbs—a free carriage—and a— <stage>[sinks and rises.]</stage> Pray—pray, Careless,—pray do you know Miss Charlotte Cherry?</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>She is the youngest daughter, is not she?</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <pb n="31" facs="37"/>
+       <speaker>SIR PHILIP.</speaker>
+       <p>The same; turn'd of fourteen years; just now in her fifteenth; and the sweetest face, prettiest feet, and the finest here—the finest chest;—coming forward—coming forward charmingly. I danc'd with her at the last assembly at Sunning-hill.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Well done, knight.</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>Hey, lads! was not it bold to undertake her so young?—I can match Hercules for labour in a country-dance. I began the minuets with my lady Portsoken:—A fine, comely, responsible woman is my lady Portsoken—moves a minuet like a cathedral.—Indeed a slight accident happen'd to me.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Ay; what was that?</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>Why, Sir, in the harmonious movement under the great branch in the middle of the room, an unlucky hook took a fancy to my wig—I lost the honours of my head, Sir; they were suspended in air, and I mov'd thro' my minuet, quite insensible of the disaster.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Ha! ha! my dear knight, an unlucky accident.</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>Oh, no; nothing—I did not mind it; a few lampoons, epigrams, and little lutestring verses for the summer-season, flew about: I danced
+<pb n="32" facs="38"/>on—they could not put me out of time. One of the smart sonneteers of the place charg'd the accident home upon me; and in pretty Namby Pamby call'd it the Rape of the Lock. The feet of his verse might be very good, but my feet were never the worse. I laughed, and answer'd him out of Horace, <hi>Nunc pede libero pulsanda tellus.</hi>
+       </p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Admirable! an excellent repartee!</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>So it was.—A propos, Sir Philip, I never wish'd you joy upon your daughter's marriage.</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>You do me honour, my dear Sir, you do me honour.—Poor girl!—heigh ho!—poor Harriet!—She did not live long.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>No! I beg your pardon for mentioning.—</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>She has been dead these three months. <stage>[Sinks and rises.]</stage> Yes, Sir, <stage>[goes to him in a minuet step]</stage> my poor daughter was not fond of exercise—she did not take to her dancing—it was the death of her.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>I am very sorry for it; especially as it seems to grieve you so much.</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>Ay, poor girl! <stage>[turning out his toes, and adjusting his arms]</stage> she died in Wiltshire.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>At your own house, I suppose.</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <pb n="33" facs="39"/>
+       <speaker>SIR PHILIP.</speaker>
+       <p>No; that house was sold long before, to the highest bidder, before a master in Chancery, to pay some of my wife's gaming debts. You know she is addicted to play. <stage>[Turning out his toes.]</stage> It is the worst passion in the world.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>You had a beautiful seat there.</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>Pleasantly situated, Sir.—You were near the assembly at Salisbury, the assembly at Winchester, and the assembly at Southampton.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Ha! ha! that was convenient; ha! Wisely.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>Ay, very convenient.</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>Yes; and the estate was much improv'd of late: For my friend George Martin, of Southampton, who is a very facetious companion, and tells an admirable story, has built a set of rooms, in the sweetest situation imaginable.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>They have a fine country about there, have not they?</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>I have seen them dance thirty couple.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Ha! ha! and did not it grieve you to leave so sweet a place?</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>No, Sir; nothing grieves me; I dance away my cares: I have no head for thought and trouble,
+<pb n="34" facs="40"/>and calculation and accounts. I make my career as brilliant as possible; and whenever any thing begins in the least to chagrin me, I then go to an assembly, and sacrifice to the graces.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Well, I challenge the world for such another philosopher.</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>I call myself a peripatetic philosopher.—I go about for the serenity of my mind.—I had a letter yesterday from my attorney to meet him on Monday next, at the Mitre tavern in Fleet-street, in order to sign deeds of lease and release for a small estate in Berkshire, a little out at elbows; but I have appointed him to meet me at the Long Room at Hampstead.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Why there? that's an odd place.</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>The best in the world; because, when the business is finished, I can then go and give right hand and left at the assembly.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>But I am sorry your estates are dancing away in this manner.—It will be a little hard upon your children.—And then there's your daughter; she's a very fine girl.</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>She lives with her aunt Scatterbrain.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>Where is your eldest son?</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <pb n="35" facs="41"/>
+       <speaker>SIR PHILlP.</speaker>
+       <p>Reduc'd upon half-pay.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>And your second son?</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>Gone a clerk to the East Indies.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>And my little favourite, your third boy?</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>At school at Stockbridge.—He'll be a scholar.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>
+        <hi>Vive la dance!</hi> Sir Philip.</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>Ay, Sir, <hi>Vive la dance.</hi>—Well, you'll be at the ball to-night.—Wisely, I am sorry we are to lose you,— <stage>[Moves in a minuet step to Careless.]</stage> Careless, you won't fail.—<hi>Nunc pede libero pulsanda tellus.—</hi>—La loll loll.</p>
+       <stage>Exit in a minuet step.</stage>
+      </sp>
+      <sp who="#careless #wisely">
+       <speaker>CARELESS <hi>and</hi> WISELY.</speaker>
+       <p>Ha! ha! ha!</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Was ever so ridiculous a fellow?—No care, no management, no attention.—I wish he had a little of my prudence to mind the main chance; hey, Wisely!</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>Your prudence would be of singular use to him indeed.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>My dear friend, adieu! not a word of Hortensia; nor of my lady Figurein.</p>
+      </sp>
+      <sp who="#wisely">
+       <pb n="36" facs="42"/>
+       <speaker>WISELY.</speaker>
+       <p>Oh, my dear Careless—</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>I'll let you know by a line how I succeed with them both.—Adieu!</p>
+       <p>Now for the schemes on which we're both intent:</p>
+       <p>I for the widow's charms.</p>
+       <stage>Exit.</stage>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>I to prevent.</p>
+       <stage>Exit.</stage>
+      </sp>
+      <stage>END of the FIRST ACT.</stage>
+     </div>
+    </div>
+    <div n="2" type="act">
+     <pb n="37" facs="43"/>
+     <head>ACT II.</head>
+     <div type="scene">
+      <stage>
+       <hi>Enter</hi> WISELY <hi>and</hi> BRAZEN.</stage>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>NO, Brazen, I shan't leave Windsor today.</p>
+      </sp>
+      <sp who="#brazen">
+       <speaker>BRAZEN.</speaker>
+       <p>No, your honour!</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>No; I have business upon my hands of the highest importance.—Look ye, Brazen, I have ever found you trusty and honest.</p>
+      </sp>
+      <sp who="#brazen">
+       <speaker>BRAZEN.</speaker>
+       <p>Why truly, without vanity, I may say, you have no reason to complain.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>No speeches, Brazen.—I will now repose a confidence in you.—I have found out my rival.</p>
+      </sp>
+      <sp who="#brazen">
+       <speaker>BRAZEN.</speaker>
+       <p>So much the better, Sir:—I love an active campaign;—order me upon any attempt; I am ready to annoy the enemy.—Who is he?</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>Careless.</p>
+      </sp>
+      <sp who="#brazen">
+       <pb n="38" facs="44"/>
+       <speaker>BRAZEN.</speaker>
+       <p>What, the gentleman I heard you speak of so often?</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>The same.</p>
+      </sp>
+      <sp who="#brazen">
+       <speaker>BRAZEN.</speaker>
+       <p>Joy, Sir, joy—I give you joy—victory is ours.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>Why, yes, I think I am a bad general, and you a bad officer, if we don't defeat him.</p>
+      </sp>
+      <sp who="#brazen">
+       <speaker>BRAZEN.</speaker>
+       <p>I saw him as he walk'd down, street yesterday evening.—Comely, well-proportion'd, and handsome, I think.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>Slave! villain!</p>
+       <stage>[Collars him.]</stage>
+      </sp>
+      <sp who="#brazen">
+       <speaker>BRAZEN.</speaker>
+       <p>For heaven's sake, don't strangle me!</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>Puppy! rascal! he handsome!</p>
+      </sp>
+      <sp who="#brazen">
+       <speaker>BRAZEN.</speaker>
+       <p>That is, Sir—if you will but press more tenderly on my windpipe—that is to say, Sir—not quite so hard—the gentleman seems, at a distance—a little too tight still, Sir—but when you come nearer—a little looser—that will do—enough of all conscience—when you are near him, Sir, he looks quite another thing, and very unpromising.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>What am I doing? the rage of jealousy—</p>
+       <stage>[lets him go.]</stage>
+      </sp>
+      <sp who="#brazen">
+       <pb n="39" facs="45"/>
+       <speaker>BRAZEN.</speaker>
+       <p>Dear heart, he'll be nothing in our hands.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>How could she prefer that vain, imprudent—Have you no plan, rascal, to counterplot this happy rival?</p>
+      </sp>
+      <sp who="#brazen">
+       <speaker>BRAZEN.</speaker>
+       <p>Only reflect upon what you expect of me:—To stop the course of a river, or a bird in the air, or a lawyer at Westminster, or thunder and lightning, or a poet repeating his own verses, or a critic abusing them, or—in short, Sir, any of these things is easier than to silence a coxcomb of wit and parts.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>Of wit and parts, sirrah!</p>
+      </sp>
+      <sp who="#brazen">
+       <speaker>BRAZEN.</speaker>
+       <p>Of no parts—a coxcomb of no parts.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>Leave prating, and propose something directly.</p>
+      </sp>
+      <sp who="#brazen">
+       <speaker>BRAZEN.</speaker>
+       <p>With submission, I am but a poor ingenious good clever kind of fellow, who pretend to little more than a tolerable share of mother-sense, to obey the happier talents of my master.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>Oh, Hortensia! to give him this tender token—your own picture in snuff-box here.—And then to send me this cruel letter of dismission! <stage>[Reads.]</stage> To encourage your addresses any longer would be the sign of a vain and ungenerous way of thinking. Distraction!
+<pb n="40" facs="46"/>
+        <stage>[Reads.]</stage> "Never can be yours. Hortensia."—What can be done?—There's one bold stroke left:—Brazen, I must depend upon your execution of a bright project, conceiv'd this instant.</p>
+      </sp>
+      <sp who="#brazen">
+       <speaker>BRAZEN.</speaker>
+       <p>I wait but your commands, Sir.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>I know you faithful and dextrous.—You have not been long enough at Windsor to be known by any body.—Hey! is not that Hortensia yonder, walking this way, arm in arm with Lucinda?—I'll found a retreat, like a prudent general, and send you to skirmish with the enemy, Brazen.—This way—follow me.</p>
+      </sp>
+      <sp who="#brazen">
+       <speaker>BRAZEN.</speaker>
+       <p>And I'll bring on a general action, I warrant me.</p>
+       <stage>Exeunt.</stage>
+      </sp>
+      <stage>
+       <hi>Enter</hi> LUCINDA <hi>and</hi> HORTENSIA.</stage>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>My dear Hortensia, that is carrying it too far—you grow captious—there is no harm in a little raillery, sure.</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>But won't you allow me to be deeper in my own secrets than any body else?</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>No, by no means; we are all very ingenious in deceiving ourselves: Our passions wear so many cunning disguises, we hardly know them.—Spleen shall pass for wit, avarice for eoconomy;
+<pb n="41" facs="47"/>and the love of a man shall often be thought a mere female vanity, in hearing the praises of a shape or a feature.</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>So that if I suffer a civil thing from a pretty fellow, the pleasure I find from the compliment makes a quick transition to a liking of the man.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Instantly, and almost imperceptibly to ourselves. And when we think we are putting him off, with our arts of cold delay, it is at the bottom but mere coquetry, to draw him on the more. Like playing with edge tools, till we cut ourselves.</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>Still I am not wounded.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>I'II lay you a pot of coffee you are married before me.</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>You'll lose.—There is nothing in my conduct that can—</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>I beg your pardon:—There is in you serious people a sedate love of pleasure that we giddy creatures never come up to. We receive slight impressions, and slight impressions chatter away, and evaporate in the whirl of our fancy. Now you demure ones dwell upon what gains access to your hearts; and then your thoughts are like what they tell me of white powder:—They make no noise, but are full of mischief.</p>
+      </sp>
+      <sp who="#hortensia">
+       <pb n="42" facs="48"/>
+       <speaker>HORTENSIA.</speaker>
+       <p>This is very strange.—But let me assure you, I have not forgot my poor deceas'd husband.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Ay; but that tender melancholy will so dispose your mind to receive the kindred passion of love, that I should not wonder if—in short, grief is very amorous, my dear.</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>Mighty fine!—But the man who makes me sacrifice my liberty must have an extraordinary merit.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>There again now!—Another of the masquerade habits our passions wear:—When you are in love with a man's person, you fancy it is a refin'd esteem for his merit.—Oh, Hortensia! under that illusion the heart of a woman will soften and melt prodigiously.—Do you think it possible to have a lasting esteem for a man, merely on the score of his merit?</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>Surely; is not it natural to love virtue?</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Why, to speak a plain truth, which I would not have a man hear from me for the world, whims, passions, and desires, are the ground-works of our minds; and virtue, I am afraid, is but in-laid.</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>O fy, Lucinda!</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>O fy, hypocrite!</p>
+      </sp>
+      <sp who="#hortensia">
+       <pb n="43" facs="49"/>
+       <speaker>HORTENSIA.</speaker>
+       <p>Pray now let me ask you, have you no esteem for Mr. Careless?</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>A propos! I forgot to tell you—well, I adore my ease on this occasion!—Sure every thing is at an end between me and that gentleman.</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>You amaze me!—Was not the wedding-day fix'd?</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Yes; I was under sentence of matrimony:—but he has sent me a reprieve.</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>Can it be possible?</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>He is going to be married to another.</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>You astonish me!—She does not suspect me. <stage>[Aside.]</stage>—Going to be married to another!—No woman of delicacy would hearken to him, considering how far matters have been carried with you.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Why, if there is any lady really smitten, the dispute between her love and her delicacy will not last long.—Delicacy may talk of nice points of honour; but that will only reach the head: While every syllable from that little urchin Love will make its way directly to the heart; and while Delicacy is reading lectures, Love will persuade, and so the business is over.—
+<pb n="44" facs="50"/>But pray, my dear, had not you heard this before?</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>I, my dear?—I hope he has not divulg'd any thing. <stage>[Aside.]</stage>—How can you ask such a question?—I am not in a course of towntalk.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Why, I don't know—one is always saying one silly thing or another.—Let's change the subject; the man is not worth a moment's thought: his indiscretion is the smallest of his faults.—My rest shan't suffer a single wink for him.</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>That's right, Lucinda; give me your hand, and take my advice:—If the false man deserts you, shew yourself a girl of spirit on the occasion.—The wretch is not worth a single smile from any of our sex;—an idle, vain boaster!—to trust him is taking up water with a sieve.—So resolve at once to look down with scorn both on him, and the vain beauty that prides herself in the conquest:—Wish her joy of her bargain, my dear, and think no more about him.</p>
+      </sp>
+      <stage>
+       <hi>Enter</hi> BRAZEN, <hi>in a livery.</hi>
+      </stage>
+      <sp who="#brazen">
+       <speaker>BRAZEN.</speaker>
+       <p>Madam Hortensia, my master presents his compliments—</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>Careless's livery! <stage>[Aside.]</stage>—Who is your master?</p>
+      </sp>
+      <sp who="#brazen">
+       <pb n="45" facs="51"/>
+       <speaker>BRAZEN.</speaker>
+       <p>Mr. Careless.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Mr. Careless!</p>
+      </sp>
+      <sp who="#brazen">
+       <speaker>BRAZEN.</speaker>
+       <p>My master sends you word, Ma'am, that he has changed his mind.—Upon consulting his heart, he finds his inclinations fix'd elsewhere—upon madam Lucinda, this lady here.—I endeavoured, Ma'am, to soften his hard heart:— "Won't you consider, Sir, that Hortensia—" Hold your tongue, you rascal—do as I bid you; and so off he brushed, to the tune of an old song, <stage>[sings]</stage> One kiss of a maid's worth two of a window.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Ho! ho! ho!—This is worth all the discoveries of all the philosophers for a thousand years.—This is the most whimsical accident.—Ha! ha!</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>Fool that I was! <stage>[Aside.]</stage>—Who bribed you, Sir, to be guilty of this rudeness?—Lucinda, I assure you—</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>My dear Hortensia—Ho! ho! ho!</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>Nay, if you won't give me have to speak—Begone! fellow, this moment! I know nothing of your master.</p>
+      </sp>
+      <sp who="#lucinda">
+       <pb n="46" facs="52"/>
+       <speaker>LUCINDA.</speaker>
+       <p>Well, I forgive him all:—this is a most charming business.—And so, Hortensia, you are the happy lady—</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>I assure you, Ma'am—Go about your business, Sir.</p>
+      </sp>
+      <sp who="#brazen">
+       <speaker>BRAZEN.</speaker>
+       <p>'Tis very well; but before I go, permit me to return this snuff-box, with your picture in it.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>So, so, so! presents have passed too.</p>
+      </sp>
+      <sp who="#brazen">
+       <speaker>BRAZEN.</speaker>
+       <p>"Here, carry her back her snuff-box," says he, and as I have damag'd it a little, if she will get it mended, I'll pay for it.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Ho! ho! ho!—I shall die, I shall die.</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>Vexation!—this absurd man!</p>
+      </sp>
+      <sp who="#brazen">
+       <speaker>BRAZEN.</speaker>
+       <p>Any commands for my master, madam?</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>Let me hear no more of your insolence, Sir.</p>
+      </sp>
+      <sp who="#brazen">
+       <speaker>BRAZEN.</speaker>
+       <p>What shall I say to poor Mr. Careless?—no parting pang? no kind adieu?</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>Tell him he's a villain! a perfidious wretch! a monster of ingratitude!</p>
+      </sp>
+      <sp who="#brazen">
+       <pb n="47" facs="53"/>
+       <speaker>BRAZEN.</speaker>
+       <p>Ay, I know him well:—he's all that, and worse.—Well done, Brazen! this will do rarely.</p>
+       <stage>Exit</stage>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>My dear Madam, you'll excuse me;—but if my life depended upon it, I can't help laughing.</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>You need not triumph on the occasion: You are welcome to the gentleman.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>No doubt.—The man that insinuates himself into your good graces must have an extraordinary merit.</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>Mighty well!—If you must run on—</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Besides, you have not as yet forgot your poor deceas'd husband.</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>This raillery is unseasonable, madam.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Well now, do you know, that I was weak enough to suppose, that no woman of delicacy, <stage>[stifles a laugh]</stage> considering how far things had been carried with me—</p>
+       <stage>[laughs out.]</stage>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>Oh, shame! shame! All my ill stars combin'd—</p>
+      </sp>
+      <sp who="#lucinda">
+       <pb n="48" facs="54"/>
+       <speaker>LUCINDA.</speaker>
+       <p>Come, come, give me your hand, Hortensia; if the false man deserts you, shew your self a woman of spirit on the occasion.</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>Oh, insupportable!</p>
+       <stage>[breaks away.]</stage>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <stage>[Following her.]</stage>
+       <p>To trust him is taking up water with a sieve; and so look down with scorn on him, and the vain beauty—Ho! ho!</p>
+       <stage>[laughs heartily.]</stage>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>I sha'n't stay to be insulted.</p>
+       <stage>Exit</stage>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>And has your Aeneas left you? <stage>[looking after her]</stage> poor disconsolate Dido!—Oh! I shall expire with laughing.—Well, I feel my heart much lighter.—Certainly revenge is the ruling passion of the female breast; it is the second passion at least.—But stay, stay, stay—what's to be done?—Shall I, to complete my triumph, marry Careless?—Why, Revenge says so—but Love slily whispers, have not you a secret tendre for Mr. Bellfield?—I don't know what to say to that—let me examine myself on that head:—How say you, my heart? <stage>[laying her hand on her bosom]</stage> you shall true answer make to all such questions as shall be asked you:—The traitor owns its various flutterings.—Eyes, how say you, do you know Mr. Bellfield?—We have seen the gentleman.—But is that all? remember you're upon oath: Have not you indulg'd in many a stolen glance?——Soft seducers, they own it all.—Lips, what do you know of this
+<pb n="49" facs="55"/>matter?—Why, the gentleman has rudely forc'd a kiss.—Rudely! come, don't equivocate: Did not you think it civilly done? And when you uttered words of reproach, were ye not pleased with the touch of his?—Guilty—They plead guilty. What say my hands? When he has drawn a glove on you, <stage>[looking at one hand]</stage> or gently clasped you <stage>[looking at the other]</stage> to lead me to my chair—Ah! those tremblings were the anxieties of love.—Ears, —Oh! they were pleas'd with the accents of his flattery.—I must call no more witnesses, for fear every circumstance should plead a'gainst me.—But what resolution must I come to?—Hortensia will be so piqu'd should I marry Careless—and so will Careless should I marry Bellfield—One match has been talk'd of—so has t'other—I have coquetted on this side—so I have on that.—I'm in a fine condition:—Revenge and Love have got poor weak woman's will between them, and they beat it about like a shuttlecock—to and fro—backwards and forwards—tick-tack, tick-tack—and on which side it will fall, Fate only knows.</p>
+      </sp>
+      <stage>
+       <hi>Enter</hi> BELLFIELD.</stage>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>My dear Lucinda—</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Psha! why did not he stay till the game was out?—I don't know what to say to the wretch.—Well, have you buried him?</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>I am glad to see you in a bantering vein.</p>
+      </sp>
+      <sp who="#lucinda">
+       <pb n="50" facs="56"/>
+       <speaker>LUCINDA.</speaker>
+       <p>Why, is not he dead?—O fy! to let a man breathe a moment under my displeasure!</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>Madam, before this day closes—</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>But I have chang'd my mind—I give him his wretched life;—let him drag a miserable being, in torment.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>And must I too wear out a life in torment?—Come, come, pronounce one favourable word.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Why, you unlucky thing, what brought you so unseasonably?—You broke off a violent debate about yourself.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>About me?</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Yes; my head and my heart were at open war about you. But you would not stay to let them fight in out.—Well, I'll retire to solitude, and let them go to cuffs again; and so now you'll give yourself up to melancholy and peevishness. And my character, I dare say, will be cruelly torn to pieces.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>Madam, your character—</p>
+      </sp>
+      <sp who="#lucinda">
+       <pb n="51" facs="57"/>
+       <speaker>LUCINDA.</speaker>
+       <p>Is a strange one.—I know that's what you'll say—Or, perhaps, a few scraps and ends of verse:
+Most women have no character at all.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>Po! po! can't you restrain one moment?</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>"Matter too soft a lasting mark to bear,—"</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>'Sdeath! this is all—</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>"And best distinguish'd by black, brown, and fair."</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>Nay, prithee, how can you rack me thus?—This is all wildness, all extravagance of spirit.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Well! well! my spirits, as the heyday of youth wears away, will be duely restrain'd, as flowers contract themselves at the setting-sun.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>If you go on thus, your follies will encrease with your years, and shew more strikingly as your beauty declines, as shadows lengthen with the setting-sun.</p>
+      </sp>
+      <sp who="#lucinda">
+       <pb n="52" facs="58"/>
+       <speaker>LUCINDA.</speaker>
+       <p>Satyrical Bellfield!—But you should not have said that to my face:—You might have staid till my back was turn'd, to spare my blushes.—Well, I am gone.—Think favourably of me.—Ha! ha!—Poor Bellfield!</p>
+       <stage>Exit.</stage>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>Think favourably!—I shall think no more of you.—You may as well fix quicksilver as a woman's mind.—It takes a thousand shapes to elude you.—Careless has fix'd her though:—Chalenge him, and perhaps—the thing does not admit a moment's delay.</p>
+       <stage>Exit.</stage>
+      </sp>
+      <stage>
+       <hi>Re-enter</hi> LUCINDA.</stage>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>This is charming!—Careless comes this way, as I could wish:—His behaviour will decide my doubts.—How shall I act?—Oh! a girl of spirit need never think how to manage a man.</p>
+      </sp>
+      <stage>
+       <hi>Enter</hi> CARELESS.</stage>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Lucinda, without her train of beaus fluttering about her!—How has this happen'd pray?</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Why, you frighten them all away from me; and you know, though fruit be ever so
+<pb n="53" facs="59"/>fine, if a scare-crow is near, the birds won't nibble.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Well, thou art the veriest coquette that ever studied the exercise of the fan.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Scandalous wretch!</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>A lover with you has as bad a time as a poor animal in a philosopher's air-pump:—When your false refinements are too thin for him to subsist upon, they are render'd somewhat more substantial by letting in a little air of commonsense, that you may have the pleasure of ratifying all away again; and so leave a poor deluded fellow panting for his existence.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Why, I like to try experiments upon 'em.—But, Mr. Careless, you tried the most admirable experiment to-day that ever yet was thought of.—Ha! ha!—I must laugh with you, tho' you don't deserve it.—Never was any thing so charming.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Another of your wild flights now—why, you mount like a pheasant—whur!</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>And do you vainly hope to bring me down?</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>The gun of wit may reach you.—Take care.</p>
+      </sp>
+      <sp who="#lucinda">
+       <pb n="54" facs="60"/>
+       <speaker>LUCINDA.</speaker>
+       <p>But the laws of Parnassus for the preservation of the game don't allow such as you to shoot flying.—But I must tell you how it was—Ho! ho!—I enjoy'd her distress beyond measure.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>I am perfectly in a wood here.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Your servant play'd his part admirably, and she so bit her lips with vexation.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>What the deuce has she taken into her head?</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>"Tell him he's a villain!" says she, a perfidious wretch! a monster of ingratitude!</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Unriddle, pray; what is all this?</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Why, don't you know?</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Not I, truly.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Oh! you have chang'd your mind perhaps!—Or, have you seen her since, and made it up?</p>
+      </sp>
+      <sp who="#careless">
+       <pb n="55" facs="61"/>
+       <speaker>CARELESS.</speaker>
+       <p>May I never have the fan of an incens'd beauty raised to my throat; if I understand one word of the matter.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Oh, very well, Sir.—I could almost have found in my heart to smile upon you:—But, go on;—dissemble, do:—Mr. Bellfield may fare the better for your behaviour, I promise you.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Oh, Ma'am, as to that—Ha! ha!</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Pretend to laugh too!—But no woman will speak to you at the rate you go on.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Ha! ha!—You are very diverting!—I could tell you, perhaps, of a much-envied lady, who—ha! ha!—who sees me in a favourable light.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Impossible!—You will be despis'd, rejected.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <stage>[Laughing conceitedly.]</stage>
+       <p>Well, well, I'll tell you who the lady is, and then you shall judge whether I—</p>
+      </sp>
+      <stage>
+       <pb n="56" facs="62"/>
+       <hi>Enter Sir</hi> PHILIP, HORTENSIA, <hi>and</hi> BLUNT.</stage>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <stage>[Still in a minuet step.]</stage>
+       <p>Careless, well met again.—Lucinda, my fair partner, my lovely little Hercules in a country-dance!</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Always in spirits, Sir Philip.—Now let us see how my gentleman and the widow will behave.</p>
+       <stage>[Aside]</stage>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>He has been flirting with that coquette, I see.</p>
+       <stage>[Aside.]</stage>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>I must not pretend to know Hortensia.—She's upon the discreet plan, I see.</p>
+       <stage>[Aside.]</stage>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>They don't take notice of one another:—But I'll embarrass them both. <stage>[Aside.]</stage>—Oh! Mr. Blunt, I am so lucky that you and this company came to my relief—Your friend Careless has so pester'd me with his fulsome flattery, and his tender pain, and his pleasing anguish, and all the nonsense of love—</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>I, Ma'am!—The conversation seem'd to have, taken a very different turn.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Oh, you hideous man! do you deny it?—Hortensia, such a scene you never saw.</p>
+      </sp>
+      <sp who="#hortensia">
+       <pb n="57" facs="63"/>
+       <speaker>HORTENSIA.</speaker>
+       <p>I dare say, Ma'am, <stage>[forcing a laugh]</stage> it was at once both very acceptable, and very ridiculous.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>The wretch was down on his knees to me, heart-broken, sighing, trembling, tears in his eyes, venting a thousand protestations that he loved me, and only me.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Nay, now, Lucinda, you wrong me.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Wrong you! why are you asham'd of your passion for a fine woman?</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>Refuse to be his partner at Sunning-hill next Monday-night for that.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>So I will, Sir Philip—you and I will dance.—He actually vow'd, Hortensia, that there is a certain lady who pines and languishes for him: But Death's life with me, without me death to live.</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>False, perfidious man!</p>
+       <stage>[Aside.]</stage>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Nay, now, this is carrying the jest too far,</p>
+      </sp>
+      <sp who="#lucinda">
+       <pb n="58" facs="64"/>
+       <speaker>LUCINDA.</speaker>
+       <p>Then I resign you—I here give you up to any lady that pleases.—What say you, Madam?</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>You are much worthier of the gentleman, and so pray keep him.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Discreetly answered.—She won't give the least hint.</p>
+       <stage>[<hi>Aside to</hi> Blunt.]</stage>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>For that matter, I think ye both, Ladies, highly worthy of my friend Careless:—For you are two as good romps in a country-dance as I ever desire to cast off and figure in with.—I think one of you should take the gentleman out.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>For my part, I'm engag'd.—Shall I make interest for you, Ma'am?</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>The character the gentleman bears, and the light you have made him appear in, are sufficient to warn a woman of prudence against so dangerous a risk.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Blessngs on her discretion and good-sense for abusing me so. <stage>[Aside]</stage> Blunt, you see she won't give the smallest suspicion of what's depending.—I'll throw my mite into the scale, to convince her of my prudence.</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <pb n="59" facs="65"/>
+       <speaker>SIR PHILIP.</speaker>
+       <p>Come, come, Careless, be brisk;—something in your own defence;—don't be out of time.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>I must do the lady the justice to say, that I have not the happiness or merit of deserving a place in her good graces.</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>You own it, false man, do you?</p>
+       <stage>[Aside.]</stage>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>And are you insensible to the lady's superior beauty, and that distinguish'd prudence with which she moves so orderly in every sphere of life?</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Prudence!—Why, faith, prudence may be a very useful qualification in trade, and may answer the purposes of a mercer upon Ludgate-hill, or a money-scrivener in the city.—But I wish may die if I have not always thought prudence the most frigid virtue a person of fashion can be possessed of.</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>I dare say you think so.</p>
+       <stage>[Aside.]</stage>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Ho! ho!</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>I do it well, don't I, Blunt?</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <pb n="60" facs="66"/>
+       <speaker>SIR PHILIP.</speaker>
+       <p>It is in life as in dancing:—Every thing should be done with briskness and activity of spirit.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <stage>[<hi>To</hi> Blunt.]</stage>
+       <p>That little satire upon prudence will shew how much I have myself.</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>Weak, inconsiderate fool!</p>
+       <stage>[Aside]</stage>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>Careless is right. <stage>[Sinks and rises.]</stage> I should be sorry to have it said that prudence is my most shining quality.—But, I don't know how it is—we don't make a good sett here—it looks as if we had some of the little fraca's of love amongst us.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>I am not in love with any of the company, I promise you.</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>And if I am, may I be married to the wretch for my punishment.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>A sly inuendo, Blunt.—And as to me, if I felt a single symptom of love, so far from concealing it, I did not care if it was the whole talk of every party at cards and scandal throughout the city of London, and liberty of Westminster.</p>
+      </sp>
+      <sp who="#hortensia">
+       <pb n="61" facs="67"/>
+       <speaker>HORTENSIA.</speaker>
+       <p>That I do verily believe.</p>
+       <stage>[Aside]</stage>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>You see, Blunt, I have no management.—Ha! ha!</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>Laughed at too!—I have not patience.—Come, Lucinda, it draws near dinner-time.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Why, yes, I think we had as good adjourn.—We'll leave you to divulge all the secrets you know, Mr. Careless.—Ha! ha!</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>Are you going, Ladies?—I must be your knight-errant:—Favour me with your hand.—Careless—Blunt—you'll be at the mask in good time.—I attend you, Ma'am.</p>
+       <stage>
+        <hi>Exit with</hi> Hortensia <hi>and</hi> Lucinda.</stage>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>Bravo! Careless you'll undo yourself: You have abus'd the lady's distinguishing perfection to her face.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>To deceive the company—a stroke of judgment and discretion.</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>But she seem'd to speak with acrimony.</p>
+      </sp>
+      <sp who="#careless">
+       <pb n="62" facs="68"/>
+       <speaker>CARELESS.</speaker>
+       <p>Oh! I ador'd her for that.—She's a charming woman; and a word of abuse out of her mouth is worth all the praises of the rest of her sex.—Ha! ha!—It was the luckiest interview!—and gave me the finest opportunity of shining!—Ha! ha!—She carried it off finely too.</p>
+       <l>When women praise, their passions gently move;</l>
+       <l>But if they rail, then with a rage they love.</l>
+      </sp>
+      <stage>END of the SECOND ACT.</stage>
+     </div>
+    </div>
+    <div n="3" type="act">
+     <pb n="63" facs="69"/>
+     <head>ACT III.</head>
+     <div type="scene">
+      <stage>
+       <hi>Enter</hi> BELLFIELD <hi>and</hi> WISELY.</stage>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>I NEVER saw your spirits so depress'd before, Wisely.—Sure something extraordinary has happen'd.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>No, nothing—a transient gloom; that's all.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>Never let any thing affect your spirits, man.—A cross accident is never converted into an advantage by being peevish: Just the reverse; by suffering inwardly, every little trifle acquires the force of a real misfortune.—My dear Wisely, do as I do; laugh to scorn all the little perverse circumstances of life.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>They fall as lightly on me as on any body, I believe.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>I can perceive you hurt even now:—There's something working in your mind.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>You are quite mistaken, Bellfield.</p>
+      </sp>
+      <sp who="#bellfield">
+       <pb n="64" facs="70"/>
+       <speaker>BELLFIELD.</speaker>
+       <p>What if a mistress frown—can't you smile for all that?</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>I have no mistress, Sir.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>Nay, I can't say how that is.—But it diverts me of all things to see a man, because an untoward beauty is insensible of his merit, become insensible of it himself, and sit in company wrapped in a cloud of vapours, when he ought to make the caprices of the sex sport for himself and every body else too.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>Very true; and should Lucinda's love, or her understanding, have a relapse, I dare say—</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>I should not like to lose her; but I could laugh at the loss.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>Then it won't grieve you to hear, that Careless and she are well together again.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>Oh, no such thing—you are mis-informed.—He has revolted from Lucinda; and the widow is "the Cynthia of this hour" with him.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>What intelligence you lovers have!—Every thing is finally concluded between him and Lucinda.—Ha! ha!—He's a weak, absurd fellow.—But I beg yout pardon—it does not seem to divert you</p>
+      </sp>
+      <sp who="#bellfield">
+       <pb n="65" facs="71"/>
+       <speaker>BELLFIELD.</speaker>
+       <stage>[Forcing a laugh.]</stage>
+       <p>It shan't disconcert me, you may assure yourself—She's as changeable as the wind, —and he's a weathercock.—Ha! ha!—I don't mind it.—Ha! ha!—This very morning she was enrag'd, and wanted me to cut his throat.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>And this very evening she'd wish you hanged if you had.—Ha! ha!—They have both very strange humours, faith.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>And you have an odd kind of significant dry laugh with you.—You seem to enjoy my misfortune.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>Misfortune!—I thought you—</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>Psha! no, not misfortune—but my disappointment—not disappointment neither, for these things are to be expected from the levity of her mind.—A fantastical, deceitful—ha! ha!—And so Careless is to be married to her—You see—you see, Wisely, that I don't feel— <stage>[laughing peevisishly.]</stage> Your servant, Sir—I am your humble servant.</p>
+       <stage>Exit:</stage>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>Poor Bellfield!—my joy overflow'd, and I could not help telling him—ha! ha!—and yet he pretends not to feel it.</p>
+       <stage>Exit:</stage>
+      </sp>
+     </div>
+     <div type="scene">
+      <head>
+       <pb n="66" facs="72"/>SCENE <stage>Careles's <hi>Lodgings.</hi>
+       </stage>
+      </head>
+      <stage>
+       <hi>Enter</hi> CARELESS <hi>and</hi> BLUNT.</stage>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>My dear Blunt, you see my affairs are in a fine train:—You will now at least grant, that prudence is an essential part of my character.</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>Your state of probation has been rather short.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Po! po!—My dear Blunt▪ you are a fellow of such a suspicious temper, that you'd believe the plague on board a ship, after she had perform'd quarantine.—But the most precise caution has guided my actions for some time past.—Hey! what have we here? letters!—And that stupid sot of a servant not to know any thing of the matter. <stage>[Opens a letter.]</stage>—No indiscretion of mine, I promise you, Blunt, will ever give you uneasiness again.</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>Well, I wish it may be so.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>You'll find it so.— <stage>[Reading.]</stage> How! 'Sdeath! what does this mean?—Upon my soul now, there's co such thing as living at this rate.</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>What's the matter?</p>
+      </sp>
+      <sp who="#careless">
+       <pb n="67" facs="73"/>
+       <speaker>CARELESS.</speaker>
+       <stage>[Reads out.]</stage>
+       <p>I hold you accountable to me for the injuries you have done my sister. A treaty of marriage with Sir Harry Strickland is broke off on account of your scandalous givings out.—When shall you be at London? If not within this day or two, expect to see me at Windsor.<lb/>
+Yours, Richard Hotspur.</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>There again now! the old way.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>How the devil could this happen?—There is not so low a thing on earth as repeating private conversation.</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>And can't you be upon your guard in private conversation?</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>The most distant hint in the world escap'd from me at the Thatch'd-house one day at dinner.—Tho' his sister had granted me the last favour, yet I did not—</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>And you must blab now!</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Po! with you I don't mind.</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>Nor with any man.—'Tis an inveterate habit, and you can't conquer it.</p>
+      </sp>
+      <sp who="#careless">
+       <pb n="68" facs="74"/>
+       <speaker>CARELESS.</speaker>
+       <p>'Sdeath! nothing but plague and torment!— <stage>[Opening another letter.]</stage> What's this?</p>
+       <p>Sir,<lb/>
+I did not imagine a base vain-glory could have betray'd you into an action so ungenerous and mean.—My husband has heard all the circumstances, and he threatens an immediate divorce.—I am miserable, and you are the blackest villain upon earth.<lb/>
+Eloisa.</p>
+       <p>That's the feign'd name under which she corresponded with me.—But it will be impossible for Mr. Kitely to prove—</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>Kitely! that secret's out too.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>'Sdeath! you catch a man so—I did not mean to tell it.</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>I wish he may recover damages against you.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>There is no trusting any body, I see plainly.—I only hinted the affair to a friend, who admir'd Mrs. Kitely, to let him see that she was comeatable—and now this is the return I meet with.—'Tis very vexatious!</p>
+       <stage>
+        <pb n="69" facs="75"/>
+        <hi>Enter</hi> BELLFIELD,</stage>
+       <p>Bellfield, I am glad to see you.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIFLD.</speaker>
+       <p>Mr. Careless, business of a particular nature occasions this visit.—Will you indulge us a moment, Blunt?</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>By all means.—More misfortunes, I suppose.</p>
+       <stage>Exit.</stage>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Well, Bellfield.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>You will be so good as to name your time and place, and chuse your weapon, Sir.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Explain the cause.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>The cause of injur'd innocence, injur'd truth, and violated honour.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Still I'm in the dark, Sir.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>Lucinda!—Does light break in upon you now?—You have treated her, Mr. Careless, unworthily, basely, scandalously.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>And are you become her champion?</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>I am—and I have the applause of my own heart for it.—Every honest man is interested in
+<pb n="70" facs="76"/>the refutation of calumny, when a tear falls from the soft eye of injur'd beauty.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Mr. Bellfield, any reparation, in my power, I am willing to make the lady—or, if that won't do, Sir, I must give you the meeting:—but, I cat't marry Lucinda.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>Mr. Careless, she is worthy of—you can't marry her!—why not, Sir?—explain.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Would you fain compel me into a marriage?</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>Compel you!—'Sdeath! what am I at?—No; but—</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>It is impossible, Sir. I am engag'd to Hortensia.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>To Hortensia!—Positively?</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Most positively.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>And you think no more of Lucinda?</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>I must forget her entirely.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>Ha! ha!—Thou'rt an honest fellow, Careless.—Give us your hand.—I challenge you!—For what?—You have done Lucinda no injury—and so I'll go and tell her.—My dear
+<pb n="71" facs="77"/>Careless, fare you well.—I wish you all happiness with Hortensia.—Your servant—your servant.—I challenge you! not for the world. <stage>Exit.</stage>
+       </p>
+       <stage>
+        <hi>Enter</hi> BLUNT.</stage>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>A pretty business this!—He comes in a romantic humour, huffing like an errant Don Quixote, and then goes away laughing.</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>You were loud enough—I heard it all.—There will be no end of your scrapes and difficulties.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Po! prithee, man—how can you.—Tomorrow makes Hortensia mine:—I shall then move in a higher sphere; set up for men to gaze with envy at.</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>You'll never succeed in any thing.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Ha! ha! that gravity is diverting.—Why, in the common occurrences of life, I own, I have carried myself negligently; but the business of my heart is too important: There I have acted with the nicest precision.</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>Psha! while you are guarding yourself in one point, you lie exposed in a thousand others.—Your prudence is exactly like the philosopher's cloak: When he drew it over his head his feet were uncovered.</p>
+      </sp>
+      <sp who="#careless">
+       <pb n="72" facs="78"/>
+       <speaker>CARELESS.</speaker>
+       <p>Ha! ha! not in my concerns with Hortensia.</p>
+       <stage>
+        <hi>Enter</hi> BRAZEN, <hi>in another livery.</hi>
+       </stage>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Hortensia's livery!—Ha! ha!—Now, Blunt, you'll see:—This is a message from her.</p>
+      </sp>
+      <sp who="#brazen">
+       <speaker>BRAZEN.</speaker>
+       <p>Mr. Careless, will your honour permit me just to whisper one word?</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>A million. Well, friend! how? what?</p>
+      </sp>
+      <sp who="#brazen">
+       <speaker>BRAZEN.</speaker>
+       <p>Madam Hortensia gave me in strict charge to deliver this letter into your own hand, Sir.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>A thousand thanks. Here—here's a reward for your diligence <stage>[gives money].</stage> You shall wait for an answer.</p>
+      </sp>
+      <sp who="#brazen">
+       <speaker>BRAZEN.</speaker>
+       <p>I dare not, Sir. Secrecy is the word. I must be gone. <stage>Exit.</stage>
+       </p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>So; you see, I am in high favour with her.—I can't help laughing at your peevish surmises. Ha! ha!—But here, here, here's a proof of my approaching joys.</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>I am sure I shall be glad to see you happy.</p>
+      </sp>
+      <sp who="#careless">
+       <pb n="73" facs="79"/>
+       <speaker>CARELESS.</speaker>
+       <p>I know thou wilt.—Ha! ha!—Now let's see. <stage>[Opens the letter.]</stage> Now, now, now. <stage>[Reads to himself]</stage> How! what's this? <stage>[Reads.]</stage> To no purpose—character—now vanish'd—different light—be my last—never can be yours. <stage>[Stands in confusion.]</stage>
+       </p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>Well, Careless, a proof of your approaching joys.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <stage>[Looks earnestly at Blunt, then walks away.]</stage>
+       <p>I never was so let down in all my days.</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>You seem dejected, Careless.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Madam Fortune playing some of her damn'd cross purposes with me.</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>What's the matter, man? <stage>[Careless gives him the letter, and walks about the room.]</stage> What can all this be? <stage>[Reads.]</stage>
+       </p>
+       <p>Sir,<lb/>
+To encourage your addresses, when they really are to no purpose, would be the sign of a vain and ungenerous way of thinking.—There were at first some circumstances in your character and manner, which were not displeasing; but those appearances are now vanished. I must therefore in this letter, which will
+<pb n="74" facs="80"/>be my last, wish you all happiness; and freely declare, I never can be<lb/>
+Yours, Hortensia.</p>
+       <p>Undone, I fee; quite undone.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Yes, undone with a witness!—What can the woman mean?—If there were any cause—</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>I fear you've given too much.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>There is no dealing with any of her sex.—An artful, false, dissembling woman!—Damnation!—My dear Blunt, a thought is just come into my head: I'll not torment myself about her. Revenge is at hand, and I'll enjoy its sweets directly.—Ha! ha!—I have still an after-game to play:—I have another string to my bow—Lucinda, my boy!</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>You gave her up ten minutes ago; and Bellfield's gone to tell her.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>'Sdeath! that's true.—I'll fly to prevent the mischief.—Ha! ha!—I'll have my revenge, and marry Lucinda directly; and then you'll see me an happy man still. <stage>Exit.</stage>
+       </p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>The veriest self-tormentor that ever lived!</p>
+       <stage>Exit.</stage>
+      </sp>
+     </div>
+     <div type="scene">
+      <head>
+       <pb n="75" facs="81"/>SCENE <stage>
+        <hi>the Terras.</hi>
+       </stage>
+      </head>
+      <stage>
+       <hi>Enter</hi> BELLFIELD <hi>and</hi> WISELY.</stage>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>Yes, Sir, I am in spirits, and I've reason.—I am the happiest fellow in nature.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>I am glad to hear it, Bellfield.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>I have had an interview with Careless.—Who do you think he is to marry?</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>Hey? who? <stage>[uneasy.]</stage>
+       </p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>Hortensia.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>The devil he is!</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>Yes; after all.—Ha! ha!—Don't you think it's excellent news.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>Very extraordinary news, indeed.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>He for ever quits claim to Lucinda.—A'n't I a lucky fellow?—Hortensia has fix'd the affair at last.—Ha! ha!—My dear Wisely, you don't enjoy my happiness.</p>
+      </sp>
+      <sp who="#wisely">
+       <pb n="76" facs="82"/>
+       <speaker>WISELY.</speaker>
+       <p>To see one's friends happy, Sir, is—</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>Was not I right not to fume and fret?—Ha! ha!—I kept my temper, you see.—Ha! ha!—Is not it the luckiest thing in the world?</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>
+        <stage>[With a forc'd laugh.]</stage> Such luck never was heard of.</p>
+       <stage>
+        <hi>Enter</hi> CARELESS.</stage>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Wisely—Bellfield—how do ye, lads?—Wisely, give me joy:—I have had a most admirable escape from the galling yoke of matrimony.—I have done with the widow, my boy.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>
+        <stage>[In spirits.]</stage> Have you?</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>
+        <stage>[Uneasy.]</stage> Done with her!</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Yes, completely:—She's a compound of deceit, affectation, treachery, and fraud.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>My dear Careless, she's a very fine woman.—Marry her stiil, man.</p>
+      </sp>
+      <sp who="#wisely">
+       <pb n="77" facs="83"/>
+       <speaker>WISELY.</speaker>
+       <p>You have hit her character, Careless. I should be sorry any friend of mine—</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Ay; I know her thoroughly.—I shall mortify her pride:—I'll gall her proud heart:—You'll see me to-morrow married to Lucinda.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>How!</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>And the widow will be so provok'd—</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>Zoons! Sir, but let me tell you—</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Ha! ha!—You wanted me to make her amends a little while ago: I could not then; but now I'm at liberty, I shall certainly do it.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>Sure the widow is a much finer woman.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Oh! no, no, no <stage>[laughing].</stage>
+       </p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>Not to be compar'd to her, Careless.—Ha! ha!</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>I shall certainly marry her, Bellfield.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>But, Sir, do you imagine— <stage>[angrily.]</stage>
+       </p>
+      </sp>
+      <sp who="#careless">
+       <pb n="78" facs="84"/>
+       <speaker>CARELESS.</speaker>
+       <p>She's beautiful as an angel:—Young, accomplish'd, elegant—</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>Mr. Careless, what do you mean by this?</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Why, won't you let me praise her?—Wisely, he was going to cut my throat a while ago, for abusing her; and now he wants to murder me for speaking in her commendation—But make yourself easy, my dear Bellfield, I shall marry her.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>Marry her! Damnation!</p>
+       <stage>[puts his hand to his sword.]</stage>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <stage>[Interposing.]</stage>
+       <p>No violence, Bellfield: Careless is very right <stage>[holds Bellfield.]</stage> She's a sweet girl, Careless.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Yes; I know she is.—Ha! ha!</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>Marry her by all means.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Most certainly.—Ha! ha!</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>Let go your hold, Mr. Wisely.—I desire, Sir—</p>
+      </sp>
+      <stage>
+       <hi>Enter Sir</hi> PHILIP.</stage>
+      <sp who="#sir_philip_figurein">
+       <pb n="79" facs="85"/>
+       <speaker>SIR PHILIP.</speaker>
+       <p>Lads, for shame!—not ready for the ball!—Hey! what! quarrelling!—never quarrel, my dear Bellfield—never be out of humour.—Passion unhinges the whole frame; <stage>[turning out his toes]</stage> destroys the grace and gaiety, and—</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>My dear knight, you're always in good humour; give us your hand.</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>Always, Sir; always in spirits.—Bellfield, I have made a new country-dance since I saw you.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>With all my heart, Sir.</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>I heard some bad news; and so I did it to shake off melancholy.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Bad news!—What's the matter, Sir Philip?</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>Poor lady Portsoken!—You know I told you I used to dance with her.—I received a letter, mentioning, that after a venison feast at her house last week, as she was amusing herself over a quart of syllabub, she was taken suddenly ill, and expired <stage>[sinks and rises].</stage> I was very much
+<pb n="80" facs="86"/>
+shocked; so I composed a dance to raise my spirits.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>Hang him, a troublesome fellow.</p>
+       <stage>[Aside.]</stage>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>I am very sorry for her, I assure you.—Bellfield, it's a charming dance; all briskness and activity.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <stage>[Avoiding him.]</stage>
+       <p>Po! po!</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <stage>[Following him.]</stage>
+       <p>Foot it at top, cast off two couple, foot if at bottom, dance corners—</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>I shall be glad to speak a word with you in private.</p>
+       <stage>[<hi>Aside to</hi> Careless.]</stage>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>Dance corners, I say, out at sides, cross over, turn your partner, right hand and left.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Shall us dance it this evening, Sir Philip?</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>Yes, Sir, this evening.—But come, the hour draws nigh.—For shame, lads!—Wisely, Bellfield, ye both live near my house;—come, and make ye ready.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>I can't go directly now.</p>
+      </sp>
+      <sp who="#wisely">
+       <pb n="81" facs="87"/>
+       <speaker>WISELY.</speaker>
+       <p>You must; I have business with you.— <stage>[<hi>Aside to</hi> Bellfield.]</stage> Lucinda shall be your own still.—I have business with you too, Sir Philip.—Come, Bellfield, I insist upon it. <stage>Forcing him off.</stage>
+       </p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>Gentlemen, I attend you.—Careless, foot it at top, cast off two couple. <stage>Dances out.</stage>
+       </p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>An ungenerous woman to treat me thus!—I'll master up resolution to despise her, and never converse with her again.</p>
+       <stage>
+        <hi>Enter</hi> HORTENSIA, <hi>and passes by him.</hi>
+       </stage>
+       <p>So, so, dissembling woman! <stage>[looking after her.]</stage>
+       </p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>Low, vile wretch!</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>I'll not expostulate the matter with her.</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>I'll not condescend to upbraid him.— <stage>[Goes up to him.]</stage> Mr. Careless, you're a villain.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>
+        <stage>[Pretends to laugh.]</stage> Oh, Ma'am, I am fully acquainted with your sentiments already.</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>A cool, deliberate villain!</p>
+      </sp>
+      <sp who="#careless">
+       <pb n="82" facs="88"/>
+       <speaker>CARELESS.</speaker>
+       <p>Ha! ha!</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>Unfeeling in all points of honour as in love.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Pleasant, upon my soul!—She upbraids me too!</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>That unmanly sneer!—Mr. Careless, Mr. Careless, after every proof of love a weak, inconsiderare woman could give—I will only now take the liberty to tell you, the baseness of your heart will make you the aversion of our sex, and the scorn of your own.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Since I must speak, Heaven is my witness, I never fail'd in caution and respect for you; I never abused the confidence you reposed in me; nobody breathing ever heard a syllable of our loves.</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>No, Sir?</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>No; not a mortal.—You made me break off with Lucinda, and now—</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>Could you favour me with a pinch of snuff?</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>I have not my box about me.</p>
+      </sp>
+      <sp who="#hortensia">
+       <pb n="83" facs="89"/>
+       <speaker>HORTENSIA.</speaker>
+       <p>Shall I presume to offer you a pinch of mine?</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>She's coming to again, by all that's tender!—Ha! ha!—I see how it is. <stage>[Aside.]</stage>— <stage>[Turns to her.]</stage> You are very obliging.—How!</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>Do you own your baseness now?</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>How came that in your hands?</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>You could send it back with an affronting message too.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>I, Ma'am!—By heaven, nobody ever handled it, or knew your picture was there, except my friend Wisely.</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>Who?</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Wisely.—Excepting him, nobody ever—</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>Oh, blockhead! fool! <stage>[Walks about.]</stage> You told him then?</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Yes, yes—I told him—I told him all—I desired him to take it to town, and get it mended—I let him into the whole secret—I knew I could trust him.</p>
+      </sp>
+      <sp who="#hortensia">
+       <pb n="84" facs="90"/>
+       <speaker>HORTENSIA.</speaker>
+       <p>The man on earth you should not have trusted: He was your rival; and he contriv'd this mischief. He sent it back to me, as from you.—That's the use he has made of your confidence in him.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Oh! I see my folly.—Damnation!—And so the letter I receiv'd—</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>Sir, I repent me of that letter.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>
+        <stage>[Looking pleased.]</stage> Do you?</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>Most heartily.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Blessings on you for the word.</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>
+        <stage>[Angry.]</stage> What, you are glad, are you?</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>To rapture.</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>
+        <stage>[With a sneer.]</stage> I promise you, you shall never receive such another.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Then I return it to you most joyfully.</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>Very well, Sir! you return a fond letter thus with scorn.</p>
+      </sp>
+      <sp who="#careless">
+       <pb n="85" facs="91"/>
+       <speaker>CARELESS.</speaker>
+       <p>Fond do you call it?</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>Was it no fondness to tell you here— <stage>[opens the letter.]</stage> What's this? oh, I see through this too! Now blush for your indiscretion, weak, trifling man! This very letter I sent Mr. Wisely, when first my foolish heart seduc'd me to listen to your addresses.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Shame and confusion! ideot that I was!</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>How paltry do you appear now.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>I feel it all.—And yet will you suffer him, Wisely, to succeed in so ungenerous a plot?</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>He has acted like a man of sense: he has at once shewn me his own prudence, and the infirmity of your frivolous mind.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>But in all my conduct you see no marks of guilt, no treachery, no—</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>Sir, it is to me the same thing if an idle imbecility of understanding assumes the appearance, or acts the purposes, of every vice in its turn.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>And can you thus, for a small failure—</p>
+      </sp>
+      <sp who="#hortensia">
+       <pb n="86" facs="92"/>
+       <speaker>HORTENSIA.</speaker>
+       <p>Small failure do you call it? Mr. Wisely has deserv'd me, and I'll bestow myself upon him this very day, to shew the value I have for the man who has honour enough to keep a woman's secrets, and the contempt due to the wretch who, like you, can trifle with a generous heart.</p>
+       <stage>Exit.</stage>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Hell and the devil! I shall never be able to shew my face after this:—Blunt will rail at me, my enemies will rejoice, and every female tongue will clack, clack.—Confusion!—What's to be done?—I'll follow her to Sir Philip's mask; and from this moment not one unguarded word shall ever escape me. <stage>Exit.</stage>
+       </p>
+      </sp>
+     </div>
+     <div type="scene">
+      <head>SCENE <stage>
+        <hi>a Room in Sir</hi> Philip's <hi>House.</hi>
+       </stage>
+      </head>
+      <stage>
+       <hi>Enter Sir</hi> PHILIP, WISELY, <hi>and</hi> BELLFIELD.</stage>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>You amaze me, Mr. Wisely.—Careless a design upon my wife!</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>He has laid his plot as I have told you.</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>Why this is enough to spoil a man's dancing indeed. <stage>[Dances.]</stage>
+       </p>
+      </sp>
+      <sp who="#wisely">
+       <pb n="87" facs="93"/>
+       <speaker>WISELY.</speaker>
+       <p>Be directed by me, and you shall at once have full proof, and be able to prevent the mischief.</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>
+        <stage>[Dancing.]</stage> I was never so disconcerted in my born days.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>Your own eyes, your own ears, shall convince you.—Wisely, <stage>[<hi>aside to</hi> Wisely]</stage> I'll step and see if Lucinda's ready.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>
+        <stage>[<hi>Aside to</hi> Bellfield.]</stage> Does she enter with spirit into the scheme?</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>Most chearfully.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>Well, step and speak to her once more. <stage>[<hi>Exit</hi> Bellfield.]</stage> This will finish him with Hortensia. <stage>[Aside.]</stage>—The levity of this man, Sir Philip, his own folly, has put it in my power to do you this service.—Hush! I see Careless coming; I know his dress.</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>And there's comes my wife; I know her dress too.</p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>Sir Philip, get you behind that curtain:—quick—quick;—your happiness depends upon it.</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <pb n="88" facs="94"/>
+       <speaker>SIR PHILIP.</speaker>
+       <p>I am gone. <stage>[Goes behind the curtain hanging to the back scene.]</stage>
+       </p>
+      </sp>
+      <sp who="#wisely">
+       <speaker>WISELY.</speaker>
+       <p>Now, now, this is the very crisis of his fate.</p>
+       <stage>Exit.</stage>
+      </sp>
+      <stage>
+       <hi>Enter</hi> CARELESS <hi>and</hi> LUCINDA, <hi>at opposite doors, both masked.</hi>
+      </stage>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Her ladyship is true to her appointment, I see. <stage>[Unmasks.]</stage>—My lady Figurein, this is generous indeed.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>The ball-room's full. <stage>[In a feign'd voice.]</stage>
+       </p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>And we are safe here.—Come, come, let me hear the gentle accents of your own sweet voice.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>No; I love to practise.</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>
+        <stage>[Peeping behind.]</stage> I never knew such perfidy in my life.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Now then the opportunity favours—let us retire to compleat each others' bliss.</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>You shall dance <stage>[sinks and rises]</stage> to another tune presently.</p>
+      </sp>
+      <sp who="#lucinda">
+       <pb n="89" facs="95"/>
+       <speaker>LUCINDA.</speaker>
+       <p>I've something to say to you first:—I hear you're going to marry that flirt, Lucinda.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Lucinda!—Ha! ha!—That will never be!—Marry her!—A proud insolent, who over-rates both her beauty and her fortune.—I never had a sincere regard for her; I gave the girl hopes, and pamper'd her vain imagination, but I never liked her.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>I am glad to hear that;—I am afraid her character is not the best.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>If it has a flaw, she uses it like broken china; patches it up as well as she can, and turns the fairest side to view.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>But then you'll marry Hortensia.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>That will be as things happen.—But as to her, she'll be of no inconvenience to our amours; I shall always be able to detach a part of my time from her, in order to dedicate it more happily to love and joy with your ladyship.</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>Such a villain never entered a gentleman's house!</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>I am very faint of a sudden.—Throw up that window yonder.</p>
+      </sp>
+      <sp who="#careless">
+       <pb n="90" facs="96"/>
+       <speaker>CARELESS.</speaker>
+       <p>Don't alarm yourself. <stage>[Drawing up the curtain, and looking towards her.]</stage> Your ladyship will be well in a moment.—Sir Philip will never suspect, or be able to find us out. He'll be busy with the graces.— <stage>[Making fast the string of the curtain, sees him.]</stage> Damnation! <stage>[Walks away.]</stage>
+       </p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>
+        <stage>[Following him.]</stage> Mr. Careless, this is the vilest proceeding—the basest usage, Sir—the wickedest dssign—it's enough to put a body in a passion.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Zoons! what shall I do now?</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>I did not think you capable of this—nor your ladyship either:—Come, shew your face, madam, and let me see how guilt becomes it.— <stage>[Takes off her mask.]</stage> Lucinda all this time!</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>How!—This is worse and worse.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Yes, Sir Philip, the gay, the giddy Lucinda.</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>And my wife innocent all the time!</p>
+      </sp>
+      <sp who="#lucinda">
+       <pb n="91" facs="97"/>
+       <speaker>LUCINDA.</speaker>
+       <p>Entirely:—We concerted this scheme amongst ourselves to detect that gentleman.—Mr. Careless, you never had a sincere regard for me, I think; and I have a flaw in my character, have not I?—Ha! ha!—Poor, detected Mr. Careless.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <stage>[Avoiding her.]</stage>
+       <p>I deserve it all—I brought it all on myself.</p>
+      </sp>
+      <sp>
+       <stage>
+        <hi>Enter</hi> WISELY <hi>and</hi> BELLFIELD.</stage>
+       <stage>WISELY <hi>and</hi> BELLFIELD.</stage>
+       <p>Your humble servant, Mr. Careless.—Ha! ha!</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>A swarm of enemies all at work against me.—This is your damn'd designing head, Wisely.</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>Mr. Careless, <stage>[in a minuet step]</stage> this is the grossest violation of all friendship, honour, and hospitality—and, Sir, I shall hope to see you no more in my house.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>I shall take another opportunity to explain this matter, Sir Philip; and for the present I— <stage>[going].</stage>
+       </p>
+      </sp>
+      <sp>
+       <pb n="92" facs="98"/>
+       <stage>
+        <hi>Enter</hi> HORTENSIA <hi>and</hi> BLUNT.</stage>
+       <p>She too here!—Oh, I'm in high luck!</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>Hortensia, here has been such a discovery!</p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>I have heard it all, my dear—I have been attending in the next room.—Mr. Careless, what must I think of you now?</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Every thing that's harsh, I make no doubt.—Blunt, you see what a condition I'm in here.</p>
+      </sp>
+      <sp who="#blunt">
+       <speaker>BLUNT.</speaker>
+       <p>I knew you'd be a bankrupt in fame as well as love at last.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>'Sdeath! I can't stand it—it's too much to bear.—I here take my leave of ye all. <stage>[Going]</stage>
+       </p>
+      </sp>
+      <sp who="#hortensia">
+       <speaker>HORTENSIA.</speaker>
+       <p>No, Sir, your presence is necessary:—You shall be a witness to an act of justice.—Mr. Wisely, I now acknowledge before this company, that I have behaved indelicately to you:—But now Sir, without ceremony, I give you my hand; at once to make atonement for my past conduct, and to shew that wretch the just reward of secrecy in love.</p>
+      </sp>
+      <sp who="#wisely">
+       <pb n="93" facs="99"/>
+       <speaker>WISELY.</speaker>
+       <p>Generous Hortensia!</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>And, to do full and ample justice on him, Mr. Bellfield, I have been a very tyrant to you. I have used you like—What was your simile, Mr. Careless?—My airs were too thin for a lover to subsist upon; and so now I'll let in a little common-sense to keep him alive—Here, take me, Mr. Bellfield, that the gentleman may also see the just reward of sincerity in love.</p>
+      </sp>
+      <sp who="#bellfield">
+       <speaker>BELLFIELD.</speaker>
+       <p>Then I am paid indeed.</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>Poor Careless! I almost pity him.—He has had his dance, and now he pays the piper.</p>
+      </sp>
+      <sp who="#bellfield #blunt #careless #hortensia #lucinda #sir_philip_figurein #wisely">
+       <speaker>OMNES.</speaker>
+       <p>Ha! ha!</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Oh, mighty well!—you may laugh.—I shall leave ye in possession of your mirth. <stage>[Throwing off his mask.</stage>] Ha! ha!—I fancy, though, you'll see that I can meet with a success elsewhere equal to any of ye.</p>
+      </sp>
+      <sp who="#bellfield #blunt #careless #hortensia #lucinda #sir_philip_figurein #wisely">
+       <speaker>OMNES.</speaker>
+       <p>Ha! ha!</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Ay, ay, go on—enjoy the joke:——I shan't drop the least hint of my future schemes; but I believe—</p>
+      </sp>
+      <sp who="#bellfield #blunt #careless #hortensia #lucinda #sir_philip_figurein #wisely">
+       <pb n="94" facs="100"/>
+       <speaker>OMNES.</speaker>
+       <p>Poor Careless!—Ha! ha!</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>In a little time you'll know it all.—I shall depart for the county of Norfolk; and you may possibly read, in a few days, in the Norwich Journal, of Miss Belvidere and your humble servant—That's all.</p>
+      </sp>
+      <sp who="#lucinda">
+       <speaker>LUCINDA.</speaker>
+       <p>O brave! a sieve to the very last.</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>I have known them dance fifty couple at the Norwich assembly.</p>
+      </sp>
+      <sp who="#bellfield #blunt #careless #hortensia #lucinda #sir_philip_figurein #wisely">
+       <speaker>OMNES.</speaker>
+       <p>Ha! ha!</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>Well, well; I'll say no more. <stage>[Going.]</stage>
+       </p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>
+        <stage>[Stopping him.]</stage> Mr. Careless, since no injury is done me, I am willing to hope this day's business will correct your future conduct.</p>
+      </sp>
+      <sp who="#careless">
+       <speaker>CARELESS.</speaker>
+       <p>You are very good, Sir Philip.—It will be a lesson to me for the rest of my life.</p>
+      </sp>
+      <sp who="#sir_philip_figurein">
+       <speaker>SIR PHILIP.</speaker>
+       <p>Then let us dance away reflection for the precent.—I won't be disappointed:—You shall sacrifice to the graces with me.</p>
+      </sp>
+      <sp who="#careless">
+       <pb n="95" facs="101"/>
+       <speaker>CARELESS.</speaker>
+       <p>With all my heart:—I have no ill will to any one.—Wisely, I deserve it, for putting myself in your power.—Blunt, spare my confusion.—I have been a very silly fellow:—But since things are come to this issue, I have the consolation to feel, that whatever may have been my indiscretions, I am greatly above a selfish and ungenerous character: I scorn a base action as much as any man in England.</p>
+       <l>The careless indiscreet (this day has shewn)</l>
+       <l>Is no One's Enemy except His Own.</l>
+      </sp>
+     </div>
+    </div>
+    <trailer>FINIS.</trailer>
+   </div>
+  </body>
+ </text>
+</TEI>
