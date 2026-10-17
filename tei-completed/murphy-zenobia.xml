@@ -1,0 +1,4358 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">Zenobia</title>
+    <title type="sub">a tragedy: As it is performed at the Theatre Royal in Drury-Lane. By the author of The orphan of China.</title>
+    <author>
+     <persName>
+      <surname>Murphy</surname>
+      <forename>Arthur</forename>
+      <idno type="VIAF">24641385</idno>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>Zenobia: a tragedy: As it is performed at the Theatre Royal in Drury-Lane. By the author of The orphan of China.</name>
+     <author>Murphy, Arthur, 1727-1805.</author>
+     <publisher>printed for W. Griffin,</publisher>
+     <date>1768.</date>
+     <pubPlace>London :</pubPlace>
+     <note>The author of 'The orphan of China' = Arthur Murphy.</note>
+     <note>With a half-title.</note>
+     <note>Reproduction of original from the British Library.</note>
+     <note>English Short Title Catalog, ESTCT52924.</note>
+     <note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note>
+    </bibl>
+    <biblFull n="printed source">
+     <publicationStmt>
+      <authority ref="#JJ">Jan Jokisch</authority>
+      <date>2024 December</date>
+      <idno type="ECCO_Drama">K047676.000</idno>
+      <idno type="DLPS">004831460</idno>
+      <idno type="ESTC">T52924</idno>
+      <idno type="DocNo">CW113646996</idno>
+      <idno type="TCP">K047676.000</idno>
+      <idno type="GaleDocNo">CW3313646996</idno>
+      <idno type="ContentSet">ECLL</idno>
+      <idno type="ImageSetID">0642101100</idno>
+      <availability>
+       <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+      </availability>
+     </publicationStmt>
+    </biblFull>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    <person xml:id="pharasmanes"><persName>PHARASMANES</persName><sex value="MALE"/></person><person xml:id="rhadamistus"><persName>RHADAMISTUS</persName><sex value="MALE"/></person><person xml:id="teribazus"><persName>TERIBAZUS</persName><sex value="MALE"/></person><person xml:id="zopiron"><persName>ZOPIRON</persName><sex value="MALE"/></person><person xml:id="tigranes"><persName>TIGRANES</persName><sex value="MALE"/></person><person xml:id="megistus"><persName>MEGISTUS</persName><sex value="MALE"/></person><person xml:id="zenobia"><persName>ZENOBIA</persName><sex value="FEMALE"/></person><person xml:id="zelmira"><persName>ZELMIRA</persName><sex value="FEMALE"/></person><person xml:id="first_attendant"><persName>First Attendant</persName><sex value="MALE"/></person><person xml:id="second_attendant"><persName>Second Attendant</persName><sex value="MALE"/></person></listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1768">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text xml:lang="en">
+  <front>
+   <div type="halftitle">
+    <pb facs="1"/>
+    <p>ZENOBIA.</p>
+   </div>
+   <div type="titlepage">
+    <pb facs="2" ana="y"/>
+    <p>ZENOBIA: A TRAGEDY.</p>
+    <p>As it is performed at the THEATRE ROYAL IN DRURY-LANE.</p>
+    <p>By the AUTHOR of the ORPHAN OF CHINA.</p>
+    <p>LONDON: Printed for W. GRIFFIN, in Catharine-street, Strand.</p>
+    <p>MDCCLXVIII.</p>
+    <p>[P. 1 s. 6 d.</p>
+   </div>
+   <div type="dedication">
+    <pb facs="3"/>
+    <head>TO Mrs. DANCER.</head>
+    <opener>
+     <salute>MADAM,</salute>
+    </opener>
+    <p>IN a country, where addresses of this nature have generally waited upon the Great, upon a Wealthy Merchant, a Rich Commissary, or some New Man from the Sugar-islands, it will appear as surprizing, to many, as, no doubt, it will to yourself, that a New Form of Dedication should now be introduced. For the trouble I am giving you it will, however, be unnecessary to make any further apology, when I observe that in France, where talents are honoured, it has been frequently the practice of the most celebrated wits to do justice to those, who, by their profession, are the very Organ of the Muses. A VOLTAIRE and a MARMONTEL have paid their compliments to a CLAIRON: and why may not an English Author, inferior as he is, and ever must be, to writers of that class, rival at least their politeness, by addressing himself to Mrs. DANCER, one of the first Ornaments of the British Theatre?</p>
+    <p>There are, indeed, I must confess it, some demands upon my gratitude on this occasion, which even now are struggling to call my attention another way. Mr. GARRICK, Madam, has a claim to all the handsome things that can be said of him. His politeness from the moment he saw the play, his assiduity in preparing it for representation, the taste with which he has decorated it, and the warmth of his zeal for the honour of the piece, are circumstances that call upon me for the strongest acknowledgements. I
+<pb facs="4"/>
+could employ my pen with pleasure in thanking Mr. BARRY for the very fine exertion of his powers, wherever the Poet gave the smallest opportunity. Mr. HOLLAND, who had before now given spirit to such scenes as mine, has renewed the obligation. I could add others to the list, but they, and even Mr. GARRICK at their head, must excuse me, if I turn to Mrs. DANCER, and say with <hi>Hamlet,</hi> "Here's mettle more attractive."</p>
+    <p>ZENOBIA, Madam, is your own entirely. Whereever my inaccuracy has left imperfections, they are so happily varnished over by your skill, that either they are not seen, or you extort forgiveness for them: and if the Author is any where happy enough to <hi>snatch a grace</hi> beyond his usual reach, it is multiplied by your address into a number of beauties, like the SWORD in <hi>Tasso'</hi>s <hi>Jerusalem,</hi> which, when brandished by the hand of <hi>Rinaldo,</hi> appears to the whole army to be THREE SWORDS.</p>
+    <p>The fate of ZENOBIA has been very extraordinary. She was saved in her life-time from the waters of the <hi>Araxes</hi> by the hand of a shepherd, and now she is saved from the critics by Mrs. DANCER.</p>
+    <p>In testimony of the fact, the play, Madam, is now inscribed to you by him, who admires your talents, and remains</p>
+    <closer>
+     <signed>Your most obedient Servant, THE AUTHOR.</signed>
+     <dateline>
+      <date>
+       <hi>March</hi> 3, 1768.</date>
+     </dateline>
+    </closer>
+   </div>
+   <div type="prologue">
+    <pb facs="5"/>
+    <head>PROLOGUE:</head>
+    <sp>
+     <stage>Spoken by Mr. HOLLAND.</stage>
+     <lg>
+      <l>OF old,—when Greece in a declining age</l>
+      <l>Of lawless pow'r had felt the barb'rous rage.</l>
+      <l>This was the tyrant's art:—He gave a prize</l>
+      <l>To him, who a new pleasure should devise.</l>
+     </lg>
+     <lg>
+      <l>Ye tyrants of the Pit, whose cold disdain</l>
+      <l>Rejects and nauseates the repeated strain:</l>
+      <l>Who call for rarities to quicken sense,</l>
+      <l>Say, do you always the reward dispense?</l>
+     </lg>
+     <lg>
+      <l>Ye bards,—to whom French wit gives kind relief,</l>
+      <l>Are ye not oft the first—to cry STOP THIEF!</l>
+      <l>Say,—to a brother do you e're allow</l>
+      <l>One little sprig, one leaf to deck his brow?</l>
+      <l>No;—fierce invective stuns the play-wright's ears.</l>
+      <l>Wits, Poets corner, Ledgers, Gazetteers?</l>
+      <l>'Tis said, the Tartar,—e're he pierce the heart,</l>
+      <l>Inscribes his name upon his poison'd dart.</l>
+      <l>That scheme's rejected by each scribbling spark;</l>
+      <l>—Our Christian system—stabs you in the dark.</l>
+     </lg>
+     <lg>
+      <l>And yet the desp'rate author of to-night</l>
+      <l>Dares on the muses wing another flight;</l>
+      <l>Once more a dupe to fame forsakes his ease,</l>
+      <l>And feels th' ambition—here again to please.</l>
+     </lg>
+     <lg>
+      <l>He brings a tale from a far distant age,</l>
+      <l>Enobled by the grave historic page!<note n="*" place="foot">Tacitus Ann. Lib. 12. Sect. 44, to end of 51.</note>
+      </l>
+      <l>Zenobia's woes have touch'd each polish'd state;</l>
+      <l>The brightest eyes of France have mourn'd her fate.</l>
+      <l>Harmonious Italy her tribute paid,</l>
+      <l>And sung a dirge to her lamented shade.</l>
+     </lg>
+     <lg>
+      <l>Yet think not that we mean to mock the eye</l>
+      <l>With pilfer'd colours of a foreign dye.</l>
+      <l>NOT to translate our bard his pen doth dip;</l>
+      <l>He takes a play, as Britons take a ship;</l>
+      <l>They heave her down;—with many a sturdy stroke,</l>
+      <l>Repair her well, and build with Heart of Oak.</l>
+      <l>To ev'ry breeze set Britain's streamers free,</l>
+      <l>NEW-MAN her, and away again to sea.</l>
+     </lg>
+     <lg>
+      <l>This is our author's aim;—and if his art</l>
+      <l>Waken to sentiment the feeling heart;</l>
+      <l>If in hit scenes alternate passions burn,</l>
+      <l>And friendship, love, guilt, virtue take their turn;</l>
+      <l>If innocence oppress'd lie bleeding here.</l>
+      <l>You'll give—'tis all he asks—one VIRTUOUS TEAR.</l>
+     </lg>
+    </sp>
+   </div>
+   <div type="Dramatis_Personae">
+    <pb facs="6"/>
+    <p>Attendants, Guards, &amp;c.</p>
+    <castList>
+     <head>Dramatis Personae.</head>
+     <castItem>
+      <role>PHARASMANES</role>
+      <actor>Mr. AICKIN</actor>
+     </castItem>
+     <castItem>
+      <role>RHADAMISTUS</role>
+      <actor>Mr. BARRY</actor>
+     </castItem>
+     <castItem>
+      <role>TERIBAZUS</role>
+      <actor>Mr. HOLLAND</actor>
+     </castItem>
+     <castItem>
+      <role>ZOPIRON</role>
+      <actor>Mr. PACKER</actor>
+     </castItem>
+     <castItem>
+      <role>TIGRANES</role>
+      <actor>Mr. HURST</actor>
+     </castItem>
+     <castItem>
+      <role>MEGISTUS</role>
+      <actor>Mr. HAVARD</actor>
+     </castItem>
+     <castItem>
+      <role>ZENOBIA</role>
+      <actor>Mr. DANCER</actor>
+     </castItem>
+     <castItem>
+      <role>ZELMIRA</role>
+      <actor>Mrs. BARRY</actor>
+     </castItem>
+    </castList>
+   </div>
+   <set>
+    <p>SCENE lies in Pharasmanes' Camp, on the Banks of the Araxes.</p>
+   </set>
+  </front>
+  <body>
+   <div type="play">
+    <pb facs="7"/>
+    <head>ZENOBIA.</head>
+    <div n="1" type="act">
+     <head>ACT the FIRST.</head>
+     <sp who="#zelmira">
+      <speaker>ZELMIRA.</speaker>
+      <l>THRO' the wide camp 'tis awful solitude!</l>
+      <l>On ev'ry tent, which at the morning's dawn</l>
+      <l>Rung with the din of arms, deep silence sits</l>
+      <l>Adding new terrors to the dreadful scene!</l>
+      <l>My heart dies in me!—hark!—with hideous roar</l>
+      <l>The turbulent Araxes foams along,</l>
+      <l>And rolls his torrent thro' yon depth of woods!</l>
+      <l>'Tis terrible to hear!—who's there?—Zopiron!</l>
+     </sp>
+     <stage>
+      <hi>Enter</hi> ZOPIRON.</stage>
+     <sp who="#zelmira">
+      <speaker>ZELMIRA.</speaker>
+      <l>My lord; my Husband!—help me; lend your aid!</l>
+     </sp>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>Why didst thou leave thy tent?—why thus afflict</l>
+      <l>Thy anxious breast, thou partner of my heart?</l>
+      <l>Why wilt thou thus distract thy tender nature</l>
+      <l>With groundless fears—er'e yonder sun shall visit</l>
+      <l>The western sky, all will be hush'd to peace.</l>
+     </sp>
+     <sp who="#zelmira">
+      <speaker>ZELMIRA.</speaker>
+      <l>The interval is horrid; big with woe,</l>
+      <l>With consternation, peril and dismay!</l>
+      <l>And oh! if here, while yet the fate of nations</l>
+      <l>Suspended hangs upon the doubtful sword,</l>
+      <l>If here the trembling heart thus shrink with horror,</l>
+      <l>
+       <pb n="2" facs="8"/>
+Here in these tents, in this unpeopled camp,</l>
+      <l>Oh! think, Zopiron, in yon field of death</l>
+      <l>Where number soon in purple heaps shall bleed,</l>
+      <l>What feelings there must throb in ev'ry breast?</l>
+      <l>How long, ambition, wilt thou stalk the earth</l>
+      <l>And thus lay waste-mankind!—</l>
+     </sp>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>This day at length</l>
+      <l>The warlike king, victorious Pharasmanes</l>
+      <l>Closes the scene of war.—The Roman bands</l>
+      <l>But ill can cope with the embattled numbers</l>
+      <l>Asia pours forth, a firm undaunted host!</l>
+      <l>A nation under arms!—and every bosom</l>
+      <l>To deeds of glory fir'd!—Iberia then—</l>
+     </sp>
+     <sp who="#zelmira">
+      <speaker>ZELMIRA.</speaker>
+      <l>Perish Iberia!—may the sons of Rome</l>
+      <l>Pour rapid vengeance on her falling ranks,</l>
+      <l>That he, who tramples on the rights of nature,</l>
+      <l>May see his vassals over-whelm'd in ruin,</l>
+      <l>May from yon field be led in sullen chains,</l>
+      <l>To grace the triumph of imperial Rome,</l>
+      <l>And from th' assembled senate humbly learn</l>
+      <l>The dictates of humanity and justice!</l>
+     </sp>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>Thy generous zeal, thy ev'ry sentiment</l>
+      <l>Charms my delighted soul.—But thou be cautious,</l>
+      <l>And check the rising ardor that inflames thee.</l>
+      <l>The tyrant spares nor sex, nor innocence—</l>
+     </sp>
+     <sp who="#zelmira">
+      <speaker>ZELMIRA.</speaker>
+      <l>Indignant of controul, he spurns each law,</l>
+      <l>Each holy sanction, that restrains the nations,</l>
+      <l>And forms 'twixt man and man the bond of peace.</l>
+     </sp>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>This is the tryger's den; with human gore</l>
+      <l>For ever floats the pavement; with the shrieks</l>
+      <l>Of matrons weeping o'er their slaughter'd sons,</l>
+      <l>The cries of virgins to the brutal arms</l>
+      <l>Of violation dragg'd, with ceaseless groans</l>
+      <l>
+       <pb n="3" facs="9"/>
+Of varied misery for ever rings</l>
+      <l>The dreary region of his curs'd domain.</l>
+     </sp>
+     <sp who="#zelmira">
+      <speaker>ZELMIRA.</speaker>
+      <l>To multiply his crimes, a beauteous captive,</l>
+      <l>Th' afflicted Ariana—she—for her,</l>
+      <l>For that fair excellence my bosom bleeds!</l>
+      <l>She, in the prime of ev'ry blooming grace,</l>
+      <l>When next the glowing hour of riot comes,</l>
+      <l>Shall fall a victim to his base desires—</l>
+     </sp>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>The bounteous gods may succour virtue still!</l>
+      <l>In this day's battle, which perhaps e're now</l>
+      <l>The charging hosts have join'd, should Roman valour</l>
+      <l>Prevail o'er Asia's numbers.—</l>
+     </sp>
+     <sp who="#zelmira">
+      <speaker>ZELMIRA.</speaker>
+      <l>That event</l>
+      <l>Is all our hope.—And lo! on yonder rampart</l>
+      <l>Trembling with wild anxiety she stands,</l>
+      <l>Invokes each god, and bids her straining eye</l>
+      <l>Explore the distant field.—</l>
+     </sp>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>Yes, there she's fix'd</l>
+      <l>A statue of dispair!—That tender bosom</l>
+      <l>Heaves with no common grief—I've mark'd her oft,</l>
+      <l>And if I read aright, some mighty cause</l>
+      <l>Of hoarded anguish, some peculiar woe</l>
+      <l>Preys on her mind unseen!—But, ha! behold,</l>
+      <l>She faints;—her fears too pow'rful for her frame</l>
+      <l>Sink that frail beauty drooping to the earth.</l>
+     </sp>
+     <stage>Exit hastily.</stage>
+     <sp who="#zelmira">
+      <speaker>ZELMIRA.</speaker>
+      <l>Haste, fly, Zopiron, fly with instant succour;</l>
+      <l>Support her; help her;—Lo! th' attendant train</l>
+      <l>Have caught her in their arms!—assist her Heav'n,</l>
+      <l>Assuage the sorrows of that gentle spirit!</l>
+      <l>Her flutt'ring sense returns;—and now this way</l>
+      <l>The virgins lead her.—May the avenging god!</l>
+      <l>In pity of the woes such virtue feels,</l>
+      <l>
+       <pb n="4" facs="10"/>
+In pity of the wrongs a world endures,</l>
+      <l>With pow'r resistless arm the Roman legions,</l>
+      <l>That they may hurl in one collected blow</l>
+      <l>Assur'd destruction on the tyrant's head!—</l>
+     </sp>
+     <stage>
+      <hi>Enter</hi> ZENOBIA, <hi>leaning on two attendants.</hi>
+     </stage>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>A little onward, still a little onward</l>
+      <l>Support my steps—</l>
+     </sp>
+     <sp who="#zelmira">
+      <speaker>ZELMIRA.</speaker>
+      <l>How fares it, madam, now?</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>My strength returns—I thank ye, gen'rous maids,</l>
+      <l>And would I could requite you—fruitless thanks</l>
+      <l>Are all a wretch can give.—</l>
+     </sp>
+     <sp who="#first_attendant">
+      <speaker>
+       <hi>First attendant.</hi>
+      </speaker>
+      <l>The gentle office</l>
+      <l>Of mild benevolence our nature prompts—</l>
+      <l>Your merit too commands:—on Ariana</l>
+      <l>We tend with willing, with delighted care,</l>
+      <l>And that delight o'er pays us for our trouble.</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Your cares for me denote a heart that feels</l>
+      <l>For other's woes.—Methinks with strength renew'd</l>
+      <l>I could adventure forth again.—</l>
+     </sp>
+     <sp who="#second_attendant">
+      <speaker>
+       <hi>Second attendant.</hi>
+      </speaker>
+      <l>'T were best</l>
+      <l>Repose your wearied spirits—we will seek</l>
+      <l>Yon rising ground, and bring the swiftest tidings</l>
+      <l>Of all the mingled tumult.</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Go, my virgins;</l>
+      <l>Watch well each movement of the marshall'd field;</l>
+      <l>Each turn of fortune;—let me know it all;—</l>
+      <l>Each varying circumstance—</l>
+     </sp>
+     <pb n="5" facs="11"/>
+     <stage>ZENOBIA, ZELMIRA.</stage>
+     <sp who="#zelmira">
+      <speaker>ZELMIRA.</speaker>
+      <l>And will you thus,</l>
+      <l>Be doom'd for ever, Ariana, thus</l>
+      <l>A willing prey to visionary ills,</l>
+      <l>The self-consuming votarist of care?</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Alas! I'm doom'd to weep—the wrath of heav'n</l>
+      <l>With inexhausted vengeance follows still,</l>
+      <l>And each day comes with aggravated woes.</l>
+     </sp>
+     <sp who="#zelmira">
+      <speaker>ZELMIRA.</speaker>
+      <l>Yet when Iberia's king, when Pharasmanes,</l>
+      <l>With all a lover's fondness—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Name him not!</l>
+      <l>Name not a monster horrible with blood,</l>
+      <l>The widows, orphans, and the virgin's tears!</l>
+     </sp>
+     <sp who="#zelmira">
+      <speaker>ZELMIRA.</speaker>
+      <l>Yet savage as he is, at sight of thee</l>
+      <l>Each fiercer passion soften into love.</l>
+      <l>To you he bends; the monarch of the east</l>
+      <l>Dejected droops beneath your cold disdain.</l>
+      <l>And all the tyranny of female pride.</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>That pride is virtue;—virtue that abhors</l>
+      <l>The tyrant reeking from a brother's murder!</l>
+      <l>Oh! Mithridates! ever honour'd shade!</l>
+      <l>—Peaceful he reign'd, dispensing good around him,</l>
+      <l>In the mild eve of honourable days!—</l>
+      <l>Thro' all her peopled realm Armenia felt</l>
+      <l>His equal sway;—the sunset of his pow'r</l>
+      <l>With fainter beams, but undiminish'd glory,</l>
+      <l>Still shone serene, while ev'ry conscious subject</l>
+      <l>With tears of praise beheld his calm decline</l>
+      <l>And bless'd the parting ray!—yet then, Zelmira,</l>
+      <l>Oh! fact accurs'd!—yes Pharasmanes then,</l>
+      <l>
+       <pb n="6" facs="12"/>
+Detested perfidy!—nor ties of blood,</l>
+      <l>Nor sacred laws, nor the just gods restrain him;—</l>
+      <l>In the dead midnight hour the fell assassin</l>
+      <l>Rush'd on the slumber of the virtuous man;—</l>
+      <l>His life blood gush'd;—the venerable king</l>
+      <l>Wak'd, saw a brother arm'd against his life,</l>
+      <l>—Forgave him and expir'd!</l>
+     </sp>
+     <sp who="#zelmira">
+      <speaker>ZELMIRA.</speaker>
+      <l>Yet wherefore open</l>
+      <l>Afresh the wounds, which time long since hath clos'd?</l>
+      <l>—This day confirms his sceptre in his hand.</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Confirms his sceptre!—his!—indignant gods,</l>
+      <l>Will no red vengeance from your stores of wrath</l>
+      <l>Burst down to crush the tyrant in his guilt?</l>
+      <l>His sceptre, saidst thou?—urge that word no more—</l>
+      <l>The sceptre of his son!—the solemn right</l>
+      <l>Of Rhadamistus!—Mithridates choice,</l>
+      <l>That call'd him to his daughter's nuptial bed,</l>
+      <l>Approv'd him lineal heir;—consenting nobles,</l>
+      <l>The public will, the sanction of the Laws,</l>
+      <l>All ratified his claim;—yet curs'd ambition,</l>
+      <l>Deaf to a nation's voice, a nation's charter,</l>
+      <l>Nor satisfied to fill Iberia's throne,</l>
+      <l>Made war, unnatural war, against a son,</l>
+      <l>Usurp'd his crown, and with remorseless rage</l>
+      <l>Pursued his life.</l>
+     </sp>
+     <sp who="#zelmira">
+      <speaker>ZELMIRA.</speaker>
+      <l>Can Arians plead</l>
+      <l>For such a son?—means she to varnish o'er</l>
+      <l>The guilt of Rhadamistus?</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Guilt, Zelmira!</l>
+     </sp>
+     <sp who="#zelmira">
+      <speaker>ZELMIRA.</speaker>
+      <l>Guilt that shoots horror thro' my aching heart!—</l>
+      <l>Poor lost Zenobia!</l>
+     </sp>
+     <sp who="#zenobia">
+      <pb n="7" facs="13"/>
+      <speaker>ZENOBIA.</speaker>
+      <l>And do her misfortunes</l>
+      <l>Awaken tender pity in your breast?</l>
+     </sp>
+     <sp who="#zelmira">
+      <speaker>ZELMIRA.</speaker>
+      <l>Ill-fated princess! in her vernal bloom</l>
+      <l>By a false husband murder'd!—from the stem</l>
+      <l>A Rose-bud torn, and in some desert cave</l>
+      <l>Thrown by to moulder into silent dust!—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>You knew not Rhadamistus!—Pharasmanes</l>
+      <l>Knew not the early virtues of his son.</l>
+      <l>As yet an infant, in his tend' rest years</l>
+      <l>His father sent him to Armenia's court,</l>
+      <l>That Mithridates' care might form his mind</l>
+      <l>To arts, to wisdom, and to manners worthy</l>
+      <l>Armenia's sceptre, and Zenobia's love.</l>
+      <l>The world delighted saw each dawning virtue,</l>
+      <l>Each nameless grace to full perfection rising!—</l>
+      <l>Oh! he was all the fondest maid could wish,</l>
+      <l>All truth, all honour, tenderness and love!</l>
+      <l>Yet from his empire thrown! with merciless fury</l>
+      <l>His father following,—slaughter raging round,</l>
+      <l>What could the hero in that dire extreme?</l>
+     </sp>
+     <sp who="#zelmira">
+      <speaker>ZELMIRA.</speaker>
+      <l>Those strong impassion'd looks!—some fatal secret</l>
+      <l>Works in her heart, and melts her into tears.</l>
+     </sp>
+     <stage>Aside.</stage>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Driv'n to the margin of Araxe's flood,—</l>
+      <l>No means of flight,—aghast he look'd around,—</l>
+      <l>Wild throbb'd his bosom with conflicting passions,—</l>
+      <l>And must I then?—tears gush'd and choak'd his voice,—</l>
+      <l>—And must I leave thee then Zenobia?—must</l>
+      <l>Thy beauteous form—he paus'd, then aim'd a poniard</l>
+      <l>At his great heart—but oh! I rush'd upon him,</l>
+      <l>And with these arms close-wreathing round his neck,</l>
+      <l>With all the vehemence of pray'rs and shrieks,</l>
+      <l>Implor'd the only boon he then could grant</l>
+      <l>To perish with him in a fond embrace.—</l>
+      <l>The foe drew near—time press'd,—no way was left—</l>
+      <l>
+       <pb n="8" facs="14"/>
+He clasp'd me to his heart—together both,</l>
+      <l>Lock'd in the folds of love, we plung'd at once,</l>
+      <l>And sought a requiem in the roaring flood.</l>
+     </sp>
+     <sp who="#zelmira">
+      <speaker>ZELMIRA.</speaker>
+      <l>—This wondrous tale!—this sudden burst of passion—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Ha!—whither has my phrenzy led me?—hark!—</l>
+      <l>That sound of triumph!—lost, for ever lost!</l>
+      <l>Ruin'd Armenia!—oh! devoted race!</l>
+     </sp>
+     <stage>A flourish of trumpets,</stage>
+     <stage>
+      <hi>Enter</hi> TIGRANES, Soldiers, <hi>and some</hi> Prisoners.</stage>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Thy looks, Tigranes, indicate thy purpose!</l>
+      <l>The armies met, and Pharasmanes conquer'd;</l>
+      <l>Is it not so?</l>
+     </sp>
+     <sp who="#tigranes">
+      <speaker>TIGRANES.</speaker>
+      <l>As yet with pent-up fury</l>
+      <l>The soldier pants to let destruction loose,</l>
+      <l>With eager speed we urg'd our rapid march,</l>
+      <l>To where the Romans tented in the vale</l>
+      <l>With cold delay protract the ling'ring war.</l>
+      <l>At our approach their scanty numbers form</l>
+      <l>Their feeble lines, the future prey of vengeance.</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>And wherefore, when thy sword demands its share</l>
+      <l>Of havoc in that scene of blood and horror,</l>
+      <l>Wherefore return'st thou to this lonely camp?</l>
+     </sp>
+     <sp who="#tigranes">
+      <speaker>TIGRANES.</speaker>
+      <l>With cautious eye as I explor'd the Forest,</l>
+      <l>Which rises thick near yonder ridge of mountains,</l>
+      <l>And stretches o'er th' interminable plain,</l>
+      <l>I saw these captives in the gloomy wood</l>
+      <l>Seeking with silent march the Roman camp.</l>
+      <l>Impal'd alive 'tis Pharasmanes' will</l>
+      <l>They suffer death in misery of torment.</l>
+     </sp>
+     <sp who="#zenobia">
+      <pb n="9" facs="15"/>
+      <speaker>ZENOBIA.</speaker>
+      <l>Unhappy men!—and must they—ha!—that face,</l>
+      <l>That aged mien!—that venerable form!—</l>
+      <l>Immortal pow'rs!—is it my more than father?—</l>
+      <l>—Is that Megistus?—</l>
+     </sp>
+     <sp who="#megistus">
+      <speaker>MEGISTUS.</speaker>
+      <l>Ariana here!</l>
+      <l>Gods! could I ever hope to see her more?</l>
+      <l>Thou virtuous maid!—thou darling of my age!—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>It is—it is Megistus!—once again</l>
+      <l>Thus let me fall and clasp his rev'rend knee,</l>
+      <l>Print the warm kiss of gratitude and love</l>
+      <l>Upon this trembling hand, and pour the tears,</l>
+      <l>The mingled tears of wonder and of joy.—</l>
+     </sp>
+     <sp who="#megistus">
+      <speaker>MEGISTUS.</speaker>
+      <l>Rise, Ariana, rise—allmighty gods!</l>
+      <l>The tide of joy and transport pours too fast</l>
+      <l>Along these wither'd veins—it is too much</l>
+      <l>For a poor weak old man, worn out with grief</l>
+      <l>And palsied age,—it is too much to bear!</l>
+      <l>Oh! Ariana,—daughter of affliction,</l>
+      <l>Have I then found thee?—do I thus behold thee!—</l>
+      <l>Now I can die content!—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Thou best of men!</l>
+      <l>These joys our tears and looks can only speak.—</l>
+     </sp>
+     <sp who="#megistus">
+      <speaker>MEGISTUS.</speaker>
+      <l>Yet they are cruel joys—mysterious heav'n!</l>
+      <l>You bid the storm o'ercast our darksome ways;</l>
+      <l>You gild the cloud with gleams of cheering light;</l>
+      <l>Then comes a breath from you, and all is vanish'd!</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Wherefore dejected thus—</l>
+     </sp>
+     <sp who="#megistus">
+      <speaker>MEGISTUS.</speaker>
+      <l>Alas! to meet thee</l>
+      <l>
+       <pb n="10" facs="16"/>
+But for a moment, and then part for ever!</l>
+      <l>To meet thee here, only to grieve thee more,</l>
+      <l>To add to thy afflictions,—wound that bosom</l>
+      <l>Where mild affection,—where each virtue dwells,</l>
+      <l>Just to behold thee, and then close my eyes</l>
+      <l>In endless night, while you survey my pangs</l>
+      <l>In the approaching agony of torment—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Talk not of agony;—'tis rapture all!</l>
+      <l>And who has pow'r to tear thee from my heart?</l>
+     </sp>
+     <sp who="#megistus">
+      <speaker>MEGISTUS.</speaker>
+      <l>Alas! the charge of vile imputed guilt—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>I know thy truth, thy pure exalted mind—</l>
+      <l>Thy sense of noble deeds—imputed guilt!—</l>
+      <l>Oh! none will dare—hast thou Tigranes?—what,</l>
+      <l>What is his crime?—blush, foul traducer, blush!—</l>
+      <l>Oh! <stage>(to Megistus)</stage> the wide world must own thy ev'ry virtue—</l>
+     </sp>
+     <sp who="#tigranes">
+      <speaker>TIGRANES.</speaker>
+      <l>If in the conscious forest I beheld</l>
+      <l>Their dark complottings—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Peace, vile sland'rer, peace!—</l>
+      <l>Thou know'st who captivates a monarch's heart—</l>
+      <l>'Tis I protect him—Ariana does it!—</l>
+      <l>Thou, venerable man! in my pavillion</l>
+      <l>I'll lodge thee safe from danger—oh! this joy,</l>
+      <l>This best supreme delight the gods have sent,</l>
+      <l>In pity for whole years of countless woe.</l>
+     </sp>
+     <stage>
+      <hi>Exit with</hi> Megistus.</stage>
+     <stage>ZELMIRA, TIGRANES.</stage>
+     <sp who="#tigranes">
+      <speaker>TIGRANES.</speaker>
+      <l>With what wild fury her conflicting passions</l>
+      <l>Rise to a storm, a tempest of the soul!</l>
+      <l>
+       <pb n="11" facs="17"/>
+I know the latent cause—her heart revolts,</l>
+      <l>And leagues in secret with the Roman arms.</l>
+     </sp>
+     <sp who="#zelmira">
+      <speaker>ZELMIRA.</speaker>
+      <l>Beware Tigranes!—that excess of joy,</l>
+      <l>Those quick, those varied passions strongly speak</l>
+      <l>The stranger has an int'rest in her heart.</l>
+      <l>Besides, thou know'st o'er Pharasmanes' will</l>
+      <l>She holds supreme dominion—</l>
+     </sp>
+     <sp who="#tigranes">
+      <speaker>TIGRANES.</speaker>
+      <l>True, she rules him</l>
+      <l>With boundless sway—</l>
+     </sp>
+     <sp who="#zelmira">
+      <speaker>ZELMIRA.</speaker>
+      <l>Nay, more to wake thy fears—</l>
+      <l>The youthful prince, the valiant Teribazus</l>
+      <l>In secret sighs, and feels the ray of beauty</l>
+      <l>Through ev'ry sense soft-thrilling to his heart.</l>
+      <l>He too becomes thy foe.—</l>
+     </sp>
+     <sp who="#tigranes">
+      <speaker>TIGRANES.</speaker>
+      <l>Unguarded man!</l>
+      <l>Whate'er he loves or hates, with gen'rous warmth,</l>
+      <l>As nature prompts, that dares he to avow,</l>
+      <l>And lets each passion stand confess'd to view;</l>
+      <l>Such too is Ariana;—bold and open</l>
+      <l>She kindly gives instructions to her foe,</l>
+      <l>To mar her best designs.—</l>
+     </sp>
+     <sp who="#zelmira">
+      <speaker>ZELMIRA.</speaker>
+      <l>Her foe Tigranes!</l>
+      <l>That lovely form inshrines the gentlest virtues,</l>
+      <l>Softest compassion, unaffected wisdom,</l>
+      <l>To outward beauty lending higher charms</l>
+      <l>Adorning and adorn'd!—The gen'rous prince,—</l>
+      <l>He too—full well thou know'st him—he unites</l>
+      <l>In the heroic mould of manly firmness,</l>
+      <l>Each mild attractive art—oh! surely none</l>
+      <l>Envy the fair renown that's earn'd by virtue.</l>
+     </sp>
+     <sp who="#tigranes">
+      <speaker>TIGRANES.</speaker>
+      <l>None should Zelmira!—ha! those warlike notes!</l>
+     </sp>
+     <stage>
+      <pb n="12" facs="18"/>
+      <hi>Enter</hi> TERIBAZUS.</stage>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>Each weary soldier rest upon his arms,</l>
+      <l>And wait the king's return—Zelmira say,</l>
+      <l>In these dark moments of impending horror</l>
+      <l>How fares thy beauteous friend?—her tender spirit</l>
+      <l>But ill supports the fierce alarms of war.</l>
+     </sp>
+     <stage>
+      <hi>Enter</hi> ZENOBIA.</stage>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Where is he?—let me fly—oh! Pharasmanes—</l>
+      <l>Methought those sounds bespoke the king's approach—</l>
+      <l>Oh! Teribazus, tell me—have the fates—</l>
+      <l>This horrible suspense—</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>I came, bright maid,</l>
+      <l>To hush the wild emotions of thy heart.</l>
+      <l>Devouring slaughter for a while suspends</l>
+      <l>It's ruthless rage;—as either host advanc'd</l>
+      <l>In dread array, and from the burnish'd arms</l>
+      <l>Of Asia's ranks redoubled sunbeams play'd</l>
+      <l>Burning with bright diversities of day,</l>
+      <l>Came forth an herald from the Roman camp</l>
+      <l>With proferr'd terms—my father deign'd for once</l>
+      <l>To yield to mild persuasion—in his tent</l>
+      <l>Th' ambassador of Rome will soon attend him</l>
+      <l>To sheathe the sword, and give the nations peace.</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>But oh! no peace for me, misfortune's heir!</l>
+      <l>The wretched heir of misery!—But now</l>
+      <l>A more than father found,—yet cruel men</l>
+      <l>Would tear him from me—gen'rous, gen'rous prince,</l>
+      <l>Sparean old man, whose head is white with age,</l>
+      <l>Nor let 'em wound me with the sharpest pang</l>
+      <l>That ever tortur'd a poor bleeding heart.</l>
+     </sp>
+     <sp who="#teribazus">
+      <pb n="13" facs="19"/>
+      <speaker>TERIBAZUS.</speaker>
+      <l>Arise my fair;—let not a storm of grief</l>
+      <l>Thus bend to earth my Ariana's beauties;</l>
+      <l>Soon shall they all revive—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>They brought him fetter'd,</l>
+      <l>Bound like a murderer!—Tigranes,—he,—</l>
+      <l>This is the author of the horrid charge—</l>
+      <l>He threatens instant death—but oh! protect,</l>
+      <l>Protect an innocent, a good old man,—</l>
+      <l>Or stretch me with him on the mournful bier.</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>By heav'n, whoe'er he is, since dear to you,</l>
+      <l>He shall not suffer—quick, direct me to him—</l>
+      <l>My guards shall safe inclose him.</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>In my pavillion He waits his doom—</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>Myself will bear the tidings</l>
+      <l>Of life, of joy, and liberty restor'd.—</l>
+      <l>And thou artificer of ill, thou false,</l>
+      <l>Thou vile defamer!—leave thy treach'rous arts,</l>
+      <l>Nor dare accuse whom Ariana loves.</l>
+     </sp>
+     <stage>ZENOBIA, ZELMIRA.</stage>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Zelmira,—this is happiness supreme!</l>
+      <l>Oh! to have met with unexampl'd goodness</l>
+      <l>To owe my all, my very life itself,</l>
+      <l>To an unknown but hospitable hand,</l>
+      <l>And thus enabled by the bounteous gods,</l>
+      <l>To pay the vast, vast debt—'tis ecstacy</l>
+      <l>
+       <pb n="14" facs="20"/>
+That swells above all bounds, till the fond heart</l>
+      <l>Ake with delight, and thus run o'er in tears.</l>
+     </sp>
+     <sp who="#zelmira">
+      <speaker>ZELMIRA.</speaker>
+      <l>What must Zelmira think?—at first your tongue</l>
+      <l>Grew lavish in the praise of Rhadamistus,</l>
+      <l>With hints obscure touching your high descent;—</l>
+      <l>And now this hoary sage—is he your father?</l>
+      <l>My mind is lost in wonder and in doubt.—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Then to dispel thy doubts, and tell at once</l>
+      <l>What deep reserve has hid within my heart,</l>
+      <l>—I am Zenobia—I that ill-starr'd wretch!</l>
+      <l>The daughter of a scepter'd ancestry,</l>
+      <l>And now the slave of Mithridates' brother!</l>
+     </sp>
+     <sp who="#zelmira">
+      <speaker>ZELMIRA.</speaker>
+      <l>Long lost Zenobia, and restor'd at length!</l>
+      <l>I am your subject; oh! my queen! my sov'reign!</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Thou gen'rous friend! Rise, my Zelmira, rise.</l>
+      <l>—That good old man!—oh! it was he beheld me</l>
+      <l>Borne far away from Rhadamistus' arms,</l>
+      <l>Just perishing, just lost!—</l>
+      <l>He dash'd into the flood, redeem'd me thence,</l>
+      <l>And brought be back to life.—My op'ning eyes</l>
+      <l>Just saw the light, and clos'd again to shun it.</l>
+      <l>Each vital pow'r was sunk, but he, well skill'd</l>
+      <l>In potent herbs, recall'd by flutt'ring soul.</l>
+     </sp>
+     <sp who="#zelmira">
+      <speaker>ZELMIRA.</speaker>
+      <l>May the propitious gods reward his care.</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>With me he sav'd a dear, a precious boy,</l>
+      <l>Then in the womb conceal'd;—he sav'd my child</l>
+      <l>To trace his father's lov'd resemblance to me,</l>
+      <l>The dear, dear offspring of our bridal loves.</l>
+     </sp>
+     <sp who="#zelmira">
+      <pb n="15" facs="21"/>
+      <speaker>ZELMIRA.</speaker>
+      <l>Oh! blessings on him, blessings on his head!—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Resign'd and patient I since dwelt with him—</l>
+      <l>Far in the mazes of a winding wood,</l>
+      <l>Midst hoary mountains, and deep cavern'd rocks.</l>
+      <l>But oh! the fond idea of my lord</l>
+      <l>Pursued me still, or in the cavern'd rock,</l>
+      <l>The mountain's brow, and pendent forest's gloom.</l>
+      <l>The sun look'd joyless down;—each' lonely night</l>
+      <l>Heard my griefs ecchoing thro' the woodland shade.</l>
+      <l>—My infant Rhadamistus!—he is lost,</l>
+      <l>He too is wrested from me!—'midst the rage</l>
+      <l>And the wide waste of war, the hell-hound troops</l>
+      <l>Of Pharasmanes sought my lone retreat,</l>
+      <l>And from the violated shades, from all</l>
+      <l>My soul held dear, the barb'rous ruffians tore me,</l>
+      <l>And never shall the wretched mother see</l>
+      <l>Her child again!—</l>
+     </sp>
+     <sp who="#zelmira">
+      <speaker>ZELMIRA.</speaker>
+      <l>Heav'n may restore him still,—</l>
+      <l>May still restore your royal husband too—</l>
+      <l>Who knows but some protecting god—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>No god!</l>
+      <l>No guardian pow'r was present!—he is lost!—</l>
+      <l>Oh! Rhadamistus!—oh! my honour'd lord!</l>
+      <l>No pitying eye beheld thy decent form;—</l>
+      <l>The rolling flood devour'd thee!—thou hast found</l>
+      <l>A watry grave, and the last dismal accents</l>
+      <l>That trembled on thy tongue, came bubbling up,</l>
+      <l>And murmur'd lost Zenobia!</l>
+     </sp>
+     <sp who="#zelmira">
+      <speaker>ZELMIRA.</speaker>
+      <l>Yet be calm.—</l>
+      <l>The gods may bring redress—even now they give</l>
+      <l>To misery like thine, the heartfelt joy</l>
+      <l>Of shielding injured virtue.</l>
+     </sp>
+     <sp who="#zenobia">
+      <pb n="16" facs="22"/>
+      <speaker>ZENOBIA.</speaker>
+      <l>Yes, Zelmira,</l>
+      <l>That pure delight is mine, a ray from heav'n</l>
+      <l>That bids affliction smile—All gracious pow'rs!</l>
+      <l>Make me your agent here to save Megistus,</l>
+      <l>I'll bear the load of life,—bear all it's ills</l>
+      <l>Till you shall bid this sad world-weary spirit</l>
+      <l>To peaceful regions wing her happy flight,</l>
+      <l>And seek my lord in the dark realms of Night;</l>
+      <l>Seek his dear shade In ev'ry pensive grove,</l>
+      <l>And bear him all my constancy and love.</l>
+     </sp>
+     <trailer>END OF THE FIRST ACT.</trailer>
+    </div>
+    <div n="2" type="act">
+     <pb n="17" facs="23"/>
+     <head>ACT the SECOND.</head>
+     <sp who="#tigranes">
+      <speaker>TIGRANES.</speaker>
+      <l>A False accuser deem'd!—artificer of fraud!</l>
+      <l>Those words, intemp'rate boy—thy phrenzy too</l>
+      <l>Deluded fair!—shall cost you dear atonement.</l>
+      <l>Yet till occasion rise—the king approaches.</l>
+     </sp>
+     <stage>Grand warlike music.</stage>
+     <stage>
+      <hi>A Military Procession: Enter</hi> Pharasmanes, <hi>&amp;c.</hi>
+     </stage>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>At length the same of Pharasmanes' arms</l>
+      <l>Hath aw'd the Nations round—Rome shrinks aghast</l>
+      <l>With pale dismay, recalls her trembling legions,</l>
+      <l>And deprecates the war—oh! what a scene</l>
+      <l>Of glorious havoc had yon field beheld,</l>
+      <l>If peaceful counsels had not check'd my fury!</l>
+      <l>—Valiant Tigranes, those rebellious slaves,</l>
+      <l>Thy care detected,—have they suffer'd death?</l>
+     </sp>
+     <sp who="#tigranes">
+      <speaker>TIGRANES.</speaker>
+      <l>Your pardon, Sir—their doom as yet suspended—</l>
+      <l>The gen'rous prince—I would not utter aught</l>
+      <l>Should injure Teribazus—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Ha!—proceed,</l>
+      <l>And give me all the truth—</l>
+     </sp>
+     <sp who="#tigranes">
+      <speaker>TIGRANES.</speaker>
+      <l>By his command—</l>
+      <l>His tender nature deem'd it barb'rous rigour</l>
+      <l>To urge their sentence—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Vain aspiring boy!</l>
+      <l>Tell Teribazus,</l>
+      <stage>[<hi>Enter</hi> Zenobia]</stage>
+      <l>—tell th' unthinking prince,</l>
+      <l>
+       <pb n="18" facs="24"/>
+The rash presumptuous stripling, these his arts,</l>
+      <l>These practices of popular demeanour,</l>
+      <l>Are treason to his father—let him know</l>
+      <l>Thro' wide Armenia and Iberia's realm</l>
+      <l>My will is fate—the slaves shall meet their doom.</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Oh! mighty king,—thus bending lowly down,—</l>
+      <l>An humble suppliant—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Ariana here!</l>
+      <l>Thou beauteous mourner, let no care molest</l>
+      <l>Thy tender bosom;—rise and bid thy charms</l>
+      <l>Beam forth their gentlest lustre to adorn</l>
+      <l>The glories of my triumph.</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Oh! a wretch like me</l>
+      <l>It best befits thus groveling on the earth</l>
+      <l>To bathe your feet with tears—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>It must not be—</l>
+      <stage>He raises her.</stage>
+      <l>By heav'n renown in arms in vain attends me,</l>
+      <l>If the lov'd graces of thy matchless form</l>
+      <l>Are thus depress'd and languish in affliction,</l>
+      <l>Like flow'rs that droop and hang their pining heads</l>
+      <l>Beneath the rigour of relentless skies.</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>If thou would'st raise me from the depths of woe,</l>
+      <l>Forgive those captives, whom thy fatal anger</l>
+      <l>Adjudg'd to death, nor let ill-tim'd resentment</l>
+      <l>Fall on the prince your son—'twas I—my tears—</l>
+      <l>My piercing lamentations won his heart</l>
+      <l>To arrest their doom—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>For traitors to my crown</l>
+      <l>Does Ariana plead?—</l>
+     </sp>
+     <sp who="#zenobia">
+      <pb n="19" facs="25"/>
+      <speaker>ZENOBIA.</speaker>
+      <l>For mild humanity</l>
+      <l>My suppliant voice is rais'd—I point the means</l>
+      <l>To add new glory to your fame in arms.</l>
+      <l>In naught so near can men approach the gods</l>
+      <l>As the dear act of giving life to others.—</l>
+      <l>In feats of war the glory is divided,</l>
+      <l>To all imparted,—to each common man,—</l>
+      <l>And fortune too shall vindicate her share.—</l>
+      <l>—But of sweet mercy,—the vast, vast renown</l>
+      <l>Is all your own; nor officer, nor soldier</l>
+      <l>Can claim a part—the praise, the honour'd praise,</l>
+      <l>Adorns the victor,—nor is th' eccho lost</l>
+      <l>'Midst shouts of armies, and the trumpet's sound.</l>
+      <l>He conquers even victory itself,</l>
+      <l>Than hero more—a blessing to the world!—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Thy eloquence disarms my stubborn soul.</l>
+      <l>But wherefore urgent thus?—amidst the band</l>
+      <l>Is there who claims thy soft solicitude?</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>A hoary sage—alas! a more than father—</l>
+      <l>The best of men!—preserver of my being,—</l>
+      <l>A blameless shepherd!—rude of fraud and guilt,</l>
+      <l>Innoxious thro' his life'—oh! mighty king,</l>
+      <l>Spare an old man,—a venerable sire!</l>
+      <l>Naught has your fortune greater than the pow'r</l>
+      <l>To serve humanity!—shew that your heart</l>
+      <l>Has the sweet grace, the gen'rous virtue too!</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>My soul relents, and yields to thy entreaty,</l>
+      <l>Thy violence of pray'r—release him streight—</l>
+      <l>My brightest honours wait him;—honours fit</l>
+      <l>For him who gave thee birth;—for him whose virtue</l>
+      <l>Thy gen'rous soul deems worthy it's esteem.</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Our humble station seeks nor pomp nor splendor—</l>
+      <l>We only ask, unenvied and obscure,</l>
+      <l>To live in blameless innocence,—to seek</l>
+      <l>
+       <pb n="20" facs="26"/>
+Our calm retreat, embrac'd in depth of woods,</l>
+      <l>And dwell with peace and humble virtue there.</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>That coy disdain, which shuns admiring eyes,</l>
+      <l>Attracts the more, exalting ev'ry charm.</l>
+      <l>No more of humble birth—thy matchless beauty,</l>
+      <l>Like gems, that in the mine conceal their lustre,</l>
+      <l>Was form'd to dignify the eastern throne.</l>
+      <l>My sceptre, that strikes terror to each heart,</l>
+      <l>Grac'd by thy decent hand shall make each subject</l>
+      <l>Adore thy softer sway—The glorious aera</l>
+      <l>Of Pharasmanes' love,—his date of empire</l>
+      <l>With Ariana shar'd, henceforth begins,</l>
+      <l>And leads the laughing hours—but first the storm</l>
+      <l>Of war and wild commotion must be hush'd—</l>
+      <l>That mighty care now calls me to my throne,</l>
+      <l>To give the Roman audience; audience fit</l>
+      <l>To strike a citizen of Rome with awe,</l>
+      <l>When he beholds the majesty of kings.</l>
+     </sp>
+     <stage>going.</stage>
+     <stage>
+      <hi>Enter</hi> TERIBAZUS.</stage>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>Dread Sir, the Roman embassy approaches.—</l>
+      <l>From yonder rampart, that invests your camp,</l>
+      <l>I heard their horses hoofs with eager speed</l>
+      <l>Beat the resounding soil.—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Let 'em approach—</l>
+      <l>And thou, whose arrogance—but I forbear—</l>
+      <l>When Ariana pardons, my resentment</l>
+      <l>Yields to her smile, and looks away it's rage.</l>
+      <l>As when the crimes of men Jove's wrath demand,</l>
+      <l>And the red thunder quivers in his hand;</l>
+      <l>The queen of love his vengeance can disarm</l>
+      <l>With the soft eloquence of ev'ry charm;</l>
+      <l>Controul his passions with resistless sway,</l>
+      <l>And the impending storm smile to serenest day.</l>
+     </sp>
+     <stage>Exit with his train.</stage>
+     <stage>
+      <pb n="21" facs="27"/>
+ZENOBIA, TERIBAZUS.</stage>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>And may I then once more, thou bright perfection,</l>
+      <l>May Teribazus once again approach thee,</l>
+      <l>While thus my father,—my ambitious father,</l>
+      <l>At sight of thee forgets his cruel nature,</l>
+      <l>And wonders how he feels thy beauty's pow'r?</l>
+      <l>Oh! may I—but I'm too importunate—</l>
+      <l>Your looks rebuke me from you,—and I see</l>
+      <l>How hateful I am grown!—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Mistake me not,</l>
+      <l>Nor rashly thus arraign the looks of one,</l>
+      <l>Whose heart lies bleeding here—thy gen'rous worth</l>
+      <l>Is oft the live-long day my fav'rite theme.</l>
+      <l>But oh! for me,—for wretched Ariana,</l>
+      <l>The god of love long since hath quench'd his torch,</l>
+      <l>And ev'ry source of joy lies dead within me.</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>That cold averted look!—but I am us'd</l>
+      <l>To bear your scorn;—your scorn that wounds the deeper,</l>
+      <l>Mask'd as it is with pity and esteem.</l>
+      <l>Yet love incurable,—relentless love</l>
+      <l>Burns here a constant flame, that rises still</l>
+      <l>And will to madness kindle, should I see</l>
+      <l>That hoard of sweets, that treasury of charms</l>
+      <l>Yield to another, to a barb'rous rival</l>
+      <l>Who persecutes a son to his undoing.</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>If Ariana's happiness would wound thee,</l>
+      <l>Thou'lt ne'er have cause to murmur or repine.</l>
+      <l>Naught can divorce me from the black despair</l>
+      <l>To which I've long been wedded.—</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>Calm disdain,</l>
+      <l>I grant you, well becomes the tyrant fair</l>
+      <l>Whom Pharasmanes destines for his throne.</l>
+      <l>But oh! in pity to this breaking heart,</l>
+      <l>
+       <pb n="22" facs="28"/>
+Give me, in mercy give some other rival,</l>
+      <l>Whom I may stab,—without remorse may stab,</l>
+      <l>Midst his delight, in all his heav'n of bliss,</l>
+      <l>And spurn him from the joys, that scorpion-like</l>
+      <l>Shoot anguish here—here thro' my very soul.</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Alas! too gen'rous prince, the gods long since</l>
+      <l>Between us both fix'd their eternal bar.</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TEREBAZUS.</speaker>
+      <l>What say'st thou Ariana?—ha! beware,</l>
+      <l>Nor urge me to destraction—Love like mine,</l>
+      <l>Fierce, gener'ous, wild,—with disappointment wild,</l>
+      <l>May rouze my desp'rate rage to do a deed</l>
+      <l>Will make all nature shudder.—Love despis'd</l>
+      <l>Not always can respect the ties of nature!—</l>
+      <l>—Driven to extremes the tend'rest passion scorn'd</l>
+      <l>May hate at length the object it adores,</l>
+      <l>And stung to madness—no!—inhuman fair,</l>
+      <l>You still must be,—in all vicissitudes,</l>
+      <l>In all the scenes misfortune has in store,</l>
+      <l>You still must be the sov'reign of my soul.</l>
+      <l>But for the favour'd, for the happy rival,</l>
+      <l>By heav'n, who e'er he be,—despair and phrenzy</l>
+      <l>May strike the blow, and dash him from your arms</l>
+      <l>A sacrifice to violated love.</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA,</speaker>
+      <l>Why thus distract yourself with vain suspicions?</l>
+      <l>— You have no rival, whom your rage can murder —</l>
+      <l>—None in the pow'r of fate—oh! Teribazus,</l>
+      <l>The wretched Ariana—long, long since—</l>
+      <l>—My heart swells o'er—I cannot speak—a duty,</l>
+      <l>A rigorous duty bids me ne'er accept</l>
+      <l>Thy proferr'd love;—a duty, which, if known,</l>
+      <l>Would in eternal silence seal thy vows,</l>
+      <l>Turn all thy rage to tears, and, oh! my prince!</l>
+      <l>Bid thee respect calamities like mine.</l>
+     </sp>
+     <stage>Exit.</stage>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>Yet Ariana stay—turn, turn and hear me—</l>
+      <l>She's gone, the cruel, unrelenting fair!</l>
+      <l>
+       <pb n="23" facs="29"/>
+And leaves me thus to misery of soul.</l>
+      <stage>
+       <hi>Enter</hi> ZOPIRON.</stage>
+      <l>Flamminius, from the Romans is arriv'd,</l>
+      <l>And bears the olive-branch—the king your father</l>
+      <l>Assembles all his nobles—</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>Say, Zopiron,</l>
+      <l>Does Rome yield up Armenia?</l>
+     </sp>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>Rome is still</l>
+      <l>The scourge of lawless pow'r—a people's rights</l>
+      <l>The conscript fathers have resolv'd to shield,</l>
+      <l>And to the lineal heir assert the crown.</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>May the stern god of battles aid their arms,</l>
+      <l>And fight with the deliverers of mankind!</l>
+      <l>Unnatural father! that would seize my sceptre,</l>
+      <l>Mine as my brother's heir, and ravish with it</l>
+      <l>The idol of my soul—but now no more</l>
+      <l>His tyranny prevails—to empire rais'd,</l>
+      <l>'Twill be the pride of my exulting heart.</l>
+      <l>To lay my crown at Ariana's feet.</l>
+     </sp>
+     <stage>Exit.</stage>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>Unhappy prince! should Pharasmanes know</l>
+      <l>His ardent passion for the captive maid,</l>
+      <l>Alas! his fatal rage—propitious pow'rs!</l>
+      <l>May these events,—may Rome's ambassador,—</l>
+      <l>Oh! may he come with concord in his train,</l>
+      <l>And far avert the ills my heart forebodes!—</l>
+      <l>But lo! Flamminius.—</l>
+     </sp>
+     <stage>
+      <hi>Enter</hi> RHADAMISTUS,</stage>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>Welcome to these tents</l>
+      <l>The harbinger of peace!</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Does your king know</l>
+      <l>Flamminius waits his leisure!</l>
+     </sp>
+     <sp who="#zopiron">
+      <pb n="24" facs="30"/>
+      <speaker>ZOPIRON.</speaker>
+      <l>He prepares</l>
+      <l>To hear you, Roman!—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>As I tread his camp</l>
+      <l>There is I know not what of horror shoots</l>
+      <l>Thro' all my frame, and disconcerted reason</l>
+      <l>Suspends her function,—a black train of crime,</l>
+      <l>Murders, and lust, and rapine, cities sack'd,</l>
+      <l>Nations laid waste by the destructive sword,</l>
+      <l>A thousand ruthless deeds all rise to view,</l>
+      <l>And shake my inmost soul, as I approach</l>
+      <l>The author of calamity and ruin.</l>
+     </sp>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>Then from a Roman, from a son of freedom</l>
+      <l>Let the fell tyrant hear the voice of truth,</l>
+      <l>The strong resistless strain, which liberty</l>
+      <l>Breathes in her capitol, till his proud heart</l>
+      <l>Shudder with inward horror at itself.</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>In Pharasmanes camp that honest stile!</l>
+      <l>—Thy visage bears the characters of virtue.</l>
+      <l>—Wilt thou impart thy name and quality?</l>
+     </sp>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON,</speaker>
+      <l>In me you see Zopiron!—deem me not</l>
+      <l>A vile abettor of the tyrant's guilt.—</l>
+      <l>To me Armenia trusts her sacred rights;</l>
+      <l>Hither her chosen deligate she sends me,</l>
+      <l>At the tribunal of Iberia's king,</l>
+      <l>To plead her cause, an injur'd people's cause!</l>
+      <l>Oh! never, never shall my native land</l>
+      <l>Yield to a vile usurper.</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Rome has heard</l>
+      <l>Thy patriot toil for freedom—Rhadamistus</l>
+      <l>Has heard thy gen'rous ardour in his cause,</l>
+      <l>And pants to recompence thy truth and zeal.</l>
+     </sp>
+     <sp who="#zopiron">
+      <pb n="25" facs="31"/>
+      <speaker>ZOPIRON.</speaker>
+      <l>Oh! name not Rhadamistus—now no more</l>
+      <l>The god-like youth shall bless Armenia's realm.</l>
+      <l>The fates just shew'd him to the wond'ring world,</l>
+      <l>And then untimely snatch'd him from our sight!—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>And didst thou know the prince?</l>
+     </sp>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>My lot severe</l>
+      <l>Denied that transport;—but the voice of fame</l>
+      <l>Endears his memory.</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>A time may come</l>
+      <l>When you may meet, and both in friendship burn.</l>
+      <l>—Still Rhadamistus lives!—</l>
+     </sp>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>Said'st thou Flamminius!—</l>
+      <l>Lives he?</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Still he survives;—from death and peril</l>
+      <l>Sav'd by a miracle!—and now for him</l>
+      <l>Rome claims Armenia.—</l>
+     </sp>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>Claims Armenia for him!—</l>
+      <l>For Rhadamistus claims!—and will ye, god!</l>
+      <l>Still will ye give him to a nation's pray'rs:</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Alas! he lives;—heart-broken, desolate,</l>
+      <l>In sorrow plung'd,—abandon'd to despair!—</l>
+     </sp>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>The righteous gods will vindicate his cause.—</l>
+      <l>His lov'd Zenobia, Mithridates' daughter,</l>
+      <l>That ev'ry excellence—does she too live?</l>
+      <l>
+       <pb n="26" facs="32"/>
+Have the indulgent pow'rs watch'd o'er her fate,</l>
+      <l>And sav'd her for her people?—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>There, Zopiron,</l>
+      <l>There lies the wound that pierces to his soul,</l>
+      <l>The sharpest pang,—that rends,—that cleaves his heart.</l>
+      <l>—Oh! never more shall lovely lost Zenobia,</l>
+      <l>That angel form,—that pattern of all goodness,</l>
+      <l>No, never more—she's gone, for ever gone!</l>
+      <l>Thou wouldst not think—her barb'rous, cruel husband—</l>
+      <l>With his own hand—the recollected tale</l>
+      <l>Of horror shakes my frame to dissolution!—</l>
+      <l>Her husband!—he!—that dear, that tender form—</l>
+      <l>Oh!—poor Zenobia—oh!—</l>
+     </sp>
+     <stage>Falls into swoon.</stage>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>He faints;—he falls!—</l>
+      <l>Can Roman stoicism thus dissolve</l>
+      <l>In tender pity?—rise, Flamminius, rise;</l>
+      <l>He stirs; he breathes;—and life begins to wander</l>
+      <l>O'er his forsaken cheek.—Resume thy strength,</l>
+      <l>And like a Roman triumph o'er your tears.—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>I'll not be forc'd back to a wretched world.—</l>
+      <l>No;—let me,—let me die.—</l>
+     </sp>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>His eyes reject</l>
+      <l>The cheerful light—what can this anguish mean?</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>You do but waste your pains;—it is in vain!—</l>
+      <l>Away and leave a murd'rer to his woes.—</l>
+     </sp>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>Why thus accuse thyself?—I'll not believe it—</l>
+      <l>Thus let me raise thee from the earth—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Alas! <stage>(rising)</stage>—</l>
+      <l>Despair weighs heavy on me.</l>
+     </sp>
+     <sp who="#zopiron">
+      <pb n="27" facs="33"/>
+      <speaker>ZOPIRON.</speaker>
+      <l>Still I must</l>
+      <l>Controul this sudden phrenzy—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Oh! Zopiron,—</l>
+      <l>Here,—here it lies—</l>
+     </sp>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>Unburthen all, and ease</l>
+      <l>Your loaded heart—it cannot be—thou never wert</l>
+      <l>A murd'rer!—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Yes!—the horror of the world!—</l>
+      <l>A murd'rous wretch!—the fatal Rhadamistus!—</l>
+      <l>'Twas I—these felon hands!—with treach'rous love</l>
+      <l>I clasp'd her in this curs'd embrace—I bore her</l>
+      <l>In these detested arms, and gave that beauty,</l>
+      <l>That tender form to the devouring waves.—</l>
+      <l>Plunge me, ye furies, in your lakes of fire—</l>
+      <l>Here fix,—fix all your vultures in my heart!—</l>
+      <l>And lo! they rush upon me <stage>(starts up)</stage> see! see there!</l>
+      <l>With racks and wheels they come;—they tear me piece-meal—</l>
+      <l>'Tis just Zenobia!—I deserve it all—</l>
+     </sp>
+     <stage>
+      <hi>Falls upon</hi> Zopiron.</stage>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>Assist him guardian pow'rs!—your own high will</l>
+      <l>Guides these events!—revive, my prince, revive!</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Why thus recall me to despair and horror?</l>
+      <l>To bid me hate the light, detest myself,</l>
+      <l>Traitor to nature,—traitor to my love!</l>
+      <l>—And yet, Zopiron,—yet I am not plung'd</l>
+      <l>So far in guilt, but thou may'st pity me!—</l>
+      <l>Heav'n, I attest,—yes you can witness gods!</l>
+      <l>I meant to perish with her—but the fates</l>
+      <l>Denied that comfort—from her circling arms</l>
+      <l>The torrent bore me far—expiring, senseless,</l>
+      <l>Gasping in death, the overflowing tide</l>
+      <l>
+       <pb n="28" facs="34"/>
+Impetuous drove me on th' unwish'd for shore.</l>
+      <l>—There soon deserted by the merciless stream</l>
+      <l>A band of Romans, as from Syria's frontier</l>
+      <l>They rang'd the country round,—descried me stretch'd</l>
+      <l>Pale and inanimate—with barb'rous pity</l>
+      <l>They lent their aid, and chain'd me to the rack</l>
+      <l>Of inauspicious life!—</l>
+     </sp>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>For wond'rous ends</l>
+      <l>Mysterious providence has still reserv'd you,</l>
+      <l>To circulate the happiness of millions,</l>
+      <l>A patriot prince!—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Would they had let me perish!—</l>
+      <l>What has a wretch like me to do in life,</l>
+      <l>When my Zenobia's lost?—'tis true, my friend,</l>
+      <l>She begg'd to die—but that pathetic look,</l>
+      <l>Her tears, embraces, and those streaming eyes</l>
+      <l>Still beauteous in distress!—each winning grace,</l>
+      <l>Her ev'ry charm should have forbid the deed,</l>
+      <l>And pleaded for her life!</l>
+     </sp>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>And yet, my prince,</l>
+      <l>When self-acquitting conscience—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Self-condemn'd</l>
+      <l>My soul is rack'd,—is tortur'd—not her child,</l>
+      <l>Her unborn infant,—the first fruit of love,</l>
+      <l>Not ev'n her babe could with the voice of nature</l>
+      <l>Plead for itself,—or for it's wretched mother.—</l>
+      <l>They perish'd both,—she and her little one,</l>
+      <l>And I survive to tell it.—</l>
+     </sp>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>Let not grief</l>
+      <l>O'erwhelm your reason thus—what! when your father,</l>
+      <l>Your cruel father, reeking from the blood</l>
+      <l>Of Mithridates—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <pb n="29" facs="35"/>
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Naught but death was left,</l>
+      <l>Yet ev'n that last, sad refuge was debarr'd me!—</l>
+      <l>E'er since I've liv'd in misery;—my days</l>
+      <l>Were colour'd all with anguish and despair!</l>
+      <l>Long from the Romans I conceal'd my name.</l>
+      <l>At length reveal'd me to a chosen friend;—</l>
+      <l>—Journey'd with him to Rome; and in full senate</l>
+      <l>Told all the dismal story of my woes.</l>
+      <l>The conscript fathers heard, and dropt a tear—</l>
+      <l>Then to quick vengeance fir'd, dispatch'd their legions</l>
+      <l>To wage the war; Paulinus leads them on,</l>
+      <l>And now to me commits this embassy,</l>
+      <l>With fully delegated pow'rs from Rome.</l>
+     </sp>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>With one united voice Armenia calls</l>
+      <l>For Mithridates' heir!—convinc'd by rumour</l>
+      <l>That thou ar't lost, the gen'ral cry demands</l>
+      <l>Your brother Teribazus—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>He, Zopiron,</l>
+      <l>Is to these eyes a stranger.—</l>
+     </sp>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>Hapless prince!</l>
+      <l>A cloud of woes lies brooding o'er his head.</l>
+      <l>A fair, a lovely captive rules his heart;</l>
+      <l>Her name is Ariana; and indeed</l>
+      <l>No wonder she attracts his soft regard,</l>
+      <l>And kindles all the vehemence of love.</l>
+      <l>The tyrant eyes her too with fierce desire,—</l>
+      <l>And ruin nods o'er Teribazus' head.</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>By heav'n it shall not be—alas! I know</l>
+      <l>The pang of losing whom the heart adores.—</l>
+      <l>I'll yield him up Armenia—what are crowns</l>
+      <l>But toys of vain ambition, when the lov'd</l>
+      <l>The dear pertaker of my throne is lost?</l>
+     </sp>
+     <stage>
+      <pb n="30" facs="36"/>
+      <hi>Enter</hi> TIGRANES.</stage>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>What would Tigranes?</l>
+     </sp>
+     <sp who="#tigranes">
+      <speaker>TIGRANES.</speaker>
+      <l>Pharasmanes calls</l>
+      <l>Flamminius to his presence—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>I attend him;—</l>
+      <l>So tell your king—</l>
+     </sp>
+     <sp who="#tigranes">
+      <speaker>TIGRANES.</speaker>
+      <l>Instant he waits thee Roman.</l>
+     </sp>
+     <stage>Exit.</stage>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>How my heart trembles at the awful meeting!</l>
+     </sp>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>Then summon all your strength—the lapse of time</l>
+      <l>From early youth, when Pharasmanes saw you,</l>
+      <l>Affliction's inward stroke,—that Roman garb,</l>
+      <l>All will protect, and cloak you from detection!—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Zopiron yes; in this important crisis,</l>
+      <l>When violated laws, and injur'd men,</l>
+      <l>When my own wrongs are lab'ring in my heart,</l>
+      <l>The great occasion calls for firmest vigour.</l>
+      <l>Yes, in this interview I will maintain</l>
+      <l>A Roman's part;—in Pharasmanes' soul</l>
+      <l>I'll wake the furies of detested guilt,</l>
+      <l>And pour the rapid energy of truth</l>
+      <l>Till ev'n to himself his crimes are known,</l>
+      <l>And the usurper tremble on his throne.</l>
+     </sp>
+     <trailer>END OF THE SECOND ACT.</trailer>
+    </div>
+    <div n="3" type="act">
+     <pb n="31" facs="37"/>
+     <head>ACT the THIRD.</head>
+     <stage>PHARASMANES, <hi>on his throne:</hi> TIGRANES, ZOPIRON, Officers, <hi>&amp;c.</hi>
+     </stage>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>WHERE is this bold republican from Rome?</l>
+      <l>This enemy of kings?—Tigranes, thou</l>
+      <l>Bid the Plebeian enter—Pharasmanes</l>
+      <l>Vouchsafes him audience.—</l>
+     </sp>
+     <stage>
+      <hi>Enter</hi> FLAMMINIUS.</stage>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Now, Flamminius, say</l>
+      <l>What motive brings you to Araxes' banks,</l>
+      <l>To wage this slow, this philosophic war?</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>By me, unworthy of th' important charge,</l>
+      <l>By me, unequal to the arduous theme,</l>
+      <l>The conscript fathers here explain their conduct,</l>
+      <l>And justify the ways of Rome to kings.</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Roman, thou may'st declaim with all thy pomp</l>
+      <l>Of idle eloquence.</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>No pow'r of words,</l>
+      <l>No graceful periods of harmonious speech</l>
+      <l>Dwell on my lip—the only art I boast</l>
+      <l>Is honest truth, unpolish'd, unadorn'd!—</l>
+      <l>Truth that must strike conviction to your heart,</l>
+      <l>Truth that informs you,—to usurp a crown,</l>
+      <l>For dire ambition to unpeople realms,</l>
+      <l>Are violations of each sacred law,</l>
+      <l>And bid the Roman eagle wing'd with vengeance</l>
+      <l>To the Araxes' margin bend her flight,</l>
+      <l>To tell destruction it shall rage no more.</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <pb n="32" facs="38"/>
+      <speaker>PHARASMANES.</speaker>
+      <l>And dares Paulinus' soldier,—dar'st thou slave</l>
+      <l>Thus offer vile indignity, and mouthe</l>
+      <l>The language of your forum to a king?</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Rome knows, and owns you as Iberia's king,</l>
+      <l>But not Armenia's.—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Ha!—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Th' assembled senate</l>
+      <l>Acknowledges your vast renown in arms,</l>
+      <l>And honours the unshaken fortitude</l>
+      <l>Ev'n of a foe—but, Sir, the fortitude,</l>
+      <l>Whose brutal rage lays nations desolate,</l>
+      <l>It is the glory of imperial Rome</l>
+      <l>To humble and subdue—It is the glory</l>
+      <l>Of Rome, that spares the vanquish'd, 'tis her pride</l>
+      <l>To set the nations free;—to fix the bounds</l>
+      <l>Of the fell tyrant's pow'r;—to trace the circle</l>
+      <l>From which he must not move—these are the arts</l>
+      <l>The bright prerogative of Rome—of Rome,</l>
+      <l>The mistress of the world, whose conqu'ring banners</l>
+      <l>O'er Asia's realms so oft have wav'd in triumph,</l>
+      <l>And made ev'n kings her subjects—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Ha! vain boaster!</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Made oriental kings, short by the knee</l>
+      <l>Accept their crown, with tears of joy accept it,</l>
+      <l>And be the viceroys of a Roman senate.</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>And this to Pharasmanes?—has not yet</l>
+      <l>A train of conquests taught you to revere</l>
+      <l>This good right arm in war?—This arm the Parthians</l>
+      <l>Have felt with, fatal overthrow—no spoil,</l>
+      <l>
+       <pb n="33" facs="39"/>
+No trophies won from me have grac'd their triumphs;</l>
+      <l>No friends of mine were harness'd to their chariots;—</l>
+      <l>No captive chief, like your own mangled Crassus,</l>
+      <l>There roams a sullen ghost, and calls for vengeance,</l>
+      <l>For vengeance still unpaid, and calls in vain</l>
+      <l>For the sad funeral rites:—Would Rome presume</l>
+      <l>To wrest Armenia from me,—lo! my banners</l>
+      <l>From frosty Caucasus to Phasis' banks</l>
+      <l>Wave high in air, and shadow all the land.</l>
+      <l>Call your embattled legions—or does Rome,</l>
+      <l>All conqu'ring Rome, that mistress of the world,</l>
+      <l>Does she at length by her ambassadors</l>
+      <l>Negotiate thus the war?</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Rome, Sir, commands</l>
+      <l>The subject world, for she adores the gods—</l>
+      <l>And their all pow'rful aid.—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Wouldst thou dispute</l>
+      <l>My lawful claim,—arm thee with sword and fire;</l>
+      <l>Not with vain subtleties, and idle maxims.—</l>
+      <l>Armenia's crown is mine,—deriv'd to me,</l>
+      <l>Heir to a brother, and a son deceas'd.—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>And can a murd'rer, can the midnight ruffian</l>
+      <l>Prove himself heir—by the assassin's stab?—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES;</speaker>
+      <l>Thou base reviler!—</l>
+     </sp>
+     <stage>Comes forward and draws his fabre.</stage>
+     <sp who="#tigranes">
+      <speaker>TIGRANES.</speaker>
+      <l>Moderate your fury;</l>
+      <l>It were unjust—</l>
+     </sp>
+     <stage>[holding him]</stage>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>The character he bears,—</l>
+      <l>The laws of nations—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Thou base insolent!</l>
+      <l>
+       <pb n="34" facs="40"/>
+Who dar'st to wound the ear of sacred kings</l>
+      <l>With a black crime, that's horrible to nature!—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Yes horrible to nature!—yet the world</l>
+      <l>Has heard it all—Thou art the man of blood!</l>
+      <l>A brother's blood yet smokes upon thy hand—</l>
+      <l>Not his white age, his venerable looks,</l>
+      <l>Not ev'n his godlike virtues could withhold thee!—</l>
+      <l>Gash'd o'er with wounds he falls;—he bleeds, he dies,</l>
+      <l>Without a groan he dies!—that is thy work,</l>
+      <l>Thine, murd'rer, thine!—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>No more—the hand of heav'n</l>
+      <l>Shook from the blasted tree the wither'd fruit—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Forbear the impious strain—it is the stile</l>
+      <l>Ambition speaks, when for a crown it stabs,</l>
+      <l>Then dares, with execrable mock'ry dares</l>
+      <l>Traduce the governing all-righteous mind.</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>He harrows up my soul!—and do'st thou think</l>
+      <l>A mad man's ravings—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Since that hour accurst</l>
+      <l>Hast thou not plung'd thee deeper still in guilt?</l>
+      <l>Your son—your blameless son—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>His crimes provok'd</l>
+      <l>A fathers wrath—his and Zenobia's crimes!—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>She too—untimely lost—unbidden tears</l>
+      <l>Forbear to stream, nor quite unman me thus.</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>In tears!—by heav'n; thou woman hearted slave,</l>
+      <l>
+       <pb n="35" facs="41"/>
+Those coward symptoms have some latent spring</l>
+      <l>That lies conceal'd within that treach'rous heart.</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>They are the tears humanity lets fall</l>
+      <l>When soft ey'd beauty dies untimely slain.—</l>
+      <l>But to avenge her death, array'd in terror</l>
+      <l>The Roman legions—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Lead 'em to the charge.—</l>
+      <l>Thou quit my camp:—If when yon sun descends</l>
+      <l>Thou linger'st here, the title of ambassador</l>
+      <l>Shall naught avail to save thee from my fury.</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>E'er that resign Armenia—Till the close</l>
+      <l>Of day, I give thee leisure to revolve</l>
+      <l>The vengeance Rome prepares—Thou know'st</l>
+      <l>With what a pond'rous arm her hardy sons</l>
+      <l>Lift the avenging spear.—Be timely wife,</l>
+      <l>Nor dare provoke your fate.</l>
+     </sp>
+     <stage>Exit.</stage>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Roman farewel!—</l>
+      <l>Do thou, Tigranes, issue forth my orders</l>
+      <l>From tent to tent, that each man stand prepar'd</l>
+      <l>For the dead midnight hour—with silent march,</l>
+      <l>Then will I pour with ruinous assault</l>
+      <l>Upon th' astonish'd foe, my horses hoofs.</l>
+      <l>Imbrue in blood, and give to-morrow's sun</l>
+      <l>A spectacle of horror and destruction.—</l>
+     </sp>
+     <stage>He ascends his throne, and the back scene closes.</stage>
+     <stage>
+      <hi>Enter</hi> ZENOBIA <hi>and</hi> MEGISTUS.</stage>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Oh! tell me all Megistus; let me hear</l>
+      <l>All that concerns my child,—my blooming boy,</l>
+      <l>My little Rhadamistus—is he safe?</l>
+      <l>Give me the truth—do not deceive a mother</l>
+      <l>Who doats Upon her babe—is my child safe?</l>
+     </sp>
+     <sp who="#megistus">
+      <pb n="36" facs="42"/>
+      <speaker>MEGISTUS.</speaker>
+      <l>Dry up your tears—I cannot hear to see you</l>
+      <l>Afflicted thus—your infant hero's safe</l>
+      <l>You may believe your faithful old Megistus—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>I do believe thee—but excuse my weakness—</l>
+      <l>My flutt'ring fears for ever paint him to me</l>
+      <l>By ruffians seiz'd, and as he sees the knife</l>
+      <l>Aim'd at his little throat, in vain imploring</l>
+      <l>For me by name, and begging my assistance,</l>
+      <l>While far, far off his miserable mother</l>
+      <l>No aid can give, nor snatch him to her heart.</l>
+     </sp>
+     <sp who="#megistus">
+      <speaker>MEGISTUS.</speaker>
+      <l>I never yet deceiv'd you—by yon heav'n</l>
+      <l>The prince still lives—when I regain'd my cottage</l>
+      <l>After the toils of many a weary day,</l>
+      <l>I found him there—but griev'd and wond'ring much</l>
+      <l>Where his dear mother was.</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Megistus tell me,</l>
+      <l>Oh! tell me each particular; his looks.</l>
+      <l>All his apt questions, his enchanting words;</l>
+      <l>For I could hear of him for ever—lovely youth;</l>
+      <l>His father's image blooming in his boy!</l>
+      <l>Thro' sev'n revolving years my only comfort!</l>
+      <l>—When from my eyes the sudden sorrows gush'd,</l>
+      <l>How would he look, and ask his wretched mother</l>
+      <l>What meant those falling tears?—alas! ev'n now</l>
+      <l>I see him here before me—did my child</l>
+      <l>Think his poor mother lost?</l>
+     </sp>
+     <sp who="#megistus">
+      <speaker>MEGISTUS.</speaker>
+      <l>At first he seem'd</l>
+      <l>To pine in thought at your long weary absence,</l>
+      <l>And many a look he cast, that plainly spoke</l>
+      <l>His little bosom heav'd with various passions.</l>
+      <l>Still would he seek you in each well known haunt,</l>
+      <l>Each bow'r, each cavern, like the tender fawn</l>
+      <l>That thro' the woodland seeks it's mother lost,</l>
+      <l>
+       <pb n="37" facs="43"/>
+Exploring all around with anxious eye,</l>
+      <l>And looking still unutterable grief,</l>
+      <l>Lonely and sad, and stung with keen regret.</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Did my child weep?—not much I hope—</l>
+     </sp>
+     <sp who="#megistus">
+      <speaker>MEGISTUS.</speaker>
+      <l>With soothing tales</l>
+      <l>I labour'd to beguile him from his sorrow;—</l>
+      <l>I promis'd your return;—a gentle smile</l>
+      <l>Brighten'd his anxious look; he sigh'd content,</l>
+      <l>And then I led him to a safer dwelling</l>
+      <l>Among the shepherds of the Syrian vale,</l>
+      <l>Who all have sworn to guard him as their own,</l>
+      <l>And in due season lead him to the Romans.</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Oh! may those shepherds know the kindest influence</l>
+      <l>Of the indulgent heav'ns!—yet why not stay</l>
+      <l>To guard him—but i'll not complain—on me</l>
+      <l>Your cares were fix'd—oh! tell me how the gods</l>
+      <l>Watch'd ov'r all thy ways, and brought thee to me?</l>
+      <l>Where hast thou liv'd these many, many days?—</l>
+     </sp>
+     <sp who="#megistus">
+      <speaker>MEGISTUS.</speaker>
+      <l>In bitterness of soul I've liv'd, thy fate</l>
+      <l>Thy tender form deep imag'd in my breast!</l>
+      <l>I rang'd the banks where the Araxes flows,</l>
+      <l>But bring, alas! no tidings of your lord.</l>
+      <l>Heart-broken, wearied out, I measur'd back</l>
+      <l>My feeble steps,—but thou wer't ravish'd thence;—</l>
+      <l>For thee I travers'd hills and forests drear;</l>
+      <l>Thee I invok'd, that ey'ry cavern'd rock,</l>
+      <l>Each vale, each mountain eccho'd with thy name.</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>And here at length you find me, here encompass'd</l>
+      <l>With all the worst of ills—hence let us fly</l>
+      <l>To the bless'd Syrian vally, where my child</l>
+      <l>Wins with his early manhood ev'ry heart,</l>
+      <l>And calls for me, and chides this long delay.</l>
+     </sp>
+     <sp who="#megistus">
+      <pb n="38" facs="44"/>
+      <speaker>MEGISTUS.</speaker>
+      <l>Vain the attempt—one only way is left—</l>
+      <l>Reveal thee to th' ambassador of Rome.—</l>
+      <l>Safe in his train thou may'st escape this place,</l>
+      <l>And gain Paulinus' camp—Zenobia known</l>
+      <l>Will meet protection there.—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>The gods inspire</l>
+      <l>The happy counsel—ha!— Tigranes comes!</l>
+      <l>Retire Megistus <stage>(he goes out)</stage> a gay dawn of hope</l>
+      <l>Beams forth at length, and lights up day within me.</l>
+     </sp>
+     <stage>ZENOBIA, TIGRANES.</stage>
+     <sp who="#tigranes">
+      <speaker>TIGRANES.</speaker>
+      <l>Hail princess, destin'd to imperial sway,</l>
+      <l>To grace with beauty Pharasmanes' throne!</l>
+      <l>By me the impatient king requests you'll fix</l>
+      <l>The happy nuptial hour.—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Thou might'st as well</l>
+      <l>Command me wed the forked lightnings blaze</l>
+      <l>That gilds the storm, and be in love with horror.</l>
+     </sp>
+     <sp who="#tigranes">
+      <speaker>TIGRANES.</speaker>
+      <l>Take heed, rash fair!—an eastern monarch's love,</l>
+      <l>Ardent as his, must not be made the sport</l>
+      <l>Of tyrant beauty—when a rival dares</l>
+      <l>Oppose his sov'reign's wish—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Does Pharasmanes,</l>
+      <l>Say,—does your king permit his spies of state,</l>
+      <l>That curse of human kind, to breathe their whispers</l>
+      <l>In his deluded ear?</l>
+     </sp>
+     <sp who="#tigranes">
+      <speaker>TIGRANES.</speaker>
+      <l>Full well 'tis known</l>
+      <l>That Teribazus bids you thus revolt,</l>
+      <l>And draws your heart's allegiance from your king.</l>
+     </sp>
+     <sp who="#zenobia">
+      <pb n="39" facs="45"/>
+      <speaker>ZENOBIA.</speaker>
+      <l>Thou vile accuser!—if the prince's virtues</l>
+      <l>Have touch'd my bosom, what hast thou to urge?</l>
+      <l>—What if a former Hymeneal vow</l>
+      <l>Has bound my soul?—what if a father, Sir,</l>
+      <l>A father dear as my heart's purple drops,</l>
+      <l>Enjoin a rigid duty ne'er to share</l>
+      <l>The throne of Mithridates with a murderer?</l>
+     </sp>
+     <sp who="#tigranes">
+      <speaker>TIGRANES.</speaker>
+      <l>Madam, those words—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Thou instrument of ill!</l>
+      <l>Who still ar't ready with a tale suborn'd,</l>
+      <l>And if thou ar't not perjur'd, dar'st betray,—</l>
+      <l>Away—and let thy conscience tell the rest.</l>
+     </sp>
+     <stage>Exit.</stage>
+     <sp who="#tigranes">
+      <speaker>TIGRANES,</speaker>
+      <stage>alone.</stage>
+      <l>Vain haughty fair!—thou hast provok'd my rage</l>
+      <l>By wrongs unnumber'd—but for all those wrongs</l>
+      <l>Soon shall inevitable ruin seize thee.—</l>
+     </sp>
+     <stage>
+      <hi>Enter</hi> RHADAMISTUS.</stage>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Perhaps e're this your king's tumultuous passions</l>
+      <l>Sink to a calm, and reason takes her turn.</l>
+      <l>Then seek him, Sir, and bear a Roman's message,</l>
+      <l>The terms of peace humanity suggests.</l>
+      <l>Tell him Flamminius wishes to prevent</l>
+      <l>The rage of slaughter, and the streams of blood</l>
+      <l>Which else shall deluge yonder crimson plains.</l>
+     </sp>
+     <sp who="#tigranes">
+      <speaker>TIGRANES.</speaker>
+      <l>Already, Roman, his resolve is fix'd.—</l>
+      <l>War, horrid war impends,—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>And yet in pity</l>
+      <l>To human kind, to the unhappy millions</l>
+      <l>
+       <pb n="40" facs="46"/>
+Who soon shall die, and with their scatter'd bones</l>
+      <l>Whiten the plains of Asia,—it were best</l>
+      <l>To sheathe the sword, and join in Rome's alliance.</l>
+      <l>Wilt thou convey my message?</l>
+     </sp>
+     <sp who="#tigranes">
+      <speaker>TIGRANES.</speaker>
+      <l>I obey.—</l>
+     </sp>
+     <stage>Exit.</stage>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <stage>alone.</stage>
+      <l>May some propitious pow'r inspire his heart,</l>
+      <l>And touch the springs of human kindness in him.</l>
+      <l>Else against whom amidst the charging hosts</l>
+      <l>Must Rhadamistus' sword be levell'd?—ha!—</l>
+      <l>Spite of his crimes he is my father still—</l>
+      <l>And must this arm against the source of life—</l>
+      <l>Nay more,—perhaps against a brother too,</l>
+      <l>—A brother still unknown!—he too may die</l>
+      <l>By this unconscious hand!—this hand already</l>
+      <l>Inur'd to murder whom my heart adores!</l>
+      <l>—My brother then may bleed!—and when in death</l>
+      <l>Gasping he lies, and pours his vital stream,</l>
+      <l>Then in that moment shall the gen'rous youth</l>
+      <l>Extend his arms, and with a piteous look</l>
+      <l>Tell me—a brother doth forgive his murderer?—</l>
+      <l>—Gods! you have doom'd me to the blackest woe,</l>
+      <l>To be a wretch abhorr'd, author of crimes</l>
+      <l>From which my tortur'd breast revolts with horror!</l>
+      <l>—Who's there?—a youth comes forward—now be firm,</l>
+      <l>Be firm my heart,—and guard thy fatal secret!—</l>
+     </sp>
+     <stage>
+      <hi>Enter</hi> TERIBAZUS.</stage>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>Illustrious Roman,—if misfortune's son,</l>
+      <l>A wretched,—ruin'd,—miserable prince</l>
+      <l>May claim attention—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Ha—can this be he!</l>
+      <l>The graces of his youth,—each feeling here,</l>
+      <l>Here at my heartstrings tell me 'tis my brother!</l>
+     </sp>
+     <stage>aside.</stage>
+     <sp who="#teribazus">
+      <pb n="41" facs="47"/>
+      <speaker>TERIBAZUS.</speaker>
+      <l>I see you're mov'd, and I intrude too far.—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Pursue your purpose—warmest friendship for you</l>
+      <l>Glows in this breast—</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>Tho' Pharasmanes' fury</l>
+      <l>Maintains a fix'd hostility with Rome,</l>
+      <l>Blend not the son with all a father's crimes.—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Go on—I pant to hear—</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>My father's cruelty</l>
+      <l>Each day breaks out in some new act of horror,</l>
+      <l>Nor lets the sword grow cool from human blood</l>
+      <l>First in his brother's breast he plung'd it;—then</l>
+      <l>Inflam'd to fiercer rage 'gainst his own son,</l>
+      <l>Oh! Rhadamistus! thou much injur'd prince!—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>And didst thou love that brother?</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>Gen'rous Roman,</l>
+      <l>He liv'd far hence remote—I ne'er beheld him,</l>
+      <l>But the wide world resounded with his fame.</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Hold, hold my tears! —oh! they will burst their way</l>
+      <l>At this his virtuous tenderness and love!</l>
+     </sp>
+     <stage>aside.</stage>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>And dost thou weep too Roman?</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>From such horror,</l>
+      <l>
+       <pb n="42" facs="48"/>
+And so much cruelty my nature shrinks.—</l>
+      <l>Whatever purpose rolls within thy breast,</l>
+      <l>Boldly confide it—shall I arm'd with vengeance</l>
+      <l>Assault the purple tyrant in his camp?</l>
+      <l>Or wilt thou join my steps;—then in the front</l>
+      <l>Of a brave vet'ran legion head the war,</l>
+      <l>Seek the usurper 'midst his plumed troops,</l>
+      <l>And thus avenge mankind?</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>No; far from me,</l>
+      <l>Far be the guilt of meditating aught</l>
+      <l>Against the life from whence my being sprung.</l>
+      <l>Let him oppress me,—he's a parent still!—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>He rives my heart!—oh! what a lot is mine!</l>
+     </sp>
+     <stage>aside.</stage>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>Not for myself I fear; but oh! Flamminius,</l>
+      <l>A lovely captive,—'tis for her I tremble;—</l>
+      <l>For Ariana,—for that sweet perfection;—</l>
+      <l>She is her sex's boast!—her gentle bosom</l>
+      <l>Fraught with each excellence!—her form and feature</l>
+      <l>Touch'd by the hand of elegance;—adorn'd</l>
+      <l>By ev'ry grace, and cast in beauty's mould!</l>
+      <l>—Her Pharasmanes means to ravish from me.—</l>
+      <l>But thou convey her hence—'tis all I ask.—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>By heav'n I will—do thou too join our flight;</l>
+      <l>—Armenia shall be thine, and that sweet maid</l>
+      <l>Reward thy goodness with connubial love,</l>
+      <l>Adorn thy throne, and make a nation bless'd!—</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>Make Ariana happy;—bear her hence</l>
+      <l>And save those bright unviolated charms</l>
+      <l>From Pharasmanes' pow'r—when wish'd for peace</l>
+      <l>Settles a jarring world, Flamminius then,</l>
+      <l>Then will I seek thee.—Wilt thou then resign her?</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <pb n="43" facs="49"/>
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Yes then, as pure as the unsullied snow</l>
+      <l>That never felt a sunbeam;—then I'll give her</l>
+      <l>Back to thy faithful love.</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>Thou gen'rous Roman,</l>
+      <l>In gratitude I bow—she's here at hand;</l>
+      <l>A moment brings her to you, while at distance</l>
+      <l>I watch each avenue, each winding path,</l>
+      <l>That none intrude upon your privacy.—</l>
+     </sp>
+     <stage>Exit.</stage>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <stage>alone.</stage>
+      <l>At length I've seen my brother;—know how much</l>
+      <l>He differs from his father!—he shall seek</l>
+      <l>The Roman tents;—I'll there disclose myself;</l>
+      <l>There will embrace him with a brother's love.—</l>
+      <l>Oh! how the tender transport heaves and swells,</l>
+      <l>Till thus the fond excess disolves in tears!—</l>
+     </sp>
+     <stage>
+      <hi>Enter</hi> MEGISTUS, <hi>leading</hi> ZENOBIA.</stage>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Alas! my heart forebodes I know not what—</l>
+     </sp>
+     <sp who="#megistus">
+      <speaker>MEGISTUS.</speaker>
+      <l>Dispel each doubt—this is your only refuge.—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Thou gen'rous Roman,—if distress like mine—</l>
+      <l>If an unhappy captive may approach thee—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>To me affliction's voice—ye pow'rs of heav'n!</l>
+      <l>That air!—those features!—that remember'd glance!</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>If thus a wretch's presence can alarm you—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>The music of that voice!—such once she look'd!</l>
+      <l>
+       <pb n="44" facs="50"/>
+And if I had not plung'd her in the stream,—</l>
+      <l>I could persuade myself—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Those well known accents!</l>
+      <l>These tender soft regards!—nay mock me not'—</l>
+      <l>I could not hope to see thee—tell me—ar't thou—</l>
+      <l>That once ador'd!—oh!</l>
+     </sp>
+     <stage>(<hi>faints into</hi> Megistus' <hi>arms</hi>)</stage>
+     <sp who="#megistus">
+      <speaker>MEGISTUS.</speaker>
+      <l>Ah! her strength forsakes her—</l>
+      <l>Support her heav'n!—</l>
+     </sp>
+     <stage>(catches her in his arms.)</stage>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Ye wonder-working gods!</l>
+      <l>Is this illusion all? or does your goodness</l>
+      <l>Indeed restore her?—If I do not dream,</l>
+      <l>If this be true,—oh! let those angel-eyes</l>
+      <l>Open to life, to love, and Rhadamistus.</l>
+     </sp>
+     <sp who="#megistus">
+      <speaker>MEGISTUS.</speaker>
+      <l>What further miracles doth heav'n prepare?—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Forgive my weakness—the air-painted image</l>
+      <l>Of my lov'd lord—and see!—again it's present!—</l>
+      <l>That look that speaks the fond impassion'd soul!</l>
+      <l>Yes, such he was!—oh! art thou—tell me—say—</l>
+      <l>Ar't thou restor'd me?—art thou Rhadamistus?—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>I have not murder'd her!—benignant gods!</l>
+      <l>I am not guilty—my Zenobia lives!—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>It is my lord—oh! I can hold no longer,—</l>
+      <l>But thus delighted spring to his embrace,</l>
+      <l>Thus wander o'er him with my tears and kisses,</l>
+      <l>And thus, and thus,—speak my enraptur'd soul.</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>She lives! she lives! what kind protecting god.</l>
+      <l>
+       <pb n="45" facs="51"/>
+Long lost, and long lamented gives thee back,</l>
+      <l>Gives me to view thee, and to hear thy voice</l>
+      <l>With joy to ecstacy, with tears to rapture?</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>This good old man—'twas he preserv'd me for you.—</l>
+     </sp>
+     <sp who="#megistus">
+      <speaker>MEGISTUS.</speaker>
+      <l>Oh! day of charms!—oh! unexpected hour!</l>
+      <l>I have not liv'd in vain—these gushing eyes</l>
+      <l>Have seen their mutual transports!—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Gen'rous friend,</l>
+      <l>Come to my heart,—Zenobia's second father!—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Thou art indebted more than thou can'st pay him,—</l>
+      <l>Indebted for our infant babe preserv'd,</l>
+      <l>The blossom of our joys!—thou can'st not think</l>
+      <l>How much he looks, and moves, and talks like thee—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Oh! mighty gods!—it is too much of bliss,</l>
+      <l>Too exquisite to bear!—these barb'rous hands</l>
+      <l>Had well nigh murder'd both my wife and child!</l>
+      <l>—Wilt thou forgive me—oh! my best delight,</l>
+      <l>Wilt thou receive a traitor to your arms?</l>
+      <l>—Wilt thou Zenobia?</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Will I, gracious heav'n?</l>
+      <l>Thou source of all my comfort!—</l>
+     </sp>
+     <sp who="#megistus">
+      <speaker>MEGISTUS.</speaker>
+      <l>Ha! beware,</l>
+      <l>Beware, my prince!—but now with hasty step</l>
+      <l>I saw Tigranes circling yonder tent.</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Th' ambassador of Rome he seeks, on bus'ness</l>
+      <l>Of import high—I will prevent his speed</l>
+      <l>—And must I then so soon depart Zenobia?</l>
+     </sp>
+     <sp who="#zenobia">
+      <pb n="46" facs="52"/>
+      <speaker>ZENOBIA.</speaker>
+      <l>Hence, quickly hence—anon we'll meet again—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Yes, we will meet; the gods have giv'n thee to me,</l>
+      <l>And they will finish their own holy work.</l>
+     </sp>
+     <stage>Exit.</stage>
+     <sp who="#megistus">
+      <speaker>MEGISTUS.</speaker>
+      <l>My pray'rs are heard at length—Zenobia still</l>
+      <l>Shall be Armenia's queen.—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Oh! good Megistus,</l>
+      <l>Heav'n has been bounteous, and restor'd my lord.—</l>
+      <l>With him I'll fly, wrapt in the gloom of night,</l>
+      <l>And thou, Megistus, thou shal't join our flight;</l>
+      <l>Plac'd near his throne thy gen'rous zeal shall share</l>
+      <l>The bright reward of all thy toil and care;</l>
+      <l>While I, redeem'd at length from fierce alarms,</l>
+      <l>Forget my woes in Rhadamistus' arms.</l>
+     </sp>
+     <trailer>END OF THE THIRD ACT.</trailer>
+    </div>
+    <div n="4" type="act">
+     <pb n="47" facs="53"/>
+     <head>ACT the FOURTH.</head>
+     <stage>
+      <hi>Enter</hi> RHADAMISTUS <hi>and</hi> TERIBAZUS.</stage>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>THOU ar't a friend indeed, thou gen'rous man!</l>
+      <l>The best of friends, to save such innocence,</l>
+      <l>That lovely virgin bloom!—the pious act</l>
+      <l>Shall to remotest time transmit thy name,</l>
+      <l>Ennobled by humanity and virtue.</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Alas! no praise I merit;—'tis a deed</l>
+      <l>That loses virtue's name—</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>Flamminius, no!</l>
+      <l>Thou shalt not derogate from worth like thine.</l>
+      <l>But oh! beware, my friend, and steel thy heart</l>
+      <l>Against the sweet illapse of gentler passions.</l>
+      <l>—To love her were such treachery!—by heav'n!</l>
+      <l>It were a fraud of a more damned hue—</l>
+      <l>A fraud to sacred friendship!—but my soul</l>
+      <l>Rejects the mean suspicion—thou ar't just,</l>
+      <l>And Ariana shall be mine again!—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>If when the tumult of the war is pass'd,</l>
+      <l>You then persist to claim her—</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>Then persist!</l>
+      <l>—When I do not persist,—whene'er my heart</l>
+      <l>Forgets the fond idea—ha!—take heed—</l>
+      <l>Your colour dies by fits,—and how again</l>
+      <l>It flushes o'er your cheek—if beauty's pow'r</l>
+      <l>Can waken soft desire,—and sure such beauty</l>
+      <l>May warm the breast of stoic apathy,—</l>
+      <l>If thou can'st love,—resign the trust at once.</l>
+      <l>For oh! to lose her, to behold those charms.</l>
+      <l>
+       <pb n="48" facs="54"/>
+That all-perfection yielded to another,</l>
+      <l>Were the worst agony, the keenest stab</l>
+      <l>That ever pierc'd a lover to the soul.—</l>
+      <l>The thought,—the very thought inflames to madness!—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>
+       <stage>(Aside)</stage> Not till the fever of his mind subsides,</l>
+      <l>Must I reveal me—the disclosure now</l>
+      <l>Would to his phrenzy give a whirlwind's wing,</l>
+      <l>And bury all in ruin—let her then;</l>
+      <l>Yes, Teribazus, let the blooming maid</l>
+      <l>Still in this camp, a Voluntary captive,</l>
+      <l>—Since you will have it so—since weak mistrust</l>
+      <l>Can taint a noble spirit,—let her here</l>
+      <l>Teach that rare beauty to display it's charms,</l>
+      <l>It's various graces;—bid those radiant eyes</l>
+      <l>Dart their quick glances to the tyrant's soul,</l>
+      <l>Inflame his hot desires, and half absolve them.</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>Madness and horror!—no!—haste, fly, begone,</l>
+      <l>And give her hence safe-conduct—I can trust</l>
+      <l>To Roman continence—your Scipio's praise</l>
+      <l>Shall be the theme of fame's eternal lip!—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Thou too attend her steps;—watch all her ways;—</l>
+      <l>When we have reach'd the Roman sanctuary,</l>
+      <l>Then shall such wonders to thy list'ning ear,—</l>
+      <l>The web which fate has wove—beware, my friend—</l>
+      <l>Tigranes comes—what would'st thou Sir?</l>
+     </sp>
+     <stage>
+      <hi>Enter</hi> TIGRANES.</stage>
+     <sp who="#tigranes">
+      <speaker>TIGRANES.</speaker>
+      <l>The king</l>
+      <l>Grants you one parley more—ev'n now this way</l>
+      <l>He bends his steps—remote from all he means</l>
+      <l>To hold a private conf'rence—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Rome's ambassador</l>
+      <l>Attends his pleasure.—</l>
+     </sp>
+     <stage>
+      <hi>Exit</hi> Tigranes.</stage>
+     <sp who="#teribazus">
+      <pb n="49" facs="55"/>
+      <speaker>TERIBAZUS.</speaker>
+      <l>I must hence, Flamminius—</l>
+      <l>Farewell!—yet er'e thou goe'st,—I still must crave</l>
+      <l>Another interview—farewell!—remember,</l>
+      <l>My love, my life, my all depend on thee.—</l>
+     </sp>
+     <stage>Exit.</stage>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Ah! luckless prince!—how lost in error's maze</l>
+      <l>Blindly he wanders, and love's sweet delusion</l>
+      <l>Infuses it's enchantment through his heart!</l>
+      <l>But when remov'd from Pharasmanes' pow'r</l>
+      <l>He learns my prior claim,—his gen'rous friendship</l>
+      <l>Will bound with transport at a brother's joys,</l>
+      <l>And with a warmth of sympathy partake 'em.</l>
+      <l>But ha?—my father!—grant me strength, ye pow'rs!</l>
+      <l>To meet the dread encounter.—</l>
+     </sp>
+     <stage>
+      <hi>Enter</hi> PHARASMANES.</stage>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Once again</l>
+      <l>Er'e you depart, if Pharasmanes deign</l>
+      <l>To treat, and thus expostulate with Rome,</l>
+      <l>'Tis to thy pray'rs I grant it.</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Rome had rather</l>
+      <l>Persuade than conquer—her well-ballanc'd justice—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>No more of Roman justice—blazon not</l>
+      <l>Virtues you ne'er have practis'd—with the name,</l>
+      <l>The specious name of love for human kind</l>
+      <l>You sanctify th' insatiate rage of conquest,</l>
+      <l>And where the sword has made a solitude,</l>
+      <l>That you proclaim a peace.—Ev'n now your views</l>
+      <l>Stand manifest to sight—To thee 'tis known</l>
+      <l>That Rhadamistus lives!—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>How Sir!—can he—</l>
+      <l>Does that unhappy Prince—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <pb n="50" facs="56"/>
+      <speaker>PHARASMANES.</speaker>
+      <l>Thou false dissembler!—</l>
+      <l>Yes in thy heart the fatal secrets lodg'd!—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Sir if your son—if you will search his heart—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>From certain fugitives I've learn'd it all—</l>
+      <l>In yonder camp, conceal'd from vulgar eyes,</l>
+      <l>To war against his father still he lives!—</l>
+      <l>Why dost thou droop dejected?—something lurks</l>
+      <l>Beneath that burning blush—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>That burning blush</l>
+      <l>Glows on my cheek for thee—I know your son,</l>
+      <l>And know him unsusceptible of guilt.</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Then, Roman, mark my words—would'st thou prevent</l>
+      <l>The carnage fate prepares on yonder plains?—</l>
+      <l>Go tell Paulinus I will treat of term</l>
+      <l>With him, who brings me Rhadamistus' head.</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Your own son's head!—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Why dost thou gaze so earnest?</l>
+      <l>Why those emotions struggling for a vent?</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Amazement checks my voice, and lost in wonder</l>
+      <l>I view the unnatural father, who would bathe</l>
+      <l>His hands in blood,—in a son's blood—a son</l>
+      <l>Who pants,—with ardour pants,—on terms of peace</l>
+      <l>To sheathe the sword, and with a filial hand</l>
+      <l>To throw a veil over a father's crimes.</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <pb n="51" facs="57"/>
+      <speaker>PHARASMANES.</speaker>
+      <l>By heav'n tis false—has he not dar'd to league</l>
+      <l>With my determin'd foes?—ev'n to the senate,</l>
+      <l>To ev'ry region, where his voice could pierce,</l>
+      <l>Has he not fled with the delusive story?</l>
+      <l>With grief and loud complaints inflam'd the world?</l>
+      <l>And even now, does not the stripling come</l>
+      <l>To the Araxe's banks with Rome in arms?</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Tho' urg'd by dire constraint, yet heav'n can witness</l>
+      <l>His strong reluctance.—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Let the rebel know</l>
+      <l>He never shall ascend Armenia's throne.</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>And shall destruction with her horrid train</l>
+      <l>Stalk o'er the land?—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Yes—let destruction loose—</l>
+      <l>'Tis Pharasmanes' glory—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Can the rage,</l>
+      <l>And the wild tumult of destructive havoc</l>
+      <l>Administer delight?—alas!—the day</l>
+      <l>That deluges the land with human blood,</l>
+      <l>Is that a day of glory?—</l>
+      <l>I, Sir, have travers'd o'er the field of death,</l>
+      <l>Where war had spent its rage—hadst thou beheld</l>
+      <l>That scene of horror,—where unnumber'd wretches.</l>
+      <l>In mangled heaps lay welt'ring in their gore;</l>
+      <l>Where the fond father in the gasp of death</l>
+      <l>Wept for his children,—where the lover sigh'd</l>
+      <l>For her, whom never more his eyes could view;</l>
+      <l>Where various misery sent forth it's groans;—</l>
+      <l>Had'st thou beheld that scene,—the touch of nature</l>
+      <l>Had stirr'd within thee, and the virtuous drop</l>
+      <l>Of pity gush'd unbidden from thy eye.—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <pb n="52" facs="58"/>
+      <speaker>PHARASMANES.</speaker>
+      <l>Enervate slave!—here ends all further parley—</l>
+      <l>Go tell your gen'ral, tell your Roman chiefs,</l>
+      <l>The father claims his son.—Have we not heard</l>
+      <l>How your own Brutus to the lictor's sword</l>
+      <l>Condemn'd his children?—and would Rome dispute</l>
+      <l>A king's paternal pow'r?—let 'em yield up</l>
+      <l>The treach'rous boy, or terrible in arms</l>
+      <l>Shall Pharasmanes overwhelm their legions,</l>
+      <l>Mow down their cohorts, and their mangled limbs</l>
+      <l>Give to the vultur's beak.</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>And yet reflect—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Roman no more,—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Unwilling I withdraw;—</l>
+      <l>A father's stern resolve the son shall mourn,</l>
+      <l>And with a pang of nature shall behold</l>
+      <l>The Roman eagle dart like thunder on thee.</l>
+     </sp>
+     <stage>Exit.</stage>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES,</speaker>
+      <stage>alone.</stage>
+      <l>Away, and leave me slave!—to-morrow's sun</l>
+      <l>Shall see my great revenge—mean time I give</l>
+      <l>The gentle hours to love and Ariana.—</l>
+      <l>What ho! Tigranes!</l>
+     </sp>
+     <stage>
+      <hi>Enter</hi> TIGRANES.</stage>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Does the stubborn fair</l>
+      <l>Yield to my ardent vows?</l>
+     </sp>
+     <sp who="#tigranes">
+      <speaker>TIGRANES.</speaker>
+      <l>She mocks your passion,</l>
+      <l>And gives to Teribazus all her smiles.</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>By heav'n! ev'n love itself shall be my slave!—</l>
+      <l>
+       <pb n="53" facs="59"/>
+—Yet love like mine requires her soft consent,</l>
+      <l>And will not riot o'er her plunder'd charms.—</l>
+      <l>—Quick, bring her father to me—</l>
+     </sp>
+     <sp who="#tigranes">
+      <speaker>TIGRANES.</speaker>
+      <l>By your orders</l>
+      <l>At hand Megistus waits your sov'reign will.</l>
+     </sp>
+     <stage>Exit.</stage>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Bring him before us—wise and prudent age</l>
+      <l>Will plead my cause, and second my desires.</l>
+     </sp>
+     <stage>
+      <hi>Enter</hi> MEGISTUS.</stage>
+     <sp who="#megistus">
+      <speaker>MEGISTUS.</speaker>
+      <l>Dread Sir—a blameless,—a distress'd old man,</l>
+      <l>Of guilt unconscious—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Whatsoe'er thy guilt</l>
+      <l>A smile from Ariana expiates all.</l>
+     </sp>
+     <sp who="#megistus">
+      <speaker>MEGISTUS.</speaker>
+      <l>Believe me, Sir, I never have offended—</l>
+      <l>She was my sole delight; my ages comfort;—</l>
+      <l>For her I felt more than a parent's love—</l>
+      <l>But 'midst the troubles that distract the land</l>
+      <l>I lost her—in despair—with yearning heart</l>
+      <l>I rang'd the country round in fond pursuit—</l>
+      <l>This is my crime—sure 'tis no crime to love</l>
+      <l>Such blooming innocence!—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Dispel thy fears—</l>
+      <l>Thy love for Ariana speaks thy virtue—</l>
+      <l>That graceful form, that symmetry of shape,</l>
+      <l>That bloom, those features, those love-darting eyes,</l>
+      <l>All, all attract, that there each fond admirer</l>
+      <l>Could ever gaze, enamour'd of her charms.</l>
+     </sp>
+     <sp who="#megistus">
+      <speaker>MEGISTUS.</speaker>
+      <l>Alas! whate'er the symmetry of shape,</l>
+      <l>
+       <pb n="54" facs="60"/>
+Whate'er the grace that reveals in her feature,</l>
+      <l>Glows in her bloom, or sparkles in her eye,</l>
+      <l>They all are transient beauties, soon to fade,</l>
+      <l>And leave inanimate that decent form.</l>
+      <l>Inward affliction saps the vital frame,</l>
+      <l>Incurable affliction!—fix'd in woe</l>
+      <l>Her eyes for ever motionless and dim</l>
+      <l>Gaze on the fancied image of her husband.</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Her husband!</l>
+     </sp>
+     <sp who="#megistus">
+      <speaker>MEGISTUS.</speaker>
+      <l>Yes; a husband sever'd from her</l>
+      <l>By fatal chance!—him she for ever sees</l>
+      <l>With fancy's gushing eye, and seeks him still</l>
+      <l>In fond excursions of delusive thought.</l>
+      <l>She pines each hour, and ev'n in blooming dies,</l>
+      <l>As drooping roses,—while the worm unseen</l>
+      <l>Preys on their fragrant sweets, still beauteous look,</l>
+      <l>And waste their aromatic lives in air.</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>The rose transplanted to a warmer sky</l>
+      <l>Shall raise it's languid head, and all be well.</l>
+     </sp>
+     <sp who="#megistus">
+      <speaker>MEGISTUS.</speaker>
+      <l>Her husband still survives, and far remote</l>
+      <l>He wanders in Armenia's realm—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>No more</l>
+      <l>To call her his!—by all my promis'd joys</l>
+      <l>His doom is fix'd!—do thou streight seek thy daughter,</l>
+      <l>My loveliest Ariana—in her ear</l>
+      <l>Breathe the mild accents of a father's voice,</l>
+      <l>And reconcile her heart to love and me.</l>
+     </sp>
+     <sp who="#megistus">
+      <speaker>MEGISTUS.</speaker>
+      <l>Your pardon Sir—it were not fit my voice</l>
+      <l>Should teach her to betray her holy vows.</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <pb n="55" facs="61"/>
+      <speaker>PHARASMANES.</speaker>
+      <l>When Pharasmanes speaks—</l>
+     </sp>
+     <sp who="#megistus">
+      <speaker>MEGISTUS.</speaker>
+      <l>My life is his,—</l>
+      <l>And when he wills it, 'tis devoted to him—</l>
+      <l>But, Sir, tho' poor,—my honour still is mine,</l>
+      <l>'Tis all that heav'n has giv'n me,—and that gift</l>
+      <l>The gods expect I never should resign.</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>And do'st thou hesitate?—what, when a crown</l>
+      <l>Invites thy daughter to imperial splendor?</l>
+     </sp>
+     <sp who="#megistus">
+      <speaker>MEGISTUS.</speaker>
+      <l>Oh! not for me such splendor!—I have liv'd</l>
+      <l>My humble days in virtuous poverty.</l>
+      <l>To tend my flock, to watch each rising flow'r,</l>
+      <l>Each herb, each plant that drinks the morning dew,</l>
+      <l>And lift my praise to the just gods on high!—</l>
+      <l>These were my habits, these my only cares;—</l>
+      <l>—These hands suffic'd to answer my desires,</l>
+      <l>And having naught,—yet naught was wanting to me.</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Away, thou slave!—I would not quite despise thee—</l>
+      <l>Or yield your daughter, or my swiftest vengeance</l>
+      <l>Falls on thy hoary head—a monarch's love</l>
+      <l>Shall seize her trembling to his eager arms,</l>
+      <l>Then spurn her back a prey to wan despair,</l>
+      <l>Till bitter anguish blast each wither'd charm,</l>
+      <l>And rave in vain for love and empire scorn'd!—</l>
+     </sp>
+     <stage>Exit.</stage>
+     <sp who="#megistus">
+      <speaker>MEGISTUS,</speaker>
+      <stage>alone.</stage>
+      <l>Fell monster go!—inexorable tyrant!—</l>
+      <l>Perhaps I should have sooth'd his lion rage</l>
+      <l>With feign'd compliance—ha!—why sudden thus—</l>
+     </sp>
+     <stage>
+      <hi>Enter</hi> ZENOBIA.</stage>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Th' important hour, Megistus, now approaches—</l>
+      <l>
+       <pb n="56" facs="62"/>
+Lo! the last blushes of departing day</l>
+      <l>But feebly streak yon dim horizon's verge.</l>
+      <l>My Rhadamistus comes to guide my steps—</l>
+      <l>Thro' devious paths seek thou Zopiron's tent—</l>
+      <l>Thus we shall lull suspicion—</l>
+     </sp>
+     <sp who="#megistus">
+      <speaker>MEGISTUS.</speaker>
+      <l>I obey;—</l>
+      <l>May guardian angels spread their wings around thee!—</l>
+     </sp>
+     <stage>Exit.</stage>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA,</speaker>
+      <stage>alone.</stage>
+      <l>Yes, the bless'd gods, who thro' the maze of fate</l>
+      <l>Have led us once again to meet in life,</l>
+      <l>Will prove the friends of virtue to the last.</l>
+      <l>—Ha!—Teribazus comes!—</l>
+     </sp>
+     <stage>ZENOBIA, TERIBAZUS.</stage>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>And is it giv'n</l>
+      <l>Once more to see thee here?—do'st thou avoid me?</l>
+      <l>Do'st thou despise me in this tender moment</l>
+      <l>When my soul bleeds with anguish at the thought</l>
+      <l>Of parting with thee?—Ariana!—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Oh!—</l>
+      <l>Unhappy prince!—oh! fly me; shun me; death</l>
+      <l>And ruin follow—one short moment's stay</l>
+      <l>Will rouze your father's rage—</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>My father's rage</l>
+      <l>Already has undone me—ah! in tears!—</l>
+      <l>—And do they fall for me?—does that soft sigh</l>
+      <l>Heave for the lost, afflicted Teribazus?—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Yes the tear falls, and the sigh heaves for thee—</l>
+      <l>Thy elegance of mind—the various graces</l>
+      <l>That bloom around thee, and adorn the hero,—</l>
+      <l>Nay, other ties there are which strongly plead,</l>
+      <l>
+       <pb n="57" facs="63"/>
+And bid me tremble for thee.</l>
+      <l>—And yet,—sad recompense for all thy friendship,</l>
+      <l>To warn thee hence,—to bid thee shun my ways,</l>
+      <l>Is all the gratitude I now can offer.—</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>Thus must we part?—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>A rival is at hand,—</l>
+      <l>Here in the camp,—an unexpected rival,—</l>
+      <l>Sent by the gods,—the idol of my soul!</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>What say'st thou, Ariana?—has another</l>
+      <l>Usurp'd thy heart?—unkind, relentless maid!—</l>
+      <l>Since first thy beauty dawn'd upon my sight,</l>
+      <l>How have I lov'd,—repented,—yet lov'd on!—</l>
+      <l>Ev'n against you,—against myself I struggled—</l>
+      <l>Present I fled you—absent I ador'd—</l>
+      <l>I fled for refuge to the forest's gloom,—</l>
+      <l>But in the forest's gloom thy image met me!—</l>
+      <l>The shades of night, the lustre of the day,</l>
+      <l>All, all retrac'd my Ariana's form.—</l>
+      <l>Thy form pursued me in the battle's rage,</l>
+      <l>'Midst shouts, and all the clangor of the war.</l>
+      <l>—It stole me from myself!—my lonely tent</l>
+      <l>Re-ecchoes with my groans, and in the ranks</l>
+      <l>The wond'ring soldier hears my voice no more,</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Yet leave me Teribazus—gen'rous youth!</l>
+      <l>Remembrance oft shall dwell upon thy praise,</l>
+      <l>But for my love 'tis all another's claim.</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>Another's claim!—why wilt thou torture thus</l>
+      <l>A fond despairing wretch?—oh! not for me</l>
+      <l>Those sorrows fall—they are another's tears;</l>
+      <l>—Another claims them from me—name this rival</l>
+      <l>That my swift fury—tell me has Flamminius,</l>
+      <l>Has the base Roman broke his promis'd faith?</l>
+      <l>Will not the barb'rous man afford you shelter?</l>
+     </sp>
+     <sp who="#zenobia">
+      <pb n="58" facs="64"/>
+      <speaker>ZENOBIA.</speaker>
+      <l>Why wilt thou force me speak?—the fate of all,</l>
+      <l>Thine Teribazus,—mine,—the fate of one,</l>
+      <l>Whom, were he known,—thy heart holds ever dear,</l>
+      <l>Is now concern'd—Flamminius claims my love—</l>
+      <l>Long since he won my heart—</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>Vindictive gods!</l>
+      <l>Flamminius claims thy love!—not Caesar's self</l>
+      <l>Shall dare to wrest thee from me—Ariana!—</l>
+      <l>Thus on my knees,—would I could perish here—</l>
+      <l>That ev'n in death I still might gaze upon thee,</l>
+      <l>Till the last pang divide thee from my heart.</l>
+     </sp>
+     <stage>
+      <hi>Enter</hi> RHADAMISTUS.</stage>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>It was the voice of anguish and despair!</l>
+      <l>Why thus illustrious prince—</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>
+       <stage>(Starting up)</stage> Thou treach'rous Roman!—</l>
+      <l>Who com'st to violate each sacred tie,</l>
+      <l>The laws of honour, and the laws of love!</l>
+      <l>Who com'st beneath the mask of public faith</l>
+      <l>To do a robber's work!—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>When to your camp</l>
+      <l>I bring a heart that longs to serve you, prince,</l>
+      <l>Why this intemp'rate rage?—</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>To do the work</l>
+      <l>Of perfidy and fraud!—but first by rapine,</l>
+      <l>By violated maids your city grew;—</l>
+      <l>And do you come to emulate your sires?</l>
+      <l>Unwilling to degenerate in vice.—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Mistaken youth!—oh! if you did but know me!</l>
+      <l>If you but knew the justice Rome intends—</l>
+     </sp>
+     <sp who="#teribazus">
+      <pb n="59" facs="65"/>
+      <speaker>TERIBAZUS.</speaker>
+      <l>Justice and Rome!—and dost thou dare to join</l>
+      <l>Two names so opposite?—have we not heard</l>
+      <l>Of frugal consuls, and of stoic chiefs,</l>
+      <l>Who soon forgetting here their sabine farms,</l>
+      <l>Made war a trade, and then return'd to Rome</l>
+      <l>Rich with the plunder of the rifled east?</l>
+      <l>Again some new Lucullus leads them on,</l>
+      <l>Fir'd with the love of rapine.—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Fir'd with zeal</l>
+      <l>To break a nation's chains—would'st thou but hear me—</l>
+      <l>—It is a friend implores—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>A gen'rous friend!—</l>
+      <l>Then listen to him—let these streaming eyes,</l>
+      <l>These earnest pray'rs—this supplicating form—</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>Leagu'd with my foe behold her!—mighty gods!—</l>
+      <l>Have I deserv'd it of her?—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Yet be calm—</l>
+      <l>Yet listen to me—Oh! I could unfold—</l>
+      <l>Yet stay—I'll prove myself a brother to thee.</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>Roman expect me in the battle's front—</l>
+      <l>Instant depart,—but leave thy prey behind;—</l>
+      <l>Dare not,—I charge thee dare not, tempt her hence—</l>
+      <l>To-morrow's sun shall see me cloath'd in terror</l>
+      <l>Pursue thy steps thro' all the ranks of war,</l>
+      <l>Till my spear fix thee quiv'ring to the ground.</l>
+     </sp>
+     <stage>Exit.</stage>
+     <stage>RHADAMISTUS, ZENOBIA.</stage>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Yet, Rhadamistus, call him—let him know—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <pb n="60" facs="66"/>
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Thou lovely trembler!—banish ev'ry fear—</l>
+      <l>The time now bids us hence—and lo! the moon</l>
+      <l>Streams her mild radiance on the rustling grove.</l>
+      <l>—I will conduct thee—ha! Zopiron—</l>
+     </sp>
+     <stage>
+      <hi>Enter</hi> ZOPIRON.</stage>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Come</l>
+      <l>Thou best of men, let me once more embrace thee.—</l>
+     </sp>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>Oh! speed thee hence—each moment's big with death—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Farewel! farewel! when I've escap'd your camp</l>
+      <l>Seek thou my brother; soothe his troubled spirit,</l>
+      <l>Explain these wonders;—tell him Rhadamistus</l>
+      <l>Esteems and loves, and honours all his virtues.—</l>
+      <l>Farewel Zopiron!—in Armenia's court</l>
+      <l>Thy king shall thank thy goodness—my Zenobia,</l>
+      <l>Oh! let me guide thee from this place of danger</l>
+      <l>To life, to love, to liberty and joy.</l>
+     </sp>
+     <stage>
+      <hi>Exit with</hi> Zenobia.</stage>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>Lo! the heav'ns smile with gentlest aspect on them!—</l>
+      <l>This calm serene that ev'ry planet sheds</l>
+      <l>To light their steps,—this glad aetherial mildness</l>
+      <l>Is sure the token of incircling gods</l>
+      <l>That hover anxious o'er the solemn scene!—</l>
+     </sp>
+     <stage>
+      <hi>Enter</hi> PHARASMANES, TIGRANES <hi>following.</hi>
+     </stage>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Let Teribazus streight attend our presence—</l>
+     </sp>
+     <sp who="#tigranes">
+      <speaker>TIGRANES.</speaker>
+      <l>But now with glaring eye and fierce demeanour</l>
+      <l>He enter'd yonder tent—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <pb n="61" facs="67"/>
+      <speaker>PHARASMANES.</speaker>
+      <l>Bid him approach us.—</l>
+      <l>Then do thou round the midnight watch, and see</l>
+      <l>That Rome's ambassador has left my camp. <stage>
+        <hi>Exit</hi> Tigranes.</stage>
+      </l>
+      <l>This war, Zopiron, shall be soon extinguish'd</l>
+      <l>In Roman blood, and yield Armenia to me.</l>
+     </sp>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>Armenia, Sir, still obstinately mourns</l>
+      <l>Lost Mithridates, father of his people.</l>
+      <l>Her hardy sons with one consenting voice</l>
+      <l>Demand a king from Rome;—all leagu'd and sworn</l>
+      <l>Never to crouch beneath the conqu'ror's yoke.</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>But when the Roman eagle bites the ground,</l>
+      <l>They'll shrink aghast, and own my sov'reign sway.</l>
+     </sp>
+     <stage>
+      <hi>Enter</hi> TERIBAZUS.</stage>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Thou base confed'rate with thy father's foes!</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>The accusation, Sir,—if proof support it,</l>
+      <l>Gives you my forfeit life, and I resign it,</l>
+      <l>Freely resign—if destitute of proof,</l>
+      <l>It is a stab to honour,—and the charge</l>
+      <l>Should not be lightly urg'd.—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>This arrogance</l>
+      <l>That dictates to a father—</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>'Tis the spirit</l>
+      <l>Of injur'd innocence—if Pharasmanes</l>
+      <l>Suspect my truth,—send me where danger calls;—</l>
+      <l>Bid me this moment carry death and slaughter</l>
+      <l>To rage in yonder camp;—yes, then your son</l>
+      <l>Shall mark his hatred of the Roman name.</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <pb n="62" facs="68"/>
+      <speaker>PHARASMANES.</speaker>
+      <l>Hast thou not dar'd to thwart my tend'rest passion,</l>
+      <l>And to seduce my Ariana's love?</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>And if this youthful heart, too prone to melt</l>
+      <l>At beauty's ray, receiv'd the gentle flame,</l>
+      <l>'Tis past—the charm is o'er—no longer now</l>
+      <l>I walk a captive in her haughty triumph!—</l>
+      <l>In vain she now may call forth all her graces,</l>
+      <l>Instruct her eyes to roll with bidden fires,</l>
+      <l>And practice all the wonders of her face.</l>
+      <l>Ambition calls, and lights a nobler flame.</l>
+     </sp>
+     <stage>
+      <hi>Enter</hi> TIGRANES.</stage>
+     <sp who="#tigranes">
+      <speaker>TIGRANES.</speaker>
+      <l>Th' ambassador of Rome, and that old traitor</l>
+      <l>The false Megistus—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Speak; unfold thy purpose.—</l>
+     </sp>
+     <sp who="#tigranes">
+      <speaker>TIGRANES.</speaker>
+      <l>Together left the camp, and in their train</l>
+      <l>Bear Ariana with them—</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>Ariana!—</l>
+      <l>Have the slaves dar'd—detested treachery!</l>
+      <l>Now, now, my father, now approve my zeal.</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Haste, fly, pursue her; bring the trait'ress back!—</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>My rapid vengeance shall o'ertake their flight;</l>
+      <l>And bring the Roman plund'rer bound in chains.</l>
+     </sp>
+     <stage>Exit.</stage>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Do thou, Tigranes, with a chosen band</l>
+      <l>
+       <pb n="63" facs="69"/>
+Circle yon hills, and intercept their march.</l>
+      <l>And thou, Zopiron, send my swiftest horse</l>
+      <l>To range the wood, and sweep along the vale.</l>
+     </sp>
+     <stage>
+      <hi>Exit</hi> Tigranes.</stage>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>Ye guardian deities, now lend your aid.</l>
+     </sp>
+     <stage>Exit.</stage>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES,</speaker>
+      <stage>alone.</stage>
+      <l>Has the perfidious,—yet ador'd deceiver,</l>
+      <l>Thus has she left me?—from a monarch's smile</l>
+      <l>Fled with a lawless ravager from Rome?—</l>
+      <l>Oh! give me vengeance; give Flamminius to me,</l>
+      <l>That he may die in agony unheard of.—</l>
+      <l>The trait'ress then,—spite of each winning art,—</l>
+      <l>Spite of her guilt—she triumphs in my heart.</l>
+     </sp>
+     <trailer>END OF THE FOURTH ACT.</trailer>
+    </div>
+    <div n="5" type="act">
+     <pb n="64" facs="70"/>
+     <head>ACT the FIFTH.</head>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>NOT yet return'd!—I'm tortur'd on the rack—</l>
+      <l>By heav'n to-morrow's dawn—distracting thought!</l>
+      <l>E're that the Roman ravager enjoys</l>
+      <l>Her heav'n of bliss, and riots in delight.</l>
+      <l>My soul's on fire—this night I'll storm his camp</l>
+      <l>And dash his promis'd joys;—let loose my rage,</l>
+      <stage>A flourish of trumpets.</stage>
+      <l>And bury all in ruin—ha!—what means</l>
+      <l>This new alarm?—</l>
+     </sp>
+     <stage>
+      <hi>Enter</hi> TERIBAZUS, Soldiers, <hi>&amp;c.</hi>
+     </stage>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>The treach'rous slave is taken!—</l>
+      <l>My speed outstripp'd him, and this arm that seiz'd</l>
+      <l>Hath well secur'd the traitor—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Great revenge,</l>
+      <l>The measure of thy joys is full!—</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>At first</l>
+      <l>They made a feeble stand;—but hemm'd around</l>
+      <l>And close incirclcd by the sons of Asia</l>
+      <l>They saw death threat'ning at each javelin's point.</l>
+      <l>I rush'd upon Flamminius—much he courted</l>
+      <l>A secret parley, but my soul disdain'd</l>
+      <l>All further conf'rence—he and his complotter</l>
+      <l>The base Megistus, with the fair deserter</l>
+      <l>Remeasure back their steps, and clank their chains</l>
+      <l>In bitterness of heart.—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>A father's thanks,</l>
+      <l>Shall well requite thee—lo! the traitors come—</l>
+     </sp>
+     <stage>
+      <pb n="65" facs="71"/>
+      <hi>Enter</hi> RHADAMISTUS, ZENOBIA, MEGISTUS, <hi>in Chains,</hi>
+     </stage>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Thou base perfidious!—thou Italian plunderer!</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>I do not mean to wage a war of words.—</l>
+      <l>Repent thee of this insult, of these chains</l>
+      <l>On him, who represents a people here.</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>A non thou'lt see how I respect that people.</l>
+      <l>My just revenge shall tell thee;—on thy head,</l>
+      <l>And thine, Megistus, sudden vengeance falls.</l>
+     </sp>
+     <sp who="#megistus">
+      <speaker>MEGISTUS.</speaker>
+      <l>Alas! worn out with age and misery</l>
+      <l>I long to lay me in the shroud of death.</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>I grant thy wish—what words, fair fugitive,</l>
+      <l>Can colour thy deceit?—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>The heart resolv'd</l>
+      <l>Wants no excuse, no colouring of words—</l>
+      <l>I found my husband,—flew to his embrace;—</l>
+      <l>This,—this is he!—the lord of my desires—</l>
+      <l>With him content I'll traverse o'er the world.—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Do'st thou avow it too?—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Do I avow it?—</l>
+      <l>Yes, I exult, I glory in it—Think'st thou</l>
+      <l>I'll prove so meanly false to honour's cause</l>
+      <l>As to apologize for being faithful?—</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>I see Flamminius has already school'd her</l>
+      <l>In Roman maxims—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <pb n="66" facs="72"/>
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Miserable prince!</l>
+      <l>I will not answer thee—too soon thy heart</l>
+      <l>For this last feat will bitterly reproach thee!—</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>Away with thy delusive arts—if ever</l>
+      <l>I form alliance with haughty people,</l>
+      <l>Those ravagers of earth,—if e'er again</l>
+      <l>I hold communion with thee,—may the gods—</l>
+      <l>May Pharasmanes,—but it cannot be—</l>
+      <l>My heart high beating in my country's cause,</l>
+      <l>Vows an eternal enmity with Rome.</l>
+     </sp>
+     <stage>Exit.</stage>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Thee, Pharasmanes, thee my voice addresses—</l>
+      <l>Thou know'st my title to her—Hymen's rites</l>
+      <l>Long since united both—Then loose these chains;—</l>
+      <l>'Tis in the name of Rome I ask it—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Slave!—</l>
+      <l>Thy title, by the rights of war, is now extinguish'd.—</l>
+      <l>Captivity dissolves her former ties,</l>
+      <l>And now the laws of arms have made her mine.</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>And are there laws to change the human heart?</l>
+      <l>To alter the affections of the soul?</l>
+      <l>Know that my heart is rul'd by other laws,</l>
+      <l>The laws of truth, of honour, and of love.</l>
+      <l>This is my husband! source of all my comfort!</l>
+      <l>With him I'll live—with him will dare to die!—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>By heav'n some mystery—thou treach'rous fair!</l>
+      <l>Mark well my word;—unfold thy birth and rank—</l>
+      <l>My mind uncertain wanders in conjecture—</l>
+      <l>Who and what ar't thou?—Vain is ev'ry guess—</l>
+      <l>Resolve my doubts, or else the Roman's doom</l>
+      <l>Shall be determin'd streight—</l>
+     </sp>
+     <sp who="#zenobia">
+      <pb n="67" facs="73"/>
+      <speaker>ZENOBIA.</speaker>
+      <l>And my resolve,</l>
+      <l>Tyrant, is fix'd to share my husband's fate.</l>
+      <l>That I unfold—that sentiment reveal—</l>
+      <l>To heav'n and earth reveal it—for the rest</l>
+      <l>Guess if you can,—determine if you dare.</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Quick, drag Flamminius hence.—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Slaves, hold your hands—</l>
+      <l>My character protects me here—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Dispatch,</l>
+      <l>Instant dispatch, and seize Megistus too—</l>
+     </sp>
+     <stage>Megistus <hi>is led off.</hi>
+     </stage>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Horror!—call back the word—it shall not be—</l>
+      <l>Here will I hold him—barb'rous ruffians hold—</l>
+      <l>Murder!—my life! my lord! my husband! oh!—</l>
+     </sp>
+     <stage>Rhadamistus <hi>is dragg'd off.</hi>
+     </stage>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Give him the torture; let your keenest pangs</l>
+      <l>Extort each secret from him—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Pharasmanes!</l>
+      <l>Thus lowly humbled, prostrate in the dust,</l>
+      <l>Washing your feet with tears—have mercy!—this</l>
+      <l>Will be the blackest, worst of all your murders—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>There's but one way to mitigate his doom—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Give me to know it—spare him—spare his life—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <pb n="68" facs="74"/>
+      <speaker>PHARASMANES.</speaker>
+      <l>Abjure the slave, and by conubial vows</l>
+      <l>This instant make thee partner of my throne.</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>My faith, my love, my very life is his—</l>
+      <l>My child is his—oh! think thou see'st my infant</l>
+      <l>Lifting his little hands—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>I'll hear no more—</l>
+      <l>Or yield this moment, or the traitor dies.</l>
+     </sp>
+     <stage>
+      <hi>Exit</hi> Pharasmanes.</stage>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA,</speaker>
+      <stage>alone.</stage>
+      <l>Inhuman Tyrant!—madness seize my brain—</l>
+      <l>Swallow me earth—here shall these desp'rate hands</l>
+      <l>Strike on thy flinty bosom,—here my voice</l>
+      <l>Pierce to thy center,—till with pity touch'd</l>
+      <l>Your cavern's open wide to hide a wretch</l>
+      <l>From hated men,—from, misery like this.—</l>
+     </sp>
+     <sp>
+      <stage>
+       <hi>Enter</hi> TERIBAZUS.</stage>
+      <l>Afflicted mourner, raise thee from the earth.</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>What voice is that—I know thee well—thou ar't</l>
+      <l>That fiend accurst, the murd'rous Teribazus!—</l>
+      <l>Yes thou art welcome! <stage>(rising)</stage> thou delight'st in blood—</l>
+      <l>I am your willing victim—plunge your sword</l>
+      <l>Deep in my heart—I'll thank thee for the stroke,</l>
+      <l>Since thou hast murder'd all my soul held dear.</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>Assuage this storm of grief, nor blame a lover</l>
+      <l>That dotes like me—could I behold that form</l>
+      <l>Snatch'd from my arms?—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>You know not what you've done—</l>
+      <l>Your blameless brother—</l>
+     </sp>
+     <sp who="#teribazus">
+      <pb n="69" facs="75"/>
+      <speaker>TERIBAZUS.</speaker>
+      <l>How!</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>You've murder'd him—</l>
+      <l>Your brother Rhadamistus—</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>Rhadamistus!—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>By thee he dies—that is your splendid deed—</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>What say'st thou?—he my brother—urge me not</l>
+      <l>To instant madness—is he—tell me—say—</l>
+      <l>Ar't thou Zenobia?—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Yes, that fatal wretch!—</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>If this be so—what had I done, ye pow'rs!</l>
+      <l>To merit this extremity of woe</l>
+      <l>—Why did'st thou hide the awful secret from me?—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Could I betray him—could I trust your father,</l>
+      <l>Whose fell ambition, whose relentless rage,</l>
+      <l>Has fix'd a price on our devoted heads?</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>Then shall this hated being—no!—I'll live</l>
+      <l>To save a brother still—he shall not die—</l>
+      <l>Oh! let me seek him,—throw me at his feet,</l>
+      <l>Implore forgiveness, and protract his days.</l>
+     </sp>
+     <stage>
+      <hi>Exit</hi> Teribazus.</stage>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>It is in vain—he's lost—we both must perish—</l>
+      <l>And then my child—who then shall guard his youth?</l>
+      <l>
+       <pb n="70" facs="76"/>
+No more these eyes shall see him—my sweet boy</l>
+      <l>Will break his heart, and unregarded die.—</l>
+     </sp>
+     <stage>
+      <hi>Enter</hi> ZOPIRON.</stage>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>All's lost! all ruin'd!—to the cave of death</l>
+      <l>Ev'n now the guards lead Rhadamistus forth.</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Thou see'st the sad reverse!—immortal spirits,—</l>
+      <l>Ye winged virtues,—that with pitying eye</l>
+      <l>Watch the afflicted,—will ye not inspire</l>
+      <l>In this sad hour,—one great, one glorious thought,</l>
+      <l>Above the vulgar flight of common souls,</l>
+      <l>To save at once my husband and my child?</l>
+      <l>—The inspiration comes!—the bright idea</l>
+      <l>Expands my heart, and charms my glowing soul.</l>
+     </sp>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>My gracious queen, let not a blind despair—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Talk not, Zopiron, when the god inspires!</l>
+      <l>The god! the god!—my heart receives him all</l>
+      <l>—My lord, my Rhadamistus still shall live.</l>
+     </sp>
+     <stage>Exit.</stage>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>Yet, I conjure thee, hear thy faithful slave.—</l>
+     </sp>
+     <stage>follows her out.</stage>
+     <stage>
+      <hi>Enter</hi> RHADAMISTUS, <hi>and</hi> Guards.</stage>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Say, whither do you had me?—does your tyrant</l>
+      <l>Repent his horrid outrage?</l>
+      <stage>
+       <hi>Enter</hi> TERIBAZUS.</stage>
+      <l>Guards withdraw</l>
+      <l>To a remoter ground—</l>
+     </sp>
+     <stage>Exeunt Soldiers.</stage>
+     <stage>
+      <pb n="71" facs="77"/>
+RHADAMISTUS, TERIBAZUS.</stage>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Mistaken prince!</l>
+      <l>My heart bleeds for thee—</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>Oh! too well I know</l>
+      <l>The depth of guilt in which the fates have plung'd me</l>
+      <l>—I cannot look upon thee—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Oh! my brother,</l>
+      <l>Thus let me, ev'n in ruin, thus embrace thee.—</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>Do'st thou forgive me?—could I e'er have thought</l>
+      <l>To see thee here? my rashness has undone thee!—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>No, thou art innocent—the guilt is mine,</l>
+      <l>The guilt of mean, ungenerous policy</l>
+      <l>Of selfish wisdom, disingenuous art</l>
+      <l>That from a friend kept back the fatal secret,</l>
+      <l>When with the ardour of unbounded confidence,</l>
+      <l>I should have rush'd with transport to thy arms,</l>
+      <l>Unbosom'd all, and wrapt thee in my heart.</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>Alas! I've heap'd these horrors on your head—</l>
+      <l>I've seal'd thy doom—that is a brother's gift—</l>
+      <l>The first essay of Teribazus' friendship!—</l>
+      <l>But I am doom'd to be a wretch abhorr'd,</l>
+      <l>Of men and gods abhorr'd!—doom'd like my father</l>
+      <l>To drench these murd'rous hands in brother's blood!—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Imbitter not the pangs that rive my soul—</l>
+      <l>Where is Zenobia?—unrelenting pow'rs!</l>
+      <l>Was it for this your persecuting wrath</l>
+      <l>Gave me to meet her, gave that angel-sweetness</l>
+      <l>To these delighted eyes, these eager arms?</l>
+     </sp>
+     <sp who="#teribazus">
+      <pb n="72" facs="78"/>
+      <speaker>TERIBAZUS.</speaker>
+      <l>I'll give you freedom still—by heav'n I will—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Was she but giv'n me to afflict her more?</l>
+      <l>To wake in that dear breast a gleam of joy,</l>
+      <l>A mockery of joy,—joy scarce, ye pow'rs!</l>
+      <l>Divided by the moment of delight</l>
+      <l>From black despair, from agony and death?</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>I will protect her,—will restore her to thee,</l>
+      <l>Or do a deed shall strike mankind with horror!</l>
+      <l>Not ev'n a father shall retard my sword—</l>
+      <l>In his own blood I'll drench it—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Ha!—</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>This hand,</l>
+      <l>E're thou shalt fall a victim to his fury,</l>
+      <l>Shall to the heart,—th' inhuman heart of him—</l>
+      <l>Who dares—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>No more of that—can I consent,</l>
+      <l>That a brave gen'rous youth, a much lov'd brother,</l>
+      <l>For ev'ry virtue fam'd,—shall thus debase</l>
+      <l>By an atrocious deed his fair renown,</l>
+      <l>And perpetrate a dark insidious work?</l>
+      <l>—Oh! I should well deserve the worst of ills</l>
+      <l>—I then should justify a father's Cruelty!—</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>He has undone thee—has undone as all—</l>
+      <l>But yet thou shalt not die—by heav'n I swear—</l>
+      <l>Yes, take me, horror! pour into my heart</l>
+      <l>Thy blackest purpose—nerve my lifted arm</l>
+      <l>To dash him headlong from his glitt'ring throne</l>
+      <l>A terrible example to the world.</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <pb n="73" facs="79"/>
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Beware, beware, my brother—yet reflect—</l>
+      <l>You would strike vice with terror—tell me then,</l>
+      <l>Would not the act of rash impetuous zeal,</l>
+      <l>Would not th' example arm the ruffian's hand?</l>
+      <l>Thy virtue thus inflames thy gen'rous ardor—</l>
+      <l>But oh! my brother, let it not be said</l>
+      <l>That virtue ever held the murd'rer's knife!</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>Gods! have I ruin'd such unheard of goodness?—</l>
+      <l>Swift I'll dispatch a message to Paulinus,</l>
+      <l>And call his legions to assault the camp—</l>
+     </sp>
+     <stage>
+      <hi>Enter</hi> TIGRANES, <hi>and</hi> Guards.</stage>
+     <sp who="#tigranes">
+      <speaker>TIGRANES.</speaker>
+      <l>Guards, seize your pris'ner—in a dungeon's gloom</l>
+      <l>Plunge him sequester'd from the light of heav'n.</l>
+      <l>'Tis Pharasmanes' will—</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>Thou medling fiend!</l>
+      <l>I will attend his steps; will still protect him</l>
+      <l>From men like thee—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Should Pharasmanes dare</l>
+      <l>To violate the rights of public law,</l>
+      <l>Rome is at hand, and will have ample vengeance.</l>
+     </sp>
+     <stage>
+      <hi>Exit with</hi> Teribazus.</stage>
+     <sp who="#tigranes">
+      <speaker>TIGRANES.</speaker>
+      <l>My thirst of vengeance shall be sated first.—</l>
+      <l>Yes, guard him, prince; it makes thy ruin sure!</l>
+      <l>Thy Ariana too, while fats is busy,</l>
+      <l>Shall meet her doom, and leave my road to glory</l>
+      <l>All smooth and level to ambition's wish.</l>
+     </sp>
+     <stage>
+      <hi>Enter</hi> ZOPIRON.</stage>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>'Gainst Rome's ambassador the king, Tigranes,</l>
+      <l>
+       <pb n="74" facs="80"/>
+Suspends his sentence till his further orders.</l>
+      <l>The queen commands it too.</l>
+     </sp>
+     <sp who="#tigranes">
+      <speaker>TIGRANES.</speaker>
+      <l>The queen!—what queen?</l>
+     </sp>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>The beauteous Ariana; now your sovereign.</l>
+     </sp>
+     <sp who="#tigranes">
+      <speaker>TIGRANES.</speaker>
+      <l>Has she relented?—is she married to him?</l>
+     </sp>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>She is—the scene with various passions burn'd!—</l>
+      <l>Her tresses all unbound, with faded charms,</l>
+      <l>Yet lovely ev'n in sorrow, thro' the ranks</l>
+      <l>Eager she flew, with shrieks, with outstretch'd arms,</l>
+      <l>Invoking ev'ry god!—the wond'ring soldier</l>
+      <l>With soften'd sinews, dropt the sword to earth</l>
+      <l>And gaz'd with mix'd emotions as she pass'd.</l>
+      <l>Prone to the ground at Pharasmanes' feet</l>
+      <l>She fell—he rais'd her soon, and smil'd consent—</l>
+      <l>To the king's tent she press'd with eager speed—</l>
+      <l>Th' exulting monarch call'd his priests around him,</l>
+      <l>And soon with solemn march and festive song</l>
+      <l>In his pavillion sought the blooming bride.</l>
+     </sp>
+     <sp who="#tigranes">
+      <speaker>TIGRANES.</speaker>
+      <l>This sudden change, Zopiron, this rash haste,</l>
+      <l>I like it not—</l>
+     </sp>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>Nor I Tigranes: doubt,</l>
+      <l>Suspicion, fear, and wonder, and mistrust,</l>
+      <l>Rise in each anxious thought—</l>
+     </sp>
+     <sp who="#tigranes">
+      <speaker>TIGRANES.</speaker>
+      <l>But did'st thou see</l>
+      <l>The ceremony clos'd?—</l>
+     </sp>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>I did:—at first</l>
+      <l>All pale and trembling Ariana stood.</l>
+      <l>
+       <pb n="75" facs="81"/>
+Then more collected, with undaunted step</l>
+      <l>She to the altar bore the nuptial cup.</l>
+      <l>There reverent bow'd, and "hear ye gods," she said,</l>
+      <l>"Hear and record the purpose of my soul."</l>
+      <l>With trembling lips then kiss'd the sacred vase,</l>
+      <l>And as our country's solemn rites require,</l>
+      <l>Drank of the hallow'd liquor.—From her hand</l>
+      <l>The king receiv'd it, and with eager joy,</l>
+      <l>As to his soul he took the hectar'd draught,</l>
+      <l>With stedfast eye she view'd him, whilst a smile</l>
+      <l>Of sickly joy gleam'd faintly o'er her visage.</l>
+     </sp>
+     <sp who="#tigranes">
+      <speaker>TIGRANES.</speaker>
+      <l>Well, she's our queen—the diadem is hers—</l>
+     </sp>
+     <sp who="#zopiron">
+      <speaker>ZOPIRON.</speaker>
+      <l>How long to wear it, heav'n alone can tell.—</l>
+     </sp>
+     <stage>The back scene draws, and discovers the king's pavillion, with an altar, and fire blazing on it; soft musick is play'd, and they come forward.</stage>
+     <stage>PHARASMANES <hi>and</hi> ZENOBIA.</stage>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>At length my Ariana's soft compliance</l>
+      <l>Endears the present bliss, and gives an earnest</l>
+      <l>Of joy to brighten a long train of years.</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Alas! fond man expatiates oft in fancy,</l>
+      <l>Unconscious of the fates, and oft in thought</l>
+      <l>Anticipates a bliss he ne'er enjoys.</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Away with gloomy care; for thou ar't mine,</l>
+      <l>Thou, Ariana!—all our future days</l>
+      <l>Shall smile with gay, with ever-young desire,</l>
+      <l>And not a cloud o'ercast the bright serene.</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>And does thy penetrating eye pervade</l>
+      <l>What time has yet in store?</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <pb n="76" facs="82"/>
+      <speaker>PHARASMANES.</speaker>
+      <l>Why dost thou ask?</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>I have been us'd to grief—release the Roman,</l>
+      <l>And give him hence safe conduct to his friends;—</l>
+      <l>I then shall be at peace.—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Beware, beware!</l>
+      <l>Nor rouze again the pangs, that fire a soul,</l>
+      <l>Which fiercely doats like mine.</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Dismiss him hence;</l>
+      <l>Give him his life—it was your marriage vow</l>
+      <l>He should not suffer—let me see him first;—</l>
+      <l>Grant me one interview,—one little hour;</l>
+      <l>In that poor space I can crowd all that's left me</l>
+      <l>Of love, and tenderness, and fond concern,</l>
+      <l>Before we part for ever—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Fond concern!</l>
+      <l>And love, and tenderness!—and shall the Roman</l>
+      <l>Usurp a monarch's due?—that look betrays</l>
+      <l>The secret workings of a heart estrang'd!</l>
+      <l>And shall the man, who dares dispute my love,</l>
+      <l>Shall the slave breathe a moment?—haste, Tigranes,</l>
+      <l>And see immediate execution on him.</l>
+     </sp>
+     <stage>
+      <hi>Exit</hi> Tigranes.</stage>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Oh! stay Tigranes—barb'rous man, recall</l>
+      <l>The horrid mandate—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>By immortal love,</l>
+      <l>I see the slave still triumphs in your heart.</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Oh! spare him, spare him—by the vital air,</l>
+      <l>By your own promis'd faith—</l>
+     </sp>
+     <stage>Kneels to him.</stage>
+     <sp who="#pharasmanes">
+      <pb n="77" facs="83"/>
+      <speaker>PHARASMANES.</speaker>
+      <l>Since lov'd by thee</l>
+      <l>His doom is doubly seal'd.—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>You shall not fly me—</l>
+      <l>Now tear me, drag me groveling in the dust,</l>
+      <l>Tear off these hands—tear, tear me peice-meal first—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Nay, then since force must do it—</l>
+     </sp>
+     <stage>Shakes her off.</stage>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Barb'rous tyrant!</l>
+     </sp>
+     <stage>She lies stretch'd on the ground.</stage>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>I go to see the minion of your heart</l>
+      <l>Expire in pangs before me—ha!—what means</l>
+      <l>This more than winter's frost that chills my veins?—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>
+       <stage>(Looking up)</stage> That groan revives, and calls me back to life!—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>I cannot move—each vital function's lost—</l>
+      <l>The purple current of my blood is stopt—</l>
+      <l>I freeze—I burn—oh! 'tis the stroke of death—</l>
+     </sp>
+     <stage>Falls on the ground.</stage>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>
+       <stage>(Rising)</stage> Yes, tyrant, yes; it is the stroke of death</l>
+      <l>And I inflict it—I have done it all—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>Pernicious trait'ress! thou!—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>My vengeance did it—</l>
+      <l>Zenobia's vengeance!—'tis Zenobia strikes—</l>
+      <l>Zenobia executes her justice on thee!—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <pb n="78" facs="84"/>
+      <speaker>PHARAMANES.</speaker>
+      <l>Oh! dire accurst event!—ar't thou Zenobia?</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Yes, thou fell monster, know me for Zenobia!</l>
+      <l>Know the ambassador is Rhadamistus!</l>
+      <l>Haste thee, Zopiron, and proclaim him king.</l>
+     </sp>
+     <stage>
+      <hi>Exit</hi> Zopiron.</stage>
+     <sp who="#pharasmanes">
+      <speaker>PHARAMANES.</speaker>
+      <l>May curses light upon thee—oh! I die,</l>
+      <l>And racks and wheels disjoint me—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Writhe in torment,</l>
+      <l>In fiercer pangs than my dear father knew.</l>
+      <l>—But I revenge his death—I dash'd the cup</l>
+      <l>With precious poison!— <stage>(a flourish of trumpets)</stage> ha!—now tyrant wake,</l>
+      <l>And hear those founds—my Rhadamistus reigns!—</l>
+     </sp>
+     <sp who="#pharasmanes">
+      <speaker>PHARASMANES.</speaker>
+      <l>What and no help!—it is too late—the fates,</l>
+      <l>The fiends surround me more than Aetna's fires</l>
+      <l>Burn in my veins—yet heav'n—no—'tis in vain—</l>
+      <l>I cannot rise—my crimes—my tenfold crimes—</l>
+      <l>They pull me!—oh!—</l>
+     </sp>
+     <stage>Dies.</stage>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>There fled the guilty spirit,</l>
+      <l>Shade of my father view your daughter now!</l>
+      <l>Behold her struggling in a righteous cause!</l>
+      <l>Behold her conqu'ring in the tyrant's camp!</l>
+      <l>Behold your murd'rer levell'd in the dust!—</l>
+     </sp>
+     <stage>A second flourish of trumpets.</stage>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>
+       <stage>(Within the scenes)</stage> Where is Zenobia?—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Rhadamistus, here!—</l>
+     </sp>
+     <stage>
+      <pb n="79" facs="85"/>
+      <hi>Enter</hi> RHADAMISTUS, TERIBAZUS, MEGISTUS, ZOPIRON, <hi>&amp;c.</hi>
+     </stage>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Oh! let me, let me thus,—thus pour my soul,</l>
+      <l>Thus speak my joy,—thus melt within thy arms.—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>My lord! my life, my Rhadamistus!—come,</l>
+      <l>Grow to my heart,—that bounds and springs to meet thee.—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Once more reviv'd and snatch'd again from death</l>
+      <l>Thus do I see thee?—these are speechless joys,</l>
+      <l>And tears alone express them—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Have I sav'd thee?</l>
+      <l>All-gracious gods! 'tis rapture in th' extreme!—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>My sweet deliverer! my all of bliss!—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Oh! it is joy too exquisite!—and yet</l>
+      <l>Grief will imbitter ecstacy like this!—</l>
+      <l>There lies your father!</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>All his crimes</l>
+      <l>Be buried with him!—nature will have way,</l>
+      <l>And o'er his corse thus sheds the filial tear.</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>Oh! that my tears could wash away his stains!—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Wilt thou forgive his murderer?—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>For thee,</l>
+      <l>Beset with wrongs, and injur'd as thou wer't,</l>
+      <l>
+       <pb n="80" facs="86"/>
+In ev'ry region fame shall clap her wings,</l>
+      <l>And the recording muse applaud thy virtue.</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>If thou forgiv'st me, I am bless'd indeed!</l>
+      <l>Now we shall part no more—Megistus too!—</l>
+      <l>Thou good old man!—let me embrace thee—ha!</l>
+     </sp>
+     <sp who="#megistus">
+      <speaker>MEGISTUS.</speaker>
+      <l>The blood forsakes her cheek—her eyes are fix'd!—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Support me—help me—oh! I die—I die.—</l>
+     </sp>
+     <stage>
+      <hi>Falls in</hi> Megistus' <hi>arms.</hi>
+     </stage>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>She faints—her colour dies—revive Zenobia;—</l>
+      <l>Revive my love;—thy Rhadamistus thus,</l>
+      <l>Thus calls your flutt'ring spirit back to life.</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>It will not be—the toil of life is o'er—</l>
+      <l>My Rhadamistus—</l>
+     </sp>
+     <stage>Sinks down on the ground.</stage>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Must I lose thee then?—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Oh! the envenom'd cup!—the marriage rites</l>
+      <l>Requir'd that I should drink it first myself—</l>
+      <l>There was no other way—I did it freely</l>
+      <l>To save thy life—to save thee for my child.—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>A'rt thou a victim for a wretch like me?</l>
+      <l>Is there no antidote to stop the course</l>
+      <l>Of this vile poison?—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>None—it rages now—</l>
+      <l>It rages thro' my veins—my eyes grow dim—</l>
+      <l>
+       <pb n="81" facs="87"/>
+They're lost in darkness—oh!—I cannot see thee—</l>
+      <l>Where art thou, Rhadamistus?—must I breathe</l>
+      <l>Longer in life,—and never see thee more!—</l>
+      <l>And are my eyes forbid one dear farewell?</l>
+      <l>Oh! cruel stars!—must they not fix on thee</l>
+      <l>The last expiring glance?—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Relentless pow'rs!</l>
+      <l>There lies Zenobia!—round that pallid beauty</l>
+      <l>Call you a therial host, each winged virtue,</l>
+      <l>Call ev'ry angel down,—bid 'em behold</l>
+      <l>That matchless excellence, and then refuse</l>
+      <l>Soft pity if they can!—</l>
+     </sp>
+     <sp who="#zenobia">
+      <speaker>ZENOBIA.</speaker>
+      <l>Megistus,—seek my child,—</l>
+      <l>And bring him to his father—Rhadamistus,</l>
+      <l>—Wilt thou protect him?—My sweet orphan-babe</l>
+      <l>I leave thee too!—oh! train him up in virtue—</l>
+      <l>Wilt thou be fond of him—a mother's fondness</l>
+      <l>My child should meet—oh! raise me, Rhadamistus—</l>
+      <l>Give me thy hand—my little infant—oh!—</l>
+     </sp>
+     <stage>Dies.</stage>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Tears, you do well to stop—your wretched drops</l>
+      <l>Are unavailing at a sight like this!—</l>
+      <l>And art thou gone?—ah! thus defac'd and pale,</l>
+      <l>Thus do I see thee?—is that ghastly form</l>
+      <l>All that is left me of thee?—give me daggers,</l>
+      <l>—Give me some instant means of death, my friends,</l>
+      <l>That I may throw this load of life away,</l>
+      <l>And let our hearts be both inurn'd together.</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIZABUS.</speaker>
+      <l>Live, live my brother, for your infant son—</l>
+      <l>Let him prevail—</l>
+     </sp>
+     <sp who="#rhadamistus">
+      <speaker>RHADAMISTUS.</speaker>
+      <l>Inhuman that thou art!</l>
+      <l>Think you I'll slay imprison'd here in life,</l>
+      <l>When there—behold her—how she smiles in death!—</l>
+      <l>
+       <pb n="82" facs="88"/>
+When there that form—think ye I'll linger here?—</l>
+      <l>Dead, dead Zenobia!—still I have thee thus—</l>
+      <l>You ne'er shall part us—this at least I'll hold,</l>
+      <l>And cling for ever to these pale, pale charms;</l>
+      <l>Here breathe my last, and faithful still in death,</l>
+      <l>Love shall unite us in one peaceful grave.</l>
+     </sp>
+     <sp who="#megistus">
+      <speaker>MEGISTUS.</speaker>
+      <l>Now, old Megistus, gods! has liv'd too long!—</l>
+     </sp>
+     <sp who="#teribazus">
+      <speaker>TERIBAZUS.</speaker>
+      <l>Bring ev'ry aid, all medicinal skill</l>
+      <l>To call a wretched brother back to life,</l>
+      <l>And give each lenient balm to woes like his.</l>
+      <l>From thee ambition, what misfortunes flow?</l>
+      <l>To thee what varied ills weak mortals owe?</l>
+      <l>'Twas this for years laid desolate the land,</l>
+      <l>And arm'd against a son the father's hand;</l>
+      <l>To black despair poor lost Zenobia drove;</l>
+      <l>The hapless victim of disastrous love!—</l>
+     </sp>
+    </div>
+   </div>
+  </body>
+  <back>
+   <div type="epilogue">
+    <pb facs="89"/>
+    <head>EPILOGUE:</head>
+    <byline>Written by DAVID GARRICK, <abbr>Esq</abbr>;</byline>
+    <sp>
+     <stage>And Spoken by Mrs. ABINGTON.</stage>
+     <stage>(She peeps thro' the Curtain)</stage>
+     <lg>
+      <l>HOW do you all, good folks?—In tears for certain,</l>
+      <l>I'll only take a PEEP BEHIND THE CURTAIN;</l>
+      <l>You're all so full of tragedy, and sadness!</l>
+      <l>For me to come among ye, would be madness:</l>
+      <l>This is no time for giggling—when you've leisure,</l>
+      <l>Call out for me, and I'll attend your pleasure;</l>
+      <l>As soldiers hurry at the beat of drum,</l>
+      <l>Beat but your hands, that instant I will come.</l>
+     </lg>
+     <stage>She enters upon their clapping.</stage>
+     <lg>
+      <l>This is so good, to call me out so soon—</l>
+      <l>The COMIC MUSE by me intreats a BOON;</l>
+      <l>She call'd for PRITCHARD, her first maid of honour,</l>
+      <l>And begg'd of her to take the task upon her;</l>
+      <l>But she,—I'm sure you'll all be sorry for't,</l>
+      <l>Resigns her place, and soon retires from court:</l>
+      <l>To bear this loss, we courtiers make a shift,</l>
+      <l>When good folks leave us, worse may have a lift.</l>
+     </lg>
+     <lg>
+      <l>The COMIC MUSE, whose ev'ry smile is grace,</l>
+      <l>And her STAGE SISTER, with her tragic face,</l>
+      <l>Have had a quarrel—each has writ a CASE.</l>
+      <l>And on their friends assembled now I wait,</l>
+      <l>To give you of THEIR DIFFERENCE A TRUE STATE.</l>
+      <l>MELPOMENE, complains when she appears,—</l>
+      <l>For five good acts, in all her pomp of tears,</l>
+      <l>To raise your souls, and with her raptures wing 'em,</l>
+      <l>Nay wet your handkercheifs, that you may wring 'em.</l>
+      <l>Some flippant hussey, like myself comes in;</l>
+      <l>Crack goes her fan, and with a giggling grin,</l>
+      <l>Hey! PRESTO PASS!—all topsy turvy see,</l>
+      <l>For Ho, HO, HO! is chang'd to HE, HE, HE!</l>
+      <l>We own the fault, but 'tis a fault in vogue,</l>
+      <l>'Tis theirs, who call and bawl for—EPILOGUE!</l>
+      <l>
+       <pb facs="90"/>
+Oh! shame upon you—for the time to come</l>
+      <l>Know better—and go miserable home.</l>
+      <l>What says our COMIC GODDESS?—with reproaches,</l>
+      <l>She vows her SISTER TRAGEDY encroaches!</l>
+      <l>And spite of all her virtue, and ambition,</l>
+      <l>Is known to have an am'rous disposition:</l>
+      <l>For in FALSE DELICACY—wond'rous sly,</l>
+      <l>Join'd with a certain IRISHMAN—O fye!</l>
+      <l>She made you, when you ought to laugh, to cry.—</l>
+      <l>Her sister's smiles with tears she try'd to smother,</l>
+      <l>Rais'd such a tragi-comic kind of pother,</l>
+      <l>You laugh'd with one eye, while you cry'd with t'other.</l>
+      <l>What can be done?—sad work behind the scenes!</l>
+      <l>There comic females scold with tragic queens.</l>
+      <l>Each party different ways the foe assails,</l>
+      <l>These shake their daggers, those prepare their nails.</l>
+      <l>'Tis You alone must calm these dire mishaps,</l>
+      <l>Or we shall still continue pulling caps.</l>
+      <l>What is your will?—I read it in your faces;</l>
+      <l>That all hereafter take their proper places,</l>
+      <l>Shake hands, and kiss and friends, and—BURN THEIR CASES.</l>
+     </lg>
+    </sp>
+    <trailer>FINIS.</trailer>
+   </div>
+  </back>
+ </text>
+</TEI>
