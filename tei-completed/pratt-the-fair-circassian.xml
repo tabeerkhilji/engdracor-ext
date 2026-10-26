@@ -1,0 +1,3936 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">The fair Circassian</title>
+    <title type="sub">A tragedy: As performed at the Theatre-Royal, Drury-Lane, by the author of Sympathy, a poem.</title>
+    <author>
+     <persName>
+      <surname>Pratt</surname>
+      <forename>Samuel Jackson</forename>
+      <idno type="VIAF">68979200</idno>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>The fair Circassian. A tragedy: As performed at the Theatre-Royal, Drury-Lane, by the author of Sympathy, a poem.</name>
+     <author>Pratt, Mr. (Samuel Jackson), 1749-1814.</author>
+     <publisher>printed for R. Baldwin,</publisher>
+     <date>1781.</date>
+     <pubPlace>London :</pubPlace>
+     <note>Anonymous. By Samuel J. Pratt.</note>
+     <note>Based on J. Hawkesworth's 'Almoran and Hamet'.</note>
+     <note>With a half-title and a final epilogue leaf.</note>
+     <note>Reproduction of original from the British Library.</note>
+     <note>English Short Title Catalog, ESTCT58099.</note>
+     <note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note>
+    </bibl>
+    <biblFull n="printed source">
+     <publicationStmt>
+      <authority ref="#JJ">Jan Jokisch</authority>
+      <date>2024 December</date>
+      <idno type="ECCO_Drama">K051111.000</idno>
+      <idno type="DLPS">004834893</idno>
+      <idno type="ESTC">T58099</idno>
+      <idno type="DocNo">CW106677881</idno>
+      <idno type="TCP">K051111.000</idno>
+      <idno type="GaleDocNo">CW3306677881</idno>
+      <idno type="ContentSet">ECFA</idno>
+      <idno type="ImageSetID">1193100700</idno>
+      <availability>
+       <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+      </availability>
+     </publicationStmt>
+    </biblFull>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    <person xml:id="almoran"><persName>Almoran</persName><sex value="MALE"/></person><person xml:id="hamet"><persName>Hamet</persName><sex value="MALE"/></person><person xml:id="omar"><persName>Omar</persName><sex value="MALE"/></person><person xml:id="ali"><persName>Ali</persName><sex value="MALE"/></person><person xml:id="caled"><persName>Caled</persName><sex value="MALE"/></person><person xml:id="osmyn"><persName>Osmyn</persName><sex value="MALE"/></person><person xml:id="principal_iman"><persName>Principal Iman</persName><sex value="MALE"/></person><person xml:id="almeida"><persName>Almeida</persName><sex value="FEMALE"/></person><person xml:id="crisanthe"><persName>Crisanthe</persName><sex value="FEMALE"/></person><person xml:id="priest"><persName>Priest</persName><sex value="MALE"/></person><personGrp xml:id="chorus_of_youths_and_virgins"><persName>Chorus of Youths and Virgins</persName><sex value="UNKNOWN"/></personGrp></listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1781">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text xml:lang="en">
+  <front>
+   <div type="halftitle">
+    <pb facs="1" ana="y"/>
+    <p>THE FAIR CIRCASSIAN. A TRAGEDY.</p>
+    <p>[Price 1<hi>s.</hi> 6<hi>d.</hi>]</p>
+   </div>
+   <div type="titlepage">
+    <pb facs="2" ana="y"/>
+    <p>THE FAIR CIRCASSIAN. A TRAGEDY. AS PERFORMED AT THE THEATRE-ROYAL, DRURY-LANE,</p>
+    <p>BY THE AUTHOR OF <hi>SYMPATHY,</hi> A POEM.</p>
+    <p>LONDON: PRINTED FOR R. BALDWIN, NO. 47, PATER-NOSTER ROW. M DCC LXXXI.</p>
+   </div>
+   <div type="dedication">
+    <pb facs="3"/>
+    <head>TO HIS ROYAL HIGHNESS THE PRINCE OF WALES.</head>
+    <opener>
+     <salute>SIR,</salute>
+    </opener>
+    <p>YOU are of an age when the heart opens to the most warm and generous impressions; an age, when all that gives worth and dignity to elevated rank, takes full possession of the bosom. At this bright and unprejudiced crisis of your life, the precepts of Omar and the practice of Hamet, as drawn by Hawkesworth, and dramatised by the author of this tragedy, will win upon your attention; not indeed by the attraction of poetry, but by the natural reverence which unspotted youth ever renders, and with delight, to faithful
+<pb n="ii" facs="4"/>representations of wisdom and of virtue; the wisdom of the patriot, the virtue of the prince.</p>
+    <p>That your Royal Highness may very long reflect blessings on the people of England, and prove a distinguished honour to the illustrious family who have that generous people in charge, is the zealous prayer, as it is the most empassioned expectation, of</p>
+    <closer>
+     <signed>YOUR ROYAL HIGHNESS's Most devoted, And most dutiful servant, THE AUTHOR.</signed>
+    </closer>
+   </div>
+   <div type="preface">
+    <pb facs="5"/>
+    <head>PREFACE.</head>
+    <p>THIS tragedy borrows its general story, and some of its incidents, with as much of its sentiment as could be preserved, from the very beautiful <hi>"Almoran</hi> and <hi>Hamet"</hi> of Hawkesworth. Except that truth and justice call for such acknowledgement, it would on any other score have been unnecessary; for what can be added to the fame of a work universally celebrated? The original <hi>machinery</hi> has been rejected, because it would have been too daring an attempt to interweave it with the fable of a modern composition, and perhaps too mighty a task to manage without violating the first great law of dramatick probability. At the same time, it has been the authour's most assiduous endeavour, to "convert the sententious display of eastern wisdom, as far as character would permit, into the language of passion, varied by every motive which might most forcibly affect the human mind in the most warm and interesting situations." These are the words of a critick, who seems fully to have penetrated the design of the author. The lines with inverted commas were omitted in the representation, to favour the rapidity of the action. They are retained
+<pb n="8" facs="6"/>in the printed copy, not more at the instance of particular friends, than on general experience that those passages which retard the force of the passion on the theatre, are frequently read with most satisfaction in the closet.</p>
+    <p>The Play still continuing to be received on the stage with the most brilliant success, the author would but half discharge the debt of equity were he to confess obligations to Hawkesworth only. The liberal, perhaps the unequalled support which the managers have afforded by the scenery, the interesting manner in which Mr. Linley has set the Epithalamium, the taste of Mr. De Loutherberg, and the splendour which the performers have thrown over the characters by their EXCELLENT representation, demand and receive the most warm and pointed expressions of gratitude. There remains but one tribute of justice more, and <hi>that</hi> is due to Mr. Sheridan, whose attention has, on this occasion, been friendship, and whose assistance must always be fame.</p>
+   </div>
+   <div type="prologue">
+    <pb facs="7"/>
+    <head>PROLOGUE</head>
+    <byline>BY A FRIEND. Spoken by Mr. BANNISTER, Jun.</byline>
+    <sp>
+     <l>WITH trembling steps, as if <hi>suspicious</hi> grown,</l>
+     <l>Why doth the tragic muse approach her throne?</l>
+     <l>Her <hi>golden throne,</hi> where once with grace divine,</l>
+     <l>The goddess sat, <hi>"supreme of all the nine."</hi>
+     </l>
+     <l>Turns her fair palace to the festive bower,</l>
+     <l>Where jest and sport usurp her nobler power?</l>
+     <l>Lost is each lovelier feeling that imparts</l>
+     <l>To <hi>her</hi> the sovereign rule o'er British hearts?</l>
+     <l>Sunk the pure taste which once secur'd her sway,</l>
+     <l>Or wanes that virtue which admir'd her lay?</l>
+     <l>Vain fears! A generous race assembled here,</l>
+     <l>Still pay to grief compassion's softest tear;</l>
+     <l>Still pay the heart-felt sigh which Britons owe</l>
+     <l>To nature's feelings, and to nature's woe.</l>
+     <l>When jealous fiends <hi>Othello</hi>'s heart-strings tear,</l>
+     <l>When guilty <hi>Richard</hi> groans with dire despair;</l>
+     <l>When injur'd <hi>Lear,</hi> with tort'ring anguish wild,</l>
+     <l>Pours the deep curse on each ungrateful child;</l>
+     <l>When plaintiff notes speak poor <hi>Ophelia</hi>'s woes,</l>
+     <l>Or love in <hi>Juliet</hi>'s tender bosom glows;</l>
+     <l>The glistening eye, the trembling lip proclaim</l>
+     <l>Nature and virtue here are still the same.</l>
+     <l>In scepter'd state affliction's soothing strain</l>
+     <l>Still in YOUR bosoms fix their stedfast reign—</l>
+     <l>Blest seat of empire! Where th' affections wait,</l>
+     <l>To shield the mourner from the shocks of fate—</l>
+     <l>Where the best passions with allegiance fair,</l>
+     <l>For suff'ring worth the healing balms prepare;</l>
+     <l>Nor ever shall your hearts such rights forego;</l>
+     <l>What <hi>social sorrow asks, these hearts shall still bestow!</hi>
+     </l>
+     <l>No longer then oppress'd with anxious fear,</l>
+     <l>The muse shall REASUME her station <hi>here</hi>—</l>
+     <l>Shall court each virtue that's a nation's pride,</l>
+     <l>And gain the nobler passions to her side.—</l>
+     <l>
+      <pb facs="8"/>
+If, in the tenour of her pensive lay,</l>
+     <l>In nature's path, TO NIGHT she holds her way;</l>
+     <l>If she excites the sympathising mind,</l>
+     <l>To generous acts, the glory of our kind!</l>
+     <l>This dread <note n="*" place="foot">To the Pit.</note> tribunal, shall suspend its zeal,</l>
+     <l>Spurn its proud office, and grow proud to feel:</l>
+     <l>This radiant <note n="†" place="foot">To the Boxes.</note> circle too her hopes approve,</l>
+     <l>And grace the triumph of the <hi>muse</hi> they love!</l>
+    </sp>
+   </div>
+   <div type="prologue">
+    <argument>
+     <p>
+      <hi>The following prologue, from an honour-giving muse, of which it is truly worthy, did not arrive till after Mr. Bannister was put in possession of the excellent poetry which precedes it; and which another ingenious friend had been sollicited to supply. The author of the tragedy, however, thinks Miss Seward's composition too valuable to circulate only in manuscript. Indeed, to keep such verses out of print, would not only be a private injury to the piece (which they will adorn) but an unpardonable injustice to the public.</hi>
+     </p>
+    </argument>
+    <head>PROLOGUE</head>
+    <byline>BY MISS SEWARD.</byline>
+    <lg>
+     <l>SLOW from an ebon throne's majestic height,</l>
+     <l>A lovely form descends upon my sight!</l>
+     <l>The floating purple, and the lofty mien</l>
+     <l>Proclaim <hi>the empress of the tragic scene,</hi>
+     </l>
+     <l>Divine Melpomene!—Aggriev'd she stands,</l>
+     <l>Her tears fast falling on her folded hands.</l>
+     <l>The show'ry cloud thus dims the azure skies,</l>
+     <l>Thus round the moon the misty halos rise.</l>
+    </lg>
+    <lg>
+     <l>Why, beauteous mourner, ere the hour of woe,</l>
+     <l>Throb those quick sighs, those crystal sorrows flow?</l>
+     <l>Thy Fair Circassian yet no griefs molest,</l>
+     <l>Nor love, nor fear assail her virgin breast!</l>
+    </lg>
+    <lg>
+     <l>But soft!—the muse of anguish sadly speaks!</l>
+     <l>Faint on my ear the murm'ring accent breaks;</l>
+     <l>
+      <pb facs="9"/>
+Low hollow gales its mournful sounds convey,</l>
+     <l>And thus the goddess says—or seems to say:</l>
+    </lg>
+    <lg>
+     <l>"Can then the tender female bosom prove</l>
+     <l>"A keener pang than disappointed love?</l>
+     <l>"Ah me!—For light Thalia <hi>more</hi> than shares</l>
+     <l>"My darling Sheridan's too partial cares:</l>
+     <l>"On her vain brows his lavish wreaths are thrown,</l>
+     <l>"His thousand radiant gems emblaze her zone!</l>
+    </lg>
+    <lg>
+     <l>"What tho' she gave to his supreme command</l>
+     <l>"Each laughing grace that waits her potent wand,</l>
+     <l>"Yet with sublimer force <hi>my</hi> chemic-fire</l>
+     <l>"'With proud distinction deck'd his sacred lyre;' <note n="*" place="foot">Parody on a beautiful line in Mr. Sheridan's monody.</note>
+     </l>
+     <l>"To purest gold its warbling wires I turn'd,</l>
+     <l>"When their sweet lays o'er lifeless Garrick mourn'd.</l>
+    </lg>
+    <lg>
+     <l>"And once he sung in <note n="†" place="foot">See prologue to Semiramis.</note> elevated strain</l>
+     <l>"My charms superior, and my right to reign;</l>
+     <l>"Then, with the majesty my impulse throws</l>
+     <l>"In chasten'd splendor round the poet's brows,</l>
+     <l>"He bade the tears that stream'd o'er Asia's queen,</l>
+     <l>"Flow soft in <hi>real</hi> sorrow's lonely scene.—</l>
+     <l>"But soon he <hi>smil'd</hi> those graceful tears away,</l>
+     <l>"And faithless own'd my frolic <hi>rival</hi>'s sway.</l>
+    </lg>
+    <lg>
+     <l>"Perchance, howe'er, the jocund pride of youth</l>
+     <l>"Alone has warp'd from me his love and truth;</l>
+     <l>"Ere long the rover may again be mine,</l>
+     <l>"And with his blooming laurels deck my shrine!</l>
+    </lg>
+    <lg>
+     <l>"This night no vulgar hand the meed bestows,</l>
+     <l>"That now for me in pristine beauty glows.—</l>
+     <l>"Oh! may the fost'ring breath of public praise</l>
+     <l>"Preserve from cruel blight the votive bays!"</l>
+    </lg>
+    <lg>
+     <l>I hear no more—For, with a pensive smile,</l>
+     <l>Slow glides the muse down yonder winding isle!</l>
+    </lg>
+    <lg>
+     <l>May you, ye brave and wise, ye good and fair,</l>
+     <l>Fulfil with suffrage kind her fervent pray'r!</l>
+     <l>And since no force of wit and comic art</l>
+     <l>Can shut to pity's plaint the British heart,</l>
+     <l>We hope your just applause may bless our bard,</l>
+     <l>His first ambition, and his bright reward.</l>
+    </lg>
+   </div>
+   <div type="Dramatis_Personae">
+    <pb facs="10"/>
+    <castList>
+     <head>DRAMATIS PERSONAE.</head>
+     <castItem>
+      <role>ALMORAN</role>
+      <actor>MR. PALMER</actor>
+     </castItem>
+     <castItem>
+      <role>HAMET</role>
+      <actor>MR. SMITH</actor>
+     </castItem>
+     <castItem>
+      <role>OMAR</role>
+      <actor>MR. BENLLEY</actor>
+     </castItem>
+     <castItem>
+      <role>ALI</role>
+      <actor>MR. PACKER</actor>
+     </castItem>
+     <castItem>
+      <role>CALED</role>
+      <actor>MR. FARREN</actor>
+     </castItem>
+     <castItem>
+      <role>OSMYN</role>
+      <actor>MR. R. PALMER</actor>
+     </castItem>
+     <castItem>
+      <role>PRINCIPAL IMAN</role>
+      <actor>MR. WRIGHTEN</actor>
+     </castItem>
+     <castItem>
+      <role>ALMEIDA</role>
+      <actor>MISS FARREN</actor>
+     </castItem>
+     <castItem>
+      <role>CRISANTHE</role>
+      <actor>MISS SIMPSON</actor>
+     </castItem>
+     <castItem>ASIATIC AMBASSADORS, GUARDS, EUNUCHS, MUTES, &amp;c.</castItem>
+    </castList>
+   </div>
+   <set>
+    <p>SCENE <hi>PERSIA.</hi>
+    </p>
+   </set>
+  </front>
+  <body>
+   <div type="play">
+    <pb facs="11"/>
+    <head>THE FAIR CIRCASSIAN. A TRAGEDY.</head>
+    <div n="1" type="act">
+     <head>ACT I.</head>
+     <head>SCENE I. <stage>A BEAUTIFUL GARDEN IN THE ORIENTAL TASTE, WITH SEVERAL RICH PAVILIONS, AND A SIDE VIEW OF A MAGNIFICENT PALACE ADJOINING. THE ROYAL APARTMENTS OPEN INTO THE GARDEN THROUGH A SPLENDID PORTICO.</stage>
+     </head>
+     <div n="1" type="scene">
+      <head>SCENE I.</head>
+      <stage>ALI, CALED.</stage>
+      <sp who="#ali">
+       <speaker>ALI.</speaker>
+       <l>CALED, behold once more our Persian court</l>
+       <l>From twice six moons of mourning for the king,</l>
+       <l>Great Solyman emerge, bright as yon sun,</l>
+       <l>From the surrounding shades of sable night—</l>
+       <l>That gorgeous palace re-assumes its lustre,</l>
+       <l>And these pavilions once more breathe around</l>
+       <l>The soul of eastern fragrance.</l>
+      </sp>
+      <sp who="#caled">
+       <pb n="2" facs="12"/>
+       <speaker>CALED.</speaker>
+       <l>Ali, yes;</l>
+       <l>Hither advance from Asia's vassal shores,</l>
+       <l>Ambassadors, high fraught with luscious burthens,</l>
+       <l>Till Persia blooms in flattery: Late they came</l>
+       <l>With solemn homage to condole; and now,</l>
+       <l>Heaping their lavish incense on our shrines,</l>
+       <l>Congratulation wreathes the ready smile.</l>
+       <l>The scene is fair, my friend; but soon again</l>
+       <l>Shall each proud blossom of the realm be wither'd.</l>
+      </sp>
+      <sp who="#ali">
+       <speaker>ALI.</speaker>
+       <l>Thou think'st that Solyman hath ill bequeath'd</l>
+       <l>The crown between his sons.</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>Hath ill bequeath'd!</l>
+       <l>To bind the warring elements, to fix</l>
+       <l>In closest league th' extremes of frost and fire,</l>
+       <l>And every opposite in nature force</l>
+       <l>Into reluctant union.—Such, my friend,</l>
+       <l>Such is the will of Solyman.</l>
+      </sp>
+      <sp who="#ali">
+       <speaker>ALI.</speaker>
+       <l>The king</l>
+       <l>Was scarce entomb'd, ere brooding jealousies</l>
+       <l>Broke forth.—Remember'st thou the hour</l>
+       <l>When Omar, with the lords of state around,</l>
+       <l>The will first gave to Almoran? Ye heavens!</l>
+       <l>How proud the triumph, while with subject zeal,</l>
+       <l>Unconscious of his fortune Hamet bow'd.</l>
+       <l>And, oh, what deep abasement follow'd swift</l>
+       <l>Upon the elder king as Omar drew</l>
+       <l>From the concealing robe another scroll,</l>
+       <l>That nam'd young Hamet partner of the throne!</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>Preposterous distribution! thus to leave</l>
+       <l>A splendid source of endless discontent.</l>
+      </sp>
+      <sp who="#ali">
+       <pb n="3" facs="13"/>
+       <speaker>ALI.</speaker>
+       <l>And this in spite of Omar's bearded wisdom.</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>Omar the sage, to whom the seal of Solyman,</l>
+       <l>In royal confidence was still reveal'd.</l>
+       <l>Omar, who trims the lonely lamp of wisdom,</l>
+       <l>When half the lazy globe is wrapt in slumber.</l>
+       <l>Omar, the prince's guardian, master, oracle;</l>
+       <l>The proud philosopher, the seer profound;</l>
+       <l>That <hi>he</hi> should thus dispose the dotard's sceptre,</l>
+       <l>And get the start of men like thee, my Ali.</l>
+      </sp>
+      <sp who="#ali">
+       <speaker>ALI.</speaker>
+       <l>Ali's holy function still protects him</l>
+       <l>Fom ev'ry rebel murmur of ambition.</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>Ali, 'tis false—I know thy temper better.</l>
+       <l>Like some repining spirit here thou walk'st,</l>
+       <l>And yon thrice blessed orb hath witness'd oft,</l>
+       <l>Thy soul's deep sigh at Omar's better fortune.</l>
+       <l>Here dost thou dwindle in the train of courtiers,</l>
+       <l>At once deem'd inoffensive, unimportant,</l>
+       <l>A mitr'd slave of Hamet's royal household,</l>
+       <l>While Omar—</l>
+      </sp>
+      <sp who="#ali">
+       <speaker>ALI.</speaker>
+       <l>Rules half the Persian empire;</l>
+       <l>Directs, proscribes, and governs uncontroul'd.</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>Ali, meantime, with tame dominion, sways</l>
+       <l>A band of humble Imans, poor and prostrate;</l>
+       <l>Or bids the peasant tremble at the altar,</l>
+       <l>As superstition points the labour'd omen.</l>
+       <l>O vain pre-eminence of pageant priesthood,</l>
+       <l>Compar'd with seats sublime, that Ali's soul</l>
+       <l>Is yet, I trust the fates, decreed to fill.</l>
+      </sp>
+      <sp who="#ali">
+       <pb n="4" facs="14"/>
+       <speaker>ALI.</speaker>
+       <l>Forbear, my friend—O Caled, tempt no more;</l>
+       <l>Wake not the fatal flame I long have smother'd:</l>
+       <l>Already have thy strong suggestions led</l>
+       <l>My feet astray—Ev'n now, against command</l>
+       <l>Of him I serve, of Hamet, and—</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>Of Omar.</l>
+      </sp>
+      <sp who="#ali">
+       <speaker>ALI.</speaker>
+       <l>Well then, of Omar—since it must be so,</l>
+       <l>Have I contriv'd that Almoran should view</l>
+       <l>That hidden treasure of the love-sick kin,</l>
+       <l>That fair Circassian—</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>Thou hast, I own it—</l>
+       <l>There, there, my friend, springs up another cause</l>
+       <l>Of rivalry and vengeance.</l>
+      </sp>
+      <sp who="#ali">
+       <speaker>ALI.</speaker>
+       <l>Vengeance!</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>Away with counterfeitings, forc'd disguises—</l>
+       <l>I've read thy heart. Converse we then like men</l>
+       <l>That know each other's bias. Ali, my friend,</l>
+       <l>My reverend friend, we both are wrong'd and outrag'd:</l>
+       <l>Me, Hamet, by his minister, hath thrust</l>
+       <l>From that rich sun-shine where so long I bask'd</l>
+       <l>In the broad ray of Hamet's royal favour.</l>
+       <l>THY state is tottering too—insulted priest!</l>
+       <l>Head of thy tribe no longer then the glance</l>
+       <l>Of Omar shall dismiss thee deep degraded—</l>
+       <l>Now, if no false concealments, wayward scruples—</l>
+      </sp>
+      <sp who="#ali">
+       <speaker>ALI.</speaker>
+       <l>'Twere best confer apart—'tis near the hour</l>
+       <l>When the Circassian lady—</l>
+      </sp>
+      <sp who="#caled">
+       <pb n="5" facs="15"/>
+       <speaker>CALED.</speaker>
+       <l>See she comes.</l>
+       <l>With speed retire—</l>
+      </sp>
+      <sp who="#ali">
+       <speaker>ALI.</speaker>
+       <l>Should Hamet or should Omar—</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED </speaker>
+       <stage>(going.)</stage>
+       <l>Short be their sway.—</l>
+      </sp>
+      <sp who="#ali">
+       <speaker>ALI </speaker>
+       <stage>(going.)</stage>
+       <l>Much hast thou mov'd me, Caled.</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>Much are we wrong'd.</l>
+      </sp>
+      <sp who="#ali">
+       <speaker>ALI.</speaker>
+       <l>This way are we secure.</l>
+      </sp>
+      <stage>Exeunt.</stage>
+     </div>
+     <div n="2" type="scene">
+      <head>SCENE II.</head>
+      <stage>ALMEIDA, CRISANTHE.</stage>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>Yes, my Crisanthe, I confess it all,</l>
+       <l>Confess that I am happy: Still remembrance</l>
+       <l>Steals o'er my conscious heart her sweet ideas,</l>
+       <l>And in soft vision charms Almeida's bosom.</l>
+      </sp>
+      <sp who="#crisanthe">
+       <speaker>CRISANTHE.</speaker>
+       <l>And Hamet well deserves—</l>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>Deserves, Crisanthe!</l>
+       <l>Not all the lavish luxury of praise</l>
+       <l>By Imans offer'd at the holy altars;</l>
+       <l>Not the rich tides of eloquence that roll</l>
+       <l>Upon the poet's tongue, by every muse,</l>
+       <l>And every god inspir'd, to grace the song,</l>
+       <l>Can pay just tribute to the soul of Hamet:</l>
+       <l>
+        <pb n="6" facs="16"/>
+'Tis not my friend the busy breath of rumour</l>
+       <l>That pours the doubtful hint into the ear,</l>
+       <l>The dazzling sceptre, the effulgent robe,</l>
+       <l>Nor yet the vollied burst of public fame</l>
+       <l>Which stamps true splendor on the hearts of kings.</l>
+       <l>Array'd in ALL these trappings they may beat</l>
+       <l>Less fair, less friendly to the rights of man,</l>
+       <l>And fill a smaller space in nature's circle</l>
+       <l>Than the poor peasant toiling at the car,</l>
+       <l>Monarch of many a private, <hi>useful</hi> virtue,</l>
+       <l>Without the power, the dangerous power, to prove</l>
+       <l>A tyrant—o'er the rest of human kind.</l>
+      </sp>
+      <sp who="#crisanthe">
+       <speaker>CRISAN THE.</speaker>
+       <l>But ev'n th' untutor'd clown delighted talks</l>
+       <l>Of Hamet's princely virtues.</l>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>Oh, he does!</l>
+       <l>Each hind may see the royal soul expand</l>
+       <l>Like some etherial light supplying fire,</l>
+       <l>That feeds unnumber'd stars with constant rays:</l>
+       <l>But, oh Crisanthe, never can <hi>he</hi> see.</l>
+       <l>The soft enchantments of the tender heart,</l>
+       <l>Friendship's divine effusion, love's pure flame,</l>
+       <l>Each grace of life retired.—These shine alone</l>
+       <l>Like silent dews that shed their balms unheard;</l>
+       <l>Like planets deep in heaven, that bless unseen</l>
+       <l>The favour'd few that share the <hi>sacred</hi> hour.</l>
+      </sp>
+      <sp who="#crisanthe">
+       <speaker>CRISANTHE.</speaker>
+       <l>The sacred hour reserv'd for fair Almeida:</l>
+       <l>But say, my gentle friend—for still delay'd</l>
+       <l>The tale of wonder—heard but yet in part—</l>
+       <l>Did he not act like some superiour power</l>
+       <l>When he with vent'rous arm rush'd through the flames</l>
+       <l>To save thee from destruction?</l>
+      </sp>
+      <sp who="#almeida">
+       <pb n="7" facs="17"/>
+       <speaker>ALMEIDA.</speaker>
+       <l>Like a god,</l>
+       <l>My guardian god! Hear then, in full, the story.</l>
+       <l>Midnight had hung the silent air in black,</l>
+       <l>Not one bright star display'd it's beamy brow,</l>
+       <l>The wat'ry-bosom'd clouds were bent to earth,</l>
+       <l>When swift the desolating light'ning's flash</l>
+       <l>Spread the far-blazing ruin thro' the palace.</l>
+       <l>Sudden it struck my venerable sire:</l>
+       <l>In vain I press'd him in these filial arms—</l>
+       <l>He fell—In that tremendous moment</l>
+       <l>Came my deliverer, my king, my Hamet,</l>
+       <l>And rescu'd child and parent from the flames.</l>
+      </sp>
+      <sp who="#crisanthe">
+       <speaker>CRISANTHE.</speaker>
+       <l>Gracious Heaven!</l>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>Soon as fled sense return'd,</l>
+       <l>I saw the gentle, generous, kneeling king</l>
+       <l>Bent in soft sorrows o'er his wretched charge;</l>
+       <l>And as the deep confusion ting'd my cheek</l>
+       <l>With tender force he strain'd me to his heart;</l>
+       <l>While good Abdallah, by his care protected,</l>
+       <l>From all the hurry of the court reposes;</l>
+       <l>And still unable as the veteran is</l>
+       <l>To view the sun, or move from his pale couch</l>
+       <l>He cheery laughs, thou know'st, the hours away,</l>
+       <l>Still Hamet or Almeida by his side.</l>
+      </sp>
+      <sp who="#crisanthe">
+       <speaker>CRISANTHE.</speaker>
+       <l>Behold the king—The royal lover comes.</l>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>Ah, faithful fondness—leave us, gentle friend—</l>
+       <l>Yet stay, Crisanthe—Stay, attest his kindness.</l>
+      </sp>
+     </div>
+     <div n="3" type="scene">
+      <pb n="8" facs="18"/>
+      <head>SCENE III.</head>
+      <stage>HAMET, ALMEIDA, CRISANTHE.</stage>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Dear, heavenly maid—thou treasure of my soul,</l>
+       <l>How poor is language to the feeling heart?</l>
+       <l>Oh, let me thus supply the want of words,</l>
+       <l>Thus speak the transports of my wond'rous fondness.</l>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>How shall Almeida mark her gratitude?</l>
+      </sp>
+      <stage>Offering to kneel.</stage>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Almeida rise: Oh do not thus o'erpay</l>
+       <l>The common duties of a common man:</l>
+       <l>To help the wretched is the debt of nature;</l>
+       <l>A debt, which every honest mind shou'd pay</l>
+       <l>To all that wear the kindred forms of men.</l>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>Oh Hamet—Oh my king—if rising blushes—</l>
+       <l>If these reveal not—the obedient subject—</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Obedient subject! most unkind Almeida;</l>
+       <l>Rob not the great prerogative of virtue,</l>
+       <l>The generous bosom knows no vain superior;</l>
+       <l>And pitied be the wretch, or king, or subject</l>
+       <l>Who at proud distance holds the heart he loves.</l>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>Thou hast subdu'd—I can conceal no more:</l>
+       <l>My humble station bade me long restrain</l>
+       <l>Affection for a prince, for Persia's king,</l>
+       <l>But now—</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Yes now receive,</l>
+       <l>Now deign to share my love, my life, my throne.</l>
+       <l>
+        <pb n="9" facs="19"/>
+Oh, witness heav'n the glowing exultation,</l>
+       <l>Witness the triumphs of this throbbing heart,</l>
+       <l>As thus it owns Almeida for a queen.</l>
+       <l>And yet my brother—</l>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>What of him, my lord?</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Oh, I have doubts—</l>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>Ha! doubts—have doubts my lord?</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>How shall I speak, Almeida, to thy softness?</l>
+       <l>How hope thy pardon for a tender fraud?</l>
+       <l>By some dire chance my brother knows our story,</l>
+       <l>And, as in jest, he tax'd me with concealment,</l>
+       <l>Desir'd to view a sister in Almeida.</l>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>Where was the fault in this, or where the danger?</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>At this, a sudden sickness seiz'd my heart;</l>
+       <l>'Twas plain I lov'd—he pierc'd the thin disguise,</l>
+       <l>Enjoy'd my pain, and triumph'd in discovery.</l>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>And what of that? Your feelings are too nice,</l>
+       <l>Too delicately fine to bear the shaft;</l>
+       <l>Which laughter ever levels at the lover,</l>
+       <l>Spirits less lively meet the mirth with smiles,</l>
+       <l>And wit's pert jest falls pointless to the ground.</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>How little dost thou know the soul of Almoran,</l>
+       <l>That even blazes at the view of beauty;</l>
+       <l>How wou'd he catch soft fury from this hand,</l>
+       <l>And drink large draughts of passion from those eyes?</l>
+       <l>And then—</l>
+      </sp>
+      <sp who="#almeida">
+       <pb n="10" facs="20"/>
+       <speaker>ALMEIDA.</speaker>
+       <l>What then, my lord?</l>
+       <l>Hast thou no credit in Almeida's faith?</l>
+       <l>Ungenerous prince! the heart that rules this bosom</l>
+       <l>Courts not the kingly crown, nor splendid sceptre.</l>
+       <l>Had'st thou been born the lowliest of the poor,</l>
+       <l>Still had I sought alliance with thy virtues,</l>
+       <l>Still had I scorn'd variety of lovers.</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>I know it all, dear maid; I know it all;</l>
+       <l>Yet, Almoran—</l>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>Can Almoran forget</l>
+       <l>The ties of nature, or the bonds of honour,</l>
+       <l>The dear domestic duties of the brother,</l>
+       <l>The awful virtues of the public station,</l>
+       <l>The law which binds the monarch to the man?</l>
+       <l>Or if he could, and this ill-fated form</l>
+       <l>Should chance to touch him with a transient passion,</l>
+       <l>What would avail the momentary liking?</l>
+       <l>Soon would his power o'erlook an humble maid,</l>
+       <l>And gladly leave her to the partial Hamet.</l>
+       <l>Or at the worst—should he pursue Almeida,</l>
+       <l>Firm in the pure resolves of virtuous love</l>
+       <l>Ev'n I, the subject daughter of Abdallah,</l>
+       <l>Bold in her virgin truth, would own her fondness,</l>
+       <l>Assert the native freedom of the heart,</l>
+       <l>Clasp her lov'd lord, and thus avow her passion.</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Oh, thou dear maid—once more receive my thanks;</l>
+       <stage>embracing.</stage>
+       <l>Receive a willing heart that doats to death!</l>
+       <l>Forgive the delicate alarms of love:</l>
+       <l>I have no doubts—my sickly fears are past,</l>
+       <l>I tread in aether and I breathe in heaven!</l>
+       <l>I am—oh, all ye Powers—I am most blest.</l>
+      </sp>
+      <sp who="#almeida">
+       <pb n="11" facs="21"/>
+       <speaker>ALMEIDA.</speaker>
+       <l>My lord, behold—</l>
+      </sp>
+      <stage>Seeing Almoran and Caled at a distance.</stage>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>'Tis Almoran with Caled—haste my love</l>
+       <l>And shield thy beauties from his dangerous gaze,</l>
+       <l>In this pavilion—Soon he will be gone,</l>
+       <l>Ah! quick retire, and e'er to-morrow's dawn</l>
+       <l>I will prepare—by heav'n they're here—away.</l>
+      </sp>
+      <stage>Hamet conducts Almeida into a pavilion.</stage>
+     </div>
+     <div n="4" type="scene">
+      <head>SCENE IV.</head>
+      <stage>ALMORAN, CALED.</stage>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>Yonder, my lord, he steals.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>But where the lady?</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>Dread sire, I see her not.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Didst thou not leave him with her?</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>Hypocrisy assist thy long tried favourite.</l>
+       <stage>aside.</stage>
+       <l>I left him lost in one soft dream of passion,</l>
+       <l>Invoking every power fantastical</l>
+       <l>To register his vows—then would he kneel,</l>
+       <l>Her lovely hand embathe with sigh-sick tears,</l>
+       <l>And earnest press it to his glowing bosom;</l>
+       <l>While she—</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Go on.</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>Repuls'd his freedom</l>
+       <l>With a sweet resistance—and in soft coyness</l>
+       <l>Sported with refusal.</l>
+      </sp>
+      <sp who="#almoran">
+       <pb n="12" facs="22"/>
+       <speaker>ALMORAN.</speaker>
+       <l>Spoke they of me,</l>
+       <l>Or ought suspects my brother I have seen her?</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED </speaker>
+       <stage>(looking.)</stage>
+       <l>Methought, my lord, I saw in yon pavillion</l>
+       <l>A female robe that—yes, by heav'n 'tis she.</l>
+       <stage>going up.</stage>
+       <l>Oh powers of heaven! behold, my lord, behold,</l>
+       <l>See where she walks—what majesty of mein?</l>
+       <stage>looking out.</stage>
+       <l>What native beauties in her artless air?</l>
+       <l>Soft as the first fair breeze that fans the spring.</l>
+       <l>What glories beam even from her downcast eye!</l>
+       <l>While her disorder wales a new-born charm</l>
+       <l>As the bloom ripens on her rosy lips!</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>At every glance more lovely than before;</l>
+       <l>Ne'er did each feature flame so full to view,</l>
+       <l>Caled, by heav'n her eye shot suns, out-blaz'd</l>
+       <l>That symbol of the God to which we bow.</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>Well may the happy Hamet wish to screen</l>
+       <l>The fair recluse from each obtrusive eye,</l>
+       <l>And hide her from an elder brother's gaze.</l>
+       <l>Ah! heav'n preserve the sultan of the world,</l>
+       <l>My sovereign labours with some secret sorrow;</l>
+       <l>Oh, that the slave could aught administer</l>
+       <l>To his imperial master!</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Ha! imperial</l>
+       <l>Said'st thou Caled? that I were imperial;</l>
+       <stage>aside.</stage>
+       <l>My pulses fever at the glorious thought.</l>
+       <l>Caled.</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>My lord.</l>
+      </sp>
+      <sp who="#almoran">
+       <pb n="13" facs="23"/>
+       <speaker>ALMORAN.</speaker>
+       <l>I will no more disguise—Caled—hither—</l>
+       <l>Yet nearer—lov'st thou thy sovereign master?</l>
+       <l>I know thou dost, I read it in thine eye,</l>
+       <l>I'll trust thee—thou shalt share a secret, Caled,</l>
+       <l>Denied to every vassal but thyself.</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>Great ruler of the East whose boundless sway—</l>
+       <stage>prostrates.</stage>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Rise and approach. Still closer and attend—</l>
+       <l>Thrice has the year renew'd the robes of spring,</l>
+       <l>Since from the circling crouds that guard the palace,</l>
+       <l>An undistinguish'd multitude of slaves,</l>
+       <l>Thee I mark'd out for favour, bade thee meet</l>
+       <l>The eye of Almoran without prostration,</l>
+       <l>And rank'd thee next to Osmyn.</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>Next to Osmyn.</l>
+       <stage>aside,</stage>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>In thy settled look</l>
+       <l>Firm and unaw'd, I saw the aspiring soul</l>
+       <l>That suited well the servant of a prince,</l>
+       <l>Soon to be more—At length my father died,</l>
+       <l>The throne I mounted—a divided throne.</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED </speaker>
+       <stage>(kneeling.)</stage>
+       <l>Essence of light and life, assist my prayer;</l>
+       <l>Angel of death, quick moulder in the dust</l>
+       <l>The officious Omar's bold and busy hand,</l>
+       <l>Which brought the will of Solyman to light,</l>
+       <l>And thus curtail'd the rights of Almoran.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Since that most wretched, most disgraceful moment,</l>
+       <l>Mark its return my soul—Since that curst hour.</l>
+       <l>No joy, no transport hath this bosom known;</l>
+       <l>Nor shall these watchful, waking eyes e'er close,</l>
+       <l>
+        <pb n="14" facs="24"/>
+E'er taste again the balmy bliss of sleep,</l>
+       <l>Till—</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>Every bar to empire, love, and glory,</l>
+       <l>And each dire obstacle be swept away.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Thy sovereign's soul is on thy lip—but how?</l>
+       <l>How <hi>compass</hi> these great ends?</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>Great ends require</l>
+       <l>Means well proportion'd, and such means</l>
+       <l>Are ever ready to the mind resolv'd.</l>
+       <l>Honest Ambition, in expedients fruitful,</l>
+       <l>Still crouds a thousand images at once</l>
+       <l>Upon the forming brain—the dart—the bowl,</l>
+       <l>The smiling banquet, and the midnight sabre.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>My boundless hopes are rushing to a point.</l>
+       <l>Declare thy purpose—Caled speak direct.</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>Direct then thus—My sover'ign wou'd be king,</l>
+       <l>Supreme, sole, undivided, fill the throne</l>
+       <l>Without a weak associate—be the fate</l>
+       <l>Of subject earth—The thought is great—and great</l>
+       <l>Must be the enterprize—nought less than—</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>What!</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>Death.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Said'st thou?</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>Murder.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Whose?</l>
+      </sp>
+      <sp who="#caled">
+       <pb n="15" facs="25"/>
+       <speaker>CALED.</speaker>
+       <l>What need of names? but still to be direct,</l>
+       <l>The man that thwarts thee in the road to glory,</l>
+       <l>That stops thee midway in the bright career,</l>
+       <l>And intercepts thy radiance—</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Ha! my brother!</l>
+       <l>Murder! my very heart turns from it. No,</l>
+       <l>One mother gave us being. We were twins.</l>
+       <l>The bloomy days of youth were pass'd together;</l>
+       <l>He ever lov'd me, made this breast his pillow,</l>
+       <l>And wept upon it all his little sorrows;</l>
+       <l>Long, long ere love or mad ambition</l>
+       <l>The rosy bonds of Nature broke and made</l>
+       <l>Us rivals—And shall I murder Hamet?</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>Empire and love shall consecrate the deed,</l>
+       <l>But I have err'd, and will offend no more,</l>
+       <l>Hamet loves rule, and therefore <hi>shares the throne,</hi>
+       </l>
+       <l>If Omar aids, perhaps shall <hi>more</hi> than share it.</l>
+       <l>Perhaps the wily sage—</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Audacious traitor!</l>
+       <l>Think'st thou the feeble dotard e'er will <hi>dare</hi>—</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>The snake, my lord, that twists around the feet,</l>
+       <l>With bold aspiring crest at length may tow'r</l>
+       <l>Ev'n to the seat of life.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>First will I seize</l>
+       <l>With arm indignant its impoison'd throat,</l>
+       <l>Dash the fell viper instant to the earth,</l>
+       <l>And see it writhe its life out in the dust.</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>The happy younger king too, runs before</l>
+       <l>
+        <pb n="16" facs="26"/>
+Ev'n in the race of love: auspicious still</l>
+       <l>The fair Circassian melts before he sighs;</l>
+       <l>Soon shall the Persian throne confess a <hi>queen;</hi>
+       </l>
+       <l>Again the mangled crown shall know division,</l>
+       <l>And a fair third of empire yield to her,</l>
+       <l>To Hamet's beauteous wife, divine Almeida.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Hold, Caled, hold—shall Almoran then stoop</l>
+       <l>To see his rich inheritance thus torn,</l>
+       <l>Thus ravish'd, plunder'd by each bold usurper,</l>
+       <l>And made the prey of vassals, boys, and women!</l>
+       <l>Caled, dispatch—concert the great design—</l>
+       <l>Quick let's be gone—I sicken at delay;</l>
+       <l>Love, empire, and ambition, drive me on;</l>
+       <l>Methinks already I redeem the sceptre,</l>
+       <l>And o'er th' obedient world triumphant wave it.</l>
+       <l>The awful name of Almoran alone</l>
+       <l>Floats on the faithful gale—from shore to shore</l>
+       <l>The undiminish'd homage spreads around,</l>
+       <l>And my defrauded world's at length restor'd.</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>Oh, glorious emulation—By yon heaven</l>
+       <l>I light ambition at my master's blaze!</l>
+       <l>The soul of Caled catches fire from his;</l>
+       <l>I rise, I tow'r to do some noble deed</l>
+       <l>That the imperial Almoran shall fix,</l>
+       <l>Secure, uncrouded on his rightful throne.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Then take a rich reward—thy king's embrace.</l>
+       <l>But oh, this languid pause! I pine, I die,</l>
+       <l>'Till from that boy's encircled brow I seize</l>
+       <l>My sullied diadem, and place it here.</l>
+       <l>Oh, how my soul exults in the idea;</l>
+       <l>Then shall I revel in Almeida's beauties;</l>
+       <l>Then each high bliss by turns shall know and prove</l>
+       <l>The fate and fortune of our Eastern world.</l>
+      </sp>
+      <stage>Exeunt.</stage>
+     </div>
+     <trailer>END OF ACT THE FIRST.</trailer>
+    </div>
+    <div n="2" type="act">
+     <pb n="17" facs="27"/>
+     <head>ACT II.</head>
+     <div n="1" type="scene">
+      <head>SCENE I.</head>
+      <stage>A VIEW OF THE TOMBS OF THE KINGS OF PERSIA, CUT OUT OF THE ROCKS, AND A PROSPECT OF A VENERABLE MOSQUE. THE WHOLE AWFULLY MAGNIFICENT. HAMET, OMAR.</stage>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>THOU good old man—Thou full of days and honour,</l>
+       <l>Guide of my youth, and glory of my crown,</l>
+       <l>My bosom labours with a friend's impatience</l>
+       <l>As now I lead thee to these sacred seats—</l>
+       <l>These awful sepulchres, where Persia's kings,</l>
+       <l>My ancestors, repose in solemn silence—</l>
+       <l>Oh, my heart throbs till I have told thee all.</l>
+      </sp>
+      <sp who="#omar">
+       <speaker>OMAR.</speaker>
+       <l>My prince, my child! I praise thy tender zeal,</l>
+       <l>And though oppressive time upon this head</l>
+       <l>Hath heavy snow'd full many a winters whiteness,</l>
+       <l>Yet once this heart—the memory still is dear—</l>
+       <l>Felt a fond passion, pure and warm as thine.</l>
+       <l>To all that rateth high a virgin's worth,</l>
+       <l>Sense, beauty, soul, long since was Omar wed.</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>If thou hast lov'd, with unfatigued ear,</l>
+       <l>Thou wilt allow the sweet prolixity,</l>
+       <l>Love's soft delay, and tender repetition.</l>
+       <l>"But, oh! by what sad stroke of cruel fortune</l>
+       <l>"Fell from thy reverend arms this dearest treasure?"</l>
+      </sp>
+      <sp who="#omar">
+       <speaker>OMAR.</speaker>
+       <l>"Full forty years Olmana to this bosom</l>
+       <l>"Minister'd every balm of virtuous softness.</l>
+       <l>
+        <pb n="18" facs="28"/>
+"Passion from reason caught the wish compos'd,</l>
+       <l>"The hope obedient, and the steady purpose,</l>
+       <l>"A life devote to nature and to Heaven.</l>
+       <l>"At length it pleas'd the gods to take her from me,</l>
+       <l>"And pluck this pillow from my aged head;</l>
+       <l>"Her death was sudden, but her life prepar'd.</l>
+       <l>"In my first widow'd days I felt as man;</l>
+       <l>"At length her sacred spirit seem'd to chide,</l>
+       <l>"And whisper'd that it only went before</l>
+       <l>"To intercede the Merciful for mine.</l>
+       <l>"I left her with the gods, and wept no more."</l>
+       <l>But come, what says Almeida?</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>How her name</l>
+       <l>Like sudden sun-beams darting thro' a cloud,</l>
+       <l>Lights up an instant joy in Hamet's bosom.</l>
+       <l>Oh, had'st thou seen her all dissolv'd in passion—</l>
+       <l>Passion, tho' yielding, modestly chastis'd,</l>
+       <l>"And shaded by a delicate reserve,</l>
+       <l>"Only to look more lovely thro' the veil"—</l>
+       <l>Had'st thou but seen her, eloquently dumb,</l>
+       <l>Sink in her father's arms, confess her softness</l>
+       <l>In all the sweet disorders of the heart,</l>
+       <l>Then blush, and sigh, and even weep for words!—</l>
+      </sp>
+      <sp who="#omar">
+       <speaker>OMAR.</speaker>
+       <l>When does Abdallah's daughter then consent.—</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Hear it, ye favouring heav'ns, and every breeze,</l>
+       <l>Bear on your viewless wings the tender tidings,</l>
+       <l>I shall to-morrow claim—</l>
+      </sp>
+      <sp who="#omar">
+       <speaker>OMAR.</speaker>
+       <l>To-morrow!</l>
+       <l>Knows royal Almoran this sudden purpose?</l>
+      </sp>
+      <sp who="#hamet">
+       <pb n="19" facs="29"/>
+       <speaker>HAMET.</speaker>
+       <l>Ah Omar thou hast sprinkled drops of ice</l>
+       <l>Cold on my heart, to freeze the flame of love.</l>
+       <l>Not all the jealous vigilance of fondness;</l>
+       <l>Not the still waking eyes of faithful Ali</l>
+       <l>Can foil the felon arts of wily Caled.</l>
+       <l>Almoran again hath seen her, friend—and much,</l>
+       <l>Still much I fear lest—</l>
+      </sp>
+      <sp who="#omar">
+       <speaker>OMAR.</speaker>
+       <l>Oh, forbear;</l>
+       <l>Wear not a doubtful eye upon a brother,</l>
+       <l>Nor let suspicion fear thy generous heart.</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Heaven knows my fondness; knows the generous love,</l>
+       <l>"Respect sincere, and tenderness I bear him,</l>
+       <l>"And the soft shade I cast o'er all his failings;"</l>
+       <l>Dear is my brother to this faithful heart,</l>
+       <l>As the warm tide that constant flows to feed it.</l>
+      </sp>
+      <sp who="#omar">
+       <speaker>OMAR.</speaker>
+       <l>The sainted Solyman thou know'st decreed,</l>
+       <l>That ye should wear his yet unblemish'd crown</l>
+       <l>In amity together, wield his sceptre</l>
+       <l>As brothers and as friends.—Unite to bless,</l>
+       <l>By a well-order'd government, the land;</l>
+       <l>The smiling arts of peace diffuse around,</l>
+       <l>Or give—where patriot virtue points the cause</l>
+       <l>To be the cause of heav'n—fresh nerves to war;</l>
+       <l>O'er the wide wave to spread the advent'rous sail,</l>
+       <l>Lift modest genius from the lowly vale,</l>
+       <l>And bid it blossom in a warmer soil,</l>
+       <l>More near its native skies.—</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Dear, parent sage,</l>
+       <l>Deep are thy counsels 'grav'd upon this heart.</l>
+      </sp>
+      <sp who="#omar">
+       <pb n="20" facs="30"/>
+       <speaker>OMAR.</speaker>
+       <l>Yet spare a moment to the voice of truth,</l>
+       <l>Even from the hour of panting <hi>softness</hi> spare it.</l>
+       <l>Oh ne'er forget, thou noble youth, 'tis <hi>thine</hi>
+       </l>
+       <l>To taste with Almoran the bliss supreme</l>
+       <l>That flows from all the <hi>great,</hi> the <hi>glorious</hi> virtues,</l>
+       <l>Worthy of kings, on kings alone conferr'd;</l>
+       <l>Pity that softens justice; merit, guarded</l>
+       <l>From bolder arrogance, e'en by the shield,</l>
+       <l>The temper'd shield of royalty itself.</l>
+       <l>"Blessings <hi>deriv'd</hi> from blessings well <hi>bestow'd,</hi>
+       </l>
+       <l>"Delights like these—oh, may they long be thine,</l>
+       <l>"Grow greater by division." Yet remember</l>
+       <l>If e'er thou'rt tempted—which the gods forbid—</l>
+       <l>Should'st thou, as faction or as favour urges;</l>
+       <l>Should private passions, or domestick broils,</l>
+       <l>Frauds of the state, or follies of the palace,</l>
+       <l>A mistress or a minister, e'er lead</l>
+       <l>Thine eye, thy hand, thy <hi>heart</hi> from what thou ow'st,</l>
+       <l>From what the laws, the land, the people claim—</l>
+       <l>Claim as a <hi>duty</hi> from the prince they serve,</l>
+       <l>Not Persia's utmost pomp combin'd to soothe thee,</l>
+       <l>"Not all the graces of the lov'd Almeida,</l>
+       <l>"Nor yet the princely pledges of her faith</l>
+       <l>"Climbing thy knee and blooming round thy board,</l>
+       <l>"Not ev'n the husband's pride, the father's transport,"</l>
+       <l>Can snatch thee from the <hi>shame</hi> reserv'd for <hi>him,</hi>
+       </l>
+       <l>Who, base and lawless, <hi>wantons with his power,</hi>
+       </l>
+       <l>"Covers with blood his violated country,</l>
+       <l>"To an ensanguin'd <hi>sabre</hi> turns his sceptre,</l>
+       <l>And more than traitor <hi>desolates the empire.</hi>
+       </l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Oh, never, never may this breast, which throbs</l>
+       <l>With all a patriot's, all a <hi>parent's</hi> ardour,</l>
+       <l>To serve the weal of Persia, feel a curse</l>
+       <l>So charg'd with anguish, or so full of horrour!</l>
+       <l>
+        <pb n="21" facs="31"/>
+With my lov'd subjects teach me, gods, to share</l>
+       <l>The plenteous glories of this fertile land,</l>
+       <l>While royal Almoran partakes the joy,</l>
+       <l>And late posterity attests our virtue!</l>
+       <l>Now, then, my friend, I must require thy aid.</l>
+      </sp>
+      <sp who="#omar">
+       <speaker>OMAR.</speaker>
+       <l>What would my gracious prince?</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Engage</l>
+       <l>His second father in an instant office</l>
+       <l>Of tender import—This letter—take it Omar.</l>
+       <l>Why trembles thus my foolish hand to give it?</l>
+       <l>'Tis to my brother, and contains—oh heav'ns!</l>
+      </sp>
+      <sp who="#omar">
+       <speaker>OMAR.</speaker>
+       <l>"The tidings of to-morrow. This perchance—</l>
+       <l>"'Tis dangerous; <stage>[aside]</stage> soft—is there no other way?</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>"Why pauses Omar?</l>
+       <l>"Why deeply bent to earth his thoughtful eye?</l>
+      </sp>
+      <sp who="#omar">
+       <speaker>OMAR.</speaker>
+       <l>"Thy love hath spoke, I doubt not, <hi>brotherly.</hi>
+       </l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>"Omar, my heart was in it. Take it then,</l>
+       <l>"O take it, friend! There, in that little space</l>
+       <l>Are all my future hopes and fears inscribed;</l>
+       <l>It is the history of a <hi>brother's love,</hi>
+       </l>
+       <l>Writ to a <hi>brother's</hi> friendship—Yes, my Omar,</l>
+       <l>This is the hour which Almoran devotes</l>
+       <l>To private kindness, and unburthen'd freedom:</l>
+       <l>Upon his sacred moments <hi>thou</hi> hast claim;</l>
+       <l>And who so fit as <hi>thee</hi> to grace a message</l>
+       <l>Where Hamet's happiness so closes, centres?</l>
+      </sp>
+      <sp who="#omar">
+       <speaker>OMAR.</speaker>
+       <l>Dear to this feeble bosom are ye both;</l>
+       <l>I honour, love, respect—do all but fear you.</l>
+       <l>The man we dread was never truly lov'd.</l>
+      </sp>
+      <sp who="#hamet">
+       <pb n="22" facs="32"/>
+       <speaker>HAMET.</speaker>
+       <l>Delay no Ionger then—oh think a little,</l>
+       <l>Something allow to ardent love's impatience;</l>
+       <l>No rest shall Hamet know till thy return,</l>
+       <l>But trembling, anxious, wait thy coming, Omar.—</l>
+       <l>In the bless'd grove that shades Almeida's chamber,</l>
+       <l>There will I kneel, there awful bend to heaven,</l>
+       <l>That all our wishes may be crown'd in peace.</l>
+      </sp>
+      <stage>
+       <hi>Exit</hi> HAMET.</stage>
+      <sp who="#omar">
+       <speaker>OMAR</speaker>
+       <stage>alone.</stage>
+       <l>I would not check his joys too far; and yet</l>
+       <l>Too plain, alas, these aged eyes can see</l>
+       <l>A train of mischiefs gathering round our heads.</l>
+       <l>This letter notes the hour, when to the mosque</l>
+       <l>Hamet conducts his Fair Circassian bride.</l>
+       <l>Ye mighty Powers, who rule the royal soul,</l>
+       <l>And touch the master chords that sway our nature,</l>
+       <l>Let kindred kindness save my kings from discord,</l>
+       <l>Preserve the <hi>publick welfare, private quiet;</hi>
+       </l>
+       <l>And these old eyes shall pour their thanks in tears.</l>
+      </sp>
+      <stage>Exit.</stage>
+     </div>
+     <div n="2" type="scene">
+      <head>SCENE II.</head>
+      <stage>A MAGNIFICENT APARTMENT IN THE PALACE. ALMORAN, OSMYN.</stage>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Osmyn, thy conduct hath been ever humble,</l>
+       <l>Wary, and watchful. Now the time is ripe</l>
+       <l>To note thy subject services more amply;</l>
+       <l>Caled, thou know'st, is our obedient slave,</l>
+       <l>Thy <hi>present</hi> post of honour shall be <hi>his,</hi>
+       </l>
+       <l>And thou to larger dignities arise;</l>
+       <l>'Tis Almoran that lists thee from the dust.</l>
+      </sp>
+      <sp who="#osmyn">
+       <pb n="24" facs="33"/>
+       <speaker>OSMYN.</speaker>
+       <l>Dread king, and father of the eastern world,</l>
+       <l>Thy sacred purpose ever in my view</l>
+       <l>Bounds all the hopes of thy observant Osmyn;</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <stage>aside.</stage>
+       <l>This is another Caled at the core;</l>
+       <l>Long have I marked his hypocritick look,</l>
+       <l>Disguising falsehood in the fraudful smile:</l>
+       <l>'Twere not amiss to make the slave secure.</l>
+       <l>Osmyn.—</l>
+      </sp>
+      <sp who="#osmyn">
+       <speaker>OSMYN.</speaker>
+       <l>Yonder, my lord, with sober step</l>
+       <l>Old Omar, that sage pillar of the state,</l>
+       <l>Comes slowly onward—venerably sweet</l>
+       <l>His reverend aspect.—</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN</speaker>
+       <stage>(pausing.)</stage>
+       <l>Haply <hi>that</hi> were well.</l>
+       <l>Osmyn!</l>
+      </sp>
+      <sp who="#osmyn">
+       <speaker>OSMYN.</speaker>
+       <l>Imperial sultan.</l>
+      </sp>
+      <stage>bows.</stage>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>The important office of a <hi>minister</hi>
+       </l>
+       <l>Might suit <hi>thy</hi> vigorous years and mind <hi>mature,</hi>
+       </l>
+       <l>That feeble pillar soon must fall. Of this</l>
+       <l>Anon.—Ere night her sable wing shall spread</l>
+       <l>O'er day's fair bosom, see that thou attend,</l>
+       <l>Just where the clust'ring citrons form a shade</l>
+       <l>Near to our chief seraglio, there I'll meet thee.</l>
+       <l>Go. Thou wilt remember and obey.</l>
+       <stage>
+        <hi>Exit</hi> OSMYN.</stage>
+       <l>I wou'd not rashly lose a sabre, when</l>
+       <l>Haply, I may want to try its temper.</l>
+       <stage>aside.</stage>
+       <l>My curses on this dotard. Caled, now</l>
+       <l>Shall Almoran take heed t' observe thy counsel;</l>
+       <l>A <hi>smile</hi>—Yes, smiles are well till all be <hi>sure;</hi>
+       </l>
+       <l>And yet my soul disdains the narrow art</l>
+       <l>Of seeming that <hi>I am not.</hi> But he comes;</l>
+       <l>Take me hypocrisy, awhile I'm thine.</l>
+       <stage>
+        <pb n="24" facs="34"/>
+        <hi>Enter</hi> OMAR <hi>(offers to kneel.)</hi>
+       </stage>
+       <l>Thou shalt not bend. The venerable knee</l>
+       <l>Grown feeble in the service of the state</l>
+       <l>Should only bow to heaven. Thy silver locks,</l>
+       <l>Those sacred signals of the experienc'd mind,</l>
+       <l>Command the reverence of the kings they honour;</l>
+       <l>Ev'n <hi>Almoran</hi> respects them. O the falsehood,</l>
+       <stage>aside.</stage>
+       <l>Shame on my abject tongue for thus dissembling.</l>
+      </sp>
+      <sp who="#omar">
+       <speaker>OMAR.</speaker>
+       <l>My fears were surely wrong. <stage>[aside]</stage> O gracious king,</l>
+       <l>This old fond bosom feels a <hi>father</hi>'s joy</l>
+       <l>Thus to be welcom'd by the prince he loves.</l>
+       <l>Ev'n in the tenderest hours of earliest life,</l>
+       <l>Thy mother sent her little pride to <hi>Omar,</hi>
+       </l>
+       <l>And ere thy tongue began to lisp its purpose,</l>
+       <l>The name of Omar first employ'd its efforts;</l>
+       <l>Then, as a presage of thy future friendship—</l>
+       <l>Oh! be it heav'n prophetic—thou didst throw</l>
+       <l>Thy infant arms around my neck—there clung'st</l>
+       <l>As if thou lov'dst the soft repose I gave thee;</l>
+       <l>My bosom throbb'd as if thou wert mine own;</l>
+       <l>Upon this breast sweet sleep did visit thee;</l>
+       <l>It was thy <hi>cradle,</hi> and thou oft hast blest it.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Thou worthy sage! Nor in maturer manhood,</l>
+       <l>Lord as I am of half the subject world,</l>
+       <l>Am I less tender of the faithful Omar,</l>
+       <l>The sense, the <hi>soul</hi> of Persia's blooming empire.</l>
+      </sp>
+      <sp who="#omar">
+       <speaker>OMAR.</speaker>
+       <l>The mighty Solyman, as sick he lay,</l>
+       <l>Upon his last, last bed, <hi>bequeath'd</hi> you to me,</l>
+       <l>Gave Almoran and Hamet to my care;</l>
+       <l>He press'd me as I promis'd, smil'd, and died:</l>
+       <l>And far, dear youth, beyond the glowing gold</l>
+       <l>Which grows beneath the wealthy breast of earth,</l>
+       <l>I prize the royal legacy—O sire</l>
+       <l>
+        <pb n="25" facs="35"/>
+Forgive me—I am old, and age is tedious;</l>
+       <l>But 'tis the heart offends, and thou wilt pardon.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN </speaker>
+       <stage>(aside)</stage>
+       <l>Again he teaches me to be sincere;</l>
+       <l>Nature's all-conquering language from his lip</l>
+       <l>Flows on the heart with meek serenity;</l>
+       <l>He cannot be ambitious—Caled wrongs him.</l>
+       <l>What welcome message of fraternal love <stage>advancing.</stage>
+       </l>
+       <l>Brings Omar from his Hamet—Ha! a letter.</l>
+       <l>May its contents be happy!—</l>
+      </sp>
+      <sp who="#omar">
+       <speaker>OMAR </speaker>
+       <stage>(aside.)</stage>
+       <l>His motion is disturb'd—'Twere best withdraw</l>
+       <l>A moment—I wait, my lord, your <hi>sacred</hi> leisure.</l>
+       <stage>Bows and retires, Almoran not marking him.</stage>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Hell to my hopes, and horrors to my heart!</l>
+       <l>Wed her! so soon! to-morrow! wed Almeida!</l>
+       <l>Oh, dire confusion—some protecting <hi>God</hi>
+       </l>
+       <l>Descend, descend to ward the fatal blow;</l>
+       <l>May rolling thunders, <hi>light'nings</hi> intercept it!</l>
+       <l>But curse on invocation, what avails it?</l>
+       <l>Even while I supplicate the hour draws nigh,</l>
+       <l>The <hi>fatal</hi> hour that is to crush my hopes,</l>
+       <l>As I this murd'rous scroll—away with prayer;</l>
+       <l>The tardy striking gods deny their succour.</l>
+       <l>What must be done? Ye powers of darkness rise!</l>
+       <l>Spirits infernal leave your flaming beds—</l>
+      </sp>
+      <stage>Omar re-enters suddenly.</stage>
+      <sp who="#omar">
+       <speaker>OMAR.</speaker>
+       <l>My lord.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Ha! dotard, traitor, trembling hoary traitor,</l>
+       <l>Dare not to think I wish it were conceal'd;</l>
+       <l>My rage, my grief, my ruin—Dotard, no!</l>
+       <l>Tho' thou hast stol'n the secret from my lips,</l>
+       <l>The soul of Almoran by fear unaw'd</l>
+       <l>
+        <pb n="26" facs="36"/>
+Smiles on thy powerless perfidy.—The world,</l>
+       <l>The vassal universe, is mine—Away—</l>
+       <l>Begone with life—I give it thee—I scorn</l>
+       <l>To <hi>stain</hi> my arm, but leave thee thus despis'd.</l>
+       <stage>Going, Omar catches his robe and kneels.</stage>
+      </sp>
+      <sp who="#omar">
+       <speaker>OMAR.</speaker>
+       <l>Bow'd as I am already to the earth</l>
+       <l>By time's oppressive hand—with all the weight</l>
+       <l>Of fourscore winters on my aged head,</l>
+       <l>I fall still lower, with submission fall,</l>
+       <l>To clasp these sacred knees and beg an audience.</l>
+       <l>Ah, dear, unhappy prince, repress these starts;</l>
+       <l>Subdue the unmanly rage that checks thy virtue;</l>
+       <l>Conquer thy sury, and resume the king.</l>
+       <l>There is no cause, my soul disdains to listen,</l>
+       <l>Affection brought me back.—</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>And what art thou,</l>
+       <l>That Almoran should care, or clear, or guilty?</l>
+      </sp>
+      <sp who="#omar">
+       <speaker>OMAR </speaker>
+       <stage>(rises.)</stage>
+       <l>
+        <hi>And what am I?</hi> A long-try'd faithful subject;</l>
+       <l>A man who honours and a friend who loves thee.</l>
+       <l>If these white hairs, grown silver in thy service;</l>
+       <l>If age, if truth, no kind attentions warrant,</l>
+       <l>Still Omar's duty dictates to his tongue.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Hah!</l>
+      </sp>
+      <sp who="#omar">
+       <speaker>OMAR.</speaker>
+       <l>The pride of health now blooms upon thy cheek,</l>
+       <l>High bounds each fervid pulse with vigorous life;</l>
+       <l>Unbounded power, unbounded wealth are thine;</l>
+       <l>Beauty has thrown her manly graces round thee,</l>
+       <l>And lavish nature hath done all she can:</l>
+       <l>Yet misery and grief, and rage unseemly</l>
+       <l>Blot every blessing, wither every joy,</l>
+       <l>"Rob of its radiance thy imperial crown,</l>
+       <l>
+        <pb n="27" facs="37"/>
+"From the soft pillow rudely tear repose,"</l>
+       <l>And make thee, Almoran, supremely wretched.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>"And if I were; thou like a meddling fool,</l>
+       <l>"Like the dark raven on the blasted branch,</l>
+       <l>"Art come officiously to croak despair,</l>
+       <l>"And spread more gloom upon the troubled mind:</l>
+       <l>"I thank thee for't.—</l>
+      </sp>
+      <sp who="#omar">
+       <speaker>OMAR.</speaker>
+       <l>Heav'n knows thou dost me wrong.</l>
+       <l>"That heav'n can tell, I pity, love, revere thee.</l>
+       <l>"My very heart now bleeds to see the prince;</l>
+       <l>"To see the youth, who, from the prattling hour</l>
+       <l>"Of unoffending infancy, these eyes</l>
+       <l>"Have view'd with all the fondness of a father,</l>
+       <l>"Thus sink to earth, <hi>the victim of the passions.</hi>
+       </l>
+       <l>"But oh! th' abode of bliss is still before thee;</l>
+       <l>"The flow'rs of peace, and joy, and soft content,</l>
+       <l>"Smile beautiful around—plain lies the path,</l>
+       <l>"Nor is it difficult to keep the track,</l>
+       <l>"Mark'd by the cherub hand of truth to man,</l>
+       <l>"Pursue it—oh, pursue it, and be happy."</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Dost thou presume with a bold pedant's tongue</l>
+       <l>To school the son of Solyman—thy master?</l>
+       <l>Bold monitor, I am my own adviser;</l>
+       <l>Think, speak, act, dictate, only for myself,</l>
+       <l>Nor will I brook a vassal's interuption.</l>
+      </sp>
+      <sp who="#omar">
+       <speaker>OMAR.</speaker>
+       <l>Ev'n Solyman himself, thou cruel prince,</l>
+       <l>That scepter'd saint, who from the King of Kings</l>
+       <l>Now takes the crown of virtue—He disdain'd not</l>
+       <l>To catch instruction from the voice of Omar;</l>
+       <l>Nor did he weigh in pride's too partial balance</l>
+       <l>The station or <hi>descent</hi> of usesul wisdom.</l>
+       <l>
+        <pb n="28" facs="38"/>
+But this avails not: Tho' my lord thou scorn'st</l>
+       <l>The honest cautions of my zeal to serve thee,</l>
+       <l>I must not see thee—for thy sire is dead;</l>
+       <l>The oath I gave is with him in the skies,</l>
+       <l>And all the parent sits upon this bosom—</l>
+       <l>I will not see thee rush on <hi>shame</hi> and <hi>ruin.</hi>
+       </l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Ha! traitor, dar'st thou—</l>
+      </sp>
+      <sp who="#omar">
+       <speaker>OMAR.</speaker>
+       <l>In a cause like this,</l>
+       <l>Tho' death stood ready with the bloody bowstring,</l>
+       <l>Omar dare shew the firmness of his virtue:</l>
+       <l>Nay, if his duty urges, dare do more.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>What more, insulting minister, what more?</l>
+      </sp>
+      <sp who="#omar">
+       <speaker>OMAR.</speaker>
+       <l>Unaw'd, undaunted, like a faithful subject—</l>
+       <l>Dare, unappall'd, tell Almoran he's guilty—</l>
+       <l>Tell him—whene'er he deviates into vice,</l>
+       <l>Presumes that kings are left to range at large</l>
+       <l>O'er the heaven-guarded property of others,</l>
+       <l>And trespass on the sovereign rights of man;</l>
+       <l>Or yield to passions that debase his station,</l>
+       <l>Kindle intestine slames, embroil the state—</l>
+       <l>Then tell him that he merits well the scorn</l>
+       <l>Of every loyal heart—A king no more—</l>
+       <l>
+        <hi>A king,</hi> the public father, born to bless,</l>
+       <l>And court the smiles of all his subject children.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Loquacious babbler—cease thy rude upbraidings,</l>
+       <l>Lest I be tempted to destroy the web</l>
+       <l>Wove with such waste of toil—Away thou fool:</l>
+       <l>Go school thy Hamet—we disdain prescription.</l>
+      </sp>
+      <sp who="#omar">
+       <speaker>OMAR.</speaker>
+       <l>My duty is discharg'd and I have done.</l>
+       <l>Farewell—There is an hour on wing—Oh heavens!</l>
+       <l>
+        <pb n="29" facs="39"/>
+I tremble for thee—Prince, there is an hour</l>
+       <l>That will, alas, when thou art all unfriended,</l>
+       <l>When the proud monarch, like the slave he spurns,</l>
+       <l>Shall drop the lofty eye, the sultan's crest,</l>
+       <l>"And fell disease unsmoothe the chearless pillow,"</l>
+       <l>Thunder conviction on thee—Oh, expect it—</l>
+       <l>'Tis terrible—a pang without a name—</l>
+       <l>To meet it unawares or unprepared.</l>
+      </sp>
+      <stage>Exit.</stage>
+      <sp who="#almoran">
+       <speaker>ALMORAN </speaker>
+       <stage>(alone, greatly agitated.)</stage>
+       <l>Thunder conviction!</l>
+       <l>—Curse upon the slave,</l>
+       <l>He starts a thought that quite disarms my soul.</l>
+       <l>—But wherefore pause I thus, the fool of fancy?</l>
+       <l>Grey steals the dawn upon me, and to-morrow,</l>
+       <l>That mountain to my hopes, is near at hand,</l>
+       <l>Veil'd only by the transient shades of night.</l>
+       <l>Hamet, Almeida, Omar, all oppose me:</l>
+       <l>No more delays—the measures must be swift.</l>
+       <stage>
+        <hi>Enter</hi> CALED. <hi>(Hastily)</hi>
+       </stage>
+       <l>Again! Audacious villain die.—Ha, Caled!</l>
+      </sp>
+      <stage>Almoran draws a sabre,</stage>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>How! sovereign of the world, have I offended?</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Rise, Caled, rise: I thought thee that vile Omar—</l>
+       <l>Wherefore this haste?</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>Passing the western gate</l>
+       <l>That opens on the eye the gliding barks,</l>
+       <l>I saw but now the lovers arm in arm</l>
+       <l>Pursue the tender walk, and sighing say</l>
+       <l>To-morrow—oh! to-morrow.—</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>I've heard it all,</l>
+       <l>That Omar brought the tidings, fretted, <hi>chid</hi> me;</l>
+       <l>
+        <pb n="30" facs="40"/>
+Prated cold maxims to my burning rage,</l>
+       <l>And tho' he saw my very soul disorder'd</l>
+       <l>Persisted still to <hi>preach</hi> me into patience:</l>
+       <l>At length the pent-up tempest tore its way</l>
+       <l>Thro' this indignant bosom, and all wild</l>
+       <l>With anguish and despair, I spurn'd him from me.</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>Short is the time my lord—If instant acts]</l>
+       <l>Prevent not the solemnity, all's foil'd.</l>
+       <l>What may be done?</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Be quick then, tardy thinker,</l>
+       <l>Dispatch, determine, execute at once:</l>
+       <l>And let a moment do the work of ages.</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>Suspecting somewhat of love's forward zeal,</l>
+       <l>And from the faithful Ali gathering more,</l>
+       <l>I am not wholly unprepar'd, my lord;</l>
+       <l>Ali, 'tis true, is somewhat stubborn, thoughtful,</l>
+       <l>Of temper oft resisting; but a priest, my lord,</l>
+       <l>Open to great aspirings, wary, plausible:</l>
+       <l>We have conferr'd of late.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Ha! light breaks in upon me.</l>
+       <l>I have it all—Haste, Caled, then to Ali,</l>
+       <l>The night is far advanced—the time most precious.</l>
+       <l>Lose not a moment to bring Ali with thee,</l>
+       <l>Ev'n to my secret chamber thou conduct him:</l>
+       <l>The blow we have to strike shall—but away—</l>
+       <l>'Tis unexpected thunder stuns us most,</l>
+       <l>And terror doubles when the flash is sudden—</l>
+       <l>Let Osmyn too be summon'd; all combine—</l>
+       <l>Sure of immortal honour—to defend</l>
+       <l>The throne, the heart of the insulted Almoran.</l>
+      </sp>
+     </div>
+     <trailer>END OF ACT THE SECOND.</trailer>
+    </div>
+    <div n="3" type="act">
+     <pb n="31" facs="41"/>
+     <head>ACT III.</head>
+     <div n="1" type="scene">
+      <head>SCENE I.</head>
+      <stage>AN APARTMENT IN HAMET'S PALACE.</stage>
+      <sp who="#omar">
+       <speaker>OMAR.</speaker>
+       <l>A Change so sudden—every tumult hush'd—</l>
+       <l>So wild an hurricane blown o'er already?</l>
+       <l>'Tis most suspicious, and I yet have doubts.</l>
+       <l>Perhaps some plan of deep drawn policy—</l>
+       <l>Perhaps—but hither speeds the younger king:</l>
+       <l>He comes with all the lover in his step,</l>
+       <l>And the fond bridegroom beaming from his eye:</l>
+       <stage>(looking out)</stage>
+       <l>O blessed state of unsuspecting youth,</l>
+       <l>Gay, worthy, ardent, generous, and warm,</l>
+       <l>'Tis barbarous to destroy thy gilded dreams</l>
+       <l>And wake thee to the cunning turns of life.</l>
+      </sp>
+     </div>
+     <div n="2" type="scene">
+      <head>SCENE II.</head>
+      <stage>HAMET, OMAR.</stage>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>My reverend father, guardian ever dear,</l>
+       <l>My spirit could not rest till it had found thee.</l>
+       <l>I left thee late with gloom upon thy brow,</l>
+       <l>And all unevenly thy accents fell,</l>
+       <l>As if contention 'twixt thy heart and tongue</l>
+       <l>Wag'd war severe.</l>
+      </sp>
+      <sp who="#omar">
+       <speaker>OMAR.</speaker>
+       <l>It was but fancy;</l>
+       <l>The eye of friendship magnifies each trifle.</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>If 'twas but fancy, wherefore droop'st thou now?</l>
+       <l>What may this mean, my friend?</l>
+      </sp>
+      <sp who="#omar">
+       <pb n="32" facs="42"/>
+       <speaker>OMAR.</speaker>
+       <l>Regard it not;</l>
+       <l>Age is uncertain, weak, and full of starts;</l>
+       <l>Precarious life then hangs but by an hair,</l>
+       <l>And a babe's breath will shake it—</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Haply, still</l>
+       <l>Thou art with Almoran displeas'd—Forgive him!</l>
+       <l>The letter brought by Osmyn might excuse</l>
+       <l>His warmth. 'Twas to invite my Omar's pardon;</l>
+       <l>What could my brother more? We all are men:</l>
+       <l>Error confess'd, is, to a noble mind,</l>
+       <l>Error's atonement. Heav'n requires no more!</l>
+      </sp>
+      <sp who="#omar">
+       <speaker>OMAR.</speaker>
+       <l>If I am sad, thou hast not guess'd the cause.</l>
+       <l>Power's vain parade, and Passion's rudest burst,</l>
+       <l>Fall unregarded on this aged bosom;</l>
+       <l>And all their force is blunted e'er they reach me.</l>
+       <l>The pangs which now I feel are all for thee.</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>For me—and art thou sad for me—for Hamet.</l>
+       <l>Have not the gods been more than lavish to him?</l>
+       <l>Will not the musick of th' harmonious choir</l>
+       <l>Soon echo Hamet's joys throughout the palace?</l>
+       <l>Are not the priests already in the mosque?</l>
+       <l>Are not the virgins with their wreathes prepar'd</l>
+       <l>To strew the roseate paths of love with flow'rs?</l>
+       <l>Nay, will not Almoran himself attend?</l>
+       <l>Come, let's be gone. Ali ere this expects us.</l>
+      </sp>
+      <sp who="#omar">
+       <speaker>OMAR.</speaker>
+       <l>I have deceiv'd thee, Hamet—much deceiv'd thee.</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Deceiv'd me!—Thou!—Has Omar much deceiv'd me?</l>
+      </sp>
+      <sp who="#omar">
+       <speaker>OMAR.</speaker>
+       <l>Yes—thy brother—there it begins—thy brother—</l>
+       <l>
+        <pb n="33" facs="43"/>
+Yet, say his life upon thy kindness rested,</l>
+       <l>Wou'd not thy virtuous heart do much to save it?</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>To save his life!—O much indeed, my Omar.</l>
+       <l>I'd rush undaunted thro' the perilous war,</l>
+       <l>Ev'n where the bleeding battle thickest rag'd,</l>
+       <l>And spread my body as a shield before him.</l>
+       <l>I'd rush into the wild and fearful waves,</l>
+       <l>When their chaf'd fury drench'd the sailing clouds,</l>
+       <l>I'd fight, I'd fall, I'd DIE to save his life.</l>
+      </sp>
+      <sp who="#omar">
+       <speaker>OMAR.</speaker>
+       <l>There spoke at once the monarch and the man;</l>
+       <l>And oh! still dearer, there the brother spoke.</l>
+       <l>Should he then ask a treasure at thy hand,</l>
+       <l>Thy soft humanity would grant his suit,</l>
+       <l>Ev'n tho' it pointed to—the fair Almeida.</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>To fair Almeida!—Hear me, Holy Powers;</l>
+       <stage>kneels.</stage>
+       <l>Hear me each power that in Fate's awful volume</l>
+       <l>Record'st the vows of men—the oaths of kings,</l>
+       <l>That ought to bear, like thine, the seals of truth;</l>
+       <l>Oh hear me swear—while kneeling thus before thee,</l>
+       <l>I pledge my soul's fix'd ardours to Almeida,</l>
+       <l>Nor shou'd the congregated globe united</l>
+       <l>E'er rend her from these clasping, constant arms,</l>
+       <l>'Till their last sinew sunk beneath the sabre:</l>
+       <l>This witness, gods—the guardians of our love.</l>
+       <stage>rises.</stage>
+      </sp>
+      <sp who="#omar">
+       <speaker>OMAR </speaker>
+       <stage>(aside.)</stage>
+       <l>'Tis as I thought—all gentle as he is,</l>
+       <l>At the fond heart he is a very lover:</l>
+       <l>'Twill be in vain to warn him.—O, my son,</l>
+       <l>Forgive the cautious scruples of my age;</l>
+       <l>No more I chill with doubts thy generous hopes.</l>
+      </sp>
+      <sp who="#hamet">
+       <pb n="34" facs="44"/>
+       <speaker>HAMET.</speaker>
+       <l>Doubts!—there's no cause of doubt—I am most blest.</l>
+      </sp>
+      <sp who="#omar">
+       <speaker>OMAR.</speaker>
+       <l>Go then, dear youth, indulge the sacred joy.</l>
+       <l>Go—and with this eternal truth be happy,</l>
+       <l>Tho' yonder orb shou'd from its sphere be hurl'd,</l>
+       <l>And this firm-sealed earth—with all her tow'rs,</l>
+       <l>The mighty labour of three thousand years—</l>
+       <l>Shou'd instant mingle with the dust that form'd them,</l>
+       <l>The equitable soul, by truth upborn,</l>
+       <l>Far o'er the vapours of this mould'ring world,</l>
+       <l>Shall bold resist each perishable power,</l>
+       <l>And greatly triumph in the crush of nature.</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET </speaker>
+       <stage>(looking out.)</stage>
+       <l>Omar, behold! my Almoran appears.</l>
+       <l>In the fraternal look he comes array'd.</l>
+       <l>You wrong'd him, friend—indeed you wrong'd him much.</l>
+      </sp>
+     </div>
+     <div n="3" type="scene">
+      <head>SCENE III.</head>
+      <stage>ALMORAN, HAMET, OMAR.</stage>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Welcome, thrice welcome, on this happy day,</l>
+       <l>For ever, ever welcome to these arms.</l>
+       <stage>embrace.</stage>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Yon Heav'n alone can tell how much I thank thee;</l>
+       <l>And yet I feel the tinge of glowing shame</l>
+       <l>Burn on my cheek as I embrace my brother.</l>
+       <l>Indeed I've been to blame, forgive me, Omar;</l>
+       <l>Brother, speak for me—I have us'd him harshly.</l>
+      </sp>
+      <sp who="#omar">
+       <speaker>OMAR.</speaker>
+       <l>O think me what <hi>I am,</hi> I ask no more.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Thou art a friend, and still wilt bear my failings.</l>
+      </sp>
+      <sp who="#hamet">
+       <pb n="35" facs="45"/>
+       <speaker>HAMET.</speaker>
+       <l>Did I not tell thee, Omar, he would act,</l>
+       <l>Ev'n as thou see'st, a brother's tenderest part.</l>
+       <l>But love is full of fears. I fear'd myself—</l>
+       <l>At first I fear'd thee, but when riper thought</l>
+       <l>Recall'd to view the associate and the friend;</l>
+       <l>The dear companion of my early cradle,</l>
+       <l>Sharer in ev'ry sport, in every toy,</l>
+       <l>Deposit lov'd of every little care,</l>
+       <l>I chid my cruelty, and all was well.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>And yet, my Hamet, could'st thou guess the pangs,</l>
+       <l>The trying agonies, this conquest cost me,</l>
+       <l>Then thou indeed would pity.</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Generous friend,</l>
+       <l>O do not wound me thus, my other self.</l>
+       <l>What shall I do, 'twixt two extremes I'm torn,</l>
+       <l>And nature strains the chords of love and friendship</l>
+       <l>With too severe a hand.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Hamet, no!</l>
+       <l>Here, in the presence of the faithful Omar,</l>
+       <l>My flame I sacrifice to purer fires.</l>
+       <l>Dear as she is, my brother, take Almeida,</l>
+       <l>Lead undisturb'd the virgin to the altar,</l>
+       <l>And from this hand receive thy charming bride.</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Oh, Almoran, with unexampled greatness</l>
+       <l>Thy virtue soars above me—Still my elder:</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>But wherefore waste we thus the precious moments,</l>
+       <l>Even now the jocund, joy announcing note,</l>
+       <l>Harmonious calls thee to the scene of bliss;</l>
+       <l>Love's vermeil blushes, height'ned by a charm,</l>
+       <l>
+        <pb n="36" facs="46"/>
+Which kind disorder wakes in every feature,</l>
+       <l>Now bloom around Almeida; while her eye</l>
+       <l>Shines ardent forth to chide the tardy Hamet.</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>With a tumultuous heart I wait the summons.</l>
+       <l>Come then, oh come, my father and my friend,</l>
+       <l>Together let us seek the heavenly maid—</l>
+       <l>Together lead her to the sacred altar;</l>
+       <l>There thou, before the gay assembled throng,</l>
+       <l>Kindly presiding o'er the nuptial rites,</l>
+       <l>Shall, with a brother's gentle privilege,</l>
+       <l>And like a parent, give her to my arms.</l>
+      </sp>
+      <stage>Exeunt.</stage>
+     </div>
+     <div n="4" type="scene">
+      <head>SCENE IV.</head>
+      <sp who="#omar">
+       <speaker>OMAR</speaker>
+       <stage>(alone).</stage>
+       <l>How this old bosom akes with tender joy;</l>
+       <l>Such joy as only friends and fathers feel,</l>
+       <l>To see them thus agreeing, thus united!</l>
+       <l>Ah, bliss supreme of subjects and of kings:</l>
+       <l>Our richest joys still court the private scene,</l>
+       <l>And life's prime hope is to be bless'd at home.</l>
+       <l>He is indeed convinc'd, and I have wrong'd him.</l>
+       <l>O thou, who thus infusest kindred love</l>
+       <l>Into their social hearts, still ardent, fix,</l>
+       <l>Aid, and invigorate the generous cement;</l>
+       <l>Then like two planets may they gild the land</l>
+       <l>With undiminish'd lustre. Thro' the realm</l>
+       <l>Of Persia's wide domain may they dispense</l>
+       <l>Th' effulgent rays of truth and virtue round,</l>
+       <l>Bless every object in their glad career,</l>
+       <l>Imparting mutual brightness to each other.</l>
+      </sp>
+      <stage>Exit.</stage>
+     </div>
+     <div n="5" type="scene">
+      <pb n="37" facs="47"/>
+      <head>SCENE V.</head>
+      <stage>THE INSIDE OF THE CHIEF MOSQUE, MAGNIFICENTLY ILLUMINATED—ALI, IMANS, OFFICERS, AND THE ASSIATICK AMBASSADORS, PREPARED FOR THE CEREMONY —CHORUS OF YOUTHS AND VIRGINS, WHO ENTER WITH THE PRIESTS TO SING THE EPITHALAMIUM —AN ALTAR SUPERBLY DECORATED.</stage>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Ali approach; begin the sacred rites.</l>
+      </sp>
+      <sp who="#ali">
+       <speaker>ALI.</speaker>
+       <l>Deep in yon consecrated grove's recess,</l>
+       <l>E'en now the holy men, their sanctities</l>
+       <l>Unseen prepare. We wait their high report.</l>
+       <stage>after a pause.</stage>
+       <l>And yet so blest a marriage may rely</l>
+       <l>Upon approving heav'n. On virtuous love</l>
+       <l>The gods will surely smile. Advance, ye pair,</l>
+       <l>
+        <hi>On</hi> to the sacred altar—we delay not.</l>
+      </sp>
+      <stage>Hamet and Almeida go a few paces and stop.</stage>
+      <sp>
+       <lg type="song">
+        <head>ODE.</head>
+        <l>Angels of truth, in robes of living light,</l>
+        <l>From yonder radiant sphere,</l>
+        <l>Expand your starry pinions bright,</l>
+        <l>And lend a fav'ring ear.</l>
+        <l>And thou benign, refulgent Source of day.</l>
+        <l>Bestow a tutelary ray;</l>
+        <l>Behold thy holy ministers prepare,</l>
+        <l>To join this heav'n-elected pair.</l>
+        <l>Behold, advancing to thy shrine,</l>
+        <l>They humbly beg the boon divine.</l>
+        <l>O then, from yonder regions pure above</l>
+        <l>Descend thy cherub choir on beams of love.</l>
+       </lg>
+      </sp>
+      <pb n="38" facs="48"/>
+      <sp who="#chorus_of_youths_and_virgins">
+       <speaker>CHORUS of Youths and Virgins.</speaker>
+       <lg type="song">
+        <l>Angels of truth, in robes of living light,</l>
+        <l>From yonder radiant sphere,</l>
+        <l>Expand your starry pinions bright,</l>
+        <l>And lend a fav'ring ear.</l>
+       </lg>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Thus then I take the fair Almeida's hand,</l>
+       <l>And to our happy brother thus present it.</l>
+      </sp>
+      <stage>Joining their hands.</stage>
+      <sp who="#ali">
+       <speaker>ALI.</speaker>
+       <l>Henceforward be these hands for ever—</l>
+      </sp>
+      <stage>
+       <hi>Enter</hi> PRIEST <hi>(in great consternation).</hi>
+      </stage>
+      <sp who="#priest">
+       <speaker>PRIEST.</speaker>
+       <l>Cease, cease your rites, unhallow'd and unblest.</l>
+       <l>As but e'en now we kneel'd before the shrine,</l>
+       <l>Sudden tremendous darkness brooding sat,</l>
+       <l>Full on the grove, and shadow'd all beneath;</l>
+       <l>In adverse spires the angry flames arose,</l>
+       <l>And from the sacred sepulchre of Solyman</l>
+       <l>Deep sounds were heard, of inauspicious groans—</l>
+       <l>As if the troubled spirit there entomb'd</l>
+       <l>Oppos'd the nuptials—When lo! a voice,</l>
+       <l>Like thunder vollied thro' tempestuous air,</l>
+       <l>Said—take this scroll—commission'd from above.</l>
+       <l>It is the will divine—to Ali bear it.</l>
+       <l>Trembling we bow'd, and promis'd swift obedience.</l>
+      </sp>
+      <sp who="#ali">
+       <speaker>ALI.</speaker>
+       <l>Ye powers, is this the heaven directed scroll?</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN</speaker>
+       <stage>(eagerly).</stage>
+       <l>But what imports it?</l>
+      </sp>
+      <sp who="#ali">
+       <speaker>ALI</speaker>
+       <stage>(reads).</stage>
+       <l>Fate hath decreed to ALMORAN Almeida!</l>
+      </sp>
+      <sp who="#omar">
+       <speaker>OMAR</speaker>
+       <stage>(aside).</stage>
+       <l>'Tis as I fear'd—Ali has play'd us false.</l>
+      </sp>
+      <sp who="#hamet">
+       <pb n="39" facs="49"/>
+       <speaker>HAMET.</speaker>
+       <l>Away with prodigies dissembling Ali,</l>
+       <l>Finish the rites this moment, or expect—</l>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA <hi>to</hi> ALI.</speaker>
+       <l>The profanation then, false priest, is <hi>thine:</hi>
+       </l>
+       <l>Art thou to learn—and from a woman's tongue—</l>
+       <l>The duties of thine office? "Know'st thou not,</l>
+       <l>"That the just gods, with whom thou dar'st to trifle,</l>
+       <l>"Act by consistent and unerring laws</l>
+       <l>"Of truth, of love, and everlasting virtue."</l>
+       <l>And would'st thou charge—oh, force of impious fraud!—</l>
+       <l>The dext'rous artifice of wicked men</l>
+       <l>To the account of heaven! Of heav'n, which sheds</l>
+       <l>It's freshest dews of blessedness on all</l>
+       <l>Whom faith and fondness hold in bonds of honour.</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Are these thy arts?—Oh, most unhallow'd Ali.</l>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>"Hence each iniquity, each dark design,</l>
+       <l>"The lures of interest, and the gusts of passion,</l>
+       <l>"The insidious project, and the sordid purpose,</l>
+       <l>"With each complotting juggle of the state,</l>
+       <l>"That venal ministers or holy minions,</l>
+       <l>"Full often practice to advance themselves,</l>
+       <l>"Or feed the lusts of some deluded master,</l>
+       <l>"Receives a sanction from the powers above."</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Yes, priest, there's not a crime which meanness prompts,</l>
+       <l>Vain folly sighs for, mad ambition kindles;</l>
+       <l>There's not a daring dreadful villainy,</l>
+       <l>"Nor yet a fraud that the smooth courtier wishes</l>
+       <l>"To pass on prince or people, as a virtue,</l>
+       <l>"And trick it off in reverend robes, like thine,"</l>
+       <l>But still the instrument is wrong'd RELIGION,</l>
+       <l>And heav'n itself is made the guilty cause</l>
+       <l>Of heap'd enormities, which hell would start at.</l>
+      </sp>
+      <sp who="#almoran">
+       <pb n="40" facs="50"/>
+       <speaker>ALMORAN.</speaker>
+       <l>Brother forbear—</l>
+      </sp>
+      <sp who="#ali">
+       <speaker>ALI.</speaker>
+       <l>The gods must be obey'd.</l>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>Yes, priest, I know it. Then obey them straight.</l>
+       <l>Dost thou still waver to expound their will—</l>
+       <l>Their will is obvious, simple, unperplex'd,</l>
+       <l>And never leads the enquiring mind astray,</l>
+       <l>But when entangled in thy mystick toils.</l>
+       <l>"O slow of soul as destitute of honour,</l>
+       <l>"Had'st thou e'er heard the heavenly voice of truth,</l>
+       <l>"Or could that bosom, dark and drear as death,</l>
+       <l>"Sacred to viler passion, e'er have felt</l>
+       <l>"The unblemish'd fervors of a generous love,</l>
+       <l>"Without disguise the oracle would tell thee</l>
+       <l>"—That pure plain oracle, an honest heart—</l>
+       <l>"The sacred duties at the bridal altar."</l>
+      </sp>
+      <sp who="#ali">
+       <speaker>ALI.</speaker>
+       <l>Still we repeat the gods, and fate—</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Peace sacrilegious—much thou talk'st of gods,</l>
+       <l>And much of fate—thy guileful lips have utter'd?</l>
+       <l>But when did fate work miracles for tyrants?</l>
+       <l>Or when invert the order of the skies</l>
+       <l>To favour lust, impiety, and shame?</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>I'll hear no more—Ali renew the rites</l>
+       <l>For Almoran, renew them. Fate decrees</l>
+       <l>Almeida to my arms.</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Brother 'tis false,</l>
+       <l>And with my life—</l>
+      </sp>
+      <sp who="#ali">
+       <speaker>ALI.</speaker>
+       <l>Monarch desist—With reverence obey.</l>
+       <l>Omar himself can tell—</l>
+      </sp>
+      <sp who="#omar">
+       <pb n="41" facs="51"/>
+       <speaker>OMAR.</speaker>
+       <l>Yes priest, he can;</l>
+       <l>For long his wary eye has watch'd thy sliding.</l>
+       <l>Omar CAN tell thee all thou dare forget;</l>
+       <l>That mark'd for holiness, thy heart should prove,</l>
+       <l>A temple worthy the pure truth it teaches;</l>
+       <l>That thou should spurn ambition's fatal fires,</l>
+       <l>And kiss the shrine, unspotted and ador'd,</l>
+       <l>Of meek humility—"Religion's chief</l>
+       <l>"Guide of the Persian faith—that thy example</l>
+       <l>"Should, to the countless crouds thou hast in charge,</l>
+       <l>"The undefiled charities dispense,</l>
+       <l>"Cleans'd as the dews of heav'n—Amid'st thy wealth,</l>
+       <l>"Pour'd in large tribute to thy honour'd order,</l>
+       <l>"That still the willing offering of the rich</l>
+       <l>"Should poize the lots of life, and bless the poor;</l>
+       <l>"The everlasting fire that thou should'st guard,</l>
+       <l>"Ev'n 'till that sacred element subdue</l>
+       <l>"The world whereon we move—But above all,</l>
+       <l>"That thou should'st ne'er pervert the holy flame</l>
+       <l>"With fancied visions that confound the soul;</l>
+       <l>"Nor terrify with mystic forgeries</l>
+       <l>"The simple and sincere; but calm to teach,</l>
+       <l>"Powerful to aid, and patient to instruct,</l>
+       <l>"Distinguish vice from virtue, truth from error;</l>
+       <l>"Check the bold sinner whatsoe'er his station;</l>
+       <l>"Ev'n in the royal presence to assert,</l>
+       <l>"If a more awful presence prompts the duty,</l>
+       <l>"The man of truth;" nor even dare, as thou</l>
+       <l>Hast dar'd, to KNOW these glorious truths,</l>
+       <l>Yet turn them all to mockery and baseness.</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>The holy mosque is tainted with their crimes:</l>
+       <l>'Twere best retire, my love; nor will I deign</l>
+       <l>Once to reproach the priest—man's faint rebuke</l>
+       <l>
+        <pb n="42" facs="52"/>
+Is lost where heav'n prevails not—But for thee,</l>
+       <l>Brother and friend no more—Dishonest man!</l>
+       <l>Be mine, or thine, henceforth the Persian throne.</l>
+      </sp>
+      <stage>
+       <hi>The</hi> PRIESTS <hi>and</hi> ALI <hi>confer.</hi>
+      </stage>
+      <sp who="#almoran">
+       <speaker>ALMORAN </speaker>
+       <stage>(interrupting.)</stage>
+       <l>Deep-judging Ali,</l>
+       <l>Is this the boasted issue of thy wiles?</l>
+       <l>Is this the proud result of all thy wisdom?</l>
+       <l>Of flaming altars and concerted groans:</l>
+       <l>This the rare miracle—the rich device—</l>
+       <l>That was to bring Almeida to my arms,</l>
+       <l>A gift of heav'n! Away, ye hoary traitors,</l>
+       <l>This instant quit the temple—hence—begone—</l>
+       <l>Dare not to justify—I'll hear no more.</l>
+       <l>Curse on thy prodigies, I here renounce them.</l>
+       <l>She shall be mine without your feeble aid;</l>
+       <l>Force, scepter'd force, ensues, avow'd and bold:</l>
+       <l>Spurn'd from this heart be ev'ry vain disguise,</l>
+       <l>My passion knows no bounds—henceforth I seize</l>
+       <l>My beateous victim in the face of day.</l>
+      </sp>
+      <stage>
+       <hi>Exit with</hi> OSMYN <hi>and</hi> CALED.</stage>
+     </div>
+     <div n="6" type="scene">
+      <head>SCENE VI.</head>
+      <stage>CHANGES TO A GROVE NEAR, PRESENTING AN OUTSIDE VIEW OF THE MOSQUE, BUT DIFFERENT FROM THAT OF THE TOMBS.</stage>
+      <stage>HAMET, ALMEIDA, OMAR.</stage>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Still onward, friend, to where yon branching palms</l>
+       <l>Embow'r the shrubs beneath. There, lov'd Almeida,</l>
+       <l>Awhile shalt thou remain with virtuous Omar,</l>
+       <l>"Till I explore some yet unbribed Iman,</l>
+       <l>
+        <pb n="43" facs="53"/>
+That straight may foil the wicked arts of Ali.</l>
+       <l>This way, my love—I will with speed return.</l>
+       <stage>Hamet goes with them to the upper wing, and returns.</stage>
+       <l>The time admits not of delay—When fraud's on foot</l>
+       <l>And guilt is once detected—Ha!—by heav'n!</l>
+       <stage>looking out.</stage>
+       <l>Ev'n in this sacred privacy he haunts me—</l>
+       <l>The man on earth my soul would wish to shun—</l>
+       <l>I would avoid thee.</l>
+       <stage>
+        <hi>To</hi> ALMORAN <hi>entering.</hi>
+       </stage>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>I know thou would'st;</l>
+       <l>But Almoran forbids.</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Does Almoran?</l>
+       <l>Does Almoran forbid? And who is he</l>
+       <l>That thus presumes, with mock prerogative,</l>
+       <l>To bar the passage of the injur'd Hamet?</l>
+       <l>And hath this mighty monarch been reduc'd</l>
+       <l>To poor hypocrisy, and foul contrivance?</l>
+       <l>Is the rich blood of Solyman debas'd</l>
+       <l>To mix with mercenaries, who can forge</l>
+       <l>Upon the gods they worship? Shame upon thee!</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Tempt me no further, boy; thy life's at stake.</l>
+       <stage>puts his hand on his sabre.</stage>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Yes, draw thy sabre—rise upon the friend;</l>
+       <l>Convert the sultan to the common stabber:</l>
+       <l>Assail—oh glorious—Hamet while unarm'd—</l>
+       <l>The only moment thou wouldst dare to meet him.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Hah—would'st dare—</l>
+      </sp>
+      <sp who="#hamet">
+       <pb n="44" facs="54"/>
+       <speaker>HAMET.</speaker>
+       <l>Tyrant, I said so—dare.</l>
+       <l>Hast thou not stoop'd to despicable frauds,</l>
+       <l>To vile deceits, and arts of little cunning,</l>
+       <l>Beneath thy manhood, ev'n beneath thy pride—</l>
+       <l>To arts which cowards practice—mark it—cowards.</l>
+       <l>When did the brave—the brave are ever generous—</l>
+       <l>When did the brave man skulk in the disguise</l>
+       <l>Of priestly prodigies, or bribe a slave</l>
+       <l>To traffick with his function—sell his gods—</l>
+       <l>And tear the trembling virgin from the altar.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Villain, forbear.</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Nay, more than virgin yet more sacred,</l>
+       <l>The appointed wife—Yes, royal ravisher,</l>
+       <l>Fraudful to steal thy brother's wife away.</l>
+       <l>Ha!—were thy ruffians ready—Oh, insidious!</l>
+      </sp>
+      <stage>
+       <hi>Enter</hi> CALED <hi>with guards.</hi>
+      </stage>
+      <stage>
+       <hi>They offer to seise</hi> HAMET, ALMORAN <hi>prevents.</hi>
+      </stage>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Caled, forbear. Now then, Insulter,</l>
+       <l>In manly scorn of all thy base aspersions,</l>
+       <l>The outrag'd Almoran, to thy confusion,</l>
+       <l>Ev'n on thy heart shall PROVE his want of courage.</l>
+       <l>There, vaunting insolent, defend thyself—</l>
+       <stage>
+        <hi>Throws his sabre to</hi> HAMET <hi>and takes</hi> CALED'S.</stage>
+       <l>Now try thy boasted bravery.</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Thanks to thy wounded pride for this one virtue.</l>
+      </sp>
+      <stage>Prepare to fight.</stage>
+     </div>
+     <div n="7" type="scene">
+      <pb n="45" facs="55"/>
+      <head>SCENE VII.</head>
+      <stage>
+       <hi>Enter</hi> ALMEIDA.</stage>
+      <stage>
+       <hi>Guards seise</hi> HAMET.</stage>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>Desist, inhuman murderer, nor deeper plunge</l>
+       <l>Thy soul in guilt.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Ah, Almeida here!</l>
+       <l>Now see if thou escape a second time.</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Off, ruffians, off. Art thou a coward now?</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>I will not take life, nor hear thee rail,</l>
+       <l>But thus assert an elder brother's right.</l>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>What right, thou violating man?—What right?</l>
+       <l>To whom hast thou a right?—And is it thus</l>
+       <l>Thy horrid reign begins?—Is this, vain boaster—</l>
+       <l>Thou large of promise, but of deeds, penurious—</l>
+       <l>Is this the first great act of Persia's king?</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Now thank the gods!</l>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>For what dost thank them?</l>
+       <l>That yet, forbearing, they suspend the thunder,</l>
+       <l>And do not fend the ready light'ning forth</l>
+       <l>To crush thee, proudly blooming in thy crimes.</l>
+       <l>But death were lenity—live on despis'd—</l>
+       <l>Live, to endure th' extremities of shame,</l>
+       <l>The pangs of conscience, and the realm's contempt,</l>
+       <l>The people's hatred, and thy own reproach.</l>
+      </sp>
+      <sp who="#almoran">
+       <pb n="46" facs="56"/>
+       <speaker>ALMORAN.</speaker>
+       <l>Full dearly shall these base aspersions cost thee:</l>
+       <l>This instant seise, and bear her to our palace.</l>
+       <stage>They seise her.</stage>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Oh! by the gods I charge thee—</l>
+       <l>It is your prince—your future queen.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Caled, along.</l>
+       <stage>Guards drag her.</stage>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>Invisible power of nature, truth, and justice—</l>
+       <l>If ever innocence—how the ruffians tear me—</l>
+       <l>I will not go—ye shall not—Hamet—</l>
+       <stage>Drops on her knees.</stage>
+       <l>Oh, Hamet, Hamet—</l>
+       <stage>Dragged off.</stage>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>In pity, brother—on my knees—</l>
+       <l>Oh!—murd'rous—barbarous—cruel—</l>
+       <stage>Torn away.</stage>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>The lady once secur'd, be Hamet free.</l>
+      </sp>
+      <stage>Exeunt.</stage>
+     </div>
+     <trailer>END OF ACT THE THIRD.</trailer>
+    </div>
+    <div n="4" type="act">
+     <pb n="47" facs="57"/>
+     <head>ACT IV.</head>
+     <div n="1" type="scene">
+      <head>SCENE I.</head>
+      <stage>AN APARTMENT IN ALMORAN'S PALACE.</stage>
+      <stage>ALMORAN, OSMYN, CALED.</stage>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>THEN empire is our own; dominion courts</l>
+       <l>At length the smile of Almoran alone,</l>
+       <l>And proud Almeida, the Circassian maid,</l>
+       <l>Like some rich jewel, the reward of conquest,</l>
+       <l>Decreed to sparkle on the victor's brow,</l>
+       <l>Shall yield her beauties to these longing arms.</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>Ali, dread king, industriously loyal,</l>
+       <l>Still plies the rabble with fomenting zeal,</l>
+       <l>And deaf of fair Almeida's eloquence,</l>
+       <l>The oaths of Hamet, and the arts of Omar,</l>
+       <l>Ev'n now the multitude tumultuous shout—</l>
+       <l>"We saw the altar flame, we heard the groans,</l>
+       <l>"And heav'n decrees to Almoran Almeida."</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>See, Osmyn, that each soothing art be tried</l>
+       <l>To reconcile Almeida to our power:</l>
+       <l>Let Persia's utmost pride and pomps await her:</l>
+       <l>Breathe forth the soul of harmony around:</l>
+       <l>To his inventive mind who starts a joy</l>
+       <l>Unknown, be recompence adjudg'd. Let slaves</l>
+       <l>In splendid vassalage attend the fair,</l>
+       <l>Our future queen, the new, the lov'd sultana.</l>
+       <l>But, above all, beware no female forms</l>
+       <l>Obedient to our passion, or our pride,</l>
+       <l>That swell the chosen train of the seraglio,</l>
+       <l>Approach apartments sacred to Almeida.</l>
+      </sp>
+      <sp who="#caled">
+       <pb n="48" facs="58"/>
+       <speaker>CALED.</speaker>
+       <l>Monarch of nations, ever-glorious sultan,</l>
+       <l>Thus let me pay the debt of adoration.</l>
+       <stage>prostrates.</stage>
+      </sp>
+      <sp who="#osmyn">
+       <speaker>OSMYN.</speaker>
+       <l>Great ruler of the world, accept my homage.</l>
+      </sp>
+      <stage>prostrates.</stage>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Hold, lavish Fortune, hold thy bounteous hand;</l>
+       <l>Too fast increase the thronging joys upon me,</l>
+       <l>And my soul labours with the soft oppression.</l>
+       <l>Rise, both rise—vicegerents of my greatness:</l>
+       <l>On ye, as my deputed delegates,</l>
+       <l>Henceforth devolve the shining toils of state;</l>
+       <l>All Persia's vulgar care's beneath the sultan:</l>
+       <l>Guard ye my paradise from all obtrusion,</l>
+       <l>Next in command to Almoran and fate.</l>
+       <l>Yet still beware—let strict fidelity</l>
+       <l>And nice obedience justify our favour;</l>
+       <l>Remember still—the breath that gives ye sway—</l>
+       <l>Th' immortal arm that raises, can destroy.</l>
+      </sp>
+      <stage>
+       <hi>Exit with</hi> OSMYN.</stage>
+     </div>
+     <div n="2" type="scene">
+      <head>SCENE II.</head>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>Lo! such the wages of successful vice.</l>
+       <l>Vice did I say! oh, infamy of slander!</l>
+       <l>'Tis pious artifice, 'tis glorious thrift!</l>
+       <l>While virtue starves, bold spirits will burst forth</l>
+       <l>Beyond the lying letter of the law,</l>
+       <l>The shackling trammels of the moral fool,</l>
+       <l>And fly to arts like Caled's for support.</l>
+       <l>I stand excus'd. Let but the gale of virtue</l>
+       <l>Waft Caled as conveniently to port,</l>
+       <l>The golden port of int'rest and ambition;</l>
+       <l>"Let but the slighting world on truth bestow</l>
+       <l>"Dissimulation's gay and gorgeous robe,"</l>
+       <l>
+        <pb n="49" facs="59"/>
+Then nought but holy maxims shall be heard</l>
+       <l>From this converted tongue.—But, oh! my soul,</l>
+       <l>This rock impassable—this tow'ring Osmyn—</l>
+       <l>Be swift prolifick brain to work his fall,</l>
+       <l>And shake the fabrick he has rais'd above me.</l>
+      </sp>
+      <stage>Exit.</stage>
+     </div>
+     <div n="3" type="scene">
+      <head>SCENE III.</head>
+      <stage>THE SERAGLIO GATES.</stage>
+      <sp who="#osmyn">
+       <speaker>OSMYN</speaker>
+       <stage>(alone).</stage>
+       <l>While Caled takes his station near the palace,</l>
+       <l>Here must I wait the coming of the sultan.—</l>
+       <l>Ah! servitude abhorr'd, disgraceful state!</l>
+       <l>The recent honours he has heap'd upon me,</l>
+       <l>Chill on my brow, and sicken at my heart.</l>
+       <l>O, conscience! conscience! smite me not so sore,</l>
+       <l>Thou scourge invisible! Who plac'd thee here,</l>
+       <l>With thy dread arrowy store, to goad and wound us?</l>
+       <l>Something far sharper than the sabre's point</l>
+       <l>Now strikes this breast and calls me slave and minion.</l>
+       <l>What may be done? This constant care distracts me—</l>
+       <l>The account of infamy is large against me.</l>
+       <l>Long have I inly mourn'd—</l>
+      </sp>
+     </div>
+     <div n="4" type="scene">
+      <head>SCENE IV.</head>
+      <stage>
+       <hi>Enter</hi> HAMET <hi>(in a mute's habit)</hi>
+      </stage>
+      <sp>
+       <l>Stand! Who approaches?</l>
+       <l>What step forbidden, thus intrusive—Hamet?</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Yes, traitor, Hamet. Where is that inhuman</l>
+       <l>That forces Hamet to assume these robes,</l>
+       <l>And seize upon his sacred rights by stealth?</l>
+       <l>Where is that king?—that monster-brother—Speak!</l>
+       <l>Where, villain, is Abdallah?—Where Almeida?</l>
+       <l>
+        <pb n="50" facs="60"/>
+Answer me straight—behold this scymeter—</l>
+       <l>Delay will make me desperate.</l>
+      </sp>
+      <sp who="#osmyn">
+       <speaker>OSMYN.</speaker>
+       <l>Abdallah</l>
+       <l>Still is safe.—Oh! ask, dread king, no more.</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Equivocating slave, my heart is broke;</l>
+       <l>Loos'd is the chord that ty'd it to my breast.</l>
+       <l>Tell me each atom of the damning truth,</l>
+       <l>Or—</l>
+      </sp>
+      <sp who="#osmyn">
+       <speaker>OSMYN.</speaker>
+       <l>Thus compell'd, my lord—She's there.</l>
+      </sp>
+      <stage>Points to the seraglio.</stage>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>There!</l>
+      </sp>
+      <sp who="#osmyn">
+       <speaker>OSMYN.</speaker>
+       <l>My heart bleeds for him.—Even there, my lord;</l>
+       <l>In that seraglio—</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Seraglio! What?</l>
+       <l>My destin'd bride?—Almeida—Persia's mistress?</l>
+       <l>Has he then turn'd her to the train of victims,</l>
+       <l>Mix'd her soft purity with venal beauty,</l>
+       <l>Stain'd the pure blossom of our virtuous joys,</l>
+       <l>And like the hapless sacrifice of riot—</l>
+       <l>Oh, nature! nature! this—I cannot bear it.</l>
+      </sp>
+      <stage>Bursts in tears.</stage>
+      <sp who="#osmyn">
+       <speaker>OSMYN.</speaker>
+       <l>No, gracious sovereign, 'tis the sultan's orders,</l>
+       <l>That far apart—</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Ope not thy villain lips.</l>
+       <l>Already have they more than murther'd me—Ha!</l>
+       <l>I'll weep no more. How did the monster dare?</l>
+       <l>And thou the accursed slave that brought her hither;</l>
+       <l>And this the hell that holds my stolen treasure.</l>
+       <l>
+        <pb n="51" facs="61"/>
+Oh! give me strength of armies, righteous powers!</l>
+       <l>Sinew my arm with force omnipotent,</l>
+       <l>That I may hit the centre of his heart;</l>
+       <l>Then to you—Blast, blast me not sweet heavens,</l>
+       <stage>Going to stab Osmyn.</stage>
+       <l>Keep me, kind gods—Oh! keep my hands from blood.</l>
+       <l>Ha! wilt thou force him on me—Nay then, thus—</l>
+       <l>Thus let me meet the robber ere he plunders—</l>
+      </sp>
+      <stage>Seeing Almoran.</stage>
+     </div>
+     <div n="3" type="scene">
+      <head>SCENE III.</head>
+      <stage>HAMET, ALMORAN.</stage>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Osmyn, what daring slave—</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Strike swiftly then,</l>
+       <l>Stab sure—or die.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Hamet turn'd slave—to murder? Most intrepid!</l>
+       <l>Skulks he beneath the habit of the mute</l>
+       <l>To rob the wretched vassal of his office?</l>
+       <l>O worthy emulation.</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>No—I cannot strike—</l>
+       <l>All frantic as I am, th' unspotted soul</l>
+       <l>Shudders at brother's blood—Away foul purpose,</l>
+       <l>Detested instrument away—Oh! Almoran,</l>
+       <stage>throws away the dagger.</stage>
+       <l>Ev'n she who shar'd her matron breast between us,</l>
+       <l>Then died the martyr of the lives she gave,</l>
+       <l>Seems beck'ning from the tomb to ward the blow:</l>
+       <l>Obey the summons of the saint who bore us,</l>
+       <l>Admit the touch of nature to thy bosom,</l>
+       <l>And open yet thy heart to meet thy brother.</l>
+      </sp>
+      <sp who="#almoran">
+       <pb n="52" facs="62"/>
+       <speaker>ALMORAN.</speaker>
+       <l>What shall I do? He melts my six'd resolves,</l>
+       <l>Nor can this bosom, slave of every passion,</l>
+       <l>Thus inly touch'd, shrink back from his embraces.</l>
+       <l>Generous—too generous—Hamet.</l>
+       <stage>embracing him.</stage>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Thy heart relents—</l>
+       <l>I have thee in my arms—thou art subdued;</l>
+       <l>'Tis the blest moment of returning virtue;</l>
+       <l>Truth, justice, and humanity prevail,</l>
+       <l>Thou art my brother still—The gods be prais'd.</l>
+      </sp>
+      <stage>again embrace.</stage>
+     </div>
+     <div n="4" type="scene">
+      <head>SCENE IV.</head>
+      <stage>CALED <hi>and</hi> GUARDS.</stage>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>Sultan and sovereign of the world, thy life—</l>
+       <l>Thy sacred life's at hazard.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Said'st thou life?</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>As at the palace gate I plae'd the guard,</l>
+       <l>Redoubling shouts assail'd my started ear;</l>
+       <l>When rushing on, with every slave in arms,</l>
+       <l>Full in the city's heart I saw a crowd</l>
+       <l>Of Persian peasants—Omar at their head—</l>
+       <l>Vollying the rights of Hamet in each ear,</l>
+       <l>'Till ev'ry gaping fool abus'd the Sultan,</l>
+       <l>And toss'd their saucy turbans up for Hamet.</l>
+       <l>Injuriate Omar cried—REVENGE—when straight,</l>
+       <l>With my own arm, I seiz'd the hoary traitor.</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Slave, speak with reverence of that noble Persian.</l>
+      </sp>
+      <sp who="#almoran">
+       <pb n="53" facs="63"/>
+       <speaker>ALMORAN.</speaker>
+       <l>Swift, Osmyn, load the bald conspirator</l>
+       <l>With ponderous chains—Bid him expect a fate</l>
+       <l>Well suited to his crimes—then bring him to us.</l>
+       <stage>Exit Osmyn.</stage>
+       <l>Well, young dissembler, but deep-learned in fraud,</l>
+       <l>Well may'st thou start; but ere the veil of night</l>
+       <l>Shall hide his shame from the attending croud</l>
+       <l>That cluster curious o'er each scene of death,</l>
+       <l>Omar, thy oracle, shall bleed before thee.</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Insensate as I was—how could I hope?</l>
+       <l>How could I ever frame a thought so wild</l>
+       <l>As to expect from that tempestuous soul</l>
+       <l>Or truth, or justice, pity, love, or honour:</l>
+       <l>My heart, that knows thee, throbs with keen reproach</l>
+       <l>To chide its own simplicity.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>'Twas truth—</l>
+       <l>Haply 'twas Hamet's justice, love, and pity,</l>
+       <l>That bade thee try the force of artful tears,</l>
+       <l>Well manag'd warmth, and counterfeited fondness.</l>
+       <l>'Twas honour taught him, like an hypocrite,</l>
+       <l>To wind his serpent arms about my neck,</l>
+       <l>To triumph in the theft of fair Almeida;</l>
+       <l>While his arch minister, the virtuous Omar,</l>
+       <l>Back'd by the trait'rous phalanx he had form'd,</l>
+       <l>Concerted measure of escape and rescue:</l>
+       <l>O flight of stratagem sublime and noble!</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>I scorn to answer thee, disnatur'd taunter.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Thou hast prepar'd for punishment and prison!</l>
+       <l>Thy heart, so skill'd in Almoran, has told thee</l>
+       <l>These guards shall drag thee instant to the dungeon,</l>
+       <l>
+        <pb n="54" facs="64"/>
+Unarm'd and undefended as thou art.—</l>
+       <l>Slaves, leave the traitor free—Go, man of virtue,</l>
+       <l>Captivity would swell thy pride—Go, haste,</l>
+       <l>Array thy troops, and lead them on to battle—</l>
+       <l>Ev'n to this bosom bid the slaves advance,</l>
+       <l>Then see if Almoran retreats before them—</l>
+       <l>See if thy traitors, or thyself, their king,</l>
+       <l>Can awe this heart, or check one promis'd joy</l>
+       <l>It made to transport, and the fair Almeida.</l>
+       <l>Caled, unbar the gates—Farewel! my brother—</l>
+       <l>My kind, my just, my honourable brother.</l>
+       <stage>Going.</stage>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Hold—yet hold—Ah, Almoran, forbear !</l>
+       <l>If there is courage, pride, or manhood in thee,</l>
+       <l>Yet—yet desist—I charge thee by the pangs—</l>
+       <l>The bitterest pangs of conscience and the soul,</l>
+       <l>Not to invade—Turn back, base ravisher;</l>
+       <l>Thus on my knees—</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>What, at thy arts again?</l>
+       <l>'Tis thus I answer them—I'll talk no more.</l>
+      </sp>
+      <stage>Exit, closing the gates against him, he falls.</stage>
+     </div>
+     <div n="5" type="scene">
+      <head>SCENE V.</head>
+      <sp who="#hamet">
+       <speaker>HAMET </speaker>
+       <stage>(alone.)</stage>
+       <l>Is this permitted—Is this suffer'd, gods?</l>
+       <l>Spurn'd to the earth—Ha! left alone—gone from me—</l>
+       <l>Gone whither!—Did he not say to—horror! horror!</l>
+       <l>To make a hell of heaven—My senses shake!</l>
+       <l>The brain begins to totter on its basis—</l>
+       <l>This is the gate that leads to Paradise,</l>
+       <stage>rises.</stage>
+       <l>And Satan is within—Still fast upon us.—</l>
+       <l>No means of death—The scymetar remov'd—</l>
+       <l>Death!—I'll not die.—First grant me rich revenge.</l>
+       <l>Demons of vengeance here possess me quite;</l>
+       <l>
+        <pb n="55" facs="65"/>
+Take me infuriate—Take me to yourselves!</l>
+       <l>Oh! bring the villain once again before me,</l>
+       <l>Arm my firm hand, and I shall die content.</l>
+      </sp>
+      <stage>Exit.</stage>
+     </div>
+     <div n="6" type="scene">
+      <head>SCENE VI.</head>
+      <stage>THE INSIDE OF THE SERAGLIO. ALMEIDA DISCOVERED IN A SUPERB APARTMENT OPENING INTO SEVERAL OTHERS MAGNIFICENTLY DECORATED. MUSIC AND VOICES, ATTEMPT HER ENTERTAINMENT BEFORE SHE SPEAKS. MUTES RICHLY DRESSED ATTENDING.</stage>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>O vain magnificence of impious grandeur—</l>
+       <l>Poor ineffectual gildings to set off</l>
+       <l>Th' imprison'd victim with a shew of pleasure,</l>
+       <l>Oh! for Circassia's unpolluted shores,</l>
+       <l>And all the unblemish'd scenes of guiltless life!</l>
+       <l>Tell me, ye instruments of Persia's tyrant—</l>
+       <l>Tell me with instant speed—Alas! ye dare not—</l>
+       <l>Chain'd, by your hapless slavery, to silence,</l>
+       <l>Vain is to you the blessed power of speech.</l>
+       <l>Retire, retire—Ye may not give me comfort.</l>
+       <l>Torn from my father, Omar, Hamet too—</l>
+       <l>From Hamet—hold my heart—what have I said?</l>
+       <l>It wakes a thought so full of tender sorrow</l>
+       <l>I cannot bear it—it overwhelms my foul.</l>
+      </sp>
+      <stage>Reclines on one of the sophas.</stage>
+     </div>
+     <div n="7" type="scene">
+      <head>SCENE II.</head>
+      <stage>
+       <hi>Enter</hi> ALMORAN <hi>to</hi> ALMEIDA.</stage>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>The bursting anguish rushes to her eye,</l>
+       <l>And her fair form, more lovely in distress,</l>
+       <l>Droops like the tender blossom of the spring,</l>
+       <l>
+        <pb n="56" facs="66"/>
+Beat by the gather'd force of pitiless showers.</l>
+       <l>Fierce as I am, unbidden softness steals,</l>
+       <l>In gentlest sighs, from an unwonted source.</l>
+       <l>My very heart's subdued. Almeida, cease—</l>
+       <l>Repress those tears, this anguish, this despair.</l>
+       <l>I come to smoothe the tumults of thy bosom,</l>
+       <l>And at thy feet to lay the Persian sceptre.</l>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>The Persian sceptre—Why must I reproach thee?</l>
+       <l>Such trappings are, alas! thy sole dependance.</l>
+       <l>Keep them, my lord, to awe the vulgar mind.</l>
+       <l>The scepter'd conscience wants no crown to grace it.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>For thee, behold, I leave the Persian throne—</l>
+       <l>For thee, forgetting empire and command,</l>
+       <l>Lo! Almoran now bends his knee to earth,</l>
+       <l>And, with a subject's low humility,</l>
+       <l>Thus deigns to court the smile of fair Almeida.</l>
+       <stage>kneels.</stage>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>And dost thou strip me of each dearer joy,</l>
+       <l>Fix the fell poignard in the quivering heart,</l>
+       <l>And, as the ruddy life-blood gushes from it,</l>
+       <l>Calmly survey thy work, and bid me smile?</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>By Heav'n, you charge unjustly, my Almeida.</l>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>Oh! Almoran, the human form is thine,</l>
+       <l>Yet where's the honour that should mark thy manhood.</l>
+       <l>Reluctant thousands call thee mighty sovereign;</l>
+       <l>Yet where's the virtues that should grace thy station?</l>
+       <l>But leave me to myself—I'll not upbraid thee.</l>
+       <l>One mournful boon is all that I shall ask;</l>
+       <l>I beg the privilege to weep alone.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Sorrow and solitude be far away.</l>
+       <l>
+        <pb n="57" facs="67"/>
+Thou'rt too severe Almeida. Long I strove</l>
+       <l>To hide MY love in pity to my brother.</l>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>He talks of pity too, who never felt it.</l>
+       <l>Where is thy brother, tyrant?—Where is Hamet?</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>He lives—is free—But wherefore talk of him—</l>
+       <l>Regard him not—</l>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>Mark me, Almoran.</l>
+       <l>Thou bid'st me not regard him—then observe me!</l>
+       <l>If thy unhallow'd, desolating hand,</l>
+       <l>In utter darkness could that spark extinguish,</l>
+       <l>That viewless, vital spark of heaven-born fire,</l>
+       <l>Which the Omnipotent in this true breast</l>
+       <l>Hath kindly kindled, here to glow for ever,</l>
+       <l>Pure as the source that first supplied the flame,</l>
+       <l>Then might thy prisoner cease to think of Hamet.</l>
+       <l>But long as that inspires my faithful fondness,</l>
+       <l>Though waters wide as yonder heaven from earth,</l>
+       <l>Though worlds remote as planets from each other,</l>
+       <l>Should from his honour'd presence far divide me,</l>
+       <l>Still should Almeida's prayers be offer'd for him—</l>
+       <l>Still should her ardent tenderness increase—</l>
+       <l>And still, as now, in all his pride of splendour,</l>
+       <l>'Midst the vain glitter of his vacant greatness,</l>
+       <l>Still should perfidious Almoran be scorn'd.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Then be it so—Lady, 'tis well—I'll not complain,</l>
+       <l>For the curs'd stripling can obstruct no more.</l>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>Ha!—how!—What said'st thou?—Is it possible,</l>
+       <l>Thou man of blood?—Sure thy barbarian hand—</l>
+       <l>And yet I fear—for in thy sanguine eye</l>
+       <l>Murder's inserib'd—Yes, yes, thy silence speaks—</l>
+       <l>
+        <pb n="58" facs="68"/>
+The characters of death are legible</l>
+       <l>In every cruel feature. Oh, distraction!</l>
+       <l>Here then, unnatural—here, well-pleased, behold,</l>
+       <l>Indulge thy genius—take thy fill of blood,</l>
+       <l>Point thy insatiate sabre here—yes, strike;</l>
+       <l>Think me a sister, and enjoy the slaughter.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>By heav'n he lives, uncircumscrib'd he walks</l>
+       <l>Thro' Persia's realm, save this one dear apartment.</l>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>Prais'd be the guardian god that shields his virtues;</l>
+       <l>Ador'd the power that watches all his ways.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Ah! lavish not these raptures on a wretch,</l>
+       <l>But kindly treat thy heav'n-allotted husband.</l>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>Speak'st thou of heav'n?—and after foul detection?—</l>
+       <l>Of heav'n, where sceptre'd virtue sits enthron'd,</l>
+       <l>Sublime, amid'st the stars, to register</l>
+       <l>The deeds of human kind. "Oh, bethink thee:</l>
+       <l>"Can he who hangs, in yonder spangled vault,</l>
+       <l>"The even scale of justice, e'er ordain</l>
+       <l>"That I should violate this wretched form,</l>
+       <l>"And weary out a life of loveless perfidy?"</l>
+       <l>No, Almoran, thy priests have led the wrong:</l>
+       <l>Whate'er is made thy deity—ah! think not</l>
+       <l>Thou dost him honour, when thou mak'st him pleas'd</l>
+       <l>With what offends the secret judge within thee—</l>
+       <l>Yes, start; but know, insidious king,</l>
+       <l>E'en now, thou stand'st beneath a piercing eye,</l>
+       <l>That notes thy crimes, and will one day requite them.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>I thought to have sound thee, lady, less reluctant:</l>
+       <l>I'll talk no more—nor have I time to lose</l>
+       <l>In idle parly with a haughty beauty.</l>
+       <l>Thus in a word—if thou, with yielding kindness,</l>
+       <l>
+        <pb n="59" facs="69"/>
+Within an hour, consent to crown my wishes,</l>
+       <l>The next shall honour thee as Persia's queen,</l>
+       <l>(Something thou see'st I can allow to pride)</l>
+       <l>If not, then learn the issue—That vile boy</l>
+       <l>Who hath usurp'd a gem, than crown more worth—</l>
+       <l>The throne of thy affections—think upon it—</l>
+       <l>Dies the succeeding instant—so resolve.</l>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>The very image hurries me to phrenzy.</l>
+       <l>See, cruel, see Almeida at thy feet;</l>
+       <l>She condescends to kneel—for whom?—Thy brother.</l>
+       <l>Is human pity quite extinct, my lord—Oh, heaven!</l>
+       <l>Where is thy nature that it sleeps so sound?</l>
+       <l>Nay, turn not from me—spare the generous Hamet—</l>
+       <l>Shed not thy brother's blood—Thou wilt not kill him?</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>'Tis in Almida's power to save or ruin.</l>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>Oh, name the means—Almeida dies to save him.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>I've mark'd out easier terms, thou know'st.</l>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>See, Sultan, see! behold!—ye shall not stir.</l>
+      </sp>
+      <stage>Catches hold of him in great agony.</stage>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>By hell he dies this moment—nay, thou</l>
+       <l>Shalt SEE him struggling in the pangs of death;</l>
+       <l>That hoary traitor too, thy sire Abdallah,</l>
+       <l>HE from the palace shall be dragg'd.</l>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>My father!</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Yes; thou shalt gaze upon them—powerless gaze—</l>
+       <l>With frantick hand tear those luxuriant locks,</l>
+       <l>And shriek, and weary the reverberant air</l>
+       <l>With unavailing, impotent complainings.</l>
+       <l>
+        <pb n="60" facs="70"/>
+Thy tears, thy strugglings, and thy woman's arts,</l>
+       <l>Assail in vain. Away, and hang not thus</l>
+       <l>Idly upon me, for I now can hate thee—Go—</l>
+       <l>Go and prepare for anguish, blood, and horror.</l>
+      </sp>
+      <stage>Exit.</stage>
+     </div>
+     <div n="8" type="scene">
+      <head>SCENE VIII.</head>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>Oh, barbarous, barbarous man, inhuman tyrant—</l>
+       <l>Then they must die: Well, well, I will not weep.</l>
+       <l>Am I not very patient, righteous gods?</l>
+       <l>Am I not very calm?—Yes, let them bleed,</l>
+       <l>The pitying heavens shall open to receive them.</l>
+       <l>Bleed! whom bleed?—My lord, my love, my father!</l>
+       <l>Oh, shrouding darkness, hide me from the sight,</l>
+       <l>And I, I murther them—What can I do?</l>
+       <l>Point out the path to me, some kindly power,</l>
+       <l>Instruct my staggering senses how to act,</l>
+       <l>And save the innocent from the assassin.</l>
+       <l>It shall not be—I cannot bear the thought.</l>
+       <l>Oh, I will save their lov'd, their precious lives;</l>
+       <l>Prevent the fatal blow, or with them die.</l>
+      </sp>
+     </div>
+     <trailer>END OF ACT THE FOURTH</trailer>
+    </div>
+    <div n="5" type="act">
+     <pb n="61" facs="71"/>
+     <head>ACT V.</head>
+     <div n="1" type="scene">
+      <head>SCENE I.</head>
+      <stage>A GRAND SALOON IN THE PALACE.</stage>
+      <stage>ALMORAN, CALED.</stage>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>OH! torture, torture—infamous abasement!</l>
+       <l>Shall Almoran—the oriental god—</l>
+       <l>Stoop meanly from his throne to fawn and sigh—</l>
+       <l>To fawn and sigh yet be repuls'd—rejected?</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>Take then, my gracious lord, without delay</l>
+       <l>The offer'd remedy—a rich revenge.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>What power can give it me!</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>Thy faithful Caled.—</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Quick pour the balsam on my bleeding wounds.</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>Sultan, foul treason lurks around thy throne—</l>
+       <l>That solemn Osmyn—</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Osmyn!</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>He! my lord!—Our ever faithful Ali,</l>
+       <l>Still busy in the service of the sultan,</l>
+       <l>Informs me of a dark conspiracy</l>
+       <l>Plann'd by that very Osmyn.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>O the slave!</l>
+       <l>Th' ungrateful slave—</l>
+      </sp>
+      <sp who="#caled">
+       <pb n="62" facs="72"/>
+       <speaker>CALED.</speaker>
+       <l>By him concerted,</l>
+       <l>Thy rival brother still has power to hurt thee;</l>
+       <l>This very night, when darkness wraps the sphere,</l>
+       <l>In the deep zenith of its gloom he goes,</l>
+       <l>Mask'd in the robes of thy domestic Iman,</l>
+       <l>(The priest appointed to attend Almeida)</l>
+       <l>To meet the fair in the seraglio garden—</l>
+       <l>Access how easy, by the priest conducted!</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Persia teems with traitors!</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>This shallow Iman, wrought upon by Osmyn,</l>
+       <l>Favour'd the treason, and betray'd his master.</l>
+       <l>A slave was trusted—Aladin the eunuch—</l>
+       <l>Observe the hand of heaven, my lord—As Aladin</l>
+       <l>Convey'd the borrowed robes to wily Osmyn,</l>
+       <l>Ali perceiv'd the traitor steal along,</l>
+       <l>And soon by menaces the truth extorted:</l>
+       <l>At length the venal slave is wholly our's.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Down, down, aspiring rage.—What follow'd, Caled?</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>The slave secured, straight Ali wrote, my lord,</l>
+       <l>To Osmyn, in the <hi>Iman's character,</hi>
+       </l>
+       <l>Exactly fein'd—that all things were prepared;</l>
+       <l>That Aladin by chance had met the king,</l>
+       <l>The injured Hamet, who detain'd the slave</l>
+       <l>'Till the blest hour of meeting.—Long ere that</l>
+       <l>Shall happy Almoran defeat the project—</l>
+       <l>Long, long ere that shall triumph o'er Almeida.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>First see that Osmyn, and that villain Iman,</l>
+       <l>Perish in pains unheard of—</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>Leave their fate</l>
+       <l>
+        <pb n="63" facs="73"/>
+To me, my lord—but now enjoy thy victory.</l>
+       <l>Of this assur'd, this night they breathe their last.</l>
+       <l>The robes are now without, the hour advances.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Thou ready counsellor—but this voice—this face—</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>Art, art, my lord.—Nature is easy marr'd—</l>
+       <l>The face may be conceal'd—it will be night—</l>
+       <l>Thick the disguise—thou goest as Hamet too—</l>
+       <l>Almeida is appriz'd—expects her Hamet—</l>
+       <l>Osmyn at hand—all ready to receive thee,</l>
+       <l>And trembling love may breathe its sighs in whisper.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Yet to what end this labour'd artifice?</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>The end of happiness—To make her hate</l>
+       <l>To kindle all the pride of virtue in her:</l>
+       <l>By well-sown hints of an unbounded passion,</l>
+       <l>Perhaps by menac'd FORCE, and other lures,</l>
+       <l>To rouse her fury, and provoke her scorn</l>
+       <l>Ev'n against the REAL Hamet—Then retire—</l>
+       <l>Resume thyself—as Almoran appear,</l>
+       <l>And in the fever'd hour of—</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Vain attempt!</l>
+       <l>Oh! impotent device to move a love,</l>
+       <l>Fix'd as the central heart within her bosom.</l>
+       <l>And how, presumptuous, dost thou dare to think</l>
+       <l>That Almoran will act the base dissembler;</l>
+       <l>Still by thy arts impos'd, and still successless?</l>
+      </sp>
+      <sp who="#caled">
+       <speaker>CALED.</speaker>
+       <l>Pardon my zealous duty, mighty sultan,</l>
+       <l>Since 'tis thy sacred pleasure to resign</l>
+       <l>The beauteous maid—perhaps—</l>
+      </sp>
+      <sp who="#almoran">
+       <pb n="64" facs="74"/>
+       <speaker>ALMORAN.</speaker>
+       <l>Resign her! No!</l>
+       <l>No, by the love and rage that rends my heart,</l>
+       <l>First shall this executing arm—Away!</l>
+       <l>The effort shall be try'd—Some circumstance</l>
+       <l>Perchance may rise—at least 'twill foil the arts</l>
+       <l>Of those vile minions, and secure Almeida:</l>
+       <l>Caled prepare the robes, and wait my coming.</l>
+       <stage>
+        <hi>Exit</hi> CALED.</stage>
+       <l>Meantime this feeble traitor—Ha! he comes,</l>
+       <l>And Osmyn too; but Caled will destroy—</l>
+      </sp>
+     </div>
+     <div n="2" type="scene">
+      <head>SCENE II.</head>
+      <stage>OSMYN <hi>with</hi> OMAR <hi>in Chains.</hi>
+      </stage>
+      <stage>GUARDS WITH THEIR SABRES DRAWN. ALMORAN, OMAR, OSMYN.</stage>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Well, proud philosopher, is this thy virtue?</l>
+       <l>Dost thou at length go forth to preach rebellion?</l>
+       <l>Lo! thy reward.</l>
+      </sp>
+      <sp who="#omar">
+       <speaker>OMAR.</speaker>
+       <l>And what, vain man, is thine?</l>
+       <l>In thy own toils entangled, sham'd, defeated!</l>
+       <l>Treason and Omar never can be join'd—</l>
+       <l>What thou haft styl'd rebellion, he calls justice!</l>
+       <l>And, deeming that a virtue—glories in it.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Thou dost, audacious? Then say, rude boaster,</l>
+       <l>What hast thou gain'd by all this wond'rous virtue,</l>
+       <l>But ignominious chains, that now enfold thee?</l>
+       <l>And the tremendous death which waits to seise thee.</l>
+      </sp>
+      <sp who="#omar">
+       <speaker>OMAR.</speaker>
+       <l>Thou hast miscounted, sultan, of my gains,</l>
+       <l>
+        <pb n="65" facs="75"/>
+Nor can thy most malignant tyranny</l>
+       <l>Blast the bright wreathe that waits to crown my triumph.</l>
+       <l>I've acted as became me—That's a victory</l>
+       <l>Thou ne'er wilt know.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Insensate moralist!</l>
+       <l>Conduct him, Osmyn, instant to his cell,</l>
+       <l>Within the traitor's cave enclose the dotard,</l>
+       <l>And leave him to his fate.</l>
+       <stage>Going.</stage>
+      </sp>
+      <sp who="#omar">
+       <speaker>OMAR.</speaker>
+       <l>A moment stop!</l>
+       <l>I deign to ask it as a parting favour.</l>
+       <l>Unmov'd I heard my sentence, Almoran,</l>
+       <l>Unmov'd shall brave whate'er thy pride inflicts,</l>
+       <l>To stop the pulse that soon, without thy aid,</l>
+       <l>Would cease to beat; yet a last pray'r remains;</l>
+       <l>Let thine own eye survey me in my fall;</l>
+       <l>Let thine own eye attest th' unruffled calmness</l>
+       <l>With which old Omar lays down weary being;</l>
+       <l>And though he could not teach thee how to live,</l>
+       <l>Let him yet teach thee—what it is to die.</l>
+       <stage>Going.</stage>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Exulting slave. Death shall not be thy lot,</l>
+       <l>Convey the traitor, Osmyn, from our presence;</l>
+       <l>Double his weight of fetters; bind them hard;</l>
+       <l>Let every crevice that admits the light,</l>
+       <l>And ev'ry wholesome gale of heavenly air,</l>
+       <l>Save what may chain the rebel down to life,</l>
+       <l>To ling'ring, hated life, be fast repell'd.—</l>
+       <l>See thou obey, or tremble for thyself.</l>
+       <l>Remember, I am Almoran, whose power</l>
+       <l>Can in a moment crush thee.—Hence!—Dispatch.</l>
+      </sp>
+      <stage>Exit.</stage>
+     </div>
+     <div n="3" type="scene">
+      <pb n="66" facs="76"/>
+      <head>SCENE III.</head>
+      <stage>OMAR, OSMYN.</stage>
+      <sp who="#omar">
+       <speaker>OMAR.</speaker>
+       <l>Unhappy, wretched, raging man, farewel!</l>
+       <l>"In what a blessed time his father died:</l>
+       <l>"The gods foresaw the mischiefs in advance,</l>
+       <l>"And took him from such anguish to themselves."</l>
+       <l>Come, thou disgraceful servant of the guilty,</l>
+       <l>Lead to these glooms—I follow thee undaunted.—</l>
+       <l>Dearer to Omar far the dungeon'd darkness,</l>
+       <l>Than all the sunshine Osmyn can enjoy,</l>
+       <l>While Osmyn is the pandar of a tyrant.</l>
+      </sp>
+      <sp who="#osmyn">
+       <speaker>OSMYN.</speaker>
+       <l>Slaves, leave your prisoner, and wait without;</l>
+       <l>Remove the massy bars that close his cave—</l>
+       <l>I will myself conduct the captive thither.</l>
+      </sp>
+      <stage>Exit guards.</stage>
+      <sp who="#omar">
+       <speaker>OMAR.</speaker>
+       <l>Why trifles Osmyn with his king's command?</l>
+       <l>He seems disturb'd.—</l>
+      </sp>
+      <sp who="#osmyn">
+       <speaker>OSMYN.</speaker>
+       <l>Omar, thou strik'st me hard—</l>
+       <l>Survey this face—is nought depicted there</l>
+       <l>'I hat speaks an alter'd soul?</l>
+      </sp>
+      <sp who="#omar">
+       <speaker>OMAR.</speaker>
+       <l>An alter'd soul!</l>
+      </sp>
+      <sp who="#osmyn">
+       <speaker>OSMYN.</speaker>
+       <l>Yes, Omar, thou hast shewn me to myself,</l>
+       <l>Long since, prepar'd to seize some fair occasion</l>
+       <l>Of breaking from the manacles I wore—</l>
+       <l>Worse than these bonds to thee—Yes, Omar, thou,</l>
+       <l>Like the pure mirror in a cherub's hand,</l>
+       <l>Hath held the hideous picture to my view,</l>
+       <l>And shewn to Osmyn his deformity.</l>
+       <l>Here, by the holy pow'rs of heav'n, I swear—</l>
+       <stage>Kneels.</stage>
+      </sp>
+      <sp who="#omar">
+       <pb n="67" facs="77"/>
+       <speaker>OMAR.</speaker>
+       <l>Osmyn, forbear—If thou inded art fix'd,—</l>
+       <l>If vows have past between thy soul and thee,</l>
+       <l>Oaths are surperfluous, impious, and vain:</l>
+       <l>The solemn secret purpose be thy bond,</l>
+       <l>And note of that is mark'd above already.</l>
+      </sp>
+      <sp who="#osmyn">
+       <speaker>OSMYN.</speaker>
+       <l>In all things far above me. I'll not swear,</l>
+       <l>But do a deed shall better speak my truth</l>
+       <l>Than all the lavish language of the lip.</l>
+       <l>Thy glory is at hand—thine and Almeida's.—</l>
+       <l>I have, my friend, devis'd a pious fraud</l>
+       <l>To serve an injur'd king. Hamet, this night,</l>
+       <l>Visits his lov'd Almeida. That the least—</l>
+       <l>Freedom and virtue will attend the issue—</l>
+       <l>A fit disguise, already is prepar'd</l>
+       <l>A slave—the trusty Aladin—attends,</l>
+       <l>Silent and safe to guide the happy Hamet</l>
+       <l>To the appointed place.—What's further purpos'd</l>
+       <l>I will unfold hereafter.</l>
+      </sp>
+      <sp who="#omar">
+       <speaker>OMAR.</speaker>
+       <l>Generous Osmyn,</l>
+       <l>I need not thank thee—there's a god within</l>
+       <l>Each honest breast, that well rewards the virtuous.</l>
+       <l>What's to be done?</l>
+      </sp>
+      <sp who="#osmyn">
+       <speaker>OSMYN.</speaker>
+       <l>I'll tell thee as we pass.</l>
+       <l>A thousand slaves look up to me for life;</l>
+       <l>The tyrant plac'd me o'er them for his pride;</l>
+       <l>Yet do they hate the person they protect.—</l>
+       <l>These, at a nod, I summon to the cave,</l>
+       <l>Where I will now conduct thee.—There remain</l>
+       <l>Till the rich crisis of a just revenge.</l>
+       <l>Trust to my saith, and fortune is our own.</l>
+      </sp>
+      <sp who="#omar">
+       <pb n="68" facs="78"/>
+       <speaker>OMAR.</speaker>
+       <l>Now, Osmyn, thou indeed art good and virtuous,</l>
+       <l>And with an honest joy my heart enfolds thee!</l>
+       <stage>Embraces.</stage>
+       <l>But haste, my friend—fie on these loitering limbs—</l>
+       <l>Oh, that awhile I could shake of my age!</l>
+       <l>But even now, should nature close the scene,</l>
+       <l>Still should I doubly triumph in my death,</l>
+       <l>Since I have serv'd my king—and sav'd a soul.</l>
+      </sp>
+      <stage>Exeunt.</stage>
+     </div>
+     <div n="4" type="scene">
+      <head>SCENE IV.</head>
+      <stage>THE GARDEN OF THE SERAGLIO; THE MOON ABOUT TO SET.</stage>
+      <stage>
+       <hi>Enter</hi> HAMET.</stage>
+      <sp>
+       <l>At length, by many a maze, I've reach'd the garden,</l>
+       <l>Scal'd the high walls, and pass'd the sentinels.—</l>
+       <l>Ha! at yon window flames the distant taper!</l>
+       <l>There! there! e'en now, perchance—O! hold my brain!</l>
+       <l>No more will I arouse the sons of Persia,</l>
+       <l>But my own cause with my own arm avenge.</l>
+       <l>Omar, e'er this, has breath'd his latest prayer—</l>
+       <l>Almeida too—I will not think—Almeida!—</l>
+       <l>O! never more this sabre will I sheathe,</l>
+       <l>Till on its point a brother's blood!—Forgive—</l>
+       <l>Forgive me, gods!—Ye have not form'd me sanguine:</l>
+       <l>Wrongs, wrongs have wrought me to this dire extreme.</l>
+       <l>Nor shall I strike a brother, but a tyrant.</l>
+       <l>Remote from notice will I wait the morn,</l>
+       <l>Till Almoran, as is his custom, walks</l>
+       <l>To the seraglio, from the palace—then</l>
+       <l>Shall injur'd Hamet pay th' important debt</l>
+       <l>He owes himself, Almeida, and his country.</l>
+      </sp>
+      <stage>Exit.</stage>
+     </div>
+     <div n="5" type="scene">
+      <pb n="69" facs="79"/>
+      <head>SCENE V.</head>
+      <stage>
+       <hi>Enter</hi> OSMYN.</stage>
+      <sp>
+       <l>The moon hath veil'd her orb, a few faint streaks</l>
+       <l>Silver the somb'rous shades, to note her parting.</l>
+       <l>'Tis near the moment Aladin should come.</l>
+       <l>The monarch his high charge—soft—they're here,</l>
+       <l>Aladin leads the way.</l>
+      </sp>
+     </div>
+     <div n="6" type="scene">
+      <head>SCENE VI.</head>
+      <sp who="#almoran">
+       <speaker>ALMORAN</speaker>
+       <stage>(disguised).</stage>
+       <stage>
+        <hi>Starts back at seeing</hi> OSMYN.</stage>
+      </sp>
+      <sp who="#osmyn">
+       <speaker>OSMYN.</speaker>
+       <l>My royal master,</l>
+       <l>Accept the willing homage of my heart,</l>
+       <l>A first fair offering at the shrine of virtue.</l>
+       <l>Welcome to liberty and fair Almeida.</l>
+       <l>Thy Omar's safe—the guards are far remov'd—</l>
+       <l>The tyrant sleeps, perchance; or if he wakes,</l>
+       <l>Suspects not—all's secure—Almeida waits</l>
+       <l>The signal.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>This speaks for me, Osmyn.</l>
+       <stage>Embracing.</stage>
+       <l>Oh! Almoran, to what art thou reduc'd!</l>
+       <stage>Aside.</stage>
+      </sp>
+      <sp who="#osmyn">
+       <speaker>OSMYN.</speaker>
+       <l>'Tis the twelfth hour—and see, my gracious lord,</l>
+       <l>Faithful Almeida comes.—Thou, Aladin,</l>
+       <l>Still wait—Farewel! my lord—be happy.</l>
+       <l>I go to guard thy privacy.</l>
+      </sp>
+      <stage>Exit.</stage>
+     </div>
+     <div n="7" type="scene">
+      <pb n="70" facs="80"/>
+      <head>SCENE VII.</head>
+      <stage>ALMEIDA <hi>with</hi> CRYSANTHE, <hi>from the seraglio.</hi>
+      </stage>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>This is the place my Hamet has appointed,</l>
+       <l>And this the silent unsuspected hour.—</l>
+       <l>Yonder he walks, Crisanthe—O! my heart!</l>
+       <stage>Going to him,</stage>
+       <l>Muffled, as he now is, by night's dun shades</l>
+       <l>And gloomy robes, my bosom owns its lord—</l>
+       <l>My love, my Hamet!—Thus receive my welcome.</l>
+      </sp>
+      <stage>Embraces.</stage>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Her tender pressure pays for every pang.</l>
+       <stage>Aside.</stage>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>Much did I fear the tyrant Almoran.</l>
+       <l>"Yes, gracious prince, still doth thy virtuous spirit,</l>
+       <l>"E'en 'gainst thyself, defend a brother's fame—</l>
+       <l>"Defend the man which wrongs thee"—But, nor toil,</l>
+       <l>Unwearied watchfulness, nor life itself,</l>
+       <l>Past in subservience to his dark designings,</l>
+       <l>Prevents the sudden whirlwind of his rage,</l>
+       <l>Nor checks the frenzy of that lawless soul.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Is't possible!</l>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>Osmyn has told me all—</l>
+       <l>All that relates to that perfidious monster.</l>
+       <l>The man who serves him, like a wretch condemn'd,</l>
+       <l>Fancies he hears, in every passing gale—</l>
+       <l>That rushes by his dungeon, some swift fate;</l>
+       <l>The savage bowstring, or the sanguine mute.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN </speaker>
+       <stage>(aside.)</stage>
+       <l>Oh! agony extreme!—Said Osmyn this?</l>
+      </sp>
+      <sp who="#almeida">
+       <pb n="71" facs="81"/>
+       <speaker>ALMEIDA.</speaker>
+       <l>Were this a place for words, O! much lov'd youth,</l>
+       <l>Insulted partner of a throne degraded—</l>
+       <l>Were this a place for converse—I could tell thee,</l>
+       <l>How sovereign hate surrounds the gloomy palace,</l>
+       <l>And sheds tremendous darkness o'er the sceptre,</l>
+       <l>How all the hearts of Persia wrung with slavery,</l>
+       <l>Throb in their loyal bosoms to be free—</l>
+       <l>And how that gem, which in thy father's reign</l>
+       <l>Shone brightly lambent as the flame of life—</l>
+       <l>That gem which regal power would seize in vain,</l>
+       <l>Prerogative usurp, or riches bribe—</l>
+       <l>TH'AFFECTION OF HIS SUBJECTS—All is lost:</l>
+       <l>"While hate and horror, flattery, and falsehood—</l>
+       <l>"The secret murmur, and the mining treason,</l>
+       <l>"Are gone abroad, like some wide-wasting pest,</l>
+       <l>"To frighten every virtue from the empire."</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Indeed!—Is Almoran?—My heart is rent.</l>
+       <stage>aside.</stage>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>But soon the lofty tyrant from his height—</l>
+       <l>O! my best Hamet, hail the radiant hour—</l>
+       <l>Falls, like a star from heav'n. The time's at hand</l>
+       <l>When Hamet shall resume the wrested sceptre;</l>
+       <l>When peace her sacred birth-place shall regain,</l>
+       <l>And honest loyalty once more look upwards:</l>
+       <l>All Persia watches the eventful crisis,</l>
+       <l>And not a slave—a vassal here immur'd,</l>
+       <l>But hath to virtuous Hamet vow'd allegiance:</l>
+       <l>This very night will wait his sovereign mandate,</l>
+       <l>Avow their scorn of Almoran and guilt,</l>
+       <l>Led on by daring spirits form'd for freedom:</l>
+       <stage>Shews a dagger.</stage>
+       <l>And I—even I—my lord, behold am arm'd</l>
+       <l>To aid the glorious cause—</l>
+       <l>Ha!—thou art not well, my lord—You feel too much</l>
+       <l>
+        <pb n="72" facs="82"/>
+For an ungrateful brother—But no more</l>
+       <l>I'll name the tyrant—since it pains my Hamet.</l>
+       <l>Come then, my lord—behold Almeida ready;</l>
+       <l>Osmyn conducts my sire—Crisanthe's here,</l>
+       <l>Lead thou the way.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Soft—some safer means.</l>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>What means remain?</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>The means to seize</l>
+       <l>That joy which slavish forms—</l>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>Away,</l>
+       <l>Thou worse than Almoran—Away!</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Thus let me claim the rights of generous love.</l>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>All, all but this Almeida could have borne:</l>
+       <l>Her fate was never desperate 'till this moment.</l>
+       <l>Ev'n in the darkest hour of her distress,</l>
+       <l>She thought on thee—she thought on virtuous Hamet;</l>
+       <l>Hoarded his fondness with a miser's care;</l>
+       <l>And when the piercing sorrow smote her heart,</l>
+       <l>His lov'd idea, like a charm divine,</l>
+       <l>Still'd the sad sigh, and check'd the falling tear.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>When will Almeida from these dreams awake?</l>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>Nay then 'tis time to treat thee as thou art.</l>
+       <l>In the soft hour of peace, I am a woman,</l>
+       <l>And not unmindful of my sex's province;</l>
+       <l>But in the trying moment of dishonour</l>
+       <stage>draws the dagger.</stage>
+       <l>
+        <pb n="73" facs="83"/>
+I tow'r above the female's fancied terrors,</l>
+       <l>And meet the russian with a hero's boldness:</l>
+       <l>See heav'n hath arm'd my hand—Desist or fall.</l>
+      </sp>
+     </div>
+     <div n="8" type="scene">
+      <head>SCENE VIII.</head>
+      <stage>
+       <hi>Enter</hi> HAMET.</stage>
+      <sp>
+       <l>Surely I heard—</l>
+       <l>Villain forbear—O! all ye gods—Almeida!</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN </speaker>
+       <stage>(throws off the disguise.)</stage>
+       <l>Ha!—Who art thou—'Tis Almoran—Ha!—Hamet!</l>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>Almoran!—Ah! poor betray'd Almeida.</l>
+       <stage>Faints.</stage>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Ha! betray'd!—Now then accursed king—</l>
+       <stage>
+        <hi>They fight,</hi> ALMORAN <hi>disarm'd.</hi>
+       </stage>
+       <l>Guilt brings the haughty tyrant to the earth—</l>
+       <l>Behold the mighty Almoran disarm'd!</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Strike—strike—I will not bear the load of life.</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>I need not shed thy blood—Thy conscience bleeds</l>
+       <l>Already</l>
+      </sp>
+     </div>
+     <div n="9" type="scene">
+      <head>SCENE IX.</head>
+      <stage>CALED <hi>and</hi> ALI <hi>(with lights.)</hi>
+      </stage>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Ye loitering villains—seize—this instant seize—</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Approach and die—</l>
+      </sp>
+     </div>
+     <div n="10" type="scene">
+      <pb n="74" facs="84"/>
+      <head>SCENE X.</head>
+      <stage>ENTER OMAR AND OSMYN, AT THE HEAD OF A LARGE PARTY.</stage>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>More treason-slaves!</l>
+      </sp>
+      <sp who="#omar">
+       <speaker>OMAR.</speaker>
+       <l>Seize, but shed no blood.</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Hah!—Omar!—Osmyn!—Almoran disguis'd!</l>
+       <l>Oh! my brave friends, help, help, thy wretched master.</l>
+       <l>Rise injur'd excellence to life and Hamet.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Kill me, ye slaves, and I forgive the treason:</l>
+       <l>Unhand me, or by heaven—O! shame, shame, shame!</l>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>Profound astonishment chains every sense!</l>
+       <l>Ah! righteous providence, what art's involv'd.</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>My fears for thee—</l>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>Thy fears were vain, my lord—</l>
+       <l>Thou saw'st me arm'd—</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMLET.</speaker>
+       <l>Then I am blest indeed—Thy father's safe,</l>
+       <l>And all the tears he sheds are tears of joy.</l>
+       <l>But still that hapless man—It wounds my soul</l>
+       <l>To see the lofty spirit sinking in despair;</l>
+       <l>And nature yet demands a brother's pause</l>
+       <l>Suspended o'er his fate.</l>
+      </sp>
+      <sp who="#almoran">
+       <speaker>ALMORAN.</speaker>
+       <l>Thou shalt not chain me to the wheel of life—</l>
+       <l>Fierce throes of heart, and agonies unheard of,</l>
+       <l>
+        <pb n="75" facs="85"/>
+Sit vulture-like upon—Stand off—I will not,</l>
+       <l>No—no power on earth shall hold the hand of justice:</l>
+       <stage>Breaks from the guards.</stage>
+       <l>Lo it is poiz'd—Brother, I owe thee much—</l>
+       <l>How then to pay thee?—thus—thus—and thus.</l>
+       <stage>Stabs himself.</stage>
+       <l>Hamet, thy fears are past—I faint apace—approach—</l>
+       <l>Ah! gently—Let me die upon thy bosom.</l>
+       <l>Much have I wrong'd—I can offend no more.</l>
+       <stage>Dies.</stage>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>Ha! Almoran—my brother—once lov'd friend,</l>
+       <l>Alas! too late convinc'd.</l>
+       <l>Save me, Almeida, from this dreadful sight.</l>
+      </sp>
+      <sp who="#almeida">
+       <speaker>ALMEIDA.</speaker>
+       <l>Unhappy Almoran—My soul forgives thee!</l>
+      </sp>
+      <sp who="#osmyn">
+       <speaker>OSMYN.</speaker>
+       <l>Hail injur'd king, the eastern world is thine.</l>
+      </sp>
+      <sp who="#hamet">
+       <speaker>HAMET.</speaker>
+       <l>I ask not now the means of this strange fortune;</l>
+       <l>But ere I taste the bounty of the gods</l>
+       <l>Dash'd with some bitternss—prepare that corpse</l>
+       <l>For the cold grave, with every regal honour:</l>
+       <l>And may his failings with his dust be buried.</l>
+       <l>The forfeit paid, how dark soe'er the crimes,</l>
+       <l>'Tis our's to pardon, friends, and not to punish.</l>
+      </sp>
+      <sp who="#omar">
+       <speaker>OMAR.</speaker>
+       <l>Then Persia shall revive, and all be well.</l>
+       <l>Behold <hi>Ambition</hi> humbled in the dust,</l>
+       <l>The guilty Minion trembles at his crimes,</l>
+       <l>In <hi>this</hi> good man returning virtue smiles,</l>
+       <l>In your blest <hi>selves,</hi> my children, we may trace</l>
+       <l>The sure rewards of constancy and truth,</l>
+       <l>The meed of goodness—and CONSENT OF HEAV'N,</l>
+      </sp>
+     </div>
+    </div>
+    <trailer>FINIS.</trailer>
+   </div>
+  </body>
+  <back>
+   <div type="epilogue">
+    <pb facs="86"/>
+    <head>EPILOGUE</head>
+    <stage>Spoken by Miss FARREN.</stage>
+    <sp>
+     <lg>
+      <l>OF late at West minster <note n="*" place="foot">The first night's representation happened on the opening of parliament.</note>, in order due,</l>
+      <l>A gracious speech first made, debates ensue.</l>
+      <l>Ere then, in this <hi>full house,</hi> our author's fate</l>
+      <l>Becomes the subject of your warm debate—</l>
+      <l>Ere yet you opposition criticks rise</l>
+      <l>To move for censures, and refuse supplies;</l>
+      <l>Or partial friends pour down corrupt applause,</l>
+      <l>By <hi>orders</hi> pension'd in the author's cause,</l>
+      <l>From either party—none will sure impeach</l>
+      <l>My sovereign title to pronounce the speech.</l>
+     </lg>
+     <lg>
+      <l>Thro' me the muse her <hi>loyal subjects</hi> greets—</l>
+      <l>Tho' I speak standing, and you keep your seats—</l>
+      <l>Pleas'd that so full a house attends the summons—</l>
+      <l>Pit—Box—and Gallery—Peers and faithful Commons—</l>
+      <l>With deep concern she bids me here relate</l>
+      <l>What dangers threaten the dramatic state—</l>
+      <l>What hosts of foes her tottering realms invade,</l>
+      <l>By fashion muster'd, and by folly paid:</l>
+      <l>While <hi>Taste,</hi> her old ally, unmov'd we see,</l>
+      <l>And <hi>Spleen</hi> preserves an <hi>arm'd neutrality.</hi>
+      </l>
+      <l>See first come on—all arm'd in whale-bone hoops—</l>
+      <l>The tuneful leaders of the Italian troops.</l>
+      <l>Long have they wag'd—too oft with conquest crown'd—</l>
+      <l>The doubtful conflict betwixt sense and sound.</l>
+      <l>Allied with these—in hostile bands advance</l>
+      <l>The light-heel'd legions of invading France.</l>
+     </lg>
+     <lg>
+      <l>To point her thunders on our British coast,</l>
+      <l>Year after year, has been vain Gallia's boast.</l>
+      <l>Their troops embark—the bold attempt is plann'd—</l>
+      <l>Their <hi>heroes threaten</hi> — and their <hi>dancers land,</hi>—</l>
+      <l>
+       <hi>These only</hi> put their threats in execution,</l>
+      <l>And lay all London under contribution.</l>
+      <l>
+       <pb facs="87"/>
+Immortal chiefs! who on one leg can do</l>
+      <l>What yet no warrior has atchiev'd on two.</l>
+      <l>Like Rome's proud victor, in their fierce attack,</l>
+      <l>They come, they see, they conquer, and—go back.</l>
+      <l>And, modern Jasons, as of old in Greece,</l>
+      <l>Sail home triumphant with the golden fleece.</l>
+     </lg>
+     <lg>
+      <l>Before such dangers shall we prostate fall?</l>
+      <l>Or, like true Britons, boldly brave them all?</l>
+      <l>If fairly led, we'll bid their host defiance,</l>
+      <l>Dissolv'd a late <hi>unnatural alliance;</hi>
+      </l>
+      <l>Our leader too shall now assistance lend,</l>
+      <l>Not promise succours, and delay to send:</l>
+      <l>But chiefly <hi>here</hi>—our hopes and courage lie</l>
+      <l>In <hi>you,</hi> our truest friend and best ally—</l>
+      <l>Support our Bard to-night, and on his part</l>
+      <l>Receive the <hi>tribute</hi> of a grateful heart—</l>
+      <l>Thro' me receive, and here again I'll meet ye,</l>
+      <l>Act as ambassadress, and sign the treaty.</l>
+     </lg>
+    </sp>
+   </div>
+  </back>
+ </text>
+</TEI>

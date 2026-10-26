@@ -1,0 +1,4400 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">Tamerlane</title>
+    <title type="sub">A tragedy: As it is acted at the New Theater in Little Lincolns-Inn-Fields. By Her Majesty's servants. Written by N. Rowe, Esq;.</title>
+    <author>
+     <persName>
+      <surname>Rowe</surname>
+      <forename>Nicholas</forename>
+      <idno type="VIAF">19751395</idno>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>Tamerlane. A tragedy: As it is acted at the New Theater in Little Lincolns-Inn-Fields. By Her Majesty's servants. Written by N. Rowe, Esq;.</name>
+     <author>Rowe, Nicholas, 1674-1718.</author>
+     <publisher>printed for Jacob Tonson: and sold by William Davis,</publisher>
+     <date>1703.</date>
+     <pubPlace>London :</pubPlace>
+     <note>With a half-title.</note>
+     <note>Reproduction of original from the British Library.</note>
+     <note>English Short Title Catalog, ESTCT56247.</note>
+     <note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note>
+    </bibl>
+    <biblFull n="printed source">
+     <publicationStmt>
+      <authority ref="#JJ">Jan Jokisch</authority>
+      <date>2024 December</date>
+      <idno type="ECCO_Drama">K049942.000</idno>
+      <idno type="DLPS">004833726</idno>
+      <idno type="ESTC">T56247</idno>
+      <idno type="DocNo">CW116485379</idno>
+      <idno type="TCP">K049942.000</idno>
+      <idno type="GaleDocNo">CW3316485379</idno>
+      <idno type="ContentSet">ECLL</idno>
+      <idno type="ImageSetID">1114700100</idno>
+      <availability>
+       <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+      </availability>
+     </publicationStmt>
+    </biblFull>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    <person xml:id="tamerlane"><persName>Tamerlane</persName><sex value="MALE"/></person><person xml:id="bajazet"><persName>Bajazet</persName><sex value="MALE"/></person><person xml:id="axalla"><persName>Axalla</persName><sex value="MALE"/></person><person xml:id="moneses"><persName>Moneses</persName><sex value="MALE"/></person><person xml:id="stratocles"><persName>Stratocles</persName><sex value="MALE"/></person><person xml:id="prince_of_tanais"><persName>Prince of Tanais</persName><sex value="MALE"/></person><person xml:id="omar"><persName>Omar</persName><sex value="MALE"/></person><person xml:id="mirvan"><persName>Mirvan</persName><sex value="MALE"/></person><person xml:id="zama"><persName>Zama</persName><sex value="MALE"/></person><person xml:id="haly"><persName>Haly</persName><sex value="MALE"/></person><person xml:id="turkish_dervise"><persName>Turkish Dervise</persName><sex value="MALE"/></person><person xml:id="arpasia"><persName>Arpasia</persName><sex value="FEMALE"/></person><person xml:id="selima"><persName>Selima</persName><sex value="FEMALE"/></person></listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1703">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text xml:lang="en">
+  <front>
+   <div type="halftitle">
+    <pb facs="1"/>
+    <p>TAMERLANE. A TRAGEDY.</p>
+   </div>
+   <div type="titlepage">
+    <pb facs="2"/>
+    <p>TAMERLANE. A TRAGEDY.</p>
+    <p>As it is Acted at the NEW THEATER IN <hi>Little Lincolns—Inn—Fields.</hi> By Her MAJESTY's SERVANTS.</p>
+    <p>Written by <hi>N. ROWE,</hi>
+     <abbr>Esq</abbr>
+    </p>
+    <l>—Magnus ad altum</l>
+    <l>Fulminat Euphraten bello, Victorque volentes</l>
+    <l>Per Populos dat jura, viam{que} affectat Olympo.</l>
+    <bibl>Virg. Georg. 4.</bibl>
+    <p>The SECOND EDITION.</p>
+    <p>
+     <hi>LONDON,</hi> Printed for <hi>Jacob Tonson</hi>: And Sold by <hi>William Davis,</hi> at the <hi>Black Bull</hi> over against the Royal Exchange in <hi>Cornhill,</hi> 1703.</p>
+   </div>
+   <div type="dedication">
+    <pb facs="3"/>
+    <head>TO THE RIGHT HONOURABLE WILLIAM, LORD MARQUISS Of HARTINGTON.</head>
+    <opener>
+     <salute>My LORD,</salute>
+    </opener>
+    <p>EVery Body is now so full of Business, that things of this kind, which are generally taken for the Entertainment of leisure Hours only, look like Impertinence and Interruption. I am sure it is a Reason why I ought to beg your Lordship's Pardon, for troubling you with this Tragedy; Not but that Poetry has always been, and will still be the Entertainment of all wise Men, that have any Delicacy in their Knowledge; Yet at so Critical a Juncture as this is, I must confess I think your Lordship ought to give intirely into those Publick Affairs, which at this time seem to Demand you. It is that happy Turn which your Lordship has to Business, that right Understanding of your Country's Interest, and that constant Zeal to pursue it, that just Thinking, that strong and per
+<pb facs="4"/>
+suasive Elocution, that firm and generous Resolution, which upon all Occasions you have shewn in Parliaments; and to add, that which is the crowning good Quality, your Lordship's continual Adherence and Unshaken Loyalty to His present Majesty, which make you at this time so necessary to the Publick. I must confess, (tho' there is no part in your Lordship's Character, but what the World should be fond of) I cannot help Distinguishing the last Instance very particularly: It is doing (methinks) such a Justice to Goodness, to Greatness, and to Right Reason, that Posterity will believe there could be no Man of good Sense, but what must have agreed with your Lordship in it. When the next Age shall Read the History of this, What Excuse can they make for those who did not Admire a Prince whose Life has been a Series of good Offices done to Mankind? When they shall reckon up his Labours from the Battle of <hi>Seneff,</hi> to some Glorious Action, which shall be his Last, (and which I therefore hope is very far remov'd from the Present Time?) Will they ever believe that he could have been too well lov'd, or too faithfully serv'd and defended? The Great Things which he did before we had that immediate Interest in him, which we now happily have, is a noble and just Subject for Panegyrick; but as Benefits done to Others, can never touch us so sensibly as those we receive our selves, tho' the Actions may be equally great; so, methinks, I can hardly have patience to run back to his having sav'd his own Country, when I consider he has since done the same for Us; Let that be sufficient to Us, for all we can say of him or do for him. What Dangers and
+<pb facs="5"/>
+Difficulties has he not struggled through, for the Honour and Safety of these Kingdoms? 'Tis a common Praise, and what every one speaks, to say, He has continually expos'd his Life for his People; But there are some things more particular in his Character, some things rarely found amongst the Policies of Princes; a Zeal for Religion, moderated by Reason, without the Rage and Fire of Persecution; a charitable Compassion for those who cannot be convinc'd, and an unalterable Perseverance in those Principles of whose Truth he is satisfy'd; a desire of War for the sake of Peace; and of Peace for the Good and Honour of his Subjects equally with his own; a pious Care for composing Factions, tho' to foment them might make him Arbitrary; and a generous Ambition that only aims at Pow'r, to enable him to do good to all the rest of the World. I might add here, that Inviolable and Religious Observance of his Royal Word, which the best part of the Pow'rs of <hi>Europe,</hi> have so frequently and so happily, for themselves, depended upon in the greatest Emergencies. But as this Virtue is generally reckon'd as no more than that common Honesty, which the meanest Man would blush to be without, so it can hardly claim a Place amongst the more particular Excellencies of a Great Prince. It were to be wish'd, indeed, that the World were honest to such a degree, and that there were not that scandalous defect of common Morality. Certainly nothing can be more shocking to Humanity, to the Peace and Order of the World; nothing can approach nearer to that Savage state of Nature, in which every Man is to eat
+<pb facs="6"/>
+his fellow if he can master him, than an avow'd Liberty of breaking thro' all the most solemn Engagements of publick Faith. 'Tis something that brands a Man with an Infamy, which nothing can extenuate or wipe out; he may protest and pretend to explain his meaning, but the World has generally too much indignation for the Affront, to bear it at that easie rate. Ministers and Secretaries of State, may display their own Parts in Memorials, with as much Pomp and Flourish as they please: I fancy the common answer upon such Occasions will always be, You have deceiv'd us grosly, and we neither can nor will trust you any more. When this Vice comes amongst Men of the first Rank, it is the more shocking, and I could wish there were none such, to whose charge it might be laid.</p>
+    <p>Some People (who do me a very great Honour in it) have fancy'd, that in the Person of <hi>Tamerlane</hi> I have alluded to the greatest Character of the present Age, I don't know, whether I ought not to apprehend a great deal of Danger from avowing a Design like that. It may be a Task indeed worthy the greatest Genius, which this, or any other Time has produc'd: But therefore I ought not to stand the shock of a Parallel, least it should be seen, to my Disadvantage, how far the <hi>Hero</hi> has <hi>transcended the Poet's Thought.</hi> There are many Features, 'tis true, in that Great Man's Life, not unlike His Majesty: His Courage, his Piety, his Moderation, his Justice, and his Fatherly Love of his People, but above all, his Hate of Tyranny and Oppression, and his zea lous Care for the Common Good of Mankind, carry a
+<pb facs="7"/>
+large Resemblance of Him: Several Incidents are alike in their Stories; and there wants nothing to his Majesty but such a deciding Victory, as that by which <hi>Tamerlane</hi> gave Peace to the World. That is yet to come: But I hope we may reasonably expect it from the unanimity of the present Parliament, and so formidable a Force as that Unanimity will give Life and Vigour to.</p>
+    <p>If your Lordship can find any thing in this Poem like a Prince, who is so justly the Object of your Lordship's, and indeed of the World's Veneration, I persuade my self it will prevail with you to forgive every thing else that you find amiss. You will excuse the Faults in Writing, for the goodness of the Intention. I hope too, your Lordship will not be displeas'd, that I take this opportunity of renewing the Honour which I formerly had, to be known to your Lordship, and which gives me at once the Pleasure of expressing those Just and Dutiful Sentiments I have for his Majesty, and that strong Inclination which I have always had to be thought,</p>
+    <closer>
+     <salute>My Lord,</salute>
+     <signed>Your Lordships most Obedient, Humble Servant, N. ROWE</signed>
+    </closer>
+   </div>
+   <div type="prologue">
+    <pb facs="8"/>
+    <head>PROLOGUE.</head>
+    <byline>Spoke by Mr. <hi>BETTERTON.</hi>
+    </byline>
+    <lg>
+     <l>OF all the Muses various Labours, none</l>
+     <l>Have lasted longer, or have higher flown,</l>
+     <l>Than those that tell the Fame by ancient Hero's won.</l>
+     <l>With Pleasure, <hi>Rome</hi> and Great <hi>Augustus,</hi> heard</l>
+     <l>Arms and the Man sung by the <hi>Mantuan</hi> Bard;</l>
+     <l>In spight of Time, the sacred Story lives,</l>
+     <l>And <hi>Caesar</hi> and his Empire still survives.</l>
+     <l>Like him, (tho' much unequal to his Flame)</l>
+     <l>Our Author makes a pious Prince his Theme,</l>
+     <l>High with the foremost Names in Arms he stood,</l>
+     <l>Had fought, and suffer'd for his Country's Good,</l>
+     <l>Yet sought not Fame, but Peace, in Fields of Blood.</l>
+     <l>Safe under him his happy People sate,</l>
+     <l>And griev'd at distance for their Neighbours Fate.</l>
+     <l>Whilst with Success, a <hi>Turkish</hi> Monarch Crown'd,</l>
+     <l>Like spreading Flame, deform'd the Nations round:</l>
+     <l>With Sword and Fire he forc'd his impious way</l>
+     <l>To Lawless Pow'r, and Universal Sway:</l>
+     <l>Some abject States for fear the Tyrant join;</l>
+     <l>Others for Gold their Liberties resign,</l>
+     <l>And venal Princes sold their Right Divine.</l>
+     <l>'Till Heav'n, the growing Evil to redress,</l>
+     <l>Sent <hi>Tamerlane</hi> to give the World a Peace.</l>
+     <l>The Hero rouz'd, asserts the Glorious Cause,</l>
+     <l>And to the Field the chearful Soldier draws:</l>
+     <l>Around in Crowds his valiant Leaders wait,</l>
+     <l>Anxious for Glory, and secure of Fate;</l>
+     <l>Well pleas'd, once more to venture on his side,</l>
+     <l>And prove that Faith again, which had so oft been try'd.</l>
+     <l>
+      <pb facs="9"/>
+The peaceful Fathers, who in Senates meet,</l>
+     <l>Approve an Enterprize so Just, so Great;</l>
+     <l>While with their Prince's Arms, their Voice thus join'd,</l>
+     <l>Gains half the Praise of having sav'd Mankind.</l>
+    </lg>
+    <lg>
+     <l>Ev'n in a Circle, where, like this, the Fair</l>
+     <l>Were met, the bright Assembly did declare,</l>
+     <l>Their House with one consent were for the War.</l>
+     <l>Each urg'd her Lover to unsheath his Sword,</l>
+     <l>And never spare a Man who broke his Word.</l>
+     <l>Thus fir'd, the Brave on to the Danger press;</l>
+     <l>Their Arms were crown'd abroad, with just Success,</l>
+     <l>And blest at Home with Beauty and with Peace.</l>
+    </lg>
+   </div>
+   <div type="Dramatis_Personae">
+    <pb facs="10"/>
+    <castList>
+     <head>Dramatis Personae.</head>
+     <castItem>
+      <role>Tamerlane</role>
+      <actor>Mr. Betterton</actor>
+     </castItem>
+     <castItem>
+      <role>Bajazet, Emperor of the Turks</role>
+      <actor>Mr. Verbruggen</actor>
+     </castItem>
+     <castItem>
+      <role>Axalla, an Italian Prince, General and Favourite of Tamerlane</role>
+      <actor>Mr. Booth</actor>
+     </castItem>
+     <castItem>
+      <role>Moneses, a Grecian Prince, and a Christian</role>
+      <actor>Mr. Powell</actor>
+     </castItem>
+     <castItem>
+      <role>Stratocles, his Friend</role>
+      <actor>Mr. Pack</actor>
+     </castItem>
+     <castItem>
+      <role>Prince of Tanais, Kinsman and General to Tamerlane</role>
+      <actor>Mr. Fieldhouse</actor>
+     </castItem>
+     <castItem>
+      <role>Omar, a Tartar General</role>
+      <actor>Mr. Freeman</actor>
+     </castItem>
+     <castItem>Parthian Generals to Tamerlane</castItem>
+     <castItem>
+      <role>Mirvan</role>
+      <actor>Mr. Cory</actor>
+     </castItem>
+     <castItem>
+      <role>Zama</role>
+      <actor>Mr. Husbands</actor>
+     </castItem>
+     <castItem>
+      <role>Haly, Favourite Eunuch to Bajazet</role>
+      <actor>Mr. Baily</actor>
+     </castItem>
+     <castItem>
+      <role>A Turkish Dervise</role>
+      <actor>Mr. Arnold</actor>
+     </castItem>
+     <castItem>WOMEN.</castItem>
+     <castItem>
+      <role>Arpasia, a Grecian Princess</role>
+      <actor>Mrs. Barry</actor>
+     </castItem>
+     <castItem>
+      <role>Selima, Daughter of Bajazet</role>
+      <actor>Mrs. Bracegirdle</actor>
+     </castItem>
+     <castItem>
+      <role>Parthian and Tartar Soldiers</role>
+     </castItem>
+     <castItem>
+      <role>Mutes belonging to Bajazet</role>
+     </castItem>
+     <castItem>
+      <role>Other Attendants</role>
+     </castItem>
+    </castList>
+   </div>
+   <set>
+    <p>SCENE, <hi>Tamerlane</hi>'s Camp, near <hi>Angoria</hi> in <hi>Galatia.</hi>
+    </p>
+   </set>
+  </front>
+  <body>
+   <head>
+    <pb n="1" facs="11"/>
+TAMERLANE.</head>
+   <div n="1" type="act">
+    <div n="1" type="scene">
+     <head>ACT I. SCENE I.</head>
+     <head>SCENE <stage>before <hi>Tamerlane</hi>'s Tent.</stage>
+     </head>
+     <stage>Enter the Prince of <hi>Tanais, Zama</hi> and <hi>Mirvan.</hi>
+     </stage>
+     <sp who="#prince_of_tanais">
+      <speaker>Pr. of <hi>T.</hi>
+      </speaker>
+      <l>HAIL to the Sun! from whose returning Light</l>
+      <l>The chearful Soldier's Arms new Lustre take,</l>
+      <l>To deck the Pomp of Battle; Oh, my Friends!</l>
+      <l>Was ever such a glorious Face of War?</l>
+      <l>See, from this height! how all <hi>Galatia</hi>'s Plains</l>
+      <l>With Nations numberless are cover'd o'er;</l>
+      <l>Who like a Deluge, hide the Face of Earth,</l>
+      <l>And leave no Object, in the vast Horizon,</l>
+      <l>But glitt'ring Arms, and Skies.</l>
+     </sp>
+     <sp who="#zama">
+      <speaker>Zam.</speaker>
+      <l>Our <hi>Asian</hi> World</l>
+      <l>From this important Day expects a Lord,</l>
+      <l>This day they hope an end of all their Woes,</l>
+      <l>Of Tyranny, of Bondage, and Oppression</l>
+      <l>From our Victorious Emp'ror, <hi>Tamerlane.</hi>
+      </l>
+     </sp>
+     <sp who="#mirvan">
+      <speaker>Mir.</speaker>
+      <l>Well has our Holy <hi>Alha</hi> mark'd him out</l>
+      <l>The Scourge of lawless Pride, and dire Ambition,</l>
+      <l>The great Avenger of the groaning World.</l>
+      <l>Well has he worn the sacred Cause of Justice</l>
+      <l>Upon his prosp'rous Sword; approving Heav'n</l>
+      <l>Still Crown'd the Righteous Warrior with Success;</l>
+      <l>As if he said, Go forth, and be my Champion,</l>
+      <l>
+       <pb n="2" facs="12"/>
+Thou most like me of all my Works below.</l>
+     </sp>
+     <sp who="#prince_of_tanais">
+      <speaker>Pr.</speaker>
+      <l>No lust of Rule, the common Vice of Kings,</l>
+      <l>No furious Zeal inspir'd by hot-brain'd Priests,</l>
+      <l>Ill hid beneath Religion's specious Name,</l>
+      <l>E'er drew his temp'rate. Courage to the Field:</l>
+      <l>But to redress an injur'd People's Wrongs,</l>
+      <l>To save the weak One from the strong Oppressor,</l>
+      <l>Is all his end of War; and when he draws</l>
+      <l>The Sword to punish, like relenting Heav'n,</l>
+      <l>He seems unwilling to deface his Kind.</l>
+     </sp>
+     <sp who="#mirvan">
+      <speaker>Mir.</speaker>
+      <l>So rich his Soul in every virtuous Grace,</l>
+      <l>That, had not Nature made him great by Birth,</l>
+      <l>Yet all the Brave had sought him for their Friend:</l>
+      <l>The Christian Prince <hi>Axalla,</hi> nicely bred</l>
+      <l>In polish'd Arts of <hi>Europaean</hi> Courts,</l>
+      <l>For him forsakes his native <hi>Italy,</hi>
+      </l>
+      <l>And lives a happy Exile in his Service.</l>
+     </sp>
+     <sp who="#prince_of_tanais">
+      <speaker>Pr.</speaker>
+      <l>Pleas'd with the gentle Manners of that Prince,</l>
+      <l>Our mighty Lord is lavish to his Friendship;</l>
+      <l>Tho' <hi>Omar,</hi> and the <hi>Tartar</hi> Lords repine,</l>
+      <l>And loudly tax their Monarch, as too partial.</l>
+     </sp>
+     <sp who="#zama">
+      <speaker>Zam.</speaker>
+      <l>E'er the mid Hour of Night, from Tent to Tent,</l>
+      <l>Unweary'd, thro' the num'rous Host he past,</l>
+      <l>Viewing with careful Eyes each sev'ral Quarter;</l>
+      <l>Whilst from his Looks, as from Divinity,</l>
+      <l>The Soldiers took presage; and cry'd, Lead on,</l>
+      <l>Great <hi>Alha,</hi> and our Emperor, Lead on,</l>
+      <l>To Victory, and Everlasting Fame.</l>
+     </sp>
+     <sp who="#mirvan">
+      <speaker>Mir.</speaker>
+      <l>Hear you of <hi>Bajazet?</hi>
+      </l>
+     </sp>
+     <sp who="#prince_of_tanais">
+      <speaker>Pri.</speaker>
+      <l>Late in the Evening</l>
+      <l>A Slave, of near Attendance on his Person,</l>
+      <l>'Scap'd to our Camp: from him we learn'd, the Tyrant</l>
+      <l>With Rage redoubled, for the Fight prepares;</l>
+      <l>Some accidental Passion fires his Breast,</l>
+      <l>(Love, as 'tis thought, for a fair <hi>Grecian</hi> Captive)</l>
+      <l>And adds new Horror to his native Fury;</l>
+      <l>For five returning Suns, scarce was he seen</l>
+      <l>By any the most favour'd of his Court;</l>
+      <l>But in lascivious Ease, among his Women,</l>
+      <l>Liv'd from the War retir'd; or else, alone</l>
+      <l>
+       <pb n="3" facs="13"/>
+In sullen mood sate meditating Plagues,</l>
+      <l>And Ruin to the World, 'till yester Morn,</l>
+      <l>Like Fire that lab'ring upwards rends the Earth,</l>
+      <l>He burst with Fury from his Tent, Commanding</l>
+      <l>All should be ready for the Fight, this Day.</l>
+     </sp>
+     <sp who="#zama">
+      <speaker>Zam.</speaker>
+      <l>I know his Temper well, since, in his Court</l>
+      <l>Companion of the brave <hi>Axalla</hi>'s Embassy,</l>
+      <l>I oft observ'd him, Proud, Impatient,</l>
+      <l>Of Ought Superiour, ev'n of Heav'n, that made him.</l>
+      <l>Fond of false Glory, of the Salvage Pow'r</l>
+      <l>Of ruling without Reason, of confounding</l>
+      <l>Just, and Unjust, by an Unbounded Will;</l>
+      <l>By whom Religion, Honour, all the Bands</l>
+      <l>That ought to hold the jarring World in Peace,</l>
+      <l>Were held the Tricks of State, Snares of wise Princes</l>
+      <l>To draw their easie Neighbours to Destruction.</l>
+     </sp>
+     <sp who="#mirvan">
+      <speaker>Mir.</speaker>
+      <l>Thrice, by our Law and Prophet, has he sworn,</l>
+      <l>By the World's Lord, and Maker, lasting Peace</l>
+      <l>With our great Master, and his Royal Friend</l>
+      <l>The <hi>Grecian</hi> Emperor; as oft regardless</l>
+      <l>Of plighted Faith, with most Un-Kingly Baseness,</l>
+      <l>H' has ta'en th' Advantage of their absent Arms,</l>
+      <l>Without a War proclaim'd, or Cause pretended,</l>
+      <l>To waste with Sword and Fire their fruitful Fields:</l>
+      <l>Like some accursed Fiend, who 'scap'd from Hell,</l>
+      <l>Poisons the balmy Air thro' which he flies,</l>
+      <l>He blasts the bearded Corn, and loaded Branches,</l>
+      <l>The lab'ring Hind's best hopes, and marks his way with ruin.</l>
+     </sp>
+     <sp who="#prince_of_tanais">
+      <speaker>Pr.</speaker>
+      <l>But see! his Fate, the mighty <hi>Tamerlane</hi>
+      </l>
+      <l>Comes like the Proxy of enquiring Heav'n,</l>
+      <l>To Judge, and to Redress.</l>
+      <stage>[Flourish of Trumpets.</stage>
+     </sp>
+     <stage>Enter <hi>Tamerlane,</hi> Guards, and other Attendants.</stage>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Yet, yet, a little and destructive Slaughter</l>
+      <l>Shall rage around, and marr this beauteous Prospect;</l>
+      <l>Pass but an hour, which stands betwixt the Lives</l>
+      <l>Of Thousands and Eternity: What Change</l>
+      <l>Shall hasty Death make in yon glitr'ring Plain?</l>
+      <l>Oh thou sell Monster, War! That in a moment</l>
+      <l>Lay'st waste the noblest part of the Creation,</l>
+      <l>
+       <pb n="4" facs="14"/>
+The Boast, and Master-piece of the Great Maker,</l>
+      <l>That wears in vain th' Impression of his Image,</l>
+      <l>Unpriviledg'd from thee.</l>
+      <l>Health to our Friends, and to our Arms Success, <stage>To the Prince, <hi>Zama</hi> and <hi>Mir.</hi>
+       </stage>
+      </l>
+      <l>Such as the Cause for which we fight deserves.</l>
+     </sp>
+     <sp who="#prince_of_tanais">
+      <speaker>Pr.</speaker>
+      <l>Nor can we ask beyond what Heav'n bestows,</l>
+      <l>Preventing still our Wishes. See Great Sir!</l>
+      <l>The Universal Joy, your Soldiers wear,</l>
+      <l>Omen of prosp'rous Battle.</l>
+      <l>Impatient of the tedious Night in Arms</l>
+      <l>Watchful they stood expecting op'ning day;</l>
+      <l>And now are hardly by their Leaders held</l>
+      <l>From darting on the Foe; like a hot Courser,</l>
+      <l>That bounding Paws the mould'ring Soil, disdaining</l>
+      <l>The Rein that checks him, eager for the Race.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Yes, Prince, I mean to give a loose to War:</l>
+      <l>This Morn, <hi>Axalla,</hi> with my <hi>Parthian</hi> Horse</l>
+      <l>Arrives to joyn me, He, who like a Storm</l>
+      <l>Swept with his flying Squadrons all the Plain</l>
+      <l>Between <hi>Angoria</hi>'s Walls, and yon tall Mountains</l>
+      <l>That seem to reach the Clouds; and now he comes</l>
+      <l>Loaden with Spoils, and Conquest, to my aid.</l>
+     </sp>
+     <sp who="#zama">
+      <speaker>Zam.</speaker>
+      <l>These Trumpets speak his Presence— <stage>[Flourish of Trumpets.</stage>
+      </l>
+     </sp>
+     <stage>Enter <hi>Axalla</hi> with Soldiers. <hi>Moneses, Stratocles</hi> and <hi>Selima,</hi> Prisoners.</stage>
+     <stage>[<hi>Axalla</hi> kneels to <hi>Tamerlane.</hi>
+     </stage>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Wellcome! thou worthy Partner of my Laurels,</l>
+      <l>Thou Brother of my Choice, a Band more Sacred</l>
+      <l>Than Nature's brittle Tye. By holy Friendship!</l>
+      <l>Glory, and Fame stood still for thy arrival,</l>
+      <l>My Soul seem'd wanting in its better half,</l>
+      <l>And languish'd for thy absence, like a Prophet,</l>
+      <l>That waits the Inspiration of his God.</l>
+     </sp>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>My Emperor! my ever Royal Master!</l>
+      <l>To whom my Secret Soul more lowly bends,</l>
+      <l>Than Forms of outward Worship can express;</l>
+      <l>How poorly does your Soldier pay this Goodness,</l>
+      <l>
+       <pb n="5" facs="15"/>
+Who wears his every hour of Life out for you?</l>
+      <l>Yet 'tis his All, and what he has he offers;</l>
+      <l>Nor now disdain, t' accept the Gift he brings,</l>
+      <l>This earnest of your Fortune. See my Lord</l>
+      <l>The noblest Prize, that ever grac'd my Arms;</l>
+      <l>Approach my Fair—</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>This is indeed to Conquer,</l>
+      <l>And well to be rewarded for thy Conquest;</l>
+      <l>The Bloom of opening Flow'rs, unsully'd Beauty,</l>
+      <l>Softness, and sweetest Innocence she wears,</l>
+      <l>And looks like Nature in the World's first Spring;</l>
+      <l>But say, <hi>Axalla</hi>—</l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>Most Renown'd in War, <stage>Kneeling to <hi>Tam.</hi>
+       </stage>
+      </l>
+      <l>Look with Compassion on a Captive Maid, <stage>Kneeling to <hi>Tam.</hi>
+       </stage>
+      </l>
+      <l>Tho' born of Hostile Blood; nor let my Birth</l>
+      <l>Deriv'd from <hi>Bajazet,</hi> prevent that Mercy,</l>
+      <l>Which every Subject of your Fortune finds;</l>
+      <l>War is the Province of Ambitious Man,</l>
+      <l>Who tears the miserable World for Empire;</l>
+      <l>Whilst our weak Sex, incapable of wrong,</l>
+      <l>On either side claims Priviledge of Safety.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>
+       <stage>[Raising her.]</stage> Rise, Royal Maid, the pride of haughty Pow'r,</l>
+      <l>Pays Homage, not receives it from the Fair:</l>
+      <l>Thy Angry Father fiercely calls me forth,</l>
+      <l>And urges me unwillingly to Arm;</l>
+      <l>Yet, tho' our frowning Battles menace Death</l>
+      <l>And mortal Conflict, think not that we hold</l>
+      <l>Thy Innocence and Virtue as our Foe.</l>
+      <l>Here, 'till the Fate of <hi>Asia</hi> is decided,</l>
+      <l>In safety stay. To Morrow is your own:</l>
+      <l>Nor grieve for who may Conquer, or who Lose;</l>
+      <l>Fortune on either side shall wait thy Wishes.</l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>Where shall my Wonder and my Praise begin!</l>
+      <l>From the successful Labours of thy Arms?</l>
+      <l>Or from a Theme more soft, and full of Peace,</l>
+      <l>Thy Mercy, and thy Gentleness? Oh! <hi>Tamerlane</hi>!</l>
+      <l>What can I pay thee for this noble Usage</l>
+      <l>But greatful Praise? So Heav'n it self is paid.</l>
+      <l>Give Peace, ye Pow'rs above, Peace to Mankind</l>
+      <l>Not let my Father wage unequal War</l>
+      <l>
+       <pb n="6" facs="16"/>
+Against the Force of such united Virtues.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Heav'n hear thy pious Wish!—But since our Prospect</l>
+      <l>Looks darkly on Futurity, 'till Fate</l>
+      <l>Determine for us, let thy Beauty's safety</l>
+      <l>Be my <hi>Axalla</hi>'s Care; in whose glad Eyes</l>
+      <l>I read what Joy the pleasing Service gives him.</l>
+      <l>Is there amongst thy other Pris'ners ought <stage>[To <hi>Axalla.</hi>
+       </stage>
+      </l>
+      <l>Worthy our Knowledge?</l>
+     </sp>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>This brave Man, my Lord, <stage>Pointing to <hi>Moneses.</hi>
+       </stage>
+      </l>
+      <l>With long resistance held the Combat doughtful: <stage>Pointing to <hi>Moneses.</hi>
+       </stage>
+      </l>
+      <l>His Party, prest with Numbers, soon grew faint,</l>
+      <l>And would have left their Charge an easie Prey;</l>
+      <l>Whilst he alone, undaunted at the odds,</l>
+      <l>Tho' hopeless to escape, fought well and firmly:</l>
+      <l>Nor yielded, 'till o'er match'd by many Hands,</l>
+      <l>He seem'd to shame our Conquest, whilst he own'd it.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Thou speak'st him as a Soldier should a Soldier,</l>
+      <l>Just to the worth he finds. I would not war <stage>[To <hi>Moneses.</hi>
+       </stage>
+      </l>
+      <l>With ought that wears thy virtuous Stamp of Greatness:</l>
+      <l>Thy Habit speaks thee Christian—Nay, yet more,</l>
+      <l>My Soul seems pleas'd to take acquaintance with thee,</l>
+      <l>As if ally'd to thine: Perhaps 'tis Sympathy</l>
+      <l>Of honest Minds; like Strings wound up in Musick,</l>
+      <l>Where by one touch, both utter the same Harmony:</l>
+      <l>Why art thou then a Friend to <hi>Bajazet?</hi>
+      </l>
+      <l>And why my Enemy?</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>If human Wisdom</l>
+      <l>Could point out every Action of our Lives,</l>
+      <l>And say, Let it be thus, in spite of Fate,</l>
+      <l>Or partial Fortune, then I had not been</l>
+      <l>The Wretch I am.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>The Brave meet every Accident</l>
+      <l>With equal Minds: Think nobler of thy Foes,</l>
+      <l>Than to account thy Chance in War an Evil.</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>Far, far from that; I rather hold it grieveous</l>
+      <l>That I was forc'd ev'n but to seem your Enemy;</l>
+      <l>Nor think the baseness of a vanquish'd Slave</l>
+      <l>Moves me to slatter for precarious Life,</l>
+      <l>Or ill-bought Freedom, when I swear by Heav'n!</l>
+      <l>Were I to chuse from all Mankind a Master,</l>
+      <l>
+       <pb n="7" facs="17"/>
+It should be <hi>Tamerlane.</hi>
+      </l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>A noble Freedom</l>
+      <l>Dwells with the Brave, unknown to fawning Sycophants,</l>
+      <l>And Claims a Privilege of being believ'd.</l>
+      <l>I take thy Praise as earnest of thy Friendship.</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>Still you prevent the Homage I should offer,</l>
+      <l>O Royal Sir! let my Misfortunes plead,</l>
+      <l>And wipe away the hostile Mark I wore.—</l>
+      <l>I was, when not long since my Fortune hail'd me,</l>
+      <l>Bless'd to my wish, I was the Prince <hi>Moneses;</hi>
+      </l>
+      <l>Born and bred up to Greatness: Witness the Blood</l>
+      <l>Which thro' successive Hero's Veins ally'd</l>
+      <l>To our <hi>Greek</hi> Emperors, roll'd down to me,</l>
+      <l>Feeds the bright Flame of Glory in my Heart.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Ev'n that! that Princely Tye should bind thee to me,</l>
+      <l>If Virtue were not more than all Alliance.</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>I have a Sister, (Oh severe Remembrance!)</l>
+      <l>Our Noble Houses, nay, her Sexe's Pride:</l>
+      <l>Nor think my Tongue too lavish, if I speak her</l>
+      <l>Fair as the Fame of Virtue, and yet chaste</l>
+      <l>As its cold Precepts, wise beyond her Sex</l>
+      <l>And blooming Youth, soft as forgiving Mercy,</l>
+      <l>Yet greatly brave, and jealous for her Honour:</l>
+      <l>Such as she was, to say I barely lov'd her,</l>
+      <l>Is poor to my Soul's meaning: From our Infancy</l>
+      <l>There grew a mutual Tenderness between us,</l>
+      <l>'Till not long since her Vows were kindly plighted</l>
+      <l>To a young Lord, the Equal of her Birth.</l>
+      <l>The happy Day was fix'd, and now approaching,</l>
+      <l>When faithless <hi>Bajazet</hi> (upon whose Honour,</l>
+      <l>In solemn Treaty giv'n, the <hi>Greeks</hi> depended)</l>
+      <l>With sudden War broke in upon the Country,</l>
+      <l>Secure of Peace, and for Defence unready.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Let Majesty no more be held Divine,</l>
+      <l>Since Kings, who are call'd Gods, profane themselves.</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>Among the Wretches, whom that Deluge swept</l>
+      <l>Away to Slavery, my self and Sister</l>
+      <l>Then passing near the Frontiers to the Court,</l>
+      <l>(Which waited for her Naptials) were surpriz'd,</l>
+      <l>And made the Captives of the Tyrant's Power</l>
+      <l>
+       <pb n="8" facs="18"/>
+Soon as we reach'd his Court, we found our Usage</l>
+      <l>Beyond what we expected, fair, and noble:</l>
+      <l>'Twas then the Storm of your victorious Arms</l>
+      <l>Look'd black, and seem'd to threaten, when he press'd me</l>
+      <l>(By oft repeated Instances) to draw</l>
+      <l>My Sword for him? But when he found my Soul</l>
+      <l>Disdain'd his Purpose, he more fiercely told me,</l>
+      <l>That my <hi>Arpasia,</hi> my lov'd Sister's Fate</l>
+      <l>Depended on my Courage shewn for him.</l>
+      <l>I had long learnt to hold my self at nothing,</l>
+      <l>But for her sake; to ward the Blow from her,</l>
+      <l>I bound my Service to the Man I hated.</l>
+      <l>Six Days are past, since by the Sultan's Order</l>
+      <l>I left the Pledge of my return behind,</l>
+      <l>And went to guard this Princess to his Camp:</l>
+      <l>The rest the brave <hi>Axalla</hi>'s Fortune tells you.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Wisely the Tyrant strove, to prop his Cause</l>
+      <l>By leaguing with thy Virtue; but just Heav'n</l>
+      <l>Has torn thee from his Side, and left him naked</l>
+      <l>To the avenging Bolt that drives upon him:</l>
+      <l>Forget the Name of Captive, and I wish</l>
+      <l>I could as well restore that Fair One's Freedom,</l>
+      <l>Whose loss hangs heavy on thee: Yet e'er Night</l>
+      <l>Perhaps we may deserve thy Friendship nobler;</l>
+      <l>Th' approaching Storm may cast thy Shipwreck'd Wealth</l>
+      <l>Back to thy Arms: 'Till that be past, since War</l>
+      <l>(Tho' in the justest Cause) is ever doubtful,</l>
+      <l>I will not ask thy Sword to aid my Victory,</l>
+      <l>Lest it should hurt that Hostage of thy Valour</l>
+      <l>Our common Foe detains.</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>Let <hi>Bajazet</hi>
+      </l>
+      <l>Bend to his Yoak repining Slaves by sorce,</l>
+      <l>You, Sir, have found a nobler way to Empire,</l>
+      <l>Lord of the willing World.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Oh, my <hi>Axalla!</hi>
+      </l>
+      <l>Thou hast a tender Soul, apt for Compassion,</l>
+      <l>And art thy self a Lover and a Friend:</l>
+      <l>Does not this Prince's Fortune move thy Temper?</l>
+     </sp>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>Yes, Sir, I mourn the brave <hi>Moneses</hi> Fate;</l>
+      <l>The Merit of his Virtue hardly match'd</l>
+      <l>
+       <pb n="9" facs="19"/>
+With disadvent'rous Chance: Yet, Prince, allow me,</l>
+      <l>Allow me from th' Experience of a Lover</l>
+      <l>To say, one Person, whom your Story mention'd,</l>
+      <l>(If he survive) is far beyond you wretched:</l>
+      <l>You nam'd the Bridegroom of your beauteous Sister.</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>I did: Oh, most accurst!</l>
+     </sp>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>Think what he feels,</l>
+      <l>Dash'd in the fierceness of his Expectation;</l>
+      <l>Then, when th' approaching Minute of Possession</l>
+      <l>Had wound Imagination to the heighth,</l>
+      <l>Think if he lives!—</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>He lives, he does; 'tis true</l>
+      <l>He lives; but how? To be a Dog, and dead,</l>
+      <l>Were Paradise to such a State as his:</l>
+      <l>He holds down Life as Children do a Potion,</l>
+      <l>With strong Reluctance, and convulsive Strugglings,</l>
+      <l>Whilst his Misfortunes press him to disgorge it.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Spare the remembrance; 'tis a useless Grief,</l>
+      <l>And adds to the Misfortune by repeating it.</l>
+      <l>The revolution of a Day may bring</l>
+      <l>Such Turns, as Heav'n it self could scarce have promis'd,</l>
+      <l>Far, far beyond thy Wish: Let that Hope chear thee;</l>
+      <l>Haste my <hi>Axalla,</hi> to dispose, with safety,</l>
+      <l>Thy beauteous Charge, and on the Foe revenge</l>
+      <l>The Pain, which Absence gives; thy other care,</l>
+      <l>Honour and Arms, now summon thy Attendance;</l>
+      <l>Now, do thy Office well, my Soul, remember</l>
+      <l>Thy Cause; the Cause of Heav'n and injur'd Earth.</l>
+      <l>O thou Supream! if thy great Spirit warms</l>
+      <l>My glowing Breast, and fires my Soul to Arms,</l>
+      <l>Grant that my Sword, assisted by thy Pow'r,</l>
+      <l>This Day may Peace and Happiness restore,</l>
+      <l>That War and lawless Rage may vex thy World no more.</l>
+      <stage>[Exeunt <hi>Tamerlane, Moneses, Stratocles,</hi> Prince of <hi>Tanais, Zama, Mirvan,</hi> and Attendants.</stage>
+     </sp>
+     <stage>Manent <hi>Axalla,</hi> and <hi>Selima,</hi> with Soldiers.</stage>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>The Battle calls, and bids me hasse to leave thee</l>
+      <l>Oh! <hi>Selima!</hi>—But let Destruction wait</l>
+      <l>Are there not Hours enough for Blood and Slaughter?</l>
+      <l>
+       <pb n="10" facs="20"/>
+This moment shall be Love's, and I will waste it</l>
+      <l>In soft Complainings, for thy Sighs and Coldness,</l>
+      <l>For thy forgetful Coldness; even at <hi>Birza,</hi>
+      </l>
+      <l>When in thy Father's Court my Eyes first own'd thee,</l>
+      <l>Fairer than Light, the Joy of their beholding,</l>
+      <l>Ev'n then thou wert not thus?</l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>Art not thou chang'd?</l>
+      <l>Christian <hi>Axalla,</hi> Art thou still the same?</l>
+      <l>Those were the gentle Hours of Peace, and thou</l>
+      <l>The World's good Angel, that didst kindly join</l>
+      <l>Its mighty Masters in harmonious Friendship:</l>
+      <l>But since those Joys, that once were ours, are lost,</l>
+      <l>Forbear to mention 'em, and talk of War:</l>
+      <l>Talk of thy Conquest, and my Chains, <hi>Axalla.</hi>
+      </l>
+     </sp>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>Yet I will listen, fair unkind Upbraider,</l>
+      <l>Yet I will listen to thy charming Accents,</l>
+      <l>Altho' they make me curse my Fame and Fortune,</l>
+      <l>My Laurel-wreaths, and all the glorious Trophies,</l>
+      <l>For which the Valiant bleed—Oh! thou unjust one,</l>
+      <l>Dost thou then envy me this small return</l>
+      <l>My niggard Fate has made for all the Mournings,</l>
+      <l>For all the Pains, for all the sleepless Nights</l>
+      <l>That cruel Absence brings?</l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>Away, Deceiver;</l>
+      <l>I will not hear thy soothing: Is it thus</l>
+      <l>That Christian Lovers prove the Faith they swear?</l>
+      <l>Are War and Slavery the soft Endearments</l>
+      <l>With which they Court the Beauties they admire?</l>
+      <l>'Twas well my Heart was cautious of believing</l>
+      <l>Thy Vows, and thy Protesting. Know my Conqueror,</l>
+      <l>Thy Sword has vanquish'd but the half of <hi>Selima,</hi>
+      </l>
+      <l>Her Soul disdains thy Victory.</l>
+     </sp>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>Hear, sweet Heav'n,</l>
+      <l>Hear the fair Tyrant, how she wrests Love's Laws,</l>
+      <l>As she had vow'd my Ruin! What is Conquest?</l>
+      <l>What Joy have I from that but to behold thee,</l>
+      <l>To kneel before thee, and with lifted Eyes</l>
+      <l>To view thee, as Devotion does a Saint,</l>
+      <l>With awful, trembling Pleasure: Then to swear</l>
+      <l>Thou art the Queen and Mistress of my Soul?</l>
+      <l>
+       <pb n="11" facs="21"/>
+Has not ev'n <hi>Tamerlane</hi> (whose Word, next Heav'ns,</l>
+      <l>Makes Fate at second hand) bid thee disclaim</l>
+      <l>Thy Fears? And dost thou call thy self a Slave?</l>
+      <l>Only to try how far the sad Impression</l>
+      <l>Can sink into <hi>Axalla.</hi>
+      </l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>Oh <hi>Axalla!</hi>
+      </l>
+      <l>Ought I to hear you?</l>
+     </sp>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>Come back, ye Hours,</l>
+      <l>And tell my <hi>Selima</hi> what she has done:</l>
+      <l>Bring back the time, when to her Father's Court</l>
+      <l>I came Ambassador of Peace from <hi>Tamerlane;</hi>
+      </l>
+      <l>When hid by conscious Darkness and Disguise,</l>
+      <l>I past the Dangers of the watchful Guards;</l>
+      <l>Bold as the Youth who nightly swam the <hi>Hellespont:</hi>
+      </l>
+      <l>Then, then she was not sworn the Foe of Love;</l>
+      <l>When, as my Soul confest its Flame, and su'd</l>
+      <l>In moving sounds for Pity, she frown'd rarely,</l>
+      <l>But, blushing, heard me tell the gentle Tale:</l>
+      <l>Nay, ev'n confest, and told me softly sighing</l>
+      <l>She thought there was no guilt in Love like mine.</l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>Young and unskilful in the World's false Arts,</l>
+      <l>I suffer'd Love to steal upon my Softness,</l>
+      <l>And warm me with a lambent guiltless Flame:</l>
+      <l>Yes, I have heard thee swear a thousand times,</l>
+      <l>And call the conscious Pow'rs of Heav'n to witness</l>
+      <l>The tend'rest, truest, everlasting Passion:</l>
+      <l>But, Oh! 'tis past; and I will charge Remembrance</l>
+      <l>To banish the sond Image from my Soul:</l>
+      <l>Since thou art sworn the Foe of Royal <hi>Bajazet,</hi>
+      </l>
+      <l>I have resolv'd to hate thee.</l>
+     </sp>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>Is it possible!</l>
+      <l>Hate is not in thy Nature; thy whole Frame</l>
+      <l>Is Harmony, without one jarring Atom.</l>
+      <l>Why do'st thou sorce thy Eyes to wear this Coldness</l>
+      <l>It damps the Springs of Life. Oh! bid me die,</l>
+      <l>Much rather bid me die, if it be true,</l>
+      <l>That thou hast sworn to hate me.—</l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>Let Life and Death</l>
+      <l>Wait the Decision of the bloody Field;</l>
+      <l>Nor can thy Fate (my Conqueror) depend</l>
+      <l>
+       <pb n="12" facs="22"/>
+Upon a Woman's Hate. Yet since you urge</l>
+      <l>A Power, which once perhaps I had, there is</l>
+      <l>But one Request, that I can make with Honour.</l>
+     </sp>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>Oh! name it! say!—</l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>Forego your right of War,</l>
+      <l>And render me this instant to my Father.</l>
+     </sp>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>Impossible!—The tumult of the Battle,</l>
+      <l>That hastes to joyn, cuts off all means of Commerce</l>
+      <l>Betwixt the Armies.</l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>Swear then to perform it,</l>
+      <l>Which way soe'er the chance of War determines,</l>
+      <l>On my first instance.</l>
+     </sp>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>By the sacred Majesty</l>
+      <l>Of Heav'n, to whom we kneel, I will obey thee;</l>
+      <l>Yes, I will give thee this severest Proof</l>
+      <l>Of my Soul's vow'd Devotion, I will part with thee</l>
+      <l>(Thou Cruel, to command it!) I will part with thee,</l>
+      <l>As Wretches, that are doubtful of Hereafter,</l>
+      <l>Part with their Lives, unwilling, loth and fearful,</l>
+      <l>And trembling at Futurity. But is there nothing,</l>
+      <l>No small return that Honour can afford</l>
+      <l>For all this waste of Love?</l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>The Gifts of Captives</l>
+      <l>Wear somewhat of Constraint; and generous Minds</l>
+      <l>Disdain to give, where freedom of the Choice</l>
+      <l>Does but seem wanting.</l>
+     </sp>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>What! not one kind Look?</l>
+      <l>Then thou art chang'd indeed. <stage>Trumpets.</stage> Hark! I am summon'd</l>
+      <l>And thou wilt send me forth like one unbless'd;</l>
+      <l>Whom Fortune has forsaken, and ill Fate</l>
+      <l>Mark'd for Destruction. Thy surprising Coldness</l>
+      <l>Hangs on my Soul, and weighs my Courage down;</l>
+      <l>And the first feeble Blow I meet shall raze me</l>
+      <l>From all Remembrance: Nor is Life or Fame</l>
+      <l>Worthy my Care, since I am lost to thee. <stage>[Going.</stage>
+      </l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>Ha! Goest thou to the Fight!—</l>
+     </sp>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>I do.—Farewel!—</l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>What! and no more! A Sigh heaves in my Breast,</l>
+      <l>And stops the struggling Accents on my Tongue,</l>
+      <l>Else, sure, I should have added something more,</l>
+      <l>
+       <pb n="13" facs="23"/>
+And made our Parting softer.</l>
+     </sp>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>Give it way,</l>
+      <l>The niggard Honour, that affords not Love,</l>
+      <l>Forbids not Pity—</l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>Fate perphaps has set</l>
+      <l>This Day, the Period of thy Life, and Conquests,</l>
+      <l>And I shall see thee born at Evening back,</l>
+      <l>A breathless Coarse;—Oh! Can I think on that</l>
+      <l>And hide my Sorrows?—No—they will have way,</l>
+      <l>And all the Vital Air, that Life draws in,</l>
+      <l>Is render'd back in Sighs.</l>
+     </sp>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>The murm'ring Gale revives the drooping Flame,</l>
+      <l>That at thy Coldness languish'd in my Breast;</l>
+      <l>So breath the gentle Zephyrs on the Spring,</l>
+      <l>And waken every Plant, and od'rous Flower,</l>
+      <l>Which Winter Frosts had blasted, to new Life.</l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>To see thee for this moment, and no more—</l>
+      <l>Oh! help me to resolve against this Tenderness,</l>
+      <l>That charms my fierce Resentments, and presents thee</l>
+      <l>Not as thou art, mine, and my Father's Foe,</l>
+      <l>But as thou wert, when first thy moving Accents</l>
+      <l>Won me to hear; when, as I listn'd to thee,</l>
+      <l>The happy Hours past by us unperceiv'd,</l>
+      <l>So was my Soul fix'd to the soft Enchantment.</l>
+     </sp>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>Let me be still the same, I am, I must be.</l>
+      <l>If it were possible my Heart could stray,</l>
+      <l>One Look from thee would call it back again,</l>
+      <l>And fix the Wanderer for ever thine.</l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>Where is my boasted Resolution now? <stage>Sinking into his Arms.</stage>
+      </l>
+      <l>Oh! Yes! Thou art the same; my Heart joins with thee, <stage>Sinking into his Arms.</stage>
+      </l>
+      <l>And to betray me will believe thee still:</l>
+      <l>It dances to the Sounds that mov'd it first,</l>
+      <l>And owns at once the weakness of my Soul:</l>
+      <l>So when some skilful Artist strikes the Strings,</l>
+      <l>The magick Numbers rouze our sleeping Passions,</l>
+      <l>And force us to confess our Grief, and Pleasure.</l>
+      <l>Alas! <hi>Axalla,</hi> say—dost thou not pity</l>
+      <l>My artless Innocence, and easie Fondness?</l>
+      <l>Oh! turn thee from me, or I die with blushing.</l>
+     </sp>
+     <sp who="#axalla">
+      <pb n="14" facs="24"/>
+      <speaker>Ax.</speaker>
+      <l>No—let me rather gaze, for ever gaze,</l>
+      <l>And bless the new-born Glories that adorn thee;</l>
+      <l>From every Blush, that kindles in thy Cheeks,</l>
+      <l>Ten thousand little Loves, and Graces spring,</l>
+      <l>To revel in the Roses—'two' not be, <stage>[Trumpets.</stage>
+      </l>
+      <l>This envious Trumpet calls, and tears me from thee—</l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>My Fears increase, and doubly press me now,</l>
+      <l>I charge thee, if thy Sword comes cross my Father,</l>
+      <l>Stop for a moment, and remember me.</l>
+     </sp>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>Oh! doubt not, but his Life shall be my care,</l>
+      <l>Ev'n dearer than my own—</l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>Guard that for me too.</l>
+     </sp>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>Oh! <hi>Selima!</hi> thou hast restor'd my quiet,</l>
+      <l>The noble ardour of the War, with Love</l>
+      <l>Returning, brightly burns within my Breast,</l>
+      <l>And bids me be secure of all hereafter.</l>
+      <l>So chears some pious Saint a dying Sinner,</l>
+      <l>(Who trembled at the thought of Pains to come)</l>
+      <l>With Heav'ns Forgiveness, and the hopes of Mercy:</l>
+      <l>At length the tumult of his Soul appeas'd,</l>
+      <l>And every Doubt, and anxious Scruple eas'd,</l>
+      <l>Boldly he proves the dark, uncertain Road,</l>
+      <l>The Peace, his holy Comforter bestow'd,</l>
+      <l>Guides, and protects him, like a guardian God.</l>
+      <stage>[Exit <hi>Axalla.</hi>
+      </stage>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>In vain all Arts a Love-sick Virgin tries,</l>
+      <l>Affects to frown, and seems severely wise,</l>
+      <l>In hopes to cheat the weary Lover's Eyes.</l>
+      <l>If the dear Youth her Pity strives to move,</l>
+      <l>And pleads, with tenderness, the cause of Love;</l>
+      <l>Nature asserts her Empire in her Heart,</l>
+      <l>And kindly takes the faithful Lover's part.</l>
+      <l>By Love, her self, and Nature thus betray'd,</l>
+      <l>No more she trusts in Pride's fantastick Aid,</l>
+      <l>But bids her Eyes confess the yielding Maid.</l>
+      <stage>[Exit <hi>Selima,</hi> Guards following.</stage>
+     </sp>
+    </div>
+    <trailer>End of the first Act.</trailer>
+   </div>
+   <div n="2" type="act">
+    <div n="1" type="scene">
+     <pb n="15" facs="25"/>
+     <head>ACT II. SCENE I.</head>
+     <head>SCENE <stage>
+       <hi>Tamerlane</hi>'s Camp.</stage>
+     </head>
+     <stage>Enter <hi>Moneses.</hi>
+     </stage>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>THE dreadful Business of the War is over,</l>
+      <l>And slaughter, that, from yester Morn 'till Even,</l>
+      <l>With Giant Steps, past striding o'er the Field,</l>
+      <l>Besmear'd, and horrid with the Blood of Nations,</l>
+      <l>Now weary sits among the mangled Heaps,</l>
+      <l>And slumbers o'er her Prey; while from this Camp</l>
+      <l>The chearful Sounds of Victory, and <hi>Tamerlane,</hi>
+      </l>
+      <l>Beat the high Arch of Heav'n; deciding Fate,</l>
+      <l>That Crowns him with the Spoils of such a Day,</l>
+      <l>Has giv'n it as an Earnest of the World</l>
+      <l>That shortly shall be his.</l>
+      <stage>[Enter <hi>Stratocles.</hi>
+      </stage>
+      <l>My <hi>Stratocles!</hi>
+      </l>
+      <l>Most happily return'd; might I believe</l>
+      <l>Thou bring'st me any Joy?</l>
+     </sp>
+     <sp who="#stratocles">
+      <speaker>Str.</speaker>
+      <l>With my best Diligence,</l>
+      <l>This Night, I have enquir'd of what concerns you.</l>
+      <l>Scarce was the Sun, who shone upon the Horror</l>
+      <l>Of the past day, sunk to the Western Ocean,</l>
+      <l>When by permission from the Prince <hi>Axalla,</hi>
+      </l>
+      <l>I mixt among the Tumult of the Warriors,</l>
+      <l>Returning from the Battle: Here a Troop</l>
+      <l>Of hardy <hi>Parthians</hi> red with honest Wounds,</l>
+      <l>Confest the Conquest, they had well deserv'd:</l>
+      <l>There a dejected Crew of wretched Captives</l>
+      <l>Sore with unprofitable Hurts, and groaning</l>
+      <l>Under new Bondage, follow'd sadly after</l>
+      <l>The haughty Victor's heels; but that, which fully</l>
+      <l>Crown'd the Success of <hi>Tamerlane,</hi> was <hi>Bajazet,</hi>
+      </l>
+      <l>Fall'n like the proud Archangel from the height,</l>
+      <l>Where once (even next to Majesty Divine)</l>
+      <l>Enthron'd he sat, down to the vile Descent</l>
+      <l>
+       <pb n="16" facs="26"/>
+And lowness of a Slave; but oh! to speak</l>
+      <l>The Rage, the Fierceness, and the Indignation!—</l>
+      <l>It bars all Words, and cuts Description short.</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>Then he is fall'n! that Comet, which, on high,</l>
+      <l>Portended Ruin; he has spent his Blaze,</l>
+      <l>And shall distract the World with Fears no more:</l>
+      <l>Sure it must bode me well, for oft my Soul</l>
+      <l>Has started into Tumult at his Name,</l>
+      <l>As if my Guardian Angel took th' Alarm,</l>
+      <l>At the approach of somewhat mortal to me:</l>
+      <l>But say, my Friend, what hear'st thou of <hi>Arpasia?</hi>
+      </l>
+      <l>For there my Thoughts, my every Care is center'd.</l>
+     </sp>
+     <sp who="#stratocles">
+      <speaker>Str.</speaker>
+      <l>Tho' on that purpose still I bent my Search,</l>
+      <l>Yet nothing certain could I gain, but this,</l>
+      <l>That in the Pillage of the Sultan's Tent,</l>
+      <l>Some Women were made Pris'ners, who this Morning</l>
+      <l>Were to be offer'd to the Emperor's View;</l>
+      <l>Their Names, and Qualities, tho' oft enquiring,</l>
+      <l>I could not learn.</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>Then must my Soul still labour</l>
+      <l>Beneath Uncertainty, and anxious Doubt,</l>
+      <l>The Mind's worst State. The Tyrant's Ruin gives me</l>
+      <l>But a Half-ease.</l>
+     </sp>
+     <sp who="#stratocles">
+      <speaker>Str.</speaker>
+      <l>'Twas said, not far from hence</l>
+      <l>The Captives were to wait the Emperor's Passage.</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>Haste me to find the Place. Oh! my <hi>Arpasia!</hi>
+      </l>
+      <l>Shall we not meet? Why hangs my Heart thus heavy</l>
+      <l>Like Death within my Bosom? Oh! 'tis well,</l>
+      <l>The Joy of Meeting pays the Pangs of Absence,</l>
+      <l>Else who could bear it?</l>
+      <l>When thy lov'd Sight shall bless my Eyes again,</l>
+      <l>Then I will own, I ought not to complain,</l>
+      <l>Since that sweet Hour is worth whole Years of Pain.</l>
+      <stage>[Exeunt <hi>Moneses,</hi> and <hi>Stratocles.</hi>
+      </stage>
+     </sp>
+    </div>
+    <div n="2" type="scene">
+     <pb n="17" facs="27"/>
+     <head>SCENE II.</head>
+     <stage>the Inside of a Magnificent Tent.</stage>
+     <stage>Symphony of Warlike Musick.</stage>
+     <stage>Enter <hi>Tamerlane, Axalla,</hi> Prince of <hi>Tanais, Zama, Mirvan,</hi> Soldiers and other Attendants.</stage>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>From this Auspicious Day the <hi>Parthian</hi> Name</l>
+      <l>Shall date its Birth of Empire, and extend</l>
+      <l>Ev'n from the dawning East to utmost <hi>Thulé</hi>
+      </l>
+      <l>The Limits of its Sway.</l>
+     </sp>
+     <sp who="#prince_of_tanais">
+      <speaker>Pr. of <hi>T.</hi>
+      </speaker>
+      <l>Nations unknown,</l>
+      <l>Where yet the <hi>Roman</hi> Eagles never flew,</l>
+      <l>Shall pay their Homage to Victorious <hi>Tamerlane,</hi>
+      </l>
+      <l>Bend to his Valour, and superior Virtue,</l>
+      <l>And own, that Conquest is not giv'n by Chance,</l>
+      <l>But, bound by fatal and resistless Merit,</l>
+      <l>Waits on his Arms.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>It is too much, you dress me</l>
+      <l>Like an Usurper in the borrow'd Attributes</l>
+      <l>Of injur'd Heav'n: Can we call Conquest ours?</l>
+      <l>Shall Man this Pigmy with a Giant's Pride</l>
+      <l>Vaunt of himself, and say, Thus have I done this?</l>
+      <l>Oh! vain Pretence to Greatness! Like the Moon,</l>
+      <l>We borrow all the Brightness, which we boast,</l>
+      <l>Dark in our selves, and useless. If that Hand</l>
+      <l>That rules the Fate of Battles strike for us,</l>
+      <l>Crown us with Fame, and gild our Clay with Honour;</l>
+      <l>'Twere most ungrateful to disown the Benefit,</l>
+      <l>And arrogate a Praise which is not ours.</l>
+     </sp>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>With such unshaken Temper of the Soul</l>
+      <l>To bear the swelling Tide of prosp'rous Fortune,</l>
+      <l>Is to deserve that Fortune: In Adversity</l>
+      <l>The Mind grows tough by buffeting the Tempest;</l>
+      <l>Which, in Success dissolving, sinks to ease,</l>
+      <l>And loses all her Firmness.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Oh! <hi>Axalla!</hi>
+      </l>
+      <l>Could I forget I am a Man, as thou art,</l>
+      <l>
+       <pb n="18" facs="28"/>
+Would not the Winter's Cold, or Summer's Heat,</l>
+      <l>Sickness, or Thirst, and Hunger, all the Train</l>
+      <l>Of Nature's clamorous Appetites asserting</l>
+      <l>An Equal Right in Kings, and common men,</l>
+      <l>Reprove me daily?—No—If I boast of ought,</l>
+      <l>Be it, to have been Heaven's happy Instrument,</l>
+      <l>The means of Good to all my Fellow-Creatures;</l>
+      <l>This is a King's best Praise.</l>
+     </sp>
+     <stage>Enter <hi>Omar.</hi>
+     </stage>
+     <sp who="#omar">
+      <speaker>Om.</speaker>
+      <l>Honour and Fame <stage>[Bowing to <hi>Tamerlane.</hi>
+       </stage>
+      </l>
+      <l>For ever wait the Emperor; may our Prophet</l>
+      <l>Give him ten thousand thousand Days of Life,</l>
+      <l>And every Day like this. The Captive Sultan</l>
+      <l>Fierce in his Bonds, and at his Fate repining,</l>
+      <l>Attends your sacred Will.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Let him approach.</l>
+      <stage>Enter <hi>Bajazet</hi> and other <hi>Turkish</hi> Prisoners in Chains, with a Guard of Soldiers.</stage>
+      <l>When I survey the Ruins of this Field,</l>
+      <l>The wild Destruction, which thy fierce Ambition</l>
+      <l>Has dealt among Mankind, (so many Widdows,</l>
+      <l>And helpless Orphans has thy Battle made,</l>
+      <l>That half our Eastern World this day are Mourners)</l>
+      <l>Well may I in behalf of Heav'n and Earth</l>
+      <l>Demand from thee Atonement for this wrong.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Make thy Demand to those that own thy Pow'r,</l>
+      <l>Know I am still beyond it; and tho' Fortune</l>
+      <l>(Curse on that Changeling Deity of Fools!)</l>
+      <l>Has stript me of the Train, and Pomp of Greatness,</l>
+      <l>That out-side of a King, yet still my Soul,</l>
+      <l>Fixt high, and of it self alone dependant,</l>
+      <l>Is ever Free, and Royal, and ev'n now,</l>
+      <l>As at the head of Battle does desie thee:</l>
+      <l>I know what Pow'r the Chance of War has giv'n,</l>
+      <l>And dare thee to the use on't. This vile Speeching,</l>
+      <l>This After-game of Words is what most irks me;</l>
+      <l>Spare that, and for the rest 'tis equal all—</l>
+      <l>Be it as it may.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <pb n="19" facs="29"/>
+      <speaker>Tam.</speaker>
+      <l>Well was it for the World,</l>
+      <l>When on their Borders Neighbouring Princes met,</l>
+      <l>Frequent in Friendly Parle, by cool Debates,</l>
+      <l>Preventing wasteful War; such should our Meeting</l>
+      <l>Have been, had'st thou but held in just regard</l>
+      <l>The Sanctity of Leagues so often sworn to,</l>
+      <l>Can'st thou believe thy Prophet, or what's more,</l>
+      <l>That Pow'r Supream, which made thee, and thy Prophet,</l>
+      <l>Will, with Impunity, let pass that Breach</l>
+      <l>Of sacred Faith giv'n to the Royal <hi>Greek?</hi>
+      </l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Thou Pedant Talker! ha! art thou a King</l>
+      <l>Possest of sacred Pow'r, Heav'ns darling Attribute,</l>
+      <l>And dost thou prate of Leagues, and Oaths, and Prophets?</l>
+      <l>I hate the <hi>Greek</hi> (Perdition on his Name!)</l>
+      <l>As I do thee, and would have met you both,</l>
+      <l>As Death does human Nature, for Destruction.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Causeless to hate is not of human kind;</l>
+      <l>The salvage Brute, that haunts in Woods remote,</l>
+      <l>And Desart-wilds, tears not the fearful Traveller,</l>
+      <l>If Hunger, or some Injury provoke not.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Can a King want a Cause when Empire bids</l>
+      <l>Go on? what is he born for but Ambition?</l>
+      <l>It is his Hunger, 'tis his Call of Nature,</l>
+      <l>The Noble Appetite which will be satisfy'd,</l>
+      <l>And like the Food of Gods, makes him Immortal.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Henceforth I will not wonder we were Foes,</l>
+      <l>Since Souls that differ so, by Nature hate,</l>
+      <l>And strong Antipathy forbids their Union.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>The noble Fire that warms me does indeed</l>
+      <l>Transcend thy Coldness, I am pleas'd we differ,</l>
+      <l>Nor think alike.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>No—for I think like Man</l>
+      <l>Thou like a Monster; from whose baleful Presence</l>
+      <l>Nature starts back; and tho' she six'd her Stamp</l>
+      <l>On thy rough Mass, and mark'd thee for a Man,</l>
+      <l>Now conscions of her Error, she disclaims thee,</l>
+      <l>As form'd for her Destruction.—</l>
+      <l>'Tis true, I am a King, as thou hast been:</l>
+      <l>Honour, and Glory too have been my aim;</l>
+      <l>But tho' I dare face Death, and all the Dangers,</l>
+      <l>
+       <pb n="20" facs="30"/>
+Which furious War wears in its bloody Front,</l>
+      <l>Yet would I chuse to fix my Fame by Peace,</l>
+      <l>By Justice, and by Mercy; and to raise</l>
+      <l>My Trophies on the Blessings of Mankind;</l>
+      <l>Nor would I buy the Empire of the World</l>
+      <l>With Ruin of the People whom I sway,</l>
+      <l>Or Forfeit of my Honour.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Prophet, I thank thee.—</l>
+      <l>Damnation!—Could'st thou rob me of my Glory,</l>
+      <l>To dress up this tame King, this preaching <hi>Dervise?</hi>
+      </l>
+      <l>Unfit for War, thou should'st have liv'd secure</l>
+      <l>In lazy Peace, and with debating Senates</l>
+      <l>Shar'd a precarious Scepter, sate tamely still,</l>
+      <l>And let bold Factions canton out thy Pow'r,</l>
+      <l>And wrangle for the Spoils they robb'd thee of;</l>
+      <l>Whilst I (curse on the Power that stops my Ardour!)</l>
+      <l>Would, like a Tempest, rush amidst the Nations,</l>
+      <l>Be greatly terrible, and deal, like <hi>Alha,</hi>
+      </l>
+      <l>My angry Thunder on the frighted World.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>The World!—'twould be too little for thy Pride:</l>
+      <l>Thou would'st scale Heav'n—</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>I would:—Away: my Soul</l>
+      <l>Disdains thy Conference.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Thou vain, rash Thing,</l>
+      <l>That, with gigantick Insolence, hast dar'd</l>
+      <l>To lift thy wretched self above the Stars,</l>
+      <l>And mate with Pow'r Almighty: Thou art fallen!—</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>'Tis false! I am not fall'n from ought I have been;</l>
+      <l>At least my Soul resolves to keep her State,</l>
+      <l>And scorns to take Acquaintance with ill Fortune.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Almost beneath my Pity art thou fall'n;</l>
+      <l>Since, while th' avenging Hand of Heav'n is on thee,</l>
+      <l>And presses to the Dust thy swelling Soul,</l>
+      <l>Fool-hardy, with the stronger thou contendest;</l>
+      <l>To what vast heights had thy tumultuous Temper</l>
+      <l>Been hurry'd, if Success had crown'd thy Wishes;</l>
+      <l>Say, What had I to expect, if thou had'st conquer'd?</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Oh, Glorious Thought! By Heav'n! I will enjoy it,</l>
+      <l>Tho' but in Fancy; Imagination shall</l>
+      <l>Make room to entertain the vast Idea.</l>
+      <l>
+       <pb n="21" facs="31"/>
+Oh! had I been the Master but of Yesterday,</l>
+      <l>The World, the World had felt me; and for thee,</l>
+      <l>I had us'd thee, as thou art to me,—a Dog,</l>
+      <l>The Object of my Scorn, and mortal Hatred:</l>
+      <l>I would have taught thy Neck to know my weight,</l>
+      <l>And mounted from that Footstool to my Saddle:</l>
+      <l>Then, when thy daily servile Task was done,</l>
+      <l>I would have cag'd thee, for the Scorn of Slaves,</l>
+      <l>'Till thou had'st begg'd to die; and ev'n that Mercy</l>
+      <l>I had deny'd Thee: Now thou know'st my Mind,</l>
+      <l>And question me no farther.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Well dost thou teach me</l>
+      <l>What Justice should exact from thee: Mankind</l>
+      <l>With one Consent cry out for Vengeance on thee;</l>
+      <l>Loudly they call, to cut off this League-breaker,</l>
+      <l>This wild Destroyer, from the Face of Earth.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Do it, and rid thy shaking Soul at once</l>
+      <l>Of its worst Fear.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Why slept the Thunder,</l>
+      <l>That should have arm'd thy Idol Deity,</l>
+      <l>And given thee Pow'r, e're yester Sun was set,</l>
+      <l>To shake the Soul of <hi>Tamerlane:</hi> Had'st thou an Arm</l>
+      <l>To make thee fear'd, thou should'st have prov'd it on me,</l>
+      <l>Amidst the Sweat and Blood of yonder Field,</l>
+      <l>When, thro' the Tumult of the War, I sought thee,</l>
+      <l>Fenc'd in with Nations.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Curse upon the Stars,</l>
+      <l>That fated us to different Scenes of Slaughter!</l>
+      <l>Oh! could my Sword have met thee!—</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Thou had'st then,</l>
+      <l>As now, been in my Pow'r, and held thy Life</l>
+      <l>Dependant on my Gift.—Yes <hi>Bajazet,</hi>
+      </l>
+      <l>I bid thee, Live.—So much my Soul disdains,</l>
+      <l>That thou should'st think, I can fear ought but Heav'n:</l>
+      <l>Nay more; could'st thou forget thy brutal fierceness,</l>
+      <l>And form thy self to Manhood, I would bid thee,</l>
+      <l>Live, and be still a King, that thou may'st learn</l>
+      <l>What Man should be to Man, in War remembring</l>
+      <l>The Common Tye, and Brotherhood of Kind.</l>
+      <l>This Royal Tent, with such of thy Domesticks,</l>
+      <l>
+       <pb n="22" facs="32"/>
+As can be found, shall wait upon thy Service;</l>
+      <l>Nor will I use my Fortune, to demand</l>
+      <l>Hard Terms of Peace, but such as thou may'st offer</l>
+      <l>With Honour, I with Honour may receive, <stage>[<hi>Tamerlane</hi> signs to an Officer, who unbinds <hi>Bajazet.</hi>
+       </stage>
+      </l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Ha! say'st thou—no!—our Prophet's Vengeance blast me,</l>
+      <l>If thou shalt buy my Friendship with thy Empire.</l>
+      <l>Damnation on thee! thou smooth, fawning Talker!</l>
+      <l>Give me again my Chains, that I may curse thee,</l>
+      <l>And gratifie my Rage: Or, if thou wilt,</l>
+      <l>Be a vain Fool, and play with thy Perdition,</l>
+      <l>Remember I'm thy Foe, and hate thee deadly.</l>
+      <l>Thy Folly on thy Head!</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Be still my Foe;</l>
+      <l>Great Minds (like Heav'n) are pleas'd in doing good,</l>
+      <l>Tho' the ungrateful Subjects of their Favours</l>
+      <l>Are barren in return: Thy stubborn Pride</l>
+      <l>That spurns the gentle Office of Humanity,</l>
+      <l>Shall, in my Honour own, and thy Despite,</l>
+      <l>I have done, as I ought. Virtue still does</l>
+      <l>With Scorn, the Mercenary World regard,</l>
+      <l>Where abject Souls do good, and hope reward:</l>
+      <l>Above the worthless Trophies Men can raise,</l>
+      <l>She seeks not Honours, Wealth, nor airy Praise,</l>
+      <l>But with her self, Her self, the Goddess pays.</l>
+      <stage>[Exeunt <hi>Tamerlane, Axalla,</hi> Prince of <hi>Tanais, Mirvan, Zama,</hi> and Attendants.</stage>
+     </sp>
+     <stage>Manent <hi>Bajazet, Omar,</hi> Guards.</stage>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Come, lead me to my Dungeon; plunge me down,</l>
+      <l>Deep from the hated Sight of Man, and Day,</l>
+      <l>Where, under Covert of the friendly Darkness,</l>
+      <l>My Soul may brood, at leisure, o'er its Anguish.</l>
+     </sp>
+     <sp who="#omar">
+      <speaker>Om.</speaker>
+      <l>Our Royal Master wou'd, with noble Usage,</l>
+      <l>Make your Misfortunes light, he bids you hope.—</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>I tell thee, Slave, I have shook hands with Hope,</l>
+      <l>And all my Thoughts are Rage, Despair, and Horror,</l>
+      <stage>
+       <pb n="23" facs="33"/>
+Enter <hi>Haly, Arpasia,</hi> and Women Attendants.</stage>
+      <l>Ha! wherefore am I thus?—Perdition seize me!</l>
+      <l>But my cold Blood runs shiv'ring to my Heart,</l>
+      <l>As at some Fantom, that in dead of Night,</l>
+      <l>With dreadful Action stalks around our Beds.</l>
+      <l>The Rage, and fiercer Passions of my Breast</l>
+      <l>Are lost in new Confusion.—<hi>Arpasia!—Haly!</hi>
+      </l>
+     </sp>
+     <sp who="#haly">
+      <speaker>Ha.</speaker>
+      <l>Oh, Emperor! for whose hard Fate our Prophet,</l>
+      <l>And all the Heroes of thy sacred Race</l>
+      <l>Are sad in Paradise, thy faithful <hi>Haly,</hi>
+      </l>
+      <l>The Slave of all thy Pleasures, in this Ruin,</l>
+      <l>This Universal Shipwreck of thy Fortunes,</l>
+      <l>Has gather'd up this Treasure for thy Arms:</l>
+      <l>Nor ev'n the Victor, haughty <hi>Tamerlane,</hi>
+      </l>
+      <l>(By whose Command, once more, thy Slave beholds thee)</l>
+      <l>Denies this Blessing to thee, but with Honour</l>
+      <l>Renders thee back thy Queen, thy beauteous Bride.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Oh! had her Eyes, with pity, seen my Sorrows,</l>
+      <l>Had she the softness of a tender Bride,</l>
+      <l>Heav'n cou'd not have bestow'd a greater Blessing,</l>
+      <l>And Love had made amends for loss of Empire.</l>
+      <l>But see, what Fury dwells upon her Charms!</l>
+      <l>What Lightning flashes from her angry Eyes!</l>
+      <l>With a malignant Joy she views my Ruin:</l>
+      <l>Ev'n Beauteous in her Hatred, still she charms me,</l>
+      <l>And awes my fierce tumultuous Soul to Love.</l>
+     </sp>
+     <sp who="#arpasia">
+      <speaker>Arp.</speaker>
+      <l>And dar'st thou hope, thou Tyrant! Ravisher!</l>
+      <l>That Heav'n has any Joy in store for thee?</l>
+      <l>Look back upon the Sum of thy past Life,</l>
+      <l>Where Tyranny, Oppression, and Injustice,</l>
+      <l>Perjury, Murders, swell the black Account,</l>
+      <l>Where lost <hi>Arpasia</hi>'s Wrongs stand bleeding fresh,</l>
+      <l>Thy last Recorded Crime, but Heav'n has found thee,</l>
+      <l>At length the tardy Vengeance has o'erta'en thee.</l>
+      <l>My weary Soul shall bear a little longer</l>
+      <l>The pain of Life, to call for Justice on thee</l>
+      <l>That once compleat, sink to the peaceful Grave,</l>
+      <l>And lose the memory of my Wrongs and Thee</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Thou rail'st! I thank thee for it—Be perverse,</l>
+      <l>
+       <pb n="24" facs="34"/>
+And muster all the Women in thy Soul;</l>
+      <l>Goad me with Curses, be a very Wife,</l>
+      <l>That I may fling off this tame Love, and hate thee.</l>
+     </sp>
+     <stage>Enter <hi>Moneses.</hi>
+     </stage>
+     <sp who="#bajazet">
+      <speaker>Bajazet</speaker>
+      <stage>
+       <hi>starting.</hi>]</stage>
+      <l>Ha!—Keep thy temper Heart; nor take alarm</l>
+      <l>At a Slave's Presence.</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>It is <hi>Arpasia!</hi>—Leave me, thou cold Fear.</l>
+      <l>Sweet as the rosie Morn she breaks upon me,</l>
+      <l>And Sorrow, like the Night's unwholsome Shade,</l>
+      <l>Gives way before the Golden Dawn she brings.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>
+       <stage>[Advancing towards him.</stage> Ha, Christian! Is it well that we meet thus?</l>
+      <l>
+       <stage>[Advancing towards him.</stage> Is this thy Faith?</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>Why does thy frowning Brow</l>
+      <l>Put on this form of Fury? Is it strange</l>
+      <l>We should meet here Companions in Misfortune,</l>
+      <l>The Captives of one common Chance of War?</l>
+      <l>Nor should'st thou wonder, that my Sword has fail'd</l>
+      <l>Before the Fortune of Victorious <hi>Tamerlane,</hi>
+      </l>
+      <l>When thou with Nations like the sanded Shore,</l>
+      <l>With half the warring World upon thy side,</l>
+      <l>Could'st not stand up against his dreadful Battle,</l>
+      <l>That crush'd thee with its shock. Thy Men can witness,</l>
+      <l>Those Cowards, that forsook me in the Combat</l>
+      <l>My Sword was not unactive.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>No,—'tis false.</l>
+      <l>Where is my Daughter, thou vile <hi>Greek?</hi> thou hast</l>
+      <l>Betray'd her to the <hi>Tartar;</hi> or even worse,</l>
+      <l>Pale with thy Fears, didst lose her like a Coward;</l>
+      <l>And like a Coward now, would'st cast the blame</l>
+      <l>On Fortune, and ill Stars.</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>Ha! said'st thou like a Coward?</l>
+      <l>What Sanctity, what Majesty Divine</l>
+      <l>Hast thou put on, to guard thee from my Rage?</l>
+      <l>That thus thou dar'st to wrong me.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Out, thou Slave,</l>
+      <l>And know me for thy Lord—</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>I tell thee, Tyrant,</l>
+      <l>When in the Pride of Pow'r thou sat'st on high,</l>
+      <l>When like an Idol thou wert vainly worshipp'd,</l>
+      <l>
+       <pb n="25" facs="35"/>
+By prostrate Wretches, born with slavish Souls:</l>
+      <l>Ev'n when thou wert a King, thou wert not more,</l>
+      <l>Nor greater than <hi>Moneses;</hi> born of a Race</l>
+      <l>Royal, and Great as thine: What art thou now then?</l>
+      <l>The Fate of War has set thee with the Lowest;</l>
+      <l>And Captives (like the Subjects of the Grave)</l>
+      <l>Losing distinction, serve one common Lord.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Brav'd by this Dog! now give a loose to Rage,</l>
+      <l>And curse thy self, curse thy false, cheating Prophet.</l>
+      <l>Ha! Yet there's some Revenge. Hear me, thou Christian,</l>
+      <l>Thou left'st that Sister with me:—Thou Impostor!</l>
+      <l>Thou Boaster of thy Honesty! Thou Lyar!</l>
+      <l>But take her to thee back.</l>
+      <l>Now to explore my Prison.—If it holds</l>
+      <l>Another Plague like this, the restless Damn'd</l>
+      <l>(If <hi>Mufty</hi>'s lie not) wander thus in Hell?</l>
+      <l>From scorching Flames to chilling Frosts they run,</l>
+      <l>Then from their Frosts to Fires return again,</l>
+      <l>And only prove variety of Pain.</l>
+      <stage>[Exeunt <hi>Bajazet</hi> and <hi>Haly.</hi>
+      </stage>
+     </sp>
+     <sp who="#arpasia">
+      <speaker>Arp.</speaker>
+      <l>Stay, <hi>Bajazet,</hi> I charge thee by my Wrongs!</l>
+      <l>Stay, and unfold a Tale of so much Horror,</l>
+      <l>As only sits thy telling.—Oh, <hi>Moneses!</hi>
+      </l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>Why dost thou weep? why this tempestuous Passion,</l>
+      <l>That stops thy falt'ring Tongue short on my Name?</l>
+      <l>Oh, speak! unveil this Mystery of Sorrow,</l>
+      <l>And draw the dismal Scene, at once, to sight,</l>
+     </sp>
+     <sp who="#arpasia">
+      <speaker>Arp.</speaker>
+      <l>Thou art undone, lost, ruin'd, and undone.</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>I will not think 'tis so, while I have thee,</l>
+      <l>While thus 'tis giv'n to fold thee in my Arms;</l>
+      <l>For while I sigh upon thy panting Bosom,</l>
+      <l>The sad remembrance of past Woes is lost.</l>
+     </sp>
+     <sp who="#arpasia">
+      <speaker>Arp.</speaker>
+      <l>Forbear to sooth thy Soul with flatt'ring Thoughts</l>
+      <l>Of Evils overpast, and Joys to come:</l>
+      <l>Our Woes are like the genuine Shade beneath,</l>
+      <l>Where Fate cuts off the very hopes of Day,</l>
+      <l>And everlasting Night and Horror reign.</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon</speaker>
+      <l>By all the Tenderness, and chaste Endearments</l>
+      <l>Of our past Love, I charge thee, my <hi>Arpasia,</hi>
+      </l>
+      <l>To case my Soul of Doubts; give me to know</l>
+      <l>
+       <pb n="26" facs="38"/>
+At once the utmost Malice of my Fate.</l>
+     </sp>
+     <sp who="#arpasia">
+      <speaker>Arp.</speaker>
+      <l>Take then thy wretched Share in all I suffer,</l>
+      <l>Still Partner of my Heart. Scarce had'st thou left</l>
+      <l>The Sultan's Camp, when the Imperious Tyrant,</l>
+      <l>Softning the pride and fierceness of his Temper,</l>
+      <l>With gentle Speech made offer of his Love.</l>
+      <l>Amaz'd, as at the shock of sudden Death,</l>
+      <l>I started into Tears, and often urg'd</l>
+      <l>(Tho' still in vain) the difference of our Faiths:</l>
+      <l>At last, as flying to the utmost Refuge,</l>
+      <l>With lifted Hands, and streaming Eyes, I own'd</l>
+      <l>The Fraud; which when we first were made his Pris'ners,</l>
+      <l>Conscious of my unhappy Form, and fearing</l>
+      <l>For thy dear Life, I forc'd thee to put on</l>
+      <l>Thy borrow'd Name of Brother, mine of Sister;</l>
+      <l>Hiding beneath that Veil the nearer Tie,</l>
+      <l>Our mutual Vows had made before the Priest;</l>
+      <l>Kindling to Rage at hearing of my Story,</l>
+      <l>Then be it so, he cry'd. Think'st thou thy Vows</l>
+      <l>Giv'n to a Slave shall bar me from thy Beauties?</l>
+      <l>Then bad the Priest pronounce the Marriage Rites,</l>
+      <l>Which he perform'd, whilst shrieking with Despair,</l>
+      <l>I call'd in vain the Pow'rs of Heav'n to aid me.</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>Villain! Imperial Villain!—Oh, the Coward!</l>
+      <l>Aw'd by his Guilt, tho' back'd by Force and Power,</l>
+      <l>He durst not to my Face avow his Purpose;</l>
+      <l>But in my absence like a lurking Thief</l>
+      <l>Stole on my Treasure, and at once undid me.</l>
+     </sp>
+     <sp who="#arpasia">
+      <speaker>Arp.</speaker>
+      <l>Had they not kept me from the means of Death,</l>
+      <l>Forgetting all the Rules of Christian Suffering,</l>
+      <l>I had done a desp'rate Murder on my Soul,</l>
+      <l>E'er the rude Slaves, that waited on his Will,</l>
+      <l>Had forc'd me to his—</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>Stop thee there, <hi>Arpasia,</hi>
+      </l>
+      <l>And bar my Fancy from the guilty Scene;</l>
+      <l>Let not Thought enter, lest the busie Mind</l>
+      <l>Should muster such a train of monstrous Images,</l>
+      <l>As wou'd distract me. Oh! I cannot bear it.</l>
+      <l>Thou lovely Hoard of Sweets, where all my Joy,</l>
+      <l>Were treasur'd up, to have thee rifled thus!</l>
+      <l>
+       <pb n="27" facs="39"/>
+Thus torn untasted from my eager Wishes!</l>
+      <l>But I will have thee from him. <hi>Tamerlane</hi>
+      </l>
+      <l>(The Sovereign Judge of Equity on Earth)</l>
+      <l>Shall do me Justice on this mighty Robber,</l>
+      <l>And render back thy Beauties to <hi>Moneses.</hi>
+      </l>
+     </sp>
+     <sp who="#arpasia">
+      <speaker>Arp.</speaker>
+      <l>And who shall render back my Peace, my Honour,</l>
+      <l>The spotless Whiteness of my Virgin Soul?</l>
+      <l>Ah! no, <hi>Moneses</hi>—think not I will ever</l>
+      <l>Bring a polluted Love to thy chaste Arms:</l>
+      <l>I am the Tyrant's Wife. Oh, fatal Title!</l>
+      <l>And, in the sight of all the Saints, have sworn,</l>
+      <l>By Honour, Womanhood, and blushing Shame,</l>
+      <l>To know no second Bride-bed, but my Grave.</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>I swear it must not be, since still my Eye</l>
+      <l>Finds thee as heav'nly white, as Angel pure,</l>
+      <l>As in the earliest hours of Life, thou wert,</l>
+      <l>Nor art thou his, but mine; thy first Vow's mine,</l>
+      <l>Thy Soul is mine,—</l>
+     </sp>
+     <sp who="#arpasia">
+      <speaker>Arp.</speaker>
+      <l>Oh! think not, that the Pow'r</l>
+      <l>Of most persuasive Eloquence can make me</l>
+      <l>Forget, I've been another's, been his Wife;</l>
+      <l>Now by my Blushes! by the strong Confusion,</l>
+      <l>And Anguish of my Heart! spare me <hi>Moneses,</hi>
+      </l>
+      <l>Nor urge my trembling Virtue to the Precipice.</l>
+      <l>Shortly, (oh! very shortly) if my Sorrows</l>
+      <l>Divine aright, and Heav'n be gracious to me,</l>
+      <l>Death shall dissolve the fatal Obligation,</l>
+      <l>And give me up to Peace, to that blest Place</l>
+      <l>Where the Good rest from Care and anxious Life.</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>Oh! teach me, thou fair Saint, like thee to suffer,</l>
+      <l>Teach me, with hardy Piety, to combat</l>
+      <l>The present Ills, instruct my Eyes to pass</l>
+      <l>The narrow bounds of Life, this Land of Sorrow,</l>
+      <l>And with bold Hopes, to view the Realms beyond,</l>
+      <l>Those distant Beauties of the future State.</l>
+      <l>Tell me <hi>Arpasia,</hi>—say, what Joys are those,</l>
+      <l>That wait to crown the Wretch who suffers here</l>
+      <l>Oh! tell me, and sustain my sailing Faith.</l>
+     </sp>
+     <sp who="#arpasia">
+      <speaker>Arp.</speaker>
+      <l>Imagine somewhat exquisitly fine,</l>
+      <l>Which Fancy cannot paint, which the pleas'd Mind</l>
+      <l>
+       <pb n="28" facs="40"/>
+Can barely know, unable to describe it;</l>
+      <l>Imagine, 'tis a Tract of endless Joys,</l>
+      <l>Without Satiety, or Interruption;</l>
+      <l>Imagine, 'tis to meet, and part no more.</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>Grant, gentle Heaven, that such may be our Lot!</l>
+      <l>Let us be blest together,—Oh! my Soul!</l>
+      <l>Build on that hope, and let it arm thy Courage,</l>
+      <l>To struggle with the Storm, that parts us now.</l>
+     </sp>
+     <sp who="#arpasia">
+      <speaker>Arp.</speaker>
+      <l>Yes! my <hi>Moneses,</hi> now the Surges rise,</l>
+      <l>The swelling Sea breaks in between our Barks,</l>
+      <l>And drives us to our Fate on different Rocks,</l>
+      <l>Farewel!—my Soul lives with thee.—</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>Death is parting,</l>
+      <l>'Tis the last sad Adieu 'twixt Soul and Body,</l>
+      <l>But this is somewhat worse—my Joy, my Comfort,</l>
+      <l>All that was left in Life fleets after thee.</l>
+      <l>My aking Sight hangs on thy parting Beauties,</l>
+      <l>Thy lovely Eyes all drown'd in Floods of Sorrow!</l>
+      <l>So sinks the setting Sun beneath the Waves,</l>
+      <l>And leaves the Traveller in pathless Woods,</l>
+      <l>Benighted and forlorn,—Thus with sad Eyes</l>
+      <l>Westward he turns, to mark the Light's decay,</l>
+      <l>Till having lost the last faint Glimpse of Day,</l>
+      <l>Chearless, in darkness, he pursues his way.</l>
+      <stage>[Exeunt <hi>Moneses</hi> and <hi>Arpasia</hi> severally.</stage>
+     </sp>
+    </div>
+    <trailer>End of the Second Act.</trailer>
+   </div>
+   <div n="3" type="act">
+    <div n="1" type="scene">
+     <head>ACT III. SCENE I.</head>
+     <head>SCENE, <stage>the Inside of the Royal Tent.</stage>
+     </head>
+     <stage>Enter <hi>Axalla, Selima,</hi> and Women Attendants.</stage>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>CAN there be ought in Love, beyond this Proof,</l>
+      <l>This wond'rous Proof, I give thee of my Faith?</l>
+      <l>To tear thee from my bleeding Bosom thus?</l>
+      <l>To rend the Strings of Life, to set thee free,</l>
+      <l>And yield thee to a cruel Father's Power,</l>
+      <l>Foe to my Hopes? What can'st thou pay me back,</l>
+      <l>
+       <pb n="29" facs="41"/>
+What but thy self (thou Angel) for this Fondness?</l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>Thou dost upbraid me, Beggar as I am,</l>
+      <l>And urge me with my Poverty of Love.</l>
+      <l>Perhaps thou think'st, 'tis nothing for a Maid</l>
+      <l>To struggle thro' the Niceness of her Sex,</l>
+      <l>The Blushes, and the Fears, and own she loves:</l>
+      <l>Thou think'st, 'tis nothing for my artless Heart</l>
+      <l>To own my Weakness, and confess thy Triumph.</l>
+     </sp>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>Oh! yes, I own it; my charm'd Ears ne'er knew</l>
+      <l>A Sound of so much Rapture, so much Joy.</l>
+      <l>Not Voices, Instruments, not warbling Birds,</l>
+      <l>Not Winds, not murm'ring Waters join'd in Consort,</l>
+      <l>Not tuneful Nature, not th' according Spheres</l>
+      <l>Utter such Harmony, as when my <hi>Selima</hi>
+      </l>
+      <l>With down cast Looks, and Blushes said,—I love—</l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>And yet thou say'st, I am a Niggard to thee:</l>
+      <l>I swear the Ballance shall be held between us,</l>
+      <l>And Love be Judge, if after all the Tenderness,</l>
+      <l>Tears, and Confusion of my Virgin Soul,</l>
+      <l>Thou should'st complain of ought, Unjust <hi>Axalla!</hi>
+      </l>
+     </sp>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>Why was I ever blest?—Why is Remembrance</l>
+      <l>Rich with a thousand pleasing Images</l>
+      <l>Of past Enjoyments, since 'tis but to plague me?</l>
+      <l>When thou art mine no more, what will it ease me</l>
+      <l>To think of all the Golden Minutes past,</l>
+      <l>To think, that thou wert kind, and I was happy:</l>
+      <l>But like an Angel fall'n from Bliss, to curse</l>
+      <l>My present State, and mourn the Heav'n I've lost.</l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>Hope better for us both; nor let thy Fears,</l>
+      <l>Like an unlucky Omen, cross my way.</l>
+      <l>My Father rough, and stormy in his Nature,</l>
+      <l>To me was always gentle, and, with Fondness</l>
+      <l>Paternal, ever met me with a Blessing.</l>
+      <l>Oft when Offence had stir'd him to such Fury,</l>
+      <l>That not grave Counsellors for Wisdom sam'd,</l>
+      <l>Nor hardy Captains that had sought his Battles,</l>
+      <l>Presum'd to speak, but struck with awful Dread,</l>
+      <l>Were hush'd as Death; yet has he smil'd on me,</l>
+      <l>Kill me, and bad me utter all my purpose;</l>
+      <l>Till, with my idle Prattle, I had sooth'd him,</l>
+      <l>
+       <pb n="30" facs="42"/>
+And won him from his Anger.</l>
+     </sp>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>Oh! I know,</l>
+      <l>Thou hast a Tongue to charm the wildest Tempers.</l>
+      <l>Herds would forget to graze, and Savage Beasts</l>
+      <l>Stand still, and lose their Fierceness, but to hear thee,</l>
+      <l>As if they had Reflection, and by Reason</l>
+      <l>Forsook a less Enjoyment for a greater.</l>
+      <l>But oh! when I revolve each Circumstance,</l>
+      <l>My Christian Faith, my Service closely bound</l>
+      <l>To <hi>Tamerlane</hi> my Master, and my Friend:</l>
+      <l>Tell me (my Charmer) if my Fears are vain?</l>
+      <l>Think what remains for me, if the fierce Sultan</l>
+      <l>Should doom thy Beauties to another's Bed?</l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>'Tis a sad Thought, but to appease thy Doubts,</l>
+      <l>Here, in the awful Sight of Heav'n, I vow,</l>
+      <l>No Pow'r shall e'er divide me from thy Love,</l>
+      <l>Ev'n Duty shall not force me to be false.</l>
+      <l>My cruel Stars may tear thee from my Arms,</l>
+      <l>But never from my Heart; and when the Maids</l>
+      <l>Shall yearly come with Garlands of fresh Flow'rs,</l>
+      <l>To mourn with pious Office o'er my Grave,</l>
+      <l>They shall sit sadly down, and weeping tell,</l>
+      <l>How well I lov'd, how much I suffer'd for thee,</l>
+      <l>And while they grieve my Fate, shall praise my Constancy.</l>
+     </sp>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>But see! the Sultan comes!—my beating Heart</l>
+      <l>Bounds with exulting Motion; Hope and Fear</l>
+      <l>Fight with alternate Conquest in my Breast.</l>
+      <l>Oh! Can I give her from me? Yield her up?</l>
+      <l>Now mourn, thou God of Love, since Honour triumphs,</l>
+      <l>And crowns his cruel Altars with thy Spoils.</l>
+     </sp>
+     <stage>Enter <hi>Bajazet.</hi>
+     </stage>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>To have a nauseous Courtesie forc'd on me</l>
+      <l>Spight of my Will, by an insulting Foe,—</l>
+      <l>Ha! they wou'd break the Fierceness of my Temper,</l>
+      <l>And make me supple for their slavish purpose:</l>
+      <l>Curse on their fawning Arts; from Heav'n it self</l>
+      <l>I wou'd not, on such Terms, receive a Benefit,</l>
+      <l>But spurn it back upon the Giver's Hand.</l>
+     </sp>
+     <sp who="#selima">
+      <pb n="31" facs="43"/>
+      <speaker>Sel.</speaker>
+      <l>My Lord; my Royal Father. </l>
+      <stage>
+       <hi>Selima</hi> comes forward and kneels to <hi>Bajazet.</hi>
+      </stage>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Ha! what art thou?</l>
+      <l>What heavenly Innocence? that in a Form</l>
+      <l>So known, so lov'd, hast left thy Paradise,</l>
+      <l>For joyless Prison, for this Place of Woe?</l>
+      <l>Art thou my <hi>Selima?</hi>
+      </l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>Have you forgot me?</l>
+      <l>Alas! my Piety is then in vain;</l>
+      <l>Your <hi>Selima,</hi> your Daughter whom you lov'd,</l>
+      <l>The Fondling once of her dear Father's Arms,</l>
+      <l>Is come to claim her share in his Misfortunes;</l>
+      <l>To wait, and tend him with obsequious Duty;</l>
+      <l>To sit, and weep for every Care he feels;</l>
+      <l>To help to wear the tedious Minutes out,</l>
+      <l>To soften Bondage, and the loss of Empire.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Now by our Prophet! If my wounded Mind</l>
+      <l>Could know a Thought of Peace, it would be now;</l>
+      <l>Ev'n from thy prating Infancy thou wert</l>
+      <l>My Joy, my little Angel; smiling Comfort</l>
+      <l>Came with thee still to glad me: Now I'm curs'd</l>
+      <l>Ev'n in thee too; Reproach and Infamy</l>
+      <l>Attend the Christian Dog, to whom thou wert trusted:</l>
+      <l>To see thee here!—'twere better see thee dead.</l>
+     </sp>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>Thus <hi>Tamerlane,</hi> to Royal <hi>Bajazet,</hi>
+      </l>
+      <l>With Kingly Greeting sends: Since with the brave,</l>
+      <l>(The bloody Bus'ness of the Fight once ended)</l>
+      <l>Stern Hate, and Opposition ought to cease;</l>
+      <l>Thy Queen already to thy Arms restor'd,</l>
+      <l>Receive this second Gift, thy beauteous Daughter:</l>
+      <l>And if there be ought farther in thy Wish,</l>
+      <l>Demand with Honour, and obtain it freely.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Bear back thy fulsom Greeting to thy Master,</l>
+      <l>Tell him, I'll none on't: Had he been a God,</l>
+      <l>All his Omnipotence could not restore</l>
+      <l>My Fame diminish'd, loss of Sacred Honour,</l>
+      <l>The Radiancy of Majesty eclips'd.</l>
+      <l>For ought besides, it is not worth my Care;</l>
+      <l>The Giver, and his Gifts are both beneath me.</l>
+     </sp>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>Enough of War the wounded Earth has known;</l>
+      <l>Weary at length, and wasted with Destruction,</l>
+      <l>
+       <pb n="32" facs="44"/>
+Sadly she rears her ruin'd Head, to shew</l>
+      <l>Her Cities humbled, and her Countries spoil'd,</l>
+      <l>And to her mighty Masters sues for Peace.</l>
+      <l>Oh! Sultan! by the Pow'r Divine I swear!</l>
+      <l>With Joy I wou'd resign the Savage Trophies</l>
+      <l>In Blood and Battle gain'd, could I attone</l>
+      <l>The fatal Breach 'twixt thee and <hi>Tamerlane;</hi>
+      </l>
+      <l>And think a Soldier's Glory well bestow'd,</l>
+      <l>To buy Mankind a Peace.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>And what art thou?</l>
+      <l>That dost presume to mediate 'twixt the Rage</l>
+      <l>Of angry Kings?</l>
+     </sp>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>A Prince, born of the noblest,</l>
+      <l>And of a Soul that answers to that Birth,</l>
+      <l>That dares not but do well. Thou dost put on</l>
+      <l>A forc'd Forgetfulness, thus not to know me,</l>
+      <l>A Guest so lately to thy Court, then meeting</l>
+      <l>On gentler Terms.—</l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>Could ought efface the Merit</l>
+      <l>Of brave <hi>Axalla</hi>'s Name, yet when your Daughter</l>
+      <l>Shall tell, how well, how nobly she was us'd;</l>
+      <l>How light this gallant Prince made all her Bondage;</l>
+      <l>Most sure the Royal <hi>Bajazet</hi> will own,</l>
+      <l>That Honour stands indebted to such Goodness,</l>
+      <l>Nor can a Monarch's Friendship more than pay it.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Ha! Know'st thou that fond Girl?—Go—'tis not well—</l>
+      <l>And when thou cou'd'st descend to take a Benefit</l>
+      <l>From a vile Christian, and thy Father's Foe,</l>
+      <l>Thou didst an Act dishonest to thy Race;</l>
+      <l>Henceforth, unless thou mean'st to cancel all</l>
+      <l>My Share in thee, and write thy self a Bastard:</l>
+      <l>Die, Starve, know any Evil, any Pain,</l>
+      <l>Rather than taste a Mercy from these Dogs.</l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>Alas! <hi>Axalla!</hi>
+       <stage>[Weeping.</stage>
+      </l>
+     </sp>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>Weep not lovely Maid;</l>
+      <l>I swear, one pearly Drop from those fair Eyes</l>
+      <l>Would over pay the Service of my Life;</l>
+      <l>One Sigh from thee has made a large amends</l>
+      <l>For all thy angry Father's Frowns, and Fierceness.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Oh! my curs'd Fortune!—am I fall'n thus low?</l>
+      <l>
+       <pb n="33" facs="45"/>
+Dishonour'd to my Face? thou Earth-born thing,</l>
+      <l>Thou Clod! how hast thou dar'd to lift thy Eyes</l>
+      <l>Up to the Sacred Race of mighty <hi>Ottoman?</hi>
+      </l>
+      <l>Whom Kings, whom ev'n our Prophet's holy Offspring</l>
+      <l>At distance have beheld; and what art thou?</l>
+      <l>What glorious Titles blazon out thy Birth?</l>
+      <l>Thou vile Obscurity! Ha!—say—thou base one.</l>
+     </sp>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>Thus challeng'd Virtue, modest as she is,</l>
+      <l>Stands up to do her self a common Justice,</l>
+      <l>To answer, and assert that inborn Merit,</l>
+      <l>That Worth, which conscious to her self she feels.</l>
+      <l>Were Honour to be scan'd by long Descent,</l>
+      <l>From Ancestors Illustrious, I could vaunt</l>
+      <l>A Lineage of the greatest, and recount</l>
+      <l>Among my Fathers, Names of antient Story,</l>
+      <l>Heroes, and God-like Patriots, who subdu'd</l>
+      <l>The World by Arms, and Virtue, and being <hi>Romans</hi>
+      </l>
+      <l>Scorn'd to be Kings; but that be their own Praise:</l>
+      <l>Nor will I borrow Merit from the Dead,</l>
+      <l>My self an Undeserver. I could prove</l>
+      <l>My Friendship such, as thou might'st deign t' accept</l>
+      <l>With Honour, when it comes with friendly Office,</l>
+      <l>To render back thy Crown, and former Greatness:</l>
+      <l>And yet ev'n this, ev'n all is poor, when <hi>Selima</hi>
+      </l>
+      <l>With matchless Worth weighs down the adverse Scale.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>To give me back what yesterday took from me,</l>
+      <l>Wou'd be to give like Heav'n, when having finish'd</l>
+      <l>This World, (the goodly Work of his Creation)</l>
+      <l>He bid his Favorite, Man, be Lord of all.</l>
+      <l>But this—</l>
+     </sp>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>Nor is this Gift beyond my Power;</l>
+      <l>Oft has the mighty Master of my Arms</l>
+      <l>Urg'd me, with large Ambition to demand</l>
+      <l>Crowns and Dominions from his bounteous Pow'r:</l>
+      <l>'Tis true, I wav'd the Proffer, and have held it</l>
+      <l>The worthier Choice, to wait upon his Virtues,</l>
+      <l>To be the Friend and Partner of his Wars,</l>
+      <l>Than to be <hi>Asia</hi>'s Lord: Nor wonder then,</l>
+      <l>If, in the Confidence of such a Friendship,</l>
+      <l>I promise boldly for the Royal Giver,</l>
+      <l>
+       <pb n="34" facs="46"/>
+Thy Crown, and Empire.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>For our Daughter thus</l>
+      <l>Mean'st thou to barter? ha! I tell thee, Christian,</l>
+      <l>There is but one, one Dowry, thou canst give,</l>
+      <l>And I can ask, worthy my Daughter's Love.</l>
+     </sp>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>Oh! name the mighty Ransom, task my Power,</l>
+      <l>Let there be Danger, Difficulty, Death,</l>
+      <l>T' enhance the Price.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>I take thee at thy Word,</l>
+      <l>Bring me the <hi>Tartar</hi>'s Head.</l>
+     </sp>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>Ha!</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>
+       <hi>Tamerlane</hi>'s,</l>
+      <l>That Death, that deadly Poison to my Glory.</l>
+     </sp>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>Prodigious! Horrid!</l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>Lost! for ever lost!</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>And could'st thou hope to bribe me with ought else?</l>
+      <l>With a vile Peace patch'd up on slavish Terms?</l>
+      <l>With tributary Kingship?—No—to merit</l>
+      <l>A Recompence from me, sate my Revenge.</l>
+      <l>The <hi>Tartar</hi> is my Bane, I cannot bear him;</l>
+      <l>One Heav'n and Earth can never hold us both;</l>
+      <l>Still shall we hate, and with Defiance deadly</l>
+      <l>Keep Rage alive, till one be lost for ever;</l>
+      <l>As if two Suns should meet in the Meridian,</l>
+      <l>And strive in fiery Combat for the passage.</l>
+      <l>Weep'st thou fond Girl? Now as thy King, and Father,</l>
+      <l>I charge thee, drive this Slave from thy remembrance:</l>
+      <l>Hate shall be pious in thee; <stage>Laying hold on her Hand.</stage> come, and join</l>
+      <l>To curse thy Father's Foes.</l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>Undone for ever!</l>
+      <l>Now Tyrant Duty, art thou yet obey'd,</l>
+      <l>There is no more to give thee, Oh <hi>Axalla!</hi>
+      </l>
+      <stage>[<hi>Bajazet</hi> leads out <hi>Selima,</hi> she looking back on <hi>Axalla.</hi>
+      </stage>
+     </sp>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>'Tis what I fear'd, Fool that I was t'obey:</l>
+      <l>The Coward Love, that could not bear her Frown,</l>
+      <l>Has wrought his own Undoing, Perhaps, ev'n now,</l>
+      <l>The Tyrant's Rage prevails upon her Fears.</l>
+      <l>Fiercely he storms, she weeps, and sighs, and trembles,</l>
+      <l>But swears at length, to think on me no more.</l>
+      <l>
+       <pb n="35" facs="47"/>
+He bad me take her.—But oh! gracious Honour!</l>
+      <l>Upon what Terms? My Soul yet shudders at it,</l>
+      <l>And stands, but half recover'd of her Fright.</l>
+      <l>The Head of <hi>Tamerlane!</hi> monstrous Impiety!</l>
+      <l>Bleed, bleed to Death, my Heart, be Virtue's Martyr.</l>
+      <l>Oh, Emperor, I own I ought to give thee</l>
+      <l>Some nobler Mark, than Dying, of my Faith.</l>
+      <l>Then let the Pains I feel my Friendship prove,</l>
+      <l>'Tis easier far to die, than cease to love. </l>
+      <stage>[Exit <hi>Axalla</hi>
+      </stage>
+     </sp>
+    </div>
+    <div n="2" type="scene">
+     <head>SCENE II.</head>
+     <stage>
+      <hi>Tamerlane</hi>'s Camp.</stage>
+     <stage>Enter severally <hi>Moneses,</hi> and Prince of <hi>Tanais.</hi>
+     </stage>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>IF I not press untimely on his Leisure,</l>
+      <l>You would much bind a Stranger to your Service,</l>
+      <l>To give me means of Audience from the Emperor.</l>
+     </sp>
+     <sp who="#prince_of_tanais">
+      <speaker>Pr.</speaker>
+      <l>Most willingly, tho' for the present Moment</l>
+      <l>We must entreat your stay; he holds him private.</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>His Council, I presume,—</l>
+     </sp>
+     <sp who="#prince_of_tanais">
+      <speaker>Pr.</speaker>
+      <l>No; the Affair</l>
+      <l>Is not of Earth, but Heav'n—a Holy Man,</l>
+      <l>(One whom our Prophet's Law calls such) a <hi>Dervise</hi>
+      </l>
+      <l>Keeps him in Conference.</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>Hours of Religion,</l>
+      <l>Especially of Prince's, claim a Reverence,</l>
+      <l>Nor will be interrupted.</l>
+     </sp>
+     <sp who="#prince_of_tanais">
+      <speaker>Pr.</speaker>
+      <l>What his Business</l>
+      <l>Imports, we know not; but with earnest Sute</l>
+      <l>This Morn he begg'd Admittance. Our great Master</l>
+      <l>(Than whom none bows more lowly to high Heaven)</l>
+      <l>In reverend regard holds all that bear</l>
+      <l>Relation to Religion, and, on notice</l>
+      <l>Of his Request, receiv'd him on the instant.</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>We will attend his Pleasure. </l>
+      <stage>[Exeunt.</stage>
+     </sp>
+     <stage>Enter <hi>Tamerlane,</hi> and a <hi>Dervise.</hi>
+     </stage>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Thou bring'st me thy Credentials from the Highest,</l>
+      <l>From <hi>Alha,</hi> and our Prophet: Speak thy Message,</l>
+      <l>
+       <pb n="36" facs="48"/>
+It must import the best and noblest Ends.</l>
+     </sp>
+     <sp who="#turkish_dervise">
+      <speaker>Der.</speaker>
+      <l>Thus speaks our Holy <hi>Mahomet,</hi> who has giv'n thee</l>
+      <l>To reign, and conquer; Ill dost thou repay</l>
+      <l>The Bounties of his Hand, unmindful of</l>
+      <l>The Fountain, whence thy Streams of Greatness flow,</l>
+      <l>Thou hast forgot high Heav'n, hast beaten down,</l>
+      <l>And trampled on Religion's Sanctity.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Now, as I am a Soldier, and a King,</l>
+      <l>(The greatest Names of Honour) do but make</l>
+      <l>Thy Imputation out, and <hi>Tamerlane</hi>
+      </l>
+      <l>Shall do thee ample Justice on himself;</l>
+      <l>So much the Sacred Name of Heav'n awes me.</l>
+      <l>Cou'd I suspect my Soul of harbouring ought</l>
+      <l>To its Dishonour, I would search it strictly,</l>
+      <l>And drive th' offending Thought with Fury forth.</l>
+     </sp>
+     <sp who="#turkish_dervise">
+      <speaker>Der.</speaker>
+      <l>Yes, thou hast hurt our Holy Prophet's Honour,</l>
+      <l>By fostering the pernicious Christian Sect;</l>
+      <l>Those, whom his Sword pursu'd with fell Destruction,</l>
+      <l>Thou tak'st into thy Bosom, to thy Councils;</l>
+      <l>They are thy only Friends: The true Believers</l>
+      <l>Mourn to behold thee favour this <hi>Axalla.</hi>
+      </l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>I fear me, thou out-go'st the Prophet's Order:</l>
+      <l>And brings his venerable Name, to shelter</l>
+      <l>A Rudeness ill becoming thee to use,</l>
+      <l>Or me to suffer. When thou nam'st my Friend,</l>
+      <l>Thou nam'st a Man beyond a Monk's discerning,</l>
+      <l>Virtuous, and Great, a Warrior, and a Prince.</l>
+     </sp>
+     <sp who="#turkish_dervise">
+      <speaker>Der.</speaker>
+      <l>He is a Christian; there our Law condemns him,</l>
+      <l>Altho' he were ev'n all thou speak'st, and more.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>'Tis false; no Law Divine condemns the Virtuous,</l>
+      <l>For differing from the Rules your Schools devise.</l>
+      <l>Look round, how Providence bestows alike</l>
+      <l>Sunshine and Rain, to bless the fruitful Year,</l>
+      <l>On different Nations, all of different Faiths;</l>
+      <l>And (tho' by several Names and Titles worshipp'd)</l>
+      <l>Heav'n takes the various Tribute of their Praise;</l>
+      <l>Since all agree to own, at least to mean,</l>
+      <l>One best, one greatest, only Lord of All.</l>
+      <l>Thus when he view'd the many Forms of Nature,</l>
+      <l>He found that all was good, and blest the fair Variety</l>
+     </sp>
+     <sp who="#turkish_dervise">
+      <pb n="37" facs="49"/>
+      <speaker>Der.</speaker>
+      <l>Most Impious, and Profane!—nay, frown not, Prince,</l>
+      <l>Full of the Prophet, I despise the Danger</l>
+      <l>Thy angry Power may threaten: I command thee</l>
+      <l>To hear, and to obey, since thus says <hi>Mahomet;</hi>
+      </l>
+      <l>Why have I made thee dreadful to the Nations?</l>
+      <l>Why have I giv'n thee Conquest? but to spread</l>
+      <l>My sacred Law ev'n to the utmost Earth,</l>
+      <l>And make my Holy <hi>Mecca</hi> the World's Worship?</l>
+      <l>Go on, and wheresoe'er thy Arms shall prosper,</l>
+      <l>Plant there the Prophet's Name: with Sword and Fire,</l>
+      <l>Drive out all other Faiths, and let the World</l>
+      <l>Confess him only.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Had he but commanded</l>
+      <l>My Sword to conquer all, to make the World</l>
+      <l>Know but one Lord, the Task were not so hard;</l>
+      <l>'Twere but to do what has been done already;</l>
+      <l>And <hi>Philip</hi>'s Son, and <hi>Caesar</hi> did as much:</l>
+      <l>But to subdue th' unconquerable Mind,</l>
+      <l>To make one Reason have the same Effect</l>
+      <l>Upon all Apprehensions; to force this,</l>
+      <l>Or this Man, just to think, as thou and I do;</l>
+      <l>Impossible! Unless Souls were alike</l>
+      <l>In all, which differ now like Human Faces.</l>
+     </sp>
+     <sp who="#turkish_dervise">
+      <speaker>Der.</speaker>
+      <l>Well might the Holy Cause be carry'd on,</l>
+      <l>If <hi>Mussulmen</hi> did not make War on <hi>Mussulmen.</hi>
+      </l>
+      <l>Why hold'st thou Captive a believing Monarch?</l>
+      <l>Now, as thou hop'st to 'scape the Prophet's Curse,</l>
+      <l>Release the Royal <hi>Bajazet,</hi> and join</l>
+      <l>With Force united, to destroy the Christians.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>'Tis well—I've found the Cause that mov'd thy Zeal.</l>
+      <l>What shallow Politician set thee on,</l>
+      <l>In hopes to fright me this way to compliance?</l>
+     </sp>
+     <sp who="#turkish_dervise">
+      <speaker>Der.</speaker>
+      <l>Our Prophet only.—</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>No—thou dost belie him,</l>
+      <l>Thou Maker of new Faiths! that dar'st to build</l>
+      <l>Thy fond Invensions on Religion's Name.</l>
+      <l>Religion's Lustre is by native Innocence</l>
+      <l>Divinely pure, and simple from all Arts.</l>
+      <l>You daub and dress her like a common Mistress,</l>
+      <l>The Harlot of your Fancies, and by adding</l>
+      <l>
+       <pb n="38" facs="50"/>
+False Beauties, which she wants not, makes the World</l>
+      <l>Suspect, her Angel's Face is foul beneath,</l>
+      <l>And wo' not bear all Lights. Hence! I have found thee.</l>
+     </sp>
+     <sp who="#turkish_dervise">
+      <speaker>Der.</speaker>
+      <l>I have but one resort. Now aid me, Prophet. <stage>[aside.</stage>
+      </l>
+      <l>Yet have I somewhat further to unfold;</l>
+      <l>Our Prophet speaks to thee in Thunder— <stage>[The <hi>Dervise</hi> draws a conceal'd Dagger, and offers to stab <hi>Tamerlane.</hi>
+       </stage> thus—</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>No, Villain, Heav'n is watchful o'er its Worshippers, <stage>[Wresting the Dagger from him.</stage>
+      </l>
+      <l>And blasts the Murderer's Purpose. Think thou, Wretch,</l>
+      <l>Think on the Pains that wait thy Crime, and tremble</l>
+      <l>When I shall doom thee—</l>
+     </sp>
+     <sp who="#turkish_dervise">
+      <speaker>Der.</speaker>
+      <l>'Tis but Death at last,</l>
+      <l>And I will suffer greatly for the Cause</l>
+      <l>That urg'd me first to the bold Deed.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Oh, impious!</l>
+      <l>Enthusiasm thus makes Villains, Martyrs.</l>
+      <l>
+       <stage>[Pausing.]</stage> It shall be so.—To die! 'twere a Reward—</l>
+      <l>Now learn the difference 'twixt thy Faith and mine:</l>
+      <l>Thine bids thee lift thy Dagger to my Throat,</l>
+      <l>Mine can forgive the Wrong, and bid thee live.</l>
+      <l>Keep thy own wicked Secret and be safe:</l>
+      <l>If thou continu'st still to be the same,</l>
+      <l>'Tis Punishment enough to be a Villain:</l>
+      <l>If thou repent'st, I have gain'd one to Virtue,</l>
+      <l>And am, in that, rewarded for my Mercy.</l>
+      <l>Hence! from my Sight!—It shocks my Soul, to think</l>
+      <l>That there is such a Monster in my Kind. <stage>[Exit <hi>Dervise.</hi>
+       </stage>
+      </l>
+      <l>Whither will Man's Impiety extend?</l>
+      <l>Oh gracious Heav'n! do'st thou with-hold thy Thunder,</l>
+      <l>When bold Assassines take thy Name upon 'em,</l>
+      <l>And swear, they are the Champions of thy Cause?</l>
+     </sp>
+     <stage>Enter <hi>Moneses.</hi>
+     </stage>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>Oh, Emperor! before whose awsul Throne <stage>kneeling to <hi>Tam.</hi>
+       </stage>
+      </l>
+      <l>Th' asslicted never kneel in vain for Justice, <stage>kneeling to <hi>Tam.</hi>
+       </stage>
+      </l>
+      <l>Undone, and ruin'd, blasted in my Hopes,</l>
+      <l>Here let me fall before your sacred Feet,</l>
+      <l>And groan out my Misfortunes, till your Pity,</l>
+      <l>
+       <pb n="39" facs="51"/>
+(The last Support and Refuge that is left me)</l>
+      <l>Shall raise me from the Ground, and bid me live.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Rise, Prince, nor let me reckon up thy Worth,</l>
+      <l>And tell, how boldly That might bid thee ask,</l>
+      <l>Lest I should make a Merit of my Justice,</l>
+      <l>The common Debt I owe to thee, to All,</l>
+      <l>Ev'n to the meanest of Mankind, the Charter</l>
+      <l>By which I claim my Crown, and Heav'ns Protection:</l>
+      <l>Speak then as to a King, the Sacred Name</l>
+      <l>Where Pow'r is lodg'd, for Righteous Ends alone.</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>One only Joy, one Blessing, my fond Heart</l>
+      <l>Had fix'd its Wishes on, and that is lost;</l>
+      <l>That Sister, for whose safety my sad Soul</l>
+      <l>Endur'd a thousand Fears.—</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>I well remember,</l>
+      <l>When e're the Battles join'd, I saw thee first,</l>
+      <l>With Grief uncommon to a Brother's Love,</l>
+      <l>Thou told'st a moving Tale of her Misfortunes,</l>
+      <l>Such as bespoke my Pity. Is there ought</l>
+      <l>Thou canst demand from Friendship? ask, and have it.</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>First, Oh! let me entreat your Royal Goodness.</l>
+      <l>Forgive the Folly of a Lover's Caution,</l>
+      <l>That forg'd a Tale of Falshood to deceive you:</l>
+      <l>Said I, she was my Sister?—Oh! 'tis false,</l>
+      <l>She holds a dearer Interest in my Soul,</l>
+      <l>Such as the closest ties of Blood ne'er knew:</l>
+      <l>An Int'rest, such as Pow'r, Wealth and Honour</l>
+      <l>Can't buy, but Love, Love only can bestow;</l>
+      <l>She was the Mistress of my Vows, my Bride,</l>
+      <l>By Contract mine; and long e're this, the Priest</l>
+      <l>Had ty'd the Knot for ever, had not <hi>Bajazet</hi>—</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Ha! <hi>Bajazet!</hi>—If yet his Pow'r with-holds</l>
+      <l>The Cause of all thy Sorrows, all thy Fears,</l>
+      <l>Ev'n Gratitude for once shall gain upon him,</l>
+      <l>Spight of his savage Temper, to restore her.</l>
+      <l>This Morn a Soldier brought a Captive Beauty,</l>
+      <l>Sad, tho' she seem'd yet of a Form most rare,</l>
+      <l>By much the noblest Spoil of all the Field;</l>
+      <l>Ev'n <hi>Scipto,</hi> or a Victor yet more cold,</l>
+      <l>Might have forgot his Virtue, at her light</l>
+      <l>
+       <pb n="40" facs="52"/>
+Struck with a pleasing Wonder, I beheld her</l>
+      <l>Till by a Slave that waited near her Person,</l>
+      <l>I learnt she was the Captive Sultan's Wife,</l>
+      <l>Strait I forbid my Eyes the dangerous Joy</l>
+      <l>Of gazing long, and sent her to her Lord.</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>There was <hi>Moneses</hi> lost.—Too sure my Heart</l>
+      <l>(From the first mention of her wond'rous Charms)</l>
+      <l>Presag'd it cou'd be only my <hi>Arpasia.</hi>
+      </l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>
+       <hi>Arpasia!</hi> didst thou say?</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>Yes, my <hi>Arpasia.</hi>
+      </l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Sure I mistake, or fain I would mistake thee.</l>
+      <l>I nam'd the Queen of <hi>Bajazet,</hi> his Wife.</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>His Queen! His Wife! He brings that Holy Title,</l>
+      <l>To varnish o'er the monstrous Wrongs he has done me.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Alas! I fear me, Prince, thy Griefs are just;</l>
+      <l>Thou art indeed unhappy.—</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>Can you pity me,</l>
+      <l>And not redress? <stage>[Kneeling.</stage> Oh, Royal <hi>Tamerlane!</hi>
+      </l>
+      <l>Thou Succour of the Wretched, reach thy Mercy,</l>
+      <l>To save me from the Grave, and from Oblivion;</l>
+      <l>Be gracious to the Hopes that wait my Youth.</l>
+      <l>Oh! let not Sorrow blast me, lest I wither,</l>
+      <l>And fall in vile Dishonour. Let thy Justice</l>
+      <l>Restore me my <hi>Arpasia;</hi> give her back,</l>
+      <l>Back to my Wishes, to my Transports give her,</l>
+      <l>To my fond, restless, bleeding, dying Bosom:</l>
+      <l>Oh! give her to me yet while I have Life</l>
+      <l>To bless thee for the Bounty. Oh, <hi>Arpasia!</hi>
+      </l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Unhappy Royal Youth, why dost thou ask,</l>
+      <l>What Honour must deny? Ha! Is she not</l>
+      <l>His Wife, whom he has wedded, whom enjoy'd?</l>
+      <l>And would'st thou have my partial Friendship break</l>
+      <l>That Holy Knot, which ty'd once, all Mankind</l>
+      <l>Agree to hold Sacred, and Undissolvable?</l>
+      <l>The Brutal Violence would stain my Justice,</l>
+      <l>And brand me with a Tyrant's hated Name</l>
+      <l>To late Posterity.</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>Are then the Vows,</l>
+      <l>The Holy Vows we registred in Heav'n,</l>
+      <l>But common Air?</l>
+     </sp>
+     <sp who="#tamerlane">
+      <pb n="41" facs="53"/>
+      <speaker>Tam.</speaker>
+      <l>Could thy fond Love forget</l>
+      <l>The Violation of a first Enjoyment?—</l>
+      <l>But Sorrow has disturb'd and hurt thy Mind.</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>Perhaps it has, and like an idle Madman,</l>
+      <l>That wanders with a Train of hooting Boys,</l>
+      <l>I do a thousand things to shame my Reason.</l>
+      <l>Then let me fly, and bear my Follies with me</l>
+      <l>Far, far from the World's Sight; Honour, and Fame,</l>
+      <l>Arms, and the glorious War shall be forgotten:</l>
+      <l>No noble Sound of Greatn ss, or Ambition,</l>
+      <l>Shall wake my drowsie Soul from her dead Sleep,</l>
+      <l>Till the last Trump do summon.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Let thy Virtue</l>
+      <l>Stand up, and answer to these warring Passions,</l>
+      <l>That vex thy manly Temper. From the moment</l>
+      <l>When first I saw thee, something wondrous noble</l>
+      <l>Shone thro' thy Form, and won my Friendship for thee,</l>
+      <l>Without the tedious Form of long Acquaintance;</l>
+      <l>Nor will I lose thee poorly for a Woman.</l>
+      <l>Come, droop no more, thou shalt with me pursue</l>
+      <l>True Greatness, till we rise to Immortality;</l>
+      <l>Thou shalt forget these lesser Cares, <hi>Moneses,</hi>
+      </l>
+      <l>Thou shalt, and help me to reform the World.</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>So the good Genius warns his mortal Charge,</l>
+      <l>To fly the evil Fate, that still pursues him,</l>
+      <l>Till it have wrought his Ruin. Sacred <hi>Tamerlane,</hi>
+      </l>
+      <l>Thy Words are as the Breath of Angels to me:</l>
+      <l>But oh! too deep the wounding Grief is fixt</l>
+      <l>For any Hand to heal.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>This dull Despair</l>
+      <l>Is the Soul's Laziness: Rouse to the Combat,</l>
+      <l>And thou art sure to conquer. War shall restore thee;</l>
+      <l>The Sound of Arms shall wake thy martial Ardour,</l>
+      <l>And cure this amorous Sickness of thy Soul,</l>
+      <l>Begun by Sloth, and nurs'd by too much Ease;</l>
+      <l>The idle God of Love supinely dreams,</l>
+      <l>Amidst inglorious Shades and purling Streams;</l>
+      <l>In rosie Fetters, and fantastick Chains,</l>
+      <l>He binds deluded Maids and simple Swains,</l>
+      <l>
+       <pb n="42" facs="54"/>
+With soft Enjoyments, wooes 'em to forget</l>
+      <l>The hardy Toils, and Labours of the great.</l>
+      <l>But if the warlike Trumpet's loud Alarms</l>
+      <l>To virtuous Acts excite, and manly Arms;</l>
+      <l>The Coward Boy avows his abject Fear,</l>
+      <l>On silken Wings sublime he cuts the Air,</l>
+      <l>Scar'd at the noble Noise, and Thunder of the War.</l>
+      <stage>[Exeunt.</stage>
+     </sp>
+    </div>
+    <trailer>End of the Third Act.</trailer>
+   </div>
+   <div n="4" type="act">
+    <div n="1" type="scene">
+     <head>ACT IV. SCENE I.</head>
+     <head>SCENE, <stage>
+       <hi>Bajazet</hi>'s Tent.</stage>
+     </head>
+     <stage>Enter <hi>Haly</hi> and the Dervise.</stage>
+     <sp who="#haly">
+      <speaker>Ha.</speaker>
+      <l>TO 'scape with Life from an Attempt like this,</l>
+      <l>Demands my Wonder justly.</l>
+     </sp>
+     <sp who="#turkish_dervise">
+      <speaker>Der.</speaker>
+      <l>True it may;</l>
+      <l>But 'tis a Principle of his new Faith;</l>
+      <l>'Tis what his Christian Favorites have inspir'd,</l>
+      <l>Who fondly make a Merit of Forgiveness,</l>
+      <l>And give their Foes a second Opportunity,</l>
+      <l>If the first Blow should miss:—Failing to serve</l>
+      <l>The Sultan to my wish, and ev'n despairing</l>
+      <l>Of further means, t' effect his Liberty,</l>
+      <l>A lucky Accident retriev'd my Hopes.</l>
+     </sp>
+     <sp who="#haly">
+      <speaker>Ha.</speaker>
+      <l>The Prophet, and our Master will reward</l>
+      <l>Thy Zeal in their behalf; but speak thy Purpose.</l>
+     </sp>
+     <sp who="#turkish_dervise">
+      <speaker>Der.</speaker>
+      <l>Just ent'ring here I met the <hi>Tartar</hi> General, Fierce <hi>Omar.</hi>
+      </l>
+     </sp>
+     <sp who="#haly">
+      <speaker>Ha.</speaker>
+      <l>He commands (if I mistake not)</l>
+      <l>This Quarter of the Army, and our Guards.</l>
+     </sp>
+     <sp who="#turkish_dervise">
+      <speaker>Der.</speaker>
+      <l>The same; by his stern Aspect, and the Fires</l>
+      <l>That Kindled in his Eyes, I guess'd the Tumult</l>
+      <l>Some Wrong had rais'd in his tempestuous Soul;</l>
+      <l>A Friendship of old Date had giv'n me Privilege,</l>
+      <l>To ask of his Concerns; In short I learn'd,</l>
+      <l>That burning for the Sultan's beauteous Daughter,</l>
+      <l>
+       <pb n="43" facs="55"/>
+He had beg'd her, as a Captive of the War,</l>
+      <l>From <hi>Tamerlane;</hi> but meeting with denial</l>
+      <l>Of what he thought his Services might claim,</l>
+      <l>Loudly he storms, and curses the <hi>Italian,</hi>
+      </l>
+      <l>As cause of this Affront: I join'd his Rage,</l>
+      <l>And added to his Injuries, the Wrongs</l>
+      <l>Our Prophet daily meets from this <hi>Axalla.</hi>
+      </l>
+      <l>But see, he comes. Improve what I shall tell,</l>
+      <l>And all we wish is ours.—</l>
+      <stage>They seem to talk together aside.</stage>
+     </sp>
+     <stage>Enter <hi>Omar.</hi>
+     </stage>
+     <sp who="#omar">
+      <speaker>Om.</speaker>
+      <l>No—if I forgive it,</l>
+      <l>Dishonour blast my Name; was it for this</l>
+      <l>That I directed his first Steps to Greatness?</l>
+      <l>Taught him to climb, and made him what he is?</l>
+      <l>When our great <hi>Cam</hi> first bent his Eyes towards him,</l>
+      <l>(Then petty Prince of <hi>Parthia</hi>) and by me</l>
+      <l>Perswaded, rais'd him to his Daughter's Bed,</l>
+      <l>Call'd him his Son, and Successor of Empire:</l>
+      <l>Was it for this, that like a Rock I stood,</l>
+      <l>And stemm'd the Torrent of our <hi>Tartar</hi> Lords,</l>
+      <l>Who scorn'd his upstart Sway? When <hi>Calibes</hi>
+      </l>
+      <l>In bold Rebellion drew ev'n half the Provinces</l>
+      <l>To own his Cause, I, like his better Angel,</l>
+      <l>Stood by his shaking Throne, and fixt it fast;</l>
+      <l>And am I now so lost to his Remembrance?</l>
+      <l>That when I ask a Captive he shall tell me,</l>
+      <l>She is <hi>Axalla</hi>'s Right, his Christian Minion.</l>
+     </sp>
+     <sp who="#turkish_dervise">
+      <speaker>Der.</speaker>
+      <l>Allow me, valiant <hi>Omar,</hi> to demand,</l>
+      <l>Since injur'd thus, why right you not your self?</l>
+      <l>The Prize you ask is in your Power.</l>
+     </sp>
+     <sp who="#omar">
+      <speaker>Om.</speaker>
+      <l>It is,</l>
+      <l>And I will seize it, in despight of <hi>Tamerlane,</hi>
+      </l>
+      <l>And that <hi>Italian</hi> Dog.</l>
+     </sp>
+     <sp who="#haly">
+      <speaker>Ha.</speaker>
+      <l>What need of Force,</l>
+      <l>When every thing concurs to meet your Wishes?</l>
+      <l>Our mighty Master would not wish a Son</l>
+      <l>Nobler than <hi>Omar;</hi> from a Father's hand</l>
+      <l>Receive that Daughter, which ungrateful <hi>Tamerlane</hi>
+      </l>
+      <l>Has to your Worth deny'd.</l>
+     </sp>
+     <sp who="#omar">
+      <pb n="44" facs="56"/>
+      <speaker>Om.</speaker>
+      <l>Now by my Arms,</l>
+      <l>It will be great Revenge. What will your Sultan</l>
+      <l>Give to the Man that shall restore his Liberty,</l>
+      <l>His Crown? and give him Pow'r to wreck his Hatred</l>
+      <l>Upon his greatest Foe?</l>
+     </sp>
+     <sp who="#haly">
+      <speaker>Ha.</speaker>
+      <l>All he can ask,</l>
+      <l>And far beyond his Wish.— <stage>[Trumpets.</stage>
+      </l>
+     </sp>
+     <sp who="#omar">
+      <speaker>Om.</speaker>
+      <l>These Trumpets speak</l>
+      <l>The Emperor's Approach; he comes, once more,</l>
+      <l>To offer Terms of Peace; retire—within</l>
+      <l>I will know farther,—he grows deadly to me,</l>
+      <l>And curse me, Prophet, if I not repay</l>
+      <l>His Hate, with retribution full as mortal. </l>
+      <stage>[Exeunt.</stage>
+     </sp>
+    </div>
+    <div type="scene">
+     <head>
+      <stage>Scene draws, discovers <hi>Arpasia</hi> lying on a Couch.</stage>
+     </head>
+     <sp>
+      <lg type="song">
+       <head>A SONG to Sleep. By a Lady.</head>
+       <lg>
+        <l>TO Thee, oh! gentle Sleep, alone</l>
+        <l>Is owing all our Peace,</l>
+        <l>By Thee our Joys are heighten'd shown,</l>
+        <l>By Thee our Sorrows cease.</l>
+       </lg>
+       <lg>
+        <l>The Nymph, whose Hand, by Fraud, or Force,</l>
+        <l>Some Tyrant has possess'd,</l>
+        <l>By Thee, obtaining a Divorce,</l>
+        <l>In her own Choice, is blest.</l>
+       </lg>
+       <lg>
+        <l>Oh! stay; <hi>Arpasia</hi> bids thee stay,</l>
+        <l>The sadly weeping Fair</l>
+        <l>Conjures Thee, not to lose in Day</l>
+        <l>The Object of her Care.</l>
+       </lg>
+       <lg>
+        <l>To grasp whose pleasing Form she sought,</l>
+        <l>That Motion chac'd her Sleep,</l>
+        <l>Thus by our selves, are oftnest wrought</l>
+        <l>The Griefs, for which we weep.</l>
+       </lg>
+      </lg>
+     </sp>
+     <sp who="#arpasia">
+      <speaker>Arp.</speaker>
+      <l>Oh! Death! thou gentle end of human Sorrows,</l>
+      <l>Still must my weary Eye-lids vainly wake</l>
+      <l>In tedious Expectation of thy Peace:</l>
+      <l>Why stand thy thousand thousand Doors still open,</l>
+      <l>To take the Wretched in? if stern Religion</l>
+      <l>Guards every Passage, and forbids my Entrance?—</l>
+      <l>
+       <pb n="45" facs="57"/>
+       <hi>Lucrece</hi> could bleed, and <hi>Porcia</hi> swallow Fire,</l>
+      <l>When urg'd with Griefs beyond a mortal Sufferance;</l>
+      <l>But here it must not be. Think then, <hi>Arpasia,</hi>
+      </l>
+      <l>Think on the Sacred Dictates of thy Faith,</l>
+      <l>And let that arm thy Virtue, to perform</l>
+      <l>What <hi>Cato</hi>'s Daughter durst not,—Live <hi>Arpasia,</hi>
+      </l>
+      <l>And dare to be unhappy.</l>
+     </sp>
+     <stage>Enter <hi>Tamerlane,</hi> and Attendants.</stage>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>When Fortune smiles upon the Soldier's Arms,</l>
+      <l>And adds ev'n Beauty to adorn his Conquest,</l>
+      <l>Yet she ordains, the fair should know no Fears,</l>
+      <l>No Sorrows, to pollute their lovely Eyes;</l>
+      <l>But should be us'd ev'n nobly, as her self,</l>
+      <l>The Queen and Goddess of the Warrior's Vows,—</l>
+      <l>Such Welcome, as a Camp can give, fair Sultaness,</l>
+      <l>We hope you have receiv'd; It shall be larger,</l>
+      <l>And better, as it may.</l>
+     </sp>
+     <sp who="#arpasia">
+      <speaker>Arp.</speaker>
+      <l>Since I have born</l>
+      <l>That miserable Mark of fatal Greatness,</l>
+      <l>I have forgot all difference of Conditions,</l>
+      <l>Scepters and Fetters are grown equal to me,</l>
+      <l>And the best Change, my Fate can bring, is Death.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>When Sorrow dwells in such an Angel Form,</l>
+      <l>Well may we guess, that those above are Mourners;</l>
+      <l>Virtue is wrong'd, and bleeding Innocence</l>
+      <l>Suffers some wond'rous Violation here,</l>
+      <l>To make the Saints look sad. Oh! teach my Power</l>
+      <l>To cure those Ills, which you unjustly suffer,</l>
+      <l>Lest Heav'n should wrest it from my idle Hand,</l>
+      <l>If I look on, and see you weep in vain.</l>
+     </sp>
+     <sp who="#arpasia">
+      <speaker>Arp.</speaker>
+      <l>Not that my Soul disdains the generous Aid,</l>
+      <l>Thy Royal Goodness proffers; but oh! Emperor,</l>
+      <l>It is not in my Fate to be made happy:</l>
+      <l>Nor will I listen to the Cos'ner, Hope;</l>
+      <l>But stand resolv'd, to bear the beating Storm,</l>
+      <l>That roars around me; safe in this alone,</l>
+      <l>That I am not Immortal.—Tho' 'tis hard,</l>
+      <l>'Tis wond'rous hard, when I remember thee</l>
+      <l>(Dear Native <hi>Greece</hi>) and you, ye weeping Maids,</l>
+      <l>
+       <pb n="46" facs="58"/>
+That were Companions of my Virgin Youth:</l>
+      <l>My noble Parents! Oh! the grief of Heart!</l>
+      <l>The Pangs, that, for unhappy me, bring down</l>
+      <l>Their reverend Ages to the Grave with Sorrow:</l>
+      <l>And yet there is a Woe surpassing all,</l>
+      <l>Ye Saints and Angels, give me of your Constancy,</l>
+      <l>If you expect I shall endure it long.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Why is my Pity all, that I can give</l>
+      <l>To Tears like yours? And yet I fear 'tis all;</l>
+      <l>Nor dare I ask, what mighty Loss you mourn,</l>
+      <l>Lest Honour should forbid to give it back.</l>
+     </sp>
+     <sp who="#arpasia">
+      <speaker>Arp.</speaker>
+      <l>No, <hi>Tamerlane,</hi> nor did I mean thou shoud'st.</l>
+      <l>But know (tho' to the weakness of my Sex</l>
+      <l>I yield these Tears) my Soul is more than Man.</l>
+      <l>Think I am born a <hi>Greek,</hi> nor doubt my Virtue:</l>
+      <l>A <hi>Greek!</hi> from whose fam'd Ancestors of old,</l>
+      <l>
+       <hi>Rome</hi> drew the Patterns of her boasted Heroes:</l>
+      <l>They must be mighty Evils, that can vanquish</l>
+      <l>A <hi>Spartan</hi> Courage, and a Christian Faith.</l>
+     </sp>
+     <stage>Enter <hi>Bajazet.</hi>
+     </stage>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>To know no thought of Rest! to have the Mind</l>
+      <l>Still ministring fresh Plagues! as in a Circle,</l>
+      <l>Where one Dishonour treads upon another;</l>
+      <l>What know the Fiends beyond it?— <stage>Seeing <hi>Arp.</hi> and <hi>Tam.</hi>
+       </stage> Ha! by Hell!</l>
+      <l>There wanted only this, to make me mad.</l>
+      <l>Comes he to triumph here? to rob my Love?</l>
+      <l>And violate the last retreat of Happiness?</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>But that I read upon thy frowning Brow,</l>
+      <l>That War yet lives, and rages in thy Breast;</l>
+      <l>Once more, (in pity to the suff'ring World)</l>
+      <l>I meant to offer Peace.—</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>And mean'st Thou too</l>
+      <l>To treat it with our Empress? and to barter</l>
+      <l>The Spoils, which Fortune gave thee, for her Favours?</l>
+     </sp>
+     <sp who="#arpasia">
+      <speaker>Arp.</speaker>
+      <l>What would the Tyrant?— <stage>[Aside.</stage>
+      </l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Seek'st thou thus our Friendship?</l>
+      <l>Is this the Royal Usage, thou didst boast?</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>The boiling Passion that disturbs thy Soul,</l>
+      <l>Spreads Clouds around, and makes thy Purpose dark.—</l>
+      <l>
+       <pb n="47" facs="59"/>
+Unriddle what thy mystick Fury aims at.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Is it a Riddle?—Read it there explain'd,</l>
+      <l>There in my Shame. Now judge me thou, O Prophet,</l>
+      <l>And equal Heav'n, if this demand not Rage!</l>
+      <l>The Peasant-Hind, begot, and born to Slavery,</l>
+      <l>Yet dares assert a Husband's sacred Right,</l>
+      <l>And guard his homely Couch from Violation.</l>
+      <l>And shall a Monarch tamely bear the Wrong</l>
+      <l>Without complaining?</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>If I could have wrong'd thee,</l>
+      <l>If conscious Virtue, and all-judging Heav'n</l>
+      <l>Stood not between, to bar ungovern'd Appetite,</l>
+      <l>What hinder'd, but in spight of thee, my Captive,</l>
+      <l>I might have us'd a Victor's boundless Power,</l>
+      <l>And sated every Wish my Soul could form?</l>
+      <l>But to secure thy Fears, know, <hi>Bajazet,</hi>
+      </l>
+      <l>This is among the Things I dare not do.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>By Hell! 'tis false; else, wherefore art thou present?</l>
+      <l>What cam'st thou for, but to undo my Honour?</l>
+      <l>I found thee holding amorous Parley with her,</l>
+      <l>Gazing, and gloting on her wanton Eyes,</l>
+      <l>And bargaining for Pleasures yet to come;</l>
+      <l>My Life, I know, is the devoted Price,</l>
+      <l>But take it, I am weary of the Pain.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Yet e'er thou rashly urge my Rage too far,</l>
+      <l>I warn thee to take heed; I am a Man,</l>
+      <l>And have the Frailties common to Man's Nature;</l>
+      <l>The fiery Seeds of Wrath are in my Temper,</l>
+      <l>And may be blown up to so sierce a Blaze,</l>
+      <l>As Wisdom cannot rule. Know, thou hast toucht me</l>
+      <l>Ev'n in the nicest, tenderest part, my Honour.</l>
+      <l>My Honour! which, like Pow'r, disdains being question'd;</l>
+      <l>Thy Breath has blasted my fair Virtue's Fame,</l>
+      <l>And mark'd me for a Villain, and a Tyrant</l>
+     </sp>
+     <sp who="#arpasia">
+      <speaker>Arp.</speaker>
+      <l>And stand I here an idle Looker on?</l>
+      <l>To s e my innocence murder'd and mangled</l>
+      <l>By barbarous Hands? nor can revenge the Wrong</l>
+      <l>Art thou a Man, and dar'st thou use me thus? <stage>[To Baj.</stage>
+      </l>
+      <l>Hast thou not torn me from my Native Country?</l>
+      <l>From the dear Arms of my lamenting Friends?</l>
+      <l>
+       <pb n="48" facs="60"/>
+From my Soul's Peace, and from my injur'd Love?</l>
+      <l>Hast thou not ruin'd, blotted me for ever,</l>
+      <l>And driv'n me to the brink of black Despair?</l>
+      <l>And is it in thy Malice yet, to add</l>
+      <l>A Wound more deep, to sully my white Name,</l>
+      <l>My Virtue?—</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Yes, thou hast thy Sexes Virtues,</l>
+      <l>Their Affectation, Pride, Ill Nature, Noise,</l>
+      <l>Proneness to change, ev'n from the Joy that pleas'd 'em:</l>
+      <l>So gracious is your Idol, dear Variety,</l>
+      <l>That for another Love you would forego</l>
+      <l>An Angel's Form, to mingle with a Devil's;</l>
+      <l>Through every State, and Rank of Men you wander;</l>
+      <l>Till ev'n your large Experience takes in all</l>
+      <l>The different Nations of the Peopled Earth.</l>
+     </sp>
+     <sp who="#arpasia">
+      <speaker>Arp.</speaker>
+      <l>Why sought'st thou not from thy own Impious Tribe</l>
+      <l>A Wife, like one of these? for such thy Race</l>
+      <l>(If human Nature brings forth such) affords.</l>
+      <l>
+       <hi>Greece,</hi> for chaste Virgins fam'd, and pious Matrons,</l>
+      <l>Teems not with Monsters, like your <hi>Turkish</hi> Wives;</l>
+      <l>Whom guardian Eunuchs, haggard and deform'd,</l>
+      <l>Whom Walls and Bars make honest by constraint.</l>
+      <l>Know, I detest, like Hell, the Crime thou mention'st:</l>
+      <l>Not that I fear, or reverence thee, thou Tyrant:</l>
+      <l>But that my Soul, conscious of whence it sprung,</l>
+      <l>Sits unpolluted in its sacred Temple,</l>
+      <l>And scorns to mingle with a Thought so mean.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Oh Pity! that a Greatness so divine</l>
+      <l>Should meet a Fate so wretched, so unequal.—</l>
+      <l>Thou blind and wilful, to the Good that courts thee; <stage>[To <hi>Baj.</hi>
+       </stage>
+      </l>
+      <l>With open-handed Bounty Heav'n pursues thee,</l>
+      <l>And bids thee (undeserving as thou art,</l>
+      <l>And monstrous in thy Crimes) be happy yet:</l>
+      <l>Whilst thou, in Fury, do'st avert the Blessings,</l>
+      <l>And art an evil Genius to thy self.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>No—Thou! thou art my greatest Curse on Earth.</l>
+      <l>Thou, who hast robb'd me of my Crown and Glory,</l>
+      <l>And now pursu'st me to the Verge of Life,</l>
+      <l>To spoil me of my Honour. Thou! thou Hypocrite!</l>
+      <l>That wear'st a Pageant out-side shew of Virtue,</l>
+      <l>
+       <pb n="49" facs="61"/>
+To cover the hot Thoughts, that glow within,</l>
+      <l>Thou rank Adulterer!</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Oh! That thou wert</l>
+      <l>The Lord of all those Thousands, that lie breathless</l>
+      <l>On yonder Field of Blood: That I again</l>
+      <l>Might hunt thee in the Face of Death and Danger,</l>
+      <l>Through the tumultuous Battle, and there force thee,</l>
+      <l>Vanquish'd and sinking underneath my Arm,</l>
+      <l>To own, thou hast traduc'd me, like a Villain.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Ha! does it gall thee, <hi>Tartar?</hi> By Revenge?</l>
+      <l>It joys me much, to find, thou feel'st my Fury.</l>
+      <l>Yes! I will Eccho to thee, thou Adulterer!</l>
+      <l>Thou dost profane the Name of King and Soldier,</l>
+      <l>And like a Ruffian-Bravo cam'st with Force</l>
+      <l>To violate the Holy Marriage-Bed.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Wer't thou not shelter'd by thy abject State,</l>
+      <l>The Captive of my Sword, by my just Anger!</l>
+      <l>My Breath, like Thunder, should confound thy Pride,</l>
+      <l>And doom thee dead, this instant, with a Word.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>'Tis false! my Fate's above thee, and thou dar'st not.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Ha! dare not? Thou hast rais'd my pond'rous Rage,</l>
+      <l>And now it falls to crush thee at a Blow.</l>
+      <l>A Guard there.— <stage>[Enter a Guard, they seize <hi>Bajazet.</hi>
+       </stage> Seize and drag him to his Fate.</l>
+      <l>Tyrant, I'll do a double Justice on thee,</l>
+      <l>At once revenge my self, and all Mankind.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Well do'st thou, e'er thy Violence and Lust</l>
+      <l>Invade my Bed, thus to begin with Murder;</l>
+      <l>Drown all thy Fears in Blood, and sin securely.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Away!—</l>
+     </sp>
+     <sp who="#arpasia">
+      <speaker>Arp.</speaker>
+      <stage>
+       <hi>kneeling.</hi>]</stage>
+      <l> Oh stay! I charge thee, by Renown,</l>
+      <l>By that bright Glory, thy great Soul pursues!</l>
+      <l>Call back the Doom of Death.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Fair injur'd Excellence,</l>
+      <l>Why dost thou kneel, and waste such precious Pray'rs,</l>
+      <l>(As might ev'n bribe the Saints to partial Justice)</l>
+      <l>For one to Goodness lost? who first undid thee,</l>
+      <l>Who still pursues, and aggravates the Wrong.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>By <hi>Alha!</hi> no—I will not wear a Life</l>
+      <l>Bought with such vile Dishonour.—Death shall free me</l>
+      <l>
+       <pb n="50" facs="62"/>
+At once from Infamy, and thee, thou Traytress!</l>
+     </sp>
+     <sp who="#arpasia">
+      <speaker>Arp.</speaker>
+      <l>No matter, tho' the whistling Winds grow loud,</l>
+      <l>And the rude Tempest roars, 'tis idle Rage,</l>
+      <l>Oh! mark it not. But let thy steady Virtue</l>
+      <l>Be constant to its Temper; save his Life,</l>
+      <l>And save <hi>Arpasia</hi> from the sport of Talkers.</l>
+      <l>Think, how the busie, medling World shall toss</l>
+      <l>Thy mighty Name about, in scurril Mirth;</l>
+      <l>Shall brand thy Vengeance, as a foul Design,</l>
+      <l>And make such monstrous Legends of our Lives,</l>
+      <l>As late Posterity shall blush in reading.</l>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Oh matchless Virtue! Yes I will obey;</l>
+      <l>Tho' Laggard in the Race, admiring yet,</l>
+      <l>I will pursue the shining Path thou tread'st.</l>
+      <l>Sultan, be safe. Reason resumes her Empire, <stage>The Guards release <hi>Baj.</hi>
+       </stage>
+      </l>
+      <l>And I am cool again.—Here break we off, <stage>The Guards release <hi>Baj.</hi>
+       </stage>
+      </l>
+      <l>Lest further Speech should minister new Rage.</l>
+      <l>Wisely from dangerous Passions I retreat,</l>
+      <l>To keep a Conquest, which was hard to get:</l>
+      <l>And oh! 'tis time I shou'd for Flight prepare,</l>
+      <l>A War more fatal seems to threaten there,</l>
+      <l>And all my Rebel-blood assists the Fair:</l>
+      <l>One moment more, and I too late shall find,</l>
+      <l>That Love's the strongest Pow'r that lords it o'er the Mind.</l>
+      <stage>[Exit <hi>Tamerlane</hi> followed by the Guards.</stage>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>To what new Shame, what Plague am I reserv'd?</l>
+      <l>Why did my Stars refuse me to die warm?</l>
+      <l>While yet my Regal State stood unimpeach'd,</l>
+      <l>Nor knew the Curse of having One above me;</l>
+      <l>Then too (altho' by force I graspt the Joy)</l>
+      <l>My Love was safe, nor felt the rack of doubt:</l>
+      <l>Why hast thou forc'd this nauseous Life upon me?</l>
+      <l>Is it to triumph over me?—But I will,</l>
+      <l>I will be free, I will forget thee all;</l>
+      <l>The Bitter and the Sweet, the Joy and Pain,</l>
+      <l>Death shall expunge at once, and ease my Soul.</l>
+      <l>Prophet, take notice, I disclaim thy Paradice,</l>
+      <l>Thy fragrant Bow'rs, and everlasting Shades,</l>
+      <l>Thou hast plac'd Woman there, and all thy Joys are tainted.</l>
+      <stage>[Exit <hi>Bajazet.</hi>
+      </stage>
+     </sp>
+     <sp who="#arpasia">
+      <pb n="51" facs="63"/>
+      <speaker>Arp.</speaker>
+      <l>A little longer yet, be strong, my Heart,</l>
+      <l>A little longer let the busie Spirits</l>
+      <l>Keep on their chearful round.—It wo' not be:</l>
+      <l>Love, Sorrow, and the Sting of vile Reproach,</l>
+      <l>Succeeding one another in their Course,</l>
+      <l>Like Drops of eating Water on the Marble,</l>
+      <l>At length have worn my boasted Courage down:</l>
+      <l>I will indulge the Woman in my Soul,</l>
+      <l>And give a loose to Tears, and to Impatience;</l>
+      <l>Death is at last my due, and I will have it.—</l>
+      <l>And see, the poor <hi>Moneses</hi> comes to take</l>
+      <l>One sad Adieu, and then we part for ever.</l>
+     </sp>
+     <stage>Enter <hi>Moneses.</hi>
+     </stage>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>Already am I onward of my way;</l>
+      <l>Thy tuneful Voice comes like a hollow Sound</l>
+      <l>At distance to my Ears. My Eyes grow heavy,</l>
+      <l>And all the glorious Lights of Heav'n look dim;</l>
+      <l>'Tis the last Office they shall ever do me,</l>
+      <l>To view thee once, and then to close and die.</l>
+     </sp>
+     <sp who="#arpasia">
+      <speaker>Arp.</speaker>
+      <l>Alas! how happy have we been, <hi>Moneses?</hi>
+      </l>
+      <l>Yee gentle Days, that once were ours; what Joys</l>
+      <l>Did every chearful Morning bring along?</l>
+      <l>No Fears, no Jealousies, no angry Parents,</l>
+      <l>That for unequal Births, or Fortunes frown'd;</l>
+      <l>But Love, that kindly join'd our Hearts, to bless us,</l>
+      <l>Made us a Blessing too to all besides.</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>Oh! Cast not thy remembrance back, <hi>Arpasia,</hi>
+      </l>
+      <l>'Tis Grief unutterable, 'tis Distraction!</l>
+      <l>But let this last of hours be peaceful Sorrow;</l>
+      <l>Here let me kneel, and pay my latest Vows;</l>
+      <l>Be witness, all ye Saints, thou Heav'n and Nature,</l>
+      <l>Be witness of my Truth, for you have known it;</l>
+      <l>Be witness, that I never knew a Pleasure,</l>
+      <l>In all the World cou'd offer, like <hi>Arpasia;</hi>
+      </l>
+      <l>Be witness, that I liv'd but in <hi>Arpasia;</hi>
+      </l>
+      <l>And oh! be witness, that her Loss has kill'd me.</l>
+     </sp>
+     <sp who="#arpasia">
+      <speaker>Arp.</speaker>
+      <l>While thou art speaking, Life begins to fail,</l>
+      <l>And every tender Accent chills like Death.</l>
+      <l>Oh! let me haste then yet, e'er Day declines,</l>
+      <l>And the long Night prevail, once more, to tell thee</l>
+      <l>
+       <pb n="52" facs="64"/>
+What, and how dear <hi>Moneses</hi> has been to me.</l>
+      <l>What has he not been?—All the Names of Love,</l>
+      <l>Brothers, or Fathers, Husbands, all are poor:</l>
+      <l>
+       <hi>Moneses</hi> is my self, in my fond Heart,</l>
+      <l>Ev'n in my vital Blood he lives and reigns;</l>
+      <l>The last dear Object of my parting Soul</l>
+      <l>Will be <hi>Moneses;</hi> the last Breath that lingers</l>
+      <l>Within my panting Breast, shall sigh <hi>Moneses.</hi>
+      </l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>It is enough! Now to thy Rest, my Soul,</l>
+      <l>The World, and thou have made an end at once.</l>
+     </sp>
+     <sp who="#arpasia">
+      <speaker>Arp.</speaker>
+      <l>Fain would I still detain thee, hold thee still;</l>
+      <l>Nor Honour can forbid, that we together</l>
+      <l>Should share the poor few Minutes that remain;</l>
+      <l>I swear, methinks this sad Society</l>
+      <l>Has somewhat pleasing in it.—Death's dark Shades</l>
+      <l>Seem, as we Journy on, to lose their Horror:</l>
+      <l>At near approach the Monsters form'd by Fear</l>
+      <l>Are vanisht all, and leave the Prospect clear:</l>
+      <l>Amidst the gloomy Vale, a pleasing Scene</l>
+      <l>With Flow'rs adorn'd, and never-fading Green,</l>
+      <l>Inviting stands to take the Wretched in.</l>
+      <l>No Wars, no Wrongs, no Tyrants, no Despair,</l>
+      <l>Disturb the Quiet of a Place so fair,</l>
+      <l>But injur'd Lovers find <hi>Elizium</hi> there.</l>
+      <stage>[Exeunt.</stage>
+     </sp>
+     <stage>Enter <hi>Bajazet, Omar, Haly,</hi> and the <hi>Dervise.</hi>
+     </stage>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Now by the glorious Tomb, that shrines our Prophet,</l>
+      <l>By <hi>Mecca</hi>'s sacred Temple! here I swear!</l>
+      <l>Our Daughter is thy Bride; and to that Gift</l>
+      <l>Such Wealth, such Pow'r, such Honours will I add,</l>
+      <l>That Monarchs shall with Envy view thy State,</l>
+      <l>And own, Thou art a Demy-God to them.</l>
+      <l>Thou hast giv'n me what I wish'd, Power of Revenge,</l>
+      <l>And when a King rewards, 'tis ample Retribution.</l>
+     </sp>
+     <sp who="#omar">
+      <speaker>Om.</speaker>
+      <l>Twelve <hi>Tartar</hi> Lords, each potent in his Tribe,</l>
+      <l>Have sworn to own my Cause, and draw their Thousands</l>
+      <l>To Morrow, from th' ungrateful <hi>Parthian</hi>'s side;</l>
+      <l>The Day declining seems to yield to Night,</l>
+      <l>E'er little more than half her Course be ended,</l>
+      <l>In an auspicious Hour prepare for Flight;</l>
+      <l>
+       <pb n="53" facs="65"/>
+The Leaders of the Troops thro' which we pass,</l>
+      <l>Rais'd by my Pow'r, devoted to my Service,</l>
+      <l>Shall make our Passage secret, and secure.</l>
+     </sp>
+     <sp who="#turkish_dervise">
+      <speaker>Der.</speaker>
+      <l>Already, mighty Sultan, art thou safe,</l>
+      <l>Since by yon passing Torches Light, I guess</l>
+      <l>To his Pavilion <hi>Tamerlane</hi> retires,</l>
+      <l>Attended by a Train of waiting Courtiers.</l>
+      <l>All, who remain within these Tents, are thine,</l>
+      <l>And hail thee, as their Lord.</l>
+      <l>Ha, th' <hi>Italian</hi> Prince,</l>
+      <l>With sad <hi>Moneses</hi> are not yet gone forth.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Ha! With our Queen and Daughter?</l>
+     </sp>
+     <sp who="#omar">
+      <speaker>Om.</speaker>
+      <l>They are ours;</l>
+      <l>I markt the Slaves, who waited on <hi>Axalla;</hi>
+      </l>
+      <l>They, when the Emperor past out, prest on,</l>
+      <l>And mingled with the Crowd, nor mist their Lord:</l>
+      <l>He is your Pris'ner, Sir, I go this moment,</l>
+      <l>To seize, and bring him, to receive his Doom.</l>
+      <stage>[Exit <hi>Omar.</hi>
+      </stage>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Haste, <hi>Haly,</hi> follow, and secure the <hi>Greek,</hi>
+      </l>
+      <l>Him too I wish to keep within my Power.</l>
+      <stage>[Exit <hi>Haly.</hi>
+      </stage>
+     </sp>
+     <sp who="#turkish_dervise">
+      <speaker>Der.</speaker>
+      <l>If my dread Lord permit his Slave to speak,</l>
+      <l>I would advise to spare <hi>Axalla</hi>'s Life,</l>
+      <l>Till we are safe beyond the <hi>Parthian</hi>'s Power:</l>
+      <l>Him, as our Pledge of Safety, may we hold;</l>
+      <l>And, could you gain him to assist your Flight,</l>
+      <l>It might import you much.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Thou Counsell'st well;</l>
+      <l>And tho' I hate him, for he is a Christian,</l>
+      <l>And to my mortal Enemy devoted,</l>
+      <l>Yet to secure my Liberty, and Vengeance,</l>
+      <l>I wish he now were ours.</l>
+     </sp>
+     <sp who="#turkish_dervise">
+      <speaker>Der.</speaker>
+      <l>And see! they come!</l>
+      <l>Fortune repents, again she courts your Side,</l>
+      <l>And, with this first fair Offering of Success,</l>
+      <l>She wooes you, to forget her Crime of yesterday.</l>
+     </sp>
+     <stage>Enter <hi>Omar</hi> with <hi>Axalla</hi> Prisoner, <hi>Selima</hi> following weeping.</stage>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>I wo'not call thee Villain, 'tis a Name</l>
+      <l>Too holy for thy Crime; to break thy Faith,</l>
+      <l>And turn a Rebel to so good a Master,</l>
+      <l>
+       <pb n="54" facs="66"/>
+Is an Ingratitude unmatch'd on Earth;</l>
+      <l>The first revolting Angel's Pride cou'd only</l>
+      <l>Do more, than thou hast done. Thou Copy'st well,</l>
+      <l>And keep'st the black Original in view.</l>
+     </sp>
+     <sp who="#omar">
+      <speaker>Om.</speaker>
+      <l>Do, Rage, and vainly call upon thy Master,</l>
+      <l>To save his Minion; my Revenge has caught thee,</l>
+      <l>And I will make thee curse that fond Presumption,</l>
+      <l>That set thee on, to rival me in ought.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Christian, I hold thy Fate at my Disposal.</l>
+      <l>One only way remains to Mercy open,</l>
+      <l>Be Partner of my Flight, and my Revenge,</l>
+      <l>And thou art safe. Thy other Choice is Death.</l>
+     </sp>
+     <sp who="#omar">
+      <speaker>Om.</speaker>
+      <l>What means the Sultan?</l>
+     </sp>
+     <sp who="#turkish_dervise">
+      <speaker>Der.</speaker>
+      <l>I Conjure you, hold—</l>
+      <l>Your Rival is devoted to Destruction, <stage>[Aside to <hi>Omar.</hi>
+       </stage>
+      </l>
+      <l>Nor would the Sultan now defer his Fate</l>
+      <l>But for our common safety— <stage>[Wispers.</stage> Listen further.</l>
+     </sp>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>Then briefly thus. Death is the Choice, I make;</l>
+      <l>Since, next to Heav'n, my Master, and my Friend</l>
+      <l>Has Interest in my Life, and still shall claim it.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Then take thy Wish.—Call in our Mutes.</l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>My Father,</l>
+      <l>If yet you have not sworn to cast me off,</l>
+      <l>And turn me out, to wander in Misfortune;</l>
+      <l>If yet my Voice be gracious in your Ears;</l>
+      <l>If yet my Duty and my Love offend not,</l>
+      <l>Oh! call your Sentence back, and save <hi>Axalla.</hi>
+      </l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Rise, <hi>Selima,</hi> the Slave deserves to die,</l>
+      <l>Who durst, with sullen Pride, refuse my Mercy:</l>
+      <l>Yet, for thy sake, once more I offer Life.</l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>Some Angel whisper to my anxious Soul</l>
+      <l>What I shall do to save him.—Oh! <hi>Axalla!</hi>
+      </l>
+      <l>Is it so easie to thee, to sorsake me?</l>
+      <l>Can'st thou resolve, with all this cold Indifference,</l>
+      <l>Never to see me more? To leave me here</l>
+      <l>The miserable Mourner of thy Fate,</l>
+      <l>Condemn'd, to waste my Widow'd Virgin Youth,</l>
+      <l>My tedious Days and Nights in lonely Weeping,</l>
+      <l>And never know the Voice of Comfort more.</l>
+     </sp>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>Search not too deep the Sorrows of my Breast;</l>
+      <l>
+       <pb n="55" facs="67"/>
+Thou say'st, I am Indifferent, and Cold.</l>
+      <l>Oh! is it possible, my Eyes should tell</l>
+      <l>So little of the fighting Storm within.</l>
+      <l>Oh! turn thee from me, save me from thy Beauties,</l>
+      <l>Falshood and Ruin all look lovely there.</l>
+      <l>Oh! let my lab'ring Soul yet struggle thro'—</l>
+      <l>I will—I would resolve to die, and leave thee.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Then let him die.—He trifles with my Favour;</l>
+      <l>I have too long attended his Resolves.</l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <stage>
+       <hi>to</hi> Baj.]</stage>
+      <l> Oh! stay a Minute, yet a Minute longer;</l>
+      <l>A Minute is a little space in Life:</l>
+      <l>There is a kind Consenting in his Eyes,</l>
+      <l>And I shall win him to your Royal Will.</l>
+      <l>Oh! my <hi>Axalla,</hi> seem but to consent— <stage>[To <hi>Axalla</hi> aside.</stage>
+      </l>
+      <l>Unkind and Cruel, will you then do nothing?</l>
+      <l>I find, I am not worth thy least of Cares.</l>
+     </sp>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>Oh! labour not to hang Dishonour on me:</l>
+      <l>I could bear Sickness, Pain, and Poverty,</l>
+      <l>Those mortal Evils worse than Death, for thee.</l>
+      <l>But this.—It has the force of Fate against us,</l>
+      <l>And cannot be.</l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>See, see, Sir, he relents, <stage>[To <hi>Bajazet.</hi>
+       </stage>
+      </l>
+      <l>Already he inclines to own your Cause:</l>
+      <l>A little longer, and he is all yours.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Then mark how far a Father's Fondness yields:</l>
+      <l>Till Midnight I defer the Death he merits,</l>
+      <l>And give him up till then to thy Persuasion.</l>
+      <l>If by that time he meets my Will, he lives;</l>
+      <l>If not, thy self shalt own, he dies with Justice.</l>
+     </sp>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>'Tis but to lengthen Life upon the Rack.</l>
+      <l>I am resolv'd already.</l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>Oh! be still,</l>
+      <l>Nor rashly urge a Ruin on us both,</l>
+      <l>'Tis but a moment more I have to save thee</l>
+      <l>Be kind, auspicious <hi>Alha,</hi> to my Pray'r,</l>
+      <l>More for my Love, than for my Self I fear,</l>
+      <l>Neglect Mankind awhile, and make him all thy Care.</l>
+      <stage>[Exeunt <hi>Axalla</hi> and <hi>Selima.</hi>
+      </stage>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>
+       <hi>Moneses!</hi>—Is that Dog secur'd?</l>
+     </sp>
+     <sp who="#omar">
+      <speaker>Om.</speaker>
+      <l>He is.</l>
+     </sp>
+     <sp who="#bajazet">
+      <pb n="56" facs="68"/>
+      <speaker>Baj.</speaker>
+      <l>'Tis well—My Soul perceives returning Greatness,</l>
+      <l>As Nature feels the Spring. Lightly she bounds,</l>
+      <l>And shakes Dishonour, like a Burden, from her,</l>
+      <l>Once more Imperial, awful, and her self.</l>
+      <l>So when of old <hi>Jove</hi> from the <hi>Titans</hi> fled,</l>
+      <l>
+       <hi>Ammon</hi>'s rude Front his radiant Face bely'd,</l>
+      <l>And all the Majesty of Heaven lay hid.</l>
+      <l>At length by Fate to Pow'r Divine restor'd,</l>
+      <l>His Thunder taught the World, to know its Lord,</l>
+      <l>The God grew terrible again, and was again ador'd.</l>
+      <stage>[Exeunt.</stage>
+     </sp>
+    </div>
+   </div>
+   <div n="5" type="act">
+    <div n="1" type="scene">
+     <head>ACT V. SCENE I.</head>
+     <head>SCENE, <stage>
+       <hi>Bajazet</hi>'s Tent.</stage>
+     </head>
+     <stage>
+      <hi>Enter</hi> Arpasia.</stage>
+     <sp who="#arpasia">
+      <speaker>Arp.</speaker>
+      <l>SUre 'tis a Horror, more than Darkness brings,</l>
+      <l>That sits upon the Night; Fate is abroad.</l>
+      <l>Some ruling Fiend hangs in the dusky Air,</l>
+      <l>And scatters Ruin, Death, and wild Distraction,</l>
+      <l>O'er all the wretched Race of Man below:</l>
+      <l>Not long ago, a Troop of ghastly Slaves</l>
+      <l>Rush'd in, and forc'd <hi>Moneses</hi> from my Sight;</l>
+      <l>Death hung so heavy on his drooping Spirits,</l>
+      <l>That scarcely could he say—<hi>Farewel—for ever.</hi>
+      </l>
+      <l>And yet, methinks, some gentle Spirit whispers</l>
+      <l>Thy Peace draws near, <hi>Arpasia,</hi> sigh no more;</l>
+      <l>And see the King of Terrors is at hand;</l>
+      <l>His Minister appears.</l>
+     </sp>
+     <stage>Enter <hi>Bajazet,</hi> and <hi>Haly.</hi>
+     </stage>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <stage>aside to Haly.]</stage>
+      <l>The rest I leave</l>
+      <l>To thy dispatch. For oh! my faithful <hi>Haly,</hi>
+      </l>
+      <l>Another Care has taken up thy Master;</l>
+      <l>Spight of the high-wrought Tempest in my Soul,</l>
+      <l>Spight of the Pangs, which Jealousie has cost me;</l>
+      <l>This haughty Woman reigns within my Breast:</l>
+      <l>In vain I strive to put her from my Thoughts,</l>
+      <l>To drive her out with Empire, and Revenge:</l>
+      <l>Still she comes back like a retiring Tide,</l>
+      <l>
+       <pb n="57" facs="69"/>
+Still she comes back like a retiring Tide,</l>
+      <l>That Ebbs a while, but strait returns again,</l>
+      <l>And swells above the Beach.</l>
+     </sp>
+     <sp who="#haly">
+      <speaker>Ha.</speaker>
+      <l>Why wears my Lord</l>
+      <l>An anxious Thought, for what his Pow'r commands?</l>
+      <l>When in an happy Hour, you shall e'er long</l>
+      <l>Have born the Empress, from amidst your Foes,</l>
+      <l>She must be yours, be only, and all yours.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>On that depends my Fear. Yes! I must have her,</l>
+      <l>I own I will not, cannot go without her;</l>
+      <l>But such is the Condition of our Flight,</l>
+      <l>That shou'd she not consent, 'twould hazard all,</l>
+      <l>To bear her hence by force; Thus I resolve then,</l>
+      <l>By Threats, and Pray'rs, by ev'ry way to move her;</l>
+      <l>If all prevail not, Force is left, at last;</l>
+      <l>And I will set Life, Empire on the Venture,</l>
+      <l>To keep her mine.—Be near, to wait my Will. <stage>[Ex. <hi>Haly.</hi>
+       </stage>
+      </l>
+      <l>When last we parted, 'twas on angry Terms,</l>
+      <l>Let the remembrance die, or kindly think</l>
+      <l>That jealous Rage is but a hasty Flame,</l>
+      <l>That blazes out, when Love too siercely burns.</l>
+     </sp>
+     <sp who="#arpasia">
+      <speaker>Arp.</speaker>
+      <l>For thee to wrong me, and for me to suffer,</l>
+      <l>Is the hard Lesson that my Soul has learnt;</l>
+      <l>And now I stand prepar'd for all to come:</l>
+      <l>Nor is it worth my leisure to distinguish,</l>
+      <l>If Love, or Jealousie commit the violence;</l>
+      <l>Each have alike been fatal to my Peace,</l>
+      <l>Confirming me a Wretch, and thee a Tyrant.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Still to deform thy gentle Brow with Frowns!</l>
+      <l>And still to be perverse! It is a manner</l>
+      <l>Abhorrent from the softness of thy Sex:</l>
+      <l>Women, like Summer Storms, a while are Cloudy,</l>
+      <l>Burst out in Thunder, and impetuous Show'rs;</l>
+      <l>But strait the Sun of Beauty dawns abroad,</l>
+      <l>And all the fair Horizon is serene.</l>
+     </sp>
+     <sp who="#arpasia">
+      <speaker>Arp.</speaker>
+      <l>Then to retrieve the Honour of my Sex,</l>
+      <l>Here I disclaim that Changing, and Inconstancy;</l>
+      <l>To Thee I will be ever, as I am.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Thou say'st, I am a Tyrant, think so still,</l>
+      <l>And let it warn thy Prudence, to lay hold</l>
+      <l>
+       <pb n="58" facs="70"/>
+On the good Hour of Peace, that courts thee now;</l>
+      <l>Souls form'd like mine, brook being scorn'd, but ill;</l>
+      <l>Be well advis'd, and profit by my Patience,</l>
+      <l>It is a short-liv'd Virtue.</l>
+     </sp>
+     <sp who="#arpasia">
+      <speaker>Arp.</speaker>
+      <l>Turn thy Eyes</l>
+      <l>Back on the Story of my Woes, Barbarian.</l>
+      <l>Thou that hast violated all Respects</l>
+      <l>Due to my Sex, and Honour of my Birth,</l>
+      <l>Thou brutal Ravisher! that hast undone me,</l>
+      <l>Ruin'd my Love! Can I have Peace with thee?</l>
+      <l>Impossible! first Heav'n and Hell shall join,</l>
+      <l>They only differ more.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>I see, 'tis vain,</l>
+      <l>To court thy stubborn Temper with Endearments.</l>
+      <l>Resolve this moment, to return my Love,</l>
+      <l>And be the willing Partner of my Flight,</l>
+      <l>Or by the Prophet's holy Law! thou dy'st.</l>
+     </sp>
+     <sp who="#arpasia">
+      <speaker>Arp.</speaker>
+      <l>And dost thou hope, to fright me with that Fantome?</l>
+      <l>Death! 'Tis the greatest Mercy thou can'st give;</l>
+      <l>So frequent are the Murders of thy Reign,</l>
+      <l>One Day scarce passing by unmark'd with Blood,</l>
+      <l>That Children, by long use, have learnt to scorn it:</l>
+      <l>Know, I disdain to aid thy treach'rous purpose,</l>
+      <l>And shou'dst thou dare to force me, with my Cries</l>
+      <l>I will call Heav'n and Earth to my Assistance.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Confusion! dost thou brave me? But my Wrath</l>
+      <l>Shall find a Passage to thy swelling Heart,</l>
+      <l>And rack thee worse, than all the Pains of Death.</l>
+      <l>That <hi>Grecian</hi> Dog, the Minion of thy Wishes,</l>
+      <l>Shall be dragg'd forth, and butcher'd in thy sight;</l>
+      <l>Thou shalt behold him, when his Pangs are terrible,</l>
+      <l>Then, when he stares, and gasps, and struggles strongly.</l>
+      <l>Ev'n in the bitterest Agony of dying;</l>
+      <l>'Till thou shalt rend thy Hair, tear out thy Eyes,</l>
+      <l>And curse thy Pride, while I applaud my Vengeance.</l>
+     </sp>
+     <sp who="#arpasia">
+      <speaker>Arp.</speaker>
+      <l>Oh! satal Image! All my Pow'rs give way,</l>
+      <l>And Resolution sickens at the Thought;</l>
+      <l>A Flood of Passion rises in my Breast,</l>
+      <l>And labours fiercely upward to my Eyes.</l>
+      <l>Come, all ye great Examples of my Sex,</l>
+     </sp>
+     <sp who="#arpasia">
+      <pb n="61" facs="71"/>
+      <speaker>Arp.</speaker>
+      <l>Of somthing soft,</l>
+      <l>Tender and kind, of somthing wond'rous sad.</l>
+      <l>Oh! my full Soul!</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>My Tongue is at a loss,</l>
+      <l>Thoughts crowd so fast, thy Name is all I've left,</l>
+      <l>My kindest! truest! dearest! best <hi>Arpasia!</hi>
+      </l>
+      <stage>[The Mutes struggle with him.</stage>
+     </sp>
+     <sp who="#arpasia">
+      <speaker>Arp.</speaker>
+      <l>I have a thousand, thousand Things to utter,</l>
+      <l>A thousand more to hear yet. Barbarous Villains!</l>
+      <l>Give me a Minute. Speak to me, <hi>Moneses.</hi>
+      </l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>Speak to thee? 'Tis the Business of my Life,</l>
+      <l>'Tis all the use I have for vital Air.</l>
+      <l>Stand off ye Slaves! To tell thee, that my Heart</l>
+      <l>Is full of thee; that ev'n at this dread moment</l>
+      <l>My fond Eyes gaze with Joy and Rapture on thee,</l>
+      <l>Angels and Light it self are not so fair.</l>
+     </sp>
+     <stage>Enter <hi>Bajazet, Haly,</hi> and Attendants.</stage>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Ha! wherefore lives this Dog? Be quick, ye Slaves,</l>
+      <l>And rid me of the Pain.</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>For only Death,</l>
+      <l>And the last Night can shut out my <hi>Arpasia.</hi>
+      </l>
+      <stage>[The Mutes strangle <hi>Moneses.</hi>
+      </stage>
+     </sp>
+     <sp who="#arpasia">
+      <speaker>Arp.</speaker>
+      <l>Oh! dismal! 'tis not to be born. Ye Moralists,</l>
+      <l>Ye Talkers, what are all your Precepts now?</l>
+      <l>Patience? Distraction? blast the Tyrant, blast him!</l>
+      <l>Avenging Lightnings, snatch him hence, ye Fiends!</l>
+      <l>Love! Death! <hi>Moneses!</hi> Nature can no more,</l>
+      <l>Ruin is on her, and she sinks at once. <stage>[She sinks down.</stage>
+      </l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Help, <hi>Haly,</hi> raise her up, and bear her out.</l>
+     </sp>
+     <sp who="#haly">
+      <speaker>Ha.</speaker>
+      <l>Alas! she saints.</l>
+     </sp>
+     <sp who="#arpasia">
+      <speaker>Arp.</speaker>
+      <l>No, Tyrant, 'tis in vain;</l>
+      <l>Oh! I am now beyond thy cruel Pow'r:</l>
+      <l>The Peaceful Slumber of the Grave is on me;</l>
+      <l>Ev'n all the tedious Day of Life I've wander'd,</l>
+      <l>Bewild r'd with Misfortunes;</l>
+      <l>At length 'tis Night, and I have reach'd my home:</l>
+      <l>Forg tting all the Toils and Troubles past,</l>
+      <l>Weary I'll lay me down, and sleep till—Oh! <stage>[She dies.</stage>
+      </l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Fly, ye Slaves,</l>
+      <l>And fetch me Cordials. No she shall not die.</l>
+      <l>
+       <pb n="62" facs="72"/>
+Spight of her sullen Pride, I'll hold in Life,</l>
+      <l>And force her to be blest against her Will</l>
+     </sp>
+     <sp who="#haly">
+      <speaker>Ha.</speaker>
+      <l>Already 'tis beyond the Power of Art;</l>
+      <l>For see a deadly Cold has froze the Blood,</l>
+      <l>The pliant Limbs grow stiff, and lose their use,</l>
+      <l>And all the animating Fire is quench'd;</l>
+      <l>Ev'n Beauty too is dead; an ashy Pale</l>
+      <l>Grows o'er the Roses, the red Lips have lost</l>
+      <l>Their flagrant Hew, for want of that sweet Breath</l>
+      <l>That blest 'em with its Odours as it past.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Can it be possible? Can Rage and Grief,</l>
+      <l>Can Love and Indignation be so fierce,</l>
+      <l>So mortal in a Woman's Heart? Confusion!</l>
+      <l>Is she escap'd then? What is Royalty?</l>
+      <l>If those, that are my Slaves, and should live for me,</l>
+      <l>Can die, and bid Defiance to my Power.</l>
+     </sp>
+     <stage>Enter the <hi>Dervise.</hi>
+     </stage>
+     <sp who="#turkish_dervise">
+      <speaker>Der.</speaker>
+      <l>The valiant <hi>Omar</hi> sends, to tell thy Greatness,</l>
+      <l>The Hour of Flight is come, and urges haste,</l>
+      <l>Since he descries near <hi>Tamerlane</hi>'s Pavilion,</l>
+      <l>Bright Troops of crowding Torches, who from thence</l>
+      <l>On either Hand stretch far into the Night,</l>
+      <l>And seem to form a shining Front of Battle.</l>
+      <l>Behold, ev'n from this place, thou may'st discern 'em. <stage>[Looking out.</stage>
+      </l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>By <hi>Alha!</hi> yes! they cast a Day around 'em,</l>
+      <l>And the Plain seems thick set with Stars, as Heav'n.</l>
+      <l>Ha! or my Eyes are false, they move this way.</l>
+      <l>'Tis certain so. Fly, <hi>Haly,</hi> to our Daughter. <stage>[Exit <hi>Haly.</hi>
+       </stage>
+      </l>
+      <l>Let some secure the Christian Prince <hi>Axalla;</hi>
+      </l>
+      <l>We will be gone this Minute.</l>
+     </sp>
+     <stage>Enter <hi>Omar.</hi>
+     </stage>
+     <sp who="#omar">
+      <speaker>Om.</speaker>
+      <l>Lost! Undone!</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>What mean'st thou?</l>
+     </sp>
+     <sp who="#omar">
+      <speaker>Om.</speaker>
+      <l>All our hopes of Flight are lost,</l>
+      <l>
+       <hi>Mirvan</hi> and <hi>Zama,</hi> with the <hi>Parthian</hi> Horse,</l>
+      <l>Enclose us round, they hold us in a Toil.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Ha! whence this unexpected Curse of Chance?</l>
+     </sp>
+     <sp who="#omar">
+      <speaker>Om.</speaker>
+      <l>Too late I learnt, that early in the Night</l>
+      <l>A Slave was suffer'd by the Princess Order,</l>
+      <l>
+       <pb n="59" facs="73"/>Chast Virgins, tender Wives, and pious Matrons;</l>
+      <l>Ye holy Martyrs, who, with wond'rous Faith,</l>
+      <l>And Constancy unshaken, have sustain'd</l>
+      <l>The Rage of cruel Men, and fiery Persecution;</l>
+      <l>Come to my Aid, and teach me to defie</l>
+      <l>The Malice of this Fiend. I feel, I feel</l>
+      <l>Your sacred Spirit arm me to Resistance.</l>
+      <l>Yes, Tyrant, I will stand this shock of Fate;</l>
+      <l>Will live to triumph o'er thee, for a Moment;</l>
+      <l>Then die well pleas'd, and follow my <hi>Moneses.</hi>
+      </l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Thou talk'st it well: But talking is thy Privilege,</l>
+      <l>'Tis all the boasted Courage of thy Sex;</l>
+      <l>Tho', for thy Soul, thou dar'st not meet the Danger.</l>
+     </sp>
+     <sp who="#arpasia">
+      <speaker>Arp.</speaker>
+      <l>By all my hops of Happiness! I dare—</l>
+      <l>My Soul is come within her ken of Heav'n;</l>
+      <l>Charm'd with the Joys and Beauties of that place,</l>
+      <l>Her Thoughts, and all her Cares she fixes there,</l>
+      <l>And 'tis in vain for thee, to rage below:</l>
+      <l>Thus Stars shine bright, and keep their place above,</l>
+      <l>Tho' ruffling Winds deform this lower World.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>This Moment is the Trial.</l>
+     </sp>
+     <sp who="#arpasia">
+      <speaker>Arp.</speaker>
+      <l>Let it come;</l>
+      <l>This Moment then shall shew I am a <hi>Greek,</hi>
+      </l>
+      <l>And speak my Country's Courage in my suff'ring.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Here, Mercy, I disclaim thee, mark me, Traitress!</l>
+      <l>My Love prepares a Victim to thy Pride,</l>
+      <l>And when it greets thee next, 'twill be in Blood.</l>
+      <stage>[Ex. <hi>Baj.</hi>
+      </stage>
+     </sp>
+     <sp who="#arpasia">
+      <speaker>Arp.</speaker>
+      <l>My Heart beats higher, and my nimble Spirits</l>
+      <l>Ride swiftly thro' their purple Channels round:</l>
+      <l>'Tis the last blaze of Life: Nature revives</l>
+      <l>Like a dim winking Lamp, that slashes brightly</l>
+      <l>With parting Light, and strait is Dark for ever.</l>
+      <l>And see! my last of Sorrows is at Hand:</l>
+      <l>Death and <hi>Moneses</hi> come together to me;</l>
+      <l>As if my Stars that had so long been cruel,</l>
+      <l>Grew kind at last, and gave me all I wish.</l>
+     </sp>
+     <stage>Enter <hi>Moneses,</hi> guarded by some Mutes, others attending with a Cup of Poison and a Bow-string.</stage>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>I charge ye, O ye Ministers of Fate,</l>
+      <l>Be swift to execute your Master's Will,</l>
+      <l>
+       <pb n="60" facs="74"/>
+Bear me to my <hi>Arpasia;</hi> let me tell her,</l>
+      <l>The Tyrant is grown kind. He bids me go,</l>
+      <l>And die beneath her Feet. A Joy shoots thro'</l>
+      <l>My drooping Breast, as often, when the Trumpet</l>
+      <l>Has call'd my youthful Ardour forth to Battle;</l>
+      <l>High in my Hopes, and ravisht with the Sound,</l>
+      <l>I have rush'd eager on amidst the foremost</l>
+      <l>To purchase Victory, or glorious Death.</l>
+     </sp>
+     <sp who="#arpasia">
+      <speaker>Arp.</speaker>
+      <l>If it be Happiness, alas! to die,</l>
+      <l>To lye forgotten in the silent Grave,</l>
+      <l>To Love, and Glory lost, and from among</l>
+      <l>The great Creator's Works expung'd and blotted,</l>
+      <l>Then very shortly shall we both be happy.</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>There is no room for Doubt, 'tis certain Bliss;</l>
+      <l>The Tyrant's cruel Violence, thy Loss,</l>
+      <l>Already seem more light, nor has my Soul,</l>
+      <l>One unrepented Guilt upon remembrance,</l>
+      <l>To make me dread the Justice of hereafter;</l>
+      <l>But standing now on the last Verge of Life,</l>
+      <l>Boldly I view the vast Abyss, Eternity,</l>
+      <l>Eager to plunge, and leave my Woes behind me.</l>
+     </sp>
+     <sp who="#arpasia">
+      <speaker>Arp.</speaker>
+      <l>By all the Truth of our past Lives I vow!</l>
+      <l>To die! appears a very nothing to me:</l>
+      <l>But oh! <hi>Moneses,</hi> should I not allow</l>
+      <l>Somewhat to Love, and to my Sexes tenderness,</l>
+      <l>This very Now, I could put off my Being,</l>
+      <l>Without a Groan; but to behold thee die—</l>
+      <l>Nature shrinks in me, at the dreadful Thought,</l>
+      <l>Nor can my Constancy sustain this Blow.</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>Since thou art arm'd for all things, after Death.</l>
+      <l>Why should the Pomp and Preparation of it</l>
+      <l>Be frightful to thy Eyes? There's not a Pain,</l>
+      <l>Which Age, or Sickness brings, the least Disorder,</l>
+      <l>That vexes any part of this fine Frame,</l>
+      <l>Is full as grievous: All that the Mind feels</l>
+      <l>Is much, much more.—And see, I go to prove it.</l>
+     </sp>
+     <stage>Enter a Mute; he signs to the rest, who proffer the Bow-string to <hi>Moneses.</hi>
+     </stage>
+     <sp who="#arpasia">
+      <speaker>Arp.</speaker>
+      <l>Think e'er we part!</l>
+     </sp>
+     <sp who="#moneses">
+      <speaker>Mon.</speaker>
+      <l>Of what?</l>
+      <l>
+       <pb n="63" facs="75"/>To pass the Guard; I clove the Villain down,</l>
+      <l>Who yielded to his Flight; but that's poor Vengeance.</l>
+      <l>That Fugitive has rais'd the Camp upon us,</l>
+      <l>And unperceiv'd by favour of the Night,</l>
+      <l>In silence they have marcht to intercept us.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>My Daughter! oh! the Traitress!</l>
+     </sp>
+     <sp who="#turkish_dervise">
+      <speaker>Der.</speaker>
+      <l>Yet, we have</l>
+      <l>
+       <hi>Axalla</hi> in our Power, and angry <hi>Tamerlane</hi>
+      </l>
+      <l>Will buy his Favourite's Life, on any Terms.</l>
+     </sp>
+     <sp who="#omar">
+      <speaker>Om.</speaker>
+      <l>With these few Friends I have, I for a while,</l>
+      <l>Can face their Force; if they refuse us Peace,</l>
+      <l>Revenge shall sweeten Ruin, and 'twill Joy me,</l>
+      <l>To drag my Foe down with me, in my Fall.</l>
+      <stage>[Exit <hi>Omar.</hi>
+      </stage>
+     </sp>
+     <stage>Enter <hi>Haly,</hi> with <hi>Selima</hi> weeping.</stage>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>See where she comes! with well-dissembled Innocence,</l>
+      <l>With Truth, and Faith so lovely in her Face,</l>
+      <l>As if she durst ev'n disavow the Falshood.—</l>
+      <l>Hop'st thou to make amends with trifling Tears,</l>
+      <l>For my lost Crown, and disappointed Vengeance?</l>
+      <l>Ungrateful <hi>Selima!</hi> thy Father's Curse!</l>
+      <l>Bring forth the Minion of her foolish Heart;</l>
+      <l>He dies this Moment.—</l>
+     </sp>
+     <sp who="#haly">
+      <speaker>Ha.</speaker>
+      <l>Would I could not speak</l>
+      <l>The Crime of fatal Love, the Slave who fled,</l>
+      <l>By whom we are undone; was that <hi>Axalla.</hi>
+      </l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Ha! say'st thou?—</l>
+     </sp>
+     <sp who="#haly">
+      <speaker>Ha.</speaker>
+      <l>Hid beneath that vile Appearance,</l>
+      <l>The Princess found a means for his Escape.</l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>I am undone! ev'n Nature has disclaim'd me;</l>
+      <l>My Father! have I lost you all?—My Father!</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Talk'st thou of Nature? who hast broke her Bands!</l>
+      <l>Thou art my Bane, thou Witch! thou Infant Parricide!</l>
+      <l>But I will study to be strangely cruel,</l>
+      <l>I will forget the Folly of my Fondness.</l>
+      <l>Drive all the Father from my Breast, now snatch thee,</l>
+      <l>Tear thee to pieces, drink thy treacherous Blood,</l>
+      <l>And make thee answer all my great Revenge:</l>
+      <l>Now, now, thou Traitress! <stage>[Offers to kill her.</stage>
+      </l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>Plunge the Poniard deep! <stage>[She embraces him.</stage>
+      </l>
+      <l>The Life my Father gave shall hear his Summons,</l>
+      <l>
+       <pb n="64" facs="76"/>
+And issue at the Wound—Start not, to feel</l>
+      <l>My Heart's warm Blood gush out upon your Hands,</l>
+      <l>Since from your Spring I drew the Purple Stream,</l>
+      <l>And I must pay it back, if you demand it.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Hence! from my Thoughts! thou soft relenting Weakness.</l>
+      <l>Hast thou not giv'n me up a Prey? betray'd me?</l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>Oh! not for Worlds, not ev'n for all the Joys</l>
+      <l>Love, or the Prophet's Paradise can give;</l>
+      <l>Amidst the Fears, and Sorrows of my Soul,</l>
+      <l>Amidst the thousand Pains of anxious Tenderness,</l>
+      <l>I made the gentle kind <hi>Axalla</hi> swear,</l>
+      <l>Your Life, your Crown, and Honour should be safe.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Away! my Soul disdains the vile Dependance.</l>
+      <l>No, let me rather die, die like a King:</l>
+      <l>Shall I fall down at the proud <hi>Tartar</hi>'s Foot?</l>
+      <l>And say, Have Mercy on me? Hark, they come. <stage>[Shout.</stage>
+      </l>
+      <l>Disgrace will overtake my lingring Hand:</l>
+      <l>Die then, thy Father's Shame, and thine, die with thee. <stage>[Offers to kill her.</stage>
+      </l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>For Heaven, for Pity's sake.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>No more, thou Trifler! <stage>[She catches hold of his Arm.</stage>
+      </l>
+      <l>Ha! dar'st thou bar my Will? Tear off her Hold.</l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>What not for Life? Shou'd I not plead for Life?</l>
+      <l>When Nature teaches ev'n the brute Creation,</l>
+      <l>To hold fast that, her best, her noblest Gift.</l>
+      <l>Look on my Eyes, whom you so oft have kist,</l>
+      <l>And swore, they were your best lov'd Queen's, my Mothers.</l>
+      <l>Behold 'em now streaming for Mercy, Mercy!</l>
+      <l>Look on me, and deny me, if you can;</l>
+      <l>'Tis but for Life I beg, is that a Boon</l>
+      <l>So hard for me t' obtain? or you to grant?</l>
+      <l>Oh! spare me! spare your <hi>Selima,</hi> my Father.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>A lazy Sloth hangs on my Resolution;</l>
+      <l>It is my <hi>Selima!</hi>—Ha! What? my Child?</l>
+      <l>And can I murder her?—Dreadful Imagination!</l>
+      <l>Again they come. I leave her to my Foes! <stage>[Shout.</stage>
+      </l>
+      <l>And shall they triumph o'er the Race of <hi>Bajazet?</hi>
+      </l>
+      <l>Die <hi>Selima!</hi> Is that a Father's Voice?</l>
+      <l>Rouse, rouse my Fury! yes she dies, the Victim</l>
+      <l>To my lost hopes. Out! out! thou foolish Nature!</l>
+      <l>
+       <pb n="65" facs="77"/>
+Justly she shares the Ruin she has made,</l>
+      <l>Seize her, <stage>[To the Mutes.</stage> ye Slaves, and strangle her this moment.</l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>Oh! let me die by you! Behold my Breast!</l>
+      <l>I wo'not shrink; oh! save me but from these.</l>
+      <stage>[The Mutes seize her.</stage>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Dispatch.</l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>But for a moment, while I pray,</l>
+      <l>That Heav'n may guard my Royal Father.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Dogs!</l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>That you may only bless me, e'er I die. <stage>[Shout.</stage>
+      </l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>Ye tedious Villains! then the Work is mine.</l>
+     </sp>
+     <stage>As <hi>Bajazet</hi> runs at <hi>Selima</hi> with his Sword, Enter <hi>Tamerlane, Axalla,</hi> &amp;c. <hi>Axalla</hi> gets between <hi>Bajazet</hi> and <hi>Selima,</hi> whilst <hi>Tamerlane</hi> and the rest drive <hi>Bajazet</hi> and the Mutes off the Stage.</stage>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>And am I come to save thee? Oh! my Joy!</l>
+      <l>Be this the whitest Hour of all my Life;</l>
+      <l>This one Success is more, than all my Wars,</l>
+      <l>The noblest, dearest Glory of my Sword.</l>
+     </sp>
+     <sp who="#selima">
+      <speaker>Sel.</speaker>
+      <l>Alas, <hi>Axalla,</hi> Death has been around me,</l>
+      <l>My Coward Soul still trembles at the Fright,</l>
+      <l>And seems but half secure, ev'n in thy Arms.</l>
+     </sp>
+     <sp who="#axalla">
+      <speaker>Ax.</speaker>
+      <l>Retire, my Fair, and let me guard thee forth;</l>
+      <l>Blood and tumultuous Slaughter are about us,</l>
+      <l>And Danger in her ugliest Forms is here;</l>
+      <l>Nor will the pleasure of my Heart be full,</l>
+      <l>'Till all my Fears are ended in thy Safety.</l>
+      <stage>[Exeunt <hi>Axalla,</hi> and <hi>Selima.</hi>
+      </stage>
+     </sp>
+     <stage>Enter <hi>Tamerlane,</hi> the Prince of <hi>Tanais, Zama, Mirvan,</hi> and Soldiers; with <hi>Bajazet, Omar,</hi> and the Dervise, Prisoners.</stage>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Morcy at length gives up her peaceful Scepter,</l>
+      <l>And Justice sternly takes her turn to govern;</l>
+      <l>'Tis a rank World, and asks her keenest Sword,</l>
+      <l>To cut up Villany of monstrous growth.</l>
+      <l>
+       <pb n="66" facs="78"/>
+       <hi>Zama,</hi> take care, that with the earliest dawn,</l>
+      <l>Those Traitors meet the Fate, their Treason merits. <stage>[Pointing to <hi>Omar</hi> and the Dervise.</stage>
+      </l>
+      <l>
+       <stage>To <hi>Baj.</hi>]</stage> For thee, thou Tyrant, whose oppressive Violence</l>
+      <l>Has ruin'd those, thou should'st protect at home,</l>
+      <l>Whose Wars, whose Slaughters, whose Assassinations,</l>
+      <l>(That basest thirst of Blood, that sin of Cowards)</l>
+      <l>Whose Faith so often giv'n, and always violated,</l>
+      <l>Have been th' Offence of Heav'n, and Plague of Earth,</l>
+      <l>What Punishment is equal to thy Crimes?</l>
+      <l>The Doom, thy Rage design'd for me, be thine:</l>
+      <l>Clos'd in a Cage, like some destructive Beast,</l>
+      <l>I'll have thee born about, in publick View,</l>
+      <l>A great Example of that Righteous Vengeance</l>
+      <l>That waits on Cruelty, and Pride like thine.</l>
+     </sp>
+     <sp who="#bajazet">
+      <speaker>Baj.</speaker>
+      <l>It is beneath me, to decline my Fate:</l>
+      <l>I stand prepar'd to meet thy utmost Hate:</l>
+      <l>Yet think not, I will long thy Triumph see,</l>
+      <l>None want the means, when the Soul dares be free;</l>
+      <l>I'll Curse thee with my last, my parting Breath,</l>
+      <l>And keep the Courage of my Life in Death;</l>
+      <l>Then boldly venture on that World unknown,</l>
+      <l>It cannot use me worse, than this has done.</l>
+      <stage>[Exit <hi>Bajazet</hi> guarded.</stage>
+     </sp>
+     <sp who="#tamerlane">
+      <speaker>Tam.</speaker>
+      <l>Behold the vain Effects of Earth-born Pride,</l>
+      <l>That scorn'd Heav'n's Laws, and all its Pow'r defy'd;</l>
+      <l>That could the Hand, which form'd it first, forget,</l>
+      <l>And fondly say, I made my self, be great:</l>
+      <l>But justly those above assert their Sway,</l>
+      <l>And teach ev'n Kings what Homage they should pay</l>
+      <l>Who then Rule best, when mindful to Obey.</l>
+      <stage>[Exeunt Omnes.</stage>
+     </sp>
+    </div>
+   </div>
+  </body>
+  <back>
+   <div type="epilogue">
+    <pb facs="79"/>
+    <head>EPILOGUE.</head>
+    <byline>Spoke by Mrs. <hi>BRACEGIRDLE.</hi>
+    </byline>
+    <lg>
+     <l>TOO well we saw what must have been our Fate,</l>
+     <l>When Harmony with Beauty join'd of late,</l>
+     <l>Threaten'd the Ruin of our sinking State;</l>
+     <l>'Till you, from whom our Being we receive,</l>
+     <l>In pity bid your own Creation live.</l>
+     <l>With moving Sounds you kindly drew the Fair,</l>
+     <l>And fix'd, once more, that shining Circle here.</l>
+     <l>The Lyre you bring is half <hi>Apollo</hi>'s Praise;</l>
+     <l>Be ours the Task to win and wear his Bays.</l>
+     <l>Thin Houses were before so frequent to us,</l>
+     <l>We wanted not a Project to undo us.</l>
+     <l>We seldom saw your Honours but by chance,</l>
+     <l>As some Folks meet their Friends of <hi>Spain</hi> and <hi>France</hi>
+     </l>
+     <l>'Twas Verse decay'd, or Politicks improv'd,</l>
+     <l>That had estrang'd you thus from what you lov'd.</l>
+     <l>Time was, when busie Faces were a Jest,</l>
+     <l>When Wit and Pleasure were in most request;</l>
+     <l>When chearful Theaters with Crowds were grac'd</l>
+     <l>But those good Days of Poetry are past:</l>
+     <l>Now sow'r Reformers in an empty Pit,</l>
+     <l>With Table Books, as at a Lecture, sit,</l>
+     <l>To take Notes, and give Evidence 'gainst Wit.</l>
+     <l>Those who were once our Friends, employ'd elsewhere,</l>
+     <l>And busy now in setting Peace and War</l>
+     <l>With careful Brows at <hi>Tom</hi>'s and <hi>Will</hi>'s they meet</l>
+     <l>And ask, who did Elections lose or get</l>
+     <l>Our Friend has lost it—Faith I'm sorry for't</l>
+     <l>He's a good Man, and ne'er was for the Court</l>
+     <l>
+      <pb facs="80"/>
+He to no Government will sue for Grace;</l>
+     <l>By want of Merit, safe against a Place:</l>
+     <l>By spight a Patriot made, and sworn t'oppose</l>
+     <l>All who are uppermost, as <hi>England</hi>'s Foes.</l>
+     <l>Let <hi>Whig</hi> or <hi>Tory,</hi> any side prevail,</l>
+     <l>Still 'tis his constant Privilege to rail.</l>
+     <l>Another, that the Tax and War may cease,</l>
+     <l>Talks of the Duke of <hi>Anjou</hi>'s Right, and Peace;</l>
+     <l>And, from <hi>Spain</hi>'s wise Example, is for taking</l>
+     <l>A Vice-Roy of the mighty Monarch's making;</l>
+     <l>Who should all Rights and Liberties maintain,</l>
+     <l>And <hi>English</hi> Laws by learn'd Dragoons explain.</l>
+    </lg>
+    <lg>
+     <l>Come, leave these Politicks, and follow Wit;</l>
+     <l>Here uncontroll'd you may in Judgment sit,</l>
+     <l>We'll never differ with a crowded Pit.</l>
+     <l>We'll take you all, ev'n on your own Conditions,</l>
+     <l>Think you Great Men, and wond'rous Politicians.</l>
+     <l>And if you slight the Offers which we make you,</l>
+     <l>No <hi>Brentford</hi> Princes will for Statesmen take you</l>
+    </lg>
+   </div>
+   <trailer>FINIS.</trailer>
+  </back>
+ </text>
+</TEI>

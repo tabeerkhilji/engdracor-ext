@@ -1,0 +1,1800 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">Aerostation</title>
+    <title type="sub">or, the Templar's stratagem. A farce. In two acts. Written by F. Pilon, ... As it is performed with applause at the Theatre-Royal in Covent-Garden.</title>
+    <author>
+     <persName>
+      <surname>Pilon</surname>
+      <forename>Frederick</forename>
+      <idno type="VIAF">47193606</idno>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>Aerostation: or, the Templar's stratagem. A farce. In two acts. Written by F. Pilon, ... As it is performed with applause at the Theatre-Royal in Covent-Garden.</name>
+     <author>Pilon, Frederick, 1750-1788.</author>
+     <publisher>printed by J. Exshaw, for the Company of Booksellers,</publisher>
+     <date>1785.</date>
+     <pubPlace>Dublin :</pubPlace>
+     <note>Reproduction of original from the Bodleian Library (Oxford).</note>
+     <note>English Short Title Catalog, ESTCT164526.</note>
+     <note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note>
+    </bibl>
+    <biblFull n="printed source">
+     <publicationStmt>
+      <authority ref="#JJ">Jan Jokisch</authority>
+      <date>2024 December</date>
+      <idno type="ECCO_Drama">K118235.000</idno>
+      <idno type="DLPS">004814129</idno>
+      <idno type="ESTC">T164526</idno>
+      <idno type="DocNo">CW106682129</idno>
+      <idno type="TCP">K118235.000</idno>
+      <idno type="GaleDocNo">CW3306682129</idno>
+      <idno type="ContentSet">ECFA</idno>
+      <idno type="ImageSetID">1207301100</idno>
+      <availability>
+       <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+      </availability>
+     </publicationStmt>
+    </biblFull>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    <person xml:id="quarto"><persName>Quarto</persName><sex value="MALE"/></person><person xml:id="george_gordon"><persName>George Gordon</persName><sex value="MALE"/></person><person xml:id="mineall"><persName>Mineall</persName><sex value="MALE"/></person><person xml:id="scrip"><persName>Scrip</persName><sex value="MALE"/></person><person xml:id="dawson"><persName>Dawson</persName><sex value="MALE"/></person><person xml:id="servant"><persName>Servant</persName><sex value="MALE"/></person><person xml:id="mrs_grampus"><persName>Mrs. Grampus</persName><sex value="FEMALE"/></person><person xml:id="sophia_harland"><persName>Sophia Harland</persName><sex value="FEMALE"/></person><person xml:id="kitty"><persName>Kitty</persName><sex value="FEMALE"/></person><person xml:id="millener"><persName>Millener</persName><sex value="FEMALE"/></person></listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1785">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text xml:lang="en">
+  <front>
+   <div type="titlepage">
+    <pb facs="1" ana="y"/>
+    <p>AEROSTATION; OR, THE TEMPLAR'S STRATAGEM.</p>
+    <p>A <hi>FARCE.</hi>
+    </p>
+    <p>IN TWO ACTS. WRITTEN By F. PILON, Author of the FAIR AMERICAN, DEAF LOVER, LIVERPOOL PRIZE, INVASION, &amp;c.</p>
+    <p>As it is performed with Applause at the THEATRE-ROYAL IN COVENT-GARDEN.</p>
+    <p>DUBLIN Printed by J. EXSHAW, for the COMPANY of BOOKSELLERS.</p>
+    <p>MDCCLXXXV.</p>
+   </div>
+   <div type="dedication">
+    <pb facs="2"/>
+    <head>DEDICATION.</head>
+    <head type="sub">TO THE Right Hon. LORD GRANTLEY, CHIEF JUSTICE IN <hi>EYRE.</hi>
+    </head>
+    <opener>
+     <salute>MY LORD,</salute>
+    </opener>
+    <p>FULL of Anxiety for the future Welfare of my Country, I beg Leave to call your Lordship's Attention for a Moment to the late <hi>Aerostatic</hi> Discoveries which at present so much engage the Speculation of the World. As Chief Justice in <hi>Eyre,</hi> the Subject certainly comes more immediately under your Cognizance; and, if there be no Laws existing to limit within proper Bounds the Excursions of celestial Travellers, I make no Doubt you will lay the Matter, as early next Sessions as possible, before Parliament, in order to determine the Legislation of the upper Regions. There is no Security now against the bold Aeronaut; he may rob us of our Daughters, and our Wives from our
+<pb n="iv" facs="3"/>highest Windows, and set the fleetest Pursuers at Defiance, who are only able to follow him upon Terra firma. I need not inform your Lordship that Poets are the only living Creatures, the <hi>Camelion</hi> excepted, that have any Interest, or <hi>Real Property in Air:</hi> It is well known that they have <hi>built</hi> in that Element; and, unpleasing Reflection! have often been condemned to <hi>feed</hi> upon it. Ariosto obtained from Apollo the Fee Simple of all that vast Tract of Territory which lies between Italy and the Moon. Milton, fired with a Genius more than mortal, shot up into the Heaven of Heavens! and, with Millions of flaming Cherubims at his Chariot Wheels, made all the Empyreal Firmament his own; whilst Shakespear, on the Wings of Inspiration, his head crown'd with Lightning, and his Hand arm'd with Thunder, subdued and peopled a vast <hi>Aerial Continent</hi> with Beings of his own wild and wonderful Creation! After the respectable Names I have just mentioned, who possess so large a <hi>Property in Air,</hi> I trust you will take the Matter into your most serious Consideration: but do not suppose, my Lord, that I am influenc'd by any selfish Motives in this Address; I solemnly declare <hi>all my Property</hi> in <hi>Nubibus</hi> as yet, consists of a few <hi>temporary Booths,</hi> which I have <hi>occasionally</hi> ran up for the Accommodation of some <hi>merry Acquaintances</hi> who are fond of enjoying
+<pb n="v" facs="4"/>a hearty Laugh at any ridiculous Shew the Crowd are admiring. I feel my own Want of Importance too sensibly to expect any Application of mine for the <hi>Security of Estates in Air,</hi> can deserve your Notice; but I am confident that the Names of Milton and Shakespear will ever find a Patron in a Man of fine Taste and cultivated Understanding.</p>
+    <closer>
+     <signed>I have the Honour to remain, With the most profound Respect, MY LORD, Your most devoted, and obedient Servant, FREDERICK PILON.</signed>
+    </closer>
+   </div>
+   <div type="prologue">
+    <pb facs="5"/>
+    <head>PROLOGUE.</head>
+    <stage>Spoken by Mr. WILSON.</stage>
+    <sp>
+     <l>TO-NIGHT's adventurer with awe looks round,</l>
+     <l>And views the perils which his bark surround;</l>
+     <l>Three years are past since on this coast he came,</l>
+     <l>Bound on a dang'rous voyage, in quest of fame.</l>
+     <l>Your smiles he'll deem propitious beams that rise,</l>
+     <l>Circling the star that lights his Polar skies,</l>
+     <l>And near approaching that <hi>magnetic</hi> part,</l>
+     <l>He feels the <hi>needle</hi> trembling at his heart.</l>
+     <l>But of our bard enough perhaps I've said,</l>
+     <l>When greater cares are lab'ring at my head.</l>
+     <l>I make no doubt to entertain you soon</l>
+     <l>With a new theatre in a <hi>stage balloon.</hi>
+     </l>
+     <l>No more in garret high shall poets sit,</l>
+     <l>With rival spiders spinning cobweb wit;</l>
+     <l>Like antient Barons future bards shall fare,</l>
+     <l>In <hi>their own castles</hi> built up in <hi>the air:</hi>
+     </l>
+     <l>Dull poets then <hi>behind a cloud</hi> shall stay,</l>
+     <l>Whilst Fancy, darting to the source of day,</l>
+     <l>Bold as an eagle, her career shall run,</l>
+     <l>And with strong pinions fan the blazing sun.</l>
+     <l>But ere we raise our play-house in the skies,</l>
+     <l>As Wit's Prime Minister I'll <hi>raise supplies;</hi>
+     </l>
+     <l>For, sad to tell! above, as here below,</l>
+     <l>'Tis only <hi>money makes the mare to go.</hi>
+     </l>
+     <l>Bubbles shall then be tax'd of ev'ry kind;</l>
+     <l>Why tax the <hi>light,</hi> and leave untax'd the <hi>wind?</hi>
+     </l>
+     <l>First, for <hi>Pinetti's</hi> sake, of high renown,</l>
+     <l>Who'll <hi>steal the shirt off</hi> any man in town,</l>
+     <l>A heavy tax on Common Sense shall fall;</l>
+     <l>Nay, you may smile, but it affects you all;</l>
+     <l>Italian Op'ras, like aliens, I've devis'd,</l>
+     <l>Shall pay a poll-tax to be <hi>nat'raliz'd.</hi>
+     </l>
+     <l>
+      <pb facs="6"/>
+      <hi>Farce, Dance</hi> and <hi>Pantomime,</hi> with <hi>sprites</hi> and <hi>dragons,</hi>
+     </l>
+     <l>Shall pay the <hi>carriage-tax</hi> of <hi>broad-wheel'd waggons;</hi>
+     </l>
+     <l>And as for <hi>Tragedy</hi> of modern date,</l>
+     <l>Let it contribute at <hi>Quack Med'cine rate.</hi>
+     </l>
+     <l>A tax too we enact <hi>new pieces</hi> pay,</l>
+     <l>
+      <hi>Apollo's</hi> Civil List expences to defray;</l>
+     <l>
+      <hi>Living,</hi> or <hi>dead,</hi> henceforward we decree,</l>
+     <l>
+      <hi>Damn'd,</hi> or <hi>still born,</hi> no <hi>author</hi> shall be free;</l>
+     <l>
+      <hi>Genius</hi> shall pay for being <hi>born</hi> to fame,</l>
+     <l>And <hi>Dullness</hi> for the <hi>burial</hi> of its name.</l>
+     <l>Thus, of our <hi>Ways</hi> and <hi>Means</hi> the state you find,</l>
+     <l>I hope these <hi>aids</hi> will meet the <hi>House's</hi> mind;</l>
+     <l>On you the stage rests all her rising fate,</l>
+     <l>You give our wit both <hi>currency</hi> and <hi>weight;</hi>
+     </l>
+     <l>From hence, like gold in circulation brought,</l>
+     <l>By all the world it eagerly is sought,</l>
+     <l>If critics come not on the <hi>Mintage</hi> night,</l>
+     <l>To <hi>clip</hi> the <hi>sterling,</hi> and then call it <hi>light;</hi>
+     </l>
+     <l>Assist our wishes, grant the meed we claim,</l>
+     <l>Praise that inspires, and smiles that guard our fame!</l>
+    </sp>
+   </div>
+   <div type="Dramatis_Personae">
+    <pb facs="7"/>
+    <castList>
+     <head>Dramatis Personae.</head>
+     <castItem>MEN.</castItem>
+     <castItem>
+      <role>QUARTO</role>
+      <actor>Mr. QUICK</actor>
+     </castItem>
+     <castItem>
+      <role>GEORGE GORDON</role>
+      <actor>Mr. DAVIES</actor>
+     </castItem>
+     <castItem>
+      <role>MINEALL</role>
+      <actor>Mr. BONNER</actor>
+     </castItem>
+     <castItem>
+      <role>SCRIP</role>
+      <actor>Mr. WILSON</actor>
+     </castItem>
+     <castItem>
+      <role>DAWSON</role>
+      <actor>Mr. WEWITZER</actor>
+     </castItem>
+     <castItem>
+      <role>MINEALL'S Servant</role>
+      <actor>Mr. NEWTON</actor>
+     </castItem>
+     <castItem>WOMEN.</castItem>
+     <castItem>
+      <role>The Widow GRAMPUS</role>
+      <actor>Mrs. WEBB</actor>
+     </castItem>
+     <castItem>
+      <role>SOPHIA HARLAND</role>
+      <actor>Miss RANOE</actor>
+     </castItem>
+     <castItem>
+      <role>KITTY</role>
+      <actor>Mrs. MORTON</actor>
+     </castItem>
+     <castItem>
+      <role>MILLENER</role>
+      <actor>Mrs. POUSSIN</actor>
+     </castItem>
+    </castList>
+   </div>
+  </front>
+  <body>
+   <div type="play">
+    <pb facs="8"/>
+    <head>AEROSTATION.</head>
+    <div n="1" type="act">
+     <head>ACT I.</head>
+     <div n="1" type="scene">
+      <head>SCENE I.—<stage>A STREET.</stage>
+      </head>
+      <stage>
+       <hi>Enter</hi> KITTY <hi>and</hi> DAWSON.</stage>
+      <sp who="#kitty">
+       <speaker>KITTY.</speaker>
+       <p>COME, Mr. Dawson, own the truth;—is'nt there another Lady in the question? does not some new flame withdraw your master's affections from my young Lady?</p>
+      </sp>
+      <sp who="#dawson">
+       <speaker>Daw.</speaker>
+       <p>Some new flame!—poor soul!—my master and I are in love with a score of mistresses at a time: For instance, we admire one for her shape, another for her air, a third, for her teeth, a fourth, for her eyes, a fifth, for her complexion, a sixth, for her wit, a seventh—</p>
+      </sp>
+      <sp who="#kitty">
+       <speaker>Kit. </speaker>
+       <stage>(interrupting him)</stage>
+       <p>A seventh! I am out of all patience! does the blockhead know what he'd be at?</p>
+      </sp>
+      <sp who="#dawson">
+       <speaker>Daw.</speaker>
+       <p>I was going to say that I admir'd a seventh for possessing all the charms of the other six,—and that her name is—</p>
+      </sp>
+      <sp who="#kitty">
+       <speaker>Kitty.</speaker>
+       <p>Is what?</p>
+      </sp>
+      <sp who="#dawson">
+       <speaker>Daw.</speaker>
+       <p>My lovely and even adorable Kitty Sprightly.</p>
+      </sp>
+      <stage>(Throws his arms round her waist.)</stage>
+      <sp who="#kitty">
+       <speaker>Kitty. </speaker>
+       <stage>(Pats his cheek with her glove, smiles, and leans fondly on his shoulder.)</stage>
+       <p>Plague take you for a flattering wretch! there is no believing one word in twenty you say;—now, I suppose you think I take all this for gospel!</p>
+      </sp>
+      <sp who="#dawson">
+       <speaker>Daw.</speaker>
+       <p>I do, upon my soul, or I should not have said it to you: the art of saying civil things, Kitty, is the true art of making ourselves and other people happy
+<pb n="10" facs="9"/>—I could speak thus to the woman of my heart for ever—when I had exhausted my fancy in praising her face, her person should be my theme—I'd find out new charms in her delicate hand, her fine-turn'd arm, her beauteous neck and enchanting bosom;—for it has long been with me an established maxim, that it is impossible a man can say or do too many civil things for a pretty woman.</p>
+      </sp>
+      <sp who="#kitty">
+       <speaker>Kitty.</speaker>
+       <p>I wish, civil sir, you could prove that you possess'd as much secresy as you do civility,—and I wou'd impart an affair, which hereafter may prove of no small consequence to your civil worship—</p>
+      </sp>
+      <sp who="#dawson">
+       <speaker>Daw.</speaker>
+       <p>There's not a footman, Kitty, so remarkable for keeping a secret, from Tower hill to Hyde-park-corner: my talent in that way has obtain'd me the nick-name of Guy Vaux, and the Dark Lantern.</p>
+      </sp>
+      <sp who="#kitty">
+       <speaker>Kitty.</speaker>
+       <p>Being as much as to say, this fellow's only fit for blowing up a plot, tho' he loses his life by it; however, I'll run all risques, and repose a confidence in you. Can you guess what brought me here this morning?</p>
+      </sp>
+      <sp who="#dawson">
+       <speaker>Daw.</speaker>
+       <p>Guess the cause, Kitty! <stage>(Surveying his person with great self-complacency.)</stage> I think the cause is pretty <hi>striking!</hi> Causes of much less <hi>attraction</hi> have drawn women a great way.</p>
+      </sp>
+      <sp who="#kitty">
+       <speaker>Kitty.</speaker>
+       <p>No, Mr. Dawson, I came hither to speak to you on another affair; and I hope you will answer me like a friend, an old fellow servant, and a gentleman.</p>
+      </sp>
+      <sp who="#dawson">
+       <speaker>Daw. </speaker>
+       <stage>(Interrupting her, and taking her in his arms)</stage>
+       <p>My dear Kitty, you now speak to me in so moving a strain, that I must take you in my arms.</p>
+      </sp>
+      <sp who="#kitty">
+       <speaker>Kitty.</speaker>
+       <p>My poor mistress is dying for love of your flinty-hearted master.</p>
+      </sp>
+      <sp who="#dawson">
+       <speaker>Daw.</speaker>
+       <p>Lord, child! do you call that a secret!—I could have told you that.</p>
+      </sp>
+      <sp who="#kitty">
+       <speaker>Kitty.</speaker>
+       <p>Now I want to ask you in confidence, and I beg you'll be serious: Do you think that your master's present coolness to my young lady is owing to his affections being engag'd in another place?</p>
+      </sp>
+      <sp who="#dawson">
+       <speaker>Daw.</speaker>
+       <p>Not in my opinion, on the honor of a gentleman.</p>
+      </sp>
+      <sp who="#kitty">
+       <pb n="11" facs="10"/>
+       <speaker>Kitty.</speaker>
+       <p>But how can you be sure of that?</p>
+      </sp>
+      <sp who="#dawson">
+       <speaker>Daw.</speaker>
+       <p>I was witness to a little circumstance which puts the matter out of all question, in my mind.</p>
+      </sp>
+      <sp who="#kitty">
+       <speaker>Kitty.</speaker>
+       <p>Tell it me, tell it me, dear Mr. Dawson.</p>
+      </sp>
+      <sp who="#dawson">
+       <speaker>Daw.</speaker>
+       <p>Why, as I was combing his hair yesterday morning, I observ'd him take a miniature picture out of his waistcoat pocket, and look at it as if he could eat it with his eyes: judging it to be the likeness of some favourite Sultana, I slyly popp'd my head over his left shoulder, and whose do you think the picture was?</p>
+      </sp>
+      <sp who="#kitty">
+       <speaker>Kitty.</speaker>
+       <p>Nay, how should I know?</p>
+      </sp>
+      <sp who="#dawson">
+       <speaker>Daw.</speaker>
+       <p>Miss Sophia's, you jade.</p>
+      </sp>
+      <sp who="#kitty">
+       <speaker>Kitty.</speaker>
+       <p>You don't say so! <stage>(Clapping her hands together with a mixture of surprise and joy)</stage>
+       </p>
+      </sp>
+      <sp who="#dawson">
+       <speaker>Daw.</speaker>
+       <p>But that's not all! Going out of the room, I left the door on a jar, from a habit I have of peeping and listening to every thing that passes in a family, and then did I see him sit as good as an hour looking at and kissing the picture, for all the world as if Miss Sophia herself had been there.</p>
+      </sp>
+      <sp who="#kitty">
+       <speaker>Kitty.</speaker>
+       <p>I wish from the bottom of my soul it had.</p>
+      </sp>
+      <sp who="#dawson">
+       <speaker>Daw.</speaker>
+       <p>But Mr. Mineall coming up suddenly, he put the picture in his pocket again in such a hurry as if he was afraid the very light of the sun should steal a kiss from it.</p>
+      </sp>
+      <sp who="#kitty">
+       <speaker>Kitty.</speaker>
+       <p>Deuce take that Mineall, he's always spoiling sport. But how could you be so ill-natur'd as to banter me in the manner you did at first about your seven mistresses and all such impossible stuff?</p>
+      </sp>
+      <sp who="#dawson">
+       <speaker>Daw.</speaker>
+       <p>Merely to keep my wit in play, to give a finer edge to my satirical vein. Wit, my girl, is like a sword; if you wou'd make the world admire the beauty of your blade, you must throw away the scabbard; friend or foe must receive the wound, if you would shew its point: but a master's hand is necessary to display the high polish of your weapon, making it flash at every graceful turn, with the lightning's quickness and the diamond's brilliancy.</p>
+      </sp>
+      <sp who="#kitty">
+       <speaker>Kitty.</speaker>
+       <p>Bless me! how you do talk! see what it is to be brought up from one's youth with a gentleman
+<pb n="12" facs="11"/>of great learning; I vow you have almost as much wit as your master.</p>
+      </sp>
+      <sp who="#dawson">
+       <speaker>Daw.</speaker>
+       <p>You're wrong, Kitty; you should have said, that my master had almost as much wit as I; for if my quantum of wit was not double my master's, half my poverty would have been sufficient to hide it.</p>
+      </sp>
+      <sp who="#kitty">
+       <speaker>Kitty.</speaker>
+       <p>Well; for the good news you have just told me, there's a guinea for you, <stage>(gives him a guinea)</stage> but it's all out of my own pocket; mind, I have no authority from my mistress.</p>
+      </sp>
+      <sp who="#dawson">
+       <speaker>Daw.</speaker>
+       <p>'Sdeath! then I can't think of taking it; <stage>(searching his pocket as if he could not find it.)</stage>
+       </p>
+      </sp>
+      <sp who="#kitty">
+       <speaker>Kitty. </speaker>
+       <stage>(Aside)</stage>
+       <p>Avaricious rogue! I see he won't part with it, so I'll teize him a bit.—Well, if you are so generous, I'll take my guinea back.</p>
+      </sp>
+      <sp who="#dawson">
+       <speaker>Daw.</speaker>
+       <p>But then I was thinking, Kitty, your mistress will pay you again when you tell her the circumstance.</p>
+      </sp>
+      <sp who="#kitty">
+       <speaker>Kitty.</speaker>
+       <p>Not she, indeed; so, come, come, give it me again.</p>
+      </sp>
+      <sp who="#dawson">
+       <speaker>Daw. </speaker>
+       <stage>(pulls out the guinea)</stage>
+       <p>Zounds! how you hurry me! you hav'n't giv'n me time to look whether it's a George the Third, or an old Carolus; <stage>(balancing the Guinea on the top of his finger)</stage> it's very light, Kitty.</p>
+      </sp>
+      <sp who="#kitty">
+       <speaker>Kitty.</speaker>
+       <p>If you don't like it, why don't you return it?</p>
+      </sp>
+      <sp who="#dawson">
+       <speaker>Daw.</speaker>
+       <p>What! and suffer you to lose by it? No, no, my dear, I'll change it, and stand to the loss, and if your mistress refuses to pay this small disbursement advanc'd in her service, on the honor of a gentleman, you shall have a guinea of such unequivocal weight, that it shan't want the sixteenth part of a scruple.</p>
+      </sp>
+      <sp who="#kitty">
+       <speaker>Kitty.</speaker>
+       <p>No, Dawson; I give it up; if you have so many scruples about parting with a light guinea, I'm sure you'll make no kind of scruple of with-holding from me a heavy one.</p>
+      </sp>
+      <stage>Exeunt severally.</stage>
+     </div>
+     <div n="2" type="scene">
+      <pb n="13" facs="12"/>
+      <head>SCENE II.</head>
+      <stage>MINEALL<hi>'s Apartments in the</hi> Temple. QUARTO, GEORGE GORDON, <hi>and</hi> MINEALL, <hi>discovered sitting at a Table, Wine and Glasses before them.</hi>
+      </stage>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>I protest, Mr. Mineall, you students of law are delightfully situated here in the inner Temple;—what a charming shew of fine girls in the garden, and of wharfs, wherries, and coal barges on the water! Indeed, I think you are too pleasantly situated to devote much of your attention to study; a roguish leer from a fine woman's eye under your window, would soon make you abandon the perusal of the Statutes; there is no resisting her when she chuses to enforce the Habeas Corpus Act.</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>In my opinion, Sir, there cannot be too many agreeable objects to relax the mind after intense study.</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>You are wrong, Mr. Mineall;—I'd treat a young Lawyer as I would a young starling; you can't put him in too dark a cage to make him talk well;—but now I look round this apartment, is it not confounded extravagant to keep all these windows open? I have clos'd my garret windows entirely; have left but one open on the first and second floor, and if it wasn't for shame, would be content with the light of a back parlour window.—Come, lads, <stage>(filling his glass,)</stage> I'll give you a fine woman, one of the best editions of her sex. Here's the widow Grampus.</p>
+      </sp>
+      <stage>(drinks.)</stage>
+      <sp who="#george_gordon">
+       <speaker>George.</speaker>
+       <p>Then, Uncle, you are seriously determin'd to marry her.</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>Seriously, George;—since your aunt's death, I have pass'd the life of a hermit;—what are we born for, but society? I want some one to fill out my tea of a morning; to press me to another slice at dinner, and play a game of backgammon with me of an afternoon: These are the comforts of matrimony; but you are too young to have a notion of them yet.</p>
+      </sp>
+      <sp who="#george_gordon">
+       <speaker>Geo.</speaker>
+       <p>And do you expect the widow will indulge you in all those matrimonial comforts?</p>
+      </sp>
+      <sp who="#mineall">
+       <pb n="14" facs="13"/>
+       <speaker>Mine.</speaker>
+       <p>I know she hates backgammon, because women of fashion never play at it.</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>It's false, Sir; besides, I'm sure she doats upon me; she has told me a hundred times, that I had wit at my fingers ends.</p>
+      </sp>
+      <sp who="#george_gordon">
+       <speaker>Geo.</speaker>
+       <p>But that compliment, uncle Quarto, has lost it's point, now you have left off book-selling.</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>You provoking puppy! what do you suppose I see in the blank margin of your fool's-cap countenance to make me put up with such insolence? Have you forgot, sirrah, that I have treated you as my own child since you were the height of a Pope's Homer? have you forgot, you dog, that though you were brought up at Oxford, and are now a fine gentleman, that your grandfather was a Baker at Aberdeen, and never saw the alphabet but upon his own gingerbread? There's your brother Sandy too; when he heard of your exploit, he must needs have an itch for coming to England, and be damn'd to him; I shall never forget the figure he cut the first time I saw him, with his broad accent, his long Scotch face, and such a red head, that you might have lit a candle at his pole; and if I hadn't a regard for him as my sister's son, I'd have sent him trooping back to Scotland again: I had like to have lost all my English customers by the villain, for it's well known he was obliged to wear gloves the first three months he was in the shop.</p>
+      </sp>
+      <sp who="#george_gordon">
+       <speaker>Geo.</speaker>
+       <p>I am exceedingly sorry that a harmless sally of imagination, should have given so much offence where I owe nothing but the highest respect, and the warmest gratitude. My objection, Sir, is not to your marrying, but to the object of your choice: Dear uncle, isn't she rather too old for you.</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>Old, George! ha! ha! ha! why to be sure, George, a man of my figure and constitution might have shot at younger game: but there has been a <hi>tendre</hi> between us for these some years past; when I was in business, she us'd to call me the learned Aristarchus of Pater-noster-row, and I called her the divine Sappho of Watling-street: <stage>
+         <hi>(gets up, and takes
+<pb n="15" facs="14"/>his hat and cane)</hi>
+        </stage> I am sorry, friend Mineall, I must leave you so soon, but when a lady is in the case—</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>And so accomplished as the Widow Grampus, every thing must yield to her.</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>She expects a great philosopher to visit her this afternoon, an Egyptian I understand by birth, who has discovered a wonderful pickle, in which whatever is immerg'd contracts the properties of a salamander, and will never afterwards consume in fire.</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>And no doubt, Sir, your gallantry has induc'd you to solicit the honor of being the first English salamander pickled for the experiment?</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>No, faith, I have no ambition to be a pickled salamander, though I should like to see the discovery brought to perfection for the honor of my Country. France has just obtained the dominion of the air; England, for centuries, has had the sov'reignty of the seas; the only element we want the command of now is fire, to make the records of English glory immortal.</p>
+      </sp>
+      <stage>
+       <hi>Exit</hi> Quarto.</stage>
+      <sp who="#george_gordon">
+       <speaker>Geo.</speaker>
+       <p>What's to be done Frank? if he should marry this woman, she'll dissipate both his fortune and her own, on the ridiculous schemes of needy projectors. He hasn't settled a shilling on me yet.</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>Your servant Dawson I think speaks French?</p>
+      </sp>
+      <sp who="#george_gordon">
+       <speaker>Geo.</speaker>
+       <p>Extraordinary well; but what then?</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>A thought has come into my head, by which I think I shall be able to break off your Uncle's marriage with Mrs. <hi>Grampus;</hi> there is a German Baron of the name of Bubble Bergen, a great virtuoso at Vienna, with whom her Brother Scrip constantly corresponds, being as Balloon-mad as himself, but never has seen him. Suppose we make Dawson personate this philosophical Foreigner; Scrip will receive him with open arms, and as the dog has at least the recommendation of youth upon his side. I'll stake my existence, if he lays siege properly to the widow, he carries the fort from your Uncle.</p>
+      </sp>
+      <sp who="#george_gordon">
+       <speaker>Geo.</speaker>
+       <p>I must acknowledge your plan is sensible: every day's experience shews us to what lengths elderly
+<pb n="16" facs="15"/>ladies will go, to indulge the heart in all its partialities.</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine</speaker>
+       <p>But I'll not stop here to serve you, George: if I can bring my project completely to bear, I shall reduce your Uncle to such a predicament as to extort a proper settlement for you.</p>
+      </sp>
+      <sp who="#george_gordon">
+       <speaker>Geo.</speaker>
+       <p>His not doing that is the reason I have discontinued my visits to Miss Harland: I could not bear the thoughts of her supposing I harbour'd a design upon her fortune, and circumstanc'd as I am now, may she not think so? the nicely-feeling heart foregoes the very happiness it seeks, rather than enjoy it upon terms which bear the appearance of dishonour.</p>
+      </sp>
+      <stage>Enter a Servant.</stage>
+      <sp who="#servant">
+       <speaker>Ser.</speaker>
+       <p>There's a young woman, Sir, at the door desires to speak with you.</p>
+      </sp>
+      <stage>
+       <hi>Exit</hi> Servant.</stage>
+      <sp who="#george_gordon">
+       <speaker>Geo. </speaker>
+       <stage>(getting up)</stage>
+       <p>Then I'll go; but I hope nothing will prevent our supping together.</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>Depend upon meeting me at half past nine at the Grecian.</p>
+       <stage>
+        <hi>Exit</hi> George.</stage>
+       <p>What game has Fortune sprung for me! Oh, here she comes.</p>
+       <stage>
+        <hi>Enter</hi> Kitty <hi>(curtsying low)</hi>
+       </stage>
+       <p>A charming wench, by Jupiter! sit down, my love—I was just wishing for you the moment you came in <stage>(draws a couple of chairs.)</stage>
+       </p>
+      </sp>
+      <sp who="#kitty">
+       <speaker>Kitty.</speaker>
+       <p>You don't say so, Sir.</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>I was by those soft rolling azure twinklers— <stage>(throwing his hand round her waist, and looking fondly in her face.)</stage>
+       </p>
+      </sp>
+      <sp who="#kitty">
+       <speaker>Kitty.</speaker>
+       <p>How you Gentlemen do like to flatter us poor Girls: But to what I come about, you must know, Sir, I am a Servant in Mr. <hi>Scrip's</hi> family, the great stock-broker, I suppose you know him?</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>Know him! he's my intimate friend.</p>
+      </sp>
+      <sp who="#kitty">
+       <speaker>Kitty.</speaker>
+       <p>See what that is; he told me as much I assure you and moreover and above, he told me besides it I made use of his name, (he's an old gentleman,
+<pb n="17" facs="16"/>Sir, and knows nothing of the matter himself) that you'd undertake to do a little business for me.</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>That I will, my dear girl, as soon as ever you please.</p>
+      </sp>
+      <sp who="#kitty">
+       <speaker>Kitty.</speaker>
+       <p>There's above forty pounds sterling coming to me, wages due to my poor father, who was killed last war aboard the Rattle Snake, and I can't get a farthing of it.</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>Your father's wages, I'll put you in a certain way of obtaining immediately. In the mean time, my sweet girl—</p>
+      </sp>
+      <stage>Enter Servant.</stage>
+      <sp who="#servant">
+       <speaker>Ser.</speaker>
+       <p>Mr. Parchment, the Conveyancer, Sir.</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>Dam'me, I wish yon were both conveyed out of the window. Why didn't you say I wasn't at home?</p>
+      </sp>
+      <sp who="#servant">
+       <speaker>Ser.</speaker>
+       <p>He has some great business, Sir, for you to do.</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>You should have told him I had my hands full. Confound these chambers, they're as public as Westminster-Hall in Term time. Shew him into the study.
+<stage>Exit Servant.</stage> Can't you meet me any where else, my love?</p>
+      </sp>
+      <sp who="#kitty">
+       <speaker>Kitty.</speaker>
+       <p>I dar'n't Sir, I shall lose my character.</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>S'death and fire! this wench has gain'd such hold of me, I can't part with her <stage>(muses)</stage> I have it; I'll give her a letter to Mrs. Modeley, the Millener, in Bond-Street, who shall artfully detain her at her house, till I am able to go and see her in the evening. Will you, my dear, sit down, whilst I write a letter I want to give you?</p>
+      </sp>
+      <sp who="#kitty">
+       <speaker>Kitty.</speaker>
+       <p>Oh to be sure, Sir, <stage>
+         <hi>(looking earnestly at</hi> Mineall <hi>as he writes.)</hi>
+        </stage> I think he's as comely a man as ever I saw, only inclined to be a little ruddish, or so. Well, I'm sure its very good of him, to offer to take my little affair in hands so readily. <stage>
+         <hi>(getting up and looking at his picture over his head, in which he's drawn with his professional band and long robe)</hi>
+        </stage> Sure that can't be his picture over the door in a clergyman's band, and big wig. So pretty a face peeping through that great white thorn bush of a wig, looks for all the
+<pb n="18" facs="17"/>world like a peach growing out of a snow-ball. But I hope, Sir, your letter is almost wrote, for I'm rather in haste.</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine. </speaker>
+       <stage>(having sealed his letter, gets up)</stage>
+       <p>Yes, my dear, here it is; you know Bond-Street?</p>
+      </sp>
+      <sp who="#kitty">
+       <speaker>Kitty.</speaker>
+       <p>Very well, Sir.</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>Enquire for Mrs. Modeley and Co. the great Milliners in that street, and deliver this letter into Mrs. Modeley's own hands, from Mr. Mineall, of the Temple.</p>
+      </sp>
+      <sp who="#kitty">
+       <speaker>Kitty.</speaker>
+       <p>Must I wait for an answer?</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>Certainly.</p>
+      </sp>
+      <sp who="#kitty">
+       <speaker>Kitty. </speaker>
+       <stage>(Curtseying and looking down)</stage>
+       <p>I hope your honor isn't going to ask for your fee?</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>Yes, but I am. I never fusser my fair clients to go away without paying me.</p>
+       <stage>(Kisses her.)</stage>
+      </sp>
+      <sp who="#kitty">
+       <speaker>Kitty.</speaker>
+       <p>I never thought that it was so pleasant to go to law before, <stage>(going, she returns)</stage> but, Sir, Sir, I forgot to ask you whether this letter is wrote to get me what's due to my father?</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>No, my dear, that letter was wrote to get you something that's due to yourself.</p>
+      </sp>
+      <stage>Exeunt severally.</stage>
+     </div>
+     <div n="3" type="scene">
+      <head>SCENE III.</head>
+      <stage>SCRIP'S <hi>House. A library, globes, mathematical instruments, and loose papers on a Table.</hi>
+      </stage>
+      <sp who="#scrip">
+       <speaker>Scrip. </speaker>
+       <stage>(Discovered sitting in deep thought)</stage>
+       <p>I think I could make a devilish good bargain for myself, and do my Country at the same time essential service. <stage>(muses)</stage> Let me see, let me see; fourteen first-rate balloons, each carrying twelve canonades, ten bombs, and four and twenty two and forty pounders. Ay! fourteen would do it. Suppose I undertake to contract with Government for paying off the national debt, on condition that they grant me and my heirs for ever, an exclusive patent for the bombardment of Algiers. The King of Spain would pay me treble the sum for the business. But then suppose the King of Spain shou'd break his word with me, a thing not uncommon,
+<pb n="19" facs="18"/>when crown'd heads find it their interest so to do, how am I to compel the King of Spain to pay me? Dam'me, if I undertake the business, unless he gives me a mortgage on Peru or Mexico; then there are two other dev'lish good contracts I might make, to supply farmers with rain, and confectioners with ice, all the year round. Besides I can now set the game laws at defiance; no man can prove his title to a manor in the clouds; but softly, softly; hav'n't we got a Chief Justice in Air? ecod, I believe he can take cognizance of these matters. I must be very cautious how I proceed, 'till I know how <hi>high up</hi> his jurisdiction extends. I must take care to be quite out of sight of the earth, before I attempt to pursue a hare, or meddle with venison. It would vex a man confoundly at my time of life to be strung up for dear stealing in the clouds. Here comes my sister Grampus; I'll consult her on the subject.</p>
+      </sp>
+      <stage>
+       <hi>Enter Mrs.</hi> Grampus.</stage>
+      <sp who="#mrs_grampus">
+       <speaker>Mrs. Gram.</speaker>
+       <p>I am still, brother, of opinion, that bodies of a globular and rotund form are better calculated for celerity of motion than the cylindrical.</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>Upon that point, sister, we must ever disagree. Will you attempt to persuade me, that bodies of a rotund and globular form like your own are so well calculated for celerity of motion, as a smart, Cylinder like me?</p>
+      </sp>
+      <sp who="#mrs_grampus">
+       <speaker>Mrs. Gram.</speaker>
+       <p>I meant that such bodies possest more celerity of motion in ascending.</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>But you should have said in descending: for instance, sister, is there a Balloon in France or England wou'd take your weight up? though yes, I think a well constructed Montgolfier might take you up by way of ballast.</p>
+      </sp>
+      <sp who="#mrs_grampus">
+       <speaker>Mrs. Gram.</speaker>
+       <p>I beg, brother, you'd let me explain the matter; do but examine this drawing— <stage>(takes him to the back of the stage, where both stand examining a drawing seemingly with great attention.)</stage>
+       </p>
+      </sp>
+      <stage>
+       <pb n="20" facs="19"/>
+       <hi>Enter Miss</hi> Harland, <hi>and</hi> Kitty.</stage>
+      <sp who="#sophia_harland">
+       <speaker>Miss Har. </speaker>
+       <stage>(as she comes on)</stage>
+       <p>And his servant Dawson told you this story?</p>
+      </sp>
+      <sp who="#kitty">
+       <speaker>Kitty.</speaker>
+       <p>Mr. Dawson himself ma'am, and I gave him the guinea according to your desire.</p>
+      </sp>
+      <sp who="#sophia_harland">
+       <speaker>Miss Har.</speaker>
+       <p>Then perhaps it was the money made him invent this story of the picture, in hopes to get more, by tales of the same complexion.</p>
+      </sp>
+      <sp who="#kitty">
+       <speaker>Kitty.</speaker>
+       <p>Not at all, ma'am; I pump'd the story out of him, before I gave him a shilling, and then I made him believe it was all out of my own pocket.</p>
+      </sp>
+      <sp who="#sophia_harland">
+       <speaker>Miss Har.</speaker>
+       <p>You're a good girl, Kitty, but I can't spare you this evening to go with Mr. Mineall's letter.</p>
+      </sp>
+      <sp who="#kitty">
+       <speaker>Kitty.</speaker>
+       <p>I don't know who in the family I can send with it; every soul's employed about the Balloon, except old Agnes, your ladyship's nurse.</p>
+      </sp>
+      <sp who="#sophia_harland">
+       <speaker>Miss Har.</speaker>
+       <p>Then you must give her the letter.</p>
+      </sp>
+      <sp who="#kitty">
+       <speaker>Kitty.</speaker>
+       <p>It's very well, I will, ma'am; and I'll give her at the same time charge enough to take care of it.</p>
+      </sp>
+      <stage>
+       <hi>Exit</hi> Kitty.</stage>
+      <sp who="#sophia_harland">
+       <speaker>Miss Har</speaker>
+       <p>If this story Kitty has just told me be true, all his extraordinary conduct has been from too much delicacy; I know his uncle to be his sole dependance, and perhaps he fears the old Gentleman's marriage may deprive him of that provision, the expectation of which once made him consider himself my equal in regard to fortune. I could almost find in my heart to be angry with him. Poor George! insensible must that heart be, that would not sacrifice fortune to love!—</p>
+      </sp>
+      <stage>(Scrip <hi>and Mrs.</hi> Grampus <hi>come forward, both greatly agitated.)</hi>
+      </stage>
+      <sp who="#mrs_grampus">
+       <speaker>Mrs. Gram.</speaker>
+       <p>I shall stick to the Globular.</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>And I shall stick to the Cylinder, but Sophy shall decide between us.</p>
+      </sp>
+      <sp who="#mrs_grampus">
+       <speaker>Mrs. Gram.</speaker>
+       <p>With all my heart! <hi>Miss</hi> Harland shall be judge— <stage>(Scrip <hi>and Mrs.</hi> Grampus <hi>get on each side of Miss</hi> Harland, <hi>and shew the drawing)</hi>
+        </stage> Observe this circular figure.</p>
+      </sp>
+      <sp who="#scrip">
+       <pb n="21" facs="20"/>
+       <speaker>Scrip</speaker>
+       <p>Do you mark this horizontal tube?</p>
+      </sp>
+      <sp who="#sophia_harland">
+       <speaker>Miss Har.</speaker>
+       <p>If both speak at a time, it will be impossible for me to attend to either.</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>Why look'e there, she gives it against you already, you won't let me speak.</p>
+      </sp>
+      <sp who="#mrs_grampus">
+       <speaker>Mrs. Gram.</speaker>
+       <p>Was ever any thing so provoking! have not I as good a right to speak first as you?</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>Why, yes, Sister, I think you have the right of Seniority.</p>
+      </sp>
+      <sp who="#mrs_grampus">
+       <speaker>Mrs. Gram. </speaker>
+       <stage>(in a violent rage)</stage>
+       <p>I'll not sleep another night in your house.</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>Then shall my family sleep the sounder: you may quit my house when you will—Off at a moment's warning, you and your Balloon together.</p>
+      </sp>
+      <sp who="#mrs_grampus">
+       <speaker>Mrs. Gram.</speaker>
+       <p>But I will convince <hi>Miss</hi> Harland before I go.— <stage>
+         <hi>(takes hold of Miss</hi> Harland's <hi>hand eagerly.)</hi>
+        </stage>
+       </p>
+      </sp>
+      <sp who="#sophia_harland">
+       <speaker>Miss Har.</speaker>
+       <p>Dear madam, I beg you will not treat me with any kind of ceremony.</p>
+      </sp>
+      <sp who="#mrs_grampus">
+       <speaker>Mrs. Gram. </speaker>
+       <stage>(interrupting her)</stage>
+       <p>If the weight of the atmosphere—</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>Weight of the atmosphere!—fiddle-de-dee—I say the power of gravity.</p>
+      </sp>
+      <sp who="#sophia_harland">
+       <speaker>Miss Har.</speaker>
+       <p>I am sure I must possess an uncommon share of the power of gravity to keep my countenance; I earnestly request you wou'd choose some other umpire to determine this dispute. Were I to listen to you all day, my poor capacity wou'd not enable me to settle the difference, I perceive so equal a share of reason on both sides.</p>
+      </sp>
+      <stage>
+       <hi>Exit Miss</hi> Harland.</stage>
+      <sp who="#quarto">
+       <speaker>Quar. </speaker>
+       <stage>(Without.)</stage>
+       <p>There's no occasion; I shall go up stairs without ceremony.</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip</speaker>
+       <p>Here comes your lover, Quarto; I'll leave it to him.</p>
+      </sp>
+      <sp who="#mrs_grampus">
+       <speaker>Mrs. Gram.</speaker>
+       <p>With all my heart; and you yourself shall put the question to him.</p>
+      </sp>
+      <stage>
+       <hi>Enter</hi> QUARTO.</stage>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>My dear friend, Quarto, I rejoice to see you. <stage>(<hi>Places</hi> Quarto <hi>between them.</hi>)</stage> Love has given you a new binding and title page; you look as rosy as Turkey
+<pb n="22" facs="21"/>leather: but, without farther preface, which body do you think best calculated for celerity of motion, a globe or a cylinder?</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>A globe, or a cylinder?—the cylinder, to be sure.</p>
+      </sp>
+      <sp who="#mrs_grampus">
+       <speaker>Mrs. Gram.</speaker>
+       <p>And that's your opinion?</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>By all means.</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>Now for it. <stage>(Rubbing his hands with great glee)</stage>
+       </p>
+      </sp>
+      <sp who="#mrs_grampus">
+       <speaker>Mrs. Cramp.</speaker>
+       <p>So you think so?</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>And don't you think so too?</p>
+      </sp>
+      <sp who="#mrs_grampus">
+       <speaker>Mrs. Gram.</speaker>
+       <p>No, I don't. Why, you stupid, old coxcomb, is the gaz of your understanding entirely evaporated? do you possess so little science and reason as to maintain that a cylinder is a better shape for a balloon than a globe?</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar. </speaker>
+       <stage>(As if recollecting.)</stage>
+       <p>Oh! it was for a balloon you meant all this time; that alters the case entirely: no, my dear madam, nothing can beat the globe for a balloon; I would not venture up in a balloon of any other shape for all the gold in the Exchequer.</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip. </speaker>
+       <stage>(Aside.)</stage>
+       <p>Mighty well, old Turnabout, I'll sweat you for this: well, there's an end of it. Like three parts of the world, without being convinc'd, I am obliged to be satisfied: but what's that you hinted of your not chusing to venture up in a balloon of any other shape?</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>Not for the world.</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>But you wou'd have no kind of objection to ascend in one constructed upon my sister's principles.</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>Objection! no, not absolutely objection; that is to say, if Mrs Grampus requested me to accompany her.</p>
+      </sp>
+      <sp who="#mrs_grampus">
+       <speaker>Mrs. Gram</speaker>
+       <p>Dear Mr. Quarto, do not increase my chagrin by your gallant offer; I must defer my curiosity till the invention is brought to more maturity.</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>Her weight won't do: she broke the galleries of five balloons already, but we never cou'd raise her above the garden wall; now, you're the very dandy for a voyage in the air.</p>
+      </sp>
+      <sp who="#quarto">
+       <pb n="23" facs="22"/>
+       <speaker>Quar. </speaker>
+       <stage>(Aside.)</stage>
+       <p>The devil I am! Sure she won't be so unreasonable as to expect me to go.</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>Why you're as light as a man made of cork; you'll go up like a rocket! I don't believe you weigh a dozen cock sparrows!</p>
+      </sp>
+      <sp who="#mrs_grampus">
+       <speaker>Mrs Gram.</speaker>
+       <p>Consider the high fame it will give you; it will make you live after you're dead!</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>But I am one of those who like to live all the days of my life: besides, if I shou'd be seized with a fit of the gout!</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>Where could you find an easier chair than a balloon?</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar. </speaker>
+       <stage>(Coughing violently.)</stage>
+       <p>Then I am very short-winded; terribly afflicted with the asthma.</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>Nothing so good for you as the pure air of the upper regions; it will clear your pipes, and give you lungs like the bellows of an organ.</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>It will be an organ confoundedly out of tune.</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>But come along; let us shew you your flying car; it lies at anchor now off the pigeon-house.</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar. </speaker>
+       <stage>(Aside.)</stage>
+       <p>Oh, that it were cast away in the horse-pond! but zounds, my principal objection to going up is want of company; I shou'dn't mind it a button, if I had a couple of friends with me.</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>A couple of friends! why, did you suppose we were such savages as to send you up quite alone?—no, man; Nicolini, our fine, large, black tom cat, shall go with you.</p>
+      </sp>
+      <sp who="#mrs_grampus">
+       <speaker>Mrs. Gram.</speaker>
+       <p>And my sweet little shock spaniel, Nero.</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar. </speaker>
+       <stage>(Aside.)</stage>
+       <p>Oh, damn your little Nero! you have the heart of Nero, or you wou'd not press me to this undertaking.</p>
+      </sp>
+      <sp who="#mrs_grampus">
+       <speaker>Mrs. Gram.</speaker>
+       <p>How I shall envy you when I see you above!</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>And how I shall envy you when I see you below!</p>
+      </sp>
+      <stage>Exeunt.</stage>
+     </div>
+     <trailer>END OF THE FIRST ACT.</trailer>
+    </div>
+    <div n="2" type="act">
+     <pb n="24" facs="23"/>
+     <head>ACT II.</head>
+     <div n="1" type="scene">
+      <head>SCENE I.—<stage>A GARDEN.</stage>
+      </head>
+      <stage>
+       <hi>Enter</hi> GEORGE GORDON <hi>and Miss</hi> HARLAND.</stage>
+      <sp who="#sophia_harland">
+       <speaker>MISS HARLAND.</speaker>
+       <p>I Only wish'd to ask you for my picture.</p>
+      </sp>
+      <sp who="#george_gordon">
+       <speaker>Geo.</speaker>
+       <p>I don't know any thing else I could have denied you.</p>
+      </sp>
+      <sp who="#sophia_harland">
+       <speaker>Miss Har.</speaker>
+       <p>But what signifies keeping the likeness, when you set so little value on the original?</p>
+      </sp>
+      <sp who="#george_gordon">
+       <speaker>Geo.</speaker>
+       <p>So little value! By every hope I have of happiness, there is nothing upon earth so truly valuable and precious to me: but how must you interpret the addresses of a man with no certainty of fortune? My uncle is on the point of marriage; to be sure, at present the world considers me his heir: but who can foresee the influence a wife may have on him?</p>
+      </sp>
+      <sp who="#sophia_harland">
+       <speaker>Miss Har.</speaker>
+       <p>True happiness, George, does not depend upon immense fortune; where there is a sufficient competency, what matter on which side it is?</p>
+      </sp>
+      <sp who="#george_gordon">
+       <speaker>Geo.</speaker>
+       <p>My generous Sophia! what shall I say to you? whilst the charms of your person fill my bosom with new delight every moment I behold you; the greatness of your mind breaks forth with superior lustre, as if jealous of those external beauties which first won my admiration.</p>
+      </sp>
+      <sp who="#sophia_harland">
+       <speaker>Miss Har.</speaker>
+       <p>Your friend Mineall seems zealously interested for you.</p>
+      </sp>
+      <sp who="#george_gordon">
+       <speaker>Geo.</speaker>
+       <p>I have already told you of his plan for breaking off my uncle's marriage with Mrs. Grampus: he is now dressing up Dawson, as a German Baron, and giving him every necessary instruction for performing his part with propriety.</p>
+      </sp>
+      <sp who="#sophia_harland">
+       <speaker>Miss Har.</speaker>
+       <p>As the Baron is supposed to come from Vienna, I don't think it would be a bad hint to make him profess himself an admirer of antiquated beauty only; and in the true spirit of German gallantry, look
+<pb n="25" facs="24"/>more for wrinkles than dimples in the countenance of a mistress; I observe that there are no characters so open to the grossest flattery as your learned ladies, especially when the incense is offered them by a youthful Corydon.</p>
+      </sp>
+      <sp who="#george_gordon">
+       <speaker>Geo.</speaker>
+       <p>An excellent thought! I'll tell Dawson of it, and he does not want understanding to improve the hint.</p>
+      </sp>
+      <sp who="#sophia_harland">
+       <speaker>Miss Har.</speaker>
+       <p>Your plan is deficient in one particular; your Baron should have brought a balloon with him, and persuaded the widow he travelled from Germany in it.</p>
+      </sp>
+      <sp who="#george_gordon">
+       <speaker>Geo.</speaker>
+       <p>My uncle was in so great a hurry to be married, we had not time to provide the balloon.</p>
+      </sp>
+      <sp who="#sophia_harland">
+       <speaker>Miss Har.</speaker>
+       <p>And I fancy the widow will be so much of his opinion, that you will have no occasion for it.</p>
+      </sp>
+      <stage>
+       <hi>Exeunt</hi> George <hi>and Miss</hi> Harland.</stage>
+     </div>
+     <div n="2" type="scene">
+      <head>SCENE II. <stage>
+        <hi>A Library.</hi> SCRIP, QUARTO, MINEALL, <hi>and Mrs.</hi> GRAMPUS. Quarto <hi>furnished with a huge fur Cap, and a thread-bare Surtout Coat.</hi>
+       </stage>
+      </head>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>As he said that he had a great inclination to sleep when he got up high in the air, I have furnish'd myself with a good warm night-cap.</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>Are you mad? if you give way to the drowsiness which you will certainly find come over you it will be instant death.</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>Oh lord, oh lord, oh lord!</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>You never will wake again.</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>Wake again!—I don't think I'm awake at present, all seems a dream to me.</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <stage>(Looking at <hi>Quarto's</hi> coat)</stage>
+       <p>—But friend Quarto, your great coat seems to partake of the quality of your night-cap, it has a very sleepy appearance.</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>But why a sleepy appearance, Master Scrip?</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>Because I don't think it has had a nap these seven years. But, how far do you intend to go?</p>
+      </sp>
+      <sp who="#mrs_grampus">
+       <speaker>Mrs. Gram.</speaker>
+       <p>Ay! how far do you intend to go?</p>
+      </sp>
+      <sp who="#mineall">
+       <pb n="26" facs="25"/>
+       <speaker>Mine.</speaker>
+       <p>That's a grand point.</p>
+      </sp>
+      <stage>(<hi>They all get eagerly round</hi> Quarto.)</stage>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>Why, I was thinking when I had got as far as Highgate, it wou'd be a pretty little voyage; then I cou'd stop at the Horns, and take a little refreshment to revive my old heart.</p>
+      </sp>
+      <sp who="#mrs_grampus">
+       <speaker>Mrs. Gram.</speaker>
+       <p>What, go no farther than Highgate.</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>I pique myself upon your pitching at least as far as Ware, in Hertfordshire.</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>You pique yourself upon my pitching as far as Ware, in Hertfordshire? Dam'me, if you wou'dn't amongst you pique and pitch me to the Peak of old Nick in Derbyshire; but where are my bold aeronauts, the companions, the partners of my voyage?</p>
+      </sp>
+      <sp who="#mrs_grampus">
+       <speaker>Mrs. Gram.</speaker>
+       <p>Nero is ready at a moment's warning.</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>And I'll answer for't, my whisker'd friend, Tom Nicolini, shall be forth coming.</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar. </speaker>
+       <stage>(After a pause, during which he walks about with ludicrous solemnity)</stage>
+       <p>Is my ballast lighter than it was, and the roast goose stow'd safe in the balloon?</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>It is, my friend. <stage>(takes him by the hand.)</stage>
+       </p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>Get me some Holland's gin.</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>You shall have two bottles; it is a cordial spirit, and will much help you in the passage.</p>
+      </sp>
+      <sp who="#mrs_grampus">
+       <speaker>Mrs. Gram.</speaker>
+       <p>And I'll provide the Holland's gin myself.</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>A better judge I know not.</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>And I'll go and attend the filling the balloon.</p>
+      </sp>
+      <stage>
+       <hi>Exit</hi> Mineall.</stage>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>Now we're alone, I've a secret charge to give you.</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>Charge me no more, I'm overcharg'd already.</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>A squib!—a cracker!—a flash in the pan!—the spark of a rocket!—the train of a mine, to the grand plan I have to communicate; a plan that will make my name as immortal as Isabella's of Castile, and your's, as that of the daring Columbus—Do you know what time of the moon it is?</p>
+      </sp>
+      <sp who="#quarto">
+       <pb n="27" facs="26"/>
+       <speaker>Quar.</speaker>
+       <p>Why, if I were to judge by your conversation, I shou'd suppose it were at the full.</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>It was new moon yesterday; the crescent will be visible this fine clear day about six o'clock in the evening; the general rate of balloon travelling is at about thirty miles an hour; the height of our atmosphere is just sixty miles, and the devil's in it if the moon's atmosphere can be greater; the entire journey, making every allowance, cannot exceed one hundred and twenty miles. Why not undertake it! it is no more than going to Bath; you'll perform it in four hours, and when at your journey's end, you have no more to do, but tie a rope in a slip knot, chuck it upon the horns of the moon, and dangle there but one half hour, dam'me, if you won't have half the world gazing at you.</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>So, it's to the horns of the Moon you want me to travel? I thought there was something ominous in the wind, when you objected to my stopping at the Horns at Highgate.</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>But that's not all! admitting (which is a moral certainty) that you meet a hospitable reception from your friends in the moon, I dare say you'll meet a great many friends there; lay in a fresh stock of provisions, and take a tour all round the firmament. You may first visit that most beautiful planet, Venus; and by the most easy transit in the world, proceed next to Mercury; I'd make interest with Jupiter to obtain his satellites, by way of guards, whilst I was on my travels; and if I saw a convenient opportunity, I'd steal Saturn's ring for the British Museum.</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>But I was thinking, all the time you were speaking, what I should do for straw to burn.</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip. </speaker>
+       <stage>(musing as if greatly perplexed)</stage>
+       <p>For straw to burn! For straw to burn!—You have heard of the sky farmers, cou'dn't they supply you?—I have it; you shall take straw enough with you to go to the moon, and back again; and when you are in the moon, you may speak to the man of it, to hire Charles's wain for you, and thus perform all the journey I have chalked out for you in a waggon.</p>
+      </sp>
+      <sp who="#quarto">
+       <pb n="28" facs="27"/>
+       <speaker>Quar.</speaker>
+       <p>A devilish good thought; besides, if a waggon is the only conveyance from star to star, who knows but I may get a pension for introducing stage coaches?</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>Like enough; you're not the first projector who has had a pension in the clouds.</p>
+      </sp>
+      <stage>
+       <hi>Enter</hi> Mineall.</stage>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>Dear Sir! your philosophic friend from Vienna, the celebrated Baron Bubblebergen is just arrived, and eagerly enquires for you.</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>What, my friend that I never saw yet, though we have so long maintained a scientific correspondence?</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>The same; it seems the information you sent him of your balloon, has so wrought on his inquisitive spirit, that he quitted his own country on purpose to go up in it.</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>Huzza! A reprieve! A reprieve!</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>A reprieve! What do you mean? You know the balloon will take no more than one person.</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>I know that; but as the baron is a stranger; I think it the height of good breeding to give him the first place in it. He is waiting for you.—I'll not go up up until I hear his opinion on the matter.</p>
+      </sp>
+      <sp who="#mrs_grampus">
+       <speaker>Mrs. Gram.</speaker>
+       <p>I'll wait on him this moment; and luckily, I have my balloon hat, my balloon sack, and my balloon apron on.</p>
+      </sp>
+      <stage>
+       <hi>Exit Mrs.</hi> Grampus.</stage>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>Come away, my little Quarto;—up we go, is the word.</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>Up we go! I rather fear down we go, is the world.</p>
+      </sp>
+      <stage>
+       <hi>Exeunt</hi> Scrip <hi>and</hi> Quarto.</stage>
+      <stage>
+       <hi>Enter</hi> George Gordon.</stage>
+      <sp who="#george_gordon">
+       <speaker>Geo.</speaker>
+       <p>Dear Frank, how do we proceed?</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>Like heroes in the bosom of victory—But go you instantly, and charge me a case of pistols with powder, mind you put nothing but powder in them.</p>
+      </sp>
+      <sp who="#george_gordon">
+       <speaker>Geo.</speaker>
+       <p>A case of pistols charged with nothing but powder; what can you possibly want with them?</p>
+      </sp>
+      <sp who="#mineall">
+       <pb n="29" facs="28"/>
+       <speaker>Mine.</speaker>
+       <p>To fight a duel; there is not a moment to be lost; therefore, do what I desire, without asking another question. Leave every thing to that zeal you know I have for your interest.</p>
+      </sp>
+      <stage>
+       <hi>Exit</hi> Geo. Gordon.</stage>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>Now, if the old bookseller has but spunk enough about him to become jealous; what between that passion, and the more prevalent one of interest, I think he may be worked up to send the baron a challenge, as the last expiring struggle to regain his mistress. <stage>(walks about musing)</stage> Though, hang it; no, no, what can make a bookseller fight? Not all the treatises in Pater-noster-Row. <stage>(thoughtful)</stage> Let me see; let me see; I have hit the mark; the Egyptian philosopher, of whom he told me! I will make him put on an inside waistcoat, and persuade him it has been steeped in that great man's pickle until it became proof to the fire of a musquet bullet. Ay! zounds, we'll make a pickled salamander of him.</p>
+      </sp>
+      <stage>
+       <hi>Enter</hi> Kitty.</stage>
+      <sp who="#kitty">
+       <speaker>Kitty.</speaker>
+       <p>Lord Sir, what were you saying about a salamander?</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>I was saying, my dear, that if such a creature ever existed, it must have been at a vast distance from such a pair of eyes as you possess. But you surprize me! What answer have you brought to my letter, from Mrs. Modeley?</p>
+      </sp>
+      <sp who="#kitty">
+       <speaker>Kitty</speaker>
+       <p>I hope your honour won't be angry; but I protest it wasn't in my power to go with it.</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>Well! and what have you done with my letter?</p>
+      </sp>
+      <sp who="#kitty">
+       <speaker>Kitty.</speaker>
+       <p>Oh! I have sent it by a safe hand.</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>Then you have sent it by another?</p>
+      </sp>
+      <sp who="#kitty">
+       <speaker>Kitty.</speaker>
+       <p>Yes, to be sure! I wou'dn't disappoint you for the world—Old Agnes, my young Lady's nurse, has taken it; and you cou'dn't have chose a more proper person for your purpose.</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>So old Agnes the nurse has taken it?</p>
+      </sp>
+      <sp who="#kitty">
+       <speaker>Kitty.</speaker>
+       <p>Lord, Sir, yes—what signifies who took the letter, so the letter was taken?—What you wanted me
+<pb n="30" facs="29"/>to do, for ought I can see to the contrary, an old woman might have done as well as a young one.</p>
+      </sp>
+      <stage>
+       <hi>Exit</hi> Kitty.</stage>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>So old Agnes the nurse has taken it? If this story becomes public, I shall be finely laughed at.</p>
+      </sp>
+      <stage>
+       <hi>Enter a</hi> Millener.</stage>
+      <sp who="#millener">
+       <speaker>Mill.</speaker>
+       <p>The whole family's in such confusion about the balloon, that's to go off this evening, I cannot meet a soul to give me a direct answer. <stage>(<hi>approaching</hi> Mineall, <hi>and addressing him</hi>)</stage> I'll ask this gentleman. Pray Sir, can you tell me if Mr. Mineall is in the house?</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>Yes! my name is Mineall;—have you any thing to say to me?</p>
+      </sp>
+      <sp who="#millener">
+       <speaker>Mill.</speaker>
+       <p>I have a little bill to deliver you, from Mrs. Modeley, the Millener, in Bond-street.</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>A little bill! you must be mistaken—I don't owe Mrs. Modeley any thing.</p>
+      </sp>
+      <sp who="#millener">
+       <speaker>Mill.</speaker>
+       <p>It's for things for the Lady, you sent with the letter to her.—You desired in it, she should be indulged with any thing she might take a fancy to.</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine. </speaker>
+       <stage>(Takes the Bill.)</stage>
+       <p>Oh, It's for things for the lady I sent to her? mighty well! <stage>(Reads)</stage> Silk cloak! gauze! Mecklinburgh lace! stockings, six balloon caps! two hats, ditto—sum total, fifteen pounds, three shillings and six pence—a pretty morning's frolic I must confess! but it's no matter, I very richly deserve it. <stage>(Puts his hand in his pocket.)</stage> I hav'n't so much in my pocket; I'll go borrow what I want of George:—come this way, if you please, and I'll pay you.</p>
+       <stage>Going.</stage>
+      </sp>
+      <stage>
+       <hi>Enter</hi> Scrip, <hi>peeping in at the other side.</hi>
+      </stage>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>Come this way, and <hi>I'll</hi> pay you.</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>But she wants a Bill paid upon sight.</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>Upon sight!—well, upon sight let it be;—but, Mr. Mineall, Mr. Mineall, how can you be so unconscionable to keep all these pretty rogues to yourself; cou'dn't you spare one to a distrest friend?</p>
+      </sp>
+      <sp who="#mineall">
+       <pb n="31" facs="30"/>
+       <speaker>Mine.</speaker>
+       <p>I assure you, sir, I can very well spare the one whose bill the person you see here has brought me.</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>Is she very pretty?</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>Can you ask that question, when I am going to pay money for her?</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>Egad I have a great mind to take her off your hands;—but then she may be too young, and when that's the case, they are generally mere hoydens or simpletons.</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>This lady is not too young, I give you my word.</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>Then you think she has got all her eye-teeth about her?</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>No faith, I don't think she has.</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>Give me your hand, and give me the bill at the same time. <stage>(Mineall <hi>gives him the bill.</hi>)</stage> I'll pay it on condition you let me visit her in your stead.</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>And this good woman shall conduct you to her immediately.</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>Where is she?—for I burn with impatience to see her.</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>Not a hundred yards off—here at Mrs. Modeley's, the Millener's, in Bond-street.</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip. </speaker>
+       <stage>(To the millener.)</stage>
+       <p>Come along, my dear,—this way, and I'll pay the bill upon sight for you.</p>
+      </sp>
+      <stage>
+       <hi>Exeunt</hi> Mineall, Scrip <hi>and</hi> Millener.</stage>
+     </div>
+     <div n="3" type="scene">
+      <head>SCENE III.</head>
+      <stage>
+       <hi>An elegant apartment: Mrs.</hi> Grampus, <hi>and</hi> Dawson <hi>as Baron</hi> Bubblebergen <hi>discovered.</hi>
+      </stage>
+      <sp who="#mrs_grampus">
+       <speaker>Mrs. Gram.</speaker>
+       <p>The taste for more ripen'd female beauty which prevails at Vienna, Baron, has been long since made known to the Ladies of England; it is recorded in the epistolary annals of a celebrated writer of our sex, whose noble impatience for knowledge led her even into the recesses of the Grand Signior's palace.</p>
+      </sp>
+      <sp who="#dawson">
+       <speaker>Daw.</speaker>
+       <p>Sur l'honneur d'un Baron, Madam, a man de qualité at Vienna, cannot endure les petites demoiselles
+<pb n="32" facs="31"/>—fat you call de green girl, or de boarding-school miss; mais, Madam, a votre age, touts les feus de Cupidon, all de fires of love brullent en perfection, et scorch a de heart vid hot blaze: Par example, regardez la rose; mark von rose in de garden! ven it is von petit bouton it be no estemé, mais quand la rose spread les grande feuilles, dat is, ven de rose be old enough, we pluck de rose, and put it, by gar, in de bosom.</p>
+      </sp>
+      <sp who="#mrs_grampus">
+       <speaker>Mrs. Gram.</speaker>
+       <p>Do we not observe the same rule in regard to every thing else beautiful, or delicious in the productions of nature? Who will pluck the peach from its wall-supported stock, 'till the mellowing hand of time has brought the down upon its cheek?</p>
+      </sp>
+      <sp who="#dawson">
+       <speaker>Daw.</speaker>
+       <p>Ah, ma belle ange! you be von quite ripe peach, you ave de down upon de cheek.</p>
+      </sp>
+      <sp who="#mrs_grampus">
+       <speaker>Mrs. Gram.</speaker>
+       <p>What a perceptible difference between the addresses of a youth of fashion and a superannuated bookseller!</p>
+      </sp>
+      <sp who="#dawson">
+       <speaker>Daw.</speaker>
+       <p>Mais, Madame, permittes moi <stage>(kneeling)</stage> sur mes genoux, suffer me, upon my knees, to sollicit von pretty hand.</p>
+      </sp>
+      <sp who="#mrs_grampus">
+       <speaker>Mrs. Gram.</speaker>
+       <p>I beseech you, my Lord, to rise, I cannot listen to you in that degrading posture.</p>
+      </sp>
+      <sp who="#dawson">
+       <speaker>Daw.</speaker>
+       <p>Den me vil get up: me vil do every ting which me be command by Madam Grand Puss.</p>
+      </sp>
+      <sp who="#mrs_grampus">
+       <speaker>Mrs. Gram.</speaker>
+       <p>Oh, heav'ns! how the barbarous sound of my own name shocks my ear! I do not know that name I would not change it for.</p>
+      </sp>
+      <sp who="#dawson">
+       <speaker>Daw.</speaker>
+       <p>Et bien, Madame: comment trouves, vous mon nom? how you like my name?—Baron Bubblebergen!</p>
+      </sp>
+      <sp who="#mrs_grampus">
+       <speaker>Mrs. Gram. </speaker>
+       <stage>(repeating after him)</stage>
+       <p>Bubblebergen! How trippingly it goes off the tongue, as Shakespear has it.</p>
+      </sp>
+      <sp who="#dawson">
+       <speaker>Daw.</speaker>
+       <p>C'est vrais, Je suis—me be von Foreigner. Eh, bien, n'est pas l'empereur; is not de Emperor of Germany de same? Suppose now von minuit l'Empereur come to England, and say Madame Grand Puss, me be very much in love, vil you marry me? Monsieur
+<pb n="33" facs="32"/>l'Empereur you say, go bout your business back to Germany, me vil not marry von foreigneur.</p>
+      </sp>
+      <sp who="#mrs_grampus">
+       <speaker>Mrs. Gram.</speaker>
+       <p>How forcibly he reasons! I hope, Sir, you do not think so meanly of my understanding, as to suppose me influenced in my judgment of men, by the climates in which they drew their first breaths. Who can select the regions of their nativity? Your lot might have been my own, had fortune will'd it so:—Born on the banks of the Shannon, I had been Irish, beyond the Tweed, I had been Scotch, but doom'd in Thames-street first to see the light, the world pronounce me English.</p>
+      </sp>
+      <sp who="#dawson">
+       <speaker>Daw.</speaker>
+       <p>Apres cette declaration, Madam, after dis confession, me vil kiss a your hand, as one earnest of your heart.</p>
+       <stage>(kisses her hand.)</stage>
+      </sp>
+      <sp who="#mrs_grampus">
+       <speaker>Mrs. Gram.</speaker>
+       <p>But what will the world say to so hasty an espousals?</p>
+      </sp>
+      <stage>
+       <hi>Enter</hi> Quarto.</stage>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>Say!—why the world will say, that you're more deceitful than a crocodile;—is it thus at last that you reward your old, your learned friend, as you called me? <stage>(hesitating and looking fondly.)</stage> When I look in her face, all my former tenderness returns. What pleasure it gave me to mark her gradual progress in English grammar, which I first put into her hand! little did I think if she became an adjective, she would ever be coupled with any substantive but myself.</p>
+      </sp>
+      <sp who="#mrs_grampus">
+       <speaker>Mrs. Gram.</speaker>
+       <p>Really, Mr. Quarto, you astonish me; how have I merited this virulence of invective? nothing that I recollect has ever passed between us, but what was strictly within the bounds of Platonic friendship.</p>
+      </sp>
+      <sp who="#dawson">
+       <speaker>Daw.</speaker>
+       <p>Monsieur Quarto, respondes moi, answer me von little question.</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>Ay, and one big queston, Mr. Mounsieur.</p>
+      </sp>
+      <sp who="#dawson">
+       <speaker>Daw.</speaker>
+       <p>Connoisses vous, qui Je suis? Do you know who I am?</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>They tell me you're a German Baron.</p>
+      </sp>
+      <sp who="#dawson">
+       <pb n="34" facs="33"/>
+       <speaker>Daw.</speaker>
+       <p>Eh, bien! tant mieux—now monsieur will you be so good to tell me who you are?</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>An Englishman! and therefore as good as any baron in Europe!</p>
+      </sp>
+      <sp who="#dawson">
+       <speaker>Daw.</speaker>
+       <p>There begar, it be again tant mieux!</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>Tom Mew! don't call me Tom Mew, Mr. Baron, I won't put up with it: I suppose you call me Tom Mew, because I was going to take up the tom cat with me in the balloon; but I won't go up in it now; I'll neither break my heart nor my neck for that lady: but harkee, Mr. Baron, I shall send a friend to you presently that shall make you understand me; ay—dam'me if I don't—Tom Mew!</p>
+      </sp>
+      <stage>
+       <hi>Exit</hi> Quarto.</stage>
+      <sp who="#dawson">
+       <speaker>Daw.</speaker>
+       <p>Il est bien faché—he be very anger; he vil certainment send me von challenge.</p>
+      </sp>
+      <sp who="#mrs_grampus">
+       <speaker>Mrs. Gram.</speaker>
+       <p>Not he, poor old creature; he's as spiritless as a modern pamphlet, but let us follow him; I think I still possess sufficient influence to prevail on him to ascend in the balloon.</p>
+      </sp>
+      <sp who="#dawson">
+       <speaker>Daw.</speaker>
+       <p>Mort de ma vie! Do not ask him, me vil mount pour votre satisfaction.</p>
+      </sp>
+      <sp who="#mrs_grampus">
+       <speaker>Mrs. Gram.</speaker>
+       <p>What, and risque your precious life! I will not hear it; better a dozen booksellers should break their necks: you must defer your gratification as well as myself; but if he comes down safe, who knows but you and I may have the pleasure of ascending in the same balloon together?</p>
+      </sp>
+      <stage>
+       <hi>Exit</hi> Dawson, <hi>leading Mrs.</hi> Grampus <hi>with great affected ceremony.</hi>
+      </stage>
+      <stage>
+       <hi>Enter</hi> Mineall <hi>at the opposite side.</hi>
+      </stage>
+      <stage>Mineall <hi>beckons to</hi> Dawson—<hi>who hands Mrs.</hi> Grampus <hi>off, and returns.</hi>
+      </stage>
+      <sp who="#mineall">
+       <speaker>Mine. </speaker>
+       <stage>(In a whispering tone.)</stage>
+       <p>Remember your challenge, your adversary's on the ground; I hope you have secured Scrip for your second.</p>
+      </sp>
+      <sp who="#dawson">
+       <speaker>Daw</speaker>
+       <p>I have, sir; and should he disappoint me, could prevail upon his sister to fill his place:—away, sir, we shall be observ'd.</p>
+      </sp>
+      <stage>
+       <hi>Exeunt</hi> Dawson <hi>and</hi> Mineall.</stage>
+     </div>
+     <div type="scene">
+      <stage>
+       <pb n="35" facs="34"/>Scene <hi>changes to a Garden.</hi>
+      </stage>
+      <stage>
+       <hi>Enter</hi> Quarto <hi>and</hi> Mineall <hi>(each with a large pistol in his hand.)</hi>
+      </stage>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>So he said he'd come?</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>Immediately.</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>Did he seem frighten'd?</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>No more than you are.</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>Then he must certainly be a very brave fellow; I almost think it a pity to quarrel with such a man: don't you think it rather coldish?</p>
+       <stage>(Buttoning his coat.)</stage>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>Cold! I think it uncommonly warm for the time of year.</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar. </speaker>
+       <stage>(Still buttoning his coat 'till it's close up to his collar.)</stage>
+       <p>I don't know how it is, but I feel it very cold, or I am going to be attacked with my old complaint.</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>Your old complaint! what's that?</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>A slight touch of the Ague that attacks me now and then.</p>
+      </sp>
+      <stage>Dawson <hi>(without) sings Malbroc very loud.</hi>
+      </stage>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>Zounds! what a noise he makes! he goes to fight like an Indian, with the war-whoop.</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>Oh, here they come; I'll measure out the ground. <stage>(Mineall <hi>strides across the stage as if measuring the distance at which they are to stand.</hi>
+        </stage>
+       </p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>Measure the ground! I conceit I have taken my measure already of the ground.</p>
+      </sp>
+      <stage>
+       <hi>Enter</hi> Scrip <hi>and</hi> Dawson.</stage>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>But listen to reason, baron; why not defer the duel 'till he returns from his voyage? consider, if you kill him, what a fine experiment you'll spoil.</p>
+      </sp>
+      <sp who="#dawson">
+       <speaker>Daw. </speaker>
+       <stage>(Taking his ground.)</stage>
+       <p>Me vil not hear von vord: eh bien, monsieur! est vous pret est vous pret? it be very high time begar you be pret.</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>It's high time I should pray—why friend Mineall, this bloody minded Baron makes sure of me! But where am I to stand?</p>
+      </sp>
+      <sp who="#mineall">
+       <pb n="36" facs="35"/>
+       <speaker>Mine. </speaker>
+       <stage>(putting him to his ground)</stage>
+       <p>Let the Baron remain where he is, and do you stand here.</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>Now, both discharge your pistols together.</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>Hold, Mr. Baron, I bar firing yet; in that case, both of us may be shot! now I think the fairest way will be the old practice of duelling; suppose we turn back to back, then jump round, and fire with our eyes shut.</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>I think the fairest way will be to hide the horse for the first shot.</p>
+      </sp>
+      <sp who="#dawson">
+       <speaker>Daw.</speaker>
+       <p>Me vil hide no vat you call horse; so, Monsieur Quarto, or Monsieur Folio, or vat devil dey call you, you may shoot first, and me vil kill you in very god time after.</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>Did you ever hear of such a blood thirsty dog! now I declare I wouldn't wish to kill him, tho' he seems to owe me such a spite, and as these matters are frequently made up, especially when the parties have come to the ground, and behav'd so bravely as you must own the Baron and I have.</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>Impossible! things are now gone too far for any sort of accommodation.</p>
+      </sp>
+      <stage>
+       <hi>Enter</hi> George Gordon.</stage>
+      <sp who="#george_gordon">
+       <speaker>Geo.</speaker>
+       <p>Where's my dear Uncle?</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>Here, my dear George!</p>
+      </sp>
+      <sp who="#dawson">
+       <speaker>Daw.</speaker>
+       <p>Eh, bien; pourquoi—vy you no fire!</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>Don't be in a hurry Baron, I wish to take leave of my Nephew, nobody knows what may happen.</p>
+      </sp>
+      <sp who="#george_gordon">
+       <speaker>Geo.</speaker>
+       <p>Dear, Sir, don't you fight him, I'll take the quarrel upon myself.</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>My dear boy, you don't say so? <stage>(takes his hand)</stage>
+       </p>
+      </sp>
+      <sp who="#george_gordon">
+       <speaker>Geo.</speaker>
+       <p>My life's of no consequence.</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>None in the world—then perhaps George you will go up in the Balloon for me too?</p>
+      </sp>
+      <sp who="#george_gordon">
+       <speaker>Geo.</speaker>
+       <p>Most chearfully, Sir; so, if you give me your pistol—</p>
+      </sp>
+      <sp who="#quarto">
+       <pb n="37" facs="36"/>
+       <speaker>Quar.</speaker>
+       <p>Here it is <stage>(gives his pistol)</stage> but take care, it's cock'd,—let me ge get out of the way before you fire.</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>But hold, Mr. Gordon, in case you should kill the Baron, you must fly the country; then what security has your Uncle given to make a proper provision for your support during your banishment?</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>Don't let that stop the duel! I'll make over my estate in Shropshire to him, and besides, bequeath him every shilling I die possess'd of.</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>You hear what he says, Mr. Scrip; and therefore, with his own consent, I deliver the title deeds of his Shropshire property into the hands of Mr. Gordon.</p>
+       <stage>
+        <hi>Gives</hi> George <hi>the Parchments.</hi>
+       </stage>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>Now for it, George, let him see he has a man of mettle to deal with; mind, you have the first shot, but be sure you take good aim. Come, Baron, are you ready? I long to see them pop at each other; I never saw a duel in my life. <stage>(Dawson <hi>begins to undress.</hi>)</stage>
+       </p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>Zounds! Baron, what are you uncasing for? are you a going to treat us to a boxing match?</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>A boxing match! oh, you low lived, cowardly rascal, you ragamuffin, is it come to this at last! if I thought this was his way I could have box'd him myself; stand back, George, I'll fight this duel myself; let every man fight his own battles; <stage>(strips)</stage> this is some German valet de chambre.</p>
+      </sp>
+      <sp who="#dawson">
+       <speaker>Daw. </speaker>
+       <stage>(turning round)</stage>
+       <p>An English valet de chambre, Sir, at your service; I hope, Sir, you wouldn't have me shoot my master.</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>Shoot your master! as I live that impudent dog Dawson, why! Mineall, is this a trick of yours?</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>Ask him no questions, he has play'd me a worse trick: and in the true spirit of a lawyer made me pay for it.</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>Ay, prithee what has he done?</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>Not much, only sold me an old hen for a young pullet; I paid neat twenty pounds in hard cash for the sight of a young Venus, as he made me believe;
+<pb n="38" facs="37"/>but when I saw her, dam'me if she wasn't old enough to be my grandmother.</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>It was a disappointment to both parties, and as one of us must have paid for it, I thought you could best afford it.</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>Pretty comfort this I must confess.</p>
+      </sp>
+      <stage>
+       <hi>Enter Mrs.</hi> Grampus <hi>and Miss</hi> Harland.</stage>
+      <sp who="#mrs_grampus">
+       <speaker>Mrs. Gram.</speaker>
+       <p>Where is my dear Baron? I hope he is not wounded beyond all cure.</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>No, Ma'am, there he is, Baron Dawson, of Dawson's Pantry, at your service, far from being wounded beyond the power of cure; but I can assure you at the same time, that I am cured beyond the power of your ever wounding me.</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>Sister, sister, I'm ashamed of you—a woman at your time of life to have such a colt's tooth.</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>Well; instead of thinking of a wife myself, if Miss Harland will honour my nephew George with her hand, I will immediately make such further settlement on him, as will place him every way on a footing with her in regard to fortune.</p>
+      </sp>
+      <sp who="#sophia_harland">
+       <speaker>Miss Har.</speaker>
+       <p>Sir, your nephew's merit needs no adventitious aid from fortune; and I do not blush to own my partiality for him, before I was acquainted with your generous intention.</p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>By this light, you're a noble girl! and as you're shortly to be a near relation of mine, I will have a buss to our better acquaintance.</p>
+      </sp>
+      <stage>(<hi>Kisses Miss</hi> Harland.)</stage>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>Well, my little Quarto, give me your hand, I congratulate you on slipping your neck so dextrously out of the matrimonial noose. But come, every thing is ready, and your flying man of war expects you. <stage>(<hi>Pulling</hi> Quarto <hi>by the arm to the back of the stage where the balloon is seen.</hi>)</stage>
+       </p>
+      </sp>
+      <sp who="#quarto">
+       <speaker>Quar.</speaker>
+       <p>I must beg to be excused; the magnet has lost its power that was to have drawn me to the clouds.</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>Curs'd unlucky this! but, Dawson, what will you take to go up?</p>
+      </sp>
+      <sp who="#dawson">
+       <pb n="39" facs="38"/>
+       <speaker>Daw.</speaker>
+       <p>Take, Sir! Ecod, I fancy I should take my death.</p>
+      </sp>
+      <sp who="#scrip">
+       <speaker>Scrip.</speaker>
+       <p>Dam'me, if I hav'n't a great mind to go up myself; tho' upon second thoughts, it would be rather imprudent, for if I be seiz'd with the rheumatism in my shoulders, I shall not be able to use either my oars or my wings.</p>
+      </sp>
+      <sp who="#mineall">
+       <speaker>Mine.</speaker>
+       <p>I earnestly request, Mr. Scrip, that you would lay both your oars and your wings aside, for the rest of the day, and join in the happiness of my friend George and his lovely Sophia! I know no feeling so grateful to the human heart as to reflect we have succeeded in our most interesting attempt; and there is nothing now wanting <stage>(addressing the audience)</stage> but your support and protection to elevate us without the aid of Aerostation.</p>
+      </sp>
+     </div>
+    </div>
+    <trailer>THE END.</trailer>
+   </div>
+  </body>
+ </text>
+</TEI>
