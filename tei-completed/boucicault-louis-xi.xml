@@ -1,0 +1,6863 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id" xml:lang="eng">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">Louis XI</title>
+    <author>
+     <persName>
+      <forename>Dion</forename>
+      <surname>Boucicault</surname>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>ProQuest</name>
+     <idno type="URL">https://www.proquest.com/books/louis-xi-1940/docview/2138575211/se-2?accountid=14632</idno>
+     <idno type="proquest">LION2138575211</idno>
+    </bibl>
+    <bibl type="originalSource">
+     <author>Boucicault, Dion</author>
+     <title type="main">Louis XI</title>
+     <title type="volume">Forbidden Fruit &amp; Other Plays By Dion Boucicault</title>
+     <publisher>Princeton University Press</publisher>
+     <pubPlace>Princeton</pubPlace>
+     <date type="print" when="1940">1940</date>
+     <note type="citation">Boucicault, Dion: Louis XI (1940). In: Forbidden Fruit &amp; Other Plays By Dion Boucicault. Princeton University Press: Princeton 1940</note>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    <person xml:id="louis_xi"><persName>Louis XI</persName><sex value="MALE"/></person><person xml:id="duke_de_nemours"><persName>Duke de Nemours</persName><sex value="MALE"/></person><person xml:id="the_dauphin"><persName>The Dauphin</persName><sex value="MALE"/></person><person xml:id="tristan_l_ermite"><persName>Tristan L'Ermite</persName><sex value="MALE"/></person><person xml:id="philip_de_commine"><persName>Philip de Commine</persName><sex value="MALE"/></person><person xml:id="jacques_coitier"><persName>Jacques Coitier</persName><sex value="MALE"/></person><person xml:id="oliver"><persName>Oliver</persName><sex value="MALE"/></person><person xml:id="francois_de_paule"><persName>Francois de Paule</persName><sex value="MALE"/></person><person xml:id="cardinal_d_alby"><persName>Cardinal d'Alby</persName><sex value="MALE"/></person><person xml:id="monseigneur_de_lude"><persName>Monseigneur de Lude</persName><sex value="MALE"/></person><person xml:id="cranford"><persName>Cranford</persName><sex value="MALE"/></person><person xml:id="marcel_peasant"><persName>Marcel Peasant</persName><sex value="MALE"/></person><person xml:id="richard_peasant"><persName>Richard Peasant</persName><sex value="MALE"/></person><person xml:id="didier_peasant"><persName>Didier Peasant</persName><sex value="MALE"/></person><person xml:id="count_de_dreux"><persName>Count de Dreux</persName><sex value="MALE"/></person><person xml:id="montjoie"><persName>Montjoie</persName><sex value="MALE"/></person><person xml:id="toison_d_or"><persName>Toison d'Or</persName><sex value="MALE"/></person><person xml:id="marie"><persName>Marie</persName><sex value="FEMALE"/></person><person xml:id="marthe"><persName>Marthe</persName><sex value="FEMALE"/></person><person xml:id="female"><persName>Female</persName><sex value="FEMALE"/></person><person xml:id="lord"><persName>Lord</persName><sex value="MALE"/></person><personGrp xml:id="villagers"><persName>Villagers</persName><sex value="UNKNOWN"/></personGrp></listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1940">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text>
+  <front>
+   <castList>
+    <head>CAST OF CHARACTERS</head>
+    <castItem>
+     <role>Louis XI, King of France</role>
+    </castItem>
+    <castItem>
+     <role>Duke de Nemours</role>
+    </castItem>
+    <castItem>
+     <role>The Dauphin</role>
+    </castItem>
+    <castItem>
+     <role>Tristan L'Ermite, Grand Provost and Executioner</role>
+    </castItem>
+    <castItem>
+     <role>Philip de Commine, the Historian</role>
+    </castItem>
+    <castItem>
+     <role>Jacques Coitier, the King's Physician</role>
+    </castItem>
+    <castItem>
+     <role>Oliver, the Barber Minister</role>
+    </castItem>
+    <castItem>
+     <role>François de Paule</role>
+    </castItem>
+    <castItem>
+     <role>Cardinal d'Alby</role>
+    </castItem>
+    <castItem>
+     <role>Monseigneur de Lude</role>
+    </castItem>
+    <castItem>
+     <role>Cranford, Officer of the Scottish Guard</role>
+    </castItem>
+    <castItem>
+     <role>Marcel Peasant</role>
+    </castItem>
+    <castItem>
+     <role>Richard Peasant</role>
+    </castItem>
+    <castItem>
+     <role>Didier Peasant</role>
+    </castItem>
+    <castItem>
+     <role>Count de Dreux</role>
+    </castItem>
+    <castItem>
+     <role>Montjoie, Herald of France</role>
+    </castItem>
+    <castItem>
+     <role>Toison d'Or, Herald of Burgundy</role>
+    </castItem>
+    <castItem>
+     <role>Marie, Daughter of Philip de Commine</role>
+    </castItem>
+    <castItem>
+     <role>Marthe, A Peasant</role>
+    </castItem>
+    <castItem>
+     <role>French and Burgundian Lords, Guards, Priests, Pages, Courtiers, Citizens,
+                        Peasants, Etc.</role>
+    </castItem>
+   </castList>
+  </front>
+  <body>
+   <div type="act" n="1">
+    <head>ACT I.</head>
+    <stage>Exterior of the castle, Plessis-les-Tours. Tristan enters with the prevotal
+                    guard. Richard enters from hut.</stage>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>Thy name?</l>
+     </lg>
+    </sp>
+    <sp who="#richard_peasant">
+     <speaker>Rich.</speaker>
+     <lg>
+      <l>Richard, the swineherd.</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>Thy dwelling?</l>
+     </lg>
+    </sp>
+    <sp who="#richard_peasant">
+     <speaker>Rich.</speaker>
+     <lg>
+      <l>There.</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>The King forbids all egress at this hour.</l>
+     </lg>
+    </sp>
+    <sp who="#richard_peasant">
+     <speaker>Rich.</speaker>
+     <lg>
+      <l>Death is beneath my roof. I seek a priest </l>
+      <l>To thrive a fleeting soul.</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>Back to thy kennel! </l>
+      <l>Or else thy carrion swings on yonder oak </l>
+      <l>To mark the wakeful justice of the King.</l>
+     </lg>
+    </sp>
+    <sp who="#richard_peasant">
+     <speaker>Rich.</speaker>
+     <lg>
+      <l>My son—</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>Obey!</l>
+     </lg>
+    </sp>
+    <sp who="#richard_peasant">
+     <speaker>Rich.</speaker>
+     <lg>
+      <l>—is dying.</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>Darest thou prate to Tristan?</l>
+     </lg>
+    </sp>
+    <sp who="#richard_peasant">
+     <speaker>Rich.</speaker>
+     <lg>
+      <l>Tristan! Heaven preserve the King! </l>
+     </lg>
+     <stage>[Exit. Enter Cranford with Scottish Guard]</stage>
+    </sp>
+    <sp who="#cranford">
+     <speaker>Officer.</speaker>
+     <lg>
+      <l>Halt! Who goes there?</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>The Grand Provost.</l>
+     </lg>
+    </sp>
+    <sp who="#cranford">
+     <speaker>Officer.</speaker>
+     <lg>
+      <l>The countersign!</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>Faithful!</l>
+     </lg>
+    </sp>
+    <sp who="#cranford">
+     <speaker>Officer.</speaker>
+     <lg>
+      <l>France! </l>
+     </lg>
+     <stage>[Exeunt. Enter Philip de Commine]</stage>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>The day shows faint and sickly in the east. </l>
+      <l>Welcome, my only hour of calm repose, </l>
+      <l>Robb'd from the body's rest to rest the mind. </l>
+      <l>Hark, 'tis the watch-cry of the Scottish soldier </l>
+      <l>Hired to defend yon Tours, and guard the life </l>
+      <l>Of Louis, King of France. Château de Plessis— </l>
+      <l>Tomb of a living King! Thy watch and ward, </l>
+      <l>Thy lofty ramparts and thy deepest fosse </l>
+      <l>Will never scare th'assassin who now seeks </l>
+      <l>The life of Louis. Yet a few poor days </l>
+      <l>He may dispute with death, and then—</l>
+     </lg>
+     <stage>[Enter Coitier and Richard]</stage>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>Fear not; </l>
+      <l>He sleeps. The danger now is past; he yet </l>
+      <l>May live. </l>
+     </lg>
+     <stage>[Exit Richard]</stage>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Coitier!</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>Commine!</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Dare you thus </l>
+      <l>Neglect your duty to the King?</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>The King—the King— </l>
+      <l>Always the King!</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>His life from day to day hangs on your skill.</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>My skill were well bestowed elsewhere.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Somewhat has angered you.</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>Smother wanton crime. This swineherd's son </l>
+      <l>Was wounded nigh to death last night. Forsooth </l>
+      <l>He dared to linger near the castle walls </l>
+      <l>Gaping in wonder at the gloomy pile. </l>
+      <l>A Scottish archer from the battlement </l>
+      <l>Transfixed him with an arrow.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Louis of this is innocent.</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>The King who tolerates a crime commits it.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Thou art the only man who dares thus chafe him— </l>
+      <l>But haste thee in—already he has waked </l>
+      <l>And calls for Coitier.</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>Let him call and bawl, </l>
+      <l>And when he's tired he'll wait, 'tis well he should, </l>
+      <l>Patience is a medicine he must gulp, </l>
+      <l>'Twill soothe his choler. Thus I can repay </l>
+      <l>The sufferings he heaps on me. He hates me, </l>
+      <l>Taunts me with lack of skill, and mocks my art— </l>
+      <l>That's when he's well—but when from fever'd sleep </l>
+      <l>By some avenging spectre he is chased, </l>
+      <l>To me he cries for help. Coitier must wake; </l>
+      <l>To Coitier is exposed his ulcered soul, </l>
+      <l>Creeping with terrors and alive with crime. </l>
+      <l>'Tis then my turn to taunt, to jeer and mock! </l>
+      <l>We change our parts; the tyrant I become, </l>
+      <l>And he, the abject slave.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Thou art too hard </l>
+      <l>Upon a dying man.</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>'Tis true he dies. </l>
+      <l>But like a snake with all the venom quick </l>
+      <l>And ready in his tooth, to the last pulse </l>
+      <l>There's a murder in him.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Why, then, toil </l>
+      <l>With all thy art to keep such crime alive?</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>My mission is to heal, and not to judge.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Does not his abject fear of death move you </l>
+      <l>To pity?</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>Dost thou ask me </l>
+      <l>For pity for the murderer of Nemours?</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Nemours was guilty—</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>'Tis false! His only guilt </l>
+      <l>Was his offensive goodness. Louis could bear </l>
+      <l>No virtue save in a priest. Beneath his roof </l>
+      <l>I passed my youth where I was born a serf. </l>
+      <l>Nemours first lifted my intelligence, </l>
+      <l>And bade me think. Sustained by him with hope </l>
+      <l>I struggled on, and by his help became </l>
+      <l>The wonder of the time. Nemours built up </l>
+      <l>My fortune—yet when his own ebb'd fast, </l>
+      <l>When he and his three children lay immured </l>
+      <l>In the Bastille, Louis denied my prayer. </l>
+      <l>Nemours, my master, benefactor, friend, </l>
+      <l>Fell by the tyrant's axe. One child alone </l>
+      <l>Was saved; aided by thee he was conveyed </l>
+      <l>And hid away.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Coitier—</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>I say by thee.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>In Heaven's name speak lower!</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>Then why say Nemours was guilty?</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Be more just to me. </l>
+      <l>I loved Nemours; and when he fell, did I </l>
+      <l>Mourn idly? No! I sounded anxiously </l>
+      <l>The King's intent, and found his thirst for blood </l>
+      <l>Unslaked. The children of Nemours still lived; </l>
+      <l>I roused them from their grief and bade them fly. </l>
+      <l>The eldest only would be warned in time, </l>
+      <l>And sought the shelter I had found </l>
+      <l>For him with Charles of Burgundy.</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>A welcome guest. </l>
+      <l>If Charles the Bold should need an instrument </l>
+      <l>Of cold, determined steel, there is the weapon, </l>
+      <l>Steeped in the hideous poison of revenge, </l>
+      <l>And hungry for the heart of Louis.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Such </l>
+      <l>Was the Duke's design, but foiled ere ripe. </l>
+      <l>My daughter Marie, then a child, was lodged </l>
+      <l>Beneath the roof where I had placed Nemours; </l>
+      <l>She was the sole companion of his exile. </l>
+      <l>They grew to love; their union is agreed </l>
+      <l>When Heaven shall bring back brighter days to France.</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>You mean, when he is gone.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Who?</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>He!</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Beware! </l>
+      <l>I hear footsteps.</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>'Tis Marie.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>My child! </l>
+      <l>No more, she might betray us.</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>How! Dost fear her?</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Not so—but hush, she comes.</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>By Heaven, he has suspicions </l>
+      <l>Of his own child. </l>
+     </lg>
+     <stage>[Enter Marie]</stage>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>Ah! my father—good morning, sir. </l>
+      <l>How fares the King?</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>He is in his hour </l>
+      <l>Of excellence—his only gentle mood. </l>
+      <l>He sleeps. But whence that glow upon your cheek?</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>The King last night bade me and Bertha rise </l>
+      <l>Before the dawn and ride across the wood </l>
+      <l>To watch the coming of the holy man, </l>
+      <l>François de Paule, and quick to bring the news </l>
+      <l>When from the distant spires the pealing chimes </l>
+      <l>Rang out a joyful welcome—and each town, </l>
+      <l>Village, castle and hut poured forth its life </l>
+      <l>To greet the hermit.</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>You have seen him, then, </l>
+      <l>This anchorite, this miracle performer? </l>
+      <l>Who by his intercession is to heal </l>
+      <l>The ills of mind and body, and restore </l>
+      <l>The King to youth and health?</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>Dare you to doubt </l>
+      <l>His power? Have you not heard his wond'rous deeds?</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>Oh, yes, </l>
+      <l>I have heard.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>Yet what simplicity! </l>
+      <l>No sacerdotal pomp—no purple robe </l>
+      <l>To command the homage of the eye; no crook </l>
+      <l>Of gold he wields; no jewelled mitre gleams </l>
+      <l>Upon his head; but neatly clad, not rudely; </l>
+      <l>Modest, not vainly humble. </l>
+      <l>A simple staff supports his aged limbs, </l>
+      <l>And as he sheds his blessings on the crowd, </l>
+      <l>His silvered brow is luminous with love </l>
+      <l>And seems to radiate benevolence.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Yesternoon the Dauphin left Plessis </l>
+      <l>To seek this hermit.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>They met François de Paule beyond Amboise; </l>
+      <l>The Dauphin straight dismounted, and his train </l>
+      <l>Walked by his side. The nobles laid apart </l>
+      <l>Their weapons, and, bareheaded, prayed his blessing. </l>
+      <l>Then high the people waved their fresh-hewn boughs </l>
+      <l>And chanted hymns of praise. The peasant girls </l>
+      <l>Strewed all the path with forest flowers; and thus </l>
+      <l>To Plessis comes François de Paule.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Thou shalt awake the King with this good news.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>A word, my father.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Go, Coitier, do thou </l>
+      <l>Announce these happy tidings to the King.</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>Good news from Coitier? He will ne'er believe it. </l>
+     </lg>
+     <stage>[Exit]</stage>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>He is gone. </l>
+      <l>Now tell me, Child, what happy secret </l>
+      <l>O'erflows your eyes and flutters on your cheek.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>Can you not guess?</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>News from Peronne!</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>The village </l>
+      <l>Of Plessis is thronged with knights who bear </l>
+      <l>The badge of Burgundy.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>It is the envoy of the Duke. He comes </l>
+      <l>Full-mouth'd with war. Louis has given aid </l>
+      <l>And succor to the revolted Swiss. Even now </l>
+      <l>A deputation from the Cantons here within </l>
+      <l>Craves audience. On the Burgundian border, too, </l>
+      <l>Brancas and Chabannes have by surprise </l>
+      <l>Seized on the frontier citadels. For this </l>
+      <l>Charles will demand most ample satisfaction. </l>
+      <l>Didst learn this envoy's name?</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>The Count de Rethel.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Rethel! I know there was an ancient house </l>
+      <l>Long since extinct who bore that name, Rethel. </l>
+      <l>Amongst the nobles of Peronne heard you </l>
+      <l>Of such a one?</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>Rethel? No!</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Strange!</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>I hoped </l>
+      <l>This envoy might be bearer of some news </l>
+      <l>From him.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Nemours?</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>Nemours! Who knows; ere now </l>
+      <l>He may have quite forgot Marie.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Nemours forget!</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>In childhood it was I who sought Nemours, </l>
+      <l>A cold, abstracted, silent youth, who fled </l>
+      <l>The commerce of the court, its plays, its jousts; </l>
+      <l>But did I speak </l>
+      <l>Of Louis, his hand would grip his dagger hard; </l>
+      <l>He gazed upon me, yet he knew me not. </l>
+      <l>I chased away the drops of agony </l>
+      <l>That beaded o'er his brow, but he felt not </l>
+      <l>The tears I left there.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Hush! Another year </l>
+      <l>Will give another king to France. </l>
+      <l>Nemours may then return.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>Oh, were the gentle Dauphin on the throne </l>
+      <l>He would not let me sue in vain. Nemours </l>
+      <l>Would be recalled.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Marie, I have observed </l>
+      <l>The Dauphin courts thy company.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>He does, </l>
+      <l>Poor youth.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>That youth one day will be a king.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>Must I for that avoid him when he comes </l>
+      <l>To seek me; implores my aid to read </l>
+      <l>The chronicles of France?</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Enough! Enough! </l>
+      <l>He is too old to learn from lips like thine, </l>
+      <l>And thou too young to teach a guileless task! </l>
+      <l>He loves thee.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>Father!</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Avoid his company! </l>
+      <l>Hark, they approach. </l>
+      <l>Come, let's in. </l>
+     </lg>
+     <stage>[Exit. Enter Peasants, François de Paule, Dauphin, Duke de Nemours,
+                        Nobles, Toison d'Or]</stage>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>Forbear, sweet Prince, and leave me here awhile </l>
+      <l>To rest from weary state.</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>Father, permit </l>
+      <l>That I precede thee to the King, who craves </l>
+      <l>Thy blessing. He will come forth, and to the dust </l>
+      <l>Abase himself before thy saintly presence. </l>
+      <l>My lords, attend me! </l>
+     </lg>
+     <stage>[Exit]</stage>
+    </sp>
+    <sp who="#female">
+     <speaker>Female.</speaker>
+     <lg>
+      <l>Father, pity my child; he's sick to death, </l>
+      <l>And 'tis my only one.</l>
+     </lg>
+    </sp>
+    <sp who="#marcel_peasant">
+     <speaker>Marc.</speaker>
+     <lg>
+      <l>Reason has fled </l>
+      <l>My mother's brain; restore it ere she die </l>
+      <l>That she may bless me.</l>
+     </lg>
+    </sp>
+    <sp who="#richard_peasant">
+     <speaker>Rich.</speaker>
+     <lg>
+      <l>Enter my hut; </l>
+      <l>Look on my dying son, and he will live.</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>Arise, my children, from your knees. 'Tis thus </l>
+      <l>Heaven only should be sought. Why look on me? </l>
+      <l>I am a man most feeble and infirm, </l>
+      <l>Bow'd down with age. Judge then, had I the powers </l>
+      <l>You claim of me, should I be thus?</l>
+     </lg>
+    </sp>
+    <sp who="#richard_peasant">
+     <speaker>Rich.</speaker>
+     <lg>
+      <l>Had I been noble, </l>
+      <l>He had healed my son.</l>
+     </lg>
+    </sp>
+    <sp who="#marcel_peasant">
+     <speaker>Marc.</speaker>
+     <lg>
+      <l>But what are we?—Are we </l>
+      <l>Deserving of a miracle?</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>We are alone, my son— </l>
+      <l>Alone with Heaven— </l>
+      <l>For Heaven is with thee, my father.</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>As with all </l>
+      <l>Who put their trust therein.</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Beseech its mercy </l>
+      <l>For one whose hours are numbered.</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>Not for thine— </l>
+      <l>No, thou art young; thy cup of life is full.</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Ay, full of blood, held by my father's spectre </l>
+      <l>To my lips, and as I quaff, 'tis filled and filled </l>
+      <l>From my murdered brother's gaping wounds.</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>What would'st thou do?</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>What is thy mission here?</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>To comfort and console. </l>
+      <l>What thine?</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>To bear the vials of Heaven's wrath. Hard on the priest </l>
+      <l>Cometh the headsman.</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>These words are wild, my son. </l>
+      <l>What ill design do they import? Reflect— </l>
+      <l>Pause!</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Bless me, my father.</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>Willingly, my son. Thou hast my blessing. </l>
+      <l>But what shall it avail thee if thy heart </l>
+      <l>Meditates evil? If thy thoughts are pure, </l>
+      <l>Mercy will better plead for thee above </l>
+      <l>Than my poor words. Yet I do bless thee. </l>
+      <l>Fare thee well! May Heaven be thy guide. </l>
+     </lg>
+     <stage>[Exit]</stage>
+    </sp>
+   </div>
+   <div type="act" n="2">
+    <head>ACT II.</head>
+    <stage>The Throne Room in the castle. Marie discovered. Enter the Dauphin.</stage>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>Marie!</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>Your highness! </l>
+     </lg>
+     <stage>[Rises]</stage>
+     <lg>
+      <l> Pardon; I saw you not.</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>And now you see me, does the sight repel </l>
+      <l>And drive you from me?</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>Ah, your highness, </l>
+      <l>My service is commanded by the King.</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>Stay!</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>'Tis late. Indeed I must—</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>Remain, </l>
+      <l>Marie, I pray you. I—command.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>Your highness, </l>
+      <l>I obey.</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>No, no, forgive me, Marie, </l>
+      <l>You have my leave to go—yet do not go. </l>
+      <l>Do as thou wilt—ay, leave me.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>In disgrace?</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>There is a saying, “Happy as a king.” </l>
+      <l>There might be one, “As wretched as a prince.”</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>You wretched!</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>Ay. My father hates me.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>Hush!</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>Far from his thought or care, my childhood passed </l>
+      <l>Within the gloomy walls of Amboise. There </l>
+      <l>I grew as the wild flowers grew—unheeded, </l>
+      <l>My only lesson was to fear the King, </l>
+      <l>And tremble at his name.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>All his love and care </l>
+      <l>Lie in his kingdom.</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>Oh, that my kingdom were </l>
+      <l>Some little, unregarded isle, and thou </l>
+      <l>My only subject.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>'Tis time I should begone.</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>Stay! Goes the King forth today?</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>He does.</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>To hunt? Well, I will ride beside thee.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>No.</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>What then?</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>A pilgrimage.</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>A pilgrimage? What for?</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>My lord—</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>I mean, to whom? Whither?</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>The King </l>
+      <l>Today will seek the village shrine hard by, </l>
+      <l>The Chapel of St. Martin in the Woods, and there </l>
+      <l>Will pass the vesper hour in prayer.</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>I wish </l>
+      <l>Thou wert a saint, then I would be devout. </l>
+      <l>My father wears his saints about his cap, </l>
+      <l>But I would wear thee in my heart.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>I must </l>
+      <l>Begone.</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>Stay yet—come hither—see what I have here.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>A book!</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>And full of pictures. Look! </l>
+      <l>Knights, combats, and great feats of arms!</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>I tremble did the King suspect. How came </l>
+      <l>You by it?</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>I stole it from my uncle, Orleans. </l>
+      <l>Come, let us read it.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>No!</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>Why not?</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>I fear. </l>
+      <l>You know the King forbids that you shall read </l>
+      <l>From any book but that which he himself </l>
+      <l>Has writ for your instruction.</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>Yes, I know, </l>
+      <l>But his book is so stupid.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>Hush! A king </l>
+      <l>Is never stupid. What is your book about?</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>That you shall teach me. Come, sit here, and so </l>
+      <l>Now if I mistake, correct me. </l>
+     </lg>
+     <stage>[Reads]</stage>
+     <lg>
+      <l> “The Chronicles of France, written in the year </l>
+      <l>Of Grace—” There come figures. I will </l>
+      <l>Skip the figures.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>For certain reasons.</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>“Wherein there is recited all the feats of </l>
+      <l>Arms of those most noble knights, Dunois, Lahire, </l>
+      <l>And—and— </l>
+      <l>Lahire, and—and—Du—du—Du—guess—”</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>Dugueschin!</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>Oh, what a hard word.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>Ay, but a great name.</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>“And how the Realm of France, </l>
+      <l>Being oppressed, was saved by </l>
+      <l>The great prowess of a shepherd girl named </l>
+      <l>Joan of Arc.”</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>The Maid of Orleans!</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>I know of her, </l>
+      <l>And of another whom the late King loved, </l>
+      <l>Agnes Sorrel. I have often thought </l>
+      <l>That thou, Marie, shouldst resemble her.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>The mistress of a king.</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>She might have been </l>
+      <l>His Queen.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>I am too lowly born for that; </l>
+      <l>Too nobly, to be the toy of any man.</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>Then, when I am King </l>
+      <l>I can, alas, in nothing shew my love </l>
+      <l>For thee. Yet, take this ring.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>My lord—</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>Take it, </l>
+      <l>And come the day I may a service grant, </l>
+      <l>Claim it by token of this ring; and here </l>
+      <l>I pledge my knightly faith and royal word, </l>
+      <l>What title, lands, or grace soe'er.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>Even should I pray you to recall </l>
+      <l>An exile, and to grant him pardon?</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>Him! </l>
+      <l>Whom?</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>One who pines, afar from home and kin.</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>Ha! You love him.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>Ay.</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>You love him. Marie! </l>
+      <l>Give me back the ring.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>'Tis here, my lord.</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>No, retain it, it is thine. I did but jest. </l>
+      <l>You love this exile—it is well. You hold </l>
+      <l>His pardon, come what may. The Dauphin's word </l>
+      <l>Shall by the King be faithfully redeemed. </l>
+     </lg>
+     <stage>[Exit]</stage>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>The pardon of Nemours. </l>
+     </lg>
+     <stage>[Enter Commine]</stage>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>How now, Marie, </l>
+      <l>That name upon your lips.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>You bade me check </l>
+      <l>The Dauphin's suit.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>What have you done?</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>I have confessed my love and cast myself </l>
+      <l>Upon a prince's generosity.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Imprudent girl! The rashness of your heart </l>
+      <l>Will prove your lover's ruin.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>Father, list. </l>
+      <l>Go sit beside the King, and deal out law </l>
+      <l>To cure those ills that ail the commonweal, </l>
+      <l>For thou'rt a very crafty councillor. </l>
+      <l>But if thou wouldst preserve that high repute, </l>
+      <l>Leave love alone! Or should the question start, </l>
+      <l>Seek counsel of a fool and shut your eyes.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Away, and take thy folly with thee. Go! </l>
+     </lg>
+     <stage>[Exit Marie]</stage>
+     <lg>
+      <l>The Count of Rethel scarce arrived, demands </l>
+      <l>An instant audience. I am bid to sound </l>
+      <l>This proud Burgundian ere the council meet. </l>
+      <l>He must be bought—but how? That rests with me </l>
+      <l>What coin to offer—titles, gold, or laurels. </l>
+     </lg>
+     <stage>[Enter Officer]</stage>
+    </sp>
+    <sp who="#cranford">
+     <speaker>Officer.</speaker>
+     <lg>
+      <l>The Count de Rethel. </l>
+     </lg>
+     <stage>[Enter Nemours]</stage>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Nemours! Thou here, Nemours?</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Here then he lives; here in this naked tomb.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Hast thou forecast thy peril? Knowest </l>
+      <l>Thou the very echoes here are spies; the stones </l>
+      <l>Are traitors?</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Fitting palace for a king! </l>
+      <l>As I approached the walls, I saw the track </l>
+      <l>Of Tristan's gory footsteps. The very river </l>
+      <l>Blushed for its human burthen; each tree bent, </l>
+      <l>Shame bowed, with its unnatural quiet. The air </l>
+      <l>Is clogged with death.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>And yet you came.</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Confiding in your faith, your love. </l>
+      <l>The secret of my name is known to you, Marie, </l>
+      <l>And Coitier. Which of ye will betray me?</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>None, none!</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Think you the King will recognize in me </l>
+      <l>The child, who only once stood in his presence, </l>
+      <l>When I and my two brothers were thrust forth </l>
+      <l>Beneath the scaffold where our father fell?</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Why seek him now whose hand </l>
+      <l>Has crushed thy race? </l>
+      <l>The Duke did ill to send thee here, Nemours; </l>
+      <l>Another would have served his end as well.</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Louis had bribed another; but in me, </l>
+      <l>Charles in his wrongs, in hate, in person—all </l>
+      <l>Is represented. Like me, alone survivor </l>
+      <l>Of his house—like me too, by a murder left </l>
+      <l>An orphan without home or kin.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Nemours, who knows thy wrongs so well as I. </l>
+      <l>But is there no soft word that can disarm </l>
+      <l>Thy wrath? Marie—</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Marie!</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Listen, my son, </l>
+      <l>France is thy home, thy country; for her sake </l>
+      <l>Forget thy wrongs. Louis and Charles are foes, </l>
+      <l>But thou canst make them friends, and thus at once </l>
+      <l>Canst salve the country's wounds, and heal thine own. </l>
+      <l>Thy titles, lands and home will be restored; </l>
+      <l>The King will pardon and forget.</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Forget! </l>
+      <l>He will forget! What do I hear? Forget </l>
+      <l>That night of crime—the victim of the block— </l>
+      <l>Three children made to kneel beneath the scaffold, </l>
+      <l>Clothed all in white as if beneath a shrine, </l>
+      <l>Assisting at a joyous ceremony. Sudden, </l>
+      <l>The sound of footsteps came, and then a voice. </l>
+      <l>'Twas his, my father's; he was murmuring </l>
+      <l>A prayer he taught me. Then he spoke my name, </l>
+      <l>And those of my two brothers. “My poor children! </l>
+      <l>Heaven shield my helpless children.” Then he prayed </l>
+      <l>Again; and then, silence—no more. No more! </l>
+      <l>Stretching my arms towards him in the gloom, </l>
+      <l>As I would kiss him for his prayer, I felt </l>
+      <l>What seemed to be his tears, that drop by drop </l>
+      <l>Fell on my face. His tears! No, no! Those eyes </l>
+      <l>Could shed no more. They were no tears that fell.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Nemours!</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>'Twas blood! 'Twas blood! My father's blood! </l>
+      <l>Forget! He may, that king who watched the deed, </l>
+      <l>And saw the stream, which still flows here, let out </l>
+      <l>My father's life. He may forget; I never!</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Nemours, be calm; they come.</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Oh, fear me not. In presence of my foe thou'lt see </l>
+      <l>Who best can play the master. </l>
+     </lg>
+     <stage>[Exit]</stage>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Perdition seize the Duke. Why hath he sent </l>
+      <l>This frenzied youth to raise the foul fiend here? </l>
+      <l>How finely has my mission been achieved! </l>
+      <l>When Louis asks me what report I bring, </l>
+      <l>What shall I say? </l>
+     </lg>
+     <stage>[Enter an Officer]</stage>
+    </sp>
+    <sp who="#cranford">
+     <speaker>Officer.</speaker>
+     <lg>
+      <l>His majesty the King! </l>
+     </lg>
+     <stage>[Enter Louis, Oliver, Coitier, Tristan, Count de Dreux, Courtiers and
+                        Citizens]</stage>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Look to't, Sir Count, look to't. Let me but hear </l>
+      <l>A murmur from people, and my hand </l>
+      <l>Is on ye. My doubts confirmed, I send you straight </l>
+      <l>To Heaven for mercy. Therefore make you up </l>
+      <l>Betimes, the budget of your soul, d'ye hear? </l>
+      <l>As for your body, that I'll see to.</l>
+     </lg>
+    </sp>
+    <sp who="#count_de_dreux">
+     <speaker>Count.</speaker>
+     <lg>
+      <l>Sire, might I—</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Ay, ay! My people you'll depress, </l>
+      <l>Exacting more from them than I, their King. </l>
+      <l>My people and myself are one; the least of them </l>
+      <l>Is part of me; touch 'em, and you raise your hand </l>
+      <l>Against my royal person. This you have done.</l>
+     </lg>
+    </sp>
+    <sp who="#count_de_dreux">
+     <speaker>Count.</speaker>
+     <lg>
+      <l>Dread sire—</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>You have! I beg you beg from these, </l>
+      <l>My friends, good honest citizens of Tours, </l>
+      <l>Five hundred crowns for me—raised two thousand; </l>
+      <l>Robbing them and me—me most especially. </l>
+      <l>Why, look on me; upon this king you count at nought. </l>
+      <l>Am I dead? Ha! Or quick? Look, man, look up! </l>
+      <l>I'm not so near the grave as some may think. </l>
+      <l>You're paler, Count, than I. Why, by my faith, </l>
+      <l>You die first now. Have you an heir?</l>
+     </lg>
+    </sp>
+    <sp who="#count_de_dreux">
+     <speaker>Count. </speaker>
+     <stage>[To Coitier]</stage>
+     <lg>
+      <l>Save me—interpose—in mercy!</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>Ho, sire, come! Enough of this. You must not yield to anger; </l>
+      <l>'Tis hurtful.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>True! But I am well today; </l>
+      <l>I may indulge. The sight of that good Saint </l>
+      <l>François de Paule has quite refreshed my life.</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>Dismiss me then, and trust to him. But still </l>
+      <l>This useless rage and vengeful eye, methinks, </l>
+      <l>As little do become the Christian sire </l>
+      <l>As the invalid.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Coitier!</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>Oh, do not waste </l>
+      <l>Big words on me. You're wrong.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Coitier!</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>Yes, wrong, and I am right. </l>
+      <l>See now, why look </l>
+      <l>The mischief's done; your </l>
+      <l>Face is changed already.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Eh, what! Is't changed, indeed?</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>Ay, is't.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Well, then, I'll be more calm.</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>Oh, not on my account, go on. Suffer </l>
+      <l>And die. 'Tis your affair.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>There, there, now, Coitier.</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>You're the King.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Come, come.</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>Why, do then as you list, </l>
+      <l>But afterwards, don't come to me complaining.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>There, good Coitier, there, forgive me. So, </l>
+      <l>Look now, Sir Count, hark ye! What you have ta'en </l>
+      <l>From these good folk restore within three days, </l>
+      <l>For that's the price I put upon your head. </l>
+      <l>Which, if it suit you, well. If not, I'll take it; </l>
+      <l>But without anger—to which I am forbade </l>
+      <l>As being hurtful.</l>
+     </lg>
+    </sp>
+    <sp who="#count_de_dreux">
+     <speaker>Count.</speaker>
+     <lg>
+      <l>Sire, I submit.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>You hear? </l>
+      <l>How say ye, am I my people's champion? Ha! </l>
+      <l>Oliver, thou'lt see these fifteen hundred crowns </l>
+      <l>Repaid. 'Twas he denounced yon traitor from the start. </l>
+      <l>You'll freely give my faithful Oliver </l>
+      <l>Five hundred crowns—that is, if he accept.</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>Sire!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>He refuses.</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>No; I say your word is law.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>A thousand crowns remain. But there's </l>
+      <l>My faithful Coitier.</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>No! I'll none of it.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>He will. Press him. So, that's settled. </l>
+      <l>Now let's on to State affairs. </l>
+      <l>Speak, Oliver.</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>My liege, the deputation of the Swiss await.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Let 'em begone!</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>Unheard?</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Your majesty </l>
+      <l>Has recognized their rights, their liberties.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Their liberties! I hate the word, freedom. What next </l>
+      <l>Will they demand, these chamois hunters? Ha! </l>
+      <l>What is their country worth?</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>The Duke of Burgundy </l>
+      <l>Can tell. They make good head against his grace.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Let them begone. The Count de Rethel else </l>
+      <l>Would charge us with their entertainment. No! </l>
+      <l>You bear me witness, all, I bid them go </l>
+      <l>Unheard. </l>
+     </lg>
+     <stage>[Aside to Oliver]</stage>
+     <lg>
+      <l> Treat with them.</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>How?</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>You know—you know! </l>
+      <l>Give the least they'll take, and promise all </l>
+      <l>They ask.</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>Enough!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis. </speaker>
+     <stage>[Aloud]</stage>
+     <lg>
+      <l>Shall I take part with them </l>
+      <l>Against my cousin, Burgundy? Foster rebellion? </l>
+      <l>No! Let them have hospitality, no more, </l>
+      <l>And their good speed. </l>
+     </lg>
+     <stage>[To Oliver]</stage>
+     <lg>
+      <l> Ply 'em with wine, d'ye hear? </l>
+      <l>The Swiss drink hard; </l>
+      <l>You'll catch them in their cups.</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>Ne'er fear me, sire.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>How now, my good Commine! </l>
+      <l>Say, have you seen that envoy, ha?</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Ay, sire.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Well—well—eh?</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>I find him incorruptible.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Bah!</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>My liege—</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>I tell you, no.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>He's honest.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Then you confess </l>
+      <l>That you have bid too little. I must see to't. </l>
+      <l>Go—bring him here. We will receive him now.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>If I may venture to advise your majesty, </l>
+      <l>Avoid this audience.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Tut, man, go do my bidding. </l>
+     </lg>
+     <stage>[Exit Commine. Enter Marie]</stage>
+     <lg>
+      <l>Come hither, truant, let me sun myself </l>
+      <l>Beneath thy smiles. </l>
+      <l>How fares our saintly guest?</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>I scarce have left him, sire.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>The odor of his sanctity still clings to thee. </l>
+      <l>Tell me, what miracle has he performed already?</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>Not one, sire.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>No! He garners up his power </l>
+      <l>To let the fullness of it fall on me. </l>
+      <l>But hark! the Dauphin greets the envoy of the Duke. </l>
+      <l>They come. Leave us, sweet gossip, leave us.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>My liege, I would entreat your leave to stay.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Know you this Count de Rethel?</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>No.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Indeed! You must </l>
+      <l>Have seen him at the court of Burgundy? </l>
+      <l>Look where he comes.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>Ah!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Ha! How now?</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>'Tis he. </l>
+      <l>I leave you, sire. </l>
+     </lg>
+     <stage>[Aside]</stage>
+     <lg>
+      <l> It is Nemours!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>What's this? </l>
+      <l>She's troubled. Ha! I'll fathom this. Begone! </l>
+     </lg>
+     <stage>[Exit Marie. King ascends the throne]</stage>
+    </sp>
+    <sp who="#montjoie">
+     <speaker>Mont.</speaker>
+     <lg>
+      <l>The envoy of </l>
+      <l>The most high and mighty Prince Charles, Duke of Burgundy and Flanders, </l>
+      <l>Heralded by Toison d'Or, humbly entreats your majesty </l>
+      <l>To grant him audience.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Admit the Count. Tristan, be on your guard. </l>
+      <l>Close round me, gentlemen. </l>
+     </lg>
+     <stage>[Enter the Dauphin and Commine. Flourish]</stage>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Largesse to Toison d'Or. How now, Sir Count, </l>
+      <l>Our presence troubles you; you tremble and look pale.</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>If so, it is with anger, sire. The wrongs </l>
+      <l>That bear me here are ocean wide, and though </l>
+      <l>I fain would curb them, still you see they burst </l>
+      <l>And foam upon my face.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Out with them, then. </l>
+      <l>Let us hear them.</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Right speedily you shall. </l>
+      <l>Know then, that my most puissant lord, Duke Charles </l>
+      <l>Of Burgundy, first peer of France and sovereign prince—</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Enough, I know the states and vassals of my crown. </l>
+      <l>Pass to the facts.</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>To you, then, King of France, </l>
+      <l>His brother and ally, he sends me in his name </l>
+      <l>To charge thee with foul breach of faith and treaty.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Ha!</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>You have consorted with his foes, the Swiss, </l>
+      <l>Sending them secret aid; and even now </l>
+      <l>You entertain their chiefs within these walls.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>I have not seen 'em; bear me witness, all. </l>
+      <l>They are dismissed unheard. Now, sir, what more?</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>This much! Lords of Brancas and Chabannes </l>
+      <l>Have crossed our frontiers, and by treachery </l>
+      <l>Surprised and seized upon our citadels.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>If this be so, these lords must bear the blame; </l>
+      <l>'Twas done against my will.</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Give me a proof.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Agreed!</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Ay, sire, but prompt, and on the spot.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Well—well?</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Their punishment!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Sir Count, you ask too much. </l>
+      <l>Would this be fair? Should I condemn these lords </l>
+      <l>Unheard?</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Oh, sire, your ever-ready axe </l>
+      <l>Ere now has fall'n for less than this </l>
+      <l>On nobler heads than theirs.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Ay? Whose head?</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Heaven knows, </l>
+      <l>And when your hour of judgment comes, </l>
+      <l>He who condemns will shew it ye.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Your head is in my power.</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Why, take it, then, but first </l>
+      <l>Attend, for you shall hear my message out.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Ha! Charles the Bold is represented well. </l>
+      <l>He never merited that name till now! </l>
+      <l>How say ye, gentlemen? </l>
+      <l>Pursue, Sir Count, pursue.</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Hear me then, Louis of Valois, and you, </l>
+      <l>Most noble knights and lords of high estate. </l>
+      <l>Duke Charles, whose wrongs this paper doth set forth, </l>
+      <l>Demands and will have justice; or by me declares </l>
+      <l>The Lion Banner of great Burgundy, unloosed </l>
+      <l>For every duchy, barony and fief </l>
+      <l>He holds in vassalage from thee; he now </l>
+      <l>Casts off his fealty—Avenger of the past! </l>
+      <l>He doth invoke in aid that ghostly train </l>
+      <l>Of murdered peers whose blood anoints his cause. </l>
+      <l>Their champion, Charles the Bold of Burgundy, </l>
+      <l>As knight thine equal, and as prince thy foe, </l>
+      <l>In single combat will this quarrel try </l>
+      <l>With thee or thine. In proof, there lies his gage. </l>
+      <l>Lift it who dare.</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>That do I </l>
+      <l>For Valois and for France.</l>
+     </lg>
+    </sp>
+    <sp who="#villagers #marcel_peasant #didier_peasant #richard_peasant #marthe">
+     <speaker>All.</speaker>
+     <lg>
+      <l>I—I—sire!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Ha! </l>
+      <l>Well done, brave sirs, and he my son, the first </l>
+      <l>Amongst them all—so young—so brave. 'Tis well </l>
+      <l>He is a child of France.</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>My father—</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>So—so—enough! </l>
+      <l>Here, Toison d'Or, take back </l>
+      <l>This glove. </l>
+     </lg>
+     <stage>[To Nemours]</stage>
+     <lg>
+      <l>And thou, to whom in mercy </l>
+      <l>I restore it, thank my clemency </l>
+      <l>Which doth exceed thy madness. </l>
+      <l>But I esteem thy boldness as fidelity. </l>
+      <l>We will confer in council on this matter, </l>
+      <l>And, as Heaven guide us, we'll do right and justice. </l>
+      <l>Today, after our pious pilgrimage, </l>
+      <l>And in the presence of our saintly guest, François de Paule, </l>
+      <l>This treaty shall be canonized. </l>
+      <l>Till then I must resign my heart to prayer, </l>
+      <l>And in my own misdeeds ease thought off thine. </l>
+     </lg>
+     <stage>[Exit Nemours with escort]</stage>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Commine! Tristan!</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>You would not be advised.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>I like these angry folk, one sees them all </l>
+      <l>At once. This treaty must be signed.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>How, sire!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>That seems a grave mistake, eh, gossip, eh?</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Most grave, sire.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>When with pen and ink you make </l>
+      <l>An error, have I not seen you scratch it out?</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Ay, sire.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Ay, with a knife—go to, then, gossip— </l>
+      <l>If I make a blot, I'll use the knife, </l>
+      <l>But not till then. Marked you the Dauphin?</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Ay, I did, my liege.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>His royal blood o'erflowed.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>What princely valor!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Ay, he might prove dangerous </l>
+      <l>If he rebelled.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Oh, sire!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Ay, ay, I know. I know </l>
+      <l>How much a royal son can do against a king. I was </l>
+      <l>A dauphin once. </l>
+      <l>Tell me—ha! This Count de Rethel knows Marie?</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>My daughter, sire?</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Reply!</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>I know not, sire. </l>
+      <l>When she resided at the Court of Charles, </l>
+      <l>Amongst the noble youths who sought her, she—</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Distinguished him. </l>
+      <l>Speak man!</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Sire, I did hear, </l>
+      <l>To Marie's beauty—</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Ay, ay, ay!</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>He was not insensible.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>He loves. You know it, and you said </l>
+      <l>That he was incorruptible. Go, go, my good Commine, </l>
+      <l>Go! I'll know the truth from her. </l>
+     </lg>
+     <stage>[Exit Commine]</stage>
+     <lg>
+      <l>Tristan!</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>Ay.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Come hither.</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>I am here.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Nearer.</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>So.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Nearer.</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>Speak low; I'll listen with my eyes.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Well, gossip, ha! You heard this haughty vassal?</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>Ay.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>I pardoned him.</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>You said so—umph!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>And I did right.</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>The King can do no wrong.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>I sign this treaty, yet if Heaven decree </l>
+      <l>Some dire reverse to Charles—perhaps defeat—</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>And Heaven send it soon, that same decree.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>That's an unchristian wish—a wicked wish.</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>It is an honest one.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Still, if mishap </l>
+      <l>Befall the Duke, were it so well, d'ye think </l>
+      <l>This treaty should arrive in Burgundy?</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>The Count is in your power.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>How! Violate </l>
+      <l>His sacred office? No, let us respect </l>
+      <l>The laws of nations.</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>Oh!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>I can allow </l>
+      <l>Nothing to happen—here.</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>How then regain </l>
+      <l>The treaty if you let him go?</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Can't I </l>
+      <l>Provide him with a trusty escort?</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>Ay, you must. </l>
+      <l>To do him honor, protect him to the frontier.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Ay, gossip, as you say, </l>
+      <l>To do him honor.</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>Who will command the troop?</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>I thought of thee, eh?</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>Oh—of me! And how </l>
+      <l>Shall I compose it?</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>As thou wilt.</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>I see. Fellows I can trust.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Ay! So!</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>And numerous.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Double his band—to do him honor.</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>Good! It shall be done.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>And then, d'ye hear, who knows </l>
+      <l>When in some lonely wood— </l>
+      <l>Ha! What's that? The Angelus? </l>
+     </lg>
+     <stage>[Bell rings]</stage>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>Ay, sire.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Who knows, when in some lonely wood, </l>
+      <l>A cause of quarrel may arise?</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>It shall.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Your people, by his guards insulted.</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>Ay. I'll see it done.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>You will defend yourselves.</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>We will.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>And so, you may regain the treaty.</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>Ay, but then, the Count—</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>The Count? How dull you are.</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>Heh! Must I—</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Ah! you smile, old friend. </l>
+      <l>You understand me, then.</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>I comprehend.</l>
+     </lg>
+    </sp>
+   </div>
+   <div type="act" n="3">
+    <head>ACT III.</head>
+    <stage>An open spot in the wood near the castle, Plessis-les-Tours. A village fête.
+                    Music. Marcel, Didier, Richard and Villagers, Male and Female. Dancing groups
+                    about the stage.</stage>
+    <sp who="#marthe">
+     <speaker>Marthe. </speaker>
+     <stage>[C.]</stage>
+     <lg>
+      <l>Who knows how the King fares today?</l>
+     </lg>
+    </sp>
+    <sp who="#marcel_peasant">
+     <speaker>Marcel. </speaker>
+     <stage>[L.]</stage>
+     <lg>
+      <l>No worse—no better.</l>
+     </lg>
+    </sp>
+    <sp who="#marthe">
+     <speaker>Marthe.</speaker>
+     <lg>
+      <l>A King, it seems, is very long a-dying.</l>
+     </lg>
+    </sp>
+    <sp who="#marcel_peasant">
+     <speaker>Marcel.</speaker>
+     <lg>
+      <l>The place is such a good one.</l>
+     </lg>
+    </sp>
+    <sp who="#marthe">
+     <speaker>Marthe.</speaker>
+     <lg>
+      <l>Who can tell why Master Tristan bade us here? The chapel is </l>
+      <l>Prepared; the altar decked with flowers, and we have orders </l>
+      <l>To assemble here to sing and dance.</l>
+     </lg>
+    </sp>
+    <sp who="#didier_peasant">
+     <speaker>Didier.</speaker>
+     <lg>
+      <l>And be most joyful.</l>
+     </lg>
+    </sp>
+    <sp who="#marcel_peasant">
+     <speaker>Marcel.</speaker>
+     <lg>
+      <l>Ay, on pain of death.</l>
+     </lg>
+    </sp>
+    <sp who="#richard_peasant">
+     <speaker>Rich.</speaker>
+     <lg>
+      <l>Beware! I hear a footstep.</l>
+     </lg>
+    </sp>
+    <sp who="#didier_peasant">
+     <speaker>Didier.</speaker>
+     <lg>
+      <l>'Tis Master Oliver.</l>
+     </lg>
+    </sp>
+    <sp who="#marcel_peasant">
+     <speaker>Marcel.</speaker>
+     <lg>
+      <l>The Barber Minister. Quick, to your places! Strike music! </l>
+     </lg>
+     <stage>[They dance and sing. Enter Oliver]</stage>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>Good—this is well! Sing—dance—be happy!</l>
+     </lg>
+    </sp>
+    <sp who="#marcel_peasant">
+     <speaker>Marcel.</speaker>
+     <lg>
+      <l>You see, my lord, we can't be happier. </l>
+      <l>When once the Grand Provost said, “Be joyful,” we know there's </l>
+      <l>No excuse.</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>Well done. Proceed! Perhaps the King </l>
+      <l>May venture out amongst ye.</l>
+     </lg>
+    </sp>
+    <sp who="#didier_peasant">
+     <speaker>Didier.</speaker>
+     <lg>
+      <l>The King!</l>
+     </lg>
+    </sp>
+    <sp who="#richard_peasant">
+     <speaker>Rich.</speaker>
+     <lg>
+      <l>Here?</l>
+     </lg>
+    </sp>
+    <sp who="#marthe">
+     <speaker>Marthe.</speaker>
+     <lg>
+      <l>Amongst us?</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>Why not? Why do ye recoil?</l>
+     </lg>
+    </sp>
+    <sp who="#marcel_peasant">
+     <speaker>Marcel.</speaker>
+     <lg>
+      <l>'Tis the—the—joy—I feel when I hear his name. </l>
+      <l>I feel a—a—respect for him that makes my blood run cold.</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>When he comes, you will speak to him, but freely, gaily—</l>
+     </lg>
+    </sp>
+    <sp who="#marcel_peasant">
+     <speaker>Marcel.</speaker>
+     <lg>
+      <l>I speak—a—gaily? Noble sir, I am of a sad temper, </l>
+      <l>But here is Richard who sings an excellent song, let him speak.</l>
+     </lg>
+    </sp>
+    <sp who="#richard_peasant">
+     <speaker>Rich.</speaker>
+     <lg>
+      <l>No, you, Didier.</l>
+     </lg>
+    </sp>
+    <sp who="#didier_peasant">
+     <speaker>Didier.</speaker>
+     <lg>
+      <l>Me?</l>
+     </lg>
+    </sp>
+    <sp who="#marthe">
+     <speaker>Marthe.</speaker>
+     <lg>
+      <l>I'll do it. What am I to say?</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>Open your hearts, and tell him all you think.</l>
+     </lg>
+    </sp>
+    <sp who="#marthe">
+     <speaker>Marthe.</speaker>
+     <lg>
+      <l>I have it! I will let him know we hate his Scottish guard.</l>
+     </lg>
+    </sp>
+    <sp who="#villagers #marcel_peasant #didier_peasant #richard_peasant #marthe">
+     <speaker>All.</speaker>
+     <lg>
+      <l>Ay! Ay!</l>
+     </lg>
+    </sp>
+    <sp who="#didier_peasant">
+     <speaker>Didier.</speaker>
+     <lg>
+      <l>And how our crops are ravaged by his game.</l>
+     </lg>
+    </sp>
+    <sp who="#villagers #marcel_peasant #didier_peasant #richard_peasant #marthe">
+     <speaker>All.</speaker>
+     <lg>
+      <l>Ay! Ay!</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>How now? What insolence is this?</l>
+     </lg>
+    </sp>
+    <sp who="#marthe">
+     <speaker>Marthe.</speaker>
+     <lg>
+      <l>Pardon, sir, you bade us tell him all we think.</l>
+     </lg>
+    </sp>
+    <sp who="#marcel_peasant">
+     <speaker>Marcel.</speaker>
+     <lg>
+      <l>That's true! Tell us, sir, what is our opinion?</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>You love your king.</l>
+     </lg>
+    </sp>
+    <sp who="#marthe">
+     <speaker>Marthe.</speaker>
+     <lg>
+      <l>We'll think so.</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>Like a father.</l>
+     </lg>
+    </sp>
+    <sp who="#marcel_peasant">
+     <speaker>Marcel.</speaker>
+     <lg>
+      <l>I never thought of that till now.</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>Tell him so—speak frankly—raise his spirits with </l>
+      <l>Your rude and rustic merriment. Laugh loud, and if he jest—</l>
+     </lg>
+    </sp>
+    <sp who="#marcel_peasant">
+     <speaker>Marcel.</speaker>
+     <lg>
+      <l>Eh?</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>Reply in sort, and keep his humor up. </l>
+      <l>Hush! Here he comes.</l>
+     </lg>
+    </sp>
+    <sp who="#villagers #marcel_peasant #didier_peasant #richard_peasant #marthe">
+     <speaker>All.</speaker>
+     <lg>
+      <l>Where?</l>
+     </lg>
+    </sp>
+    <sp who="#marcel_peasant">
+     <speaker>Marcel.</speaker>
+     <lg>
+      <l>What? That old, decrepit man?</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>Decrepit! Fool, do you prize your head? </l>
+      <l>He is in excellent good health.</l>
+     </lg>
+    </sp>
+    <sp who="#marcel_peasant">
+     <speaker>Marcel.</speaker>
+     <lg>
+      <l>Yes, sir, I see now. So he is.</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>Sing, dolt!</l>
+     </lg>
+    </sp>
+    <sp who="#marcel_peasant">
+     <speaker>Marcel. </speaker>
+     <stage>[Sings rather trembling a line of the previous melody]</stage>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>Louder! Quick, be gay! Sing, all of ye, and dance. </l>
+      <l>It is the King! </l>
+     </lg>
+     <stage>[They do so. Louis enters, leaning on Tristan, and followed by Scottish
+                        archers who remain at back. Goes to back and sits. Oliver creeps over to
+                        him. The peasants gaze in terror]</stage>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>The sun is fierce today; the air is heavy; it weighs upon </l>
+      <l>Me, and yet the air of France used to be pure. Methinks the </l>
+      <l>Climate must have changed since I was young.</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>It has been so remarked, sire.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Ah Oliver.</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>Look, sire. These peasantry were happily </l>
+      <l>Engaged here as you came; join in their gaiety. </l>
+      <l>Speak to them. They do not </l>
+      <l>Recognize you.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>I will. I'll play the King incognito.</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>This noble lord would speak with you, come near.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Aha! Come hither, rosy face.</l>
+     </lg>
+    </sp>
+    <sp who="#marthe">
+     <speaker>Marthe.</speaker>
+     <lg>
+      <l>Please you, sir.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Bounty of nature! You deserve a prize for </l>
+      <l>Health. How came you by it?</l>
+     </lg>
+    </sp>
+    <sp who="#marthe">
+     <speaker>Marthe.</speaker>
+     <lg>
+      <l>How? Hi—hi—hi!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Ah! How?</l>
+     </lg>
+    </sp>
+    <sp who="#marthe">
+     <speaker>Marthe.</speaker>
+     <lg>
+      <l>It comes by stealth, I know not how, no more </l>
+      <l>Than why the grape grows. Perhaps it comes from heaven </l>
+      <l>By night, fattening the heart with happy dreams.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>But you have sorrows?</l>
+     </lg>
+    </sp>
+    <sp who="#marcel_peasant">
+     <speaker>Marcel.</speaker>
+     <lg>
+      <l>Why—ay. Life has its changing weathers, sir. All is </l>
+      <l>Not sunshine. But sorrows come like rain; they freshen up </l>
+      <l>A man. Sorrow's a good providence.</l>
+     </lg>
+    </sp>
+    <sp who="#marthe">
+     <speaker>Marthe.</speaker>
+     <lg>
+      <l>And a light heart flows over it. The hardest lot </l>
+      <l>Can always find some wretch to covet it.</l>
+     </lg>
+    </sp>
+    <sp who="#marcel_peasant">
+     <speaker>Marcel.</speaker>
+     <lg>
+      <l>There's cousin Mallard owes five quarters' rent. </l>
+      <l>That comforts me who only owe a half.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis. </speaker>
+     <stage>[To Oliver]</stage>
+     <lg>
+      <l>These wretches find a cause of happiness </l>
+      <l>In everything. But when disease arrives, and strikes ye down?</l>
+     </lg>
+    </sp>
+    <sp who="#marcel_peasant">
+     <speaker>Marcel.</speaker>
+     <lg>
+      <l>Ah, when our sheep have got the rot.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Nay, your own mortal sickness. When you behold </l>
+      <l>Your substance lavished upon doctors?</l>
+     </lg>
+    </sp>
+    <sp who="#marcel_peasant">
+     <speaker>Marcel.</speaker>
+     <lg>
+      <l>We're no such fools. Doctors, forsooth! </l>
+      <l>When I am sick, I draw a horn of wine, </l>
+      <l>And laugh at 'em. Who pays a doctor robs his son </l>
+      <l>And heir. When a man's due, death lays his hand </l>
+      <l>On him, and never asks a doctor's leave.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>You speak of death as if you feared it not.</l>
+     </lg>
+    </sp>
+    <sp who="#marcel_peasant">
+     <speaker>Marcel.</speaker>
+     <lg>
+      <l>I do believe death is not near so bad </l>
+      <l>As folks would make it. 'Tis a bad life that makes </l>
+      <l>Death so dreadful. When I behold a train </l>
+      <l>Of weeping mourners, and think that he they follow is </l>
+      <l>Preceded by a black account of crime, ill-gotten wealth, </l>
+      <l>Murders—</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Oh!</l>
+     </lg>
+    </sp>
+    <sp who="#marcel_peasant">
+     <speaker>Marcel.</speaker>
+     <lg>
+      <l>Then death alone has terrors. The bearers of the dead </l>
+      <l>Seem fiends.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Perdition!</l>
+     </lg>
+    </sp>
+    <sp who="#marcel_peasant">
+     <speaker>Marcel.</speaker>
+     <lg>
+      <l>Then fear I death. Yet why, I know not, for </l>
+      <l>I never wronged my neighbors, nor shed fellow creature's blood.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Begone!</l>
+     </lg>
+    </sp>
+    <sp who="#marcel_peasant">
+     <speaker>Marcel.</speaker>
+     <lg>
+      <l>What have I said?</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>Idiot!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Death—hell—eternal torture! Heaven pity, help me! </l>
+      <l>Hence! No, come answer me. Who bid thee, wretch, </l>
+      <l>To speak these words to me?</l>
+     </lg>
+    </sp>
+    <sp who="#marcel_peasant">
+     <speaker>Marcel.</speaker>
+     <lg>
+      <l>Nobody. Nobody.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Thou'rt paid to do it. Speak!</l>
+     </lg>
+    </sp>
+    <sp who="#marcel_peasant">
+     <speaker>Marcel.</speaker>
+     <lg>
+      <l>No, as I live.</l>
+     </lg>
+    </sp>
+    <sp who="#marthe">
+     <speaker>Marthe.</speaker>
+     <lg>
+      <l>Not he, sir, there's no harm in him. I'll warrant him— </l>
+      <l>He's but a fool.</l>
+     </lg>
+    </sp>
+    <sp who="#marcel_peasant">
+     <speaker>Marcel.</speaker>
+     <lg>
+      <l>A downright, well known fool, sir. Ask all the neighbors.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>I did but jest. He's your husband, then?</l>
+     </lg>
+    </sp>
+    <sp who="#marthe">
+     <speaker>Marthe.</speaker>
+     <lg>
+      <l>I would not ask a better.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Then you shall earn his pardon.</l>
+     </lg>
+    </sp>
+    <sp who="#marthe">
+     <speaker>Marthe.</speaker>
+     <lg>
+      <l>That will I. How?</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>He says he has no sorrow. I will provide him one. </l>
+      <l>He, he! Hark! With such a buxom air, those ruby lips </l>
+      <l>And sparkling eyes, you must have lovers in the village </l>
+      <l>On the sly. Name them!</l>
+     </lg>
+    </sp>
+    <sp who="#marthe">
+     <speaker>Marthe.</speaker>
+     <lg>
+      <l>Lovers, sir? Not I!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Take care; his pardon hangs on it.</l>
+     </lg>
+    </sp>
+    <sp who="#marcel_peasant">
+     <speaker>Marcel.</speaker>
+     <lg>
+      <l>Name them all, Marthe; as you love me, out with </l>
+      <l>Their names—I'm deaf!</l>
+     </lg>
+    </sp>
+    <sp who="#marthe">
+     <speaker>Marthe.</speaker>
+     <lg>
+      <l>Well, if I had a choice—</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Ay, ay?</l>
+     </lg>
+    </sp>
+    <sp who="#marthe">
+     <speaker>Marthe.</speaker>
+     <lg>
+      <l>Amongst the men I've seen, I'd choose—</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Who? Who?</l>
+     </lg>
+    </sp>
+    <sp who="#marthe">
+     <speaker>Marthe.</speaker>
+     <lg>
+      <l>You!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Me! He, he!</l>
+     </lg>
+    </sp>
+    <sp who="#marthe">
+     <speaker>Marthe.</speaker>
+     <lg>
+      <l>Be quiet.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Would you fear an old hunks like me?</l>
+     </lg>
+    </sp>
+    <sp who="#marthe">
+     <speaker>Marthe.</speaker>
+     <lg>
+      <l>Not so old neither; you've a sly look.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis. </speaker>
+     <stage>[Aside to Marthe]</stage>
+     <lg>
+      <l>Good, good!</l>
+     </lg>
+    </sp>
+    <sp who="#marthe">
+     <speaker>Marthe.</speaker>
+     <lg>
+      <l>A sturdy form.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>He, he!</l>
+     </lg>
+    </sp>
+    <sp who="#marthe">
+     <speaker>Marthe.</speaker>
+     <lg>
+      <l>A fool would be the maid would trust you.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>You think so?</l>
+     </lg>
+    </sp>
+    <sp who="#marthe">
+     <speaker>Marthe.</speaker>
+     <lg>
+      <l>I only wish our good old king had such an air, </l>
+      <l>And bore his years as well.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>What, what?</l>
+     </lg>
+    </sp>
+    <sp who="#marthe">
+     <speaker>Marthe.</speaker>
+     <lg>
+      <l>Then for his precious life we'd have no fear, </l>
+      <l>For you will live to see a hundred years.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>A hundred years! You love your king?</l>
+     </lg>
+    </sp>
+    <sp who="#marthe">
+     <speaker>Marthe.</speaker>
+     <lg>
+      <l>Love him? Ay, do we all. France has but one voice, </l>
+      <l>And you have heard it.</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>There, sir, you can't accuse them of flattery.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>A hundred years, that I shall live to see. </l>
+     </lg>
+     <stage>[Kisses her]</stage>
+     <lg>
+      <l>The King thus thanks you for your prophecy.</l>
+     </lg>
+    </sp>
+    <sp who="#marthe">
+     <speaker>Marthe.</speaker>
+     <lg>
+      <l>The King!</l>
+     </lg>
+    </sp>
+    <sp who="#villagers #marcel_peasant #didier_peasant #richard_peasant #marthe">
+     <speaker>All.</speaker>
+     <lg>
+      <l>Long live the King!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Good souls, good souls! For France and myself I thank ye. </l>
+      <l>Ah, I shall see a hundred years. For every year of that good </l>
+      <l>Wish, here is a crown. Take these jewels; take 'em all. </l>
+      <l>Go sing, dance, drink, pledge me good health—long life. Drink </l>
+      <l>To my hundred years!</l>
+     </lg>
+    </sp>
+    <sp who="#marcel_peasant">
+     <speaker>Marcel.</speaker>
+     <lg>
+      <l>I shall tell everyone the money I have received.</l>
+     </lg>
+    </sp>
+    <sp who="#marthe">
+     <speaker>Marthe.</speaker>
+     <lg>
+      <l>Yes, and I shall tell how I have received </l>
+      <l>Two kisses from the King.</l>
+     </lg>
+    </sp>
+    <sp who="#villagers #marcel_peasant #didier_peasant #richard_peasant #marthe">
+     <speaker>All.</speaker>
+     <lg>
+      <l>Long live the King! </l>
+     </lg>
+     <stage>[Shout and exit U. E. L. H.]</stage>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>'Tis sweet to be thus loved.</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>And when the avowal comes from hearts that know </l>
+      <l>Not how to feign.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>A hundred years! Did you mark, Oliver?</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>These common people predict with wondrous truth.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>You jest, gossip.</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>Not I.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Her words agree with my nativity. </l>
+      <l>My horoscope portends I shall outlive my foes. </l>
+      <l>Oh, life, life! Let me but live </l>
+      <l>To see these sores of France, these sovereign vassals </l>
+      <l>Levelled to the herd. Their lands, their crowns, </l>
+      <l>Their very pride I would escheat to swell </l>
+      <l>The royal power, till there should be in France </l>
+      <l>But one estate—the people. Ay, all people— </l>
+      <l>Except me!</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>Blessed hour!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Let me secure my cousin, Charles the Bold of Burgundy, </l>
+      <l>And in a good stout coffin see him cribbed, and then, my </l>
+      <l>Well beloved subjects, ye great dukes of Burgundy shall never </l>
+      <l>Chaffer with the knight of France for right or privilege. </l>
+      <l>But hush, he lives. Tell me, this Count of Rethel, has he </l>
+      <l>Seen Marie?</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>Not yet, sire.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>So. Bid him come hither. </l>
+     </lg>
+     <stage>[Shouts <said direct="true">“Long live the Dauphin!”</said>]</stage>
+     <lg>
+      <l>What shouts are these?</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>It is the Dauphin, sire. The people greet the Prince.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Their love is too profuse; it worries me. He is not yet </l>
+      <l>Their king. He comes—begone! </l>
+     </lg>
+     <stage>[Exit Oliver into the chapel. Enter the Dauphin]</stage>
+     <lg>
+      <l>How now, what mean these transports?</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>Sire, the people crowded on my path, invoking blessings on me. </l>
+      <l>I was moved to tears.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Tomorrow you return to Amboise.</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>So soon?</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>So, you would taste of popularity, </l>
+      <l>The people's breath! </l>
+      <l>'Tis a foul poison, Prince. </l>
+      <l>To win their voices, throw but a crown or two, and while they </l>
+      <l>Fight for 'em, they'll cry ye deaf. You deemed their shouts </l>
+      <l>Were hearty? Eh! 'Twas I who bade 'em do't. They had </l>
+      <l>Been paid for't.</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>How! 'Twas ordered?</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Ay; by me.</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>Oh, sire!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Now let this be a lesson, so—begone and meditate upon it.</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>What have I done?</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Thou? Nothing! What dared? What could you do?</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>Alas, not even please you, sire. And yet—</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>What?</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>I dare not. Sire—my liege—my father— </l>
+      <l>If you could grant me your love.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>How! What it seems that I do not love you, heh?</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>Oh, pardon, sire.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>I hate you? So! So! I am a savage, an inhuman father. This </l>
+      <l>Has been prompted; 'tis not of your thought. Who told you </l>
+      <l>This? Ha, 'twas your uncle, Orleans. Come, Charles, my son, </l>
+      <l>Tell me in confidence, who was it?</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>My uncle once did say that France sooner or later must </l>
+      <l>Own me for its master.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis. </speaker>
+     <stage>[Aside]</stage>
+     <lg>
+      <l>Ah, the traitor! And said he not that old and sick </l>
+      <l>I must ere long—I—Ha! 'tis false! And then he said the </l>
+      <l>Crown was well-nigh in your grasp.</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>Oh, sire.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>'Tis false again! Does its weight make me bow? I tell ye, </l>
+      <l>Boy, another diadem, and yet a third heaped on this wrinkled </l>
+      <l>Front, would lighter sit than that same silken cap upon thy </l>
+      <l>Baby brow.</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>My father, live—live long; it is my only prayer—my hope </l>
+      <l>Beneath your sway, may France grow great, and if my days </l>
+      <l>Could serve to lengthen yours, I'd pray that Heaven may take </l>
+      <l>Me in my youth, and add my life to thine.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>My son, my son, this is weak. Begone! </l>
+     </lg>
+     <stage>[Dauphin exits]</stage>
+     <lg>
+      <l>That's a good son who still perhaps deceives his father. </l>
+     </lg>
+     <stage>[Enter Marie from chapel]</stage>
+     <lg>
+      <l>Ah, 'tis she. Come here, child. What brave attire! Thou </l>
+      <l>Never hast thy beauty thus enshrined for me.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>You bade us to a ceremony where I thought—</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>To meet some cavalier.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>I do not understand you, sire.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Your cheek does. Well, let's speak of something else. You </l>
+      <l>Shall be secret, yet if there be a thing I love, 'tis to make </l>
+      <l>Young lovers happy.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>You are a great king, sire.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Ay, I know some newly married folk that say as much. I hoped </l>
+      <l>I could have lent my aid to thee, but since you love not—</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>I, sire?</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Let us speak of something else.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>But—what then did you think?</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Come, sit you here. I thought that at the Court of Charles </l>
+      <l>Some brave and handsome cavalier—what more natural—had </l>
+      <l>Touched your heart. I saw him, as I thought, at your feet— </l>
+      <l>A noble youth—let's see, should he be noble?</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>Oh, yes, sire, noble and most unhappy.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>True! A count! And then I dreamt this swain, so lost in love </l>
+      <l>Was he, that in the guise of envoy came to see this fair.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>Oh, Heaven!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Nay, had arrived today, and even had my royal word obtained </l>
+      <l>To sign—</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>A treaty!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>And a marriage bond.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>And you—you, sire?</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Methought that I consented—but 'tis false. 'Tis all dreams.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>You know then, sire?</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Let's speak of something else.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>'Tis true! Oh, pardon—</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Ah, you have secrets from me. I will be revenged.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>Pardon—I ask it on my knees. Who had betrayed him?</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Who? Commine.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>My father! He has told you all, and you forgive?</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>I do.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>Nemours—</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis. </speaker>
+     <stage>[Aside]</stage>
+     <lg>
+      <l>Ah, 'tis Nemours!</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>Ah, give me leave, my liege, to fly to him and join my </l>
+      <l>Hopes to his; </l>
+      <l>To bless your royal name, and mingle prayers for your prosperity.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Not for his life. Hark, he believes himself unknown. Ha, ha! </l>
+      <l>Thy father and myself have planned a plot, see? I'm a traitor </l>
+      <l>For I let it out. Well, we have planned the moment and the </l>
+      <l>Place to lift the mask from this impostor's brow.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>Oh, sire!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>You know I love my jest. Come, then, and swear to me by all </l>
+      <l>Thy hopes of heaven and love, never this matter to divulge.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>I promise, sire.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Upon that silence rests thy lover's life, which I have sworn </l>
+      <l>To spare. Redeem thine oath, and I'll remember mine. </l>
+     </lg>
+     <stage>[Aside]</stage>
+     <lg>
+      <l>Nemours! And in my grasp! A word, a look and he is dead. </l>
+      <l>But what may then ensue? I'll think on't. Tristan! </l>
+     </lg>
+     <stage>[Tristan enters]</stage>
+     <lg>
+      <l>Adieu, dear child, adieu! </l>
+     </lg>
+     <stage>[Exit]</stage>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>Must I not speak? Oh, treason to my love. Must I then have </l>
+      <l>A joy which he has not? No, it will overflow, as now it does </l>
+      <l>At these rebellious eyes. Yet he will come. A word I sent </l>
+      <l>Him by my page will guide him hither. Ah, a footstep! </l>
+      <l>To its tread my heart keeps time. 'Tis he! </l>
+     </lg>
+     <stage>[Enter Nemours]</stage>
+     <lg>
+      <l>Nemours! Once more we meet, and, as I oft foretold we should, </l>
+      <l>Beneath our native sky.</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Look on me; let me not see beyond thine eyes, nor roam beyond </l>
+      <l>Thy heart. Speak to me, and let me hear thy voice.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>I have one theme, and that is all my language. Hope, Nemours; </l>
+      <l>I speak and bid thee hope. Thy fortune still is in the royal </l>
+      <l>Hand that plucked it from thee. By another word, the voice </l>
+      <l>That banished thee may bid thee back.</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>I see a meaning in your eyes, Marie, that overtakes thy tongue.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>I dare not tell thee more. Already I have said too much. </l>
+      <l>Hush! See! </l>
+     </lg>
+     <stage>[Procession advances from the chapel]</stage>
+     <lg>
+      <l>The chapel doors unclose; they come! Farewell! </l>
+     </lg>
+     <stage>[She separates from him. Enter the Burgundians. Nemours joins them. As
+                        Marie advances towards the chapel, Louis, François, Oliver, Tristan, the
+                        Cardinal, d'Alby, Craven, Commine, Priests and Courtiers appear on the
+                        steps. Louis holds the treaty in his hands]</stage>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>There ends unholy strife. Bear witness, Heaven, I do approve </l>
+      <l>And sign the bond of peace. The Count de Rethel hath his </l>
+      <l>Mission done with haughty menace, which I had avenged did I </l>
+      <l>Not hold my people's happiness above my pride.</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>He who can read the human heart doth know how much of it </l>
+      <l>Is on thy tongue. Not for myself I speak, but in </l>
+      <l>The name of him I serve. Duke Charles now holds </l>
+      <l>His wrongs atoned, and justice done.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>To Charles of Burgundy, my dear ally, before these holy symbols </l>
+      <l>And in sight of Heaven, I swear most solemnly this bond </l>
+      <l>To keep most unviol—</l>
+     </lg>
+     <stage>[Enter Dauphin hastily followed by Dunvis and de Lude]</stage>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>Hold! Oh, hold, my father!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>How now?</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>News, news, my liege, of moment. Pardon! There has arrived a </l>
+      <l>Despatch from Burgundy—a messenger who brings the tiding. </l>
+      <l>Charles, thy foe—</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>My foe! Charles, my brother—my ally!</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>Has been defeated.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>How? How say ye? Speak!</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>I say defeated—utterly undone—and lost!</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Charles—</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Art sure of this?</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>The lords of Loucy, Dunvis, and de Lude assure it true. </l>
+      <l>One of his captains did betray his cause.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Ah, the coward!</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>This is a false report, which soon a glowing triumph will belie. </l>
+      <l>Charles the Bold—</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>He's dead.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Dead? Dead? The proofs!</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>They are here. </l>
+     </lg>
+     <stage>[Hands Louis despatches]</stage>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Duke Charles defeated—dead. 'Tis false, and Count de Rethel </l>
+      <l>With my life maintains—</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>'Tis true—Duke of Nemours.</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin #monseigneur_de_lude #louis_xi">
+     <speaker>Dauphin and All.</speaker>
+     <lg>
+      <l>Nemours!</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Betrayed!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Ay! True it is—impossible. See you now, Heaven's vengeance </l>
+      <l>Has overtaken him, as sure as mine shall now find thee. </l>
+      <l>Secure him!</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem. </speaker>
+     <stage>[Drawing sword]</stage>
+     <lg>
+      <l>Death—treachery! A rescue! Burgundy!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis. </speaker>
+     <stage>[Retreating]</stage>
+     <lg>
+      <l>Upon them, France!</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>Hold, in Heaven's name, whose temple you profane.</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Put up your weapons, gentlemen, and yield. This is my cause </l>
+      <l>Alone. Alone I'll fall. If Charles still lives, the terror </l>
+      <l>Of his name will better aid me than your bravery. </l>
+      <l>If he be dead, alone I'll follow him. </l>
+     </lg>
+     <stage>[Casts sword at King's feet]</stage>
+     <lg>
+      <l>To meet thee, I had need like thee to feign. For my design, </l>
+      <l>I'll render an account above. Cast thou unto my father's </l>
+      <l>Murderers another prey, but there is one delight you cannot </l>
+      <l>Have—I have no son, no brother, no not even a friend whom </l>
+      <l>Thou canst force to kneel beneath my scaffold to receive the </l>
+      <l>Blood that thou wilt shed.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Tristan! Tonight, his judgment, and at daylight, the rest.</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>Have pity, sire; thou art a king.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Ay, as a King, my father, I might pardon, but I am </l>
+      <l>The Church's head; he hath insulted her, and to approach </l>
+      <l>Those sacred relics there with sacrilegious—Oh, I will </l>
+      <l>Avenge! Go, prepare his soul.</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>And thine, my son. Dost give no thought to that? </l>
+     </lg>
+     <stage>[Exit with his train]</stage>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Montjoie, St. Denis—ha! Demois, gather six hundred spears— </l>
+      <l>Ride for Peronne, to Arras, Baudrecourt with all the force </l>
+      <l>You can. Let Artois ere one month be France. Down upon </l>
+      <l>Flanders, you. Burgundy is ours! I give it ye as spoil. </l>
+      <l>Seize what and where you can, and rend the soil amongst ye. </l>
+      <l>Counties and fiefs—for all who win shall wear 'em. But hold! </l>
+      <l>Hold ye awhile! The noble duke has met a hero's fate. He </l>
+      <l>Was my foe, but all my wrongs are hid and buried in his tomb. </l>
+      <l>He was my cousin. The court will wear full mourning for a </l>
+      <l>Week.</l>
+     </lg>
+    </sp>
+   </div>
+   <div type="act" n="4">
+    <head>ACT IV.</head>
+    <stage>The King's bedchamber. Enter Coitier followed by Nemours.</stage>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>Come in, my son, thou art in safety here.</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Good Coitier.</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>Look on me, Nemours, and let me trace </l>
+      <l>The features that I love upon thy face. </l>
+      <l>Methinks thy father smiles upon me now.</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>The likeness ends not there—the same dire fate </l>
+      <l>Awaits his son.</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>By Heaven, it shall not be. I'll guard thy life; </l>
+      <l>Ay, with my own. Fear not this toothless wolf.</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Yet I am caged—these bars—this gloomy cell. </l>
+      <l>It is a prison still.</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>'Tis the King's bedchamber.</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>This?</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>This. Behold yon relics! See how they are worn by his </l>
+      <l>Impassioned kisses—A poignard—he dares not touch, </l>
+      <l>Yet fain would always have beside him. There </l>
+      <l>His bed, where he would hide in vain his terrors.</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Why have you brought me here?</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>The King desires to speak to you.</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Alone?</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>He dares not. No, he'll come surrounded by his </l>
+      <l>Myrmidons.</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>What would he with me?</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>Thou art beloved by all the chiefs and citizens </l>
+      <l>Of Burgundy; the idol of the soldiers; thy </l>
+      <l>Friends command in all the citadels. I told </l>
+      <l>The King that on thy bidding, Artois would submit </l>
+      <l>And Flanders yield a bloodless victory.</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Thou said'st so, Coitier?</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>The remedy's extreme, I own it, but thy peril—</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>How! Betray—despoil my benefactor, Charles? </l>
+      <l>For whom? the headsman of my race? No! Never! It </l>
+      <l>Were a murder of my father's memory, a burial </l>
+      <l>Of his wrongs alive.</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>Nemours, thou art resolved?</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>To die, if't must be so.</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>Behold this dungeon! 'Tis the sole retreat </l>
+      <l>Where I am master. When I bound myself </l>
+      <l>The tyrant's slave, not all his wealth could buy </l>
+      <l>My ministry, had he not yielded me my liberty </l>
+      <l>And right of free egress. See! See! This key opens </l>
+      <l>The postern gate. Take it. It was my freedom, </l>
+      <l>Now 'tis thine.</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>But then—his vengeance!</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>Tut—he suffers.</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>His rage when my escape is known!</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>He suffers. </l>
+      <l>Fear not, I know him well. Away! Stay! </l>
+      <l>Take this dagger—descend the spiral stair, </l>
+      <l>A vaulted passage leads to the moat— </l>
+      <l>Then a few steps—a door that key provides </l>
+      <l>For—then the open fields, the wide free heaven </l>
+      <l>And liberty, Nemours.</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Give me the dagger.</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>There! Now, go! Begone! I hear a step! It is </l>
+      <l>The King. Away! I fly to meet him. Speed! </l>
+      <l>Speed, while I retard his coming. </l>
+     </lg>
+     <stage>[Exit]</stage>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>My liberty! No, Coitier, no! Thou hast bestowed a </l>
+      <l>Treasure still more priceless. Revenge! </l>
+     </lg>
+     <stage>[Conceals himself. Enter Louis, Commine, Marie, Tristan and Coitier]</stage>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>Believe me, sire, the air will do you good.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>No, no, 'tis cold; see how I quake. </l>
+     </lg>
+     <stage>[Aside]</stage>
+     <lg>
+      <l> Where is Nemours?</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>You are in pain, sire.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Ay, in every limb it leaves me no repose; the </l>
+      <l>Very air is like a serpent's tooth. Oh, endless, </l>
+      <l>Endless death! Nemours—what said he?</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>There, sire, warm your starved limbs.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Ah, ah, a fire!</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>Sit here. May it revive you, sire.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Why cannot thy young and glowing heart give </l>
+      <l>Heat and life to mine? Come, smile.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com. </speaker>
+     <stage>[Aside to Marie]</stage>
+     <lg>
+      <l>Courage, Marie; obey.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>Alas, I am unable. </l>
+     </lg>
+     <stage>[Weeps]</stage>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Tears! You sadden me. Go, or cease weeping. I can repair </l>
+      <l>The past—cure everything.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>And will you, sire?</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Ay, and I will. </l>
+     </lg>
+     <stage>[To Coitier]</stage>
+     <lg>
+      <l> Nemours—</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>Be bidden, sire, for once to bed.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Not yet. </l>
+     </lg>
+     <stage>[To Tristan]</stage>
+     <lg>
+      <l> Where is Nemours? Go bring him here.</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>You know he is no longer in my keeping.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>He is in thine. </l>
+     </lg>
+     <stage>[To Coitier]</stage>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>He was my due—judged and condemned. I love to finish </l>
+      <l>All that I begin.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>Ah, father!</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Hush!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>True, true! Thou, Coitier, hast him. Why is he not here?</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>Because he would not come.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>He would not?</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>No, he would have braved you.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Ay!</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>You would have killed him.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Well?</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>That crime, at least, I saved you. He is gone.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Gone!</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>Ay, escaped!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Aided by thee!</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>Your victim is beyond your rage. Pursuit were folly.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Wretch, thou darest say so, villain! </l>
+     </lg>
+     <stage>[To Tristan]</stage>
+     <lg>
+      <l> And </l>
+      <l>Thou, thy boasted vigilance and power he has evaded. </l>
+      <l>Oh, ye are traitors, all. Whither has he fled? Speak, </l>
+      <l>Dog! Away, away! Alive or dead, I'll have him.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>Oh, mercy, sire. Mercy for me, by whom he </l>
+      <l>Was betrayed. Oh, at your latest breath may Heaven </l>
+      <l>Deny your prayer for mercy if you now are deaf to mine.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis. </speaker>
+     <stage>[To Commine]</stage>
+     <lg>
+      <l>Take her away.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>Give me to death; spare, spare Nemours.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Away with her! For you, traitor, death. Tristan— </l>
+      <l>Tomorrow—death.</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>Why say tomorrow? Strike at once—today.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Away with him!</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>Farewell, we soon shall meet. </l>
+      <l>I'll give you just ten days to live.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Ah, villain, be it so; then I will die, I will; but still </l>
+      <l>I'll—I'll—</l>
+     </lg>
+     <stage>[To his suite]</stage>
+     <lg>
+      <l> Go! Begone! </l>
+     </lg>
+     <stage>[To Coitier]</stage>
+     <lg>
+      <l>Stay you. </l>
+     </lg>
+     <stage>[Exeunt all but Coitier]</stage>
+     <lg>
+      <l>Think not thou wilt escape thy fate. No—No—for thou </l>
+      <l>Shalt die in torment. Ay, thou shalt.</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>So you have said already, sire. Now do it.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Ay, I will. Ha! you think I prize your skill. </l>
+      <l>Ha! Ha! I laugh at it, your art! What has it done for me? </l>
+      <l>Go, cheat the herd with quackery. I'll do without ye, and </l>
+      <l>I'll live by my own will alone. I feel I can.</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>Excellent! Will try?</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Ay, thou traitor, ay! François de Paule can with a single </l>
+      <l>Word repair my life; his breath can give me youth.</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>He'd best make haste, then.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Ay, he can.</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>Of course—no doubt of it.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Oh, Coitier, ungrateful Coitier, have I deserved this of thee?</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>Why, look ye, sire, ungrateful I had been, had I not saved </l>
+      <l>My benefactor's child.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Your benefactor!</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>Ay! I owed his father all.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>What then, have I been scant? I give, and count not what I </l>
+      <l>Give. What gave this benefactor, then, to be so much preferred?</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>His love! What right have you to gratitude? Thank Heaven, </l>
+      <l>I owe you none. We give and take, and owe each other nought. </l>
+      <l>Come, sire let's be honest. You give from fear; I take from </l>
+      <l>Interest. I give my life, consume it, to prolong </l>
+      <l>Your days. I sell, you purchase. 'Tis a bargain. </l>
+      <l>You kings imagine all is bought with gold; you </l>
+      <l>Pay a courtier, and you buy a slave, but not a friend. </l>
+      <l>Oh, sire, there's but one price for him—that's love.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Then Coitier, I will love thee tenderly. Nay, I do love thee.</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>Ay, for thyself.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>No, as I live. I am in dreadful pain. See now, I do believe </l>
+      <l>This holy man may, if he will, restore me. Yet behold, I do </l>
+      <l>Forgive thee this that thou hast done. Ay, freely. </l>
+     </lg>
+     <stage>[Enter Oliver]</stage>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>Sire, François de Paule attends you. </l>
+     </lg>
+     <stage>[Enter François]</stage>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>See, my father, he has braved his king, yet I have pardoned him. </l>
+      <l>Go, Coitier, go rest thee awhile within. Dear friend, </l>
+      <l>Adieu. </l>
+     </lg>
+     <stage>[Exit Coitier]</stage>
+     <lg>
+      <l>Ah, traitor, come the day when I've no need of thee. We </l>
+      <l>Are alone.</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>What seek you with me?</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Let me unveil my heart.</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>Arise, my son.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Let me abase myself, my forehead in the dust, and kiss the </l>
+      <l>Print thy saintly feet have made.</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>Reserve thy kneeling for Him to whom alone we owe that homage. </l>
+      <l>Rise!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>So great the blessing I would ask, </l>
+      <l>I know not how to stoop too low for it.</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>What can I do?</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>All. I know your wondrous power. </l>
+      <l>Endowed by Heaven with gifts miraculous.</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>My son?</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Since at the peasant's prayer you pour the dews </l>
+      <l>Upon the parching earth, pour young red blood </l>
+      <l>Into my veins; refresh this arid heart. </l>
+      <l>Command this broken frame to knit its thews </l>
+      <l>And rise again invigorate with youth. </l>
+      <l>Stretch out your arms, and lift me up to health. </l>
+      <l>Touch these pale, livid features with your hand, </l>
+      <l>And smooth this wrinkled brow.</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>Blaspheme no more. </l>
+      <l>What am I?</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Ten years! </l>
+      <l>Oh, say ten years, my father; grant me that, </l>
+      <l>And I will load thee with my gratitude. </l>
+      <l>Hear me. I have precious saintly relics </l>
+      <l>Beyond all price. They shall be thine, and more </l>
+      <l>If I obtain these twenty years I spoke of. </l>
+      <l>I have power at Rome, and thou shalt find </l>
+      <l>A place 'mongst the saints. Amongst what, say I, </l>
+      <l>Above all. I'll lay a tax </l>
+      <l>Upon my faithful subjects; dedicate </l>
+      <l>A temple to thee. But for such expense </l>
+      <l>A score of years is surely not enough. </l>
+      <l>No, let me live on—life—life—ah, grant me that. </l>
+      <l>Prolong my life!</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>Can I cry halt to time? </l>
+      <l>Change at my will the laws of nature? King, </l>
+      <l>That life thou seekest, thou must have indeed, </l>
+      <l>But not on earth.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>I'm weary of that prate. </l>
+      <l>Won't do thine office? Exercise thy power, </l>
+      <l>Or I have means to make you. I am King! </l>
+      <l>Ah, no; pray pardon me; I know not what I say.</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>Thy mortal malady </l>
+      <l>Is but remorse. Repent.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>I will. Then shall I heal and live?</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>It may be so.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Then I repent, and will confess.</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>Sinner, who call'st me to this holy office, </l>
+      <l>Speak, speak, what hast thou done?</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>The King, my father, died; his ailment, it was said, </l>
+      <l>Was terror of the Dauphin.</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>A son abridge the old age of his father?</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>That Dauphin was myself.</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>You!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>The crown was tottering, and France was lost. </l>
+      <l>State reasons supersede the ties of nature. </l>
+      <l>I had no choice.</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>Thou wicked son, confess thy crimes, but </l>
+      <l>Seek not to excuse. Proceed!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>I had a brother.</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>Well?</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>He also died.</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>How?</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>By poison!</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>By thy command?</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>It was so suspected. Some did suspect so. </l>
+      <l>Would they who said it had fallen in my clutch!</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>'Tis not so, then?</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>I said not that.</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>Oh, Heaven! 'Tis true!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>But he deserved his fate.</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>Unutterable horror! Dost thou find </l>
+      <l>Excuses fast as crimes? Down to the dust! </l>
+      <l>Thou art no more a king. Down, on thy knees, </l>
+      <l>Thou fratricide!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Pardon—</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>Pour out thy leprous soul. </l>
+      <l>Repent, and cleanse thy heart.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>I do—I do! </l>
+      <l>See—on my knees—I do. I've yet a crime untold.</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>What! More?</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Nemours. He did conspire; </l>
+      <l>His guilt was proved, but still his death was crime. </l>
+      <l>I forced his sons to witness it, while from the scaffold </l>
+      <l>His life-blood fell on them.</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>Most barbarous!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>I confess. Yes, I have judged </l>
+      <l>With rigor.</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>Judged!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>No—no! </l>
+      <l>They are crimes—foul crimes! </l>
+      <l>The silent wave has been my executioner; </l>
+      <l>The earth, my jailer. Here beneath these walls </l>
+      <l>My captives groan, forgotten and unknown.</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>This crime can be atoned, thank Heaven for that. </l>
+      <l>Come!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Where?</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>To release these prisoners.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Stay—stay—you ask too much. </l>
+      <l>The Church has pardons which a king can buy.</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>Not so; they must be merited.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Then they are mine by right of misery. </l>
+      <l>Oh, could you look into my soul, my father, </l>
+      <l>My body's anguish is but half my pain; </l>
+      <l>The present is a terror, but the past— </l>
+      <l>Oh Heaven, I dare not turn and look on that! </l>
+      <l>My days are wretched, yet they bring relief, </l>
+      <l>And come to scare away my nights of terror. </l>
+      <l>The gloom takes forms to mock and gibe at me; </l>
+      <l>The silence whispers names I loathe and dread; </l>
+      <l>And when I sleep, a demon sits and broods </l>
+      <l>Upon my heart. I thrust him off, and then </l>
+      <l>A naked blade held in a viewless hand </l>
+      <l>Pierces my throat. I try to rise; my couch </l>
+      <l>Swims in a sea of blood, whose gory waves </l>
+      <l>Rise up to drown me. Such my daily life! </l>
+      <l>And quitting it, I thirst for more. To drain </l>
+      <l>This poison'd cup is all my fear. </l>
+      <l>To eke it out, my only hope.</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>One act of mercy will restore thy peace. </l>
+      <l>Free these, thy captives.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Tomorrow—I will think it out.</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>Death may come ere then—tonight—this instant.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Death! From whence? No, I am too well defended.</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>Adieu, then. Merciless thyself, how canst thou hope for mercy?</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Ah, you condemn me.</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>No, 'tis not my office. </l>
+      <l>But, oh, my son, wouldst thou release thyself? </l>
+      <l>Undo these prisoners' chains, and free thy soul. </l>
+      <l>Their curses drown thy prayers! Make them be still, </l>
+      <l>And thou'lt be heard in Heaven. Farewell! Farewell! </l>
+     </lg>
+     <stage>[Exit]</stage>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Father! He leaves me! Stay! I do consent! </l>
+      <l>I—No! That were but weakness! He is gone! </l>
+      <l>Oh, who will aid me now? </l>
+     </lg>
+     <stage>[Enter Nemours]</stage>
+     <lg>
+      <l>Sweet saint, I pray thee plead for me. Thou knowest </l>
+      <l>My heart is pitiless. A king must use the power he holds </l>
+      <l>From Heaven, or wrong his trust. In punishing </l>
+      <l>The guilty I would </l>
+      <l>Prove my right to thy protection. In return </l>
+      <l>I'll build thee </l>
+      <l>Churches; load thy shrines with gifts. </l>
+      <l>But let me gratify </l>
+      <l>My just revenge for thine especial honor, </l>
+      <l>And mine too.</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Silence!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Silence!</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Not a breath!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Not one.</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Thou art well defended.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Oh, Nemours!</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Who dares to risk his life is master, then, of thine.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>What would ye?</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Justice!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Oh, be merciful.</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>I am not thy judge.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Who, then?</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>My father!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>No! Thou—thou!</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>My father!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Thou, Nemours!</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>My father!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>He would kill me.</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Thou hast said it.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Hear! </l>
+      <l>Oh, hear me first!</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>As thou didst hear my father's dying prayer.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Nemours!</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>'Tis here! </l>
+      <l>Look on it now; he bore it on his breast, </l>
+      <l>When by thy fell command he suffered. </l>
+      <l>'Twas sent </l>
+      <l>By him to thee to melt thy heart to pity. </l>
+      <l>Thine answer wouldst thou see? 'Tis there—his blood! </l>
+      <l>Come, read! Read!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Mercy!</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Read, I say!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>I cannot.</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Beneath the fatal weapon he could write. </l>
+      <l>Read, as he wrote.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>No, no! I cannot! </l>
+      <l>That horrid steel distracts me—blinds my sense. </l>
+      <l>I cannot!</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Listen, then.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Oh, spare me! Pity me, Nemours!</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem. </speaker>
+     <stage>[Reads]</stage>
+     <lg>
+      <l>“My most merciful and gracious sovereign, </l>
+      <l>With all my humble heart I plead to your offended majesty </l>
+      <l>For pity and for pardon—”</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>I will restore thy title—thine estates, </l>
+      <l>Make expiation, full and humble. </l>
+      <l>I do repent. See, see, my tears? </l>
+      <l>Put me but to the proof.</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Listen. </l>
+     </lg>
+     <stage>[Reads]</stage>
+     <lg>
+      <l> “I will atone my sins and serve you </l>
+      <l>So well and faithfully that my repentance </l>
+      <l>Shall o'ertop my crimes. Oh, let my tears </l>
+      <l>Assuage your anger.”</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>My son, think of my child! Nemours, </l>
+      <l>Leave him not fatherless.</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem. </speaker>
+     <stage>[Reads]</stage>
+     <lg>
+      <l>“Yet not for me, but for my children's </l>
+      <l>Sake! Oh, for Heaven's charity, my liege, con- </l>
+      <l>Demn them not in me. For my transgression </l>
+      <l>Will they in dishonor live to beg their bread. </l>
+      <l>Oh, sire, have pity for my unoffending children.”</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>I will deliver to thee Tristan; </l>
+      <l>He it was who did the deed. Deal with him </l>
+      <l>As thou wilt.</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem. </speaker>
+     <stage>[Reads]</stage>
+     <lg>
+      <l>“May Heaven preserve your majesty, and </l>
+      <l>Imbue your heart with mercy for your </l>
+      <l>Childhood's loved companion.” </l>
+      <l>See! Murdered! See! Read! Read thyself!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>I cannot.</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>There!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis. </speaker>
+     <stage>[Reads]</stage>
+     <lg>
+      <l>“Your childhood's loved companion, Jacques </l>
+      <l>Of Armagnac.” </l>
+      <l>You weep, Nemours; let fall those tears on me. </l>
+      <l>Wash out my sins.</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Oh, thou shalt pay them dearly.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Nemours! Nemours!</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>What tortures can avenge me? where to find </l>
+      <l>A forfeit equal to his crimes?</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>He'll kill me!</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>Ah, there is but one.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>My death!</l>
+     </lg>
+    </sp>
+    <sp who="#duke_de_nemours">
+     <speaker>Nem.</speaker>
+     <lg>
+      <l>No, fiend, thy life! </l>
+      <l>I know thy anguish; I have heard thy woe. </l>
+      <l>Die on! Die slowly! Mass up crimes each hour. </l>
+      <l>Linger till death with lagging steps arrive </l>
+      <l>To seize thee still more guilty. Live in torment! </l>
+      <l>Heaven in its justice listens to thy prayer, </l>
+      <l>And grants thee life to double my revenge.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Help, Tristan! Help! the villain murders me! </l>
+      <l>Tristan! that dagger! Hew him down, I say. </l>
+     </lg>
+     <stage>[Tristan and guards rush on]</stage>
+     <lg>
+      <l>Tristan—the traitor's there—the door—pursue— </l>
+      <l>O'ertake the assassin—there!—search!—look!—the curtains </l>
+      <l>Behind the bed—that's where he hides! How, wretches, </l>
+      <l>Can ye not find him? He'll slay me in the midst! </l>
+      <l>Surround me!—close! No, traitors!—back away! </l>
+      <l>I fear ye all!—Ah, there's a shadow—there! </l>
+      <l>See, Tristan! Help, he's here again! He strikes! </l>
+      <l>His dagger's red with blood! Help! Tristan! Kill! </l>
+     </lg>
+     <stage>[Falls in convulsions]</stage>
+    </sp>
+   </div>
+   <div type="act" n="5">
+    <head>ACT V.</head>
+    <stage>Throne Room in the Castle. The stage is filled with courtiers.</stage>
+    <sp who="#monseigneur_de_lude">
+     <speaker>Lude.</speaker>
+     <lg>
+      <l>Is't true, my lord? They say that Coitier </l>
+      <l>Was an accomplice.</l>
+     </lg>
+    </sp>
+    <sp who="#lord">
+     <speaker>Lord.</speaker>
+     <lg>
+      <l>Ay!</l>
+     </lg>
+    </sp>
+    <sp who="#monseigneur_de_lude">
+     <speaker>Lude.</speaker>
+     <lg>
+      <l>Messire Tristan, </l>
+      <l>Can this be so? Nemours and Coitier?</l>
+     </lg>
+    </sp>
+    <sp who="#lord">
+     <speaker>Lord.</speaker>
+     <lg>
+      <l>Ay! </l>
+      <l>They are judged—to death; and when the King revives, </l>
+      <l>To sign their sentence, justice will be done.</l>
+     </lg>
+    </sp>
+    <sp who="#lord">
+     <speaker>Lord.</speaker>
+     <lg>
+      <l>The Parliament convoked, the peers assembled— </l>
+      <l>This looks like death. </l>
+     </lg>
+     <stage>[Enter Commine]</stage>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>A page, ho! Quick! </l>
+      <l>This to the Duke of Orleans—away! </l>
+      <l>This to the Lord of Beaujeu!</l>
+     </lg>
+    </sp>
+    <sp who="#monseigneur_de_lude">
+     <speaker>Lude.</speaker>
+     <lg>
+      <l>The Duke and Beaujeu! Then the King is in extremis.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>There is no hope.</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>See how they flock about the coming reign.</l>
+     </lg>
+    </sp>
+    <sp who="#monseigneur_de_lude">
+     <speaker>Lude.</speaker>
+     <lg>
+      <l>Be comforted, sweet Prince.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Think of Nemours. </l>
+      <l>Let your first act be one of mercy, sire.</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>Have I the power?</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Speak but one word to Tristan.</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>Be it so.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Tristan, you have heard. Nemours—</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>His highness needs but look to be obeyed.</l>
+     </lg>
+    </sp>
+    <sp who="#monseigneur_de_lude">
+     <speaker>Lude.</speaker>
+     <lg>
+      <l>See, here is the Cardinal. </l>
+     </lg>
+     <stage>[Enter Cardinal d'Alby]</stage>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>The King, my lord, the King?</l>
+     </lg>
+    </sp>
+    <sp who="#cardinal_d_alby">
+     <speaker>Card.</speaker>
+     <lg>
+      <l>Fast fleeting, Prince, inanimate. </l>
+      <l>Yet still, my lord, be comforted in this </l>
+      <l>That by his gifts and great beneficence, </l>
+      <l>The Church assures his life to come. Let us </l>
+      <l>All hope to make as Christian-like an end.</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>Then there is no longer hope?</l>
+     </lg>
+    </sp>
+    <sp who="#cardinal_d_alby">
+     <speaker>Card.</speaker>
+     <lg>
+      <l>Accept the throne; it is your burthen, sire, </l>
+      <l>Which we will help to bear.</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>And he will die </l>
+      <l>Without a word—a look.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>My lord, 'tis hard.</l>
+     </lg>
+    </sp>
+    <sp who="#monseigneur_de_lude">
+     <speaker>Lude.</speaker>
+     <lg>
+      <l>He is unnatural! He ever treated you </l>
+      <l>With cruelty.</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>Silence! He was my father. </l>
+      <l>That which he did seemed fit to him, and must </l>
+      <l>Seem so to me. </l>
+     </lg>
+     <stage>[Enter Oliver]</stage>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>My lords, our prayers are heard. </l>
+      <l>The King revives.</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>He lives!</l>
+     </lg>
+    </sp>
+    <sp who="#cardinal_d_alby">
+     <speaker>Card.</speaker>
+     <lg>
+      <l>Providence be praised.</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>There is no fear, his senses have returned. </l>
+      <l>There is great hope. He has desired this couch </l>
+      <l>To be prepared. Prince, he would be alone; </l>
+      <l>All must retire but Commine and Tristan.</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>But this affects not me; I am his son.</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>Alas, my lord; trust to my offices, </l>
+      <l>And he shall ask for you anon.</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>Accept my gratitude.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>And mine.</l>
+     </lg>
+    </sp>
+    <sp who="#monseigneur_de_lude">
+     <speaker>Lude.</speaker>
+     <lg>
+      <l>A king </l>
+      <l>Thus undecided if to die or not, </l>
+      <l>Compromises everybody now. </l>
+      <l>Who knows which way to turn? to whom to bow?</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>We are alone.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Well?</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>Will he live?</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>Of course, to them I said so, but 'tis doubtful </l>
+      <l>Still.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Speaks he of Nemours?</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>No, he forgets.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Come death—ere he remember.</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>His brain is gone. </l>
+      <l>Just now, why, nought would serve him but he must </l>
+      <l>Preside at council. On his haggard brow </l>
+      <l>I needs must place the crown, though with the weight </l>
+      <l>His wizened chin sunk upon his breast; </l>
+      <l>And o'er his ague-stricken form, he wears </l>
+      <l>The royal mantle. Then he will walk, forsooth, </l>
+      <l>But scarce has made one pace, when, breathless, helpless, </l>
+      <l>He sinks back, crying that he never felt so well. Faith, </l>
+      <l>He never felt so well! See, he comes.</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>Has such a phantom life? </l>
+     </lg>
+     <stage>[Enter Louis and an Officer]</stage>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>What men are those?</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>Commine. Tristan.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Think you I cannot see 'em? </l>
+      <l>One would suppose my eyes were failing me. </l>
+      <l>Good day, sirs. </l>
+      <l>Leave me, fellows; let go your hold. </l>
+      <l>Can I not stir without ye?</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>There, repose; rest you awhile, sire.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>I am not weary.</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>No.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>I am strong and capable.</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>Most capable.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Since you will have it so, </l>
+      <l>Why stands he there, </l>
+      <l>And gazes on me so? Does he find me changed?</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>I, sire? I never saw you look so hale.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>That's well. This room is spacious; there is air in't; </l>
+      <l>I can breathe. </l>
+     </lg>
+     <stage>[Dozes]</stage>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>He sleeps.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Remember, gentlemen, </l>
+      <l>He bade us once when his last moment came </l>
+      <l>To warn him.</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>Ay.</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>He might desire to make </l>
+      <l>Some last bequest to us.</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>In that case, we'll </l>
+      <l>Let him be told.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Tristan, art thou there?</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>Ay, sire.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Watch—guard me—guard!</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>Fear nought.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>He sleeps again.</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>Who will assume this office?</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>It must be done by one who can convey </l>
+      <l>The matter tenderly. </l>
+     </lg>
+     <stage>[To Oliver]</stage>
+     <lg>
+      <l>You are the man.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>The very man, indeed.</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>I would accept, but faith, I love him so </l>
+      <l>I could not keep my feelings in command. </l>
+      <l>Nay, it must be firmly done, and you, </l>
+      <l>I think, would do it best of all.</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>He's right.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>I am willing; but why thus prolong </l>
+      <l>His woe? 'Twere better and more merciful </l>
+      <l>To speak outright and break the truth </l>
+      <l>At once, as you would do. </l>
+     </lg>
+     <stage>[To Tristan]</stage>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>Why, so it would.</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>Eh, gentlemen, </l>
+      <l>Let us confess the thing is delicate.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Why do ye whisper there?</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>We bless the day for your recovery.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Why is not Coitier here? </l>
+      <l>Where does he lay? Go fetch him!</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>Sire, you know—</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>I know—I know he never is where I </l>
+      <l>Would have him be.</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>But, sire, you bade—</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Away! I bade you bring him here. No words! Obey! </l>
+     </lg>
+     <stage>[Exit Tristan]</stage>
+     <lg>
+      <l>I feel in cue for </l>
+      <l>Hearty exercise. Go bid my grand equerry have the train </l>
+      <l>In readiness.</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>How, sire?</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>I'll hunt the wolf </l>
+      <l>Today. Announce it loudly to my court.</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>But, sire—</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Begone!</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>Were it not well to pause </l>
+      <l>Till Coitier—</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Again?</l>
+     </lg>
+    </sp>
+    <sp who="#oliver">
+     <speaker>Oliver.</speaker>
+     <lg>
+      <l>He is himself again. </l>
+     </lg>
+     <stage>[Exit]</stage>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Remove this idle pomp, Commine. My crown— </l>
+      <l>Why have they thrust it on me? Place it there. </l>
+      <l>Nearer! Nearer still; beneath my eyes; under my hand! </l>
+     </lg>
+     <stage>[Enter Coitier and Tristan]</stage>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>From my lips he shall learn what you so fear </l>
+      <l>To tell.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Ah, Coitier, art thou there? Whence came ye?</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>Whence! This is too much!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Why, speak!</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>Look on my wrist, still blushing with the rust </l>
+      <l>Your manacles have left there. Whence come I! </l>
+      <l>Job's patience! from the dungeon.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>A dungeon! Thou? Who gave the order?</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>Who? You!</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>I!</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>'Fore Heaven, </l>
+      <l>He will deny it now. You in my presence </l>
+      <l>Gave it.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Where? For what?</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>Accuse me of a deed </l>
+      <l>So vile! Why, man, had I the stomach for it </l>
+      <l>What hindered me? A drug—a remedy o'erdone— </l>
+      <l>One drop too much, and I had done with ye. </l>
+      <l>But, introduce a midnight murderer </l>
+      <l>While ye were sleeping—</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Hold! Hold! That vision </l>
+      <l>In the night—behind those curtains, said ye?</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Coitier, what have you done? </l>
+      <l>He had forgotten.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>No, no, I do remember now. Thanks, thanks! </l>
+      <l>'Twas he—Nemours! Nemours! A dagger raised </l>
+      <l>Against my life. </l>
+     </lg>
+     <stage>[To Tristan]</stage>
+     <lg>
+      <l> Speak! He's dead?</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>I waited, sire.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>How, traitor, he is not dead?</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>The Dauphin, sire, forbade the execution.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Ah, ah! My son! Doth he presume </l>
+      <l>To reign so soon? 'Tis doubtful he may reign at all.</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>Oh, sire, think not on such designs. </l>
+      <l>Have done with vengeance; look to your own affairs. </l>
+      <l>Your hour is come.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Eh? How, say you?</l>
+     </lg>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>The truth! </l>
+      <l>Look well, I say, to what you do. </l>
+      <l>For by the light of Heaven, this day will be </l>
+      <l>Your last.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>If so, it shall be also his. </l>
+      <l>Tristan, come here. Let it be now, at once; and hark, </l>
+      <l>No juggling with me, or your head shall answer it. </l>
+      <l>Begone!</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>Tristan!</l>
+     </lg>
+    </sp>
+    <sp who="#tristan_l_ermite">
+     <speaker>Trist.</speaker>
+     <lg>
+      <l>My life or his, you hear. </l>
+      <l>I have no choice. </l>
+     </lg>
+     <stage>[Exit]</stage>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>My blood grows chill, </l>
+      <l>Deserts my limbs and gathers round my heart. </l>
+      <l>Nay, this weakness is but a spasm; 'twill pass, </l>
+      <l>'Twill pass, so wipe my brow. It is the sweat </l>
+      <l>Of agony, and not the dews of death. </l>
+      <l>Ah, mercy!—now it comes. Ay—go—the Dauphin— </l>
+      <l>Quick!</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>I fly, sire.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>No, come back! </l>
+      <l>If thus he saw me, he'd believe 'twas past </l>
+      <l>And over with me. Oh, look not so, sirs, </l>
+      <l>This is mere pain, not death. It cannot be. </l>
+      <l>Save me, Coitier! Oh, give me air—air! </l>
+      <l>Oh, all my treasure for one breath! Take, take, </l>
+      <l>But save me. Quick! </l>
+      <l>'Tis not death; 'tis not—</l>
+     </lg>
+     <stage>[Falls]</stage>
+    </sp>
+    <sp who="#jacques_coitier">
+     <speaker>Coit.</speaker>
+     <lg>
+      <l>Ah, but it is. Away, apprize the Dauphin. </l>
+      <l>Tell him he is King of France. </l>
+     </lg>
+     <stage>[Exit Commine]</stage>
+     <lg>
+      <l>I am free at last. </l>
+      <l>These shrunken lips and sightless glazed eyes </l>
+      <l>Bear impress of the livid seal of death. He's gone— </l>
+      <l>And Nemours, Nemours is saved— </l>
+      <l>The heart beats still! He may survive the spasm, </l>
+      <l>And live awhile—that is, if I revive him. </l>
+      <l>Wherefore? To eke his anguish out one hour? </l>
+      <l>Just time enough to act another crime— </l>
+      <l>The murder of Nemours! No, 'tis enough. Nature, </l>
+      <l>Do as thou wilt. I yield him up to thee. </l>
+     </lg>
+     <stage>[Enter the Dauphin, Commine and Courtiers]</stage>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>My father, I am here; I come. </l>
+      <l>How now, his face is changed, Coitier. What means </l>
+      <l>This silence? Is it too late? He is no more. Leave me; </l>
+      <l>I would be alone.</l>
+     </lg>
+    </sp>
+    <sp who="#philip_de_commine">
+     <speaker>Com.</speaker>
+     <lg>
+      <l>My liege—</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>Away! </l>
+      <l>I do command ye. </l>
+     </lg>
+     <stage>[All retire]</stage>
+     <lg>
+      <l>Oh, my father; </l>
+      <l>Oh, my sovereign, let thy spirit hear me </l>
+      <l>And listen to thy son. Believe my heart, </l>
+      <l>Unknown, forbidden, and outcast by thee. </l>
+      <l>This poor cold hand of thine which now I take </l>
+      <l>To warm with tears. 'Tis not thy tenderness </l>
+      <l>But death that gives me leave to kiss it thus. </l>
+     </lg>
+     <stage>[Places his hand on the crown]</stage>
+     <lg>
+      <l>This fatal bauble stood between our hearts, </l>
+      <l>Symbol of earthly power. </l>
+     </lg>
+     <stage>[Marie rushes in, followed almost immediately by the Court]</stage>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>My liege!</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>Marie!</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>He is condemned, sire. Tristan is engaged </l>
+      <l>Upon his fatal work. Stay—stay it, sire. </l>
+      <l>I claim your royal word; see, here is your pledge. </l>
+      <l>I ask the pardon of Nemours; his life. </l>
+      <l>His life or mine! They lead him out to death.</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>The King redeems the Dauphin's word. Nemours—</l>
+     </lg>
+     <stage>[During this the King revives; the Dauphin quickly withdraws his hand
+                        from the crown]</stage>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>No, keep it; it is thine. My hour is come.</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>Nemours—one word for him—</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>You hear—</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>My liege, my liege, as thou dost hope for pardon, </l>
+      <l>Extend it now. </l>
+     </lg>
+     <stage>[Bell]</stage>
+     <lg>
+      <l>The bell! 'Tis for his death! </l>
+      <l>Oh, Heaven! See! Nemours, Nemours!</l>
+     </lg>
+    </sp>
+    <sp who="#the_dauphin">
+     <speaker>Dauphin.</speaker>
+     <lg>
+      <l>One word, my father; speak and give him life.</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>Sire, while thou yet hast time.</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>If I forgive, </l>
+      <l>Shall I, too, in my turn find mercy?</l>
+     </lg>
+    </sp>
+    <sp who="#francois_de_paule">
+     <speaker>Fran.</speaker>
+     <lg>
+      <l>Would'st thou </l>
+      <l>Contract with Heaven, and die accursed </l>
+      <l>As thou hast lived?</l>
+     </lg>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>No—no— </l>
+      <l>I pardon. Save him! Save him!</l>
+     </lg>
+    </sp>
+    <sp who="#marie">
+     <speaker>Marie.</speaker>
+     <lg>
+      <l>Hold! Ah—My life for his. </l>
+     </lg>
+     <stage>[Rushes out]</stage>
+    </sp>
+    <sp who="#louis_xi">
+     <speaker>Louis.</speaker>
+     <lg>
+      <l>Father! Speak—save—absolve! </l>
+      <l>Is there no hope? Oh, mercy! Mercy! </l>
+      <l>The mortal foe! See! See you not? It comes! </l>
+      <l>I feel his icy grip. Pray! Pray for me! </l>
+      <l>I do entreat ye all—pray! I command—</l>
+     </lg>
+     <stage>[Dies. Montjoie breaks his staff]</stage>
+    </sp>
+    <sp who="#montjoie">
+     <speaker>Mont.</speaker>
+     <lg>
+      <l>The King is dead. The King is dead! </l>
+      <l>Long live the King!</l>
+     </lg>
+    </sp>
+    <trailer>CURTAIN</trailer>
+   </div>
+  </body>
+ </text>
+</TEI>

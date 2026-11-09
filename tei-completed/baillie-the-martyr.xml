@@ -1,0 +1,3179 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id" xml:lang="eng">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">The martyr</title>
+    <author>
+     <persName>
+      <forename>Joanna</forename>
+      <surname>Baillie</surname>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>ProQuest</name>
+     <idno type="URL">https://www.proquest.com/books/martyr-1851/docview/2138579005/se-2?accountid=14632</idno>
+     <idno type="proquest">LION2138579005</idno>
+    </bibl>
+    <bibl type="originalSource">
+     <author>Baillie, Joanna</author>
+     <title type="main">The martyr</title>
+     <title type="volume">The Dramatic and Poetical Works Of Joanna Baillie</title>
+     <publisher>Longman, Brown, Green, and Longmans</publisher>
+     <pubPlace>London</pubPlace>
+     <date type="print" when="1851">1851</date>
+     <note type="citation">Baillie, Joanna: The martyr (1851). In: The Dramatic and Poetical Works Of Joanna Baillie. Longman, Brown, Green, and Longmans: London 1851</note>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    <person xml:id="nero"><persName>Nero</persName><sex value="MALE"/></person><person xml:id="cordenius_maro"><persName>Cordenius Maro</persName><sex value="MALE"/></person><person xml:id="orceres"><persName>Orceres</persName><sex value="MALE"/></person><person xml:id="sulpicius"><persName>Sulpicius</persName><sex value="MALE"/></person><person xml:id="sylvius"><persName>Sylvius</persName><sex value="MALE"/></person><person xml:id="roman_pontiff"><persName>Roman Pontiff</persName><sex value="MALE"/></person><person xml:id="christian_father"><persName>Christian Father</persName><sex value="MALE"/></person><person xml:id="page"><persName>Page</persName><sex value="MALE"/></person><person xml:id="portia"><persName>Portia</persName><sex value="FEMALE"/></person><personGrp xml:id="christian_women"><persName>Christian Women</persName><sex value="FEMALE"/></personGrp><person xml:id="officer-1st"><persName>1st Officer</persName><sex value="MALE"/></person><person xml:id="officer-2nd"><persName>2nd Officer</persName><sex value="MALE"/></person><person xml:id="officer-3rd"><persName>3rd Officer</persName><sex value="MALE"/></person><person xml:id="convert"><persName>Convert</persName><sex value="MALE"/></person><person xml:id="noble_roman"><persName>Noble Roman</persName><sex value="MALE"/></person><person xml:id="brother"><persName>Brother</persName><sex value="MALE"/></person><person xml:id="woman-1st"><persName>1st Woman</persName><sex value="FEMALE"/></person><person xml:id="woman-2nd"><persName>2nd Woman</persName><sex value="FEMALE"/></person><person xml:id="officer"><persName>Officer</persName><sex value="MALE"/></person><person xml:id="lictor"><persName>Lictor</persName><sex value="MALE"/></person></listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1851">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text>
+  <front>
+   <castList>
+    <head>PERSONS OF THE DRAMA</head>
+    <head>MEN</head>
+    <head>WOMEN</head>
+    <castItem>
+     <role>Nero, emperor of Rome.</role>
+    </castItem>
+    <castItem>
+     <role>Cordenius Maro, officer of the imperial guard.</role>
+    </castItem>
+    <castItem>
+     <role>Orceres, a Parthian prince, visiting Rome.</role>
+    </castItem>
+    <castItem>
+     <role>Sulpicius, a senator.</role>
+    </castItem>
+    <castItem>
+     <role>Sylvius, a brave centurion.</role>
+    </castItem>
+    <castItem>
+     <role>Roman Pontiff.</role>
+    </castItem>
+    <castItem>
+     <role>Christian, father or bishop, Christian brother, &amp;c.</role>
+    </castItem>
+    <castItem>
+     <role>A page, in the family of Sulpicius.</role>
+    </castItem>
+    <castItem>
+     <role>Senators, Christians, soldiers, &amp;c.</role>
+    </castItem>
+    <castItem>
+     <role>Portia, daughter of Sulpicius.</role>
+    </castItem>
+    <castItem>
+     <role>Christian women.</role>
+    </castItem>
+   </castList>
+   <set>
+    <p>Scene, Rome.</p>
+   </set>
+  </front>
+  <body>
+   <div type="act" n="1">
+    <head>ACT I.</head>
+    <div type="scene" n="1">
+     <head>SCENE I.</head>
+     <stage>A private apartment in the house of Sulpicius.</stage>
+     <stage>Enter Sulpicius and Orceres by opposite sides.</stage>
+     <sp who="#sulpicius">
+      <speaker>Sul.</speaker>
+      <lg>
+       <l>So soon return'd!—I read not in thy face </l>
+       <l>Aught to encourage or depress my wishes. </l>
+       <l>How is it, noble friend?</l>
+      </lg>
+     </sp>
+     <sp who="#orceres">
+      <speaker>Or.</speaker>
+      <lg>
+       <l>E'en as it was ere I received my mission. </l>
+       <l>Cordenius Maro is on public duty; </l>
+       <l>I have not seen him.—When he knows your offer, </l>
+       <l>His heart will bound with joy, like eaglet plumed, </l>
+       <l>Whose outstretch'd pinions, wheeling round and round, </l>
+       <l>Shape their first circles in the sunny air.</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul.</speaker>
+      <lg>
+       <l>And with good cause.</l>
+      </lg>
+     </sp>
+     <sp who="#orceres">
+      <speaker>Or.</speaker>
+      <lg>
+       <l> Methinks I see him now! </l>
+       <l>A face with blushes mantling to the brow, </l>
+       <l>Eyes with bright tears surcharged, and parted lips </l>
+       <l>Quiv'ring to utter joy which hath no words.</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul.</speaker>
+      <lg>
+       <l>His face, indeed, as I have heard thee say, </l>
+       <l>Is like a wave which sun and shadow cross; </l>
+       <l>Each thought makes there its momentary mark.</l>
+      </lg>
+     </sp>
+     <sp who="#orceres">
+      <speaker>Or.</speaker>
+      <lg>
+       <l>And then his towering form, and vaulting step, </l>
+       <l>As tenderness gives way to exultation! </l>
+       <l>O! it had been a feast to look upon him; </l>
+       <l>And still shall be.</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul.</speaker>
+      <lg>
+       <l> Art thou so well convinced </l>
+       <l>He loves my little damsel?—She is fair, </l>
+       <l>But seems to me too simple, gay, and thoughtless, </l>
+       <l>For noble Maro. Heiress as she is </l>
+       <l>To all my wealth, had I suspected sooner, </l>
+       <l>That he had smother'd wishes in his breast </l>
+       <l>As too presumptuous, or that she in secret </l>
+       <l>Preferr'd his silent homage to the praise </l>
+       <l>Of any other man, I had most frankly </l>
+       <l>Removed all hindrance to so fair a suit. </l>
+       <l>For, in these changeling and degenerate days, </l>
+       <l>I scarcely know a man of nobler worth.</l>
+      </lg>
+     </sp>
+     <sp who="#orceres">
+      <speaker>Or.</speaker>
+      <lg>
+       <l>Thou scarcely knowst! Say certainly thou dost not. </l>
+       <l>He is, to honest right, as simply true </l>
+       <l>As shepherd child on desert pasture bred, </l>
+       <l>Where falsehood and deceit have never been; </l>
+       <l>And to maintain them, ardent, skilful, potent, </l>
+       <l>As the shrewd leader of unruly tribes. </l>
+       <l>A simple heart and subtle spirit join'd </l>
+       <l>Make such an union, as in Nero's court </l>
+       <l>May pass for curious and unnatural.</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul.</speaker>
+      <lg>
+       <l>But is the public duty very urgent </l>
+       <l>That so untowardly delays our happiness?</l>
+      </lg>
+     </sp>
+     <sp who="#orceres">
+      <speaker>Or.</speaker>
+      <lg>
+       <l>The punishment of those poor Nazarenes, </l>
+       <l>Who, in defiance of imperial power, </l>
+       <l>To their forbidden faith and rights adhere </l>
+       <l>With obstinacy most astonishing.</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul.</speaker>
+      <lg>
+       <l>A stubborn contumacy, unaccountable!</l>
+      </lg>
+     </sp>
+     <sp who="#orceres">
+      <speaker>Or.</speaker>
+      <lg>
+       <l>There's sorcery in it, or some stronger power. </l>
+       <l>But be it what it may, or good, or ill, </l>
+       <l>They look on death in its most dreadful form, </l>
+       <l>As martial heroes on a wreath of triumph. </l>
+       <l>The fires are kindled in the place of death, </l>
+       <l>And bells toll dismally. The life of Rome </l>
+       <l>In one vast clust'ring mass hangs round the spot, </l>
+       <l>And no one to his neighbour utters word, </l>
+       <l>But in an alter'd voice, with breath restrain'd, </l>
+       <l>Like those who speak at midnight near the dead. </l>
+       <l>Cordenius heads the band that guards the pile; </l>
+       <l>So station'd, who could speak to him of pleasure? </l>
+       <l>My words had come like sounds of evil omen.</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul.</speaker>
+      <lg>
+       <l>Cease; here comes Portia, with a careless face: </l>
+       <l>She knows not yet the happiness that waits her.</l>
+      </lg>
+     </sp>
+     <sp who="#orceres">
+      <speaker>Or.</speaker>
+      <lg>
+       <l>Who brings she with her thus, as if compell'd </l>
+       <l>By playful force?</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul.</speaker>
+      <lg>
+       <l>'Tis her Numidian page; a cunning imp, </l>
+       <l>Who must be woo'd to do the thing he's proud of.</l>
+      </lg>
+     </sp>
+     <stage>Enter Portia, dragging Syphax after her, speaking as she enters.</stage>
+     <sp who="#portia">
+      <speaker>Portia.</speaker>
+      <lg>
+       <l>Come in, deceitful thing!—I know thee well; </l>
+       <l>With all thy sly affected bashfulness, </l>
+       <l>Thou'rt bold enough to sing in Cæsar's court, </l>
+       <l>With the whole senate present. </l>
+      </lg>
+      <stage>(To Orceres.)</stage>
+      <lg>
+       <l> Prince of Parthia, </l>
+       <l>I knew not you were here; but yet I guess </l>
+       <l>The song which this sly creature sings so well, </l>
+       <l>Will please you also.</l>
+      </lg>
+     </sp>
+     <sp who="#orceres">
+      <speaker>Or.</speaker>
+      <lg>
+       <l>How can it fail, fair Portia, so commended?</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul.</speaker>
+      <lg>
+       <l>What is this boasted lay?</l>
+      </lg>
+     </sp>
+     <sp who="#portia">
+      <speaker>Portia.</speaker>
+      <lg>
+       <l> That tune, my father, </l>
+       <l>Which you so oft have tried to recollect; </l>
+       <l>But link'd with other words, of new device, </l>
+       <l>That please my fancy well.—Come, sing it, boy!</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul.</speaker>
+      <lg>
+       <l>Nay, sing it, Syphax, be not so abash'd, </l>
+       <l>If thou art really so.—Begin, begin! </l>
+       <l>But speak thy words distinctly as thou singst, </l>
+       <l>That I may have their meaning perfectly.</l>
+      </lg>
+     </sp>
+     <sp who="#orceres">
+      <speaker>Or.</speaker>
+      <lg>
+       <l>The picture of some very noble hero </l>
+       <l>These lines pourtray.</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul.</speaker>
+      <lg>
+       <l>So it should seem; one of the days of old.</l>
+      </lg>
+     </sp>
+     <sp who="#portia">
+      <speaker>Portia.</speaker>
+      <lg>
+       <l>And why of olden days? There liveth now </l>
+       <l>The very man—a man—I mean to say, </l>
+       <l>There may be found among our Roman youth, </l>
+       <l>One, who in form and feelings may compare </l>
+       <l>With him, whose lofty virtues these few lines </l>
+       <l>So well describe.</l>
+      </lg>
+     </sp>
+     <sp who="#orceres">
+      <speaker>Or.</speaker>
+      <lg>
+       <l> Thou meanst the lofty Gorbus.</l>
+      </lg>
+     </sp>
+     <sp who="#portia">
+      <speaker>Portia.</speaker>
+      <lg>
+       <l>Out on the noisy braggart. Arms without </l>
+       <l>He hath, indeed, well burnish'd and well plumed, </l>
+       <l>But the poor soul, within, is pluck'd and bare, </l>
+       <l>Like any homely thing.</l>
+      </lg>
+     </sp>
+     <sp who="#orceres">
+      <speaker>Or.</speaker>
+      <lg>
+       <l>Sertorius Galba then?</l>
+      </lg>
+     </sp>
+     <sp who="#portia">
+      <speaker>Portia.</speaker>
+      <lg>
+       <l> O, stranger still! </l>
+       <l>For if he hath no lack of courage, certes, </l>
+       <l>He hath much lack of grace. Sertorius Galba!</l>
+      </lg>
+     </sp>
+     <sp who="#orceres">
+      <speaker>Or.</speaker>
+      <lg>
+       <l>Perhaps thou meanst Cordenius Maro, lady. </l>
+       <l>Thy cheeks grow scarlet at the very name, </l>
+       <l>Indignant that I still should err so strangely.</l>
+      </lg>
+     </sp>
+     <sp who="#portia">
+      <speaker>Portia.</speaker>
+      <lg>
+       <l>No, not indignant, for thou errest not; </l>
+       <l>Nor do I blush, albeit thou thinkst I do, </l>
+       <l>To say, there is not of our Romans one, </l>
+       <l>Whose martial form a truer image gives </l>
+       <l>Of firm heroic courage.</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul.</speaker>
+      <lg>
+       <l> Cease, sweet Portia! </l>
+       <l>He only laughs at thy simplicity.</l>
+      </lg>
+     </sp>
+     <sp who="#orceres">
+      <speaker>Or.</speaker>
+      <lg>
+       <l>Simplicity seen through a harmless wile, </l>
+       <l>Like to the infant urchin, half conceal'd </l>
+       <l>Behind his smiling dam's transparent veil. </l>
+       <l>The song is not a stranger to mine ear, </l>
+       <l>Methinks I've heard it passing through those wilds, </l>
+       <l>Whose groves and caves, if rumour speak the truth, </l>
+       <l>Are by the Nazarenes or Christians haunted.</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul.</speaker>
+      <lg>
+       <l>Let it no more be sung within my walls: </l>
+       <l>A chaunt of their's to bring on pestilence! </l>
+       <l>Sing it no more. What sounds are those I hear?</l>
+      </lg>
+     </sp>
+     <sp who="#orceres">
+      <speaker>Or.</speaker>
+      <lg>
+       <l>The dismal death-drum and the crowd without. </l>
+       <l>They are this instant leading past your door </l>
+       <l>Those wretched Christians to their dreadful doom.</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul.</speaker>
+      <lg>
+       <l>We'll go and see them pass. </l>
+      </lg>
+     </sp>
+     <stage> [Exeunt hastily, Sulpicius, Orceres.</stage>
+     <sp who="#portia">
+      <speaker>Portia </speaker>
+      <stage>(stopping her ears).</stage>
+      <lg>
+       <l>I cannot look on them, nor hear the sound. </l>
+       <l>I'll to my chamber.</l>
+      </lg>
+     </sp>
+     <sp who="#page">
+      <speaker>Page.</speaker>
+      <lg>
+       <l> May not I, I pray, </l>
+       <l>Look on them as they pass?</l>
+      </lg>
+     </sp>
+     <sp who="#portia">
+      <speaker>Portia.</speaker>
+      <lg>
+       <l> No; go not, child: </l>
+       <l>'Twill frighten thee; it is a horrid sight.</l>
+      </lg>
+     </sp>
+     <sp who="#page">
+      <speaker>Page.</speaker>
+      <lg>
+       <l>Yet, an it please you, lady, let me go.</l>
+      </lg>
+     </sp>
+     <sp who="#portia">
+      <speaker>Portia.</speaker>
+      <lg>
+       <l>I say it is a horrid, piteous sight, </l>
+       <l>Thou wilt be frighten'd at it.</l>
+      </lg>
+     </sp>
+     <sp who="#page">
+      <speaker>Page.</speaker>
+      <lg>
+       <l>Nay, be it e'er so piteous or so horrid, </l>
+       <l>I have a longing, strong desire to see it.</l>
+      </lg>
+     </sp>
+     <sp who="#portia">
+      <speaker>Portia.</speaker>
+      <lg>
+       <l>Go then; in this there is no affectation: </l>
+       <l>There's all the harden'd cruelty of man </l>
+       <l>Lodged in that tiny form, child as thou art.</l>
+      </lg>
+     </sp>
+     <stage> [Exeunt severally.</stage>
+    </div>
+    <div type="scene" n="2">
+     <head>SCENE II.</head>
+     <stage>An open square, with buildings.</stage>
+     <stage> [Exeunt martyrs, &amp;c. &amp;c. Cordenius with his officers and
+                        soldiers still remaining; the officers on the front, and Cordenius apart
+                        from them in a thoughtful posture.</stage>
+     <sp who="#officer-1st">
+      <speaker>1st offi.</speaker>
+      <lg>
+       <l>Brave Varus marches boldly at the head </l>
+       <l>Of that deluded band.</l>
+      </lg>
+     </sp>
+     <sp who="#officer-2nd">
+      <speaker>2d offi.</speaker>
+      <lg>
+       <l>Are these the men who hateful orgies hold, </l>
+       <l>In dens and deserts with enchantments wooing </l>
+       <l>The intercourse of demons?</l>
+      </lg>
+     </sp>
+     <sp who="#officer-3rd">
+      <speaker>3d offi.</speaker>
+      <lg>
+       <l> Ay, with rites </l>
+       <l>Cruel and wild. To crucify a babe, </l>
+       <l>And, while it yet hangs shrieking on the rood, </l>
+       <l>Fall down and worship it! device abominable!</l>
+      </lg>
+     </sp>
+     <sp who="#officer-1st">
+      <speaker>1st offi.</speaker>
+      <lg>
+       <l>Dost thou believe it?</l>
+      </lg>
+     </sp>
+     <sp who="#officer-3rd">
+      <speaker>3d offi.</speaker>
+      <lg>
+       <l>I can believe or this or any thing </l>
+       <l>Of the possess'd and mad.</l>
+      </lg>
+     </sp>
+     <sp who="#officer-1st">
+      <speaker>1st offi.</speaker>
+      <lg>
+       <l>What demonry, thinkst thou, possesses Varus?</l>
+      </lg>
+     </sp>
+     <sp who="#officer-2nd">
+      <speaker>2d offi.</speaker>
+      <lg>
+       <l>That is well urged. </l>
+      </lg>
+      <stage>(To the other.)</stage>
+      <lg>
+       <l> Is he a maniac? </l>
+       <l>Alas, that I should see so brave a soldier </l>
+       <l>Thus, as a malefactor, led to death!</l>
+      </lg>
+     </sp>
+     <sp who="#officer-1st">
+      <speaker>1st offi.</speaker>
+      <lg>
+       <l>Viewing his keen enliven'd countenance </l>
+       <l>And stately step, one should have rather guess'd </l>
+       <l>He led victorious soldiers to the charge: </l>
+       <l>And they, indeed, appear'd to follow him </l>
+       <l>With noble confidence.</l>
+      </lg>
+     </sp>
+     <sp who="#officer-3rd">
+      <speaker>3d offi.</speaker>
+      <lg>
+       <l> 'Tis all vain seeming. </l>
+       <l>He is a man, who makes a show of valour </l>
+       <l>To which his deeds have borne slight testimony.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor. </speaker>
+      <stage>(advancing indignantly).</stage>
+      <lg>
+       <l>Thou liest; a better and a braver soldier </l>
+       <l>Ne'er fronted foe, nor closed in bloody strife. </l>
+      </lg>
+     </sp>
+     <stage> [Turning away angrily to the background.</stage>
+     <sp who="#officer-1st">
+      <speaker>1st offi.</speaker>
+      <lg>
+       <l>Our chief, methinks, is in a fretful mood, </l>
+       <l>Which is not usual with him.</l>
+      </lg>
+     </sp>
+     <sp who="#officer-2nd">
+      <speaker>2d offi.</speaker>
+      <lg>
+       <l>He did not seem to listen to our words, </l>
+       <l>Yet they have moved him keenly.— </l>
+       <l>But see, he gives the signal to proceed; </l>
+       <l>We must advance, and with our closing ranks </l>
+       <l>The fatal pile encircle.</l>
+      </lg>
+     </sp>
+     <stage> [Exeunt in order, whilst a chorus of martyrs is heard at a distance.</stage>
+    </div>
+    <div type="scene" n="3">
+     <head>SCENE III.</head>
+     <stage>An apartment in a private house.</stage>
+     <stage>Enter two Christian Women by opposite sides.</stage>
+     <sp who="#woman-1st">
+      <speaker>1st woman.</speaker>
+      <lg>
+       <l>Hast thou heard any thing?</l>
+      </lg>
+     </sp>
+     <sp who="#woman-2nd">
+      <speaker>2d woman.</speaker>
+      <lg>
+       <l>Nought, save the murmur of the multitude, </l>
+       <l>Sinking at times to deep and awful silence, </l>
+       <l>From which again a sudden burst will rise </l>
+       <l>Like mingled exclamations, as of horror </l>
+       <l>Or admiration. In these neighbouring streets </l>
+       <l>I have not met a single citizen, </l>
+       <l>The town appearing uninhabited. </l>
+       <l>But wherefore art thou here? Thou shouldst have stay'd </l>
+       <l>With the unhappy mother of poor Cælus.</l>
+      </lg>
+     </sp>
+     <sp who="#woman-1st">
+      <speaker>1st woman.</speaker>
+      <lg>
+       <l>She sent me hither in her agony </l>
+       <l>Of fear and fearful hope.</l>
+      </lg>
+     </sp>
+     <sp who="#woman-2nd">
+      <speaker>2d woman.</speaker>
+      <lg>
+       <l>Ha! does she hope deliverance from death?</l>
+      </lg>
+     </sp>
+     <sp who="#woman-1st">
+      <speaker>1st woman.</speaker>
+      <lg>
+       <l>O no! thou wrongst her, friend; it is not that: </l>
+       <l>Deliverance is her fear, and death her hope. </l>
+       <l>A second time she bears a mother's throes </l>
+       <l>For her young stripling, whose exalted birth </l>
+       <l>To endless life is at this fearful crisis, </l>
+       <l>Or earn'd or lost. May heaven forefend the last! </l>
+       <l>He is a timid youth, and soft of nature: </l>
+       <l>God grant him strength to bear that fearful proof!</l>
+      </lg>
+     </sp>
+     <sp who="#woman-2nd">
+      <speaker>2d woman.</speaker>
+      <lg>
+       <l>Here comes our reverend father. </l>
+      </lg>
+      <stage>Enter a Christian Father.</stage>
+      <lg>
+       <l>What tidings dost thou bring? are they in bliss?</l>
+      </lg>
+     </sp>
+     <sp who="#christian_father">
+      <speaker>Father.</speaker>
+      <lg>
+       <l>Yes, daughter, as I trust, they are ere this </l>
+       <l>In high immortal bliss. Cælus alone—</l>
+      </lg>
+     </sp>
+     <sp who="#woman-1st">
+      <speaker>1st woman.</speaker>
+      <lg>
+       <l>He hath apostatised! O woe is me! </l>
+       <l>O woe is me for his most wretched mother!</l>
+      </lg>
+     </sp>
+     <sp who="#christian_father">
+      <speaker>Father</speaker>
+      <lg>
+       <l>Apostatised! No; stripling as he is, </l>
+       <l>His fortitude, where all were braced and brave, </l>
+       <l>Shone paramount. </l>
+       <l>For his soft downy cheek and slender form </l>
+       <l>Made them conceive they might subdue his firmness: </l>
+       <l>Therefore he was reserved till noble Varus </l>
+       <l>And his compeers had in the flames expired </l>
+       <l>Then did they court and tempt him with fair promise </l>
+       <l>Of all that earthly pleasure or ambition </l>
+       <l>Can offer, to deny his holy faith. </l>
+       <l>But he, who seem'd before so meek and timid, </l>
+       <l>Now suddenly imbued with holy grace, </l>
+       <l>Like the transition of some watery cloud </l>
+       <l>In passing o'er the moon's refulgent disc, </l>
+       <l>Glow'd with new life; and from his fervid tongue </l>
+       <l>Words of most firm indignant constancy </l>
+       <l>Pour'd eloquently forth; then to the pile </l>
+       <l>Sprang he as lightly as a dauntless warrior </l>
+       <l>Scaling the breach of honour; or, alas! </l>
+       <l>As I have seen him 'midst his boyish mates, </l>
+       <l>Vaulting aloft for very love of motion.</l>
+      </lg>
+     </sp>
+     <sp who="#woman-1st">
+      <speaker>1st woman.</speaker>
+      <lg>
+       <l>High heaven be praised for this!— </l>
+       <l>thine eyes beheld it?</l>
+      </lg>
+     </sp>
+     <sp who="#christian_father">
+      <speaker>Father.</speaker>
+      <lg>
+       <l>I saw it not: the friend who witness'd it, </l>
+       <l>Left him yet living 'midst devouring flame; </l>
+       <l>Therefore I spoke of Cælus doubtfully, </l>
+       <l>If he as yet belong'd to earth or heaven.</l>
+      </lg>
+     </sp>
+     <stage> [They cover their faces, and remain silent.</stage>
+     <stage>Enter a Christian Brother.</stage>
+     <sp who="#brother">
+      <speaker>Brother.</speaker>
+      <lg>
+       <l>Lift up your heads, my sisters! let your voices </l>
+       <l>In grateful thanks be raised! Those ye lament, </l>
+       <l>Have earthly pangs for heavenly joy exchanged. </l>
+       <l>The manly Varus, and the youthful Cælus, </l>
+       <l>The lion and the dove, yoke-fellows link'd, </l>
+       <l>Have equal bliss and equal honour gain'd.</l>
+      </lg>
+     </sp>
+     <sp who="#woman-1st">
+      <speaker>st woman.</speaker>
+      <lg>
+       <l>And praised be God, who makes the weakest strong! </l>
+       <l>I'll to his mother with the blessed tidings. </l>
+      </lg>
+     </sp>
+     <stage> [Exit.</stage>
+     <sp who="#christian_father">
+      <speaker>Father.</speaker>
+      <lg>
+       <l>Let us retire and pray. How soon our lives </l>
+       <l>May have like ending, God alone doth know! </l>
+       <l>O! may like grace support us in our need!</l>
+      </lg>
+     </sp>
+     <stage> [Exeunt.</stage>
+    </div>
+    <div type="scene" n="4">
+     <head>SCENE IV.</head>
+     <stage>An open space in front of a temple.</stage>
+     <stage>Enter Cordelius, as returned from the execution with his soldiers, who,
+                        upon a signal from him, disperse and leave him alone. He walks a few paces
+                        slowly, then stops, and continues for a short time in a thoughtful posture.</stage>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>There is some power in this, or good or ill, </l>
+       <l>Surpassing nature. When the soul is roused </l>
+       <l>To desp'rate sacrifice, 'tis ardent passion, </l>
+       <l>Or high exalted virtue that excites it. </l>
+       <l>Can loathsome demonry in dauntless bearing </l>
+       <l>Outdo the motives of the lofty brave? </l>
+       <l>It cannot be! There is some power in this </l>
+       <l>Mocking all thought—incomprehensible. </l>
+      </lg>
+      <stage> [Remains for a moment silent and thoughtful, while Sylvius enters
+                            behind him unperceived.</stage>
+      <lg>
+       <l>Delusion! ay, 'tis said the cheated sight </l>
+       <l>Will see unreal things; the cheated ear </l>
+       <l>List to sweet sounds that are not; even the reason </l>
+       <l>Maintain conclusions wild and inconsistent. </l>
+       <l>We hear of this:—the weak may be deluded; </l>
+       <l>But is the learn'd, th' enlighten'd noble Varus </l>
+       <l>The victim of delusion?—Can it be? </l>
+       <l>I'll not believe it.</l>
+      </lg>
+     </sp>
+     <sp who="#sylvius">
+      <speaker>Sylvius </speaker>
+      <stage>(advancing to him).</stage>
+      <lg>
+       <l> No, believe it not.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor. </speaker>
+      <stage>(starting).</stage>
+      <lg>
+       <l>Ha! one so near me! </l>
+       <l>I have seen thy face before; but where? who art thou?</l>
+      </lg>
+     </sp>
+     <sp who="#sylvius">
+      <speaker>Sylvius.</speaker>
+      <lg>
+       <l>E'en that Centurion of the Seventh Legion, </l>
+       <l>Who, with Cordenius Maro, at the siege </l>
+       <l>Of Fort Volundum, </l>
+       <l> mounted first the breach; </l>
+       <l>And kept the clust'ring enemy in check, </l>
+       <l>Till our encouraged Romans followed us.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>My old companion then, the valiant Sylvius, </l>
+       <l>Thou'st done hard service since I saw thee last: </l>
+       <l>Thy countenance is mark'd with graver lines </l>
+       <l>Than in those greener days: I knew thee not. </l>
+       <l>Where goest thou now? I'll bear thee company.</l>
+      </lg>
+     </sp>
+     <sp who="#sylvius">
+      <speaker>Sylvius.</speaker>
+      <lg>
+       <l>I thank thee: yet thou mayst not go with me. </l>
+       <l>The way that I am wending suits not thee, </l>
+       <l>Though suiting well the noble and the brave. </l>
+       <l>It were not well, in fiery times like these, </l>
+       <l>To tempt thy generous mind.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l> What dost thou mean?</l>
+      </lg>
+     </sp>
+     <sp who="#sylvius">
+      <speaker>Sylvius </speaker>
+      <stage>(after looking cautiously round to see that nobody is near).</stage>
+      <lg>
+       <l>Did I not hear thee commune with thyself </l>
+       <l>Of that most blessed Martyr gone to rest, </l>
+       <l>Varus Dobella?</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>How blessed? My unsettled thoughts were busy </l>
+       <l>With things mysterious; with those magic powers </l>
+       <l>That work the mind to darkness and destruction; </l>
+       <l>With the sad end of the deluded Varus.</l>
+      </lg>
+     </sp>
+     <sp who="#sylvius">
+      <speaker>Sylvius.</speaker>
+      <lg>
+       <l>Not so, not so! The wisest prince on earth, </l>
+       <l>With treasured wealth and armies at command, </l>
+       <l>Ne'er earn'd withal such lofty exaltation </l>
+       <l>As Varus now enjoys.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>Thy words amaze me, friend; what is their meaning?</l>
+      </lg>
+     </sp>
+     <sp who="#sylvius">
+      <speaker>Sylvius.</speaker>
+      <lg>
+       <l>They cannot be explain'd with hasty speech </l>
+       <l>In such a place. If thou wouldst really know— </l>
+       <l>And may such light—</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l> Why dost thou check thy words, </l>
+       <l>And look so much disturb'd, like one in doubt?</l>
+      </lg>
+     </sp>
+     <sp who="#sylvius">
+      <speaker>Sylvius.</speaker>
+      <lg>
+       <l>What am I doing? Zeal, perhaps, betrays me. </l>
+       <l>Yet, wherefore hide salvation from a man </l>
+       <l>Who is so worthy of it?</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>Why art thou agitated thus? What moves thee?</l>
+      </lg>
+     </sp>
+     <sp who="#sylvius">
+      <speaker>Sylvius.</speaker>
+      <lg>
+       <l>And wouldst thou really know it?</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l> Dost thou doubt me? </l>
+       <l>I have an earnest, most intense desire.</l>
+      </lg>
+     </sp>
+     <sp who="#sylvius">
+      <speaker>Sylvius.</speaker>
+      <lg>
+       <l>Sent to thy heart, brave Roman, by a Power </l>
+       <l>Which I may not resist. </l>
+      </lg>
+      <stage> [Bowing his head.</stage>
+      <lg>
+       <l>But go not with me now in open day. </l>
+       <l>At fall of eve I'll meet thee in the suburb, </l>
+       <l>Close to the pleasure-garden of Sulpicius; </l>
+       <l>Where in a bushy crevice of the rock </l>
+       <l>There is an entry to the catacombs, </l>
+       <l>Known but to few.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l> Ha! to the catacombs!</l>
+      </lg>
+     </sp>
+     <sp who="#sylvius">
+      <speaker>Syl.</speaker>
+      <lg>
+       <l>A dismal place, I own, but heed not that; </l>
+       <l>For there thou'lt learn what, to thy ardent mind, </l>
+       <l>Will make this world but as a thorny pass </l>
+       <l>To regions of delight; man's natural life, </l>
+       <l>With all its varied turmoil of ambition, </l>
+       <l>But as the training of a wayward child </l>
+       <l>To manly excellence; yea, death itself </l>
+       <l>But as a painful birth to life uncnding. </l>
+       <l>The word eternal has not to thine ears, </l>
+       <l>As yet, its awful, ample sense convey'd.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>Something possesses thee.</l>
+      </lg>
+     </sp>
+     <sp who="#sylvius">
+      <speaker>Sylvius.</speaker>
+      <lg>
+       <l> Yes, noble Maro; </l>
+       <l>But it is something which can ne'er possess </l>
+       <l>A mind that is not virtuous.—Let us part; </l>
+       <l>It is expedient now.—All good be with thee!</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>And good be with thee, also, valiant soldier!</l>
+      </lg>
+     </sp>
+     <sp who="#sylvius">
+      <speaker>Sylvius </speaker>
+      <stage>(returning as he is about to go out).</stage>
+      <lg>
+       <l>At close of day, and near the pleasure-garden,— </l>
+       <l>The garden of Sulpicius.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>I know the spot, and will not fail to meet thee. </l>
+      </lg>
+     </sp>
+     <stage> [Exeunt.</stage>
+    </div>
+   </div>
+   <div type="act" n="2">
+    <head>ACT II.</head>
+    <div type="scene" n="1">
+     <head>SCENE I.</head>
+     <stage>The Catacombs, showing long low-roofed aisles, in different directions,
+                        supported by thick pillars of the rough unhewn rock, with rude tombs and
+                        heaps of human bones, and the walls in many places lined with human skulls.</stage>
+     <stage>Enter Cordenius Maro, speaking to a Christian Father, on whose arm he
+                        leans, and followed by Sylvius.</stage>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>One day and two bless'd nights, spent in acquiring </l>
+       <l>Your heavenly lore, so powerful and sublime.— </l>
+       <l>Oh! what an alter'd creature they have made me!</l>
+      </lg>
+     </sp>
+     <sp who="#christian_father">
+      <speaker>Father.</speaker>
+      <lg>
+       <l>Yes, gentle son, I trust that thou art alter'd.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>I am, methinks, like one who, with bent back </l>
+       <l>And downward gaze—if such an one might be— </l>
+       <l>Hath only known the boundless azure sky </l>
+       <l>By the strait circle of reflected beauty, </l>
+       <l>Seen in the watery gleam of some deep pit: </l>
+       <l>Till on a sudden roused, he stands erect, </l>
+       <l>And wondering looks aloft and all around </l>
+       <l>On the bright sunny firmament:—like one </l>
+      </lg>
+      <stage>(Granting again that such an one might be)</stage>
+      <lg>
+       <l>Who hath but seen the element of fire </l>
+       <l>On household hearth or woodman's smoky pile, </l>
+       <l>And looks at once, 'mid 'stounding thunder-peals, </l>
+       <l>On Jove's magnificence of lightning.—Pardon, </l>
+       <l>I pray you pardon me! I mean His lightning, </l>
+       <l>Who is the Jove of Jove, the great Jehovah.</l>
+      </lg>
+     </sp>
+     <sp who="#christian_father">
+      <speaker>Father </speaker>
+      <stage>(smiling).</stage>
+      <lg>
+       <l>Be not disturb'd, my son; the lips will utter, </l>
+       <l>From lengthen'd habit, what the mind rejects.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>These blessed hours, which I have pass'd with you, </l>
+       <l>Have to my intellectual being given </l>
+       <l>New feelings and expansion, like to that </l>
+       <l>Which once I felt, on viewing by degrees </l>
+       <l>The wide developement of nature's amplitude.</l>
+      </lg>
+     </sp>
+     <sp who="#christian_father">
+      <speaker>Father.</speaker>
+      <lg>
+       <l>And how was that, my son?</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>I well remember it; even at this moment </l>
+       <l>Imagination sees it all again. </l>
+       <l>'Twas on a lofty mountain of Armenia, </l>
+       <l>O'er which I led by night my martial cohort, </l>
+       <l>To shun the fierce heat of a summer's day. </l>
+       <l>Close round us hung, the vapours of the night </l>
+       <l>Had form'd a woofy curtain, dim and pale, </l>
+       <l>Through which the waning moon did faintly mark </l>
+       <l>Its slender crescent.</l>
+      </lg>
+     </sp>
+     <sp who="#christian_father">
+      <speaker>Father.</speaker>
+      <lg>
+       <l>Ay, the waned moon through midnight vapours seen, </l>
+       <l>Fit emblem is of that retrenching light, </l>
+       <l>Dubious and dim, which to the earliest patriarchs </l>
+       <l>Was at the first vouchsafed; a moral guide, </l>
+       <l>Soon clouded and obscured to their descendants, </l>
+       <l>Who peopled far and wide, in scatter'd tribes, </l>
+       <l>The fertile earth.—But this is interruption. </l>
+       <l>Proceed, my son.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l> Well, on the lofty summit </l>
+       <l>We halted, and the day's returning light </l>
+       <l>On this exalted station found us. Then </l>
+       <l>Our brighten'd curtain, wearing into shreds </l>
+       <l>And rifted masses, through its opening gave </l>
+       <l>Glimpse after glimpse of slow revealed beauty, </l>
+       <l>Which held th' arrested senses magic-bound, </l>
+       <l>In the intensity of charm'd attention.</l>
+      </lg>
+     </sp>
+     <sp who="#christian_father">
+      <speaker>Father.</speaker>
+      <lg>
+       <l>From such an eminence the op'ning mist </l>
+       <l>Would to the eye reveal most beauteous visions.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>First, far beneath us, woody peaks appear'd </l>
+       <l>And knolls with cedars crested; then, beyond, </l>
+       <l>And lower still, the herdsmen's cluster'd dwellings, </l>
+       <l>With pasture slopes, and flocks just visible; </l>
+       <l>Then, further still, soft wavy wastes of forest, </l>
+       <l>In all the varied tints of sylvan verdure, </l>
+       <l>Descending to the plain; then, wide and boundless, </l>
+       <l>The plain itself, with towns and cultured tracts, </l>
+       <l>And its fair river gleaming in the light, </l>
+       <l>With all its sweepy windings, seen and lost, </l>
+       <l>And seen again, till through the pale grey tint </l>
+       <l>Of distant space, it seem'd a loosen'd cestus </l>
+       <l>From virgin's tunic blown; and still beyond, </l>
+       <l>The earth's extended vastness from the sight </l>
+       <l>Wore like the boundless ocean. </l>
+       <l>My heart beat rapidly at the fair sight— </l>
+       <l>This ample earth, man's natural habitation. </l>
+       <l>But now, when to my mental eye reveal'd, </l>
+       <l>His moral destiny, so grand and noble, </l>
+       <l>Lies stretching on even to immensity, </l>
+       <l>It overwhelms me with a flood of thoughts, </l>
+       <l>Of happy thoughts.</l>
+      </lg>
+     </sp>
+     <sp who="#christian_father">
+      <speaker>Father.</speaker>
+      <lg>
+       <l>Thanks be to God that thou dost feel it so!</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>I am most thankful for the words of power </l>
+       <l>Which from thy gifted lips and sacred scripture </l>
+       <l>I have received. What feelings they have raised! </l>
+       <l>O what a range of thought given to the mind! </l>
+       <l>And to the soul what loftiness of hope! </l>
+       <l>That future dreamy state of faint existence </l>
+       <l>Which poets have described and sages taught, </l>
+       <l>In which the brave and virtuous pined and droop'd </l>
+       <l>In useless indolence, changed for a state </l>
+       <l>Of social love, and joy, and active bliss,— </l>
+       <l>A state of brotherhood,—a state of virtue, </l>
+       <l>So grand, so purified;—O it is excellent! </l>
+       <l>My soul is roused within me at the sound, </l>
+       <l>Like some poor slave, who from a dungeon issues </l>
+       <l>To range with free-born men his native land.</l>
+      </lg>
+     </sp>
+     <sp who="#christian_father">
+      <speaker>Father.</speaker>
+      <lg>
+       <l>Thou mayst, indeed, my son, redeem'd from thraldom, </l>
+       <l>Become the high compeer of blessed spirits.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>The high compeer of such!—These gushing tears, </l>
+       <l>Nature's mysterious tears, will have their way.</l>
+      </lg>
+     </sp>
+     <sp who="#christian_father">
+      <speaker>Father.</speaker>
+      <lg>
+       <l>To give thy heart relief.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>And yet mysterious. Why do we weep </l>
+       <l>At contemplation of exalted virtue? </l>
+       <l>Perhaps in token of the fallen state </l>
+       <l>In which we are, as thrilling sympathy </l>
+       <l>Strangely acknowledges some sight and sound, </l>
+       <l>Connected with a dear and distant home, </l>
+       <l>Albeit the memory that link hath lost:— </l>
+       <l>A kind of latent sense of what we were, </l>
+       <l>Or might have been; a deep mysterious token.</l>
+      </lg>
+     </sp>
+     <sp who="#christian_father">
+      <speaker>Father.</speaker>
+      <lg>
+       <l>Perhaps thou'rt right, my son; for e'en the wicked </l>
+       <l>Will sometimes weep at lofty, generous deeds. </l>
+       <l>Some broken traces of our noble nature </l>
+       <l>Were yet preserved; therefore our great Creator </l>
+       <l>Still loved His work, and thought it worth redemption: </l>
+       <l>Therefore His generous Son, our blessed Master, </l>
+       <l>Did, as the elder brother of that race, </l>
+       <l>Whose form He took, lay down His life to save us, </l>
+       <l>But I have read thee, from our sacred book, </l>
+       <l>His gentle words of love.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>Thou hast! thou hast! they're stirring in my heart: </l>
+       <l>Each fibre of my body thrills in answer </l>
+       <l>To the high call.—</l>
+      </lg>
+     </sp>
+     <sp who="#christian_father">
+      <speaker>Father.</speaker>
+      <lg>
+       <l>The Spirit of Power, my son, is dealing with thee.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor. </speaker>
+      <stage>(after a pause).</stage>
+      <lg>
+       <l>One thing amazes me,— yet it is excellent.</l>
+      </lg>
+     </sp>
+     <sp who="#christian_father">
+      <speaker>Father.</speaker>
+      <lg>
+       <l>And what amazes thee? Unbosom freely </l>
+       <l>What passes in thy mind.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>That this religion which dilates our thoughts </l>
+       <l>Of God Supreme to an infinity </l>
+       <l>Of awful greatness, yet connects us with him, </l>
+       <l>As children, loved and cherish'd;— </l>
+       <l>Adoring awe with tenderness united.</l>
+      </lg>
+     </sp>
+     <sp who="#sylvius">
+      <speaker>Sylvius </speaker>
+      <stage>(eagerly).</stage>
+      <lg>
+       <l>Ay, brave Cordenius, that same thought more moved </l>
+       <l>My rude unletter'd mind than all the rest. </l>
+       <l>I struck my hand against my soldier's mail, </l>
+       <l>And cried, “This faith is worthy of a man!”</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>Our best philosophers have raised their thoughts </l>
+       <l>To one great universal Lord of all, </l>
+       <l>Lord even of Jove himself and all the gods; </l>
+       <l>Yet who durst feel for that high, distant Essence, </l>
+       <l>A warmer sentiment than deep submission? </l>
+       <l>But now, adoring love and grateful confidence </l>
+       <l>Cling to th' infinity of power and goodness, </l>
+       <l>As the repentant child turns to his sire </l>
+       <l>With yearning looks, that say, “Am I not thine?” </l>
+       <l>I am too bold: I should be humbled first </l>
+       <l>In penitence and sorrow, for the stains </l>
+       <l>Of many a hateful vice and secret passion.</l>
+      </lg>
+     </sp>
+     <sp who="#christian_father">
+      <speaker>Father.</speaker>
+      <lg>
+       <l>Check not the generous tenor of thy thoughts: </l>
+       <l>O check it not! Love leads to penitence, </l>
+       <l>And is the noblest, surest path; while fear </l>
+       <l>Is dark and devious. To thy home return, </l>
+       <l>And let thy mind well weigh what thou hast heard. </l>
+       <l>If then thou feel within thee faith assured; </l>
+       <l>That faith, which may, e'en through devouring flames, </l>
+       <l>Its passage hold to heaven, baptismal rites </l>
+       <l>Shall give thee entrance to a purer life, </l>
+       <l>Receive thee, as thy Saviour's valiant soldier, </l>
+       <l>For His high warfare arm'd.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>I am resolved, and feel that in my heart </l>
+       <l>There lives that faith; baptize me ere we part.</l>
+      </lg>
+     </sp>
+     <sp who="#christian_father">
+      <speaker>Father.</speaker>
+      <lg>
+       <l>So be it then. But yet that holy rite </l>
+       <l>Must be deferr'd; for, lo! our brethren come, </l>
+       <l>Bearing the ashes of our honour'd saints, </l>
+       <l>Which must, with hymns of honour, be received. </l>
+      </lg>
+     </sp>
+     <stage>Enter Christians, seen advancing slowly along one of the aisles, and
+                        bearing a large veiled urn, which they set down near the front. They then
+                        lift off the veil and range themselves round it, while one sings and the
+                        rest join in the chorus at the end of each short verse.</stage>
+     <sp who="#cordenius_maro">
+      <speaker>Cor. </speaker>
+      <stage>(to father).</stage>
+      <lg>
+       <l>And ye believe those, who a few hours since </l>
+       <l>Were clothed in flesh and blood, and here, before us, </l>
+       <l>Lie thus, e'en to a few dry ashes changed, </l>
+       <l>Are now exalted spirits, holding life </l>
+       <l>With blessed powers, and agencies, and all </l>
+       <l>Who have on earth a virtuous part fulfill'd? </l>
+       <l>The dear redeem'd of Godlike love, again </l>
+       <l>To their primeval destiny restored? </l>
+       <l>It is a generous, powerful, noble faith.</l>
+      </lg>
+     </sp>
+     <sp who="#sylvius">
+      <speaker>Sylvius.</speaker>
+      <lg>
+       <l>Did I not tell thee, as we pass'd along, </l>
+       <l>It well became a Roman and a soldier?</l>
+      </lg>
+     </sp>
+     <sp who="#christian_father">
+      <speaker>Father.</speaker>
+      <lg>
+       <l>Nay, worthy Sylvius, somewhat more of meekness </l>
+       <l>And less of martial ardour were becoming </l>
+       <l>In those, whose humble Lord stretch'd forth His hand, </l>
+       <l>His saving hand, to e'en the meanest slave </l>
+       <l>Who bends beneath an earthly master's rod. </l>
+       <l>This faith is meet for all of human kind.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>Forgive him, father: see, he stands reproved; </l>
+       <l>His heart is meek, though ardent; </l>
+       <l>It is, indeed, a faith for all mankind.</l>
+      </lg>
+     </sp>
+     <sp who="#christian_father">
+      <speaker>Father.</speaker>
+      <lg>
+       <l>We feel it such, my son, press'd as we are; </l>
+       <l>On every side beset with threatening terrors. </l>
+       <l>Look on these ghastly walls, these shapeless pillars, </l>
+       <l>These heaps of human bones,—this court of death; </l>
+       <l>E'en here, as in a temple, we adore </l>
+       <l>The Lord of Life, and sing our song of hope, </l>
+       <l>That death has lost its sting, the grave its triumph.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>O make me then the partner of your hopes! </l>
+      </lg>
+      <stage> [Taking the hand of Sylvius, and then of several other Christians.</stage>
+      <lg>
+       <l>Brave men! high destined souls! immortal beings! </l>
+       <l>The blessed faith and sense of what we are </l>
+       <l>Comes on my heart, like streams of beamy light </l>
+       <l>Pour'd from some opening cloud. O to conceive </l>
+       <l>What lies beyond the dim, dividing veil </l>
+       <l>Of regions bright, of blest and glorious being!</l>
+      </lg>
+     </sp>
+     <sp who="#christian_father">
+      <speaker>Father.</speaker>
+      <lg>
+       <l>Ay, when it is withdrawn, we shall behold </l>
+       <l>What heart hath ne'er conceived, nor tongue could utter.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>When but a boy, I've gazed upon the sky, </l>
+       <l>With all its sparks of light, as a grand cope </l>
+       <l>For the benighted world. But now my fancy </l>
+       <l>Will greet each twinkling star, as the bright lamp </l>
+       <l>Of some fair angel on his guardian watch. </l>
+       <l>And think ye not, that from their lofty stations </l>
+       <l>Our future glorious home, our Father's house, </l>
+       <l>May lie within the vast and boundless ken </l>
+       <l>Of such seraphic powers?</l>
+      </lg>
+     </sp>
+     <sp who="#christian_father">
+      <speaker>Father.</speaker>
+      <lg>
+       <l>Thy fancy soars on wide and buoyant wings; </l>
+       <l>Speak on, my son, I would not check thy ardour.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>This solid earth is press'd bencath our feet, </l>
+       <l>But as a step from which to take our flight; </l>
+       <l>What boots it then, if rough or smooth it be, </l>
+       <l>Serving its end?—Come, noble Sylvius! </l>
+       <l>We've been companions in the broil of battle, </l>
+       <l>Now be we fellow-soldiers in that warfare </l>
+       <l>Which best becomes the brave.</l>
+      </lg>
+     </sp>
+     <sp who="#sylvius">
+      <speaker>Sylvius.</speaker>
+      <lg>
+       <l>Cordenius Maro, we shall be companions </l>
+       <l>When this wide earth with all its fields of blood </l>
+       <l>Where war hath raged, and all its towers of strength </l>
+       <l>Which have begirded been with iron hosts, </l>
+       <l>Are shrunk to nothing, and the flaming sun </l>
+       <l>Is in his course extinguish'd.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>Come, lead me, father, to the holy fount, </l>
+       <l>If I in humble penitence may be </l>
+       <l>From worldly vileness clear'd.</l>
+      </lg>
+     </sp>
+     <sp who="#christian_father">
+      <speaker>Father.</speaker>
+      <lg>
+       <l>I gladly will, my son. The Spirit of Grace </l>
+       <l>Is dealing with thy spirit: be received, </l>
+       <l>A ransom'd penitent, to the high fellowship </l>
+       <l>Of all the good and bless'd in earth and heaven! </l>
+      </lg>
+      <stage>Enter a Convert.</stage>
+      <lg>
+       <l>Whence com'st thou, Fearon? Why wast thou prevented </l>
+       <l>From joining in our last respectful homage </l>
+       <l>To those, who have so nobly for the truth </l>
+       <l>Laid down their lives?</l>
+      </lg>
+     </sp>
+     <sp who="#convert">
+      <speaker>Convert.</speaker>
+      <lg>
+       <l>I have been watching near the grated dungeon </l>
+       <l>Where Ethocles, the Grecian, is immured.</l>
+      </lg>
+     </sp>
+     <sp who="#christian_father">
+      <speaker>Father.</speaker>
+      <lg>
+       <l>Thou sayst not so! A heavier loss than this, </l>
+       <l>If they have seized on him, the righteous cause </l>
+       <l>Could not have suffer'd. Art thou sure of it? </l>
+       <l>We had not heard of his return from Syria.</l>
+      </lg>
+     </sp>
+     <sp who="#convert">
+      <speaker>Convert.</speaker>
+      <lg>
+       <l>It is too true: he landed ten days since </l>
+       <l>On the Brundusian coast, and, as he enter'd </l>
+       <l>The gates of Rome, was seized and dragg'd to prison.</l>
+      </lg>
+     </sp>
+     <sp who="#christian_father">
+      <speaker>Father.</speaker>
+      <lg>
+       <l>And we in utter ignorance of this!</l>
+      </lg>
+     </sp>
+     <sp who="#convert">
+      <speaker>Convert.</speaker>
+      <lg>
+       <l>He travell'd late and unaccompanied, </l>
+       <l>So this was done at nightfall and conceal'd. </l>
+       <l>But see his writing given me by a guard, </l>
+       <l>Who has for pity's sake betray'd his trust: </l>
+       <l>It is address'd to thee. </l>
+      </lg>
+     </sp>
+     <stage> [Giving him a paper.</stage>
+     <sp who="#christian_father">
+      <speaker>Father </speaker>
+      <stage>(after reading it).</stage>
+      <lg>
+       <l>Alas, alas! it is a brief account </l>
+       <l>Of his successful labours in the East: </l>
+       <l>For with his excellent gifts of eloquence, </l>
+       <l>Learning, and prudence, he has made more converts </l>
+       <l>Than all our zealous brotherhood beside. </l>
+       <l>What can we do? He will be sacrificed: </l>
+       <l>The church in him must bleed, if God so wills. </l>
+       <l>It is a dreadful blow.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor. </speaker>
+      <stage>(to the convert).</stage>
+      <lg>
+       <l>I pray thee, in what prison is he kept?</l>
+      </lg>
+     </sp>
+     <sp who="#convert">
+      <speaker>Convert.</speaker>
+      <lg>
+       <l>In Sylla's tower, that dwelling of despair.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>Guarded by Romans?</l>
+      </lg>
+     </sp>
+     <sp who="#convert">
+      <speaker>Convert.</speaker>
+      <lg>
+       <l>Yes; and strongly guarded.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>Yet, he shall be released.</l>
+      </lg>
+     </sp>
+     <sp who="#christian_father">
+      <speaker>Father </speaker>
+      <stage>(to Cordenius).</stage>
+      <lg>
+       <l>Beware, my son, of rash, imprudent zeal: </l>
+       <l>The truth hath suffer'd much from this; beware: </l>
+       <l>Risk not thyself: thy life is also precious.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>My whole of life is precious: but this shred, </l>
+       <l>This earthly portion of it, what is that, </l>
+       <l>But as it is employ'd in holy acts? </l>
+       <l>Am I Christ's soldier at a poorer rate </l>
+       <l>Than I have served an earthly master? No; </l>
+       <l>I feel within my glowing breast a power </l>
+       <l>Which says I am commission'd for this service. </l>
+       <l>Give me thy blessing—thy baptismal blessing, </l>
+       <l>And then God's spirit guide me! Serving God, </l>
+       <l>I will not count the cost but to discharge it.</l>
+      </lg>
+     </sp>
+     <sp who="#christian_father">
+      <speaker>Father.</speaker>
+      <lg>
+       <l>His will direct thee then, my gen'rous son! </l>
+       <l>His blessing be upon thee!—Lead him, Sylvius, </l>
+       <l>To the blest fount, where from his former sins </l>
+       <l>He shall by heavenly grace be purified. </l>
+      </lg>
+     </sp>
+     <stage> [Exeunt.</stage>
+    </div>
+    <div type="scene" n="2">
+     <head>SCENE II.</head>
+     <stage>The garden of Sulpicius.</stage>
+     <stage>Enter Sulpicius and Portia, with flowers in her hand.</stage>
+     <sp who="#portia">
+      <speaker>Portia.</speaker>
+      <lg>
+       <l>Was it not well to rise with early morn </l>
+       <l>And pay my homage to sweet Flora? Never </l>
+       <l>Were flowers by mid-day cull'd, so fair, so fragrant, </l>
+       <l>With blending streaky tints, so fresh and bright. </l>
+       <l>See: twinkling dew-drops lurk in every bell, </l>
+       <l>And on the fibred leaves stray far apart, </l>
+       <l>Like little rounded gems of silver sheen, </l>
+       <l>While curling tendrils grasp with vigorous hold </l>
+       <l>The stem that bears them! All looks young and fresh. </l>
+       <l>The very spider through his circled cage </l>
+       <l>Of wiry woof, amongst the buds suspended, </l>
+       <l>Scarce seems a loathly thing, but like the small </l>
+       <l>Imprison'd bird of some capricious nymph. </l>
+       <l>Is it not so, my father?</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul.</speaker>
+      <lg>
+       <l>Yes, morn and youth and freshness sweetly join, </l>
+       <l>And are the emblems of dear changeful days. </l>
+       <l>By night those beauteous things—</l>
+      </lg>
+     </sp>
+     <sp who="#portia">
+      <speaker>Portia.</speaker>
+      <lg>
+       <l> And what of night? </l>
+       <l>Why do you check your words? You are not sad?</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul.</speaker>
+      <lg>
+       <l>No, Portia; only angry with myself </l>
+       <l>For crossing thy gay stream of youthful thoughts </l>
+       <l>With those of sullen age. Away with them! </l>
+       <l>What if those bright-leaved flowers, so soft and silken, </l>
+       <l>Are gather'd into dank and wrinkled folds </l>
+       <l>When evening chills them, or upon the earth, </l>
+       <l>With broken stems and buds torn and dispersed, </l>
+       <l>Lie prostrate, of fair form and fragrance reft </l>
+       <l>When midnight winds pass o'er them; be it so! </l>
+       <l>All things but have their term. </l>
+       <l>In truth, my child, I'm glad that I indulged thee </l>
+       <l>By coming forth at such an early hour </l>
+       <l>To pay thy worship to so sweet a goddess, </l>
+       <l>Upon her yearly feast.</l>
+      </lg>
+     </sp>
+     <sp who="#portia">
+      <speaker>Portia.</speaker>
+      <lg>
+       <l>I thank you, father! On her feast, 'tis said, </l>
+       <l>That she, from mortal eye conceal'd, vouchsafes </l>
+       <l>Her presence in such sweet and flowery spots: </l>
+       <l>And where due offerings on her shrine are laid, </l>
+       <l>Blesses all seeds and shoots, and things of promise.</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul.</speaker>
+      <lg>
+       <l>How many places in one little day </l>
+       <l>She needs must visit then!</l>
+      </lg>
+     </sp>
+     <sp who="#portia">
+      <speaker>Portia.</speaker>
+      <lg>
+       <l>But she moves swift as thought. The hasty zephyr, </l>
+       <l>That stirr'd each slender leaf, now as we enter'd, </l>
+       <l>And made a sudden sound, by stillness follow'd, </l>
+       <l>Might be the rapid rustling of her robe.</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul.</speaker>
+      <lg>
+       <l>A pleasing fancy, Portia, for the moment, </l>
+       <l>Yet wild as pleasing.</l>
+      </lg>
+     </sp>
+     <sp who="#portia">
+      <speaker>Portia.</speaker>
+      <lg>
+       <l> Wherefore call it wild? </l>
+       <l>Full many a time I've listen'd when alone </l>
+       <l>In such fair spots as this, and thought I heard </l>
+       <l>Sweet mingled voices uttering varied tones </l>
+       <l>Of question and reply, pass on the wind, </l>
+       <l>And heard soft steps upon the ground; and then </l>
+       <l>The notion of bright Venus or Diana, </l>
+       <l>Or goddess-nymphs, would come so vividly </l>
+       <l>Into my mind, that I am almost certain </l>
+       <l>Their radiant forms were near me, though conceal'd </l>
+       <l>By subtle drapery of the ambient air. </l>
+       <l>And oh, how I have long'd to look upon them! </l>
+       <l>An ardent strange desire, though mix'd with fear. </l>
+       <l>Nay, do not smile, my father: such fair sights </l>
+       <l>Were seen — were often seen in ancient days: </l>
+       <l>The poets tell us so. </l>
+       <l>But look, the Indian roses I have foster'd </l>
+       <l>Are in full bloom; and I must gather them. </l>
+      </lg>
+     </sp>
+     <stage> [Exit eagerly.</stage>
+     <sp who="#sulpicius">
+      <speaker>Sul. </speaker>
+      <stage>(alone).</stage>
+      <lg>
+       <l>Go, gentle creature, thou art careless yet. </l>
+       <l>Ah! couldst thou so remain, and still with me </l>
+       <l>Be as in years gone by!—It may not be; </l>
+       <l>Nor should I wish it: all things have their season: </l>
+       <l>She may not now remain an old man's treasure, </l>
+       <l>With all her woman's beauty grown to blossom. </l>
+      </lg>
+      <stage>Enter Orceres.</stage>
+      <lg>
+       <l>The Parthian prince at such an early hour?</l>
+      </lg>
+     </sp>
+     <sp who="#orceres">
+      <speaker>Or.</speaker>
+      <lg>
+       <l>And who considers hours, whose heart is bent </l>
+       <l>On what concerns a lover and a friend? </l>
+       <l>Where is thy daughter?</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul.</speaker>
+      <lg>
+       <l>Within yon flowery thicket, blithe and careless; </l>
+       <l>For though she loves, 'tis with sweet, maiden fancy, </l>
+       <l>That, not impatient, looks in cheering hope </l>
+       <l>To future years.</l>
+      </lg>
+     </sp>
+     <sp who="#orceres">
+      <speaker>Or.</speaker>
+      <lg>
+       <l> Ay, 'tis a shelter'd passion, </l>
+       <l>A cradled love, by admiration foster'd: </l>
+       <l>A showy, toward nurse for babe so bashful. </l>
+       <l>Thus in the shell, athwart whose snowy lining </l>
+       <l>Each changeful tint of the bright rainbow plays, </l>
+       <l>A little pearl is found, in secret value </l>
+       <l>Surpassing all the rest.</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul.</speaker>
+      <lg>
+       <l> But sayst thou nothing </l>
+       <l>Of what I wish to hear? What of Cordenius?</l>
+      </lg>
+     </sp>
+     <sp who="#orceres">
+      <speaker>Or.</speaker>
+      <lg>
+       <l>By my good war-bow and its barbed shafts! </l>
+       <l>By the best war-horse archer e'er bestrode! </l>
+       <l>I'm still in ignorance; I have not seen him.</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul.</speaker>
+      <lg>
+       <l>Thou hast not seen him! this is very strange.</l>
+      </lg>
+     </sp>
+     <sp who="#orceres">
+      <speaker>Or.</speaker>
+      <lg>
+       <l>So it indeed appears.—My wayward friend </l>
+       <l>Has from his home been absent. Yesterday, </l>
+       <l>There and elsewhere I sought, but found him not. </l>
+       <l>This morning by the dawn again I sought him, </l>
+       <l>Thinking to find him surely and alone; </l>
+       <l>But his domestics, much amazed, have told me, </l>
+       <l>He is not yet return'd.</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul.</speaker>
+      <lg>
+       <l>Hush! through yon thicket I perceive a man.</l>
+      </lg>
+     </sp>
+     <sp who="#orceres">
+      <speaker>Or.</speaker>
+      <lg>
+       <l>Some thief or spy.</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul.</speaker>
+      <lg>
+       <l>Let us withdraw awhile, </l>
+       <l> And mark his motions; he observes us not.</l>
+      </lg>
+     </sp>
+     <stage>Enter Cordenius from a thicket in the background.</stage>
+     <sp who="#cordenius_maro">
+      <speaker>Cor. </speaker>
+      <stage>(after looking round him with delight).</stage>
+      <lg>
+       <l>Sweet light of day, fair sky, and verdant earth, </l>
+       <l>Enrich'd with every beauteous herb and flower, </l>
+       <l>And stately trees, that spread their boughs, like tents, </l>
+       <l>For shade and shelter, how I hail you now! </l>
+       <l>Ye are His works, who made such fair abodes </l>
+       <l>For happy innocence, yet, in the wreck </l>
+       <l>Of foul perversion, has not cast us off. </l>
+      </lg>
+      <stage> [Stooping to look at the flowers.</stage>
+      <lg>
+       <l>Ye little painted things, whose varied hues </l>
+       <l>Charm, e'en to wonderment; that mighty hand </l>
+       <l>Which dyes the mountain's peak with rosy tints </l>
+       <l>Sent from the rising sun, and to the barb'd </l>
+       <l>Destructive lightning gives its ruddy gleam, </l>
+       <l>Grand and terrific, thus adorns even you! </l>
+       <l>There is a father's full unstinted love </l>
+       <l>Display'd o'er all, and thus on all I gaze </l>
+       <l>With the keen thrill of new-waked ecstasy. </l>
+       <l>What voice is that so near me and so sweet?</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>Her voice indeed, and this my fav'rite song! </l>
+       <l>It is that gentle creature, my sweet Portia. </l>
+       <l>I call her mine, because she is the image </l>
+       <l>Which hath possess'd my fancy. Such vain thoughts </l>
+       <l>Must now give place. I will not linger here. </l>
+       <l>This is the garden of Sulpicius; </l>
+       <l>How have I miss'd my path? She sings again. </l>
+      </lg>
+      <stage> [Sings without, as before.</stage>
+      <lg>
+       <l>She wanders fitfully from lay to lay, </l>
+       <l>But all of them some air that I have praised </l>
+       <l>In happy hours gone by.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>O gentle, sweet, and cheerful! form'd to be </l>
+       <l>Whate'er my heart could prize of treasured love! </l>
+       <l>Dear as thou art, I will not linger here.</l>
+      </lg>
+     </sp>
+     <stage>Re-enter Sulpicius and Orceres, breaking out upon him, and Orceres
+                        catching hold of his robe as he is going off.</stage>
+     <sp who="#orceres">
+      <speaker>Or.</speaker>
+      <lg>
+       <l>Ha! noble Maro, to a coward turn'd, </l>
+       <l>Shunning a spot of danger!</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul.</speaker>
+      <lg>
+       <l> Stay, Cordenius. </l>
+       <l>The fellest foe thou shalt contend with here, </l>
+       <l>Is she thou callst so gentle. As for me, </l>
+       <l>I do not offer thee this hand more freely </l>
+       <l>Than I will grant all that may make thee happy, </l>
+       <l>If Portia has that power.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>And dost thou mean, in very earnest mean, </l>
+       <l>That thou wilt give me Portia—thy dear Portia? </l>
+       <l>My fancy catches wildly at thy words.</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul.</speaker>
+      <lg>
+       <l>And truly too, Cordenius. She is thine, </l>
+       <l>If thou wilt promise me to love her truly.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor. </speaker>
+      <stage>(eagerly clasping the knees, and then kissing the hands of
+                            Sulpicius).</stage>
+      <lg>
+       <l>Thanks, thanks! —thanks from my swoln, o'erflowing heart, </l>
+       <l>Which has no words.—Friend, father, Portia's father! </l>
+       <l>The thought creates in me such sudden joy, </l>
+       <l>I am bewilder'd with it.</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul.</speaker>
+      <lg>
+       <l> Calm thy spirits.— </l>
+       <l>Thou shouldst in meeter form have known it sooner, </l>
+       <l>Had not the execution of those Christians— </l>
+       <l>(Pests of the earth, whom on one burning pile, </l>
+       <l>With all their kind, I would most gladly punish,) </l>
+       <l>Till now prevented me. Thy friend, Orceres— </l>
+       <l>Thou owest him thanks—pled for thee powerfully, </l>
+       <l>And had my leave. But dost thou listen to me? </l>
+       <l>Thy face wears many colours, and big drops </l>
+       <l>Burst from thy brow, whilst thy contracted lips </l>
+       <l>Quiver, like one in pain.</l>
+      </lg>
+     </sp>
+     <sp who="#orceres">
+      <speaker>Or.</speaker>
+      <lg>
+       <l> What sudden illness racks thee?</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>I may not tell you now: let me depart.</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul. </speaker>
+      <stage>(holding him).</stage>
+      <lg>
+       <l>Thou art my promised son; I have a right </l>
+       <l>To know whate'er concerns thee,—pain or pleasure.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>And so thou hast, and I may not deceive thee. </l>
+       <l>Take, take, Sulpicius.—O such with'ring words! </l>
+       <l>The sinking, sick'ning heart and parched mouth! </l>
+       <l>I cannot utter them.</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul.</speaker>
+      <lg>
+       <l> Why in this agony of perturbation? </l>
+       <l>Nay, strive not now to speak.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l> I must, I must!— </l>
+       <l>Take back thy proffer'd gift; all earth could give;— </l>
+       <l>That which it cannot give I must retain.</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul.</speaker>
+      <lg>
+       <l>What words were these? If it were possible, </l>
+       <l>I could believe thee touch'd with sorcery, </l>
+       <l>The cursed art of those vile Nazarenes. </l>
+       <l>Where hast thou pass'd the night? their haunts are near.</l>
+      </lg>
+     </sp>
+     <sp who="#orceres">
+      <speaker>Or.</speaker>
+      <lg>
+       <l>Nay, nay; repress thine anger; noble Maro </l>
+       <l>May not be question'd thus.</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul.</speaker>
+      <lg>
+       <l>He may and shall. And yet I will not urge him, </l>
+       <l>If he, with hand press'd on his breast, will say, </l>
+       <l>That he detests those hateful Nazarenes.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>No; though my life, and what is dearer far, </l>
+       <l>My Portia's love, depended on the words, </l>
+       <l>I would not, and I durst not utter them.</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul.</speaker>
+      <lg>
+       <l>I see it well: thou art ensnared and blinded </l>
+       <l>By their enchantments. Demoniac power </l>
+       <l>Will drag thee to thy ruin. Cast it off; </l>
+       <l>Defy it. Say thou wilt forbear all intercourse </l>
+       <l>With this detested sect. Art thou a madman?</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>If I am mad, that which possesses me </l>
+       <l>Outvalues all philosophers e'er taught, </l>
+       <l>Or poets e'er imagined.—Listen to me. </l>
+       <l>Call ye these Christians vile, because they suffer </l>
+       <l>Pains nature shrinks from, rather than deny </l>
+       <l>What seems to them the truth? Call ye them sorcerers, </l>
+       <l>Because their words impart such high conceptions </l>
+       <l>Of power creative and parental love, </l>
+       <l>In one great Being join'd, as makes the heart </l>
+       <l>Bound with ennobling thoughts? Call ye them curst, </l>
+       <l>Who daily live in steady strong assurance </l>
+       <l>Of endless blessedness? O, listen to me!</l>
+      </lg>
+     </sp>
+     <stage>Re-enter Portia, bursting from a thicket close to them.</stage>
+     <sp who="#portia">
+      <speaker>Portia.</speaker>
+      <lg>
+       <l>O, listen to him, father!</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul.</speaker>
+      <lg>
+       <l>Let go my robe, fond creature! Listen to him! </l>
+       <l>The song of syrens were less fatal. Charms </l>
+       <l>Of dire delusion, luring on to ruin, </l>
+       <l>Are mingled with the words that speak their faith; </l>
+       <l>They, who once hear them, flutter round destruction </l>
+       <l>With giddy fascination, like the moth, </l>
+       <l>Which, shorn of half its form, all scorch'd and shrivell'd, </l>
+       <l>Still to the torch returns. I will not listen; </l>
+       <l>No, Portia, nor shalt thou.</l>
+      </lg>
+     </sp>
+     <sp who="#portia">
+      <speaker>Portia.</speaker>
+      <lg>
+       <l> O, say not so! </l>
+       <l>For if you listen to him, you may save him, </l>
+       <l>And win him from his errors.</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul.</speaker>
+      <lg>
+       <l>Vain hope! vain hope! What is man's natural reason </l>
+       <l>Opposed to demon subtlety? Cordenius! </l>
+       <l>Cordenius Maro! I adjure thee, go! </l>
+       <l>Leave me; why wouldst thou pull destruction on me? </l>
+       <l>On one who loved thee so, that though possess'd </l>
+       <l>Of but one precious pearl, most dearly priz'd, </l>
+       <l>Prized more than life, yet would have given it to thee. </l>
+       <l>I needs must weep: e'en for thyself I weep.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>Weep not, my kind Sulpicius! I will leave thee, </l>
+       <l>Albeit the pearl thou wouldst bestow upon me </l>
+       <l>Is, in my estimation, dearer far </l>
+       <l>Than life, or power, or fame, or earthly thing. </l>
+       <l>When these fierce times are past, thou wilt, perhaps, </l>
+       <l>Think of me with regard, but not with pity, </l>
+       <l>How fell soe'er my earthly end hath been, </l>
+       <l>For I shall then be blest. And thou, dear Portia, </l>
+       <l>Wilt thou remember me? That thought, alas! </l>
+       <l>Dissolves my soul in weakness.— </l>
+       <l>O, to be spared, if it were possible, </l>
+       <l>This stroke of agony! Is it not possible, </l>
+       <l>That I might yet—Almighty God forgive me! </l>
+       <l>Weak thoughts will lurk in the devoted heart, </l>
+       <l>But not be cherish'd there. I may not offer </l>
+       <l>Aught short of all to Thee!— </l>
+       <l>Farewell, farewell! sweet Portia, fare thee well! </l>
+      </lg>
+      <stage> [Orceres catches hold of him to prevent his going.</stage>
+      <lg>
+       <l>Retain me not: I am a Parthian now. </l>
+       <l>My strength is in retreat. </l>
+      </lg>
+     </sp>
+     <stage> [Exit.</stage>
+     <sp who="#portia">
+      <speaker>Portia.</speaker>
+      <lg>
+       <l>That noble mind! and must it then be ruin'd? </l>
+       <l>O save him, save him, father! Brave Orceres, </l>
+       <l>Wilt thou not save thy friend, the noble Maro?</l>
+      </lg>
+     </sp>
+     <sp who="#orceres">
+      <speaker>Or.</speaker>
+      <lg>
+       <l>We will, sweet maid, if it be possible. </l>
+       <l>We'll keep his faith a secret in our breasts; </l>
+       <l>And he may yet, if not by circumstances </l>
+       <l>Provoked to speak, conceal it from the world.</l>
+      </lg>
+     </sp>
+     <sp who="#portia">
+      <speaker>Portia.</speaker>
+      <lg>
+       <l>And you, my father?</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul.</speaker>
+      <lg>
+       <l> I will not betray him.</l>
+      </lg>
+     </sp>
+     <sp who="#portia">
+      <speaker>Portia.</speaker>
+      <lg>
+       <l>Then all may yet be well; for our great gods, </l>
+       <l>Whom Cæsar and his subject-nations worship, </l>
+       <l>Will not abandon Rome's best, bravest soldier </l>
+       <l>To power demoniac. That can never be, </l>
+       <l>If they indeed regard us.</l>
+      </lg>
+     </sp>
+     <sp who="#orceres">
+      <speaker>Or.</speaker>
+      <lg>
+       <l>Were he in Parthia, our great god, the sun, </l>
+       <l>Or rather he who in that star resides, </l>
+       <l>Would not permit his power to be so thwarted </l>
+       <l>For all the demonry that e'er exerted </l>
+       <l>Its baleful influence on wretched men. </l>
+       <l>Beshrew me! for a thought gleams through my brain </l>
+       <l>It is this God, perhaps, with some new name, </l>
+       <l>Which these bewilder'd Nazarenes adore.</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul.</speaker>
+      <lg>
+       <l>With impious rites, most strange and horrible.</l>
+      </lg>
+     </sp>
+     <sp who="#orceres">
+      <speaker>Or.</speaker>
+      <lg>
+       <l>If he, my friend, in impious rites hath join'd, </l>
+       <l>Demons, indeed, have o'er the soul of man </l>
+       <l>A power to change its nature. Ay, Sulpicius; </l>
+       <l>And thou and I may, ere a day shall pass, </l>
+       <l>Be very Nazarenes. We are in ignorance; </l>
+       <l>We shoot our arrow in the dark, and cry, </l>
+       <l>“It is to wound a foe.” Come, gentle Portia; </l>
+       <l>Be not so sad; the man thou lovest is virtuous, </l>
+       <l>And brave, and loves thee well; why then despair?</l>
+      </lg>
+     </sp>
+     <sp who="#portia">
+      <speaker>Portia.</speaker>
+      <lg>
+       <l>Alas! I know that he is brave and virtuous, </l>
+       <l>Therefore, I do despair.</l>
+      </lg>
+     </sp>
+     <sp who="#orceres">
+      <speaker>Or.</speaker>
+      <lg>
+       <l> In Nero's court, </l>
+       <l>Such men are ever on the brink of danger, </l>
+       <l>But wouldst thou have him other than he is?</l>
+      </lg>
+     </sp>
+     <sp who="#portia">
+      <speaker>Portia.</speaker>
+      <lg>
+       <l>O no! I would not; that were base and sordid; </l>
+       <l>Yet shed I tears, even like a wayward child </l>
+       <l>Who weeps for that which cannot be attain'd,— </l>
+       <l>Virtue, and constancy, and safety join'd. </l>
+       <l>I pray thee pardon me, for I am wretched, </l>
+       <l>And that hath made me foolish and perverse.</l>
+      </lg>
+     </sp>
+     <stage> [Exeunt.</stage>
+    </div>
+   </div>
+   <div type="act" n="3">
+    <head>ACT III.</head>
+    <div type="scene" n="1">
+     <head>SCENE I.</head>
+     <stage>Before the gate of Nero's palace: guards, with their officers, discovered
+                        on duty.</stage>
+     <stage>Enter to them another officer, speaking, as he enters, to the soldiers.</stage>
+     <sp who="#officer-1st">
+      <speaker>1st offi.</speaker>
+      <lg>
+       <l>Strike up some sacred strain of Roman triumph; </l>
+       <l>The Pontiff comes to meet the summon'd council. </l>
+       <l>Omit not this respect, else he will deem </l>
+       <l>We are of those who love the Nazarenes. </l>
+       <l>Sing loud and clearly.</l>
+      </lg>
+     </sp>
+     <stage>Enter Pontiff, attended.</stage>
+     <sp who="#roman_pontiff">
+      <speaker>Pontiff.</speaker>
+      <lg>
+       <l>I thank you, soldiers! Rome, indeed, hath triumph'd, </l>
+       <l>Bless'd in the high protection of her gods, </l>
+       <l>The sov'reign warrior-nation of the world; </l>
+       <l>And, favour'd by great Jove and mighty Mars, </l>
+       <l>So may she triumph still, nor meanly stoop </l>
+       <l>To worship strange and meaner deities, </l>
+       <l>Adverse to warlike glory. </l>
+      </lg>
+     </sp>
+     <stage> [Exit, with his train.</stage>
+     <sp who="#officer-1st">
+      <speaker>1st offi.</speaker>
+      <lg>
+       <l>The Pontiff seems disturb'd, his brow is lowering.</l>
+      </lg>
+     </sp>
+     <sp who="#officer-2nd">
+      <speaker>2d offi.</speaker>
+      <lg>
+       <l>Reproof and caution, mingled with his thanks, </l>
+       <l>Though utter'd graciously.</l>
+      </lg>
+     </sp>
+     <sp who="#officer-1st">
+      <speaker>1st offi.</speaker>
+      <lg>
+       <l> He is offended, </l>
+       <l>Because of late so many valiant soldiers </l>
+       <l>Have proselytes become to this new worship; </l>
+       <l>A worship too, as he insinuates, </l>
+       <l>Unsuited to the brave.</l>
+      </lg>
+     </sp>
+     <sp who="#officer-3rd">
+      <speaker>3d offi.</speaker>
+      <lg>
+       <l>Ay, ay! the sacred chickens are in danger.</l>
+      </lg>
+     </sp>
+     <sp who="#officer-2nd">
+      <speaker>2d offi.</speaker>
+      <lg>
+       <l>Sylvius is suspected, as I hear.</l>
+      </lg>
+     </sp>
+     <sp who="#officer-1st">
+      <speaker>1st offi.</speaker>
+      <lg>
+       <l>Hush! let us to our duty; it is time </l>
+       <l>To change the inner guard.</l>
+      </lg>
+     </sp>
+     <stage> [Exeunt, with music, into the gate of the palace.</stage>
+    </div>
+    <div type="scene" n="2">
+     <head>SCENE II.</head>
+     <stage>A council-chamber in the palace: Nero with his councillors discovered;
+                        Nero in the act of speaking.</stage>
+     <sp who="#nero">
+      <speaker>Nero.</speaker>
+      <lg>
+       <l>Yes, Servius; formerly we have admitted, </l>
+       <l>As minor powers, amongst the ancient gods </l>
+       <l>Of high imperial Rome, the foreign deities </l>
+       <l>Of friendly nations; but these Nazarenes </l>
+       <l>Scorn such association, proudly claiming </l>
+       <l>For that which is the object of their faith, </l>
+       <l>Sole, undivided homage: and our altars, </l>
+       <l>Our stately temples, the majestic forms </l>
+       <l>Of Mars, Apollo, thund'ring Jove himself, </l>
+       <l>By sculptor's art divine so nobly wrought, </l>
+       <l>Are held by these mad zealots in contempt. </l>
+       <l>Examine, sayst thou! shall imperial Cæsar </l>
+       <l>Deign to examine what withstands his power? </l>
+       <l>I marvel at thy folly, Servius Sillus.</l>
+      </lg>
+     </sp>
+     <stage>Enter an Officer.</stage>
+     <sp who="#officer">
+      <speaker>Offi.</speaker>
+      <lg>
+       <l>The Pontiff, mighty Cæsar, waits without </l>
+       <l>And craves admittance.</l>
+      </lg>
+     </sp>
+     <sp who="#nero">
+      <speaker>Nero.</speaker>
+      <lg>
+       <l> Let him be admitted. </l>
+      </lg>
+      <stage>Enter Pontiff.</stage>
+      <lg>
+       <l>Pontiff, thy visage, if I read it well, </l>
+       <l>Says that some weighty matter brings thee here: </l>
+       <l>Thou hast our leave to speak.</l>
+      </lg>
+     </sp>
+     <sp who="#roman_pontiff">
+      <speaker>Pontiff.</speaker>
+      <lg>
+       <l>Imperial Nero, didst thou not condemn, </l>
+       <l>That eloquent, but pestilential Nazarene, </l>
+       <l>The Grecian Ethocles, whose specious words </l>
+       <l>Wrap in delusion all who listen to him, </l>
+       <l>Spreading his baleful errors o'er the world?</l>
+      </lg>
+     </sp>
+     <sp who="#nero">
+      <speaker>Nero.</speaker>
+      <lg>
+       <l>Did I condemn him! E'en this very day, </l>
+       <l>He in the Amphitheatre meets his doom; </l>
+       <l>Having, I trust, no power of words to charm </l>
+       <l>The enchafed lion, or the famish'd wolf.</l>
+      </lg>
+     </sp>
+     <sp who="#roman_pontiff">
+      <speaker>Pontiff.</speaker>
+      <lg>
+       <l>I am inform'd, and I believe it true, </l>
+       <l>That this bold malefactor is enlarged.</l>
+      </lg>
+     </sp>
+     <sp who="#nero">
+      <speaker>Nero.</speaker>
+      <lg>
+       <l>It is impossible! Cordenius Maro </l>
+       <l>Is sworn to guard the prisoner; or, failing, </l>
+       <l>(How could he fail?) </l>
+       <l>to pay with his own life </l>
+       <l>The forfeit. But behold his fav'rite friend, </l>
+       <l>The Parthian prince, who will inform us truly. </l>
+      </lg>
+      <stage>Enter Orceres, followed by Sulpicius.</stage>
+      <lg>
+       <l>Orceres, is thy friend Cordenius coming? </l>
+       <l>I have commanded him, and at this hour, </l>
+       <l>To bring his guarded prisoner to the palace, </l>
+       <l>Here to remain till the appointed time.</l>
+      </lg>
+     </sp>
+     <sp who="#orceres">
+      <speaker>Or.</speaker>
+      <lg>
+       <l>I know not; nor have I beheld Cordenius </l>
+       <l>Since yesterday; when, at an early hour, </l>
+       <l>Sulpicius and myself met him by chance: </l>
+       <l>But for the prisoner, he is at hand, </l>
+       <l>E'en at the palace gate; for as we enter'd </l>
+       <l>We saw him there, well circled round with guards, </l>
+       <l>Though in the martial throng we saw not Maro.</l>
+      </lg>
+     </sp>
+     <sp who="#nero">
+      <speaker>Nero </speaker>
+      <stage>(to the pontiff).</stage>
+      <lg>
+       <l>Said I not so? </l>
+      </lg>
+      <stage>(To an officer.)</stage>
+      <lg>
+       <l>Command them instantly </l>
+       <l>To bring this wordy Grecian to our presence. </l>
+      </lg>
+      <stage> [Exit officer.</stage>
+      <lg>
+       <l>Sulpicius, thou hast known this Ethocles; </l>
+       <l>Is he a madman or ambitious knave, </l>
+       <l>Who sought on human folly to erect </l>
+       <l>A kind of fancied greatness for himself?</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul.</speaker>
+      <lg>
+       <l>I know not which, great Nero.</l>
+      </lg>
+     </sp>
+     <sp who="#nero">
+      <speaker>Nero.</speaker>
+      <lg>
+       <l>And didst thou not advise me earnestly </l>
+       <l>To rid the state of such a pestilence?</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul.</speaker>
+      <lg>
+       <l>And so I still advise thee; for this Greek </l>
+       <l>Is dang'rous above all, who with their lives, </l>
+       <l>Have yet paid forfeit for their strange belief. </l>
+       <l>They come: the prisoner in foreign garb </l>
+       <l>So closely wrapp'd, I scarcely see his face.</l>
+      </lg>
+     </sp>
+     <stage>Enter prisoner, attended.</stage>
+     <sp who="#roman_pontiff">
+      <speaker>Pontiff.</speaker>
+      <lg>
+       <l>If it in truth be he.</l>
+      </lg>
+     </sp>
+     <sp who="#nero">
+      <speaker>Nero </speaker>
+      <stage>(to the pontiff).</stage>
+      <lg>
+       <l>Dost thou still doubt? </l>
+      </lg>
+      <stage>(To the prisoner.)</stage>
+      <lg>
+       <l>Stand forth, audacious rebel to my will! </l>
+       <l>Dost thou still brave it, false and subtle spirit?</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor. </speaker>
+      <stage>(throwing off his Grecian cloak, and advancing to Nero).</stage>
+      <lg>
+       <l>I am not false, Augustus; but if subtle, </l>
+       <l>Add to my punishment what shall be deem'd </l>
+       <l>Meet retribution. I have truly sworn, </l>
+       <l>Or to produce thy thrall, or, therein failing, </l>
+       <l>To give my life for his; and here I stand. </l>
+       <l>Ethocles, by a higher power than thine, </l>
+       <l>Is yet reserved for great and blessed ends. </l>
+       <l>Take thou the forfeit; I have kept my oath.</l>
+      </lg>
+     </sp>
+     <sp who="#nero">
+      <speaker>Nero.</speaker>
+      <lg>
+       <l>I am amazed beyond the power of utt'rance! </l>
+       <l>Grows it to such a pitch that Rome's brave captains </l>
+       <l>Are by this wizard sorcery so charm'd? </l>
+       <l>Then it is time, good sooth! that sweeping vengeance </l>
+       <l>Should rid the earth of every tainted thing </l>
+       <l>Which that curst sect hath touch'd. Cordenius Maro, </l>
+       <l>Thou who hast fought our battles, graced our state, </l>
+       <l>And borne a noble Roman's honour'd name, </l>
+       <l>What, O what power could tempt thee to this shame?</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>I have been tempted by that mighty Power </l>
+       <l>Who gave to Rome her greatness, to the earth </l>
+       <l>Form and existence; yea, and to the soul </l>
+       <l>Of living, active man, sense and perception: </l>
+       <l>But not to shame, O Cæsar! not to shame!</l>
+      </lg>
+     </sp>
+     <sp who="#nero">
+      <speaker>Nero.</speaker>
+      <lg>
+       <l>What, hast thou not become a Nazarene, </l>
+       <l>As now I apprehended? Say, thou hast not; </l>
+       <l>And though thy present act is most audacious, </l>
+       <l>Yet will I spare thy life.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>If thou wouldst spare my life, and to that grace </l>
+       <l>Add all the wealth of Rome, and all the power </l>
+       <l>Of Rome's great lord, I would not for the bribe </l>
+       <l>Be other than I am, or what I am </l>
+       <l>Basely deny.</l>
+      </lg>
+     </sp>
+     <sp who="#nero">
+      <speaker>Nero.</speaker>
+      <lg>
+       <l>Thou art a Christian, then? Thou art a maniac!</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>I am a man, who, seeing in the flames </l>
+       <l>Those dauntless Christians suffer, long'd to know </l>
+       <l>What power could make them brave the fear of death, </l>
+       <l>Disgrace, and infamy. And I have learnt </l>
+       <l>That they adore a God,—one God, supreme, </l>
+       <l>Who, over all men, His created sons, </l>
+       <l>Rules as a father; and beholding sin, </l>
+       <l>Growth of corruption, mar this earthly race, </l>
+       <l>Sent down to earth His sinless heavenly son, </l>
+       <l>Who left, with generous devoted love, </l>
+       <l>His state of exaltation and of glory, </l>
+       <l>To win them back to virtue, yea, to virtue </l>
+       <l>Which shall be crown'd with never-ending bliss. </l>
+       <l>I've learnt that they with deep adoring gratitude </l>
+       <l>Pay homage to that Son, the sent of God, </l>
+       <l>Who here became a willing sacrifice </l>
+       <l>To save mankind from sin and punishment, </l>
+       <l>And earn for them a better life hereafter, </l>
+       <l>When mortal life is closed. The heart's deep homage </l>
+       <l>Becometh well such creatures, so redeem'd.</l>
+      </lg>
+     </sp>
+     <sp who="#nero">
+      <speaker>Nero.</speaker>
+      <lg>
+       <l>Out on that dreaming madness!</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l> Is it madness </l>
+       <l>To be the humble follower of Him, </l>
+       <l>Who left the bliss of heaven to be for us </l>
+       <l>A man on earth, in spotless virtue living, </l>
+       <l>As man ne'er lived: such words of comfort speaking, </l>
+       <l>To rouse, and elevate, and cheer the heart, </l>
+       <l>As man ne'er spoke; and suff'ring poverty, </l>
+       <l>Contempt, and wrong, and pain, and death itself, </l>
+       <l>As man ne'er suffer'd? O, if this be madness, </l>
+       <l>Which makes each generous impulse of my nature </l>
+       <l>Warm into ecstasy, each towering hope </l>
+       <l>Rise to the noblest height of bold conception; </l>
+       <l>That which is reason call'd, and yet has taught you </l>
+       <l>To worship different gods in every clime, </l>
+       <l>As dull and wicked as their worshippers, </l>
+       <l>Compared to it, is poor, confined, and mean, </l>
+       <l>As is the Scythian's curtain'd tent, compared </l>
+       <l>With the wide range of fair, expanded nature.</l>
+      </lg>
+     </sp>
+     <sp who="#nero">
+      <speaker>Nero.</speaker>
+      <lg>
+       <l>Away, away, with all those lofty words! </l>
+       <l>They but bewilder thee.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>Yet hear them, Nero! O resist them not! </l>
+       <l>Perhaps they are appointed for thy good, </l>
+       <l>And for the good of thousands. When these hands </l>
+       <l>Which have so oft done Rome a soldier's service, </l>
+       <l>This tongue which speaks to thee, are turn'd to ashes, </l>
+       <l>What now appears so wild and fanciful, </l>
+       <l>May be remember'd with far other feelings. </l>
+       <l>It is not life that I request of Nero, </l>
+       <l>Although I said these hands have fought for Rome. </l>
+       <l>No; in the presence of these senators, </l>
+       <l>First bind thyself by every sacred oath </l>
+       <l>To give this body to the flames, then hear me; </l>
+       <l>O could I speak what might convince Rome's chief, </l>
+       <l>Her senators, her tribes, her meanest slaves, </l>
+       <l>Of Christ's most blessed truth, the fatal pile </l>
+       <l>Would be to me a car of joyful triumph, </l>
+       <l>Mounted more gladly than the laurell'd hero </l>
+       <l>Vaults to his envied seat, while Rome's throng'd streets </l>
+       <l>Resound his shouted name. Within me stirs </l>
+       <l>The spirit of truth and power which spoke to me, </l>
+       <l>And will upon thy mind—</l>
+      </lg>
+     </sp>
+     <sp who="#nero">
+      <speaker>Nero.</speaker>
+      <lg>
+       <l> I charge thee cease!</l>
+      </lg>
+     </sp>
+     <sp who="#orceres">
+      <speaker>Or.</speaker>
+      <lg>
+       <l>Nay, Emperor! might I entreat for him?</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor. </speaker>
+      <stage>(catching hold of Orceres eagerly).</stage>
+      <lg>
+       <l>Not for my life.</l>
+      </lg>
+     </sp>
+     <sp who="#orceres">
+      <speaker>Or.</speaker>
+      <lg>
+       <l> No; not for that, brave Maro! </l>
+      </lg>
+      <stage>(To Nero.)</stage>
+      <lg>
+       <l>Let me entreat that he may freely speak. </l>
+       <l>Fearst thou he should convince thee by his words? </l>
+       <l>That were a foul affront to thine own reason, </l>
+       <l>Or to the high divinities of Rome.</l>
+      </lg>
+     </sp>
+     <sp who="#nero">
+      <speaker>Nero.</speaker>
+      <lg>
+       <l>Cease, Prince of Parthia! nor too far presume </l>
+       <l>Upon a noble stranger's privilege.</l>
+      </lg>
+     </sp>
+     <sp who="#roman_pontiff">
+      <speaker>Pontiff.</speaker>
+      <lg>
+       <l>Shall words so bold be to thine car august </l>
+       <l>So freely utter'd with impunity?</l>
+      </lg>
+     </sp>
+     <sp who="#orceres">
+      <speaker>Or.</speaker>
+      <lg>
+       <l>Pontiff; I much revere thy sacred office, </l>
+       <l>But scorn thy paltry words. Not freely speak! </l>
+       <l>Not with impunity! Is this a threat? </l>
+       <l>Let Rome's great master, or his angry slaves, </l>
+       <l>Shed one drop of my blood, and on our plains, </l>
+       <l>Where heretofore full many a Roman corse, </l>
+       <l>With Parthian arrows pierced, have vultures fed, </l>
+       <l>Twice thirty thousand archers in array, </l>
+       <l>Each with his bow strain'd for the distant mark, </l>
+       <l>Shall quickly stand, impatient for revenge. </l>
+       <l>Not with impunity!</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul.</speaker>
+      <lg>
+       <l>Nay, nay, Orceres! with such haughty words </l>
+       <l>Thou'lt injure him thou pleadst for. Noble Cæsar! </l>
+       <l>Permit an aged man, a faithful servant, </l>
+       <l>To speak his thoughts. This brave deluded youth </l>
+       <l>Is now, as I sincerely do believe, </l>
+       <l>Beneath the power of strong and dire enchantment. </l>
+       <l>Hear not his raving words, but spare his life; </l>
+       <l>And when its power (for all delusion holds </l>
+       <l>Its power but for a season) shall be spent, </l>
+       <l>He will himself entreat your clemency, </l>
+       <l>And be again the soldier of the state, </l>
+       <l>Brave and obedient. Do not hear him now: </l>
+       <l>Command him to retire.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>I thank thee, good Sulpicius, but my life, </l>
+       <l>For which thou pleadst, take no account of that; </l>
+       <l>I yield it freely up to any death, </l>
+       <l>Cruel or merciful, which the decree </l>
+       <l>Of Cæsar shall inflict, for leave to speak </l>
+       <l>E'en but a few short moments. Princely Nero! </l>
+       <l>The strong enchantment which deludes my soul </l>
+       <l>Is, that I do believe myself the creature, </l>
+       <l>Subject, and soldier, if I so may speak, </l>
+       <l>Of an Almighty Father, King, and Lord, </l>
+       <l>Before whose presence, when my soul shall be </l>
+       <l>Of flesh and blood disrobed, I shall appear, </l>
+       <l>There to remain with all the great and good </l>
+       <l>That e'er have lived on earth, yea, and with spirits, </l>
+       <l>Higher than earth e'er own'd, in such pure bliss </l>
+       <l>As human heart conceives not,—if my life, </l>
+       <l>With its imperfect virtue, find acceptance </l>
+       <l>From pard'ning love and merey; but, if otherwise, </l>
+       <l>That I shall pass into a state of misery </l>
+       <l>With souls of wicked men and wrathful demons: </l>
+       <l>That I believe this earth on which we stand </l>
+       <l>Is but the vestibule to glorious mansions, </l>
+       <l>Through which a moving crowd for ever press; </l>
+       <l>And do regard the greatest Prince, who now </l>
+       <l>Inflicts short torment on this flesh, as one </l>
+       <l>Who but in passing rudely rends my robe. </l>
+       <l>And thinkest thou that I, believing this, </l>
+       <l>Will shrink to do His will whom I adore? </l>
+       <l>Or thinkest thou this is a senseless charm, </l>
+       <l>That soon will pass away?</l>
+      </lg>
+     </sp>
+     <sp who="#nero">
+      <speaker>Nero.</speaker>
+      <lg>
+       <l>High words, indeed, if resting on good proof! </l>
+       <l>A maniac's fancies may be grand and noble.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>Ay, now thou list'nest, as a man should listen, </l>
+       <l>With an inquiring mind. Let me produce </l>
+       <l>The proofs which have constrain'd me to believe, </l>
+       <l>From written lore and well-attested facts;— </l>
+       <l>Let me produce my proofs, and it may be </l>
+       <l>The Spirit of Truth may touch thy yielding heart, </l>
+       <l>And save thee from destruction.</l>
+      </lg>
+     </sp>
+     <sp who="#nero">
+      <speaker>Nero.</speaker>
+      <lg>
+       <l>Ha! dost thou think to make of me a convert? </l>
+       <l>Away, weak fool! and most audacious rebel! </l>
+       <l>Give proofs of thy obedience, not thy faith, </l>
+       <l>If thou wouldst earn thy pardon.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>If thou condemn me in the flames to die, </l>
+       <l>I will and must obey thee; if to live, </l>
+       <l>Disgraced by pardon won through treachery </l>
+       <l>To God, my King supreme, and His bless'd Christ, </l>
+       <l>I am, indeed, thy disobedient rebel.</l>
+      </lg>
+     </sp>
+     <sp who="#nero">
+      <speaker>Nero.</speaker>
+      <lg>
+       <l>And shall as such most dearly pay the forfeit. </l>
+       <l>Out!—take him from my presence till the time </l>
+       <l>Of public execution! </l>
+       <l>Cordenius Maro, thou shalt fall this day </l>
+       <l>By no ignoble foe;—a noble lion </l>
+       <l>Famish'd and fierce shall be thy adversary. </l>
+       <l>And dost thou smile and raise thy head at this, </l>
+       <l>In stately confidence?</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>God will deliver me from every adversary. </l>
+       <l>And thou too smilest.—Yes; he will deliver </l>
+       <l>That which I call myself. For this poor form </l>
+       <l>Which vests me round, I give it to destruction, </l>
+       <l>As gladly as the storm-beat traveller, </l>
+       <l>Who, having reach'd his destined place of shelter, </l>
+       <l>Drops at the door his mantle's cumbrous weight.</l>
+      </lg>
+     </sp>
+     <sp who="#nero">
+      <speaker>Nero </speaker>
+      <stage>(going).</stage>
+      <lg>
+       <l>Then to thy visionary hopes I leave thee, </l>
+       <l>Incorrigible man! Here, in this chamber </l>
+       <l>Keep him secure till the appointed hour. </l>
+      </lg>
+      <stage> [To the officers, &amp;c.</stage>
+      <lg>
+       <l>Off, good Sulpicius! hang not on me thus!</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul.</speaker>
+      <lg>
+       <l>O mighty Cæsar! countermand your orders: </l>
+       <l>Delay it but a month, a week, a day. </l>
+      </lg>
+     </sp>
+     <stage> [Exeunt Nero, Sulpicius, senators, &amp;c., Sulpicius still keeping
+                        close to Nero in the act of supplication.—Orceres, Cordenius, and guards
+                        remain, the guards standing respectfully at a distance in the background.</stage>
+     <sp who="#orceres">
+      <speaker>Or.</speaker>
+      <lg>
+       <l>Noble Cordenius! can thy martial spirit </l>
+       <l>Thus brook to be a public spectacle, </l>
+       <l>Fighting with savage beasts, the sport of fools, </l>
+       <l>Till thou shalt fall, deform'd and horrible, </l>
+       <l>Mangled and piecemeal torn? It must not be.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>Be not so moved, Orceres; I can bear it: </l>
+       <l>The God I worship, who hath made me humble, </l>
+       <l>Hath made me dauntless too. And for the shame </l>
+       <l>Which, as I guess, disturbs thee most, my Master, </l>
+       <l>The Lord and Leader I have sworn to follow, </l>
+       <l>Did as a malefactor end his days, </l>
+       <l>To save a lost, perverted race: shall I </l>
+       <l>Feel degradation, then, in following Him?</l>
+      </lg>
+     </sp>
+     <sp who="#orceres">
+      <speaker>Or.</speaker>
+      <lg>
+       <l>In this, alas! thou'lt follow Him too surely; </l>
+       <l>But whither, noble Maro?</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>E'en to my destined home, my Father's house.</l>
+      </lg>
+     </sp>
+     <sp who="#orceres">
+      <speaker>Or.</speaker>
+      <lg>
+       <l>And where is that? O, canst thou tell me where? </l>
+       <l>Beyond the ocean, or beneath the earth? </l>
+       <l>Be there more worlds than this, beyond our ken </l>
+       <l>In regions vast, above the lofty stars? </l>
+       <l>Could we through the far stretch of space descry </l>
+       <l>E'en but the distant verge, though dimly mark'd, </l>
+       <l>Of any other world, I would believe </l>
+       <l>That virtuous men deceased have in good truth </l>
+       <l>A destined place of rest.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>Believe it—O, believe it, brave Orceres!</l>
+      </lg>
+     </sp>
+     <sp who="#orceres">
+      <speaker>Or.</speaker>
+      <lg>
+       <l>I'll try to do it. I'll become a Christian, </l>
+       <l>Were it but only to defy this tyrant.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>Thou must receive with a far different spirit </l>
+       <l>The faith of Jesus Christ. Perhaps thou wilt. </l>
+       <l>My heart leaps at the thought. When I am dead, </l>
+       <l>Remain in Rome no longer. In the East </l>
+       <l>Search thou for Ethocles, whom I have rescued; </l>
+       <l>And if he shall convert thee, O how richly </l>
+       <l>He will repay all I have done for him!— </l>
+       <l>But I would now withdraw a little space, </l>
+       <l>To pour my thoughts in prayer and thankfulness </l>
+       <l>To Him, the great, the good, the wise, the just, </l>
+       <l>Who holds man's spirit in His own high keeping, </l>
+       <l>And now supports my soul, and will support it, </l>
+       <l>Till my appointed task is done. In secret </l>
+       <l>The hearts by Jesus taught were bid to pray, </l>
+       <l>And, if it be permitted, so will I. </l>
+      </lg>
+      <stage>(To the guards, who advance as he speaks to them.)</stage>
+      <lg>
+       <l>My guards, and, some time past, my fellow soldiers, </l>
+       <l>Let me remain alone a little while, </l>
+       <l>And fear not my escape. If ye distrust me, </l>
+       <l>Watch well the door, and bind my hands with chains!</l>
+      </lg>
+     </sp>
+     <sp who="#officer-1st">
+      <speaker>1st offi.</speaker>
+      <lg>
+       <l>Yes, brave Cordenius, to another chamber </l>
+       <l>Thou mayst retire, and we will watch without. </l>
+       <l>But be thy person free: we will not bind, </l>
+       <l>With felon cord or chain, those valiant hands, </l>
+       <l>Which have so often for thy country fought, </l>
+       <l>Until we are commanded.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>I thank you all, my friends, and I believe </l>
+       <l>That I shall meet and thank you too hereafter; </l>
+       <l>For there is something in you God must love. </l>
+      </lg>
+      <stage>(To 1st officer.)</stage>
+      <lg>
+       <l>And, loving, will not give to reprobation. </l>
+       <l>Codrus, thou once didst put thy life in hazard, </l>
+       <l>And suffer much to save a helpless Greek </l>
+       <l>Who sought protection of thee. </l>
+      </lg>
+      <stage>(Turning to the 2d officer.)</stage>
+      <lg>
+       <l>Ay, and thou, </l>
+       <l>Young Lelius, once a rich and tempting ransom </l>
+       <l>Didst freely to a captive wretch remit. </l>
+       <l>Ye are of those whom Jesus came to save: </l>
+       <l>Yes; we shall meet hereafter. </l>
+      </lg>
+      <stage>(To 3d officer.)</stage>
+      <lg>
+       <l>And thou, my former enemy, weep'st thou? </l>
+       <l>We're enemies no more; thou art my brother. </l>
+       <l>I will retire; my little term of life </l>
+       <l>Runs fleetly on; I must not spend it thus. </l>
+      </lg>
+     </sp>
+     <stage> [Exeunt.</stage>
+    </div>
+    <div type="scene" n="3">
+     <head>SCENE III.</head>
+     <stage>A crowded amphitheatre: Nero and the senators discovered in the
+                        background sitting in state; Portia, by the side of Nero, in the act of
+                        supplication.</stage>
+     <stage>Enter Sulpicius on the front, meeting with another noble Roman.</stage>
+     <sp who="#sulpicius">
+      <speaker>Sul. </speaker>
+      <stage>(eagerly).</stage>
+      <lg>
+       <l>Is he advancing?</l>
+      </lg>
+     </sp>
+     <sp who="#noble_roman">
+      <speaker>Noble Roman.</speaker>
+      <lg>
+       <l> Yes, and close at hand, </l>
+       <l>Surrounded by a group of martial friends. </l>
+       <l>Oft have I seen him on a day of battle </l>
+       <l>March to the charge with noble portly gait; </l>
+       <l>But now he treads the ground with buoyant steps </l>
+       <l>Which from its surface spring, as though he press'd </l>
+       <l>Substance of renovating power. His form </l>
+       <l>Seems stately and enlarged beyond its wont; </l>
+       <l>And in his countenance, oft turn'd to heaven, </l>
+       <l>There is a look as if some god dwelt in him.</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul.</speaker>
+      <lg>
+       <l>How do the people greet him?</l>
+      </lg>
+     </sp>
+     <sp who="#noble_roman">
+      <speaker>Noble Roman.</speaker>
+      <lg>
+       <l> Every face </l>
+       <l>Gazing upon him, turns, with transit quick, </l>
+       <l>Pity to admiration. Warlike veterans </l>
+       <l>Are shedding tears like infants. As he pass'd </l>
+       <l>The legion he commanded in Armenia, </l>
+       <l>They raised a shout as if a victor came, </l>
+       <l>Saluting him with long and loud applause, </l>
+       <l>None daring to reprove them. </l>
+      </lg>
+      <stage> [Noise without of shouting.</stage>
+      <lg>
+       <l>Hark! he comes.</l>
+      </lg>
+     </sp>
+     <stage>Enter Cordenius, followed by Orceres and Sylvius, and attended by other
+                        friends, with guards, &amp;c.</stage>
+     <sp who="#sulpicius">
+      <speaker>Sul. </speaker>
+      <stage>(advancing eagerly to meet him).</stage>
+      <lg>
+       <l>Cordenius, Cordenius, hear a friend, </l>
+       <l>A faithful ancient friend; thy Portia's father! </l>
+       <l>At Nero's footstool she is pleading for thee, </l>
+       <l>And will not plead in vain, if thou wilt testify </l>
+       <l>A yielding mind, a willingness to live.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>I am so pleased to die, and am so honour'd </l>
+       <l>In dying for the pure and holy truth, </l>
+       <l>That nature's instinct seems in me extinguish'd. </l>
+       <l>But if the Emperor freely pardon me, </l>
+       <l>I shall believe it is the will of God </l>
+       <l>That I should yet on earth promote His service, </l>
+       <l>And, so believing, am content to live; </l>
+       <l>Living or dying, to His will resign'd.</l>
+      </lg>
+     </sp>
+     <stage>Enter Portia on the front, and catching hold of Cordenius with eagerness
+                        and great agitation.</stage>
+     <sp who="#portia">
+      <speaker>Portia.</speaker>
+      <lg>
+       <l>Cordenius, thou art pardon'd! Nero spares thee, </l>
+       <l>If thou wilt only say thou art a Roman, </l>
+       <l>In heart and faith, as all thy fathers were, </l>
+       <l>Or but forbear to say thou art a Christian.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>Thanks, gentle Portia! life preserved by thee, </l>
+       <l>E'en to be spent in want and contumely, </l>
+       <l>Rather than grieve thy kind and tender heart, </l>
+       <l>My dearest, gentlest friend! I had accepted: </l>
+       <l>But to deny my God, and put dishonour </l>
+       <l>Upon the noblest, most exalted faith </l>
+       <l>That ever was to human thoughts reveal'd, </l>
+       <l>Is what I will not—yea, and though a Roman, </l>
+       <l>A noble Roman, and a soldier too, </l>
+       <l>I dare not do. Let Nero have this answer.</l>
+      </lg>
+     </sp>
+     <sp who="#portia">
+      <speaker>Portia.</speaker>
+      <lg>
+       <l>No, not this answer, Maro; not this answer! </l>
+       <l>Cast not life from thee, dear, most dear Cordenius! </l>
+       <l>Life, too, which I should spend my life in cheering, </l>
+       <l>Cast it not from thee like a worthless thing.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>Because it is not worthless but most precious, </l>
+       <l>And now, when dear to thee, more precious far </l>
+       <l>Than I have e'er esteem'd it, 'tis an offering </l>
+       <l>More meet for God's acceptance; </l>
+       <l>Withheld from Him, not even thyself, sweet maid, </l>
+       <l>Couldst cheer its course, nor yet couldst thou be happy.</l>
+      </lg>
+     </sp>
+     <sp who="#portia">
+      <speaker>Portia.</speaker>
+      <lg>
+       <l>Nay, but I could!—to see thee still alive, </l>
+       <l>And by my side, mine own redeemed friend, </l>
+       <l>Should I not then be happy?</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>I should be by thy side, dear love! but thou, </l>
+       <l>With all thy excellence, couldst have no happiness, </l>
+       <l>Mated with one, whose living form alone </l>
+       <l>Could move upon the earth, while far adrift </l>
+       <l>His mind would dwell by ceaseless meditation, </l>
+       <l>In other worlds of blessedness or woe; </l>
+       <l>Lost to the one, and to the other link'd </l>
+       <l>By horrid sympathy, till his wrench'd nature </l>
+       <l>Should to a demon's fell and restless spirit </l>
+       <l>At last be changed.</l>
+      </lg>
+     </sp>
+     <sp who="#portia">
+      <speaker>Portia.</speaker>
+      <lg>
+       <l>Alas, alas! and dost thou then believe </l>
+       <l>That nought remains for thee but death or misery?</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>No, gentle Portia! firmly I believe </l>
+       <l>That I shall live in endless happiness, </l>
+       <l>And with the blest hereafter shall behold </l>
+       <l>Thy blessed self with ecstasy of love, </l>
+       <l>Exceeding every thought of earth-born passion, </l>
+       <l>As the fair morning star in lovely brightness </l>
+       <l>Excels a night-fly, twinkling through the gloom. </l>
+       <l>Live in this hope, dear Portia! hold it fast; </l>
+       <l>And may His blessing rest upon thy head, </l>
+       <l>Who loves the loving and the innocent! </l>
+       <l>Farewell, in love and hope! farewell, in peace! </l>
+       <l>Farewell, in quick'ning faith,—in holy joy!</l>
+      </lg>
+     </sp>
+     <sp who="#portia">
+      <speaker>Portia </speaker>
+      <stage>(clasping his knees).</stage>
+      <lg>
+       <l>Nay, let me yet conjure thee! </l>
+       <l>Make me not wretched, I who once was happy, </l>
+       <l>And happiest of all in loving thee.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>This is my anguish and my suffering! </l>
+       <l>O, good Sulpicius, bear her to her home.</l>
+      </lg>
+     </sp>
+     <sp who="#sulpicius">
+      <speaker>Sul. </speaker>
+      <stage>(leading her gently away, while she still clings to him).</stage>
+      <lg>
+       <l>Forbear, my child, thy tears are all in vain.</l>
+      </lg>
+     </sp>
+     <stage>Enter a Lictor.</stage>
+     <sp who="#lictor">
+      <speaker>Lictor.</speaker>
+      <lg>
+       <l>Cæsar forbids all further interruption </l>
+       <l>To his imperial sentence. Let Cordenius </l>
+       <l>Forthwith prepare him for the fatal fight. </l>
+       <l>This is mine office, and I must perform it. </l>
+      </lg>
+      <stage> [Begins to disrobe Cordenius, while Portia shrieks aloud, and is
+                            carried off in the arms of her father.</stage>
+      <lg>
+       <l>Disrobe thee, Maro, of those martial weeds.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>Gladly! for Him I serve;—my glorious Master </l>
+       <l>Hath braced me with an armour that defies </l>
+       <l>All hostile things; in which I'll strive more proudly </l>
+       <l>Than I have ever fought in field or breach </l>
+       <l>With Rome's or Nero's foes.</l>
+      </lg>
+     </sp>
+     <sp who="#lictor">
+      <speaker>Lictor.</speaker>
+      <lg>
+       <l>Cæsar desires thee also to remember, </l>
+       <l>That no ignoble audience, e'en thy Emperor, </l>
+       <l>And all the states of Rome, behold thy deeds.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>Tell him my deeds shall witness'd be by those </l>
+       <l>Compared to whom the Emperor of Rome, </l>
+       <l>With all her high estates, are but as insects </l>
+       <l>Hov'ring at mid-day o'er some tainted marsh. </l>
+       <l>I know full well that no ignoble audience </l>
+       <l>Are present, though from mortal eyes conceal'd. </l>
+       <l>Farewell, my friends! kind, noble friends, farewell! </l>
+      </lg>
+      <stage> [Apart to Sylvius, while Orceres goes off, re-appearing in another
+                            part of the theatre.</stage>
+      <lg>
+       <l>Sylvius, farewell! If thou shouldst e'er be call'd </l>
+       <l>To die a holy martyr for the truth, </l>
+       <l>God give thee then the joy which now I feel. </l>
+       <l>But keep thy faith conceal'd, till useful service </l>
+       <l>Shall call thee to maintain it. God be with thee! </l>
+      </lg>
+      <stage>(Looking round.)</stage>
+      <lg>
+       <l>Where is Orceres gone? I thought him near me.</l>
+      </lg>
+     </sp>
+     <sp who="#sylvius">
+      <speaker>Sylvius.</speaker>
+      <lg>
+       <l>'Tis but a moment since he left thy side </l>
+       <l>With eager haste.</l>
+      </lg>
+     </sp>
+     <sp who="#cordenius_maro">
+      <speaker>Cor.</speaker>
+      <lg>
+       <l>He would not see my death. I'm glad he's gone. </l>
+       <l>Say I inquired for him, and say I bless'd him. </l>
+       <l>—Now I am ready. Earthly friends are gone. </l>
+       <l>Angels and blessed spirits! to your fellowship </l>
+       <l>A few short pangs will bring me. </l>
+       <l>—O, Thou, who didst upon the cross for us </l>
+       <l>A willing suff'rer die, receive my soul! </l>
+       <l>Almighty God and Sire, supreme o'er all, </l>
+       <l>Pardon my sins and take me to Thyself! </l>
+       <l>Accept the last words of my earthly lips: </l>
+       <l>High hallelujah to Thy holy name! </l>
+      </lg>
+     </sp>
+     <stage> [A lion now appears, issuing from a low door at the end of the stage,
+                        and Cordenius, advancing to meet it, enters the arena, when Orceres from a
+                        lofty stand amongst the spectators, sends an arrow from his bow, which
+                        pierces Cordenius through the heart. He then disappears, and re-entering
+                        below, catches hold of his hand as Sylvius supports him from falling to the
+                        ground.</stage>
+     <sp who="#orceres">
+      <speaker>Or. </speaker>
+      <stage>(to Cordenius).</stage>
+      <lg>
+       <l>Have I done well, my friend?—this is a death </l>
+       <l>More worthy of a Roman. </l>
+       <l>I made a vow in secret to my heart, </l>
+       <l>That thou shouldst ne'er be made a mangled sight </l>
+       <l>For gazing crowds and Nero's ruthless eye.</l>
+      </lg>
+     </sp>
+     <sp who="#sylvius">
+      <speaker>Sylvius.</speaker>
+      <lg>
+       <l>That dying look, which almost smiles upon thee, </l>
+       <l>Tells thee thou hast done well; though words no more </l>
+       <l>May pass from these clos'd lips, whose last, bless'd utterance </l>
+       <l>Was the soul's purest and sublimest impulse. </l>
+      </lg>
+     </sp>
+     <trailer> [The curtain drops.</trailer>
+    </div>
+   </div>
+  </body>
+ </text>
+</TEI>
