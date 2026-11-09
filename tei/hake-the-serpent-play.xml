@@ -1,0 +1,3925 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id" xml:lang="eng">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">The serpent play</title>
+    <author>
+     <persName>
+      <forename>Thomas Gordon</forename>
+      <surname>Hake</surname>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>ProQuest</name>
+     <idno type="URL">https://www.proquest.com/books/serpent-play-1883/docview/2138574791/se-2?accountid=14632</idno>
+     <idno type="proquest">LION2138574791</idno>
+    </bibl>
+    <bibl type="originalSource">
+     <author>Hake, Thomas Gordon</author>
+     <title type="main">The serpent play</title>
+     <title type="volume">The Serpent Play: a Divine Pastoral: By Thomas Gordon Hake</title>
+     <publisher>Chatto &amp; Windus</publisher>
+     <pubPlace>London</pubPlace>
+     <date type="print" when="1883">1883</date>
+     <note type="citation">Hake, Thomas Gordon: The serpent play (1883). In: The Serpent Play: a Divine Pastoral: By Thomas Gordon Hake. Chatto &amp; Windus: London 1883</note>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="chorus">
+      <persName>CHORUS</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="cœlis">
+      <persName>CŒLIS</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="hayus">
+      <persName>HAYUS</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="kausis">
+      <persName>KAUSIS</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="messenger">
+      <persName>MESSENGER</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="people">
+      <persName>PEOPLE</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="the_soul_of_kausis">
+      <persName>The Soul of Kausis</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="vivia">
+      <persName>VIVIA</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="volupsa">
+      <persName>VOLUPSA</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="voragine">
+      <persName>VORAGINE</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1883">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text>
+  <front>
+   <castList>
+    <label>DRAMATIS PERSONÆ.</label>
+    <label>HUMAN CHARACTERS.</label>
+    <label>DIVINE CHARACTERS.</label>
+    <label>OTHER PERSONS.</label>
+    <castItem>
+     <role>Cœlis, the Soul-Seeker.</role>
+    </castItem>
+    <castItem>
+     <role>Voragine, a Warrior.</role>
+    </castItem>
+    <castItem>
+     <role>Vivia, the Sister of Cœlis.</role>
+    </castItem>
+    <castItem>
+     <role>Volupsa, the Sister of Voragine.</role>
+    </castItem>
+    <castItem>
+     <role>Hayus, a Priest of Kausis.</role>
+    </castItem>
+    <castItem>
+     <role>Messenger.</role>
+    </castItem>
+    <castItem>
+     <role>Psyche, the Soul.</role>
+    </castItem>
+    <castItem>
+     <role>Kausis, the Destroyer.</role>
+    </castItem>
+    <castItem>
+     <role>Pandolph, the Brother of Cœlis.</role>
+    </castItem>
+    <castItem>
+     <role>Beatrice, the Wife of Pandolph.</role>
+    </castItem>
+    <castItem>
+     <role>Actors.</role>
+    </castItem>
+    <castItem>
+     <role>Spectators.</role>
+    </castItem>
+   </castList>
+   <set>
+    <p>Scene: The Ophidian Hills</p>
+   </set>
+  </front>
+  <body>
+   <div type="act" n="1">
+    <head>ACT I.</head>
+    <div type="scene">
+     <head>Prologue</head>
+     <stage>Proscenium.—The Gates which lead to the Paradise of Cœlis.</stage>
+     <stage>Cœlis, Messenger.</stage>
+     <sp who="#messenger">
+      <speaker>MESSENGER.</speaker>
+      <lg>
+       <l>Scarce need you private tidings, for the war </l>
+       <l>Is its own chronicler: the Ophidian streams </l>
+       <l>Are thick with blood, here clinging to the bank </l>
+       <l>In clots like the red fungus, there in floods </l>
+       <l>Down-bearing through the gulleys to the town </l>
+       <l>Its grim advices. In the spattered dust </l>
+       <l>Lie stretched the fallen corpses of the foe </l>
+       <l>Like a hewn forest. Rampant victory </l>
+       <l>Appals the leaders, and the priests have fled </l>
+       <l>Their sanctuary. Hayus only stays </l>
+       <l>To meet us with unhoped for terms of peace. </l>
+       <l>His foresight, keen as vision, has o'erruled </l>
+       <l>The councils: they accept the conquering Cross </l>
+       <l>That roots out Serpent-worship from the world.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>A sanguinary peace then ends the war. </l>
+       <l>Would I had gone to learn the people's wants; </l>
+       <l>To yield them even more than they desired: </l>
+       <l>Then had they risen higher than their creed, </l>
+       <l>Now their sole refuge.</l>
+      </lg>
+     </sp>
+     <sp who="#messenger">
+      <speaker>MESSENGER.</speaker>
+      <lg>
+       <l>So it might have been, </l>
+       <l>Had you first striven to cleanse the common faith </l>
+       <l>Of its idolatry. In days scarce gone </l>
+       <l>Well we remember how our villagers </l>
+       <l>Obeyed your word, at which the worship dropped. </l>
+       <l>But little trust in friends have jealous foes: </l>
+       <l>They know we have already doomed their creed </l>
+       <l>In setting ours aside.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>Why is it crushed </l>
+       <l>When by example 'twas so sure to fall? </l>
+       <l>Our aims are now degraded, 'tis too late </l>
+       <l>To remedy the wrong: yet from this time </l>
+       <l>May Voragine show mercy to their souls, </l>
+       <l>Not flash the Cross before them to impose </l>
+       <l>Belief that adds new torture to their wounds. </l>
+       <l>Say this from me.</l>
+      </lg>
+     </sp>
+     <sp who="#messenger">
+      <speaker>MESSENGER.</speaker>
+      <lg>
+       <l>I only can obey.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS,</speaker>
+      <stage>alone.</stage>
+      <lg>
+       <l>Be ever distant from this blessèd seat </l>
+       <l>His ruthless bloodhounds, Conquest and Defeat! </l>
+       <l>Can these, that even the reptile rite debase, </l>
+       <l>An old religion by a new replace? </l>
+       <l>Alas! if one so must the other fall, </l>
+       <l>For what is new is never natural. </l>
+       <l>In this contented home our people find </l>
+       <l>The lull of peace; not so my shaken mind! </l>
+       <l>But shall I murmur when so many cares </l>
+       <l>In nature's uncomplaining heart abide? </l>
+       <l>These horrors on her fall, and she forbears! </l>
+       <l>She chides not; she has none to chide. </l>
+       <l>Yet may we see a shudder underlie </l>
+       <l>Her smile, that masks no base hypocrisy </l>
+       <l>But inner depths of goodness so conceals </l>
+       <l>That ages must elapse ere she herself reveals. </l>
+       <l>We worshipped her in every tree that grew, </l>
+       <l>Once deemed each rustling leaf her secret knew: </l>
+       <l>The juicy fruits, to golden goblets swelled, </l>
+       <l>Which to our lips the stooping branches held, </l>
+       <l>We deemed her conscious gift. But time outwore </l>
+       <l>The freshness that her new creation bore; </l>
+       <l>And thought sank deeper into things outside, </l>
+       <l>While they themselves sublimely deified. </l>
+       <l>God journeyed onward like a mighty wind, </l>
+       <l>But left the Soul that governs all behind, </l>
+       <l>Even from the sun-flame to the tended flower </l>
+       <l>That dies not out, though lasting but an hour.</l>
+      </lg>
+     </sp>
+    </div>
+    <div type="scene" n="2">
+     <head>Scene I.</head>
+     <stage>—The Paradise of Cœlis among the Ophidian Hills.</stage>
+     <stage>Cœlis, alone.</stage>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>‘Here, like a quiet child, while Summer plays </l>
+       <l>Around the dwelling, as in earlier days, </l>
+       <l>Purpling the vineyards, sparkling on the rills; </l>
+       <l>Gliding from flower to flower, till overflows </l>
+       <l>The perfume-breath of the full-bosomed rose, </l>
+       <l>I hail my paradise, my native hills! </l>
+       <l>Here am I still; here my lost sires repose </l>
+       <l>Under the mortal ban, that, ere their birth, </l>
+       <l>Blighted the future of this alien earth, </l>
+       <l>And in death-twilight bade their senses close. </l>
+       <l>Weak was the will that in a guardless hour </l>
+       <l>Was shackled by the Serpent's power! </l>
+       <l>Shall not some soul his subtle chain unbind </l>
+       <l>And live for ever as at first designed? </l>
+       <l>Not by the ways that sorcerous spirits choose! </l>
+       <l>But who can find the true one? The recluse </l>
+       <l>Sees promised lands beyond the grave: </l>
+       <l>He listens for the angels' voices </l>
+       <l>That say the mystic Cross shall save, </l>
+       <l>And with clasped hands he, to the last, rejoices. </l>
+       <l>Some gather in a crucible of clay </l>
+       <l>The herbs that hold earth's throeful sweat, </l>
+       <l>With them to quench the thirst of their decay, </l>
+       <l>And to acquit themselves of nature's debt. </l>
+       <l>But from earth's essence who shall souls renew, </l>
+       <l>Or from its flowers the life-elixir brew? </l>
+       <l>O Love, thou only way! My spirit sate </l>
+       <l>With gazing through thee: then shall it arise </l>
+       <l>To visions of a heavenly paradise, </l>
+       <l>And with them reach what seem the empty skies! </l>
+       <l>The Sun, my flaming sword, is at the gate </l>
+       <l>And waves the way I seek.’</l>
+      </lg>
+     </sp>
+     <sp>
+      <speaker/>
+      <lg>
+       <l>His fathers' grave </l>
+       <l>Lay nigh, yet there the more to life he clave, </l>
+       <l>New meanings catching up from olden lore. </l>
+       <l>‘The Serpent broke man's will of yore,’ </l>
+       <l>He cries, ‘and now the soul bemoans its realm </l>
+       <l>Long passed away, death left, to overwhelm </l>
+       <l>The thought that dares lost hope explore.’ </l>
+       <l>He looks up towards the height; there stands </l>
+       <l>His castle o'er the triple-circling road. </l>
+       <l>He muses on his legend-haunted lands: </l>
+       <l>These were the ancient Snake's abode </l>
+       <l>In days of old romance, as told the bards; </l>
+       <l>And every gate even now the Serpent guards, </l>
+       <l>As, coiled upon a golden field, </l>
+       <l>For ages it hath lain across his father's shield. </l>
+       <l>He thinks how once a leafy parasite </l>
+       <l>It clomb the trees and with a reptile's might </l>
+       <l>Strangled their trunks, the forests all enthralling, </l>
+       <l>Till foe to man upon its belly crawling. </l>
+       <l>His steps now pause before a brook: </l>
+       <l>'Twas but the waters o'er the pebbles shook, </l>
+       <l>Yet seemed they spirit-voices meeting, </l>
+       <l>And nature's gossip-lore repeating. </l>
+       <l>One shrilly said: ‘Look up and see.’ </l>
+       <l>One murmured low: ‘The apple-tree.’ </l>
+       <l>The first then babbled: ‘It is blazing </l>
+       <l>With ruddy fruits.’ </l>
+       <l>The other said: ‘It burns and shoots, </l>
+       <l>And eyes are gazing.’ </l>
+       <l>And then another: ‘Have a fear, </l>
+       <l>The Snake is here.’ </l>
+       <l>Then murmurs reach him through the bracken, </l>
+       <l>Of air-gusts that delight to teaze, </l>
+       <l>While fern-plumes in their stately silence shaken </l>
+       <l>Wave to and fro in concert with the breeze. </l>
+       <l>He listens as to woman's voice they listen </l>
+       <l>Who watch to see her beauty glisten </l>
+       <l>While her voice murmurs: so he yields to sleep, </l>
+       <l>Charmed by the sights and sounds that o'er him sweep. </l>
+       <l>Sultry, the air for lofty life is burning; </l>
+       <l>He dozes on, his thoughts returning; </l>
+       <l>Into green spires of flame the fern-stems leap; </l>
+       <l>Balls of hot fire the glowing apples seem: </l>
+       <l>He dares not wonder, lest his dream </l>
+       <l>Should vanish and flash down the naked stream. </l>
+       <l>The fern-flames speak with tongues that never tame, </l>
+       <l>The apples burn and utter silent flame. </l>
+       <l>The brook swells higher; hissings fierce </l>
+       <l>Through its frothy torrent pierce. </l>
+       <l>Then comes a vision of the ancient Snake, </l>
+       <l>Even as one sees by day when wide-awake; </l>
+       <l>Its head is rolling in the fern, </l>
+       <l>Its coils are round the boughs where the red apples burn. </l>
+       <l>Then the Snake whispers, and voices are hushed; </l>
+       <l>Into its accents the silence has rushed; </l>
+       <l>Crisp is the roll of its tongue and intense </l>
+       <l>Are the glozings it pours on voluptuous sense. </l>
+       <l>And still 'tis in whisper that seemeth to say: </l>
+       <l>‘Thy moments are weary, prolong not thy day; </l>
+       <l>Thy life-time is weary, prolong not the chase </l>
+       <l>After days without ending; from all they recede; </l>
+       <l>Of all mortals alike is fantastic the creed; </l>
+       <l>Who hope and who mock end alike in the race. </l>
+       <l>Seize on rapture while yet it is nigh; a new mortal, </l>
+       <l>Thou enterest the world through a glorious portal, </l>
+       <l>All riches to scatter, all homage possess: </l>
+       <l>Seize on love without stint and all beauty caress.’ </l>
+       <l>On this the dreamer sees a phantom throng </l>
+       <l>Of rosy maidens float along; </l>
+       <l>Towards him they droop their wavy arms, </l>
+       <l>Alluring him with lagging charms; </l>
+       <l>And ever with a fonder face </l>
+       <l>Comes on new beauty with its newer grace. </l>
+       <l>O frantic pleasures, soul-dissolving! </l>
+       <l>O passion that once felt endures, </l>
+       <l>And bliss for evermore assures! </l>
+       <l>The brightest stars in heaven decline, </l>
+       <l>But joys about the heart revolving </l>
+       <l>With it ascend and still their own past light out-shine!</l>
+      </lg>
+     </sp>
+    </div>
+    <div type="scene" n="3">
+     <head>Scene II.</head>
+     <stage>—The Temple of the Serpent Kausis, in the Paradise of Cœlis.</stage>
+     <stage>Cœlis, alone.</stage>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>‘Is sleep a darkness when my inner sight </l>
+       <l>Fills spaces where dissolving worlds belonged? </l>
+       <l>New visions, soul-enchanted, thronged </l>
+       <l>Around me in the vanished light! </l>
+       <l>Whence came they but from this creative will? </l>
+       <l>Then may it not the empty regions fill </l>
+       <l>With shapes more lasting from its own recesses, </l>
+       <l>When thus a living light the soul possesses? </l>
+       <l>But where shall this, my dream-creation be? </l>
+       <l>The sun-realms teem with works of One alone; </l>
+       <l>She thinks and all is real! She can see </l>
+       <l>The things Her soul hath imaged forth and done. </l>
+       <l>In virgin generation she conceives, </l>
+       <l>And to the expanding range her boundless nature gives. </l>
+       <l>Still the Snake rules below! With fated power </l>
+       <l>He filched from man all time, all save an hour: </l>
+       <l>How soon run out! Is it indeed too late </l>
+       <l>To plead the heirship to that lost estate?’</l>
+      </lg>
+     </sp>
+     <sp>
+      <speaker/>
+      <lg>
+       <l>The snaky pillars of the temple hide </l>
+       <l>Among the leaves at the brookside; </l>
+       <l>None now, save Cœlis, ever dare </l>
+       <l>To breathe the false, infectious air. </l>
+       <l>Within, a serpent-idol hangs </l>
+       <l>With hideous coil and poison-dripping fangs; </l>
+       <l>And hissings as from hollow caves below </l>
+       <l>Enter the breezes, blowing where they blow, </l>
+       <l>And many a wayfarer affright </l>
+       <l>Who ventures thither by the pathless night. </l>
+       <l>Since Cœlis bade the Serpent-worship end, </l>
+       <l>For the Ophidian rites would none contend; </l>
+       <l>Still, unseen spirits round the temple rage </l>
+       <l>And bring to earth again a darker age. </l>
+       <l>There are the graves, and there the days gone by </l>
+       <l>Flit round them, memory on memory; </l>
+       <l>There thick as matted cobwebs lie </l>
+       <l>The souls of priestly warriors at rest, </l>
+       <l>And every knoll in consciousness invest. </l>
+       <l>Cœlis looks up the sloping grass </l>
+       <l>Where locust-trees in leafy shade bestride </l>
+       <l>The ancient path on either side, </l>
+       <l>And flutter o'er the sward while high the breezes pass. </l>
+       <l>He sees slow-crumbling through the boughs </l>
+       <l>The fane that holds his fathers' vows, </l>
+       <l>Where now the weird, unhallowed noises </l>
+       <l>Change into imploring voices, </l>
+       <l>That hymn the cabalistic prayer, </l>
+       <l>Poured from the writings on the walls engraved; </l>
+       <l>That ever speak though none be there: </l>
+       <l>Even as survive the old-world memories </l>
+       <l>That writ in fire by the Prime-mover </l>
+       <l>Break out upon the phosphorescent seas </l>
+       <l>And turn, like scrolls, their glowing pages over. </l>
+       <l>O records worthy to be saved! </l>
+       <l>The wind is now upon the shivered rills; </l>
+       <l>Soughing sounds creep o'er the hollows; </l>
+       <l>A twilight film hangs o'er the hills </l>
+       <l>And through its shrouds the shadow follows. </l>
+       <l>To the low breeze the anthemed voices come </l>
+       <l>And whirl about their holy home. </l>
+       <l>The spirits of the dead are singing, </l>
+       <l>Down the darkened glacis bringing </l>
+       <l>The tongueless prayers that through the walls are ringing. </l>
+      </lg>
+      <lg>
+       <head>ANTHEM OF THE DEAD.</head>
+       <l>‘O Spirit, self-burning! </l>
+       <l>Soul of Decay! </l>
+       <l>Summer adjourning </l>
+       <l>In wintry array, </l>
+       <l>That ever returning </l>
+       <l>Thou sweepest away! </l>
+       <l>Leave us the fruit-time; </l>
+       <l>Leave us the root-time; </l>
+       <l>Winter is long! </l>
+       <l>Leave us the corn-time, leave us the grass-time, </l>
+       <l>Thou art the Strong! </l>
+       <l>Let the old sluices </l>
+       <l>Run down with the juices </l>
+       <l>Of olive and vine: </l>
+       <l>The oil flows from thee and thy blood is the wine. </l>
+       <l>Then shall we drink through thy wintery pastime </l>
+       <l>And shout o'er the wiles that thy wisdom instils, </l>
+       <l>And the good out of ill that thy cunning fulfils: </l>
+       <l>Shout to the hour when our breath we surrender </l>
+       <l>To thee our loved Spirit, our Lord, our Defender.’ </l>
+       <l>Trembling but bold, he mounts the stair, </l>
+       <l>When all is hushed: he cannot hear </l>
+       <l>A breath, so deep appears the lull of prayer. </l>
+       <l>Then he essays to draw the bar </l>
+       <l>When seems a thunder-bolt to grate afar; </l>
+       <l>The unlocked heaven is shuddering for war. </l>
+       <l>And now, the winds through cloud-realms vaulting higher, </l>
+       <l>The thunder throbs pierced by the forkèd fire, </l>
+       <l>And sky-lakes plunge down heights sublime, </l>
+       <l>On the world's waters beating hurried time. </l>
+       <l>Yet in the rivers through the thunder pouring </l>
+       <l>And in the rushing wind-tides ever roaring, </l>
+       <l>To his strong soul one harmony abounds. </l>
+       <l>The several storms that rage, in concert play, </l>
+       <l>While the wide-engulphing sounds </l>
+       <l>Hold the racked hills and valleys in dismay. </l>
+       <l>And he is less alone on earth! </l>
+       <l>For lonely is the man whose spirit is </l>
+       <l>In concert only with eternal bliss, </l>
+       <l>And clashes with the concert of world-mirth.</l>
+      </lg>
+     </sp>
+    </div>
+    <div type="scene" n="4">
+     <head>Scene III.</head>
+     <stage>—The Hall of Voragine.</stage>
+     <stage>Volupsa and Cœlis.</stage>
+     <sp>
+      <!-- Volupsa -->
+      <lg>
+       <l>Is he not lone when none his cares partake, </l>
+       <l>And woman would his faith in nature shake? </l>
+       <l>Yet there was one he loved, and ever sought </l>
+       <l>When hope's excesses their own misery wrought. </l>
+       <l>Volupsa from the early day </l>
+       <l>Whereof the memory was childish play, </l>
+       <l>Had kept his heart as 'neath a vow: </l>
+       <l>But his meek love is humbled now; </l>
+       <l>To him it seems but as a summer rose </l>
+       <l>That bloomed, then dropped where the sweetbriar grows.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>Volupsa! Life with us is lonely; </l>
+       <l>All day you speak to few but me, </l>
+       <l>And I, with hundreds near, can only </l>
+       <l>Yourself with eyes of pleasure see.</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>But, Cœlis, soon we both shall welcome others: </l>
+       <l>Your darling sister Vivia and our brothers! </l>
+       <l>We shall be blithe for many a day </l>
+       <l>And laugh o'er all the absent voices say! </l>
+       <l>The more that length of waiting makes us weary, </l>
+       <l>The more will every heart be cheery: </l>
+       <l>Those whom we love are on their homeward way. </l>
+       <l>We need no other pleasure seek </l>
+       <l>Than to look on towards days so surely pending: </l>
+       <l>Time may creep slowly, yet has many a week </l>
+       <l>One happy morrow for its ending.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>Your brother! Tell me his return is sure: </l>
+       <l>No other morrow shall my heart implore </l>
+       <l>Than that of peace. But time, I fear, effaces </l>
+       <l>In my young brother's breast the love of home: </l>
+       <l>New life in him wears out the early traces; </l>
+       <l>Here all is old; he will not come; </l>
+       <l>Not even when to his princess wed,— </l>
+       <l>Unless it hap we all are dead!</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>His absence is but of a year: </l>
+       <l>Sooner than you surmise he will appear.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>No, he must stay in foreign courts </l>
+       <l>And there enjoy the savage sports; </l>
+       <l>Hunt the scared fox, run down the boar, </l>
+       <l>Stalk the red deer, pursue the roe, </l>
+       <l>And chase the plunging buffalo, </l>
+       <l>With times of hawking kept in store.</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>Not strange it is to see a comely youth </l>
+       <l>Pursue his pleasures with the lords,— </l>
+       <l>Though strong may be the contrast it affords </l>
+       <l>To your pursuits of hidden truth. </l>
+       <l>Dear Cœlis, better were it far </l>
+       <l>That you had followed in the raging war </l>
+       <l>With my brave brother Voragine, </l>
+       <l>Who has so many battles seen! </l>
+       <l>Better than to be lost in fruitless musing! </l>
+       <l>Eyes pierce not nature and the heart </l>
+       <l>In her high symphony has little part: </l>
+       <l>Thought there but gambles and is ever losing.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>Had I his tastes I could be wise: </l>
+       <l>I go but as the arrow flies. </l>
+       <l>Who shapes the bow the arrow shapes, </l>
+       <l>And none for long his doom escapes.</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>Whence come these sayings sad and wild? </l>
+       <l>You were so cheerful when a child! </l>
+       <l>Too short for us was then the day, </l>
+       <l>And only tired-out eyes put off our play. </l>
+       <l>Now with a startling earnestness you meet </l>
+       <l>The same light hours half-way.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>Can we repeat </l>
+       <l>Our infancy? Did we not then rehearse </l>
+       <l>With upstart zest our youth, our later age, </l>
+       <l>Before they came, and, on our little stage, </l>
+       <l>In arbitrary games all things reverse? </l>
+       <l>There lay our life, and only there </l>
+       <l>Can we look back devoid of care. </l>
+       <l>The times at last are true: the latest cry </l>
+       <l>Is war and Voragine's sage strategy: </l>
+       <l>How he the unsuspecting foe decoys; </l>
+       <l>How he their crops at harvest season,— </l>
+       <l>Their very towns with greedy fire destroys. </l>
+       <l>He makes men's lives the penalty of treason! </l>
+       <l>It is a feverish tale.</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>He but performs </l>
+       <l>His duty when their fortresses he storms. </l>
+       <l>Despite these deeds is he not kind? </l>
+       <l>There never was a truer mind.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>Brave though he be, and fearing not to die, </l>
+       <l>Where is the pride of his humanity? </l>
+       <l>To him the higher life is lost </l>
+       <l>Who honour gains at honour's cost. </l>
+       <l>Look at our people, how their fields are teeming </l>
+       <l>With plenty for the year's supply! </l>
+       <l>The harvest-moon is nightly beaming </l>
+       <l>With gratulations of the Deity.</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>Yes; it is sad; but how can we evade </l>
+       <l>The woes whereof this world is made! </l>
+       <l>Even you at last to this dark war assented.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>And from that hour to this have I repented. </l>
+       <l>Even better had it been to share the fate </l>
+       <l>Of those who hope though they but death await: </l>
+       <l>Blessed are the souls who, early though they die, </l>
+       <l>Have striven to touch the highest destiny.</l>
+      </lg>
+     </sp>
+    </div>
+    <div type="scene" n="5">
+     <head>Scene IV.</head>
+     <stage>—The Harvest-plains outside the Paradise of Cœlis. Night.</stage>
+     <stage>Cœlis, alone.</stage>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>The moon is at the full and overflows; </l>
+       <l>The wheat is gathered into sheaves, </l>
+       <l>And heaven its quiet brilliance throws </l>
+       <l>On reapers who from toil repose </l>
+       <l>On the warm ground with flocks and beeves. </l>
+       <l>They, tired of grazing; tired of reaping; </l>
+       <l>O'er all the harvest-moon is sleeping; </l>
+       <l>All in illumined slumber bask and I </l>
+       <l>Alone keep the Eternal company. </l>
+       <l>The reapers lie full length, their hooks at hand; </l>
+       <l>The shepherds, at their midnight ease, </l>
+       <l>Their heads have pillowed on their knees: </l>
+       <l>Time moves not, sharing in their peace </l>
+       <l>And loitering on the yellow land. </l>
+       <l>A spell is upon all, the vultures sleep </l>
+       <l>Above in rocky nests, the wolves are charmed, </l>
+       <l>None fear the others, none the vigil keep, </l>
+       <l>But undefended here they sleep unharmed. </l>
+       <l>O friendly tomb! whence with re-opening eyes </l>
+       <l>These dreamy dead shall on the morrow rise!</l>
+      </lg>
+     </sp>
+    </div>
+   </div>
+   <div type="act" n="2">
+    <head>ACT II.</head>
+    <div type="scene" n="1">
+     <head>Prologue</head>
+     <stage>Proscenium.—The Gates which lead to the Paradise of Cœlis.</stage>
+     <stage>Cœlis, Messenger.</stage>
+     <sp who="#messenger">
+      <speaker>MESSENGER.</speaker>
+      <lg>
+       <l>I bear the words of Voragine.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>Begin: </l>
+       <l>Erewhile his words were still the battle's din.</l>
+      </lg>
+     </sp>
+     <sp who="#messenger">
+      <speaker>MESSENGER.</speaker>
+      <lg>
+       <l>The vulgar cry for liberty is lulled; </l>
+       <l>Bright is the sword again that blood had dulled: </l>
+       <l>As though it flashed the miracle of peace, </l>
+       <l>'Tis only lifted now and murmurs cease.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>In terror sown, the seeds of hate </l>
+       <l>Take easy root and germinate: </l>
+       <l>So, for our foes a better time is near, </l>
+       <l>And their revenge it is our turn to bear.</l>
+      </lg>
+     </sp>
+     <sp who="#messenger">
+      <speaker>MESSENGER.</speaker>
+      <lg>
+       <l>Their homes laid out in desert, who shall know </l>
+       <l>A seed-time where but weeds henceforward grow? </l>
+       <l>The earth is charred; priests, chieftains, all have fled </l>
+       <l>Into the burning forests and are dead.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>Nature herself not spared! yet ere the year </l>
+       <l>Will she revolt and her new weapon wear: </l>
+       <l>On the burnt soil will man again appear.</l>
+      </lg>
+     </sp>
+     <sp who="#messenger">
+      <speaker>MESSENGER.</speaker>
+      <lg>
+       <l>Who looks so far?</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>Not Voragine, 'tis clear.</l>
+      </lg>
+     </sp>
+     <sp who="#messenger">
+      <speaker>MESSENGER.</speaker>
+      <lg>
+       <l>But many a day beyond his morrow </l>
+       <l>Is safe; at glorious spring-time, which is near, </l>
+       <l>The chief returns;—</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>With him our reign of Sorrow.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS,</speaker>
+      <stage>alone.</stage>
+      <lg>
+       <l>Can Nature sanction this, even war espouse </l>
+       <l>Wasting the scanty moments she allows, </l>
+       <l>Lest the religion to her trust reposed </l>
+       <l>Be to our precious leisure here disclosed? </l>
+       <l>The seer may vainly seek for holy soil </l>
+       <l>Whose sod the wily sorcerer turns over, </l>
+       <l>Though but to bare a serpent's coil </l>
+       <l>Or some more warlike creed discover. </l>
+       <l>But faith suffices with the sword's defence, </l>
+       <l>And sets aside the cruel evidence </l>
+       <l>Death's face affords, a warning all believe </l>
+       <l>And sicken at; unwilling to receive. </l>
+       <l>Thus must the disaffected soul resume, </l>
+       <l>In its resolve eternally to live, </l>
+       <l>Some war of vain desires whose creed shall vanquish doom. </l>
+       <l>I, too, will struggle through all hope, though none </l>
+       <l>The immortal life, since life first was, hath won.</l>
+      </lg>
+     </sp>
+    </div>
+    <div type="scene" n="2">
+     <head>Scene I.</head>
+     <stage>—The Paradise of Cœlis.</stage>
+     <stage>Cœlis, alone.</stage>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>‘Summer and winter changing hands </l>
+       <l>The green leaves hang mid red and yellow; </l>
+       <l>The fruits are over-ripe and mellow; </l>
+       <l>Cracked to the core their germ expands </l>
+       <l>And hope is heir to nature's sway, </l>
+       <l>Though now embowelled in decay. </l>
+       <l>Even while they vanish, Nature drapes </l>
+       <l>In her autumnal pride their lovely shapes. </l>
+       <l>Beyond the forest's brink pale clouds </l>
+       <l>Float o'er the foliage to take up its blaze, </l>
+       <l>While the sun glittering through the woods </l>
+       <l>Steeps their last beauty in his slumbering rays. </l>
+       <l>But he that set the stamp of death on man </l>
+       <l>At the fate-haunted tree still guards the portal </l>
+       <l>To thwart my soul that would escape the ban </l>
+       <l>And upon earth recover days immortal. </l>
+       <l>Nature's High Fast begins: life's latter stage </l>
+       <l>Glows in the ruddiness of age; </l>
+       <l>Then, as the pomp of dying holds the scene </l>
+       <l>In slow procession, proud that it has been, </l>
+       <l>All drops; the wondrous death its heritage. </l>
+       <l>So we approach the end; o'er sodden leaves </l>
+       <l>The naked boughs stretch forth their dripping eaves, </l>
+       <l>Sapless and dark; their potent virtue spent </l>
+       <l>Whose leaf-dome was the world's green firmament. </l>
+       <l>The skies are humbled in their grey attire, </l>
+       <l>And from the tree of life the fruit is gone; </l>
+       <l>The flowers no more put forth their meek desire: </l>
+       <l>All things, one with another; yet alone!</l>
+      </lg>
+     </sp>
+     <sp>
+      <speaker/>
+      <lg>
+       <l>‘She is eternal,’ so all being cries, </l>
+       <l>‘Whose hope this wreck of summer underlies; </l>
+       <l>Still is the scene mortality! The day </l>
+       <l>That comes is not the one that passed away; </l>
+       <l>The summer festival, so late outspread, </l>
+       <l>Was new as though no other had been kept; </l>
+       <l>But hope has not among its remnants slept, </l>
+       <l>And hope is older than the dead. </l>
+       <l>The life I seek while this brief being wanes </l>
+       <l>She gives me; she this deathless hope sustains; </l>
+       <l>She is the Soul of All; she permeates </l>
+       <l>Winter and spring, and, nowhere wholly hidden, </l>
+       <l>In me these restless watchings undertakes: </l>
+       <l>I seek her not unbidden.’ </l>
+       <l> In death new changes still arise; </l>
+       <l>The air hangs thick upon his paradise; </l>
+       <l>The brook-waves lie in waves of ice. </l>
+       <l>Where is now the flight of graces, </l>
+       <l>Sighing bosoms, happy faces, </l>
+       <l>Hands beckoning to some exalted goal </l>
+       <l>Which, never reached, with rapture filled his soul? </l>
+       <l>Volupsa, is her human charm forgot? </l>
+       <l>In this deep hour of love it flashes not! </l>
+       <l>A dream translates his self-exalted sense </l>
+       <l>Into the phrenzy of omnipotence. </l>
+       <l>‘But,’ cries he, ‘dreams that come to pass are true: </l>
+       <l>Through them, the early messengers of doom </l>
+       <l>Forewarn us, ere the day is due, </l>
+       <l>Though they abide their time in the maturing womb. </l>
+       <l>Those spirit forms I saw; though they elude </l>
+       <l>My touch they come and live within my sight: </l>
+       <l>On their fond images I brood </l>
+       <l>Now as a future, now a past delight. </l>
+       <l>As they return to me, uncalled, I gain </l>
+       <l>Assurance of a life for ever real, </l>
+       <l>That he shall covet not in vain </l>
+       <l>Who seeks it once through his beloved ideal. </l>
+       <l>But when shall my slow-filling vision see </l>
+       <l>The one, O Soul! whose likeness is of Thee? </l>
+       <l>When, gazing in the mirror of her love, </l>
+       <l>Shall I, beyond it, find the one above, </l>
+       <l>Who holds this grave of nature that the dead </l>
+       <l>Awake once more in summer garmented? </l>
+       <l>Reveal thyself, O Psyche, soul supreme, </l>
+       <l>With whom these calm and awful systems teem! </l>
+       <l>If, through long seeking, I thy love may claim, </l>
+       <l>Divulge to me thy most mysterious name, </l>
+       <l>That by these lips the one ecstatic word, </l>
+       <l>Be spoken, and to Thee again outpoured.’ </l>
+       <l>Then answers him the Soul of All; </l>
+       <l>The name is on his ears descending, </l>
+       <l>In strains that surely towards him fall, </l>
+       <l>And end in inward harmonies unending. </l>
+       <l>Her name as from a holy choir is springing; </l>
+       <l>He overhears the distant minstrelsy, </l>
+       <l>That seems as of departing spirits singing, </l>
+       <l>But leaves his frame in ecstasy to be; </l>
+       <l>Bliss chiselled from eternal harmony.</l>
+      </lg>
+     </sp>
+    </div>
+    <div type="scene" n="3">
+     <head>Scene II.</head>
+     <stage>—The Forest.</stage>
+     <stage>Volupsa, alone.</stage>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l> When I think of thee, brother, </l>
+       <l> Is my heart not all thine? </l>
+       <l> Yet the face of another </l>
+       <l> Seems bending o'er mine. </l>
+       <l>I call thee by name, yet a name not thy own </l>
+       <l>Has whispered already its dear undertone. </l>
+       <l> When I think thine eyes greet me, </l>
+       <l> Their sweet flash of blue </l>
+       <l> Brings another's to meet me </l>
+       <l> Of somberer hue, </l>
+       <l>And ever before me they seem to remain, </l>
+       <l>Though my heart but repines to behold thee again. </l>
+       <l> When I list, and would hear thee </l>
+       <l> Once more in our home, </l>
+       <l> And thy voice appears near me, </l>
+       <l> Another's has come. </l>
+       <l>I dream of thee only, for thee only sigh, </l>
+       <l>Yet thy image forsakes me; another's is nigh. </l>
+       <l> When thy fond smiles come o'er me </l>
+       <l> As in moments now flown, </l>
+       <l> There riseth before me </l>
+       <l> A look not thy own: </l>
+       <l>'Tis thee I recall to my mind, O my brother! </l>
+       <l>Yet ever with thine comes the gaze of another.</l>
+      </lg>
+     </sp>
+     <stage>Cœlis, Volupsa.</stage>
+     <sp>
+      <speaker/>
+      <lg>
+       <l>Volupsa knows the wanderer's haunt and strays </l>
+       <l>By paths wherein she feels his heart has spoken; </l>
+       <l>And though the spell to her remain unbroken, </l>
+       <l>Not less the depth of silence may betoken </l>
+       <l>A love that but its voice delays. </l>
+       <l>No match was she, pure, simple-hearted maid, </l>
+       <l>For one whose soul must soar and cannot wade: </l>
+       <l>So when they meet, she only thinks how high </l>
+       <l>The hawk ascends through its blue hunting fields </l>
+       <l>In search of prey it finds not in the sky, </l>
+       <l>But in the hedges where the sparrow builds. </l>
+       <l>Then would she hold him in the gaze </l>
+       <l>She lifts to heaven when she prays, </l>
+       <l>And say, O Cœlis! wander here no more! </l>
+       <l>Magic arts you disavow, </l>
+       <l>Yet at false shrines you surely bow, </l>
+       <l>And spirits of the unknown world adore; </l>
+       <l>Agents of ill who would our souls decoy; </l>
+       <l>Who dark, alchemic arts employ, </l>
+       <l>And false to seeming true transmute, </l>
+       <l>Beyond the reach of reason to refute.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>Is life, then, dear one, such a pleasant travel </l>
+       <l>That what is next 'twere best not to unravel, </l>
+       <l>But shut our senses lest they knowledge find </l>
+       <l>Of marvels in advance and wonders left behind? </l>
+       <l>Our fathers so let slip their will and died.</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>What we resign to heaven, is sanctified.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>When you speak thus all doubtful things seem true; </l>
+       <l>They take your beauty and resemble you; </l>
+       <l>Then is my boasted will of poor account.</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>Into the airless void it strives to mount: </l>
+       <l>Here is it unrestrained; this pleasant throne, </l>
+       <l>Older than many kingdoms, is your own: </l>
+       <l>Suffices not a power so great? But more,— </l>
+       <l>In seats of learning where the youth dispute </l>
+       <l>None could your subtle arguments confute. </l>
+       <l>But there are wonders fruitless to explore. </l>
+       <l>What can the meaning be of secret lore </l>
+       <l>But that all things remote are hidden, </l>
+       <l>And to the scrutiny of all forbidden?</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>It is not man invents desire, </l>
+       <l>And what he craves he seeks, though vainly he aspire. </l>
+       <l>Somewhere is knowledge; did we only toil </l>
+       <l>At thought, as meaner labourers at the soil, </l>
+       <l>Then might we our lost strength renew, </l>
+       <l>And even the hidden wilderness subdue, </l>
+       <l>Feeding its fallow to its fullest greed </l>
+       <l>With our primeval germ, as with prolific seed. </l>
+       <l>Then should we touch the orbs divine </l>
+       <l>That in far darkness, unconceived of, shine.</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>It never was so save in metaphor </l>
+       <l>Wherein your mind is rich and mine is poor: </l>
+       <l>Not truly touch them, Cœlis?</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>With our soul; </l>
+       <l>Which is of earth and heaven the one epitome: </l>
+       <l>A mirror that reflects the whole; </l>
+       <l>And loving eyes in it may all things see. </l>
+       <l>Ah! could you feel how there the vista brightens, </l>
+       <l>And reach with me the calm which ever heightens!</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>Cœlis, I tremble; if such thoughts have worth </l>
+       <l>Like us will they enjoy a second birth </l>
+       <l>When all that we are let to wish will be </l>
+       <l>Of us a part, like things we daily see. </l>
+       <l>Our souls are like the butterfly that lives </l>
+       <l>On what the kind Creator gives; </l>
+       <l>It must not seek the flowery heaven before </l>
+       <l>Its wings are like an angel's. When we soar </l>
+       <l>Be it alone our Maker to adore!</l>
+      </lg>
+     </sp>
+    </div>
+    <div type="scene" n="4">
+     <head>Scene III.</head>
+     <stage>—By the Tree of Knowledge. Moonlight.</stage>
+     <stage>Cœlis, alone.</stage>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>‘Sibyl of Mystery, Soul of the Sky! </l>
+       <l>Thou speakest in symbols that voiceless are spread </l>
+       <l>O'er thy dwelling, the star-haunted azure on high; </l>
+       <l>That diffused o'er the earth by no mortal are read. </l>
+       <l>Deeper than sunshine the beams of thy face </l>
+       <l>Stir man's mystic spirit, yet hold it aloof; </l>
+       <l>The thoughts they engender with thine interlace </l>
+       <l>To be borne from our reach through the world's wondrous roof. </l>
+       <l>By day we may wander and muse, but its light </l>
+       <l>Is so real it chides the vain spirit that strives: </l>
+       <l>More bold are the feelings that blend in thy night, </l>
+       <l>Pensive Soul! and with thee into mystery dive. </l>
+       <l>Thine is the dream-time, the dream without sleep </l>
+       <l>That poet may enter: ah! what doth it yield? </l>
+       <l>He watches thy ways in the uppermost deep; </l>
+       <l>To emotion, not sense, is thy secret revealed.’</l>
+      </lg>
+     </sp>
+     <sp>
+      <speaker/>
+      <lg>
+       <l>The apple-tree has lost its pride </l>
+       <l>Though moonlight glitters on its bark, </l>
+       <l>And rings of phosphorescence slide </l>
+       <l>Round trunk and branches frore and stark. </l>
+       <l>Among the ferns its fruits are rotten, </l>
+       <l>But ruddier than in summer-time </l>
+       <l>Burst forth the scintillating rings of slime, </l>
+       <l>Like shooting stars of serpent-fire begotten. </l>
+       <l>The demon's haunt! And is he truly here? </l>
+       <l>Shall next the fascinating gaze appear? </l>
+       <l>The verdurous coil is changing; now to skin, </l>
+       <l>Now to round flesh seen quivering within. </l>
+       <l>The parasite assumes the reptile's strength! </l>
+       <l>It might a mammoth fold within its length. </l>
+      </lg>
+      <stage>Cœlis, Kausis.</stage>
+      <lg>
+       <l>‘Fear not this everlasting Shape,’ </l>
+       <l>He seems to hear the Serpent say: </l>
+       <l>‘My power, embracing all, can none escape, </l>
+       <l>But flesh and blood are not my prey. </l>
+       <l>I am the wisdom wherein ever lies </l>
+       <l>The naked truth that nature falsifies, </l>
+       <l>And gilds in hope that with the body dies. </l>
+       <l>O thou vain searcher! canst thou trace </l>
+       <l>The lines upon a serpent's skin? </l>
+       <l>There is the map of thy outgoing race, </l>
+       <l>That yet afresh seems ever to begin; </l>
+       <l>There mayst thou learn man's day shall surely end </l>
+       <l>And with the pregnant Nothing that precedes it blend.’</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>Who art thou, O voiced Serpent, thus encoiled </l>
+       <l>As when our mother of the fruit partook, </l>
+       <l>Of her first happiness despoiled,— </l>
+       <l>As to this day records the holy book!</l>
+      </lg>
+     </sp>
+     <sp who="#kausis">
+      <speaker>KAUSIS.</speaker>
+      <lg>
+       <l>These coils, my prison-house, hold earth's Co-Heir: </l>
+       <l>Welcome were death; that boon is not for me; </l>
+       <l>A brighter God looks down on this despair, </l>
+       <l>This hopeless side of an eternity. </l>
+       <l>Wouldst thou my lot assume and satiate </l>
+       <l>Thy thirst for life; the weary days devour, </l>
+       <l>Which, ere they come, with mocking sameness sate? </l>
+       <l>Look on these loveless orbs! wouldst thou relieve </l>
+       <l>Their watch that constant as the waves </l>
+       <l>In vain the alternating quiet craves </l>
+       <l>But still goes on without reprieve? </l>
+       <l>With all coeval are these wakeful eyes: </l>
+       <l>All they behold and meet no new surprise. </l>
+       <l>Then envy not their ceaseless watch </l>
+       <l>That would the uneventful death-wink snatch, </l>
+       <l>And never more on this stale nature gaze! </l>
+       <l>They look upon the sun and only glaze </l>
+       <l>In the dead stare that never dies. </l>
+       <l>Accursèd vision, which has seen </l>
+       <l>All that can be, all that has ever been, </l>
+       <l>Till time itself has ceased to be </l>
+       <l>And counts as one eternity! </l>
+       <l>To thee the days are new; they fall </l>
+       <l>As unto one who has forgotten all. </l>
+       <l>Could I forget, and nothing see behind;— </l>
+       <l>And cast this skin, and rush into the sun,— </l>
+       <l>There the untasted, fresh emotion find </l>
+       <l>As though the world had just begun, </l>
+       <l>How would I revel in so new a lot, </l>
+       <l>Fast as the pleasures came, as fast forgot, </l>
+       <l>Hid from my sense the springs of love and hate, </l>
+       <l>That at their common source each other desecrate. </l>
+       <l>But Nature must play on her worthless game, </l>
+       <l>And only can herself repeat: </l>
+       <l>Cycle on cycle she is still the same; </l>
+       <l>Her ends and her beginnings ever meet. </l>
+       <l>Then how beneficent the lot of man! </l>
+       <l>He stretches out his narrow span, </l>
+       <l>To live a day, a night to rest; </l>
+       <l>When tired, to die, and so be doubly blest. </l>
+       <l>While through uncounted cycles I remain, </l>
+       <l>Thy race goes out, to yet revive again, </l>
+       <l>Though not till every grain of sand </l>
+       <l>Has been the centre of a sun, </l>
+       <l>And all that forms the sea and land </l>
+       <l>Has through the universal hour-glass run. </l>
+       <l>Man's long abeyance, 'tis but as a day; </l>
+       <l>Death after death appears a moment's sleep, </l>
+       <l>While time still trundles round with busy sweep, </l>
+       <l>And glides once more into the olden way.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>What art thou, Spirit?</l>
+      </lg>
+     </sp>
+     <sp who="#kausis">
+      <speaker>KAUSIS.</speaker>
+      <lg>
+       <l>With the hours I change: </l>
+       <l>In Nature's toil of ceaseless ebb and flow </l>
+       <l>I turn the tide, that else would onward range </l>
+       <l>And immortality on all bestow.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>Breathless, I doubt thee, who wouldst arrogate </l>
+       <l>To thy cold will the balancing of fate. </l>
+       <l>There is a Power beyond thee; to her call </l>
+       <l>My spirit answers, rescued from thy thrall.</l>
+      </lg>
+     </sp>
+     <sp who="#kausis">
+      <speaker>KAUSIS.</speaker>
+      <lg>
+       <l>She hath her separate realm; what is to be, </l>
+       <l>Throughout all contest, is foreknown to me: </l>
+       <l>The antagonist I am in double destiny.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>O Psyche! 'tis not thus!</l>
+      </lg>
+     </sp>
+     <sp who="#kausis">
+      <speaker>KAUSIS.</speaker>
+      <lg>
+       <l>Even she who keeps </l>
+       <l>The sun and stars,—eternally she weeps </l>
+       <l>Her unrequited love, that fails at last, </l>
+       <l>And in the vortex at my call is cast. </l>
+       <l>She is the sympathetic Soul </l>
+       <l>Whose light I feel enwreathe the icy pole. </l>
+       <l>'Tis only there we meet, or we might breed </l>
+       <l>Death-worlds, but beauteous, from our common seed, </l>
+       <l>Of whose charmed being none should taste, and none </l>
+       <l>With eyes that love and wonder, look upon! </l>
+       <l>But, change must triumph; the hard firmament </l>
+       <l>To thee so high, is to my purpose bent; </l>
+       <l>Its seeming beauty burns and wastes; </l>
+       <l>And to a long decay its transient glory hastes. </l>
+       <l>Yon moon that doth thy inmost spirit stir </l>
+       <l>Is but the death-lamp of a sepulchre; </l>
+       <l>Fed by the sun's expiring rays, </l>
+       <l>To gather up the wrecks of the departed days.</l>
+      </lg>
+     </sp>
+     <sp>
+      <speaker/>
+      <lg>
+       <l>As the soul-charmer ends, the Serpent's train </l>
+       <l>Has shrunk into the parasite again; </l>
+       <l>Its leaf-tipped sprays that loosely hang about, </l>
+       <l>Like straggling locks, innocuous stand out </l>
+       <l>In the blue night whose calm the scene invests, </l>
+       <l>But not the listener's wretchedness arrests.</l>
+      </lg>
+     </sp>
+    </div>
+    <div type="scene" n="5">
+     <head>Scene IV.</head>
+     <stage>—The Castle of Cœlis.</stage>
+     <stage>Cœlis, alone.</stage>
+     <sp>
+      <speaker/>
+      <lg>
+       <l>‘Then life, forgetful of its former stages, </l>
+       <l>Breaks ever forth anew in endless time; </l>
+       <l>Now resting mid the waste of ages, </l>
+       <l>Now jubilant in Nature's paths sublime! </l>
+       <l>Again hath gaped the cavern of thy jaw, </l>
+       <l>O tongue that launched first knowledge from the tree; </l>
+       <l>And issues thence the all-enduring law </l>
+       <l>That life and death in turn must ever be!’ </l>
+       <l>So the Soul-seeker heard the revelation, </l>
+       <l>That what is loveliest of creation </l>
+       <l>Springs only from a world's decay; </l>
+       <l>That all returns again to clay! </l>
+       <l>‘Shall not the heavens,’ he asks, ‘escape?’ </l>
+       <l>He looks above and sees the Serpent's shape </l>
+       <l>Where constellations fill those plains of lustre; </l>
+       <l>But denser seem the timid stars to cluster </l>
+       <l>And ask of him their secret meaning, </l>
+       <l>While on the hidden power like infants leaning. </l>
+       <l>With hope, exalting once, that now debases, </l>
+       <l>Late through the midnight hours he paces </l>
+       <l>His armour-haunted corridor, </l>
+       <l>And there finds rest not any more. </l>
+       <l>The moonlight through the window glances </l>
+       <l>On jointed mail and shivered lances, </l>
+       <l>Kindling the ruby panes, though 'neath the sheen </l>
+       <l>The Serpent-shield shines ever-green, </l>
+       <l>Paling the past. There as he lay </l>
+       <l>Upon his bed his will dissolved away, </l>
+       <l>And in its place so soft a whisper crept </l>
+       <l>He took it to his spirit as he slept. </l>
+       <l>Nigh to his breast the Serpent seemed </l>
+       <l>To breathe into him all he dreamed, </l>
+       <l>A fulsome whisper that dissembled, </l>
+       <l>But pure, unchallenged truth resembled: </l>
+       <l>His conscious being, weak and fevered, </l>
+       <l>Like a stray memory from its soul dissevered. </l>
+       <l>So, prostrate was he, when the Snake once more </l>
+       <l>His spirit to the tree of knowledge bore.</l>
+      </lg>
+     </sp>
+     <stage>Kausis, Cœlis.</stage>
+     <sp who="#kausis">
+      <speaker>KAUSIS.</speaker>
+      <lg>
+       <l>‘Where, Worm! is the will that its lot would deny? </l>
+       <l>Where, Worm! is the will that its lord would defy? </l>
+       <l>Thou hast crawled from the earth in my daylight to die! </l>
+       <l>Thy people, thy kindred, my worship have spurned; </l>
+       <l>As I tread upon thee, at my tread who hast turned, </l>
+       <l>This arm, this one arm of a far-ruling fate, </l>
+       <l>Shall crush them and thee in the coil of its hate.’</l>
+      </lg>
+     </sp>
+     <sp>
+      <speaker/>
+      <lg>
+       <l>Again to him the words in fragments came, </l>
+       <l>And ever changed, and ever were the same. </l>
+       <l>And then he saw the Soul of All </l>
+       <l>Who held the mighty world in thrall, </l>
+       <l>With the avenging Snake contend, </l>
+       <l>Whose venom-scales like sculpture chased, </l>
+       <l>With Her the circling world embraced, </l>
+       <l>In strife that time can never end. </l>
+       <l>When tempests over nature hurry </l>
+       <l>And sweep down forests in their fury, </l>
+       <l>Then is he calm; but storms unnumbered, </l>
+       <l>As though the universe must cease, </l>
+       <l>Crowded within him while he slumbered, </l>
+       <l>And all outside reposed in peace.</l>
+      </lg>
+     </sp>
+    </div>
+    <div type="scene" n="6">
+     <head>Scene V.</head>
+     <stage>—The Hall of Voragine.</stage>
+     <stage>Volupsa, Cœlis.</stage>
+     <sp>
+      <speaker/>
+      <lg>
+       <l>‘I haste to you, Volupsa; let me hear </l>
+       <l>Your voice in its dear, human melody! </l>
+       <l>Give mine ears shelter; save mine eyes the glare </l>
+       <l>Of hideous visions whence to you I fly. </l>
+       <l>To the enchanted haunts I go no more; </l>
+       <l>Let me through you my ill-timed life explore.’ </l>
+       <l>So Cœlis speaks; Volupsa says: </l>
+       <l>‘What ails you? Strangely sounds your speech; </l>
+       <l>Though it be kind, its wilderment effrays </l>
+       <l>The love I bear you, to its inmost reach.’</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>What ails me, ask not! would you hear it </l>
+       <l>And suffer in this peril too? </l>
+       <l>Though I told all I yet must bear it; </l>
+       <l>'Tis not for one so loved to share it; </l>
+       <l>My trying lot falls not on you. </l>
+       <l>What ails me? Not the body's ill: </l>
+       <l>It is a malison in serpent shape, </l>
+       <l>That never mortal shall escape, </l>
+       <l>Entwines itself about my strangled will.</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>O Cœlis!</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>Call me by the name no more;— </l>
+       <l>Call me the Last Laocoon! </l>
+       <l>The Serpent's eyes on me have shone </l>
+       <l>As glared they on the priest of yore.</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>Cœlis! can I not calm you?</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>I am calm! </l>
+       <l>But soothe me with your dimpling cheek; </l>
+       <l>Let your soft eyes in light my soul embalm, </l>
+       <l>That through them I may see the things I seek.</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>Yes, I will smile.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>Such smile avert; </l>
+       <l>It draws not soul to soul in love's desire: </l>
+       <l>Your lips seem with a snake begirt! </l>
+       <l>The flame of love is clear; I see but smouldering fire.</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>Cœlis, be calm, be strong! Repeat </l>
+       <l>To me the ills you suffer; often </l>
+       <l>When nothing else a grief can soften, </l>
+       <l>Fond souls in unison may meet.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>Shall I relate how one who drank </l>
+       <l>At nectar-springs, 'neath the foamed poison sank? </l>
+       <l>And what a gulph now underlies </l>
+       <l>The heaven where hope ere it has blossomed dies! </l>
+       <l>Yet sought I not the awful one, </l>
+       <l>Whose words, whose aspect froze my blood to stone!</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>Yet rest awhile.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>Rest comes: </l>
+       <l>This hurried soul it soothes, this pain benumbs.</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>How so?</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>You do not hear the music throbbing; </l>
+       <l>It brings me peace; the rage abates: </l>
+       <l>You cannot hear the fitful sobbing </l>
+       <l>That on the burst of rapture waits. </l>
+       <l>No soul so modulates its mortal voice! </l>
+       <l>The fall, the rise, the all-resistless swell </l>
+       <l>That holds emotion's wondrous argument, </l>
+       <l>Sways hidden nature with its conquering spell: </l>
+       <l>Absent is word, is thought, is doubt, is choice, </l>
+       <l>All heavenward lost in this divine consent! </l>
+       <l>As in a tranquil sleep we choose </l>
+       <l>Our dreams from things whereon we love to muse, </l>
+       <l>I call on her who o'er the forest hovers; </l>
+       <l>It is her voice that to my senses cleaving, </l>
+       <l>I hear from holy depths upheaving </l>
+       <l>A music she alone to me discovers.</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>What voice? what can this rapture mean?</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>The voice of Psyche, Nature's only queen! </l>
+       <l>It is not human; o'er the wintry rime </l>
+       <l>It floats into the summer-time; </l>
+       <l>It lifts me to the place afar </l>
+       <l>Where the pure hope-blossoms are. </l>
+       <l>It is a voice that love-attuned pursues me; </l>
+       <l>That, when I question, bursts into a song. </l>
+       <l>Why doth it not to you belong </l>
+       <l>Who with your gentle love suffuse me? </l>
+       <l>Then through the mirror of your mind </l>
+       <l>Might I the never-ending prospect find.</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>Cœlis! I am so wretched!</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>You elude </l>
+       <l>This search for life; only my miseries </l>
+       <l>In you, as in a second mirror, rise; </l>
+       <l>On them, again, within your soul I brood.</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>I leave you, Cœlis.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>Stay!</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>But not to hear </l>
+       <l>More than a woman's heart can bear?</l>
+      </lg>
+     </sp>
+    </div>
+    <div type="scene" n="7">
+     <head>Scene VI.</head>
+     <stage>—The Chamber of Volupsa.</stage>
+     <stage>Volupsa, alone.</stage>
+     <sp>
+      <lg>
+       <l>Cœlis, in the true mirror of her eyes </l>
+       <l>Sees but the nimbus-cloud that on him lies. </l>
+       <l>There with no steady look can he survey </l>
+       <l>The love she suffers: her perturbèd mind </l>
+       <l>Can have no peace, no shelter find, </l>
+       <l>And never more to him its wealth display. </l>
+       <l>She in the storm of love is overtaken; </l>
+       <l>An ever-trembling aspen, tempest-shaken! </l>
+       <l>He loves her, but he deems her mortal still, </l>
+       <l>Or would she take no heed of pain, </l>
+       <l>But rise, upborne on his aspiring will </l>
+       <l>That cannot of itself all love attain. </l>
+       <l>How, calm-eyed, could she with her smiles reveal </l>
+       <l>To him the prospect of an endless weal? </l>
+       <l>How could she, when his lips so tremble, </l>
+       <l>Feign that her heart was light and gay; </l>
+       <l>Her inmost sympathy dissemble; </l>
+       <l>In merry tones shut out his soul's dismay? </l>
+       <l>The cloud that is upon his face </l>
+       <l>Falls o'er her eyes: can she his pains control? </l>
+       <l>O could one look of joy his dreams displace, </l>
+       <l>Then might he pierce the vista of her soul! </l>
+       <l>Yet comes a moment that allays </l>
+       <l>Her pangs, she sings to God, and singing to Him, prays. </l>
+      </lg>
+     </sp>
+    </div>
+   </div>
+   <div type="act" n="3">
+    <head>ACT III.</head>
+    <div type="scene" n="1">
+     <head>Scene I.</head>
+     <sp who="#the_soul_of_kausis">
+      <speaker>The Soul of Kausis.</speaker>
+      <lg>
+       <l>Spring breaks; it is the Serpent's time for treading </l>
+       <l>His heaven of dank and narrow alleys, </l>
+       <l>Where he his needle's eye is threading </l>
+       <l>To sow his hate among the distant valleys. </l>
+       <l>There eager warriors, whose soil </l>
+       <l>The troops of Voragine had made their spoil </l>
+       <l>In war's disastrous play of sword and fire, </l>
+       <l>Pause in the passion of debate, </l>
+       <l>And but the Serpent's oracle await, </l>
+       <l>That rich in easy, subtle thought </l>
+       <l>Must now the thirst of vengeance sate </l>
+       <l>In foes who drink at conscience, staking nought. </l>
+       <l>'Twill tell them how the strong to shake </l>
+       <l>And in their triumphs overtake </l>
+       <l>By wiles the Serpent only can invent, </l>
+       <l>Of lofty seeming but of base intent. </l>
+       <l>So shall the conquered their new Spring begin: </l>
+       <l>While the corn grows gathering the fruits of sin.</l>
+      </lg>
+     </sp>
+     <stage>The inside of a Serpent-Temple in the burnt Forest. Hayus and others,
+                        before the Idol.</stage>
+     <sp who="#hayus">
+      <speaker>HAYUS.</speaker>
+      <lg>
+       <l>O Kausis, why hast thou forsaken me?</l>
+      </lg>
+     </sp>
+     <sp who="#kausis">
+      <speaker>KAUSIS.</speaker>
+      <lg>
+       <l>Thou hast proclaimed the Cross.</l>
+      </lg>
+     </sp>
+     <sp who="#hayus">
+      <speaker>HAYUS.</speaker>
+      <lg>
+       <l>Not wilfully, </l>
+       <l>But with that sign of peace to be avenged—</l>
+      </lg>
+     </sp>
+     <sp who="#kausis">
+      <speaker>KAUSIS.</speaker>
+      <lg>
+       <l>Vengeance is mine.</l>
+      </lg>
+     </sp>
+     <sp who="#hayus">
+      <speaker>HAYUS.</speaker>
+      <lg>
+       <l>To be avenged in thee.</l>
+      </lg>
+     </sp>
+     <sp who="#kausis">
+      <speaker>KAUSIS.</speaker>
+      <lg>
+       <l>What boon demand ye at this sacrifice?</l>
+      </lg>
+     </sp>
+     <sp who="#hayus">
+      <speaker>HAYUS.</speaker>
+      <lg>
+       <l>To be as gods and slay our enemies.</l>
+      </lg>
+     </sp>
+     <sp who="#kausis">
+      <speaker>KAUSIS.</speaker>
+      <lg>
+       <l>Only through Death, robed in the flowing blood </l>
+       <l>Of thy own son.</l>
+      </lg>
+     </sp>
+     <sp who="#hayus">
+      <speaker>HAYUS.</speaker>
+      <lg>
+       <l>The bleating lamb is here; </l>
+       <l>Yet, be it as thou wilt.</l>
+      </lg>
+     </sp>
+     <sp who="#kausis">
+      <speaker>KAUSIS.</speaker>
+      <lg>
+       <l>Thy son shall die.</l>
+      </lg>
+     </sp>
+     <sp who="#hayus">
+      <speaker>HAYUS.</speaker>
+      <lg>
+       <l>Thy will encompasses </l>
+       <l>Our weak affections: touch us, that our blood, </l>
+       <l>Chilled at death's edge, be in its altered course </l>
+       <l>Numb to remorse. This hand shall loose the stream </l>
+       <l>Of that dear life.</l>
+      </lg>
+     </sp>
+     <sp who="#kausis">
+      <speaker>KAUSIS.</speaker>
+      <lg>
+       <l>Bear him unto the Tree, </l>
+       <l>And spear his side; in his last agony </l>
+       <l>Prophetic, shall he soothsay in thine ear </l>
+       <l>The one, the certain way.</l>
+      </lg>
+     </sp>
+     <sp who="#hayus">
+      <speaker>HAYUS.</speaker>
+      <lg>
+       <l>Friends, lead him thither, </l>
+       <l>But blind him, lest he see his father's face.</l>
+      </lg>
+     </sp>
+     <sp who="#kausis">
+      <speaker>KAUSIS.</speaker>
+      <lg>
+       <l>So shall the avenging father through his son </l>
+       <l>Behold his wish accomplished.</l>
+      </lg>
+     </sp>
+     <sp who="#hayus">
+      <speaker>HAYUS.</speaker>
+      <lg>
+       <l>Be it done.</l>
+      </lg>
+     </sp>
+     <sp who="#kausis">
+      <speaker>KAUSIS.</speaker>
+      <lg>
+       <l>In him the blood of innocence is spilt </l>
+       <l>To heighten vengeance on another's guilt, </l>
+       <l>And while his darkness spreads o'er all the land </l>
+       <l>His inward sight shall more and more expand </l>
+       <l>To the near future, and its secret know, </l>
+       <l>And he shall whisper with his dying breath </l>
+       <l>Such knowledge as can only be in death. </l>
+       <l>Three days thy son shall sojourn in the grave, </l>
+       <l>Then shall he rise and his loved people save: </l>
+       <l>He goes before thee; on his path attend </l>
+       <l>And with thee shall he tarry to the end.</l>
+      </lg>
+     </sp>
+     <sp>
+      <speaker/>
+      <lg>
+       <l>So, scripture-tongued the Serpent's voice prevailed, </l>
+       <l>And only one the sacrifice bewailed.</l>
+      </lg>
+     </sp>
+     <sp who="#hayus">
+      <speaker>HAYUS.</speaker>
+      <lg>
+       <l>The oracle is closed, but heard the prayer: </l>
+       <l>Give the dear victim to a father's care; </l>
+       <l>Only to me will he his soul declare.</l>
+      </lg>
+     </sp>
+     <sp who="#people">
+      <speaker>PEOPLE.</speaker>
+      <lg>
+       <l>Hail, King of the Ophidians!</l>
+      </lg>
+     </sp>
+     <sp>
+      <speaker/>
+      <lg>
+       <l> Hayus wept. </l>
+       <l>His heart in that last pang of anguish dead, </l>
+       <l>The father of the martyr bowed his head, </l>
+       <l>And the last tear he ever shed </l>
+       <l>From his deep-purposed brow with trembling fingers swept.</l>
+      </lg>
+     </sp>
+    </div>
+    <div type="scene" n="2">
+     <head>Scene II.</head>
+     <stage>—The Hall of Voragine.</stage>
+     <stage>Volupsa, Cœlis.</stage>
+     <sp>
+      <speaker/>
+      <lg>
+       <l>Henceforth is Cœlis calm; his panic o'er, </l>
+       <l>With gentle words would he restore </l>
+       <l>The wreath of smiles Volupsa wore, </l>
+       <l>When, in its soul-beams lit, her happy face </l>
+       <l>Was charged with every sudden grace. </l>
+       <l>What, thought he, can that wreath replace! </l>
+       <l>But she had newer smiles that broke </l>
+       <l>Around her lips even ere she spoke.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>Volupsa! scarce I know your face again! </l>
+       <l>Joyous or sad, 'tis always more than fair; </l>
+       <l>But smiles it hath to-day that entertain </l>
+       <l>Some favoured guest and all love's welcome bear. </l>
+       <l>What do I see? the lights within your eyes </l>
+       <l>Have flashed not so this many a day; </l>
+       <l>Lustres of brilliance they display;— </l>
+       <l>Your very soul-depths seem to crystallise.</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>Joy, Cœlis, is of many hues: </l>
+       <l>You have not heard the cheering news. </l>
+       <l>My brother has returned; the war </l>
+       <l>Is closed, our foes are friendly near and far.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>Tidings of joy, if strife be at an end!</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>And now my brother pants to greet his dearest friend.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>When did he come?</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>It was as morning broke: </l>
+       <l>Hundreds of villages awoke </l>
+       <l>In time to hail his gorgeous cavalcade, </l>
+       <l>And wreaths of common hedge-flowers many made; </l>
+       <l>Myrtle boughs and laurels waving, </l>
+       <l>And on the road the cry of victory raving. </l>
+       <l>Escorted by his guard up to the gate </l>
+       <l>His honoured name three times the soldier shouted. </l>
+       <l>He only said it was their bravery won </l>
+       <l>The glory and the rebels routed: </l>
+       <l>He gave the triumph to their arms alone.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>Where is the army now that he commanded?</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>It is dispersed: the troops are all disbanded, </l>
+       <l>No longer needed in the field, </l>
+       <l>So surely is the quarrel healed.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>Now be it mine a cheering word to say: </l>
+       <l>My sister Vivia comes to-day;—</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>Another joy!</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>She is already on her way.</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>The happy time for all sets in; </l>
+       <l>And now I hear my brother, Voragine; </l>
+       <l>That is his step along the corridor: </l>
+       <l>You know his light and rapid tread! </l>
+       <l>It is upon the welcome floor, </l>
+       <l>The home where he was born and bred. </l>
+       <l>Farewell, awhile!</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS,</speaker>
+      <stage>alone.</stage>
+      <lg>
+       <l>The passion of a child: </l>
+       <l>Oh! what true music has a sister's love! </l>
+       <l>About my heart by her 'twas early wove, </l>
+       <l>Since of its intertwining blisses spoiled!</l>
+      </lg>
+     </sp>
+    </div>
+    <div type="scene" n="3">
+     <head>Scene III.</head>
+     <stage>—The Hall of Voragine.</stage>
+     <stage>Voragine, Cœlis.</stage>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>My kinsman, Voragine! A cheerful sight, </l>
+       <l>You look so firm within your mail, </l>
+       <l>Few such a living stronghold would assail.</l>
+      </lg>
+     </sp>
+     <sp who="#voragine">
+      <speaker>VORAGINE.</speaker>
+      <lg>
+       <l>It is but health braced by sword-exercise, </l>
+       <l>The tonic of the soul! In honest fight </l>
+       <l>The secret of a man's endurance lies.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>The schooling of the body to the mind. </l>
+       <l>Ill-trained for such high cult is he </l>
+       <l>Who what he is not seeks to be: </l>
+       <l>Oft in the dusk of thought we find </l>
+       <l>No path to final victory.</l>
+      </lg>
+     </sp>
+     <sp who="#voragine">
+      <speaker>VORAGINE.</speaker>
+      <lg>
+       <l>What need we more than fame and wealth </l>
+       <l>In life's short play, and both are yours. </l>
+       <l>Though, says report, you take by stealth </l>
+       <l>What open war to me secures.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>How, then, by stealth; though said in jest, </l>
+       <l>It is most covertly expressed.</l>
+      </lg>
+     </sp>
+     <sp who="#voragine">
+      <speaker>VORAGINE.</speaker>
+      <lg>
+       <l>'Tis told no planet passes on parade </l>
+       <l>But that you rob it of an omen. </l>
+       <l>So is heaven-brigandage your trade, </l>
+       <l>As mine to take the lives of foemen. </l>
+       <l>As you coax nature to reveal </l>
+       <l>The mighty purpose of her next decreeing, </l>
+       <l>More fairly from a damsel's heart I steal </l>
+       <l>The inmost secret of her being.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>Say it is so: you ever must pourtray </l>
+       <l>Your humour in a soldier's way.</l>
+      </lg>
+     </sp>
+     <sp who="#voragine">
+      <speaker>VORAGINE.</speaker>
+      <lg>
+       <l>Your fairy sister, Vivia, where is she? </l>
+       <l>Still in the convent at her training? </l>
+       <l>Ah! would she waft her love to me, </l>
+       <l>And spare me all this heart-complaining! </l>
+       <l>Now, Cœlis, draw the shadowy moon </l>
+       <l>Into some shallow pool, and trace </l>
+       <l>The magic circles: bid her solve </l>
+       <l>How many months she must revolve </l>
+       <l>Ere Vivia shall assume her bridal place! </l>
+       <l>But say we must be wedded soon.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>She yet is young: but you have long been plighted; </l>
+       <l>Bid her then solve the riddle that has riven </l>
+       <l>So many far asunder when united: </l>
+       <l>So many into madness driven.</l>
+      </lg>
+     </sp>
+     <sp who="#voragine">
+      <speaker>VORAGINE.</speaker>
+      <lg>
+       <l>It may be so when love is little wise, </l>
+       <l>And takes the gulph ere it can scale the steep: </l>
+       <l>Before us shall no obstacle arise, </l>
+       <l>But that the dancing of our eyes </l>
+       <l>May in a moment over-leap. </l>
+       <l>What charm is there like soldier's prattle;— </l>
+       <l>The gallant rush, the flash of battle;— </l>
+       <l>No maiden heart can this withstand! </l>
+       <l>To tales of danger while she listens, </l>
+       <l>The jewel at her eyelash glistens: </l>
+       <l>The merry moment is at hand! </l>
+       <l>Ah! laugh we must not, save at greeting— </l>
+       <l>To show our joy at such a meeting! </l>
+       <l>Who has seen battles won and lost </l>
+       <l>Is slow of victory to boast, </l>
+       <l>And for the conquest of a maid, </l>
+       <l>The more he loves the more is he afraid.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>Love is the hardest of all creeds, </l>
+       <l>All are its martyrs, wheresoe'er it leads.</l>
+      </lg>
+     </sp>
+     <sp who="#voragine">
+      <speaker>VORAGINE.</speaker>
+      <lg>
+       <l>Vivia is love; no better creed I choose: </l>
+       <l>But till she comes we must the hours amuse. </l>
+       <l>Shall we then fence to while away the time? </l>
+       <l>My thoughts lie near, yours ever are sublime. </l>
+       <l>I must invent some game to waste the days, </l>
+       <l>Or they will never flit: I cannot watch, </l>
+       <l>With you, mild nature's slow, ecstatic ways, </l>
+       <l>And at set times her inspirations snatch. </l>
+       <l>Let us begone and with wild pleasure </l>
+       <l>Race, while the world goes round in stately leisure.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>Life will go on,—the eagle's speed </l>
+       <l>It doth not for its squandering need; </l>
+       <l>But Vivia comes to-day, along the road </l>
+       <l>Her barb now bears its lightsome load.</l>
+      </lg>
+     </sp>
+     <sp who="#voragine">
+      <speaker>VORAGINE.</speaker>
+      <lg>
+       <l>Such news would cheer an army! Let us spend </l>
+       <l>The morrow with you; love alone </l>
+       <l>Can for the misery of those wars atone: </l>
+       <l>Be it the assurance of their happy end.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>And from my brother Pandolph is a letter: </l>
+       <l>A longer one had pleased me better. </l>
+       <l>‘Cœlis,’ he says, ‘take choice among the fair, </l>
+       <l>Or Beatrice may plague you with an heir. </l>
+       <l>Wedded at last I long to show </l>
+       <l>My charming princess at the old chateau. </l>
+       <l>So think of us as on our homeward way; </l>
+       <l>Perhaps not many hours shall we delay. </l>
+       <l>Time after time has this been my intent, </l>
+       <l>But our old oracle not yet is spent; </l>
+       <l>For, I had a presentiment.’</l>
+      </lg>
+     </sp>
+     <sp who="#voragine">
+      <speaker>VORAGINE.</speaker>
+      <lg>
+       <l>The best of news.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>Presentiments we heed, </l>
+       <l>Though little argument have they to plead. </l>
+       <l>Perchance my brother feels afar </l>
+       <l>The signs that move us not when they are near, </l>
+       <l>And so may he his safety find in fear: </l>
+       <l>But this must not our pleasure mar, </l>
+       <l>When all the rest, perhaps Vivia, now are here.</l>
+      </lg>
+     </sp>
+     <sp who="#voragine">
+      <speaker>VORAGINE.</speaker>
+      <lg>
+       <l>Ere the day passes Vivia must I see; </l>
+       <l>And on the morrow,—</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>Then the feast shall be.</l>
+      </lg>
+     </sp>
+    </div>
+    <div type="scene" n="4">
+     <head>Scene IV.</head>
+     <stage>Voragine, Volupsa.</stage>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>How long the time has dragged; and yet a year </l>
+       <l>Is gone!</l>
+      </lg>
+     </sp>
+     <sp who="#voragine">
+      <speaker>VORAGINE.</speaker>
+      <lg>
+       <l>Another comes.</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>You now will stay, </l>
+       <l>For slowly fills the gap wherein your absence lay.</l>
+      </lg>
+     </sp>
+     <sp who="#voragine">
+      <speaker>VORAGINE.</speaker>
+      <lg>
+       <l>You are not happy, child.</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>My loneliness </l>
+       <l>Still weighs upon me, as on you the stress </l>
+       <l>And hurry of the war.</l>
+      </lg>
+     </sp>
+     <sp who="#voragine">
+      <speaker>VORAGINE.</speaker>
+      <lg>
+       <l>How well divined: </l>
+       <l>I spend my nights in battle, though my sword </l>
+       <l>Hangs idly by my bed. That busy sleep! </l>
+       <l>While I am couched and feel my head indent </l>
+       <l>The very pillow, I direct the steps </l>
+       <l>Of my foregoing self into the fight, </l>
+       <l>And move with it, recumbent though I be, </l>
+       <l>Into the thick of battle.</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>So with me: </l>
+       <l>Upon my spirit hangs the lonely year!</l>
+      </lg>
+     </sp>
+     <sp who="#voragine">
+      <speaker>VORAGINE.</speaker>
+      <lg>
+       <l>Has it been, then, so sad?</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>Both sad and smiling: </l>
+       <l>Hope seasoned by its fruits that ripen not. </l>
+       <l>But you are here.</l>
+      </lg>
+     </sp>
+     <sp who="#voragine">
+      <speaker>VORAGINE.</speaker>
+      <lg>
+       <l>Even mine is not the love </l>
+       <l>That Cœlis bears you?</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>Yes; a brother's love; </l>
+       <l>Deeper than all: not more.</l>
+      </lg>
+     </sp>
+     <sp who="#voragine">
+      <speaker>VORAGINE.</speaker>
+      <lg>
+       <l>You have my heart.</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>You have but half of mine; </l>
+       <l>The rest is torn to shreds.</l>
+      </lg>
+     </sp>
+     <sp who="#voragine">
+      <speaker>VORAGINE.</speaker>
+      <lg>
+       <l>Is he then cold?</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>Never; the ways of men are not his ways: </l>
+       <l>He deems that we should do the same on earth </l>
+       <l>As if we were in heaven.</l>
+      </lg>
+     </sp>
+     <sp who="#voragine">
+      <speaker>VORAGINE.</speaker>
+      <lg>
+       <l>How could it be?</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>With him it is so, save that being here, </l>
+       <l>A mortal, a lone wanderer, he seeks </l>
+       <l>For the unseen like one who searched the world </l>
+       <l>For some lost friend.</l>
+      </lg>
+     </sp>
+     <sp who="#voragine">
+      <speaker>VORAGINE.</speaker>
+      <lg>
+       <l>And he encounters nought.</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>Would it were so; alas! by day and night </l>
+       <l>The shadowy Serpent lies upon his path; </l>
+       <l>Its threats almost unseat his faculties, </l>
+       <l>Till comes the calm, when teems the unwhispering air </l>
+       <l>With revelations of immortal song.</l>
+      </lg>
+     </sp>
+     <sp who="#voragine">
+      <speaker>VORAGINE.</speaker>
+      <lg>
+       <l>Can it be thus? 'Twere supernatural!</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>So is it to his sense.</l>
+      </lg>
+     </sp>
+     <sp who="#voragine">
+      <speaker>VORAGINE.</speaker>
+      <lg>
+       <l>The mood will change. </l>
+       <l>When I take Vivia's hand yours must he claim, </l>
+       <l>Love spreads with such infection; they who fly </l>
+       <l>Are the first overtaken by its plague. </l>
+       <l>A single wedding is the fruitful core </l>
+       <l>Of countless marriage feasts.</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>'Twill need no veil </l>
+       <l>To hide my blushes that can never bloom </l>
+       <l>Before an altar. All my thoughts to his </l>
+       <l>Prove adverse; my poor love cannot fulfil </l>
+       <l>The wealth of his affection, though its flame </l>
+       <l>Will not go out, but, like a servile lamp, </l>
+       <l>Burn by his side in solitude.</l>
+      </lg>
+     </sp>
+    </div>
+    <div type="scene" n="5">
+     <head>Scene V.</head>
+     <stage>—The Castle of Cœlis.</stage>
+     <stage>Cœlis, alone.</stage>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>O dream that comes to pass when infant truth </l>
+       <l>Quickens within the vision! So is born </l>
+       <l>Divinity to this love-founded world! </l>
+       <l>It have I sought through crystal depths that lie </l>
+       <l>In woman's heart, but not before have found </l>
+       <l>Her mirror open, till this very hour </l>
+       <l>All is revealed, through her, my holy bride! </l>
+       <l>The darkness left me when my welcomed eyes </l>
+       <l>Entered Volupsa's with that sister's joy </l>
+       <l>Beaming upon them! How a sister's love </l>
+       <l>Thus at a brother's kindled, sets at nought </l>
+       <l>All passion! On a long-lost heaven beyond, </l>
+       <l>Through the wide-open window of her soul </l>
+       <l>My eyes have gazed, and taught me to forego </l>
+       <l>The one too fond desire that dissipates </l>
+       <l>The ecstasy of being. O beloved! </l>
+       <l>How should I touch thy lips, how bruise the bloom </l>
+       <l>That lies upon them, tender as a dew </l>
+       <l>On the dimmed ruby! Like the violet </l>
+       <l>Kissing the stream, so shall thy lips, that blood </l>
+       <l>Of grapes has never stained, be left to sip </l>
+       <l>Heaven's nectar; while henceforward I invoke </l>
+       <l>Thy sister-love, pure, and unchangeable, </l>
+       <l>From infant days to age. Belovèd one, </l>
+       <l>Ideal sister! be our bridal vows </l>
+       <l>In bonds held chaste for yet a little while: </l>
+       <l>What I now feel draws our hereafter near.</l>
+      </lg>
+     </sp>
+     <stage>Cœlis, Voragine, Vivia, Volupsa.</stage>
+     <stage>(Volupsa and Vivia.)</stage>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>My own red Rose!</l>
+      </lg>
+     </sp>
+     <sp who="#vivia">
+      <speaker>VIVIA.</speaker>
+      <lg>
+       <l>My Lily of the Vale!</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>Your cheeks, how blooming!</l>
+      </lg>
+     </sp>
+     <sp who="#vivia">
+      <speaker>VIVIA.</speaker>
+      <lg>
+       <l>Yours, why are they pale?</l>
+      </lg>
+     </sp>
+     <stage>(Cœlis, Volupsa.)</stage>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>See you yon shadow from the mountain steeps </l>
+       <l>That swiftly o'er the primrose-valley sweeps?</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>It seemed to rush away between </l>
+       <l>The hanging rocks, and to be no more seen.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>So is it with us here; could we remain, </l>
+       <l>Or find, at once, the ever-shining plain, </l>
+       <l>Life would be real; that which has its close </l>
+       <l>Begins not: all is but a mocking flight, </l>
+       <l>Before and after swallowed up in night </l>
+       <l>Whence like a flitting shadow it arose.</l>
+      </lg>
+     </sp>
+     <stage>(Voragine, Vivia.)</stage>
+     <sp who="#voragine">
+      <speaker>VORAGINE.</speaker>
+      <lg>
+       <l>Yes, long the land 'neath war's hard grasp has chafed, </l>
+       <l>But, like your smiles, is peace to me vouchsafed;— </l>
+       <l>And now my thoughts on better days are set: </l>
+       <l>A soldier's utmost need is to forget.</l>
+      </lg>
+     </sp>
+     <stage>(Cœlis, Volupsa.)</stage>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>So vanishes all love if, soul to soul, </l>
+       <l>It be not graved on the eternal roll. </l>
+       <l>There be our plight and heaven emblazon it!</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>There has my love this many a day been writ.</l>
+      </lg>
+     </sp>
+     <stage>(Voragine, Vivia.)</stage>
+     <sp who="#voragine">
+      <speaker>VORAGINE.</speaker>
+      <lg>
+       <l>Yet is life long; though spent with you 'twould run </l>
+       <l>Swift to the end, as though 'twere just begun.</l>
+      </lg>
+     </sp>
+     <sp who="#vivia">
+      <speaker>VIVIA.</speaker>
+      <lg>
+       <l>That were too fast, if 'twere for me to choose.</l>
+      </lg>
+     </sp>
+     <sp who="#voragine">
+      <speaker>VORAGINE.</speaker>
+      <lg>
+       <l>Then let us not the passing moment lose!</l>
+      </lg>
+     </sp>
+     <stage>(Cœlis, Volupsa.)</stage>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>Can you then love me for the after-time, </l>
+       <l>That singly, yet as one, our souls may climb </l>
+       <l>To times immortal; only there to blend </l>
+       <l>In that existence which shall never end? </l>
+       <l>It will surpass this world!</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>I do so now; </l>
+       <l>To me this life has long been only vain, </l>
+       <l>Yet does my lasting love for you remain.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>Those holy words indite our final vow!</l>
+      </lg>
+     </sp>
+     <stage>(Voragine, Vivia.)</stage>
+     <sp who="#voragine">
+      <speaker>VORAGINE.</speaker>
+      <lg>
+       <l>Yes, you are young: the younger be my heart, </l>
+       <l>That it may cling to yours till death us part.</l>
+      </lg>
+     </sp>
+     <sp who="#vivia">
+      <speaker>VIVIA.</speaker>
+      <lg>
+       <l>Let me die first; it is but once we die.</l>
+      </lg>
+     </sp>
+     <sp who="#voragine">
+      <speaker>VORAGINE.</speaker>
+      <lg>
+       <l>No, you must keep alive my memory!</l>
+      </lg>
+     </sp>
+     <stage>(Cœlis, Volupsa.)</stage>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>Will you, Volupsa, at your parting breath </l>
+       <l>Think of our vow, that when we conquer death </l>
+       <l>We shall arise as one?</l>
+      </lg>
+     </sp>
+     <sp who="#volupsa">
+      <speaker>VOLUPSA.</speaker>
+      <lg>
+       <l>Then, what has brought </l>
+       <l>A love so deep across your dubious thought? </l>
+       <l>Am not I constant, when one only prayer </l>
+       <l>Leaves my sad heart for Heaven; that you may </l>
+       <l> Love me there?</l>
+      </lg>
+     </sp>
+    </div>
+   </div>
+   <div type="act" n="4">
+    <head>ACT IV.</head>
+    <div type="scene" n="1">
+     <head>Scene I.</head>
+     <stage>—The Banquet-room in the Castle of Cœlis</stage>
+     <stage>Cœlis, Voragine, Volupsa, Vivia.</stage>
+     <sp>
+      <speaker/>
+      <lg>
+       <l>Within those legend-bearing walls </l>
+       <l>Whose age the world's great age recals, </l>
+       <l>Two blushing maids with love elate </l>
+       <l>By Voragine and Cœlis sate, </l>
+       <l>All feasting there in high baronial state. </l>
+       <l>The warrior now has doffed his crest; </l>
+       <l>No armature is on his breast; </l>
+       <l>He revels in his well-earned rest. </l>
+       <l>A feast of love! Some long-gone day </l>
+       <l>Drawn back into the happy scene </l>
+       <l>They tell of in such merry way </l>
+       <l>That much seems left of what has been. </l>
+       <l>Then startled, all have ceased to speak: </l>
+       <l>Sounds of sweet music on them break. </l>
+       <l>A Minstrel at the gate is singing, </l>
+       <l>The harp rebounds, the wires are ringing </l>
+       <l>As he, the deep-voiced Troubadour, </l>
+       <l>Attunes them to the tale of war. </l>
+       <l>What words he utters well he feels, </l>
+       <l>And to the warrior his song appeals! </l>
+       <l>‘'Twas at the meeting of the dead </l>
+       <l>The fallen bade our slaughters cease; </l>
+       <l>We mourned their blood that we had shed, </l>
+       <l>We hailed the better day of peace, </l>
+       <l>And now one boon we ask that Heaven </l>
+       <l>Hath ever to the wretched given.’ </l>
+       <l>The words were few but many times </l>
+       <l>O'er varying keys he spread the rhymes. </l>
+       <l>The warrior was at Vivia's side: </l>
+       <l>She shed the tears that he must hide, </l>
+       <l>Sad in the sorrow of the song; </l>
+       <l>While deep emotions in him throng </l>
+       <l>At some awakened sense of wrong. </l>
+       <l>For lands had he to deserts turned, </l>
+       <l>And herdsmen slain, and many dwellings burned. </l>
+       <l>Volupsa watches every thought </l>
+       <l>The Minstrel's words o'er Cœlis brought, </l>
+       <l>Thinking, in her silent woe, </l>
+       <l>Her brother's love would from her turn </l>
+       <l>To Vivia, and that Cœlis yet might spurn </l>
+       <l>The heart she gave him long ago. </l>
+       <l>Now the Minstrel sings again, </l>
+       <l>And in the same soul-searching strain. </l>
+       <l>All hasten to the gateway fain to hear </l>
+       <l>What they may lose not being there. </l>
+       <l>They gather on the parapet </l>
+       <l>Where valleys dip and mountains rise </l>
+       <l>Around a poet's paradise; </l>
+       <l>Where strangest deeds may happen yet. </l>
+       <l>O Minstrel! Canst thou prophesy? </l>
+       <l>Peace is to-day and war is of the past! </l>
+       <l>But curses every blessing underlie, </l>
+       <l>And all things bend before a winter's blast.</l>
+      </lg>
+     </sp>
+    </div>
+    <div type="scene" n="2">
+     <head>Scene II.</head>
+     <stage>—The Gate of Cœlis.</stage>
+     <stage>Cœlis, Voragine, Volupsa, Vivia, and Hayus, as a Troubadour.</stage>
+     <sp>
+      <speaker/>
+      <lg>
+       <l>‘Begin once more,’ the warrior says: </l>
+       <l>‘Not oft such music greets our ears; </l>
+       <l>Your song hath left this maid in tears.’ </l>
+       <l>With grateful looks the bard obeys. </l>
+       <l>The warrior lists as through him rings </l>
+       <l>The growing burden of the verses </l>
+       <l>Which the grand Troubadour rehearses, </l>
+       <l>And to the depths of anguish sings. </l>
+       <l>The warrior knew his arms had spread </l>
+       <l>Dismay where hosts but live to mourn the dead: </l>
+       <l>The wife and child together slain; </l>
+       <l>The bride hair-dragged to slaughter, screaming; </l>
+       <l>Her prayer unheard, poured out in vain; </l>
+       <l>Then her young blood in silence streaming.</l>
+      </lg>
+     </sp>
+     <sp who="#voragine">
+      <speaker>VORAGINE.</speaker>
+      <lg>
+       <l>What is your story, Minstrel?</l>
+      </lg>
+     </sp>
+     <sp who="#hayus">
+      <speaker>HAYUS.</speaker>
+      <lg>
+       <l>I, alone, </l>
+       <l>Am left of the true bards for ever gone, </l>
+       <l>Of the old Troubadours descended, </l>
+       <l>Whose days but not whose songs have ended. </l>
+       <l>They rise up from the buried time, </l>
+       <l>And story lives in monuments of rhyme. </l>
+       <l>Men seldom now the minstrel hear; </l>
+       <l>Ghost-like he passes o'er his father's track </l>
+       <l>And for a moment flashes back; </l>
+       <l>Ere long to wholly disappear.</l>
+      </lg>
+     </sp>
+     <sp>
+      <speaker/>
+      <lg>
+       <l>Cœlis loves the Troubadour, </l>
+       <l>So human were those deep-set eyes, </l>
+       <l>That had a troubled look divinely pure; </l>
+       <l>And kindly thus unto his words replies: </l>
+       <l>‘You can our hearts already read; </l>
+       <l>There seek your welcome; speak your need: </l>
+       <l>What is it brings you to the door?’</l>
+      </lg>
+     </sp>
+     <sp who="#hayus">
+      <speaker>HAYUS.</speaker>
+      <lg>
+       <l>I will be bold; affairs of state </l>
+       <l>Have brought me to this noble house; </l>
+       <l>Our cause I pray all present to espouse! </l>
+       <l>On this depends my country's fate. </l>
+       <l>My father was a sacred bard </l>
+       <l>Whose songs with filial reverence I guard; </l>
+       <l>With him I roved the distant kingdoms through </l>
+       <l>Rehearsing newer deeds than yet had flown </l>
+       <l>O'er homes that to each other were unknown, </l>
+       <l>And well the legend of this house he knew. </l>
+       <l>My father taught me reverence for your name: </l>
+       <l>From that high source my inspiration came! </l>
+       <l>The Serpent was the guardian of your race; </l>
+       <l>And they who braved his anger rued too soon </l>
+       <l>The woes that once befel Laocoon! </l>
+       <l>And many shared that victim's throes; </l>
+       <l>Not sadder than my own dear country's woes! </l>
+       <l>So as we spread your fame from place to place, </l>
+       <l>Of you I ask a boon; to spare </l>
+       <l>Our land and take its people to your care. </l>
+       <l>Myself the leader of a strolling band, </l>
+       <l>Rare actors every one, and nigh at hand, </l>
+       <l>I seek the favour first, not hard to grant, </l>
+       <l>That we may act our play on yonder sward; </l>
+       <l>And if our effort please, be our reward </l>
+       <l>That mercy wakens to our nobler want!</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>Tell us at once your full desire; </l>
+       <l>Willing are we to give it heed; </l>
+       <l>But first shall we your band of actors hire, </l>
+       <l>Whatever else may be your pressing need.</l>
+      </lg>
+     </sp>
+     <sp who="#hayus">
+      <speaker>HAYUS.</speaker>
+      <lg>
+       <l>It is that Voragine, your chief, revoke </l>
+       <l>The impost on our hungry soil: </l>
+       <l>Conquest has left on us its bitter yoke, </l>
+       <l>And few remain to sweat and toil. </l>
+       <l>Humble are we, our people are subdued </l>
+       <l>And seek to thrive in peace, the only lasting good.</l>
+      </lg>
+     </sp>
+     <sp who="#voragine">
+      <speaker>VORAGINE.</speaker>
+      <lg>
+       <l>The little that you ask shall be conceded, </l>
+       <l>With all the spoils; and more, if more be needed.</l>
+      </lg>
+     </sp>
+     <sp>
+      <speaker/>
+      <lg>
+       <l>‘Then are you not my country's foe,’ </l>
+       <l>The Minstrel said, and to the chief bowed low. </l>
+       <l>‘Since that all hearts are in our favour stirred, </l>
+       <l>Let me speak on; speak of your sires whose dust </l>
+       <l>Here sleeps; of whom are many marvels heard: </l>
+       <l>And who to legends listens in mistrust? </l>
+       <l>My fathers to your fathers oft have sung </l>
+       <l>The weird traditions, true though symbolized, </l>
+       <l>That to this house for centuries have clung. </l>
+       <l>Above all wealth are they, above all honours prized! </l>
+       <l>They bear us back into the infant times, </l>
+       <l>Of virgin lands on earth, and early climes, </l>
+       <l>Whence men derived their origin obscure; </l>
+       <l>Who since into the forest-world have spread </l>
+       <l>With the traditions of their dead, </l>
+       <l>Which to these latest days endure. </l>
+       <l>In a dark hour the whisperer of death </l>
+       <l>Approached their mother with his glozing breath: </l>
+       <l>Well they remembered all that mother told </l>
+       <l>As she wept o'er her Paradise of old.’ </l>
+       <l>The Troubadour's devoted eyes </l>
+       <l>Rest on the prospect that beneath him lies; </l>
+       <l>Then the inviting heaven they slowly gauge </l>
+       <l>To catch some well-timed thought of its highteaching page. </l>
+       <l>‘Yon Soul of All,’ he says, ‘had striven </l>
+       <l>To plan our being free of pain: </l>
+       <l>She, the Wise-Worker, strove in vain, </l>
+       <l>Not limitless her power. </l>
+       <l>Change would arise and change was but Decay; </l>
+       <l>The night would feed upon the day, </l>
+       <l>The day the night devour. </l>
+       <l>Despite her, Nature must the work rehearse, </l>
+       <l>Else had She swept away this universe </l>
+       <l>Whose charm alternates only with its curse. </l>
+       <l>But love within her still prevailed, </l>
+       <l>Though by the Serpent ceaselessly assailed, </l>
+       <l>Who, ever pressing on her rear, </l>
+       <l>Poisons the love-born offerings of the year. </l>
+       <l>The bloom of her all-fruitful being </l>
+       <l>She sheds even to the future's farthest date; </l>
+       <l>Throughout all time the day foreseeing </l>
+       <l>When man should lose no more his soul's estate. </l>
+       <l>Hard was the struggle for our race; </l>
+       <l>The fierceness of the tiger was its base, </l>
+       <l>But reason had a growth self-lifting </l>
+       <l>Above the common nature of mankind: </l>
+       <l>Through storms within, through trials drifting, </l>
+       <l>Still the good and evil sifting, </l>
+       <l>While loftier rose the wondrous mind. </l>
+       <l>Oft-times it grew to godlike stature </l>
+       <l>And won such conquests over nature </l>
+       <l>As in eternal archives ever shine, </l>
+       <l>And claim for it an origin divine. </l>
+       <l>But, as in legend still is rife, </l>
+       <l>The Serpent with the Soul of All at strife </l>
+       <l>Was lord of death, ensconced in arm-like shape </l>
+       <l>That clasped within its many circled coil </l>
+       <l>The soul that would his will escape </l>
+       <l>And balk him of his richest spoil. </l>
+       <l>So speak the legends of old times, </l>
+       <l>That come to us in their heart-clinging rhymes; </l>
+       <l>That every ear with sweetness sate, </l>
+       <l>And, once caught up, none dare adulterate. </l>
+       <l>All these traditions, nobly sung, </l>
+       <l>To our great troubadours have clung: </l>
+       <l>And those which breathe the fame and glory </l>
+       <l>Of this high house rank first in ancient story. </l>
+       <l>All who dwell here are of Laocoon's line, </l>
+       <l>A kingly race, priests of a sun-god's shrine: </l>
+       <l>But they had foes that never slept; </l>
+       <l>And from the sea two jealous serpents crept, </l>
+       <l>Entwining sire and sons within their grasp, </l>
+       <l>And still those suffering souls they seem to clasp. </l>
+       <l>Who gazed, stood in their presence numb, </l>
+       <l>The tongues of olden bards were stricken dumb; </l>
+       <l>But lives the record in that marble rock </l>
+       <l>Which, thrilled with horror, trembled in the shock, </l>
+       <l>And, scaling gave to sight the Serpent's skin </l>
+       <l>And all the direful group that writhed within. </l>
+       <l>There stood the three in fiery anguish seething, </l>
+       <l>The knotted Serpents sire and sons enwreathing.’ </l>
+       <l>The maidens hand in hand have met, </l>
+       <l>With open mouths and brows firm set; </l>
+       <l>Yet eager and with frighted stare </l>
+       <l>They listen, though the tale their senses scare. </l>
+       <l>‘The serpents crept through every land, </l>
+       <l>In one all-tempting purpose clanned: </l>
+       <l>In forest stretched across from bole to bole </l>
+       <l>Waiting their prey, the wandering soul, </l>
+       <l>Were they below the lofty branches slung, </l>
+       <l>And there in emerald dyes and ruby lustre hung, </l>
+       <l>Green where the summer boughs were green, </l>
+       <l>Red where the tangled creepers tinged the autumnal scene. </l>
+       <l>Then could I tell you, ne'er to be forgot, </l>
+       <l>How the great lords, your sires, were led </l>
+       <l>By the arch-serpent to this pleasant spot, </l>
+       <l>Where o'er the gateway still he rears his head, </l>
+       <l>The mystic symbol of a form </l>
+       <l>That winds its will about the darting storm. </l>
+       <l>But these old legends reach so high, </l>
+       <l>They burn into the page of prophecy, </l>
+       <l>Where none can loose the fiery letters, </l>
+       <l>Bound and clasped in iron fetters, </l>
+       <l>Till, on the dreaded day foredoomed, </l>
+       <l>They burst in flame and are, with all, consumed.</l>
+      </lg>
+     </sp>
+    </div>
+    <div type="scene" n="3">
+     <head>Scene III.</head>
+     <stage>—The Chamber of Volupsa.</stage>
+     <stage>Volupsa, alone.</stage>
+     <sp>
+      <speaker/>
+      <lg>
+       <l>Though now the Minstrel's tones are hushed, </l>
+       <l>His sweep of feeling is unstayed: </l>
+       <l>The torrent from that bosom rushed, </l>
+       <l>As there he trembled, self-dismayed, </l>
+       <l>And poured his rage down every ear;— </l>
+       <l>Dire threats the spirit's channel tracking </l>
+       <l>He held all listeners in fear, </l>
+       <l>As in a fiery ring that burned </l>
+       <l>Round all, while on themselves they turned, </l>
+       <l>As with a serpent-sting their bosoms racking. </l>
+       <l> And speedily Volupsa fled; </l>
+       <l>Her rest was in her brother's hall; </l>
+       <l>There her afflicted heart she read, </l>
+       <l>Bodings of evil only to recal. </l>
+       <l>She had the patient gift that dwells </l>
+       <l>On thought as deeply as on deeds, </l>
+       <l>And now her heart the meaning tells </l>
+       <l>Of all that on its quiet feeds. </l>
+       <l>She looks not forward only, but within </l>
+       <l>Where ills that are to be so oft begin. </l>
+       <l>Those records, now, that many deem </l>
+       <l>The vapid verse of false tradition, </l>
+       <l>Haunt her as some unusual dream </l>
+       <l>That glares on her through bars of superstition. </l>
+       <l>What dare she think? Is he indeed a bard, </l>
+       <l>Whose songs so on her spirit jarred, </l>
+       <l>Or but a man of mysteries? </l>
+       <l>Yet goodness glistened in his eyes! </l>
+       <l>What semblance sees she, be it dim, </l>
+       <l>Between the wily Snake and him? </l>
+       <l>Doth one within the other lurk, </l>
+       <l>That both such power o'er Cœlis work, </l>
+       <l>Trailing through bliss his phrenzied aspiration, </l>
+       <l>While spirits tune some choral hymn, </l>
+       <l>With stolen notes of seraphim, </l>
+       <l>And hold his soul in fascination? </l>
+       <l>She dares not think and but pours forth a prayer, </l>
+       <l>That God may take her to his care. </l>
+       <l>‘O help of the helpless! who ever art nigh; </l>
+       <l>The Shepherd on whom in our need we rely, </l>
+       <l>In whose light are the tears of the wretched made dry; </l>
+       <l>Look down on this heart, thy poor suppliant behold; </l>
+       <l>For her sake the loved Lamb to thy bosom enfold!’</l>
+      </lg>
+     </sp>
+    </div>
+    <div type="scene" n="4">
+     <head>Scene IV.</head>
+     <stage>—Terrace at the Gate of Cœlis.</stage>
+     <stage>Voragine, Vivia.</stage>
+     <sp>
+      <speaker/>
+      <lg>
+       <l>Vivia as one benumbed was lost in awe, </l>
+       <l>When Voragine her terror saw: </l>
+       <l>He said that legends well he loved, </l>
+       <l>But not a soldier it behoved </l>
+       <l>To put his trust in what a minstrel sings; </l>
+       <l>That faith with him was but in passing things. </l>
+       <l>Cœlis and the Troubadour </l>
+       <l>Pass down the slope, the valley to explore, </l>
+       <l>Where they may commune on the play, </l>
+       <l>And fix the morrow for the gala-day. </l>
+       <l>Vivia not long remains in dread </l>
+       <l>While her fond hand the warrior keeps </l>
+       <l>In his, as if already wed; </l>
+       <l>And there it softly rests as when she sleeps.</l>
+      </lg>
+     </sp>
+     <sp who="#voragine">
+      <speaker>VORAGINE</speaker>
+      <lg>
+       <l>Will not you, sweetest, kindly muse </l>
+       <l>On my last words? this were not life </l>
+       <l>Should you my loving heart refuse!</l>
+      </lg>
+     </sp>
+     <sp who="#vivia">
+      <speaker>VIVIA.</speaker>
+      <lg>
+       <l>But I am young to be a wife!</l>
+      </lg>
+     </sp>
+     <sp who="#voragine">
+      <speaker>VORAGINE.</speaker>
+      <lg>
+       <l>Not young the bridal veil to wear!</l>
+      </lg>
+     </sp>
+     <sp who="#vivia">
+      <speaker>VIVIA.</speaker>
+      <lg>
+       <l>I feel that you are brave and kind; </l>
+       <l>Then something crosses o'er my mind </l>
+       <l>And makes me pant with sudden fear.</l>
+      </lg>
+     </sp>
+     <sp who="#voragine">
+      <speaker>VORAGINE.</speaker>
+      <lg>
+       <l>Yes, you are young, but were you older </l>
+       <l>Your timid heart would not be bolder.</l>
+      </lg>
+     </sp>
+     <sp who="#vivia">
+      <speaker>VIVIA.</speaker>
+      <lg>
+       <l>I have so many things to learn; </l>
+       <l>At school we only write and read: </l>
+       <l>It will take long my mind to turn </l>
+       <l>To all a soldier's wife must need.</l>
+      </lg>
+     </sp>
+     <sp who="#voragine">
+      <speaker>VORAGINE.</speaker>
+      <lg>
+       <l>All he can ask for, you possess; </l>
+       <l>A gentle heart, a ready thought: </l>
+       <l>What gifts a soldier's life to bless! </l>
+       <l>The rest is all by instinct caught.</l>
+      </lg>
+     </sp>
+     <sp who="#vivia">
+      <speaker>VIVIA.</speaker>
+      <lg>
+       <l>Dear Cousin, you will wait at least </l>
+       <l>Till she knows household duties better? </l>
+       <l>Suppose that you proclaimed a feast, </l>
+       <l>Then what confusion would beset her! </l>
+       <l>When the splendid guests assemble </l>
+       <l>About you, and your praises sound, </l>
+       <l>Her cheeks would burn, her feet would tremble </l>
+       <l>As she were sinking through the ground.</l>
+      </lg>
+     </sp>
+     <sp who="#voragine">
+      <speaker>VORAGINE.</speaker>
+      <lg>
+       <l>Not when a diamond shower has clung </l>
+       <l>In radiant drops about her neck, </l>
+       <l>And pearls as thick as hailstones flung </l>
+       <l>Upon her hair her head shall deck?</l>
+      </lg>
+     </sp>
+     <sp who="#vivia">
+      <speaker>VIVIA.</speaker>
+      <lg>
+       <l>Easy it is for you to bask </l>
+       <l>In glory, won by you in fight: </l>
+       <l>It is for me a trying task </l>
+       <l>To lift my eyelids in your light.</l>
+      </lg>
+     </sp>
+     <sp who="#voragine">
+      <speaker>VORAGINE.</speaker>
+      <lg>
+       <l>Yet when you risk those swaying eyes </l>
+       <l>And turn their look of love on me, </l>
+       <l>A voice within my heart replies, </l>
+       <l>Such bliss on earth can never be!</l>
+      </lg>
+     </sp>
+     <sp who="#vivia">
+      <speaker>VIVIA.</speaker>
+      <lg>
+       <l>Am I so loved? or am I made </l>
+       <l>The philtre but to work the spell, </l>
+       <l>The charm soon gone, when I must fade </l>
+       <l>Into a child, a graceless girl!</l>
+      </lg>
+     </sp>
+     <sp who="#voragine">
+      <speaker>VORAGINE.</speaker>
+      <lg>
+       <l>The gifts and honours that the throne </l>
+       <l>Confers, may every soldier know: </l>
+       <l>Your heart is one, the only one, </l>
+       <l>No monarch can on him bestow.</l>
+      </lg>
+     </sp>
+     <sp who="#vivia">
+      <speaker>VIVIA.</speaker>
+      <lg>
+       <l>Once did I care to see you great </l>
+       <l>Till love for you has turned my head; </l>
+       <l>But we another year must wait; </l>
+       <l>You know that I am young to wed!</l>
+      </lg>
+     </sp>
+     <sp who="#voragine">
+      <speaker>VORAGINE.</speaker>
+      <lg>
+       <l>You soon to woman's prime will reach, </l>
+       <l>Even as the bud its growth extends; </l>
+       <l>You then will ask with bolder speech </l>
+       <l>When this long term of spring-tide ends.</l>
+      </lg>
+     </sp>
+     <sp who="#vivia">
+      <speaker>VIVIA.</speaker>
+      <lg>
+       <l>Tell it to no one for a year! </l>
+       <l>Our friends would laugh though I should weep: </l>
+       <l>'Twere long their raillery to bear: </l>
+       <l>It is a secret you can keep?</l>
+      </lg>
+     </sp>
+     <sp who="#voragine">
+      <speaker>VORAGINE.</speaker>
+      <lg>
+       <l>You trust it to your faithful slave </l>
+       <l>Who will your hourly wish obey: </l>
+       <l>Who would not such a service crave </l>
+       <l>Awaiting the propitious day!</l>
+      </lg>
+     </sp>
+    </div>
+    <div type="scene" n="5">
+     <head>Scene V.</head>
+     <stage>—The Paradise of Cœlis.</stage>
+     <stage>Cœlis, Hayus.</stage>
+     <sp>
+      <speaker/>
+      <lg>
+       <l>Along the plain, where seem to grow </l>
+       <l>Tree-shadows, feeding on the grass below, </l>
+       <l>Cœlis and Hayus wander, brooding still </l>
+       <l>O'er serpent-myths and man's mysterious will. </l>
+       <l>The floods are gone, the brooks are shallow; </l>
+       <l>Fields of lilies white and yellow, </l>
+       <l>That blossomed on the waters' surf, </l>
+       <l>Have dropped their refuse on the turf. </l>
+       <l>Spring presses upwards through the grass </l>
+       <l>That now by sprouting blades is thickened; </l>
+       <l>Crisp stems a wealth of flowers amass </l>
+       <l>'Mid drooping leaves by winter sickened. </l>
+       <l>‘Here,’ then said Cœlis, ‘act your pleasant play, </l>
+       <l>And let the morrow be a gala-day.’</l>
+      </lg>
+     </sp>
+     <sp who="#hayus">
+      <speaker>HAYUS.</speaker>
+      <lg>
+       <l>It shall be such a day as few </l>
+       <l>Can through a life-time see again. </l>
+       <l>It shall the pastoral times renew </l>
+       <l>When shepherds ruled as rich a plain.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>Volupsa loved a pastoral: </l>
+       <l>May this her early joys recal. </l>
+       <l>Then Vivia it must needs enrapture: </l>
+       <l>When her young eyes with pleasure glow </l>
+       <l>They might a hundred lovers capture.</l>
+      </lg>
+     </sp>
+     <sp who="#hayus">
+      <speaker>HAYUS.</speaker>
+      <lg>
+       <l>The villagers,—</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>Let all attend the show. </l>
+       <l>A pastoral is the prelude, then, </l>
+       <l>What follows?</l>
+      </lg>
+     </sp>
+     <sp who="#hayus">
+      <speaker>HAYUS.</speaker>
+      <lg>
+       <l>Rustic games, when armèd men </l>
+       <l>Come stealthily as fain to join </l>
+       <l>Our feast, but would our flocks purloin; </l>
+       <l>And while they drive away the cattle </l>
+       <l>Sound their bugles as for battle. </l>
+       <l>Our shepherds with their crooks pursue; </l>
+       <l>Brief is the struggle, made in vain; </l>
+       <l>That day not many do recal; for few </l>
+       <l>Escape and many a maid and youth is slain.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>How ends the play?</l>
+      </lg>
+     </sp>
+     <sp who="#hayus">
+      <speaker>HAYUS.</speaker>
+      <lg>
+       <l>All for the best, </l>
+       <l>Though still borne on by passion, deep and strong. </l>
+       <l>I cannot now describe the rest;— </l>
+       <l>All nobly meet the cruel wrong. </l>
+       <l>Strange seems this answer when you deign to ask </l>
+       <l>A player how shall end his mimic task; </l>
+       <l>But ever has it been our fashion </l>
+       <l>To yield the climax up to human passion. </l>
+       <l>Our actors are so gifted that a plot, </l>
+       <l>Against the impulse of the hour, would fail, </l>
+       <l>And, as the fury raged, would be forgot: </l>
+       <l>For genius must o'er all our acts prevail. </l>
+       <l>How true to nature this! In many wars </l>
+       <l>Have served the thoughtful troubadours, </l>
+       <l>To find in battle's mighty crash </l>
+       <l>No soldier waits the last command: </l>
+       <l>Swift inspirations o'er him flash, </l>
+       <l>And lift his arm and guide his hand. </l>
+       <l>So is it with our mimic play: </l>
+       <l>How that may end can no man say. </l>
+       <l>When once our actors realize their part </l>
+       <l>The living impulse, only, rules o'er art, </l>
+       <l>And in their conflicts, soul to Soul, </l>
+       <l>The first strong act moves onward through the whole. </l>
+       <l>And well is the spectator pleased: </l>
+       <l>To guess the plot in vain he tries: </l>
+       <l>His wonder never is appeased </l>
+       <l>Till comes the startling end in all its grand surprise.</l>
+      </lg>
+     </sp>
+     <sp>
+      <speaker/>
+      <lg>
+       <l>And now the heart of Hayus torn </l>
+       <l>By secret pangs beyond itself is borne </l>
+       <l>Into new anguish, stricken at the thought </l>
+       <l>That on a friend must vengeance soon be wrought. </l>
+       <l>Too soon for penitence, too late; </l>
+       <l>It cannot bargain 'gainst the rush of fate. </l>
+       <l>They part, the avenger in the valley stays </l>
+       <l>Watching, unseen, with ever-deepening gaze </l>
+       <l>The youth who now ascends the steep and prays.</l>
+      </lg>
+     </sp>
+    </div>
+    <div type="scene" n="6">
+     <head>Scene VI.</head>
+     <stage>—Hill-side in the Paradise of Cœlis.</stage>
+     <sp>
+      <stage>Cœlis, alone.</stage>
+      <lg>
+       <l>‘On thy darkness, O Sun! fell the Deity's gaze </l>
+       <l>And his true image stayed evermore on thy face, </l>
+       <l>The Soul of thy seasons, the warmth and the light, </l>
+       <l>To rule this new world that had hung in thy night. </l>
+       <l>It summoned the forests to feed on its rays: </l>
+       <l>The flowers it revealed that new-parcelled its blaze </l>
+       <l>Into yellow thy first, into red thy last hue, </l>
+       <l>Into heaven's holy curtain the fathomless blue. </l>
+       <l>O proud Sun! how thou holdest the virtue divine </l>
+       <l>That self-shining was left o'er thy empire to shine! </l>
+       <l>'Twas the first day of thought; but ere eyes had discerned </l>
+       <l>'Twas not He in thine orb, but His likeness that burned,— </l>
+       <l>His glance but the fire-stroke that set thee ablaze,— </l>
+       <l>We adored thee; to godhead impervious the rays, </l>
+       <l>That had called up our souls from the passionless night </l>
+       <l>Soon to learn in their wonder thy might was His might. </l>
+       <l>We prayed to the forests those beam-germs had sown, </l>
+       <l>To the Serpent around the huge trunks that had grown </l>
+       <l>And who guarded the trees wherein wisdom was hidden: </l>
+       <l>We asked how they spread, how their leaves were secured; </l>
+       <l>How their flowers and their fruits to the earth were assured, </l>
+       <l>Though to man's infant soul was such knowledge forbidden. </l>
+       <l>As His fire when he gazed on thee filled thee with fire </l>
+       <l>So His likeness sustains our one hope, our desire. </l>
+       <l>We seek it in Her who still lives in that glance; </l>
+       <l>Towards Her, its effulgence, our spirits advance; </l>
+       <l>We seek it in Her to whom rapture belongs: </l>
+       <l>Who thought after thought the universe throngs. </l>
+       <l>He is gone; on His way grow the infinite spheres, </l>
+       <l>And again, save afar, no more he appears, </l>
+       <l>Ever spreading his glory.’</l>
+      </lg>
+     </sp>
+     <sp>
+      <speaker/>
+      <lg>
+       <l>Now the shallow twilight closes, </l>
+       <l>And the Soul-seeker, lone, ascends </l>
+       <l>His mountain slope where he reposes </l>
+       <l>Watching the sunset till it ends. </l>
+       <l>Wild colours seeming to have flashed about </l>
+       <l>And rested flaming, never dying out, </l>
+       <l>Are piled in heaps discordant and sublime, </l>
+       <l>The wrecks of day hurled on the molten spires </l>
+       <l>And burning slow, like mortuary fires; </l>
+       <l>The yellow floods their reddened rocks o'erflowing, </l>
+       <l>The orb 'mid wasted embers glowing, </l>
+       <l>And purple storms behind it blowing </l>
+       <l>A chaos down the gulph of time.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>‘Spirit of all! My dark winter revive </l>
+       <l>With thy touch, and restore it to beautiful spring! </l>
+       <l>To Thee, to thy love, a soul-offering I bring </l>
+       <l>That where thou inhabitest only can live.’</l>
+      </lg>
+     </sp>
+     <sp>
+      <speaker/>
+      <lg>
+       <l>The last rays melt on the hill-side, </l>
+       <l>And in them he is glorified. </l>
+       <l>The white fruit-flowers absorb their hue </l>
+       <l>As they dissolve to rosy blue, </l>
+       <l>All in their holy incense dyeing, </l>
+       <l>While he impurpled on the slope is lying. </l>
+       <l>The Troubadour alone within the vale </l>
+       <l>Still watches the Soul-seeker on the height </l>
+       <l>Changing with nature; pale when she is pale, </l>
+       <l>Then in her many tints celestial bright. </l>
+       <l>He sees and lifts his arms up high in air, </l>
+       <l>His face turned skyward as he muttereth </l>
+       <l>The secret words of an intense despair </l>
+       <l>That lies beyond the common pale of death.</l>
+      </lg>
+     </sp>
+    </div>
+   </div>
+   <div type="act" n="5">
+    <head>ACT V.</head>
+    <div type="scene" n="1">
+     <head>Scene I.</head>
+     <stage>—In the Paradise of Cœlis.</stage>
+     <stage>Actors, Spectators.</stage>
+     <sp>
+      <speaker/>
+      <lg>
+       <l>Sunrise, the constant friend, that ever kept </l>
+       <l>The appointed time, shone on the Gala-day, </l>
+       <l>And ere the troop set forth its Serpent Play, </l>
+       <l>The chilly dews from the arena swept. </l>
+       <l>So, early, with the heavenly Riser, move </l>
+       <l>The Minstrel and his Actors on a stage </l>
+       <l>Where flocks and kine already rove; </l>
+       <l>Sent there by Cœlis for the lordly sage, </l>
+       <l>Who with a soul deep-versed in strategy </l>
+       <l>Can see beyond where eyes can see, </l>
+       <l>While looking round the chosen plain. </l>
+       <l>It is his part to improvise, </l>
+       <l>Where the mock-village is to stand </l>
+       <l>And streets and temples shall arise; </l>
+       <l>Where shall rush in the hostile band </l>
+       <l>Amid the games and with the slain </l>
+       <l>Cover the earth, while mourners rave </l>
+       <l>For vengeance or a common grave. </l>
+       <l>Now the sight-seekers round him gather </l>
+       <l>With faces smiling at the weather: </l>
+       <l>A warm spring-morn, as all foretold. </l>
+       <l>The maids are smart in blue and red </l>
+       <l>Interlaced with golden thread, </l>
+       <l>Set off with antique ornaments of gold. </l>
+       <l>The footmen bring out oaken benches, </l>
+       <l>A stately butler in their track; </l>
+       <l>The handmaids follow, heedless of the clack, </l>
+       <l>With crimson cushions on their back; </l>
+       <l>Jeered at by stable-boys and country wenches. </l>
+       <l>The peasants still arrive in swarms </l>
+       <l>That stream in from the distant farms, </l>
+       <l>With yeomen in their Sunday tunics dressed: </l>
+       <l>A gala-day their day of rest. </l>
+       <l>Now harlequins begin to nail </l>
+       <l>From tree to tree a painted sail, </l>
+       <l>When houses flutter to and fro </l>
+       <l>Daubed on the canvas; then expands </l>
+       <l>A village o'er the vacant lands, </l>
+       <l>And soon so real becomes the show </l>
+       <l>It seems the work of fairy hands. </l>
+       <l>And where the actors by the score </l>
+       <l>Are chaffering maids fast knitting at their door, </l>
+       <l>It seems their native home, so true </l>
+       <l>Stands out the village in the distant view. </l>
+       <l>Now Voragine with his elected bride </l>
+       <l>Vivia, so rosy-cheeked and fair; </l>
+       <l>Volupsa leaning at his side, </l>
+       <l>Descends the castle slope as down a stair, </l>
+       <l>So serpentine and steep of flight </l>
+       <l>That thrice they vanish and come back in sight. </l>
+       <l>Then fifers pierce the lazy ears </l>
+       <l>But wake a spirit deeper lying, </l>
+       <l>While drummers shake the heart with fears, </l>
+       <l>And trumpeters their skill are plying. </l>
+       <l>At every step full-welcome greets </l>
+       <l>The chief and maidens, kindly proud, </l>
+       <l>And serious grows the merry crowd </l>
+       <l>That bows them to their cushioned seats. </l>
+       <l>All is prepared, a nation seems to rise </l>
+       <l>Where woods and pastures only yesterday </l>
+       <l>Between the sunrise and the sunset lay: </l>
+       <l>A lone Soul-seeker's Paradise! </l>
+       <l>The Serpent's haunt, and yet a place of musing </l>
+       <l>Where brook and ferns had learned to speak; </l>
+       <l>But not all their silence losing; </l>
+       <l>Their tongues but known to those who secrets seek. </l>
+       <l>In chatty groups of three or four </l>
+       <l>That seem of chance, the actors wait </l>
+       <l>A signal from the Troubadour, </l>
+       <l>But, in dumb show, look busied in debate. </l>
+       <l>Two huntsmen, then, their shoulders laden, </l>
+       <l>A deer between them forward bear, </l>
+       <l>And rudely hustle swain and maiden </l>
+       <l>Who laugh to see the promised fare. </l>
+       <l>They carry to the front the noble beast, </l>
+       <l>Now pointing to its antlers, now its haunches, </l>
+       <l>And short of breath speak of the coming feast, </l>
+       <l>While each beholder into rapture launches. </l>
+       <l>There the antlered beauty lies, </l>
+       <l>As 'twere for some high sacrifice, </l>
+       <l>Its weeping nostrils like a breath </l>
+       <l>That sighed out pity for its death. </l>
+       <l>The tender Vivia feels regret, </l>
+       <l>Though with her eyes upon the creature set </l>
+       <l>She longs to have her absent brother near, </l>
+       <l>Himself to see that lordly forest deer: </l>
+       <l>‘O that his bride and he may yet appear!’ </l>
+       <l>The Troubadour now gives the sign </l>
+       <l>His finger lifting with a scowl malign. </l>
+       <l>The music answers, and the idlers flow </l>
+       <l>Into their ranks, then in a double row </l>
+       <l>With easy paces caper to and fro. </l>
+       <l>Some pass the bottle while they dance, </l>
+       <l>The outpoured laughter to enhance; </l>
+       <l>Elsewhere village games succeed: </l>
+       <l>Some hurl the quoit, some run to fetch </l>
+       <l>The bounding ball they cannot catch; </l>
+       <l>Some race in pairs the noble steed. </l>
+       <l>But why this sudden change o'er Voragine </l>
+       <l>Who only scans the painted scene? </l>
+       <l>His prowess pales, he meets his hour, </l>
+       <l>Divested of his earthly power! </l>
+       <l>That scene is but the valley that he smote, </l>
+       <l>Come to accuse him from its wilds remote, </l>
+       <l>Yes, he had seen it all before, </l>
+       <l>And now he knows the Troubadour! </l>
+       <l>Before his eyes what treachery is bared! </l>
+       <l>All flashes on him in a deadly throe, </l>
+       <l>Himself and all his kindred snared, </l>
+       <l>And at the mercy of a wily foe. </l>
+       <l>How had he let escape the day </l>
+       <l>When the proud Minstrel at his mercy lay! </l>
+       <l>But love is blinding and too fast </l>
+       <l>The hour of safety from him passed! </l>
+       <l>They smile at passion who would meditate </l>
+       <l>How to avert the sluggish tide of fate!</l>
+      </lg>
+     </sp>
+    </div>
+    <div type="scene" n="2">
+     <head>Scene II.</head>
+     <stage>—On the Mount in the Paradise of Cœlis.</stage>
+     <stage>Cœlis; Actors, Spectators, below.</stage>
+     <sp>
+      <speaker/>
+      <lg>
+       <l>To his hill-slope again at break of day </l>
+       <l>Was Cœlis summoned to fulfil </l>
+       <l>Within his own some stronger will </l>
+       <l>That like the weight of love upon him lay. </l>
+       <l>He dared not mingle in a feast </l>
+       <l>That was to mock man's pitying thought </l>
+       <l>For sorrows that had ceased, </l>
+       <l>Though on the stage once more to memory brought. </l>
+       <l>Nature, so radiant, gives not back the groan </l>
+       <l>And lends no sanction to its stern rehearsal; </l>
+       <l>Though sympathising millions hear the moan, </l>
+       <l>What once has been has no reversal. </l>
+       <l>The swelling morn, the living breath, </l>
+       <l>That all within the clear expanse inhale, </l>
+       <l>Down from the tumbling mountains to the vale, </l>
+       <l>These call not back the bitterness of death.</l>
+      </lg>
+     </sp>
+     <sp who="#cœlis">
+      <speaker>CŒLIS.</speaker>
+      <lg>
+       <l>‘O Psyche, the saviour, in whom we inherit </l>
+       <l>The gifts of an all-loving, plenteous Spirit, </l>
+       <l>Who onward for ever thy dream dost pursue; </l>
+       <l>Our hope, as we follow, in whom we renew; </l>
+       <l>In thy passion immersed all things glow around me; </l>
+       <l>On pinions uplifted in bliss thou hast bound me; </l>
+       <l>Steeped in thy light, in thy holy emotion, </l>
+       <l>I drain thy last philtre, the life-giving potion.’</l>
+      </lg>
+     </sp>
+     <sp>
+      <speaker/>
+      <lg>
+       <l>So rapt, he glances o'er the fields: </l>
+       <l>The dense spectators, the fast-swelling train </l>
+       <l>Have there no meaning, though his eyes </l>
+       <l>They vex, and are to him as reveries </l>
+       <l>That buzz outside the archway of the brain. </l>
+       <l>There, little earnest, maid and swain </l>
+       <l>The lover's antics rudely feign, </l>
+       <l>And care not who rejects or yields. </l>
+       <l>There they act their courtship dances; </l>
+       <l>Near and nearer each advances; </l>
+       <l>Swift the music, swift the pace: </l>
+       <l>So in pairs the lovers drift, </l>
+       <l>Till all the youths at length uplift </l>
+       <l>Their arms and ask a maid's embrace. </l>
+       <l>It was but a re-acted scene; </l>
+       <l>But how it smites on Voragine, </l>
+       <l>When winds the bugle's call defiant </l>
+       <l>From the lung-clangour of a giant, </l>
+       <l>And echoes through far-reaching alleys: </l>
+       <l>The Serpent's track into the hostile valleys! </l>
+       <l>Those slaughter-sounds,—how like his own </l>
+       <l>Even to the last high-bounding thrill, </l>
+       <l>That seemed to summon to his former will </l>
+       <l>His troops, that dire defeat had never known! </l>
+       <l>But where was now the army he had led! </l>
+       <l>Not near to serve him in his narrow strait: </l>
+       <l>His enemies are now within the gate, </l>
+       <l>And he their country's blood has shed. </l>
+       <l>As thus he muses, troops o'er-stride </l>
+       <l>These scenes of peace, these pastures wide; </l>
+       <l>They issue from the wooded lands </l>
+       <l>To where the flowery vale expands, </l>
+       <l>And through the dancers spread confusion, </l>
+       <l>Who act so well their clamourous fear </l>
+       <l>It needs must be that death is near; </l>
+       <l>The mutual fury crushing all illusion. </l>
+       <l>Are these the troops of Voragine </l>
+       <l>Clad as were his, and his Cross-banner flying? </l>
+       <l>'Tis but in mockery of a former scene! </l>
+       <l>The women to the soldiers cling, </l>
+       <l>And for defence their arms about them fling, </l>
+       <l>But soon in that embrace are dying. </l>
+       <l>Torch-bearers set the painted scene a blaze, </l>
+       <l>The pine-trees crackle in the conflagration: </l>
+       <l>The awed spectators rise and in amaze </l>
+       <l>Shout out: 'Tis an invading nation! </l>
+       <l>The Warrior, his sister and his bride </l>
+       <l>Sit pale; they must the end abide. </l>
+       <l>The troops drive off the frighted cattle, </l>
+       <l>As lawful spoil of victors after battle. </l>
+       <l>The shepherds gather up their dead </l>
+       <l>And kiss them with hot lips, revenge imbibing, </l>
+       <l>Then the fresh turf upon the bodies spread. </l>
+       <l>No home is left, but earth that welters </l>
+       <l>In the warm blood, the pile accepts and shelters. </l>
+       <l>This done around the slaughtered crowd the living </l>
+       <l>And on their spades a fervid oath inscribing, </l>
+       <l>They brandish them with gestures unforgiving. </l>
+       <l>And where is Cœlis in that hour? The clang </l>
+       <l>Of myriad heart-throbs fills him with a pang </l>
+       <l>Of suffering for all; but panic-held </l>
+       <l>He waits as by a higher power compelled. </l>
+       <l>He can interpret all he now beholds; </l>
+       <l>He sees one fate his family enfolds; </l>
+       <l>Sees that before that bugle blew, </l>
+       <l>Or Voragine gave challenge throat to throat, </l>
+       <l>Those slaughter-sounds the welkin smote, </l>
+       <l>And that the fields of doom that battle knew, </l>
+       <l>Fought by the present foes in shadowy fight; </l>
+       <l>Rehearsed throughout all time ere they beheld the light.</l>
+      </lg>
+     </sp>
+    </div>
+    <div type="scene" n="3">
+     <head>Scene III.</head>
+     <stage>—A Tent in the Paradise of Cœlis.</stage>
+     <stage>Actors, Spectators.</stage>
+     <sp>
+      <speaker/>
+      <lg>
+       <l>And yet 'twas this the Troubadour foresaid: </l>
+       <l>In rustic games and strife the hours had sped. </l>
+       <l>The second scene begins; in council spent, </l>
+       <l>With purpose hidden, deep, uncertain, </l>
+       <l>Even when the players lift the curtain. </l>
+       <l>There have they pitched a lofty tent </l>
+       <l>That rises like an alpine height </l>
+       <l>And hides the battle-field from sight, </l>
+       <l>By flames made doubly desolate. </l>
+       <l>While glows the canvas snowy white, </l>
+       <l>O'er it the Serpent-banner soars </l>
+       <l>In honour of so great a holiday, </l>
+       <l>And those of safety reassures </l>
+       <l>Who deemed the battle scarce a play. </l>
+       <l>And there the peasant-senators debate. </l>
+       <l>Hayus within the open tent is seen </l>
+       <l>Now as a mitred priest of stately mien, </l>
+       <l>In purple vestment; and he bears </l>
+       <l>In his right hand a cross of gold, </l>
+       <l>And at his side a poignard wears </l>
+       <l>Concealed within his garment's fold. </l>
+       <l>Outside the tent, meantime, the huntsmen stood </l>
+       <l>Grasping the knives still dyed in harmless blood. </l>
+       <l>Fierce, motionless, without a breath, </l>
+       <l>They kept their eyes intent on Voragine </l>
+       <l>And his afflicted maiden kin; </l>
+       <l>With looks that threatened death for death. </l>
+       <l>Then, cried the Priest with voice that smote </l>
+       <l>The towers and echoing walls remote,— </l>
+       <l>‘Here the dumb speak, again the murdered feel, </l>
+       <l>While sufferers to sufferers appeal!’ </l>
+       <l>Then he looked round on many faces </l>
+       <l>Whereon erewhile was not a care; </l>
+       <l>That now are masked in madness and despair.</l>
+      </lg>
+     </sp>
+     <sp who="#hayus">
+      <speaker>HAYUS.</speaker>
+      <lg>
+       <l>Who shall our peace and love restore! </l>
+       <l>The sire is buried in his field </l>
+       <l>That shall no harvest to his children yield, </l>
+       <l>That he shall sow and reap no more. </l>
+       <l>Let it lie waste, and be a grave </l>
+       <l>Ye hearts that sorrow and for vengeance crave!</l>
+      </lg>
+     </sp>
+     <sp>
+      <speaker/>
+      <lg>
+       <l>Afresh the huntsmen grasp their knives </l>
+       <l>And lift them flashing! The keen blades </l>
+       <l>Are aimed no more at harmless lives. </l>
+       <l>‘Ye antlered Stags! We only chafe </l>
+       <l>To reach his heart who slew our wives! </l>
+       <l>Graze on, well-watered be your glades! </l>
+       <l>Peace be with you; ah! you are safe.’ </l>
+       <l>The Priest lifts up his head once more, </l>
+       <l>As of a drowning man remote from shore, </l>
+       <l>And cries, ‘Youths, stand you there with brows indented? </l>
+       <l>Can you ever love again </l>
+       <l>Who saw your first betrothed ones slain; </l>
+       <l>Is the dark outrage unresented?’ </l>
+       <l>Nigh him a mournful woman stoops: </l>
+       <l>And as he points the more she droops. </l>
+       <l>He sees her fidget at her breast; </l>
+       <l>‘There,’ cries he, ‘did her slaughtered baby rest!’ </l>
+       <l>She starts, she feels it to her cleave, </l>
+       <l>And its last breath against her bosom heave. </l>
+       <l>‘O my lost people!’ cries the Troubadour, </l>
+       <l>‘Revenge is not all balm; let us implore </l>
+       <l>His solace whom we all adore. </l>
+       <l>Almighty One, </l>
+       <l>Lift our hearts gently to thy throne!’ </l>
+       <l>These words the Troubadour strains forth, </l>
+       <l>All kneel, all eyes on Heaven are bent; </l>
+       <l>All anger is subdued, all wrath; </l>
+       <l>Upraised and calm is every face, </l>
+       <l>And vanishes the boundless space </l>
+       <l>Between them and the firmament.</l>
+      </lg>
+     </sp>
+     <sp who="#hayus">
+      <speaker>HAYUS.</speaker>
+      <lg>
+       <l>‘Supremest Lord, </l>
+       <l>High on thy olive-branch hang up the sword, </l>
+       <l>And these dead hearts inspire: </l>
+       <l>To know thy will is now their one desire! </l>
+       <l>As suns in-breathed thy will when first they burned, </l>
+       <l>As stars in-breathed thy will when first they turned </l>
+       <l>And rushed into the paths Thou didst vacate, </l>
+       <l>To these dead hearts thy will bequeath </l>
+       <l>Who now in outer anguish seethe, </l>
+       <l>But thy commandments venerate.’</l>
+      </lg>
+     </sp>
+     <sp>
+      <speaker/>
+      <lg>
+       <l>Then knelt in prayer the Troubadour, </l>
+       <l>But spoke no word, his hands together wringing, </l>
+       <l>His arms, in his despair, up-flinging </l>
+       <l>That seemed to lift the graves, and call </l>
+       <l>On the Most High to witness all! </l>
+       <l>His eyes in this last pang he raises, </l>
+       <l>Then flings his body in the dust. </l>
+       <l>The multitude intensely gazes; </l>
+       <l>On them like a blighting gust </l>
+       <l>His anguish falls: the curtains are descending; </l>
+       <l>O'er the closed tent the Serpent-banner strides! </l>
+       <l>The second scene of this dread Play is ending; </l>
+       <l>And no applause the tragedy derides.</l>
+      </lg>
+     </sp>
+    </div>
+    <div type="scene" n="4">
+     <head>Scene IV.</head>
+     <stage>—The Tent in the Paradise of Cœlis; and, moving round the heights, a car
+                        bearing Pandolpb and Beatrice.</stage>
+     <stage>Actors, Spectators, Troops.</stage>
+     <sp>
+      <speaker/>
+      <lg>
+       <l>In sudden haste starts back each flapping sail. </l>
+       <l>‘Where are we?’ asks the Minstrel, dazed and pale: </l>
+       <l>‘No longer in His Presence who unrolled </l>
+       <l>The Will Supreme!’ </l>
+       <l>He shivers in the cold, </l>
+       <l>Slow to proceed and slow the fiat to unfold. </l>
+       <l>‘No longer in the burning clime above </l>
+       <l>Where we beheld the God of Love, </l>
+       <l>As he revealed his mighty will!’ </l>
+       <l>And thus the Minstrel lingers still </l>
+       <l>Like one death-stricken by an earthly chill, </l>
+       <l>Although the sun o'er his encampment flame. </l>
+       <l>And closer draws his robes around, </l>
+       <l>Trembling in ecstasy profound. </l>
+       <l>‘Beloved, who for your parents mourn, </l>
+       <l>Friends life-severed, wives from husbands torn, </l>
+       <l>You have a Father! His kind grace </l>
+       <l>You found; I see it shine in every face; </l>
+       <l>All base revenge has passed and left no trace. </l>
+       <l>Were you all punished for your crimes </l>
+       <l>Committed in the peaceful times, </l>
+       <l>And was the visitation sent </l>
+       <l>For your offences, bidding you repent? </l>
+       <l>Or has the wondrous verdict freed </l>
+       <l>Your lives and no accuser come </l>
+       <l>To brand you, or to justify the deed </l>
+       <l>That to those ashes gave your home?’ </l>
+       <l>There still is silence, but resolve is there, </l>
+       <l>That doth some awful purpose bear. </l>
+       <l>The Warrior, calm, is yet aghast, </l>
+       <l>And sits two trembling maids between, </l>
+       <l>His present ever nearer to his past.</l>
+      </lg>
+     </sp>
+     <sp who="#hayus">
+      <speaker>HAYUS.</speaker>
+      <lg>
+       <l>I know your will; it is His Will: I saw </l>
+       <l>Unrolled the sentence of His law. </l>
+       <l>'Tis not revenge, the despicable crime! </l>
+       <l>For Heaven is high, her verdicts are sublime. </l>
+       <l>She bids us with our dead to bury hate, </l>
+       <l>Not on revenge our sorrow satiate! </l>
+       <l>Not vengeance?</l>
+      </lg>
+      <lg>
+       <stage>A stern Chorus thunders, <said direct="true">‘No!’</said>
+       </stage>
+      </lg>
+      <lg>
+       <l>The huntsmen then in voices fierce and fell </l>
+       <l>Cry out, ‘This woman shall our verdict tell; </l>
+       <l>She smarts beneath the murderer's blow.’ </l>
+       <l>Held up, the woman staggers, sliding </l>
+       <l>Before the priest as o'er a Serpent's path. </l>
+       <l>She is the vessel of a stagnant wrath </l>
+       <l>Which is the flood-time of its grief abiding. </l>
+       <l>She, once more childless, hides her face </l>
+       <l>As if so deep a sorrow were disgrace. </l>
+       <l>She like a dying Pythoness appears: </l>
+       <l>The pitying audience moans for her its fears. </l>
+       <l>None hear her voice, she whispers low; </l>
+       <l>She shivers in the winter of her woe. </l>
+       <l>The Priest supports her to the seats, </l>
+       <l>And to the eager crowd repeats </l>
+       <l>The few short words the woman said. </l>
+       <l>‘Not in revenge Heaven lifts the rod!’ </l>
+       <l>Thrice from his mouth and ever louder, </l>
+       <l>His voice more stern his bearing prouder, </l>
+       <l>Thrice the verdict he delivers, </l>
+       <l>And every heart there present quivers </l>
+       <l>As when a text from Holy Writ </l>
+       <l>A demon's soul in man has lit, </l>
+       <l>While still is flaming in his eyes </l>
+       <l>The wrath to come! How shall it end? </l>
+       <l>Again his words as bolts descend: </l>
+       <l>‘Not to avenge! but, to chastise!’ </l>
+       <l>Thus as he cruelly lets fall </l>
+       <l>The Word of God, it crushes all. </l>
+       <l>They seem to see in their dismay </l>
+       <l>An angry God among them at the play, </l>
+       <l>Who brings with Him his judgment-day.</l>
+      </lg>
+     </sp>
+     <sp who="#hayus">
+      <speaker>HAYUS.</speaker>
+      <lg>
+       <l>Not to avenge, but to chastise! </l>
+       <l>They who an infant's strength despise, </l>
+       <l>And on a woman's body trample, </l>
+       <l>Our God elects for high example.</l>
+      </lg>
+     </sp>
+     <stage>The Chorus shrilly shouts: <said direct="true"> ‘For ever!’</said>
+     </stage>
+     <sp who="#hayus">
+      <speaker>HAYUS.</speaker>
+      <lg>
+       <l>Could they our peace of mind restore us </l>
+       <l>We might forgive: this can they never: </l>
+       <l>It is an hour of retribution </l>
+       <l>And for their sin is no ablution.</l>
+      </lg>
+     </sp>
+     <sp who="#chorus">
+      <speaker>CHORUS.</speaker>
+      <lg>
+       <l>For ever blood must wash out blood!</l>
+      </lg>
+     </sp>
+     <sp>
+      <speaker/>
+      <lg>
+       <l>The Priest less stern, in silence stood, </l>
+       <l>His people mute; again his eyes </l>
+       <l>Fall on them; every voice replies </l>
+       <l>In shriller chorus: ‘Blood for blood!’</l>
+      </lg>
+     </sp>
+     <sp who="#hayus">
+      <speaker>HAYUS.</speaker>
+      <lg>
+       <l>Then shall there be three signs from Heaven: </l>
+       <l>Behold the first!</l>
+      </lg>
+     </sp>
+     <sp>
+      <speaker/>
+      <lg>
+       <l>The Cross he raises. </l>
+       <l>As soon as they perceive the signal given </l>
+       <l>By bugle blast all ears are riven, </l>
+       <l>That through the distant gorges winds </l>
+       <l>And hill and vale in echoing tumult binds. </l>
+       <l>When near the summons ceases to be heard, </l>
+       <l>Afar, unto the utmost mazes </l>
+       <l>The chill recesses of the gorge are stirred. </l>
+       <l>The Warrior dreads, no eye can see </l>
+       <l>What fearful vengeance is in store: </l>
+       <l>Yet is it war's fair strategy, </l>
+       <l>Though he shall shout of victory no more. </l>
+       <l>Could he the dear loved woman save! </l>
+       <l>But how? Fierce eyes their every movement follow. </l>
+       <l>O anguish, must a common grave </l>
+       <l>The innocent and guilty swallow? </l>
+       <l>He bids the maidens go; they cannot rise, </l>
+       <l>Their quivering limbs have not the power, </l>
+       <l>Held in the terror of that hour; </l>
+       <l>And death seems glazing in their eyes. </l>
+       <l>Back from the gorge a trumpet-note </l>
+       <l>Is thrice repeated, then with sound </l>
+       <l>Of heavy tramp, confused and loud, </l>
+       <l>As when deep thunders crush the ground, </l>
+       <l>The dust advancing cloud on cloud, </l>
+       <l>All ears as by their destiny are smote. </l>
+       <l>A troop of horsemen clad for fight </l>
+       <l>With sabres drawn bursts into sight, </l>
+       <l>And vultures startled at the bugle-shock, </l>
+       <l>Flap their disordered wings, and from their rock </l>
+       <l>Scale with stretched necks the skyey hollow, </l>
+       <l>And o'er the ill-fated fields the troopers follow. </l>
+       <l>Between the arena and the hills </l>
+       <l>That savage band the narrow passage fills; </l>
+       <l>A panic spreads, by many ways </l>
+       <l>To make escape the crowd essays, </l>
+       <l>But all who fly the flashing steel dismays. </l>
+       <l>Now are there screams and woman's wails, </l>
+       <l>Terror in every face prevails. </l>
+       <l>No blow is struck, no threat is spoken; </l>
+       <l>Each horseman falls into his place, </l>
+       <l>And thus in line those troops the people face, </l>
+       <l>Encircling all in ranks unbroken. </l>
+       <l>Their banner-bearers on white chargers seated </l>
+       <l>Display the fluttering Serpent to the crowd, </l>
+       <l>Its blood-red coils, its movements proud, </l>
+       <l>Now in the troubled ether shaking, </l>
+       <l>Now over all in frightful billows breaking. </l>
+       <l>Hopeless, then whispers Voragine </l>
+       <l>To Vivia: ‘Is there aught that you have seen?’ </l>
+       <l>She answers, ‘Pandolph and his Beatrice.’</l>
+      </lg>
+     </sp>
+     <sp who="#voragine">
+      <speaker>VORAGINE.</speaker>
+      <lg>
+       <l>They move along the heights; they pause; and now </l>
+       <l>Dismayed they look upon us from the mountainbrow. </l>
+       <l>They move again, towards Cœlis winds their car, </l>
+       <l>As they gaze on us still.</l>
+      </lg>
+     </sp>
+     <sp who="#vivia">
+      <speaker>VIVIA.</speaker>
+      <lg>
+       <l>Let it suffice </l>
+       <l>That they are safe.</l>
+      </lg>
+     </sp>
+     <sp who="#voragine">
+      <speaker>VORAGINE.</speaker>
+      <lg>
+       <l>They yet may bring us aid; </l>
+       <l>If not, their coming has been well delayed. </l>
+       <l>They vanish now.</l>
+      </lg>
+     </sp>
+     <sp who="#vivia">
+      <speaker>VIVIA.</speaker>
+      <lg>
+       <l>They reappear; they are </l>
+       <l>With Cœlis on his mount; and now their car </l>
+       <l>Wheels swiftly forward from the danger gone, </l>
+       <l>And Cœlis, watching us, is there alone.</l>
+      </lg>
+     </sp>
+    </div>
+    <div type="scene" n="5">
+     <head>Scene V.</head>
+     <stage>—The Paradise of Cœlis.</stage>
+     <stage>Actors, Spectators, Troops, and the Serpent Kausis.</stage>
+     <sp>
+      <speaker/>
+      <lg>
+       <l>The stage into a nation grows; </l>
+       <l>The actors swell into avenging foes. </l>
+       <l>With sadder look the Troubadour </l>
+       <l>Advances towards the people, hushed, </l>
+       <l>While he uplifts the Cross once more; </l>
+       <l>So drops away their fitful roar </l>
+       <l>Like falling waves upon the boulders crushed. </l>
+       <l>Till it befal to learn their fates </l>
+       <l>The panting crowd his voice awaits: </l>
+       <l>Some deem that out of such a multitude </l>
+       <l>They may themselves the crush elude, </l>
+       <l>While some are smarting and have swooned </l>
+       <l>Ere they have dropped beneath a sabre's wound.</l>
+      </lg>
+     </sp>
+     <sp who="#hayus">
+      <speaker>HAYUS.</speaker>
+      <lg>
+       <l>‘Hear, Voragine! When thou didst lead </l>
+       <l>Thy arms against us, what was our offence? </l>
+       <l>Then be the ending of thy deed </l>
+       <l>A terror for all coming time; </l>
+       <l>And be the sentence passed upon thy crime </l>
+       <l>Worse than the pangs of life-long penitence. </l>
+       <l>I curse thee through the Power above </l>
+       <l>Whose dearest work thou didst efface; </l>
+       <l>I curse thee through his utmost love </l>
+       <l>Who suffered death to spare the human race! </l>
+       <l>I curse thy kindred and thy bride, </l>
+       <l>And all who shared in thee a hero's pride! </l>
+       <l>Our fate we feel; be thine as hard a fate </l>
+       <l>And like our homes these homes be desolate! </l>
+       <l>The dogs of war to thee return, </l>
+       <l>Let loose upon us in that cruel fray; </l>
+       <l>Again with thirst of blood they burn </l>
+       <l>On this their second festal day. </l>
+       <l>So endeth this long-memorable Play!’</l>
+      </lg>
+     </sp>
+     <sp>
+      <speaker/>
+      <lg>
+       <l>He lifts the Cross a third time, at whose flash </l>
+       <l>He turns his face, then out of sight retires, </l>
+       <l>But in departing hears the armour's crash. </l>
+       <l>The watchful troops had caught the sign </l>
+       <l>And in their bosoms wrath divine </l>
+       <l>The rage of vengeance fires. </l>
+       <l>The horsemen in their fury leap </l>
+       <l>At helpless crowds and o'er their bodies sweep, </l>
+       <l>Sabreing alike the old and young. </l>
+       <l>The people to and fro are driven, </l>
+       <l>Shrieking for pity never given </l>
+       <l>By those who trample down the astonished throng. </l>
+       <l>Some towards the open gates are rushing </l>
+       <l>To but encounter sights more dire: </l>
+       <l>The Serpent Kausis guards the gates, </l>
+       <l>And there his maddened prey awaits, </l>
+       <l>Rolling o'er them his eyes of fire; </l>
+       <l>Their bodies in an instant crushing. </l>
+       <l>When eyes no longer upward gaze, </l>
+       <l>Fresh dimmed by death, like fiery snakes outburst </l>
+       <l>Red flames upon the height accursed, </l>
+       <l>Swift coils of fire the castle racking, </l>
+       <l>Like bones its oaken rafters cracking, </l>
+       <l>Till every house was fuel in the blaze, </l>
+       <l>That like a sea to the far valley spread </l>
+       <l>Where Hayus lay, self-smitten, with the dead.</l>
+      </lg>
+     </sp>
+    </div>
+    <div type="scene" n="6">
+     <head>Scene VI.</head>
+     <stage>—The Hill-side in the Paradise of Cœlis.</stage>
+     <stage>Cœlis, Psyche.</stage>
+     <sp>
+      <speaker/>
+      <lg>
+       <l>'Neath the mid-torment of soul-rending wails </l>
+       <l>Cœlis looks down upon the mortal fray: </l>
+       <l>Then doth he know the Serpent Play </l>
+       <l>O'er all things great on earth prevails. </l>
+       <l>He sees, he shudders, thought is as a fire </l>
+       <l>Struggling to burn in ice, that numbs all pain, </l>
+       <l>And only leaves a phantom of desire </l>
+       <l>To call on Psyche now his soul is slain. </l>
+       <l>He drops as one by death infected </l>
+       <l>Whose stabs he saw on his loved kindred fall. </l>
+       <l>And is content to die with all </l>
+       <l>If to the common lot by fate elected. </l>
+       <l>Like a cleft elm that screams in falling, </l>
+       <l>For help on outraged nature calling, </l>
+       <l>He 'neath the crushing vengeance bends, </l>
+       <l>And, with a bitter cry, his struggle ends. </l>
+       <l>So stunned, the Serpent seems to wind </l>
+       <l>About him and his body bind; </l>
+       <l>Closing upon his limbs that break </l>
+       <l>Like saplings which the winter winds o'ertake, </l>
+       <l>But know no torture while they crack </l>
+       <l>In the all-sundering rack. </l>
+       <l>But he was not to die alone, </l>
+       <l>For he had found the holy being; </l>
+       <l>Through his clear soul the Soul of All foreseeing. </l>
+       <l>Prostrate, even Her he cannot seek, </l>
+       <l>Yet 'tis her voice, leading a melody </l>
+       <l>That covers, as with flowers, the blessed who die. </l>
+       <l>He feels again; he hears her speak: </l>
+       <l>The Spirit of death-conquering Spring, </l>
+       <l>In bridal beauty She is nigh; </l>
+       <l>And from his vision all past things have gone. </l>
+       <l>'Tis hope no more; with loving eyes </l>
+       <l>Doth She the one elixir bring; </l>
+       <l>He tastes it, and he lives the while he dies. </l>
+       <l>O Death! is this thy sting? </l>
+       <l>Where beams in circling courses trace </l>
+       <l> The climate of the skies, </l>
+       <l>And unto Psyche's holy place </l>
+       <l> The happy souls arise, </l>
+       <l>Do loving voices still repeat </l>
+       <l>Their music round her blessed seat. </l>
+       <l>The spirits who in watchings long </l>
+       <l> This future did behold, </l>
+       <l>She calls up from the mortal throng </l>
+       <l> And leads them to her fold. </l>
+       <l>On their soul's lyre her fingers play </l>
+       <l>The bliss of everlasting day. </l>
+       <l> And now the mid-air choirs outpour </l>
+       <l>The anthem of an Evermore: </l>
+       <l> ‘Only the good awake </l>
+       <l>And gather to the chambers of the Blest! </l>
+       <l> Arise ye holy and partake </l>
+       <l>The soul's high gift; once known for aye possessed! </l>
+       <l> Only the pure arise! </l>
+       <l>Only the wicked stay below at rest, </l>
+       <l> Self-exiled from the skies, </l>
+       <l>Forgetful as the ground-mist that beneath </l>
+       <l>Feedeth the worms' cold breath. </l>
+       <l> High souls death's rusty fetters break, </l>
+       <l> To the new life awake, </l>
+       <l>And gather to the chambers of the Blest!’ </l>
+       <l>What senses now from earthly senses surge! </l>
+       <l>His soul creates; from him all things emerge. </l>
+       <l>He thinks of Psyche; her encircling streams </l>
+       <l>Of pointing light strike to the shaded skies; </l>
+       <l>He thinks of his Volupsa; the same beams </l>
+       <l>Pass through her as he gazes in her eyes </l>
+       <l>Which steeped in human love before him shine, </l>
+       <l>Their sympathy the speech of intercourse divine. </l>
+       <l>The heavens are measureless, the dead are free; </l>
+       <l>With their brief day on earth their sorrows cease. </l>
+       <l>O Grave, this is thy victory; </l>
+       <l>O Soul, this is thy peace!</l>
+      </lg>
+     </sp>
+    </div>
+   </div>
+  </body>
+ </text>
+</TEI>

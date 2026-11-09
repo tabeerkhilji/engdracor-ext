@@ -1,0 +1,4875 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id" xml:lang="eng">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">Remorse</title>
+    <author>
+     <persName>
+      <forename>Samuel Taylor</forename>
+      <surname>Coleridge</surname>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>ProQuest</name>
+     <idno type="URL">https://www.proquest.com/books/remorse-1912/docview/2138574800/se-2?accountid=14632</idno>
+     <idno type="proquest">LION2138574800</idno>
+    </bibl>
+    <bibl type="originalSource">
+     <author>Coleridge, Samuel Taylor</author>
+     <title type="main">Remorse</title>
+     <title type="volume">The Complete Poetical Works Of Samuel Taylor Coleridge Including Poems and Versions Of Poems Now Published for the First Time</title>
+     <publisher>The Clarendon Press</publisher>
+     <pubPlace>Oxford</pubPlace>
+     <date type="print" when="1912">1912</date>
+     <note type="citation">Coleridge, Samuel Taylor: Remorse (1912). In: The Complete Poetical Works Of Samuel Taylor Coleridge Including Poems and Versions Of Poems Now Published for the First Time. The Clarendon Press: Oxford 1912</note>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="alhadra">
+      <persName>Alhadra</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="all">
+      <persName>All</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="all_morescoes">
+      <persName>All Morescoes</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="alvar">
+      <persName>Alvar</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="alvar_and_teresa">
+      <persName>Alvar and Teresa</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="both_valdez_and_ordonio">
+      <persName>Both Valdez and Ordonio</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="isidorc">
+      <persName>Isidorc</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="isidore">
+      <persName>Isidore</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="monviedro">
+      <persName>Monviedro</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="naomi">
+      <persName>Naomi</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="one_moresco">
+      <persName>One Moresco</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="ordonio">
+      <persName>Ordonio</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="teresa">
+      <persName>Teresa</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="valdez">
+      <persName>Valdez</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="zulimez">
+      <persName>Zulimez</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1912">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text>
+  <front>
+   <castList>
+    <label>DRAMATIS PERSONAE</label>
+    <castItem>
+     <role>Velez, Marquis Valdez, Father to the two brothers, and Doña Teresa's
+                        Guardian.</role>
+    </castItem>
+    <castItem>
+     <role>Albert, Don Alvar, the eldest son.</role>
+    </castItem>
+    <castItem>
+     <role>Osorio, Don Ordonio, the youngest son.</role>
+    </castItem>
+    <castItem>
+     <role>Francesco, Monviedro, a Dominican and Inquisitor.</role>
+    </castItem>
+    <castItem>
+     <role>Maurice, Zulimez, the faithful attendant on Alvar.</role>
+    </castItem>
+    <castItem>
+     <role>Ferdinand, Isidore, a Moresco Chieftain, ostensibly a Christian.</role>
+    </castItem>
+    <castItem>
+     <role>Familiars of the Inquisition.</role>
+    </castItem>
+    <castItem>
+     <role>Naomi, Naomi.</role>
+    </castItem>
+    <castItem>
+     <role>Moors, Servants, &amp;c.</role>
+    </castItem>
+    <castItem>
+     <role>Maria, Doña Teresa, an Orphan Heiress.</role>
+    </castItem>
+    <castItem>
+     <role>Alhadra, wife of Ferdinand.=Alhadra, Wife of Isidore.</role>
+    </castItem>
+    <castItem>
+     <role>Familiars of the Inquisition.</role>
+    </castItem>
+    <castItem>
+     <role>Moors, Servants, &amp;c.</role>
+    </castItem>
+   </castList>
+  </front>
+  <body>
+   <div type="act" n="1">
+    <head>ACT I</head>
+    <div type="scene" n="1">
+     <head>Scene I</head>
+     <stage>The Sea Shore on the Coast of Granada.</stage>
+     <stage>Don Alvar, wrapt in a Boat cloak, and Zulimez (a Moresco), both as just
+                        landed.</stage>
+     <sp who="#zulimez">
+      <speaker>Zulimez.</speaker>
+      <lg>
+       <l>No sound, no face of joy to welcome us! </l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l>My faithful Zulimez, for one brief moment </l>
+       <l>Let me forget my anguish and their crimes. </l>
+       <l>If aught on earth demand an unmix'd feeling, </l>
+       <l>'Tis surely this—after long years of exile, </l>
+       <l>To step forth on firm land, and gazing round us, </l>
+       <l>To hail at once our country, and our birth-place. </l>
+       <l>Hail, Spain! Granada, hail! once more I press </l>
+       <l>Thy sands with filial awe, land of my fathers!</l>
+      </lg>
+     </sp>
+     <sp who="#zulimez">
+      <speaker>Zulimez.</speaker>
+      <lg>
+       <l>Then claim your rights in it! O, revered Don Alvar, </l>
+       <l>Yet, yet give up your all too gentle purpose. </l>
+       <l>It is too hazardous! reveal yourself, </l>
+       <l>And let the guilty meet the doom of guilt!</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l>Remember, Zulimez! I am his brother, </l>
+       <l>Injured indeed! O deeply injured! yet </l>
+       <l>Ordonio's brother.</l>
+      </lg>
+     </sp>
+     <sp who="#zulimez">
+      <speaker>Zulimez.</speaker>
+      <lg>
+       <l> Nobly-minded Alvar! </l>
+       <l>This sure but gives his guilt a blacker dye.</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l>The more behoves it I should rouse within him </l>
+       <l>Remorse! that I should save him from himself.</l>
+      </lg>
+     </sp>
+     <sp who="#zulimez">
+      <speaker>Zulimez.</speaker>
+      <lg>
+       <l>Remorse is as the heart in which it grows: </l>
+       <l>If that be gentle, it drops balmy dews </l>
+       <l>Of true repentance; but if proud and gloomy, </l>
+       <l>It is a poison-tree, that pierced to the inmost </l>
+       <l>Weeps only tears of poison!</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l> And of a brother, </l>
+       <l>Dare I hold this, unproved? nor make one effort </l>
+       <l>To save him?—Hear me, friend! I have yet to tell thee, </l>
+       <l>That this same life, which he conspired to take, </l>
+       <l>Himself once rescued from the angry flood, </l>
+       <l>And at the imminent hazard of his own. </l>
+       <l>Add too my oath—</l>
+      </lg>
+     </sp>
+     <sp who="#zulimez">
+      <speaker>Zulimez.</speaker>
+      <lg>
+       <l> You have thrice told already </l>
+       <l>The years of absence and of secrecy, </l>
+       <l>To which a forced oath bound you; if in truth </l>
+       <l>A suborned murderer have the power to dictate </l>
+       <l>A binding oath—</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l> My long captivity </l>
+       <l>Left me no choice: the very wish too languished </l>
+       <l>With the fond hope that nursed it; the sick babe </l>
+       <l>Drooped at the bosom of its famished mother. </l>
+       <l>But (more than all) Teresa's perfidy; </l>
+       <l>The assassin's strong assurance, when no interest, </l>
+       <l>No motive could have tempted him to falsehood: </l>
+       <l>In the first pangs of his awaken'd conscience, </l>
+       <l>When with abhorrence of his own black purpose </l>
+       <l>The murderous weapon, pointed at my breast, </l>
+       <l>Fell from his palsied hand—</l>
+      </lg>
+     </sp>
+     <sp who="#zulimez">
+      <speaker>Zulimez.</speaker>
+      <lg>
+       <l> Heavy presumption!</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l>It weighed not with me—Hark! I will tell thee all; </l>
+       <l>As we passed by, I bade thee mark the base </l>
+       <l>Of yonder cliff—</l>
+      </lg>
+     </sp>
+     <sp who="#zulimez">
+      <speaker>Zulimez.</speaker>
+      <lg>
+       <l> That rocky seat you mean, </l>
+       <l>Shaped by the billows?—</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l> There Teresa met me </l>
+       <l>The morning of the day of my departure. </l>
+       <l>We were alone: the purple hue of dawn </l>
+       <l>Fell from the kindling east aslant upon us, </l>
+       <l>And blending with the blushes on her cheek, </l>
+       <l>Suffused the tear-drops there with rosy light. </l>
+       <l>There seemed a glory round us, and Teresa </l>
+       <l>The angel of the vision! </l>
+       <l> Had'st thou seen </l>
+       <l>How in each motion her most innocent soul </l>
+       <l>Beamed forth and brightened, thou thyself would'st tell me, </l>
+       <l>Guilt is a thing impossible in her! </l>
+       <l>She must be innocent!</l>
+      </lg>
+     </sp>
+     <sp who="#zulimez">
+      <speaker>Zulimez.</speaker>
+      <lg>
+       <l> Proceed, my lord!</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l>A portrait which she had procured by stealth, </l>
+       <l>(For even then it seems her heart foreboded </l>
+       <l>Or knew Ordonio's moody rivalry) </l>
+       <l>A portrait of herself with thrilling hand </l>
+       <l>She tied around my neck, conjuring me, </l>
+       <l>With earnest prayers, that I would keep it sacred </l>
+       <l>To my own knowledge: nor did she desist, </l>
+       <l>Till she had won a solemn promise from me, </l>
+       <l>That (save my own) no eye should e'er behold it </l>
+       <l>Till my return. Yet this the assassin knew, </l>
+       <l>Knew that which none but she could have disclosed.</l>
+      </lg>
+     </sp>
+     <sp who="#zulimez">
+      <speaker>Zulimez.</speaker>
+      <lg>
+       <l>A damning proof!</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l> My own life wearied me! </l>
+       <l>And but for the imperative voice within, </l>
+       <l>With mine own hand I had thrown off the burthen. </l>
+       <l>That voice, which quelled me, calmed me: and I sought </l>
+       <l>The Belgic states: there joined the better cause; </l>
+       <l>And there too fought as one that courted death! </l>
+       <l>Wounded, I fell among the dead and dying, </l>
+       <l>In death-like trance: a long imprisonment followed. </l>
+       <l>The fulness of my anguish by degrees </l>
+       <l>Waned to a meditative melancholy; </l>
+       <l>And still the more I mused, my soul became </l>
+       <l>More doubtful, more perplexed; and still Teresa, </l>
+       <l>Night after night, she visited my sleep, </l>
+       <l>Now as a saintly sufferer, wan and tearful, </l>
+       <l>Now as a saint in glory beckoning to me! </l>
+       <l>Yes, still as in contempt of proof and reason, </l>
+       <l>I cherish the fond faith that she is guiltless! </l>
+       <l>Hear then my fix'd resolve: I'll linger here </l>
+       <l>In the disguise of a Moresco chieftain.— </l>
+       <l>The Moorish robes?—</l>
+      </lg>
+     </sp>
+     <sp who="#zulimez">
+      <speaker>Zulimez.</speaker>
+      <lg>
+       <l> All, all are in the sea-cave, </l>
+       <l>Some furlong hence. I bade our mariners </l>
+       <l>Secrete the boat there.</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l> Above all, the picture </l>
+       <l>Of the assassination—</l>
+      </lg>
+     </sp>
+     <sp who="#zulimez">
+      <speaker>Zulimez.</speaker>
+      <lg>
+       <l> Be assured </l>
+       <l>That it remains uninjured.</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l> Thus disguised </l>
+       <l>I will first seek to meet Ordonio's—wife! </l>
+       <l>If possible, alone too. This was her wonted walk, </l>
+       <l>And this the hour; her words, her very looks </l>
+       <l>Will acquit her or convict.</l>
+      </lg>
+     </sp>
+     <sp who="#zulimez">
+      <speaker>Zulimez.</speaker>
+      <lg>
+       <l>Will they not know you?</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l>With your aid, friend, I shall unfearingly </l>
+       <l>Trust the disguise; and as to my complexion, </l>
+       <l>My long imprisonment, the scanty food, </l>
+       <l>This scar—and toil beneath a burning sun, </l>
+       <l>Have done already half the business for us. </l>
+       <l>Add too my youth, since last we saw each other. </l>
+       <l>Manhood has swoln my chest, and taught my voice </l>
+       <l>A hoarser note—Besides, they think me dead: </l>
+       <l>And what the mind believes impossible, </l>
+       <l>The bodily sense is slow to recognize.</l>
+      </lg>
+     </sp>
+     <sp who="#zulimez">
+      <speaker>Zulimez.</speaker>
+      <lg>
+       <l>'Tis yours, sir, to command, mine to obey. </l>
+       <l>Now to the cave beneath the vaulted rock, </l>
+       <l>Where having shaped you to a Moorish chieftain, </l>
+       <l>I'll seek our mariners; and in the dusk </l>
+       <l>Transport whate'er we need to the small dell </l>
+       <l>In the Alpujarras—there where Zagri lived.</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l>I know it well: it is the obscurest haunt </l>
+       <l>Of all the mountains— </l>
+      </lg>
+      <stage> [Both stand listening.</stage>
+      <lg>
+       <l> Voices at a distance! </l>
+       <l>Let us away! </l>
+      </lg>
+      <stage> [Exeunt.</stage>
+     </sp>
+    </div>
+    <div type="scene" n="2">
+     <head>Scene II</head>
+     <stage>Enter Teresa and Valdez.</stage>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>I hold Ordonio dear; he is your son </l>
+       <l>And Alvar's brother.</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l> Love him for himself, </l>
+       <l>Nor make the living wretched for the dead.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>I mourn that you should plead in vain, Lord Valdez, </l>
+       <l>But heaven hath heard my vow, and I remain </l>
+       <l>Faithful to Alvar, be he dead or living.</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l>Heaven knows with what delight I saw your loves, </l>
+       <l>And could my heart's blood give him back to thee </l>
+       <l>I would die smiling. But these are idle thoughts! </l>
+       <l>Thy dying father comes upon my soul </l>
+       <l>With that same look, with which he gave thee to me; </l>
+       <l>I held thee in my arms a powerless babe, </l>
+       <l>While thy poor mother with a mute entreaty </l>
+       <l>Fixed her faint eyes on mine. Ah not for this, </l>
+       <l>That I should let thee feed thy soul with gloom, </l>
+       <l>And with slow anguish wear away thy life, </l>
+       <l>The victim of a useless constancy. </l>
+       <l>I must not see thee wretched.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> There are woes </l>
+       <l>Ill bartered for the garishness of joy! </l>
+       <l>If it be wretched with an untired eye </l>
+       <l>To watch those skiey tints, and this green ocean; </l>
+       <l>Or in the sultry hour beneath some rock, </l>
+       <l>My hair dishevelled by the pleasant sea breeze, </l>
+       <l>To shape sweet visions, and live o'er again </l>
+       <l>All past hours of delight! If it be wretched </l>
+       <l>To watch some bark, and fancy Alvar there, </l>
+       <l>To go through each minutest circumstance </l>
+       <l>Of the blest meeting, and to frame adventures </l>
+       <l>Most terrible and strange, and hear him tell them; </l>
+       <l>(As once I knew a crazy Moorish maid </l>
+       <l>Who drest her in her buried lover's clothes, </l>
+       <l>And o'er the smooth spring in the mountain cleft </l>
+       <l>Hung with her lute, and played the selfsame tune </l>
+       <l>He used to play, and listened to the shadow </l>
+       <l>Herself had made)—if this be wretchedness, </l>
+       <l>And if indeed it be a wretched thing </l>
+       <l>To trick out mine own death-bed, and imagine </l>
+       <l>That I had died, died just ere his return! </l>
+       <l>Then see him listening to my constancy, </l>
+       <l>Or hover round, as he at midnight oft </l>
+       <l>Sits on my grave and gazes at the moon; </l>
+       <l>Or haply in some more fantastic mood, </l>
+       <l>To be in Paradise, and with choice flowers </l>
+       <l>Build up a bower where he and I might dwell, </l>
+       <l>And there to wait his coming! O my sire! </l>
+       <l>My Alvar's sire! if this be wretchedness </l>
+       <l>That eats away the life, what were it, think you, </l>
+       <l>If in a most assured reality </l>
+       <l>He should return, and see a brother's infant </l>
+       <l>Smile at him from my arms? </l>
+       <l>Oh what a thought!</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l>A thought? even so! mere thought! an empty thought. </l>
+       <l>The very week he promised his return—</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Was it not then a busy joy? to see him, </l>
+       <l>After those three years' travels! we had no fears— </l>
+       <l>The frequent tidings, the ne'er failing letter. </l>
+       <l>Almost endeared his absence! Yet the gladness, </l>
+       <l>The tumult of our joy! What then if now—</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l>O power of youth to feed on pleasant thoughts, </l>
+       <l>Spite of conviction! I am old and heartless! </l>
+       <l>Yes, I am old—I have no pleasant fancies— </l>
+       <l>Hectic and unrefreshed with rest—</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> My father!</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l>The sober truth is all too much for me! </l>
+       <l>I see no sail which brings not to my mind </l>
+       <l>The home-bound bark in which my son was captured </l>
+       <l>By the Algerine—to perish with his captors!</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Oh no! he did not!</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l> Captured in sight of land! </l>
+       <l>From yon hill point, nay, from our castle watch-tower </l>
+       <l>We might have seen—</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> His capture, not his death.</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l>Alas! how aptly thou forget'st a tale </l>
+       <l>Thou ne'er didst wish to learn! my brave Ordonio </l>
+       <l>Saw both the pirate and his prize go down, </l>
+       <l>In the same storm that baffled his own valour, </l>
+       <l>And thus twice snatched a brother from his hopes: </l>
+       <l>Gallant Ordonio! O beloved Teresa, </l>
+       <l>Would'st thou best prove thy faith to generous Alvar, </l>
+       <l>And most delight his spirit, go, make thou </l>
+       <l>His brother happy, make his aged father </l>
+       <l>Sink to the grave in joy.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> For mercy's sake </l>
+       <l>Press me no more! I have no power to love him. </l>
+       <l>His proud forbidding eye, and his dark brow, </l>
+       <l>Chill me like dew-damps of the unwholesome night: </l>
+       <l>My love, a timorous and tender flower, </l>
+       <l>Closes beneath his touch.</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l> You wrong him, maiden! </l>
+       <l>You wrong him, by my soul! Nor was it well </l>
+       <l>To character by such unkindly phrases </l>
+       <l>The stir and workings of that love for you </l>
+       <l>Which he has toiled to smother. 'Twas not well, </l>
+       <l>Nor is it grateful in you to forget </l>
+       <l>His wounds and perilous voyages, and how </l>
+       <l>With an heroic fearlessness of danger </l>
+       <l>He roam'd the coast of Afric for your Alvar. </l>
+       <l>It was not well—You have moved me even to tears.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Oh pardon me, Lord Valdez! pardon me! </l>
+       <l>It was a foolish and ungrateful speech, </l>
+       <l>A most ungrateful speech! But I am hurried </l>
+       <l>Beyond myself, if I but hear of one </l>
+       <l>Who aims to rival Alvar. Were we not </l>
+       <l>Born in one day, like twins of the same parent? </l>
+       <l>Nursed in one cradle? Pardon me, my father! </l>
+       <l>A six years' absence is a heavy thing, </l>
+       <l>Yet still the hope survives—</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez </speaker>
+      <stage>(looking forward).</stage>
+      <lg>
+       <l>Hush! 'tis Monviedro.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>The Inquisitor! on what new scent of blood?</l>
+      </lg>
+     </sp>
+     <stage>Enter Monviedro with Alhadra.</stage>
+     <sp who="#monviedro">
+      <speaker>Monviedro.</speaker>
+      <lg>
+       <l>Peace and the truth be with you! Good my Lord, </l>
+       <l>My present need is with your son. </l>
+       <l>We have hit the time. Here comes he! Yes, 'tis he. </l>
+      </lg>
+      <stage>Enter from the opposite side Don Ordonio.</stage>
+      <lg>
+       <l>My Lord Ordonio, this Moresco woman </l>
+       <l>(Alhadra is her name) asks audience of you.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>Hail, reverend father! what may be the business?</l>
+      </lg>
+     </sp>
+     <sp who="#monviedro">
+      <speaker>Monviedro.</speaker>
+      <lg>
+       <l>My lord, on strong suspicion of relapse </l>
+       <l>To his false creed, so recently abjured, </l>
+       <l>The secret servants of the Inquisition </l>
+       <l>Have seized her husband, and at my command </l>
+       <l>To the supreme tribunal would have led him, </l>
+       <l>But that he made appeal to you, my lord, </l>
+       <l>As surety for his soundness in the faith. </l>
+       <l>Though lessoned by experience what small trust </l>
+       <l>The asseverations of these Moors deserve, </l>
+       <l>Yet still the deference to Ordonio's name, </l>
+       <l>Nor less the wish to prove, with what high honour </l>
+       <l>The Holy Church regards her faithful soldiers, </l>
+       <l>Thus far prevailed with me that—</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> Reverend father, </l>
+       <l>I am much beholden to your high opinion, </l>
+       <l>Which so o'erprizes my light services. </l>
+      </lg>
+      <stage> [Then to Alhadra.</stage>
+      <lg>
+       <l>I would that I could serve you; but in truth </l>
+       <l>Your face is new to me.</l>
+      </lg>
+     </sp>
+     <sp who="#monviedro">
+      <speaker>Monviedro.</speaker>
+      <lg>
+       <l> My mind foretold me </l>
+       <l>That such would be the event. In truth, Lord Valdez, </l>
+       <l>'Twas little probable, that Don Ordonio, </l>
+       <l>That your illustrious son, who fought so bravely </l>
+       <l>Some four years since to quell these rebel Moors, </l>
+       <l>Should prove the patron of this infidel! </l>
+       <l>The warranter of a Moresco's faith! </l>
+       <l>Now I return.</l>
+      </lg>
+     </sp>
+     <sp who="#alhadra">
+      <speaker>Alhadra.</speaker>
+      <lg>
+       <l>My Lord, my husband's name </l>
+       <l>Is Isidore. </l>
+      </lg>
+      <stage>(Ordonio starts.)</stage>
+      <lg>
+       <l> You may remember it: </l>
+       <l>Three years ago, three years this very week, </l>
+       <l>You left him at Almeria.</l>
+      </lg>
+     </sp>
+     <sp who="#monviedro">
+      <speaker>Monviedro.</speaker>
+      <lg>
+       <l> Palpably false! </l>
+       <l>This very week, three years ago, my lord, </l>
+       <l>(You needs must recollect it by your wound) </l>
+       <l>You were at sea, and there engaged the pirates, </l>
+       <l>The murderers doubtless of your brother Alvar! </l>
+       <l>What, is he ill, my Lord? how strange he looks!</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l>You pressed upon him too abruptly, father! </l>
+       <l>The fate of one, on whom, you know, he doted.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>O Heavens! I?—I doted? </l>
+       <l>Yes! I doted on him.</l>
+      </lg>
+     </sp>
+     <stage> [Ordonio walks to the end of the stage, Valdez follows.</stage>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>I do not, can not, love him. Is my heart hard? </l>
+       <l>Is my heart hard? that even now the thought </l>
+       <l>Should force itself upon me?—Yet I feel it!</l>
+      </lg>
+     </sp>
+     <sp who="#monviedro">
+      <speaker>Monviedro.</speaker>
+      <lg>
+       <l>The drops did start and stand upon his forehead! </l>
+       <l>I will return. In very truth, I grieve </l>
+       <l>To have been the occasion. Ho! attend me, woman!</l>
+      </lg>
+     </sp>
+     <sp who="#alhadra">
+      <speaker>Alhadra </speaker>
+      <stage>(to Teresa).</stage>
+      <lg>
+       <l>O gentle lady! make the father stay, </l>
+       <l>Until my lord recover. I am sure, </l>
+       <l>That he will say he is my husband's friend.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Stay, father! stay! my lord will soon recover.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio </speaker>
+      <stage>(as they return, to Valdez).</stage>
+      <lg>
+       <l>Strange, that this Monviedro </l>
+       <l>Should have the power so to distemper me!</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l>Nay, 'twas an amiable weakness, son!</l>
+      </lg>
+     </sp>
+     <sp who="#monviedro">
+      <speaker>Monviedro.</speaker>
+      <lg>
+       <l>My lord, I truly grieve—</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> Tut! name it not. </l>
+       <l>A sudden seizure, father! think not of it. </l>
+       <l>As to this woman's husband, I do know him. </l>
+       <l>I know him well, and that he is a Christian.</l>
+      </lg>
+     </sp>
+     <sp who="#monviedro">
+      <speaker>Monviedro.</speaker>
+      <lg>
+       <l>I hope, my lord, your merely human pity </l>
+       <l>Doth not prevail—</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>'Tis certain that he was a catholic; </l>
+       <l>What changes may have happened in three years. </l>
+       <l>I can not say; but grant me this, good father: </l>
+       <l>Myself I'll sift him: if I find him sound, </l>
+       <l>You'll grant me your authority and name </l>
+       <l>To liberate his house.</l>
+      </lg>
+     </sp>
+     <sp who="#monviedro">
+      <speaker>Monviedro.</speaker>
+      <lg>
+       <l> Your zeal, my lord, </l>
+       <l>And your late merits in this holy warfare </l>
+       <l>Would authorize an ampler trust—you have it.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>I will attend you home within an hour.</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l>Meantime return with us and take refreshment.</l>
+      </lg>
+     </sp>
+     <sp who="#alhadra">
+      <speaker>Alhadra.</speaker>
+      <lg>
+       <l>Not till my husband's free! I may not do it. </l>
+       <l>I will stay here.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa </speaker>
+      <stage>(aside).</stage>
+      <lg>
+       <l>Who is this Isidore?</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l> Daughter!</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>With your permission, my dear lord, </l>
+       <l>I'll loiter yet awhile t' enjoy the sea breeze.</l>
+      </lg>
+     </sp>
+     <stage> [Exeunt Valdez, Monviedro and Ordonio.</stage>
+     <sp who="#alhadra">
+      <speaker>Alhadra.</speaker>
+      <lg>
+       <l>Hah! there he goes! a bitter curse go with him, </l>
+       <l>A scathing curse! </l>
+       <l>You hate him, don't you, lady?</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Oh fear not me! my heart is sad for you.</l>
+      </lg>
+     </sp>
+     <sp who="#alhadra">
+      <speaker>Alhadra.</speaker>
+      <lg>
+       <l>These fell inquisitors! these sons of blood! </l>
+       <l>As I came on, his face so maddened me, </l>
+       <l>That ever and anon I clutched my dagger </l>
+       <l>And half unsheathed it—</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> Be more calm, I pray you.</l>
+      </lg>
+     </sp>
+     <sp who="#alhadra">
+      <speaker>Alhadra.</speaker>
+      <lg>
+       <l>And as he walked along the narrow path </l>
+       <l>Close by the mountain's edge, my soul grew eager; </l>
+       <l>'Twas with hard toil I made myself remember </l>
+       <l>That his Familiars held my babes and husband. </l>
+       <l>To have leapt upon him with a tiger's plunge, </l>
+       <l>And hurl'd him down the rugged precipice, </l>
+       <l>O, it had been most sweet!</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> Hush! hush for shame! </l>
+       <l>Where is your woman's heart?</l>
+      </lg>
+     </sp>
+     <sp who="#alhadra">
+      <speaker>Alhadra.</speaker>
+      <lg>
+       <l> O gentle lady! </l>
+       <l>You have no skill to guess my many wrongs, </l>
+       <l>Many and strange! Besides, I am a Christian, </l>
+       <l>And Christians never pardon—'tis their faith!</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Shame fall on those who so have shewn it to thee!</l>
+      </lg>
+     </sp>
+     <sp who="#alhadra">
+      <speaker>Alhadra.</speaker>
+      <lg>
+       <l>I know that man; 'tis well he knows not me. </l>
+       <l>Five years ago (and he was the prime agent), </l>
+       <l>Five years ago the holy brethren seized me.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>What might your crime be?</l>
+      </lg>
+     </sp>
+     <sp who="#alhadra">
+      <speaker>Alhadra.</speaker>
+      <lg>
+       <l> I was a Moresco! </l>
+       <l>They cast me, then a young and nursing mother, </l>
+       <l>Into a dungeon of their prison house, </l>
+       <l>Where was no bed, no fire, no ray of light, </l>
+       <l>No touch, no sound of comfort! The black air, </l>
+       <l>It was a toil to breathe it! when the door, </l>
+       <l>Slow opening at the appointed hour, disclosed </l>
+       <l>One human countenance, the lamp's red flame </l>
+       <l>Cowered as it entered, and at once sank down. </l>
+       <l>Oh miserable! by that lamp to see </l>
+       <l>My infant quarrelling with the coarse hard bread </l>
+       <l>Brought daily; for the little wretch was sickly— </l>
+       <l>My rage had dried away its natural food. </l>
+       <l>In darkness I remained—the dull bell counting, </l>
+       <l>Which haply told me, that the all-cheering sun </l>
+       <l>Was rising on our garden. When I dozed, </l>
+       <l>My infant's moanings mingled with my slumbers </l>
+       <l>And waked me.—If you were a mother, lady, </l>
+       <l>I should scarce dare to tell you, that its noises </l>
+       <l>And peevish cries so fretted on my brain </l>
+       <l>That I have struck the innocent babe in anger.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>O Heaven! it is too horrible to hear.</l>
+      </lg>
+     </sp>
+     <sp who="#alhadra">
+      <speaker>Alhadra.</speaker>
+      <lg>
+       <l>What was it then to suffer? 'Tis most right </l>
+       <l>That such as you should hear it.—Know you not, </l>
+       <l>What nature makes you mourn, she bids you heal? </l>
+       <l>Great evils ask great passions to redress them, </l>
+       <l>And whirlwinds fitliest scatter pestilence.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>You were at length released?</l>
+      </lg>
+     </sp>
+     <sp who="#alhadra">
+      <speaker>Alhadra.</speaker>
+      <lg>
+       <l> Yes, at length </l>
+       <l>I saw the blessed arch of the whole heaven! </l>
+       <l>'Twas the first time my infant smiled. No more— </l>
+       <l>For if I dwell upon that moment, Lady, </l>
+       <l>A trance comes on which makes me o'er again </l>
+       <l>All I then was—my knees hang loose and drag, </l>
+       <l>And my lip falls with such an idiot laugh, </l>
+       <l>That you would start and shudder!</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> But your husband—</l>
+      </lg>
+     </sp>
+     <sp who="#alhadra">
+      <speaker>Alhadra.</speaker>
+      <lg>
+       <l>A month's imprisonment would kill him, Lady.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Alas, poor man!</l>
+      </lg>
+     </sp>
+     <sp who="#alhadra">
+      <speaker>Alhadra.</speaker>
+      <lg>
+       <l> He hath a lion's courage, </l>
+       <l>Fearless in act, but feeble in endurance; </l>
+       <l>Unfit for boisterous times, with gentle heart </l>
+       <l>He worships nature in the hill and valley, </l>
+       <l>Not knowing what he loves, but loves it all—</l>
+      </lg>
+     </sp>
+     <stage>Enter Alvar disguised as a Moresco, and in Moorish garments.</stage>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Know you that stately Moor?</l>
+      </lg>
+     </sp>
+     <sp who="#alhadra">
+      <speaker>Alhadra.</speaker>
+      <lg>
+       <l> I know him not: </l>
+       <l>But doubt not he is some Moresco chieftain, </l>
+       <l>Who hides himself among the Alpujarras.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>The Alpujarras? Does he know his danger, </l>
+       <l>So near this seat?</l>
+      </lg>
+     </sp>
+     <sp who="#alhadra">
+      <speaker>Alhadra.</speaker>
+      <lg>
+       <l> He wears the Moorish robes too, </l>
+       <l>As in defiance of the royal edict.</l>
+      </lg>
+     </sp>
+     <stage> [Alhadra advances to Alvar, who has walked to the back of the stage,
+                        near the rocks. Teresa drops her veil.</stage>
+     <sp who="#alhadra">
+      <speaker>Alhadra.</speaker>
+      <lg>
+       <l>Gallant Moresco! An inquisitor, </l>
+       <l>Monviedro, of known hatred to our race—</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l>You have mistaken me. I am a Christian.</l>
+      </lg>
+     </sp>
+     <sp who="#alhadra">
+      <speaker>Alhadra.</speaker>
+      <lg>
+       <l>He deems, that we are plotting to ensnare him: </l>
+       <l>Speak to him, Lady—none can hear you speak, </l>
+       <l>And not believe you innocent of guile.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>If aught enforce you to concealment, Sir—</l>
+      </lg>
+     </sp>
+     <sp who="#alhadra">
+      <speaker>Alhadra.</speaker>
+      <lg>
+       <l>He trembles strangely.</l>
+      </lg>
+     </sp>
+     <stage> [Alvar sinks down and hides his face in his robe.</stage>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> See, we have disturbed him. </l>
+      </lg>
+      <stage> [Approaches nearer to him.</stage>
+      <lg>
+       <l>I pray you, think us friends—uncowl your face, </l>
+       <l>For you seem faint, and the night-breeze blows healing. </l>
+       <l>I pray you, think us friends!</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar </speaker>
+      <stage>(raising his head).</stage>
+      <lg>
+       <l>Calm, very calm! </l>
+       <l>'Tis all too tranquil for reality! </l>
+       <l>And she spoke to me with her innocent voice, </l>
+       <l>That voice, that innocent voice! She is no traitress!</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Let us retire </l>
+      </lg>
+      <stage>(haughtily to Alhadra).</stage>
+     </sp>
+     <sp who="#alhadra">
+      <speaker>Alhadra.</speaker>
+      <lg>
+       <l>He is indeed a Christian.</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar </speaker>
+      <stage>(aside).</stage>
+      <lg>
+       <l>She deems me dead, yet wears no mourning garment! </l>
+       <l>Why should my brother's—wife—wear mourning garments? </l>
+      </lg>
+      <stage> [To Teresa.</stage>
+      <lg>
+       <l>Your pardon, noble dame! that I disturbed you: </l>
+       <l>I had just started from a frightful dream.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Dreams tell but of the past, and yet, 'tis said, </l>
+       <l>They prophesy—</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l> The Past lives o'er again </l>
+       <l>In its effects, and to the guilty spirit </l>
+       <l>The ever-frowning Present is its image.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Traitress! </l>
+      </lg>
+      <stage> (Then aside.)</stage>
+      <lg>
+       <l> What sudden spell o'ermasters me? </l>
+       <l>Why seeks he me, shunning the Moorish woman?</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l>I dreamt I had a friend, on whom I leant </l>
+       <l>With blindest trust, and a betrothéd maid, </l>
+       <l>Whom I was wont to call not mine, but me: </l>
+       <l>For mine own self seem'd nothing, lacking her. </l>
+       <l>This maid so idolized, that trusted friend </l>
+       <l>Dishonoured in my absence, soul and body! </l>
+       <l>Fear, following guilt, tempted to blacker guilt, </l>
+       <l>And murderers were suborned against my life. </l>
+       <l>But by my looks, and most impassioned words, </l>
+       <l>I roused the virtues that are dead in no man, </l>
+       <l>Even in the assassins' hearts! they made their terms, </l>
+       <l>And thanked me for redeeming them from murder.</l>
+      </lg>
+     </sp>
+     <sp who="#alhadra">
+      <speaker>Alhadra.</speaker>
+      <lg>
+       <l>You are lost in thought: hear him no more, sweet Lady!</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>From morn to night I am myself a dreamer, </l>
+       <l>And slight things bring on me the idle mood! </l>
+       <l>Well sir, what happened then?</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l> On a rude rock, </l>
+       <l>A rock, methought, fast by a grove of firs, </l>
+       <l>Whose thready leaves to the low-breathing gale </l>
+       <l>Made a soft sound most like the distant ocean, </l>
+       <l>I stayed, as though the hour of death were passed, </l>
+       <l>And I were sitting in the world of spirits— </l>
+       <l>For all things seemed unreal! There I sate— </l>
+       <l>The dews fell clammy, and the night descended, </l>
+       <l>Black, sultry, close! and ere the midnight hour </l>
+       <l>A storm came on, mingling all sounds of fear, </l>
+       <l>That woods, and sky, and mountains, seemed one havock. </l>
+       <l>The second flash of lightning shewed a tree </l>
+       <l>Hard by me, newly scathed. I rose tumultuous: </l>
+       <l>My soul worked high, I bared my head to the storm, </l>
+       <l>And with loud voice and clamorous agony, </l>
+       <l>Kneeling I prayed to the great Spirit that made me, </l>
+       <l>Prayed, that Remorse might fasten on their hearts, </l>
+       <l>And cling with poisonous tooth, inextricable </l>
+       <l>As the gored lion's bite!</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> A fearful curse!</l>
+      </lg>
+     </sp>
+     <sp who="#alhadra">
+      <speaker>Alhadra.</speaker>
+      <lg>
+       <l>But dreamt you not that you returned and killed them? </l>
+       <l>Dreamt you of no revenge?</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l> She would have died </l>
+       <l>Died in her guilt—perchance by her own hands! </l>
+       <l>And bending o'er her self-inflicted wounds, </l>
+       <l>I might have met the evil glance of frenzy, </l>
+       <l>And leapt myself into an unblest grave! </l>
+       <l>I prayed for the punishment that cleanses hearts: </l>
+       <l>For still I loved her!</l>
+      </lg>
+     </sp>
+     <sp who="#alhadra">
+      <speaker>Alhadra.</speaker>
+      <lg>
+       <l> And you dreamt all this?</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>My soul is full of visions all as wild!</l>
+      </lg>
+     </sp>
+     <sp who="#alhadra">
+      <speaker>Alhadra.</speaker>
+      <lg>
+       <l>There is no room in this heart for puling love-tales.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa </speaker>
+      <stage>(lifts up her veil, and advances to Alvar).</stage>
+      <lg>
+       <l>Stranger, farewell! I guess not who you are, </l>
+       <l>Nor why you so addressed your tale to me. </l>
+       <l>Your mien is noble, and, I own, perplexed me, </l>
+       <l>With obscure memory of something past, </l>
+       <l>Which still escaped my efforts, or presented </l>
+       <l>Tricks of a fancy pampered with long wishing. </l>
+       <l>If, as it sometimes happens, our rude startling, </l>
+       <l>Whilst your full heart was shaping out its dream, </l>
+       <l>Drove you to this, your not ungentle, wildness— </l>
+       <l>You have my sympathy, and so farewell! </l>
+       <l>But if some undiscovered wrongs oppress you, </l>
+       <l>And you need strength to drag them into light, </l>
+       <l>The generous Valdez, and my Lord Ordonio, </l>
+       <l>Have arm and will to aid a noble sufferer, </l>
+       <l>Nor shall you want my favourable pleading.</l>
+      </lg>
+     </sp>
+     <stage> [Exeunt Teresa and Alhadra.</stage>
+     <sp who="#alvar">
+      <speaker>Alvar </speaker>
+      <stage>(alone).</stage>
+      <lg>
+       <l>'Tis strange! It cannot be! my Lord Ordonio! </l>
+       <l>Her Lord Ordonio! Nay, I will not do it! </l>
+       <l>I cursed him once—and one curse is enough! </l>
+       <l>How sad she looked, and pale! but not like guilt— </l>
+       <l>And her calm tones—sweet as a song of mercy! </l>
+       <l>If the bad spirit retain'd his angel's voice, </l>
+       <l>Hell scarce were Hell. And why not innocent? </l>
+       <l>Who meant to murder me, might well cheat her? </l>
+       <l>But ere she married him, he had stained her honour; </l>
+       <l>Ah! there I am hampered. What if this were a lie </l>
+       <l>Framed by the assassin? Who should tell it him, </l>
+       <l>If it were truth? Ordonio would not tell him. </l>
+       <l>Yet why one lie? all else, I know, was truth. </l>
+       <l>No start, no jealousy of stirring conscience! </l>
+       <l>And she referred to me—fondly, methought! </l>
+       <l>Could she walk here if she had been a traitress? </l>
+       <l>Here where we played together in our childhood? </l>
+       <l>Here where we plighted vows? where her cold cheek </l>
+       <l>Received my last kiss, when with suppressed feelings </l>
+       <l>She had fainted in my arms? It cannot be! </l>
+       <l>'Tis not in nature! I will die believing, </l>
+       <l>That I shall meet her where no evil is, </l>
+       <l>No treachery, no cup dashed from the lips. </l>
+       <l>I'll haunt this scene no more! live she in peace! </l>
+       <l>Her husband—aye her husband! May this angel </l>
+       <l>New mould his canker'd heart! Assist me, heaven, </l>
+       <l>That I may pray for my poor guilty brother! </l>
+      </lg>
+     </sp>
+     <stage> [Exit.</stage>
+    </div>
+   </div>
+   <div type="act" n="2">
+    <head>ACT II</head>
+    <div type="scene" n="1">
+     <head>Scene I</head>
+     <stage>A wild and mountainous country. Ordonio and Isidore are discovered,
+                        supposed at a little distance from Isidore's house.</stage>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>Here we may stop: your house distinct in view, </l>
+       <l>Yet we secured from listeners.</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l> Now indeed </l>
+       <l>My house! and it looks cheerful as the clusters </l>
+       <l>Basking in sunshine on yon vine-clad rock, </l>
+       <l>That over-brows it! Patron! Friend! Preserver! </l>
+       <l>Thrice have you saved my life. Once in the battle </l>
+       <l>You gave it me: next rescued me from suicide </l>
+       <l>When for my follies I was made to wander, </l>
+       <l>With mouths to feed, and not a morsel for them: </l>
+       <l>Now but for you, a dungeon's slimy stones </l>
+       <l>Had been my bed and pillow.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> Good Isidore! </l>
+       <l>Why this to me? It is enough, you know it.</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l>A common trick of gratitude, my lord, </l>
+       <l>Seeking to ease her own full heart—</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> Enough! </l>
+       <l>A debt repaid ceases to be a debt. </l>
+       <l>You have it in your power to serve me greatly.</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l>And how, my lord? I pray you to name the thing. </l>
+       <l>I would climb up an ice-glazed precipice </l>
+       <l>To pluck a weed you fancied!</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> Why—that—Lady—</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l>'Tis now three years, my lord, since last I saw you: </l>
+       <l>Have you a son, my lord?</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> O miserable— </l>
+      </lg>
+      <stage> [Aside.</stage>
+      <lg>
+       <l>Isidore! you are a man, and know mankind. </l>
+       <l>I told you what I wished—now for the truth— </l>
+       <l>She loved the man you kill'd.</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l> You jest, my lord?</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>And till his death is proved she will not wed me.</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l>You sport with me, my lord?</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> Come, come! this foolery </l>
+       <l>Lives only in thy looks, thy heart disowns it!</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l>I can bear this, and any thing more grievous </l>
+       <l>From you, my lord—but how can I serve you here?</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>Why, you can utter with a solemn gesture </l>
+       <l>Oracular sentences of deep no-meaning, </l>
+       <l>Wear a quaint garment, make mysterious antics—</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l>I am dull, my lord! I do not comprehend you.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>In blunt terms, you can play the sorcerer. </l>
+       <l>She hath no faith in Holy Church, 'tis true: </l>
+       <l>Her lover schooled her in some newer nonsense! </l>
+       <l>Yet still a tale of spirits works upon her. </l>
+       <l>She is a lone enthusiast, sensitive, </l>
+       <l>Shivers, and can not keep the tears in her eye: </l>
+       <l>And such do love the marvellous too well </l>
+       <l>Not to believe it. We will wind up her fancy </l>
+       <l>With a strange music, that she knows not of— </l>
+       <l>With fumes of frankincense, and mummery, </l>
+       <l>Then leave, as one sure token of his death, </l>
+       <l>That portrait, which from off the dead man's neck </l>
+       <l>I bade thee take, the trophy of thy conquest.</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l>Will that be a sure sign?</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> Beyond suspicion. </l>
+       <l>Fondly caressing him, her favour'd lover, </l>
+       <l>(By some base spell he had bewitched her senses) </l>
+       <l>She whispered such dark fears of me forsooth, </l>
+       <l>As made this heart pour gall into my veins. </l>
+       <l>And as she coyly bound it round his neck </l>
+       <l>She made him promise silence; and now holds </l>
+       <l>The secret of the existence of this portrait </l>
+       <l>Known only to her lover and herself. </l>
+       <l>But I had traced her, stolen unnotic'd on them, </l>
+       <l>And unsuspected saw and heard the whole.</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l>But now I should have cursed the man who told me </l>
+       <l>You could ask aught, my lord, and I refuse— </l>
+       <l>But this I can not do.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> Where lies your scruple?</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l>Why—why, my lord! </l>
+       <l>You know you told me that the lady lov'd you, </l>
+       <l>Had loved you with incautious tenderness; </l>
+       <l>That if the young man, her betrothéd husband, </l>
+       <l>Returned, yourself, and she, and the honour of both </l>
+       <l>Must perish. Now though with no tenderer scruples </l>
+       <l>Than those which being native to the heart, </l>
+       <l>Than those, my lord, which merely being a man—</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>This fellow is a Man—he killed for hire </l>
+       <l>One whom he knew not, yet has tender scruples! </l>
+      </lg>
+      <stage> [Then turning to Isidore.</stage>
+      <lg>
+       <l>These doubts, these fears, thy whine, thy stammering— </l>
+       <l>Pish, fool! thou blunder'st through the book of guilt, </l>
+       <l>Spelling thy villainy.</l>
+      </lg>
+     </sp>
+     <sp who="#isidorc">
+      <speaker>Isidorc.</speaker>
+      <lg>
+       <l> My lord—my lord, </l>
+       <l>I can bear much—yes, very much from you! </l>
+       <l>But there's a point where sufferance is meanness: </l>
+       <l>I am no villain—never kill'd for hire— </l>
+       <l>My gratitude—</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> O aye—your gratitude! </l>
+       <l>'Twas a well-sounding word—what have you done with it?</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l>Who proffers his past favours for my virtue—</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> Virtue—</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l>Tries to o'erreach me—is a very sharper, </l>
+       <l>And should not speak of gratitude, my lord. </l>
+       <l>I knew not 'twas your brother!</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> And who told you?</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l>He himself told me.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> Ha! you talk'd with him! </l>
+       <l>And those, the two Morescoes who were with you?</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l>Both fell in a night brawl at Malaga.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio </speaker>
+      <stage>(in a low voice).</stage>
+      <lg>
+       <l>My brother—</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l> Yes, my lord, I could not tell you! </l>
+       <l>I thrust away the thought—it drove me wild. </l>
+       <l>But listen to me now—I pray you listen—</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>Villain! no more. I'll hear no more of it.</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l>My lord, it much imports your future safety </l>
+       <l>That you should hear it.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio </speaker>
+      <stage>(turning off from Isidore).</stage>
+      <lg>
+       <l> Am not I a man! </l>
+       <l>'Tis as it should be! tut—the deed itself </l>
+       <l>Was idle, and these after-pangs still idler!</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l>We met him in the very place you mentioned. </l>
+       <l>Hard by a grove of firs—</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> Enough—enough—</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l>He fought us valiantly, and wounded all; </l>
+       <l>In fine, compelled a parley.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> Alvar! brother!</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l>He offered me his purse—</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> Yes?</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l> Yes—I spurned it.— </l>
+       <l>He promised us I know not what—in vain! </l>
+       <l>Then with a look and voice that overawed me, </l>
+       <l>He said, What mean you, friends? My life is dear: </l>
+       <l>I have a brother and a promised wife, </l>
+       <l>Who make life dear to me—and if I fall, </l>
+       <l>That brother will roam earth and hell for vengeance. </l>
+       <l>There was a likeness in his face to yours; </l>
+       <l>I asked his brother's name: he said—Ordonio, </l>
+       <l>Son of Lord Valdez! I had well nigh fainted. </l>
+       <l>At length I said (if that indeed I said it, </l>
+       <l>And that no Spirit made my tongue its organ,) </l>
+       <l>That woman is dishonoured by that brother, </l>
+       <l>And he the man who sent us to destroy you. </l>
+       <l>He drove a thrust at me in rage. I told him </l>
+       <l>He wore her portrait round his neck. He look'd </l>
+       <l>As he had been made of the rock that propt his back— </l>
+       <l>Aye, just as you look now—only less ghastly! </l>
+       <l>At length recovering from his trance, he threw </l>
+       <l>His sword away, and bade us take his life, </l>
+       <l>It was not worth his keeping.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> And you kill'd him? </l>
+       <l>Oh blood hounds! may eternal wrath flame round you! </l>
+       <l>He was his Maker's Image undefac'd! </l>
+       <l>It seizes me—by Hell I will go on! </l>
+       <l>What—would'st thou stop, man? thy pale looks won't save thee! </l>
+       <l>Oh cold—cold—cold! shot through with icy cold!</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore </speaker>
+      <stage>(aside).</stage>
+      <lg>
+       <l>Were he alive he had returned ere now. </l>
+       <l>The consequence the same—dead through his plotting!</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>O this unutterable dying away—here— </l>
+       <l>This sickness of the heart! </l>
+       <l> What if I went </l>
+       <l>And liv'd in a hollow tomb, and fed on weeds? </l>
+       <l>Aye! that's the road to heaven! O fool! fool! fool! </l>
+       <l>What have I done but that which nature destined, </l>
+       <l>Or the blind elements stirred up within me? </l>
+       <l>If good were meant, why were we made these beings? </l>
+       <l>And if not meant—</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l> You are disturbed, my lord!</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio </speaker>
+      <stage>(starts).</stage>
+      <lg>
+       <l>A gust of the soul! i'faith it overset me. </l>
+       <l>O 'twas all folly—all! idle as laughter! </l>
+       <l>Now, Isidore! I swear that thou shalt aid me.</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore </speaker>
+      <stage>(in a low voice).</stage>
+      <lg>
+       <l>I'll perish first!</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> What dost thou mutter of?</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l>Some of your servants know me, I am certain.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>There's some sense in that scruple; but we'll mask you.</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l>They'll know my gait: but stay! last night I watched </l>
+       <l>A stranger near the ruin in the wood, </l>
+       <l>Who as it seemed was gathering herbs and wild flowers. </l>
+       <l>I had followed him at distance, seen him scale </l>
+       <l>Its western wall, and by an easier entrance </l>
+       <l>Stole after him unnoticed. There I marked, </l>
+       <l>That mid the chequer work of light and shade </l>
+       <l>With curious choice he plucked no other flowers, </l>
+       <l>But those on which the moonlight fell: and once </l>
+       <l>I heard him muttering o'er the plant. A wizard— </l>
+       <l>Some gaunt slave prowling here for dark employment.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>Doubtless you question'd him?</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l> 'Twas my intention, </l>
+       <l>Having first traced him homeward to his haunt. </l>
+       <l>But lo! the stern Dominican, whose spies </l>
+       <l>Lurk every where, already (as it seemed) </l>
+       <l>Had given commission to his apt familiar </l>
+       <l>To seek and sound the Moor; who now returning, </l>
+       <l>Was by this trusty agent stopped midway. </l>
+       <l>I, dreading fresh suspicion if found near him </l>
+       <l>In that lone place, again concealed myself: </l>
+       <l>Yet within hearing. So the Moor was question'd, </l>
+       <l>And in your name, as lord of this domain, </l>
+       <l>Proudly he answered, ‘Say to the Lord Ordonio, </l>
+       <l>He that can bring the dead to life again!’</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>A strange reply!</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l> Aye, all of him is strange. </l>
+       <l>He called himself a Christian, yet he wears </l>
+       <l>The Moorish robes, as if he courted death.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>Where does this wizard live?</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore </speaker>
+      <stage>(pointing to the distance).</stage>
+      <lg>
+       <l> You see that brooklet? </l>
+       <l>Trace its course backward: through a narrow opening </l>
+       <l>It leads you to the place.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> How shall I know it?</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l>You cannot err. It is a small green dell </l>
+       <l>Built all around with high off-sloping hills, </l>
+       <l>And from its shape our peasants aptly call it </l>
+       <l>The Giant's Cradle. There's a lake in the midst, </l>
+       <l>And round its banks tall wood that branches over, </l>
+       <l>And makes a kind of faery forest grow </l>
+       <l>Down in the water. At the further end </l>
+       <l>A puny cataract falls on the lake; </l>
+       <l>And there, a curious sight! you see its shadow </l>
+       <l>For ever curling, like a wreath of smoke, </l>
+       <l>Up through the foliage of those faery trees. </l>
+       <l>His cot stands opposite. You cannot miss it.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio </speaker>
+      <stage>(in retiring stops suddenly at the edge of the scene, and
+                            then turning round to Isidore).</stage>
+      <lg>
+       <l>Ha!—Who lurks there! Have we been overheard? </l>
+       <l>There where the smooth high wall of slate-rock glitters—</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l>'Neath those tall stones, which propping each the other, </l>
+       <l>Form a mock portal with their pointed arch? </l>
+       <l>Pardon my smiles! 'Tis a poor idiot boy, </l>
+       <l>Who sits in the sun, and twirls a bough about, </l>
+       <l>His weak eyes seeth'd in most unmeaning tears. </l>
+       <l>And so he sits, swaying his cone-like head, </l>
+       <l>And staring at his bough from morn to sun-set, </l>
+       <l>See-saws his voice in inarticulate noises.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>'Tis well, and now for this same wizard's lair.</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l>Some three strides up the hill, a mountain ash </l>
+       <l>Stretches its lower boughs and scarlet clusters </l>
+       <l>O'er the old thatch.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> I shall not fail to find it.</l>
+      </lg>
+     </sp>
+     <stage> [Exeunt Ordonio and Isidore.</stage>
+    </div>
+    <div type="scene" n="2">
+     <head>Scene II</head>
+     <stage>The inside of a Cottage, around which flowers and plants of various kinds
+                        are seen. Discovers Alvar, Zulimez and Alhadra, as on the point of leaving.</stage>
+     <sp who="#alhadra">
+      <speaker>Alhadra </speaker>
+      <stage>(addressing Alvar).</stage>
+      <lg>
+       <l>Farewell then! and though many thoughts perplex me, </l>
+       <l>Aught evil or ignoble never can I </l>
+       <l>Suspect of thee! If what thou seem'st thou art, </l>
+       <l>The oppressed brethren of thy blood have need </l>
+       <l>Of such a leader.</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l> Nobly-minded woman! </l>
+       <l>Long time against oppression have I fought, </l>
+       <l>And for the native liberty of faith </l>
+       <l>Have bled and suffered bonds. Of this be certain: </l>
+       <l>Time, as he courses onward, still unrolls </l>
+       <l>The volume of concealment. In the future, </l>
+       <l>As in the optician's glassy cylinder, </l>
+       <l>The indistinguishable blots and colours </l>
+       <l>Of the dim past collect and shape themselves, </l>
+       <l>Upstarting in their own completed image </l>
+       <l>To scare or to reward. </l>
+       <l> I sought the guilty, </l>
+       <l>And what I sought I found: but ere the spear </l>
+       <l>Flew from my hand, there rose an angel form </l>
+       <l>Betwixt me and my aim. With baffled purpose </l>
+       <l>To the Avenger I leave vengeance, and depart! </l>
+       <l>Whate'er betide, if aught my arm may aid, </l>
+       <l>Or power protect, my word is pledged to thee: </l>
+       <l>For many are thy wrongs, and thy soul noble. </l>
+       <l>Once more, farewell. </l>
+      </lg>
+      <stage> [Exit Alhadra.</stage>
+      <lg>
+       <l> Yes, to the Belgic states </l>
+       <l>We will return. These robes, this stained complexion, </l>
+       <l>Akin to falsehood, weigh upon my spirit. </l>
+       <l>Whate'er befall us, the heroic Maurice </l>
+       <l>Will grant us an asylum, in remembrance </l>
+       <l>Of our past services.</l>
+      </lg>
+     </sp>
+     <sp who="#zulimez">
+      <speaker>Zulimez.</speaker>
+      <lg>
+       <l>And all the wealth, power, influence which is yours, </l>
+       <l>You let a murderer hold?</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l> O faithful Zulimez! </l>
+       <l>That my return involved Ordonio's death, </l>
+       <l>I trust, would give me an unmingled pang, </l>
+       <l>Yet bearable:—but when I see my father </l>
+       <l>Strewing his scant grey hairs, e'en on the ground, </l>
+       <l>Which soon must be his grave, and my Teresa— </l>
+       <l>Her husband proved a murderer, and her infants </l>
+       <l>His infants—poor Teresa!—all would perish, </l>
+       <l>All perish—all! and I (nay bear with me) </l>
+       <l>Could not survive the complicated ruin!</l>
+      </lg>
+     </sp>
+     <sp who="#zulimez">
+      <speaker>Zulimez.</speaker>
+      <lg>
+       <l>Nay now! I have distress'd you—you well know, </l>
+       <l>I ne'er will quit your fortunes. True, 'tis tiresome! </l>
+       <l>You are a painter, one of many fancies! </l>
+       <l>You can call up past deeds, and make them live </l>
+       <l>On the blank canvas! and each little herb, </l>
+       <l>That grows on mountain bleak, or tangled forest, </l>
+       <l>You have learnt to name— </l>
+       <l> Hark! heard you not some footsteps?</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l>What if it were my brother coming onwards? </l>
+       <l>I sent a most mysterious message to him.</l>
+      </lg>
+     </sp>
+     <stage>Enter Ordonio</stage>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l>It is he!</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio </speaker>
+      <stage>(to himself as he enters).</stage>
+      <lg>
+       <l>If I distinguish'd right her gait and stature, </l>
+       <l>It was the Moorish woman, Isidore's wife, </l>
+       <l>That passed me as I entered. A lit taper, </l>
+       <l>In the night air, doth not more naturally </l>
+       <l>Attract the night-flies round it, than a conjuror </l>
+       <l>Draws round him the whole female neighbourhood. </l>
+      </lg>
+      <stage> [Addressing Alvar.</stage>
+      <lg>
+       <l>You know my name, I guess, if not my person. </l>
+       <l>I am Ordonio, son of the Lord Valdez.</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l>The Son of Valdez!</l>
+      </lg>
+     </sp>
+     <stage> [Ordonio walks leisurely round the room, and looks attentively at the
+                        plants.</stage>
+     <sp who="#zulimez">
+      <speaker>Zulimez </speaker>
+      <stage>(to Alvar).</stage>
+      <lg>
+       <l> Why, what ails you now? </l>
+       <l>How your hand trembles! Alvar, speak! what wish you?</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l>To fall upon his neck and weep forgiveness!</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio </speaker>
+      <stage>(returning, and aloud).</stage>
+      <lg>
+       <l>Plucked in the moonlight from a ruined abbey— </l>
+       <l>Those only, which the pale rays visited! </l>
+       <l>O the unintelligible power of weeds, </l>
+       <l>When a few odd prayers have been muttered o'er them: </l>
+       <l>Then they work miracles! I warrant you, </l>
+       <l>There's not a leaf, but underneath it lurks </l>
+       <l>Some serviceable imp. </l>
+       <l> There's one of you </l>
+       <l>Hath sent me a strange message.</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l> I am he.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>With you, then, I am to speak: </l>
+      </lg>
+      <stage> [Haughtily waving his hand to Zulimez.</stage>
+      <lg>
+       <l>And mark you, alone. </l>
+      </lg>
+      <stage> [Exit Zulimez.</stage>
+      <lg>
+       <l>‘He that can bring the dead to life again!’— </l>
+       <l>Such was your message, Sir! You are no dullard, </l>
+       <l>But one that strips the outward rind of things!</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l>'Tis fabled there are fruits with tempting rinds, </l>
+       <l>That are all dust and rottenness within. </l>
+       <l>Would'st thou I should strip such?</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> Thou quibbling fool, </l>
+       <l>What dost thou mean? Think'st thou I journeyed hither </l>
+       <l>To sport with thee?</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l> O no, my lord! to sport </l>
+       <l>Best suits the gaiety of innocence.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio </speaker>
+      <stage>(aside).</stage>
+      <lg>
+       <l>O what a thing is man! the wisest heart </l>
+       <l>A fool! a fool that laughs at its own folly, </l>
+       <l>Yet still a fool! </l>
+      </lg>
+      <stage> [Looks round the cottage.</stage>
+      <lg>
+       <l> You are poor!</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l>What follows thence?</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> That you would fain be richer. </l>
+       <l>The inquisition, too—You comprehend me? </l>
+       <l>You are poor, in peril. I have wealth and power, </l>
+       <l>Can quench the flames, and cure your poverty: </l>
+       <l>And for the boon I ask of you but this, </l>
+       <l>That you should serve me—once—for a few hours.</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l>Thou art the son of Valdez! would to Heaven </l>
+       <l>That I could truly and for ever serve thee.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>The slave begins to soften. </l>
+      </lg>
+      <stage> [Aside.</stage>
+      <lg>
+       <l> You are my friend, </l>
+       <l>‘He that can bring the dead to life again,’ </l>
+       <l>Nay, no defence to me! The holy brethren </l>
+       <l>Believe these calumnies—I know thee better. </l>
+       <l>Thou art a man, and as a man I'll trust thee!</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar </speaker>
+      <stage>(aside).</stage>
+      <lg>
+       <l>Alas! this hollow mirth—Declare your business.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>I love a lady, and she would love me </l>
+       <l>But for an idle and fantastic scruple. </l>
+       <l>Have you no servants here, no listeners?</l>
+      </lg>
+     </sp>
+     <stage> [Ordonio steps to the door.</stage>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l>What, faithless too? False to his angel wife? </l>
+       <l>To such a wife? Well might'st thou look so wan, </l>
+       <l>Ill-starr'd Teresa!—Wretch! my softer soul </l>
+       <l>Is pass'd away, and I will probe his conscience!</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>In truth this lady lov'd another man, </l>
+       <l>But he has perish'd.</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l> What! you kill'd him? hey?</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>I'll dash thee to the earth, if thou but think'st it! </l>
+       <l>Insolent slave! how dar'dst thou— </l>
+      </lg>
+      <stage> [Turns abruptly from Alvar, and then to himself.</stage>
+      <lg>
+       <l> Why! what's this? </l>
+       <l>'Twas idiotcy! I'll tie myself to an aspen, </l>
+       <l>And wear a fool's cap—</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l> Fare thee well— </l>
+       <l>I pity thee, Ordonio, even to anguish. </l>
+      </lg>
+     </sp>
+     <stage> [Alvar is retiring.</stage>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>Ho! </l>
+      </lg>
+     </sp>
+     <stage> [Calling to Alvar.</stage>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l> Be brief, what wish you?</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>You are deep at bartering—You charge yourself </l>
+       <l>At a round sum. Come, come, I spake unwisely.</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l>I listen to you.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> In a sudden tempest </l>
+       <l>Did Alvar perish—he, I mean—the lover— </l>
+       <l>The fellow—</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l> Nay, speak out! 'twill ease your heart </l>
+       <l>To call him villain!—Why stand'st thou aghast? </l>
+       <l>Men think it natural to hate their rivals.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>Now, till she knows him dead, she will not wed me.</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l>Are you not wedded, then? Merciful Heaven! </l>
+       <l>Not wedded to Teresa?</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> Why, what ails thee? </l>
+       <l>What, art thou mad? why look'st thou upward so? </l>
+       <l>Dost pray to Lucifer, Prince of the Air?</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l>Proceed. I shall be silent.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> To Teresa? </l>
+       <l>Politic wizard! ere you sent that message, </l>
+       <l>You had conn'd your lesson, made yourself proficient </l>
+       <l>In all my fortunes. Hah! you prophesied </l>
+       <l>A golden crop! Well, you have not mistaken— </l>
+       <l>Be faithful to me and I'll pay thee nobly.</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l>Well! and this lady!</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>If we could make her certain of his death, </l>
+       <l>She needs must wed me. Ere her lover left her, </l>
+       <l>She tied a little portrait round his neck, </l>
+       <l>Entreating him to wear it.</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l> Yes! he did so!</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>Why no: he was afraid of accidents, </l>
+       <l>Of robberies, and shipwrecks, and the like. </l>
+       <l>In secrecy he gave it me to keep, </l>
+       <l>Till his return.</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l>What! he was your friend then?</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>I was his friend.— </l>
+       <l> Now that he gave it me, </l>
+       <l>This lady knows not. You are a mighty wizard— </l>
+       <l>Can call the dead man up—he will not come.— </l>
+       <l>He is in heaven then—there you have no influence. </l>
+       <l>Still there are tokens—and your imps may bring you </l>
+       <l>Something he wore about him when he died. </l>
+       <l>And when the smoke of the incense on the altar </l>
+       <l>Is pass'd, your spirits will have left this picture. </l>
+       <l>What say you now?</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l> Ordonio, I will do it.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>We'll hazard no delay. Be it to-night, </l>
+       <l>In the early evening. Ask for the Lord Valdez. </l>
+       <l>I will prepare him. Music too, and incense, </l>
+       <l>(For I have arranged it—music, altar, incense) </l>
+       <l>All shall be ready. Here is this same picture, </l>
+       <l>And here, what you will value more, a purse. </l>
+       <l>Come early for your magic ceremonies.</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l>I will not fail to meet you.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>Till next we meet, farewell! </l>
+      </lg>
+     </sp>
+     <stage> [Exit Ordonio.</stage>
+     <sp who="#alvar">
+      <speaker>Alvar </speaker>
+      <stage>(alone, indignantly flings the purse away and gazes
+                            passionately at the portrait).</stage>
+      <lg>
+       <l> And I did curse thee! </l>
+       <l>At midnight! on my knees! and I believed </l>
+       <l>Thee perjur'd, thee a traitress! thee dishonour'd! </l>
+       <l>O blind and credulous fool! O guilt of folly! </l>
+       <l>Should not thy inarticulate fondnesses, </l>
+       <l>Thy infant loves—should not thy maiden vows </l>
+       <l>Have come upon my heart? And this sweet Image </l>
+       <l>Tied round my neck with many a chaste endearment, </l>
+       <l>And thrilling hands, that made me weep and tremble— </l>
+       <l>Ah, coward dupe! to yield it to the miscreant, </l>
+       <l>Who spake pollution of thee! barter for life </l>
+       <l>This farewell pledge, which with impassioned vow </l>
+       <l>I had sworn that I would grasp—ev'n in my Death-pang! </l>
+       <l>I am unworthy of thy love, Teresa, </l>
+       <l>Of that unearthly smile upon those lips, </l>
+       <l>Which ever smiled on me! Yet do not scorn me— </l>
+       <l>I lisp'd thy name, ere I had learnt my mother's. </l>
+       <l>Dear portrait! rescued from a traitor's keeping, </l>
+       <l>I will not now profane thee, holy image, </l>
+       <l>To a dark trick. That worst bad man shall find </l>
+       <l>A picture, which will wake the hell within him, </l>
+       <l>And rouse a fiery whirlwind in his conscience.</l>
+      </lg>
+     </sp>
+    </div>
+   </div>
+   <div type="act" n="3">
+    <head>ACT III</head>
+    <div type="scene" n="1">
+     <head>Scene I</head>
+     <stage>A Hall of Armory, with an Altar at the back of the Stage. Soft Music from
+                        an instrument of Glass or Steel.</stage>
+     <stage>Valdez, Ordonio, and Alvar in a Sorcerer's robe, are discovered.</stage>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>This was too melancholy, Father.</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l> Nay, </l>
+       <l>My Alvar lov'd sad music from a child. </l>
+       <l>Once he was lost; and after weary search </l>
+       <l>We found him in an open place in the wood. </l>
+       <l>To which spot he had followed a blind boy, </l>
+       <l>Who breath'd into a pipe of sycamore </l>
+       <l>Some strangely moving notes: and these, he said, </l>
+       <l>Were taught him in a dream. Him we first saw </l>
+       <l>Stretch'd on the broad top of a sunny heath-bank: </l>
+       <l>And lower down poor Alvar, fast asleep, </l>
+       <l>His head upon the blind boy's dog. It pleas'd me </l>
+       <l>To mark how he had fasten'd round the pipe </l>
+       <l>A silver toy his grandam had late given him. </l>
+       <l>Methinks I see him now as he then look'd— </l>
+       <l>Even so!—He had outgrown his infant dress, </l>
+       <l>Yet still he wore it.</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar </speaker>
+      <stage>(aside).</stage>
+      <lg>
+       <l> My tears must not flow! </l>
+       <l>I must not clasp his knees, and cry, My father!</l>
+      </lg>
+     </sp>
+     <stage>Enter Teresa and Attendants.</stage>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Lord Valdez, you have asked my presence here, </l>
+       <l>And I submit; but (Heaven bear witness for me) </l>
+       <l>My heart approves it not! 'tis mockery.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>Believe you then no preternatural influence: </l>
+       <l>Believe you not that spirits throng around us?</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Say rather that I have imagined it </l>
+       <l>A possible thing: and it has sooth'd my soul </l>
+       <l>As other fancies have; but ne'er seduced me </l>
+       <l>To traffic with the black and frenzied hope </l>
+       <l>That the dead hear the voice of witch or wizard. </l>
+      </lg>
+      <stage> [To Alvar.</stage>
+      <lg>
+       <l>Stranger, I mourn and blush to see you here, </l>
+       <l>On such employment! With far other thoughts </l>
+       <l>I left you.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio </speaker>
+      <stage>(aside).</stage>
+      <lg>
+       <l>Ha! he has been tampering with her?</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l>O high-soul'd Maiden! and more dear to me </l>
+       <l>Than suits the stranger's name!— </l>
+       <l> I swear to thee </l>
+       <l>I will uncover all concealéd guilt. </l>
+       <l>Doubt, but decide not! Stand ye from the altar.</l>
+      </lg>
+     </sp>
+     <stage> [Here a strain of music is heard from behind the scene.</stage>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l>With no irreverent voice or uncouth charm </l>
+       <l>I call up the departed! </l>
+       <l> Soul of Alvar! </l>
+       <l>Hear our soft suit, and heed my milder spell: </l>
+       <l>So may the gates of Paradise, unbarr'd, </l>
+       <l>Cease thy swift toils! Since haply thou art one </l>
+       <l>Of that innumerable company </l>
+       <l>Who in broad circle, lovelier than the rainbow, </l>
+       <l>Girdle this round earth in a dizzy motion, </l>
+       <l>With noise too vast and constant to be heard: </l>
+       <l>Fitliest unheard! For oh, ye numberless, </l>
+       <l>And rapid travellers! what ear unstunn'd, </l>
+       <l>What sense unmadden'd, might bear up against </l>
+       <l>The rushing of your congregated wings? </l>
+      </lg>
+      <stage> [Music.</stage>
+      <lg>
+       <l>Even now your living wheel turns o'er my head! </l>
+       <l>Ye, as ye pass, toss high the desart sands, </l>
+       <l>That roar and whiten, like a burst of waters, </l>
+       <l>A sweet appearance, but a dread illusion </l>
+       <l>To the parch'd caravan that roams by night! </l>
+       <l>And ye upbuild on the becalmed waves </l>
+       <l>That whirling pillar, which from earth to heaven </l>
+       <l>Stands vast, and moves in blackness! Ye too split </l>
+       <l>The ice mount! and with fragments many and huge </l>
+       <l>Tempest the new-thaw'd sea, whose sudden gulfs </l>
+       <l>Suck in, perchance, some Lapland wizard's skiff! </l>
+       <l>Then round and round the whirlpool's marge ye dance, </l>
+       <l>Till from the blue swoln corse the soul toils out, </l>
+       <l>And joins your mighty army. </l>
+      </lg>
+      <stage> [Here behind the scenes a voice sings the three words, <said direct="true">‘Hear, Sweet
+                            Spirit.’</said>
+      </stage>
+      <lg>
+       <l> Soul of Alvar! </l>
+       <l>Hear the mild spell, and tempt no blacker charm! </l>
+       <l>By sighs unquiet, and the sickly pang </l>
+       <l>Of a half-dead, yet still undying hope, </l>
+       <l>Pass visible before our mortal sense! </l>
+       <l>So shall the Church's cleansing rites be thine, </l>
+       <l>Her knells and masses that redeem the dead!</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>The innocent obey nor charm nor spell! </l>
+       <l>My brother is in heaven. Thou sainted spirit, </l>
+       <l>Burst on our sight, a passing visitant! </l>
+       <l>Once more to hear thy voice, once more to see thee, </l>
+       <l>O 'twere a joy to me!</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l> A joy to thee! </l>
+       <l>What if thou heard'st him now? What if his spirit </l>
+       <l>Re-enter'd its cold corse, and came upon thee </l>
+       <l>With many a stab from many a murderer's poniard? </l>
+       <l>What (if his stedfast eye still beaming pity </l>
+       <l>And brother's love) he turn'd his head aside, </l>
+       <l>Lest he should look at thee, and with one look </l>
+       <l>Hurl thee beyond all power of penitence?</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l>These are unholy fancies!</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> Yes, my father, </l>
+       <l>He is in Heaven!</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar </speaker>
+      <stage>(still to Ordonio).</stage>
+      <lg>
+       <l>But what if he had a brother, </l>
+       <l>Who had lived even so, that at his dying hour, </l>
+       <l>The name of Heaven would have convulsed his face, </l>
+       <l>More than the death-pang?</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l> Idly prating man! </l>
+       <l>Thou hast guess'd ill: Don Alvar's only brother </l>
+       <l>Stands here before thee—a father's blessing on him! </l>
+       <l>He is most virtuous.</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar </speaker>
+      <stage>(still to Ordonio).</stage>
+      <lg>
+       <l> What, if his very virtues </l>
+       <l>Had pampered his swoln heart and made him proud? </l>
+       <l>And what if pride had duped him into guilt? </l>
+       <l>Yet still he stalked a self-created god, </l>
+       <l>Not very bold, but exquisitely cunning; </l>
+       <l>And one that at his mother's looking-glass </l>
+       <l>Would force his features to a frowning sternness? </l>
+       <l>Young Lord! I tell thee, that there are such beings— </l>
+       <l>Yea, and it gives fierce merriment to the damn'd, </l>
+       <l>To see these most proud men, that loath mankind, </l>
+       <l>At every stir and buzz of coward conscience, </l>
+       <l>Trick, cant, and lie, most whining hypocrites! </l>
+       <l>Away, away! Now let me hear more music. </l>
+      </lg>
+     </sp>
+     <stage> [Music again.</stage>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>'Tis strange, I tremble at my own conjectures! </l>
+       <l>But whatsoe'er it mean, I dare no longer </l>
+       <l>Be present at these lawless mysteries, </l>
+       <l>This dark provoking of the hidden Powers! </l>
+       <l>Already I affront—if not high Heaven— </l>
+       <l>Yet Alvar's memory!—Hark! I make appeal </l>
+       <l>Against the unholy rite, and hasten hence </l>
+       <l>To bend before a lawful shrine, and seek </l>
+       <l>That voice which whispers, when the still heart listens, </l>
+       <l>Comfort and faithful hope! Let us retire.</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar </speaker>
+      <stage>(to Teresa).</stage>
+      <lg>
+       <l>O full of faith and guileless love, thy Spirit </l>
+       <l>Still prompts thee wisely. Let the pangs of guilt </l>
+       <l>Surprise the guilty: thou art innocent! </l>
+      </lg>
+      <stage> [Exeunt Teresa and Attendant. Music as before.</stage>
+      <lg>
+       <l>The spell is mutter'd—Come, thou wandering shape, </l>
+       <l>Who own'st no master in a human eye, </l>
+       <l>Whate'er be this man's doom, fair be it, or foul, </l>
+       <l>If he be dead, O come! and bring with thee </l>
+       <l>That which he grasp'd in death! But if he live, </l>
+       <l>Some token of his obscure perilous life.</l>
+      </lg>
+     </sp>
+     <stage> [The whole Music clashes into a Chorus.</stage>
+     <stage> [The incense on the altar takes fire suddenly, and an illuminated
+                        picture of Alvar's assassination is discovered, and having remained a few
+                        seconds is then hidden by ascending flames.</stage>
+     <sp who="#ordonio">
+      <speaker>Ordonio </speaker>
+      <stage>(starting).</stage>
+      <lg>
+       <l>Duped! duped! duped!—the traitor Isidore!</l>
+      </lg>
+     </sp>
+     <stage> [At this instant the doors are forced open, Monviedro and the Familiars
+                        of the Inquisition, Servants, &amp;c., enter and fill the stage.</stage>
+     <sp who="#monviedro">
+      <speaker>Monviedro.</speaker>
+      <lg>
+       <l>First seize the sorcerer! suffer him not to speak! </l>
+       <l>The holy judges of the Inquisition </l>
+       <l>Shall hear his first words.—Look you pale, Lord Valdez? </l>
+       <l>Plain evidence have we here of most foul sorcery. </l>
+       <l>There is a dungeon underneath this castle, </l>
+       <l>And as you hope for mild interpretation, </l>
+       <l>Surrender instantly the keys and charge of it.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio </speaker>
+      <stage>(recovering himself as from stupor, to Servants).</stage>
+      <lg>
+       <l>Why haste you not? Off with him to the dungeon!</l>
+      </lg>
+     </sp>
+     <stage> [All rush out in tumult.</stage>
+    </div>
+    <div type="scene" n="2">
+     <head>Scene II</head>
+     <stage>Interior of a Chapel, with painted Windows.</stage>
+     <stage>Enter Teresa.</stage>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>When first I entered this pure spot, forebodings </l>
+       <l>Press'd heavy on my heart: but as I knelt, </l>
+       <l>Such calm unwonted bliss possess'd my spirit, </l>
+       <l>A trance so cloudless, that those sounds, hard by, </l>
+       <l>Of trampling uproar fell upon mine ear </l>
+       <l>As alien and unnoticed as the rain-storm </l>
+       <l>Beats on the roof of some fair banquet-room, </l>
+       <l>While sweetest melodies are warbling—</l>
+      </lg>
+     </sp>
+     <stage>Enter Valdez.</stage>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l>Ye pitying saints, forgive a father's blindness, </l>
+       <l>And extricate us from this net of peril!</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Who wakes anew my fears, and speaks of peril?</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l>O best Teresa, wisely wert thou prompted! </l>
+       <l>This was no feat of mortal agency! </l>
+       <l>That picture—Oh, that picture tells me all! </l>
+       <l>With a flash of light it came, in flames it vanished, </l>
+       <l>Self-kindled, self-consum'd: bright as thy life, </l>
+       <l>Sudden and unexpected as thy fate, </l>
+       <l>Alvar! My son! My son!—The Inquisitor—</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Torture me not! But Alvar—Oh of Alvar?</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l>How often would he plead for these Morescoes! </l>
+       <l>The brood accurst! remorseless, coward murderers!</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>So? so?—I comprehend you—He is—</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l> He is no more!</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>O sorrow! that a father's voice should say this, </l>
+       <l>A Father's Heart believe it!</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l> A worse sorrow </l>
+       <l>Are fancy's wild hopes to a heart despairing!</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>These rays that slant in through those gorgeous windows, </l>
+       <l>From yon bright orb—though coloured as they pass, </l>
+       <l>Are they not light?—Even so that voice, Lord Valdez! </l>
+       <l>Which whispers to my soul, though haply varied </l>
+       <l>By many a fancy, many a wishful hope, </l>
+       <l>Speaks yet the truth: and Alvar lives for me!</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l>Yes, for three wasting years, thus and no other, </l>
+       <l>He has lived for thee—a spirit for thy spirit! </l>
+       <l>My child, we must not give religious faith </l>
+       <l>To every voice which makes the heart a listener </l>
+       <l>To its own wish.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> I breath'd to the Unerring </l>
+       <l>Permitted prayers. Must those remain unanswer'd, </l>
+       <l>Yet impious sorcery, that holds no commune </l>
+       <l>Save with the lying spirit, claim belief?</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l>O not to-day, not now for the first time </l>
+       <l>Was Alvar lost to thee— </l>
+       <l> Accurst assassins! </l>
+       <l>Disarmed, o'erpowered, despairing of defence, </l>
+       <l>At his bared breast he seem'd to grasp some relique </l>
+       <l>More dear than was his life—</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> O Heavens! my portrait! </l>
+       <l>And he did grasp it in his death pang! </l>
+       <l> Off, false demon, </l>
+       <l>That beat'st thy black wings close above my head! </l>
+      </lg>
+      <stage> [Ordonio enters with the keys of the dungeon in his hand.</stage>
+      <lg>
+       <l>Hush! who comes here? The wizard Moor's employer! </l>
+       <l>Moors were his murderers, you say? Saints shield us </l>
+       <l>From wicked thoughts— </l>
+      </lg>
+      <stage> [Valdez moves towards the back of the stage to meet Ordonio, and
+                            during the concluding lines of Teresa's speech appears as eagerly
+                            conversing with him.</stage>
+      <lg>
+       <l> Is Alvar dead? what then? </l>
+       <l>The nuptial rites and funeral shall be one! </l>
+       <l>Here's no abiding-place for thee, Teresa.— </l>
+       <l>Away! they see me not—Thou seest me, Alvar! </l>
+       <l>To thee I bend my course.—But first one question, </l>
+       <l>One question to Ordonio.—My limbs tremble— </l>
+       <l>There I may sit unmark'd—a moment will restore me.</l>
+      </lg>
+     </sp>
+     <stage> [Retires out of sight.</stage>
+     <sp who="#ordonio">
+      <speaker>Ordonio </speaker>
+      <stage>(as he advances with Valdez).</stage>
+      <lg>
+       <l>These are the dungeon keys. Monviedro knew not, </l>
+       <l>That I too had received the wizard's message, </l>
+       <l>‘He that can bring the dead to life again.’ </l>
+       <l>But now he is satisfied, I plann'd this scheme </l>
+       <l>To work a full conviction on the culprit, </l>
+       <l>And he entrusts him wholly to my keeping.</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l>'Tis well, my son! But have you yet discovered </l>
+       <l>(Where is Teresa?) what those speeches meant— </l>
+       <l>Pride, and hypocrisy, and guilt, and cunning? </l>
+       <l>Then when the wizard fix'd his eye on you, </l>
+       <l>And you, I know not why, look'd pale and trembled— </l>
+       <l>Why—why, what ails you now?—</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> Me? what ails me? </l>
+       <l>A pricking of the blood—It might have happen'd </l>
+       <l>At any other time.—Why scan you me?</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l>His speech about the corse, and stabs and murderers, </l>
+       <l>Bore reference to the assassins—</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> Dup'd! dup'd! dup'd! </l>
+       <l>The traitor, Isidore! </l>
+      </lg>
+      <stage> [A pause, then wildly.</stage>
+      <lg>
+       <l> I tell thee, my dear father! </l>
+       <l>I am most glad of this.</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l> True—sorcery </l>
+       <l>Merits its doom; and this perchance may guide us </l>
+       <l>To the discovery of the murderers. </l>
+       <l>I have their statures and their several faces </l>
+       <l>So present to me, that but once to meet them </l>
+       <l>Would be to recognize.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> Yes! yes! we recognize them. </l>
+       <l>I was benumb'd, and staggered up and down </l>
+       <l>Through darkness without light—dark—dark—dark! </l>
+       <l>My flesh crept chill, my limbs felt manacled </l>
+       <l>As had a snake coil'd round them!—Now 'tis sunshine, </l>
+       <l>And the blood dances freely through its channels! </l>
+      </lg>
+      <stage> [Then to himself.</stage>
+      <lg>
+       <l>This is my virtuous, grateful Isidore! </l>
+      </lg>
+      <stage> [Then mimicking Isidore's manner and voice.</stage>
+      <lg>
+       <l>‘A common trick of gratitude, my lord!’ </l>
+       <l>Old Gratitude! a dagger would dissect </l>
+       <l>His ‘own full heart’—'twere good to see its colour.</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l>These magic sights! O that I ne'er had yielded </l>
+       <l>To your entreaties! Neither had I yielded, </l>
+       <l>But that in spite of your own seeming faith </l>
+       <l>I held it for some innocent stratagem, </l>
+       <l>Which love had prompted, to remove the doubts </l>
+       <l>Of wild Teresa—by fancies quelling fancies!</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>Love! love! and then we hate! and what? and wherefore? </l>
+       <l>Hatred and love! fancies opposed by fancies! </l>
+       <l>What? if one reptile sting another reptile? </l>
+       <l>Where is the crime? The goodly face of nature </l>
+       <l>Hath one disfeaturing stain the less upon it. </l>
+       <l>Are we not all predestined transiency, </l>
+       <l>And cold dishonour? Grant it, that this hand </l>
+       <l>Had given a morsel to the hungry worms </l>
+       <l>Somewhat too early—Where's the crime of this? </l>
+       <l>That this must needs bring on the idiotcy </l>
+       <l>Of moist-eyed penitence—'tis like a dream!</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l>Wild talk, my son! But thy excess of feeling— </l>
+       <l>Almost I fear it hath unhinged his brain.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio </speaker>
+      <stage>(Teresa reappears and advances slowly).</stage>
+      <lg>
+       <l>Say, I had laid a body in the sun! </l>
+       <l>Well! in a month there swarm forth from the corse </l>
+       <l>A thousand, nay, ten thousand sentient beings </l>
+       <l>In place of that one man.—Say, I had kill'd him! </l>
+      </lg>
+      <stage> [Teresa stops listening.</stage>
+      <lg>
+       <l>Yet who shall tell me, that each one and all </l>
+       <l>Of these ten thousand lives is not as happy, </l>
+       <l>As that one life, which being push'd aside, </l>
+       <l>Made room for these unnumbered—</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l> O mere madness!</l>
+      </lg>
+     </sp>
+     <stage> [Teresa moves hastily forwards, and places herself directly before
+                        Ordonio.</stage>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>Teresa? or the phantom of Teresa?</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Alas! the phantom only, if in truth </l>
+       <l>The substance of her being, her life's life, </l>
+       <l>Have ta'en its flight through Alvar's death-wound— </l>
+      </lg>
+      <stage> [A pause.</stage>
+      <lg>
+       <l> Where— </l>
+       <l>(Even coward murder grants the dead a grave) </l>
+       <l>O tell me, Valdez!—answer me, Ordonio! </l>
+       <l>Where lies the corse of my betrothéd husband?</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>There, where Ordonio likewise would fain lie! </l>
+       <l>In the sleep-compelling earth, in unpierc'd darkness! </l>
+       <l>For while we live— </l>
+       <l>An inward day that never, never sets, </l>
+       <l>Glares round the soul, and mocks the closing eyelids! </l>
+       <l>Over his rocky grave the fir-grove sighs </l>
+       <l>A lulling ceaseless dirge! 'Tis well with him.</l>
+      </lg>
+     </sp>
+     <stage> [Strides off towards the altar, but returns as Valdez is speaking.</stage>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>The rock! the fir-grove! </l>
+      </lg>
+      <stage> [To Valdez.</stage>
+      <lg>
+       <l> Did'st thou hear him say it? </l>
+       <l>Hush! I will ask him!</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l> Urge him not—not now! </l>
+       <l>This we beheld. Nor he nor I know more, </l>
+       <l>Than what the magic imagery revealed. </l>
+       <l>The assassin, who pressed foremost of the three—</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>A tender-hearted, scrupulous, grateful villain, </l>
+       <l>Whom I will strangle!</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l> While his two companions—</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>Dead! dead already! what care we for the dead?</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez </speaker>
+      <stage>(to Teresa).</stage>
+      <lg>
+       <l>Pity him! soothe him! disenchant his spirit! </l>
+       <l>These supernatural shews, this strange disclosure, </l>
+       <l>And this too fond affection, which still broods </l>
+       <l>O'er Alvar's fate, and still burns to avenge it— </l>
+       <l>These, struggling with his hopeless love for you, </l>
+       <l>Distemper him, and give reality </l>
+       <l>To the creatures of his fancy.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> Is it so? </l>
+       <l>Yes! yes! even like a child, that too abruptly </l>
+       <l>Roused by a glare of light from deepest sleep </l>
+       <l>Starts up bewildered and talks idly. </l>
+       <l> Father! </l>
+       <l>What if the Moors that made my brother's grave, </l>
+       <l>Even now were digging ours? What if the bolt, </l>
+       <l>Though aim'd, I doubt not, at the son of Valdez, </l>
+       <l>Yet miss'd its true aim when it fell on Alvar?</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l>Alvar ne'er fought against the Moors,—say rather, </l>
+       <l>He was their advocate; but you had march'd </l>
+       <l>With fire and desolation through their villages.— </l>
+       <l>Yet he by chance was captured.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> Unknown, perhaps, </l>
+       <l>Captured, yet as the son of Valdez, murdered. </l>
+       <l>Leave all to me. Nay, whither, gentle lady?</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l>What seek you now?</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> A better, surer light </l>
+       <l>To guide me—</l>
+      </lg>
+     </sp>
+     <sp who="#both_valdez_and_ordonio">
+      <speaker>Both Valdez and Ordonio.</speaker>
+      <lg>
+       <l> Whither?</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> To the only place </l>
+       <l>Where life yet dwells for me, and ease of heart. </l>
+       <l>These walls seem threatening to fall in upon me! </l>
+       <l>Detain me not! a dim power drives me hence, </l>
+       <l>And that will be my guide.</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l> To find a lover! </l>
+       <l>Suits that a high-born maiden's modesty? </l>
+       <l>O folly and shame! Tempt not my rage, Teresa!</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Hopeless, I fear no human being's rage. </l>
+       <l>And am I hastening to the arms—O Heaven! </l>
+       <l>I haste but to the grave of my belov'd!</l>
+      </lg>
+     </sp>
+     <stage> [Exit, Valdez following after her.</stage>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>This, then, is my reward! and I must love her? </l>
+       <l>Scorn'd! shudder'd at! yet love her still? yes! yes! </l>
+       <l>By the deep feelings of revenge and hate </l>
+       <l>I will still love her—woo her—win her too! </l>
+      </lg>
+      <stage> [A pause.</stage>
+      <lg>
+       <l>Isidore safe and silent, and the portrait </l>
+       <l>Found on the wizard—he, belike, self-poison'd </l>
+       <l>To escape the crueller flames—My soul shouts triumph! </l>
+       <l>The mine is undermined! blood! blood! blood! </l>
+       <l>They thirst for thy blood! thy blood, Ordonio! </l>
+      </lg>
+      <stage> [A pause.</stage>
+      <lg>
+       <l>The hunt is up! and in the midnight wood </l>
+       <l>With lights to dazzle and with nets they seek </l>
+       <l>A timid prey: and lo! the tiger's eye </l>
+       <l>Glares in the red flame of his hunter's torch! </l>
+       <l>To Isidore I will dispatch a message, </l>
+       <l>And lure him to the cavern! aye, that cavern! </l>
+       <l>He cannot fail to find it. Thither I'll lure him, </l>
+       <l>Whence he shall never, never more return! </l>
+      </lg>
+      <stage> [Looks through the side window.</stage>
+      <lg>
+       <l>A rim of the sun lies yet upon the sea, </l>
+       <l>And now 'tis gone! All shall be done to-night. </l>
+      </lg>
+     </sp>
+     <stage> [Exit.</stage>
+    </div>
+   </div>
+   <div type="act" n="4">
+    <head>ACT IV</head>
+    <div type="scene" n="1">
+     <head>Scene I</head>
+     <stage>A cavern, dark, except where a gleam of moonlight is seen on one side at
+                        the further end of it; supposed to be cast on it from a crevice in a part of
+                        the cavern out of sight. Isidore alone, an extinguished torch in his hand.</stage>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l>Faith 'twas a moving letter—very moving! </l>
+       <l>‘His life in danger, no place safe but this! </l>
+       <l>'Twas his turn now to talk of gratitude.’ </l>
+       <l>And yet—but no! there can't be such a villain. </l>
+       <l>It can not be! </l>
+       <l> Thanks to that little crevice, </l>
+       <l>Which lets the moonlight in! I'll go and sit by it. </l>
+       <l>To peep at a tree, or see a he-goat's beard, </l>
+       <l>Or hear a cow or two breathe loud in their sleep— </l>
+       <l>Any thing but this crash of water drops! </l>
+       <l>These dull abortive sounds that fret the silence </l>
+       <l>With puny thwartings and mock opposition! </l>
+       <l>So beats the death-watch to a sick man's ear. </l>
+      </lg>
+      <stage> [He goes out of sight, opposite to the patch of moonlight: and
+                            returns.</stage>
+      <lg>
+       <l>A hellish pit! The very same I dreamt of! </l>
+       <l>I was just in—and those damn'd fingers of ice </l>
+       <l>Which clutch'd my hair up! Ha!—what's that—it mov'd.</l>
+      </lg>
+     </sp>
+     <stage> [Isidore stands staring at another recess in the cavern. In the mean
+                        time Ordonio enters with a torch, and halloes to Isidore.</stage>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l>I swear that I saw something moving there! </l>
+       <l>The moonshine came and went like a flash of lightning— </l>
+       <l>I swear, I saw it move.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio </speaker>
+      <stage>(goes into the recess, then returns).</stage>
+      <lg>
+       <l> A jutting clay stone </l>
+       <l>Drops on the long lank weed, that grows beneath: </l>
+       <l>And the weed nods and drips.</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l> A jest to laugh at! </l>
+       <l>It was not that which scar'd me, good my lord.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>What scar'd you, then?</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l> You see that little rift? </l>
+       <l>But first permit me! </l>
+      </lg>
+      <stage> [Lights his torch at Ordonio's, and while lighting it.</stage>
+      <lg>
+       <l> (A lighted torch in the hand </l>
+       <l>Is no unpleasant object here—one's breath </l>
+       <l>Floats round the flame, and makes as many colours </l>
+       <l>As the thin clouds that travel near the moon.) </l>
+       <l>You see that crevice there? </l>
+       <l>My torch extinguished by these water-drops, </l>
+       <l>And marking that the moonlight came from thence, </l>
+       <l>I stept in to it, meaning to sit there; </l>
+       <l>But scarcely had I measured twenty paces— </l>
+       <l>My body bending forward, yea, o'erbalanced </l>
+       <l>Almost beyond recoil, on the dim brink </l>
+       <l>Of a huge chasm I stept. The shadowy moonshine </l>
+       <l>Filling the void so counterfeited substance, </l>
+       <l>That my foot hung aslant adown the edge. </l>
+       <l>Was it my own fear? </l>
+       <l> Fear too hath its instincts! </l>
+       <l>(And yet such dens as these are wildly told of, </l>
+       <l>And there are beings that live, yet not for the eye) </l>
+       <l>An arm of frost above and from behind me </l>
+       <l>Pluck'd up and snatched me backward. Merciful Heaven! </l>
+       <l>You smile! alas, even smiles look ghastly here! </l>
+       <l>My lord, I pray you, go yourself and view it.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>It must have shot some pleasant feelings through you.</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l>If every atom of a dead man's flesh </l>
+       <l>Should creep, each one with a particular life, </l>
+       <l>Yet all as cold as ever—'twas just so! </l>
+       <l>Or had it drizzled needle-points of frost </l>
+       <l>Upon a feverish head made suddenly bald—</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> Why, Isidore, </l>
+       <l>I blush for thy cowardice. It might have startled, </l>
+       <l>I grant you, even a brave man for a moment— </l>
+       <l>But such a panic—</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l> When a boy, my lord! </l>
+       <l>I could have sate whole hours beside that chasm, </l>
+       <l>Push'd in huge stones and heard them strike and rattle </l>
+       <l>Against its horrid sides: then hung my head </l>
+       <l>Low down, and listened till the heavy fragments </l>
+       <l>Sank with faint crash in that still groaning well, </l>
+       <l>Which never thirsty pilgrim blest, which never </l>
+       <l>A living thing came near—unless, perchance, </l>
+       <l>Some blind-worm battens on the ropy mould </l>
+       <l>Close at its edge.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> Art thou more coward now?</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l>Call him, that fears his fellow-man, a coward! </l>
+       <l>I fear not man—but this inhuman cavern, </l>
+       <l>It were too bad a prison-house for goblins. </l>
+       <l>Beside, (you'll smile, my lord) but true it is, </l>
+       <l>My last night's sleep was very sorely haunted </l>
+       <l>By what had passed between us in the morning. </l>
+       <l>O sleep of horrors! Now run down and stared at </l>
+       <l>By forms so hideous that they mock remembrance— </l>
+       <l>Now seeing nothing and imagining nothing, </l>
+       <l>But only being afraid—stifled with fear! </l>
+       <l>While every goodly or familiar form </l>
+       <l>Had a strange power of breathing terror round me! </l>
+       <l>I saw you in a thousand fearful shapes; </l>
+       <l>And, I entreat your lordship to believe me, </l>
+       <l>In my last dream—</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> Well?</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l> I was in the act </l>
+       <l>Of falling down that chasm, when Alhadra </l>
+       <l>Wak'd me: she heard my heart beat.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> Strange enough! </l>
+       <l>Had you been here before?</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l> Never, my lord! </l>
+       <l>But mine eyes do not see it now more clearly, </l>
+       <l>Than in my dream I saw—that very chasm.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio </speaker>
+      <stage>(after a pause).</stage>
+      <lg>
+       <l>I know not why it should be! yet it is—</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l>What is, my lord?</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> Abhorrent from our nature </l>
+       <l>To kill a man.—</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l> Except in self-defence.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>Why that's my case; and yet the soul recoils from it— </l>
+       <l>'Tis so with me at least. But you, perhaps, </l>
+       <l>Have sterner feelings?</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l> Something troubles you. </l>
+       <l>How shall I serve you? By the life you gave me, </l>
+       <l>By all that makes that life of value to me, </l>
+       <l>My wife, my babes, my honour, I swear to you, </l>
+       <l>Name it, and I will toil to do the thing, </l>
+       <l>If it be innocent! But this, my lord! </l>
+       <l>Is not a place where you could perpetrate, </l>
+       <l>No, nor propose a wicked thing. The darkness, </l>
+       <l>When ten strides off we know 'tis cheerful moonlight, </l>
+       <l>Collects the guilt, and crowds it round the heart. </l>
+       <l>It must be innocent.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> Thyself be judge. </l>
+       <l>One of our family knew this place well.</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l>Who? when? my lord?</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> What boots it, who or when? </l>
+       <l>Hang up thy torch—I'll tell his tale to thee. </l>
+      </lg>
+      <stage> [They hang up their torches on some ridge in the cavern.</stage>
+      <lg>
+       <l>He was a man different from other men, </l>
+       <l>And he despised them, yet revered himself.</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore </speaker>
+      <stage>(aside).</stage>
+      <lg>
+       <l>He? He despised? Thou'rt speaking of thyself! </l>
+       <l>I am on my guard, however: no surprise. </l>
+      </lg>
+      <stage> [Then to Ordonio.</stage>
+      <lg>
+       <l>What, he was mad?</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> All men seemed mad to him! </l>
+       <l>Nature had made him for some other planet, </l>
+       <l>And pressed his soul into a human shape </l>
+       <l>By accident or malice. In this world </l>
+       <l>He found no fit companion.</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l>Of himself he speaks. </l>
+      </lg>
+      <stage> [Aside.</stage>
+      <lg>
+       <l> Alas! poor wretch! </l>
+       <l>Mad men are mostly proud.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> He walked alone, </l>
+       <l>And phantom thoughts unsought-for troubled him. </l>
+       <l>Something within would still be shadowing out </l>
+       <l>All possibilities; and with these shadows </l>
+       <l>His mind held dalliance. Once, as so it happened, </l>
+       <l>A fancy crossed him wilder than the rest: </l>
+       <l>To this in moody murmur and low voice </l>
+       <l>He yielded utterance, as some talk in sleep: </l>
+       <l>The man who heard him.— </l>
+       <l> Why did'st thou look round?</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l>I have a prattler three years old, my lord! </l>
+       <l>In truth he is my darling. As I went </l>
+       <l>From forth my door, he made a moan in sleep— </l>
+       <l>But I am talking idly—pray proceed! </l>
+       <l>And what did this man?</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> With this human hand </l>
+       <l>He gave a substance and reality </l>
+       <l>To that wild fancy of a possible thing.— </l>
+       <l>Well it was done! </l>
+       <l> Why babblest thou of guilt? </l>
+       <l>The deed was done, and it passed fairly off. </l>
+       <l>And he whose tale I tell thee—dost thou listen?</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l>I would, my lord, you were by my fire-side, </l>
+       <l>I'd listen to you with an eager eye, </l>
+       <l>Though you began this cloudy tale at midnight, </l>
+       <l>But I do listen—pray proceed, my lord.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>Where was I?</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l> He of whom you tell the tale—</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>Surveying all things with a quiet scorn, </l>
+       <l>Tamed himself down to living purposes, </l>
+       <l>The occupations and the semblances </l>
+       <l>Of ordinary men—and such he seemed! </l>
+       <l>But that same over ready agent—he—</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l>Ah! what of him, my lord?</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> He proved a traitor, </l>
+       <l>Betrayed the mystery to a brother-traitor, </l>
+       <l>And they between them hatch'd a damnéd plot </l>
+       <l>To hunt him down to infamy and death. </l>
+       <l>What did the Valdez? I am proud of the name </l>
+       <l>Since he dared do it.— </l>
+      </lg>
+      <stage> [Ordonio grasps his sword, and turns off from Isidore, then after a
+                            pause returns.</stage>
+      <lg>
+       <l> Our links burn dimly.</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l>A dark tale darkly finished! Nay, my lord! </l>
+       <l>Tell what he did.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>That which his wisdom prompted— </l>
+       <l>He made the traitor meet him in this cavern, </l>
+       <l>And here he kill'd the traitor.</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l> No! the fool! </l>
+       <l>He had not wit enough to be a traitor. </l>
+       <l>Poor thick-eyed beetle! not to have foreseen </l>
+       <l>That he who gulled thee with a whimpered lie </l>
+       <l>To murder his own brother, would not scruple </l>
+       <l>To murder thee, if e'er his guilt grew jealous, </l>
+       <l>And he could steal upon thee in the dark!</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>Thou would'st not then have come, if—</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l>Oh yes, my lord! </l>
+       <l>I would have met him arm'd, and scar'd the coward.</l>
+      </lg>
+     </sp>
+     <stage> [Isidore throws off his robe; shews himself armed, and draws his sword.</stage>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>Now this is excellent and warms the blood! </l>
+       <l>My heart was drawing back, drawing me back </l>
+       <l>With weak and womanish scruples. Now my vengeance </l>
+       <l>Beckons me onwards with a warrior's mien, </l>
+       <l>And claims that life, my pity robb'd her of— </l>
+       <l>Now will I kill thee, thankless slave, and count it </l>
+       <l>Among my comfortable thoughts hereafter.</l>
+      </lg>
+     </sp>
+     <sp who="#isidore">
+      <speaker>Isidore.</speaker>
+      <lg>
+       <l>And all my little ones fatherless— </l>
+       <l> Die thou first.</l>
+      </lg>
+     </sp>
+     <stage> [They fight, Ordonio disarms Isidore, and in disarming him throws his
+                        sword up that recess opposite to which they were standing. Isidore hurries
+                        into the recess with his torch, Ordonio follows him; a loud cry of <said direct="true">‘Traitor!
+                        Monster!’</said> is heard from the cavern, and in a moment Ordonio returns alone.</stage>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>I have hurl'd him down the chasm! treason for treason. </l>
+       <l>He dreamt of it: henceforward let him sleep, </l>
+       <l>A dreamless sleep, from which no wife can wake him. </l>
+       <l>His dream too is made out—Now for his friend.</l>
+      </lg>
+     </sp>
+     <stage> [Exit Ordonio.</stage>
+    </div>
+    <div type="scene" n="2">
+     <head>Scene II</head>
+     <stage>The interior Court of a Saracenic or Gothic Castle, with the Iron Gate of
+                        a Dungeon visible.</stage>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Heart-chilling superstition! thou canst glaze </l>
+       <l>Ev'n pity's eye with her own frozen tear. </l>
+       <l>In vain I urge the tortures that await him; </l>
+       <l>Even Selma, reverend guardian of my childhood, </l>
+       <l>My second mother, shuts her heart against me! </l>
+       <l>Well, I have won from her what most imports </l>
+       <l>The present need, this secret of the dungeon </l>
+       <l>Known only to herself.—A Moor! a Sorcerer! </l>
+       <l>No, I have faith, that Nature ne'er permitted </l>
+       <l>Baseness to wear a form so noble. True, </l>
+       <l>I doubt not that Ordonio had suborned him </l>
+       <l>To act some part in some unholy fraud; </l>
+       <l>As little doubt, that for some unknown purpose </l>
+       <l>He hath baffled his suborner, terror-struck him, </l>
+       <l>And that Ordonio meditates revenge! </l>
+       <l>But my resolve is fixed! myself will rescue him, </l>
+       <l>And learn if haply he knew aught of Alvar.</l>
+      </lg>
+     </sp>
+     <stage>Enter Valdez.</stage>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l>Still sad?—and gazing at the massive door </l>
+       <l>Of that fell dungeon which thou ne'er had'st sight of, </l>
+       <l>Save what, perchance, thy infant fancy shap'd it </l>
+       <l>When the nurse still'd thy cries with unmeant threats. </l>
+       <l>Now by my faith, girl! this same wizard haunts thee! </l>
+       <l>A stately man, and eloquent and tender— </l>
+       <l>Who then need wonder if a lady sighs </l>
+       <l>Even at the thought of what these stern Dominicans—</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>The horror of their ghastly punishments </l>
+       <l>Doth so o'ertop the height of all compassion, </l>
+       <l>That I should feel too little for mine enemy, </l>
+       <l>If it were possible I could feel more, </l>
+       <l>Even though the dearest inmates of our household </l>
+       <l>Were doom'd to suffer them. That such things are—</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l>Hush, thoughtless woman!</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> Nay, it wakes within me </l>
+       <l>More than a woman's spirit.</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l> No more of this— </l>
+       <l>What if Monviedro or his creatures hear us! </l>
+       <l>I dare not listen to you.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> My honoured lord, </l>
+       <l>These were my Alvar's lessons, and whene'er </l>
+       <l>I bend me o'er his portrait, I repeat them, </l>
+       <l>As if to give a voice to the mute image.</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l>—We have mourned for Alvar. </l>
+       <l>Of his sad fate there now remains no doubt. </l>
+       <l>Have I no other son?</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> Speak not of him! </l>
+       <l>That low imposture! That mysterious picture! </l>
+       <l>If this be madness, must I wed a madman? </l>
+       <l>And if not madness, there is mystery, </l>
+       <l>And guilt doth lurk behind it.</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l> Is this well?</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Yes, it is truth: saw you his countenance? </l>
+       <l>How rage, remorse, and scorn, and stupid fear </l>
+       <l>Displaced each other with swift interchanges? </l>
+       <l>O that I had indeed the sorcerer's power.— </l>
+       <l>I would call up before thine eyes the image </l>
+       <l>Of my betrothéd Alvar, of thy first-born! </l>
+       <l>His own fáir countenance, his kingly forehead, </l>
+       <l>His tender smiles, love's day-dawn on his lips! </l>
+       <l>That spiritual and almost heavenly light </l>
+       <l>In his commanding eye—his mien heroic, </l>
+       <l>Virtue's own native heraldry! to man </l>
+       <l>Genial, and pleasant to his guardian angel. </l>
+       <l>Whene'er he gladden'd, how the gladness spread </l>
+       <l>Wide round him! and when oft with swelling tears, </l>
+       <l>Flash'd through by indignation, he bewail'd </l>
+       <l>The wrongs of Belgium's martyr'd patriots, </l>
+       <l>Oh, what a grief was there—for joy to envy, </l>
+       <l>Or gaze upon enamour'd! </l>
+       <l> O my father! </l>
+       <l>Recall that morning when we knelt together, </l>
+       <l>And thou didst bless our loves! O even now, </l>
+       <l>Even now, my sire! to thy mind's eye present him, </l>
+       <l>As at that moment he rose up before thee, </l>
+       <l>Stately, with beaming look! Place, place beside him </l>
+       <l>Ordonio's dark perturbéd countenance! </l>
+       <l>Then bid me (Oh thou could'st not) bid me turn </l>
+       <l>From him, the joy, the triumph of our kind! </l>
+       <l>To take in exchange that brooding man, who never </l>
+       <l>Lifts up his eye from the earth, unless to scowl.</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l>Ungrateful woman! I have tried to stifle </l>
+       <l>An old man's passion! was it not enough, </l>
+       <l>That thou hast made my son a restless man, </l>
+       <l>Banish'd his health, and half unhing'd his reason; </l>
+       <l>But that thou wilt insult him with suspicion? </l>
+       <l>And toil to blast his honour? I am old, </l>
+       <l>A comfortless old man!</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> O grief! to hear </l>
+       <l>Hateful entreaties from a voice we love!</l>
+      </lg>
+     </sp>
+     <stage>Enter a Peasant and presents a letter to Valdez.</stage>
+     <sp who="#valdez">
+      <speaker>Valdez </speaker>
+      <stage>(reading it).</stage>
+      <lg>
+       <l>‘He dares not venture hither!’ Why, what can this mean? </l>
+       <l>‘Lest the Familiars of the Inquisition, </l>
+       <l>That watch around my gates, should intercept him; </l>
+       <l>But he conjures me, that without delay </l>
+       <l>I hasten to him—for my own sake entreats me </l>
+       <l>To guard from danger him I hold imprison'd— </l>
+       <l>He will reveal a secret, the joy of which </l>
+       <l>Will even outweigh the sorrow.’—Why what can this be? </l>
+       <l>Perchance it is some Moorish stratagem, </l>
+       <l>To have in me a hostage for his safety. </l>
+       <l>Nay, that they dare not! Ho! collect my servants! </l>
+       <l>I will go thither—let them arm themselves. </l>
+      </lg>
+     </sp>
+     <stage> [Exit Valdez.</stage>
+     <sp who="#teresa">
+      <speaker>Teresa </speaker>
+      <stage>(alone).</stage>
+      <lg>
+       <l>The moon is high in heaven, and all is hush'd, </l>
+       <l>Yet anxious listener! I have seem'd to hear </l>
+       <l>A low dead thunder mutter thro' the night, </l>
+       <l>As 'twere a giant angry in his sleep. </l>
+       <l>O Alvar! Alvar! that they could return, </l>
+       <l>Those blessed days that imitated heaven, </l>
+       <l>When we two wont to walk at eventide; </l>
+       <l>When we saw nought but beauty; when we heard </l>
+       <l>The voice of that Almighty One who loved us </l>
+       <l>In every gale that breathed, and wave that murmur'd! </l>
+       <l>O we have listen'd, even till high-wrought pleasure </l>
+       <l>Hath half assumed the countenance of grief, </l>
+       <l>And the deep sigh seemed to heave up a weight </l>
+       <l>Of bliss, that pressed too heavy on the heart. </l>
+      </lg>
+      <stage> [A pause.</stage>
+      <lg>
+       <l>And this majestic Moor, seems he not one </l>
+       <l>Who oft and long communing with my Alvar </l>
+       <l>Hath drunk in kindred lustre from his presence, </l>
+       <l>And guides me to him with reflected light? </l>
+       <l>What if in yon dark dungeon coward treachery </l>
+       <l>Be groping for him with envenomed poniard— </l>
+       <l>Hence, womanish fears, traitors to love and duty— </l>
+       <l>I'll free him. </l>
+      </lg>
+     </sp>
+     <stage> [Exit Teresa.</stage>
+    </div>
+    <div type="scene" n="3">
+     <head>Scene III</head>
+     <stage>The mountains by moonlight. Alhadra alone in a Moorish dress.</stage>
+     <sp who="#alhadra">
+      <speaker>Alhadra.</speaker>
+      <lg>
+       <l>Yon hanging woods, that touch'd by autumn seem </l>
+       <l>As they were blossoming hues of fire and gold </l>
+       <l>The flower-like woods, most lovely in decay, </l>
+       <l>The many clouds, the sea, the rock, the sands, </l>
+       <l>Lie in the silent moonshine: and the owl, </l>
+       <l>(Strange! very strange!) the screech-owl only wakes! </l>
+       <l>Sole voice, sole eye of all this world of beauty! </l>
+       <l>Unless, perhaps, she sing her screeching song </l>
+       <l>To a herd of wolves, that skulk athirst for blood. </l>
+       <l>Why such a thing am I?—Where are these men? </l>
+       <l>I need the sympathy of human faces, </l>
+       <l>To beat away this deep contempt for all things, </l>
+       <l>Which quenches my revenge. O! would to Alla, </l>
+       <l>The raven, or the sea-mew, were appointed </l>
+       <l>To bring me food! or rather that my soul </l>
+       <l>Could drink in life from the universal air! </l>
+       <l>It were a lot divine in some small skiff </l>
+       <l>Along some Ocean's boundless solitude, </l>
+       <l>To float for ever with a careless course, </l>
+       <l>And think myself the only being alive! </l>
+       <l>My children!—Isidore's children!—Son of Valdez, </l>
+       <l>This hath new strung mine arm. Thou coward tyrant! </l>
+       <l>To stupify a woman's heart with anguish </l>
+       <l>Till she forgot—even that she was a mother!</l>
+      </lg>
+     </sp>
+     <stage> [She fixes her eye on the earth. Then drop in one after another, from
+                        different parts of the stage, a considerable number of Morescoes, all in
+                        Moorish garments and Moorish armour. They form a circle at a distance round
+                        Alhadra, and remain silent till Naomi enters.</stage>
+     <sp who="#naomi">
+      <speaker>Naomi.</speaker>
+      <lg>
+       <l>Woman! May Alla and the Prophet bless thee! </l>
+       <l>We have obeyed thy call. Where is our chief? </l>
+       <l>And why didst thou enjoin these Moorish garments?</l>
+      </lg>
+     </sp>
+     <sp who="#alhadra">
+      <speaker>Alhadra </speaker>
+      <stage>(raising her eyes, and looking round on the circle).</stage>
+      <lg>
+       <l>Warriors of Mahomet! faithful in the battle! </l>
+       <l>My countrymen! Come ye prepared to work </l>
+       <l>An honourable deed? And would ye work it </l>
+       <l>In the slave's garb? Curse on those Christian robes! </l>
+       <l>They are spell-blasted: and whoever wears them, </l>
+       <l>His arm shrinks wither'd, his heart melts away, </l>
+       <l>And his bones soften.</l>
+      </lg>
+     </sp>
+     <sp who="#naomi">
+      <speaker>Naomi.</speaker>
+      <lg>
+       <l> Where is Isidore?</l>
+      </lg>
+     </sp>
+     <sp who="#alhadra">
+      <speaker>Alhadra.</speaker>
+      <lg>
+       <l>This night I went from forth my house, and left </l>
+       <l>His children all asleep: and he was living! </l>
+       <l>And I return'd and found them still asleep, </l>
+       <l>But he had perished—</l>
+      </lg>
+     </sp>
+     <sp who="#all_morescoes">
+      <speaker>All Morescoes.</speaker>
+      <lg>
+       <l> Perished?</l>
+      </lg>
+     </sp>
+     <sp who="#alhadra">
+      <speaker>Alhadra.</speaker>
+      <lg>
+       <l> He had perished! </l>
+       <l>Sleep on, poor babes! not one of you doth know </l>
+       <l>That he is fatherless—a desolate orphan! </l>
+       <l>Why should we wake them? Can an infant's arm </l>
+       <l>Revenge his murder?</l>
+      </lg>
+     </sp>
+     <sp who="#one_moresco">
+      <speaker>One Moresco </speaker>
+      <stage>(to another).</stage>
+      <lg>
+       <l> Did she say his murder?</l>
+      </lg>
+     </sp>
+     <sp who="#naomi">
+      <speaker>Naomi.</speaker>
+      <lg>
+       <l>Murder? Not murdered?</l>
+      </lg>
+     </sp>
+     <sp who="#alhadra">
+      <speaker>Alhadra.</speaker>
+      <lg>
+       <l> Murdered by a Christian!</l>
+      </lg>
+     </sp>
+     <stage> [They all at once draw their sabres.</stage>
+     <sp who="#alhadra">
+      <speaker>Alhadra </speaker>
+      <stage>(to Naomi, who advances from the circle).</stage>
+      <lg>
+       <l>Brother of Zagri! fling away thy sword; </l>
+       <l>This is thy chieftain's! </l>
+      </lg>
+      <stage> [He steps forward to take it.</stage>
+      <lg>
+       <l> Dost thou dare receive it? </l>
+       <l>For I have sworn by Alla and the Prophet, </l>
+       <l>No tear shall dim these eyes, this woman's heart </l>
+       <l>Shall heave no groan, till I have seen that sword </l>
+       <l>Wet with the life-blood of the son of Valdez! </l>
+      </lg>
+      <stage> [A pause.</stage>
+      <lg>
+       <l>Ordonio was your chieftain's murderer!</l>
+      </lg>
+     </sp>
+     <sp who="#naomi">
+      <speaker>Naomi.</speaker>
+      <lg>
+       <l>He dies, by Alla!</l>
+      </lg>
+     </sp>
+     <sp who="#all">
+      <speaker>All </speaker>
+      <stage>(kneeling).</stage>
+      <lg>
+       <l> By Alla!</l>
+      </lg>
+     </sp>
+     <sp who="#alhadra">
+      <speaker>Alhadra.</speaker>
+      <lg>
+       <l>This night your chieftain armed himself, </l>
+       <l>And hurried from me. But I followed him </l>
+       <l>At distance, till I saw him enter—there!</l>
+      </lg>
+     </sp>
+     <sp who="#naomi">
+      <speaker>Naomi.</speaker>
+      <lg>
+       <l>The cavern?</l>
+      </lg>
+     </sp>
+     <sp who="#alhadra">
+      <speaker>Alhadra.</speaker>
+      <lg>
+       <l> Yes, the mouth of yonder cavern </l>
+       <l>After a while I saw the son of Valdez </l>
+       <l>Rush by with flaring torch; he likewise entered. </l>
+       <l>There was another and a longer pause; </l>
+       <l>And once, methought I heard the clash of swords! </l>
+       <l>And soon the son of Valdez re-appeared: </l>
+       <l>He flung his torch towards the moon in sport, </l>
+       <l>And seemed as he were mirthful! I stood listening, </l>
+       <l>Impatient for the footsteps of my husband!</l>
+      </lg>
+     </sp>
+     <sp who="#naomi">
+      <speaker>Naomi.</speaker>
+      <lg>
+       <l>Thou called'st him?</l>
+      </lg>
+     </sp>
+     <sp who="#alhadra">
+      <speaker>Alhadra.</speaker>
+      <lg>
+       <l> I crept into the cavern— </l>
+       <l>'Twas dark and very silent. </l>
+       <l> What said'st thou? </l>
+       <l>No! no! I did not dare call, Isidore, </l>
+       <l>Lest I should hear no answer! A brief while, </l>
+       <l>Belike, I lost all thought and memory </l>
+       <l>Of that for which I came! After that pause. </l>
+       <l>O Heaven! I heard a groan, and followed it: </l>
+       <l>And yet another groan, which guided me </l>
+       <l>Into a strange recess—and there was light, </l>
+       <l>A hideous light! his torch lay on the ground; </l>
+       <l>Its flame burnt dimly o'er a chasm's brink: </l>
+       <l>I spake; and whilst I spake, a feeble groan </l>
+       <l>Came from that chasm! it was his last! his death-groan!</l>
+      </lg>
+     </sp>
+     <sp who="#naomi">
+      <speaker>Naomi.</speaker>
+      <lg>
+       <l>Comfort her, Alla!</l>
+      </lg>
+     </sp>
+     <sp who="#alhadra">
+      <speaker>Alhadra.</speaker>
+      <lg>
+       <l> I stood in unimaginable trance </l>
+       <l>And agony that cannot be remembered, </l>
+       <l>Listening with horrid hope to hear a groan! </l>
+       <l>But I had heard his last: my husband's death-groan!</l>
+      </lg>
+     </sp>
+     <sp who="#naomi">
+      <speaker>Naomi.</speaker>
+      <lg>
+       <l>Haste! let us onward.</l>
+      </lg>
+     </sp>
+     <sp who="#alhadra">
+      <speaker>Alhadra.</speaker>
+      <lg>
+       <l> I looked far down the pit— </l>
+       <l>My sight was bounded by a jutting fragment: </l>
+       <l>And it was stained with blood. Then first I shrieked, </l>
+       <l>My eye-balls burnt, my brain grew hot as fire, </l>
+       <l>And all the hanging drops of the wet roof </l>
+       <l>Turned into blood—I saw them turn to blood! </l>
+       <l>And I was leaping wildly down the chasm, </l>
+       <l>When on the farther brink I saw his sword, </l>
+       <l>And it said, Vengeance!—Curses on my tongue! </l>
+       <l>The moon hath moved in Heaven, and I am here, </l>
+       <l>And he hath not had vengeance! Isidore! </l>
+       <l>Spirit of Isidore! thy murderer lives! </l>
+       <l>Away! away!</l>
+      </lg>
+     </sp>
+     <sp who="#all">
+      <speaker>All.</speaker>
+      <lg>
+       <l> Away! away!</l>
+      </lg>
+     </sp>
+     <stage> [She rushes off, all following her.</stage>
+    </div>
+   </div>
+   <div type="act" n="5">
+    <head>ACT V</head>
+    <div type="scene" n="1">
+     <head>Scene I</head>
+     <stage>A Dungeon.</stage>
+     <stage>Alvar (alone) rises slowly from a bed of reeds.</stage>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l>And this place my forefathers made for man! </l>
+       <l>This is the process of our love and wisdom </l>
+       <l>To each poor brother who offends against us— </l>
+       <l>Most innocent, perhaps—and what if guilty? </l>
+       <l>Is this the only cure? Merciful God! </l>
+       <l>Each pore and natural outlet shrivelled up </l>
+       <l>By ignorance and parching poverty, </l>
+       <l>His energies roll back upon his heart, </l>
+       <l>And stagnate and corrupt, till, chang'd to poison, </l>
+       <l>They break out on him, like a loathsome plague-spot! </l>
+       <l>Then we call in our pampered mountebanks: </l>
+       <l>And this is their best cure! uncomforted </l>
+       <l>And friendless solitude, groaning and tears, </l>
+       <l>And savage faces, at the clanking hour, </l>
+       <l>Seen through the steam and vapours of his dungeon </l>
+       <l>By the lamp's dismal twilight! So he lies </l>
+       <l>Circled with evil, till his very soul </l>
+       <l>Unmoulds its essence, hopelessly deformed </l>
+       <l>By sights of evermore deformity! </l>
+       <l>With other ministrations thou, O Nature! </l>
+       <l>Healest thy wandering and distempered child: </l>
+       <l>Thou pourest on him thy soft influences, </l>
+       <l>Thy sunny hues, fair forms, and breathing sweets; </l>
+       <l>Thy melodies of woods, and winds, and waters! </l>
+       <l>Till he relent, and can no more endure </l>
+       <l>To be a jarring and a dissonant thing </l>
+       <l>Amid this general dance and minstrelsy; </l>
+       <l>But, bursting into tears, wins back his way, </l>
+       <l>His angry spirit healed and harmonized </l>
+       <l>By the benignant touch of love and beauty. </l>
+       <l>I am chill and weary! Yon rude bench of stone, </l>
+       <l>In that dark angle, the sole resting-place! </l>
+       <l>But the self-approving mind is its own light </l>
+       <l>And life's best warmth still radiates from the heart </l>
+       <l>Where love sits brooding, and an honest purpose.</l>
+      </lg>
+     </sp>
+     <stage> [Retires out of sight.</stage>
+     <stage>Enter Teresa with a taper.</stage>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>It has chilled my very life—my own voice scares me; </l>
+       <l>Yet when I hear it not I seem to lose </l>
+       <l>The substance of my being—my strongest grasp </l>
+       <l>Sends inwards but weak witness that I am. </l>
+       <l>I seek to cheat the echo.—How the half sounds </l>
+       <l>Blend with this strangled light! Is he not here— </l>
+      </lg>
+      <stage> [Looking round.</stage>
+      <lg>
+       <l>O for one human face here—but to see </l>
+       <l>One human face here to sustain me.—Courage! </l>
+       <l>It is but my own fear! The life within me, </l>
+       <l>It sinks and wavers like this cone of flame, </l>
+       <l>Beyond which I scarce dare look onward! Oh! </l>
+       <l>If I faint? If this inhuman den should be </l>
+       <l>At once my death-bed and my burial vault?</l>
+      </lg>
+     </sp>
+     <stage> [Faintly screams as Alvar emerges from the recess.</stage>
+     <sp who="#alvar">
+      <speaker>Alvar </speaker>
+      <stage>(rushes towards her, and catches her as she is falling).</stage>
+      <lg>
+       <l>O gracious heaven! it is, it is Teresa! </l>
+       <l>Shall I reveal myself? The sudden shock </l>
+       <l>Of rapture will blow out this spark of life, </l>
+       <l>And joy complete what terror has begun. </l>
+       <l>O ye impetuous beatings here, be still! </l>
+       <l>Teresa, best beloved! pale, pale, and cold! </l>
+       <l>Her pulse doth flutter! Teresa! my Teresa!</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa </speaker>
+      <stage>(recovering).</stage>
+      <lg>
+       <l>I heard a voice; but often in my dreams </l>
+       <l>I hear that voice! and wake and try—and try— </l>
+       <l>To hear it waking! but I never could— </l>
+       <l>And 'tis so now—even so! Well! he is dead— </l>
+       <l>Murdered perhaps! and I am faint, and feel </l>
+       <l>As if it were no painful thing to die!</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l>Believe it not, sweet maid! Believe it not, </l>
+       <l>Belovéd woman! 'Twas a low imposture </l>
+       <l>Framed by a guilty wretch.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> Ha! Who art thou?</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l>Suborned by his brother—</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> Didst thou murder him? </l>
+       <l>And dost thou now repent? Poor troubled man, </l>
+       <l>I do forgive thee, and may Heaven forgive thee!</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l>Ordonio—he—</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> If thou didst murder him— </l>
+       <l>His spirit ever at the throne of God </l>
+       <l>Asks mercy for thee: prays for mercy for thee, </l>
+       <l>With tears in Heaven!</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l> Alvar was not murdered. </l>
+       <l>Be calm! Be calm, sweet maid!</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Nay, nay, but tell me! </l>
+      </lg>
+      <stage> [A pause.</stage>
+      <lg>
+       <l> O 'tis lost again! </l>
+       <l>This dull confuséd pain— </l>
+      </lg>
+      <stage> [A pause.</stage>
+      <lg>
+       <l> Mysterious man! </l>
+       <l>Methinks I can not fear thee: for thine eye </l>
+       <l>Doth swim with love and pity—Well! Ordonio— </l>
+       <l>Oh my foreboding heart! And he suborned thee, </l>
+       <l>And thou didst spare his life? Blessings shower on thee, </l>
+       <l>As many as the drops twice counted o'er </l>
+       <l>In the fond faithful heart of his Teresa!</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l>I can endure no more. The Moorish sorcerer </l>
+       <l>Exists but in the stain upon his face. </l>
+       <l>That picture—</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> Ha! speak on!</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l> Beloved Teresa! </l>
+       <l>It told but half the truth. O let this portrait </l>
+       <l>Tell all—that Alvar lives—that he is here! </l>
+       <l>Thy much deceived but ever faithful Alvar.</l>
+      </lg>
+     </sp>
+     <stage> [Takes her portrait from his neck, and gives it her.</stage>
+     <sp who="#teresa">
+      <speaker>Teresa </speaker>
+      <stage>(receiving the portrait).</stage>
+      <lg>
+       <l>The same—it is the same! Ah! Who art thou? </l>
+       <l>Nay, I will call thee, Alvar! </l>
+      </lg>
+     </sp>
+     <stage> [She falls on his neck.</stage>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l> O joy unutterable! </l>
+       <l>But hark! a sound as of removing bars </l>
+       <l>At the dungeon's outer door. A brief, brief while </l>
+       <l>Conceal thyself, my love! It is Ordonio. </l>
+       <l>For the honour of our race, for our dear father; </l>
+       <l>O for himself too (he is still my brother) </l>
+       <l>Let me recall him to his nobler nature, </l>
+       <l>That he may wake as from a dream of murder! </l>
+       <l>O let me reconcile him to himself, </l>
+       <l>Open the sacred source of penitent tears, </l>
+       <l>And be once more his own beloved Alvar.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>O my all virtuous love! I fear to leave thee </l>
+       <l>With that obdurate man.</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l> Thou dost not leave me! </l>
+       <l>But a brief while retire into the darkness: </l>
+       <l>O that my joy could spread its sunshine round thee!</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>The sound of thy voice shall be my music! </l>
+       <l>Alvar! my Alvar! am I sure I hold thee? </l>
+       <l>Is it no dream? thee in my arms, my Alvar! </l>
+      </lg>
+     </sp>
+     <stage> [Exit.</stage>
+     <stage> [A noise at the Dungeon door. It opens, and Ordonio enters, with a
+                        goblet in his hand.</stage>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>Hail, potent wizard! in my gayer mood </l>
+       <l>I poured forth a libation to old Pluto, </l>
+       <l>And as I brimmed the bowl, I thought on thee. </l>
+       <l>Thou hast conspired against my life and honour, </l>
+       <l>Hast tricked me foully; yet I hate thee not. </l>
+       <l>Why should I hate thee? this same world of ours, </l>
+       <l>'Tis but a pool amid a storm of rain, </l>
+       <l>And we the air-bladders that course up and down, </l>
+       <l>And joust and tilt in merry tournament; </l>
+       <l>And when one bubble runs foul of another, </l>
+       <l>The weaker needs must break.</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l> I see thy heart! </l>
+       <l>There is a frightful glitter in thine eye </l>
+       <l>Which doth betray thee. Inly-tortured man, </l>
+       <l>This is the revelry of a drunken anguish, </l>
+       <l>Which fain would scoff away the pang of guilt, </l>
+       <l>And quell each human feeling.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> Feeling! feeling! </l>
+       <l>The death of a man—the breaking of a bubble— </l>
+       <l>'Tis true I cannot sob for such misfortunes; </l>
+       <l>But faintness, cold and hunger—curses on me </l>
+       <l>If willingly I e'er inflicted them! </l>
+       <l>Come, take the beverage; this chill place demands it.</l>
+      </lg>
+     </sp>
+     <stage> [Ordonio proffers the goblet.</stage>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l>Yon insect on the wall, </l>
+       <l>Which moves this way and that its hundred limbs, </l>
+       <l>Were it a toy of mere mechanic craft, </l>
+       <l>It were an infinitely curious thing! </l>
+       <l>But it has life, Ordonio! life, enjoyment! </l>
+       <l>And by the power of its miraculous will </l>
+       <l>Wields all the complex movements of its frame </l>
+       <l>Unerringly to pleasurable ends! </l>
+       <l>Saw I that insect on this goblet's brim </l>
+       <l>I would remove it with an anxious pity!</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>What meanest thou?</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l> There's poison in the wine.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>Thou hast guessed right; there's poison in the wine. </l>
+       <l>There's poison in't—which of us two shall drink it? </l>
+       <l>For one of us must die!</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l> Whom dost thou think me?</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>The accomplice and sworn friend of Isidore.</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l>I know him not. </l>
+       <l>And yet methinks, I have heard the name but lately. </l>
+       <l>Means he the husband of the Moorish woman? </l>
+       <l>Isidore? Isidore?</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>Good! good! that lie! by heaven it has restored me. </l>
+       <l>Now I am thy master!—Villain! thou shalt drink it, </l>
+       <l>Or die a bitterer death.</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l> What strange solution </l>
+       <l>Hast thou found out to satisfy thy fears, </l>
+       <l>And drug them to unnatural sleep? </l>
+      </lg>
+      <stage> [Alvar takes the goblet, and throws it to the ground.</stage>
+      <lg>
+       <l> My master!</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>Thou mountebank!</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l> Mountebank and villain! </l>
+       <l>What then art thou? For shame, put up thy sword! </l>
+       <l>What boots a weapon in a withered arm? </l>
+       <l>I fix mine eye upon thee, and thou tremblest! </l>
+       <l>I speak, and fear and wonder crush thy rage, </l>
+       <l>And turn it to a motionless distraction! </l>
+       <l>Thou blind self-worshipper! thy pride, thy cunning, </l>
+       <l>Thy faith in universal villainy, </l>
+       <l>Thy shallow sophisms, thy pretended scorn </l>
+       <l>For all thy human brethren—out upon them! </l>
+       <l>What have they done for thee? have they given thee peace? </l>
+       <l>Cured thee of starting in thy sleep? or made </l>
+       <l>The darkness pleasant when thou wak'st at midnight? </l>
+       <l>Art happy when alone? Can'st walk by thyself </l>
+       <l>With even step and quiet cheerfulness? </l>
+       <l>Yet, yet thou may'st be saved—</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> Saved? saved?</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l> One pang! </l>
+       <l>Could I call up one pang of true remorse!</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>He told me of the babes that prattled to him, </l>
+       <l>His fatherless little ones! remorse! remorse! </l>
+       <l>Where got'st thou that fool's word? Curse on remorse! </l>
+       <l>Can it give up the dead, or recompact </l>
+       <l>A mangled body? mangled—dashed to atoms! </l>
+       <l>Not all the blessings of a host of angels </l>
+       <l>Can blow away a desolate widow's curse! </l>
+       <l>And though thou spill thy heart's blood for atonement, </l>
+       <l>It will not weigh against an orphan's tear!</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l>But Alvar—</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> Ha! it chokes thee in the throat, </l>
+       <l>Even thee; and yet I pray thee speak it out. </l>
+       <l>Still Alvar!—Alvar!—howl it in mine ear! </l>
+       <l>Heap it like coals of fire upon my heart, </l>
+       <l>And shoot it hissing through my brain!</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l> Alas! </l>
+       <l>That day when thou didst leap from off the rock </l>
+       <l>Into the waves, and grasped thy sinking brother, </l>
+       <l>And bore him to the strand; then, son of Valdez, </l>
+       <l>How sweet and musical the name of Alvar! </l>
+       <l>Then, then, Ordonio, he was dear to thee, </l>
+       <l>And thou wert dear to him: heaven only knows </l>
+       <l>How very dear thou wert! Why did'st thou hate him! </l>
+       <l>O heaven! how he would fall upon thy neck, </l>
+       <l>And weep forgiveness!</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> Spirit of the dead! </l>
+       <l>Methinks I know thee! ha! my brain turns wild </l>
+       <l>At its own dreams!—off—off, fantastic shadow!</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l>I fain would tell thee what I am, but dare not!</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>Cheat! villain! traitor! whatsoever thou be— </l>
+       <l>I fear thee, man!</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa </speaker>
+      <stage>(rushing out and falling on Alvar's neck).</stage>
+      <lg>
+       <l> Ordonio! 'tis thy brother! </l>
+      </lg>
+      <stage> [Ordonio runs upon Alvar with his sword. Teresa flings herself on
+                            Ordonio and arrests his arm.</stage>
+      <lg>
+       <l>Stop, madman, stop!</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l>Does then this thin disguise impenetrably </l>
+       <l>Hide Alvar from thee? Toil and painful wounds </l>
+       <l>And long imprisonment in unwholesome dungeons, </l>
+       <l>Have marred perhaps all trait and lineament </l>
+       <l>Of what I was! But chiefly, chiefly, brother, </l>
+       <l>My anguish for thy guilt! </l>
+       <l> Ordonio—Brother! </l>
+       <l>Nay, nay, thou shalt embrace me.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio </speaker>
+      <stage>(drawing back, and gazing at Alvar).</stage>
+      <lg>
+       <l> Touch me not! </l>
+       <l>Touch not pollution, Alvar! I will die.</l>
+      </lg>
+     </sp>
+     <stage> [He attempts to fall on his sword, Alvar and Teresa prevent him.</stage>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l>We will find means to save your honour. Live, </l>
+       <l>Oh live, Ordonio! for our father's sake! </l>
+       <l>Spare his grey hairs!</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> And you may yet be happy.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>O horror! not a thousand years in heaven </l>
+       <l>Could recompose this miserable heart, </l>
+       <l>Or make it capable of one brief joy! </l>
+       <l>Live! live! Why yes! 'Twere well to live with you: </l>
+       <l>For is it fit a villain should be proud? </l>
+       <l>My brother! I will kneel to you, my brother! </l>
+      </lg>
+      <stage> [Kneeling.</stage>
+      <lg>
+       <l>Forgive me, Alvar!—Curse me with forgiveness!</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l>Call back thy soul, Ordonio, and look round thee! </l>
+       <l>Now is the time for greatness! Think that heaven—</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>O mark his eye! he hears not what you say.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>Yes, mark his eye! there's fascination in it! </l>
+       <l>Thou said'st thou did'st not know him—That is he! </l>
+       <l>He comes upon me!</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l> Heal, O heal him, heaven!</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>Nearer and nearer! and I can not stir! </l>
+       <l>Will no one hear these stifled groans, and wake me? </l>
+       <l>He would have died to save me, and I killed him— </l>
+       <l>A husband and a father!—</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> Some secret poison </l>
+       <l>Drinks up his spirits!</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> Let the eternal justice </l>
+       <l>Prepare my punishment in the obscure world— </l>
+       <l>I will not bear to live—to live—O agony! </l>
+       <l>And be myself alone my own sore torment!</l>
+      </lg>
+     </sp>
+     <stage> [The doors of the dungeon are broken open, and in rush Alhadra, and the
+                        band of Morescoes.</stage>
+     <sp who="#alhadra">
+      <speaker>Alhadra.</speaker>
+      <lg>
+       <l>Seize first that man!</l>
+      </lg>
+     </sp>
+     <stage> [Alvar. presses onward to defend Ordonio.</stage>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l>Off, ruffians! I have flung away my sword. </l>
+       <l>Woman, my life is thine! to thee I give it! </l>
+       <l>Off! he that touches me with his hand of flesh, </l>
+       <l>I'll rend his limbs asunder! I have strength </l>
+       <l>With this bare arm to scatter you like ashes.</l>
+      </lg>
+     </sp>
+     <sp who="#alhadra">
+      <speaker>Alhadra.</speaker>
+      <lg>
+       <l>My husband—</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> Yes, I murdered him most foully.</l>
+      </lg>
+     </sp>
+     <sp who="#alvar_and_teresa">
+      <speaker>Alvar and Teresa.</speaker>
+      <lg>
+       <l>O horrible!</l>
+      </lg>
+     </sp>
+     <sp who="#alhadra">
+      <speaker>Alhadra.</speaker>
+      <lg>
+       <l> Why did'st thou leave his children? </l>
+       <l>Demon, thou should'st have sent thy dogs of hell </l>
+       <l>To lap their blood. Then, then I might have hardened </l>
+       <l>My soul in misery, and have had comfort. </l>
+       <l>I would have stood far off, quiet though dark, </l>
+       <l>And bade the race of men raise up a mourning </l>
+       <l>For a deep horror of desolation, </l>
+       <l>Too great to be one soul's particular lot! </l>
+       <l>Brother of Zagri! let me lean upon thee. </l>
+       <l>The time is not yet come for woman's anguish, </l>
+       <l>I have not seen his blood—Within an hour </l>
+       <l>Those little ones will crowd around and ask me, </l>
+       <l>Where is our father? I shall curse thee then! </l>
+       <l>Wert thou in heaven, my curse would pluck thee thence!</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>He doth repent! See, see, I kneel to thee! </l>
+       <l>O let him live! That agéd man, his father—</l>
+      </lg>
+     </sp>
+     <sp who="#alhadra">
+      <speaker>Alhadra.</speaker>
+      <lg>
+       <l>Why had he such a son? </l>
+      </lg>
+      <stage> [Shouts from the distance of <said direct="true">Rescue! Rescue! Alvar! Alvar!</said> and the
+                            voice of Valdez heard.</stage>
+      <lg>
+       <l>Rescue?—and Isidore's spirit unavenged?— </l>
+       <l>The deed be mine! </l>
+      </lg>
+      <stage> [Suddenly stabs Ordonio.</stage>
+      <lg>
+       <l> Now take my life!</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio </speaker>
+      <stage>(staggering from the wound).</stage>
+      <lg>
+       <l> Atonement!</l>
+      </lg>
+     </sp>
+     <sp who="#alvar">
+      <speaker>Alvar </speaker>
+      <stage>(while with Teresa supporting Ordonio).</stage>
+      <lg>
+       <l>Arm of avenging Heaven </l>
+       <l>Thou hast snatched from me my most cherished hope— </l>
+       <l>But go! my word was pledged to thee.</l>
+      </lg>
+     </sp>
+     <sp who="#ordonio">
+      <speaker>Ordonio.</speaker>
+      <lg>
+       <l> Away! </l>
+       <l>Brave not my Father's rage! I thank thee! Thou— </l>
+      </lg>
+      <stage> [Then turning his eyes languidly to Alvar.</stage>
+      <lg>
+       <l>She hath avenged the blood of Isidore! </l>
+       <l>I stood in silence like a slave before her </l>
+       <l>That I might taste the wormwood and the gall, </l>
+       <l>And satiate this self-accusing heart </l>
+       <l>With bitterer agonies than death can give. </l>
+       <l>Forgive me, Alvar! </l>
+       <l> Oh!—could'st thou forget me! </l>
+      </lg>
+      <stage> [Dies.</stage>
+     </sp>
+     <stage> [Alvar and Teresa bend over the body of Ordonio.</stage>
+     <sp who="#alhadra">
+      <speaker>Alhadra </speaker>
+      <stage>(to the Moors).</stage>
+      <lg>
+       <l>I thank thee, Heaven! thou hast ordained it wisely, </l>
+       <l>That still extremes bring their own cure. That point </l>
+       <l>In misery, which makes the oppressed Man </l>
+       <l>Regardless of his own life, makes him too </l>
+       <l>Lord of the Oppressor's—Knew I a hundred men </l>
+       <l>Despairing, but not palsied by despair, </l>
+       <l>This arm should shake the kingdoms of the world; </l>
+       <l>The deep foundations of iniquity </l>
+       <l>Should sink away, earth groaning from beneath them; </l>
+       <l>The strongholds of the cruel men should fall, </l>
+       <l>Their temples and their mountainous towers should fall; </l>
+       <l>Till desolation seemed a beautiful thing, </l>
+       <l>And all that were and had the spirit of life, </l>
+       <l>Sang a new song to her who had gone forth, </l>
+       <l>Conquering and still to conquer!</l>
+      </lg>
+     </sp>
+     <stage> [Alhadra hurries off with the Moors; the stage fills with armed
+                        Peasants, and Servants, Zulimez and Valdez at their head. Valdez rushes into
+                        Alvar's arms.</stage>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l>Turn not thy face that way, my father! hide, </l>
+       <l>Oh hide it from his eye! Oh let thy joy </l>
+       <l>Flow in unmingled stream through thy first blessing.</l>
+      </lg>
+     </sp>
+     <stage> [Both kneel to Valdez.</stage>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l>My Son! My Alvar! bless, Oh bless him, heaven!</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Me too, my Father?</l>
+      </lg>
+     </sp>
+     <sp who="#valdez">
+      <speaker>Valdez.</speaker>
+      <lg>
+       <l> Bless, Oh bless my children! </l>
+      </lg>
+     </sp>
+     <stage> [Both rise.</stage>
+     <sp who="#alvar">
+      <speaker>Alvar.</speaker>
+      <lg>
+       <l>Delights so full, if unalloyed with grief, </l>
+       <l>Were ominous. In these strange dread events </l>
+       <l>Just Heaven instructs us with an awful voice, </l>
+       <l>That Conscience rules us e'en against our choice. </l>
+       <l>Our inward Monitress to guide or warn, </l>
+       <l>If listened to; but if repelled with scorn, </l>
+       <l>At length as dire Remorse, she reappears, </l>
+       <l>Works in our guilty hopes, and selfish fears! </l>
+       <l>Still bids, Remember! and still cries, Too late! </l>
+       <l>And while she scares us, goads us to our fate.</l>
+      </lg>
+     </sp>
+    </div>
+   </div>
+  </body>
+ </text>
+</TEI>

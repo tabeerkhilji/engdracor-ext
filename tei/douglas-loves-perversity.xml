@@ -1,0 +1,5643 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id" xml:lang="eng">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">Love's perversity</title>
+    <author>
+     <persName>
+      <forename>Evelyn</forename>
+      <surname>Douglas</surname>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>ProQuest</name>
+     <idno type="URL">https://www.proquest.com/books/loves-perversity-1885/docview/2138579063/se-2?accountid=14632</idno>
+     <idno type="proquest">LION2138579063</idno>
+    </bibl>
+    <bibl type="originalSource">
+     <author>Douglas, Evelyn</author>
+     <title type="main">Love's perversity</title>
+     <title type="volume">The Queen Of the Hid Isle: an Allegory Of Life and Art</title>
+     <publisher>Love's Perversity; Or, Eros and Anteros. A Drama. By Evelyn Douglas. Trübner &amp; Co</publisher>
+     <pubPlace>London</pubPlace>
+     <date type="print" when="1885">1885</date>
+     <note type="citation">Douglas, Evelyn: Love's perversity (1885). In: The Queen Of the Hid Isle: an Allegory Of Life and Art. Love's Perversity; Or, Eros and Anteros. A Drama. By Evelyn Douglas. Trübner &amp; Co.: London 1885</note>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="basso">
+      <persName>Basso</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="citizen">
+      <persName>Citizen</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="citizen-1st">
+      <persName>1st Citizen</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="citizen-2d">
+      <persName>2d Citizen</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="fausta">
+      <persName>Fausta</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="guido">
+      <persName>Guido</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="ilario">
+      <persName>Ilario</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="livia">
+      <persName>Livia</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="nita">
+      <persName>Nita</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="officer-1st">
+      <persName>1st Officer</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="officer-2d">
+      <persName>2d Officer</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="raolfo">
+      <persName>Raolfo</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="teresa">
+      <persName>Teresa</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="zenora">
+      <persName>Zenora</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1885">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text>
+  <front>
+   <castList>
+    <head>Dramatis Personæ.</head>
+    <castItem>
+     <role>Zenora, a noble lady.</role>
+    </castItem>
+    <castItem>
+     <role>Raolfo, her son, a scholar.</role>
+    </castItem>
+    <castItem>
+     <role>Fausta, his cousin.</role>
+    </castItem>
+    <castItem>
+     <role>Teresa, an orphan living with Zenora.</role>
+    </castItem>
+    <castItem>
+     <role>Ilario.</role>
+    </castItem>
+    <castItem>
+     <role>Basso, Raolfo's fat servant.</role>
+    </castItem>
+    <castItem>
+     <role>Guido, Ilario's servant.</role>
+    </castItem>
+    <castItem>
+     <role>Nita, maid-servant of Zenora.</role>
+    </castItem>
+    <castItem>
+     <role>Livia, maid-servant of Zenora.</role>
+    </castItem>
+    <castItem>
+     <role>Citizens, Officers, &amp;c.</role>
+    </castItem>
+   </castList>
+  </front>
+  <body>
+   <div type="act" n="1">
+    <head>ACT I.</head>
+    <div type="scene" n="1">
+     <head>Scene I.</head>
+     <stage>—A Chamber in Zenora's House.</stage>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>There is nothing so cruel as love. My master said to me a day ago,
+                                ‘Basso, thou growest thin; what ails thee, man?’ I answered, ‘If I
+                                knew my ailment I should be far toward a cure.’ Said he, ‘Then I
+                                will inform you. I have observed of late that you have forgot to
+                                warm my shoes and to cleanse my hose of dust. You have omitted to
+                                put a keen edge on my razor, till it was as blunt as a sick man's
+                                appetite’—(Ah, said I, there lies my complaint)— ‘and once you would
+                                have brushed out my hair with a horse's currycomb had I not
+                                perceived it in time, and saved my pate and thine own. Now all this
+                                argues a distracted mind and a distempered condition, whence
+                                resulteth languor and emaciation!— those were his very words—languor
+                                and emaciation— ‘therefore thou art in love.’ Ah, my master is a
+                                rare scholar. But she approaches. Surely she will compassionate my
+                                emaciation.</p>
+     </sp>
+     <stage>Enter Nita.</stage>
+     <sp who="#nita">
+      <speaker>Nita.</speaker>
+      <p>How now, Basso! Where is thy master, that thou hast leisure to do
+                                nothing?</p>
+     </sp>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>My master, seeing my emaciation, is moved with more pity than some,
+                                and leaves me to myself and my melancholy.</p>
+     </sp>
+     <sp who="#nita">
+      <speaker>Nita.</speaker>
+      <p>If thou wouldst eat less and walk more, thou wouldst have less
+                                emaciation.</p>
+     </sp>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>Ignorant girl! what dost thou conceive to be the signification of the
+                                term emaciation?</p>
+     </sp>
+     <sp who="#nita">
+      <speaker>Nita.</speaker>
+      <p>A burden which thou carriest without profit, and much against thy
+                                will.</p>
+     </sp>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>Not so far out. Thou conceivest it to imply that of which in truth it
+                                signifies the result. Love is indeed a burden, but emaciation
+                                signifieth not love.</p>
+     </sp>
+     <sp who="#nita">
+      <speaker>Nita.</speaker>
+      <p>Nay, but fat.</p>
+     </sp>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>What?</p>
+     </sp>
+     <sp who="#nita">
+      <speaker>Nita.</speaker>
+      <p>Fat, flesh, stupidity, that come of sloth and high feeding.</p>
+     </sp>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>Does she mock me? Then I will waste away yet farther.</p>
+     </sp>
+     <sp who="#nita">
+      <speaker>Nita.</speaker>
+      <p>Thou canst afford to waste, having, like a rich spendthrift, much to
+                                lose.</p>
+     </sp>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>I will lose half my flesh.</p>
+     </sp>
+     <sp who="#nita">
+      <speaker>Nita.</speaker>
+      <p>Do, and thou wilt yet be twice as big as another man.</p>
+     </sp>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>I will pine to death, and then they will bury me.</p>
+     </sp>
+     <sp who="#nita">
+      <speaker>Nita.</speaker>
+      <p>When they have found a churchyard big enough. Woe is me! the people
+                                passing will take the grave for the foundation of a house, and the
+                                contract of wood for thy coffin will enrich two timber merchants.</p>
+     </sp>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>How hast heart to jest about it? If thou shouldst die, I would plant
+                                a rose-tree over thee, and bedew thy tomb daily with my tears.</p>
+     </sp>
+     <sp who="#nita">
+      <speaker>Nita.</speaker>
+      <p>A good thought—give me the freehold of thy grave.</p>
+     </sp>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>Wherefore?</p>
+     </sp>
+     <sp who="#nita">
+      <speaker>Nita.</speaker>
+      <p>Then, when thou diest, I will plant an orchard and an olive grove
+                                upon thee, and build a farm and grow rich. But for tears, I have not
+                                enough to bedew so many acres.</p>
+     </sp>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>Cruel, cruel!</p>
+     </sp>
+     <stage>Enter Livia.</stage>
+     <sp who="#livia">
+      <speaker>Livia.</speaker>
+      <p>How dare you, slut, revile my Basso?</p>
+     </sp>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>Thy Basso, forsooth! I am Nita's.</p>
+     </sp>
+     <sp who="#nita">
+      <speaker>Nita.</speaker>
+      <p>Then I will give so great a piece of good to Livia for a small
+                                matter.</p>
+     </sp>
+     <sp who="#livia">
+      <speaker>Livia.</speaker>
+      <p>Abuse him not. He is worth many of thee.</p>
+     </sp>
+     <sp who="#nita">
+      <speaker>Nita.</speaker>
+      <p>Ay, if we were sold by the pound. Farewell, Basso.</p>
+      <stage> [Exit Nita.</stage>
+     </sp>
+     <sp who="#livia">
+      <speaker>Livia.</speaker>
+      <p>Shame on her, impudent wench!</p>
+     </sp>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>Speak but one other word against her—</p>
+     </sp>
+     <sp who="#livia">
+      <speaker>Livia.</speaker>
+      <p>I will. She knows not when she is flattered. Are there two such men
+                                in the world that she should chance on such another offer?</p>
+     </sp>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>Thou art a sensible girl.</p>
+     </sp>
+     <sp who="#livia">
+      <speaker>Livia.</speaker>
+      <p>Trust me to know a fine manly fellow when I see him—none of your
+                                elegant fine-waisted gentlemen, but a good solid piece of work.</p>
+     </sp>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>I think I am all sound and solid.</p>
+     </sp>
+     <sp who="#livia">
+      <speaker>Livia.</speaker>
+      <p>Indeed thou art; and then such a sweet smile! Such noble pity when
+                                the half-finished skeletons, thy brother-men, look enviously upon
+                                thee.</p>
+     </sp>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>True, true; thou speakest well: but Nita is better favoured.</p>
+     </sp>
+     <sp who="#livia">
+      <speaker>Livia.</speaker>
+      <p>Cruel, cruel!</p>
+     </sp>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>I have no patience with women. I will go look for my master.</p>
+      <stage> [Exit Basso.</stage>
+     </sp>
+     <stage>Enter Zenora.</stage>
+     <sp who="#zenora">
+      <speaker>Zenora.</speaker>
+      <lg>
+       <l>What, crying, girl? Come, dry those scalded eyes, </l>
+       <l>And send Teresa hither. </l>
+      </lg>
+      <stage> [Exit Livia.</stage>
+      <lg>
+       <l> Oh, these girls! </l>
+       <l>When does a girl begin to think of lovers? </l>
+       <l>Here is a question for physicians, who </l>
+       <l>Dispute the time when infants quicken first, </l>
+       <l>But never yet have dressed my doubt in Latin. </l>
+       <l>I never knew one that had not yet reached </l>
+       <l>The stage to think of lovers. Ere she talks, </l>
+       <l>A child will choose some boy of two years old </l>
+       <l>Out of a family. Around his neck </l>
+       <l>She wreathes her arms and kisses him: the rest, </l>
+       <l>His brothers and his sisters, bites and kicks,— </l>
+       <l>The sisters chiefly. Soon as they can see </l>
+       <l>To know one from another, this they do </l>
+       <l>And show their love by little brutish cries. </l>
+       <l>But what they think before they clearly see, </l>
+       <l>I have had many and I cannot tell. </l>
+       <l>If I may guess, they're thinking of no good. </l>
+       <l>One only girl I know with wit enough </l>
+       <l>To hide her folly (though, be sure, 'tis there), </l>
+       <l>And here she comes.</l>
+      </lg>
+     </sp>
+     <stage>Enter Teresa.</stage>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> You sent for me—but pardon; </l>
+       <l>I had forgot my duty and respect, </l>
+       <l>And have no child's right to break ceremonies.</l>
+      </lg>
+     </sp>
+     <sp who="#zenora">
+      <speaker>Zenora.</speaker>
+      <lg>
+       <l>You silly chick! so that you find a place </l>
+       <l>Under the old hen's wing, how differs it </l>
+       <l>Whether you be or be not of her brood?</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>You honour me too far: but now, being come, </l>
+       <l>How many I serve you, that you sent for me?</l>
+      </lg>
+     </sp>
+     <sp who="#zenora">
+      <speaker>Zenora.</speaker>
+      <lg>
+       <l>I wished to speak with you.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> Ah me! I fear </l>
+       <l>You have observed some fault in me. 'Tis true </l>
+       <l>That I have many—more than other maids. </l>
+       <l>I leave my broideries about the rooms, </l>
+       <l>Each day forget a thousand little things, </l>
+       <l>And weightier duties twice or thrice at least. </l>
+       <l>I let the moths eat through my newest robe, </l>
+       <l>Leaving it by i' the press unpeppered, break </l>
+       <l>Thrice more than all my savings can repay, </l>
+       <l>And let the rents run in my gowns unstitched. </l>
+       <l>Then, too, I am impatient o'er my tasks, </l>
+       <l>And leave religious books, soon as your eyes </l>
+       <l>Are turned some other way, for pages strewn </l>
+       <l>With follies of romance.</l>
+      </lg>
+     </sp>
+     <sp who="#zenora">
+      <speaker>Zenora.</speaker>
+      <lg>
+       <l> 'Tis not of these, </l>
+       <l>The rifer faults in girls of your crude age </l>
+       <l>That I would speak with you.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> Have I then more? </l>
+       <l>Alas! I thought these same were full enough, </l>
+       <l>Nay, far too many, and repent them sore. </l>
+       <l>But now I have some new fault yet unlearned. </l>
+       <l>Tell me, dear mistress, that I may make haste </l>
+       <l>In season to reform it.</l>
+      </lg>
+     </sp>
+     <sp who="#zenora">
+      <speaker>Zenora.</speaker>
+      <lg>
+       <l> Duteous girl! </l>
+       <l>Know then this fault is much the contrary </l>
+       <l>Of that which most befalls young maidens set </l>
+       <l>In your condition, and, though 'tis a sin </l>
+       <l>Against all nature, yet may it be called </l>
+       <l>A virtuous failing.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> 'Tis some strange default </l>
+       <l>That so makes one the unmingling elements </l>
+       <l>Of extreme vice and venial offence.</l>
+      </lg>
+     </sp>
+     <sp who="#zenora">
+      <speaker>Zenora.</speaker>
+      <lg>
+       <l>Well, know that when, some few days past, my son </l>
+       <l>Came back from Paris home, his studies o'er, </l>
+       <l>I said within myself, Ah, foolish dame, </l>
+       <l>To graft into thine house a portionless </l>
+       <l>And orphan child of such a comely face, </l>
+       <l>A barren plash with such a flush of flowers </l>
+       <l>Of other sort than goes with gilded fruit. </l>
+       <l>(Nay, blush not): surely, looking on thy son, </l>
+       <l>So manful-fair, so fraught with golden bales </l>
+       <l>Of wisdom, sailing to so rich a port </l>
+       <l>Upon the impulse of all favouring winds, </l>
+       <l>So wide an harbour of fair heritage, </l>
+       <l>She will work mischief to her best of power, </l>
+       <l>And shake down all her petals at his feet. </l>
+       <l>So deeming, I bethought to closely watch </l>
+       <l>Thy ways, and guard against what well thou know'st </l>
+       <l>Would be disaster to our noble house, </l>
+       <l>When lo! the wind blows from the other pole </l>
+       <l>An ice-flaw cutting to the bone with frost, </l>
+       <l>And my fear's very opposite befalls </l>
+       <l>In such excess as to become a vice. </l>
+       <l>I would not have thee so forget thy station </l>
+       <l>To pay lewd and o'erreaching courtesies </l>
+       <l>Unto my son; nor can I well abide </l>
+       <l>To mark thee, with an equal arrogance, </l>
+       <l>So scorn and hold him cheap as now thou dost. </l>
+       <l>I see the young man is much grieved thereat, </l>
+       <l>And he so manful, virtuous, and wise, </l>
+       <l>A princess might take pride to speak with him.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>I will reform this to my best of power.</l>
+      </lg>
+     </sp>
+     <sp who="#zenora">
+      <speaker>Zenora.</speaker>
+      <lg>
+       <l>So! you deny it not! Why, I had thought </l>
+       <l>Some light, unwarranted, foolish vanity </l>
+       <l>Had made it seem the young man fancied you, </l>
+       <l>And, being modest and of humble mind, </l>
+       <l>As I have found you hitherto, and chaste, </l>
+       <l>That you of purpose slighted him, for fear </l>
+       <l>You else might seem approve his too mean choice, </l>
+       <l>And so of fostering it, considering well </l>
+       <l>The breach of custom set betwixt your fates, </l>
+       <l>Albeit approving—as how should I doubt?— </l>
+       <l>His form to match his mind, and loving him, </l>
+       <l>But deeming all too high to honour one </l>
+       <l>So stinted as yourself in fortune's gifts. </l>
+       <l>If so it proved, I meant to comfort you </l>
+       <l>By showing (mixed with wholesome bitters culled </l>
+       <l>Of choice advice and sweets of hinted promise </l>
+       <l>How some day I should find you your fit match) </l>
+       <l>Of my son's mind, how it was built too firm </l>
+       <l>On pride and reason's solid marble-blocks, </l>
+       <l>No shifting sands of changeful phantasies, </l>
+       <l>To fall at storm of aught so silly a maid, </l>
+       <l>And bury in its ruin all our race, </l>
+       <l>Nay, of no lady so beneath his rank. </l>
+       <l>But now it seems your pert young vanity </l>
+       <l>Has pitched a higher and a higher flight, </l>
+       <l>And that you scorn where prayer would be profane, </l>
+       <l>And dare hate where you should not dare to love.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Dear lady, for the gratitude I owe, </l>
+       <l>I cannot blame thee for so bitter taunts, </l>
+       <l>Who know myself beneath thyself and son </l>
+       <l>In all that makes man envied of his kind. </l>
+       <l>I have nor rank, nor riches, nor high birth, </l>
+       <l>And owe thee all; though, to be frank, I deem </l>
+       <l>A mindful benefactor scarce less vile </l>
+       <l>Than a forgetful heir of benefits, </l>
+       <l>And to do good offencefully more cruel </l>
+       <l>Than generous evil; for that the other binds </l>
+       <l>Your enemy's hands to peace with chains of honour, </l>
+       <l>Which if he break, he wounds himself and thee, </l>
+       <l>But more himself, since fame is more than life.</l>
+      </lg>
+     </sp>
+     <sp who="#zenora">
+      <speaker>Zenora.</speaker>
+      <lg>
+       <l>Ungracious girl! do you requite me thus? </l>
+       <l>However this your o'erstrained frowardness </l>
+       <l>T'ward me shall not yield less my charity. </l>
+       <l>How came you, though, to bend your scorn so high, </l>
+       <l>To shoot its venom upward at my son?</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>I know not if I flouted him. Perchance </l>
+       <l>My heart shone through in action all too clear.</l>
+      </lg>
+     </sp>
+     <sp who="#zenora">
+      <speaker>Zenora.</speaker>
+      <lg>
+       <l>Your heart! a proper seat to harbour scorn, </l>
+       <l>Of him too! In the ocean where all praises </l>
+       <l>Empty themselves what bitter brook falls here? </l>
+       <l>'Mid such a scene what blemish can yours find </l>
+       <l>Where other's eyes can see but virtues sown </l>
+       <l>In that fair rose-garden, his opening life, </l>
+       <l>Like flowers, so thick that not a weed can sprout, </l>
+       <l>Or it is quickly smothered by the throng?</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>I know not, madam. Far as my sight carries </l>
+       <l>He seems all honour, wisdom, courage, truth.</l>
+      </lg>
+     </sp>
+     <sp who="#zenora">
+      <speaker>Zenora.</speaker>
+      <lg>
+       <l>What here for scorn?</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> Indeed, I scorn him not.</l>
+      </lg>
+     </sp>
+     <sp who="#zenora">
+      <speaker>Zenora.</speaker>
+      <lg>
+       <l>That's well, at least. Then wherefore hate you him?</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>I know not.</l>
+      </lg>
+     </sp>
+     <sp who="#zenora">
+      <speaker>Zenora.</speaker>
+      <lg>
+       <l> But you do.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> It is not hate. </l>
+       <l>He never wronged me.</l>
+      </lg>
+     </sp>
+     <sp who="#zenora">
+      <speaker>Zenora.</speaker>
+      <lg>
+       <l> Must that be for hate? </l>
+       <l>Hate may be where no cause, then bitterest. </l>
+       <l>It is a plant that grows without a seed, </l>
+       <l>Or, if there be a seed, oft in the breast, </l>
+       <l>Of him who harbours hate, a curse self-fed </l>
+       <l>Upon his heart, a fire upon his house. </l>
+       <l>Men hate most whom they have injured. Injury </l>
+       <l>Begets the scorn of self, which scorn begets </l>
+       <l>The hate of him who made us scorn ourself </l>
+       <l>By hurting him (we say he made us do it, </l>
+       <l>So just!) If this of yours, then, be not hate, </l>
+       <l>Which shows so like hate, what then is it, child?</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>I cannot tell that neither. I am but </l>
+       <l>A foolish girl, and make all estimates </l>
+       <l>More by main instinct than by reason, and </l>
+       <l>At the first glance. Why, I have known myself </l>
+       <l>Hate one who had red hair, only for that, </l>
+       <l>No other cause.</l>
+      </lg>
+     </sp>
+     <sp who="#zenora">
+      <speaker>Zenora.</speaker>
+      <lg>
+       <l> Well, wear more courtesy, </l>
+       <l>And, with what flimsy gauze you can, inveil </l>
+       <l>Your misformed feelings, if to mould them straight, </l>
+       <l>To need no veil needs more wit than you own, </l>
+       <l>And be this warning of its kind the last. </l>
+       <l>But what's the proverb of an angel's wings? </l>
+       <l>I have a glimpse.</l>
+      </lg>
+     </sp>
+     <stage>Enter Raolfo.</stage>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> What, mother, not alone? </l>
+       <l>But in sweet converse with our lovesome guest. </l>
+       <l>Why, this is well! You live too much apart; </l>
+       <l>And women have a thousand whims to tell </l>
+       <l>To other women, which in solitude </l>
+       <l>Must well nigh burst their heart with holding them. </l>
+       <l>Leastwise when you are met your tongues run on </l>
+       <l>Like prattling brooks or birds, or children's talk. </l>
+       <l>Nay, mother, frown not so; you know they do. </l>
+       <l>Is it not fact, fair lady?</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> So you say, </l>
+       <l>And it becomes us not to praise ourselves.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>Why, 'tis no self-praise to disown this charge. </l>
+       <l>'Tis but a slight fault of great virtue born; </l>
+       <l>A wild-rose sucker from the double rose; </l>
+       <l>Waste that makes riot with luxuriant growth, </l>
+       <l>To breed fair vices of excess of virtue, </l>
+       <l>That make the pruner's hand shrink from his task, </l>
+       <l>Spare half, and every stroke a sweet regret; </l>
+       <l>A wild spray from the root of social joy, </l>
+       <l>The pleasure in his fellow's company </l>
+       <l>Which causes man alone of all the beasts </l>
+       <l>To live in cities and to bow to laws, </l>
+       <l>For “man by nature is political,” </l>
+       <l>As Aristotle saith, and woman more.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>You talk above me.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Lady, say not so. </l>
+       <l>My talk is apt to relish of the schools, </l>
+       <l>For where the treasure is, you know, 'tis said </l>
+       <l>The heart is also. But pray pardon me.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>It needs no pardon.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Mother, plead for me.</l>
+      </lg>
+     </sp>
+     <sp who="#zenora">
+      <speaker>Zenora.</speaker>
+      <lg>
+       <l>Nay, I will leave thee make thine own excuse. </l>
+       <l>It is the one sole flaw I find in thee, </l>
+       <l>And will depart when thou art more acquainted </l>
+       <l>With foolish company and empty talk, </l>
+       <l>Which schooling cannot lack, if thou live here, </l>
+       <l>And troubles me to think of, lest how much </l>
+       <l>With this blameworthy go worth praise to ruin: </l>
+       <l>For ah! we lose our virtues with our faults, </l>
+       <l>Like plants with the close-kissing parasite, </l>
+       <l>Too fast embracing to unwreathe their arms </l>
+       <l>And let us slay the weed and leave the flower, </l>
+       <l>So subtly are they woven each with each: </l>
+       <l>And when the last fault left in generous youth, </l>
+       <l>As pride of heart or mind, is rooted out, </l>
+       <l>'Tis weighty odds some ranker vice grows up. </l>
+       <l>Farewell, and seek me in the oratory. </l>
+      </lg>
+      <stage> [Exit Zenora.</stage>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>A mother sees her son through mists of tears, </l>
+       <l>With eyes love-blinded. Pardon her and me. </l>
+       <l>My banter and my craving grace for it, </l>
+       <l>That neither meant thee pain, gave pain alike.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>It wounded not, kind sir.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Ah, say not so: </l>
+       <l>For when such words wound not they oft breed scorn, </l>
+       <l>And I had rather wound than be despised.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>I should condemn myself in scorning you.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>Not so, but rather me.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> What fruit could grow </l>
+       <l>Of the rash judgment of an untaught girl?</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>Such know a many things veiled from our souls. </l>
+       <l>Know you the words so often read at mass </l>
+       <l>Of wisdom that escapes the wise and learned?</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>And is revealed to sucklings and to babes.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>Indeed, I meant not that.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> But it is true, </l>
+       <l>For I am young and foolish.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Once again, </l>
+       <l>My meaning was your soul soared nigher heaven.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>For being foolish?</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Nay, for being pure, </l>
+       <l>Purer than purest men, who at the best </l>
+       <l>Must soil their hands in battle, which your fate </l>
+       <l>Spares you; and though they beat down sin and self, </l>
+       <l>And come out like the pure gold tried with fire, </l>
+       <l>Yet must they hear and see the sin of the world, </l>
+       <l>Which you need not; and therefore does their soul </l>
+       <l>Make harmony in dissonance, while yours </l>
+       <l>With one consent sings with the circling stars, </l>
+       <l>An hymn more acceptable, though less praised </l>
+       <l>By the great maker.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> Once again you speak </l>
+       <l>Above me, sir.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Alas! how should we take </l>
+       <l>Thoughts that lie out of our experience? </l>
+       <l>How should she catch by the thin gossamer wing, </l>
+       <l>The filmy fleeting wing, and hold light hints, </l>
+       <l>A moment in our reach, then gone, of things </l>
+       <l>She knows not, and is blest in knowing not, </l>
+       <l>For as I think my mother keeps her close— </l>
+       <l>Once more I beg forgiveness.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> And for what?</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>For troubling thee.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> Seek out some worthier ear, </l>
+       <l>And waste no wisdom on so shaly soil.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>Why shame me so with what I most would be? </l>
+       <l>I am not wise, unless love makes us wise, </l>
+       <l>As some say.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> How, sir!</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Look not on me so. </l>
+       <l>Indeed I love thee, loved thee heart and soul </l>
+       <l>Since first our eyes kist. Wherefore leave me thus?</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>It ill becomes me, sir, being that I am, </l>
+       <l>To list love tales from so unequal tongue.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>What! am I scorned, then?</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> I denied it once, </l>
+       <l>But now I am not sure. You see my state, </l>
+       <l>A poor man's orphan in your mother's home. </l>
+       <l>You cannot mean the love of married names, </l>
+       <l>And so to stain my cheek with flatteries </l>
+       <l>Redder than shame, and blow on the frail flower </l>
+       <l>Of my good name, your mother's alms-woman, </l>
+       <l>Under the guise of high philosophy, </l>
+       <l>Feeling your way with hints of nameless things, </l>
+       <l>Is treacherous and cruel, yea, and base.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>By Heaven, I never meant but lawful love! </l>
+       <l>And when I wooed thee 'twas to marry thee.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Have I not heard that vows like these are rife, </l>
+       <l>And read how men with hooks catch innocence </l>
+       <l>By such fair baits? No truth bears leaning on. </l>
+       <l>Indeed I now begin to scorn you, sir.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>'Tis I am wronged. What root lurked in my words </l>
+       <l>For such suspicion? And where found you cause </l>
+       <l>Believe my virtue lighter than your own? </l>
+       <l>'Tis ill to put such books in young maids' hands </l>
+       <l>Which make them deem the jewel chastity </l>
+       <l>Hath no place in the virtues of a man. </l>
+       <l>Hence comes it that so many cast their love </l>
+       <l>For swine to trample.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> Trust me, when I love </l>
+       <l>I will choose well. Meanwhile impute to pride </l>
+       <l>My quick suspicion, not to sin in me; </l>
+       <l>And leave me now, and speak no more of this.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>No more. Your words have wounded me too deep. </l>
+      </lg>
+      <stage> [Exit Raolfo.</stage>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>I fear I missed his meaning wide: nor know </l>
+       <l>Cause why to loathe him so, as yet I do, </l>
+       <l>Who is good and true—nay, on truth's further side. </l>
+       <l>But from the eye's turn when I saw him first </l>
+       <l>Aversion whelmed me, deepening into hate. </l>
+       <l>Quicker than stream e'er deepened t'ward the sea, </l>
+       <l>If one whom conscience quits of sin can hate </l>
+       <l>Another full as pure and higher poised </l>
+       <l>Upon the nobler virtues of a man. </l>
+       <l>'Tis strange, this loathing: but we do not love, </l>
+       <l>I at least do not, by main weight of merit. </l>
+       <l>Perchance 'tis well, for else the sin-stained soul, </l>
+       <l>Baffled alike of virtue and of love, </l>
+       <l>Might find life's desert all too desolate. </l>
+       <l>Give me a man less perfect.</l>
+      </lg>
+     </sp>
+     <stage>Enter Fausta.</stage>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> How now, child? </l>
+       <l>I met but now my cousin in a fret. </l>
+       <l>He scowled upon me darkly, and I knew </l>
+       <l>'Twas some fresh slight of yours. Why, are you blind? </l>
+       <l>Can you not see he is not one to scorn? </l>
+       <l>Or blinder still, and cannot see his love?</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>He told me of it but a moment past.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>And you would none of it?</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> What else should I do?</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>Why should he throw his jewel at your feet? </l>
+       <l>For what so honour you o'er all our sex? </l>
+       <l>And to be scorned at last!</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> Why blame you me? </l>
+       <l>I did not make him love, or, if not so, </l>
+       <l>Can you, of all that breathe, find cause of blame </l>
+       <l>In my refusal?</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Nay, I will be frank, </l>
+       <l>As I am ever. I do love the man, </l>
+       <l>And hate thee for so turning of his love. </l>
+       <l>I read his soul; I see his high-pitched aims, </l>
+       <l>Matched with his strength to give them living shape: </l>
+       <l>My life beats with his life; I first of men </l>
+       <l>Knew and believed in him: I ever burned </l>
+       <l>To be his wife, to help him bring to birth </l>
+       <l>All noble acts and fill his destiny. </l>
+       <l>I am half mad to see him bent on one </l>
+       <l>Who cannot so do for him as I would, </l>
+       <l>Or value him e'en at man's market price, </l>
+       <l>Far less as I do: and though, as thou say'st, </l>
+       <l>Small cause have I to hate thee for that act </l>
+       <l>Which leaves the race to me, yet is it cold </l>
+       <l>To creep in second into his high heart, </l>
+       <l>Thou having left it to the rats; o'er all </l>
+       <l>It goads me but to think a witling girl </l>
+       <l>Should flout my hero.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> Evil was the fate </l>
+       <l>That brought me here a discord in your house! </l>
+       <l>Forgive me.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Nay, speak not, speak not of that, </l>
+       <l>Or thou wilt soften all my rage. I know </l>
+       <l>Thy lot is hard; mine aunt is coarsely kind: </l>
+       <l>But know at least in me an enemy </l>
+       <l>Open and honest as the burning fire </l>
+       <l>Or foaming sea. We stand on equal ground; </l>
+       <l>Thy manners speak thy birth no worse than mine; </l>
+       <l>And I believe them, and for that the more </l>
+       <l>Have cause to hate thee as a rival, not </l>
+       <l>To overlook thee as a toy of his.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>I thank thee, and I thank thee not—the first </l>
+       <l>For thy respect, the second for thy hate, </l>
+       <l>Which I have scarce deserved, for, trust my truth, </l>
+       <l>I ever looked on thee with tenderest love. </l>
+       <l>So thou art crueller than is thine aunt, </l>
+       <l>For my love pours a poison in each stab </l>
+       <l>Which thy tongue deals me. Farewell. Let me go. </l>
+      </lg>
+      <stage> [Exit Teresa.</stage>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>Go, and for thine own like thy friendship keep, </l>
+       <l>For friendship was not made for souls diverse </l>
+       <l>As thine and mine, but somewhat same demands </l>
+       <l>To o'erbridge those inconstant properties, </l>
+       <l>Which change from man to man, with kindred link. </l>
+       <l>I will bestow mine better than on thee.</l>
+      </lg>
+     </sp>
+     <stage>Enter Raolfo.</stage>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>What! quarrelling with our sweet guest?</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> What cause </l>
+       <l>Have you, sir, pray, to deem our guest so sweet?</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>Is she not pure and—</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Yes as many more, </l>
+       <l>Women of all degrees of idiocy. </l>
+       <l>When cynics charge the frailty of our sex, </l>
+       <l>I marvel much they choose inconstancy </l>
+       <l>To aim their shafts at and impurity. </l>
+       <l>Are not pure women plenty as white flowers, </l>
+       <l>Sweet fruit, or any other natural thing? </l>
+       <l>It is a virtue built on weakness, and </l>
+       <l>Most lack bare courage to be otherwise, </l>
+       <l>Or, having this, lack wit to think of it; </l>
+       <l>Or, having that, yet lack enough to find </l>
+       <l>The means of pleasure. So much for that praise. </l>
+       <l>And for inconstancy, when have you known </l>
+       <l>A fool to change his mind? for stubbornness </l>
+       <l>And folly keep each other well in touch, </l>
+       <l>More kin than blind whelps littered at a birth. </l>
+       <l>Women are mostly cowards, therefore pure, </l>
+       <l>And fools, and therefore constant; virtues these </l>
+       <l>Common enough: but seek the higher sort, </l>
+       <l>Justice and prudence and true fortitude— </l>
+       <l>How many women will you find have these?</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>It may be, few enough, and properly. </l>
+       <l>These are the things commended in a man. </l>
+       <l>Women have other virtues, other faults. </l>
+       <l>We praise the hound for fleetness, and the ox </l>
+       <l>For strength, and all things for their proper grace; </l>
+       <l>And finding that, we should go thank high Heaven. </l>
+       <l>None ever blamed an ox for lack of scent, </l>
+       <l>Or hound for that he could not draw a plough.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>But higher creatures higher virtues owe, </l>
+       <l>Therefore are fortitude and prudence more </l>
+       <l>Than purity by all the difference </l>
+       <l>'Twixt man and woman: and if, as may hap, </l>
+       <l>One of the baser ore should chance possess </l>
+       <l>The virtues of the nobler, which more just, </l>
+       <l>To honour her as miracle, or loathe </l>
+       <l>As a deformity?</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Show first to me </l>
+       <l>This woman, and then will I answer you.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>Perchance I could. But were not such more meet </l>
+       <l>Than the other sort to be a hero's bride?</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>Nay, but to be the wife of some weak will.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>How so?</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> The wise man needs no counsellor, </l>
+       <l>The strong no strong will to bear up his own.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>You deem, then, that true friendship should patch up </l>
+       <l>Gaps and deficiencies on either side; </l>
+       <l>The strong will lending strength unto the weak, </l>
+       <l>The weak returning grace unto the strong.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>You reason close and readily conceive, </l>
+       <l>So is it written by the sage.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Come now, </l>
+       <l>I will refute your sage.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Ye gracious Heavens!</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>Come now, sir, tell me have you once yet found </l>
+       <l>A man o'ertopping others in all arts </l>
+       <l>So that the supreme soldier should likewise </l>
+       <l>Be mightiest painter, sculptor, poet, sage, </l>
+       <l>Or otherwise?</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Indeed far otherwise.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>The fount whereof, as some would deem it, springs </l>
+       <l>Solely from brief duration of our days. </l>
+       <l>Think you so?</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Thus the sages bid me think.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>You mean, with ampler scope of years the sage </l>
+       <l>Should prove best hero, poet, painter, all; </l>
+       <l>Or, in the strait and closure of our lives, </l>
+       <l>Had virtue beckoned from another mount, </l>
+       <l>The sculptor had quelled armies, and in turn </l>
+       <l>The hero tamed the stubborn marble's will </l>
+       <l>Till icy chaos yearned to cosmic life.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>I do.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> So do not I, for I have seen </l>
+       <l>In virgin soil of children's untilled minds </l>
+       <l>A thousand differences. But deem that waived. </l>
+       <l>Have you yet found, for you have many friends, </l>
+       <l>One mind that stood right well in divers arts, </l>
+       <l>Though he o'ertopped not others in them all?</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>I have.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Now answer me this one time more. </l>
+       <l>Hath he o'ertopped all others e'en in one?</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>Nay; but to what end all this argument, </l>
+       <l>My lady Plato?</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Just to this, my friend. </l>
+       <l>If for scant power or time we may not pass </l>
+       <l>All ways our fellows, were it not far best </l>
+       <l>Climb to the summit of one art? That so, </l>
+       <l>'Twere wise to seek a friend less powerful </l>
+       <l>To fill demerits up, than with more stress </l>
+       <l>To cumulate our merits?</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> I must crown </l>
+       <l>Thy brows with laurel; but for answer this. </l>
+       <l>I know not if the man who perfects one, </l>
+       <l>Or he who tills all gardens of his soul, </l>
+       <l>Be higher in God's sight; though thine in man's </l>
+       <l>Be first, and in this life, in God's my hero, </l>
+       <l>Climbing from life to life through deathless days, </l>
+       <l>Might win at last to complete excellence.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>Hast no ambition?</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> 'Tis a fault.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Yet still </l>
+       <l>Thou would'st win triumph here, and leave beyond, </l>
+       <l>With all its doubts, to others.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> It is true, </l>
+       <l>Such is my strongest craving.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Choose a friend </l>
+       <l>To help thee gain it.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> What! abandon me </l>
+       <l>To one whose vice by mutual sympathy </l>
+       <l>Should grow into and double mine, and lose </l>
+       <l>In feverish thirst of fame that soft “well done” </l>
+       <l>In him who seeks but God's approof?</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Go to. </l>
+       <l>I am made foolish in thee. Go, turn priest </l>
+       <l>Or true philosopher. Renounce the world, </l>
+       <l>And when thou hast renounced it boast thereof. </l>
+       <l>None will believe thee. All will say, “This man </l>
+       <l>Glosses bare weakness with self-sacrifice.”</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>I say I care not for esteem of men, </l>
+       <l>Save where it tallies with approof of God; </l>
+       <l>Nor with less scorn put by their blame, save where </l>
+       <l>God's censure and my soul's in chorus sing </l>
+       <l>With it, to damn some vice all know for such. </l>
+       <l>Farewell, my cousin. I will seek my book. </l>
+      </lg>
+      <stage> [Exit Raolfo.</stage>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>Now am I madder than I was before. </l>
+       <l>O noblest soul that ever woman loved! </l>
+       <l>It were more privilege to share with such </l>
+       <l>That wise retirement, than with vainer hearts </l>
+       <l>The esteem of princes and the crowd's applause. </l>
+       <l>But with increased love comes increased despair, </l>
+       <l>For now I see him past my furthest reach. </l>
+       <l>But is Teresa worthier than I? </l>
+       <l>Faugh, patience! We shall see that by-and-by.</l>
+      </lg>
+     </sp>
+    </div>
+   </div>
+   <div type="act" n="2">
+    <head>ACT II.</head>
+    <div type="scene" n="1">
+     <head>Scene</head>
+     <stage>Scene.—The same. A Room in Zenora's House.</stage>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>As if there were not work enough already for a man in my condition,
+                                here must needs come a stranger with his lean, lazy vagabond of a
+                                servant, who doubtless will leave his master's work to sweeten my
+                                own. It is a blessing if I have not to wait on the knave himself
+                                too.</p>
+     </sp>
+     <stage>Enter Guido.</stage>
+     <sp who="#guido">
+      <speaker>Guido.</speaker>
+      <p>Kind sir.</p>
+     </sp>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>Kind sir.</p>
+     </sp>
+     <sp who="#guido">
+      <speaker>Guido.</speaker>
+      <p>Honoured sir.</p>
+     </sp>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>Honoured sir—</p>
+      <stage>(aside)</stage>
+      <p> why, is this a barber or a dancing master?—your highness.</p>
+     </sp>
+     <sp who="#guido">
+      <speaker>Guido.</speaker>
+      <p>I perceive you are an accomplished gentleman. May I presume you are
+                                the gentleman in waiting upon the gentleman, your master, Signor
+                                Raolfo?</p>
+     </sp>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>The same, at your service. What a fool is this!</p>
+     </sp>
+     <sp who="#guido">
+      <speaker>Guido.</speaker>
+      <p>Pray, sir, have you ever been at the French court?</p>
+     </sp>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>Why?</p>
+     </sp>
+     <sp who="#guido">
+      <speaker>Guido.</speaker>
+      <p>I perceive you have, so to speak, the same polish of manner as I
+                                myself learnt there. It is, indeed, the only school of true chivalry
+                                and knighthood.</p>
+     </sp>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>Why, is it the custom there for every knave of a serving-man to
+                                address his fellow as sir,—kind sir,—honoured sir,—are you the
+                                gentleman in waiting upon the gentleman your master?</p>
+     </sp>
+     <sp who="#guido">
+      <speaker>Guido.</speaker>
+      <p>Why, where else could you have learned this courtesy?</p>
+     </sp>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>Of you.</p>
+     </sp>
+     <sp who="#guido">
+      <speaker>Guido.</speaker>
+      <p>Of me? Come now, you have not known me long enough and closely enough
+                                to mould your graciousness on my model.</p>
+     </sp>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>Have you learnt so little at the French court that you know not when
+                                one is making a jape of you?</p>
+     </sp>
+     <sp who="#guido">
+      <speaker>Guido.</speaker>
+      <p>Nay, sir, but I can afford to pass over such things. My courage is
+                                undoubted, and I would think shame to soil my ruffles chastising an
+                                unmannerly menial.</p>
+     </sp>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>Oh!</p>
+      <stage> [Exit Basso.</stage>
+     </sp>
+     <sp who="#guido">
+      <speaker>Guido.</speaker>
+      <p>The plebeian porpoise! The untamed elephant!</p>
+     </sp>
+     <stage>Enter Raolfo and Ilario.</stage>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <p>What do you here, sir? Go, prepare my chamber.</p>
+     </sp>
+     <sp who="#guido">
+      <speaker>Guido.</speaker>
+      <lg>
+       <l>Sir, on the moment. </l>
+      </lg>
+      <stage> [Exit Guido.</stage>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Now, my gentle host, </l>
+       <l>For you are son of my kind hostess, and </l>
+       <l>My mother's friend, we should be better known, </l>
+       <l>Since you denied me privilege at Paris, </l>
+       <l>And never sought me out at the King's court.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>My hours were little mine.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Ah yes, you studied. </l>
+       <l>'Twas a strange freak in one so shaped by nature </l>
+       <l>For better things.—Your pardon, though.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Of course. </l>
+       <l>I understand.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> The chase, the tilt, the dance, </l>
+       <l>Tennis, and fencing should have been your books. </l>
+       <l>You know what frolic parties were made up. </l>
+       <l>You must have seen us go forth many times </l>
+       <l>Into the country with our steeds and dogs. </l>
+       <l>Why, had you come, I should have made you known </l>
+       <l>To all the other pages, and the dames </l>
+       <l>Who made our life so merry.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Like to like. </l>
+       <l>I should not much have loved them, nor they me.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l>Why, you are prone to sadness. Give it up; </l>
+       <l>It is a bad companion; and make use </l>
+       <l>Of all life's seasons in their fitting way. </l>
+       <l>I mean to take to grief, and books, and gout </l>
+       <l>When I am fifty, if I live so long, </l>
+       <l>Which is not like to happen, if I spare </l>
+       <l>My health no more than some time past I have.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>And herein would you have me copy you, </l>
+       <l>Or live my time out?</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Why, to wear a skin </l>
+       <l>Like an eared field with furrows, or a tunic </l>
+       <l>Ill cut that hangs in bags, or a dried snake? </l>
+       <l>To totter and to shamble to and fro, </l>
+       <l>And drivel folly with a slobbering tongue, </l>
+       <l>While all diseases harbour in your flesh?</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>This is the life you run some risk to bear, </l>
+       <l>If death upon the threshold of old age </l>
+       <l>Should play the jilt and leave you in the lurch. </l>
+       <l>But I look forward to another sort </l>
+       <l>Free of disease and ripe in wisdom's fruit.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l>Give me the flowers of May.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Well, as you will. </l>
+       <l>Tastes vary.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario </speaker>
+      <stage>(aside).</stage>
+      <lg>
+       <l> Now, was ever such a youth? </l>
+       <l>He might change places with his grandmother, </l>
+       <l>And she grow older and he more a man! </l>
+       <l>Well, sir, I am no match for you, I see, </l>
+       <l>In strifes of bickering wit; but let us meet </l>
+       <l>At some fit time with two good bowls between, </l>
+       <l>And frothing burgundy for argument, </l>
+       <l>Who swallows more to be the better man, </l>
+       <l>And I will match you.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Ay, no doubt, no doubt.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l>Or I will fly a hawk, or back a steed, </l>
+       <l>Or make a song and set it to a tune, </l>
+       <l>Upon the cithern or the mandolin, </l>
+       <l>Or run a tilt, or hit a mark—</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Or boast. </l>
+       <l>In all these things I yield pre-eminence.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l>Sir—but no matter. Let us e'en be friends. </l>
+       <l>For I would love you well if you would let me.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>None hinders. Love and friendship must go free.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l>But who comes here? You never told me, friend, </l>
+       <l>What angels make your house a paradise. </l>
+       <l>Your sister, pray?</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> No, but my mother's friend, </l>
+       <l>One of our family.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> So ho!</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Excuse me. </l>
+       <l>I will go tell my mother you are come. </l>
+      </lg>
+      <stage> [Exit Raolfo.</stage>
+     </sp>
+     <stage>Enter Teresa.</stage>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Your pardon, sir, I had not seen you.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Nay, </l>
+       <l>Go not, fair lady; hold me, as I am, </l>
+       <l>But nothing, and o'erlook my presence; or, </l>
+       <l>Since I must be a guest here for some space, </l>
+       <l>And you must bear with me till by main wont </l>
+       <l>You learn my sufferance, pray begin at once. </l>
+       <l>Raolfo is but gone to seek his mother; </l>
+       <l>She will be here anon.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> I thank you, sir; </l>
+       <l>I came but for these broideries, and now </l>
+       <l>Must go, for which I beg you pardon me. </l>
+      </lg>
+      <stage>(Aside)</stage>
+      <lg>
+       <l> Pray Heaven he may not let me!</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Broideries! </l>
+       <l>I have some skill in these things. May I see? </l>
+       <l>A good device, and admirably wrought! </l>
+       <l>By you of course?</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> Ay, sir, the work is mine.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l>I have some such the labour of a countess. </l>
+       <l>You shall have all to copy if you will.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>How can I thank you fully?</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Nay, for that, </l>
+       <l>They shall be honoured by your touch for me, </l>
+       <l>And henceforth so possess a double worth.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Half for the giver, half—</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> For thee? Not so: </l>
+       <l>I said not so; but half for thy sake, half </l>
+       <l>For a friend's sake, the giver's only son. </l>
+       <l>Nay, I will alter that, and hold them dear </l>
+       <l>An hundred times for thee, and once for him.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>You flatter me too much.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Where anything </l>
+       <l>Cannot be done, it cannot be too much.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Why, worse and worse.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> You mean, my gracious one, </l>
+       <l>That I draw near and nearer to the truth.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Nay, further from the truth, in drawing near </l>
+       <l>To merit I possess not.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Why, then, truth </l>
+       <l>And goodness are not one.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> I miss your drift, </l>
+       <l>But only see you mean more flattery; </l>
+       <l>But they stay long. Permit me lead you, sir, </l>
+       <l>Into your hostess' presence.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Joyfully. </l>
+       <l>And blessèd is the way when angels lead.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Oh, fie!</l>
+      </lg>
+     </sp>
+     <stage> [Exeunt Ilario and Teresa.</stage>
+     <stage>Enter Nita on one side, Guido on the other. He pursues her.</stage>
+     <sp who="#guido">
+      <speaker>Guido.</speaker>
+      <p>Sweet lady, shun me not, I pray.</p>
+     </sp>
+     <sp who="#nita">
+      <speaker>Nita.</speaker>
+      <p>Why, he is almost as fine a young gentleman as his master, let alone
+                                as ours, who is more beautiful in his person than engaging in his
+                                speech.</p>
+     </sp>
+     <sp who="#guido">
+      <speaker>Guido.</speaker>
+      <p>Sweet lady.</p>
+     </sp>
+     <sp who="#nita">
+      <speaker>Nita.</speaker>
+      <p>Well, sir?</p>
+     </sp>
+     <sp who="#guido">
+      <speaker>Guido.</speaker>
+      <p>Be not so coy. Fold not thyself up in bashfulness as the flower at
+                                night-fall, or as the oyster closeth up his shells at shadow of the
+                                pearl-diver!</p>
+     </sp>
+     <sp who="#nita">
+      <speaker>Nita.</speaker>
+      <p>How beautiful!</p>
+     </sp>
+     <sp who="#guido">
+      <speaker>Guido.</speaker>
+      <p>Yes, my words are beautiful. I and my master are both poets.</p>
+     </sp>
+     <sp who="#nita">
+      <speaker>Nita.</speaker>
+      <p>Not your words, but your hair. Who curled it?</p>
+     </sp>
+     <sp who="#guido">
+      <speaker>Guido.</speaker>
+      <p>Why, it was last curled by a countess. What think you of that? </p>
+      <stage>(Aside)</stage>
+      <p> I shall soon be as good a liar as my master. I heard him—the rogue.</p>
+     </sp>
+     <sp who="#nita">
+      <speaker>Nita.</speaker>
+      <p>Give me that beautiful handkerchief.</p>
+     </sp>
+     <sp who="#guido">
+      <speaker>Guido.</speaker>
+      <p>It is hard to part with it, for a duchess bestowed it upon me. There
+                                is another for you. But let me first weep a few tears on it, and I
+                                will then present it to you.</p>
+     </sp>
+     <sp who="#nita">
+      <speaker>Nita.</speaker>
+      <p>Do not blubber on it, if it is to be mine.</p>
+     </sp>
+     <sp who="#guido">
+      <speaker>Guido.</speaker>
+      <p>Pretty untrained rose, thou shouldst have said, “I will kiss thy
+                                tears from it, and restore it to thee.” And then I would have said,
+                                “It shall now be ever doubly dear to me.” And thou shouldst have
+                                made reply, “What! half for me, and half for the giver?” But now you
+                                have spoilt it all.</p>
+     </sp>
+     <sp who="#nita">
+      <speaker>Nita.</speaker>
+      <p>How well you follow your master!</p>
+     </sp>
+     <sp who="#guido">
+      <speaker>Guido.</speaker>
+      <p>What! were you listening too?</p>
+     </sp>
+     <sp who="#nita">
+      <speaker>Nita.</speaker>
+      <p>For what do you take me? Behind this door.</p>
+     </sp>
+     <sp who="#guido">
+      <speaker>Guido.</speaker>
+      <p>And I behind that. Was it not an enchanting pastoral? On this side
+                                gallantry, on that simplicity; court ease, and home-bred
+                                bashfulness; elegance and native decorousness;—he learnt it all from
+                                me. I taught him upon what principle to make love. Hence the
+                                resemblance. He is a good pupil, a fair pupil.</p>
+     </sp>
+     <sp who="#nita">
+      <speaker>Nita.</speaker>
+      <p>What! Have you but one way?</p>
+     </sp>
+     <sp who="#guido">
+      <speaker>Guido.</speaker>
+      <p>Why yes, usually. When versatility is needless, why put yourself
+                                about to invent new stratagems?</p>
+     </sp>
+     <sp who="#nita">
+      <speaker>Nita.</speaker>
+      <p>Then Basso could instruct thee.</p>
+     </sp>
+     <sp who="#guido">
+      <speaker>Guido.</speaker>
+      <p>What! the fat serving-man?</p>
+     </sp>
+     <sp who="#nita">
+      <speaker>Nita.</speaker>
+      <p>The same. He makes love every time a new way, and each time worse
+                                than the last.</p>
+     </sp>
+     <sp who="#guido">
+      <speaker>Guido.</speaker>
+      <p>Makes love! To whom?</p>
+     </sp>
+     <sp who="#nita">
+      <speaker>Nita.</speaker>
+      <p>To me.</p>
+     </sp>
+     <sp who="#guido">
+      <speaker>Guido.</speaker>
+      <p>To you! I will challenge him, and spit him like a fat ox.</p>
+     </sp>
+     <sp who="#nita">
+      <speaker>Nita.</speaker>
+      <p>You may spare yourself the pains. I like you better.</p>
+     </sp>
+     <sp who="#guido">
+      <speaker>Guido </speaker>
+      <stage>(aside).</stage>
+      <p>How rapid my conquests are, to be sure!—Come, a kiss.</p>
+     </sp>
+     <sp who="#nita">
+      <speaker>Nita.</speaker>
+      <p>Here is my mistress. Let us away.</p>
+     </sp>
+     <stage> [Exeunt Guido and Nita.</stage>
+     <stage>Enter Zenora, Ilario, and Fausta.</stage>
+     <sp who="#zenora">
+      <speaker>Zenora.</speaker>
+      <lg>
+       <l>Now I will leave you until dinner-time: </l>
+       <l>And you, dear niece, shall entertain our guest, </l>
+       <l>Since poor Teresa, who should help you here, </l>
+       <l>Is taken with some sudden bashful fit </l>
+       <l>(She calls it illness) and withdrawn from sight </l>
+       <l>Into her chamber, and my strange dear boy </l>
+       <l>Pleads he hath business of such pressing call </l>
+       <l>It may not be waved off or put aside. </l>
+       <l>Farewell. </l>
+      </lg>
+      <stage> [Exit Zenora.</stage>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Sweet lady, if I trouble thee, </l>
+       <l>I prithee tell me.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Sir, I shall as well </l>
+       <l>As courtesy permits.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Your cousin, lady, </l>
+       <l>Is very strange and distant.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> It were strange </l>
+       <l>If he should seem not strange to you.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Indeed, </l>
+       <l>Court life so customs all the palate's touch </l>
+       <l>To nicety, that this you say is fact; </l>
+       <l>Yet I could e'en put by fastidiousness, </l>
+       <l>Nor quarrel with strong wine if it be sharp, </l>
+       <l>In this case; and it numbs me thus the more </l>
+       <l>That the deep friendship I had felt for him </l>
+       <l>At first sight, should meet such November welcome.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>I said 'twere strange if he should not seem strange </l>
+       <l>To you, but it is stranger you can love him.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l>It may seem so; but 'neath the rugged rind </l>
+       <l>Of rude harsh bearing and unsoftened manner </l>
+       <l>I seem to see that lurking, so to speak, </l>
+       <l>Which bids us look for mellower fruit anon.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>Indeed.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Indeed I do. Believe me, lady, </l>
+       <l>I am sincere. A week at court or so </l>
+       <l>Would mend him and would make him.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Such as you? </l>
+       <l>I think not.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Nay, perhaps not: but you flatter.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>'Tis the first time.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> That makes the flattery </l>
+       <l>Too flattering.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Pray ease your mind on that.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l>I will, and when I go again to Paris, </l>
+       <l>Will tell the duchess how a lady here </l>
+       <l>Could give a compliment as graceful turn </l>
+       <l>As any at the court.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> And add to it </l>
+       <l>That the receiver had a shrewder scent </l>
+       <l>To catch the perfume of the folded words, </l>
+       <l>And so extract the quintessence of praise </l>
+       <l>Thrice cohobated and reclarified, </l>
+       <l>As bees find honey hidden in the flower, </l>
+       <l>Than any courtier: though they lack not wit </l>
+       <l>If e'en their wittiest have this superflux.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l>You are my match, in truth you are my match, </l>
+       <l>And bandy courtesies with equal fence.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>Nay, I disclaim the equality.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Not so. </l>
+       <l>Pray, draw the game, believing me sincere </l>
+       <l>When I confess my loss as great as thine. </l>
+       <l>Tiros, sweet lady, have beat veterans </l>
+       <l>In their first battle.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Nay, I yield the ground, </l>
+       <l>And draw my rude recruits out of the field. </l>
+       <l>The prize I cannot win, which, if I might, </l>
+       <l>Would suit me ill.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> And what is this fair prize? </l>
+       <l>But here, see back your cousin in good time.</l>
+      </lg>
+     </sp>
+     <stage>Enter Raolfo.</stage>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>My mother sent me here to walk with you </l>
+       <l>And show the beauties of our native town </l>
+       <l>(If you approve) till dinner.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Willingly: </l>
+       <l>But, sir, this lady and myself have been </l>
+       <l>Contesting hotly with our keenest wit, </l>
+       <l>And leave the event disputed: but the prize </l>
+       <l>She, as the strong should still be merciful, </l>
+       <l>Hath yielded me. Farewell awhile, sweet foe, </l>
+       <l>I'll wear the wreath.</l>
+      </lg>
+     </sp>
+     <stage> [Exit Ilario with Raolfo.</stage>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Of folly; 'twill become thee. </l>
+       <l>Had ever vanity till now such power </l>
+       <l>As so transform a man not quite a fool, </l>
+       <l>But with a kind of vulgar craft and cunning, </l>
+       <l>Into a downright credulous idiot, </l>
+       <l>To take all satire down in compliment </l>
+       <l>With greedy gulp, as a fish sucks the hook in. </l>
+      </lg>
+      <stage>Enter Teresa.</stage>
+      <lg>
+       <l>Why, how now, girl? your sudden fit of vapours </l>
+       <l>Has robbed you of a treat.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> What treat?</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> The sight </l>
+       <l>Of the most complete puppy littered yet.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Whom point you at?</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Whom but our new-come guest.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Indeed, I think you wrong him much.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> So, then, </l>
+       <l>You know him.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> I have seen him.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Since he came?</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>A short while since.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Why, then, you must be deaf </l>
+       <l>Or blind.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> Why?</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Had you known him years agone </l>
+       <l>And deemed him not a fool, then had I deemed </l>
+       <l>That either he had changed or you forgot. </l>
+       <l>But now—</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> Well now?</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> I know not what to think.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Think yourself right, and me, as ever, wrong.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>Here's sudden mischief. Now, if he could know </l>
+       <l>You fought his battles thus, I dare be sworn </l>
+       <l>He would enlarge his conquests with your name, </l>
+       <l>The fellow is so vain.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> Well, say your will.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>So now the tempest rises, it grows hot, </l>
+       <l>The air is sulphurous, and the clouds blush red.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Now, truly, you presume too far.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Presume! </l>
+       <l>'Tis a new word. I like it on your lips. </l>
+       <l>You never were but tame until this hour. </l>
+       <l>Let me commend the change, and thank the cause </l>
+       <l>When he returns.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> I say you go too far. </l>
+       <l>I will not sit with you.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Nay, as you will. </l>
+       <l>Yet stay a moment. I have words for you. </l>
+       <l>Have you that hardihood, that effrontery </l>
+       <l>To flout Raolfo under all our eyes, </l>
+       <l>And turn on us who give but things their names </l>
+       <l>In matter of this youth? Will you, on whom </l>
+       <l>His love stooped downward, having brushed it off, </l>
+       <l>Grope in the gutter for this mite of manhood, </l>
+       <l>This filthy brass thing, soiled from hand to hand; </l>
+       <l>This lady's man, this curled effeminate fop, </l>
+       <l>His velvet bonnet on his empty pate; </l>
+       <l>This swaggering bravo with the well-oiled tongue </l>
+       <l>That clatters in his mouth like a bell-hammer </l>
+       <l>With empty jargon, bare unmeaning noise?</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Now I have heard you to the end. I hold </l>
+       <l>This bravo better than your pedagogue, </l>
+       <l>His jargon less unmeaning than the other's. </l>
+       <l>Keep to your choice, and let the world choose too. </l>
+       <l>When I make mine, I shall not envy yours, </l>
+       <l>Nor use detraction, envy's instrument. </l>
+       <l>Farewell! </l>
+      </lg>
+      <stage> [Exit Teresa.</stage>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>Yesterday's drudge is empress of to-day. </l>
+       <l>Pride is a mushroom grows up in a night, </l>
+       <l>And quickliest ever in the foulest soil. </l>
+       <l>Well, we may thank God, beauty and true wealth, </l>
+       <l>Worth in a friend, and happiness in life, </l>
+       <l>The fairest art, the noblest of deeds done </l>
+       <l>Bear difference to different men. So all </l>
+       <l>Have scope and running, where if all agreed </l>
+       <l>We should have small agreement else, I wot, </l>
+       <l>But one man be the sought of womankind </l>
+       <l>And torn to pieces in their rivalry, </l>
+       <l>While now, who flouts at a philosopher, </l>
+       <l>Your lady, may go marry with her cook, </l>
+       <l>And the sage make requital of the loss </l>
+       <l>With the cook's cast-off scullion love, and each </l>
+       <l>Shall deem that choice the nobler. Be it so. </l>
+      </lg>
+      <stage>Enter Raolfo.</stage>
+      <lg>
+       <l>Most welcome cousin, I have news for you.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>Nay, you have none. There is no news for them </l>
+       <l>Who have made peace with hope and with despair. </l>
+       <l>Such men dwell in a dim enchanted wood </l>
+       <l>Of broken moonlight, shut out from the world, </l>
+       <l>Where round and through their life's main memories, </l>
+       <l>Like trees, their circling windy thoughts make moan; </l>
+       <l>Trees fixed they see mid ever-eddying air, </l>
+       <l>They only hear the rushing of the wind; </l>
+       <l>And the all-vital things of healthsome men, </l>
+       <l>Who live and hope, these in their sanctuary </l>
+       <l>Hear like dim noises of the outer world, </l>
+       <l>Faint buzzings of the far-off murmuring town, </l>
+       <l>Dull dreary boomings of the distant sea, </l>
+       <l>All meaning lost by distance.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> You make hope </l>
+       <l>Too cheap to barter it at second hand </l>
+       <l>Ere it be worn out: and you rest it on </l>
+       <l>Too weak foundation, building it on love, </l>
+       <l>Or on the shifting sand of maid's caprice.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>Chide me not, cousin. Let me have your news.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>My news is—that a horse brought forth a hare; </l>
+       <l>An eagle left his paths of soaring strife </l>
+       <l>To strut gold-feathered at the homestead door; </l>
+       <l>A lion, weary of ranging after prey, </l>
+       <l>Came fawning on the hands of men for food; </l>
+       <l>The wild ox bowed his horned head 'neath the yoke </l>
+       <l>Of his own will, and drew the plough for hire.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>Tell me no fables. I am sick at heart. </l>
+       <l>Speak plainly.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Then a man put off his manhood, </l>
+       <l>And bowed him to a woman, and became </l>
+       <l>Such as the many who have nought of man </l>
+       <l>Saving the outward shape and counterfeit.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>You speak of me?</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Indeed, good friend, I do; </l>
+       <l>Choose whom you will to make your duteous wife, </l>
+       <l>And feel no shame for honest passion's cause, </l>
+       <l>But be no sickly lover, for God's grace. </l>
+       <l>Leave that to us poor women.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> You hit hard, </l>
+       <l>And on the unshielded side between the plates.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>Pluck out the steel. Set Reason on her throne, </l>
+       <l>And make desire her footstool. Root out pity </l>
+       <l>For others or thyself. Give thought her food, </l>
+       <l>And turn the forces of thy life that way, </l>
+       <l>So shall there be none left to feed disease; </l>
+       <l>For love is but a canker of the soul, </l>
+       <l>That eats up all her honest nutriment, </l>
+       <l>And yields no recompense, a spongy weed </l>
+       <l>That sucks the juices from the thirsting flowers, </l>
+       <l>And leaves them choked with drought.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> You speak but fact. </l>
+       <l>I am ashamed.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> And I ashamed for thee, </l>
+       <l>And pitiful.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Why pitiful?</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> For this. </l>
+       <l>Thou hast so fallen for nought. Teresa loves.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>For nothing, and she loves?</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> She loves not thee. </l>
+       <l>If I may speak, not as an eye-witness </l>
+       <l>Of how they met, but guessing by clear signs, </l>
+       <l>Scarce had her eyes, which ofttimes turned from yours </l>
+       <l>(How wearily indifferent!), as men, </l>
+       <l>Born blind to beauty, turn from peerless art, </l>
+       <l>Or from brief gazing on a sunset sky, </l>
+       <l>Lit on the stanger, the pert courtling imp, </l>
+       <l>Than like two bees they ransacked all his face </l>
+       <l>For honey, and she drew nectar from his lips </l>
+       <l>To treasure in the hive of memory. </l>
+       <l>Her breath was bated while she spake, her cheek </l>
+       <l>Red as of one who talks with loftier souls, </l>
+       <l>Abashed and reverent her mien and gesture. </l>
+       <l>What, jealous! Be this rather but thy cure, </l>
+       <l>Learning how deep a spirit hath thy love, </l>
+       <l>How keen perception ground and whetted on, </l>
+       <l>How stern self-judgment to how fine an edge </l>
+       <l>For probing others, how high sense of truth, </l>
+       <l>Of reason, virtue, manhood, modesty, </l>
+       <l>True breeding.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Peace! You burn, and chafe the sore— </l>
+       <l>First lay me low, then trample on my pride, </l>
+       <l>Harrow with heavy censure that sown sneers </l>
+       <l>May strike more root. You speak you know not what </l>
+       <l>In jealousy.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> What of Teresa, sir? </l>
+       <l>Envy comes not to greater hearts from less, </l>
+       <l>And jealousy to great minds not at all.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>You speak in hatred then. Your tale, forsooth, </l>
+       <l>Rings credible of those but met an hour! </l>
+       <l>A sole short hour! I do not trust it, no, </l>
+       <l>Not in a single word.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> In brief, I lie! </l>
+       <l>Flatter thee not, friend, that for love of one </l>
+       <l>Thrice truer than thou art, nay, even wast </l>
+       <l>Before this folly, I could learn to lie. </l>
+       <l>Whom measure you me by? Is it yourself, </l>
+       <l>Or your Teresa? Go to her and see </l>
+       <l>If this I say be fact. Meanwhile farewell. </l>
+      </lg>
+      <stage> [Exit Fausta.</stage>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>Malignant woman, treacherous, traitorous, false! </l>
+       <l>What is a man's hate for his brother man </l>
+       <l>Beside a woman's for her sister frail? </l>
+       <l>As well a judge might vouch the witnessing </l>
+       <l>Of one who testifies against a foe, </l>
+       <l>As I believe this partial satirist. </l>
+       <l>Yet it disturbs my peace, as, whiles, the word </l>
+       <l>Of a known liar somewhat moves deep faith </l>
+       <l>In provèd innocence. The doubt I'll clear— </l>
+       <l>But dread the truth more than to keep my fear.</l>
+      </lg>
+     </sp>
+    </div>
+   </div>
+   <div type="act" n="3">
+    <head>ACT III.</head>
+    <div type="scene" n="1">
+     <head>Scene</head>
+     <stage>Scene.—The same—A Room in Zenora's House.</stage>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>And do you really love me?</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Ay, dear child.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>I have a strange thought.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Why, what is it, love?</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>I fancied—'twas but fancy—for a moment </l>
+       <l>You could not love me.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Why so?</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> Love, I said, </l>
+       <l>Soars heavenward like sweet incense ever, akin </l>
+       <l>To gratitude, and worship, and despair. </l>
+       <l>At least 'tis so I love thee.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Well, what then?</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>You could not then love me, being more than I.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l>My happiness is perfect. I have hoped </l>
+       <l>For love like this from when I first was man.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Are you so happy?</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Yes.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> Then you have stolen </l>
+       <l>My happiness and added to your own. </l>
+       <l>I am less happy than uneasy.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Wherefore?</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Lest you should tire of me.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> How should I tire?</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>I am so foolish, such a tedious child.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l>What, love? </l>
+      </lg>
+      <stage>(Aside)</stage>
+      <lg>
+       <l> Why, now this conquest passes all. </l>
+       <l>I would my friends could see this lovely girl, </l>
+       <l>How she adores me. They would burst with envy, </l>
+       <l>And never more dare rival me again.— </l>
+       <l>That makes me like you more, sweet innocence.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>How so?</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Because you are not proud and vain </l>
+       <l>Like wittier women with a nimbler tongue.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Well, you have wit's full rations for us both. </l>
+       <l>Mine shall all go to help love thee enough. </l>
+       <l>The task, I fear me, will absorb it all, </l>
+       <l>Nay, prove too vast for all the powers I own, </l>
+       <l>Since, if I but half pay my debt of love, </l>
+       <l>Nor time nor strength will serve for aught beside; </l>
+       <l>I must be like a nun to prayer devote, </l>
+       <l>That has no thought for earth.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> What! pray to me?</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Ay, what saint better?</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Why, your pretty self.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Nay, I must have a hero for my prayers.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l>Am I a hero?</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> Greatest ever lived </l>
+       <l>In my sight; and, I doubt not, in the world's, </l>
+       <l>If it saw truly.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Here is one at last </l>
+       <l>Who knows me, and who rates at my true worth! </l>
+       <l>Sweet girl, be thou the first to earn the praise </l>
+       <l>Of saying thus.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> I shall lay claim to it </l>
+       <l>When none can doubt its truth.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario </speaker>
+      <stage>(aside).</stage>
+      <lg>
+       <l> Ah, were they here, </l>
+       <l>My rivals! Never was a man so loved. </l>
+       <l>To think it all is wasted and none sees it!— </l>
+       <l>Come, sweetest lady, let us go and talk </l>
+       <l>In the rose-arbour, of our two months' love. </l>
+       <l>Your zealous guardian ever seeks us out </l>
+       <l>And separates, upon some small pretext: </l>
+       <l>There we are safest,—curse his prying eyes!</l>
+      </lg>
+     </sp>
+     <stage> [Exeunt.</stage>
+     <stage>Enter Guido and Nita.</stage>
+     <sp who="#guido">
+      <speaker>Guido.</speaker>
+      <p>Come this way, fair lady. Not a soul about. We may promenade in
+                                seclusion for an inconsiderable interval.</p>
+     </sp>
+     <sp who="#nita">
+      <speaker>Nita.</speaker>
+      <p>Tell me again, dearest; do you love me?</p>
+     </sp>
+     <sp who="#guido">
+      <speaker>Guido.</speaker>
+      <p>I tell you in sincerity, you have melted a heart never vanquished
+                                before. I have been gay and heartless, less loving than loved: but
+                                now I succumb to the humiliating flame. And you, I need not ask if
+                                you love me?</p>
+     </sp>
+     <sp who="#nita">
+      <speaker>Nita.</speaker>
+      <p>Of course I do.</p>
+     </sp>
+     <sp who="#guido">
+      <speaker>Guido.</speaker>
+      <p>Of course. I never failed yet. All women love me. But I hear
+                                footsteps approaching. Let us retire.</p>
+     </sp>
+     <stage> [Exit Guido and Nita.</stage>
+     <stage>Enter Zenora and Raolfo.</stage>
+     <sp who="#zenora">
+      <speaker>Zenora.</speaker>
+      <lg>
+       <l>Fear not, my son, but he will quickly go, </l>
+       <l>And plague you with his rivalry no more.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>But then,—Teresa?—</l>
+      </lg>
+     </sp>
+     <sp who="#zenora">
+      <speaker>Zenora.</speaker>
+      <lg>
+       <l> Son, you know not woman. </l>
+       <l>What should a girl do when her sweetheart flits </l>
+       <l>And proves a sorry jilt, forsaking her? </l>
+       <l>Break heart and die? Why, if she have a heart </l>
+       <l>Then she may break it, true; but having one, </l>
+       <l>Let her be called some other name than woman, </l>
+       <l>Being more devious from the ruts of nature </l>
+       <l>Than a hot-blooded fish, flesh-eating ox, </l>
+       <l>Or lion ravenous upon herbs and fruit. </l>
+       <l>What should she do, I say, but cast about </l>
+       <l>To find another and console her loss?</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>So you would have me fill a widowed heart, </l>
+       <l>And crawl in as an afterthought, for lack </l>
+       <l>Of better.</l>
+      </lg>
+     </sp>
+     <sp who="#zenora">
+      <speaker>Zenora.</speaker>
+      <lg>
+       <l> No, my son, or yes. Choose you. </l>
+       <l>No, if your choice were fit, the chosen worthy. </l>
+       <l>But then I should not need advise, for such </l>
+       <l>Had taken or left you, and no change of will </l>
+       <l>In either case. But yes, if you would choose </l>
+       <l>A slight mean will to couple with your own, </l>
+       <l>For then 'twould be but fitting punishment. </l>
+       <l>In brief, I wish that that which is, abide; </l>
+       <l>That that which shall be, shall be; and that nature </l>
+       <l>Continue in her course now as of old. </l>
+       <l>I cannot pity you if you will thrust </l>
+       <l>Your hand into the mangling iron wheel </l>
+       <l>Men call necessity; nor need I praise </l>
+       <l>If you will use that wheel to turn your mill </l>
+       <l>And grind the corn of your felicity. </l>
+       <l>Choose you.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> My mother, 'tis to thee I owe </l>
+       <l>What sterner metal plates my heart with proof: </l>
+       <l>But sweet Teresa is not of the type </l>
+       <l>Whence nature copies vulgar womanhood. </l>
+       <l>I do not think that, having once loved him, </l>
+       <l>She would, e'en if I wished it, turn her love </l>
+       <l>On me.</l>
+      </lg>
+     </sp>
+     <sp who="#zenora">
+      <speaker>Zenora.</speaker>
+      <lg>
+       <l> Love blinds you. For this first of times </l>
+       <l>I see your judgment (winged by thought's rebound </l>
+       <l>From mighty tension of the strong bent mind </l>
+       <l>Upon its whizzing way, but lest that flight </l>
+       <l>Should overshoot the target, fletched with plume </l>
+       <l>Of steadying and retarding doubt) fly wide. </l>
+       <l>Why, you were wont to weigh with weights minute, </l>
+       <l>In scales that doubted the beam's trembling will, </l>
+       <l>That not a sandy granule 'scaped the test, </l>
+       <l>The gold and dross of all men's character; </l>
+       <l>And, if you erred, 'twas like a trafficker </l>
+       <l>Who buys the precious dust from swarthy hordes </l>
+       <l>Upon the burning Ethiopian coast:— </l>
+       <l>You reckoned less, than truth turned out, the gold </l>
+       <l>A cautious judge. But now you overshoot </l>
+       <l>The target, and the tree to which 'tis nailed, </l>
+       <l>And the whole wood, and your spent shaft comes down </l>
+       <l>A rod beyond. Indeed, I am amazed.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>Nay, mother, you but wrong my judgment, and </l>
+       <l>The lady. For the former, it is naught. </l>
+       <l>The other is a cruel thing.</l>
+      </lg>
+     </sp>
+     <sp who="#zenora">
+      <speaker>Zenora.</speaker>
+      <lg>
+       <l> Well, see. </l>
+       <l>And if she prove not but the shallowest heart </l>
+       <l>That ever gave love for a string of beads, </l>
+       <l>Nor bring some shame on you and all of us, </l>
+       <l>Then tell me (and you may then, as I marvel </l>
+       <l>That you should now, with an unblushing face </l>
+       <l>Or credulous) that this weak ill-governed girl </l>
+       <l>Is worth your fretting.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Think not but of me. </l>
+       <l>A little think of her. If you believe </l>
+       <l>This gallant means an honourable suit, </l>
+       <l>Then you deceived me,—pardon, for I mean </l>
+       <l>But such deceit as from the self-deceived </l>
+       <l>Issues like plague into another's eyes, </l>
+       <l>Pure truth being purposed,—saying he would quit, </l>
+       <l>And leave the field to me. If you believe </l>
+       <l>He means not so, why, duty then speaks clear. </l>
+       <l>'Tis a hard task for me to say this thing, </l>
+       <l>Since it may seem 'twas for my profit.</l>
+      </lg>
+     </sp>
+     <sp who="#zenora">
+      <speaker>Zenora.</speaker>
+      <lg>
+       <l> Son, </l>
+       <l>What would you have me do?</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Mother, you know.</l>
+      </lg>
+     </sp>
+     <sp who="#zenora">
+      <speaker>Zenora.</speaker>
+      <lg>
+       <l>Bid him begone? You are silent. Well, what then? </l>
+       <l>Rouse strife betwixt our friendly families </l>
+       <l>All for this girl? Insult this gentleman </l>
+       <l>All to withhold temptation from the heart </l>
+       <l>Which else were tried by touchstone, so that you </l>
+       <l>Should take untested and believe it pure </l>
+       <l>What tested would have fallen? Am I then </l>
+       <l>To be the instrument to find my son </l>
+       <l>A wife unworthy and against my wish, </l>
+       <l>That, soaring higher, still finds no equal yet </l>
+       <l>For my son's merit or my count of it, </l>
+       <l>All that a stranger's path be made more smooth </l>
+       <l>Of stumbling-blocks that others have to pass </l>
+       <l>And do pass every day?</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Ah, talk not so, </l>
+       <l>Or for this first of times force me confess </l>
+       <l>You, you are cruel; you, my mother, you </l>
+       <l>Who have so—loved me.</l>
+      </lg>
+     </sp>
+     <sp who="#zenora">
+      <speaker>Zenora.</speaker>
+      <lg>
+       <l> Yes, and love you still, </l>
+       <l>And now am working for your good; but you </l>
+       <l>Repay my love with this ingratitude, </l>
+       <l>Which would that rather I had died that day </l>
+       <l>When, you first wailing met my gaze, than prove; </l>
+       <l>And let a stranger, one that loves you not, </l>
+       <l>And shows by biting now my hand that fed her, </l>
+       <l>In biting yours, that she for grateful care </l>
+       <l>Is well matched with you, and what manner wife, </l>
+       <l>How sweet, how thankful she will prove for love, </l>
+       <l>Be an impediment betwixt our wills; </l>
+       <l>And when I spurn it from my way, you turn </l>
+       <l>And curse me.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Now my mother is unjust. </l>
+       <l>I never cursed you; no, nor never shall </l>
+       <l>Whate'er you do to me, and worse than this </l>
+       <l>You cannot do. Yet must I not forget, </l>
+       <l>In honouring you, my duties to this maid, </l>
+       <l>So brought up with me as she were my sister; </l>
+       <l>And if you will not warn her, or remove </l>
+       <l>The cause, then, hateful as my act may show </l>
+       <l>And gross, yet I must warn her.</l>
+      </lg>
+     </sp>
+     <sp who="#zenora">
+      <speaker>Zenora.</speaker>
+      <lg>
+       <l> 'Twill come well. </l>
+       <l>The cast-off suitor, out of sheer goodwill, </l>
+       <l>Warns the deluded maiden of the villain, </l>
+       <l>His more accepted rival. 'Twill come well. </l>
+      </lg>
+      <stage> [Exit Zenora.</stage>
+     </sp>
+     <stage>Enter Fausta.</stage>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>Eavesdroppers, by the proverb, should not hear </l>
+       <l>Harm of their enemies, but of themselves; </l>
+       <l>But I have heard—</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Why, this is fortunate. </l>
+       <l>I sought my mother's help, but failing her </l>
+       <l>Would next have prayed for yours, but that the service </l>
+       <l>Could scarce be well explained by me to you. </l>
+       <l>But now that you know all, the task is easy. </l>
+       <l>Do this for me, dear cousin.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> No, not I. </l>
+       <l>Your pattern of all virtue needs no help, </l>
+       <l>And least of all should come to me, your scorn. </l>
+       <l>Watch her and mark the issue: then applaud </l>
+       <l>Your wise choice and her constancy of soul.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>A noble woman now would put by hate </l>
+       <l>And jealousy, and fence with woman's love </l>
+       <l>Her weaker sister and sweet sympathy.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>So think not I, and scorn such offices </l>
+       <l>Of maudlin pity. Let the weak go down. </l>
+       <l>It is the law with men. Why not with us?</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>Why, then, I must e'en do the thing myself.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>Do then, fair knight of dames, and earn her thanks. </l>
+       <l>And see, fate wills you show yourself a fool. </l>
+      </lg>
+      <stage> [Exit Fausta.</stage>
+     </sp>
+     <stage>Enter Teresa.</stage>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>Welcome, dear friend, if you allow the name. </l>
+       <l>I was about to seek you.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> Sir, I thank you, </l>
+       <l>But this is too much honour.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Nay, dear friend, </l>
+       <l>The time is past for sneers and compliments, </l>
+       <l>Idle alike and born of idle tongues. </l>
+       <l>I would befriend you all that in me lies </l>
+       <l>In a great matter.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> Well, speak on. I hear.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>Will you not help me say what I should say?</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>What! will you have me court myself for you? </l>
+       <l>This over-bashfulness is a new toy: </l>
+       <l>Time was you were not burdened with it, sir.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>Last time my task was clear, straightforward, open, </l>
+       <l>And every manful heart leaps forth to such. </l>
+       <l>Now it is otherwise.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> Come you to me </l>
+       <l>With aught may not be uttered face to face, </l>
+       <l>With undrooped eyes and with unstammering lips? </l>
+       <l>A blush had suited, if a blush were yours, </l>
+       <l>The words you spake that time. You cannot now </l>
+       <l>Bring aught less acceptable. Speak, then.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Friend, </l>
+       <l>I wooed you for myself. You said me nay. </l>
+       <l>'Twas well, for so you wished it: nought remained </l>
+       <l>For one not stinted of his proper pride. </l>
+       <l>But when I forced my heart renounce that joy, </l>
+       <l>I swore that who would reap it should be worthy: </l>
+       <l>I swore it. Shall this warning be enough?</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>No, sir, it shall not. You shall not insult </l>
+       <l>My youth with hints and warnings: but speak out </l>
+       <l>Whate'er you have in mind, in manful sort, </l>
+       <l>In clear words, not to be misunderstood.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>Well then, you love Ilario?</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> So you say. </l>
+       <l>But what of that?</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> He is not worthy you.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Sir—</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>Let that pass. I came not to accuse </l>
+       <l>Your choice.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> You were best not. Ilario </l>
+       <l>Is twice the man you are.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> That may be.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> Ay, </l>
+       <l>It is so. Turn your insults upon him, </l>
+       <l>And learn how he will brook them.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Hear me out </l>
+       <l>In patience, for I came not to dispute </l>
+       <l>Or match my worth with worth of other men. </l>
+       <l>Ilario is your choice. That is your matter: </l>
+       <l>But this I will not suffer, not endure, </l>
+       <l>That he should make his sport of you and us. </l>
+       <l>My mother feared it: Fausta fears it: both </l>
+       <l>Refused, though I should kneel to them, to speak. </l>
+       <l>I then, howe'er it please you, must make bold </l>
+       <l>To warn you of your peril, ere too late.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Sir, you astound me! Words break down beneath </l>
+       <l>My answer. You outgrow all insolence. </l>
+       <l>You have no gentle blood. Say this to him, </l>
+       <l>And take his answer in your teeth.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Teresa—</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>You hereby call him traitor; me impure!</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>Not so. I call him traitor, but you pure.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Tell him as much.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> I have.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> And he said—</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> That </l>
+       <l>Which, for, howe'er I may despise the man, </l>
+       <l>I cannot deem him equal to a lie, </l>
+       <l>I do believe the truth—else had I struck him— </l>
+       <l>And would have still remain the truth, to which </l>
+       <l>I bade him pledge his honour, or depart. </l>
+       <l>He neither swore, and for the rest appealed </l>
+       <l>To her who took his part, my mother: then </l>
+       <l>I threatened him: and now I have warned you. </l>
+       <l>Both which, were you another, I had done </l>
+       <l>For duty's cause: how much more then for love? </l>
+       <l>I loved you once: I'll guard you, sweet, for ever.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>I need no guardians, thank you, but my virtue </l>
+       <l>And true Ilario's sword.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> The event shall show. </l>
+       <l>But if you need, count on me to the death. </l>
+       <l>Meanwhile still hate me. Since love cannot be, </l>
+       <l>I do accept thy hate. I'll pay it back </l>
+       <l>With ever-constant love. 'Tis better thus. </l>
+       <l>I can endure hate, but indifference—no, </l>
+       <l>From any heart, and least of all from thine. </l>
+      </lg>
+      <stage> [Exit Raolfo.</stage>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>How came they all so to suspect the truth? </l>
+       <l>We must be swift now, or we are betrayed. </l>
+       <l>To-night it must be. 'Tis not safe to wait. </l>
+       <l>I will on the instant seek Ilario, </l>
+       <l>And tell him this. He cannot wed with me, </l>
+       <l>I see it all too well, a poor mean maid, </l>
+       <l>Too far divorced in station and in birth </l>
+       <l>From her who should aspire to wear his love </l>
+       <l>As a proud bridal wreath. Yet, why for that </l>
+       <l>Need he neglect my wild-flower coronal, </l>
+       <l>Or I not stoop to be his own heart's bride? </l>
+       <l>Her he shall deck in silks, and me in praise: </l>
+       <l>To her give courtesy, to me the grace </l>
+       <l>Of undisguised and frank familiar love: </l>
+       <l>From her keep secrets, yield them up to me: </l>
+       <l>Share wealth with her, give me his whole great heart: </l>
+       <l>Keep her at court, me in some lowly cot. </l>
+       <l>All dedicate to love and liberty: </l>
+       <l>Pass tedious months with her, sweet days with me: </l>
+       <l>Quarrel with her, and make it up with me: </l>
+       <l>Forget her present, absent think of me. </l>
+       <l>This is my life, and I am well content. </l>
+      </lg>
+      <stage> [Exit Teresa.</stage>
+     </sp>
+     <stage>Enter Livia and Basso.</stage>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>I tell you, torment me not. I am mad with jealousy. That a
+                                mustachioed stick of a fellow, like a bramble hung with sheep's
+                                wool, should undo me!</p>
+     </sp>
+     <sp who="#livia">
+      <speaker>Livia.</speaker>
+      <p>Think not of her. If she prefer the rascal to the roebuck, that is
+                                her taste.</p>
+     </sp>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>A little bit of a canting court barber: a lackey that apes the
+                                manners of a fine gentleman (as if every solid honest fellow that
+                                works with his hands should not be above that!): a valet, with a
+                                dancing-master thrown into the bargain, to make up short weight!</p>
+     </sp>
+     <sp who="#livia">
+      <speaker>Livia.</speaker>
+      <p>Yes, it is monstrous; but forget her.</p>
+     </sp>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>A lanky poplar-tree, with a tuft of leaves on the top of it: a mop,
+                                with its shock head in curlpapers: a skipping, sniggering,
+                                sniffling, shambling, bowing and scraping master of ceremonies for
+                                the kitchen! See the fellow smile, till you would think the ends of
+                                his mouth would meet behind and his head drop off! A pair of laths
+                                in a yard and a half of cloth, a limp washed-out shred of unstarched
+                                linen!</p>
+     </sp>
+     <sp who="#livia">
+      <speaker>Livia.</speaker>
+      <p>Compose yourself, dear Basso. You are getting black in the face.
+                                Consider your size, and beware of the apoplexy, dear.</p>
+     </sp>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>Woman, what is it to you if I burst?</p>
+     </sp>
+     <sp who="#livia">
+      <speaker>Livia.</speaker>
+      <p>Why, I shall lose half my husband.</p>
+     </sp>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>Your husband!</p>
+     </sp>
+     <sp who="#livia">
+      <speaker>Livia.</speaker>
+      <p>Yes, did you not promise to wed me?</p>
+     </sp>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>No. There should be some equality in these matters. A wife, look you,
+                                is the yoke-fellow of her husband. Now, if we two were set to draw
+                                the plough, which, think you, would draw the heavier? A man should
+                                have a wife of his own weight, or as many wives as he can balance in
+                                the scales.</p>
+     </sp>
+     <sp who="#livia">
+      <speaker>Livia.</speaker>
+      <p>But Nita is no heavier than I.</p>
+     </sp>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>Love is a rogue of a merchant. He puts lead in with his light goods,
+                                and passes them off on the unwary.</p>
+     </sp>
+     <sp who="#livia">
+      <speaker>Livia.</speaker>
+      <p>Could you not love me?</p>
+     </sp>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>Not while I have a chance of Nita: but I think I could love any
+                                woman.</p>
+     </sp>
+     <sp who="#livia">
+      <speaker>Livia.</speaker>
+      <p>If you marry me, sir, I will take care that you get no chance of
+                                showing your love for any woman.</p>
+     </sp>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>What! am I not big enough to share with some others?</p>
+     </sp>
+     <sp who="#livia">
+      <speaker>Livia.</speaker>
+      <p>No; I want all my husband to myself, even if he does weigh twenty
+                                stone.</p>
+     </sp>
+     <stage> [Exit.</stage>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>Then you are not the one for me, Mistress Flare-up.</p>
+      <stage> [Exit Basso.</stage>
+     </sp>
+     <stage>Enter Teresa and Ilario.</stage>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l>Then let us lose no time. But tell me, child, </l>
+       <l>Can you, exchanging home and peace for me, </l>
+       <l>Be happy in the barter?</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> Home—what home? </l>
+       <l>I have no home but on thy loving breast.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l>Be ready then against the time of night. </l>
+       <l>Then, e'er the hollow horns of the half-moon </l>
+       <l>Pour in the cup of heaven their watery wine, </l>
+       <l>Dispensing to the search a dangerous light, </l>
+       <l>We must go far. Procure you some disguise </l>
+       <l>To baffle keen detection. Wait for me </l>
+       <l>Under the terrace at the garden end, </l>
+       <l>Among the oleanders. Now farewell! </l>
+       <l>Yet stay! 'Twere best we should start separate ways. </l>
+       <l>Here's gold enough. I'll bid one wait for you </l>
+       <l>With horses, and appoint him where to meet me </l>
+       <l>Some miles upon the road. Nay, not a word. </l>
+       <l>Farewell! It must be so, or not at all.</l>
+      </lg>
+     </sp>
+     <stage> [Exit Teresa.</stage>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l>I must not go with her, for that would bind </l>
+       <l>My life to hers before the world too closely, </l>
+       <l>And make men busy with my fair repute. </l>
+       <l>Were she a cottar's child, 'twere different now,— </l>
+       <l>But to remove her from this noble roof— </l>
+       <l>It cannot be: the thing would get abroad. </l>
+       <l>Then, too, a journey with her could but make </l>
+       <l>Harder to bring about or break to her </l>
+       <l>The severance inevitable at last. </l>
+       <l>But she must go, and quickly, or her shame </l>
+       <l>Will become manifest. I wonder now </l>
+       <l>If this she says be fact, and they divine </l>
+       <l>Somewhat already? Well, it may be so; </l>
+       <l>And I must put a bold face on the matter, </l>
+       <l>Though 'tis unfortunate. But no. It is </l>
+       <l>A trick of hers to hasten on my plan: </l>
+       <l>She hungered to flee hence, and fabled this </l>
+       <l>To compass freedom some days earlier. </l>
+       <l>If this be so, then all goes well. She flies. </l>
+       <l>They raise a dust. Who knows the cause? Not I. </l>
+       <l>What easier, then, than to wash hands of it </l>
+       <l>And never see her more? I hope 'tis so.</l>
+      </lg>
+     </sp>
+    </div>
+   </div>
+   <div type="act" n="4">
+    <head>ACT IV.</head>
+    <div type="scene" n="1">
+     <head>Scene</head>
+     <stage>Scene.—The same. A Room in Zenora's House.</stage>
+     <sp who="#zenora">
+      <speaker>Zenora.</speaker>
+      <lg>
+       <l>Well, well, the girl is gone. I feared as much. </l>
+       <l>Perhaps 'tis best: this folly of my son </l>
+       <l>Will wake to disillusion.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo </speaker>
+      <stage>(entering wildly).</stage>
+      <lg>
+       <l> Mother!</l>
+      </lg>
+     </sp>
+     <sp who="#zenora">
+      <speaker>Zenora.</speaker>
+      <lg>
+       <l> Son—</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>Tell me, is't true? They say Teresa fled </l>
+       <l>Last night.</l>
+      </lg>
+     </sp>
+     <sp who="#zenora">
+      <speaker>Zenora.</speaker>
+      <lg>
+       <l> Alas! my son, the news is true. </l>
+       <l>That I should thaw a viper at my hearth </l>
+       <l>To poison the repute of our fair house!</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>I will go straight and kill this ruffian, </l>
+       <l>Scenting him out o'er all the face of earth </l>
+       <l>By the pollution following on his feet </l>
+       <l>Until I find him.</l>
+      </lg>
+     </sp>
+     <sp who="#zenora">
+      <speaker>Zenora.</speaker>
+      <lg>
+       <l> Wherefore hunt so far?</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>To seek Ilario.</l>
+      </lg>
+     </sp>
+     <sp who="#zenora">
+      <speaker>Zenora.</speaker>
+      <lg>
+       <l> Ilario! </l>
+       <l>Why, he is even now within this house. </l>
+       <l>Refrain yourself.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> What! can he dare to stay </l>
+       <l>And brave out crime with bland and womanish smiles? </l>
+       <l>Dares he defy me with his leering face </l>
+       <l>Now he has brought this ruin on her life, </l>
+       <l>Just as he lisped and languished in my sight </l>
+       <l>With his cursed maddening sweetness to defy </l>
+       <l>My jealousy?</l>
+      </lg>
+     </sp>
+     <sp who="#zenora">
+      <speaker>Zenora.</speaker>
+      <lg>
+       <l> Dear son, refrain yourself; </l>
+       <l>Think—you have no sole proof of it. Doubt not </l>
+       <l>If he 'twas worked in truth her shame and flight </l>
+       <l>(Think not the one could 'scape my woman's eye </l>
+       <l>This some while past, to lead me half scent out </l>
+       <l>The other), he must needs have fled with her. </l>
+       <l>Think, too, what was this maid to thee? Thy sister? </l>
+       <l>That so, myself would bid thee slay the man. </l>
+       <l>Thy bride or thy betrothed? I would approve. </l>
+       <l>But now?</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Mother, this maid was all to me.</l>
+      </lg>
+     </sp>
+     <sp who="#zenora">
+      <speaker>Zenora.</speaker>
+      <lg>
+       <l>She dealt you but scant courtesy.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> So be it— </l>
+       <l>Which what but nobler makes my care of her, </l>
+       <l>And my revenge clears from the taint of self?</l>
+      </lg>
+     </sp>
+     <sp who="#zenora">
+      <speaker>Zenora.</speaker>
+      <lg>
+       <l>Makes it a laughter-stock, you mean.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> How, mother?</l>
+      </lg>
+     </sp>
+     <sp who="#zenora">
+      <speaker>Zenora.</speaker>
+      <lg>
+       <l>No man but may fight battles for his friend </l>
+       <l>Howso ungrateful, or avenge the shame, </l>
+       <l>His own blood's in a sister, though she hate him— </l>
+       <l>Tasks by main love or kinship sanctified, </l>
+       <l>But scarce in sole behalf throw down the gauntlet </l>
+       <l>Of one who slighted him, below his rank, </l>
+       <l>And 'neath his mother's roof of her own will </l>
+       <l>Herself dishonoured with a stranger.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Ay— </l>
+       <l>There lies it,—'neath thy roof—the thing so done </l>
+       <l>Insults both thee and me.</l>
+      </lg>
+     </sp>
+     <sp who="#zenora">
+      <speaker>Zenora.</speaker>
+      <lg>
+       <l> There now, my son, </l>
+       <l>You touch more solid ground. But this young man </l>
+       <l>Is of a family much loved by me </l>
+       <l>(Whereas the girl was hateful to my sight). </l>
+       <l>If, then, I can forgive him, as I shall, </l>
+       <l>What cause in thee to meddle?</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Still much cause. </l>
+       <l>He has insulted no less me than thee.</l>
+      </lg>
+     </sp>
+     <sp who="#zenora">
+      <speaker>Zenora.</speaker>
+      <lg>
+       <l>Son, I beseech you keep this matter still, </l>
+       <l>And favour me, if but because your life </l>
+       <l>Should not for so frail loss be hazarded.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>Mother, 'twas you that taught me scorn of life. </l>
+       <l>Will you unteach me all nobility?</l>
+      </lg>
+     </sp>
+     <sp who="#zenora">
+      <speaker>Zenora.</speaker>
+      <lg>
+       <l>Well then, by thy obedience due to me, </l>
+       <l>Let this thing sleep, I charge you, son.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> That debt </l>
+       <l>Was paid up when I put on manhood's trappings.</l>
+      </lg>
+     </sp>
+     <sp who="#zenora">
+      <speaker>Zenora.</speaker>
+      <lg>
+       <l>Then for my love.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Mother, I loved her more. </l>
+       <l>My love to thee, though thine to me, less strong, </l>
+       <l>Refused what late I asked, and, granted, might </l>
+       <l>Have saved these troubles, yet my love to thee </l>
+       <l>Would outcall duty with its thunder-voice, </l>
+       <l>All duties save this one, whose loud command </l>
+       <l>Makes that voice sound a small brook heard far off </l>
+       <l>Among the mountains through the groaning pines. </l>
+       <l>This must be, mother; speak no more of it.</l>
+      </lg>
+     </sp>
+     <sp who="#zenora">
+      <speaker>Zenora.</speaker>
+      <lg>
+       <l>Well, go your way. Recall too late my words. </l>
+       <l>My part is done. I leave you to your will. </l>
+      </lg>
+      <stage> [Exit Zenora.</stage>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>Would God my frenzy and pure ignorance </l>
+       <l>Had not informed my mother of my purpose. </l>
+       <l>She will seek means yet, now once 'ware of it, </l>
+       <l>To spoil my end, nor rest through fear for me. </l>
+       <l>Fool that I was!</l>
+      </lg>
+     </sp>
+     <stage>Enter Fausta.</stage>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Why, that is very true. </l>
+       <l>I cannot now deny it.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Is this time </l>
+       <l>To taunt me for my folly, when you see </l>
+       <l>I am scarce on the hither side of madness?</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>So you repent?</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Yes, for the mischief's cause, </l>
+       <l>My pride, or at the least its help's prevention. </l>
+       <l>When she so scorned me, had I stood off less, </l>
+       <l>Kept silence and enwrapt me in myself, </l>
+       <l>But made my suit, an humble suppliant, </l>
+       <l>I, through more frequent habit of approach, </l>
+       <l>Might, howso oftener slighted, more abased, </l>
+       <l>Have learned this sooner, in time to guard her peace.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>Oh most magnanimous hero!</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Cousin, go </l>
+       <l>And leave me to my own sad company. </l>
+       <l>You cannot heal me with these bitter drugs, </l>
+       <l>If such your will be, nor one whit the more </l>
+       <l>Inflame the canker eating out my heart, </l>
+       <l>If such your aim be rather, having changed </l>
+       <l>Your love for hate.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Not you, but her I hate. </l>
+       <l>Did I not prophesy of this?</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> You did. </l>
+       <l>A better and more a Christian's part had been </l>
+       <l>To reach your hand out, the sole way to stop </l>
+       <l>The shame that then was doing, than rejoice </l>
+       <l>So in it done, and dance on her soul's grave.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>Nay, 'twas but fair my rival of herself </l>
+       <l>Should keep, e'en as I would, her virtue clean, </l>
+       <l>Or losing it, confess my loftier stand.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>They who have never known temptation boast, </l>
+       <l>And call it conquered by main will.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Try, then, </l>
+       <l>The fieriest temptation of my soul, </l>
+       <l>And, for thou only hast the power to tempt me, </l>
+       <l>All others I but scorn, exert thy power, </l>
+       <l>And fiercer bliss enticed not those of old </l>
+       <l>To sin with angels, when the sons of God </l>
+       <l>Came down to earth taken with golden hair, </l>
+       <l>And see how I, a woman, can resist.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>'Tis you now that would tempt, if I had will.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>Nay, what I mean I say; I would withstand </l>
+       <l>E'en thee.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> But 'twas not I that tempted her.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>And was he more alluring?</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Ay, to her.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>Not more to her than thou to me. Why, how </l>
+       <l>Could love like mine invade so shallow soul, </l>
+       <l>E'en for an equal object? And but weigh,— </l>
+       <l>Heaping that difference with the difference </l>
+       <l>'Twixt thee and him, the objects of our love, </l>
+       <l>A wider gulf than heaven from Erebus,— </l>
+       <l>The stress of storm upon our several souls, </l>
+       <l>And then think how my love is more than hers. </l>
+       <l>Yet I would tear it with my heart-strings forth, </l>
+       <l>And fling it in the face of the live hope </l>
+       <l>That bore it ere dishonour came near me </l>
+       <l>Or stooped to base incontinence my pride.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>'Tis easy so to talk. Our own deep minds </l>
+       <l>Are as a book laid open to our eyes, </l>
+       <l>But writ in characters of a strange tongue </l>
+       <l>Imperfectly known to us. We can read, </l>
+       <l>As by dim light, the motives of our deeds, </l>
+       <l>Say this we did for this, that for that cause; </l>
+       <l>Here two conflicting storm-winds shook our hearts; </l>
+       <l>The mightier conquered, but the weaker's power </l>
+       <l>Was not in vain; the victor storm fared on, </l>
+       <l>But not that way it started, and the blast </l>
+       <l>Shaped its changed course betwixt the opposing roads: </l>
+       <l>Here on another part some five or six </l>
+       <l>Pent blasts contended in a straitened space </l>
+       <l>For egress, and we knew that they must pass </l>
+       <l>Along that path where least obstruction stood; </l>
+       <l>But where that path lay till they searched it out </l>
+       <l>We knew not. Thus imperfectly we read </l>
+       <l>The book of our own minds. There is another </l>
+       <l>Writ in a tongue whereof the alphabet </l>
+       <l>Is yet to learn—a book, if opened to us, </l>
+       <l>We could not scan a line of—and that book </l>
+       <l>Is further shut and clasped with brazen clasps, </l>
+       <l>And sealed up from us. It is called by name </l>
+       <l>The mind of other men.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> To what end this?</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>To this end: and the moral is, if stale, </l>
+       <l>Still precious—“Judge not, thou shalt not be judged.” </l>
+       <l>Who knows thee as thyself? Thou dost an act, </l>
+       <l>And dimly knowest wherefore. She did this— </l>
+       <l>Thou canst not know wherefore or to what end.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>So be it. Let her go. But of my mind </l>
+       <l>You grant me some dim knowledge, and I know </l>
+       <l>That I would not do so.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Not in her place?</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>Not in her place and with my proper soul.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>But there, there lies the issue. In her place </l>
+       <l>Means having her same feelings, thoughts, and power, </l>
+       <l>Her judgments both of general right and wrong, </l>
+       <l>And thather special deed, her life, her love, </l>
+       <l>Her memories, the traditions of her blood </l>
+       <l>And silent heritage of all her sires, </l>
+       <l>And last, her so forlorn and orphan state.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>If that be all, I grant your thesis proved. </l>
+       <l>But see how little is the sum of it— </l>
+       <l>If I were she, I should have done as she! </l>
+       <l>I do not doubt it: did not from the first. </l>
+       <l>But I am not, and never could be, such; </l>
+       <l>And being as I am I would keep chaste. </l>
+       <l>Your long excuse, sir, is too wide: it covers </l>
+       <l>The whole sin of the world. We asked not this, </l>
+       <l>If all sin be done freely, or proceed </l>
+       <l>From tyrannous fates, from nature of each man, </l>
+       <l>Who cannot be but as he is. Waive that. </l>
+       <l>Madness doth breed avoidance in mankind, </l>
+       <l>Yet is no fault of madness. Ugliness </l>
+       <l>Is water to the fiery kiss of love, </l>
+       <l>And yet is born with men and women. Sin </l>
+       <l>Is hateful equally with all these things </l>
+       <l>E'en though the sinner could not help but sin. </l>
+       <l>Men shun the mad, the hideous, surely then </l>
+       <l>Far more the sinner. There be sane and fair </l>
+       <l>And sinless folk enough. Why choose the worse, </l>
+       <l>The better put aside?</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> The sum whereof </l>
+       <l>Is this, that Fausta is a better maid </l>
+       <l>Than sweet Teresa. Yet I know not this. </l>
+       <l>There be frail women in the streets, I hear, </l>
+       <l>Who, if all virtues were well reckoned up </l>
+       <l>And balanced fair, and the excess of good </l>
+       <l>Or evil taken as in judging men, </l>
+       <l>So also in women ('stead of which, mankind </l>
+       <l>And womankind, with purblind idiot eyes </l>
+       <l>Seeking one virtue in a woman's heart, </l>
+       <l>Judge by that sampler-proof of all things there) </l>
+       <l>Would fairer show than many a dainty dame </l>
+       <l>Whose milk-white honour never knew a spot. </l>
+       <l>Brave, generous, kind, frank, honest, and unchaste, </l>
+       <l>They blush, frowned into shame by hardened eyes </l>
+       <l>Of sisters cowardly, ungenerous, harsh, </l>
+       <l>Deceitful, false in word and act, but chaste.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>Opinion seems the child of circumstance. </l>
+       <l>But I have ever thought as you do now </l>
+       <l>On this: yet where no other virtues shine </l>
+       <l>Conspicuous, and the full-summed complement </l>
+       <l>Shows small, there we demand, at least of asking, </l>
+       <l>Courage in man, in woman chastity, </l>
+       <l>The commonest twain, and most of nature's making, </l>
+       <l>And easiest virtues,—nay, the other of which </l>
+       <l>Seem vice unnatural,—and the most in need.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>Opinion seems the child of circumstance. </l>
+       <l>But this she did was not unchastity </l>
+       <l>Save in the blear eyes of the world.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Most true. </l>
+       <l>But mark the issue in her feeble soul. </l>
+       <l>She will not love him long: and so, love gone, </l>
+       <l>Will drift an oarless and a sailless boat </l>
+       <l>Upon the crossing tides of many lusts, </l>
+       <l>Desire the steersman, self-contempt the goal.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>This is to prove yet. Prophecy is dead. </l>
+       <l>The future is but known to God, and you </l>
+       <l>But guessing at that second book I spake of. </l>
+       <l>The world to come is child of the world now, </l>
+       <l>An offspring like its parent. If we knew </l>
+       <l>What is, then we should know what is to be, </l>
+       <l>And be as God: but now we grope in night. </l>
+       <l>Ponder this well, and learn more charity. </l>
+       <l>Meanwhile I leave you. </l>
+      </lg>
+      <stage> [Exit Raolfo.</stage>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Oh supreme, calm, scorn! </l>
+       <l>How godlike! How he grappled with my mind </l>
+       <l>And cast it panting, and then passed away </l>
+       <l>With that still look of pale indifference! </l>
+       <l>Love other women cringing flatteries, </l>
+       <l>And give their hand for fawning dogs to lick, </l>
+       <l>Looking to be befooled with yielding ways; </l>
+       <l>If false then hateful, and if true then weak. </l>
+       <l>Give me that man who teaches me, though strong, </l>
+       <l>That I am weaker, sets his kingly foot </l>
+       <l>Upon my will's neck, and so passes forth </l>
+       <l>Indifferent. But here comes Iscariot.</l>
+      </lg>
+     </sp>
+     <stage>Enter Ilario.</stage>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l>Fair lady.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Come not with your smooth false looks, </l>
+       <l>I love them not. Where is Teresa?</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Nay— </l>
+       <l>I know not.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Know not? Have you sought?</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Why sought?</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>Ten thousand reasons. 'Twere more meet for you </l>
+       <l>To hide your face here than thus brave the truth </l>
+       <l>Set in the eyes of all of us. Begone! </l>
+       <l>Take hence your odious presence.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Lady fair—</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>Lay my advice to heart. Meanwhile farewell. </l>
+      </lg>
+      <stage> [Exit Fausta.</stage>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l>How queenlike! Why, this maiden frankly speaks </l>
+       <l>As a man might, and yet so proudly pure </l>
+       <l>As I have known her! How far different </l>
+       <l>From that poor bashful yielding child! Till now </l>
+       <l>I have found women weaker still than me, </l>
+       <l>Have led them, loved them, scorned them all the while, </l>
+       <l>And found ere long the scorn consume the love </l>
+       <l>Impetuously, and bare mild pity left. </l>
+       <l>But this imperious heart takes hold on mine </l>
+       <l>In an embrace more equal; strikes and scorns </l>
+       <l>Where others flattered, spurns where others lured. </l>
+       <l>By Heaven, it spurs both love and pride to life, </l>
+       <l>Love to possess so high a heart, and pride </l>
+       <l>To quell a pride that trampled now on mine! </l>
+       <l>I will subdue this woman. I will crush </l>
+       <l>Her manlike will—and then high ecstasies! </l>
+       <l>What bliss to clasp a serpent grown a dove! </l>
+       <l>What high delight to feel resistance, burn, </l>
+       <l>To hate and then to love, to maddening love, </l>
+       <l>And torture sweetly all her conquered frame! </l>
+       <l>'Tis like the pride of breaking a wild steed </l>
+       <l>That never bowed his neck to other lord, </l>
+       <l>To mount and know that saddle safe to us </l>
+       <l>Scarce safer to another than the brink </l>
+       <l>Of tallest crag or topmost treacherous branch </l>
+       <l>Of some sky-reaching tree. It must be done. </l>
+       <l>Why, I begin to love with thinking thus: </l>
+       <l>Nay, I do think, for all my boastful strain, </l>
+       <l>I could become this woman's slave. Thy slave! </l>
+       <l>Forfend it, Heaven! And yet that fierce embrace </l>
+       <l>Were worth e'en crouching for. Yes, I would give </l>
+       <l>Pride, honour, all things else, for but one kiss </l>
+       <l>Of lips so lofty. I have sometimes heard </l>
+       <l>Of mighty women whom a man might love </l>
+       <l>With soul's devotion. Surely here is one. </l>
+       <l>But I must quell her or subdue myself; </l>
+       <l>This sudden thirst is more unbearable </l>
+       <l>Than famine. I must prove free man again </l>
+       <l>One way or other shortly, and I will. </l>
+      </lg>
+      <stage> [Exit Ilario.</stage>
+     </sp>
+     <stage>Enter Livia and Basso.</stage>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>Pester me not.</p>
+     </sp>
+     <sp who="#livia">
+      <speaker>Livia.</speaker>
+      <p>Why, husband?</p>
+     </sp>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>I say, pester me not. I married you of sheer weakness, to escape
+                                hearing your tongue persuading me to it. And now I hear more of it
+                                than ever.</p>
+     </sp>
+     <sp who="#livia">
+      <speaker>Livia.</speaker>
+      <p>Have I ever spoken unkindly to you?</p>
+     </sp>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>No, that's it—always like a sick dove cooing. It makes my gorge to
+                                rise. Sweet cowslip-ball—dear little mountain—tender feather-bed—I
+                                have them all by heart.</p>
+      <stage>Enter Nita.</stage>
+      <p>Here's Nita—here's the girl I should have had.</p>
+     </sp>
+     <sp who="#livia">
+      <speaker>Livia.</speaker>
+      <p>You are very cruel.</p>
+     </sp>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>Oh, be off with a plague! This ceaseless jarring makes me grow thin.</p>
+     </sp>
+     <stage> [Exit Livia.</stage>
+     <sp who="#nita">
+      <speaker>Nita.</speaker>
+      <p>How now? Your wife in tears? You are a precious husband, sir! I had a
+                                good escape at least. Though for that, I fare not so much better.</p>
+     </sp>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>Poor girl! Is he, then, unkind to you? 'Tis monstrous cruelty, you
+                                being his wife. But I pity you. I am sorry; indeed I am.</p>
+     </sp>
+     <sp who="#nita">
+      <speaker>Nita.</speaker>
+      <p>Fins off, porpoise! Do you think that because my husband is cold to
+                                me you are to be allowed liberties? A pretty substitute! But you men
+                                are all alike. You neglect your own wives, however comely, and must
+                                come running about after other men's. Leastways, my husband does:
+                                and the example is not lost on you.</p>
+     </sp>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>And you women are all alike. You make a man's head swim at home with
+                                your jargoning, and when he looks abroad you fall a-weeping.</p>
+     </sp>
+     <sp who="#nita">
+      <speaker>Nita.</speaker>
+      <p>That shows we love our husbands. Better weep than do worse.</p>
+     </sp>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>When your mind is fully set to forbear weeping, give me early notice.</p>
+     </sp>
+     <sp who="#nita">
+      <speaker>Nita.</speaker>
+      <p>Well, I shall weep no more.</p>
+     </sp>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>Why, then, do worse—better, I should say— smile on your Basso.</p>
+     </sp>
+     <stage> [Goes on his knees.</stage>
+     <stage>Enter Guido.</stage>
+     <sp who="#guido">
+      <speaker>Guido.</speaker>
+      <p>What scoundrel's here! Begone, balloon, or I will take a bodkin and
+                                let you out! Away, sperm-whale!</p>
+     </sp>
+     <stage> [Kicks him out.</stage>
+     <sp who="#basso">
+      <speaker>Basso.</speaker>
+      <p>Be gentle, sir. My skin blisters easily.</p>
+     </sp>
+     <sp who="#guido">
+      <speaker>Guido.</speaker>
+      <p>And you, vile woman!</p>
+     </sp>
+     <sp who="#nita">
+      <speaker>Nita.</speaker>
+      <p>Husband—</p>
+     </sp>
+     <sp who="#guido">
+      <speaker>Guido.</speaker>
+      <p>Why do you suffer that blow-fly to buzz love to you?</p>
+     </sp>
+     <sp who="#nita">
+      <speaker>Nita.</speaker>
+      <p>I did not. But suppose it waived that I did, how many women do you
+                                make love to? You leave me night and day alone.</p>
+     </sp>
+     <sp who="#guido">
+      <speaker>Guido.</speaker>
+      <p>I doubt not you are cheerier company to yourself than to me.</p>
+     </sp>
+     <sp who="#nita">
+      <speaker>Nita.</speaker>
+      <p>Dear husband—</p>
+     </sp>
+     <sp who="#guido">
+      <speaker>Guido.</speaker>
+      <p>Oh begone!</p>
+     </sp>
+     <sp who="#nita">
+      <speaker>Nita.</speaker>
+      <p>No, let me stay by you a little.</p>
+     </sp>
+     <sp who="#guido">
+      <speaker>Guido.</speaker>
+      <p>Begone, I say!</p>
+     </sp>
+     <stage>Enter Raolfo.</stage>
+     <sp who="#raolfo">
+      <speaker>Raolfo </speaker>
+      <stage>(aside).</stage>
+      <lg>
+       <l>So is it ever. One heart bleeds to death </l>
+       <l>For a little love. The other gives it none. </l>
+       <l>What! Guido, Nita, quarrelling so soon?</l>
+      </lg>
+     </sp>
+     <sp who="#guido">
+      <speaker>Guido.</speaker>
+      <lg>
+       <l>Save your lordship, 'tis nothing.</l>
+      </lg>
+     </sp>
+     <sp who="#nita">
+      <speaker>Nita.</speaker>
+      <lg>
+       <l>Ay, sir, he speaks truth. He is a good husband to me.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>See, bear this letter to your master, sirrah, </l>
+       <l>And say who gave it you, and that it brooks </l>
+       <l>No long delay in the perusal. There, </l>
+       <l>Bring me his answer. Lose no time. Begone!</l>
+      </lg>
+     </sp>
+     <sp who="#guido">
+      <speaker>Guido.</speaker>
+      <lg>
+       <l>Ay, sir, I'll go with it at once. Come, wife.</l>
+      </lg>
+     </sp>
+     <stage> [Exeunt Guido and Nita.</stage>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>He must accept. I have so worded it </l>
+       <l>That he may know the charge my mind prefers </l>
+       <l>Against him, without word of her. That name </l>
+       <l>I could not bear to couple with such thoughts. </l>
+       <l>Moreover, I have never known him loth </l>
+       <l>To any deed of manhood. </l>
+      </lg>
+      <stage>Enter Fausta.</stage>
+      <lg>
+       <l> What! returned?</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>Ay. On the stairs but now I met his man, </l>
+       <l>Ilario's man. He bore a letter sealed. </l>
+       <l>I guessed it came from you and what is said, </l>
+       <l>And I am come to thank you in the name </l>
+       <l>Of all our house.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> For what?</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> For this just act </l>
+       <l>Toward one who put an insult on our name. </l>
+       <l>Whate'er her worth (we will not wrangle more), </l>
+       <l>She dwelt beneath our roof. You are most right, </l>
+       <l>And I am come to thank you.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Spare your thanks. </l>
+       <l>I did but what seemed just to me and best.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>And therein did but that you ever do— </l>
+       <l>True to yourself and us.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> And what is here </l>
+       <l>For thanks? You make yourself too busy with </l>
+       <l>My secret dealings. All I do is known, </l>
+       <l>As soon as done, to you. It is not fit </l>
+       <l>A young maid should so closely watch a man. </l>
+       <l>Men's lives are not most commonly the books </l>
+       <l>For maids to study in.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> There you speak true. </l>
+       <l>But your life is not as another man's, </l>
+       <l>Or, as I scorn such lives, so should I it, </l>
+       <l>And give but scanty study. But here comes </l>
+       <l>Ilario's man. The rogue is expedite.</l>
+      </lg>
+     </sp>
+     <stage>Enter Guido.</stage>
+     <sp who="#raolfo">
+      <speaker>Raolfo </speaker>
+      <stage>(opens letter and reads).</stage>
+      <lg>
+       <l>A curse on him!</l>
+      </lg>
+     </sp>
+     <stage>(Dropping letter, Fausta picks it up.)</stage>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Why, how? He will not fight. </l>
+       <l>So we must plume upon his other virtues </l>
+       <l>The coward's honours. What a paltry soul! </l>
+       <l>What manifest excuses! You, forsooth, </l>
+       <l>Have never done him wrong, nor would he you. </l>
+       <l>He knew not that the thing would anger you. </l>
+       <l>The maid was not your sister, nor your mistress, </l>
+       <l>And so forth. Take my counsel.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> And it is?</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>Why, write again. Say you will spit on him </l>
+       <l>If he fight not. Yet I go far to loathe </l>
+       <l>That you should cross swords with so dastard slave.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>My purpose and your word strike friendly hands. </l>
+       <l>I go hence with the letter. </l>
+      </lg>
+      <stage>(Showing another letter.)</stage>
+      <lg>
+       <l> Fare you well. </l>
+      </lg>
+      <stage> [Exit Raolfo.</stage>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>He would have done this had he loathed the girl. </l>
+       <l>A curse on her! the slight ungoverned life, </l>
+       <l>To come 'twixt mine and that great heart of his. </l>
+       <l>And for this smooth-lipped wretch—But see him come.</l>
+      </lg>
+     </sp>
+     <stage>Enter Ilario.</stage>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l>Empress, and will you chide me yet once more?</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>Why?</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l>'Tis so sweet, so better far than praise </l>
+       <l>From meaner lips.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> The law of love is still </l>
+       <l>Like unto like. Mean lips and flattery </l>
+       <l>Should better match thee than my chastisement.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l>But they do not. Lay on the lash again.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>Each act you do should leave you happier </l>
+       <l>If you love scorn of mine—a traitor first, </l>
+       <l>A coward next—and now a woman's slave </l>
+       <l>(If you speak fact, and I care not to know). </l>
+       <l>You cannot sink much further.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Coward? When?</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>You sent Raolfo this.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Your cousin, then, </l>
+       <l>Takes counsel on these matters with young maids; </l>
+       <l>And with his mother too, perchance; and if </l>
+       <l>He had a wife, would show his challenges </l>
+       <l>To her, and crave advice.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Go to, vain fool! </l>
+       <l>I snatched it from the floor where he let drop. </l>
+       <l>Moreover, he well knows 'tis not my mood </l>
+       <l>To bid him play the coward. Were I a man, </l>
+       <l>By Heaven! I'd take thy chastisement myself, </l>
+       <l>And deal it roundly.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> You have done so now. </l>
+       <l>All sins my doing towards your family </l>
+       <l>Are by the pain you deal atoned for thrice. </l>
+       <l>The selfsame words wherewith you tear my soul </l>
+       <l>Make me but see your noble worth more clear </l>
+       <l>And know what jewel I might once have earned </l>
+       <l>But for this loathèd fault.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Be whole of heart— </l>
+       <l>You never could have won me. Pay yourself </l>
+       <l>All sleek self-compliments but that.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> My queen, </l>
+       <l>Leave me this tithe of comfort, but to think </l>
+       <l>It might have been. Or, if your will run so, </l>
+       <l>Take this too. Leave me nothing. I will go </l>
+       <l>Comfortless to the grave, and feed upon </l>
+       <l>Mine unrequited love for nutriment. </l>
+       <l>To love you shall be all my happiness; </l>
+       <l>And you shall hate me for my sole return.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>I cannot hate nor love you—only scorn. </l>
+       <l>To love you were as easy as to hate. </l>
+       <l>I know not which I would the liefer do. </l>
+       <l>I must not listen further to your talk. </l>
+      </lg>
+      <stage> [Exit Fausta.</stage>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l>'Tis clean as I foretold. I am her slave. </l>
+       <l>I thought to crush her will: she supples mine. </l>
+       <l>Her influence bowed me like an iron weight </l>
+       <l>E'en as she spoke. But, for this fighting man, </l>
+       <l>Her cousin, I must take his challenge up. </l>
+       <l>She calls me coward for but pitying him. </l>
+       <l>I must put off that pity in some part </l>
+       <l>And write again. But grieved at soul I am </l>
+       <l>To put his life in so much jeopardy. </l>
+       <l>An honest man but strange! Thus do our sins </l>
+       <l>Scruple to swallow the foul brood they spawn, </l>
+       <l>But haunt us in their loathly progeny. </l>
+       <l>And so the first rent runs right through the robe </l>
+       <l>And leaves our life a ruin. Be it so! </l>
+       <l>My conscience I can brave, but scarce her scorn.</l>
+      </lg>
+     </sp>
+    </div>
+   </div>
+   <div type="act" n="5">
+    <head>ACT V.</head>
+    <div type="scene" n="1">
+     <head>Scene</head>
+     <stage>Scene.—A Grove near Zenora's House.</stage>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>Here is the place. Now spur thy coward's heart, </l>
+       <l>Seducer, to confront infuriate love </l>
+       <l>And high impartial Justice iron hand! </l>
+       <l>This once they join, unwonted so to join, </l>
+       <l>And both cry for thy blood.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> It grieves me sore </l>
+       <l>That you will draw this doom down on your head. </l>
+       <l>I have no quarrel with you. For that deed— </l>
+       <l>I do regret it just in so far forth </l>
+       <l>As it grieves you. I would not add to it </l>
+       <l>By taking of your blood.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> What! coward too! </l>
+       <l>You should have cast the dangers of your suit </l>
+       <l>Ere well in court. You are too far in the coils </l>
+       <l>Now to slip forth from under punishment </l>
+       <l>By fawning, grovelling, base apologies. </l>
+       <l>If you have one drop of man's blood in all </l>
+       <l>Your body, let it leaven so the rest </l>
+       <l>That you be able to hold up your guard </l>
+       <l>Untrembling.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Bookish fool, beware! and cease </l>
+       <l>To more provoke me, lest my patience fail. </l>
+       <l>But come, sir, are you a philosopher? </l>
+       <l>And will you make a quarrel for a toy, </l>
+       <l>A woman's heart, a trifle to change hands </l>
+       <l>Weekly, the current coin of Cupid's mart? </l>
+       <l>You should know more the frailty of their heart </l>
+       <l>To deem this thing dishonour, and apprize </l>
+       <l>At juster rate the value of such hearts </l>
+       <l>Than make a fray about one, when 'tis lost. </l>
+       <l>I too would fight over a woman's favour </l>
+       <l>Before I won it or some other man, </l>
+       <l>Not after, just as two cocks for the hen, </l>
+       <l>Ready to fight as fiercely for a worm. </l>
+       <l>Both are enjoyable, favour and food. </l>
+       <l>And each would have them; therefore the two fight, </l>
+       <l>No further said, when one has seized the prize.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>From the dung-heap. Thus men philosophize </l>
+       <l>Who have no part in knowledge. Bare your sword. </l>
+       <l>Small time for me to waste more words with you, </l>
+       <l>And less desire: plead like the ass and horse </l>
+       <l>With what brute strength you have; a dastard else, </l>
+       <l>Lacking the virtue of the cross-bred cur, </l>
+       <l>That quarrels for the offal in the street, </l>
+       <l>Or of the barn-door fowl, your model—</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Sir, </l>
+       <l>You shall have fight enough, since so you must. </l>
+       <l>Defend yourself. I pray you choose your ground.</l>
+      </lg>
+     </sp>
+     <stage> [They fight.</stage>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>Take that, and that. A curse on your cold blood </l>
+       <l>To mock my rage with calm! Damned smiling devil, </l>
+       <l>Take that! Have you no wrath, man, to be roused </l>
+       <l>With all that lust you could not govern? Ha! </l>
+       <l>That went home, did it? May this follow it.</l>
+      </lg>
+     </sp>
+     <stage> [Raolfo thrusting, runs on Ilario's point and falls.</stage>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l>Fool, angry fool, I told you 'twould be so! </l>
+       <l>You have your death, I doubt.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Get from my sight! </l>
+       <l>I could curse God for failure of that thrust, </l>
+       <l>And that I die so baffled. Kneel on me </l>
+       <l>That I may reach your throat. One grapple more. </l>
+       <l>Are you afraid of a weak dying man? </l>
+       <l>Detestable, contemptible—</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Rave on. </l>
+       <l>I hear approaching steps. I must away. </l>
+       <l>Blame but yourself. I meant you not this harm. </l>
+       <l>God rest your soul. </l>
+      </lg>
+      <stage> [Exit Ilario.</stage>
+     </sp>
+     <stage>Enter Fausta.</stage>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Just Heaven, what have we here?</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>A strong hate unrevenged, God's greatest curse; </l>
+       <l>A soul insatiate passing out of life </l>
+       <l>Hard by the brink of the cool mocking wave, </l>
+       <l>With nature's strongest thirst unslaked.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Good God! </l>
+       <l>But let me find the wound. I can but bind it— </l>
+       <l>I fear me there is no more to be done. </l>
+       <l>My fault, my fault. I urged you on to this. </l>
+       <l>I am the murderess of the man I loved. </l>
+       <l>On me be all the blame. The deed was mine. </l>
+       <l>Yet if you had but slain him, and could die, </l>
+       <l>Justice accomplished, with an easy mind, </l>
+       <l>I should not grieve the less, but less reproach </l>
+       <l>My share in this. Forgive me, friend, forgive. </l>
+       <l>I loved your honour better than your life; </l>
+       <l>I wished to see you play the nobler part, </l>
+       <l>As ever of yourself you did. If now </l>
+       <l>I had to make for you the choice again, </l>
+       <l>Of risk or death in hand with action high, </l>
+       <l>Or baseness married to security, </l>
+       <l>I think I should choose still as then. But see, </l>
+       <l>This comes of it—death, and myself the cause. </l>
+       <l>But ah, forgive me, noble, gentle heart!</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>Will you still plague me with your amorous speech </l>
+       <l>And boldness ever thus unmaidenly? </l>
+       <l>My near-approaching death may plead excuse, </l>
+       <l>But let this very thing refrain your tongue. </l>
+       <l>I would have some short peace before my death </l>
+       <l>To tune my mind to stillness of the grave.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>Death is but little nearer thee than me. </l>
+       <l>Have pity on me for my love.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> I have; </l>
+       <l>For I too have much suffered from that cause.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>Have pity on me; say ere yet thou die </l>
+       <l>Thou lov'st me but a little, less perchance </l>
+       <l>Than man ere loved a woman, but a little.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>Dear friend, you make me pity you; but love— </l>
+       <l>I cannot love but her.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> What! her your shame?</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>Who spake thus of her—who has dared? Nay, friend, </l>
+       <l>I am almost spent. Pray let me pass in peace. </l>
+       <l>I would not be provoked to wrath, and die </l>
+       <l>Cursing. I would not grieve thee with harsh words </l>
+       <l>For speaking thus of her. I pity thee. </l>
+       <l>There, leave me, in God's name.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> I will not leave. </l>
+       <l>I will love her for thy sake, nay, will strive </l>
+       <l>To honour her. But say thou lov'st me now </l>
+       <l>Only a little, for my love, my faith, </l>
+       <l>My meek obedience, nay, if these be slight, </l>
+       <l>The life which I will soon pour over thee </l>
+       <l>As wine upon thy funeral—a little, </l>
+       <l>Only a little, the least drop of love </l>
+       <l>Lips ever tasted or heart ever gave. </l>
+       <l>It will be to my tongue as the sweet drop </l>
+       <l>Of water Dives prayed for in hot hell. </l>
+       <l>I am grown one great famine, fever, drouth, </l>
+       <l>Nay, hell itself, with thirsting for thy love.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>You would not have me lie to you, poor friend? </l>
+       <l>I cannot love you.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Good God! Say not so. </l>
+       <l>I would God you had died first ere those words, </l>
+       <l>Those last words,—as I soon shall die, and rest. </l>
+       <l>But yet, but yet I have a little boon. </l>
+       <l>Be not so cruel but to give it me, </l>
+       <l>If I ask meekly.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> What is this you ask?</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>To kiss me. Let me die upon thy lips. </l>
+       <l>Or if this be too much, to kiss me once, </l>
+       <l>And so bid farewell to my flitting soul.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>I would be loth to keep this trifle back </l>
+       <l>If boon it be, or aught of comfort give—</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>Comfort! It is my life, my all, my heaven.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>But I have sworn, I swore thou knowest when, </l>
+       <l>That never woman's lips should touch mine own. </l>
+       <l>Thou wouldst not have me dying be forsworn </l>
+       <l>Who ever kept my word through life?</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Nay, true. </l>
+       <l>Though thy kiss were the gate of heaven, if thou </l>
+       <l>Hadst sworn to hold it back from lips of mine, </l>
+       <l>I would go rather down to hell than break </l>
+       <l>Thy knightly word or oath, and so deface </l>
+       <l>My life's true hero.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Noble woman,—why </l>
+       <l>Have I been ever blind to thy great soul? </l>
+       <l>I may not kiss thee, but take this my hand. </l>
+       <l>I cannot love thee, but I honour thee.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>It is enough. Come, peace! </l>
+      </lg>
+      <stage>[Stabs herself.]</stage>
+      <lg>
+       <l> Here will I lie. </l>
+       <l>My body is too frail to hold this love— </l>
+       <l>This great love that torments me. Thus and thus </l>
+       <l>I give it vent to mingle with the winds, </l>
+       <l>To break from the cold clay, a soul set free </l>
+       <l>To wander with the tempests of the night.</l>
+      </lg>
+     </sp>
+     <stage>Enter Teresa.</stage>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>I wonder have they slain him that he came not? </l>
+       <l>I will not yield to grief till I have vengeance. </l>
+       <l>Or they may but have charged him to the Duke. </l>
+       <l>But what is here? A man. Alas! too late. </l>
+       <l>Dead, dead! my loved one, my Ilario! </l>
+       <l>And who art thou, cursed woman, to be graced </l>
+       <l>With touch of his dead hand? Off, off! I say. </l>
+       <l>Ilario!</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Is it an angel speaks, </l>
+       <l>Deluding my dulled ear with strains of heaven </l>
+       <l>In likeness of the sweetest strains on earth? </l>
+       <l>No—it is she—in death brought back to me. </l>
+       <l>Poor wanderer! I still love thee. Kiss me, love.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>Would that the mists of death would blind these eyes.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Raolfo! 'Tis Raolfo. Wicked man, </l>
+       <l>Where is my love? Are you his murderer?</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>Base harlot! your vile minion slew this man, </l>
+       <l>Worth more than thousands of his bastard breed.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>Fausta, you have forgot. Words such as these </l>
+       <l>But ill beseem lips soon to close in death; </l>
+       <l>And I would sooner hear the saints blasphemed </l>
+       <l>Than her thus chidden.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> Spare your courtesy. </l>
+       <l>I need it not. But tell me, where is he?</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>That way he went.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> Then true it is he slew you?</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>As I had slain him if I could.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> You have— </l>
+       <l>For he must die or leave the land for this. </l>
+       <l>Why must he spread his eagle-wings and stoop </l>
+       <l>On such a thing? Poor slave, what is thy life </l>
+       <l>That he should honour thee with taking it, </l>
+       <l>Or that its loss should harm a hair of his?</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>I cannot bear it. Most ungrateful wretch, </l>
+       <l>For this he died, died to avenge thy shame!</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>No word of that, or by great Heaven—</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Oh God!</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>My shame! insulting man. What shame have I? </l>
+       <l>Or what is it to you to search my ways? </l>
+       <l>Who gave you charge over my chastity? </l>
+       <l>Or who has taught your manhood to defame </l>
+       <l>A lady's honour with such words?</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Enough! </l>
+       <l>Spare me. I cannot bear it.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> Spare thee what?</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>Have not I lived to worship thee? Have not </l>
+       <l>Mine eyes, lips, thoughts, hands, nay, my very soul, </l>
+       <l>Been thine to take or cast away? Forbear, </l>
+       <l>Forbear these cruel words. Cruel they are, </l>
+       <l>Crueller than death. And yet I love thee still. </l>
+       <l>Thou art my better angel still; to me </l>
+       <l>Pure as the day-spring, holier than heaven. </l>
+       <l>Give me thy blessing ere I go—</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Sweet God, </l>
+       <l>Hasten my death! It loiters. O sweet saints,— </l>
+       <l>Quick, quick—I cannot bear it.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> Out on thee! </l>
+       <l>Thou wouldst have slain Ilario, my dear love, </l>
+       <l>Hast led him into crime and misery, </l>
+       <l>And cravest now my blessing! Out on thee!</l>
+      </lg>
+     </sp>
+     <stage>Enter Ilario.</stage>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l>This way she came.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> Ilario!</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Stand off—</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Stand off!</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario </speaker>
+      <stage>(to Fausta).</stage>
+      <lg>
+       <l>What's this? Infatuate, cruel girl, </l>
+       <l>To spoil that temple where high beauty dwelt, </l>
+       <l>To take thy loveliness from the dull heaven.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Just God!</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l>Speak, speak, for yet I see thou art not dead. </l>
+       <l>Why didst thou this?</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Look on this murdered man. </l>
+       <l>Who slew him?</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> I.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Why, then, didst thou slay me</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l>I would he had drunk my life-blood first.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Too late. </l>
+       <l>Thou, that wast all unworthy to be slain </l>
+       <l>By such sweet hands, with thine ignobler ones </l>
+       <l>Hast done this sacrilege.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Reproach me not. </l>
+       <l>'Tis done, and I repent for thy sweet sake. </l>
+       <l>Yet what was he that thou shouldst love him so? </l>
+       <l>A creature of poor spirit.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> May thy mouth </l>
+       <l>Be blighted and sealed up with leprosy!</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l>Amen, since I have grieved thee.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> I am stunned. </l>
+       <l>Surely this is a dream. My brain is turned </l>
+       <l>With all these horrors, and I live in dreams </l>
+       <l>And picture that which is not. O sweet love, </l>
+       <l>Come to me, and awake me from this dream, </l>
+       <l>This ghastly, lying dream. Ilario, </l>
+       <l>Come to my bedside wheresoe'er I am, </l>
+       <l>And breathe on me, and wake me with a kiss, </l>
+       <l>And say this is not true.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Out, strumpet, out! </l>
+       <l>Thou art the cause of this.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Oh for some strength </l>
+       <l>To kill this villain! Love, he casts thee off. </l>
+       <l>Turn now to me. I am the same—to death.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Ilario!</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Out, strumpet!—dost not hear? </l>
+       <l>I love thee not.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> O God! then let me die. </l>
+       <l>Kill me. Be quick and merciful.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Dear love— </l>
+       <l>She hears me not: her thoughts are all on him.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>And his on her. Sweet God, have mercy—quick!</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l>She clings to him in death. I am alone. </l>
+       <l>Fausta, look up on me.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> Traitor and slave!</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Dost hear her? Love me still, Ilario; </l>
+       <l>She will not love thee.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Why, dost mock at me?</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Nay, God forbid! Sweet Fausta, pity me.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>I pity thee! Look on this work of thine.</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l>Nay, but thou must. </l>
+      </lg>
+      <stage> [Drawing out Fausta's knife and stabbing herself.</stage>
+      <lg>
+       <l> Thy pity is most sweet.</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l>Madman, support her. </l>
+      </lg>
+      <stage> [Teresa falls.</stage>
+      <lg>
+       <l> I shall die with her. </l>
+       <l>Our spirits shall take wing at once. Who knows </l>
+       <l>But when they quit together the frail husk </l>
+       <l>Her eyes may open on the heavenly shore, </l>
+       <l>And know me and my love? and she, thus clear </l>
+       <l>Of mortal blindness, may forget this life, </l>
+       <l>And love me even as I love her.</l>
+      </lg>
+     </sp>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l> But then </l>
+       <l>There is a third soul hungry and desolate </l>
+       <l>Following your flight with ever-anxious eyes. </l>
+       <l>Is no room for me in your Paradise? </l>
+       <l>Am I shut out, I only?</l>
+      </lg>
+     </sp>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> Speak, dear child. </l>
+       <l>Teresa, wilt thou love me now?</l>
+      </lg>
+     </sp>
+     <sp who="#teresa">
+      <speaker>Teresa.</speaker>
+      <lg>
+       <l> No, never. </l>
+       <l>I am going where no love is any more </l>
+       <l>Sick of life's treachery. Yet, Ilario, </l>
+       <l>I die your faithful slave.</l>
+      </lg>
+     </sp>
+     <stage> [Dies.</stage>
+     <sp who="#raolfo">
+      <speaker>Raolfo.</speaker>
+      <lg>
+       <l> God take my soul!</l>
+      </lg>
+     </sp>
+     <stage> [Dies.</stage>
+     <sp who="#fausta">
+      <speaker>Fausta.</speaker>
+      <lg>
+       <l>He is gone. He thought not of me. On thy lips </l>
+       <l>Thus will I breathe my life out;—Sweet, sweet death.</l>
+      </lg>
+     </sp>
+     <stage> [Dies.</stage>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l>Nor gave she thought to me:—and I alone </l>
+       <l>Am left, sole author of this tragedy, </l>
+       <l>The main first cause of all these aching griefs, </l>
+       <l>Left to my own remembrance and contempt. </l>
+       <l>No, never! Shall these women act great parts, </l>
+       <l>And I forbear the Roman's death? Out, friend, </l>
+       <l>My last true friend, and comfort my despair.</l>
+      </lg>
+     </sp>
+     <stage> [Enter crowd of Citizens.</stage>
+     <sp who="#citizen-1st">
+      <speaker>1st Citizen.</speaker>
+      <lg>
+       <l>Murder!</l>
+      </lg>
+     </sp>
+     <sp who="#citizen-2d">
+      <speaker>2d Citizen.</speaker>
+      <lg>
+       <l> Seize on him; bind his arms.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Good friends, </l>
+       <l>You do but delay justice. Have your will.</l>
+      </lg>
+     </sp>
+     <sp who="#citizen">
+      <speaker>Citizen.</speaker>
+      <lg>
+       <l>How his eyes rest on her!</l>
+      </lg>
+     </sp>
+     <sp who="#citizen">
+      <speaker>Citizen.</speaker>
+      <lg>
+       <l> Poor lady!</l>
+      </lg>
+     </sp>
+     <sp who="#citizen">
+      <speaker>Citizen.</speaker>
+      <lg>
+       <l> Ay. </l>
+       <l>But wherefore did he slay her, or who slew? </l>
+       <l>And who reft this one of his life? And here, </l>
+       <l>Here lies Raolfo, noble gentleman, </l>
+       <l>Dead too. All dead. 'Tis a mysterious business.</l>
+      </lg>
+     </sp>
+     <sp who="#officer-1st">
+      <speaker>1st Officer.</speaker>
+      <lg>
+       <l>You, sir, how came it thus?</l>
+      </lg>
+     </sp>
+     <sp who="#officer-2d">
+      <speaker>2d Officer.</speaker>
+      <lg>
+       <l> He hears you not; </l>
+       <l>His eyes are fixed. See how he looks on her.</l>
+      </lg>
+     </sp>
+     <sp who="#officer-1st">
+      <speaker>1st Officer.</speaker>
+      <lg>
+       <l>Come, tell us how the thing befell? Your words </l>
+       <l>Can scarce make darker your suspicious case, </l>
+       <l>But may do good.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> What good?</l>
+      </lg>
+     </sp>
+     <sp who="#officer-1st">
+      <speaker>1st Officer.</speaker>
+      <lg>
+       <l> Why, save thy life.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l>And if I do not wish to live?</l>
+      </lg>
+     </sp>
+     <sp who="#officer-1st">
+      <speaker>1st Officer.</speaker>
+      <lg>
+       <l> Why, then, </l>
+       <l>I know not.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Grant me, then, a little boon.</l>
+      </lg>
+     </sp>
+     <sp who="#officer-1st">
+      <speaker>1st Officer.</speaker>
+      <lg>
+       <l>What?</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Loose my hands a moment.</l>
+      </lg>
+     </sp>
+     <sp who="#officer-1st">
+      <speaker>1st Officer.</speaker>
+      <lg>
+       <l> They are loosed.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l>Give me my sword.</l>
+      </lg>
+     </sp>
+     <sp who="#officer-1st">
+      <speaker>1st Officer.</speaker>
+      <lg>
+       <l> Nay, it has done enough </l>
+       <l>Of mischief for one day.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> Then turn its point </l>
+       <l>Towards my breast and strike.</l>
+      </lg>
+     </sp>
+     <sp who="#officer-1st">
+      <speaker>1st Officer.</speaker>
+      <lg>
+       <l> Nay, justice strikes </l>
+       <l>On deep consideration, not to ease </l>
+       <l>The guilty wretch of life, when life is pain, </l>
+       <l>Nor yet to rob him of the joy of breath, </l>
+       <l>But calmly, for the good of civil life </l>
+       <l>And common safety of mankind. Look you, </l>
+       <l>I am no murderer.</l>
+      </lg>
+     </sp>
+     <sp who="#ilario">
+      <speaker>Ilario.</speaker>
+      <lg>
+       <l> As a starving man, </l>
+       <l>A ragged beggar kneeling begs for bread, </l>
+       <l>So I beg you for death.</l>
+      </lg>
+     </sp>
+     <sp who="#officer-1st">
+      <speaker>1st Officer.</speaker>
+      <lg>
+       <l> It cannot be. </l>
+       <l>You asked not this man if he wished for death: </l>
+       <l>You slew him, taking law in your wild hands. </l>
+       <l>Now you desire to die, insulted law </l>
+       <l>Has no weak pity for you. You must live— </l>
+       <l>At least a while. Lead off the prisoner. </l>
+       <l>Take up these bodies, and convey them home.</l>
+      </lg>
+     </sp>
+    </div>
+   </div>
+  </body>
+ </text>
+</TEI>

@@ -1,0 +1,4831 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id" xml:lang="eng">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">The wierd wanderer of Jutland</title>
+    <author>
+     <persName>
+      <forename>William</forename>
+      <surname>Herbert</surname>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>ProQuest</name>
+     <idno type="URL">https://www.proquest.com/books/wierd-wanderer-jutland-1822/docview/2138574804/se-2?accountid=14632</idno>
+     <idno type="proquest">LION2138574804</idno>
+    </bibl>
+    <bibl type="originalSource">
+     <author>Herbert, William</author>
+     <title type="main">The wierd wanderer of Jutland</title>
+     <title type="volume">The Wierd Wanderer Of Jutland</title>
+     <publisher>A Tragedy. Julia Montalban. A Tale. John Murray</publisher>
+     <pubPlace>London</pubPlace>
+     <date type="print" when="1822">1822</date>
+     <note type="citation">Herbert, William: The wierd wanderer of Jutland (1822). In: The Wierd Wanderer Of Jutland. A Tragedy. Julia Montalban. A Tale. John Murray: London 1822</note>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="agnes">
+      <persName>AGNES</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="attendant">
+      <persName>Attendant</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="bertha">
+      <persName>BERTHA</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="elfrid">
+      <persName>ELFRID</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="first_knight">
+      <persName>FIRST KNIGHT</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="guests">
+      <persName>GUESTS,</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="messenger">
+      <persName>MESSENGER</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="monk">
+      <persName>MONK</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="reynald">
+      <persName>REYNALD</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="second_knight">
+      <persName>SECOND KNIGHT</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="sweno">
+      <persName>SWENO</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="the_wanderer">
+      <persName>THE WANDERER,</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="the_wierd_wanderer">
+      <persName>THE WIERD WANDERER</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="ubald">
+      <persName>UBALD</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="wanderer">
+      <persName>WANDERER</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1822">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text>
+  <front>
+   <castList>
+    <label>DRAMATIS PERSONÆ.</label>
+    <castItem>
+     <role>Sweno.</role>
+    </castItem>
+    <castItem>
+     <role>Ubald.</role>
+    </castItem>
+    <castItem>
+     <role>Reynald.</role>
+    </castItem>
+    <castItem>
+     <role>Knights,</role>
+    </castItem>
+    <castItem>
+     <role>Guests, Messengers, and Attendants.</role>
+    </castItem>
+    <castItem>
+     <role>Bertha.</role>
+    </castItem>
+    <castItem>
+     <role>Agnes.</role>
+    </castItem>
+    <castItem>
+     <role>The Wanderer.</role>
+    </castItem>
+   </castList>
+   <set>
+    <p>Time, about 30 hours.</p>
+   </set>
+   <set/>
+  </front>
+  <body>
+   <div type="act" n="1">
+    <head>ACT I.</head>
+    <div type="scene" n="1">
+     <head>Scene I.</head>
+     <stage>—Sweno's Hall; a Banquet.</stage>
+     <stage>Sweno, Ubald, Reynald, Bertha, Agnes, Knights, Ladies, and Attendants.</stage>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>, lords, and be the draught of pleasure fill'd </l>
+       <l>E'en to the goblet's brink! We bid you welcome. </l>
+       <l>And thou, dear lady, whose hand lock'd in mine, </l>
+       <l>As on this day, twenty blithe years have witness'd, </l>
+       <l>We pledge thee in this brimming cup of love.</l>
+      </lg>
+     </sp>
+     <sp who="#guests">
+      <speaker>GUESTS, </speaker>
+      <stage>(drinking.)</stage>
+      <lg>
+       <l>Health and long life to Sweno and his dame!</l>
+      </lg>
+     </sp>
+     <sp who="#bertha">
+      <speaker>BERTHA.</speaker>
+      <lg>
+       <l>Thanks, gentles, for this courtesy.</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l> My Bertha, </l>
+       <l>Time has sped well with us. Our lovely hostess </l>
+       <l>Wears yet the hue of freshness unalloy'd, </l>
+       <l>While her ripe scion, our sweet Agnes, glows </l>
+       <l>With beauty's blush, like a new beam of morning. </l>
+       <l>We lack not aught, wherewith to tax the fates </l>
+       <l>As niggards of their gifts, being doubly blest </l>
+       <l>In our loved daughter and adopted son. </l>
+       <l>Ubald, thy prowess in each listed field </l>
+       <l>Speaks no mean lineage. As my child I greet thee.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>If to revere you as man's noblest type, </l>
+       <l>To love you as my worthier self, to prize </l>
+       <l>The far-famed honors of your noble house </l>
+       <l>As things most dear, which from ill chance to shield, </l>
+       <l>I would encounter danger in such shapes </l>
+       <l>As human daring may but ill assay, </l>
+       <l>Be a son's duty, it is freely paid, </l>
+       <l>And Ubald still the debtor. Good my lord, </l>
+       <l>Your kindness makes me bankrupt of all thanks, </l>
+       <l>Save the poor service of a faithful arm </l>
+       <l>To ward your rights.</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l> And we dare trust it, Ubald, </l>
+       <l>Though half our honors hung on the event. </l>
+       <l>To-morrow, sirs, it is our mind to hold </l>
+       <l>A gorgeous tournament, and, by my knighthood, </l>
+       <l>Who wins hath leave to be our daughter's suitor. </l>
+       <l>Good Reynald, is thy lance as keen and strong, </l>
+       <l>As when it tumbled the grim Saracen, </l>
+       <l>Horseman and horse, tilting in Palestine?</l>
+      </lg>
+     </sp>
+     <sp who="#reynald">
+      <speaker>REYNALD.</speaker>
+      <lg>
+       <l>Ay, noble Sweno; and a lovelier prize </l>
+       <l>Makes not the hand more sluggard in the charge. </l>
+       <l>I pledge my glove to win.</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l> Take it, young Ubald, </l>
+       <l>And may all guardian saints to-morrow speed thee! </l>
+       <l>So in the tilt thou dost approve thee victor, </l>
+       <l>Loud proclamation shall our heralds make </l>
+       <l>To all who dare impugn thy long-lost birthright; </l>
+       <l>And, if none answer to that bold appeal, </l>
+       <l>Valiant we know thee, and shall hold thee noble.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>Ay, marry will I. If he cast his gauntlet, </l>
+       <l>And this arm thrust him from his saddle-bow, </l>
+       <l>By heaven and good Saint Olaf, he shall eat it, </l>
+       <l>As that huge dragon, which he slew in Syria, </l>
+       <l>Would have gulp'd up the princess of .......—Plague on it! </l>
+       <l>I cannot scan the name of half those regions </l>
+       <l>Whence he has scared the devil and his imps.</l>
+      </lg>
+     </sp>
+     <sp who="#reynald">
+      <speaker>REYNALD, </speaker>
+      <stage>(rising.)</stage>
+      <lg>
+       <l>Sweno, I was bred in war, and learnt the laws </l>
+       <l>Of knightly courtesy which arrests mine anger. </l>
+       <l>I know both what is due to host and guests; </l>
+       <l>Nor would I stain thy social board with blood </l>
+       <l>E'en of one chattering pie; else, taunting youth, </l>
+       <l>I well remember, how in Holy Land, </l>
+       <l>When a base renegade provoked my scorn </l>
+       <l>By some light speech, I slew the turban'd caitif </l>
+       <l>With his own rapier.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> And made his bare skull </l>
+       <l>A bonnet for thy mistress.</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l> Peace, peace, Ubald. </l>
+       <l>Let us have music. Friends, the merry Bacchus </l>
+       <l>Brims not your flowing cups with wonted glee. </l>
+       <l>Agnes, we tax thy sweet voice for a song.</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>'Tis a fiend's song. Where gat you that foul strain, </l>
+       <l>Crossing our mirth with such portentous sounds, </l>
+       <l>As if the deep could send the unshrouded dead </l>
+       <l>To scare us from our joys?</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Father, it bodes not </l>
+       <l>Evil to us; a wild lay, long since learnt </l>
+       <l>From a wierd woman that craved alms: the notes </l>
+       <l>So sweetly rung in mine attentive ear, </l>
+       <l>Time has not robb'd me of their melody.</l>
+      </lg>
+     </sp>
+     <stage> (Thunder and lightning, which had begun faintly while she was singing,
+                        becomes loud and bright, with noise of violent rain. The agitation of Sweno
+                        increases.)</stage>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>The heavens frown on this our festival. </l>
+       <l>'Tis passing strange, that sounds of such dire omen </l>
+       <l>Should break upon our wassail; quelling the pulse </l>
+       <l>Of high-born mirth; turning the cheek of joy </l>
+       <l>To very paleness. Daughter, thy sad notes </l>
+       <l>Breathe an infectious gloom, and our kind guests </l>
+       <l>Have miss'd the scope of that sweet mirth we wish'd them. </l>
+      </lg>
+      <stage>(Rising.)</stage>
+      <lg>
+       <l>The tempest waxes, and this ancient castle </l>
+       <l>Rocks with the blast. May the sun's kindlier beam </l>
+       <l>Smile on our pomp to-morrow. I crave your leave. </l>
+       <l>Health and light thoughts attend our welcome friends.</l>
+      </lg>
+     </sp>
+     <stage> [Exeunt Sweno, Ubald, Bertha, Agnes and others. Manent Reynald and two
+                        other Knights.]</stage>
+     <sp who="#reynald">
+      <speaker>REYNALD.</speaker>
+      <lg>
+       <l>Great heaven! is this the man, whose mighty name </l>
+       <l>Is blown to the four corners of Christ's empire, </l>
+       <l>Famed for stern valor, marshalling in war </l>
+       <l>With proud array his feudatory swords </l>
+       <l>Like a half-king in Jutland! To be thus moved!</l>
+      </lg>
+     </sp>
+     <sp who="#first_knight">
+      <speaker>FIRST KNIGHT.</speaker>
+      <lg>
+       <l>'Tis the distemper of his inward nature. </l>
+       <l>The subtle fluid of that flaming mischief </l>
+       <l>Which gives the thunder voice, steals to his heart </l>
+       <l>With secret sickness, curdling all the blood </l>
+       <l>Till his flesh creeps.</l>
+      </lg>
+     </sp>
+     <sp who="#second_knight">
+      <speaker>SECOND KNIGHT.</speaker>
+      <lg>
+       <l> Ay; ever since that morn, </l>
+       <l>Which to his wedded couch gave noble Bertha.</l>
+      </lg>
+     </sp>
+     <sp who="#first_knight">
+      <speaker>FIRST KNIGHT.</speaker>
+      <lg>
+       <l>'Twas a rough morn. The curse of that fair maid, </l>
+       <l>Who perish'd in the flood, hath ever since </l>
+       <l>Weigh'd like a stone on his distemper'd soul.</l>
+      </lg>
+     </sp>
+     <sp who="#second_knight">
+      <speaker>SECOND KNIGHT.</speaker>
+      <lg>
+       <l>By heaven, methinks, when piping winds do blow, </l>
+       <l>Her form is manifest to his estranged eye, </l>
+       <l>As when she stood on the rock's slippery verge </l>
+       <l>That morn by Helen's chapel.</l>
+      </lg>
+     </sp>
+     <sp who="#reynald">
+      <speaker>REYNALD.</speaker>
+      <lg>
+       <l> Sirs, to me </l>
+       <l>Your words speak riddles.</l>
+      </lg>
+     </sp>
+     <sp who="#second_knight">
+      <speaker>SECOND KNIGHT.</speaker>
+      <lg>
+       <l> Heard you ne'er the tale? </l>
+       <l>'Tis twenty years by-gone, as on this morn, </l>
+       <l>Since Sweno led, with pomp and bravery </l>
+       <l>Of princely cost, his bride unto the altar </l>
+       <l>In Helen's chapel, built on the beetling rock </l>
+       <l>Over the torrent, when Saint Mary's church </l>
+       <l>Lay under the Pope's ban, for a foul murder </l>
+       <l>Done in the very aisle while mass was singing.</l>
+      </lg>
+     </sp>
+     <sp who="#reynald">
+      <speaker>REYNALD.</speaker>
+      <lg>
+       <l>I have mark'd its site, a wild romantic spot; </l>
+       <l>And its high tower a goodly structure, now </l>
+       <l>Half ruinous: 'tis said that evil spirits </l>
+       <l>Shriek oft at night within its lonesome walls.</l>
+      </lg>
+     </sp>
+     <sp who="#second_knight">
+      <speaker>SECOND KNIGHT.</speaker>
+      <lg>
+       <l>'Tis like they may; it hath been long disused, </l>
+       <l>A darksome fabric now, and the bleak winds </l>
+       <l>Howl through its broken casements.</l>
+      </lg>
+     </sp>
+     <sp who="#first_knight">
+      <speaker>FIRST KNIGHT.</speaker>
+      <lg>
+       <l> But that morn </l>
+       <l>Of blazing tapers there was cost enough.</l>
+      </lg>
+     </sp>
+     <sp who="#second_knight">
+      <speaker>SECOND KNIGHT.</speaker>
+      <lg>
+       <l>'Twas a gay pomp; but, as the nuptial train, </l>
+       <l>Advancing, near'd that huge o'er-shelving rock </l>
+       <l>Fast by the stream, the shrill winds mustering stirr'd </l>
+       <l>With such fierce outrage, that each flag was rent, </l>
+       <l>And the thick clouds seem'd big with lowering tempest. </l>
+       <l>When, as they 'gan ascend, a form above </l>
+       <l>Stood with dishevell'd hair, that stream'd upon </l>
+       <l>The blustering gale. It was the loveliest shape, </l>
+       <l>My eyes ere then or since have witness'd; pale </l>
+       <l>As the chaste moon, and sad as sorrow's statue: </l>
+       <l>But a wild fierceness lighten'd from her looks, </l>
+       <l>As, with one hand out-stretch'd, she gave her words </l>
+       <l>To the rude blast of heaven. I heard them not </l>
+       <l>With clear precision render'd to mine ear, </l>
+       <l>But it was bruited, that on princely Sweno </l>
+       <l>And all his race she breathed a deadly curse, </l>
+       <l>Summoning them to the dread throne of judgment.</l>
+      </lg>
+     </sp>
+     <sp who="#reynald">
+      <speaker>REYNALD.</speaker>
+      <lg>
+       <l>Whence and who was she?</l>
+      </lg>
+     </sp>
+     <sp who="#second_knight">
+      <speaker>SECOND KNIGHT.</speaker>
+      <lg>
+       <l> It was never known; </l>
+       <l>She vanish'd like a wraith; but on a bough, </l>
+       <l>Which overhung the swoln stream's eddying foam, </l>
+       <l>Her mantle was found, drench'd by the angry flood; </l>
+       <l>And 'tis past doubt, she perish'd in the waters, </l>
+       <l>Which roar'd that night, as they would burst their bed.</l>
+      </lg>
+     </sp>
+     <sp who="#reynald">
+      <speaker>REYNALD.</speaker>
+      <lg>
+       <l>How fared the bridal?</l>
+      </lg>
+     </sp>
+     <sp who="#second_knight">
+      <speaker>SECOND KNIGHT.</speaker>
+      <lg>
+       <l> Sad as a death-wake. </l>
+       <l>The bridegroom rapt in care, like one distraught </l>
+       <l>By some dark agony; his lovely bride </l>
+       <l>Trembling and ashy pale: and all the while </l>
+       <l>The thunder raved with such rebounding roar, </l>
+       <l>That the roof quaked, and the blue lightning's blaze </l>
+       <l>Made every face like a gaunt spectre glare.</l>
+      </lg>
+     </sp>
+     <sp who="#first_knight">
+      <speaker>FIRST KNIGHT.</speaker>
+      <lg>
+       <l>Ne'er has good Sweno, since that ominous morn, </l>
+       <l>Held the mind's peaceful tenor. When winds roar, </l>
+       <l>And the hoarse thunder makes the welkin tremble, </l>
+       <l>His heart seems touch'd as by some icy hand, </l>
+       <l>Shrivelling its core; and some deep cankering wound, </l>
+       <l>That preys within his soul, bleeds fresh and green.</l>
+      </lg>
+     </sp>
+     <sp who="#reynald">
+      <speaker>REYNALD.</speaker>
+      <lg>
+       <l>'Tis past belief, in one, whose actions swell </l>
+       <l>Fame's chronicle, far-told; filling the ear </l>
+       <l>Of expectation with amazing deeds; </l>
+       <l>Lending new lustre to renowned war.</l>
+      </lg>
+     </sp>
+     <sp who="#first_knight">
+      <speaker>FIRST KNIGHT.</speaker>
+      <lg>
+       <l>There doth not breathe a more undaunted knight </l>
+       <l>Than this same Sweno, saving that touch of weakness, </l>
+       <l>Unless it be yon flower of chivalry, </l>
+       <l>All conquering Ubald, fame and fortune's minion.</l>
+      </lg>
+     </sp>
+     <sp who="#reynald">
+      <speaker>REYNALD.</speaker>
+      <lg>
+       <l>Whence sprung that fiery youth, whose haughty eye </l>
+       <l>Lords o'er this court, as if created man </l>
+       <l>Was form'd for him, not he to yield man service; </l>
+       <l>So confident, and reckless?</l>
+      </lg>
+     </sp>
+     <sp who="#second_knight">
+      <speaker>SECOND KNIGHT.</speaker>
+      <lg>
+       <l> Faith I know not. </l>
+       <l>The lady Bertha found him, a weak infant, </l>
+       <l>Cradled midst roses and all summer sweets </l>
+       <l>In that fair chamber, now young Agnes' bower, </l>
+       <l>Fast by the blooming garden. The strange elf, </l>
+       <l>Lapt in deep slumber, smiled, and waking stretch'd </l>
+       <l>Its little arms as if imploring kindness; </l>
+       <l>And she, just risen from a matron's throes, </l>
+       <l>To pitying love by that endearment moved, </l>
+       <l>Kiss'd its chill'd lips that ask'd the milk of nature, </l>
+       <l>And on her beauteous bosom bade it hush. </l>
+       <l>Protection first, then favor he obtain'd, </l>
+       <l>Waxing in years, and worth, and valor; proud </l>
+       <l>As if from kingly blood, hot as a lion, </l>
+       <l>And mastering all spirits by his strength, </l>
+       <l>The people's darling, and the bolt of battle.</l>
+      </lg>
+     </sp>
+     <sp who="#first_knight">
+      <speaker>FIRST KNIGHT.</speaker>
+      <lg>
+       <l>Saving your prowess, I would pawn my sword </l>
+       <l>He wins to-morrow: for of Denmark's knights </l>
+       <l>There lives not one can stand this Ubald's onset.</l>
+      </lg>
+     </sp>
+     <sp who="#reynald">
+      <speaker>REYNALD.</speaker>
+      <lg>
+       <l>Is it thus? Yet shall he find one shaft too doughty, </l>
+       <l>Tried oft at Acre and at Ascalon, </l>
+       <l>Which hath beat down the brunt of Mahound's chieftains, </l>
+       <l>Though arm'd with spells of Paynim sorcery.</l>
+      </lg>
+     </sp>
+     <sp who="#first_knight">
+      <speaker>FIRST KNIGHT.</speaker>
+      <lg>
+       <l>God speed you, sir! 'Twill be no mean encounter </l>
+       <l>Shall stoop his crest to-morrow.</l>
+      </lg>
+     </sp>
+     <sp who="#second_knight">
+      <speaker>SECOND KNIGHT.</speaker>
+      <lg>
+       <l> Till then, Reynald, </l>
+       <l>Let us be joyous, and with some free cheer </l>
+       <l>Kill lagging time.</l>
+      </lg>
+     </sp>
+     <sp who="#reynald">
+      <speaker>REYNALD.</speaker>
+      <lg>
+       <l> E'en so; we have seen no spectres; </l>
+       <l>And yet methinks all heaven's blasts are stirring, </l>
+       <l>And its rent bosom seems one sheet of flame.</l>
+      </lg>
+     </sp>
+     <stage> [Exeunt.</stage>
+    </div>
+    <div type="scene" n="2">
+     <head>Scene II.</head>
+     <stage>A Grove in the Garden before the Castle, which is seen through the trees.
+                        The storm is abating.</stage>
+     <sp who="#the_wierd_wanderer">
+      <speaker>THE WIERD WANDERER </speaker>
+      <stage>(alone.)</stage>
+      <lg>
+       <l>Hist! hist! Wild striving elements, be still, </l>
+       <l>Ominous and still, as brooding mischief is! </l>
+       <l>When the fell draft of vengeance shall be quaff'd </l>
+       <l>E'en to its bloody dregs, then, then laugh out, </l>
+       <l>Thou damned spirit of the storm! Foul fiend, </l>
+       <l>Hast thou so many years of loneliness, </l>
+       <l>Whispering revenge, still borne me fellowship, </l>
+       <l>And now, when fate's retributory curse </l>
+       <l>Draws nigh to the achievement, canst thou not wait </l>
+       <l>For hellish joy, till the full spell be woven? </l>
+       <l>Hist! hist! and thou, bright sun, shine forth in glory, </l>
+       <l>Until the moment of appointed justice! </l>
+       <l>The day has been, when I could ill have bided </l>
+       <l>The pitiless tempest and that strife of nature; </l>
+       <l>But sold to fiends, I dread not now their workings, </l>
+       <l>Lost in despair, and reft of every gift </l>
+       <l>That makes life joyous—Hark! 'Tis Sweno's voice! </l>
+       <l>The morn shall not dawn twice, ere thou be summon'd </l>
+       <l>To thy doom! life for life!—Away! away!</l>
+      </lg>
+     </sp>
+     <stage> [Exit.</stage>
+     <stage>[Enter from the Castle, Sweno, Bertha.]</stage>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>The bolts have spent their fire; yon lurid cloud </l>
+       <l>Still, and disburthen'd of its teeming wrath, </l>
+       <l>Hangs like a misty shroud on the horizon. </l>
+       <l>The air is calm; Bertha, I breathe more freely.</l>
+      </lg>
+     </sp>
+     <sp who="#bertha">
+      <speaker>BERTHA.</speaker>
+      <lg>
+       <l>Nay, good my lord, I needs must hold it strange </l>
+       <l>E'en to the natural temper of your soul, </l>
+       <l>That you, so far removed from taint of fear, </l>
+       <l>Instant in danger, firm in resolution, </l>
+       <l>Should start, thus from yourself estranged and wild, </l>
+       <l>At these rude flaws of nature, making </l>
+       <l>Unkind divorce between your alter'd thoughts </l>
+       <l>And that sweet peace they owe you.</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l> O loved Bertha, </l>
+       <l>There be some thoughts too deep for time to medicine, </l>
+       <l>Which on the seemliest and freshest cheek </l>
+       <l>Would stamp dread's livery, though the heart were steel.</l>
+      </lg>
+     </sp>
+     <sp who="#bertha">
+      <speaker>BERTHA.</speaker>
+      <lg>
+       <l>What thoughts? strange roamings of the troubled fancy, </l>
+       <l>Air-blown imagination's empty bubble! </l>
+       <l>For shame, my lord; this is the bodiless spectre </l>
+       <l>Of that poor maniac, whose ill-omen'd vision </l>
+       <l>Comes, like the shadow of a passing cloud, </l>
+       <l>O'er the bright mirror of your better judgment. </l>
+       <l>Fie on't, a dream.</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l> Would that it were a dream, </l>
+       <l>That I could shake the wrathful spectre from me! </l>
+       <l>The curse of that dread hour will live for ever. </l>
+       <l>Call Agnes forth: I have a fearful thought, </l>
+       <l>Some secret evil overhangs my child. </l>
+       <l>Perchance her sight may soothe me.</l>
+      </lg>
+     </sp>
+     <sp who="#bertha">
+      <speaker>BERTHA.</speaker>
+      <lg>
+       <l> Be more cheerly; </l>
+       <l>Sweno, our guests attend us. </l>
+      </lg>
+      <stage> [Exit BERTHA.</stage>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO </speaker>
+      <stage>(alone.)</stage>
+      <lg>
+       <l> Vengeful fate, </l>
+       <l>Dost thou indeed pursue me! Will not years </l>
+       <l>Atone for one offence! Last night methought </l>
+       <l>A voice as from my father's tomb cried, “Sweno, </l>
+       <l>“Thine hour is come! the curse is o'er thine house!” </l>
+       <l>To-day, as I approach'd the festive hall, </l>
+       <l>That flaming cherub seem'd to bar my passage, </l>
+       <l>Which in my life's most prosperous hours of pride, </l>
+       <l>A dreadful vision, oft has cross'd my path.</l>
+      </lg>
+     </sp>
+     <stage>[Enter AGNES.]</stage>
+     <sp who="#sweno">
+      <speaker>SWENO, </speaker>
+      <stage>(embracing her.)</stage>
+      <lg>
+       <l>Ever beloved, forefend thee, gracious heaven! </l>
+       <l>Thy father's heart is sad.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> My honor'd sire, </l>
+       <l>This is the very breathing hour of bliss; </l>
+       <l>The storm is roll'd away, and merry birds </l>
+       <l>Do trick their plumes, and sing their cheerful welcome </l>
+       <l>To the mild beam of evening.</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l> The heart of youth </l>
+       <l>Is ever blithe and buoyant.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Good my father, </l>
+       <l>To-day my wayward strain offended you. </l>
+       <l>Shall I sing one, which oft has sooth'd your fancy </l>
+       <l>In the slow hours of sickness? Much you praised </l>
+       <l>Its melody, and somewhat the poor skill </l>
+       <l>That gave it voice.</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l> No, not a song, my Agnes. </l>
+       <l>Music itself is out of tune to-day; </l>
+       <l>Thy gladsomest notes would fall upon my ear </l>
+       <l>E'en as a passing knell.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Yet is this day </l>
+       <l>Held festive in our annals, chief for me </l>
+       <l>And my loved father.</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l> Beshrew me, noble maid, </l>
+       <l>If thou shalt lack the joys that well beseem </l>
+       <l>Thy spring of life. The heyday of my blood </l>
+       <l>Is chill'd by the mind's winter; nature wears not </l>
+       <l>That bland aspect, which to the eye of youth </l>
+       <l>Shows all her forms in pleasant colors deck'd. </l>
+       <l>Thou shalt not miss delights or princely state, </l>
+       <l>While Sweno girds a sword.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> I lack no joys </l>
+       <l>In thy kind presence: from thy brow to chase </l>
+       <l>The gloom, to sing to thee my playful ditties </l>
+       <l>Winning thy lips to smile, and in thine eyes </l>
+       <l>To read a father's blessing, these are joys </l>
+       <l>Enough for Agnes; nor of gayer sports </l>
+       <l>Is the voice hush'd in bounteous Sweno's palace.</l>
+      </lg>
+     </sp>
+     <stage>[Enter UBALD.]</stage>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>How fare our guests?</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> Sweno, we miss thy presence. </l>
+       <l>Upon my troth thou hast a royal guest! </l>
+       <l>That knight drinks deep, but yet his boastful speech </l>
+       <l>Shames his poor draught.</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l> The noble Reynald, Ubald?</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>Ay, he from Palestine. O I could pluck the beard </l>
+       <l>Of such a vaunter! Pshaw! it moves my spleen </l>
+       <l>To see a comely knight and stout withal </l>
+       <l>First praise his wine, then praise himself more largely, </l>
+       <l>Still giving birth to some amazing tale </l>
+       <l>Between the cup and lip. Why, sir, this man </l>
+       <l>Kills you more sultans with each draught he quaffs </l>
+       <l>Than there be signs in the bright zodiac.—Arthur, </l>
+       <l>And he who slew the dragon, hight Saint George, </l>
+       <l>Were puny champions! Agnes, this proud gallant </l>
+       <l>Will purge all Heathendom, and place his bride </l>
+       <l>Upon the top-stone of Jerusalem. </l>
+       <l>A murrain on such talkers!</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l> Thy blood, Ubald, </l>
+       <l>Knows no controul. Reynald stands well esteem'd, </l>
+       <l>And many a hard field has he fought beside </l>
+       <l>England's bold lion Richard.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> Ay, so he has; </l>
+       <l>And mown the heads of Paynim sorcerers </l>
+       <l>As boys slay poppies. So it stands recorded </l>
+       <l>Even on the faith of his own boastful speech. </l>
+       <l>Ubald must vail his crest to such high worth.</l>
+      </lg>
+     </sp>
+     <stage> (taking off his helmet, and walking impatiently.)</stage>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>Rein thy rash temper. Something bodes within me </l>
+       <l>That evil hangs over the house of Sweno; </l>
+       <l>Perchance from thy quick passion. O my daughter, </l>
+       <l>If this thy hairbrain'd playmate should be victor, </l>
+       <l>Thou wilt have a wild bridegroom.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> O good sir, </l>
+       <l>I am rejected, scorn'd! I have not taken </l>
+       <l>A soldan by the beard in Ascalon.</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>God speed thee, boy. Time was the riotous blood </l>
+       <l>So kindled in my veins; but now the frost </l>
+       <l>Of years steals o'er my pride. No son of mine </l>
+       <l>Shall reap my ample honors; when I fall, </l>
+       <l>My house is lonely. Ubald, it needs a prop, </l>
+       <l>And who shall take this guerdon from my hand </l>
+       <l>With her rich heritage, must stand approved </l>
+       <l>In feat of arms unrivall'd.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> Princely Sweno, </l>
+       <l>Forgive the hasty and impatient spirit </l>
+       <l>Which boils within me. Whom have I on earth </l>
+       <l>But thee, my more than father? Witness heaven, </l>
+       <l>If Ubald harbours in his ardent soul </l>
+       <l>One wish, but to be worthy thee and thine!</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>And so perchance thou art. That lofty temper </l>
+       <l>Which gleams from out thy soul, shows some high birthright, </l>
+       <l>Though unreveal'd.—Agnes, we tarry long.</l>
+      </lg>
+     </sp>
+     <stage> [Exeunt.</stage>
+    </div>
+   </div>
+   <div type="act" n="2">
+    <head>ACT II.</head>
+    <div type="scene" n="1">
+     <head>Scene</head>
+     <stage>Scene—A Grove of Ancient Trees with a View of the Castle. A fine Evening
+                        after the Storm.</stage>
+     <sp who="#the_wanderer">
+      <speaker>THE WANDERER, </speaker>
+      <stage>(alone.)</stage>
+      <lg>
+       <l>The storm is hush'd; the turmoil'd elements slumber, </l>
+       <l>And the fierce gale, which rock'd those battlements, </l>
+       <l>Is lull'd and motionless. Meek Nature now, </l>
+       <l>Her fitful passion o'er, sleeps like an infant, </l>
+       <l>A playful smile bedewing its moist lips </l>
+       <l>As its eye sinks in stillness.—There is pleasure </l>
+       <l>In the calm aspect of the firmament </l>
+       <l>E'en when the mind is phrensied. The gaunt wretch, </l>
+       <l>Midst hideous shapes that haunt his fever'd couch, </l>
+       <l>Blesses the day-breeze, and the soothing light </l>
+       <l>That beams from the blue heaven. How sweet the breath </l>
+       <l>Of this mild evening! It steals over me </l>
+       <l>With thoughts that have been long foregone. O Nature, </l>
+       <l>Parent of our best joys, how have I scared thee! </l>
+       <l>Through what terrific mazes has the fiend </l>
+       <l>Led my despairing steps! These aged trees </l>
+       <l>Spread their green honors to the sun that gilds them </l>
+       <l>In beauty yet unblighted, as when first </l>
+       <l>I trod their shade in youth: but vengeful thoughts </l>
+       <l>Have prey'd upon my vitals; they have gnaw'd </l>
+       <l>Like the foul worm in secret, till this form, </l>
+       <l>Once ripe with loveliness, has grown a curse, </l>
+       <l>A thing for wolves to bay, man's scorn and terror. </l>
+      </lg>
+      <stage>(Starting with a look of derangement.)</stage>
+      <lg>
+       <l>Hark, hark! It is my mother's shriek! I hear it; </l>
+       <l>I hear it now: the sob, the frantic laugh </l>
+       <l>Of my dead parent! They say the devil laughs, </l>
+       <l>When murder is doing. Mother! Mother! look up! </l>
+       <l>Know'st thou not me, thine own, thy blighted child? </l>
+       <l>'Twas thus when she was dying; she knew me not, </l>
+       <l>Her strange eye fixt upon the vacant air! </l>
+      </lg>
+      <stage>(Starting again.)</stage>
+      <lg>
+       <l>Hark to that shriek again!—Unquiet spirit, </l>
+       <l>Hush! hush!—Vengeance is dark and silent; slow, </l>
+       <l>But certain as the shaft of destiny. </l>
+       <l>Here, like death's messenger, I yield my being </l>
+       <l>To the achievement of that fearful vision, </l>
+       <l>Perpetual inmate of my burning thoughts, </l>
+       <l>By day my agony, the bitter dream </l>
+       <l>Of my distemper'd nights. </l>
+      </lg>
+      <stage>[Enter AGNES and UBALD.]</stage>
+      <lg>
+       <l> See, where they come, </l>
+       <l>Two heedless fowls, into the net of fate! </l>
+       <l>Be still, weak heart! Hush. Hush.</l>
+      </lg>
+     </sp>
+     <stage> (She withdraws, and conceals herself in the hollow trunk of an old
+                        tree.)</stage>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> The evening star, </l>
+       <l>They say, is love's sweet harbinger. How its beam, </l>
+       <l>Ere yet the sun has ta'en his last farewell, </l>
+       <l>With every pleasant omen bids us welcome! </l>
+       <l>After her boisterous throes Nature smiles on us. </l>
+       <l>See, how each dewy flower is wreath'd with pearls! </l>
+       <l>The sun all-radiant is with glory passing </l>
+       <l>To his bright chamber. Seems it not so, love?</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>O Agnes, all my thoughts are full of joy; </l>
+       <l>And the hot blood so tingles in my veins, </l>
+       <l>Methinks I could outstrip his lazy course, </l>
+       <l>Unto his orient palaces, and drag </l>
+       <l>Star-throned Dominion from her seat in heaven.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>O rash in valour, as in love most wild!</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>Nay, Agnes, on my troth I love thee soother </l>
+       <l>Than the sick miser loves his hoarded pelf, </l>
+       <l>Than the fat burgher his wine-mantled cup, </l>
+       <l>Cowards their lives, sleek hypocrites their lies. </l>
+       <l>I' faith, sweet lass, thou think'st I love thee well.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Thou art a saucy knave to say me thus.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD, </speaker>
+      <stage>(playfully.)</stage>
+      <lg>
+       <l>Think'st thou, my Agnes, if love's hope were granted, </l>
+       <l>Hymen his torch just lighting, all joys ready </l>
+       <l>And fit appliances of blissful state, </l>
+       <l>The bridal deck'd, chambers with perfume breathing, </l>
+       <l>That my fond grasp would cling to this soft palm </l>
+      </lg>
+      <stage>(taking her hand)</stage>
+      <lg>
+       <l>As its best treasure?</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Faith, it need not call </l>
+       <l>The tell-tale blushes to a virgin's cheek, </l>
+       <l>To cry thee, ay.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD, </speaker>
+      <stage>(laughing).</stage>
+      <lg>
+       <l> Yet on my word I would not; </l>
+       <l>So I must creep inglorious to thy couch, </l>
+       <l>As the worm seeks its mate. My Agnes' husband </l>
+       <l>Must be enshrined in the full blaze of glory. </l>
+       <l>O I will place thee in such eminence, </l>
+       <l>That men shall bow, women miss their proud looks, </l>
+       <l>And all cry hail, as to the sun of nature!</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Ah me! thou art a truant to true love. </l>
+       <l>'Twas ever thus; Agnes hath scarce a part </l>
+       <l>In the impetuous yearnings of thy fancy. </l>
+       <l>There is some charm, some ill-devised spell, </l>
+       <l>That binds me closer to thy wayward soul, </l>
+       <l>Else would I . . . . </l>
+      </lg>
+      <stage>(she hesitates).</stage>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD, </speaker>
+      <stage>(smiling).</stage>
+      <lg>
+       <l> What wouldst thou, Agnes?</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <stage>(after a pause, leaning on him tenderly.)</stage>
+      <lg>
+       <l> Love thee ever! </l>
+       <l>And more for that untamed rebellious spirit, </l>
+       <l>Which oft in every day's revolving space </l>
+       <l>Thrills me with shapeless fears. O Ubald, Ubald, </l>
+       <l>Agnes hath being but in thy look's sunshine. </l>
+       <l>To be thine, thine, were bliss: of other union </l>
+       <l>The thought with icy chill upon my heart </l>
+       <l>Falls like death's warning.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> Of another union! </l>
+       <l>God's mercy! is not Agnes mine? my prize? </l>
+       <l>My life, my better self? Have I not won thee, earn'd thee? </l>
+       <l>Taken thee to my soul's core? my crown, my glory!</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Would that to-morrow were past! The palm of strife </l>
+       <l>Hangs on a slippery chance. Thine arm is matchless, </l>
+       <l>But the weak flutter of a maiden's fear </l>
+       <l>Draws the blood curdling to the seat of life, </l>
+       <l>When in the balance hangs all hope of bliss, </l>
+       <l>And in one scale is death.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> My blushing trembler, </l>
+       <l>What arm of man, in tourney or in war, </l>
+       <l>Has bow'd my crest? Who has withstood my dint? </l>
+       <l>And when this hand, worth mines of adamant, </l>
+       <l>Is the high guerdon of the bloodless tilt, </l>
+       <l>Will Ubald's arm be not itself to-morrow?</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>I should be fearless, for on thee my trust </l>
+       <l>Leans with true confidence; my bosom throbs </l>
+       <l>Responsive to hope's pulse, and still is joyous.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>Speak ever thus! If valor could be lull'd, </l>
+       <l>There is a charm in thy Circëan smile </l>
+       <l>Might steep it in perdition.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Dear Ubald, </l>
+       <l>I well remember, I was scant thirteen, </l>
+       <l>A wayward girl scarce witting what I loved, </l>
+       <l>When one bright morn, beneath the embowering grove </l>
+       <l>Deep in yon flowery garden, I was stretch'd. </l>
+       <l>My hair all loose, my wimple cast aside, </l>
+       <l>And my young fancy was upon the wing </l>
+       <l>Shaping fond wishes; when, as I mine eyes </l>
+       <l>Uplifted, by my side there stood a form </l>
+       <l>Such as I ne'er had seen. Her dress was strange, </l>
+       <l>And motley; her cheek wore a sallow hue, </l>
+       <l>But ardent through that dark complexion glow'd </l>
+       <l>A hectic flush: her look had such a spell </l>
+       <l>As passes human tongue to tell or liken, </l>
+       <l>The coiled serpent's spell, that charms its prey </l>
+       <l>By the eye's glance; nor could I my face withdraw </l>
+       <l>From the full speculation of that eye </l>
+       <l>That gazed upon me, sweet, but sadly wild; </l>
+       <l>A look, that seem'd to tell of other joys </l>
+       <l>Than were familiar to her present garb. </l>
+       <l>Her figure, though in guise terrific, show'd </l>
+       <l>Perfect concordance, well-turn'd symmetry, </l>
+       <l>And the fine features of her tawny face </l>
+       <l>Seem'd beauty's ruin.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> Certes a wierd woman; </l>
+       <l>Such figures sometimes cross our path in life, </l>
+       <l>Holding deep converse with our destinies, </l>
+       <l>Which for small price they oft reveal most strangely.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>'Twas even so. Silent some while she stood, </l>
+       <l>Then, with a voice that lack'd not melody, </l>
+       <l>Pour'd a wild ditty, whose sweet-warbled notes </l>
+       <l>Still vibrate strangely on my captived ear. </l>
+       <l>Then gently on my hand she fix'd her touch, </l>
+       <l>While I lay witched by that harmony, </l>
+       <l>And with enquiring finger search'd my palm, </l>
+       <l>Which I half fearful yielded, half content; </l>
+       <l>And she would tell my fate, for such small coin </l>
+       <l>As my young means might tender.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> Did thine ear </l>
+       <l>Receive her hidden lore?</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> O yes, my pulse </l>
+       <l>Throbb'd high and quick with expectation. </l>
+       <l>She said, my soul was weak, but apt for love, </l>
+       <l>And, if I lack'd not courage, I should wed </l>
+       <l>My soul's best treasure; but this threat subjoin'd, </l>
+       <l>If knight or prince should win my fated hand, </l>
+       <l>Who owed his state to aught save shining valor, </l>
+       <l>Frightful perdition would o'erwhelm my house </l>
+       <l>And his that wed me.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> That strange tale is rife; </l>
+       <l>And I do well believe, sweet flower of Jutland, </l>
+       <l>Predicted ruin hath scared many a suitor, </l>
+       <l>Whose lordly crest and richly purfled trappings </l>
+       <l>Shrunk from the threat of fate.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Blest be that curse, </l>
+       <l>Which daunts the prowess of unwelcome rivals!</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>Nay, sweetest, would I had a thousand rivals, </l>
+       <l>And on each head a princely diadem, </l>
+       <l>So I might pluck bright honor from their crests, </l>
+       <l>And place it on my Agnes' brow of beauty!</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Insatiable of glory! Will no thought </l>
+       <l>Of thy loved Agnes win thy soul to mildness? </l>
+       <l>O Ubald! if thine arm be blest to-morrow, </l>
+       <l>Our course is level; the fair gales of heaven </l>
+       <l>Will waft us to that fairy land of hope, </l>
+       <l>Which we have gazed on, as the mariner </l>
+       <l>After long peril of the boisterous seas. </l>
+       <l>But if mischance attend thee, here I vow, </l>
+       <l>By our best hopes, by all these maiden blushes, </l>
+       <l>No force shall yield this hand, thine own true hand, </l>
+       <l>To other lord: and well my soul assures me, </l>
+       <l>(Though mystery hangs o'er thy secret birth) </l>
+       <l>That Ubald came not of ignoble race. </l>
+       <l>Valor and love uphold thine arm to-morrow! </l>
+       <l>Till then, farewell. </l>
+      </lg>
+      <stage> [Exit AGNES.</stage>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD </speaker>
+      <stage>(thoughtfully.)</stage>
+      <lg>
+       <l> Of an ignoble race! </l>
+       <l>It cannot be! I feel within me that, </l>
+       <l>Which doth confirm me of proud origin. Else </l>
+       <l>Why throbs my breast with aspirations </l>
+       <l>Of such high nature? The steed bred for toil, </l>
+       <l>Though pamper'd in the stall of lordly knights, </l>
+       <l>Paws not the field, nor snuffs the air, and neighs, </l>
+       <l>As the swift Arab, when the din of war </l>
+       <l>Comes on his ears erect. Yet would I give </l>
+       <l>Wealth, power, all pomp of pleasure, and all hope </l>
+       <l>Save thee, loved Agnes, and this trusty sword, </l>
+       <l>To know my sire.</l>
+      </lg>
+     </sp>
+     <stage> (He stands thoughtfully; The Wanderer comes forth unobserved.)</stage>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l> Minion of valor, hail!</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>Ha! a wierd wanderer of the lonely forest! </l>
+       <l>If knowledge dwells within that sallow breast, </l>
+       <l>She shall resolve my fate.—Woman,—if woman, </l>
+       <l>Nor rather of such beings as in deserts </l>
+       <l>Have airy habitation!—canst thou call </l>
+       <l>To thy mind's eye the semblance of the past, </l>
+       <l>And things still seal'd in the deep womb of time, </l>
+       <l>Lifting the veil of mazy destiny? </l>
+       <l>Speak what I am, what I shall be hereafter.</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l>Ubald, strange fates hang o'er thee. Thou shalt win, </l>
+       <l>But winning lose, and in one day's short circle </l>
+       <l>Thou shalt drain all the cup of bliss and anguish.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>Foul prophetess, unfold thy hidden meaning.</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l>Peace, peace, rash youth.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> Wierd woman, name my sire!</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l>I may not now. There is a spirit nigh, </l>
+       <l>Which, if that name were breathed, would shriek aloud </l>
+       <l>With such dire adjuration of revenge, </l>
+       <l>That thy young heart would shrivel like a scroll </l>
+       <l>Wrapt in devouring flames.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> Nay then, my sword—</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l>Impotent and vain! think'st thou, that death </l>
+       <l>Has terrors, for who walks night's hideous round </l>
+       <l>Like a bann'd spirit, to life's joys and light </l>
+       <l>Than death itself more dead?</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> Fear'st not mine arm?</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l>As teeming tempest dreads the mutinous thunder; </l>
+       <l>As the sea trembles when its billows roar.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>Terrific woman, I adjure thee, name him.</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l>Men deem thee valiant, Ubald. Thou didst climb, </l>
+       <l>A fearless stripling then, (myself did mark it,) </l>
+       <l>The giddy height to the crag's beetling brow, </l>
+       <l>And from its eyrie tore'st the unfledged eaglet.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>'Tis true; where never human step had clomb </l>
+       <l>Upon the perilous edge, self-poised, I slew </l>
+       <l>The parent savage screaming in mid air </l>
+       <l>O'er the void chasm, and seized its callow young.</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l>Did that vain bauble fill thy soul? Below thee, </l>
+       <l>Strong in its beauty, lay this smiling province </l>
+       <l>And Sweno's stately dome. What were thy thoughts, </l>
+       <l>Proud boy, as firm upon the slippery ledge </l>
+       <l>Thy foot stood fix'd, and the keen eye survey'd </l>
+       <l>All the wide plain beneath it?</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> Thou hast touch'd </l>
+       <l>A string, to which this heart knows well to answer. </l>
+       <l>By heaven, I gazed from that rash eminence </l>
+       <l>With no mean pride. My eye stretch'd wide and far </l>
+       <l>O'er fields and wastes, hamlets and haunts of men, </l>
+       <l>E'en to the sea sail-studded; and methought </l>
+       <l>E'en then, some heritage as fair and princely </l>
+       <l>Should own me lord.</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l> And so perhaps 'tis written </l>
+       <l>In the closed page of fate. A bloody star </l>
+       <l>Glared o'er thy birth. Deeds must be done, ere thou </l>
+       <l>Lord o'er the right of thy proud ancestry, </l>
+       <l>Shall turn the pure sun red. Darest thou obey </l>
+       <l>The fearful call of thine high destinies?</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>To the world's verge, though bottomless and unseen. </l>
+       <l>Light thou the ominous beacon; let thine arm </l>
+       <l>Point o'er the field of death, and I will follow!</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l>Valiant!—'tis well: but fame delivers thee, </l>
+       <l>Though vain and choleric, yet weak withal, </l>
+       <l>And the frail slave of woman. Darest thou win </l>
+       <l>Thy way to vengeance, and re-assert thy name, </l>
+       <l>Though white arms stretch to hold thee, and loved eyes </l>
+       <l>Weep blood for pity?</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> What beseems a man, </l>
+       <l>That Ubald dares, though all Circassia's smiles </l>
+       <l>Were leagued to lure him.</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l> That which vengeance bids </l>
+       <l>Beseems a man, and thine own wrongs demand it. </l>
+       <l>Fate has no middle path. Dost thou love, Ubald?</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>Ask you me, prophetess?</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l> Death is in the kiss </l>
+       <l>Of those smooth lips thou wooest. Durst thou see </l>
+       <l>That beauteous form which thy weak fancy doats on, </l>
+       <l>The hair dishevell'd and the white breast bared, </l>
+       <l>Hang on thine arm for mercy, and yet, true </l>
+       <l>To the stern call of vengeance, strike thy poniard </l>
+       <l>E'en to her heart's blood, Ubald?</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> Curst of heaven! </l>
+       <l>From what abhorr'd spring flows thine hellish speech?</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l>It is hell speaks! It is the voice of judgment </l>
+       <l>From the deep throne of night! Hist! hist! I tell thee </l>
+       <l>The eagle soars which soon must swoop in blood! </l>
+       <l>The lordly eaglet from its eyrie cast </l>
+       <l>Must plume its wing and flesh in gore its talons!</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>Woman, thy reason swims; thy thoughts are wild.</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l>I am not strange; sometimes the dizzy mist </l>
+       <l>Hangs o'er my brain, and things, long past, seem present. </l>
+       <l>'Tis the mind's noontide now; the horizon gleams, </l>
+       <l>And that for which my eyeballs long have strain'd </l>
+       <l>Glares close within my grasp.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> Away, wierd woman! </l>
+       <l>I hold not parley with hell's messengers.</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l>Thou canst not leave me, save it be my will; </l>
+       <l>A spell is on thee, Ubald! What fate bids, </l>
+       <l>Thine arm must execute. The hour is ripe, </l>
+       <l>The word is gone forth from the throne of judgment: </l>
+       <l>The spirit of the deep has spoken it. </l>
+       <l>Hark, Ubald, fear not! To thy bridal feast </l>
+       <l>Bid the wierd wanderer.—Do I read contempt </l>
+       <l>In thy keen eye? Ha! do these weeds offend thee?</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>Unearthly form, away!</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l> Impetuous youth! </l>
+       <l>When thine heart swells with hope, I shall be near thee! </l>
+       <l>Thou standest blind upon the fiery brink </l>
+       <l>Of that deep gulph, which it were death to plunge in; </l>
+       <l>But heaven shall succour and uphold thee, Ubald. </l>
+       <l>Go forth in pride! go fearless! strike and conquer!</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>Mysterious prophetess! thy words are awful.</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l>More shalt thou know hereafter:—this learn, Ubald, </l>
+       <l>There is a fearful record in the heavens; </l>
+       <l>Angels have written it; the dead bears witness. </l>
+       <l>Sweno's whole heritage, this envied province, </l>
+       <l>And that weak maid withal, were a poor barter </l>
+       <l>For just revenge. </l>
+      </lg>
+      <stage> [Exit WANDERER.</stage>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD, </speaker>
+      <stage>(alone.)</stage>
+      <lg>
+       <l> Forbidden lore perchance </l>
+       <l>And sight of visions not for man design'd </l>
+       <l>Have crazed thee, beldame. Yet was I light before, </l>
+       <l>And thou hast thrown a load on me. Thy features </l>
+       <l>Have some strange power which thrills me.—This rich province! </l>
+       <l>Why ay; if Sweno's daughter be my bride, </l>
+       <l>Who shall gainsay my claims?—Ha! spoke she true? </l>
+       <l>My name, my sire unknown; the rights, by nature </l>
+       <l>Stamp'd on this brow, abolish'd quite and lost; </l>
+       <l>No ancient crest this gorgeous helm adorning; </l>
+       <l>Shall slaves call Ubald upstart? The blood cries, </l>
+       <l>This must not be!—O, though unknown, revered! </l>
+       <l>Father! how longingly my thoughts have yearn'd </l>
+       <l>To know thy lineaments! If death has snatch'd thee </l>
+       <l>From this our nether world, look down on me! </l>
+       <l>For oft thy form has strode across my slumbers! </l>
+       <l>If treason has foredone thee, and robb'd thy son </l>
+       <l>Of his best heritage, thy spotless name, </l>
+       <l>O speak to me, in night's still gloom reveal'd, </l>
+       <l>Declare thy wrongs! Let Ubald fall, or wreak them!</l>
+      </lg>
+     </sp>
+     <stage>[Enter Reynald.]</stage>
+     <sp who="#reynald">
+      <speaker>REYNALD.</speaker>
+      <lg>
+       <l>Thou art wrapt in thought. Men speak thee keen and lightsome, </l>
+       <l>Not given to musing.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> Each humor hath its hour. </l>
+       <l>There is a blithe hour for the lip of love; </l>
+       <l>The sparkling goblet, the bold clamor of battle </l>
+       <l>Have theirs: there is an hour for deeper thoughts, </l>
+       <l>When the soul soars alone beyond the clay </l>
+       <l>That cramps its nature. Be thou welcome, Reynald; </l>
+       <l>To-morrow must thine helmet bow before me; </l>
+       <l>This night let us be cheery.</l>
+      </lg>
+     </sp>
+     <sp who="#reynald">
+      <speaker>REYNALD.</speaker>
+      <lg>
+       <l> Thou art boastful, </l>
+       <l>Rash youth! Reynald is little wont to strive, </l>
+       <l>Save with his equals. His sword strikes down the lofty, </l>
+       <l>But spares the herd.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD, </speaker>
+      <stage>(laying his hand on his sword.)</stage>
+      <lg>
+       <l> To me? to me this, Reynald?</l>
+      </lg>
+     </sp>
+     <sp who="#reynald">
+      <speaker>REYNALD.</speaker>
+      <lg>
+       <l>To whom it fits. Valor on lordly crests </l>
+       <l>Sits like a jewel in the diadem, </l>
+       <l>Giving and taking lustre. On the low </l>
+       <l>It shines unseemly, like love's rosy chaplet </l>
+       <l>On the bald front of age, and moves our pity.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD, </speaker>
+      <stage>(drawing his sword.)</stage>
+      <lg>
+       <l>Thou hast said that which must be rued in blood.</l>
+      </lg>
+     </sp>
+     <sp who="#reynald">
+      <speaker>REYNALD.</speaker>
+      <lg>
+       <l>Not for thy worth, but that good gift of knighthood </l>
+       <l>By princely Sweno's hand too largely lavish'd, </l>
+       <l>I will e'en joust with thee to-morrow, Ubald. </l>
+       <l>So thou shalt learn the weight of that tried arm </l>
+       <l>Which Pagans shrink from.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> By heaven, thou liest, to say </l>
+       <l>'Twas largely lavish'd! Thou darest not for thy life </l>
+       <l>Brand me with lowly birth, though half my honors </l>
+       <l>Lie in abeyance, and are meekly worn, </l>
+       <l>Till it shall please high heaven to reveal </l>
+       <l>My birthright. The pure blood throbs here more warmly, </l>
+       <l>Caitif, than thine.</l>
+      </lg>
+     </sp>
+     <sp who="#reynald">
+      <speaker>REYNALD.</speaker>
+      <lg>
+       <l> That speech has seal'd thy doom; </l>
+       <l>Thou shalt not live to view to-morrow's tourney.</l>
+      </lg>
+     </sp>
+     <stage>[They fight. Enters Sweno with his sword drawn.]</stage>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>Forbear, Ubald, forbear! I charge thee, cease! </l>
+       <l>Kind sir, </l>
+      </lg>
+      <stage>(to Reynald)</stage>
+      <lg>
+       <l> beseems it ill with such rude broils </l>
+       <l>To scare our festive joys. Put up, good Ubald. </l>
+       <l>I pray ye, sirs, on pain to lack our friendship, </l>
+       <l>Pursue this wrath no further. Let not hate </l>
+       <l>Lurk in these walls, to rear her deadly front </l>
+       <l>Amidst our mirth. Pray ye, be friends. Who shivers </l>
+       <l>One lance in wrath is banish'd from our tourney.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>We shall have scope hereafter. Farewell, Reynald. </l>
+      </lg>
+      <stage> [Exit Ubald.</stage>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>Reynald, we should this eve be light and gladsome, </l>
+       <l>But some unfriendly doom o'ertakes and thwarts us.</l>
+      </lg>
+     </sp>
+     <stage> [Exeunt.</stage>
+    </div>
+   </div>
+   <div type="act" n="3">
+    <head>ACT III.</head>
+    <div type="scene" n="1">
+     <head>Scene I.</head>
+     <stage>The Tournament. A Pavilion in front of the Area in which are the Lists.
+                        If it is not convenient to give a Representation of the Fight, the Scene
+                        must be so arranged that the Actors may appear to look down upon the Area in
+                        the back of the Stage which is out of the sight of the Audience.</stage>
+     <stage>Sweno, Bertha, Agnes, and Attendants.</stage>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l> eye of day looks cheerly on our meeting, </l>
+       <l>And the bright bucklers of our helmed knights </l>
+       <l>Send back his courtesy in gleams of fire.</l>
+      </lg>
+     </sp>
+     <stage> (flourish.)</stage>
+     <sp who="#bertha">
+      <speaker>BERTHA.</speaker>
+      <lg>
+       <l>Who rides so proudly with yon cross of red?</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>'Tis doughty Reynald, and that black devise </l>
+       <l>Is the known emblem of illustrious Biorn.</l>
+      </lg>
+     </sp>
+     <stage> (flourish.)</stage>
+     <sp who="#bertha">
+      <speaker>BERTHA.</speaker>
+      <lg>
+       <l>Mark how they charge! how lance and buckler crash! </l>
+       <l>The red-cross wins: that sable crest is low.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>O father, who is yonder giant champion, </l>
+       <l>Whose lance seems weightier than a weaver's beam, </l>
+       <l>He of the eagle-crest?</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l> Harald of the Isles. </l>
+       <l>A readier knight hath never buckled steel! </l>
+       <l>And by my faith a noble wooer, Agnes. </l>
+       <l>I knew not of his presence. This day's prize </l>
+       <l>Hath drawn a sturdy suitor to the lists, </l>
+       <l>And our best gallants quail. By heavens, I miss </l>
+       <l>Their prompt alacrity: strong Harald rides </l>
+       <l>Round the void lists as victor, undefied, </l>
+       <l>And not a lance is couch'd.—See! </l>
+      </lg>
+      <stage>Shout without.</stage>
+      <lg>
+       <l> Ubald! Ubald!</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>See, how young Ubald dares him to the proof! </l>
+       <l>His lance is in the rest. </l>
+      </lg>
+      <stage> (flourish.)</stage>
+      <lg>
+       <l> On, on they rush, </l>
+       <l>Like the swift whirlwind; they are lost in dust. </l>
+       <l>By heaven, 'tis proudly done! </l>
+      </lg>
+      <stage>(Agnes screams faintly, looking forward with eagerness.)</stage>
+      <stage>Shout without.</stage>
+      <lg>
+       <l> An Ubald! Ubald!</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>Why that huge champion of the misty isles </l>
+       <l>Cumbers a rood of ground.—Right gallant Ubald! </l>
+       <l>O daughter, thou hast lost a princely bridegroom, </l>
+       <l>And his broad lands in Orkney. Much I marvel </l>
+       <l>Who may withstand that dint which unhorsed Harald.</l>
+      </lg>
+     </sp>
+     <sp who="#bertha">
+      <speaker>BERTHA.</speaker>
+      <lg>
+       <l>Lo, where the red-cross gleams!</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l> High-crested Reynald! </l>
+       <l>If any strength can bide him, it is thine!</l>
+      </lg>
+     </sp>
+     <stage> (flourish.)</stage>
+     <sp who="#bertha">
+      <speaker>BERTHA.</speaker>
+      <lg>
+       <l>What ails thee, child? Thy cheek is blanch'd with fear. </l>
+       <l>Remember, Agnes, of what blood thou comest.</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>Lightning is not more sudden than their charge. </l>
+       <l>Saint Mary! they bear them nobly, both unharm'd; </l>
+       <l>The area shakes beneath them. See! they wheel, </l>
+       <l>Like two big clouds careering in mid air. </l>
+       <l>They clash again. O what a shock was there! </l>
+       <l>The steeds are riderless upon their flanks, </l>
+       <l>Shiver'd each lance. The sword must win the day.</l>
+      </lg>
+     </sp>
+     <stage> (The clash of swords is heard.)</stage>
+     <sp who="#bertha">
+      <speaker>BERTHA.</speaker>
+      <lg>
+       <l>Now heaven defend thee, Ubald! thou hast need </l>
+       <l>Of all thy prowess.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> O his foot hath slipt! </l>
+       <l>Eternal mercy, save him!</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l> He is up, </l>
+       <l>He bears him like a lion in the fight. </l>
+       <l>His blows rain thick as hail. </l>
+      </lg>
+      <stage>Shout without.</stage>
+      <lg>
+       <l> Hurrah! hurrah! </l>
+       <l>Ubald, brave Ubald is the victor! Ubald.</l>
+      </lg>
+     </sp>
+     <stage> (Agnes sinks half faint into the arms of Bertha.)</stage>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>Our lion-cub has gain'd the day, and nobly. </l>
+      </lg>
+      <stage>Shout without.</stage>
+      <lg>
+       <l>Ubald! brave Ubald is the victor! Ubald!</l>
+      </lg>
+     </sp>
+     <stage>[Flourish. Enter UBALD, and other KNIGHTS.]</stage>
+     <stage>[Enter UBALD, with his drawn sword in his left hand, and the broken sword
+                        of Reynald in his right.]</stage>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>A boon, a boon, sir! Bid thy seneschal </l>
+       <l>Cut heronshaw and peacock with this blade, </l>
+       <l>This boasted dragon-carver from Aleppo!</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>Ubald, we greet thee with a parent's joy, </l>
+       <l>The day is thine; but ere we make thee welcome </l>
+       <l>As our child's suitor, whose abashed cheek </l>
+       <l>Has changed fear's livery for a brighter color, </l>
+       <l>Loud proclamation must the trumpet make, </l>
+       <l>To all, whatever be their rank or station, </l>
+       <l>Sounding our summons; so they may unfold </l>
+       <l>The mystery of thy birth, which we deem noble.</l>
+      </lg>
+     </sp>
+     <stage>[Enter Reynald and others.]</stage>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>Make proclamation for a leech, my sire! </l>
+       <l>The conqueror of the east, the sultan-slayer, </l>
+       <l>Has wrench'd his princely sinew. Faith 'tis well, </l>
+       <l>Else Ubald had been minced by this rare blade, </l>
+       <l>As trenchermen cleave larks. Say'st thou not, Reynald?</l>
+      </lg>
+     </sp>
+     <sp who="#reynald">
+      <speaker>REYNALD.</speaker>
+      <lg>
+       <l>False boy, thou didst take vantage of my mercy. </l>
+       <l>'Twas thy foot slipp'd; and, but I staid mine arm </l>
+       <l>In pity to thy youth, thou wert not here </l>
+       <l>To taunt me thus. Thou, when I thought thee shent, </l>
+       <l>Didst, tygerlike, spring on me unawares, </l>
+       <l>And that tried falchion snapp'd.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> Aye, this strong weapon, </l>
+       <l>To which the skulls of infidels were paper, </l>
+       <l>Broke on the boy's arm. O 'twas foully play'd </l>
+       <l>To deal the blows too fast upon thee, Reynald! </l>
+       <l>I cry thee pardon. It behoved me wait </l>
+       <l>Till Reynald had ta'en breath. 'Twas most discourteous; </l>
+       <l>I should have waited on my bended knee </l>
+       <l>Thine own good time.</l>
+      </lg>
+     </sp>
+     <sp who="#reynald">
+      <speaker>REYNALD.</speaker>
+      <lg>
+       <l> This is no feud of words; </l>
+       <l>Thy way of mirth dishonoreth a name </l>
+       <l>Which brooks no stain. By all the shades of those </l>
+       <l>Who at life's cost have known me true and loyal, </l>
+       <l>I do defy thee, Ubald, unto death. </l>
+       <l>Earth is too narrow for thy spring of pride.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>And the nine heavens, my spirit is so buoyant! </l>
+       <l>Yet deem not, Ubald from thy manly brow </l>
+       <l>Would pluck the wreath of reputation </l>
+       <l>By such light speech. I do embrace thy challenge; </l>
+       <l>But hark ye, Reynald, this morn to arms was given, </l>
+       <l>Love claims to-morrow.</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l> Sirs, these feuds offend us. </l>
+       <l>Thou, Agnes, as befits thee, with yon cuirass, </l>
+       <l>Palm of this trysting, gird victorious Ubald. </l>
+       <l>Nay, by my knighthood, had I bid thee give </l>
+       <l>Thyself, a worthier palm, thou couldst not change </l>
+       <l>The clear complexion of thy natural hue </l>
+       <l>To brighter vermeil. Agnes, on my troth </l>
+       <l>I think thou fain wouldst give thy blushing self, </l>
+       <l>The unsunn'd whiteness of this virgin hand, </l>
+       <l>A brighter guerdon. </l>
+      </lg>
+      <stage>(taking her hand, jestingly.)</stage>
+      <lg>
+       <l> Have a care, young trembler! </l>
+       <l>Perchance, at our citation, mailed Mars </l>
+       <l>May claim him to his heaven. Have a care, daughter!</l>
+      </lg>
+     </sp>
+     <stage>(AGNES lifts up the golden cuirass to offer it to UBALD. At that moment
+                        the trumpet sounds again. Re-enters MESSENGER hurried.)</stage>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>What tidings?</l>
+      </lg>
+     </sp>
+     <sp who="#messenger">
+      <speaker>MESSENGER.</speaker>
+      <lg>
+       <l> Noble Sweno, scarce the herald </l>
+       <l>Had proclamation made, giving loud breath </l>
+       <l>To the shrill trumpet's brass, when from the crowd </l>
+       <l>Stepp'd forth a wizzard shape in female guise, </l>
+       <l>Craving admittance to this lordly presence.</l>
+      </lg>
+     </sp>
+     <stage>(Flourish. Enter WANDERER, preceded by a Herald.)</stage>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l>Sweno, I come, obedient to thy hest, </l>
+       <l>Fate's secret to unravel, which disclosed, </l>
+       <l>Egress unharm'd I claim for me—and mine. </l>
+       <l>Than does the fretted gold wherein they lie, </l>
+       <l>Like living lights in the fringed eyelids chased.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>O treason! O base thief, thou hast purloin'd it!</l>
+      </lg>
+     </sp>
+     <sp who="#bertha">
+      <speaker>BERTHA.</speaker>
+      <lg>
+       <l>'Tis like she hath; with sacrilegious hand </l>
+       <l>Rifling the vault, where lie entomb'd the bones </l>
+       <l>Of her who gave thee being.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> 'Tis like?—'tis certain!</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>Say, woman, in that helpless infant's cradle </l>
+       <l>What else was found, by no enquiring eye </l>
+       <l>Save mine and noble Bertha's ever question'd?</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l>A scroll, whereon these words, in thy mind's tablet </l>
+       <l>Long since deep graven.—Run not the couplets thus, </l>
+       <l>Though the last words be from that legend rent? </l>
+       <l>“The secret piece from this indenture torn </l>
+       <l>“Was sever'd at the hour this child was borne </l>
+       <l>“From its proud mother; when they reunite, </l>
+       <l>“The valiant son shall meet his mother's sight.” </l>
+       <l>And now I tender to thy judging eye, </l>
+       <l>Long saved, long cased in gold with precious care, </l>
+      </lg>
+      <stage>(taking it out of a small box)</stage>
+      <lg>
+       <l>The fragment of that scroll.—See, see!—it fits </l>
+       <l>The nice indentures of that wavy rent, </l>
+       <l>Which no art's skill could liken! See the words </l>
+       <l>Traced by one hand, quaint nature's character! </l>
+       <l>Comes that untainted scroll from the damp vault </l>
+       <l>Of charnel-houses? Am I not thy mother?</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>O past conjecture wondrous! Name his father.</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l>He has no father! Ask the wandering billows </l>
+       <l>Of the storm-beaten sea, who made their bosom </l>
+       <l>Team with the finny myriads! Ask the winds, </l>
+       <l>Who fill'd their darkling and invisible womb </l>
+       <l>With blight and pestilence! He has no father.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>Dread being! mother not, but fiend, I name thee! </l>
+       <l>If true the accursed tale, thy child of want, </l>
+       <l>Safe cradled in the arms of joy and honor, </l>
+       <l>Why call'st thou now to misery and ruin? </l>
+       <l>Why dash to earth the wreath, thine art had woven? </l>
+       <l>Speak, foul witch, speak.</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l> Betray'd, out-cast, abandoned, </l>
+       <l>Man's roof has not o'er-shelter'd me; the blast, </l>
+       <l>Not age, has blanch'd these elf-locks. I have known </l>
+       <l>Dire want and loneliest savage wanderings. </l>
+       <l>The fearfullest glens, the tangled precipice, </l>
+       <l>Have been my lair; the demon of the tempest </l>
+       <l>My comforter: to sights abhorr'd of men </l>
+       <l>And fellowship with every cavern's inmate </l>
+       <l>Use has made me familiar; the gaunt wolf, </l>
+       <l>The eagle, knows my coming and outgoing, </l>
+       <l>And in compassion to man's outcast yields </l>
+       <l>Share of his bloody banquet. Where I roam'd, </l>
+       <l>The nightdew was my balm, the baleful clouds </l>
+       <l>My canopy; and, by their sulphurous bolts </l>
+       <l>Illumed, my rocky threshold gleam'd with splendor </l>
+       <l>That did outshine the emblazon'd halls of kings. </l>
+       <l>Nor envied I man's palaces.—But such </l>
+       <l>Was not fit cradle for weak infancy. </l>
+       <l>The firm endurance of an injured soul </l>
+       <l>May smile mid nature's terrors, and even hail </l>
+       <l>The fiend that nurtures them; but helpless years </l>
+       <l>Lack milder mother's-milk.</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l> What phrensy then, </l>
+       <l>Mysterious phantom, say, what hateful purpose </l>
+       <l>Now, in the prime and summer of its growth, </l>
+       <l>Strikes down that glorious scion, deck'd with honors, </l>
+       <l>From this exalted station, where thy fraud </l>
+       <l>Had safely planted it?</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l> Look upon me; </l>
+       <l>Proud mortal, mark this gaunt and abject being; </l>
+       <l>These skeleton-like limbs and sun-parch'd skin </l>
+       <l>Which once had bloom and beauty!—See me now </l>
+       <l>The haggard child of want, and scorn, and wo! </l>
+       <l>Whose hope is but despair! The very dogs </l>
+       <l>Howl after me, as if the mouldering grave </l>
+       <l>Had cast me from its foul abhorred womb </l>
+       <l>Polluting with my breath the face of heaven. </l>
+       <l>Sunk as I am, perchance amid the blaze </l>
+       <l>Of yon gilt banners, girded with the pomp </l>
+       <l>Of gorgeous chivalry, some bosom shrinks </l>
+       <l>From inward horror, to whose nightly visions </l>
+       <l>My lot were paradise. I would not change </l>
+       <l>These tatter'd garments for your bravery.— </l>
+       <l>Ubald, awake! If I have dash'd from thee </l>
+       <l>This cup of joy, drugg'd deep with smiling mischief; </l>
+       <l>If all the friends of thy proud-budding youth </l>
+       <l>Drop off from thee, as from the wither'd tree </l>
+       <l>The worms that fed on it; if glory's course </l>
+       <l>Rejects thee, offspring of despair and want; </l>
+       <l>Know, thou hast friends among the wrecks of nature. </l>
+       <l>O there is joy amid the crashing storm, </l>
+       <l>When the rack scuds before the rushing winds, </l>
+       <l>And all is ruin! Where the sea-mew screams </l>
+       <l>Mid desert caves may be thy nuptial bower; </l>
+       <l>The howling wolves shall yield thee minstrelsy. </l>
+       <l>Ha! ha! ha! </l>
+      </lg>
+      <stage>(She laughs hideously).</stage>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO, </speaker>
+      <stage>(rising.)</stage>
+      <lg>
+       <l> Out of my sight, accursed of heaven! away!</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <stage> (Withdrawing slowly, with a look and action of threatening and
+                            savage contempt.)</stage>
+      <lg>
+       <l>The curse of heaven will be soon fulfill'd.</l>
+      </lg>
+     </sp>
+     <stage> [Exit.</stage>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>Brave champions, this our joy is turn'd to sadness. </l>
+       <l>Ubald, we still uphold thee; and thy deeds </l>
+       <l>Shall win thee rank and reverence and honors: </l>
+       <l>But such alliance suits not with our bearing; </l>
+       <l>And we perforce must name, of those whose rank </l>
+       <l>May make them bold to be our daughter's suitors, </l>
+       <l>Reynald, though vanquish'd, victor.—Welcome, Reynald! </l>
+       <l>Child of my heart, come with me.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Ubald! Ubald!</l>
+      </lg>
+     </sp>
+    </div>
+    <div type="scene" n="2">
+     <head>Scene 2</head>
+     <stage>(Exeunt all but UBALD, who remains alone in deep thought. The Scene falls
+                        in front representing a Woodland outside the Lists. UBALD enters slow and
+                        thoughtful, and leans on the point of his sword. He starts suddenly into a
+                        defensive attitude.)</stage>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>Avaunt! spectre of hell, avaunt!—Stay, Ubald! </l>
+       <l>Thy brain is madden'd; thy stunn'd senses reel. </l>
+      </lg>
+      <stage>(Starting again.)</stage>
+      <lg>
+       <l>Who dared to call this wretched being Ubald? </l>
+       <l>There was a time, I well remember me, </l>
+       <l>When that name sounded in the lists of fame, </l>
+       <l>Valor's first minion: 'twas a gallant name, </l>
+       <l>And he who bore it, vail'd his crest to none, </l>
+       <l>And men would doff their caps, and cry “Live Ubald!” </l>
+       <l>'Tis past—it was a dream—I am not Ubald! </l>
+       <l>All, all's unsound! the very earth we tread on </l>
+       <l>A counterfeit! a faithless sod, that mantles </l>
+       <l>The bubbling of a bottomless abyss. </l>
+       <l>Nature itself is false.—There is no Ubald! </l>
+       <l>He, who usurp'd that name's a slave, an upstart! </l>
+       <l>A liar, a pitiful, a base-born slave! </l>
+      </lg>
+      <stage>(A pause.)</stage>
+      <lg>
+       <l>I have heard tell, that, when the unchaste moon </l>
+       <l>Peeps with her broad eye glaring from above, </l>
+       <l>Men's thoughts are phrensied: I do well believe, </l>
+       <l>That we are drawn like puppets by her power </l>
+       <l>Through fate's invisible and airy maze, </l>
+       <l>Even as the tides of ocean ebb or swell </l>
+       <l>At her strong bidding. Life's a mockery, </l>
+       <l>And we, that tread this motley earth, are fools, </l>
+       <l>And madmen. Else, amid the battle's hurley </l>
+       <l>Why has this arm oft turn'd the flood of war, </l>
+       <l>Outvying opposition, till the cry </l>
+       <l>Of victory through all the welkin rang, </l>
+       <l>Filling the trump of glory? if that name, </l>
+       <l>Once bright like Lucifer, and like him lost, </l>
+       <l>Falls as a star from heaven!—O Agnes, Agnes, </l>
+       <l>What demon from my hand has dash'd the chalice, </l>
+       <l>Which thou hadst crown'd with bliss!—Ha! if thy faith </l>
+       <l>Forswear me now,—baseborn—despised—rejected. </l>
+       <l>I will not, dare not think it.—Joy of my soul, </l>
+       <l>I still have trust in thee!</l>
+      </lg>
+     </sp>
+     <stage> (He remains wrapt in thought, THE WANDERER enters unperceived.)</stage>
+     <sp who="#wanderer">
+      <speaker>WANDERER, </speaker>
+      <stage>(aside.)</stage>
+      <lg>
+       <l> My son!—alas, </l>
+       <l>In that brief word how many thoughts lie blended! </l>
+       <l>O long divorced, estranged, from this lone heart, </l>
+       <l>And yet my son!—I thought my soul was steel'd </l>
+       <l>Against all fond impression, trebly arm'd </l>
+       <l>With the keen temper of the merciless blade! </l>
+       <l>And yet how painfully the name of son </l>
+       <l>Falls on this wither'd heart!—O Ubald, Ubald, </l>
+       <l>The cherub peace is waking in my soul, </l>
+       <l>Which has not carol'd there since thou wert born! </l>
+      </lg>
+      <stage>(Aloud.)</stage>
+      <lg>
+       <l>My son!</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD, </speaker>
+      <stage>(seizing her vehemently.)</stage>
+      <lg>
+       <l> Call me not son!—O Satan's mate! </l>
+       <l>By what foul spell hast thou atchieved my ruin? </l>
+       <l>What traitor has suborn'd thee? Make thy treason </l>
+       <l>As manifest as day, or I will tear </l>
+       <l>Thy shrivell'd flesh, and cast it to the wolves. </l>
+       <l>Hast thou not told a tale of damning falsehood?</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l>If I be Satan's mate, thy fury speaks thee </l>
+       <l>Child of my womb. </l>
+      </lg>
+      <stage>(He lets go his hold.)</stage>
+      <lg>
+       <l> 'Tis meet that I, fate's tool, </l>
+       <l>Should be accurst of mine own issue. Smite me, </l>
+       <l>Fierce Ubald! Bury in eternal night </l>
+       <l>The secret of thy birth! Slay her, who bore thee!</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>O terrible of women, I will kneel </l>
+       <l>Even in prostration meekly to the hem </l>
+       <l>Of thy rent garment, so thou wilt reveal </l>
+       <l>The name of him whose stamp I bear.</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l> 'Twould need </l>
+       <l>A raven's note to name him. Rather ask </l>
+       <l>That fearful word, which, but once breathed aloud, </l>
+       <l>Would have dissolv'd the fabric of this world </l>
+       <l>And all the gorgeous firmament above us, </l>
+       <l>Letting hell loose from its eternal chain.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>And though the sky should reel, the rock-staid sea </l>
+       <l>With the foundations of the crazy earth </l>
+       <l>Quake to their base, I would demand it.</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l> Ubald, </l>
+       <l>There stands between thee and thy burning wishes </l>
+       <l>A wide gulph fixt, which to o'erleap were death. </l>
+       <l>By all heaven's flaming lights thou art my child!— </l>
+       <l>Wilt thou avenge me, Ubald?—The event </l>
+       <l>Hangs on my word, whether to uphold or plunge thee </l>
+       <l>Deep, deep, into that fiery gulph of ruin.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>My heart yearns painfully to know my father.</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l>Thou shalt learn nothing, till I am revenged! </l>
+       <l>Rave, thou hot youth! Strike rashly, strike thy mother! </l>
+       <l>Or kneel, and, Ubald, swear to slay the man </l>
+       <l>Who made thee fatherless! I tell thee, son, </l>
+       <l>If that thou hast an ear, a heart, a soul, </l>
+       <l>That cry for vengeance, which appals me nightly, </l>
+       <l>Must have been heard by thee. Swear, Ubald, swear!</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>There needs no oath to spur me to that goal, </l>
+       <l>No, nor blind curse! By heaven, show me the man, </l>
+       <l>That made an orphan of ill-fated Ubald, </l>
+       <l>And I will drag him to such strict account, </l>
+       <l>No second sun shall dawn on him and me.</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l>Swear it!</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> By all heaven's gifts I swear it!—Name him.</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l>Sweno! proud Sweno made thee fatherless! </l>
+       <l>Haste, Ubald! slay him!—Wilt thou not avenge me?</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>The spirit of Satan dwells in thy foul lips! </l>
+       <l>Thou darest not say it!</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l> Wilt thou not avenge me?</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD, </speaker>
+      <stage>(with great emotion.)</stage>
+      <lg>
+       <l>Say, who! and when, and where! how fell my father?</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l>Nay, not a word, till that dread debt be paid: </l>
+       <l>Then shall my speech reveal no humble rights. </l>
+       <l>Ubald, thine oath! Vengeance on haughty Sweno!</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>Mysterious Being, thy words fall like drops </l>
+       <l>Of poison, blistering whate'er they touch. </l>
+       <l>My soul is horror-struck. Shall Ubald slay </l>
+       <l>One sire, kind substitute for nature's tie, </l>
+       <l>At thy strange bidding, unreveal'd the tale </l>
+       <l>Of his lost birthright, and unknown his father?</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l>Wilt thou not slay him?</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> By the living light, </l>
+       <l>I will not touch his hoary brow with harm, </l>
+       <l>For all that thou and thy fell crew can tempt with!</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l>O say not thus—'twere better for thee, Ubald, </l>
+       <l>To riot in the blood of innocents, </l>
+       <l>To earn the mark of Cain, than bear the doom </l>
+       <l>Which must o'erwhelm thee if thou brave this bidding. </l>
+       <l>Stay! the ground quakes beneath thee!</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> Let it gape: </l>
+       <l>I will not hurt the head of honor'd Sweno.</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l>Beware; his lot is seal'd; and thine hangs trembling </l>
+       <l>In the eternal scale; whether to reap </l>
+       <l>Thy glorious heritage, or wear a curse, </l>
+       <l>Which but to whisper would make the horrent hair </l>
+       <l>Bristle thy youthful brows. Wilt thou kill Sweno?</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>Not, though the firm earth yawn'd, and from its depth </l>
+       <l>Fate own'd thy ministry.</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l> O fiends of vengeance, </l>
+       <l>Sear up my milk of nature! Dry the source </l>
+       <l>Of pity's womanish tears, or let them fall </l>
+       <l>Like water on the hissing furnace cast, </l>
+       <l>Giving new strength to all-devouring flame! </l>
+       <l>Devoted Ubald, be fate's will atchieved, </l>
+       <l>Though it must shiver thee! If vengeance move not, </l>
+       <l>Love shall perforce arouse thee! Shall that Reynald </l>
+       <l>To-morrow, triumphing in thy disgrace, </l>
+       <l>Lead Agnes to the altar! Shall Ubald gape, </l>
+       <l>And cry, “Long live the bride! Health and ripe joys </l>
+       <l>“Attend their wedded couch!” Go, crave their alms, </l>
+       <l>And beg some base coin from the lusty bridegroom!</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>The voice of fiends is in thee. O thy words </l>
+       <l>Have rush'd like molten fire upon my soul! </l>
+       <l>Thou canst not say that she will wed with Reynald.</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l>Will!—nay, she must.—Is not the faith of Sweno </l>
+       <l>To Reynald pledged? or is that haughty chief </l>
+       <l>In love a laggard? Know this, by thine abasement </l>
+       <l>To-morrow Agnes is his bride, unless </l>
+       <l>She be to-night thine, Ubald.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> Ha! how say'st thou?</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l>This night or never must Agnes be thy wife.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>To-night?—They say the devil sometimes speaks true.</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <stage>(Giving him a key.)</stage>
+      <lg>
+       <l>Take this, love's talisman. The wierd scorn'd Wanderer </l>
+       <l>May crown thy wishes yet: its powerful spell </l>
+       <l>Shall yield thee entrance to young Agnes' bower, </l>
+       <l>When earth is wrapt in gloom.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> Woman of might, </l>
+       <l>Give to thy meaning words. If love prevail, </l>
+       <l>Where and how wedded shall mine Agnes be </l>
+       <l>At that still season?</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l> In Helen's ruin'd chapel. </l>
+       <l>When first the moon upon your secret flight </l>
+       <l>Throws her slant beam, beneath the porch a priest </l>
+       <l>Shall wait thy bidding.—Speed! arouse her love! </l>
+       <l>Triumph o'er maidish dread! or the next sun </l>
+       <l>Must dawn on Reynald's bliss.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> On Reynald's death, </l>
+       <l>Or shall see Agnes mine.</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l> Under that chapel </l>
+       <l>A secret cell is hewn; that obscure vault </l>
+       <l>Shall be thy bridal chamber.—Fear'st thou, Ubald? </l>
+       <l>Splendor it lacks, and soft luxurious ease, </l>
+       <l>To cheer a dainty fair one; but its stillness </l>
+       <l>Is fitting such a stealth. This night or never! </l>
+       <l>Ubald, time flies.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> Befriend me, powerful Love! </l>
+       <l>My thoughts are all amazed and unarray'd, </l>
+       <l>I walk as in a mist; be this night, Agnes, </l>
+       <l>Our first fond entrance into weal or wo! </l>
+      </lg>
+      <stage> [Exit UBALD.</stage>
+     </sp>
+     <sp who="#the_wanderer">
+      <speaker>THE WANDERER, </speaker>
+      <stage>(alone.)</stage>
+      <lg>
+       <l>He's gone; he's gone.—Be still, thou coward heart! </l>
+       <l>I know not whether I am dead or waking. </l>
+       <l>The world seems dark around me, and such deeds </l>
+       <l>Are doing, that the sun must shrink for ever. </l>
+       <l>Methought I heard the voice of one, who drowning </l>
+       <l>Cried, “mother, save me! help me, ere I sink!” </l>
+       <l>And then methought two spirits strongly strove </l>
+       <l>To drag me diversely; one pure as light, </l>
+       <l>The beam of radiant mercy on its brow; </l>
+       <l>The other foul and loathsome, fierce as death, </l>
+       <l>Mocking the agony of convulsive sobs, </l>
+       <l>And its fell strength prevail'd. O powers of evil, </l>
+       <l>There be some hallow'd moments, when this soul </l>
+       <l>Can wrestle with your might, and dovelike peace </l>
+       <l>Seems like a lovely vision, seen far off! </l>
+       <l>Now all is dark: the Spirit of revenge </l>
+       <l>Knocks, Sweno, at thy gate. Thy knell is rung.</l>
+      </lg>
+     </sp>
+     <stage> [Exit.</stage>
+    </div>
+    <div type="scene" n="3">
+     <head>Scene III.</head>
+     <stage>—Sweno's Hall.</stage>
+     <stage>SWENO, REYNALD and others.</stage>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>We do admit thy claims, but some short space </l>
+       <l>Crave ere the accomplishment. A troublous star </l>
+       <l>Lowers o'er our house: we lack the pulse of joy </l>
+       <l>For bridal revels.—I fear my child had framed </l>
+       <l>Some hopes which must prove vain; but Sweno's daughter </l>
+       <l>Will know what fits her station.</l>
+      </lg>
+     </sp>
+     <stage>[Enter Attendant.]</stage>
+     <sp who="#attendant">
+      <speaker>Attendant.</speaker>
+      <lg>
+       <l> Ubald craves </l>
+       <l>Admittance.</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l> By your leave.</l>
+      </lg>
+     </sp>
+     <stage> (Reynald and others fall back to the further end of the stage.)</stage>
+     <sp who="#sweno">
+      <speaker>SWENO, </speaker>
+      <stage>(alone.)</stage>
+      <lg>
+       <l> Wo to who rears </l>
+       <l>The tyger's young! and yet I love thee, Ubald. </l>
+      </lg>
+      <stage>[Enters Ubald.]</stage>
+      <lg>
+       <l>Be welcome, Ubald! Sweno's hall is open </l>
+       <l>To all his knights; to none, than thee, more freely.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>There was a time, nor is it long by-gone— </l>
+       <l>An hour or two perchance—when Sweno's hall </l>
+       <l>Was open to his son—his foster'd son, </l>
+       <l>Who, from life's earliest dawn to manhood, knew </l>
+       <l>No other sire;—nor now.—Dost thou disclaim me?</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>Would that thou wert my son! Brave youth, this heart </l>
+       <l>Would leap to see my crest and gallant bearings </l>
+       <l>With all the honors that my house has earn'd </l>
+       <l>Worn by mine issue. 'Tis the curse of fate </l>
+       <l>A stranger shall gird Sweno's sword, a stranger </l>
+       <l>Lord o'er this princely fief, when I depart, </l>
+       <l>The last male of my race. I would give half </l>
+       <l>My wealth thou wert my son.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> It hath pleased God </l>
+       <l>To shrowd the fountain of my birth, perchance </l>
+       <l>For some unpurged offence. And yet methinks, </l>
+       <l>If there be one upon this lower earth </l>
+       <l>To whom it stands reveal'd, that should be Sweno.</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>Ha! how say'st thou?</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> I say, it should be Sweno. </l>
+       <l>Why didst thou rear me as thy child, if baseborn? </l>
+       <l>The lion brings not to his tawny mate </l>
+       <l>The jackall's cub. O Sweno, I adjure thee </l>
+       <l>By the one hope I harbor this side heaven, </l>
+       <l>Unveil my secret birth.</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l> Am I a prophet, </l>
+       <l>Ubald? Hath not this morn too much reveal'd </l>
+       <l>Of thy sad story?</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> Nothing! I stand alone, </l>
+       <l>Sever'd from every tie, but such as bind me </l>
+       <l>To thee and thine. My birth is wrapt in gloom </l>
+       <l>Thick as the inaccessible cloud, which hides </l>
+       <l>The shrine upon the peak of Caucasus.</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>Ubald, when first I saw thee, thou wert smiling, </l>
+       <l>A helpless infant, upon Bertha's bosom. </l>
+       <l>The fearless smile craved pity. From that hour </l>
+       <l>(For we esteem'd thee sprung of gentle stock) </l>
+       <l>Thou hast lack'd nothing, which a parent's fondness </l>
+       <l>Could lavish on the heir of all his fortunes. </l>
+       <l>Like a king's issue hast thou been upbrought </l>
+       <l>With every princely gift; and last, not lightest, </l>
+       <l>The boon of knighthood.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> Sir, that debt is written </l>
+       <l>Here with indelible characters, and claims </l>
+       <l>The service of this arm till death.</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l> O Ubald, </l>
+       <l>I have e'en loved thee like an anxious father; </l>
+       <l>And thou hast fill'd that void in my affections </l>
+       <l>Which nature left, denying me a son. </l>
+       <l>Now haply it behooves me cast thee from me </l>
+       <l>Adown the vale of life, seeing (though late) </l>
+       <l>That thou hast clomb unto this lofty nest </l>
+       <l>From such a lowly and disgracious fortune. </l>
+       <l>But still I love thee, and will uphold thy knighthood </l>
+       <l>At no mean cost; but higher hopes are wreck'd </l>
+       <l>By thy base origin.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> O thou dost not, canst not, </l>
+       <l>Believe it, Sweno!—It is false as hell; </l>
+       <l>The tongue that did avouch it is accurst.</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>Ubald, intemperate wrath does ill become </l>
+       <l>Thy present station. Be of humbler strain! </l>
+       <l>We are to blame, who have uprear'd thy youth </l>
+       <l>In boisterous license. Think, what now befits thee.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>It fits me, sir, to guard with jealous honor </l>
+       <l>The rights you gave me; nor will I renounce </l>
+       <l>Of those one smallest title, while I gird </l>
+       <l>This sword of knighthood, which departs not from me, </l>
+       <l>Save in the grasp of death. Were my race abject, </l>
+       <l>As the blood cries within me it is noble, </l>
+       <l>I have earn'd that, in perilous fields of fame, </l>
+       <l>Which doth outshine the best and loftiest birthdom, </l>
+       <l>A soldier's rank. Upon thy pledged word </l>
+       <l>I claim my prize, the hand of Agnes.—Start not, </l>
+       <l>'Tis truth; there lives not in this realm of Jutland </l>
+       <l>Who can deny my right.</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l> I—Sweno—tell thee, </l>
+       <l>I, I, would plunge this sword, my father's weapon, </l>
+       <l>Like he of Rome, into my daughter's bosom, </l>
+       <l>Abolishing with her each joy of age, </l>
+       <l>Ere she should soil by such a foul alliance </l>
+       <l>The blood of my fore-elders.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> It is false; </l>
+       <l>It were no stain to wed with Ubald. Hark ye, </l>
+       <l>Sir—fearless I assert—mark well my words— </l>
+       <l>Thou canst not, durst not, Sweno, for thine honor, </l>
+       <l>Uphold that wizzard's tale.</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l> Nay, by my sword, </l>
+       <l>Her proofs admit not doubt or question.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>O monstrous! By that selfsame speech convicted, </l>
+       <l>Thou wert a murderer. Ay, start now, and learn </l>
+       <l>What 'tis to have the jewel of thy life </l>
+       <l>Hang on a traitor's proof!</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l> Boy, thou art frantic.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>By heaven, I am calm; I speak the things I know, </l>
+       <l>And I embrace with juster apprehension </l>
+       <l>Their form and bearings, than thou dost. Take me with thee, </l>
+       <l>I do not charge on thee that damning guilt; </l>
+       <l>Here I discard the thought, as loathsome treason </l>
+       <l>Gender'd in hell. But, if her speech were true, </l>
+       <l>Thine hate has robb'd me of a princely father. </l>
+       <l>She speaks—not I.—Her voice cries loud for vengeance. </l>
+       <l>Thou canst not heap her tale upon my head, </l>
+       <l>And not take home to thine that charge of murder.</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>What ho! </l>
+      </lg>
+      <stage>(Reynald, &amp;c. come forward.)</stage>
+      <lg>
+       <l> Sirs, we are bearded in our hall; </l>
+       <l>The whelp, which we have nurtured, turns upon us </l>
+       <l>With rabid fang. Thus from our love we cast him! </l>
+       <l>Base-born, away! we brook not thy rash words.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD, </speaker>
+      <stage>(drawing his sword.)</stage>
+      <lg>
+       <l>Say'st thou? And yet I have no sire but thee. </l>
+       <l>No other tongue had scorn'd me thus, and lived! </l>
+       <l>No other eye upon my fallen fortunes </l>
+       <l>Had glared, as thine does now! I will not harm thee. </l>
+       <l>Thou, Reynald, thou whose bold pretensions </l>
+       <l>Assail my rights, stand forth. Let heaven decide </l>
+       <l>Which be the better and the nobler champion. </l>
+       <l>Thou didst erewhile defy me unto death.</l>
+      </lg>
+     </sp>
+     <sp who="#reynald">
+      <speaker>REYNALD.</speaker>
+      <lg>
+       <l>I did; and thy bold arm eschew'd the cartel </l>
+       <l>Even in the shelter of a woman's bower. </l>
+       <l>That arm perhaps is abject as thy birth.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD, </speaker>
+      <stage>(fighting.)</stage>
+      <lg>
+       <l>Thus—thus—we shall be quickly weigh'd.</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO, </speaker>
+      <stage>(interposing.)</stage>
+      <lg>
+       <l> Stand back! </l>
+       <l>I do forbid the challenge. Lay hands on him. </l>
+      </lg>
+      <stage> (The Knights interpose with drawn swords.)</stage>
+      <lg>
+       <l>We have been far too mild; but Sweno's presence </l>
+       <l>Shall not be braved. Our will is thus determined; </l>
+       <l>To-morrow, Reynald, thou shalt wed our daughter. </l>
+       <l>But if thou wieldest sword or lance before, </l>
+       <l>We cast thee from our love. </l>
+      </lg>
+      <stage> (To UBALD.)</stage>
+      <lg>
+       <l> Thou, sir, begone. </l>
+       <l>We would not willingly let thee down the wind, </l>
+       <l>But thou, unruly tarsel, quitt'st thy perch </l>
+       <l>To strike too high a quarry. Lead him forth.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>Which is the vassal will lay hands on Ubald?— </l>
+       <l>I quit thee, Sweno.—Thou hast done me wrong, </l>
+       <l>Which haply should wipe out the memory </l>
+       <l>Of all I owe thee:—but it is not so. </l>
+       <l>Thou, haughty Reynald, mark me. It were safer </l>
+       <l>To take the fleshless and abhorred death </l>
+       <l>To be thy mate, than lay the hand of power </l>
+       <l>Upon mine Agnes.</l>
+      </lg>
+     </sp>
+     <stage> [Exit.</stage>
+     <sp who="#reynald">
+      <speaker>REYNALD.</speaker>
+      <lg>
+       <l> Faith, thou bear'st thee nobly; </l>
+       <l>And I could prize thee rather in its ebb, </l>
+       <l>Than brook the rash flow of thy better fortune.</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>We do desire the Lady Agnes' presence. </l>
+      </lg>
+      <stage> [Exit Attendant.</stage>
+      <lg>
+       <l>Reynald, I am much moved. This headstrong youth </l>
+       <l>Has part in my affections, and my daughter </l>
+       <l>Regards his worth too highly: if she bewail him, </l>
+       <l>We must be brief, and use authority, </l>
+       <l>Though it sound harsh. </l>
+      </lg>
+      <stage>(Enters AGNES.)</stage>
+      <stage>(SWENO, embracing her.)</stage>
+      <lg>
+       <l> My child!</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> My gracious sire!</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>Thou art pale, and yet, believe me, child, I love thee </l>
+       <l>As my best hope on earth.—Said I my best? </l>
+       <l>My only hope!</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Ever my own kind father!</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>I have no son. A son is to his father </l>
+       <l>A mirror, in the which his aged eyes </l>
+       <l>May read their image; ay, a magic mirror, </l>
+       <l>Which doth give back himself, his form and likeness, </l>
+       <l>Even in the pride and semblance of his youth!— </l>
+       <l>Thou would'st speak, but the inarticulate sound </l>
+       <l>Dies on thy lips.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Sir—Something I would say, </l>
+       <l>But it might savor of presumptuous wishes </l>
+       <l>To think a worthless maiden could reflect </l>
+       <l>Ought of her father's virtues, in whom the mould </l>
+       <l>Of nature's noblest pattern is most perfect: </l>
+       <l>Yet gazing on them, living in the shine </l>
+       <l>Of all thy glories, something my thoughts must borrow </l>
+       <l>From thine high attributes; and store it here </l>
+       <l>As the pale ineffectual orb of night </l>
+       <l>Drinks the sun's lustre.</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l> I do esteem thee, Agnes, </l>
+       <l>Worthy thy blood; one in whom gentle pleasance </l>
+       <l>With loftier thoughts is wedded; born to grace </l>
+       <l>Thy noble lord and rear his princely issue </l>
+       <l>To wear our dignities.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Sir?</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l> We lack an heir </l>
+       <l>To bear them worthily. Behold the Knight </l>
+       <l>Whose unmatch'd prowess we have this day chosen, </l>
+       <l>To uphold our race. Thou art a bride to-morrow.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Say not unmatch'd—O, sir, you are too hasty. </l>
+      </lg>
+      <stage>(Kneeling.)</stage>
+      <lg>
+       <l>Pray you, recall that speech! 'Twas but yestre'en </l>
+       <l>You said, my lord must stand in arms unrivall'd; </l>
+       <l>I do take sanctuary on those thy words, </l>
+       <l>The altar of thy truth.</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l> And so he does.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>O father, I address me to your justice! </l>
+       <l>I will not plead, as other maids are used, </l>
+       <l>The dreamings of the fancy. I adjure thee </l>
+       <l>By thine own blood which throbs within this heart, </l>
+       <l>Do not that wrong! for Ubald is the victor. </l>
+       <l>And if that strange tale (false perchance) have thrown </l>
+       <l>A shade upon his fortunes, and ta'en from him </l>
+       <l>The sunshine of thy favor, let me bide </l>
+       <l>E'en as I am, thine own, thy loving handmaid! </l>
+       <l>Or if that be too blessed, and his fall </l>
+       <l>Must marr my joys and cast me forth from thee, </l>
+       <l>O let me in some barren cloister chew </l>
+       <l>The bread of solitude, but do not curse me </l>
+       <l>With such worse thraldom!</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l> Daughter, thou offendest. </l>
+       <l>Thou sinn'st against thy name. I bid thee purge </l>
+       <l>The avenues of thy thoughts, and from that bosom </l>
+       <l>Pluck the foul image which is nurtured there </l>
+       <l>With all its baseness. Gods! shall Sweno's child </l>
+       <l>Stoop to a beggar's wooing?—Leave my cloak.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Say not to-morrow, father!</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l> Loose me! rise! </l>
+       <l>The valiant Reynald has my word. Receive him, </l>
+       <l>As fits thee, courteously. </l>
+      </lg>
+      <stage> (Going, while she stretches her arms to follow him.)</stage>
+      <lg>
+       <l> I bid thee stay.</l>
+      </lg>
+     </sp>
+     <stage>[Exit SWENO, &amp;c. Manent AGNES, REYNALD.</stage>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>My father!—He has left me.—Now, good angels, </l>
+       <l>Arm me with strength. I will embrace my shroud </l>
+       <l>Ere I prove faithless.</l>
+      </lg>
+     </sp>
+     <sp who="#reynald">
+      <speaker>REYNALD.</speaker>
+      <lg>
+       <l> This hand, midst war's alarums, </l>
+       <l>Has purchased honor in the hazardous field </l>
+       <l>At my life's hourly venture; but the frown </l>
+       <l>Of lovely woman I am ill wont to strive with.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>There is no strife between us, sir.—What mean you? </l>
+       <l>I wear my temper evenly, as fits </l>
+       <l>The daughter of a prince; if thou hast cause </l>
+       <l>Of strife, declare it.</l>
+      </lg>
+     </sp>
+     <sp who="#reynald">
+      <speaker>REYNALD.</speaker>
+      <lg>
+       <l> No cause, fair Agnes, </l>
+       <l>Saving such war, as oft-times is the herald </l>
+       <l>Of gentle love. Permit . . . .</l>
+      </lg>
+     </sp>
+     <stage>(He offers to take her hand.)</stage>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Touch me not, sir! </l>
+       <l>I may not brook thy freedom.</l>
+      </lg>
+     </sp>
+     <sp who="#reynald">
+      <speaker>REYNALD.</speaker>
+      <lg>
+       <l> On my knee . . .</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Go to, go to; I take no fallen champion, </l>
+       <l>No knight whose sword is broken. I commend you </l>
+       <l>Unto that Syrian princess whom you rescued! </l>
+       <l>You soar too high.</l>
+      </lg>
+     </sp>
+     <sp who="#reynald">
+      <speaker>REYNALD.</speaker>
+      <lg>
+       <l> Ha! Dost thou scorn me, lady?</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Hast thou ne'er heard, how they of heathendom </l>
+       <l>Stood back in awe, before the livid corse </l>
+       <l>Which to their gods was consecrate by lightning? </l>
+       <l>E'en such am I; amid the joys of youth </l>
+       <l>Struck by the angry bolt of heaven, and will </l>
+       <l>Henceforth hold fellowship with nothing earthly. </l>
+       <l>I do embrace the altar, and will rather </l>
+       <l>Wear out my years in solitary penance </l>
+       <l>Than wed with thee.</l>
+      </lg>
+     </sp>
+     <stage> [Exit.</stage>
+     <sp who="#reynald">
+      <speaker>REYNALD.</speaker>
+      <lg>
+       <l> 'Tis strange; this baseborn churl </l>
+       <l>Spreads an infectious rashness. Scornful maid, </l>
+       <l>This may be rued; for thou perforce art mine </l>
+       <l>In all thy flood of beauty, and must bend. </l>
+       <l>This splendid heritage outweighs thy love.</l>
+      </lg>
+     </sp>
+     <stage> [Exit.</stage>
+    </div>
+   </div>
+   <div type="act" n="4">
+    <head>ACT IV.</head>
+    <div type="scene" n="1">
+     <head>Scene I.</head>
+     <sp who="#the_wanderer">
+      <speaker>THE WANDERER, </speaker>
+      <stage>(alone.)</stage>
+      <lg>
+       <l> thou dost love the maid suits well my purpose; </l>
+       <l>It is the helm which guides thee to that port </l>
+       <l>Where vengeance calls; but think not thou shalt take </l>
+       <l>That viper to thy bed, the child of Sweno! </l>
+       <l>Lost as I am, and stamp'd by nature's curse, </l>
+       <l>Thou art my son; and sooner would I wring </l>
+       <l>The life blood from this heart, than see thee batten </l>
+       <l>On that abhorred couch. Once have I stood </l>
+       <l>Between thee and that leap, when fate seem'd fixt, </l>
+       <l>And thou already in thine ardent hopes </l>
+       <l>Forejoyd'st her charms. Once more I will arrest thee, </l>
+       <l>Ere Agnes be thy wife; or, if thou wedd'st, </l>
+       <l>Thou shalt embrace a corse.—This is fate's seal, </l>
+      </lg>
+      <stage>(producing a phial.)</stage>
+      <lg>
+       <l>Love's antidote. This philtre from thine hand </l>
+       <l>Shall lull her maidish fears in that sound sleep </l>
+       <l>Which knows no waking.</l>
+      </lg>
+     </sp>
+     <stage>[Enter UBALD.]</stage>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> Woman, still thou meet'st me </l>
+       <l>At each turn like my evil destiny. </l>
+       <l>What wilt thou?</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l> Aid thee.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> I would be alone. </l>
+       <l>The blood is stirr'd within me, and thy sight </l>
+       <l>Offends my thoughts.</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l> Hast thou seen Agnes?</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> Seen her! </l>
+       <l>In the broad face of day I have required her, </l>
+       <l>My prize, my right. Great gods! I have been scorn'd, </l>
+       <l>Trampled by Sweno's pride.</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l> 'Tis well.—The curse </l>
+       <l>Will soon o'ertake him. Thou seek Agnes' chamber; </l>
+       <l>The shades of evening thicken, and the sounds </l>
+       <l>Of clamorous revelry are sunk in silence; </l>
+       <l>It is the hour of love.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> Speak not of love; </l>
+       <l>I feel a strange and preternatural awe </l>
+       <l>Thrill through me in thy presence. Leave me, woman.</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l>Yet will I aid thee, Ubald. Take this phial, </l>
+       <l>A potent philtre, brew'd with secret spells </l>
+       <l>When the moon's face was full: in man 'twould breed </l>
+       <l>Aversion, fear, or death; but, given to woman, </l>
+       <l>Its powerful charm will so enthrall her will </l>
+       <l>Led by its strong invisible influence, </l>
+       <l>That she must bend to him who ministers. </l>
+       <l>Give this, and she is won.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD, </speaker>
+      <stage>(taking it).</stage>
+      <lg>
+       <l> I have e'en heard </l>
+       <l>That such things are, and of portentous might. </l>
+       <l>Thou rosy draught, in which the loves sit smiling, </l>
+       <l>No sea-tost mariner ere hail'd the land </l>
+       <l>With its fresh dawn of verdure, no sick mourner </l>
+       <l>The beam of health, with such heart-stirring joy </l>
+       <l>As the scorn'd lover, vex'd with hopeless wishes, </l>
+       <l>Would bless thy perfidy! O most subtle thief, </l>
+       <l>Canst thou with witching and seductive skill </l>
+       <l>From the closed issues of the pitiless mind </l>
+       <l>Draw sweet accordance, moulding the stern thoughts </l>
+       <l>Even to the form and quality of fondness?</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l>The virtue is in the proof. Present that philtre, </l>
+       <l>And thou shalt find the gently kindled heart </l>
+       <l>Turn quick and tremulously to thy bidding, </l>
+       <l>As doth the magnet to its proper pole.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>These toys are for the humble;—such as crawl </l>
+       <l>Content to owe their summer-growth of fortune </l>
+       <l>To paltry plotting and mean artifice. </l>
+       <l>Woman, I scorn thy gifts. </l>
+      </lg>
+      <stage>(He dashes it on the ground.)</stage>
+      <lg>
+       <l> When Ubald takes </l>
+       <l>The kiss of love, or unbought wreath of honor </l>
+       <l>By a wizzard's trick, fall from him, gracious Heaven! </l>
+       <l>To others thy curst wares! my hopes need no </l>
+       <l>Unhallow'd aid.</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l> Mad boy, thou art undone! </l>
+       <l>The fruit, when thou hast press'd its precious savor, </l>
+       <l>Shall turn to bane: the venomous rind cling to thee </l>
+       <l>Loathsome, destroying life. Still take my counsel, </l>
+       <l>Ere fate shall close her adamantine gate </l>
+       <l>Thro' which there is no return.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> I will not, sorceress. </l>
+       <l>Thine indirect and artful policy </l>
+       <l>Suits not my bearing.—Come, thou holy parent, </l>
+       <l>First source of love, with unadulterate speech </l>
+       <l>Inform my tongue, and show the guileless spell </l>
+       <l>Of thine own eloquence, resistless Nature!— </l>
+       <l>Bid thy priest wait me under Helen's porch. </l>
+       <l>Thus far I use thee.</l>
+      </lg>
+     </sp>
+     <stage> [Exit.</stage>
+     <sp who="#the_wanderer">
+      <speaker>THE WANDERER, </speaker>
+      <stage>(alone.)</stage>
+      <lg>
+       <l> O fell Destiny, </l>
+       <l>With what prevailing and tremendous power </l>
+       <l>Thou goad'st me to the goal! Thy tread is like </l>
+       <l>The rush of many waters, indistinct </l>
+       <l>But dreadful, coming louder on the ear </l>
+       <l>And big with ruin. I am borne on by fate </l>
+       <l>And that relentless never-ceasing voice </l>
+       <l>Which swells within me to the utterance, </l>
+       <l>My mother's cry. It is here, here, here, rising </l>
+      </lg>
+      <stage>(She touches her forehead)</stage>
+      <lg>
+       <l>As the low murmur from the hollow earth </l>
+       <l>Which bodes the hurricane.—See there! See there! </l>
+       <l>She stands; she beckons—See! she glares upon me, </l>
+       <l>As in the frantic moments of her death. </l>
+       <l>There was none near her in that agony, </l>
+       <l>But the lost wretch who drew perdition on her. </l>
+       <l>Away, away, this is no time for thought.</l>
+      </lg>
+     </sp>
+     <stage> [Exit.</stage>
+    </div>
+    <div type="scene" n="2">
+     <head>Scene II.</head>
+     <stage>The Garden before the Door of Agnes' Chamber. Dusk.</stage>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>Once more, loved shades, I tread your fragrant lawn, </l>
+       <l>Scene of my earliest joys! not, as before, </l>
+       <l>Elate and joyous; but, like night's marauder, </l>
+       <l>I steal unto the plunder of those joys </l>
+       <l>Day will not yield me. I am ill used to deeds </l>
+       <l>That shun the light; my firm nerve quakes and trembles, </l>
+       <l>Which never blench'd before. Strange thoughts assail me. </l>
+       <l>With what a plain and level course till now </l>
+       <l>My barque has steer'd through this world's stormy ocean, </l>
+       <l>Breasting its turbulent wave as if in triumph! </l>
+       <l>Now is my course obscured, and tempest-tost </l>
+       <l>I roam amid the billows. In thee, Agnes, </l>
+       <l>Life's only sunshine dwells: joy, fame, and glory, </l>
+       <l>Are but the rays of one revolving circle, </l>
+       <l>In which thy cherish'd form is fixt and center'd.— </l>
+       <l>No voice.—The sounds of mirth have ceased within, </l>
+       <l>And no lights flit along those arched casements. </l>
+       <l>Now to love's work! Be still, thou murky air, </l>
+       <l>And shroud with thy soft veil the theft I purpose! </l>
+      </lg>
+      <stage> (Holding out the key and unlocking the door.)</stage>
+      <lg>
+       <l>O thou quaint minister to daring love, </l>
+       <l>Do thy kind secret office, and unlock </l>
+       <l>This shrine of chastity!—Hush!—Agnes! Agnes! </l>
+       <l>'Tis Ubald's voice that steals upon thy slumber.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES, </speaker>
+      <stage>(coming out fearfully.)</stage>
+      <lg>
+       <l>What means my Ubald? At this hour! alone! </l>
+       <l>How couldst thou break the privacy of my chamber? </l>
+       <l>I dare not speak with thee.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> Nay, nay, Agnes, </l>
+       <l>Time yields no season now for doubt or scruples. </l>
+       <l>I would not trench, no not by one small atom, </l>
+       <l>Upon that reverence my love should yield thee; </l>
+       <l>But, while we speak, e'en now wing'd moments fly, </l>
+       <l>To wrest thee from mine arms for ever. Agnes, </l>
+       <l>I have not built my love upon the sand? </l>
+       <l>Thy faith will not fall from me?</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Sooner, Ubald, </l>
+       <l>This timid heart would brave the oppressor's sword, </l>
+       <l>Than fall from thee; but steal not like a thief </l>
+       <l>Upon the night; I dare not greet thee freely, </l>
+       <l>My life, my lord.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> If Ubald is thy life, </l>
+       <l>Thou must be his, and this night, lovely trembler.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>O Ubald, thou art wild to say to-night.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>I am not wild: and yet I am wild, Agnes, </l>
+       <l>To think that life's whole joy is on the cast </l>
+       <l>Of this swift hour.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> This hour!</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> Thou darest not bide </l>
+       <l>Till the morn break, and with insulting joy </l>
+       <l>Reynald shall come to tear thee to the altar!</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>O never, Ubald! by our loves I swear </l>
+       <l>Sooner to die, than wrong thee!</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> Oaths are vain. </l>
+       <l>Hands even now are plying, chaplets woven, </l>
+       <l>To deck thee for to-morrow's sacrifice; </l>
+       <l>Sweno has vow'd it. Agnes, thou art mine </l>
+       <l>This night, or blood must stream upon thy bridal.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Merciful heaven! what dost thou meditate? </l>
+       <l>O Ubald, smite not in thy wrath!</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> 'Tis thou, </l>
+       <l>Thy cold delay, which goads me to such phrensy. </l>
+       <l>Say, dearest, thou wilt be my bride to-night. </l>
+       <l>The priest awaits; thy Ubald kneels to thee.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Ubald, thou wrong'st the chaster thoughts of duty, </l>
+       <l>Which dare not yield what the weak heart would grant. </l>
+       <l>I must not hear thee; but the trembling soul </l>
+       <l>Bleeds to say nay. I may not fly my father.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>Then bide, O false one, and be Reynald's victim!— </l>
+       <l>And yet thou darest not wed him!—Agnes, Agnes, </l>
+       <l>Thou couldst not yield this hand, thine Ubald's treasure, </l>
+       <l>And look upon the sun, that lit thy treason.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Indeed I durst not.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> Agnes, this hand is pledged </l>
+       <l>To me and to my fortunes; it was given </l>
+       <l>In the fair prime and sunshine of our loves, </l>
+       <l>Which must abide through every change of season, </l>
+       <l>Not worn as summer garments, to be cast </l>
+       <l>When ruder hours assail us. Here I hold it </l>
+       <l>Before the face of heaven, and those pure orbs </l>
+       <l>Which heard the pledge. I will not loose this hand, </l>
+       <l>Till at the altar vows assure thee mine, </l>
+       <l>Though it were parricide to hold it, Agnes. </l>
+       <l>Thy sire will come! Despair hath wrought me mad. </l>
+      </lg>
+      <stage> (Kneeling, and clasping her hand passionately.)</stage>
+      <lg>
+       <l>Say thou wilt be my bride! Have mercy, Agnes! </l>
+       <l>Blood will be spilt ere morn, if thou deniest me.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>O Ubald, I am riven by love and duty. </l>
+       <l>Would that I durst!</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> O yield thee to my faith! </l>
+       <l>To say me nay, is to say nay for ever. </l>
+       <l>Agnes, to-night or never we must wed.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>O Ubald, do not tempt me to a deed, </l>
+       <l>Which shall embitter all our after-joys. </l>
+       <l>Heaven will not smile on disobedient vows. </l>
+       <l>My sire will curse us. Spare me, beloved Ubald! </l>
+       <l>I have not strength to strive against thy wrath.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>The priest attends us, love. The solemn rites, </l>
+       <l>That make thee mine, shall steep thy thoughts in peace.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Dear Ubald, peace can never crown the guilty. </l>
+       <l>I am too weak, too deeply pledged in love, </l>
+       <l>To hold that proud demeanor, which I owe </l>
+       <l>To my own name and to my noble father. </l>
+       <l>But do not cozen me with empty hopes! </l>
+       <l>Guilt may have some brief pleasures, great though anxious; </l>
+       <l>But peace dwells only in the path of duty. </l>
+       <l>Make me not, Ubald, what thyself will scorn, </l>
+       <l>An outcast child!</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> Would Ubald cause thee sorrow? </l>
+       <l>In infant years, whene'er thy heart was sad, </l>
+       <l>And I had been but one day absent, thou </l>
+       <l>Wouldst rush into mine arms and there pour forth </l>
+       <l>Thy gentle sorrows, and they straight would vanish. </l>
+       <l>And wouldst thou place a bottomless gulph between us? </l>
+       <l>Thou wilt not tear thee from me? Night is waning, </l>
+       <l>Come, best beloved!</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES, </speaker>
+      <stage>(yielding.)</stage>
+      <lg>
+       <l> I am too weak. </l>
+      </lg>
+      <stage>(Stopping again.)</stage>
+      <lg>
+       <l> Hark, Ubald! </l>
+       <l>There is an angry whisper of the air, </l>
+       <l>The shivering trees do rustle with each other. </l>
+       <l>O tempt me not to ruin, loved, loved Ubald! </l>
+       <l>Let me once see my sire, and press his knees </l>
+       <l>With burning tears, that he may spare his child!</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>Agnes, the word of knighthood duly given </l>
+       <l>Is law to Sweno. There is now no hope </l>
+       <l>Save in our instant union. Footsteps move </l>
+       <l>Through yon dark corridor. Come friend or foe, </l>
+       <l>Ubald will not resign thee but in death. </l>
+       <l>Yield, love; despair and death are in delay.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES. </speaker>
+      <stage>(She leans upon him with a burst of tears.)</stage>
+      <lg>
+       <l>Ubald, I yield me; but my bosom shrinks </l>
+       <l>With ominous terrors.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> Fear not! Come, dear bride.</l>
+      </lg>
+     </sp>
+     <stage> [Exeunt.</stage>
+    </div>
+    <div type="scene" n="3">
+     <head>Scene III.</head>
+     <stage>Before the Porch of Helen's Chapel. Night.</stage>
+     <sp who="#the_wanderer">
+      <speaker>THE WANDERER, </speaker>
+      <stage>(alone.)</stage>
+      <lg>
+       <l>Stay, moon, thy rising! When thy conscious eye </l>
+       <l>Shall pierce the curtain'd east, fate's bolt must fall, </l>
+       <l>Blurring thy beams with blood. O I am faint, </l>
+       <l>And gladly would I lay this fever'd head </l>
+       <l>On the cold ground, and lull my thoughts in death. </l>
+       <l>The memories of years rise ghastly round me, </l>
+       <l>And the soul sickens with the sad review </l>
+       <l>Of all my wanderings. At such an hour </l>
+       <l>(I mind it now, although the mist hangs often </l>
+       <l>O'er my benighted mind) those treacherous joys, </l>
+       <l>That trembled in it like a beam from heaven, </l>
+       <l>Stole to my heart, foreshowing bliss and rapture; </l>
+       <l>But, tasted, turn'd heaven to hell, and made this earth </l>
+       <l>A howling wilderness. O lost delight! </l>
+       <l>Time was, that I was fair, and blithe, and lovely: </l>
+       <l>My heart expanded to the God of nature, </l>
+       <l>And every morning, in my humble bower </l>
+       <l>Of woodbine and wild sweets, I pour'd my strain, </l>
+       <l>Sweet orisons of praise, to him who bless'd me. </l>
+       <l>Visions of innocence, where are ye fled? </l>
+       <l>My brain is like a furnace, and the fiend </l>
+       <l>Goads me to ruin:—yet I dare not waver </l>
+       <l>Now, on the dizzy gulph of that toss'd ocean </l>
+       <l>Upon whose brink I stand. But this my cup </l>
+       <l>Of vengeance will I drink, and then, lost mother, </l>
+       <l>Thy spirit shall have peace! Blind chaos, come! </l>
+       <l>O Ubald, O my son! thou art the shaft </l>
+       <l>Twenty long winters in fate's quiver stored, </l>
+       <l>And whetted by revenge. I must be brief; </l>
+       <l>I have upheld thee once; again the pit </l>
+       <l>Yawns close beneath thy feet, and I have digg'd it. </l>
+       <l>The hour draws nigh. Yet have I one strong spell </l>
+       <l>To ward thy ruin, and thou perforce shalt venge me.</l>
+      </lg>
+     </sp>
+     <stage> [Exit.</stage>
+     <stage>(Enter UBALD and AGNES.)</stage>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Stay, best beloved! I heard a voice, dear Ubald; </l>
+       <l>This place is awful. Let me yet return.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>Mine Agnes, cheer thy heart: this loneliness </l>
+       <l>Is fitting tender thoughts.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Too strongly loved! </l>
+       <l>My father's curse will blast me. I shall hang </l>
+       <l>Even as a wither'd wreath upon thy neck, </l>
+       <l>And thy quick temper will upbraid my sadness. </l>
+       <l>Perchance thy love, my only prop, will leave me. </l>
+       <l>Wilt thou not hate my tears?</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> In mirth or sorrow, </l>
+       <l>Ever my own! I will make tears my drink, </l>
+       <l>Ambrosial sighs my food. The very gods </l>
+       <l>Shall envy me.—Our harbinger of bliss </l>
+       <l>Peers through her misty shroud. </l>
+      </lg>
+      <stage>(The moon rises.)</stage>
+      <lg>
+       <l> So radiant love, </l>
+       <l>Smiling through tears, shall light mine Agnes' brow.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES, </speaker>
+      <stage>(clinging close to UBALD.)</stage>
+      <lg>
+       <l>Ubald, who comes?</l>
+      </lg>
+     </sp>
+     <stage>[Enter Monk.]</stage>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> A friend! our trustiest friend, </l>
+       <l>Whose blessing, gentle maid, shall seal our union. </l>
+       <l>Welcome, kind father! These still rocks are lonely; </l>
+       <l>No eye shall break upon our privacy, </l>
+       <l>Save yon pure orb, our hymeneal lamp, </l>
+       <l>That smiles upon us. Though our modest bridal </l>
+       <l>Must shun the glare of pompous blazonry, </l>
+       <l>We make thee almoner of this our largesse. </l>
+       <l>'Tis fit that gifts should crown the church's rites, </l>
+       <l>And charity draw down a blessing on them.</l>
+      </lg>
+     </sp>
+     <stage> (Giving him a purse.)</stage>
+     <sp who="#monk">
+      <speaker>MONK.</speaker>
+      <lg>
+       <l>'Tis fitting, noble youth: and Father Francis </l>
+       <l>Hath a right trusty hand, and knows full well </l>
+       <l>Where to apply this cordial; what souls need </l>
+       <l>The cheering comfort of thine alms, and where </l>
+       <l>'Twere cast away, like jewels unto swine. </l>
+      </lg>
+      <stage>(aside.)</stage>
+      <lg>
+       <l>By our mass, a goodly gift, and well bestow'd!</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>We are the debtors to your kindness, Father, </l>
+       <l>And shall not stint our gifts. Bear'st thou the key </l>
+       <l>Of this lone chapel, through whose color'd pane </l>
+       <l>The moonlight gleams on the neglected altar, </l>
+       <l>And chides us for delay?</l>
+      </lg>
+     </sp>
+     <sp who="#monk">
+      <speaker>MONK.</speaker>
+      <lg>
+       <l> When doth the woodman </l>
+       <l>Forget his ax, or the true knight his falchion? </l>
+       <l>And think'st thou Father Francis doth not bear </l>
+       <l>The weapons of his ministry? This key </l>
+       <l>Unfolds the portal of that massive arch </l>
+       <l>Into the shrine; this, at love's witching mandate, </l>
+       <l>Shall ope the cell beneath it, where is strewn </l>
+       <l>The bridal couch.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Ubald, I am dismay'd; </l>
+       <l>The very rocks and chapel frown on us: </l>
+       <l>The shrine of God looks awful in this gloom, </l>
+       <l>And my heart's pulse is chill'd. Thou wilt not guide me </l>
+       <l>Into the bowels of that ruinous den, </l>
+       <l>Where fiends perchance abide?</l>
+      </lg>
+     </sp>
+     <sp who="#monk">
+      <speaker>MONK.</speaker>
+      <lg>
+       <l> In truth, fair lady, </l>
+       <l>Rife is the rumor that these cells are held </l>
+       <l>By restless spirits, far from human tread; </l>
+       <l>But trust me, they are jovial souls that haunt them. </l>
+       <l>I have known somewhat of their pranks myself. </l>
+       <l>But fear not, lady; spectres come not nigh </l>
+       <l>This glen to-night, for I have exorcised it. </l>
+       <l>Nor flesh, nor spirit walks within these doors </l>
+       <l>Without my leave. Come, lady, to the chapel.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>Lean on me, loveliest burthen! Let this arm </l>
+       <l>Be now, as ever, the sole prop of Agnes. </l>
+       <l>Thou wilt not fear while Ubald is beside thee.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Forgive me, Ubald, that each breath appalls me: </l>
+       <l>My fluttering heart beats quick with guilty terror; </l>
+       <l>I dread this very darkness which befriends us, </l>
+       <l>The fitful breathing air, and these lone walls, </l>
+       <l>Lest the mute stones should find a voice to curse me </l>
+      </lg>
+      <stage> [The Monk, who has unlocked the chapel door, pushes it open, after
+                            some delay and exertion, with a hoarse grating noise.]</stage>
+      <stage>AGNES shrieks, and draws back.</stage>
+      <lg>
+       <l>O Ubald, let us turn! Nature forewarns us; </l>
+       <l>As cautiously we cross'd the forest glen, </l>
+       <l>Beneath each rustling leaf a tongue seem'd lurking; </l>
+       <l>And now from out these walls, this ruin'd shrine, </l>
+       <l>Night's ominous bird will scream and flap his wing </l>
+       <l>Over our bridal. Turn we, dearest Ubald! </l>
+       <l>My father will relent.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> Gods! am I mock'd? </l>
+       <l>Shall Ubald be the jest of every slave? </l>
+       <l>E'en at the altar's groundsill yield my right, </l>
+       <l>And see insulting Reynald swoop my bride </l>
+       <l>In his curst talons? Sooner Chaos come! </l>
+       <l>By heaven, it is not well, it is not well, </l>
+       <l>To stir my blood thus, Agnes!</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Be not angry! </l>
+       <l>Let not thy wrath destroy me quite with anguish! </l>
+       <l>What prop, what hope hath Agnes, but thy kindness? </l>
+       <l>Beloved, forgive my weakness: I am thine; </l>
+       <l>But, O! what harbor hath the guilty child, </l>
+       <l>If thou too chide her?</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> It is tempting fate </l>
+       <l>To dally thus with time. Pursuit may reach us. </l>
+       <l>By all the honors I have earn'd and proudly, </l>
+       <l>I turn not living hence, till thou art mine!</l>
+      </lg>
+     </sp>
+     <sp who="#monk">
+      <speaker>MONK.</speaker>
+      <lg>
+       <l>I like not this mine office. If the maiden </l>
+       <l>Decline the church's rite, I take my leave.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD, </speaker>
+      <stage>(stepping before him.)</stage>
+      <lg>
+       <l>Not so, Sir Priest; stay yet! it were not safe </l>
+       <l>To rouse the wrath of Ubald. Agnes, Agnes, </l>
+       <l>Assure this Father of thy free consent! </l>
+       <l>The sacred gate stands open. </l>
+      </lg>
+      <stage> (Taking her hand: she leans upon him.)</stage>
+      <lg>
+       <l> Thus, beloved! </l>
+       <l>Lean thus upon my neck, O thus for ever!</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>I have not strength to tell my Ubald nay.</l>
+      </lg>
+     </sp>
+     <stage> [She enters the Chapel, supported by Ubald, and followed by the Monk.]</stage>
+    </div>
+   </div>
+   <div type="act" n="5">
+    <head>ACT V.</head>
+    <div type="scene" n="1">
+     <head>Scene I.</head>
+     <stage>Night. Before Sweno's Window. The Wanderer alone enters cautiously.</stage>
+     <sp>
+      <stage>SWENO's voice within.</stage>
+      <lg>
+       <l>Bertha!</l>
+      </lg>
+     </sp>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l> His voice! his voice! O tones once dear, </l>
+       <l>With what dread tremor fall ye on my heart! </l>
+       <l>O that the space of unrecorded time, </l>
+       <l>Which has crept slowly, withering hope and life, </l>
+       <l>Could be annihilate; and days, long sunk </l>
+       <l>In its devouring gulph, rise fresh and fair! </l>
+       <l>O Sweno, Sweno, that my soul was chaste </l>
+       <l>Thy conscience knows; that I was mild and gentle </l>
+       <l>The cursed triumph of thy fraud bears witness! </l>
+       <l>That I am hideous now as hell's own inmates, </l>
+       <l>Blotted from honor's book, disgraced, abandon'd, </l>
+       <l>That is thy work, thy foul and damning deed. </l>
+       <l>A stranger sits upon my rightful seat, </l>
+       <l>The bright throne of my hopes; and here I wander, </l>
+       <l>Given to the pitying tempests, cast in hate </l>
+       <l>Forth from my lawful bed, to be the scorn </l>
+       <l>Of things that howl; while thou, adulterous lord, </l>
+       <l>Smilest o'er my wreck. The hour of wrath is come, </l>
+       <l>The plague is o'er thine house. O heavy sleep, </l>
+       <l>Weigh down the brow of Sweno! seal his lids </l>
+       <l>In silence, whose next sleep is in the grave! </l>
+       <l>Sweno, Sweno, I summon thee to death!</l>
+      </lg>
+     </sp>
+     <stage> [Exit.</stage>
+    </div>
+    <div type="scene" n="2">
+     <head>Scene II.</head>
+     <stage>Sweno's Chamber.</stage>
+     <stage>SWENO. BERTHA.</stage>
+     <sp who="#bertha">
+      <speaker>BERTHA.</speaker>
+      <lg>
+       <l>The evening is far spent, and drowsy night </l>
+       <l>Spreads her still mantle o'er the face of nature. </l>
+       <l>Sweno, thy mind needs rest.</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l> O gentle Bertha, </l>
+       <l>The limbs may lack refreshment, but the mind </l>
+       <l>Hath no sweet pause, while shapeless dread hangs o'er it, </l>
+       <l>E'en in the lap of sleep. That strange wierd woman </l>
+       <l>Has cast a withering spell upon my soul, </l>
+       <l>And her last words ring dreadful in mine ear. </l>
+       <l>O Bertha! I am sick at heart, and cheerless; </l>
+       <l>The memory of the past preys keen and darkling </l>
+       <l>On my deep-burthen'd soul. The curse of her, </l>
+       <l>Who bann'd us, still pursues me.</l>
+      </lg>
+     </sp>
+     <sp who="#bertha">
+      <speaker>BERTHA.</speaker>
+      <lg>
+       <l> What means my lord? </l>
+       <l>Have not his firm asseverations made </l>
+       <l>His Bertha certain, that her wondrous form, </l>
+       <l>Beauteous in madness, was unknown to Sweno?</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>And be that added to the bitter sum; </l>
+       <l>Bertha, my speech deceived thee. Not unknown </l>
+       <l>Her voice, like fate's last summons, smote my soul. </l>
+       <l>Still when the tempests rave, and sheeted lightning </l>
+       <l>Sets the pale vision of her form before me, </l>
+       <l>That sound appalls my fancy; from above </l>
+       <l>Retributory vengeance frowns on Sweno.</l>
+      </lg>
+     </sp>
+     <sp who="#bertha">
+      <speaker>BERTHA.</speaker>
+      <lg>
+       <l>Be my lord's thought less gloomy! Twenty years </l>
+       <l>The sun hath smil'd on us, and all things prosper'd, </l>
+       <l>As if kind fortune's course outsped thy wishes.</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>Ay, my loved wife: but heaven's deep wrath delay'd </l>
+       <l>O'erwhelms with tenfold vengeance.</l>
+      </lg>
+     </sp>
+     <sp who="#bertha">
+      <speaker>BERTHA.</speaker>
+      <lg>
+       <l> Nay, good Sweno, </l>
+       <l>Heaven has still joys in store to cheer the evening </l>
+       <l>Of thy bright glories: thou unbend thy sorrows, </l>
+       <l>Disclose the bitter secret of thy thoughts, </l>
+       <l>And let my love assuage them.</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l> Gentle Bertha! </l>
+       <l>From my youth up I have been proud and fearless. </l>
+       <l>Bitter must be the pangs which now can wring </l>
+       <l>Self-accusation from the mouth of Sweno. </l>
+       <l>But it shall be. Pride wrought the deed that stains </l>
+       <l>The fair field of my conscience, which yet knows </l>
+       <l>No other blot: and that dark pride shall stoop </l>
+       <l>Even to confession of my inward horrors. </l>
+       <l>I will be henceforth humble, very humble.</l>
+      </lg>
+     </sp>
+     <sp who="#bertha">
+      <speaker>BERTHA.</speaker>
+      <lg>
+       <l>Speak, and be yet my proud and glorious husband! </l>
+       <l>The evil now abjured, whate'er it be, </l>
+       <l>Humiliates not.</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l> Was she not fair?</l>
+      </lg>
+     </sp>
+     <sp who="#bertha">
+      <speaker>BERTHA.</speaker>
+      <lg>
+       <l> O yes; </l>
+       <l>I well remember, on the raving blast, </l>
+       <l>When her locks stream'd (her beauteous form between us </l>
+       <l>And the fire-flashing storm) I could almost </l>
+       <l>Have bow'd and worshipp'd: but the ban, that flow'd </l>
+       <l>From her ill-ominous lips in phrensy, spoke her </l>
+       <l>A maniac or a fiendlike spirit, and say'st thou </l>
+       <l>Not then unknown?</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l> O Bertha! she was known </l>
+       <l>Even to the inmost chamber of my heart. </l>
+       <l>There was a time, if she had ask'd of Sweno </l>
+       <l>Wealth, fortune, station, character, whate'er </l>
+       <l>Makes man amongst his fellows vain or glorious, </l>
+       <l>I had all given and freely; so enshrined </l>
+       <l>Was her bright image in my soul: e'en now </l>
+       <l>My fancy views her innocent and lovely, </l>
+       <l>The temple of pure joys, as first I saw her </l>
+       <l>Staunching my wounds, while I lay faint and bloodless.</l>
+      </lg>
+     </sp>
+     <sp who="#bertha">
+      <speaker>BERTHA.</speaker>
+      <lg>
+       <l>What wounds? when, where inflicted? say, kind Sweno.</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>'Twas dusk; alone I journey'd through the forest, </l>
+       <l>Where the trees leaning from the ruinous steep </l>
+       <l>Spread their rude canopy o'er a mountain brook, </l>
+       <l>Then dry and stony. Crossing the ravine, </l>
+       <l>A bow-shot slew my steed; loud rose the shout </l>
+       <l>Of rushing men unmerciful. I staid </l>
+       <l>My back against a rock and kept at bay </l>
+       <l>The yelling ruffians, when a hand unseen </l>
+       <l>From the crag's summit smote me, and I fell </l>
+       <l>Senseless and seeming dead into the hollow.</l>
+      </lg>
+     </sp>
+     <sp who="#bertha">
+      <speaker>BERTHA.</speaker>
+      <lg>
+       <l>Ah me! and none to help?</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l> Yes, there was one, </l>
+       <l>A shape like heaven's pure spirits, to whom I owe </l>
+       <l>Life rescued from that deep and bloody trance.</l>
+      </lg>
+     </sp>
+     <sp who="#bertha">
+      <speaker>BERTHA.</speaker>
+      <lg>
+       <l>How came she in that glen?</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l> A cottage, mantled </l>
+       <l>With flowery sweets, on the lone forest's border, </l>
+       <l>Gave birth and nurture to her loveliness. </l>
+       <l>Widow'd, forlorn, though sprung of gentle blood, </l>
+       <l>Her mother had no joy, no hope, but her; </l>
+       <l>Yet in that rich indeed. Passing the glen </l>
+       <l>At earliest dawn to seek their scanty herd, </l>
+       <l>She found me thus.</l>
+      </lg>
+     </sp>
+     <sp who="#bertha">
+      <speaker>BERTHA.</speaker>
+      <lg>
+       <l> And saved thee! That poor maniac, </l>
+       <l>Sweno, thy life's preserver! Is it thus?</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>I tell thee, Bertha, if the slave, that fell'd me, </l>
+       <l>Had thrust his weapon to the seat of life, </l>
+       <l>I had died then reproachless, nor thus stoop'd </l>
+       <l>To strew the ashes of too late repentance </l>
+       <l>O'er my devoted head. From that long trance </l>
+       <l>I woke, as by an angel's touch redeem'd. </l>
+       <l>I had seen nothing on this goodly earth </l>
+       <l>Like her who stood beside me. Her bright hue, </l>
+       <l>Her shape, her charms, were in the spring of youth, </l>
+       <l>With every full-form'd loveliness new-blown; </l>
+       <l>Of such superior and exalted grace </l>
+       <l>As woo'd the sense to worship: her dark eyes </l>
+       <l>Shone with no earthly lustre, proud, yet bashful; </l>
+       <l>And their glance seem'd to say, “Love me, for I </l>
+       <l>“Am worth the loving, and can well repay </l>
+       <l>“With the best bliss of life.”</l>
+      </lg>
+     </sp>
+     <sp who="#bertha">
+      <speaker>BERTHA.</speaker>
+      <lg>
+       <l> But thy keen wounds, </l>
+       <l>How were they staunch'd?</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l> There, where I carried phrensy, </l>
+       <l>Disgrace, and death! By beauty nursed I wax'd </l>
+       <l>In health and vigor, while the mind's deadlier fever </l>
+       <l>Waked hot within. But Elfrid's soul was haughty, </l>
+       <l>And, when to lawless passion I gave voice, </l>
+       <l>The flush of indignation crimson'd o'er </l>
+       <l>Those beauteous cheeks, where love sate still supreme; </l>
+       <l>And those dark eyes, which seem'd his throne and altar, </l>
+       <l>Became a killing plague. Stung with desire, </l>
+       <l>Maddening, I swore, if she would bless my love, </l>
+       <l>That she should share my name, rank, wealth and honors. </l>
+       <l>My oaths prevail'd. O Bertha! I did call </l>
+       <l>The living God to witness with such strong </l>
+       <l>And terrible denouncement, that my soul </l>
+       <l>Shrinks now from the remembrance. I invoked </l>
+       <l>A curse on me and mine to everlasting, </l>
+       <l>If I should fail.</l>
+      </lg>
+     </sp>
+     <sp who="#bertha">
+      <speaker>BERTHA.</speaker>
+      <lg>
+       <l> Immortal justice, spare us!</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>Heaven bears record, how I adored and wrong'd her; </l>
+       <l>How in brief space those vows, joy-seal'd, were broken. </l>
+       <l>Health strung my limbs; the prize from thy fair hand </l>
+       <l>'Mid Christendom's best knights in tourney won </l>
+       <l>Waked loftier thoughts. Pride scorn'd the lowly gem </l>
+       <l>Which it had robb'd of lustre. Yet once more </l>
+       <l>I saw her, mournful, and presaging death, </l>
+       <l>In her lone bower. I spoke not what I purposed, </l>
+       <l>But her pale features an expression wore </l>
+       <l>So sad, and yet so steadfast, that her look </l>
+       <l>Pierced to my inmost soul, which shrunk beneath it. </l>
+       <l>Her words were few; but from a harp, o'er which </l>
+       <l>Oft I had hung in rapture, her white hand </l>
+       <l>Waked a most wild and dissonant harmony; </l>
+       <l>And then a song broke forth, which on my soul </l>
+       <l>Has sear'd its words in fire; ne'er heard since then, </l>
+       <l>Till from my Agnes the ill-omen'd notes </l>
+       <l>Stole on my nerves, like the cold ague's fit.</l>
+      </lg>
+     </sp>
+     <sp who="#bertha">
+      <speaker>BERTHA.</speaker>
+      <lg>
+       <l>Nor seen again? until our nuptial hour, </l>
+       <l>When the flood whelm'd her.</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l> Never.—That direful music </l>
+       <l>Was her last parting; nor did I hear reproach, </l>
+       <l>Save on the morning of her piteous fate </l>
+       <l>That ominous threat which burst over our bridal: </l>
+       <l>But here indelible her image dwells, </l>
+       <l>And shapeless fears appall me.</l>
+      </lg>
+     </sp>
+     <sp who="#bertha">
+      <speaker>BERTHA.</speaker>
+      <lg>
+       <l> Let the balm </l>
+       <l>Of Bertha's tried affection soothe thy thoughts.</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>Go, Bertha, to thy couch: myself will follow, </l>
+       <l>Short space to penitent devotion given.</l>
+      </lg>
+     </sp>
+     <sp who="#bertha">
+      <speaker>BERTHA.</speaker>
+      <lg>
+       <l>Tarry not, my loved lord. </l>
+      </lg>
+      <stage> [Exit Bertha.</stage>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO,</speaker>
+      <stage>alone. (He sits down.)</stage>
+      <lg>
+       <l> I know not why, </l>
+       <l>Or what vain terrors undefined oppress me. </l>
+       <l>There is no living thing can daunt my strength; </l>
+       <l>But visions of the past rise thick before me, </l>
+       <l>And his own secret thoughts quell Sweno's pride. </l>
+       <l>O sleep, sweet sleep, when will thy balmy wing </l>
+       <l>Lap me in still forgetfulness, without </l>
+       <l>Thy fearful train of soul-appalling fancies? </l>
+       <l>Steal, gentle soother, o'er my troubled spirits!</l>
+      </lg>
+     </sp>
+     <stage> [After a pause, the door opens slowly, and The Wanderer enters
+                        cautiously.]</stage>
+     <sp who="#wanderer">
+      <speaker>WANDERER.</speaker>
+      <lg>
+       <l>Sweno, awake! Hie thee to Agnes' chamber! </l>
+       <l>Search the maid's bower! The dainty bird is gone, </l>
+       <l>The virgin honors of thy house are blasted. </l>
+       <l>Sweno, arise! or sit thou unrevenged, </l>
+       <l>Till foul dishonor stare thee in the face </l>
+       <l>Plain as the sun! Ubald has stolen thine Agnes. </l>
+       <l>The vaulted chamber under Helen's chapel </l>
+       <l>Is witness to their loves. There seek, there find them! </l>
+       <l>Up, Sweno, rise! 'tis Elfrid bids thee wake!</l>
+      </lg>
+     </sp>
+     <stage> [Exit.</stage>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>Are my thoughts crazed, or stood that form before me? </l>
+       <l>Art thou a phantom from the oozy deep, </l>
+       <l>Breaking night's stillness with unhallow'd voice, </l>
+       <l>Or shape of flesh and blood, that warn'st me thus?</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>The voice, the voice, the very tones of Elfrid! </l>
+       <l>Dread judgment, hang'st thou o'er my fated house? </l>
+       <l>Not on my child, great God of mercies, not </l>
+       <l>On my poor Agnes!—Bertha, Bertha, sleeps she </l>
+       <l>In the sweet rest of innocence unharm'd? </l>
+       <l>My child, my Agnes, hear me! Bertha! Bertha!</l>
+      </lg>
+     </sp>
+     <stage> [Exit.</stage>
+    </div>
+    <div type="scene" n="3">
+     <head>Scene III.</head>
+     <stage>Moonlight. Before the door of the Cavern under Helen's Chapel, which is
+                        seen above, and a projecting point of rock still higher. The River on one
+                        side appearing to wind close behind the projecting rock. The Monk is seen
+                        descending a rocky staircase from the Chapel, followed by Ubald and Agnes.
+                        The Monk unlocks the door of the Cavern.</stage>
+     <sp who="#monk">
+      <speaker>MONK.</speaker>
+      <lg>
+       <l>Fear nothing, lady, though the bridal couch </l>
+       <l>Seem lonesome. Evil spirits have no power </l>
+       <l>Over the chaste. Dread no worse warlock here, </l>
+       <l>Than him whose mastering spell subdues thy beauty </l>
+       <l>E'en to his wish and will. Sweet dreams of love </l>
+       <l>And waking joys attend ye!</l>
+      </lg>
+     </sp>
+     <stage> [Exit.</stage>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> O, loved Ubald, </l>
+       <l>What have we done! where has thy passion led me! </l>
+       <l>My maiden couch untenanted; my mother, </l>
+       <l>My sire renounced! Will not the curse of heaven </l>
+       <l>Burst on the rash and disobedient child?</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>Think not so gloomily! This night was cull'd </l>
+       <l>From the pure calendar of hallow'd hours </l>
+       <l>To be our bliss.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Ubald, a solemn blessing </l>
+       <l>Upon my virgin forehead has just stamp'd </l>
+       <l>The name of wife. It was my only wish, </l>
+       <l>And this fond heart, though timid, should be joyous. </l>
+       <l>Why does fear chill my thoughts? Why hangs a mist </l>
+       <l>Of vague and shapeless terrors on my soul? </l>
+       <l>Are they of guilty disobedience born, </l>
+       <l>Or omens of deep warning? Cheer me, love, </l>
+       <l>For my strength fails.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> No breath of harm shall near thee; </l>
+       <l>Bid thine eyes beam with joy! Come, gentle Agnes!</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Nay, Ubald, stay, and breathe this pleasant air. </l>
+       <l>See, how the moon rides glorious in yon sky! </l>
+       <l>From infant years I loved that silver light, </l>
+       <l>And the unvaried music of the waters, </l>
+       <l>That glimmer with its beam. Pleasant and calm </l>
+       <l>Under this rock falls sweetly on the ear </l>
+       <l>The murmur of the river. Sit we here; </l>
+       <l>That cave is terrible.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> Light of my being, </l>
+       <l>It grieves thine Ubald's tongue to say thee nay. </l>
+       <l>Thy flight may be perceived, and hasty wrath </l>
+       <l>Pour its arm'd scouts around. In that retirement </l>
+       <l>Secure we rest; and vague pursuit may fret </l>
+       <l>And spend its breathless speed, but never reach us.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES, </speaker>
+      <stage>(unwillingly yielding.)</stage>
+      <lg>
+       <l>That cloister's vault is dismal as a tomb.</l>
+      </lg>
+     </sp>
+     <stage> [Exeunt.</stage>
+     <stage> (The door closes after them grating heavily. After a short pause, enters
+                        The Wanderer Elfrid, cautiously.)</stage>
+     <sp who="#elfrid">
+      <speaker>ELFRID.</speaker>
+      <lg>
+       <l>Ye beetling rocks, and thou, lone chapel, once </l>
+       <l>Witness of Elfrid's wrongs, behold her triumph! </l>
+       <l>Haste, Sweno, to thy doom! The chapel closed— </l>
+       <l>All hush'd—all silent—save this heart, which throbs </l>
+       <l>As it would burst the impediments of life. </l>
+       <l>O dreadful!—O my son! Thy reckless passion </l>
+       <l>Has overleap'd my speed and marr'd thee. Ubald, </l>
+       <l>Where art thou? Pray this earth to cover thee, </l>
+       <l>Ere thy rash guilt be blazon'd to the sun! </l>
+      </lg>
+      <stage> [A shriek is heard within the cavern.</stage>
+      <lg>
+       <l>Hark to that shriek of fear! O vengeful phantoms, </l>
+       <l>One moment yet be still!—Come, Sweno, Sweno! </l>
+       <l>I am belated; in my own toils caught, </l>
+       <l>And wrapp'd in terrors. Sweno! dullard, haste!</l>
+      </lg>
+     </sp>
+     <stage> (She ascends the stairs, and passes behind the Chapel. After a pause,
+                        enter from the cell hastily Agnes, Ubald.)</stage>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Night is terrific in that hideous cavern.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>Nay, gentle Agnes. These are vain illusions, </l>
+       <l>The coy fears of a maiden. Hath not Ubald </l>
+       <l>Power, strength, and will, to shield thee from all danger?</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Bear with me, Ubald; 'tis not lack of love, </l>
+       <l>That scares me from thy couch. The icy hand </l>
+       <l>Of horror is upon me. I dare not rest </l>
+       <l>In that tremendous gloom.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l> Wayward enchantress, </l>
+       <l>Night hath no darkness where my Agnes is! </l>
+       <l>Thyself art light, and joy, and loveliness. </l>
+       <l>Cheer thee, sweet trembler; on thy coral lips </l>
+       <l>The breath of love is stirring. Thy chaste bosom </l>
+       <l>Is the dear shrine of bliss. Appease thy fears.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>O Ubald! as I near'd that frightful couch, </l>
+       <l>Lifting its veil with slow and timid hand, </l>
+       <l>I saw, though in thick darkness, plain and lit </l>
+       <l>By its own ghastliness, a grinning fiend, </l>
+       <l>And, shrieking, back I fell. Methought I lay </l>
+       <l>Wrapt in my shroud and coffin, while around </l>
+       <l>Glared thousand hideous phantoms as in triumph, </l>
+       <l>The least too horrible for human gaze. </l>
+       <l>I tremble, Ubald, and am thrill'd with dread; </l>
+       <l>For love's dear sake forbear me.</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO, </speaker>
+      <stage>(without.)</stage>
+      <lg>
+       <l> Ubald! ho!</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>My father! Shield me, Ubald, from his wrath!</l>
+      </lg>
+     </sp>
+     <stage> [Enters Sweno with his sword drawn. Agnes shrinks back towards the
+                        rock.]</stage>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>Traitor, my daughter!—O my Agnes here! </l>
+      </lg>
+      <stage>(To Ubald.)</stage>
+      <lg>
+       <l>Glorious requital of parental cares! </l>
+       <l>Heap, heap dishonor on the house that rear'd thee, </l>
+       <l>But hope not, caitif, to escape the sword </l>
+       <l>Of an avenging father. Die, ungrateful! </l>
+       <l>Perish, base-born seducer!</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD, </speaker>
+      <stage>(parrying his blows without returning them.)</stage>
+      <lg>
+       <l> Peace, peace, Sweno! </l>
+       <l>Put up thy sword; Ubald would not offend </l>
+       <l>One hair of thine for all the wealth of worlds. </l>
+       <l>Sire of my Agnes, Ubald kneels to thee.</l>
+      </lg>
+     </sp>
+     <stage> [He drops on one knee.</stage>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>Kneel not for life! Die, coward, faithless Ubald!</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD, </speaker>
+      <stage>(rising.)</stage>
+      <lg>
+       <l>Thy fury is unmanly. O beware, </l>
+       <l>Stir not the fiend, which lurking in my heart </l>
+       <l>Cries vengeance on thine head!—Hold! hold!</l>
+      </lg>
+     </sp>
+     <sp who="#elfrid">
+      <speaker>ELFRID, </speaker>
+      <stage>(on the rock above.)</stage>
+      <lg>
+       <l> Thine oath! </l>
+       <l>Thine oath! Slay him who made thee fatherless!</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>Tempt me no further, Sweno, on thy life! </l>
+       <l>I know not if that wizard tongue speaks true, </l>
+       <l>Which cries that Sweno made me fatherless. </l>
+       <l>My thoughts grow perilous; there is that within me </l>
+       <l>Which swells to think that I have lost a father, </l>
+       <l>And lost by thee. Stand off, or bid good angels guard thee!</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l>Die, traitor, die! This for my ravish'd daughter, </l>
+       <l>This for foul breach of hospitable faith.</l>
+      </lg>
+     </sp>
+     <stage>(UBALD parries his blows.)</stage>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>O father, hold!</l>
+      </lg>
+     </sp>
+     <sp who="#bertha">
+      <speaker>BERTHA, </speaker>
+      <stage>(without.)</stage>
+      <lg>
+       <l> This way, this way! the din </l>
+       <l>Of swords is loud.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Hold, husband, father, hold!</l>
+      </lg>
+     </sp>
+     <sp who="#elfrid">
+      <speaker>ELFRID, </speaker>
+      <stage>(above.)</stage>
+      <lg>
+       <l>Thine oath, thine oath! Think, Ubald, on thy sire!</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>The spirit of my parent calls for vengeance; </l>
+       <l>Perish, fond thoughts!</l>
+      </lg>
+     </sp>
+     <stage> (UBALD at last fights with SWENO. Enter BERTHA, REYNALD, Knights, and
+                        Attendants with torches. AGNES at the same moment rushes forward to part
+                        UBALD and SWENO, and receives the point of SWENO'S sword in her breast. She
+                        shrinks back and hangs with both hands on UBALD'S shoulder; at the same time
+                        UBALD'S sword strikes down SWENO.)</stage>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> O I am sorely hurt!</l>
+      </lg>
+     </sp>
+     <stage> (UBALD supports AGNES. BERTHA kneels by SWENO, and is engrossed with
+                        attendance on him.)</stage>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>Lean on me; thus!—Ah me, 'tis thy blood, Agnes.</l>
+      </lg>
+     </sp>
+     <sp who="#bertha">
+      <speaker>BERTHA.</speaker>
+      <lg>
+       <l>O Sweno, Sweno, thy life's fount is gushing. </l>
+       <l>Thy blood wells fast away; I cannot staunch it.</l>
+      </lg>
+     </sp>
+     <sp who="#elfrid">
+      <speaker>ELFRID, </speaker>
+      <stage>(above.)</stage>
+      <lg>
+       <l>Sweno, look up! It is thy son, thy son! </l>
+       <l>Elfrid's accursed issue sends thy soul </l>
+       <l>Burning to Hell! It is thy son has made </l>
+       <l>That hateful offspring of thy faithless nuptials </l>
+       <l>As lost, as sunk in infamy, as curst, </l>
+       <l>As she whose tongue upbraids thee! Agnes, Agnes, </l>
+       <l>Despair and perish!—Ubald is thy brother!</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>O horrible, horrible! Witch, fury, demon! </l>
+       <l>There is a lying spirit in thy mouth; </l>
+       <l>Thou durst not thus have outraged nature's mercies.</l>
+      </lg>
+     </sp>
+     <sp who="#elfrid">
+      <speaker>ELFRID.</speaker>
+      <lg>
+       <l>Mercy for who shows mercy! Blood for blood! </l>
+       <l>Ubald, yon fate-struck caitif was thy sire, </l>
+       <l>Who cast thee fatherless on this wide world; </l>
+       <l>Who murder'd Elfrid's fame, and peace, and reason, </l>
+       <l>And made me what I am, Hell's slave and victim. </l>
+       <l>My mother's frantic spirit stands beside him, </l>
+       <l>Smiling in agony, and calls me hence! </l>
+       <l>Am I not avenged? Now, now laugh out, </l>
+       <l>Fiends of dismay! Mix earth, and air, and sea! </l>
+       <l>Unbind the angels, which have power to slay </l>
+       <l>When the sixth trump has sounded! Hell is loose, </l>
+       <l>And nothing can the fiends of vengeance brew </l>
+       <l>Feller than this!—O for a whirlwind's blast, </l>
+       <l>To cover with unfathomable night </l>
+       <l>The deeds which I have wrought!—My brain is fire. </l>
+       <l>Welcome, despair, and death, and phrensy, welcome! </l>
+       <l>Eternal ruin yawns! I come! I come!</l>
+      </lg>
+     </sp>
+     <stage>(She springs from the rock into the torrent beneath.)</stage>
+     <sp who="#reynald">
+      <speaker>REYNALD.</speaker>
+      <lg>
+       <l>Tremendous wreck of reason! O most dreadful!</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES, </speaker>
+      <stage>(in a low voice to UBALD.)</stage>
+      <lg>
+       <l>Cast me not from thee! I am gone, and quickly, </l>
+       <l>Where they nor wed, nor are in marriage given. </l>
+       <l>Dying I yet may clasp thine hand. Kind Ubald, </l>
+       <l>One parting kiss, but pure as angel's greeting! </l>
+       <l>O hold me up, fast, fast! I swim! I sink! </l>
+       <l>'Tis sweet to die upon thy bosom, Ubald.</l>
+      </lg>
+     </sp>
+     <stage>(She dies.)</stage>
+     <sp who="#ubald">
+      <speaker>UBALD, </speaker>
+      <stage>(in a low voice.)</stage>
+      <lg>
+       <l>Speak! gentle Agnes, say thou art not gone! </l>
+       <l>O still, still, breathless, silent as the grave!</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO,</speaker>
+      <stage> (whose eyes had continued riveted on the spot where ELFRID stood,
+                            and unconscious of what was passing round him.)</stage>
+      <lg>
+       <l>Eternal justice, upon me alone, </l>
+       <l>Not on mine issue, let thy terrors fall! </l>
+       <l>My life is ebbing fast. Thine hand, loved Bertha! </l>
+       <l>O Agnes, O my child, my child, where art thou? </l>
+       <l>Thy voice was ever music to my soul; </l>
+       <l>Say he is not thy husband! lift the weight </l>
+       <l>Of that deep anguish, which appalls me dying!</l>
+      </lg>
+     </sp>
+     <stage> (BERTHA, who had been kneeling by SWENO without attending to AGNES,
+                        shrieks suddenly on perceiving that she is dead.)</stage>
+     <sp who="#bertha">
+      <speaker>BERTHA.</speaker>
+      <lg>
+       <l>Ah me! she is gone for ever! Sweno, Sweno, </l>
+       <l>She rush'd between thee and hot Ubald's sword, </l>
+       <l>To stay the hasty temper of such wrath, </l>
+       <l>And thine own hand has slain her.</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l> O my child, </l>
+       <l>If thou wert wedded to that bed of incest, </l>
+       <l>Thy death is the sweet sleep of innocence, </l>
+       <l>And life had been a curse! My gentle Agnes, </l>
+       <l>Fatally hast thou rued one perilous act </l>
+       <l>Of disobedience to thy guilty sire; </l>
+       <l>And thou art gone before me!—I am sick </l>
+       <l>With terrors keener than the pang of death. </l>
+       <l>Beloved, ill-fated Bertha, thou hast found </l>
+       <l>In me, who should have been thy stay and glory, </l>
+       <l>The rock whereon thy hopes have all made wreck. </l>
+       <l>Ubald, I charge thee, live! though scathed and blasted </l>
+       <l>By heaven's dread bolt.</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD,</speaker>
+      <stage> (starting from his silent contemplation of the dead AGNES.)</stage>
+      <lg>
+       <l> Who bids that wretch, that once </l>
+       <l>Was Ubald, live? His fount of life is dried! </l>
+       <l>My Agnes was the life, the light of Ubald. </l>
+      </lg>
+      <stage>(After a convulsive agony of grief, and a pause.)</stage>
+      <lg>
+       <l>They say she was my sister, and thou father; </l>
+       <l>And both are slain—my father by my sword; </l>
+       <l>And that wierd demon was indeed my mother! </l>
+       <l>O world, what art thou, but a hell of horrors? </l>
+       <l>And who bids Ubald live?</l>
+      </lg>
+     </sp>
+     <stage> (The Knights lay hands upon UBALD to prevent his injuring himself.)</stage>
+     <sp who="#ubald">
+      <speaker>UBALD, </speaker>
+      <stage>(casting them with violence from him.)</stage>
+      <lg>
+       <l> Unhand me, sirs; </l>
+       <l>My wrath is dangerous. </l>
+      </lg>
+      <stage>(After a pause, he throws down his sword.)</stage>
+      <lg>
+       <l> Yes, I will live. </l>
+       <l>Ubald will never shrink from fate.—</l>
+      </lg>
+      <stage>(He kneels.)</stage>
+      <lg>
+       <l> O father. </l>
+       <l>Curse me not dying! At the tomb of Christ </l>
+       <l>Through blood of infidels my sword shall hew </l>
+       <l>Its way to pardon; the bare stone my couch, </l>
+       <l>The spring my drink, and the hair-shirt my clothing. </l>
+       <l>No joy, or pride, or hope shall come near Ubald; </l>
+       <l>But strict achievement of dire penance cleanse </l>
+       <l>My desolate soul of parricidal guilt, </l>
+       <l>And for my bones win peace.</l>
+      </lg>
+     </sp>
+     <sp who="#sweno">
+      <speaker>SWENO.</speaker>
+      <lg>
+       <l> I curse thee not. </l>
+       <l>Thou art my heir—A solemn contract. . . . I </l>
+       <l>Destroyed it—I ... I ... Farewell—Ubald—Bertha.</l>
+      </lg>
+     </sp>
+     <stage>(He dies.)</stage>
+     <sp who="#bertha">
+      <speaker>BERTHA.</speaker>
+      <lg>
+       <l>O bitter fate! O cheerless! in one day </l>
+       <l>Stript of all joy, more lonesome than the dead! </l>
+      </lg>
+      <stage>(To UBALD.)</stage>
+      <lg>
+       <l>Monster, this curse shall cling to thee; thy guilt, </l>
+       <l>Redder than scarlet, shall incarnadine </l>
+       <l>The banners of the just, and bar them from </l>
+       <l>The temple of their Savior; and the tomb, </l>
+       <l>Whose indiscriminate yearning swallows all, </l>
+       <l>Shall cast thy marrowless unquiet bones </l>
+       <l>Forth from its maw: no mass or requiem </l>
+       <l>Shall win for thy gaunt skeleton a place </l>
+       <l>In the still church's bosom, till the lapse </l>
+       <l>Of hundred winters shall have hush'd the wail </l>
+       <l>Of thy remorseful spirit, and earn'd for thee </l>
+       <l>That rest which death denies the parricide! </l>
+      </lg>
+      <stage>(Rising.)</stage>
+      <lg>
+       <l>Yet one word, ere we part for ever, Ubald! </l>
+       <l>Sleeps that fair victim undefiled in death?</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>The dew of blushing morn has never bathed </l>
+       <l>A bud of innocence more pure and stainless.</l>
+      </lg>
+     </sp>
+     <sp who="#bertha">
+      <speaker>BERTHA.</speaker>
+      <lg>
+       <l>Swear it! by all the wreck which thou hast wrought, </l>
+       <l>By all thy hopes of mercy, Ubald, swear it!</l>
+      </lg>
+     </sp>
+     <sp who="#ubald">
+      <speaker>UBALD.</speaker>
+      <lg>
+       <l>God's lightning rive this head already blasted, </l>
+       <l>If ought my love has dared, which should have call'd </l>
+       <l>One blush to the pure cheek of virgin meekness!</l>
+      </lg>
+     </sp>
+     <sp who="#bertha">
+      <speaker>BERTHA.</speaker>
+      <lg>
+       <l>Heaven's mercies hover o'er thy head, mine Agnes! </l>
+      </lg>
+      <stage>(throwing herself down with her cheek on AGNES.)</stage>
+      <lg>
+       <l>Here let me lie, and breathe my last beside thee!</l>
+      </lg>
+     </sp>
+     <sp who="#reynald">
+      <speaker>REYNALD.</speaker>
+      <lg>
+       <l>Ubald, we have been foes, but in this ruin, </l>
+       <l>As all our hopes, so be our angers buried. </l>
+       <l>Here let us close as friends. Unto Christ's banner </l>
+       <l>With thee I vow my strength. Thou, stately offspring </l>
+       <l>Of the most noble house, soar eagle-like </l>
+       <l>Aloft, and let the gale, which rived thine eyrie, </l>
+       <l>But waft thee nearer to thy native heaven.</l>
+      </lg>
+     </sp>
+    </div>
+   </div>
+  </body>
+ </text>
+</TEI>

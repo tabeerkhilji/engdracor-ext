@@ -1,0 +1,4555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id" xml:lang="eng">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">The Italian wife</title>
+    <author>
+     <persName>
+      <forename>Thomas</forename>
+      <surname>Doubleday</surname>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>ProQuest</name>
+     <idno type="URL">https://www.proquest.com/books/italian-wife-1823/docview/2138574327/se-2?accountid=14632</idno>
+     <idno type="proquest">LION2138574327</idno>
+    </bibl>
+    <bibl type="originalSource">
+     <author>Doubleday, Thomas</author>
+     <title type="main">The Italian wife</title>
+     <title type="volume">The Italian Wife</title>
+     <publisher>T. Cadell--William Blackwood</publisher>
+     <pubPlace>London</pubPlace>
+     <date type="print" when="1823">1823</date>
+     <note type="citation">Doubleday, Thomas: The Italian wife (1823). In: The Italian Wife. T. Cadell--William Blackwood: London 1823</note>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="beltran">
+      <persName>BELTRAN</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="child">
+      <persName>CHILD</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="duke">
+      <persName>DUKE</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="eulalia">
+      <persName>EULALIA</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="female_mask">
+      <persName>FEMALE MASK</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="fiametta">
+      <persName>FIAMETTA</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="frankendall">
+      <persName>FRANKENDALL</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="giovanni">
+      <persName>GIOVANNI</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="ignatio">
+      <persName>IGNATIO</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="jacomo">
+      <persName>JACOMO</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="leonora">
+      <persName>LEONORA</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="mask">
+      <persName>MASK</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="pablo">
+      <persName>PABLO</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="sanzio">
+      <persName>SANZIO</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1823">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text>
+  <front>
+   <castList>
+    <label>DRAMATIS PERSONÆ.</label>
+    <castItem>
+     <role>Duke.</role>
+    </castItem>
+    <castItem>
+     <role>Ignatio, Son to the Duke.</role>
+    </castItem>
+    <castItem>
+     <role>Giovanni, Friend to Ignatio.</role>
+    </castItem>
+    <castItem>
+     <role>Count Beltran.</role>
+    </castItem>
+    <castItem>
+     <role>Frankendall, Officer of Count Beltran.</role>
+    </castItem>
+    <castItem>
+     <role>Pablo, Officer of Count Beltran.</role>
+    </castItem>
+    <castItem>
+     <role>Jacomo, Officer of Count Beltran.</role>
+    </castItem>
+    <castItem>
+     <role>Sanzio, an Officer of the Duke.</role>
+    </castItem>
+    <castItem>
+     <role>Leonora, Wife to Ignatio.</role>
+    </castItem>
+    <castItem>
+     <role>Eulalia.</role>
+    </castItem>
+    <castItem>
+     <role>Fiametta, Attendant on Leonora.</role>
+    </castItem>
+    <castItem>
+     <role>Child, Attendants, Masks, &amp;c.</role>
+    </castItem>
+   </castList>
+   <set>
+    <p>The Scene is laid in and near the City of Florence.</p>
+   </set>
+  </front>
+  <body>
+   <div type="act" n="1">
+    <head>ACT I.</head>
+    <div type="scene" n="1">
+     <head>SCENE I.</head>
+     <stage>—A Rampart.</stage>
+     <stage>Enter Sanzio, Pablo, and Frankendall.</stage>
+     <sp who="#sanzio">
+      <speaker>SANZIO.</speaker>
+      <lg>
+       <l>This is my bound-stone, gentlemen. The soldier, </l>
+       <l>Despite his macaw's coat and peacock's plumes, </l>
+       <l>Must sometimes, as the gayest fowls will do, </l>
+       <l>Keep to his cage. Upon the eastern rampart, </l>
+       <l>If you go on—for there I've seen him walk— </l>
+       <l>Perchance you'll find Count Beltran.</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> Thank you, sir; </l>
+       <l>Your pains already have outgone our need; </l>
+       <l>We'll tempt no breach of discipline. Heaven forbid! </l>
+       <l>Though haply in this dancing time such matters </l>
+       <l>Are lightly overstepp'd.—Signor, how say you? </l>
+       <l>These feasts are excellent to fill up scars; </l>
+       <l>It is a thriving time—is't not? for soldiers, </l>
+       <l>Whose hour of pleasure's bought with twelvemonth's toil, </l>
+       <l>As dear as sweet, and not more sweet than scarce?— </l>
+       <l>This is a lusty service you are in, </l>
+       <l>And like to last.</l>
+      </lg>
+     </sp>
+     <sp who="#sanzio">
+      <speaker>SANZIO.</speaker>
+      <lg>
+       <l> Signor, I wish it may.</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l>Nay, pardon us, sir; there are no rivals here— </l>
+       <l>None of those gallants who will wish men joy </l>
+       <l>E'en in the hope of making cuckolds of them. </l>
+       <l>We blame you not; for we are old enough </l>
+       <l>To fare well, nor cry “roast-meat!”</l>
+      </lg>
+     </sp>
+     <sp who="#sanzio">
+      <speaker>SANZIO.</speaker>
+      <lg>
+       <l> Sir!</l>
+      </lg>
+     </sp>
+     <sp who="#pablo">
+      <speaker>PABLO.</speaker>
+      <lg>
+       <l> Come, comrade, </l>
+       <l>We are no spies; and yet you're in the right. </l>
+       <l>“Hush!” is the primal virtue of a court, </l>
+       <l>And a dumb woman there is twice a treasure. </l>
+       <l>A man had better have a roving wife, </l>
+       <l>Than keep a gadding tongue.</l>
+      </lg>
+     </sp>
+     <sp who="#sanzio">
+      <speaker>SANZIO.</speaker>
+      <lg>
+       <l> Signor, you're merry, </l>
+       <l>But not less wise—'Tis the best dog at court </l>
+       <l>Who runs the trail, yet never once gives mouth.</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l>Well, sir, what we would say might be proclaim'd </l>
+       <l>At th'market cross. Florence, we say, is merry, </l>
+       <l>And long may't be so; and long live the Prince! </l>
+       <l>And may he still, to our high-blooded Princess, </l>
+       <l>Prove a most gentle husband!</l>
+      </lg>
+     </sp>
+     <sp who="#sanzio">
+      <speaker>SANZIO.</speaker>
+      <lg>
+       <l> Gentle?—Ay, </l>
+       <l>That will he.—Signor, to be plain with you, </l>
+       <l>Long live the Prince say I!—It is my duty, </l>
+       <l>Both as a soldier and a citizen. </l>
+       <l>Yet if a man may pray for any change </l>
+       <l>In his liege lord, why Sanzio would make bold </l>
+       <l>To wish him more o' the first.</l>
+      </lg>
+     </sp>
+     <sp who="#pablo">
+      <speaker>PABLO.</speaker>
+      <lg>
+       <l> How say you?</l>
+      </lg>
+     </sp>
+     <sp who="#sanzio">
+      <speaker>SANZIO.</speaker>
+      <lg>
+       <l> Sir, </l>
+       <l>My lord, Ignatio, is a prince, most noble— </l>
+       <l>A soul impregnate with all gentle qualities— </l>
+       <l>Clad in all learning that adorns a man— </l>
+       <l>Set off with every courtesy—(albeit, </l>
+       <l>I speak but as a soldier, and so take me)— </l>
+       <l>He is a man that to a tale of love </l>
+       <l>Will yield a sigh; that to a tale of pity </l>
+       <l>Hath ready tears in payment; and will listen, </l>
+       <l>Enraptured, to the lutanist nightingale </l>
+       <l>That charms, at eve, with many a moonlight cadence, </l>
+       <l>The fairy-haunted Arno. But he'll shrink </l>
+       <l>From a hand-stirring tale of war or strife, </l>
+       <l>As doth the maid whose mother never chid her </l>
+       <l>Beyond a cloudy look or ominous finger.— </l>
+       <l>Now these are worthies peace builds statues to, </l>
+       <l>But under whom our faulchions still are apt </l>
+       <l>To gather rust; ay, and our cloaks wax old </l>
+       <l>With goodly household wear the while; God wot, </l>
+       <l>No very tiptoe prospect for a soldier!</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l>Pshaw!—Man, ne'er revel in these black forebodings. </l>
+       <l>The moths of peace eat up a soldier heart whole! </l>
+       <l>Blood, body, bones; ay, plumes and sword and all; </l>
+       <l>And then grace after meat!—Trust me, impossible! </l>
+       <l>Dooms-day is none so near. Pooh! cheer up, comrade; </l>
+       <l>Why, our high-spirited Princess,—to whom Heaven </l>
+       <l>Grant large increase of beauty, and of children, </l>
+       <l>All mettled like their mother,—shall find out </l>
+       <l>Rare wars for him; ne'er fear it.</l>
+      </lg>
+     </sp>
+     <sp who="#sanzio">
+      <speaker>SANZIO.</speaker>
+      <lg>
+       <l> Truly, sir, </l>
+       <l>There's some hope that way.—Well, old tedious Time, </l>
+       <l>When the commencement is well nigh forgotten, </l>
+       <l>Shall haply condescend to tell the end, </l>
+       <l>As prosers wont to do.—Your pardon, gentlemen; </l>
+       <l>I'm signall'd.</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> Sir, good morrow. To the eastward </l>
+       <l>You say we'll find Count Beltran. Thank you, Signor. </l>
+       <l>'Tis time we met his highness.</l>
+      </lg>
+     </sp>
+     <stage> [Exeunt.</stage>
+    </div>
+    <div type="scene" n="2">
+     <head>SCENE II.</head>
+     <stage>—Another Part of the Rampart.</stage>
+     <sp>
+      <stage>Count Beltran—alone.</stage>
+      <lg>
+       <l>I have oft dream'd that I o'ertrod this rampart; </l>
+       <l>But not in guise like this. The thought was idle, </l>
+       <l>Perhaps; and yet it was a thought, not dream; </l>
+       <l>For it would grow and struggle in my bosom, </l>
+       <l>As if 'twere pregnant with some life of truth, </l>
+       <l>Which time and fortune must one day bring forth </l>
+       <l>Into substantial consequence and effect. </l>
+       <l>No matter—'tis an idle retrospect. </l>
+       <l>I little thought, once, to have paced me here, </l>
+       <l>Giving a dull eye to the morning air, </l>
+       <l>And a parch'd lip, to dissipate those revels, </l>
+       <l>Where every mounting laugh and joyous shout </l>
+       <l>Lanced to my heart's core, like the feather'd shaft, </l>
+       <l>Deeper, for being plumed. </l>
+       <l> Well, well; we'll see. </l>
+       <l>I'll dice it out. Though the first cast be lost, </l>
+       <l>The game's not play'd. Play'd! no; am I not school'd </l>
+       <l>In that controuling pastime, which can wait </l>
+       <l>With steady eye the passage of the herd, </l>
+       <l>And hear the eager din on every side, </l>
+       <l>Till 'tis the time to shoot?—I loved her not; </l>
+       <l>Or, say I did; how did I?—Not as fools do— </l>
+       <l>Not for a flower of some miraculous hue, </l>
+       <l>That must be ever fed with amorous sighs, </l>
+       <l>And water'd with fresh tears. None such for me; </l>
+       <l>But as a splendid guide, to hand me up </l>
+       <l>The glassy steep to fortune. As a lover, </l>
+       <l>She knows me not; or else, but knows me as </l>
+       <l>One who is haply proud enough to sue— </l>
+       <l>Too proud to be denied. My birth's obscured, </l>
+       <l>'Tis true; and yet part of her blood is mine. </l>
+       <l>The chaste star that o'erhung my sire's nativity, </l>
+       <l>Might blush when he was moulded—not the more </l>
+       <l>Averse for that. She still hath call'd me “Cousin;” </l>
+       <l>Then why not “Husband?”—How, now, gentlemen.</l>
+      </lg>
+     </sp>
+     <stage>Enter Frankendall and Pablo.</stage>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> Good morrow to your highness.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> Gentlemen, </l>
+       <l>Good-morrow both. Why, Frankendall, how haps it </l>
+       <l>Thou meet'st the laughing morn with such a pale </l>
+       <l>And most unwonted seriousness?—Has Florence </l>
+       <l>Exhausted even thy store of sweet behaviours, </l>
+       <l>Which was, methought, exhaustless?</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> Faith, my lord, </l>
+       <l>I know not how it is. Yet, by your leave, </l>
+       <l>Your brow, methinks, keeps mine in countenance.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>Perchance it may.—Well, I'll have no more revels— </l>
+       <l>No parchment cheeks, pursed brows, and eyes of lead. </l>
+       <l>By Heaven, a man had better be a scrivener </l>
+       <l>Than earn them thus in tedious junkettings!— </l>
+       <l>We'll tender our farewell in this night's feast, </l>
+       <l>And so set forth to-morrow. Pablo, you </l>
+       <l>Shall not forget.</l>
+      </lg>
+     </sp>
+     <sp who="#pablo">
+      <speaker>PABLO.</speaker>
+      <lg>
+       <l> Trust me, my lord.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> Call all </l>
+       <l>My train together by the dawn of morning. </l>
+       <l>In the meantime, confer with Jacomo; </l>
+       <l>Let him mature that which I spoke about; </l>
+       <l>And look that nought's forgot. Now, Frankendall, </l>
+       <l>What is't o'clock?</l>
+      </lg>
+     </sp>
+     <stage> [Exit Pablo.</stage>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> Upon the step of seven, </l>
+       <l>Unless the dial lies. We had been here </l>
+       <l>Some half an hour ago, but that we met </l>
+       <l>An officer of the Duke's, whose courtesy </l>
+       <l>Somewhat delay'd us. Faith, a sound, shrewd wit, </l>
+       <l>And one that hath the true divining rod, </l>
+       <l>That points which way gold lies—a marvellous touch </l>
+       <l>Of what we call the keen; but wise withal, </l>
+       <l>And by my troth, a thorough-bred court lurcher, </l>
+       <l>For all his honest outside—one that tracks </l>
+       <l>And mouths not. But I trench upon your highness.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>Did I not ask thee what it was o'clock?</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l>Some minutes short of seven.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> I had forgotten. </l>
+       <l>Your pardon.</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> Nay, it is not needed yet; </l>
+       <l>Or, if it be, I shall be even with you, </l>
+       <l>And soon, perchance, my lord. But seriously— </l>
+       <l>Take what I say in the same strain 'tis meant, </l>
+       <l>And the board's clear enough,—I have observed, </l>
+       <l>Since we came here, to solder up this match </l>
+       <l>Between two metals, none o' the likeliest, </l>
+       <l>A weight upon your brow; and that I did </l>
+       <l>E'en now perceive it heavy, I made bold </l>
+       <l>To say your looks kept mine in countenance; </l>
+       <l>Which, if they wore some gravity, in sooth, </l>
+       <l>It was because I could not shut my eyes </l>
+       <l>And blink your heaviness. I have said, my lord— </l>
+       <l>But if there's aught that Frankendall can do—</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>I know't. Thou need'st not trumpet thy affection, </l>
+       <l>For thou art ill at that. I'll trust thee, Frankendall— </l>
+       <l>Why should I not? for thou hast been to me </l>
+       <l>An elder brother; nay, a very father. </l>
+       <l>And what is there to trust? thou'lt say't.</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> My lord, </l>
+       <l>This will I say—I am your friend. If all </l>
+       <l>Had said as little, and had done as much, </l>
+       <l>You had been saved some grief.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> Ay, my poor sister; </l>
+       <l>Well, she is dead.</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> Nay, nay; that follows not. </l>
+       <l>The hag who fled with her, 'mid the confusion </l>
+       <l>Of that fell night, had itch enough for gold, </l>
+       <l>But none for blood. Why, she saw ghosts, and durst not, </l>
+       <l>No, durst not, for a ducat, and that's much, </l>
+       <l>Have cross'd a churchyard at the gloomy hour, </l>
+       <l>E'en with a saint for convoy.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> Frankendall, </l>
+       <l>Thou triflest. But take this with thee, my friend; </l>
+       <l>Thou hast the very cypher of my brow, </l>
+       <l>And truly read'st what's written. This same marriage </l>
+       <l>Which thou, I know not why, call'st ill assorted, </l>
+       <l>Sticks in my bosom, Frankendall.</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> Why, the vengeance! </l>
+       <l>Kept you this hid till now?</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> I never dream'd, </l>
+       <l>When Cosmo died, that she, thus out of hand, </l>
+       <l>Would wed his chalk-faced brother.</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> Had you only </l>
+       <l>Declared your love, we had found means to further't.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>Love! thou mistak'st; thou mean'st to say ambition. </l>
+       <l>I'll ne'er pass muster in the sighing regiment. </l>
+       <l>But, if I did, the marble of that brow, </l>
+       <l>Though it outvie the stainless alabaster, </l>
+       <l>Were not the charm for me. I tell thee, Frankendall, </l>
+       <l>I have more sympathy with a pair of eyes </l>
+       <l>And a soft tongue—though seen and heard but once— </l>
+       <l>That pointed me my way, twelve hours ago, </l>
+       <l>Than aught Ignatio's blest with.</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> Why, my lord, </l>
+       <l>Methinks your fancy's ta'en a wayward fit. </l>
+       <l>Where was this wonder?</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> By the river's side, </l>
+       <l>Cross from the city, where the drooping thickets </l>
+       <l>Invade the stream, and many a laughing blossom </l>
+       <l>Sports with the loitering waters—a slight wicket </l>
+       <l>Oped, and within there stood, retiringly, </l>
+       <l>Oh! such a shape, with such soft sunny locks, </l>
+       <l>Match'd with two heavenly eyes, which seem'd akin </l>
+       <l>E'en to the stars they rivall'd. In brief accents </l>
+       <l>She told me of my way; but never feet </l>
+       <l>Felt less alacrity than mine did then </l>
+       <l>To obey such sweet directress.</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> Nay, my lord, </l>
+       <l>Florence improves you. Stay another month, </l>
+       <l>And you shall warble canzonets and madrigals.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>Thou jestest, Frankendall. Yet thine experience </l>
+       <l>Must know that there are looks, and tones, and features, </l>
+       <l>Will find their way through the most stubborn breast, </l>
+       <l>And print them on the heart, though it were iron, </l>
+       <l>Felt, and forgotten never.—Wherefore this, </l>
+       <l>Heaven only knows! But let us not mock, Frankendall, </l>
+       <l>Intents so free from any taint o' the earth— </l>
+       <l>So spiritual and pure from smack of grossness— </l>
+       <l>Because they're fancy-bred—Creations delicate </l>
+       <l>Of the clear soul, which roves where it will rove, </l>
+       <l>And makes and unmakes at its liking, still </l>
+       <l>Baffling our proudest wisdoms. These are promptings </l>
+       <l>We cannot fathom, but we should not scorn.</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l>I've done, my lord. This only let me say— </l>
+       <l>Go not to-morrow. Let these tangling fancies </l>
+       <l>Enmesh your purpose for a day or two; </l>
+       <l>So, at the least, they're profitable. In </l>
+       <l>The interim, pay your duty to the Princess; </l>
+       <l>There's policy in't. If this same lukewarm wedlock </l>
+       <l>Do not grow cold; and that upon the sudden, </l>
+       <l>Never trust bachelor more.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> Thou talkest strangely. </l>
+       <l>I understand thee not.</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> Nor I, my lord; </l>
+       <l>So far, I have but hints, and vague ones; yet </l>
+       <l>There is a way to ripen them to facts.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>Ay, now thou speak'st. Here, take this purse of ducats, </l>
+       <l>And by to-morrow morning—</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> No; no gold.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>No gold?</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> No gold!—We start at filthy lucre. </l>
+       <l>Praiseworthy emulation, good my lord, </l>
+       <l>No more.—'Tis true, an honourable post </l>
+       <l>Sometimes brings gold, but how can we help that? </l>
+       <l>'Tis pity, for the world's censorious!</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>Begone! 'Tis time we hied us to the palace. </l>
+       <l>To-morrow I shall look to hear more news.</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l>To-day, or I shall never be a prophet.</l>
+      </lg>
+     </sp>
+     <stage> [Exeunt.</stage>
+    </div>
+    <div type="scene" n="3">
+     <head>SCENE III.</head>
+     <stage>—The Interior of a Villa on the Arno.</stage>
+     <sp>
+      <stage>Eulalia—alone.</stage>
+      <lg>
+       <l>It is in vain. There is a string of woe, </l>
+       <l>Which, having once been touch'd, jars sadly on, </l>
+       <l>At discord with the rest; and to attempt </l>
+       <l>To waken other tones, but serves to make </l>
+       <l>The dissonance apparent—I'll not do't. </l>
+       <l>False Patience, thou but wil'st us on to bear, </l>
+       <l>But mak'st no pang the lighter. </l>
+       <l> Oh! my child, </l>
+       <l>Where shall we shelter us? We know no kindred, </l>
+       <l>Save him who casts us off; and if we did, </l>
+       <l>Would they not shut the door on us in scorn, </l>
+       <l>As to a loathsome beggar! </l>
+       <l> Break my heart! </l>
+       <l>Lost, lost, Eulalia!—Flow on, hopeless tears— </l>
+       <l>I have no minist'ring hand to wipe ye off; </l>
+       <l>No friend to counsel; no consoling crowds </l>
+       <l>To flock to tell me I have lost my husband. </l>
+       <l>Husband!—I had no husband,—Is he not </l>
+       <l>Another's?—False Ignatio! what a widow, </l>
+       <l>What a forsaken self-despairing wretch </l>
+       <l>Thou hast made of poor Eulalia!—Cruel, cruel! </l>
+       <l>Worlds had not bribed her to have shrunk from thee. </l>
+       <l>She would have died resolved, and spoke no word, </l>
+       <l>E'er she had breath'd an accent of the rite, </l>
+       <l>Or ta'en a morsel of the marriage feast, </l>
+       <l>That would have torn her from thee! </l>
+       <l> Treacherous man! </l>
+       <l>Who call'st thyself so godlike. Oh! how can'st thou </l>
+       <l>Shew thee so base? How poor a stay has she </l>
+       <l>Who leans upon thy bosom for support! </l>
+       <l>And, yet, where can she lean, if not to thee? </l>
+       <l>The power that framed the ivy gave the oak; </l>
+       <l>But woman, who can nothing else than love, </l>
+       <l>With but false man to love—where shalt thou cling? </l>
+       <l>To Heaven? what else. And if, Ignatio, </l>
+       <l>Thou hast lost me e'en that refuge, say what pangs, </l>
+       <l>What writhings of the mind, what hot remorse, </l>
+       <l>What cold despair, what nighted destitution, </l>
+       <l>Were bad enough for thee? I'll think no more, </l>
+       <l>Perchance I wrong him; and I would not wrong him </l>
+       <l>Even for Heaven—however I be wrong'd. </l>
+       <l>—What do I say?—He look'd so pale and faulter'd, </l>
+       <l>And his knees trembled, and his cheek turn'd ashy, </l>
+       <l>As if the frighted blood had rush'd in terror </l>
+       <l>Back to the o'erlabour'd heart. Alas! alas! </l>
+       <l>How have I wrong'd him?—He is broken-hearted; </l>
+       <l>And yet must strive to smile, and hide the pain </l>
+       <l>That gnaws his life away. No kindly bosom </l>
+       <l>To trust his tale to—none to offer comfort— </l>
+       <l>No eye to weep with him—no brow to droop— </l>
+       <l>His lot doth fellow mine. Wretch that I am, </l>
+       <l>To add one pang to such a pile of grief! </l>
+       <l>Is it not harder still? Oh, misery! </l>
+       <l>To breathe in pain, and be denied to sigh, </l>
+       <l>To yearn, to weep; and dare not shed one tear. </l>
+       <l>Renounce me, O ye Heavens! if ever more </l>
+       <l>I do not pray you, bless my 'lorn Ignatio, </l>
+       <l>If you would bless Eulalia. These are footsteps— </l>
+       <l>There's some one comes. They shall not see me weep. </l>
+       <l>Let me be firm—firm.</l>
+      </lg>
+     </sp>
+     <stage> [Exit.</stage>
+     <sp>
+      <stage>Enter Giovanni.</stage>
+      <lg>
+       <l>Not here!—I am almost glad on't; for, poor lady, </l>
+       <l>Her grief's past help; and we still shun to see </l>
+       <l>The ill we cannot med'cine. What a gloom, </l>
+       <l>E'en to my eye, wraps these once pleasant walls;— </l>
+       <l>Well, poor Ignatio—I must do his bidding: </l>
+       <l>I will search further. She has been here lately; </l>
+       <l>Those books, and this unused negligence, </l>
+       <l>Whisper as much.</l>
+      </lg>
+     </sp>
+     <sp>
+      <stage>Enter Eulalia.</stage>
+      <lg>
+       <l> Now rest you well, fair madam; </l>
+       <l>I would confer with you, so I intrude not.</l>
+      </lg>
+     </sp>
+     <sp who="#eulalia">
+      <speaker>EULALIA.</speaker>
+      <lg>
+       <l>Intrude? No, no; pray use no ceremony; </l>
+       <l>I am not worth it now, and want it not. </l>
+       <l>Signor, your pleasure?</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l> If it grieve me, madam— </l>
+       <l>And credit me that it does inly wrench me— </l>
+       <l>Only to gaze on grief like that of yours, </l>
+       <l>How sad an office must it be to minister </l>
+       <l>Between that grief and its regretful cause? </l>
+       <l>I come with speech from my unhappy friend— </l>
+       <l>The Prince—Ignatio. </l>
+       <l> Pardon me, sweet lady, </l>
+       <l>But all that friendship, all that care can do,— </l>
+       <l>Why should I say it?—He is not a villain; </l>
+       <l>And if he have deceived, 'twas not in guile— </l>
+       <l>I'll answer for his heart. Nay, weep not; he </l>
+       <l>Would know in what your sorrow can be served. </l>
+       <l>Vouchsafe some answer, madam.</l>
+      </lg>
+     </sp>
+     <sp who="#eulalia">
+      <speaker>EULALIA.</speaker>
+      <lg>
+       <l> I have none </l>
+       <l>To give—I am ashamed to weep—and tears </l>
+       <l>Are all the speech I have.</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l> Then let them fall; </l>
+       <l>Interpret but their meaning; and that wish </l>
+       <l>Shall be omnipotent with poor Ignatio.</l>
+      </lg>
+     </sp>
+     <sp who="#eulalia">
+      <speaker>EULALIA.</speaker>
+      <lg>
+       <l>No; I'll not weep!—You are the Prince's friend; </l>
+       <l>Perhaps you may be mine; but that I know not:— </l>
+       <l>No matter; I am past the hurt or help </l>
+       <l>Of friends. This say to Prince Ignatio; </l>
+       <l>And this I say to you—, </l>
+       <l> I am aware </l>
+       <l>That there are acts must bear the pains of guilt, </l>
+       <l>And, what is worse, the shame, which yet are guiltless, </l>
+       <l>At least I would fain hope it, so please Heaven </l>
+       <l>In mercy to permit; for innocence </l>
+       <l>Is all the stay that's left me—I will bear them </l>
+       <l>Patiently. Sir, my heart shall break in silence, </l>
+       <l>If't please the Prince to send me from this place. </l>
+       <l>No pride for me—so I will tell the truth— </l>
+       <l>I cannot move a hand, or lift an eye, </l>
+       <l>But something either whispers what I am, </l>
+       <l>Or what I have been.</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l> It shall be done, lady. </l>
+       <l>Nay, at this hour is a retreat prepared, </l>
+       <l>But that, methought, yourself had been averse, </l>
+       <l>And wish'd to tarry here some space.</l>
+      </lg>
+     </sp>
+     <sp who="#eulalia">
+      <speaker>EULALIA.</speaker>
+      <lg>
+       <l> Oh! sir, </l>
+       <l>Pardon me—grief is still fantastical, </l>
+       <l>And drags the coward heart a thousand ways. </l>
+       <l>I wish to quit this place; at least, I think </l>
+       <l>I wish it.</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l> Madam, even for that thought </l>
+       <l>It shall be done. Is there aught else?</l>
+      </lg>
+     </sp>
+     <sp who="#eulalia">
+      <speaker>EULALIA.</speaker>
+      <lg>
+       <l> No, Signor, </l>
+       <l>Nought else; and yet there is—Oh! poor, mean heart, </l>
+       <l>How must I bribe thee to be resolute? </l>
+       <l>I cannot speak the word, and yet I must.</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l>What is't disturbs you, madam? Is there aught </l>
+       <l>Further that you would speak?</l>
+      </lg>
+     </sp>
+     <sp who="#eulalia">
+      <speaker>EULALIA.</speaker>
+      <lg>
+       <l> Oh! no, no, no; </l>
+       <l>Let me go hence, and leave me till that time.</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l>Nay, madam; but there is. Nor dare I leave you, </l>
+       <l>Nor can I—pardon me—until I know it!</l>
+      </lg>
+     </sp>
+     <sp who="#eulalia">
+      <speaker>EULALIA.</speaker>
+      <lg>
+       <l>But who will pardon me when they shall know? </l>
+       <l>No matter; more a wretch I cannot be. </l>
+       <l>Sir, I—I would—I trust it is no harm, </l>
+       <l>And to indulge me were but charity, </l>
+       <l>To one that's fall'n so low. Hear my request, </l>
+       <l>Yet do not answer to it yea or no; </l>
+       <l>But tell Ignatio—Say that she who loved him, </l>
+       <l>And loves him still,—but in that kind she ought,— </l>
+       <l>Would see him fain once more; but only once, </l>
+       <l>Or ere she goes for ever. </l>
+       <l> Do not answer, </l>
+       <l>But tell Ignatio this; and if he frown, </l>
+       <l>Or shrink, or seem to inly hesitate, </l>
+       <l>Breathe no word further. I can turn my face, </l>
+       <l>And die in darkness, and most silently; </l>
+       <l>For I have learn'd the woman's hardest lesson, </l>
+       <l>To be forsaken, and yet not complain!— </l>
+       <l>I pray you pardon me. </l>
+      </lg>
+      <stage> [Exit Eulalia.</stage>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l> Your bidding shall </l>
+       <l>Be done, sweet lady.—Thus we vainly pour </l>
+       <l>A little comfort on a raging grief, </l>
+       <l>To make it rage the more; even as the water </l>
+       <l>Doth an o'er-mastering fire. My task is over.</l>
+      </lg>
+     </sp>
+     <stage> [Exit.</stage>
+    </div>
+   </div>
+   <div type="act" n="2">
+    <head>ACT II.</head>
+    <div type="scene" n="1">
+     <head>SCENE I.</head>
+     <stage>—Interior of the Ducal Palace.</stage>
+     <sp>
+      <stage>Enter Frankendall, alone.</stage>
+      <lg>
+       <l>I've pull'd a business on my head, of which </l>
+       <l>My mind misgives me. Is it honourable </l>
+       <l>To play the eaves-dropper thus—and bait my nets </l>
+       <l>To catch stray scandals,—to rake even for truth </l>
+       <l>'Mid the court spy's base refuse? Did I doubt </l>
+       <l>As to the merits of mine occupation, </l>
+       <l>I need do so no longer. When a man </l>
+       <l>Devises mischief, 'tis the devil's device </l>
+       <l>To send fit instruments; and in the nick, </l>
+       <l>Here comes a vain, pert, waiting, court coquette, </l>
+       <l>As voluble as is her mistress' parrot— </l>
+       <l>As worthless, as unprincipled, as mischievous, </l>
+       <l>And scarce more secret. I have seen, of late, </l>
+       <l>She and that slippery smooth-tongued Jack o' the Duke's </l>
+       <l>Have some intelligence. Whether she cheat him, </l>
+       <l>Or he cheat her, 'tis equal; for I have </l>
+       <l>The key to both. She's here. I'll strain my humour </l>
+       <l>To keep the golden mean 'twixt jest and earnest. </l>
+       <l>Her female instinct, doubtless, hath inform'd her </l>
+       <l>That weightiest points are oftest hinted so. </l>
+       <l>Now for my cue.</l>
+      </lg>
+     </sp>
+     <sp>
+      <stage>Enter Fiametta.</stage>
+      <lg>
+       <l> Ah! is it you, Signora? </l>
+       <l>How does your beauty for this many a day?— </l>
+       <l>I've had a cruel interval to pine.</l>
+      </lg>
+     </sp>
+     <sp who="#fiametta">
+      <speaker>FIAMETTA.</speaker>
+      <lg>
+       <l>Are you dull, Signor?</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> How should I be other, </l>
+       <l>Not seeing thee, Fiametta?</l>
+      </lg>
+     </sp>
+     <sp who="#fiametta">
+      <speaker>FIAMETTA.</speaker>
+      <lg>
+       <l> Why, 'tis pity— </l>
+       <l>When thou didst see me, thou wast dull enough.</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l>Marry, a worn-out suitor of the court, </l>
+       <l>Whose pains have brought him, as it oft falls out, </l>
+       <l>Fair words and disappointment, hath enough </l>
+       <l>To fill his brain with cobwebs. But for thee, </l>
+       <l>Why, thou hast kept my case so long in hand, </l>
+       <l>That time decides it for thee. Well, what help? </l>
+       <l>He who hath lived through twenty years of courtship, </l>
+       <l>May e'en survive the end on't—ay or no.</l>
+      </lg>
+     </sp>
+     <sp who="#fiametta">
+      <speaker>FIAMETTA.</speaker>
+      <lg>
+       <l>If I had listen'd twenty years to thee, </l>
+       <l>Sweet captain, I might boast a well spent life. </l>
+       <l>Why, thou unblushing libertine—how long is't </l>
+       <l>Since thou first knew'st my name?</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> Nay, pardon me, </l>
+       <l>Sweet Fiametta; think'st thou I could mean </l>
+       <l>That thou wast young—some twenty years ago? </l>
+       <l>No, no; thou but fill'st up the odd three years, </l>
+       <l>The last and brightest. I was hurt before; </l>
+       <l>Now I am slain; and therefore am I dull.</l>
+      </lg>
+     </sp>
+     <sp who="#fiametta">
+      <speaker>FIAMETTA.</speaker>
+      <lg>
+       <l>Thou art an insolent.</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> True, I am old. </l>
+       <l>There's Signor Sanzio, the Duke's silken officer, </l>
+       <l>Who speaks beneath his breath, and ever sits </l>
+       <l>Mum—with his hands across—demurely—thus; </l>
+       <l>He's good ten years my junior, at the least; </l>
+       <l>And none of those same roysterers—whom thou hatest.</l>
+      </lg>
+     </sp>
+     <sp who="#fiametta">
+      <speaker>FIAMETTA.</speaker>
+      <lg>
+       <l>Sanzio, forsooth,—you shall not be my broker, </l>
+       <l>Depend upon't.</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> Nay, he hath all the secrets; </l>
+       <l>A marvellous commendation here at court; </l>
+       <l>And thou, as ladies sometimes do, may'st wed him </l>
+       <l>Merely for curiosity.</l>
+      </lg>
+     </sp>
+     <sp who="#fiametta">
+      <speaker>FIAMETTA.</speaker>
+      <lg>
+       <l> I must </l>
+       <l>Be curious, indeed, ere I do that.</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l>Why, get the secrets, then, without the man. </l>
+       <l>And if thou'lt take me, I'll accept of thee </l>
+       <l>And them for dower. I joke not—entre nous— </l>
+       <l>They were worth gold; and that more ways than one. </l>
+       <l>Nay, never look at me, for this is truth.— </l>
+       <l>But I stand trifling here. Sweet Fiametta, </l>
+       <l>When shall I see thee next?</l>
+      </lg>
+     </sp>
+     <sp who="#fiametta">
+      <speaker>FIAMETTA.</speaker>
+      <lg>
+       <l> Whene'er I have </l>
+       <l>As much ill luck. Heaven grant it may be long!</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l>Ah me! not long. I will go furbish up </l>
+       <l>My best behaviours, which are safe laid by </l>
+       <l>With my dad's wedding suit; ay, and I'll promise </l>
+       <l>To make love to thee but when thou desirest. </l>
+      </lg>
+      <stage>(Aside.)</stage>
+      <lg>
+       <l>—Methinks I may say that safely enough. </l>
+       <l>And now, what canst thou say?</l>
+      </lg>
+     </sp>
+     <sp who="#fiametta">
+      <speaker>FIAMETTA.</speaker>
+      <lg>
+       <l> Why, get thee gone! </l>
+       <l>Thou'lt ne'er be wiser.</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> Not till I am married.</l>
+      </lg>
+     </sp>
+     <stage> [Exeunt severally.</stage>
+    </div>
+    <div type="scene" n="2">
+     <head>SCENE II.</head>
+     <stage>—The Interior of the Ducal Palace.</stage>
+     <sp>
+      <stage>Enter Ignatio.</stage>
+      <lg>
+       <l>Would that Giavanni were return'd!—Oh guilt! </l>
+       <l>What work thou makest here!—Methinks I feel </l>
+       <l>Like one who walks beneath an avalanche, </l>
+       <l>A whisper may bring down. How meanly sore </l>
+       <l>Are breasts like mine! A Prince! by Heaven, my soul </l>
+       <l>Lags on her journey, and doth droop the head, </l>
+       <l>Despised and mournful, like a sorry jade, </l>
+       <l>Gall'd to the quick with some unworthy burthen!— </l>
+       <l>I am worn with apprehension; and a flood </l>
+       <l>Of chill dismay rushes into my breast, </l>
+       <l>E'en if a mouse stir—yea, a portal's jar </l>
+       <l>Shocks to my inmost heart, that, like the aspen, </l>
+       <l>Trembles with scarce a breath. This keen suspense </l>
+       <l>Is past the bearing almost. </l>
+       <l> Oh! how happy </l>
+       <l>Could I not live in some despised nook; </l>
+       <l>Ay, starve. For grant this minute did not know </l>
+       <l>How to procure a morsel for the next, </l>
+       <l>'Twere but to be resolved—'twere but to die— </l>
+       <l>To sink upon the bosom that was ours, </l>
+       <l>O'ercome with no dishonourable sleep, </l>
+       <l>And lull'd by all that makes the good man rest— </l>
+       <l>The love of those we love, and innocence— </l>
+       <l>No more of these for me!—O power accursed, </l>
+       <l>And splendour! Would that I had never known ye! </l>
+       <l>Why do I think?—I am lost!—Were it not better </l>
+       <l>To drown a worthless life in floods of madness, </l>
+       <l>If hot intemperance gave a short relief, </l>
+       <l>And end it so; rather than thus crawl on </l>
+       <l>In torture and dishonour?—I am desperate— </l>
+       <l>Reckless. Who is there?—Ah, yes—it is Giovanni. </l>
+      </lg>
+      <stage>Enter Giovanni.</stage>
+      <lg>
+       <l>Welcome, my friend. Say, hast thou seen—</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l> My lord? </l>
+       <l>There are no listeners?</l>
+      </lg>
+     </sp>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <lg>
+       <l> Listeners! no; how should there?</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l>Nay, I know not, my lord.</l>
+      </lg>
+     </sp>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <lg>
+       <l> There are no listeners. </l>
+       <l>Now tell me, hast thou seen her? Speak!</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l> I have; </l>
+       <l>And did deliver what your highness charged me.</l>
+      </lg>
+     </sp>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <lg>
+       <l>Thou did'st?—How look'd she?—Hast thou not been long?</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l>Not longer, my dear lord, than prudence warn'd. </l>
+       <l>As for her looks—what should I say?—Poor lady, </l>
+       <l>Her state is easier to conceive than paint; </l>
+       <l>For I must speak the truth—she look'd, my lord, </l>
+       <l>As well might be expected—comfortless.</l>
+      </lg>
+     </sp>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <lg>
+       <l>Oh, tortures!—Oh, Giovanni!—This from thee?</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l>My noble lord, I never have deceived you, </l>
+       <l>And never shall. I am, in truth, your friend; </l>
+       <l>So please your highness let me.</l>
+      </lg>
+     </sp>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <lg>
+       <l> I know't, I know't; </l>
+       <l>Go on.</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l> I said that she look'd comfortless, </l>
+       <l>And so she did; and yet, 'midst all her grief, </l>
+       <l>She did preserve, my lord, a gentle patience, </l>
+       <l>And bore her ills with so resign'd a soul, </l>
+       <l>In sooth I joy'd to see it; and to hear it, </l>
+       <l>Methinks, should comfort you.</l>
+      </lg>
+     </sp>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <lg>
+       <l> Comfort!—It does, </l>
+       <l>My friend; it does indeed.</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l> She hath requested </l>
+       <l>To be sent hence o' the sudden; and I promised </l>
+       <l>It should be so.</l>
+      </lg>
+     </sp>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <lg>
+       <l> Right—you did well. O' the sudden? </l>
+       <l>Doubtless 'tis for the best. O God! that I </l>
+       <l>Should ever live to say so! Bear with me; </l>
+       <l>I cannot but feel, Giovanni. Did she not— </l>
+       <l>Did she not mention—me?—Why dost thou pause? </l>
+       <l>Speak out; I can bear all.</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l> She did, my lord.</l>
+      </lg>
+     </sp>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <lg>
+       <l>How?—Why?—What did she say?</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l> She hath forgiven you— </l>
+       <l>E'en from her inmost soul, I well believe— </l>
+       <l>What cannot woman's dotage find excuse for? </l>
+       <l>Nay, pardon me, my lord; I meant no sting. </l>
+       <l>And with a trembling, tearful hesitation, </l>
+       <l>She made me briefly the ambassador </l>
+       <l>Of one request.</l>
+      </lg>
+     </sp>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <lg>
+       <l> Request!—It shall be done. </l>
+       <l>But what (oh, God!) could she request of me? </l>
+       <l>This meekness is more cutting to my soul </l>
+       <l>Than were her sharpest anger.</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l> Be composed; </l>
+       <l>You tremble, my dear lord. She did request </l>
+       <l>To see you ere she went. My lord, I do </l>
+       <l>Conjure you, be composed.</l>
+      </lg>
+     </sp>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <lg>
+       <l> The sound has struck </l>
+       <l>A blow upon my heart. I'll go, though shame </l>
+       <l>Crush me to th'earth ere I can cross her threshold; </l>
+       <l>Or agony split my heart ere I can say, </l>
+       <l>“What would'st thou?”—ere my tongue can coldly ask, </l>
+       <l>“What begs Eulalia of Ignatio?” </l>
+       <l>Oh!—Base! base! base!</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l> My noble lord, indeed </l>
+       <l>This is not meet.</l>
+      </lg>
+     </sp>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <lg>
+       <l> What is not meet, Giovanni? </l>
+       <l>I'll go; and yet—What would'st thou say, my friend?</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l>I say, my lord, that you must do your pleasure.</l>
+      </lg>
+     </sp>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <lg>
+       <l>So cold, Giovanni? Say, what would'st thou counsel? </l>
+       <l>Is all thy warmth of friendship come to this, </l>
+       <l>It must be stirr'd so oft?</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l> Mistake me not, </l>
+       <l>Sweet Prince; nor wrong me. Mine shall bear a blast, </l>
+       <l>Ay, burn the better for't, which would puff out </l>
+       <l>Those flickering and inconstant Will o' the Wisps, </l>
+       <l>Call'd “Princes' friends,” sprung from the mud o' the court, </l>
+       <l>As these are from some fen. But what of that? </l>
+       <l>This point, my lord, 'tis fit you should decide. </l>
+       <l>One thing consider'd first; you must well know </l>
+       <l>There's many a brow here, in your father's court, </l>
+       <l>Whose smiles but wreathe its hate, e'en as the flower </l>
+       <l>May hold a poison. This same peaceful junction </l>
+       <l>Of states which seem'd to live for rivalship, </l>
+       <l>This clear and peaceful current of events, </l>
+       <l>Is not for those who fish in troubled waters; </l>
+       <l>And here, God wot, there are too many such! </l>
+       <l>At least 'tis whisper'd so. To such, 'twere sport </l>
+       <l>To turn the torch of Hymen to a brand. </l>
+       <l>We must beware of them.</l>
+      </lg>
+     </sp>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <lg>
+       <l> They cannot make me </l>
+       <l>More wretched than I am. So far, I am proof. </l>
+       <l>But thou'rt a cynic, boding ill, Giovanni. </l>
+       <l>Think'st thou such natures common?</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l> Common? ay. </l>
+       <l>How should we see so many treasonous wonders; </l>
+       <l>Vows white as snow turn'd black; oaths deep as midnight, </l>
+       <l>Weighty as gold, yea, and more precious, held </l>
+       <l>As lightly as the common liar's trash? </l>
+       <l>Deep-hearted trusts, which should be like the rock, </l>
+       <l>Dispersed in vapour like the fog-built coasts </l>
+       <l>That mock the peopled top-mast?—Could this be </l>
+       <l>Were they not common?—Honesty's a gem— </l>
+       <l>Is't not so call'd?—Not less because 'tis rare. </l>
+       <l>Trust not mankind, my lord.</l>
+      </lg>
+     </sp>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <lg>
+       <l> I have done with trusting, </l>
+       <l>Who cannot trust myself. Oh! would that never </l>
+       <l>There had been need! Oh! would that I had been </l>
+       <l>Born but the heir of some unheeded cot, </l>
+       <l>Whose little smoke could scarcely top the trees </l>
+       <l>That shelter'd it!—Would that I had, for now </l>
+       <l>I'm heart-sick—O, Giovanni! sick at heart, </l>
+       <l>E'en to the core. No matter; I perceive </l>
+       <l>E'en thou despisest me. Well, I will see her; </l>
+       <l>I will not have her think that she's despised. </l>
+       <l>Wilt thou attend me?</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l> Were the risk, my lord, </l>
+       <l>Ten times as great as 'tis, methinks your highness </l>
+       <l>Need not have ask'd me that.</l>
+      </lg>
+     </sp>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <lg>
+       <l> I did not need; </l>
+       <l>For surely thou art true—so pardon me. </l>
+       <l>This night, thou know'st, there is another banquet; </l>
+       <l>We'll steal away i' the midst; 'twill not be noted; </l>
+       <l>For that I ne'er was given to revellings, </l>
+       <l>And still was delicate. Be thou provided; </l>
+       <l>Thou understand'st me; and let Sanzio </l>
+       <l>Look to the horses.</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l> Fear me not, my lord.</l>
+      </lg>
+     </sp>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <lg>
+       <l>Forget not change of garb and masks. Now leave me. </l>
+       <l>Say not one word to sap my resolution; </l>
+       <l>And so comport thee at the feast to-night, </l>
+       <l>As best may blind suspicion. Fare thee well! </l>
+       <l>Yet one word more—Dost thou doubt Sanzio? </l>
+       <l>I think thou can'st not; for thou know'st that he </l>
+       <l>Was not court-bred; but from the fields, like thee.</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l>Poor stay for innocence! Yea, 'tis marvellous, </l>
+       <l>How hearts of softest stuff, transported hither, </l>
+       <l>Straight harden, and grow stoney, like the coral </l>
+       <l>Pluck'd from its native waters.</l>
+      </lg>
+     </sp>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <lg>
+       <l> Giovanni, </l>
+       <l>There is no end of this! Unjust suspicion </l>
+       <l>Creates what it would shun.</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l> Nay, I am silent. </l>
+       <l>My lord, your servant ever.</l>
+      </lg>
+     </sp>
+     <stage> [Exit.</stage>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <lg>
+       <l> No; my friend; </l>
+       <l>And much I need thee. For till time hath taught— </l>
+       <l>If, (as they say,) 'twill teach forgetfulness, </l>
+       <l>And the soul alter strangely, like the sky </l>
+       <l>Which still the gazer sees is not the same </l>
+       <l>As 'twas before; and yet he sees it change not:— </l>
+       <l>Until this be—if e'er it can, to me,— </l>
+       <l>Had I no breast where to repose my griefs, </l>
+       <l>Methinks I could not live, but blind oblivion </l>
+       <l>Or madness must enwrap me. Poor Eulalia! </l>
+       <l>Who shall share thine? Will thy unsullied soul </l>
+       <l>Not waste itself away, e'en like the diamond </l>
+       <l>That knows no baser mixture, with a fire </l>
+       <l>Pure as itself? </l>
+       <l> These thoughts are torture. Oh! </l>
+       <l>Teach me thy lesson, kind forgetfulness; </l>
+       <l>Though 'tis a hard one. Being what I am, </l>
+       <l>Tell me not, memory, of what I was, </l>
+       <l>Or what I might have been. These musings poison </l>
+       <l>My very rest. In days of happier hours </l>
+       <l>I well remember once of having dream'd </l>
+       <l>That I was born again, some shepherd's son, </l>
+       <l>In Tempe, or the islands of the blest, </l>
+       <l>Or 'neath some commonwealth by Plato built, </l>
+       <l>Living 'mid pleasant groves and sunny fields, </l>
+       <l>In pastoral innocent bliss. That dream last night </l>
+       <l>Came to my pillow; and besides itself, </l>
+       <l>Shew'd me, methought, the forms of smiling hours, </l>
+       <l>When it first hover'd o'er me. Oh, what pain </l>
+       <l>It was to wake to cursed remembrance; and </l>
+       <l>To feel hot—scalding tears start in mine eyes; </l>
+       <l>And shrink in guilt from her that rested by me; </l>
+       <l>And pray that I might sleep once more—my last— </l>
+       <l>Nor dream, nor wake, again. </l>
+       <l> I'm press'd to the earth. </l>
+       <l>Perchance the balmy air may yield some medicine— </l>
+       <l>I'll seek it.</l>
+      </lg>
+     </sp>
+     <stage> [Exit.</stage>
+    </div>
+    <div type="scene" n="3">
+     <head>SCENE III.</head>
+     <stage>—The Interior of the Ducal Palace.</stage>
+     <stage>Enter Leonora, the Duke, Count Beltran, Sanzio, and Fiametta.</stage>
+     <sp who="#duke">
+      <speaker>DUKE.</speaker>
+      <lg>
+       <l>Well, Count, since duty is so obstinate, </l>
+       <l>And presses you away, I leave you to </l>
+       <l>A better oracle. Let her towards whom </l>
+       <l>That duty flows, e'en moderate its current. </l>
+       <l>The Princess must decide it.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> Sir, your highness, </l>
+       <l>In every thing too good, shall pardon me; </l>
+       <l>For that I have a duty paramount </l>
+       <l>To what I owe even to your condescension. </l>
+       <l>My noble and all-gracious mistress may, </l>
+       <l>And can dispose of me, even with a breath, </l>
+       <l>As best may suit her will and dignity.</l>
+      </lg>
+     </sp>
+     <sp who="#duke">
+      <speaker>DUKE.</speaker>
+      <lg>
+       <l>Why, then, most dutiful Lord Conservator, </l>
+       <l>You, and the Princess, and my boy Ignatio, </l>
+       <l>Shall argue it; but two to one, Lord Viceroy— </l>
+       <l>Your province has a longer carnival— </l>
+       <l>You'll go not hence these ten days. Save you, sir. </l>
+      </lg>
+      <stage> [Exit Duke.</stage>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>Your highness's servant.— </l>
+      </lg>
+      <stage>(Aside.)</stage>
+      <lg>
+       <l> She looks haughtily. </l>
+       <l>No matter.—May it please your highness, madam, </l>
+       <l>To ratify now my departure hence?</l>
+      </lg>
+     </sp>
+     <sp who="#leonora">
+      <speaker>LEONORA.</speaker>
+      <lg>
+       <l>Methinks you're anxious, sir, to leave us; and </l>
+       <l>If so, we give good-morrow either way </l>
+       <l>To guests who come or go.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> Pardon me, madam, </l>
+       <l>If my anxiety to discharge that trust </l>
+       <l>With which the Prince, your husband, and yourself, </l>
+       <l>Have honour'd me, shall make me seem too careless </l>
+       <l>Of aught besides that trust. I do beseech you, </l>
+       <l>Misconstrue me no further. In all things, </l>
+       <l>Without exception or reserve, I wait </l>
+       <l>Your highness' pleasure; and my zeal, if hasty, </l>
+       <l>Is tractable. I kiss your highness' hand, </l>
+       <l>Either to go or stay; so please you, madam.</l>
+      </lg>
+     </sp>
+     <sp who="#leonora">
+      <speaker>LEONORA.</speaker>
+      <lg>
+       <l>Why, stay, then, sir. I'll wager half your province </l>
+       <l>Against a ducat, it shall suffer nothing, </l>
+       <l>Though you, its ruler, shall be festive here </l>
+       <l>Some moons to come. Make yourself easy, Count; </l>
+       <l>Though, from your cloudy brow and backward tongue, </l>
+       <l>That be perhaps no easy task. To-night </l>
+       <l>We'll have you look more like a reveller.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <stage>(Aside.)</stage>
+      <lg>
+       <l> Perchance I may; and more than you expect. </l>
+       <l>—It shall go hard but I obey you, madam; </l>
+       <l>And if, henceforth, I feel anxiety, </l>
+       <l>(For there are times on which we cannot choose,) </l>
+       <l>It is but that such happiness may last.</l>
+      </lg>
+     </sp>
+     <sp who="#leonora">
+      <speaker>LEONORA.</speaker>
+      <lg>
+       <l>You're wondrous thoughtful, Count; this boding care </l>
+       <l>Is sudden in its growth, methinks.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> True, madam, </l>
+       <l>It may, perhaps; but say it be, what then? </l>
+       <l>Say I've had proof, almost within the hour, </l>
+       <l>How few are what they seem; how many should be; </l>
+       <l>That not a sun that shines but smiles on falsehood; </l>
+       <l>That not a darkling nook but holds a traitor; </l>
+       <l>How wayward is the course of human fates, </l>
+       <l>E'en to the greatest; on what false foundations, </l>
+       <l>What treach'rous sand, what hollow buttresses, </l>
+       <l>The happiness e'en of princes is constructed,— </l>
+       <l>'Tis not less true for that.</l>
+      </lg>
+     </sp>
+     <sp who="#leonora">
+      <speaker>LEONORA.</speaker>
+      <lg>
+       <l> This moralizing </l>
+       <l>I understand not; nor, to say the truth, </l>
+       <l>Shall take much pains to try—'tis oddly timed. </l>
+       <l>If you're ambitious to turn preacher, Count, </l>
+       <l>Pray keep your sermon for the Mask to-night; </l>
+       <l>It must be useful one way or the other; </l>
+       <l>If not ta'en seriously, 'twill sure be laugh'd at; </l>
+       <l>So on both sides there's gain.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> You are merry, madam; </l>
+       <l>Long may your highness be so!</l>
+      </lg>
+     </sp>
+     <sp who="#leonora">
+      <speaker>LEONORA.</speaker>
+      <lg>
+       <l> Thank you, Count; </l>
+       <l>The longer that you'll doff that ominous face, </l>
+       <l>And look like other people and yourself.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>May others ne'er have cause to look like me. </l>
+       <l>I cry your highness mercy—I am merry, </l>
+       <l>Since you will have it so.</l>
+      </lg>
+     </sp>
+     <sp who="#leonora">
+      <speaker>LEONORA.</speaker>
+      <lg>
+       <l> Why, you do best, </l>
+       <l>And take my thanks; 'tis recompence enough, </l>
+       <l>Is it not, Count, for being as you should, </l>
+       <l>Without such bribery? Nay, bethink you, coz— </l>
+       <l>A soldier and a gallant look so grave! </l>
+       <l>Methought you'd surely seen a ghost last night, </l>
+       <l>And durst not keep your lodging. Now, believe me, </l>
+       <l>I'd almost ask'd you if your hair was grey; </l>
+       <l>Men planet-struck, they say, will oft be so. </l>
+       <l>Come, we must have none mope when we are smiling.— </l>
+       <l>Fiametta, know you where my lord is gone?</l>
+      </lg>
+     </sp>
+     <sp who="#fiametta">
+      <speaker>FIAMETTA.</speaker>
+      <lg>
+       <l>To the terrace by the river's side, your highness, </l>
+       <l>With the Signor Giovanni, as I think.</l>
+      </lg>
+     </sp>
+     <sp who="#leonora">
+      <speaker>LEONORA.</speaker>
+      <lg>
+       <l>We'll join them there.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> I shall attend your highness.</l>
+      </lg>
+     </sp>
+     <stage> [Exeunt Leonora, Beltran, and Fiametta.</stage>
+     <sp>
+      <stage>Sanzio comes forward.</stage>
+      <lg>
+       <l>Ay, that way shines the sun of fortune now! </l>
+       <l>What would I give yond gallant were my patron? </l>
+       <l>For I grow cold in zeal, even as my service </l>
+       <l>Itself grows cold. I have done and known too much; </l>
+       <l>And how are such reguerdon'd? Are they not </l>
+       <l>Turn'd out o' the way politely—made to stuff </l>
+       <l>Some dirty crevice, call'd a distant Post, </l>
+       <l>Lest they should prate or crave; or else kick'd down, </l>
+       <l>As most men do the ladders which they climb by?— </l>
+       <l>I am a tool, whose use is past; nor would </l>
+       <l>The artist have me seen. I can mark well </l>
+       <l>That the grave Don, Giovanni, likes me not; </l>
+       <l>I note the deep suspicion of his eye, </l>
+       <l>Although his tongue keeps tune. If he have done </l>
+       <l>With me, I've done with him. He is fool, </l>
+       <l>Who, cogg'd by the smooth word called gratitude, </l>
+       <l>Which all men have i' their mouth, and few elsewhere, </l>
+       <l>Starts when convenience whispers in his ear </l>
+       <l>To put off his old master for a new.</l>
+      </lg>
+     </sp>
+     <stage> [Exit.</stage>
+    </div>
+   </div>
+   <div type="act" n="3">
+    <head>ACT III.</head>
+    <div type="scene" n="1">
+     <head>SCENE I.</head>
+     <stage>—Interior of the Ducal Palace.</stage>
+     <sp>
+      <stage>Beltran, alone.</stage>
+      <lg>
+       <l>By this time, as I think, did Frankendall </l>
+       <l>Look to return. Methought the princely chicken, </l>
+       <l>The double-delicate Ignatio, </l>
+       <l>Look'd droopingly the while; yea, and his donship, </l>
+       <l>The favourite owl, Giovanni, through his gravity </l>
+       <l>Betray'd an anxious watchfulness. There's something </l>
+       <l>Yet to be known. Would Frankendall were come! </l>
+       <l>If that same smooth-brow'd Sanzio be the casket </l>
+       <l>That locks their secret, Florence to a zechin </l>
+       <l>We find the spring.—Within there!</l>
+      </lg>
+     </sp>
+     <stage>Enter Pablo.</stage>
+     <sp who="#pablo">
+      <speaker>PABLO.</speaker>
+      <lg>
+       <l>Save your highness.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> Is Frankendall come back?</l>
+      </lg>
+     </sp>
+     <sp who="#pablo">
+      <speaker>PABLO.</speaker>
+      <lg>
+       <l>Not yet, my lord.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>When he returns, he'll find me here; and you, </l>
+       <l>Pablo, take care we are not interrupted; </l>
+       <l>Our conference is of weight. You mark me, sir? </l>
+       <l>I'll have no listeners nor interlopers; </l>
+       <l>So look to it.</l>
+      </lg>
+     </sp>
+     <sp who="#pablo">
+      <speaker>PABLO.</speaker>
+      <lg>
+       <l> I shall, my lord. </l>
+      </lg>
+      <stage> [Exit Pablo.</stage>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> 'Tis well. </l>
+       <l>Commend me to that dish of curds and cream— </l>
+       <l>That slippery Sanzio! If they've trusted him, </l>
+       <l>The promise of some office where the gains </l>
+       <l>Something outweigh the pains, and he is ours, </l>
+       <l>Or else I cannot spell. There is one man </l>
+       <l>He loves above all men; and that man is </l>
+       <l>Even honest Master Sanzio. Ay, self, self, </l>
+       <l>The moral atheist, that sees nothing in </l>
+       <l>The universe but self! Nor honesty, </l>
+       <l>No, nor e'en fear, shall be of power to quiet </l>
+       <l>That wicked itching of the palm for gold.— </l>
+       <l>I have known the time I should have somewhat stammer'd </l>
+       <l>Ere I had ta'en this course. Did not ambition </l>
+       <l>Absorb all other feelings, as the sunbeams </l>
+       <l>Eat out the weaker fires, I'd stumbled at it.—</l>
+      </lg>
+     </sp>
+     <sp>
+      <stage>Enter Frankendall.</stage>
+      <lg>
+       <l>Welcome. Thou look'st as if thou hadst brought news.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>Sleek Signor Sanzio then's a sieve; is't so?</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l>Ay, and why not, my lord? Think you, he's honest, </l>
+       <l>Because he smooths his foretop o'er his forehead, </l>
+       <l>And drops his eye-lids when he meets his patron, </l>
+       <l>And smirks whene'er he speaks to a great man, </l>
+       <l>And lisps and minces all his words out edge-ways? </l>
+       <l>Your tufted jay is not the only rogue; </l>
+       <l>Others can rob an orchard.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> Nay, not I; </l>
+       <l>I guess'd but even now what thou would'st tell me. </l>
+       <l>But come; particulars, particulars! </l>
+       <l>What hast thou learn'd?</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> A world of news, my lord. </l>
+       <l>Shall I begin at the north pole or the south?</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>Even where thou wilt, so thou forgettest none. </l>
+       <l>Thou'lt be as long in telling of this world, </l>
+       <l>As I should be in circumnavigating't.</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l>Then, in one breath, I have unearth'd a marriage.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>A marriage!—Well, what mare's nest hast thou found? </l>
+       <l>Who's married?</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> Who!—The Prince Ignatio.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>That news is something stale. What dost thou mean?</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l>I mean, my lord, that he's been knit these three years; </l>
+       <l>Ay, more; 'twas ere his brother Cosmo sicken'd. </l>
+       <l>You stare. Depend on't, you shall find it so; </l>
+       <l>A marriage—both in truth and courtesy; </l>
+       <l>A left hand love-knot, call'd in Germany; </l>
+       <l>One of those matches which Heaven ratifies, </l>
+       <l>But which the devil can break—I mean the lawyer: </l>
+       <l>'Tis good in every thing, save statute law, </l>
+       <l>And that's but ticklish neither.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> What a whirl </l>
+       <l>Of circumstance and supposition's this! </l>
+       <l>Cannot thy story travel on its road </l>
+       <l>Without upraising such a cloud of comment? </l>
+       <l>Thou pour'st it like fresh Champagne from the bottle, </l>
+       <l>Liquor and froth at once, and most o' the last.</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l>Nay, nay; your highness e'en must let me tell </l>
+       <l>My story my own way; or we shall botch it.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>Do so, in God's name! only stick to facts; </l>
+       <l>And if I breathe one word of interruption, </l>
+       <l>Cut short my curiosity in the midst, </l>
+       <l>Or starve it for a twelvemonth.</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> Done, my lord; </l>
+       <l>A bargain. Does your highness hap to know </l>
+       <l>Where stands the Prince's villa, an hour's journey </l>
+       <l>Above the city, where the river idles </l>
+       <l>And spreads itself round many a tufted island, </l>
+       <l>And the commingling boughs and wanton blossoms </l>
+       <l>Stoop to the lucid pools to kiss themselves, </l>
+       <l>Like children o'er a mirror, or young maids </l>
+       <l>O' the bridal morn, who laugh at their own blushes?</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>I guess the spot thou talk'st of, but knew not </l>
+       <l>That Prince Ignatio had a villa there.</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l>In name. It seems it is a perquisite </l>
+       <l>Of that grave sage, the favourite Giovanni; </l>
+       <l>'Tis a sweet scene; whether at languid noon, </l>
+       <l>When the still current, 'mid the varied islets, </l>
+       <l>Seems chased with fairy gold; or at still midnight, </l>
+       <l>When the bright moon besilvers the glass'd waters, </l>
+       <l>And in them views herself with more delight </l>
+       <l>Than e'er she did in her Endymion's eyes </l>
+       <l>Upon hush'd Latmos' peak.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> Now, plague be on thee, </l>
+       <l>Dost think that thou art prating to some limner? </l>
+       <l>What's all this stuff to me?</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> Pause you, my lord— </l>
+       <l>Just where the villa fronts the spreading stream, </l>
+       <l>Midway, upon an isle, there stands a temple, </l>
+       <l>Minerva's called. Thither the Prince Ignatio </l>
+       <l>Will oft-times oar himself, in a light skiff, </l>
+       <l>For studious purpose.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> Well?</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> Marry, my lord, </l>
+       <l>For one who hath respect for the wise goddess, </l>
+       <l>He puts her sanctity to a curious office.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>What office, Frankendall?</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> A go-between's. </l>
+       <l>She only helps him to an earthly goddess, </l>
+       <l>Less cold, God wot, and prudent than herself. </l>
+       <l>There is a cottage on the further brink, </l>
+       <l>Bosom'd in wood, to which an arched walk </l>
+       <l>Leads only; there his highness makes a trip, </l>
+       <l>Sometimes by moonlight too, as worthies use </l>
+       <l>Who dabble in the contraband—You take me?</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>Now, blessings on thee, thou hast come at last </l>
+       <l>To the point indeed; but is this veritable? </l>
+       <l>The marriage matter—art thou sure of that? </l>
+       <l>Or if thou art, is't valid?</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> Why, that point </l>
+       <l>The gownsmen must decide. They married, certain, </l>
+       <l>To all intents; but then the old politic Duke </l>
+       <l>Has long enacted that his blood shall wed not </l>
+       <l>Without his high consent—all's moonshine else— </l>
+       <l>And like enough the Pope may back him out; </l>
+       <l>He knows the trick to manage the church, well.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>No matter, it will do as 'tis; </l>
+      </lg>
+      <stage>(aside)</stage>
+      <lg>
+       <l> or else </l>
+       <l>I'm wide o' the mark. Let her but know of this, </l>
+       <l>(And she shall know it,) and her soft-voiced mate </l>
+       <l>May shroud himself i'th'case of some base viol— </l>
+       <l>She'll play the true Italian. I will set </l>
+       <l>About it instantly, and find some way. </l>
+      </lg>
+      <stage>(Aloud.)</stage>
+      <lg>
+       <l> Hark, Frankendall—</l>
+      </lg>
+      <stage>(Aside)</stage>
+      <lg>
+       <l>—no puttings off for me; </l>
+       <l>I, who have had small fair play with the world, </l>
+       <l>Will make myself amends. They are but fools </l>
+       <l>Who pick, and cull, and boggle at events; </l>
+       <l>He who would reap, and gather a full garner, </l>
+       <l>Must take both tares and wheat.—</l>
+      </lg>
+      <stage>(Aloud.)</stage>
+      <lg>
+       <l> What would'st thou say? </l>
+      </lg>
+      <stage>(Aside.)</stage>
+      <lg>
+       <l> Ay, sheave them when the sun shines. </l>
+      </lg>
+      <stage>(Aloud.)</stage>
+      <lg>
+       <l> Well, what wouldst thou?</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l>Your highness' pleasure—You did speak, my lord.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>True, so I did. Didst thou inquire aught further?</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l>I did, my lord; and have discover'd that </l>
+       <l>Which is point-blank to the business—he intends </l>
+       <l>To visit her this night.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> Thou art the herald </l>
+       <l>That point'st the way to fortune; it is seal'd, </l>
+       <l>No moment shall be lost. </l>
+       <l> I've thought upon it. </l>
+       <l>Is thine informant—what's his name?—ay, Sanzio— </l>
+       <l>Is honest Sanzio here at hand?</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> He is </l>
+       <l>Within five minutes' message.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> Call him, then; </l>
+       <l>But set me ink and paper first. Stay, Frankendall; </l>
+       <l>Art sure this traitor has not a false bottom </l>
+       <l>On both sides, as your juggler's caskets have?</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l>Not in this case, my lord. </l>
+      </lg>
+      <stage> [Exit Frankendall.</stage>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> Go, bring him, then.— </l>
+       <l>Now for a scrawl of some mysterious sort, </l>
+       <l>Dimly to shadow mischief. Hints, dark hints, </l>
+       <l>Like mirky nooks, are still most dangerous. </l>
+       <l>I have it. </l>
+      </lg>
+      <stage> [He writes.</stage>
+      <lg>
+       <l> “Most honour'd lady, </l>
+       <l> This from one who loves you. </l>
+       <l>You think yourself the Prince Ignatio's wife; </l>
+       <l>So thinks the world, or some of it at least; </l>
+       <l>Be sure of it. She that can best resolve you, </l>
+       <l>Must be sought westward, by the Arno's side. </l>
+       <l>The Prince, your husband, shall to-day be ill </l>
+       <l>(At ease)—to-night still worse. Let this betoken </l>
+       <l>I am no lying Sibyl—so beware, </l>
+       <l>Or else your realm and you may chance repent— </l>
+       <l>One that loves truth, and honours Leonora.”— </l>
+       <l>Is not this barb'd? They are return'd already. </l>
+      </lg>
+      <stage>Enter Frankendall and Sanzio.</stage>
+      <lg>
+       <l>Your servant, sir. Hark hither, Frankendall. </l>
+      </lg>
+      <stage>(Aside to Frankendall.)</stage>
+      <lg>
+       <l> O'erlook this scrawl; 'tis mystical enough!</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l>It is indeed.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> In character and meaning?</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l>Both; both.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> Why, then, to get it safe convey'd. </l>
+       <l>—Sir, my attendant has already told me </l>
+       <l>How much I am bound to you. I shall not pause </l>
+       <l>To trust you further. Nay, no ceremony— </l>
+       <l>I know your services, and shall requite them. </l>
+       <l>I would convey this paper to the Princess— </l>
+       <l>Justice and strong allegiance both demand it— </l>
+       <l>Yet not be seen in it—you understand me? </l>
+       <l>Can you encompass this?</l>
+      </lg>
+     </sp>
+     <sp who="#sanzio">
+      <speaker>SANZIO.</speaker>
+      <lg>
+       <l> I can, my lord; </l>
+       <l>So please your highness trust me; on the instant. </l>
+       <l>Each day a throng of supplicants attend </l>
+       <l>To see the Princess pass, that they may tender </l>
+       <l>Some small petitions, as the custom is; </l>
+       <l>I'll find a trusty agent, who shall wait </l>
+       <l>'Midst this obtrusive crowd, and pass this paper </l>
+       <l>E'en to her highness' hand. Let it be superscribed, </l>
+       <l>As packets are that bring intelligence </l>
+       <l>Of moment and of weight; and our conveyancer, </l>
+       <l>Th'important missile once deliver'd, shall </l>
+       <l>Not wait for questioning.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> 'Tis very well; </l>
+       <l>But can you do this now?</l>
+      </lg>
+     </sp>
+     <sp who="#sanzio">
+      <speaker>SANZIO.</speaker>
+      <lg>
+       <l> E'en now, my lord.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>Take it, and do it, then; and make thy fortune, </l>
+       <l>For it is writ in this. Go; lose no time. </l>
+      </lg>
+      <stage> [Exit Sanzio.</stage>
+      <lg>
+       <l>Now, Frankendall, whence comes this gravity? </l>
+       <l>Sits not this action easy on thy stomach? </l>
+       <l>Art thou turn'd scrupulous?</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> Not I, my lord; </l>
+       <l>'Tis not for me to turn a caviller, </l>
+       <l>Who ne'er could understand a subtlety. </l>
+       <l>I ever was a scurvy politician, </l>
+       <l>And ever shall. I love or hate a man; </l>
+       <l>And even tell him so; and there's an end </l>
+       <l>Of all my worldly lore.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> I tell thee what, </l>
+       <l>There's no end of this moral squeamishness. </l>
+       <l>He that will fight the battle of the world— </l>
+       <l>And some must fight it—let him use the means </l>
+       <l>That are adopted by his adversaries. </l>
+       <l>He who will never taste of a repast </l>
+       <l>Till every bit be sauced unto his mind, </l>
+       <l>May famish for a fool. Who seeks for gold </l>
+       <l>Must take the dross—Who snatches at a rose </l>
+       <l>Must grasp it, thorns an' all. 'Twas ever thus; </l>
+       <l>Which of the worthies that have won dominion, </l>
+       <l>But leapt and waded for't. No more of this; </l>
+       <l>I did not think thou hadst been such a prude. </l>
+       <l>Where is the Paradise which holds this Eve </l>
+       <l>Who tempts Ignatio to forbidden fruit?</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l>Above the city, where the orchards thicken </l>
+       <l>Into a wilder but still smiling forest, </l>
+       <l>Fast by the Arno's side.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> Now, by my stars, </l>
+       <l>It was about that spot I met the eyes </l>
+       <l>That so enchanted me. If it were she, </l>
+       <l>There needed but this last provocative </l>
+       <l>To set the keen edge on my resolution. </l>
+       <l>Fate thrusts him in my way, turn where I will; </l>
+       <l>And he or I must down. Well, dignity </l>
+       <l>Steps with redoubled triumph, if revenge </l>
+       <l>Hold up her train. Follow me, Frankendall; </l>
+       <l>I'll to the Princess, and blow up the fuel </l>
+       <l>That Sanzio has put fire to. </l>
+      </lg>
+      <stage> [Exit Beltran.</stage>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> In a thought </l>
+       <l>I follow you, my lord. </l>
+       <l> I can see well, </l>
+       <l>That, spite of all his specious arguments, </l>
+       <l>This action sits not easy on his spirit; </l>
+       <l>It will be always thus. Craving ambition, </l>
+       <l>Grasping, impatient like a passionate child, </l>
+       <l>Takes good and ill at once. He is a boy, </l>
+       <l>Who, in his haste to plant the treach'rous twigs </l>
+       <l>He has limed for some poor bird, daubs his own fingers. </l>
+       <l>Honour! they talk of thee; but thou wilt wink </l>
+       <l>Until ambition does his dirty work, </l>
+       <l>And after, hold the ewer to wash his hands! </l>
+       <l>I'll go no further here than my sworn duty </l>
+       <l>Compels me to. It is a road I like not. </l>
+      </lg>
+      <stage> [Exit Frankendall.</stage>
+     </sp>
+    </div>
+    <div type="scene" n="2">
+     <head>SCENE II.</head>
+     <stage>—The Interior of the Duke's Palace.</stage>
+     <stage>Enter Leonora and Fiametta.</stage>
+     <sp who="#leonora">
+      <speaker>LEONORA.</speaker>
+      <lg>
+       <l>If the Count Beltran shall attend upon me, </l>
+       <l>You may admit him. To none else, just now, </l>
+       <l>Can I give audience. Leave me; I would be </l>
+       <l>Some little space alone. </l>
+      </lg>
+      <stage> [Exit Fiametta.</stage>
+      <stage>(Unfolding a paper.)</stage>
+      <lg>
+       <l> It is the pest of birth still to be subject </l>
+       <l>To insolent scrawls like these, born of the plots </l>
+       <l>And machinations of the coarse attendance </l>
+       <l>That throngs the heels of greatness. Base-born wretches! </l>
+       <l>Now could I be indignant with myself, </l>
+       <l>To think that such a petty thing as this </l>
+       <l>Should ruffle me one moment. But they say </l>
+       <l>The smallest pebble, cast into the ocean, </l>
+       <l>Must alter its great surface. Nor can I </l>
+       <l>Forget, perforce, what I yet scorn to think: </l>
+       <l>And yet 'tis strangely levell'd. I have noted </l>
+       <l>The Prince oft struggles with a melancholy </l>
+       <l>Which he will not give tongue to; but his friend, </l>
+       <l>The Signor Giovanni, did assure me </l>
+       <l>Those clouds which sometimes pass across his mind, </l>
+       <l>Like skyey shadows o'er the mountain's side, </l>
+       <l>But prove its clearness, as the slightest breath </l>
+       <l>Will dim the brightest mirror. </l>
+      </lg>
+      <stage>Enter Beltran.</stage>
+      <lg>
+       <l> Count, this visit, </l>
+       <l>I trust, may be to you, as 'tis to me, </l>
+       <l>A pleasure.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> Gracious Princess, to behold </l>
+       <l>Your happiness is still the sum of mine.</l>
+      </lg>
+     </sp>
+     <sp who="#leonora">
+      <speaker>LEONORA.</speaker>
+      <lg>
+       <l>My happiness?—What! is there such a word? </l>
+       <l>Count, you have soon forgot your moral lessons.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>And well I may; for who would not forget, </l>
+       <l>Beholding one so fair who hath not learn'd them? </l>
+       <l>And may experience long defer the instruction!— </l>
+       <l>But Heaven forbid I have not preach'd too well; </l>
+       <l>What I forget, can you remember, madam?</l>
+      </lg>
+     </sp>
+     <sp who="#leonora">
+      <speaker>LEONORA.</speaker>
+      <lg>
+       <l>If I did not, I should be put in mind!</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>Impossible. Has aught disturb'd your highness? </l>
+       <l>Trust me, you look but pale; and pardon me </l>
+       <l>For daring thus to see it.</l>
+      </lg>
+     </sp>
+     <sp who="#leonora">
+      <speaker>LEONORA.</speaker>
+      <lg>
+       <l> Oh! 'tis nothing, </l>
+       <l>Or little; sooth, I have been just annoy'd— </l>
+       <l>Teazed beyond patience with the low petitions, </l>
+       <l>The courtesies and familiarity </l>
+       <l>Of a vile throng, that ever haunt the heels </l>
+       <l>Of those above them, who will stoop to them. </l>
+       <l>I marvel that the Prince Ignatio </l>
+       <l>Should bear such homely bondage.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> Nay, your highness </l>
+       <l>May blame too hastily; he may be counsell'd; </l>
+       <l>Haply 'tis policy.</l>
+      </lg>
+     </sp>
+     <sp who="#leonora">
+      <speaker>LEONORA.</speaker>
+      <lg>
+       <l> If 'tis, I care not; </l>
+       <l>I shall not buy such love at such a rate; </l>
+       <l>And yet it may, for Signor Giovanni </l>
+       <l>Told me the Prince, more than his warlike father </l>
+       <l>With all his deeds, was met by popular praise.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>No doubt! The Duke is fear'd as well as loved; </l>
+       <l>The—what's his name? Oh!—Signor Giovanni, </l>
+       <l>Whoe'er he be, might have remember'd that </l>
+       <l>In his wise estimate, as, if I knew him, </l>
+       <l>I should make bold to prompt him.</l>
+      </lg>
+     </sp>
+     <sp who="#leonora">
+      <speaker>LEONORA.</speaker>
+      <lg>
+       <l> If you knew him! </l>
+       <l>Your memory, Count, is doubtless sore oppress'd </l>
+       <l>With things of greater weight; but yet methinks </l>
+       <l>The Prince's friend need not be titled twice.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>Your highness' pardon. Memory sometimes, </l>
+       <l>Like to a froward child, will cast away </l>
+       <l>Just what it ought not; else I had remember'd </l>
+       <l>The Signor Giovanni. Such a man, </l>
+       <l>Who, underneath the cloak of gravity, </l>
+       <l>Conceals so many virtues, gay ones too, </l>
+       <l>When they get holiday!</l>
+      </lg>
+     </sp>
+     <sp who="#leonora">
+      <speaker>LEONORA.</speaker>
+      <lg>
+       <l> Come, sir, this trifling </l>
+       <l>Is something ill-timed. Signor Giovanni </l>
+       <l>Hath been the Prince Ignatio's long tried friend; </l>
+       <l>And is his eldest.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> I cry mercy, madam; </l>
+       <l>Far be it from me, e'er to impeach his worth. </l>
+       <l>No doubt—no doubt he is a trusty friend, </l>
+       <l>And useful too; a meet, scholastic comrade, </l>
+       <l>Of deep, and rare, and infinite endowment, </l>
+       <l>For one of studious habit, like his highness. </l>
+       <l>Surely I've heard—ay, now I think upon't— </l>
+       <l>I have heard it said 'twas difficult to tell </l>
+       <l>Who was the master of that pretty villa </l>
+       <l>The Prince laid out for him, fast by the Arno; </l>
+       <l>So constantly they shared it. It is sweet </l>
+       <l>To see a mind, which power and luxury court, </l>
+       <l>Thus bound to science, to deep contemplation, </l>
+       <l>And learning's chasten'd pleasures.</l>
+      </lg>
+     </sp>
+     <sp who="#leonora">
+      <speaker>LEONORA.</speaker>
+      <lg>
+       <l> Count, I shall not; </l>
+       <l>No, shall not condescend to think you dare </l>
+       <l>To trifle with me when I have forbidden it; </l>
+       <l>But yet your seriousness still speaks in riddles. </l>
+       <l>What is this villa—this companionship, </l>
+       <l>I mean—you talk so strangely of?</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> Nay, madam; </l>
+       <l>Now were it possible that the Princess could, </l>
+       <l>On any one occasion, condescend </l>
+       <l>To trifle with her subject, I should deem </l>
+       <l>That this were it—when she is pleased to ask </l>
+       <l>Where stands a paradise, to which all Italy </l>
+       <l>Can scarce produce a fellow! Plague upon't, </l>
+       <l>An if my dull stupidity has not marr'd </l>
+       <l>A pretty complot to surprise your highness. </l>
+       <l>I'll wager my poor revenue to a doit, </l>
+       <l>The Prince intended that this second Eden </l>
+       <l>Should not be known, till seen by her who only </l>
+       <l>Can be its worthy Queen.—Tongue, foolish tongue, </l>
+       <l>I e'en must curb thee, if thou bring'st me still </l>
+       <l>To these dilemmas! </l>
+       <l> Madam, sure your highness </l>
+       <l>Is something indisposed, for you grow pale.</l>
+      </lg>
+     </sp>
+     <sp who="#leonora">
+      <speaker>LEONORA.</speaker>
+      <lg>
+       <l>I am, indeed,—no; stir not. It is nothing— </l>
+       <l>'Tis nothing, sir—believe me.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> Gracious madam, </l>
+       <l>I cannot think it nothing, when one instant </l>
+       <l>Can blanch the living roses of your cheek.</l>
+      </lg>
+     </sp>
+     <sp who="#leonora">
+      <speaker>LEONORA.</speaker>
+      <lg>
+       <l>A transient faintness—that was all. Retirement </l>
+       <l>Shall be a ready cordial.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> Then permit me— </l>
+       <l>(Within there!)—let me hope it may—to be </l>
+       <l>No further interruption; rest your highness.</l>
+      </lg>
+     </sp>
+     <stage>Enter Fiametta.</stage>
+     <sp who="#leonora">
+      <speaker>LEONORA.</speaker>
+      <lg>
+       <l>I thank you, Count; anxiety's not needed— </l>
+       <l>I shall be well anon. To-night we hope </l>
+       <l>Your presence at the banquet.</l>
+      </lg>
+     </sp>
+     <sp who="#fiametta">
+      <speaker>FIAMETTA.</speaker>
+      <lg>
+       <l> Please your highness </l>
+       <l>Now to retire?</l>
+      </lg>
+     </sp>
+     <sp who="#leonora">
+      <speaker>LEONORA.</speaker>
+      <lg>
+       <l> I do; attend upon me.</l>
+      </lg>
+     </sp>
+     <stage> [Exeunt Leonora and Fiametta.</stage>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>I've set the torch, and surely; for already </l>
+       <l>The flame begins to mount. Fev'rous suspicion, </l>
+       <l>On whose hot lids sleep sheds her dews in vain, </l>
+       <l>Shall never let it slacken. This brief transport, </l>
+       <l>Sudden and short, as suddenly subsiding, </l>
+       <l>Is only the first signal of the fire </l>
+       <l>That's kindled at the heart. 'Tis the precursor </l>
+       <l>Of other and more vehement stirrings up, </l>
+       <l>Until the untameable spirit shall o'erboil </l>
+       <l>Into some violent course. I know her nature; </l>
+       <l>'Tis like mine own. Sit fast, Ignatio; </l>
+       <l>And keep thy bride, or thou may'st lose thy dukedom.</l>
+      </lg>
+     </sp>
+     <stage> [Exit.</stage>
+    </div>
+   </div>
+   <div type="act" n="4">
+    <head>ACT IV.</head>
+    <div type="scene" n="1">
+     <head>SCENE I.</head>
+     <stage>—The Interior of the Ducal Palace.</stage>
+     <stage>Beltran and Frankendall.</stage>
+     <sp who="#beltran">
+      <speaker>Beltran </speaker>
+      <stage>(comes forward.)</stage>
+      <lg>
+       <l>Now would'st thou hug me, Machiavel, beholding </l>
+       <l>How like a reckless reveller I look, </l>
+       <l>And cloak designs that yet may shake a state, </l>
+       <l>Beneath such guise as this. I am a reveller! </l>
+       <l>Shall I not laugh and quaff, as others do; </l>
+       <l>And sit beneath the shadow of my hopes, </l>
+       <l>Just budding into blossom? Shine on, Sun </l>
+       <l>Of Fortune; and no votary of thine </l>
+       <l>Shall more exult than I, to worship thee, </l>
+       <l>Or make thee more a goddess! </l>
+       <l> Frankendall, </l>
+       <l>Is it not time to go? Methinks the guests </l>
+       <l>Should, by the noise, be thronging to the palace.</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l>My lord, the hubbub would declare as much.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN </speaker>
+      <stage>(walks to the window.)</stage>
+      <lg>
+       <l>The windows are all light; unnumber'd feet </l>
+       <l>Follow the flitting torches, as they gleam </l>
+       <l>Perpetual through the marble courts; loud voices </l>
+       <l>Of menials, haughtier than their haughty masters, </l>
+       <l>Mix with the bursts of music that peal forth </l>
+       <l>Whene'er a portal's oped; then both, anon, </l>
+       <l>Are drown'd amid the clash of prancing hoofs, </l>
+       <l>Indignant of the rein. Plume follows plume; </l>
+       <l>And escort follows escort. 'Tis a scene </l>
+       <l>Where many a heart beats high. But could they view </l>
+       <l>The inmost breasts of all this splendid throng; </l>
+       <l>The envies darker than the night; the discords </l>
+       <l>Waving their torches in conflicting rage; </l>
+       <l>The bitter griefs that yearn for solitude; </l>
+       <l>The hopes struck down; the gnashings of despair; </l>
+       <l>The treacheries; the jealousies; the fears; </l>
+       <l>'Twould make the rout that clamours here below </l>
+       <l>Seem peaceful as the barefoot hermit's haunt, </l>
+       <l>Compared with such a hell. </l>
+       <l> You are come at last.</l>
+      </lg>
+     </sp>
+     <sp>
+      <stage>Enter Pablo and Jacomo.</stage>
+      <lg>
+       <l>Is it not time we enter'd to the palace?</l>
+      </lg>
+     </sp>
+     <sp who="#jacomo">
+      <speaker>JACOMO.</speaker>
+      <lg>
+       <l>The throng is at the height, my lord.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> 'Tis well; </l>
+       <l>I shall attend you instantly.—Hark, Frankendall; </l>
+       <l>One word before we go. </l>
+      </lg>
+      <stage>(Aside to Frankendall.)</stage>
+      <lg>
+       <l> I need not tell thee, </l>
+       <l>Suspicion is let loose; and 'tis my cue </l>
+       <l>To lead it where I would, but unobserved. </l>
+       <l>Hark thee, I have laid a train. </l>
+       <l> In this hot clime </l>
+       <l>Of Italy, thou know'st they are well skill'd, </l>
+       <l>(And crossing passions give them scope enough,) </l>
+       <l>In all the changes of love's minstrelsy. </l>
+       <l>Through the voluptuous wires of the guitar </l>
+       <l>They'll breathe a gale, more amorous and warm </l>
+       <l>Than those from whence th'immortal coursers sprung; </l>
+       <l>Ay, or more wing'd with jealousy than those </l>
+       <l>So fateful to th'Æolian shepherd swain, </l>
+       <l>Who woo'd with languid sighs th'inconstant air. </l>
+       <l>Now mark me, for there will be masks to-night; </l>
+       <l>Observe, and thou shalt see a stripling lad, </l>
+       <l>In the wild vestments of a Troubadour. </l>
+       <l>He must be brought—as well may come to pass— </l>
+       <l>To give some relish of his art. Eye well </l>
+       <l>Ignatio, when he sings; and if thou see'st, </l>
+       <l>Or any sign of dread, or of suspense, </l>
+       <l>Or notest confusion struggle in his cheek, </l>
+       <l>Cow'r in his eye, or falter on his tongue, </l>
+       <l>I say, improve the time; let it not 'scape </l>
+       <l>Devoid of observation, whence the most </l>
+       <l>I wish it were observed. Forget not this, </l>
+       <l>If thou would'st keep my favour and my love. </l>
+       <l>Now follow me. I know thou likest it not; </l>
+       <l>Nor do I say thou should'st. Had I but known </l>
+       <l>Two moons ere this, half of what now I know, </l>
+       <l>It had not been—no matter—What's to be, </l>
+       <l>Shall be. I tell thee, who, as we must, drinks </l>
+       <l>At troubled fountains, even perforce must take </l>
+       <l>The water with the sand.</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> My lord, I know </l>
+       <l>This is no time to argue; and my logic </l>
+       <l>Was ever lame. For you I would do much, </l>
+       <l>And this amongst the rest, come on't what will.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>Fear not; I am resolved. </l>
+      </lg>
+      <stage>(Aloud.)</stage>
+      <lg>
+       <l> Come, gentlemen.</l>
+      </lg>
+     </sp>
+     <sp who="#pablo">
+      <speaker>PABLO.</speaker>
+      <lg>
+       <l>We wait your highness' pleasure.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> Follow, then. </l>
+       <l>Hark you; is't not begun?</l>
+      </lg>
+     </sp>
+     <stage> [A sound of Music</stage>
+     <sp who="#pablo">
+      <speaker>PABLO.</speaker>
+      <lg>
+       <l> It is, my lord.</l>
+      </lg>
+     </sp>
+     <stage> [Exeunt.</stage>
+    </div>
+    <div type="scene" n="2">
+     <head>SCENE II.</head>
+     <stage>—A Banquetting Hall.</stage>
+     <stage>The Duke, Leonora, Ignatio, Giovanni, Beltran, Frankendall, Sanzio,
+                        Masks, Attentants, &amp;c. &amp;c.</stage>
+     <sp who="#duke">
+      <speaker>DUKE.</speaker>
+      <lg>
+       <l>Welcome all, gentlemen; welcome, cavaliers; </l>
+       <l>Pray ye, be merry. God forgive me now! </l>
+       <l>We old ones will have oversights sometimes; </l>
+       <l>Age even will have his way. I should have greeted </l>
+       <l>You first, ye fair ones, whose half-veil'd eyes </l>
+       <l>Seem brighter for their shadows, as the stars </l>
+       <l>Still sparkle keenest when the tawny night </l>
+       <l>Puts on her duskiest mask. Be merry too; </l>
+       <l>And we shall not be wanting.—Ah, gallants! </l>
+       <l>With all your glitter and your plumery, </l>
+       <l>Be sure ye have not left your hearts at home, </l>
+       <l>Or, what were worse, your wit. I warrant now </l>
+       <l>There are some here can bring a prude to smile, </l>
+       <l>Or whisper love into a soft one's ear. </l>
+       <l>There's sure a sonnetteer amongst us, gentlemen; </l>
+       <l>If so, we'll have a serenade.—What! none </l>
+       <l>To volunteer, amongst the Troubadours, </l>
+       <l>And tell a tale in echo to his lute, </l>
+       <l>Address'd to many, yet but meant for one? </l>
+       <l>Is it not so? </l>
+       <l> Well, well. My lord, Count Beltran, </l>
+       <l>Your arm; you shall with me amongst these beauties; </l>
+       <l>'Tis hard, now, if we cannot find some planet </l>
+       <l>That will adopt us as her satellites.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>Amongst the Pleiades, the hardest is </l>
+       <l>To choose the brightest; but we'll e'en essay </l>
+       <l>The task, since 'tis your highness' pleasure.</l>
+      </lg>
+     </sp>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <stage>(Aside to Giovanni.)</stage>
+      <lg>
+       <l> How </l>
+       <l>Likest thou Count Beltran's favour, Giovanni? </l>
+       <l>He is a most accomplish'd gentleman; </l>
+       <l>With what an air he strides amid the throng! </l>
+       <l>Mark, all instinctively give way, yet all </l>
+       <l>Press round him. Still, I know not how it is, </l>
+       <l>But there is something in his very smile </l>
+       <l>I cannot love. What think'st thou?</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l> This, my lord: </l>
+       <l>His smoothest looks are like the clearest ice, </l>
+       <l>Which but betrays the soonest.</l>
+      </lg>
+     </sp>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <lg>
+       <l> Fie, Giovanni! </l>
+       <l>Thou speakest bitterly.</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l> Plainly—pardon me— </l>
+       <l>I love him not; and that's the simple truth: </l>
+       <l>Nor will I trust that lowering brow of his, </l>
+       <l>However smiling. Why, a child may see, </l>
+       <l>In spite of all his put on suavity, </l>
+       <l>The world within is, even now, at war </l>
+       <l>With that without.</l>
+      </lg>
+     </sp>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <lg>
+       <l> My friend, thou'rt prejudiced. </l>
+       <l>If there be darker shadows in his face, </l>
+       <l>Thou know'st Count Beltran hath had many griefs.</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l>No more, perchance, than others may through him. </l>
+       <l>The ambitious man, believe't, is still a savage; </l>
+       <l>Adore him, if you will; coax him; admire him; </l>
+       <l>But trust him not.</l>
+      </lg>
+     </sp>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <lg>
+       <l> Why, this is very harshness; </l>
+       <l>The world allows Count Beltran many virtues.</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l>Virtues, my lord, when wedded to ambition, </l>
+       <l>(For I deny not he hath many virtues,) </l>
+       <l>Are but as jewels, cast into the deep, </l>
+       <l>Which only lose themselves—not profiting that </l>
+       <l>On which they are bestow'd.</l>
+      </lg>
+     </sp>
+     <stage> [Shout without.</stage>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <lg>
+       <l> What noise is that?</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l>The people's joy, dear Prince; their sympathy </l>
+       <l>With yours; not less sincere because perhaps </l>
+       <l>'Tis somewhat rudely shewn.</l>
+      </lg>
+     </sp>
+     <stage> [Shouts again.</stage>
+     <sp who="#leonora">
+      <speaker>LEONORA.</speaker>
+      <lg>
+       <l> Signor Giovanni!</l>
+      </lg>
+     </sp>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <lg>
+       <l>Leonora speaks.</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l> Madam, your highness' pleasure.</l>
+      </lg>
+     </sp>
+     <sp who="#leonora">
+      <speaker>LEONORA.</speaker>
+      <lg>
+       <l>What means this rude and most obtrusive clamour, </l>
+       <l>Which even the palace stays not?</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l> Madam, 'tis </l>
+       <l>The overflowing transport of the people </l>
+       <l>To see yourself and Prince Ignatio happy.</l>
+      </lg>
+     </sp>
+     <sp who="#leonora">
+      <speaker>LEONORA.</speaker>
+      <lg>
+       <l>Take order that it trouble us no more. </l>
+       <l>Was there no place fit for these vile carousals </l>
+       <l>And vulgar greetings, but the Ducal Palace?</l>
+      </lg>
+     </sp>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <lg>
+       <l>Nay, Leonora, bear with them for once. </l>
+       <l>Does it not pride you thus to see your festival </l>
+       <l>Graced by a people's love?</l>
+      </lg>
+     </sp>
+     <sp who="#leonora">
+      <speaker>LEONORA.</speaker>
+      <lg>
+       <l> My lord, your tutors </l>
+       <l>Perchance have taught you to esteem such things; </l>
+       <l>Mine have not; and I value them alike, </l>
+       <l>Whether they come or come not. I, at least, </l>
+       <l>Who scorn the merchandize, need not pay the price </l>
+       <l>Go, some of you, and quell this turbulence.</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l>Madam, it shall be done. 'Tis but for you </l>
+       <l>To be obey'd and gracious. To the Prince, </l>
+       <l>Your noble consort, there are superadded </l>
+       <l>Duties to dignity—a high repayment </l>
+       <l>Of happiness to those who joy in his.— </l>
+       <l>Sanzio, take measures that the people quit </l>
+       <l>The square before the palace.</l>
+      </lg>
+     </sp>
+     <stage> [Exeunt Giovanni and Sanzio.</stage>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <stage>(Aside.)</stage>
+      <lg>
+       <l> Frankendall, </l>
+       <l>Heard'st thou that plumed plebeian's insolence? </l>
+       <l>Mark'd ye the ostrich? Think ye he'd digest </l>
+       <l>Cold iron?</l>
+      </lg>
+     </sp>
+     <sp who="#jacomo">
+      <speaker>JACOMO.</speaker>
+      <lg>
+       <l> Shall we try, my lord?</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> Not now; </l>
+       <l>We'll maybe find a time.</l>
+      </lg>
+     </sp>
+     <sp who="#duke">
+      <speaker>DUKE.</speaker>
+      <lg>
+       <l> Daughter, you're right; </l>
+       <l>The boy Ignatio has been still too easy; </l>
+       <l>He'll mend on't, when he knows them as I do.</l>
+      </lg>
+     </sp>
+     <stage> [Shouts.</stage>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <stage>(Aside to a Mask.)</stage>
+      <lg>
+       <l> Fair lady, if this din would give me leave, </l>
+       <l>I'd haply whisper love.</l>
+      </lg>
+     </sp>
+     <sp who="#female_mask">
+      <speaker>FEMALE MASK.</speaker>
+      <lg>
+       <l> Now you are out; </l>
+       <l>'Tis plain you reck not what love is, or else </l>
+       <l>You'd know his plainest language is the eyes.</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l>By Jove! quick, madam, I am caught for once. </l>
+       <l>Well, I shall learn it fast enough of you. </l>
+       <l>But then we must not ogle through a mask!</l>
+      </lg>
+     </sp>
+     <sp who="#female_mask">
+      <speaker>FEMALE MASK.</speaker>
+      <lg>
+       <l>Nay, hold. What if my features should unteach </l>
+       <l>All that mine eye hath taught you?</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> Never fear; </l>
+       <l>The eyes against the field for twenty ducats!</l>
+      </lg>
+     </sp>
+     <sp who="#female_mask">
+      <speaker>FEMALE MASK.</speaker>
+      <lg>
+       <l>I see you are a gamester, even in love.</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l>If I play fairly, where is the objection? </l>
+       <l>'Tis but a phrase—a foreign compliment— </l>
+       <l>Let that content you. If you'd question me— </l>
+       <l>In faith, I learn'd it of an English lord, </l>
+       <l>Who loved a horse course better than his mistress— </l>
+       <l>It serves to vary the French politesse.</l>
+      </lg>
+     </sp>
+     <sp who="#female_mask">
+      <speaker>FEMALE MASK.</speaker>
+      <lg>
+       <l>A sweet variety!</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> Better than none. </l>
+       <l>One hates the jargon of “amour” and “cour.” </l>
+       <l>Ha! Master Troubadour, you're a-propos; </l>
+       <l>Sing me, for Heaven's sake, some mellifluous rhyme, </l>
+       <l>Can soften a hard heart.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> If it be thine, </l>
+       <l>That transformation were miraculous; </l>
+       <l>I'd sooner look for lead to turn to gold.</l>
+      </lg>
+     </sp>
+     <sp who="#mask">
+      <speaker>MASK.</speaker>
+      <lg>
+       <l>Love, Signors, seldom is as he appears; </l>
+       <l>And, when he seems the blindest, sees the best: </l>
+       <l>Yet fear not, lords—I am no satirist; </l>
+       <l>My simple ditty, if it please not, harms not.</l>
+      </lg>
+     </sp>
+     <stage>Re-enter Giovanni.</stage>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <stage>(Aside.)</stage>
+      <lg>
+       <l> Go nearer to the Princess when you sing.</l>
+      </lg>
+     </sp>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <stage>(Aside to Giovanni.)</stage>
+      <lg>
+       <l> What is the night? Is it not nigh the hour?</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l>Be calm, my lord; we are watch'd; start not; observed </l>
+       <l>Was what I would have said. The night is moody, </l>
+       <l>And the wind frets and moans in fitful gusts; </l>
+       <l>Hurrying the wrack, as to some rendezvous </l>
+       <l>Of storm, like squadrons ere the battle join. </l>
+       <l>'Twill be a dark night somewhere. All the better; </l>
+       <l>So that its rage stoop not directly here— </l>
+       <l>Sanzio is ready. </l>
+      </lg>
+      <stage>(Aloud.)</stage>
+      <lg>
+       <l> What! is this a song? </l>
+       <l>Of mirth or mourning, gentle Troubadour? </l>
+       <l>Methinks you tune it passing cunningly.</l>
+      </lg>
+     </sp>
+     <sp who="#mask">
+      <speaker>MASK.</speaker>
+      <lg>
+       <l>Even as the hearer relish it, good Signor— </l>
+       <l>Pray Heaven you do not think it out of tune?</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>Stand further there; you intercept the Duke.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>For all your smooth preluding, Signor Minstrel, </l>
+       <l>This lay, with all its honey, bears a sting. </l>
+       <l>Good God, now, but your highness' hue is changed!</l>
+      </lg>
+     </sp>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <lg>
+       <l>A faintness from the heat—I must retire </l>
+       <l>Some little space; 'twill by and by begone.</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l>I shall attend your highness.—</l>
+      </lg>
+      <stage>(Aside.)</stage>
+      <lg>
+       <l> Sir, be calm; </l>
+       <l>Let not a casual, mere coincidence </l>
+       <l>Unnerve your manhood thus.</l>
+      </lg>
+     </sp>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <lg>
+       <l> I am better. Gentlemen, </l>
+       <l>Take no heed of me. In a little space </l>
+       <l>I'll mix with you again.—I thank you, Signor, </l>
+       <l>Your lute shall be in tune when I return, </l>
+       <l>I hope.—Nay, gentle friends, no ceremony.</l>
+      </lg>
+     </sp>
+     <stage> [Exeunt Ignatio and Giovanni.</stage>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <stage>(Aside to Frankendall.)</stage>
+      <lg>
+       <l> Do you mark that? Where is the Princess?</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> There; </l>
+       <l>In conversation with the Duke.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> 'Tis pity </l>
+       <l>She mark'd not his departure. Dost thou think </l>
+       <l>She did not? She shall be inform'd.</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> Stay, stay; </l>
+       <l>Here comes his grave-faced pandarship again.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>He is making towards the Princess. O, tis well! </l>
+       <l>Let's hear the hypocrite's message.</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> I observed </l>
+       <l>Her countenance change, just as the Prince retired; </l>
+       <l>Methought the Duke did mark it.</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l> Madam, I </l>
+       <l>Come as a messenger from his highness, who </l>
+       <l>Hath even now retired some little space, </l>
+       <l>From slight indisposition.</l>
+      </lg>
+     </sp>
+     <sp who="#leonora">
+      <speaker>LEONORA.</speaker>
+      <lg>
+       <l> Ha! retired? </l>
+       <l>Indisposition?—On the instant shall I </l>
+       <l>Attend on him. So tell him, sir.</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l> Your highness </l>
+       <l>Shall pardon me. The Prince expressly begs </l>
+       <l>Not to alarm your highness; 'tis a slight </l>
+       <l>And not uncustomary discomposure; </l>
+       <l>Nothing of serious note;—some little rest, </l>
+       <l>Or some short breath of fresh air on the terrace, </l>
+       <l>Shall send him back to you. In the meantime, </l>
+       <l>He prays you to be cheerful, nor to suffer </l>
+       <l>One moment's inconvenience to your guests.</l>
+      </lg>
+     </sp>
+     <sp who="#leonora">
+      <speaker>LEONORA.</speaker>
+      <stage>(Aside.)</stage>
+      <lg>
+       <l> My woman's heart is swell'd almost to bursting. </l>
+       <l>It is too true. Rouse yourself, Leonora; </l>
+       <l>Nor stoop, nor pine one instant under wrong. </l>
+      </lg>
+      <stage>(Aloud.)</stage>
+      <lg>
+       <l> You need not fear, sir, lest my guests or I </l>
+       <l>Be discomposed.—</l>
+      </lg>
+      <stage>(Aside.)</stage>
+      <lg>
+       <l> Yet stay, I still may wrong him; </l>
+       <l>Perhaps 'tis better I should go myself.</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l>Let me beseech your highness, be composed.</l>
+      </lg>
+     </sp>
+     <sp who="#duke">
+      <speaker>DUKE.</speaker>
+      <lg>
+       <l>Fie! Leonora; this is womanish: </l>
+       <l>Fear not the boy; though he be delicate, </l>
+       <l>He yet hath something of his father in him; </l>
+       <l>He bends, but will not shiver. From a child </l>
+       <l>Hath he been subject to these paroxysms.— </l>
+       <l>Signor, go tell my boy Ignatio </l>
+       <l>That we must see him here, or e'er the dance </l>
+       <l>Shall be concluded—marry, late enough; </l>
+       <l>Meanwhile, he'll take his evening draught of air </l>
+       <l>On the Piazza, for the night is gusty: </l>
+       <l>So tell him that the Princess says, with me— </l>
+       <l>Shall he not, Principessa?</l>
+      </lg>
+     </sp>
+     <sp who="#leonora">
+      <speaker>LEONORA.</speaker>
+      <lg>
+       <l> Sir, 'tis fittest </l>
+       <l>Your highness should command; so tell him, sir.</l>
+      </lg>
+     </sp>
+     <stage> [Exit Giovanni.</stage>
+     <sp who="#duke">
+      <speaker>DUKE.</speaker>
+      <lg>
+       <l>Now this is like the noble Leonora. </l>
+       <l>Who would have thought that the high-minded Princess </l>
+       <l>Would change her very colour and her tone, </l>
+       <l>Even like some love-sick youngling of fifteen, </l>
+       <l>Because her husband had a little qualm? </l>
+       <l>Well, well, I say no more—I say no more— </l>
+       <l>'Tis haply as it should be, after all. </l>
+       <l>Come, is't not time the ball was getting towards— </l>
+       <l>Your hand—Nay, nay—no ceremony.—Gallants, </l>
+       <l>Who shall refuse to follow my example? </l>
+       <l>Is there a hand in all this room so cold </l>
+       <l>To fright the gentle palm it would enclasp? </l>
+       <l>Come, Signors; come, Signoras; we shall try </l>
+       <l>If that your heels move glibly as your tongues. </l>
+       <l>Go bid the music strike i'th'other hall.— </l>
+       <l>Now for the lightest foot and lightest heart!</l>
+      </lg>
+     </sp>
+     <stage> [Exeunt.</stage>
+     <stage>Beltran and Frankendall remain.</stage>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>Hist!—Didst thou mark the Princess' brow, my friend?</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l>I did; and never did I know her nature </l>
+       <l>So stirr'd. The blood, that rose and vanish'd, clouded </l>
+       <l>Her moveless features in such sort, I started; </l>
+       <l>And when it had retired, methough it left </l>
+       <l>Redoubled paleness on her marble brow. </l>
+       <l>Not for ten thousand ducats would I be </l>
+       <l>In some one's place!</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> No more; we are observed. </l>
+       <l>I join the dancers.</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> And I fall asleep, </l>
+       <l>Until the rattle of the dice-box rouse me, </l>
+       <l>Or the loud cup.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> Thou art incorrigible! </l>
+      </lg>
+      <stage> [Exit Frankendall.</stage>
+      <lg>
+       <l>I follow thee. </l>
+       <l> There's something weighs upon me— </l>
+       <l>I know not what. E'en now, when I had oped </l>
+       <l>A casement, to drink in some breath of air, </l>
+       <l>To cool my feverish blood, methought the wind </l>
+       <l>Sigh'd heavily; and the dim and clouded arch </l>
+       <l>Did shew so desolate, that when I had turn'd me </l>
+       <l>To gaze upon the revelry within, </l>
+       <l>I felt how comfortless ambition is; </l>
+       <l>And almost thought it useless cruelty </l>
+       <l>To let in darkness upon human hearts. </l>
+       <l>That might have beat in blissful perfectness; </l>
+       <l>Or tinge my soul with dark hypocrisy, </l>
+       <l>For aught this world can give. </l>
+       <l> 'Tis fantasy; </l>
+       <l>If all be hollow, I am right at last; </l>
+       <l>And selfishness may have a date as long </l>
+       <l>As virtue. I will in, and leave those thoughts. </l>
+      </lg>
+      <stage>Enter Sanzio hastily.</stage>
+      <lg>
+       <l>Ha!—quick—speak—is it seal'd?</l>
+      </lg>
+     </sp>
+     <sp who="#sanzio">
+      <speaker>SANZIO.</speaker>
+      <lg>
+       <l> It is.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> Begone then! </l>
+       <l>I'll think no more—for now it is too late. </l>
+      </lg>
+      <stage> [Exit Sanzio.</stage>
+      <lg>
+       <l>The voiceless night is pregnant with events; </l>
+       <l>To-morrow e'en may babble of them.</l>
+      </lg>
+     </sp>
+     <stage> [Exit hastily.</stage>
+    </div>
+    <div type="scene" n="3">
+     <head>SCENE III.</head>
+     <stage>—Interior of a Villa on the Arno.</stage>
+     <stage>Enter Eulalia and Ignatio.</stage>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <lg>
+       <l>'Tis past—that pang is over; but, oh God! </l>
+       <l>Another, worse if possible, succeeds. </l>
+       <l>Eulalia, can I turn me from that eye, </l>
+       <l>More sweetly light than is the rising morn, </l>
+       <l>To follow shudd'ring after black-robed night, </l>
+       <l>And stalk with her to hell? There's madness in't. </l>
+       <l>Eulalia—shall we—shall we part, e'en thus?</l>
+      </lg>
+     </sp>
+     <sp who="#eulalia">
+      <speaker>EULALIA.</speaker>
+      <lg>
+       <l>Compose yourself, my dear Ignatio; </l>
+       <l>How thy frame trembles!—Oh! how wan thou look'st!</l>
+      </lg>
+     </sp>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <lg>
+       <l>I do not tremble. Shall we part, Eulalia?</l>
+      </lg>
+     </sp>
+     <sp who="#eulalia">
+      <speaker>EULALIA.</speaker>
+      <lg>
+       <l>Oh! do not—dare not ask.</l>
+      </lg>
+     </sp>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <lg>
+       <l> I dare do aught: </l>
+       <l>Speak but the word—give me a single look </l>
+       <l>That says, “we will not;” and we part no more.</l>
+      </lg>
+     </sp>
+     <sp who="#eulalia">
+      <speaker>EULALIA.</speaker>
+      <lg>
+       <l>What dost thou mean?</l>
+      </lg>
+     </sp>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <lg>
+       <l> There is one way, Eulalia; </l>
+       <l>Despair, e'en scorpion-like, is its own cure, </l>
+       <l>When 'tis ring'd round with fire, as we are now. </l>
+       <l>O! I could rest my head upon thy bosom, </l>
+       <l>And think the mingling of our parting breaths </l>
+       <l>More sweet than the first fearful kiss I gave thee, </l>
+       <l>Because 'twould be the last; and so doubt-free.</l>
+      </lg>
+     </sp>
+     <sp who="#eulalia">
+      <speaker>EULALIA.</speaker>
+      <lg>
+       <l>Die?—and thy boy—speak; would'st thou murder him? </l>
+       <l>Thou may'st be mad; but be not savage too.</l>
+      </lg>
+     </sp>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <lg>
+       <l>Oh! no, no, no! yes, I am mad. My brain </l>
+       <l>Burns, and mine eyes shed not a single tear; </l>
+       <l>Would I could weep like thee! </l>
+       <l> But thou weep'st not! </l>
+       <l>What pulls this coldness on thee? thou look'st pale; </l>
+       <l>There's ice upon thy lips, and in thy touch; </l>
+       <l>Yea, and thy brow, pure as the unsunn'd snow, </l>
+       <l>Is now as chill. Whence is this change? Speak! Yonder, </l>
+       <l>When thou did'st hang in agony o'er our boy, </l>
+       <l>I saw him shrink as thy fast scalding tears </l>
+       <l>Rain'd on his little face; and now thou stand'st </l>
+       <l>Unshaken, nor a tear comes to thine eye. </l>
+       <l>It is a horrid calmness. Speak, Eulalia, </l>
+       <l>If thou would'st not destroy me!</l>
+      </lg>
+     </sp>
+     <sp who="#eulalia">
+      <speaker>EULALIA.</speaker>
+      <lg>
+       <l> Thee!—destroy! </l>
+       <l>Would I not die to blunt one single pang </l>
+       <l>Of all that tear thee? Oh! Ignatio, </l>
+       <l>I know not—since we parted from our boy, </l>
+       <l>(See how the name calls up a tear again,) </l>
+       <l>I either felt as if my heart had died, </l>
+       <l>Or that 'twas left with him. That struggle o'er, </l>
+       <l>I am resign'd—Sorrow were sinfulness. </l>
+       <l>Must I not breathe in some forgotten nook, </l>
+       <l>And, as I am forgotten—so, forget— </l>
+       <l>All, but that innocent, if he lives to know, </l>
+       <l>A helpless mother is his only help. </l>
+       <l>Say to thyself, Ignatio, “She is dead;” </l>
+       <l>And so I shall be, save unto the past. </l>
+       <l>And when, perchance, thy name, in after time, </l>
+       <l>Wafted on glory's breath, comes o'er mine ear, </l>
+       <l>It shall but stir me as the melody </l>
+       <l>Of his own land—left, never to return, </l>
+       <l>Breathes on the exile's heart; and I shall weep, </l>
+       <l>And waste the dew of unavailing tears </l>
+       <l>Upon the wither'd flow'rs of former joy. </l>
+       <l>Why dost thou gaze on me, with that sad look? </l>
+       <l>Is not this duty?</l>
+      </lg>
+     </sp>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <lg>
+       <l> What it is, I know not; </l>
+       <l>But there's a fix'd and horrible calmness in't, </l>
+       <l>More dread, because it hath the hue of health, </l>
+       <l>Yet is not it.</l>
+      </lg>
+     </sp>
+     <sp who="#eulalia">
+      <speaker>EULALIA.</speaker>
+      <lg>
+       <l> Whate'er it be, Ignatio, </l>
+       <l>Yet, let us be submissive to the will </l>
+       <l>Of Heaven. We've striven with fate too much already. </l>
+       <l>I have oft heard, that ere the common doom </l>
+       <l>Doth close the struggles of the labouring soul, </l>
+       <l>Will a strange calmness ofttimes creep upon it, </l>
+       <l>As though it were some foretaste of that rest, </l>
+       <l>The weary laden hope. If it be that, </l>
+       <l>Oh! I could die upon the hard, cold earth, </l>
+       <l>As smilingly even as the infant sleeps, </l>
+       <l>Unknowing what he leaves, or what he wakes to. </l>
+       <l>God will protect him.</l>
+      </lg>
+     </sp>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <lg>
+       <l> Whom?</l>
+      </lg>
+     </sp>
+     <sp who="#eulalia">
+      <speaker>EULALIA.</speaker>
+      <lg>
+       <l> Our boy, Ignatio; </l>
+       <l>He hath a father still; hath he not?</l>
+      </lg>
+     </sp>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <lg>
+       <l> Cease!— </l>
+       <l>These melancholy tones, killingly sweet, </l>
+       <l>Go to my heart. I have an anguish here, </l>
+       <l>That grows each moment more like mortal. Oh! </l>
+       <l>Eulalia, thy still accents sound to me </l>
+       <l>E'en as the o'erstretch'd string, which, ere it breaks, </l>
+       <l>Vibrates the sweetest music. </l>
+       <l> Hark! 'tis past: </l>
+       <l>Our hour is past; 'tis midnight—dark indeed— </l>
+       <l>The effort must be made—I cannot speak— </l>
+       <l>But thou can'st think that which I dare not say. </l>
+       <l>Oh! grasp my hand; and if thou hast a tear </l>
+       <l>For me, then shed it now; for it must be </l>
+       <l>The last; and say once more, or e'er we part, </l>
+       <l>That thou forgivest me.</l>
+      </lg>
+     </sp>
+     <sp who="#eulalia">
+      <speaker>EULALIA.</speaker>
+      <lg>
+       <l> Need I say so twice? </l>
+       <l>Think'st thou I could be unforgiving now? </l>
+       <l>Would love permit me in an hour like this? </l>
+       <l>Let this, and this, convince thee.</l>
+      </lg>
+     </sp>
+     <stage> [Kisses his hand.</stage>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <lg>
+       <l> Humble not </l>
+       <l>Thyself, Eulalia, for 'tis agony; </l>
+       <l>Crush me not to the dust with self-reproach; </l>
+       <l>If I did crawl to thee and kiss thy feet, </l>
+       <l>It were more fit.</l>
+      </lg>
+     </sp>
+     <sp who="#eulalia">
+      <speaker>EULALIA.</speaker>
+      <lg>
+       <l> No more—all's over now; </l>
+       <l>Thou goest—we must be brief—one look, but one, </l>
+       <l>Before thou leavest me—then pass at once, </l>
+       <l>'Tis the last, saddest, boon I ask of thee. </l>
+       <l>Say not farewell to me, but let me bid thee </l>
+       <l>Farewell. My woman's heart will have it so. </l>
+       <l>Speak not again—unclasp my hand—and now </l>
+       <l>(Oh, for one minute's strength, and then to die!) </l>
+       <l>Farewell!—God keep!—God bless my dear Ignatio! </l>
+      </lg>
+      <stage> [Exit Ignatio.</stage>
+      <lg>
+       <l>He is gone for ever. One—one moment more, </l>
+       <l>Return Ignatio. Lost Eulalia, what </l>
+       <l>Madness is this! Where is my resolution? </l>
+       <l>Oh! I must never hear that footstep more, </l>
+       <l>No, nor that voice, of which a single accent </l>
+       <l>Were as a drop of dew to the parch'd tongue </l>
+       <l>Of a thirst-dying wretch. I am friendless now; </l>
+       <l>A nameless wanderer; a cast-away </l>
+       <l>On the wide waters.</l>
+      </lg>
+     </sp>
+     <stage>Enter Child.</stage>
+     <sp who="#child">
+      <speaker>CHILD.</speaker>
+      <lg>
+       <l> Mother!</l>
+      </lg>
+     </sp>
+     <sp who="#eulalia">
+      <speaker>EULALIA.</speaker>
+      <lg>
+       <l> Oh! no, no, </l>
+       <l>Ingrate I am; is there not still a voice </l>
+       <l>Speaks comfort; and upon this little breast </l>
+       <l>Still I can drop sweet tears, and see his eyes </l>
+       <l>Weep when he sees mine weep, he knows not why? </l>
+       <l>Thou callest for thy father, my poor boy, </l>
+       <l>And he will hear us. Thou shalt kneel with me, </l>
+       <l>And lift thy little hands in aid of mine; </l>
+       <l>And on thy supplicating innocence, </l>
+       <l>Join'd to thy mother's tears, Heaven may look down </l>
+       <l>Haply with peace and pardon. Come, my child!</l>
+      </lg>
+     </sp>
+     <stage> [They retire, and the Scene closes.</stage>
+    </div>
+   </div>
+   <div type="act" n="5">
+    <head>ACT V.</head>
+    <div type="scene" n="1">
+     <head>SCENE I.</head>
+     <stage>—Interior of the Ducal Palace.</stage>
+     <sp>
+      <stage>Enter Giovanni</stage>
+      <lg>
+       <l> fill'd with dark misgivings. Even now </l>
+       <l>Methought the page I met avoided me; </l>
+       <l>And that the knave to whom I gave our horses, </l>
+       <l>Look'd strangely at me. Sanzio's absence is </l>
+       <l>Alarming. Has aught happen'd in the palace? </l>
+       <l>Or, as I fear, has treachery been abroad? </l>
+       <l>Whatever be th'event, my course is clear; </l>
+       <l>And so, as Heaven can witness, is my heart: </l>
+       <l>Why need he fear, whose rule is honesty?— </l>
+       <l>Count Beltran!</l>
+      </lg>
+     </sp>
+     <stage>Enter Beltran.</stage>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> Ha! Signor, you are well met.</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l>You're but a truant reveller, my lord, </l>
+       <l>To quit us at this hour.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> Not I—not I: </l>
+       <l>I can partake my fill—no stinted one— </l>
+       <l>And go; but truly I have no pretence </l>
+       <l>To the high glory of those Cavalieros, </l>
+       <l>Who, having beat the rounds, will sit it out </l>
+       <l>Till morn. I ne'er shall be a true night-scourer </l>
+       <l>Like you, sweet Signor! I must sleep, i' faith.</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l>Night-scourer?—Count, I understand you not.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>Or will not, Signor? cannot is as good; </l>
+       <l>For I can wait until your wisdom finds it. </l>
+       <l>Perchance the problem may be solved hereafter; </l>
+       <l>'Tis pity that the banquet's broken up.</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l>The banquet broken up?</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> Ay, sir; we lack'd </l>
+       <l>Your presence, and another's, whom I name not: </l>
+       <l>The master's absence ever cools the house, </l>
+       <l>At least it ought—Is that not your opinion? </l>
+       <l>Give you good even, Signor.</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l> Count, one word </l>
+       <l>Before you go. Your words I understand not, </l>
+       <l>Nor well your tone. I am no quarreller, sir; </l>
+       <l>But if you mean a sneer, I'll haply find </l>
+       <l>Fit comment for your text.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> You are learned, Signor; </l>
+       <l>And might, methinks—so manifold a linguist— </l>
+       <l>Evolve a thing so simple.</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l> Sir, permit me </l>
+       <l>To say again, I am no quarreller— </l>
+       <l>Mark me—but yet no monk. If insult be </l>
+       <l>Your meaning, as I think, in such a case, </l>
+       <l>There's but one argument.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> Ay?—Marry sir, </l>
+       <l>I'm curious to see it. Is it aught </l>
+       <l>Like that?</l>
+      </lg>
+     </sp>
+     <stage> [Half drawing his Sword.</stage>
+     <stage>Enter Frankendall.</stage>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> My lord, I am sorry to see this. </l>
+       <l>You quarrel, Signor, in the Ducal Palace!</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l>I seek it not; but if a breach is sought, </l>
+       <l>I'll find both time and place.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> As you please, Signor.</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l>I earnestly beg conference with your highness.</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l>I'll be no bar. I'm at your highness' bidding.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>Signor, your servant. </l>
+      </lg>
+      <stage> [Exit Giovanni.</stage>
+      <lg>
+       <l> Ceremonious Pandar! </l>
+       <l>What do'st thou want? Why did'st thou interrupt us? </l>
+       <l>What ghost hast thou seen now, thou look'st so grave on't?</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l>My lord, my lord, pull not more troubles down; </l>
+       <l>They may rain fast enough upon our heads! </l>
+       <l>We are alone. I must be brief, or better </l>
+       <l>Had hold my tongue for ever. Would I could! </l>
+       <l>Oh! I have heard a tale, my lord, which chills </l>
+       <l>My very tongue.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> A tale?—What hast thou heard?</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l>Would I could tell it in a word! for waste </l>
+       <l>Of time is murder now; at least it may be. </l>
+       <l>Just ere the feast was broken up, when you </l>
+       <l>Held conference with the Duke, the villain Sanzio </l>
+       <l>Buzz'd in mine ear, as still such reptiles do, </l>
+       <l>To curry worthless consequence, some tale </l>
+       <l>Of Prince Ignatio's secret. All the while </l>
+       <l>I heeded little, haply, being intent </l>
+       <l>On Leonora's bearing, and her eyes, </l>
+       <l>Which shot suspicion, mix'd with smother'd rage; </l>
+       <l>When suddenly a sound fell on my hearing, </l>
+       <l>Which fix'd me in attention, as if Gorgon </l>
+       <l>Had hiss'd me into stone. </l>
+       <l> The serpent told me </l>
+       <l>This poor unfortunate, then a girl, was brought </l>
+       <l>To Florence by a woman, her protectress— </l>
+       <l>Or else abducer—in mysterious manner, </l>
+       <l>Sometime about the sack of Modena.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>The sack of Modena!</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> 'Twas so, my lord; </l>
+       <l>You start; but yet be patient to the end. </l>
+       <l>—Their ducats, of the which they had some store, </l>
+       <l>It seems, were spent soon by a paramour, </l>
+       <l>Who left the hag, and her supposed daughter, </l>
+       <l>To starve. In short, the old duenna died; </l>
+       <l>But ere she died, it seems, at divers times </l>
+       <l>Threw out dark intimations, that her charge </l>
+       <l>Was not that which she seem'd; and there she sprung </l>
+       <l>Pre-eminent in grace, in form, in lustre, </l>
+       <l>Like some stray seedling which the winds have wafted </l>
+       <l>Far from the garden of its parent flowers; </l>
+       <l>A solitary bud. How Prince Ignatio </l>
+       <l>Found this deserted and most exquisite gem, </l>
+       <l>It were too long to tell.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> What was the name </l>
+       <l>Of this accursed hag?</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> She was call'd Zetti; </l>
+       <l>So, at the least, she call'd herself. Her tongue </l>
+       <l>Spoke her a Piedmontese.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> Where would'st thou lead me? </l>
+       <l>What horror's this, within whose sudden folds </l>
+       <l>Thou would'st entangle me?—Thou art my friend; </l>
+       <l>At least I think so; and thine honesty </l>
+       <l>Would not complot against me; howsoe'er, </l>
+       <l>Thou may'st have wish'd that, which is done, were not. </l>
+       <l>Thou said'st, “so, at the least, she call'd herself.” </l>
+       <l>Who calls her otherwise?—Were there any doubts?</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l>There were, my noble lord; yea, more than doubts, </l>
+       <l>Or Sanzio lies. He says, that he discover'd </l>
+       <l>(For the smooth hypocrite, as he well knows how, </l>
+       <l>Did cant himself into her confidence, </l>
+       <l>And filch'd the secret in a careless hour,) </l>
+       <l>Her true name was Letitia.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> What?</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> Spinelli.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>'Tis false! 'Tis most incredible—impossible; </l>
+       <l>Unless blind chance hath cast her film, and found </l>
+       <l>Eyesight o'th'sudden, and ta'en side against me! </l>
+       <l>There has been whispering.—Ay; some plotting knave </l>
+       <l>Has fashion'd and adapted this vile tale, </l>
+       <l>To scare off interference—To alarm </l>
+       <l>My feelings—I do see't. They are too late. </l>
+       <l>Thus do I spurn the lie. If there be traitors, </l>
+       <l>Woe to their heads.</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> My noble lord, you do </l>
+       <l>Your pleasure. I am not a whisperer; </l>
+       <l>Whether the knowledge come by craft or sorcery, </l>
+       <l>I am no traitor. Whence, then, could it come? </l>
+       <l>If your insinuations point at me, </l>
+       <l>Your highness shall permit me to say this, </l>
+       <l>That both mistrust and threats might well be spared. </l>
+       <l>I am no man either to feign or fear.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>Thou art not, Frankendall; and I have wrong'd thee. </l>
+       <l>My senses reel; I know not what I think. </l>
+       <l>Where is the Princess?</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> Ah! my lord; where is she? </l>
+       <l>The menials did confusedly deny her </l>
+       <l>To my inquiries; cold and short, but strange; </l>
+       <l>Fear and astonishment lock'd fast their lips; </l>
+       <l>They've found what stuff she's made of, e'en already: </l>
+       <l>Nor can I clue the villain Sanzio; </l>
+       <l>The Princess sent for him; he is not here. </l>
+       <l>Where'er he be, may apoplexy strike him, </l>
+       <l>Or swift paralysis wither him up, </l>
+       <l>And Heaven may still shew merciful!</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> What mean'st thou? </l>
+       <l>I charge thee, speak.</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> My lord, my noble lord, </l>
+       <l>Forgive my frankness; but you have unleash'd </l>
+       <l>Upon this trail—a tigress. Oh! beware </l>
+       <l>She tear not your own bosom.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> It is rent </l>
+       <l>Already; for thy words both pierce and poison. </l>
+       <l>I am struck down.</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> Oh! my dear lord, this business </l>
+       <l>Was not the work for you. Believe me, 'twas not. </l>
+       <l>Your highness is disorder'd. I conjure you, </l>
+       <l>Rally your spirits. Something must be done, </l>
+       <l>And quickly.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> Lead me where, do what, thou wilt; </l>
+       <l>But do not blame me—do not gaze upon me— </l>
+       <l>I am not fit to meet an honest eye. </l>
+       <l>We yet may be in time to save her—whom? </l>
+       <l>I dare not trust my tongue to utter it— </l>
+       <l>Her I would fain have murder'd.</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> My dear lord, </l>
+       <l>All may be well yet.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> Why, Heaven grant it may! </l>
+       <l>I shrink from seeing what I still must know. </l>
+       <l>Let us haste, Frankendall. O, fly, my friend.</l>
+      </lg>
+     </sp>
+     <stage> [Exeunt.</stage>
+    </div>
+    <div type="scene" n="2">
+     <head>SCENE II.</head>
+     <stage>—Interior of a Villa on the Arno.</stage>
+     <sp>
+      <stage>EULALIA alone.</stage>
+      <lg>
+       <l>Sleep, thou too art unkind. 'Tis a dread lot </l>
+       <l>To watch and weep throughout these desolate hours. </l>
+       <l>Ignatio, even thou dost not know how sad, </l>
+       <l>How helpless, heartless, fearful, solitary, </l>
+       <l>Is she whom all the world forsakes! Thou hast </l>
+       <l>Still many a refuge—Glory—business—power— </l>
+       <l>But woman—thou who art so oft cast off </l>
+       <l>Like a forsaken toy—whose very weakness </l>
+       <l>Should more ensure thee aid—What hap is thine? </l>
+       <l>Thy bosom, whilst thou art at peace, is like </l>
+       <l>The water's tranquil surface, that reflects </l>
+       <l>With joy the heaven which smilingly hangs o'er it; </l>
+       <l>But, when the blast once ruffles it, is dark, </l>
+       <l>And shews no sunshine more. </l>
+       <l> When I o'erlook </l>
+       <l>These once loved tokens, they but seem to say, </l>
+       <l>They must be look'd upon, be loved, no longer; </l>
+       <l>As this which glitters vainly round my neck, </l>
+       <l>By unknown and unknowing hands put on, </l>
+       <l>But mocks my destitution. </l>
+       <l> Oh! how is't? </l>
+       <l>But all seems changed around me; e'en this chamber </l>
+       <l>Shews like a tomb; and the night blast that sighs </l>
+       <l>And plains amid the well-remember'd trees, </l>
+       <l>Speaks with a stranger's voice. I start, and gaze, </l>
+       <l>And fear I know not what, I know not why— </l>
+       <l>Even like a wretch toss'd in a fev'rish dream, </l>
+       <l>Who struggles to fill up a painful blank </l>
+       <l>With shapeless terrors—whose abortive visions </l>
+       <l>Are horrible nothings, void of aught defined, </l>
+       <l>Save preternatural dread and restless strife. </l>
+       <l>Mine eyes, which nature fain would close in sleep, </l>
+       <l>Are stretch'd wide ope, as if in expectation </l>
+       <l>Of some mysterious doom; and my blood burns </l>
+       <l>And chills by starts—Horror!—I will recline </l>
+       <l>Once more upon my couch, and pray that sleep </l>
+       <l>May rest one moment on my harass'd eyelids, </l>
+       <l>Though frighted fancy wildly paint the curtain </l>
+       <l>With terrors worse than waking. Watch me, Heaven.</l>
+      </lg>
+     </sp>
+     <stage> [She sleeps.</stage>
+     <stage>Enter Leonora and Sanzio.</stage>
+     <sp who="#leonora">
+      <speaker>LEONORA.</speaker>
+      <lg>
+       <l>She sleeps, poor wretch!</l>
+      </lg>
+     </sp>
+     <sp who="#sanzio">
+      <speaker>SANZIO.</speaker>
+      <lg>
+       <l> She stirs—be swift—she wakes.</l>
+      </lg>
+     </sp>
+     <sp who="#eulalia">
+      <speaker>EULALIA.</speaker>
+      <lg>
+       <l>I say she moves—she moves—Look at her eyes; </l>
+       <l>Though she be stone, she is not dead!—A knife! </l>
+       <l>Ah! blood—Ignatio—fly. </l>
+      </lg>
+      <stage> [Wakes.</stage>
+      <lg>
+       <l> Where am I? 'Tis </l>
+       <l>A dream! Ah! no; 'tis real—and they have come </l>
+       <l>To murder me!</l>
+      </lg>
+     </sp>
+     <sp who="#leonora">
+      <speaker>LEONORA.</speaker>
+      <lg>
+       <l> Silence!—Set down the cup, </l>
+       <l>And whatsoe'er thou hearest, for thy life </l>
+       <l>Stir not.—Begone!</l>
+      </lg>
+     </sp>
+     <stage> [Exit Sanzio.</stage>
+     <sp who="#eulalia">
+      <speaker>EULALIA.</speaker>
+      <lg>
+       <l> Mercy!—What art thou?—Speak!</l>
+      </lg>
+     </sp>
+     <sp who="#leonora">
+      <speaker>LEONORA.</speaker>
+      <lg>
+       <l>That which I should not be for such as thou </l>
+       <l>To ask; but that which I shall not be long.</l>
+      </lg>
+     </sp>
+     <sp who="#eulalia">
+      <speaker>EULALIA.</speaker>
+      <lg>
+       <l>For what comest thou? Seek'st thou my life?</l>
+      </lg>
+     </sp>
+     <sp who="#leonora">
+      <speaker>LEONORA.</speaker>
+      <lg>
+       <l> Thy life! </l>
+       <l>Poor reptile, think'st thou I should condescend </l>
+       <l>To come for that?—Thy worthless life? I come </l>
+       <l>To vindicate insulted dignity— </l>
+       <l>To teach the princely serpent who dares violate </l>
+       <l>The honour and the peace of Leonora, </l>
+       <l>He shall not do it with impunity. </l>
+       <l>No; what he measures shall be meted back </l>
+       <l>With interest tenfold. I come for revenge!</l>
+      </lg>
+     </sp>
+     <sp who="#eulalia">
+      <speaker>EULALIA.</speaker>
+      <lg>
+       <l>On whom?</l>
+      </lg>
+     </sp>
+     <sp who="#leonora">
+      <speaker>LEONORA.</speaker>
+      <lg>
+       <l> On thy thin-blooded paramour </l>
+       <l>And thee.</l>
+      </lg>
+     </sp>
+     <sp who="#eulalia">
+      <speaker>EULALIA.</speaker>
+      <lg>
+       <l> Alas! Ignatio, where art thou?</l>
+      </lg>
+     </sp>
+     <sp who="#leonora">
+      <speaker>LEONORA.</speaker>
+      <lg>
+       <l>What! darest thou call him, even to my face?</l>
+      </lg>
+     </sp>
+     <sp who="#eulalia">
+      <speaker>EULALIA.</speaker>
+      <lg>
+       <l>I know it is as wrong in me to name him, </l>
+       <l>As thee to speak of him as thou hast done.</l>
+      </lg>
+     </sp>
+     <sp who="#leonora">
+      <speaker>LEONORA.</speaker>
+      <lg>
+       <l>I'll hear no more!—Down, insolent strumpet!—Die, </l>
+       <l>Worm, ere I trample on thee!</l>
+      </lg>
+     </sp>
+     <sp who="#eulalia">
+      <speaker>EULALIA.</speaker>
+      <lg>
+       <l> Mercy! Mercy! </l>
+       <l>Thou art a woman!</l>
+      </lg>
+     </sp>
+     <sp who="#leonora">
+      <speaker>LEONORA.</speaker>
+      <lg>
+       <l> Ay, an injured one! </l>
+       <l>Drink, or I'll drag forth thine unlawful brat— </l>
+       <l>I've heard of him—and poniard him before </l>
+       <l>Thy very face!</l>
+      </lg>
+     </sp>
+     <sp who="#eulalia">
+      <speaker>EULALIA.</speaker>
+      <lg>
+       <l> Oh, no, no, no; I'll die! </l>
+       <l>Spare but my child! Let but his mother's eyes </l>
+       <l>See him once more, or e'er they close, and use </l>
+       <l>Eulalia as thou wilt.</l>
+      </lg>
+     </sp>
+     <sp who="#leonora">
+      <speaker>LEONORA.</speaker>
+      <lg>
+       <l> No more—prepare!</l>
+      </lg>
+     </sp>
+     <sp who="#eulalia">
+      <speaker>EULALIA.</speaker>
+      <lg>
+       <l>But while I breathe one single prayer for him, </l>
+       <l>And for myself!</l>
+      </lg>
+     </sp>
+     <sp who="#leonora">
+      <speaker>LEONORA.</speaker>
+      <lg>
+       <l> Dispatch; or else this moment </l>
+       <l>Shall be the last of both!</l>
+      </lg>
+     </sp>
+     <sp who="#eulalia">
+      <speaker>EULALIA.</speaker>
+      <lg>
+       <l> Tigress!</l>
+      </lg>
+     </sp>
+     <stage> [She drinks.</stage>
+     <sp who="#leonora">
+      <speaker>LEONORA.</speaker>
+      <lg>
+       <l> 'Tis done! </l>
+       <l>Now, Minion, when thy whining hypocrite </l>
+       <l>Returns to visit thee, methinks he'll find thee </l>
+       <l>Colder than wont. </l>
+      </lg>
+      <stage> [Exit Leonora.</stage>
+     </sp>
+     <sp who="#eulalia">
+      <speaker>EULALIA.</speaker>
+      <lg>
+       <l> My child, my child—where art thou? </l>
+       <l>I cannot come to thee; my limbs have lost </l>
+       <l>Their ministrance already. The fell drug </l>
+       <l>Hath shared mine enemies' malice, and I feel </l>
+       <l>My moments must be few. Oh, for a little, </l>
+       <l>A little breath, and respite from this pain! </l>
+       <l>Grant, Heaven, he live to see a happier lot </l>
+       <l>Than his poor mother!—Shield, oh, shield my boy! </l>
+       <l>Forgive my murderer's trespass, and mine own! </l>
+       <l>I faint. </l>
+       <l> His voice!—his voice!—I cannot see him; </l>
+       <l>A cloud is on mine eyes; Ignatio— </l>
+       <l>Ignatio—I die—farewell, Ignatio!</l>
+      </lg>
+     </sp>
+     <stage> [She dies.</stage>
+     <sp who="#ignatio">
+      <speaker>IGNATIO, </speaker>
+      <stage>(without.)</stage>
+      <lg>
+       <l>Down, triple villain! Think'st thou blood like thine </l>
+       <l>Shall stain my conscience?—Down! </l>
+      </lg>
+      <stage>Enter Ignatio.</stage>
+      <lg>
+       <l> All-boding powers! </l>
+       <l>I am too late. Eulalia!—Death and hell </l>
+       <l>Have been beforehand with me! Oh! is't possible </l>
+       <l>Fate can have nipt the root, while yet the flower </l>
+       <l>Doth look so lovely?—All is over now! </l>
+       <l>Let me not curse; for curses, like the thunder, </l>
+       <l>Reverberate back again; and mine own weakness, </l>
+       <l>God knows, needs pardon. Yea, however difficult </l>
+       <l>It be to see this ruin, and refrain, </l>
+       <l>I will not—no, I will not imprecate </l>
+       <l>Those hottest judgments that must melt the hearts </l>
+       <l>Of stone that could do this. All that remains </l>
+       <l>Now, is to die; and let the after few, </l>
+       <l>Who, 'mid this turmoil, think it worth the while </l>
+       <l>To ask the end of poor Ignatio, </l>
+       <l>Spell out my story. There are precedents </l>
+       <l>Anew of tyrannous fates and broken hearts, </l>
+       <l>To help them through the breaks of this sad tale. </l>
+       <l>I can go calmly now, though never tongue </l>
+       <l>Bid peace be to my ashes. My forebodings, </l>
+       <l>If they were sad, have had their uses too; </l>
+       <l>And when to-night the blast moan'd strangely by, </l>
+       <l>And the huge ghastly moon seem'd nearer earth </l>
+       <l>Than is her use, as if she were drawn down, </l>
+       <l>Seeing some horrible and loathsome deed, </l>
+       <l>It arm'd me for the worst. 'Tis come; nor do I </l>
+       <l>Shrink from my purpose. I can now look back </l>
+       <l>On what hath pass'd, as age can do o'er childhood; </l>
+       <l>And if some warmer drops, at Nature's bidding, </l>
+       <l>Fall at the retrospect, they come almost </l>
+       <l>Like pleasureable tears. I am resolute— </l>
+       <l>If this be death, oh! who would fear to die? </l>
+       <l>Too beautiful—being mortal—fare thee well! </l>
+       <l>Thy love, to me, was like some airy strain, </l>
+       <l>That lightly floats upon the quiet night— </l>
+       <l>Brief snatch of harmony, which the ear drinks up </l>
+       <l>More sweetly for the darkness that surrounds it. </l>
+       <l>'Tis gone! but its soft memory shall bring me </l>
+       <l>More soothingly into the silent sleep </l>
+       <l>That cures my sorrow— </l>
+       <l> Ay, my dagger's best— </l>
+       <l>A cup!—not empty!—yet there's venom in't. </l>
+       <l>Poor victim! when thou left'st the horrid dregs </l>
+       <l>Of their superfluous malice, little thought'st thou </l>
+       <l>To whom thou didst bequeath them. </l>
+      </lg>
+      <stage> [He drinks.</stage>
+      <lg>
+       <l> It is past. </l>
+       <l>One kiss, before the felon poison steals </l>
+       <l>My breath away. Is it not innocent now? </l>
+       <l>Come, icy lips—Oh! pure as martyrdom, </l>
+       <l>And colder e'en than holiest charity, </l>
+       <l>And bless me, ere I die. Come, moveless hand, </l>
+       <l>And let me hold thee with my latest clasp; </l>
+       <l>And when mine eye fails, and my senses reel, </l>
+       <l>And the alarmed spirit scarcely hovers </l>
+       <l>Round its invaded seat—I'll think thou livest, </l>
+       <l>And die upon thy bosom, as I wish'd. </l>
+       <l>I sink e'en now; and a strange coldness runs </l>
+       <l>Through all my palsied limbs; strange noises rush </l>
+       <l>To my appalled ears; and the cold drops </l>
+       <l>Are trickling down my temples. </l>
+       <l> One pang more, </l>
+       <l>Eulalia, and I join thee, if Heaven wills. </l>
+       <l>I die—not yet—Voices? I hear them now; </l>
+       <l>If they be enemies, I yet have breath </l>
+       <l>And strength to awe back murder. Ha! </l>
+      </lg>
+      <stage> [He falls.</stage>
+      <lg>
+       <l> Giovanni! </l>
+       <l>'Tis over, my Giovanni!—Thou hast come </l>
+       <l>In time to see me die! </l>
+      </lg>
+      <stage>Enter Giovanni and the Duke.</stage>
+      <lg>
+       <l> My father! Oh! </l>
+       <l>While yet mine ear hath life to drink the sound, </l>
+       <l>Pardon!</l>
+      </lg>
+     </sp>
+     <sp who="#duke">
+      <speaker>DUKE.</speaker>
+      <lg>
+       <l> Ay, ten times pardon; only live, </l>
+       <l>My boy! my wrong'd Ignatio!</l>
+      </lg>
+     </sp>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <lg>
+       <l> 'Tis too late; </l>
+       <l>Death is too potent for obedience </l>
+       <l>To aught excepting him. Thou weep'st, Giovanni, </l>
+       <l>And seem'st to look that this should not have been.</l>
+      </lg>
+     </sp>
+     <sp who="#giovanni">
+      <speaker>GIOVANNI.</speaker>
+      <lg>
+       <l>My looks may not be, but my tears are true.</l>
+      </lg>
+     </sp>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <lg>
+       <l>Look there; look there; and let that answer thee. </l>
+       <l>Philosophy hath no balm for broken hearts; </l>
+       <l>And when I kiss'd her pale and clay-cold lips, </l>
+       <l>I could not think them marble. </l>
+       <l> Raise me up, </l>
+       <l>That I may gaze upon them once again, </l>
+       <l>Before mine eyes be gone, for they wax dim.</l>
+      </lg>
+     </sp>
+     <stage>Enter Beltran and Frankendall.</stage>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>If her tongue spoke not, yet her eyes glared death— </l>
+       <l>I'll see the worst, although these bloody stains </l>
+       <l>Shew murder hath been here. </l>
+       <l> Ha! Is it death? </l>
+       <l>Look, Frankendall, for I dare look no more; </l>
+       <l>And tell me that this horror cannot be.</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l>Be calm, my lord.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> Calm! Look upon that brow, </l>
+       <l>Those marble lips and bloodless lineaments— </l>
+       <l>Oh, God! it is my mother's monument! </l>
+       <l>Yet, if 'twere she, would not my very gaze </l>
+       <l>Make the blood ooze from forth her innocent veins? </l>
+       <l>I'm desperate, and I will be satisfied.— </l>
+       <l>My friend, lift up that lock that lies upon </l>
+       <l>The snowy temple—there—and tell me what </l>
+       <l>Thou see'st; for worlds durst I not touch that brow. </l>
+       <l>Do'st thou see aught?</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> A scar, my noble lord— </l>
+       <l>A faint blue scar, as from some hap of childhood.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>Where?</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> Here, my noble lord—Look not again; </l>
+       <l>You are much moved.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> It is—it is my sister! </l>
+       <l>It chokes me—does it not? But I shall scarce </l>
+       <l>Speak it again. I should have died or e'er </l>
+       <l>I spoke the word—nor is it fit I live </l>
+       <l>A breath beyond it. She is dead; and I </l>
+       <l>Have murder'd her.</l>
+      </lg>
+     </sp>
+     <sp who="#frankendall">
+      <speaker>FRANKENDALL.</speaker>
+      <lg>
+       <l> What would you do, my lord?</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>Mark you—He dies, who would have given his life </l>
+       <l>To lengthen hers one hour; and shall I live </l>
+       <l>To crawl, like Cain, abhorr'd and unforgiven? </l>
+       <l>Stand off!</l>
+      </lg>
+     </sp>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <lg>
+       <l> I hear the voice of pain, but not </l>
+       <l>Its import. Who is he talks of forgiveness? </l>
+       <l>If that he hath been enemy of mine— </l>
+       <l>For I have had too much of enmity— </l>
+       <l>I do forgive him.</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l> Thou?—First hear me; then </l>
+       <l>If thou forgiv'st me, there is hope of Heaven. </l>
+       <l>I am thy rival, and thine enemy; </l>
+       <l>The secret underminer of thy peace; </l>
+       <l>The envious cloud that overcast thy morn, </l>
+       <l>And turn'd it into tears; the worm that pierced </l>
+       <l>The heart of the sweet blossom of thy love; </l>
+       <l>The blight that struck the harvest of thy hopes; </l>
+       <l>Thy traitor brother; thy Eulalia's murderer! </l>
+       <l>Now, if thou dar'st, forgive me!—Thou do'st well </l>
+       <l>To pause.</l>
+      </lg>
+     </sp>
+     <sp who="#ignatio">
+      <speaker>IGNATIO.</speaker>
+      <lg>
+       <l> I do forgive thee—for revenge </l>
+       <l>Is not for me. One thing before I die— </l>
+       <l>Ere the strong poison hath expell'd my spirit, </l>
+       <l>Go, yonder, and bring hither my dear boy. </l>
+      </lg>
+      <stage> [Exit Giov.</stage>
+      <lg>
+       <l>I trouble you—but it will not be long. </l>
+       <l>Turn me a little, that mine eyes may see </l>
+       <l>What they would dwell on latest, till they close; </l>
+       <l>When I have pass'd, let those who must perform </l>
+       <l>The last most awful office to the dead, </l>
+       <l>Outstretch us, side by side.</l>
+      </lg>
+     </sp>
+     <sp>
+      <stage>Enter Giovanni, with the Boy.</stage>
+      <lg>
+       <l> My boy!—I faint— </l>
+       <l>Let me, before I'm dark, have strength to see </l>
+       <l>My father's hand upon my infant's head. </l>
+       <l>I die content. Bless him! oh, bless him! bless him!</l>
+      </lg>
+     </sp>
+     <stage> [He dies.</stage>
+     <sp who="#duke">
+      <speaker>DUKE.</speaker>
+      <lg>
+       <l>Oh! lay him gently down—'tis over—I </l>
+       <l>Am childless now. Why dost thou kneel to me?</l>
+      </lg>
+     </sp>
+     <sp who="#beltran">
+      <speaker>BELTRAN.</speaker>
+      <lg>
+       <l>To know if haply penitent humbleness </l>
+       <l>May buy one drop of respite to my soul, </l>
+       <l>Before I go from hence, to seek some place </l>
+       <l>Where I might die, who cannot live with honour.</l>
+      </lg>
+     </sp>
+     <sp who="#duke">
+      <speaker>DUKE.</speaker>
+      <lg>
+       <l>Thy father was a brave and noble soldier; </l>
+       <l>And if thou diest like him, he could not wish thee </l>
+       <l>A better death. Judgment is not for us. </l>
+       <l>Fate hath been here at work, as well as thou; </l>
+       <l>And we must bow submissive. </l>
+       <l> Here, even here, </l>
+       <l>Yea, in the presence of that innocent victim, </l>
+       <l>And my dead son—whose souls, now reunited, </l>
+       <l>Hover above, and witness what I say— </l>
+       <l>Let it be comfort in thine agony, </l>
+       <l>To know I do remit thee. Rise, and go; </l>
+       <l>And Heaven have mercy on thee. But, oh! never </l>
+       <l>Be voice of thine heard by this ear again! </l>
+       <l>If I can pardon, I cannot forget. </l>
+       <l>Begone—before I turn mine eyes that way, </l>
+       <l>To the remembrance that I was a father!</l>
+      </lg>
+     </sp>
+    </div>
+   </div>
+  </body>
+ </text>
+</TEI>

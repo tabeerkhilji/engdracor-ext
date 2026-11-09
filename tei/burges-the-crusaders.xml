@@ -1,0 +1,3295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id" xml:lang="eng">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">The crusaders</title>
+    <author>
+     <persName>
+      <forename>James Bland</forename>
+      <surname>Burges</surname>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>ProQuest</name>
+     <idno type="URL">https://www.proquest.com/books/crusaders-1817/docview/2138573768/se-2?accountid=14632</idno>
+     <idno type="proquest">LION2138573768</idno>
+    </bibl>
+    <bibl type="originalSource">
+     <author>Burges, James Bland</author>
+     <title type="main">The crusaders</title>
+     <title type="volume">Dramas, By Sir James Bland Burges</title>
+     <publisher>Printed for Edward Kerby [etc.]</publisher>
+     <pubPlace>London</pubPlace>
+     <date type="print" when="1817">1817</date>
+     <note type="citation">Burges, James Bland: The crusaders (1817). In: Dramas, By Sir James Bland Burges. Printed for Edward Kerby [etc.]: London 1817</note>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="albert">
+      <persName>ALBERT</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="ambrose">
+      <persName>AMBROSE</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="arthur">
+      <persName>ARTHUR</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="baron">
+      <persName>BARON</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="clare">
+      <persName>CLARE</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="ethelinde">
+      <persName>ETHELINDE</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="geoffry">
+      <persName>GEOFFRY</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="hildebrand">
+      <persName>HILDEBRAND</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="matilda">
+      <persName>MATILDA</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="maurice">
+      <persName>MAURICE</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="omnes">
+      <persName>OMNES</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="reginald">
+      <persName>REGINALD</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="servant">
+      <persName>SERVANT</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="simkin">
+      <persName>SIMKIN</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1817">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text>
+  <front>
+   <castList>
+    <label>DRAMATIS PERSONÆ.</label>
+    <castItem>
+     <role>The Earl of Clare.</role>
+    </castItem>
+    <castItem>
+     <role>Baron Von Poppindorff.</role>
+    </castItem>
+    <castItem>
+     <role>Sir Albert de Mortimer.</role>
+    </castItem>
+    <castItem>
+     <role>Sir Reginald de Clifford.</role>
+    </castItem>
+    <castItem>
+     <role>Sir Hildebrand, Attendant on the Baron.</role>
+    </castItem>
+    <castItem>
+     <role>Father Ambrose, Almoner at Clare Castle.</role>
+    </castItem>
+    <castItem>
+     <role>Maurice, Esquire to Sir Albert.</role>
+    </castItem>
+    <castItem>
+     <role>Geoffry, Butler at Clare Castle.</role>
+    </castItem>
+    <castItem>
+     <role>Arthur, Porter there.</role>
+    </castItem>
+    <castItem>
+     <role>Simkin, Servant to the Baron.</role>
+    </castItem>
+    <castItem>
+     <role>Ethelinde, Daughter to the Earl of Clare.</role>
+    </castItem>
+    <castItem>
+     <role>Matilda, her Attendant.</role>
+    </castItem>
+    <castItem>
+     <role>Servants, Peasants, &amp;c.</role>
+    </castItem>
+   </castList>
+   <set>
+    <p>Scene—Clare Castle, and its Vicinity.</p>
+   </set>
+  </front>
+  <body>
+   <div type="act" n="1">
+    <head>ACT I.</head>
+    <div type="scene" n="1">
+     <head>SCENE I.</head>
+     <stage>An Apartment in Clare Castle.</stage>
+     <stage>Enter Matilda.</stage>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>What a horrible dull place this old castle is! Not a soul worth looking
+                            at, and nobody to speak to either, but the old earl and father Ambrose.
+                            I'm sure, if I were my young lady, I'd no more stay to be pent up with
+                            such a set of frights—</p>
+     </sp>
+     <stage>Enter Ethelinde.</stage>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>Heigho!</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>Heigho?—That's a melancholy note, ma'am; worse than the cuckoo's in a
+                            rainy June. The very sound of it puts me in the vapours.</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>I'm very uncomfortable.—Heigho!</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>Nay, you must not go on in this way; you'll make yourself ill in good
+                            earnest. You have no idea how it alters you. I'll be hang'd if my lord
+                            does not begin to suspect—</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>Good heavens! What do you mean?</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>I'll tell you, ma'am. I happen'd to meet him yesterday in the long
+                            gallery. “Can you tell me,” said he, “what makes my daughter look so
+                            shockingly?”—He said so indeed, ma'am.—Then, ma'am, he went on. “I
+                            suspect,” said he, “that all is not right here.” And with that he
+                            thump'd his breast and star'd me full in the face. “I'm sorry,” said I,
+                            “that your lordship has any thing the matter with you there; you'd
+                            better,” said I, “take some advice; father Ambrose,” said I—“Father
+                            fiddlestick,” cried he: “I mean my daughter, hussy!” said he—“Poor dear
+                            lady,” said I, “she can do you no good.”—“But I can do her some good,”
+                            said he; “a husband,” said he—</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>How you alarm me—Surely either you or father Ambrose must have dropt some
+                            hints—</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>I, ma'am!—If ever I dropt a syllable either about Sir Albert, or Maurice,
+                            or your secret marriage, or my own—</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>Hush, my dear girl! don't talk so loud.</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>For me to blab indeed! Or for father Ambrose—</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>I believe you; but every thing alarms me. Alas! What have I not suffer'd,
+                            during the three tedious years since my Albert was torn from me! Never
+                            once to have heard from him, not even to know whether he yet be living—</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>I'm sure, ma'am, I've a fellow feeling with you; for, if you have lost
+                            Sir Albert, I have lost my poor Maurice, and a kind-hearted soul he was,
+                            and a good husband too, though he was no gentleman. But why do I say
+                            so?— For he was promoted to be Sir Albert's esquire in the Holy Land,
+                            and that's a gentleman's post. But come, ma'am, keep up your spirits.</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>That is beyond my power. Even hope itself seems to have abandon'd me.</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>Heaven forbid! It's the best friend we have.</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>Aye, girl, but like many other friends, it is apt to desert us when we
+                            most require its aid.</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>Well, after all, 'twould be some comfort to know whether our husbands are
+                            likely to come back to us.</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>Fie, Matilda, what a way of talking!</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>Lord! ma'am, how hastily you take one up. I was thinking what Sir
+                            Reginald would say—</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>Sir Reginald! What's he to me?</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>Not so much, poor man, as I fancy you are to him. He does so look at you,
+                            and sigh—and he's a handsome man, ma'am, and a generous one too let me
+                            tell you.</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>What is all this to me?</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>Nay, ma'am, I don't know; but in my mind, if he were not so serious, he
+                            would be a very pretty fellow.</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>If you go on in this way, I shall begin to suspect you—</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>Me, ma'am! I wish I may never have worse luck. No, no! he flies at higher
+                            game.</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>How you rattle! Sir Reginald is a gallant gentleman and my father's
+                            friend; but as for thinking of me, thank heaven! that is out of the
+                            question. But hark! Some one's coming I am sure.</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>Dear ma'am! Nothing but a rat in the old wainscot.</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>Nay, I am sure there is some one. As I live, my father and Sir Reginald.
+                            Don't you see them in the gallery?</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>Sure enough they are there. If my lord is not giving him the history of
+                            old Sir Topaz and his picture! Don't be alarm'd, ma'am, they can't have
+                            heard a word. There, sit down and take your work—I'll sing you the ditty
+                            of Poor Ellen, and that will look natural, you know.</p>
+     </sp>
+     <stage> [Sings.</stage>
+     <stage>Enter the Earl of Clare and Sir Reginald.</stage>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Heyday! here's a catterwauling!—I didn't know thou hadst this talent.</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>Oh my lord! I have many perfections which your lordship has not been able
+                            to find out yet.</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Certainly I have not made the discovery. Well, Ethy, so you did not
+                            expect us—we stole a march upon you.</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>I did not expect your lordship so soon.</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Why you seem sad, love.</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>Matilda was singing a pathetic ballad, sir, of an unfortunate maiden,
+                            whose father tore her from her lover. It happen'd long ago.</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Aye, I dare say. I've heard of such fathers. An old niggardly hunks, I
+                            warrant me. Fathers now-a-days are different sort of creatures.
+                            Come—don't look so grave. I'm not such a miserable, tyrannical puppy; I
+                            love my dear girl too well to treat her in that way. I can feel for you—</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>Oh! your lordship's tender feelings are well known.</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Not better than your assurance, Mrs. Pert! My tender feelings
+                            indeed!—Lookye, Ethy, so far from depriving thee of a lover, child, I
+                            wish to give thee one.— Come, come, never look so shy; I know it all—all
+                            about that little heart—You thought I couldn't find it out.</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>Lack-a-day, my lord, you distress my lady so—it's not fair to joke about
+                            serious matters.</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>No, Ethy, I'm quite serious, I assure you; never more so in the whole
+                            course of my life. I have a husband for you, my girl—</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>I hope your lordship will go through with your good work, and give me my
+                            hushand too.</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>So! the disorder runs in the family, does it? Aye, aye, you may take him
+                            if you please, and I wish him joy of his bargain. But now, Ethy, to our
+                            business. What would you say now, if I were to throw you at once into a
+                            husband's arms?</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>How—where—</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Just by, love—close at hand—</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>Oh dear sir! keep me not in suspense—say—say when, how came he?</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Half an hour ago—on horseback—</p>
+      <stage>(to Reginald)</stage>
+      <p>— Now's your time—now or never—</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>But, my lord, you see my lady's impatience. It's quite cruel of you to
+                            keep her in suspense.</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Egad! that's true—so it is indeed.—Well, Ethy, my dear, to make you happy
+                            at once, here he is!—</p>
+      <stage>(To Reginald)</stage>
+      <p> Now for a look and a speech—kneel, you happy dog!</p>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <p>How shall I find words, madam—but heavens! you tremble, madam, you—</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>Stand out of the way—What's the matter, madam?</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Nothing in the world but over joy. Leave her to me.</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>Lean upon me, ma'am.—Pray, my lord, don't speak to her.</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>Matilda, is it you?—My head feels quite confus'd—I hardly know where I
+                            am—</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>In the drawing-room, dear, at the end of the gallery.</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>Oh my dear father! if you have any compassion—if you love me—</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Love thee, Ethy! Why thou know'st I do, and so will Sir Reginald too.</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>How can you go on so, my lord? Don't you see my lady is getting worse
+                            again?</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Well, child—best go into the fresh air—sudden joy sometimes takes this
+                            turn. Go with her, Matilda—But hark thee—now we understand one another,
+                            the sooner the business is finish'd the better. We'll have the wedding
+                            to-morrow morning.</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>Name not to-morrow!</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>No! why not? Is not to-morrow as good as any other day? You little
+                            simpleton! making such a fuss about nothing—</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>Do let me speak to you, sir—</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>No sort of occasion—we understand you perfectly— there—get you gone—I'll
+                            take care of every thing— leave it all to me— </p>
+      <stage> [Exeunt Ethelinde and Matilda.</stage>
+      <p> Toll loll de roll! </p>
+      <stage>(Sings).</stage>
+      <p> Well, Reginald, you see I've done your business.</p>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <p>I wish, my lord, I could discover such cause for triumph.</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Why you've no more penetration—she could not conceal it. Not perceive her
+                            affection was fix'd?</p>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <p>Not on me, I fear.</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Not on you, sir? On whom else should it be fix'd?</p>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <p>That is more than I know. But her visible confusion—</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Pshaw! What a novice in love must you be, not to discover the trick of
+                            all that? She forgot herself a little for a moment, I must confess;
+                            though, when the first burst was over, she brought herself off in a
+                            great stile. Let the women alone for that, egad! There's not one of
+                            'em—Her mother, poor dear woman! did just the same, when her father
+                            announc'd me as her future husband.</p>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <p>But, my lord, if my conjecture should prove true—</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Don't plague me with your Iffs, don't put me out of temper, when I never
+                            was so well pleas'd in my life; but go—do your duty—enquire after her
+                            health—do what you please—but get out of my way, for I must hold a
+                            council of war with my subaltern officers about the feast to-morrow.
+                            Egad! I'll make old Clare Castle ring again.—</p>
+      <stage>[Exit Reginald.]</stage>
+      <p>—Geoffry! Arthur!—What a cold blooded fellow that is now—Geoffry, I
+                            say!—Where are all the knaves?</p>
+     </sp>
+     <stage>Enter Geoffry and Arthur.</stage>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>Did your lordship's honour call?</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Yes, my lordship's honour did call; and where were you, ye idle knaves,
+                            that you didn't come when I call'd?</p>
+     </sp>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>I'll tell your lordship's honour all about it. We were sitting in the
+                            buttery, my lord, Arthur and I, just comfortable like as it were,
+                            drinking your worshipful honour's health in a horn of ale; for, said I
+                            to Arthur—</p>
+     </sp>
+     <sp who="#arthur">
+      <speaker>ARTHUR.</speaker>
+      <p>No, that's not it neither—I'll tell your lordship how it was. Says I to
+                            Geoffry, Geoffry, says I—</p>
+     </sp>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY </speaker>
+      <stage>(to Arthur).</stage>
+      <p>Have you no more manners than to stand prating thus? Can't you learn of
+                            me? When do I put in my oar?—</p>
+      <stage>(to Clare)</stage>
+      <p> It was all as I told your noble lordship; for, says I to Arthur—</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>With all my soul. Do hold your tongue, and attend to me. I am about to
+                            marry my daughter to Sir Reginald de Clifford, and have fix'd on
+                            to-morrow morning for the wedding—</p>
+     </sp>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>Arthur, give me thy hand, my brave boy!</p>
+     </sp>
+     <sp who="#arthur">
+      <speaker>ARTHUR.</speaker>
+      <p>Take it, i'faith! This is rare news. We shall have noble sport.</p>
+     </sp>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>We'll make the cellar bleed. Rare humming ale—</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Aye, aye, all in good time, and plenty of it too. But now for my orders.
+                            In the first place, let all care and anxiety be banish'd from the castle
+                            and its neighbourhood. When my own heart is light, no other shall be
+                            heavy if I can help it. So let a general holiday be proclaim'd.</p>
+     </sp>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>Ah bless your worship's honour! Let Geoffry alone for that.</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Let all comers have free welcome.</p>
+     </sp>
+     <sp who="#arthur">
+      <speaker>ARTHUR.</speaker>
+      <p>I warrant me. That's my look out as porter.</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>And d'you hear, Geoffry. You must away to the town, and order in a fresh
+                            supply. Let there be plenty of every thing.</p>
+     </sp>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>I'll be off directly.</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Hark ye, Arthur, we'll have the minstrels.</p>
+     </sp>
+     <sp who="#arthur">
+      <speaker>ARTHUR.</speaker>
+      <p>There's not one within twenty miles of the castle who shall be absent. I
+                            know their haunts—Giles Grinder, Simon Squeak, and the rest of
+                            them.—Odds my life! we'll foot it merrily.</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Well, set about it. Away, away!</p>
+     </sp>
+     <stage> [Exeunt.</stage>
+    </div>
+    <div type="scene" n="2">
+     <head>SCENE II.</head>
+     <stage>Court Yard of the Castle.</stage>
+     <stage>Enter Father Ambrose.</stage>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>Every thing seems to be in a state of confusion. I can't make out what is
+                            going forward. I met Sir Reginald e'en now. “Give you the good day, Sir
+                            Knight,” cried I. “Good day!” quoth he, “that's as it may prove,” and
+                            off he bounc'd like an arrow from a cross bow. I met Geoffry our butler,
+                            bustling along with a face full of care. “Master Geoffry,” quoth I,
+                            “what's the news?”—“News enough,” quoth he, “beef, mutton, hog's
+                            puddings”—and poph! off he bounc'd too.—So, here comes Arthur.
+                            Peradventure he may be more reasonable.</p>
+      <stage>Enter Arthur, singing and dancing.</stage>
+      <p>Well met, honest Arthur; thou art merry this morning. I would have a
+                            little talk with thee.—Why what is the matter with thee?—Stand still,
+                            thou naughty knave, and tell me what hath happen'd.</p>
+     </sp>
+     <sp who="#arthur">
+      <speaker>ARTHUR.</speaker>
+      <p>Marry, that I will. Great news, my master, rare news, i'faith!—Have you
+                            heard it?</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>Heard what?</p>
+     </sp>
+     <sp who="#arthur">
+      <speaker>ARTHUR.</speaker>
+      <p>Why the news.—I could have sworn now that his reverence Father Ambrose,
+                            chaplain and almoner of this here castle—</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>But the news—</p>
+     </sp>
+     <sp who="#arthur">
+      <speaker>ARTHUR.</speaker>
+      <p>Aye, marry, the news—Now what does your reverence think the news is?</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>That would I learn from thee.</p>
+     </sp>
+     <sp who="#arthur">
+      <speaker>ARTHUR.</speaker>
+      <p>Why the news is—</p>
+      <stage>(A loud knocking at the gate)</stage>
+      <p>—Od's my life! that's a knock of authority.—The news is— </p>
+      <stage>(Knocking again)</stage>
+      <p>—Nay, if thou art in a hurry I am not —As I was saying, the news is—</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>Fie, Arthur, linger not thus, but open the gate.— </p>
+      <stage>(Knocking again)</stage>
+      <p>—Nay, now it passes—</p>
+     </sp>
+     <sp who="#arthur">
+      <speaker>ARTHUR.</speaker>
+      <p>So doth not he who knocks. But to pleasure thee, father, I will perform
+                            my function.</p>
+     </sp>
+     <stage> (He opens the gate.</stage>
+     <stage>Enter Sir Hildebrand.</stage>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>How now, thou untaught peasant! Am I, Sir Hildebrand, to wait thy ignoble
+                            leisure?</p>
+     </sp>
+     <sp who="#arthur">
+      <speaker>ARTHUR.</speaker>
+      <p>What's that? Untaught peasant? Ignoble leisure? Who are you?</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>I have the honour to be the representative of the most illustrious lord
+                            the Baron Von Poppindorff.</p>
+     </sp>
+     <sp who="#arthur">
+      <speaker>ARTHUR.</speaker>
+      <p>What, little Poppindorff, the Jew broker, who bought young Scatterall's
+                            ruin'd castle at t'other end of the forest?—I'll tell thee what,
+                            Hildebrand—</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>What means the boor?</p>
+     </sp>
+     <sp who="#arthur">
+      <speaker>ARTHUR.</speaker>
+      <p>Boor in thy teeth, if thou com'st to that—</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>Nay, I pray thee, Arthur, restrain thyself. Be pleas'd, sir, to acquaint
+                            me with thy purpose.</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>I come to announce the Baron's immediate approach. His lordship would
+                            confer with the Earl of Clare.—</p>
+      <stage>(A bugle without.)</stage>
+      <p> —As I live he is arriv'd, and no preparation, no one in the way to
+                            receive his lordship, not a soul, as I hope to be sav'd.—</p>
+      <stage>(To Arthur).</stage>
+      <p>—Wilt thou stir? Wilt thou announce his lordship's approach?</p>
+     </sp>
+     <sp who="#arthur">
+      <speaker>ARTHUR.</speaker>
+      <p>Not I. Announce it thyself, Hildebrand. This is my station.</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>I will report thy contumacy to my lord the baron.</p>
+     </sp>
+     <sp who="#arthur">
+      <speaker>ARTHUR.</speaker>
+      <p>A fig for the baron!</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>Give over, I pray. I will myself give the proper directions.</p>
+     </sp>
+     <stage> [Exit.</stage>
+     <stage>Enter Baron Von Poppindorff and three Servants.</stage>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>What is all dish? Nopoty in the way? Where is Sir Hildeprant?</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND </speaker>
+      <stage>(bowing).</stage>
+      <p>Here, my good lord.</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>Here, my goot lort!—For why you think I keep a you for, that there is not
+                            nopoty to receive a me?</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>My very good lord, blame not me. The fault was not mine. But this
+                            ill-manner'd porter—</p>
+     </sp>
+     <sp who="#arthur">
+      <speaker>ARTHUR.</speaker>
+      <p>Nay, the fault was all his own.</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>Believe him not, most gracious lord. He is a foul-mouth'd varlet. Nay, he
+                            revil'd your noble lordship with his filthy phrases. “A fig for the
+                            baron,” said he—</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>A fig for the baron! And pray what was you do, when he say a fig for the
+                            baron?</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>I—I—my lord, I was about to chastize him.</p>
+     </sp>
+     <sp who="#arthur">
+      <speaker>ARTHUR.</speaker>
+      <p>'Tis well for thee thou wert only about it. By this staff of office—</p>
+     </sp>
+     <stage>Enter Father Ambrose.</stage>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>What is towards now? Arthur, what means this?</p>
+     </sp>
+     <sp who="#arthur">
+      <speaker>ARTHUR.</speaker>
+      <p>Nay, an I know.</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>Put down thy staff, and keep the peace.—My lord, the Earl is at present
+                            occupied, and may not be interrupted; but, 'till he shall be at leisure,
+                            I request your lordship to enter and repose yourself.</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>I am varra mush ill-treated, sir—a baron of Yarmany!</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>I pray you, my lord, be appeas'd.</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>No, sir, I will not be appeas'd. I will teach a you all—A baron of
+                            Yarmany indeed!</p>
+     </sp>
+     <stage> [Exeunt.</stage>
+    </div>
+    <div type="scene" n="3">
+     <head>SCENE III.</head>
+     <stage>A Forest.</stage>
+     <stage>Enter Sir Albert and Maurice, as Pilgrims.</stage>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>Stay, good Sir Albert—have a little compassion on your faithful servant,
+                            who has follow'd you so long over these rough cross roads, that the
+                            sight of a shady grove, where he may rest his weary limbs, and hold a
+                            little private consultation with the contents of his knapsack, is a
+                            temptation there is no resisting.</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>Courage, good Maurice.</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>Why, as for courage, neither I nor any of my generation ever wanted their
+                            proper share of it. But the foes we have to deal with now give
+                            themselves mighty little concern, about either big looks or hard blows.
+                            Hunger and weariness are enemies, which in the long run will come off
+                            victorious. For my part, I'll dispute the matter no longer with
+                            them.—Here's as pretty a bank to repose upon—</p>
+     </sp>
+     <stage> (Sits down and takes out a bottle.</stage>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>For shame! Relax now, when we are almost arriv'd at our journey's end?
+                            Don't you see Clare Castle just before you, and don't you know what
+                            treasures it contains?</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>Perfectly; and I know too what treasures this contains. Won't you taste
+                            it, sir?</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>Not if it were nectar! I have no appetite, no sense for any thing, but
+                            for the joys which my fond imagination pictures. Ah! if you felt like me
+                            the mix'd sensations of transport and anxiety, which fill my bosom when
+                            I review those well known walls after an absence of three years—</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE </speaker>
+      <stage>(rising).</stage>
+      <p>Three years! On my word, 'tis a long interval, during which a number of
+                            curious things may have occurr'd. Not that I would insinuate aught
+                            against the lady Ethelinde—</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>Breathe not a sound which may impeach her faith!</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>Heaven defend me from such profanation!—And yet, when I think of three
+                            years—But hold—Who comes here?—I should know the—As I live, sir, old
+                            Geoffry, the drunken butler from the castle. Let's stop him, sir, and
+                            make some enquiries before we proceed.—Odso! you have forgot your
+                            whiskers—So—now you are pretty well transmogrified.—He seems in a mighty
+                            hurry—</p>
+     </sp>
+     <stage>Enter Geoffry.</stage>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>Plague on it! this service is fatiguing; and then there's such a number
+                            of things to remember.—</p>
+      <stage>(Takes out his tablets)</stage>
+      <p> —Let me see—aye—the butcher—hum— the baker—aye—grocer, gamekeeper,
+                            cook—Egad! he's at work already, with his whole army of scullions,
+                            pellmell, slashing away, spits, pans, pots—But I must get on. 'Twill be
+                            noon presently—Heyday! whom have we here? Pilgrims?</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>Kind sir, we are bound to our lady of Walsingham, to return thanks for
+                            our safe arrival from the Holy Land. But we are strangers, sir, and have
+                            lost our way in the forest. Pray what castle may that be?</p>
+     </sp>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>What, not know Clare Castle! You must be strangers indeed. But you are
+                            come in good time—There's rare work going on there now—plenty of good
+                            eating and drinking. You shall have your share. All comers are welcome.</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>May we presume to ask, kind sir, what has occasion'd all this festivity?</p>
+     </sp>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>You may. None can tell you so well as I. Do you know me?</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>Alas! sir, we are strangers.</p>
+     </sp>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>Not know me! That's good i'faith!—Well to see now—Not know old Geoffry,
+                            the butler of Clare Castle, and now appointed steward of the feast,
+                            that's to be held in honour of the lady Ethelinde's wedding!</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT. </speaker>
+      <stage>(aside).</stage>
+      <p>Confusion! Ethelinde's wedding!</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE </speaker>
+      <stage>(to Albert).</stage>
+      <p>Be patient—</p>
+      <stage>(to Geoffry)</stage>
+      <p>—the lady who, sir, was you pleas'd to say?</p>
+     </sp>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>The Lady Ethelinde, only daughter and sole heiress of the Earl of Clare.
+                            To-morrow's her wedding day, i'faith! There's monstrous preparation
+                            making—all the country invited—fat oxen kill'd—sheep, pigs, lambs,
+                            ducks, capons, pullets—minstrels, morice dancers, mummers,
+                            strummers—nobody idle—all at work—men and boys—woman and maids—But I'm
+                            in a vast hurry— I must away to the town, to buy stores and all manner
+                            of provisions—sugar, salt, spices, pepper, ginger, nutmeg, cinnamon and
+                            cloves, oranges and lemons, quince marmalade and currant jelly. I've not
+                            a moment to lose —I must be back again incontinently—nothing can go on
+                            without me. By your leave, gentlemen—you'll be heartily welcome at the
+                            castle.</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>One moment, sir. To whom is the Lady Ethelinde to be married?</p>
+     </sp>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>Oh! I'll tell you. To Sir Reginald de Clifford. He lives just by—a mighty
+                            convenient distance—a mere step —But I must be gone, gentlemen.</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>And have they long been attach'd?</p>
+     </sp>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>Why, as to the matter of that—it's not a bad story— poor dear lady!—My
+                            lord, they say, suspected some time ago that she had a secret kindness
+                            for the knight— likely enough too, for, to say the truth, he's a portly
+                            gentleman—so what d'you think he does?—Egad, sir! when she least
+                            expected it, he popp'd the question upon her, and out it all came.</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>All what?</p>
+     </sp>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>Why all about her love. A full confession, i'faith! And so my lord, bless
+                            his heart for a good worthy nobleman as he is!—sends this morning for
+                            Sir Reginald, and makes him a fair offer of her hand. A great match, you
+                            know—fine girl—vast fortune—</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>Avow her love! Prodigious!</p>
+     </sp>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>Yes, mighty prodigious—never any thing known like it—pining and moaning,
+                            whimp'ring and whining—but they say she's merry enough now—nothing like
+                            a young husband—But, out upon it! what am I doing here?</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>With your permission, sir—Is there no other young lady at the castle,
+                            sir? No pretty young lady?</p>
+     </sp>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>Why how should you guess that now? I warrant me you mean madam Matilda.</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>Is that the young lady's name?</p>
+     </sp>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>It's a pretty one, isn't it?—Ah! the lord help you! she's a good one.</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>How, sir?</p>
+     </sp>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>Why, now, if you were but to know her—though she's a good girl enough
+                            too, if you can get fairly about her. But then you must let her have her
+                            own way, or else she's the very devil incarnate.</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>I suppose, sir, you are well acquainted with her.</p>
+     </sp>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>You may say that—leave me alone for the girls—Know her, quotha! There's
+                            never a crook nor a turn about her, that I don't know as well as my way
+                            to the cellar.</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>I suppose, sir, she's in no want of admirers and sweethearts.</p>
+     </sp>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>Sweethearts! That you may say—Ah bless your heart! I could if I'd a
+                            mind—but hush! It's not fair to blab— though I could tell you something—</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>So she's not hard hearted?</p>
+     </sp>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>Ah ha! You want to get it out of me, do you?— Hard hearted! That's as it
+                            may happen.—There's one, I believe, she likes—</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>Some smart, lively fellow, hey? Such, for instance, as a gentleman of
+                            your appearance and qualifications.</p>
+     </sp>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>I? He! he! he! you comical toad you! You have guess'd it, have you?—Why,
+                            to say the truth, she does come to a little, her ice does melt—a cup of
+                            canary sometimes, when I catch her alone in the buttery—a little bussing
+                            and touzling and squeaking—I could tell you such secrets—she's a dear
+                            loving soul, that's the truth on't—But I must he gone—The goodness of
+                            the day be with you, gentlemen.</p>
+     </sp>
+     <stage> [Exit.</stage>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>Here's a discovery!—Well, sir, you perceive what three years have brought
+                            about.</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>Away, Maurice! let us instantly to the castle. She shall not carry it in
+                            this triumphant way.—Oh false, inconstant Ethelinde! Oh sad reverse of
+                            my long cherish'd hope!</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>A pretty sort of conduct to be sure—What! with such a wither'd old sinner
+                            as that!—Odd's my life! I could have forgiven her if she had shewn a
+                            better taste!</p>
+     </sp>
+     <stage> [Exeunt.</stage>
+    </div>
+    <div type="scene" n="4">
+     <head>SCENE IV.</head>
+     <stage>An Apartment in Clare Castle.</stage>
+     <stage>Enter the Earl of Clare and a Servant.</stage>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Who is it you say wants to speak with me?</p>
+     </sp>
+     <sp who="#servant">
+      <speaker>SERVANT.</speaker>
+      <p>One as calls himself Baron Poppindorff. He lives hard by.</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Shew him in. </p>
+      <stage>(Exit Servant.)</stage>
+      <p> I have heard of this Poppindorff. A Jew broker, who calls himself a
+                            baron. What can the fellow want with me?</p>
+     </sp>
+     <stage>Enter Baron von Poppindorff.</stage>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>Mine varra goot lort, the Baron Von Poppindorff has the honour to pay his
+                            respect to your goot lortship.</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>I am the baron's humble servant. Pray what are your commands with me?</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>I have no command, my goot lort; but, as I have made little porchase in
+                            the forest, I have thought it my duty to make a my compliment to your
+                            goot lortship.— You have varra fine place here, on my wort—fine house,
+                            fine forniture, fine every thing—it must have cost mosh varra great deal
+                            of monesh.</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>I suppose so.</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>You suppose so? What! you not know what it cost? You keep a no account
+                            how you spend your monesh? That be varra foolish.</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Mighty civil of you to say so. You are very regular in your own accounts,
+                            I presume.</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>To be sure. I keep a big book, where they all are put down so
+                            prettily—all the items and the sum totalsh. Ah! it would do your heart
+                            goot to see how grant they look.</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>So, you have made some money, have you?</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>Pick'd up some little traifle, some small matter of two three hundred
+                            thousand marks. Ah these wars, these crusades to the Holy Lant! On my
+                            wort, that Saladin has been the best friend I have. The Christians go
+                            fight with him for Cherusalem, and the Chews they pocket their monesh. I
+                            often make my little joke, and say, Your varra humble servant, Mister
+                            Saladin, you make a me varra rich mans.</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>You seem to have a strong sense of the obligation; but I don't perceive
+                            how I have any concern in it.</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON</speaker>
+      <p>Ah! my goot lort, I ask your pardons. I will tell a you with your goot
+                            leave. I have just porchase one house, castle what you call, t'other
+                            side of the forest, where I mean to live and enjoy myself and my little
+                            monesh. I have try; but I find it so lonesome to be always by myself,
+                            the day pass so slow, so tedious, and the nights so disagreeable.</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>You don't find your solitary reflections very amusing then? You discover
+                            that something besides money is wanting?</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>I beg pardons—Monesh is varra goot, varra pleasant to look at, to count
+                            over; but then one want some variety. So I have think it might be better
+                            to have some society, somebody to talk to when the weather is bad.</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Your plan then, I presume, is to marry.</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>The varra thing, my goot lort, I was go to say. To get a pretty little
+                            wife, so kint, so goot humour—I was think, my goot lort, that as you
+                            have one dochter, who they tell a me is varra pretty womans—</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>The deuce they did!</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>We might make a the match.</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>I'm prodigiously oblig'd to you—</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>I knew you'd say so. They was tell a me you was a varra sensible old
+                            gentlemans.</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>And so you shall find me, I can tell you.</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>I make no doubt. I am varra glad I have made acquaintance with you. I
+                            like your looks.</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>I wish I could return the compliment.</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>You are in goot luck I can tell a you. I will settle handsomely on my
+                            wife; and no doubt you will settle this castle and all your estates and
+                            monesh—</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Aye, to be sure—</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>I was think so—upon me and the heirs of my body. Ah! how glad you will be
+                            to see one, two, three pretty little childers running about and calling
+                            you grantpapa. The little Isaacs, and the little Solomons—</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>The little imps of the devil!</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>Imps of the teifel! What way is that of talking of your own
+                            grantchilders? Oh fie, fie! I thought you had more sense than to talk so
+                            of your pretty little grantchilders.</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>My grand children!</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>To be sure—must not your own dochter's childers be your grantchilders?</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>And so you have the modesty to propose yourself, in good earnest, as a
+                            husband for my daughter?</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>Yaw, mynheer.</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>My daughter is dispos'd of.</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>What you say dispos'd of?</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Aye, and will be married to-morrow to Sir Reginald de Clifford.</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>Has he the monesh?</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Enough to answer my purpose.—Good morrow.</p>
+     </sp>
+     <stage> [Exit.</stage>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>Stay, stay—What for you go away and leave a me all alone?—Scorn a me and
+                            my monesh! Scorn a the Baron Von Poppindorff!—I will be revenge—I will
+                            teach a you—Where is Sir Hildeprant? Where are mine squires?</p>
+     </sp>
+     <stage> [Exit.</stage>
+    </div>
+    <div type="scene" n="5">
+     <head>SCENE V.</head>
+     <stage>The Court of the Castle.</stage>
+     <stage>Enter Arthur and Peasants.</stage>
+     <sp who="#arthur">
+      <speaker>ARTHUR.</speaker>
+      <p>Stand aside—What are you all crowding here for?— You, sir, get out of the
+                            way— </p>
+      <stage>Enter Albert and Maurice.</stage>
+      <p> Hey! whom have we here? Who are you?</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>Save you, good sir. May two wayfaring pilgrims, newly return'd from the
+                            Holy Land, partake of the hospitality of this noble castle? We would not
+                            be troublesome, sir.</p>
+     </sp>
+     <sp who="#arthur">
+      <speaker>ARTHUR.</speaker>
+      <p>Then you would be other than you are, sir. We have trouble enough already
+                            I think, without the like of you, so you may be off—</p>
+     </sp>
+     <stage>Enter Geoffry.</stage>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>Clear the way there for the steward of the feast!— Heyday! What's toward
+                            now?—Arthur and my two worthy pilgrims?</p>
+     </sp>
+     <sp who="#arthur">
+      <speaker>ARTHUR.</speaker>
+      <p>Stand aside, master Geoffry—let me discharge the castle of these
+                            vagabonds.</p>
+     </sp>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>Not so, good Arthur. These pilgrims are other than thou tak'st them for.
+                            They are my friends. I met them in the forest e'en now, and bad them to
+                            the feast.—How are ye, my hearty fellows?</p>
+     </sp>
+     <sp who="#arthur">
+      <speaker>ARTHUR.</speaker>
+      <p>An it be so, they may stay and welcome.</p>
+     </sp>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>So, you are all here—William, my boy—Cicely, my
+                            girl—Kate—Peter—Humphrey—Welcome all.—But, bless my heart! we are losing
+                            time—There's the deuce and all to do—brewing, baking, roasting, boiling—
+                            sweeping the rooms—brushing away cobwebs—Off my boys—get along,
+                            wenches—the buttery's open—rare humming stuff—Be sure you drink the
+                            bride's health.— </p>
+      <stage>[Exeunt peasants.]</stage>
+      <p>—You're heartily welcome, my noble pilgrims! Come along, Arthur!</p>
+     </sp>
+     <stage> [Exeunt Geoffry and Arthur.</stage>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>All is confirm'd then! She is false and I am miserable.</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>False enough! But bear up, sir. You see I am not so overcome—But what's
+                            that?—Two women, if my eyes don't deceive me—</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>'Tis the perfidious fair herself—</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>And Matilda with her, by all that's changeable!—If the villain be not
+                            laughing!—I'll make you laugh to some purpose before we part, I will!</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>How lovely she looks! Can falsehood reside with such perfection?—I'll
+                            speak to her, Maurice—</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>You are too much agitated at present. Try to recover yourself a little.
+                            Step aside for a moment.</p>
+     </sp>
+     <stage>Enter Ethelinde and Matilda.</stage>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>Say no more, Matilda! My embarrassment is beyond all bearing. Surely
+                            there never was any thing so cruel and perplexing as my situation!</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>I protest, madam, for my part, I don't see any thing so very distressing
+                            in this business. I know a good many young ladies, who would settle it
+                            very easily.—Bless me, ma'am, look there—</p>
+      <stage>(Albert and Maurice advance)</stage>
+      <p>—Pilgrims, I declare, and by their crosses and escalops must come from
+                            the Holy Land. Perhaps they may be able to give us some intelligence.
+                            Speak to them, ma'am.</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>Pray, sir, as you seem to have come from the Holy Land, may I venture to
+                            ask—did you know—that is, did you ever chance to meet—a young cavalier—a
+                            handsome young gentleman—</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>Madam!</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>I ask your pardon, sir, but I wish—I have a particular —a very particular
+                            reason, which I cannot just now explain, for wishing to know whether you
+                            ever was acquainted—</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>With whom, madam?</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>The young gentleman, sir, I spoke of.</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>You spoke of no one, madam.</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>Dear ma'am, how sadly you set about this business! Let me cross examine
+                            him a little. I'll engage for't I'll make him speak.</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>That's as you may give him opportunity, madam. Now, if I guess right,
+                            you'll find so much to say yourself—</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>Indeed, Mr. Sauce-box! Why then I'll begin with you. Come now, tell me—Do
+                            you come from the Holy Land?—Did you know one Sir Albert de Mortimer
+                            there? Can you tell me if he is alive or dead? Can you—</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>Which of your questions, madam, do you choose I should answer first? Or
+                            would you prefer my answering them all together?</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>Don't be provoking now, but tell me.</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>Why yes, ma'am, I do confess as far as relates to the Holy Land—</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>Well—and Sir Albert—</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>And as for Sir Albert, madam—there might be such a person—</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>Might be?</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>That is, madam, there was. By the same token, he had a very agreeable,
+                            accomplish'd young man with him as his esquire, one Maurice, madam.</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>Did you know him? Do, dear pilgrim, tell me every thing about him. Is he
+                            alive or dead? What's become of him? Where is he?</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>That's more, I fancy, than he knows himself. Do you know him, ma'am?</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>Psha! no—that is, yes, a little—and what of that?— Well—and so—this
+                            Maurice—</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>Have you any particular reason—</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>To be sure I have. But what's that to you? Do tell me what you know about
+                            Sir Albert and Maurice.</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>If you know them, madam, perhaps you may be able to direct us to one
+                            Father Ambrose. We have a commission—</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>From whom?</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>And about what?</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>That's a secret. For, said he, take heed, said he—</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>Who said so?</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>Sir Albert, madam; and said Maurice—</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>Was that a secret too?</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>Inviolable—for, said he, take heed, or Matilda—</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>What! Did he speak of me?</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>Of you, madam? Then, perhaps, that lady is the lady Ethelinde?</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>How should you know any thing about her?</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>Lord, madam! the whole country rings of her ladyship. —Pray, madam, is it
+                            true that her ladyship is to be married to-morrow?</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>Aye, madam, is it true?—And yet you talk'd of an nterest—</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>I did so indeed. I have a very strong interest, sir. To say the truth,
+                            some events have occurr'd—matters have recently taken so unexpected a
+                            turn, that—</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>Then, madam, I am to conclude that the report of your intended marriage
+                            is true—</p>
+     </sp>
+     <stage>Enter the Earl of Clare and Reginald.</stage>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Ha! Ethy! Overtaken you at last—what! chatting here with these pilgrims?
+                            Fine likely fellows—</p>
+      <stage>(to Albert and Maurice)</stage>
+      <p> —Well, you are come in good time— you'll meet with plenty of every
+                            thing.—Sir Reginald, why don't you do your duty? Let your bride stay for
+                            you!</p>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <p>I am here, my lord, obedient to her commands. The highest honour I can
+                            enjoy is to receive them.</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Well said. Eh, Ethy! not a word in reply?—Never mind—you'll get rid of
+                            that shyness by and by, I warrant me. But come along—if we stand talking
+                            here we shall be too late—the mass is just beginning, and the father
+                            prior will take it mightily amiss if we interrupt him at his devotions.</p>
+     </sp>
+     <stage> [Exeunt Clare, Reginald, Ethelinde, and Matilda.</stage>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>By heaven! this is not to be borne. What! in my presence to go off hand
+                            in hand with him!—Let us hence, Maurice, never to behold her more.</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>One moment's delay, if you please; for here comes a personage, who,
+                            probably, may have it in his power to give us some useful directions.</p>
+     </sp>
+     <stage>Enter Father Ambrose.</stage>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>I am lost in astonishment. She marry! I know not how to believe it—and
+                            yet there's no getting over the evidence.</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>Reverend sir—</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>I am not at leisure.</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>I beseech you, reverend sir, if it be but for a moment. We would
+                            communicate with one Father Ambrose.</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>That is my name. What would'st thou? I know thee not.</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>No one in these parts does know me, sir. If, sir, you are Father Ambrose,
+                            I would ask whether you know Sir Albert de Mortimer.</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>What of him? he was my dear and valued friend. Know'st thou aught of him?</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>I knew him well, sir. We were together in Palestine. He charg'd me to
+                            impart to you—But are we private, sir?</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>Fear not; no one will interrupt us. Well—proceed.</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>He wish'd me, sir, to pray you would vigilantly watch over his
+                            interests—that the Lady Ethelinde—</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>Alas! deceiv'd, unhappy man!</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>How, sir?—Deceiv'd?</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>Aye, deceiv'd. Her marriage with another is announc'd, and to-morrow—</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>To-morrow! No. Thank heaven! I am come in time—</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>Thou!</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>Yes, my honest, faithful friend!—Behold in me that wretched Albert—</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>And Maurice too, sir, at your service.</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>I rejoice to see thee. It is well thou art come. I was almost at my wit's
+                            end.</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>I fear I am come but too soon. To see every hope blighted, every fancied
+                            joy annihilated—</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>Why truly the case is somewhat novel and embarrassing.</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>'Tis horror—distraction!</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>And it requireth calm consideration.</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>Talk of calmness to a man, whom disgrace and misery threaten to
+                            o'erwhelm! Is she not to be married tomorrow?</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>That's true indeed. What can be done? Not a step can be taken, without
+                            disclosing your secret marriage, and then, heaven bless us! we shall
+                            have a pretty piece of work.</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>Please your reverence, of two evils that will be the least. And yet I
+                            know not—We certainly are two very unfortunate personages. I have pick'd
+                            up a curious account of my rib too.</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>Of madam Matilda?</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>Of madam Matilda. She's agog too.</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>I protest I know not. It may be so. Madam Matilda, to be sure, is of a
+                            lively temperament, of a sanguine constitution, which ordinarily is
+                            indicative of amorous propensities.</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>Od'slife! I could almost have pass'd it over, if she had given me a
+                            better substitute—but such a miserable whipper-snapper—</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>No more—Tell me, good Ambrose—What would you advise?</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>It is a weighty matter, and, as I said, requires mature consideration. I
+                            will reflect upon it.</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>You talk as if there were time for deliberation, when every moment calls
+                            for decision.</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>Nay, nay, there is time enough. We have the evening before us. Stay—aye,
+                            that will be best—Rememb'rest thou my chamber? There—on that side of the
+                            gateway—Come thither after sunset, when we will discuss the matter
+                            further. By that time, the festivity in the castle will be at its
+                            height, and thou may'st enter unobserv'd.</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>But where can I pass the tedious interval, before I may venture to your
+                            chamber?</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>Let me consider—Thou canst not have forgotten the hermitage in the
+                            forest. Thither repair 'till sunset. Yet hold—on further reflection, let
+                            Maurice remain here, that, should any thing material occur, he may
+                            advertize thee.</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>For a time then farewell! My fate and happiness are in your hands.</p>
+     </sp>
+     <stage> [Exeunt severally.</stage>
+    </div>
+   </div>
+   <div type="act" n="2">
+    <head>ACT II.</head>
+    <div type="scene" n="1">
+     <head>SCENE I.</head>
+     <stage>The Forest. A Hermitage in the distance.</stage>
+     <stage>Enter Baron Von Poppindorff, Sir Hildebrand, and Servants.</stage>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>Hold a your foolish tongue, Sir Hildeprant, and your bibble babble about
+                            patience. I tell a you I will be revenge. —To be refus'd for a knight, a
+                            poor paltry—</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>Mushroom!</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>What a you say?—A presumptuous, contemptible—</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>Braggadocio!</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>What teifil's breeding is that to interrupt me at every wort? What you
+                            mean to make echo of me?</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>I humbly beg your lordship's pardon; but, when I found you profess'd
+                            yourself to be in a passion, I thought it my duty to be in a passion
+                            too.</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>To be sure.</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>A pretty pass indeed the world is come to, for my lord the baron to be
+                            treated at this rate!</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>Aye, aye, 'tis varra goot—But never mind—I will be revenge, Sir
+                            Hildeprant—I will do soch thing as shall make a him repent his
+                            insolence. What you think I shall do?</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>If I were your lordship—</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>Let a me alone—I have the thought. I will—I will— What would you do now,
+                            if you was in my place?— Something varra terrible, varra dreadful—</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>By Saint Anthony! I'd carry off his daughter—</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>Goot!</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>Marry her—</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>Goot! goot! The varra thing I was think of myself. We'll do it
+                            to-night!—But stop—There is the servants—</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>No danger there. The cellars were all open before we left the castle, and
+                            they'll have had their dose before night, I warrant them.</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>Then I fear them nicht. We'll do their business.</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>The only question seems to be, who is to do it?</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>Who? Why you, and mine other peoples.—What for you shake a your head?</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>Marry, my lord, it would not be amiss if there were more of us. Make the
+                            most of us, we are but five.</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>But five?</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>We may easily enough be counted; and, for some of them, if your lordship
+                            could infuse into them a small portion of your own valour, it would not
+                            be the worse for them.</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>I was no think of that.—What can be done?</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>Suppose, my lord, we were to beat up for recruits? A few stout fellows
+                            would remove the difficulty.</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>The varra thing I was just think of myself. But where can they be found?</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>Now the wars in Palestine are over, there are plenty of vagrant
+                            soldiers—sturdy pilgrims—hardy knaves who have smelt blood—</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>Hardy knaves who have smelt bloot!—Goot—But where can they be found?</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>Why here's a fellow approaching—</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>Where?</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>There—Don't you see him among the trees? A kind of pilgrim looking
+                            fellow. Shall I try to engage him?</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>Yaw.</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>He will probably expect something by way of earnest. I must trouble your
+                            lordship to unloosen the strings of your purse, and furnish me with a
+                            small matter. As I am a true man, I have not a single sous.</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>Unloose my porse! Give my monesh! What you think I do with my monesh, to
+                            give it away?—Tell a him the Baron Von Poppindorff be varra generous,
+                            and will reward a him. Give my monesh indeed! A pretty joke!</p>
+     </sp>
+     <stage> [Exit Baron with servants.</stage>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>May Pharaoh and all his ten plagues go with thee, thou mean-spirited
+                            stingy curmudgeon! To have seen better days, and to be reduc'd to serve
+                            this rascally Jew money-changer!—Had I but a good name, whereby to get
+                            into another service, I'd starve with him no longer. But my necessities
+                            compel my abasement. Now for the scurvy commission wherewithal I am
+                            charg'd. By the mass! the pilgrim is a likely knave— </p>
+      <stage>Enter Sir Albert.</stage>
+      <p> I give thee the good day, pilgrim.</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>The good day to you, sir.</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>May I inquire what brings thee hither?</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT </speaker>
+      <stage>(aside.)</stage>
+      <p>A good familiar question—</p>
+      <stage>(to him)</stage>
+      <p>—I purpose, sir, to visit yon hermitage. Have you any further commands?</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>In faith, thou art a pretty looking fellow, and not like one that dealeth
+                            in hermitages. Tut! man, I know thee.</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT </speaker>
+      <stage>(aside).</stage>
+      <p>The deuce you do—</p>
+      <stage>(to him)</stage>
+      <p>—You have the advantage of me, sir, in that respect, for I never saw you
+                            before in my life—</p>
+      <stage>(aside)</stage>
+      <p>—and I hope I never shall see you again.</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>You may be glad you have seen me now. I have taken a liking to you—thou
+                            hast a martial demeanour, as though thou hadst seen service—Ah! there's
+                            a kind of expression, as it were of valour, which cannot escape a
+                            soldier's eye.</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>Are you a soldier, sir?</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>Canst thou behold me, and ask!</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>Why really, sir—but, however, since you are pleas'd to say it, it may be
+                            so.</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>Come now—confess—Am I not right?</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>Yes, sir, I have serv'd.</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>I could have sworn it. I rejoice to hear it. I love a soldier at my
+                            heart. And after all thou art poor! 'Tis pity! What if I were to put
+                            thee in a way to redress the wrongs of fortune?</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>You are somewhat rapid in your advances, sir—</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>I will prefer thee to the service of a noble, a generous friend of mine.
+                            Thou must undoubtedly have heard of his excellency the Baron Von
+                            Poppindorff—</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>Never in the whole course of my life.</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>A nobleman of acknowledg'd courtesy, valour, and liberality.—Shall I
+                            intrust thee with a secret?</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>I have no curiosity to know what does not concern me.</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>Thou shalt find that thou hast a concern. My noble friend, who dwelleth
+                            close at hand, hath a controversy with a neighbouring lord.</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>May I inquire who his adversary is?</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>They call him Clare.</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT </speaker>
+      <stage>(aside).</stage>
+      <p>This may be worth hearing—</p>
+      <stage>(to him)</stage>
+      <p> Clare?—Pray, sir, what may be your friend's cause of quarrel?</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>Why, sir, this Clare—d'you mark me—hath refus'd to give my illustrious
+                            friend his daughter—</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>To give her as what?</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>Marry, sir, as his bride. Now, sir, my noble friend, unable to stomach so
+                            gross an affront, hath meditated a revenge commensurate with the
+                            provocation.</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>Of what nature?</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>Thou shalt be instructed. He is purpos'd this night to assail the Earl's
+                            castle, and bear away his daughter. If thou wilt engage in the
+                            enterprize under my guidance, my noble friend, the epitome of honour and
+                            generosity, will reward thee beyond thy hopes.</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT </speaker>
+      <stage>(aside).</stage>
+      <p>What an infernal project!</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>Is it not a glorious plan?—Come, my brave fellow— what dost thou ruminate
+                            upon?</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>I was considering—Is it quite certain that the Baron means to carry his
+                            project into execution to-night?</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>Positively so.</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>Well, sir, I have reflected on your offer, and think I may as well make
+                            one of your party.</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>There spoke all the nine worthies at once!—What! I knew thou hadst it in
+                            thee—come—I will introduce thee to the Baron.</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>All in good time, sir; but I pray you, excuse me for some half hour or
+                            so. I will but perform my vow at the hermitage, and will follow you.</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>Be it so.—That is the road to the Baron's castle. When thou arrivest
+                            there, ask for Sir Hildebrand.</p>
+     </sp>
+     <stage> [Exit.</stage>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>Farewell, noble Sir Hildebrand! If such be the man, what must be the
+                            master?—What ought I to do? Repair to Clare Castle, and give notice of
+                            what is going on?—No—I will first visit the Baron, and ascertain more
+                            distinctly this abominable conspiracy against the peace and honour of my
+                            Ethelinde.—My Ethelinde!— she is no longer mine!—But lost to me as she
+                            is, though her falsehood has for ever blasted my happiness, I cannot, I
+                            will not abandon her.</p>
+     </sp>
+     <stage> [Exit.</stage>
+    </div>
+    <div type="scene" n="2">
+     <head>SCENE II.</head>
+     <stage>An Apartment in Clare Castle.</stage>
+     <stage>Enter Ethelinde and Matilda.</stage>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>How unlucky it was, ma'am, that my lord came upon us, and interrupted us
+                            in our conversation with those pilgrims! I dare say, we should have been
+                            able to have pick'd up some intelligence.</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>It was indeed provoking. They said, you know, they had been charg'd with
+                            a commission from my Albert to Father Ambrose—</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>To be sure they did.</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>I wish I knew what it was. Do you think you could find out the pilgrims,
+                            and discover what it was they were charg'd with?</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>I'll go directly, ma'am, and try.—But see—if Father Ambrose himself be
+                            not coming this way—I dare say he knows it by this time. Leave him to
+                            me, ma'am—I know how to come round him.—I'll get it out of him, I
+                            warrant.</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>You seem to have a pretty good opinion of your abilities.</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>Lord! ma'am, were you but to see how I manage him —I've a sort of taking
+                            way with me, which these old gentlemen can't withstand— </p>
+      <stage>Enter Father Ambrose.</stage>
+      <p> Oh my dear sir! I'm glad you're come—</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>Stand aside, I pray thee—my business is with thy lady.</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>Nay come—you shan't be cross now—do smile and be good humour'd—</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>Art thou in thy right wits?—Away!—I have no time for trifling.</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>Why you old, cross, ugly thing—</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>Stand aside, I tell thee again. Trouble me not.—</p>
+      <stage>(To Ethelinde)</stage>
+      <p> What is the meaning of this, daughter? I thought to have seen thee in
+                            tip-top spirits, all alert and merry; but thou seemest melancholy.</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>Alas! father, can I be otherwise, when my heart is weigh'd down with
+                            sorrow?</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>What! when the whole castle and the country for ten miles round are
+                            running mad with joy, because thou art to be married to-morrow? Oh
+                            daughter, daughter! could I have expected this from thee?</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>Reproach me not, good father: though I may well reproach my own weakness—</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>There now—with what ingenuity can some people gloss over their own
+                            faults!—Weakness, call you it? Give it its proper name—Don't mince the
+                            matter.</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>I will not cavil with you about words. Call it whatever you please; but
+                            indeed I am not guilty of what you suppose. My faith and constancy are
+                            unimpeach'd—Never for a moment have I been false to my Albert.</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>Not false to thine Albert? How cam'st thou then to accept of Sir
+                            Reginald?</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>Accept him! Sooner would I quit this paternal roof, and encounter the
+                            rude buffetings of an unfeeling world, than falsify my vow to the
+                            husband of my heart.</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>Wherefore then suffer these preparations to go on?</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>I have tried to prevail on my father—but my apprehensions of a premature
+                            discovery—and you know his way—</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>Oh ho! now I begin to understand.—Well, I am glad to find matters are not
+                            so bad as I expected. Come, be of good cheer; I have receiv'd some
+                            intelligence.</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>What! you have seen the two pilgrims then? Do now tell us what they say,
+                            that's a good creature.</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>It was a secret.</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>How can you be so provoking!—When my lady is so curious, and I should be
+                            so glad to know—</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>Must thou be always prying into every thing? I would have thee conquer
+                            that evil propensity.</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>I'm sure you're always snubbing one—</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>I would not offend you, father, by appearing too inquisitive; but, if
+                            there is nothing improper in my asking—</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>Nothing in the world can be more natural. The communication, as I told
+                            thee, was, and for the present must remain, a secret. But this much I
+                            may venture to say— Sir Albert lives.</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>Heav'n's blessing on the news!</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>And Maurice—Do tell me what they said of him.</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>For this once I will satisfy thee. He lives too.</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>Oh you dear delightful man!</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>But, father, if I may believe your looks, you could tell me something
+                            more. Consider how anxious I must be—</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>Well, perhaps, I may be able—these pilgrims—by the way, they are very
+                            gentleman-like pilgrims. I have taken a great fancy to them.</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>I don't care about the pilgrims—</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>No!—That's strange.—Well, well, they give me good hopes that Sir Albert
+                            is on his return, and will shortly be here.</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>Let me then fly to my father, explain every thing, and put an immediate
+                            stop to these odious preparations!</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>Softly, daughter—add not to thy former error the new one of
+                            precipitation. I must again consult the pilgrims, ere I can decide on
+                            what is to be done. I have given thee enough for pleasant contemplation,
+                            and for the government of thy conduct.—The blessing of the evening be
+                            with thee!</p>
+     </sp>
+     <stage> [Exit.</stage>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>Well, Matilda—my Albert will return—my sorrows are over, my cares are
+                            forgotten.</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>Oh lord! ma'am, I never was so delighted in my life— I shall love a
+                            priest as long as I live for the sake of this old gentleman, though he
+                            was so crusty.—How glad our poor husbands will be to see us!—When do you
+                            think, ma'am, they'll come?</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>I wish I could tell you.</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>Well, ma'am, never mind; we shall have them soon for certain.—No more
+                            melancholy now, no more sighing and groaning!—For my part, I could sing
+                            and dance— Couldn't you, ma'am?</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>Yes, my girl—I feel as light as air. Hope once again illumes my heart,
+                            and visions of happiness open to my view!</p>
+     </sp>
+     <stage> [Exeunt.</stage>
+    </div>
+    <div type="scene" n="3">
+     <head>SCENE III.</head>
+     <stage>The Gate of Baron Von Poppindorff's Castle.</stage>
+     <stage>Enter Sir Albert.</stage>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>If my direction had not been so plain, I should begin to suspect I had
+                            mistaken my way.—But soft—what is this?—A baron's residence?—It seems
+                            marvellously out of repair.—All fast too—Let's see whether it contains
+                            any inhabitants.</p>
+     </sp>
+     <stage> (Sounds the Bugle.</stage>
+     <stage>Simkin appears within the gate.</stage>
+     <sp who="#simkin">
+      <speaker>SIMKIN.</speaker>
+      <p>Who's there?—Stand!</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>Pray, sir, is this the residence of the Baron Von Poppindorff?</p>
+     </sp>
+     <sp who="#simkin">
+      <speaker>SIMKIN.</speaker>
+      <p>And if it be, what then?</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>In that case, I would inquire for one Sir Hildebrand.</p>
+     </sp>
+     <sp who="#simkin">
+      <speaker>SIMKIN.</speaker>
+      <p>Sir Hildebrand? What dost want with him?</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>I would speak with him, sir. 'Tis at his bidding I come.</p>
+     </sp>
+     <sp who="#simkin">
+      <speaker>SIMKIN.</speaker>
+      <p>Why then belike thou art the soldier pilgrim he said would come here?</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>The very same. Pray advertize him of my arrival.</p>
+     </sp>
+     <sp who="#simkin">
+      <speaker>SIMKIN.</speaker>
+      <p>That be more nor I dare do. I munna leave my post. Our baron, plague take
+                            him! be a main out of the way cantankerous sort of a chap. But I'll call
+                            him, sir.— Our castle be not so large, but he'll hear me fast
+                            enough.—Sir Hildebrand! Why, Sir Hildebrand, I say!</p>
+     </sp>
+     <stage>Enter Sir Hildebrand within the gate.</stage>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>Wherefore all this clamour, master Simkin? Hath any thing untoward
+                            happen'd on thy guard?</p>
+     </sp>
+     <sp who="#simkin">
+      <speaker>SIMKIN.</speaker>
+      <p>I know not what thou call'st untoward. I've seen nothing of that sort.
+                            But yonder's a man—</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>What, my man of war!—Open the gate forthwith, Simkin, and let him
+                            enter.—Nay hasten—Thou art always so tardy—</p>
+     </sp>
+     <sp who="#simkin">
+      <speaker>SIMKIN.</speaker>
+      <p>I be doing it as fast as I can—Don't hurry a body so— A plague on this
+                            old lock!—There—I've don't.</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND </speaker>
+      <stage>(advancing).</stage>
+      <p>Welcome, my bold fellow! I have spoken of thee to my lord the baron.
+                            Enter.</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>After you, sir.</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>I perceive thou hast learned courtesy in the service. Follow me then, my
+                            man of war!</p>
+     </sp>
+     <stage> [Exeunt.</stage>
+    </div>
+    <div type="scene" n="4">
+     <head>SCENE IV.</head>
+     <stage>An Apartment in the Baron's Castle.</stage>
+     <stage>Enter Sir Hildebrand and Sir Albert.</stage>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>This way.—Repose thyself in this chamber for a moment, while I announce
+                            thee to my noble friend. There are, thou seest, accommodations—Thou
+                            may'st amuse thyself with surveying the portraits, wherewithal the
+                            apartment is decorated. They're his noble lordship's ancestors, all
+                            undoubted originals, and strong likenesses.</p>
+     </sp>
+     <stage> [Exit.</stage>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>His lordship's ancestors!—They certainly must be originals, for they are
+                            like nothing that ever was seen before.—But who comes here?—The baron
+                            himself, I presume.—He has a mighty Israelitish appearance.</p>
+     </sp>
+     <stage>Enter the Baron and Sir Hildebrand.</stage>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>This, my good lord, is the person of whom I spoke to you. You see he is a
+                            fine likely fellow.</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>Yaw, varra fine, varra likely indeed—Hark a you, Sir Hildeprant—</p>
+      <stage>(They whisper).</stage>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT </speaker>
+      <stage>(aside).</stage>
+      <p>Why this is the very fellow, who was drumm'd out of our camp at Messina
+                            for usury. I remember him perfectly.</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>So, friend—What is your name?</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>I understood, sir, it was my sword, and not my name you wanted.</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>Goot, varra goot; 'tis your swort indeed. Sir Hildeprant was tell a me
+                            you have been in the wars. Had you moch fight?</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>I had a few opportunities of seeing service.</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>Ah! there was hart work, I dare say. But never mind—Sir Hildeprant was
+                            say, he tell a you what we are about.</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>He mention'd something of a plan to carry off the Earl of Clare's
+                            daughter.</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>Yaw! I will carry her off, and make her my wife.— Well, friend, what you
+                            say? Have you the goot heart?</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>You may depend on it, wherever you go I'll not be far behind you.</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>Thank you, friend, varra moch oblige; but I shall expect you to go before
+                            a me, I can tell a you.</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>Excellent well, my lord. The conceit is good.</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>Yaw—I think it be varra goot for him to go first, when I pay him the
+                            monesh. What you think I pay him the monesh for, but to go first?—</p>
+      <stage>(To Albert.)</stage>
+      <p>—'Tis your trade, you know. Come, tell a me—When was it you went to the
+                            wars?</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>I join'd our army at Messina—'twas on the fourth of May—I shall never
+                            forget the day—</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>For why you no forget?</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>Ha! ha! ha! It was such an excellent thing! 'Twas enough to make one die
+                            of laughing!</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>What was the joke? I love the joke. I sometimes make a the little joke
+                            myself. Come, tell a me your joke.</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>You'll like it vastly. I got to Messina, just as they were drumming a
+                            rascally Jew money broker out of the camp.</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>The teiful you did? And pray for what you call that a joke? It was varra
+                            bad joke.</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>Ha! ha! ha! They laid it on him heartily, and the rascal look'd so
+                            dismally, and made such a howling! 'Twas rare sport—Ha! ha! ha!—He must
+                            have felt them, you know, pretty smartly.</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>No doubt.—</p>
+      <stage>(Rubbing his back.)</stage>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>Why you don't laugh—</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>I ask your pardons, I do laugh great deal—Ha! ha!— </p>
+      <stage>(Forces a laugh.)</stage>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>I knew you'd like to hear it, 'tis so droll. He was a precious fellow.
+                            They all said flogging was too little for such a blood-sucking rogue. He
+                            ought to have been hang'd, they said.</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>They were varra uncivil persons for their pains. But bless a my heart!
+                            Sir Hildeprant—run away, and send in my arms and my weapons, The pilgrim
+                            shall choose for himself.</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>I need them not. Mine own are deposited in the forest; and I have
+                            moreover a companion, upon whom I can depend, and whom I doubt not I
+                            shall be able to engage for this enterprize, if your lordship should
+                            wish to have him.</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>Engage him, my lord, by all means.</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>For why you interfere? The varra thing I was just think of myself.—</p>
+      <stage>(To Albert).</stage>
+      <p>—Yaw—engage him by all means.—Where is he?</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>I agreed to meet him about sunset at the hermitage.</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>Go—run away—bring him here directly—</p>
+      <stage>[Exit Albert.</stage>
+      <p> So—now we shall be goot troop, and need not fear noboty. —Ah ha! mine
+                            jackanapes lort! I will teach a you how to scorn me and my monesh!</p>
+     </sp>
+     <stage> [Exeunt.</stage>
+    </div>
+    <div type="scene" n="5">
+     <head>SCENE V.</head>
+     <stage>A Hall in Clare Castle.</stage>
+     <stage>Geoffry, Arthur, Maurice, and others, discovered sitting at a Table, with
+                        Bottles and Glasses.</stage>
+     <sp who="#omnes">
+      <speaker>OMNES.</speaker>
+      <p>Hurrah! Here's to my lord again!</p>
+     </sp>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>Well said, my noble hearts! You're all kindly welcome, and there's plenty
+                            for you. So fill again to the health of our young lady.</p>
+     </sp>
+     <sp who="#arthur">
+      <speaker>ARTHUR.</speaker>
+      <p>Were the horn a mile deep, I'd see to the bottom of it. —Here's to her
+                            good fortune!</p>
+     </sp>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>Not forgetting Madam Matilda. Ah! she's a girl of the right sort.</p>
+     </sp>
+     <sp who="#arthur">
+      <speaker>ARTHUR.</speaker>
+      <p>That she is, I'll be sworn; and so you know, master Geoffry, as well as
+                            any one.</p>
+     </sp>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>I?—What should I know?</p>
+     </sp>
+     <sp who="#arthur">
+      <speaker>ARTHUR.</speaker>
+      <p>Ah you sly rogue! We understand you.—Dost not think we know thee of
+                            old?—That buttery of thine, could it but speak, I warrant me could tell
+                            us a comical secret or two—</p>
+     </sp>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>Fie, Arthur—gentlemen never talk of such matters —When a pretty girl—It's
+                            not fair to blab, you know.</p>
+     </sp>
+     <sp who="#arthur">
+      <speaker>ARTHUR.</speaker>
+      <p>No more it's not, master Geoffry.—Well, here goes to madam Matilda. Why
+                            how now, pilgrim! Not fill thy glass?—What makes thee so dull, man,
+                            o'th'sudden?</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>I dull?—Not I—I protest I never was so merry in my life—Ha! ha! ha! What
+                            you say is so droll!—Here goes to madam Matilda—Come, master Geoffry,
+                            confess —Tell us a little more how you and madam Matilda go on.</p>
+     </sp>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>Not I—I'm too much a man of honour for that. If a fine girl, you know,
+                            takes a fancy to one, mum's the word—Why now what brings that Father
+                            Ambrose here, to interrupt us just at the height of our mirth?</p>
+     </sp>
+     <stage>Enter Father Ambrose.</stage>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>So, my good friends! All got together merry and happy? I'm glad on't. I
+                            like to see cheerful faces.</p>
+     </sp>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>That's more than some of your cloth do, with your penances and fast-days.
+                            But mayhap you look forward to confession time. You'll bring us up then.</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>When that time comes, master Geoffry, it will be soon enough to talk
+                            about it. I'm not in my function now; so go on with your merriment, and
+                            give me a glass of your liquor.—That's well—Fill it up—Here's to your
+                            young lady's health!</p>
+     </sp>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>Well swigg'd, i'faith!—I didn't know thou had'st this in thee.—Come, my
+                            lads, his reverence sets us a good example.—Fill up your glasses, and do
+                            him reason.</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE </speaker>
+      <stage>(to Maurice).</stage>
+      <p>Hist! A word—I have convers'd with the lady Ethelinde —all's right in
+                            that quarter—she is faithful—</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>And Matilda—</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>Nay, I know nought of her—But hark!—Sir Albert is here—he hath made
+                            discovery of a plot—</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>Of what nature?</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>Hush! We cannot discourse of it here.—He requireth thy assistance, and
+                            that forthwith. Let us slip away, and I will tell thee more.—Now's the
+                            time—Follow me.</p>
+     </sp>
+     <stage> [Exeunt.</stage>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>Are you all ready, my lads? Here we go to his reverence—How now! His
+                            reverence off?—And, as I live, carried off the pilgrim too!—If ever I
+                            was play'd such a trick since I first tasted liquor—</p>
+     </sp>
+     <sp who="#arthur">
+      <speaker>ARTHUR.</speaker>
+      <p>Never trust me, if they ben't gone to find out the girls. Let your friars
+                            and pilgrims alone for that.</p>
+     </sp>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>We'll be after 'em directly—We'll only empty the can. Good old sack must
+                            not be slighted. And to add a zest to the liquor, suppose, Arthur, thou
+                            giv'st us a song.</p>
+     </sp>
+     <sp who="#arthur">
+      <speaker>ARTHUR.</speaker>
+      <p>For good fellowship's sake, and to pleasure thee, master Geoffry, I
+                            will.—Now, charge your glasses, and mind you all strike in with me in
+                            the chorus.</p>
+     </sp>
+     <stage> [Exeunt.</stage>
+    </div>
+    <div type="scene" n="6">
+     <head>SCENE VI.</head>
+     <stage>An Apartment in Clare Castle.</stage>
+     <stage>Enter Ethelinde and Matilda, meeting.</stage>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>Well, ma'am, here we are again, just in the old way. Night's come on, and
+                            we don't seem a bit nearer the end of our business. I can't imagine what
+                            father Ambrose can mean by his humming and hawing.</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>I have such entire reliance upon him, that as far as the delay affects
+                            only myself, I feel no great uneasiness; though I confess I am sorry
+                            that my father is still allowed to persist in an error—</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>Lord! ma'am, if that's all, there's no great harm in it. He's always
+                            taking some strange fancy or other in his head—</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>Fie, fie, Matilda—He is always affectionate, and his intentions are ever
+                            kind. I have reproach'd myself too often for having contracted
+                            engagements without his participation, to suffer myself to insinuate any
+                            thing against him—But hush!—</p>
+      <stage>(A noise at the door)</stage>
+      <p>—Didn't you hear a noise at the door?—There again—</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>As sure as can be somebody's at the door. They're trying to break it
+                            open—Oh dear ma'am! if I don't tremble from head to foot—Ah!—</p>
+      <stage>(screams)</stage>
+      <p>.</p>
+     </sp>
+     <stage> [The door is forced open.</stage>
+     <stage>Enter the Baron and Sir Hildebrand.</stage>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>Tell a me which is she—</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>That's your prize—I'll secure the other—Now let's off as fast as we can.</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>Ah ha! pretty rogue, you come along with me.—For why you make stroggle—</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>If you are men—Oh help! help!</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>Help! Murder! Fire!</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>Plague on your screaming! Come along quietly.</p>
+     </sp>
+     <stage>Enter Sir Albert and Maurice, armed, with vizors closed.</stage>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>Hands off, villains! Release this lady—lay hold of that fellow—secure
+                            him—Here, give me a cord.—</p>
+     </sp>
+     <stage> [They tie their hands.</stage>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>What teifel's work is this?—Tie a mine hants?—What you mean by tie a mine
+                            hants?</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>Be not alarm'd, lady. You are safe. No one shall harm you.</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>Whoever you are, sir, receive our thanks. Without your timely succour,
+                            what would have become of us?</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON </speaker>
+      <stage>(to Sir Hildebrand).</stage>
+      <p>So, you tied too, Sir Hildeprant?</p>
+     </sp>
+     <sp who="#hildebrand">
+      <speaker>HILDEBRAND.</speaker>
+      <p>Aye, fast enough. I suppose the ropes will be shifted to our necks soon.
+                            A plague on your project!—If you were to be hang'd alone, I shouldn't
+                            care—</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>What you say, hang't?—Oh dear, oh dear a me!— </p>
+      <stage>(To Albert).</stage>
+      <p>—Pray let a me go—I will give you the monesh —moch, great deal monesh.</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>Oh ma'am! if there are not more people coming along the gallery—</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>Fear nothing, ladies—We will protect you.</p>
+     </sp>
+     <stage>Enter Lord Clare, Sir Reginald, Ambrose, Geoffry, and Servants.</stage>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Here they are, i'faith!—Have at you, villains!</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>Oh my dear father!</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Fear nothing, love!—Down with them, Reginald!</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>Stay—the villains are secur'd. These gentlemen, heaven reward them for
+                            it! rescued us.</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Which are the rogues then?</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>Here they stand, my lord.</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Let me see them. Bring them forward, Geoffry.</p>
+     </sp>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>Come forward, d'ye hear, and shew your ugly faces— Now the lord preserve
+                            us, whom have we here?</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>What! the noble Baron Von Poppindorff!—I'm your most humble servant—And
+                            my worthy Sir Hildebrand too!—I am really at a loss to shew my proper
+                            sense of your kind intentions Pray what have you to say for yourselves?</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>I have nothing to say at all, but that I wish I was not never come here.
+                            It was all Sir Hildeprant his fault— he persuade a me, when I no think
+                            nothing. Hang a him if you please, but let a me go. That hanging is one
+                            thing I never could bear, it is so disagreeable.</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>No, no, sir, you sha'n't get off so easily. We'll teach you how to invade
+                            Clare Castle.</p>
+     </sp>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>If your honour's worship will leave them to us, we'll cool their courage
+                            for them. There's the finest cold bath below in the castle moat, a
+                            little muddy indeed, and in this warm weather not quite the sweetest. A
+                            few plunges there, and a little exercise afterwards in a blanket—</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>Plunges and planket!—What you say?—Duck a baron of Yarmany!</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>If I were to treat you as you deserve, I should leave you to Geoffry's
+                            discipline. But take them away—confine them with the other prisoners,
+                            'till we can find leisure to-morrow morning to determine what is to be
+                            done with them.—Geoffry, see them properly secur'd.</p>
+     </sp>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>Get on, ye vagabonds!—Troop—march—</p>
+     </sp>
+     <sp who="#baron">
+      <speaker>BARON.</speaker>
+      <p>I do, goot master Geoffry—Oh dear, oh dear a me! I was never get into no
+                            such scrape in all my life before!</p>
+     </sp>
+     <stage>[Exeunt the Baron, Sir Hildebrand, Geoffry and Servants.</stage>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Now we've got rid of them, we may think of other matters. By the by,
+                            Ethy, who are these gentlemen to whom we are so much oblig'd?</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>They are entire strangers to me; but I owe them obligations which I never
+                            can repay.</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>That's true—very great obligations indeed. Gentlemen, I return you my
+                            best thanks. Egad! you came just in the nick of time—Hey!—How's
+                            that?—What business, by the by, could you have here at all?—Eh,
+                            Reginald?</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>That, my lord, Father Ambrose can explain.</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>Yes, my lord. Having receiv'd notice of the baron's intentions from two
+                            of his associates—these two worthy gentlemen whom you see here—</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>The deuce they were!</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>Not exactly associates, my lord; merely appriz'd of his plan, and
+                            solicited to co-operate in it.</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>So, so—not associates—only accessaries before the fact.—And have you the
+                            assurance—</p>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <p>Pray, my lord, suffer the gentleman to proceed. I dare say he will give a
+                            good account of himself.</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>I can assist him, if it should be necessary.</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>You seem to know more of them than they do of themselves; but, if you
+                            can, do clear up the matter.</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>That gentleman, having reveal'd to me the baron's plan, departed with his
+                            companion to meet the conspirators, not to assist, but to frustrate
+                            their wicked project.</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>So, so, that was the case!—I'faith! ye are noble gentlemen, and I am
+                            thankful to you for your opportune services.—By the way, though, I could
+                            do it more to the purpose, if I knew whom I was addressing.</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>If my services, my lord, have been so fortunate as to merit your
+                            approbation—</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Sir, they merit more. I long to know you, that I may prove to you my
+                            gratitude.</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>Then, my lord, I thus disclose myself.</p>
+     </sp>
+     <stage> (He raises the vizor of his helmet.</stage>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE </speaker>
+      <stage>(running to Albert).</stage>
+      <p>My Albert! My lov'd, my long lamented lord!</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>My lov'd, my constant Ethelinde!</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Heyday! What's all this?—My lov'd lord! My lov'd, my constant
+                            Ethelinde!—Be so good, sir, as to stand a little farther off.—Is the
+                            girl gone mad?</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>If I am, 'tis with joy.</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Come away, I say.—What are you doing there, Sir Reginald, to let another
+                            man run away with your bride?</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>The truth of our situation has been too long conceal'd from your
+                            lordship; but it is now time that all mystery should end. Sanction'd by
+                            my royal master, under whose banners I fought in Palestine, I assert a
+                            husband's right to this lady.</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Husband! Why what the deuce—Eh, Reginald!</p>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <p>Your lordship will recollect the fear I express'd of our having been too
+                            hasty—</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>But who could have guess'd—</p>
+      <stage>(To Ethelinde)</stage>
+      <p>—So, you was married all the time, was you?—</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>Let me implore your forgiveness—</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Forgiveness indeed! To make your father a fool—To bring him into a scrape
+                            with—Egad! Sir Reginald, I hardly know what to say to you—This little
+                            demure— You have been dev'lishly ill-treated in this business.</p>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <p>Say no more, my lord. Now the discovery, which as you know I always
+                            dreaded, is made, I cannot suffer my own personal feelings to damp the
+                            joy which it must occasion to others. Let me be an advocate with you in
+                            that lady's favour—</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>An advocate in her favour?—That's very handsomely said of you to be
+                            sure!—</p>
+      <stage>(To Ethelinde)</stage>
+      <p>—Well, and what have you to say for yourself, madam?</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>I depend entirely on your kindness and good nature.</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>You do?—Why then to shew you what a judgment your's is, I've a great
+                            mind—I could find in my heart— not to be angry with you at all.—There—</p>
+      <stage>(embracing her)</stage>
+      <p> I forgive you.—Why don't you introduce me to this gentleman?</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>Sir Albert de Mortimer, sir—</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Sir Albert de Mortimer! the hero who sav'd our gallant monarch's
+                            life!—Sir, I am honour'd by your alliance—</p>
+     </sp>
+     <sp who="#albert">
+      <speaker>ALBERT.</speaker>
+      <p>The nobleness of your conduct, my lord—</p>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Say no more about it. Give me your hand, and take her's from mine.—Well
+                            Ethy! hey! and how did you manage to carry on this matter so secretly?</p>
+     </sp>
+     <sp who="#ambrose">
+      <speaker>AMBROSE.</speaker>
+      <p>There I must come in as a party in your lordship's forgiveness. Overcome
+                            by their entreaties, I join'd their hands, and, at the same time, united
+                            madam Matilda here to Maurice, Sir Albert's esquire.</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA </speaker>
+      <stage>(sobbing).</stage>
+      <p>Y—es, my lord, I co—confess I was married too; but I hadn't my dear
+                            lady's luck, my hu—hu—husband isn't come back.</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE </speaker>
+      <stage>(to Clare).</stage>
+      <p>With your lordship's leave—</p>
+      <stage>(to Matilda)</stage>
+      <p> Yes, mistress, your hu—hu—husband is come back, and a little sooner,
+                            perhaps, than you expected.</p>
+     </sp>
+     <stage> (He raises the vizor of his helmet.</stage>
+     <sp who="#matilda">
+      <speaker>MATILDA </speaker>
+      <stage>(running to him).</stage>
+      <p>Oh my dear, dear Maurice!</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>Hands off—keep your distance—I have heard of your pranks—You know your
+                            way to the buttery—Old Geoffry is a pretty sort of playfellow—</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>I! Old Geoffry indeed! Is the man out of his senses?</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>Aye, madam, I know all about it—</p>
+     </sp>
+     <stage>Enter Geoffry.</stage>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>Ha! ha! ha! We've done their business. The whole gang of 'em are as
+                            prettily pack'd together—</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>So, sir, do you dare to say any thing about me?</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>Aye, sir; that you ever had her alone in the buttery?</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>That I ever suffer'd any improper familiarities?</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>That you ever treated her with a cup of canary? That there was any
+                            bussing, and touzling and squeaking?</p>
+     </sp>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>Sir—madam—I vow and protest—Never was so amaz'd in the whole course of my
+                            life—</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>Speak out, sirrah!</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>Don't mince the matter, friend—the lady wishes you to confess the truth.
+                            You was more communicative this morning in the forest.</p>
+     </sp>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>So!—You was the pilgrim then?—I'm fairly caught, egad!</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>Come, sir, don't stand staring, and humming and hawing, but speak out.
+                            What did you ever see in me—</p>
+     </sp>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>Nothing, as I hope to be sav'd. A cup of canary now and then indeed—I
+                            confess the canary—</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>Well, sirrah!</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>Nay, don't browbeat my witness. I'll stand by you, friend, you shall have
+                            fair play.—So you confess the canary? —Well—go on.</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>Aye, go on. The bussing and touzling, sirrah!</p>
+     </sp>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>Lord help your heart! Why now I'll be sworn—Bussing and touzling quotha?
+                            That were a pretty joke indeed.</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA.</speaker>
+      <p>You won't speak out, won't you? Why you poor, dry, wither'd, sapless
+                            twig! You little red-nos'd, pimply fac'd—</p>
+     </sp>
+     <sp who="#ethelinde">
+      <speaker>ETHELINDE.</speaker>
+      <p>Come, Maurice, let me settle this misunderstanding. Your Matilda has been
+                            my constant companion. I can answer for her attachment and fidelity as I
+                            can for my own.</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>There is no disputing your ladyship's testimony.— </p>
+      <stage>(To Geoffry.)</stage>
+      <p>—Well, Sir, what have you to say for yourself?</p>
+     </sp>
+     <sp who="#geoffry">
+      <speaker>GEOFFRY.</speaker>
+      <p>Why, to be sure, the matter is a little awkward. It would seem that,
+                            somehow or other, I've got on the wrong side o'the post. But there's no
+                            harm done. You may believe what they tell you; and if ever you catch me
+                            at bouncing again, without knowing better whom I have to deal with, send
+                            me to keep company with the baron.</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE </speaker>
+      <stage>(to Matilda).</stage>
+      <p>Well, I am persuaded—What do you stand twisting your fingers there for?</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA </speaker>
+      <stage>(pouting).</stage>
+      <p>That my conduct should be call'd in question in this outrageous manner,
+                            when I'm sure my lady knows, and every body knows—</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>Psha! I tell you I am satisfied.</p>
+     </sp>
+     <sp who="#matilda">
+      <speaker>MATILDA </speaker>
+      <stage>(pouting).</stage>
+      <p>It's very hard, I'm sure, that I should be accus'd, and with such an
+                            atomy too—</p>
+     </sp>
+     <sp who="#maurice">
+      <speaker>MAURICE.</speaker>
+      <p>Be appeas'd, I say. Come—come to my arms, thou spotless dove!—</p>
+      <stage>(Embraces her).</stage>
+     </sp>
+     <sp who="#clare">
+      <speaker>CLARE.</speaker>
+      <p>Why so, that's right. Now, as I take it, all goes as it should. Come, my
+                            girl, take your husband's hand. May you be as happy, as the man of your
+                            choice can make you! And as for the rest of you, and all our worthy
+                            friends, the oftner I see you with smiling faces at Clare Castle the
+                            better!</p>
+     </sp>
+     <stage> [Exeunt Omnes.</stage>
+    </div>
+   </div>
+  </body>
+ </text>
+</TEI>

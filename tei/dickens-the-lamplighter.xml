@@ -1,0 +1,1995 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id" xml:lang="eng">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">The lamplighter</title>
+    <author>
+     <persName>
+      <forename>Charles</forename>
+      <surname>Dickens</surname>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>ProQuest</name>
+     <idno type="URL">https://www.proquest.com/books/lamplighter-1879/docview/2138574469/se-2?accountid=14632</idno>
+     <idno type="proquest">LION2138574469</idno>
+    </bibl>
+    <bibl type="originalSource">
+     <author>Dickens, Charles</author>
+     <title type="main">The lamplighter</title>
+     <title type="volume">The Lamplighter: a Farce: By Charles Dickens (1838)</title>
+     <pubPlace>London</pubPlace>
+     <date type="print" when="1879">1879</date>
+     <note type="citation">Dickens, Charles: The lamplighter (1879). In: The Lamplighter: a Farce: By Charles Dickens (1838). : London 1879</note>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="all">
+      <persName>All</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="betsy">
+      <persName>Betsy</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="both">
+      <persName>Both</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="emma">
+      <persName>Emma</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="emma_galileo">
+      <persName>Emma., Galileo</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="fanny">
+      <persName>Fanny</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="fanny_and_emma">
+      <persName>Fanny and Emma</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="fanny_to_mooney_emma">
+      <persName>Fanny (to Mooney)., Emma</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="galileo">
+      <persName>Galileo</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="mooney">
+      <persName>Mooney</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="mr_mooney">
+      <persName>Mr. Mooney</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="mr_star">
+      <persName>Mr. Star</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="servant">
+      <persName>Servant</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="tom">
+      <persName>Tom</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1879">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text>
+  <front>
+   <castList>
+    <label>DRAMATIS PERSONÆ.</label>
+    <castItem>
+     <role>Mr. Stargazer.</role>
+    </castItem>
+    <castItem>
+     <role>Master Galileo Isaac Newton Flamstead Stargazer, (his son).</role>
+    </castItem>
+    <castItem>
+     <role>Tom Grig, (the Lamplighter).</role>
+    </castItem>
+    <castItem>
+     <role>Mr. Mooney, (an Astrologer).</role>
+    </castItem>
+    <castItem>
+     <role>Servant.</role>
+    </castItem>
+    <castItem>
+     <role>Betsy Martin.</role>
+    </castItem>
+    <castItem>
+     <role>Emma Stargazer.</role>
+    </castItem>
+    <castItem>
+     <role>Fanny Brown.</role>
+    </castItem>
+   </castList>
+  </front>
+  <body>
+   <div type="act" n="1">
+    <head>SCENE I.</head>
+    <stage>The street, outside of Mr. Stargazer's house.</stage>
+    <stage>Two street lamp-posts in front.</stage>
+    <stage> [During the previous speech he has been occupied in lighting one of the
+                    lamps. As he is about to light the other, Mr. Stargazer appears at window, with
+                    a telescope.</stage>
+    <sp who="#mr_star">
+     <speaker>Mr. Star. </speaker>
+     <stage>(after spying most intently at the clouds).</stage>
+     <p>Holloa!</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom </speaker>
+     <stage>(on ladder).</stage>
+     <p>Sir, to you! And holloa again, if you come to that.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Have you seen the comet?</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>What comet—the Exeter comet?</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>What comet? The comet—Halley's comet!</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>Nelson's you mean. I saw it coming out of the yard, not five minutes ago.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Could you distinguish anything of a tail?</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>Distinguish a tail? I believe you—four tails!</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>A comet with four tails; and all visible to the naked eye! Nonsense! it
+                        couldn't be.</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>You wouldn't say that again if you was down here, old Bantam. </p>
+     <stage>(Clock strikes five.)</stage>
+     <p> You'll tell me next, I suppose, that that isn't five o'clock striking, eh?</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Five o'clock—five o'clock! Five o'clock P.M. on the thirtieth day of
+                        November, one thousand eight hundred and thirty-eight! Stop till I come
+                        down—stop! Don't go away on any account—not a foot, not a step.</p>
+    </sp>
+    <stage> [Closes window.</stage>
+    <sp who="#tom">
+     <speaker>Tom </speaker>
+     <stage>(descending, and shouldering his ladder).</stage>
+     <p>Stop! stop, to a lamplighter, with three hundred and seventy shops and a
+                        hundred and twenty private houses waiting to be set a light to! Stop, to a
+                        lamplighter!</p>
+    </sp>
+    <stage>As he is running off, enter Mr. Stargazer from his house, hastily.</stage>
+    <sp who="#mr_star">
+     <speaker>Mr. Star. </speaker>
+     <stage>(detaining him).</stage>
+     <p>Not for your life!—not for your life! The thirtieth day of November, one
+                        thousand eight hundred and thirty-eight! Miraculous circumstance!
+                        extraordinary fulfilment of a prediction of the planets!</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>What are you talking about?</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star. </speaker>
+     <stage>(looking about).</stage>
+     <p>Is there nobody else in sight, up the street or down? No, not a soul! This,
+                        then, is the man whose coming was revealed to me by the stars, six months
+                        ago!</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>What do you mean?</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Young man, that I have consulted the Book of Fate with rare and wonderful
+                        success—that coming events have cast their shadows before.</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>Don't talk nonsense to me—I ain't an event; I'm a lamplighter!</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star. </speaker>
+     <stage>(aside).</stage>
+     <p>True!—Strange destiny that one, announced by the planets as of noble birth,
+                        should be devoted to so humble an occupation! </p>
+     <stage>(Aloud.)</stage>
+     <p> But you were not always a lamplighter?</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>Why, no. I wasn't born with a ladder on my left shoulder, and a light in my
+                        other hand. But I took to it very early, though—I had it from my uncle.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star. </speaker>
+     <stage>(aside).</stage>
+     <p>He had it from his uncle! How plain, and yet how forcible, is his language!
+                        He speaks of lamplighting, as though it were the whooping-cough, or measles! </p>
+     <stage>(to him).</stage>
+     <p> Ay!</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>Yes, he was the original. You should have known him!—'cod! he was a genius,
+                        if ever there was one. Gas was the death of him! When gas lamps was first
+                        talked of, my uncle draws himself up, and says, “I'll not believe it,
+                        there's no sich a thing,” he says. “You might as well talk of laying on an
+                        everlasting succession of glowworms!” But when they made the experiment of
+                        lighting a piece of Pall Mall—</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>That was when it first came up?</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>No, no, that was when it was first laid down. Don't mind me; I can't help a
+                        joke, now and then. My uncle was sometimes took that way. When the
+                        experiment was made of lighting a piece of Pall Mall, and he had actually
+                        witnessed it, with his own eyes, you should have seen my uncle then!</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>So much overcome?</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>Overcome, sir! He fell off his ladder, from weakness, fourteen times that
+                        very night; and his last fall was into a wheelbarrow that was going his way,
+                        and humanely took him home. “I foresee in this,” he says, “the breaking up
+                        of our profession; no more polishing of the tin reflectors,” he says; “no
+                        more fancy-work, in the way of clipping the cottons at two o'clock in the
+                        morning; no more going the rounds to trim by daylight, and dribbling down of
+                        the ile on the hats and bonnets of the ladies and gentlemen, when one feels
+                        in good spirits. Any low fellow can light a gas-lamp, and it's all up!” So
+                        he petitioned the government for—what do you call that that they give to
+                        people when it's found out that they've never been of any use, and have been
+                        paid too much for doing nothing?</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Compensation?</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>Yes, that's the thing—compensation. They didn't give him any, though! And
+                        then he got very fond of his country all at once, and went about, saying how
+                        that the bringing in of gas was a death-blow to his native land; and how
+                        that its ile and cotton trade was gone for ever, and the whales would go and
+                        kill themselves, privately, in spite and vexation at not being caught! After
+                        this, he was right-down cracked, and called his 'bacco pipe a gas pipe, and
+                        thought his tears was lamp ile, and all manner of nonsense. At last, he went
+                        and hung himself on a lamp iron, in St. Martin's Lane, that he'd always been
+                        very fond of; and as he was a remarkably good husband, and had never had any
+                        secrets from his wife, he put a note in the twopenny post, as he went along,
+                        to tell the widder where the body was.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star. </speaker>
+     <stage>(laying his hand upon his arm, and speaking mysteriously).</stage>
+     <p>Do you remember your parents?</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>My mother I do, very well!</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Was she of noble birth?</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>Pretty well. She was in the mangling line. Her mother came of a highly
+                        respectable family—such a business, in the sweetstuff and hardbake way!</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Perhaps your father was—</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>Why, I hardly know about him. The fact is, there was some little doubt, at
+                        the time, who was my father. Two or three young gentlemen were paid the
+                        pleasing compliment; but their incomes being limited, they were compelled
+                        delicately to decline it.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Then the prediction is not fulfilled merely in part, but entirely and
+                        completely. Listen, young man—I am acquainted with all the celestial bodies—</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>Are you, though? I hope they are quite well— every body.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Don't interrupt me. I am versed in the great sciences of astronomy and
+                        astrology; in my house there I have every description of apparatus for
+                        observing the course and motion of the planets. I'm writing a work about
+                        them, which will consist of eighty-four volumes, imperial quarto; and an
+                        appendix, nearly twice as long. I read what's going to happen in the stars.</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>Read what's going to happen in the stars! Will any thing particular happen in
+                        the stars in the course of next week, now?</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>You don't understand me. I read in the stars what's going to happen here. Six
+                        months ago I derived from this source the knowledge that, precisely as the
+                        clock struck five, on the afternoon of this very day, a stranger would
+                        present himself before my enraptured sight —that stranger would be a man of
+                        illustrious and high descent—that stranger would be the destined husband of
+                        my young and lovely niece, who is now beneath that roof </p>
+     <stage>(points to his house)</stage>
+     <p>—that stranger is yourself; I receive you with open arms!</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>Me! I, the man of illustrious and high—I, the husband of a young and
+                        lovely—Oh! it can't be, you know! the stars have made a mistake—the comet
+                        has put 'em out!</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Impossible! The characters were as plain as pike-staves. The clock struck
+                        five; you were here; there was not a soul in sight; a mystery envelopes your
+                        birth; you are a man of noble aspect. Does not everything combine to prove
+                        the accuracy of my observtations?</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>Upon my word, it looks like it! And now I come to think of it, I have very
+                        often felt as if I wasn't the small beer I was taken for. And yet I don't
+                        know—you're quite sure about the noble aspect?</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Positively certain.</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>Give me your hand.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>And my heart, too!</p>
+    </sp>
+    <stage> [They shake hands heartily.</stage>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>The young lady is tolerably good-looking, is she?</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Beautiful! A graceful carriage, an exquisite shape, a sweet voice; a
+                        countenance beaming with animation and expression; the eye of a startled
+                        fawn.</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>I see; a sort of game eye. Does she happen to have any of the—this is quite
+                        between you and me, you know—and I only ask from curiosity—not because I
+                        care about it—any of the ready?</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Five thousand pounds! But what of that? what of that? A word in your ear. I'm
+                        in search of the philosopher's stone! I have very nearly found it—not quite.
+                        It turns everything to gold; that's its property.</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>What a lot of property it must have!</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>When I get it, we'll keep it in the family. Not a word to any one! What will
+                        money be to us? We shall never be able to spend it fast enough.</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>Well, you know, we can but try—I'll do my best endeavours.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Thank you—thank you! But I'll introduce you to your future bride at once—this
+                        way, this way!</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>What, without going my rounds first?</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Certainly. A man in whom the planets take especial interest, and who is about
+                        to have a share in the philosopher's stone, descend to lamplighting!</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>Perish the base idea! not by no means! I'll take in my tools though, to
+                        prevent any kind inquiries after me, at your door. </p>
+     <stage>(As he shoulders the ladder the sound of violent rain is heard.)</stage>
+     <p> Holloa!</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star. </speaker>
+     <stage>(putting his hand on his head, in amazement).</stage>
+     <p>What's that?</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>It's coming down, rather.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Rain!</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>Ah! and a soaker, too!</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>It can't be!—it's impossible! </p>
+     <stage>(taking a book from his pocket, and turning over the pages hurriedly.)</stage>
+     <p> Look here—here it is—here's the weather almanack— “Set fair,”—I knew it
+                        couldn't be! </p>
+     <stage>(with great triumph.)</stage>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom </speaker>
+     <stage>(turning up his collar as the rain increases).</stage>
+     <p>Don't you think there's a dampness in the atmosphere?</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star. </speaker>
+     <stage>(looking up).</stage>
+     <p>It's singular—it's like rain!</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>Uncommonly like.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>It's a mistake in the elements, somehow. Here it is, “set fair,”—and set fair
+                        it ought to be. “Light clouds floating about.” Ah! you see, there are no
+                        light clouds—the weather's all wrong.</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>Don't you think we had better get under cover?</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star. </speaker>
+     <stage>(slowly retreating towards the house).</stage>
+     <p>I don't acknowledge that it has any right to rain, mind! I protest against
+                        this. If Nature goes on in this way, I shall lose all respect for her—it
+                        won't do, you know; it ought to have been two degrees colder, yesterday; and
+                        instead of that, it was warmer. This is not the way to treat scientific men.
+                        I protest against it!</p>
+    </sp>
+    <stage> [Exeunt into house, both talking, Tom pushing Stargazer on, and the latter
+                    continually turning back, to declaim against the weather.</stage>
+   </div>
+   <div type="act" n="2">
+    <head>SCENE II.</head>
+    <stage>A room in Stargazer's house. Betsy Martin, Emma Stargazer, Fanny Brown, and
+                    Galileo, all murmuring together as they enter.</stage>
+    <sp who="#betsy">
+     <speaker>Betsy.</speaker>
+     <p>I say again, young ladies, that it's shameful! unbearable!</p>
+    </sp>
+    <sp who="#all">
+     <speaker>All.</speaker>
+     <p>Oh! shameful! shameful!</p>
+    </sp>
+    <sp who="#betsy">
+     <speaker>Betsy.</speaker>
+     <p>Marry Miss Emma to a great, old, ugly, doting, dreaming As-tron-o-Magician,
+                        like Mr. Mooney, who's always winking and blinking through telescopes and
+                        that, and can't see a pretty face when it's under his very nose!</p>
+    </sp>
+    <sp who="#galileo">
+     <speaker>Galileo </speaker>
+     <stage>(with a melancholy air).</stage>
+     <p>There never was a pretty face under his nose, Betsy, leastways, since I've
+                        known him. He's very plain.</p>
+    </sp>
+    <sp who="#betsy">
+     <speaker>Betsy.</speaker>
+     <p>Ah! there's poor young master, too; he hasn't even spirits enough left to
+                        laugh at his own jokes. I'm sure I pity him, from the very bottom of my
+                        heart.</p>
+    </sp>
+    <sp who="#fanny_and_emma">
+     <speaker>Fanny and Emma.</speaker>
+     <p>Poor fellow!</p>
+    </sp>
+    <sp who="#galileo">
+     <speaker>Galileo.</speaker>
+     <p>Ain't I a legitimate subject for pity? Ain't it a dreadful thing, that I,
+                        that am twenty-one come next Lady-day, should be treated like a little
+                        boy?—and all because my father is so busy with the moon's age that he don't
+                        care about mine; and so much occupied in making observations on the sun
+                        round which the earth revolves, that he takes no notice of the son that
+                        revolves round him! I wasn't taken out of nankeen frocks and trousers till I
+                        became quite unpleasant in 'em.</p>
+    </sp>
+    <sp who="#all">
+     <speaker>All.</speaker>
+     <p>What a shame!</p>
+    </sp>
+    <sp who="#galileo">
+     <speaker>Galileo.</speaker>
+     <p>I wasn't, indeed. And look at me now! Here's a state of things. Is this a
+                        suit of clothes for a major—at least, for a gentleman who is a minor now,
+                        but will be a major on the very next Lady-day that comes? Is this a fit—</p>
+    </sp>
+    <sp who="#all">
+     <speaker>All </speaker>
+     <stage>(interrupting him).</stage>
+     <p>Certainly not!</p>
+    </sp>
+    <sp who="#galileo">
+     <speaker>Galileo </speaker>
+     <stage>(vehemently).</stage>
+     <p>I won't stand it—I won't submit to it any longer. I will be married.</p>
+    </sp>
+    <sp who="#all">
+     <speaker>All.</speaker>
+     <p>No, no no! don't be rash.</p>
+    </sp>
+    <sp who="#galileo">
+     <speaker>Galileo.</speaker>
+     <p>I will, I tell you. I'll marry my cousin Fanny. Give me a kiss, Fanny; and
+                        Emma and Betsy will look the other way the while. </p>
+     <stage>(Kisses her.)</stage>
+     <p> There!</p>
+    </sp>
+    <sp who="#betsy">
+     <speaker>Betsy.</speaker>
+     <p>Sir—sir! here's your father coming!</p>
+    </sp>
+    <sp who="#galileo">
+     <speaker>Galileo.</speaker>
+     <p>Well, then, I'll have another, as an antidote to my father. One more, Fanny.</p>
+    </sp>
+    <stage> [Kisses her.</stage>
+    <sp who="#mr_star">
+     <speaker>Mr. Star </speaker>
+     <stage>(without).</stage>
+     <p>This way—this way! You shall behold her immediately.</p>
+    </sp>
+    <stage>Enter Mr. Stargazer, Tom following bashfully.</stage>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Where is my—. Oh, here she is! Fanny, my dear, come here. Do you see that
+                        gentleman?</p>
+    </sp>
+    <stage> [Aside.</stage>
+    <sp who="#fanny">
+     <speaker>Fanny.</speaker>
+     <p>What gentleman, uncle? Do you mean that elastic person yonder who is bowing
+                        with so much perseverance?</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Hush! Yes; that's the interesting stranger.</p>
+    </sp>
+    <sp who="#fanny">
+     <speaker>Fanny.</speaker>
+     <p>Why, he is kissing his hand, uncle. What does the creature mean?</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Ah, the rogue! Just like me, before I married your poor aunt—all fire and
+                        impatience. He means love, my darling, love. I've such a delightful surprise
+                        for you. I didn't tell you before, for fear there should be any mistake; but
+                        it's all right, it's all right. The stars have settled it all among 'em.
+                        He's to be your husband!</p>
+    </sp>
+    <sp who="#fanny">
+     <speaker>Fanny.</speaker>
+     <p>My husband, uncle? Goodness gracious, Emma</p>
+    </sp>
+    <stage> [Converses apart with her.</stage>
+    <sp who="#mr_star">
+     <speaker>Mr. Star. </speaker>
+     <stage>(aside).</stage>
+     <p>He has made a sensation already. His noble aspect and distinguished air have
+                        produced an instantaneous impression. Mr. Grig, will you permit me? </p>
+     <stage>(Tom advances awkwardly.)</stage>
+     <p>—This is my niece, Mr. Grig, —my niece, Miss Fanny Brown; my daughter, Emma—
+                        Mr. Thomas Grig, the favourite of the planets.</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>I hope I see Miss Hemmer in a convivial state? </p>
+     <stage>(Aside to Mr. Stargazer.)</stage>
+     <p> I say, I don't know which is which.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star. </speaker>
+     <stage>(aside).</stage>
+     <p>The young lady nearest here is your affianced bride. Say something
+                        appropriate.</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>Certainly; yes, of course. Let me see. Miss </p>
+     <stage>(crosses to her)</stage>
+     <p> —I—thank'ee!</p>
+    </sp>
+    <stage> [Kisses her, behind his hat. She screams.</stage>
+    <sp who="#galileo">
+     <speaker>Galileo </speaker>
+     <stage>(bursting from Betsy, who has been restraining him).</stage>
+     <p>Outrageous insolence!</p>
+    </sp>
+    <stage> [Betsy runs off.</stage>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Halloa, sir, halloa!</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>Who is this juvenile salamander, sir?</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>My little boy—only my little boy, don't mind him. Shake hands with the
+                        gentleman, sir, instantly </p>
+     <stage>(to Galileo)</stage>
+     <p>.</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>A very fine boy, indeed; and he does you great credit, sir. How d'ye do, my
+                        little man? </p>
+     <stage>(They shake hands, Galileo looking very wrathful, as Tom pats him on the
+                        head.)</stage>
+     <p> There, that's very right and proper. “'Tis dogs delight to bark and bite;”
+                        not young gentlemen, you know. There, there!</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Now, let me introduce you to that sanctum sanctorum—that hallowed ground—that
+                        philosophical retreat—where I, the genius loci—</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>Eh?</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>The genius loci—</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom </speaker>
+     <stage>(aside).</stage>
+     <p>Something to drink, perhaps. Oh, ah! yes, yes!</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Have made all my greatest and most profound discoveries! where the telescope
+                        has almost grown to my eye with constant application; and the glass retort
+                        has been shivered to pieces from the ardour with which my experiments have
+                        been pursued. There the illustrious Mooney is, even now, pursuing those
+                        researches which will enrich us with precious metal, and make us masters of
+                        the world. Come, Mr. Grig.</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>By all means, sir; and luck to the illustrious Mooney, say I—not so much on
+                        Mooney's account as for our noble selves.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Emma!</p>
+    </sp>
+    <sp who="#emma">
+     <speaker>Emma.</speaker>
+     <p>Yes, papa.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>The same day that makes your cousin Mrs. Grig, will make you and that
+                        immortal man, of whom we have just now spoken, one.</p>
+    </sp>
+    <sp who="#emma">
+     <speaker>Emma.</speaker>
+     <p>Oh! consider, dear papa—</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>You are unworthy of him, I know; but he— kind, generous creature—consents to
+                        overlook your defects, and to take you, for my sake—devoted man!—Come, Mr.
+                        Grig!—Galileo Isaac Newton Flamstead!</p>
+    </sp>
+    <sp who="#galileo">
+     <speaker>Galileo.</speaker>
+     <p>Well!</p>
+    </sp>
+    <stage> [Advancing sulkily.</stage>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>In name, alas! but not in nature; knowing, even by sight, no other planets
+                        than the sun and moon— here is your weekly pocket-money—sixpence! Take it
+                        all!</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>And don't spend it all at once, my man! Now, sir!</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Now, Mr. Grig—go first, sir, I beg!</p>
+    </sp>
+    <stage> [Exeunt Tom and Mr. Stargazer.</stage>
+    <sp who="#galileo">
+     <speaker>Galileo.</speaker>
+     <p>“Come, Mr. Grig!”—“Go first, Mr. Grig!” —“Day that makes your cousin Mrs.
+                        Grig!”—I'll secretly stick a penknife into Mr. Grig, if I live to be three
+                        hours older!</p>
+    </sp>
+    <sp who="#fanny">
+     <speaker>Fanny </speaker>
+     <stage>(on one side of him).</stage>
+     <p>Oh! don't talk in that desperate way—there's a dear, dear creature!</p>
+    </sp>
+    <sp who="#emma">
+     <speaker>Emma </speaker>
+     <stage>(on the other side).</stage>
+     <p>No! pray do not!—it makes my blood run cold to hear you.</p>
+    </sp>
+    <sp who="#galileo">
+     <speaker>Galileo.</speaker>
+     <p>Oh! if I was of age!—if I was only of age! —or we could go to Gretna Green,
+                        at threepence a head, including refreshments and all incidental expenses.
+                        But that could never be! Oh! if I was only of age!</p>
+    </sp>
+    <sp who="#fanny">
+     <speaker>Fanny.</speaker>
+     <p>But what if you were? What could you do, then?</p>
+    </sp>
+    <sp who="#galileo">
+     <speaker>Galileo.</speaker>
+     <p>Marry you, cousin Fanny; I could marry you then lawfully, and without
+                        anybody's consent.</p>
+    </sp>
+    <sp who="#fanny">
+     <speaker>Fanny.</speaker>
+     <p>You forget that, situated as we are, we could not be married, even if you
+                        were one-and-twenty—we have no money!</p>
+    </sp>
+    <sp who="#emma">
+     <speaker>Emma.</speaker>
+     <p>Not even enough for the fees!</p>
+    </sp>
+    <sp who="#galileo">
+     <speaker>Galileo.</speaker>
+     <p>Oh! I am sure every Christian clergyman, under such afflicting circumstances,
+                        would marry us on credit. The wedding-fees might stand over till the first
+                        christening, and then we could settle the little bill altogether. Oh! why
+                        ain't I of age!—why ain't I of age!</p>
+    </sp>
+    <stage>Enter Betsy in haste.</stage>
+    <sp who="#betsy">
+     <speaker>Betsy.</speaker>
+     <p>Well! I never could have believed it! There, Miss! I wouldn't have believed
+                        it, if I had dreamt it, even with a bit of bride-cake under my pillow! To
+                        dare to go and think of marrying a young lady, with five thousand pounds, to
+                        a common lamplighter!</p>
+    </sp>
+    <sp who="#all">
+     <speaker>All.</speaker>
+     <p>A lamplighter?</p>
+    </sp>
+    <sp who="#betsy">
+     <speaker>Betsy.</speaker>
+     <p>Yes, he's Tom Grig the lamplighter, and nothing more nor less, and old Mr.
+                        Stargazer goes and picks him out of the open street, and brings him in for
+                        Miss Fanny's husband, because he pretends to have read something about it in
+                        the stars. Stuff and nonsense! I don't believe he knows his letters in the
+                        stars, and that's the truth; or if he's got as far as words in one syllable,
+                        it's quite as much as he has.</p>
+    </sp>
+    <sp who="#fanny">
+     <speaker>Fanny.</speaker>
+     <p>Was such an atrocity ever heard of? I, left with no power to marry without
+                        his consent, and he almost possessing the power to force my inclinations.</p>
+    </sp>
+    <sp who="#emma">
+     <speaker>Emma.</speaker>
+     <p>It's actually worse than my being sacrificed to that odious and detestable
+                        Mr. Mooney.</p>
+    </sp>
+    <sp who="#betsy">
+     <speaker>Betsy.</speaker>
+     <p>Come, Miss, it's not quite so bad as that neither, for Thomas Grig is a young
+                        man, and a proper young man enough too, but as to Mr. Mooney—oh, dear! no
+                        husband is bad enough in my opinion, Miss; but he is worse than nothing—a
+                        great deal worse.</p>
+    </sp>
+    <sp who="#fanny">
+     <speaker>Fanny.</speaker>
+     <p>You seem to speak feelingly about this same Mr. Grig?</p>
+    </sp>
+    <sp who="#betsy">
+     <speaker>Betsy.</speaker>
+     <p>Oh, dear no, Miss, not I. I don't mean to say but what Mr. Grig may be very
+                        well in his way, Miss; but Mr. Grig and I have never held any communication
+                        together, not even so much as how dy'e do. Oh, no indeed, I have been very
+                        careful, Miss, as I always am with strangers. I was acquainted with the last
+                        lamplighter, Miss, but he's going to be married, and has given up the
+                        calling, for the young woman's parents being very respectable, wished her to
+                        marry a literary man, and so he has set up as a bill-sticker. Mr. Grig only
+                        came upon this beat at five to-night, Miss.</p>
+    </sp>
+    <sp who="#fanny">
+     <speaker>Fanny.</speaker>
+     <p>Which is a very sufficient reason why you don't know more of him.</p>
+    </sp>
+    <sp who="#betsy">
+     <speaker>Betsy.</speaker>
+     <p>Well, Miss, perhaps it is; and I hope there's no crime in making friends in
+                        this world, if we can, Miss.</p>
+    </sp>
+    <sp who="#fanny">
+     <speaker>Fanny.</speaker>
+     <p>Certainly not. So far from it, that I most heartily wish you could make
+                        something more than a friend of this Mr. Grig, and so lead him to falsify
+                        this prediction.</p>
+    </sp>
+    <sp who="#galileo">
+     <speaker>Galileo.</speaker>
+     <p>Oh! don't you think you could, Betsy?</p>
+    </sp>
+    <sp who="#emma">
+     <speaker>Emma.</speaker>
+     <p>You could not manage at the same time to get any young friend of yours to
+                        make something more than a friend of Mr. Mooney, could you, Betsy?</p>
+    </sp>
+    <sp who="#galileo">
+     <speaker>Galileo.</speaker>
+     <p>But, seriously, don't you think you could manage to give us all a helping
+                        hand together, in some way, eh, Betsy?</p>
+    </sp>
+    <sp who="#fanny">
+     <speaker>Fanny.</speaker>
+     <p>Yes, yes, that would be so delightful. I should be grateful to her for ever!
+                        Shouldn't you?</p>
+    </sp>
+    <sp who="#emma">
+     <speaker>Emma.</speaker>
+     <p>Oh, to the very end of my life!</p>
+    </sp>
+    <sp who="#galileo">
+     <speaker>Galileo.</speaker>
+     <p>And so should I, you know, and lor! we should make her so rich, when—when we
+                        got rich ourselves—shouldn't we?</p>
+    </sp>
+    <sp who="#both">
+     <speaker>Both.</speaker>
+     <p>Oh, that we should, of course.</p>
+    </sp>
+    <sp who="#betsy">
+     <speaker>Betsy.</speaker>
+     <p>Let me see. I don't wish to have Mr. Grig to myself, you know. I don't want
+                        to be married.</p>
+    </sp>
+    <sp who="#all">
+     <speaker>All.</speaker>
+     <p>No! no! no! Of course she don't.</p>
+    </sp>
+    <sp who="#betsy">
+     <speaker>Betsy.</speaker>
+     <p>I haven't the least idea to put Mr. Grig off this match, you know, for
+                        anybody's sake, but you young people's. I am going quite contrairy to my own
+                        feelings, you know.</p>
+    </sp>
+    <sp who="#all">
+     <speaker>All.</speaker>
+     <p>Oh, yes, yes! How kind she is!</p>
+    </sp>
+    <sp who="#betsy">
+     <speaker>Betsy.</speaker>
+     <p>Well, I'll go over the matter with the young ladies in Miss Emma's room, and
+                        if we can think of anything that seems likely to help us, so much the
+                        better; and if we can't, we're none the worst. But Master Galileo musn't
+                        come, for he is so horrid jealous of Miss Fanny that I dursn't hardly say
+                        anything before him. Why, I declare </p>
+     <stage>(looking off)</stage>
+     <p> there is my gentleman looking about him as if he had lost Mr. Stargazer, and
+                        now he turns this way. There—get out of sight. Make haste!</p>
+    </sp>
+    <sp who="#galileo">
+     <speaker>Galileo.</speaker>
+     <p>I may see 'em as far as the bottom stair, mayn't I, Betsy?</p>
+    </sp>
+    <sp who="#betsy">
+     <speaker>Betsy.</speaker>
+     <p>Yes, but not a step farther on any consideration. There, get away softly, so
+                        that if he passes here, he may find me alone.</p>
+    </sp>
+    <stage> [They creep gently out—Galileo returns and peeps in.</stage>
+    <sp who="#galileo">
+     <speaker>Galileo.</speaker>
+     <p>Hist, Betsy!</p>
+    </sp>
+    <sp who="#betsy">
+     <speaker>Betsy.</speaker>
+     <p>Go away, sir. What have you come back for?</p>
+    </sp>
+    <sp who="#galileo">
+     <speaker>Galileo </speaker>
+     <stage>(holding out large pin).</stage>
+     <p>I wish you'd take an opportunity of sticking this a little way into him for
+                        patting me on the head just now.</p>
+    </sp>
+    <sp who="#betsy">
+     <speaker>Betsy.</speaker>
+     <p>Nonsense, you can't afford to indulge in such expensive amusements as
+                        retaliation yet awhile. You must wait till you come into your property, sir.
+                        There.— Get you gone!</p>
+    </sp>
+    <stage> [Exit Galileo.</stage>
+    <stage>Enter Tom Grig.</stage>
+    <sp who="#tom">
+     <speaker>Tom </speaker>
+     <stage>(aside).</stage>
+     <p>I never saw such a scientific file in my days. The enterprising gentleman
+                        that drowned himself to see how it felt, is nothing to him. There he is,
+                        just gone down to the bottom of a dry well in an uncommonly small bucket, to
+                        take an extra squint at the stars, they being seen best, I suppose, through
+                        the medium of a cold in the head. Halloa! Here is a young female of
+                        attractive proportions. I wonder now whether a man of noble aspect would be
+                        justified in tickling her.</p>
+    </sp>
+    <stage> [He advances stealthily and tickles her under the arm.</stage>
+    <sp who="#betsy">
+     <speaker>Betsy </speaker>
+     <stage>(startling).</stage>
+     <p>Eh! what! Lor, sir!</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>Don't be alarmed. My intentions are strictly honourable. In other words, I
+                        have no intentions whatever.</p>
+    </sp>
+    <sp who="#betsy">
+     <speaker>Betsy.</speaker>
+     <p>Then you ought to be more careful, Mr. Grig. That was a liberty, sir.</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>I know it was. The cause of liberty all over the world—that's my sentiment.
+                        What is your name?</p>
+    </sp>
+    <sp who="#betsy">
+     <speaker>Betsy </speaker>
+     <stage>(curtseying).</stage>
+     <p>Betsy Martin, sir.</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>A name famous both in song and story. Would you have the goodness, Miss
+                        Martin, to direct me to that particular apartment wherein the illustrious
+                        Mooney is now pursuing his researches?</p>
+    </sp>
+    <sp who="#betsy">
+     <speaker>Betsy </speaker>
+     <stage>(aside).</stage>
+     <p>A little wholesome fear may not be amiss. </p>
+     <stage>(To him in assumed agitation.)</stage>
+     <p> You are not going into that room, Mr. Grig?</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>Indeed, I am, and I ought to be there now, having promised to join that light
+                        of science, your master (a short six, by-the-by), outside the door.</p>
+    </sp>
+    <sp who="#betsy">
+     <speaker>Betsy.</speaker>
+     <p>That dreadful and mysterious chamber. Another victim!</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>Victim, Miss Martin!</p>
+    </sp>
+    <sp who="#betsy">
+     <speaker>Betsy.</speaker>
+     <p>Oh! the awful oath of secrecy which binds me not to disclose the perils of
+                        that gloomy, hideous room.</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom </speaker>
+     <stage>(astonished).</stage>
+     <p>Miss Martin!</p>
+    </sp>
+    <sp who="#betsy">
+     <speaker>Betsy.</speaker>
+     <p>Such a fine young man,—so rosy and fresh-coloured, that he should fall into
+                        the clutches of that cruel and insatiable monster! I cannot continue to
+                        witness such frightful scenes: I must give warning.</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>If you have anything to unfold, young woman, have the goodness to give me
+                        warning at once.</p>
+    </sp>
+    <sp who="#betsy">
+     <speaker>Betsy </speaker>
+     <stage>(affecting to recover herself).</stage>
+     <p>No, no, Mr. Grig, it's nothing,—it's ha! ha! ha!—don't mind me, don't mind
+                        me, but it certainly is very shocking—no—no—I don't mean that. I mean
+                        funny—yes. Ha! ha! ha!</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom </speaker>
+     <stage>(aside, regarding her attentively).</stage>
+     <p>I suspect a trick here—some other lover in the case who wants to come over
+                        the stars—but it won't do. I'll tell you what, young woman </p>
+     <stage>(to her)</stage>
+     <p>, if this is a cloak, you had better try it on elsewhere—in plain English, if
+                        you have any object to gain and think to gain it by frightening me, it's all
+                        my eye, and, and—yourself, Miss Martin.</p>
+    </sp>
+    <sp who="#betsy">
+     <speaker>Betsy.</speaker>
+     <p>Well, then, if you will rush upon your fate— there </p>
+     <stage>(pointing off)</stage>
+     <p>—that's the door at the end of that long passage and across the gravelled
+                        yard. The room is built away from the house on purpose.</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>I'll make for it at once, and the first object I inspect through that same
+                        telescope, which now and then grows to your master's eye, shall be the
+                        moon—the moon, which is the emblem of your inconstant and deceitful sex,
+                        Miss Martin.</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>There comes a new moon twelve times a year.</p>
+    </sp>
+    <sp who="#betsy">
+     <speaker>Betsy</speaker>
+     <p>And when there is none, all is dark and drear.</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>In which I espy—</p>
+    </sp>
+    <sp who="#betsy">
+     <speaker>Betsy.</speaker>
+     <p> And so, too, do I—</p>
+    </sp>
+    <sp who="#both">
+     <speaker>Both.</speaker>
+     <p>A resemblance to womankind very clear—</p>
+    </sp>
+    <sp who="#both">
+     <speaker>Both.</speaker>
+     <p>There comes a new moon twelve times in a year; And when there is none, all is
+                        dark and drear.</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>In which I espy—</p>
+    </sp>
+    <sp who="#betsy">
+     <speaker>Betsy.</speaker>
+     <p> And so do I—</p>
+    </sp>
+    <sp who="#both">
+     <speaker>Both.</speaker>
+     <p>A resemblance to womankind very clear.</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>She changes, she's fickle, she drives men mad.</p>
+    </sp>
+    <sp who="#betsy">
+     <speaker>Betsy.</speaker>
+     <p>She comes to bring light, and leaves them sad.</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>So restless wild—</p>
+    </sp>
+    <sp who="#betsy">
+     <speaker>Betsy.</speaker>
+     <p> But so sweetly wild—</p>
+    </sp>
+    <sp who="#both">
+     <speaker>Both.</speaker>
+     <p>That no better companion could be had.</p>
+    </sp>
+    <sp who="#both">
+     <speaker>Both.</speaker>
+     <p>There comes a new moon twelve times a year; And when there is none, all is
+                        dark and drear.</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>In which I espy—</p>
+    </sp>
+    <sp who="#betsy">
+     <speaker>Betsy.</speaker>
+     <p> And so do I—</p>
+    </sp>
+    <sp who="#both">
+     <speaker>Both.</speaker>
+     <p>A resemblance to womankind very clear.</p>
+    </sp>
+   </div>
+   <div type="act" n="3">
+    <head>SCENE III.</head>
+    <stage> A large gloomy room; a window with a telescope directed towards the sky
+                    without, a table covered with books, instruments and apparatus, which are also
+                    scattered about in other parts of the chamber, a dim lamp, a pair of globes,
+                    &amp;c., a skeleton in a case, and various uncouth objects displayed against the
+                    walls. Two doors in flat. Mr. Mooney discovered, with a very dirty face, busily
+                    engaged in blowing a fire, upon which is a crucible.</stage>
+    <stage>Enter Mr. Stargazer with a lamp, beckoning to Tom Grig, who enters with some
+                    unwillingness.</stage>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>This, Mr. Grig, is the sanctum sanctorum of which I have already spoken; this
+                        is at once the laboratory and observatory.</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>It's not an over-lively place, is it?</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>It has an air of solemnity which well accords with the great and mysterious
+                        pursuits that are here in constant prosecution, Mr. Grig.</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>Ah! I should think it would suit an undertaker to the life; or perhaps I
+                        should rather say to the death. What may that cheerful object be now?</p>
+    </sp>
+    <stage> [Pointing to a large phial.</stage>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>That contains a male infant with three heads—we use it in astrology—it is
+                        supposed to be a charm.</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>I shouldn't have supposed it myself, from his appearance. The young gentleman
+                        isn't alive, is he?</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>No, he is preserved in spirits.</p>
+    </sp>
+    <stage> [Mr. Mooney sneezes.</stage>
+    <sp who="#tom">
+     <speaker>Tom </speaker>
+     <stage>(retreating into a corner).</stage>
+     <p>Halloa! What the— </p>
+     <stage>(Mr. Mooney looks vacantly round.)</stage>
+     <p> That gentleman, I suppose, is out of spirits?</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star. </speaker>
+     <stage>(laying his hand upon Tom's arm and looking toward the
+                        philosopher).</stage>
+     <p>Hush! that is the gifted Mooney. Mark well his noble countenance—intense
+                        thought beams from every lineament. That is the great astrologer.</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>He looks as if he had been having a touch at the black art. I say, why don't
+                        he say something?</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>He is in a state of abstraction; see he directs his bellows this way, and
+                        blows upon the empty air.</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>Perhaps he sees a strange spark in this direction and wonders how he came
+                        here. I wish he'd blow me out. </p>
+     <stage>(Aside.)</stage>
+     <p> I don't half like this.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>You shall see me rouse him.</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>Don't put yourself out of the way on my account, I can make his acquaintance
+                        at any other time.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>No time like the time present. Nothing awakens him from these fits of
+                        meditation but an electric shock. We always have a strongly charged battery
+                        on purpose. I'll give him a shock directly.</p>
+    </sp>
+    <stage> [Mr. Stargazer goes up and cautiously places the end of a wire in Mr.
+                    Mooney's hand. He then stoops down beside the table as though bringing it in
+                    contact with the battery. Mr. Mooney immediately jumps up with a loud cry and
+                    throws away the bellows.</stage>
+    <sp who="#tom">
+     <speaker>Tom </speaker>
+     <stage>(squaring at the philosopher).</stage>
+     <p>It wasn't me, you know—none of your nonsense.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star. </speaker>
+     <stage>(comes hastily forward).</stage>
+     <p>Mr. Grig—Mr. Grig —not that disrespectful attitude to one of the greatest men
+                        that ever lived. This, my dear friend </p>
+     <stage>(to Mooney)</stage>
+     <p> —is the noble stranger.</p>
+    </sp>
+    <sp who="#mr_mooney">
+     <speaker>Mr. Mooney.</speaker>
+     <p>A ha!</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Who arrived, punctual to his time, this afternoon.</p>
+    </sp>
+    <sp who="#mr_mooney">
+     <speaker>Mr. Mooney.</speaker>
+     <p>O ho!</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Welcome him, my friend—give him your hand. </p>
+     <stage>(Mr. Mooney appears confused and raises his leg.)</stage>
+     <p> No—no, that's your foot. So absent, Mr. Grig, in his gigantic meditations
+                        that very often he doesn't know one from the other. Yes, that's your hand,
+                        very good, my dear friend, very good </p>
+     <stage>(pats Mooney on the back, as he and Tom shake hands, the latter at arm's
+                        length)</stage>
+     <p>.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Have you made any more discoveries during my absence?</p>
+    </sp>
+    <sp who="#mr_mooney">
+     <speaker>Mr. Mooney.</speaker>
+     <p>Nothing particular.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Do you think—do you think, my dear friend, that we shall arrive at any great
+                        stage in our labours, anything at all approaching to their final
+                        consummation in the course of the night?</p>
+    </sp>
+    <sp who="#mr_mooney">
+     <speaker>Mr. Mooney.</speaker>
+     <p>I cannot take upon myself to say.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>What are your opinions upon the subject?</p>
+    </sp>
+    <sp who="#mr_mooney">
+     <speaker>Mr. Mooney.</speaker>
+     <p>I haven't any opinions upon any subject whatsoever.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Wonderful man! Here's a mind, Mr. Grig.</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>Yes, his conversation's very improving indeed. But what's he staring so hard
+                        at me for?</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Something occurs to him. Don't speak— don't disturb the current of his
+                        reflections upon any account.</p>
+    </sp>
+    <stage> [Mr. Mooney walks solemnly up to Tom, who retreats before him; taking off
+                    his hat turns it over and over with a thoughtful countenance, and finally puts
+                    it upon his own head.</stage>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Eccentric man!</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>I say, I hope he don't mean to keep that, because if he does, his
+                        eccentricity is unpleasant. Give him another shock and knock it off, will
+                        you?</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Hush! hush! not a word.</p>
+    </sp>
+    <stage> [Mr. Mooney, keeping his eyes fixed on Tom, slowly returns to Mr. Stargazer
+                    and whispers in his ear.</stage>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Surely; by all means. I took the date of his birth, and all other information
+                        necessary for the purpose just now. </p>
+     <stage>(To Tom.)</stage>
+     <p> Mr. Mooney suggests that we should cast your nativity without delay, in
+                        order that we may communicate to you your future destiny.</p>
+    </sp>
+    <sp who="#mr_mooney">
+     <speaker>Mr. Mooney.</speaker>
+     <p>Let us retire for that purpose.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Certainly, wait here for a few moments, Mr. Grig: we are only going into the
+                        little laboratory and will return immediately. Now, my illustrious friend.</p>
+    </sp>
+    <stage> [He takes up a lamp and leads the way to one of the doors. As Mr. Mooney
+                    follows, Tom steals behind him and regains his hat. Mr. Mooney turns round,
+                    stares, and exit through door.</stage>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>Well, that's the queerest genius I ever came across—rather a singular person
+                        for a little smoking party </p>
+     <stage>(looks into the crucible)</stage>
+     <p>. This is the saucepan, I suppose, where they're boiling the philosopher's
+                        stone down to the proper consistency. I hope it's nearly done; when it's
+                        quite ready, I'll send out for sixpenn'orth of sprats, and turn 'em into
+                        gold fish for a first experiment. 'Cod! it'll be a comfortable thing though
+                        to have no end to one's riches. I'll have a country house and a park, and
+                        I'll plant a bit of it with a double row of gas-lamps a mile long, and go
+                        out with a French polished mahogany ladder, and two servants in livery
+                        behind me, to light 'em with my own hands every night. What's to be seen
+                        here? </p>
+     <stage>(looks through telescope.)</stage>
+     <p> Nothing particular, the stopper being on at the other end. The little boy
+                        with three heads </p>
+     <stage>(looking towards the case)</stage>
+     <p>. What a comfort he must have been to his parents!—Halloa! </p>
+     <stage>(taking up a large knife)</stage>
+     <p>, this is a disagreeable looking instrument— something too large for bread
+                        and cheese, or oysters, and not of a bad shape for sticking live persons in
+                        the ribs. A very dismal place this—I wish they'd come back. Ah! —</p>
+     <stage>(coming upon the skeleton)</stage>
+     <p>, here's a ghastly object— what does the writing say?—</p>
+     <stage>(reads a label upon the case)</stage>
+     <p>, “Skeleton of a gentleman prepared by Mr. Mooney.” I hope Mr. Mooney may not
+                        be in the habit of inviting gentlemen here, and making 'em into such
+                        preparations without their own consent. Here's a book, now. What's all this
+                        about, I wonder? The letters look as if a steam-engine had printed 'em by
+                        accident.</p>
+    </sp>
+    <stage> [Turns over the leaves, spelling to himself.</stage>
+    <stage>Galileo enters softly, unseen by Tom, who has his back towards him.</stage>
+    <sp who="#galileo">
+     <speaker>Galileo </speaker>
+     <stage>(aside).</stage>
+     <p>Oh, you're there, are you? If I could but suffocate him, not for life, but
+                        only till I am one-and-twenty, and then revive him, what a comfort and
+                        convenience it would be! I overheard my cousin Fanny talking to Betsy about
+                        coming here. What can she want here? If she can be false—false to me;—it
+                        seems impossible, but if she is?—well, well, we shall see. If I can reach
+                        that lumber-room unseen, Fanny Brown, —beware.</p>
+    </sp>
+    <stage> [He steals toward the door on the L.—opens it, and exit cautiously into the
+                    room. As he does so, Tom turns the other way</stage>
+    <sp who="#tom">
+     <speaker>Tom </speaker>
+     <stage>(closing the book).</stage>
+     <p>It's very pretty Greek, I think. What a time they are!</p>
+    </sp>
+    <stage>Mr. Stargazer and Mooney enter from room.</stage>
+    <sp who="#mooney">
+     <speaker>Mooney.</speaker>
+     <p>Tell the noble gentleman of his irrecoverable destiny.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star. </speaker>
+     <stage>(with emotion).</stage>
+     <p>No—no, prepare him first.</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom </speaker>
+     <stage>(aside).</stage>
+     <p>Prepare him! “prepared by Mr. Mooney.”—This is a case of kidnapping and
+                        slaughter </p>
+     <stage>(to them)</stage>
+     <p>. Let him attempt to prepare me at his peril!</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Mr. Grig, why this demonstration?</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>Oh, don't talk to me of demonstrations—you ain't going to demonstrate me, and
+                        so I tell you.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Alas! </p>
+     <stage>(crossing to him.)</stage>
+     <p> The truth we have to communicate requires but little demonstration from our
+                        feeble lips. We have calculated upon your nativity.</p>
+    </sp>
+    <sp who="#mooney">
+     <speaker>Mooney.</speaker>
+     <p>Yes, we have, we have.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Tender-hearted man! </p>
+     <stage>(Mooney weeps).</stage>
+     <p> See there, Mr. Grig, isn't that affecting?</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>What is he piping his boiled gooseberry eye for, sir? How should I know
+                        whether it's affecting or not?</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>For you, for you. We find that you will expire to-morrow two months, at
+                        thirty minutes—wasn't it thirty minutes, my friend?</p>
+    </sp>
+    <sp who="#mooney">
+     <speaker>Mooney.</speaker>
+     <p>Thirty-five minutes, twenty-seven seconds and five-sixths of a second. Oh!</p>
+    </sp>
+    <stage> [Groans.</stage>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Thirty-five minutes, twenty-seven seconds, and five-sixths of a second past
+                        nine o'clock.</p>
+    </sp>
+    <sp who="#mooney">
+     <speaker>Mooney.</speaker>
+     <p>a.m.</p>
+    </sp>
+    <stage> [They both wipe their eyes.</stage>
+    <sp who="#tom">
+     <speaker>Tom </speaker>
+     <stage>(alarmed).</stage>
+     <p>Don't tell me, you've made a mistake somewhere—I won't believe it.</p>
+    </sp>
+    <sp who="#mooney">
+     <speaker>Mooney.</speaker>
+     <p>No, it is all correct, we worked it all in the most satisfactory manner.—Oh!</p>
+    </sp>
+    <stage> [Groans again.</stage>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>Satisfactory, sir! Your notions of the satisfactory are of an extraordinary
+                        nature.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star. </speaker>
+     <stage>(producing a pamphlet).</stage>
+     <p>It is confirmed by the prophetic almanack. Here is the prediction for
+                        to-morrow two months—“The decease of a great person may be looked for about
+                        this time.”</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom </speaker>
+     <stage>(dropping into his chair).</stage>
+     <p>That's me! It's all up! inter me decently, my friends.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star. </speaker>
+     <stage>(shaking his hand).</stage>
+     <p>Your wishes shall be attended to. We must have the marriage with my niece at
+                        once, in order that your distinguished race may be transmitted to posterity.
+                        Condole with him, my Mooney, while I compose my feelings, and settle the
+                        preliminaries of the marriage in solitude.</p>
+    </sp>
+    <stage> [Takes up lamp and exit into room R. Mooney draws up a chair in a line with
+                    Tom, a long way off. They both sigh heavily. Galileo opens the lumber-room door.
+                    As he does so the room door opens and Betsy steals softly in, beckoning to Emma
+                    and Fanny who follow. He retires again abruptly.</stage>
+    <sp who="#betsy">
+     <speaker>Betsy </speaker>
+     <stage>(aside).</stage>
+     <p>Now, young ladies, if you take heart only for one minute you may frighten Mr.
+                        Mooney out of being married at once.</p>
+    </sp>
+    <sp who="#emma">
+     <speaker>Emma.</speaker>
+     <p>But if he has serious thoughts?</p>
+    </sp>
+    <sp who="#betsy">
+     <speaker>Betsy.</speaker>
+     <p>Nonsense miss, he hasn't any thoughts. Your papa says to him, “Will you marry
+                        my daughter?” and he says, “Yes, I will;” and he would and will if you ain't
+                        bold, but bless you, he never turned it over in his mind for a minute. If
+                        you, Miss </p>
+     <stage>(to Emma)</stage>
+     <p>, pretend to hate him and love a rival, and you, Miss </p>
+     <stage>(to Fanny)</stage>
+     <p>, to love him to distraction, you'll frighten him so betwixt you that he'll
+                        declare off directly, I warrant. The love will frighten him quite as much as
+                        the hate. He never saw a woman in a passion, and as to one in love, I don't
+                        believe that anybody but his mother ever kissed that grumpy old face of his
+                        in all his born days. Now, do try him, ladies. Come, we're losing time.</p>
+    </sp>
+    <stage> [She conceals herself behind the skeleton case. Emma rushes up to Tom Grig
+                    and embraces him, while Fanny clasps Mooney round the neck. Galileo appears at
+                    his door in an attitude of amazement, and Mr. Stargazer at his, after running in
+                    again with the lamp, which before he sees what is going forward he had in his
+                    hand. Tom and Mooney in great astonishment.</stage>
+    <sp who="#fanny_to_mooney_emma">
+     <speaker>Fanny (to Mooney)., Emma </speaker>
+     <stage>(to Grig).</stage>
+     <p>Hush! hush!</p>
+    </sp>
+    <stage> [Tom Grig and Mooney get their heads sufficiently out of the embrace to
+                    exchange a look of wonder.</stage>
+    <sp who="#emma">
+     <speaker>Emma.</speaker>
+     <p>Dear Mr. Grig, I know you must consider this strange, extraordinary,
+                        unaccountable conduct.</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>Why, ma'am, without explanation, it does appear singular.</p>
+    </sp>
+    <sp who="#emma">
+     <speaker>Emma.</speaker>
+     <p>Yes, yes, I know it does, I know it will, but the urgency of the case must
+                        plead my excuse. Too fascinating Mr. Grig, I have seen you once and only
+                        once, but the impression of that maddening interview can never be effaced. I
+                        love you to distraction.</p>
+    </sp>
+    <stage> [Falls upon his shoulder.</stage>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>You're extremely obliging, ma'am, it's a flattering sort of thing—or it would
+                        be </p>
+     <stage>(aside)</stage>
+     <p> if I was going to live a little longer—but you're not the one, ma'am—it's
+                        the other lady that the stars have—</p>
+    </sp>
+    <sp who="#fanny">
+     <speaker>Fanny </speaker>
+     <stage>(to Mooney).</stage>
+     <p>Nay, wonderful being, hear me— this is not a time for false conventional
+                        delicacy. Wrapt in your sublime visions, you have not [observed] the silent
+                        tokens of a woman's first and all-absorbing attachment, which have been, I
+                        fear, but too perceptible in the eyes of others; but now I must speak out. I
+                        hate this odious man. You are my first and only love. Oh! speak to me.</p>
+    </sp>
+    <sp who="#mooney">
+     <speaker>Mooney.</speaker>
+     <p>I haven't anything appropriate to say, young woman. I think I had better go.</p>
+    </sp>
+    <stage> [Attempting to get away.</stage>
+    <sp who="#fanny">
+     <speaker>Fanny.</speaker>
+     <p>Oh! no, no, no </p>
+     <stage>(detaining him)</stage>
+     <p>. Give me some encouragement. Not one kind word? not one look of love?</p>
+    </sp>
+    <sp who="#mooney">
+     <speaker>Mooney.</speaker>
+     <p>I don't know how to look a look of love.— I'm, I'm frightened.</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>So am I! I don't understand this. I tell you, Miss, that the other lady is my
+                        destined wife. Upon my word you musn't hug me, you'll make her jealous.</p>
+    </sp>
+    <sp who="#fanny">
+     <speaker>Fanny.</speaker>
+     <p>Jealous! of you! Hear me </p>
+     <stage>(to Mooney)</stage>
+     <p>. I renounce all claim or title to the hand of that or any other man and vow
+                        to be eternally and wholly yours.</p>
+    </sp>
+    <sp who="#mooney">
+     <speaker>Mooney.</speaker>
+     <p>No, don't, you can't be mine—nobody can be mine.—I don't want anybody—I—I—</p>
+    </sp>
+    <sp who="#emma">
+     <speaker>Emma.</speaker>
+     <p>If you will not hear her—hear me, detested monster.—Hear me declare that
+                        sooner than be your bride, with this deep passion for another rooted in my
+                        heart— I—</p>
+    </sp>
+    <sp who="#mooney">
+     <speaker>Mooney.</speaker>
+     <p>You need not make any declaration on the subject, young woman.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star. </speaker>
+     <stage>(coming forward).</stage>
+     <p>She sha'n't—she sha'n't. That's right, don't hear her. She shall marry you
+                        whether she likes it or not—she shall marry you to-morrow morning—and you,
+                        Miss </p>
+     <stage>(to Fanny)</stage>
+     <p>, shall marry Mr. Grig if I trundle you to church in a wheelbarrow.</p>
+    </sp>
+    <sp who="#galileo">
+     <speaker>Galileo </speaker>
+     <stage>(coming forward).</stage>
+     <p>So she shall! so she may! Let her! let her! I give her leave.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>You give her leave, you young dog! Who the devil cares whether you give her
+                        leave or not? and what are you spinning about in that way for?</p>
+    </sp>
+    <sp who="#galileo">
+     <speaker>Galileo.</speaker>
+     <p>I'm fierce, I'm furious—dont talk to me— I shall do somebody a mischief—I'll
+                        never marry anybody after this, never, never, it isn't safe. I'll live and
+                        die a bachelor!—there—a bachelor! a bachelor!</p>
+    </sp>
+    <stage> [He goes up and encounters Betsy. She talks to him apart, and his wrath
+                    seems gradually to subside.</stage>
+    <sp who="#mooney">
+     <speaker>Mooney.</speaker>
+     <p>The little boy, albeit of tender years, has spoken wisdom. I have been led to
+                        the contemplation of womankind. I find their love is too violent for my
+                        staid habits. I would rather not venture upon the troubled waters of
+                        matrimony.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>You don't mean to marry my daughter? Not if I say she shall have you? </p>
+     <stage>(Mooney shakes his head solemnly.)</stage>
+     <p> Mr. Grig, you have not changed your mind because of a little girlish folly?</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>To-morrow two months! I may as well get through as much gold as I can in the
+                        meantime. Why, sir, if the pot nearly boils </p>
+     <stage>(pointing to the crucible)</stage>
+     <p>—if you're pretty near the philosopher's stone—</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Pretty near! We're sure of it—certain: it's as good as money in the Bank.</p>
+    </sp>
+    <stage> [Galileo and Betsy, who have been listening attentively, bustle about,
+                    fanning the fire, and throwing in sundry powders from the bottles on the table,
+                    then cautiously retire to a distance.</stage>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>If that's the case, sir, I am ready to keep faith with the planets. I'll take
+                        her, sir. I'll take her.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Then here's her hand, Mr. Grig—no resistance, Miss </p>
+     <stage>(drawing Fanny forward)</stage>
+     <p>. It's of no use, so you may as well do it with a good grace. Take her hand,
+                        Mr. Grig.</p>
+    </sp>
+    <stage> [The crucible blows up with a loud crash; they all start.</stage>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>What!—the labour of fifteen years destroyed in an instant!</p>
+    </sp>
+    <sp who="#mooney">
+     <speaker>Mooney </speaker>
+     <stage>(stooping over the fragments).</stage>
+     <p>That's the only disappointment I have experienced in this process since I was
+                        first engaged in it when I was a boy. It always blows up when it's on the
+                        point of succeeding.</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>Is the philosopher's stone gone?</p>
+    </sp>
+    <sp who="#mooney">
+     <speaker>Mooney.</speaker>
+     <p>No.</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>Not gone, sir?</p>
+    </sp>
+    <sp who="#mooney">
+     <speaker>Mooney.</speaker>
+     <p>No—it never came!</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>But we'll get it, Mr. Grig. Don't be cast down, we shall discover it in less
+                        than fifteen years this time, I dare say.</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom </speaker>
+     <stage>(relinquishing Fanny's hand).</stage>
+     <p>Ah! Were the stars very positive about this union?</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>They had not a doubt about it. They said it was to be, and it must be. They
+                        were peremptory.</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>I am sorry for that, because they have been very civil to me in the way of
+                        showing a light now and then, and I really regret disappointing 'em. But
+                        under the peculiar circumstances of the case, it can't be.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Can't be, Mr. Grig! What can't be?</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>The marriage, sir. I forbid the banns.</p>
+    </sp>
+    <stage> [Retires and sits down.</stage>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Impossible! such a prediction unfulfilled! Why, the consequences would be as
+                        fatal as those of a concussion between the comet and this globe. Can't be!
+                        it must be, shall be.</p>
+    </sp>
+    <sp who="#betsy">
+     <speaker>Betsy </speaker>
+     <stage>(coming forward, followed by Galileo).</stage>
+     <p>If you please, sir, may I say a word?</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>What have you got to say?—speak, woman!</p>
+    </sp>
+    <sp who="#betsy">
+     <speaker>Betsy.</speaker>
+     <p>Why, sir, I don't think Mr. Grig is the right man.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>What!</p>
+    </sp>
+    <sp who="#betsy">
+     <speaker>Betsy.</speaker>
+     <p>Don't you recollect, sir, that just as the house-clock struck the first
+                        stroke of five, you gave Mr. Galileo a thump on the head with the butt end
+                        of your telescope, and told him to get out of the way.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Well, if I did, what of that?</p>
+    </sp>
+    <sp who="#betsy">
+     <speaker>Betsy.</speaker>
+     <p>Why, then, sir, I say, and I would say it if I was to be killed for it, that
+                        he's the young gentleman that ought to marry Miss Fanny, and that the stars
+                        never meant anything else.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>He! Why, he's a little boy.</p>
+    </sp>
+    <sp who="#galileo">
+     <speaker>Galileo.</speaker>
+     <p>I ain't. I'm one-and-twenty next Lady-day.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Eh! Eighteen hundred and—why, so he is, I declare. He's quite a stranger to
+                        me, certainly. I never thought about his age since he was fourteen, and I
+                        remember that birthday, because he'd a new suit of clothes then. But the
+                        noble family—</p>
+    </sp>
+    <sp who="#betsy">
+     <speaker>Betsy.</speaker>
+     <p>Lor, sir! ain't it being of noble family to be the son of such a clever man
+                        as you?</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>That's true. And my mother's father would have been Lord Mayor, only he died
+                        of turtle the year before.</p>
+    </sp>
+    <sp who="#betsy">
+     <speaker>Betsy.</speaker>
+     <p>Oh, it's quite clear.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>The only question is about the time, because the church struck afterwards.
+                        But I should think the stars, taking so much interest in my house, would
+                        most likely go by the house-clock—eh! Mooney?</p>
+    </sp>
+    <sp who="#mooney">
+     <speaker>Mooney.</speaker>
+     <p>Decidedly—yes.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Then you may have her, my son. Her father was a great astronomer; so I hope
+                        that, though you are a blockhead, your children may be scientific. There!</p>
+    </sp>
+    <stage> [Joins their hands.</stage>
+    <sp who="#emma">
+     <speaker>Emma.</speaker>
+     <p>Am I free to marry who I like, papa?</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Won't you, Mooney? Won't you?</p>
+    </sp>
+    <sp who="#mooney">
+     <speaker>Mooney.</speaker>
+     <p>If anybody asks me to again I'll run away, and never come back any more.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Then we must drop the subject. Yes, your choice is now unfettered.</p>
+    </sp>
+    <sp who="#emma">
+     <speaker>Emma.</speaker>
+     <p>Thank you, dear papa. Then I'll look about for somebody who will suit me
+                        without the delay of an instant longer than is absolutely necessary.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>How very dutiful!</p>
+    </sp>
+    <sp who="#fanny">
+     <speaker>Fanny.</speaker>
+     <p>And, as my being here just now with Emma was a little trick of Betsy's, I
+                        hope you'll forgive her, uncle.</p>
+    </sp>
+    <sp who="#emma_galileo">
+     <speaker>Emma., Galileo.</speaker>
+     <p>Oh, yes, do.</p>
+    </sp>
+    <sp who="#fanny">
+     <speaker>Fanny.</speaker>
+     <p>And even reward her, uncle, for being instrumental in fulfilling the
+                        prediction.</p>
+    </sp>
+    <sp who="#emma_galileo">
+     <speaker>Emma., Galileo.</speaker>
+     <p>Oh, yes; do reward her—do.</p>
+    </sp>
+    <sp who="#fanny">
+     <speaker>Fanny.</speaker>
+     <p>Perhaps you could find a husband for her uncle, you know. Don't you
+                        understand?</p>
+    </sp>
+    <sp who="#betsy">
+     <speaker>Betsy.</speaker>
+     <p>Pray don't mention it, Miss. I told you at first, Miss, that I had not the
+                        least wish or inclination to have Mr. Grig to myself. I couldn't abear that
+                        Mr. Grig should think I wanted him to marry me; oh, no Miss, not on any
+                        account.</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>Oh, that's pretty intelligible. Here, Mr. Grig. </p>
+     <stage>(They fall back from his chair.)</stage>
+     <p> Have you any objection to take this young woman for better, for worse?</p>
+    </sp>
+    <sp who="#betsy">
+     <speaker>Betsy.</speaker>
+     <p>Lor, sir! how ondelicate!</p>
+    </sp>
+    <sp who="#mr_star">
+     <speaker>Mr. Star.</speaker>
+     <p>I'll add a portion of ten pounds for your loss of time here to-night. What do
+                        you say, Mr. Grig?</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>It don't much matter. I ain't long for this world. Eight weeks of marriage
+                        might reconcile me to my fate. I should go off, I think, more resigned and
+                        peaceful. Yes, I'll take her, as a reparation. Come to my arms!</p>
+    </sp>
+    <stage> [He embraces her with a dismal face.</stage>
+    <sp who="#mr_star">
+     <speaker>Mr. Star. </speaker>
+     <stage>(taking a paper from his pocket).</stage>
+     <p>Egad! that reminds me of what I came back to say, which all this bustle drove
+                        out of my head. There's a figure wrong in the nativity </p>
+     <stage>(handing the paper to Mooney)</stage>
+     <p>. He'll live to a green old age.</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom </speaker>
+     <stage>(looking up).</stage>
+     <p>Eh! What?</p>
+    </sp>
+    <sp who="#mooney">
+     <speaker>Mooney.</speaker>
+     <p>So he will. Eighty-two years and twelve days will be the lowest.</p>
+    </sp>
+    <sp who="#tom">
+     <speaker>Tom </speaker>
+     <stage>(disengaging himself).</stage>
+     <p>Eh! here! </p>
+     <stage>(calling off.)</stage>
+     <p> Hallo, you, sir! bring in that ladder and lantern.</p>
+    </sp>
+    <stage> [A servant enters in great haste, and hands them to Tom.</stage>
+    <sp who="#servant">
+     <speaker>Servant.</speaker>
+     <p>There's such a row in the street—none of the gas-lamps lit, and all the
+                        people calling for the lamplighter. Such a row!</p>
+    </sp>
+    <stage> [Rubbing his hands with great glee.</stage>
+    <sp who="#tom">
+     <speaker>Tom.</speaker>
+     <p>Is there, my fine fellow? Then I'll go and light 'em. And as, under existing
+                        circumstances, and with the prospect of a green old age before me, I'd
+                        rather not be married, Miss Martin, I beg to assure the ratepayers present
+                        that in future I shall pay the strictest attention to my professional
+                        duties, and do my best for the contractor; and that I shall be found upon my
+                        beat as long as they condescend to patronize the Lamplighter.</p>
+    </sp>
+    <stage> [Runs off. Miss Martin faints in the arms of Mooney.</stage>
+   </div>
+  </body>
+ </text>
+</TEI>

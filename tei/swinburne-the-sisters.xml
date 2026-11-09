@@ -1,0 +1,4376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id" xml:lang="eng">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">The sisters</title>
+    <author>
+     <persName>
+      <forename>Algernon Charles</forename>
+      <surname>Swinburne</surname>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>ProQuest</name>
+     <idno type="URL">https://www.proquest.com/books/sisters-1892/docview/2138579361/se-2?accountid=14632</idno>
+     <idno type="proquest">LION2138579361</idno>
+    </bibl>
+    <bibl type="originalSource">
+     <author>Swinburne, Algernon Charles</author>
+     <title type="main">The sisters</title>
+     <title type="volume">The Sisters: a Tragedy By Algernon Charles Swinburne</title>
+     <publisher>Chatto &amp; Windus</publisher>
+     <pubPlace>London</pubPlace>
+     <date type="print" when="1892">1892</date>
+     <note type="citation">Swinburne, Algernon Charles: The sisters (1892). In: The Sisters: a Tragedy By Algernon Charles Swinburne. Chatto &amp; Windus: London 1892</note>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="alvise">
+      <persName>ALVISE</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="anne">
+      <persName>ANNE</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="beatrice">
+      <persName>BEATRICE</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="francesca">
+      <persName>FRANCESCA</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="frank">
+      <persName>FRANK</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="galasso">
+      <persName>GALASSO</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="mabel">
+      <persName>MABEL</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="reginald">
+      <persName>REGINALD</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="sir_arthur">
+      <persName>SIR ARTHUR</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="sir_francis">
+      <persName>SIR FRANCIS</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1892">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text>
+  <front>
+   <castList>
+    <head>CHARACTERS IN THE INTERLUDE.</head>
+    <castItem>
+     <role>Alvise Vivarini, represented by Reginald Clavering.</role>
+    </castItem>
+    <castItem>
+     <role>Galasso Galassi, represented by Frank Dilston.</role>
+    </castItem>
+    <castItem>
+     <role>Beatrice Signorelli, represented by Mabel Dilston.</role>
+    </castItem>
+    <castItem>
+     <role>Francesca Mariani, represented by Anne Dilston.</role>
+    </castItem>
+   </castList>
+   <set>
+    <p>Scene, Clavering Hall, Northumberland.</p>
+    <p>Time, 1816.</p>
+   </set>
+  </front>
+  <body>
+   <div type="act" n="1">
+    <head>ACT I.</head>
+    <div type="scene" n="1">
+     <head>Scene I.</head>
+     <stage>—A morning room.</stage>
+     <stage>Anne and Mabel.</stage>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l>April again, and not a word of war. </l>
+       <l>Last year, and not a year ago, it was </l>
+       <l>That we sat wondering when good news would come.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l>And had not heard or learnt in lesson-books </l>
+       <l>If such a place there was as Waterloo. </l>
+       <l>And never dreamed that—</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> Well?</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> That it would be </l>
+       <l>So soon for ever such a name for us </l>
+       <l>As Blenheim or Trafalgar.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> No. For us? </l>
+       <l>We don't remember Blenheim—and we had </l>
+       <l>No cousin wounded at Trafalgar. Still, </l>
+       <l>If Redgie had been old enough to serve—</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l>I wish he had chosen the navy.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> And come home </l>
+       <l>Unhurt?</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> No; I forgot. Of course he might </l>
+       <l>Have died like Nelson—and gone home with him.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l>Home? Reginald's not quite so tired of life, </l>
+       <l>I fancy, though he frets at being kept in, </l>
+       <l>As to look up—outside this world—for home.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l>No.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> Will you tell me—but you will not—me, </l>
+       <l>Even—</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> What? Anything I can I will.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l>Perhaps you cannot—what he said to you </l>
+       <l>Yesterday?</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> When?</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> You will not now, I know.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l>Where?</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> When and where? If you must needs be told, </l>
+       <l>At nine last evening in the library.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l>Nothing—but what I meant to tell you.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> Yes? </l>
+       <l>You meant to tell me that he said, my dear, </l>
+       <l>What?</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> Anne!</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> You thought I knew?</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> I thought I must </l>
+       <l>Have said it without speaking.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> Reginald! </l>
+       <l>And so you really mean to love the boy </l>
+       <l>You played with, rode with, climbed with, laughed at, made </l>
+       <l>Your tempter—and your scapegoat—when you chose </l>
+       <l>To ride forbidden horses, and break bounds </l>
+       <l>On days forbidden? Love! Of course you like— </l>
+       <l>And then how can you love him?</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> Is dislike </l>
+       <l>Mother of love? Then you—to judge by signs— </l>
+       <l>Must love Frank Dilston dearly.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> So I might, </l>
+       <l>If—if I did not hate him.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> Then you do. </l>
+       <l>I'm glad. I always liked him.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> What has he </l>
+       <l>Done, that a woman—or a girl—should like </l>
+       <l>Him?</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> Need a man—or boy—do anything </l>
+       <l>More than be true and bright and kind and brave </l>
+       <l>And try to make you like him?</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> That spoils all. </l>
+       <l>He should not try.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> I'll tell him not to try.</l>
+      </lg>
+     </sp>
+     <stage>Enter Reginald Clavering and Frank Dilston.</stage>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l>Redgie! You've not been riding?</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> Have I, Frank?</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l>You'd have me tell a lie to get you off?</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l>You stupid pair of schoolboys! Really, Frank, </l>
+       <l>You should not let him.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> I can't lick him, Anne; </l>
+       <l>We two—or you alone—might manage.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> Why, </l>
+       <l>The grooms must know he should not mount a horse </l>
+       <l>Yet.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> Would you have me never ride again </l>
+       <l>Because last year I got a fall?</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> Appeal </l>
+       <l>To Mabel.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> She was always hard on me.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l>Always.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> You mean that I encouraged you </l>
+       <l>To risk your neck when we were girl and boy? </l>
+       <l>Make him sit down, Frank.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> There. And now we'll talk </l>
+       <l>Of something—not of nothing.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> Of your play?</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l>That's ready. How about your stage?</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> But is it </l>
+       <l>Indeed?</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> It's just one little act, you know— </l>
+       <l>Enough for four and not too much, I hope, </l>
+       <l>To get by heart in half a pair of days.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l>In one day? No: I am slow at learning verse— </l>
+       <l>Even if my part were shorter than the rest.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l>It is.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> Ah! Thank you.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> Mabel's I have read. </l>
+       <l>It's longer.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> As the whole affair is short, </l>
+       <l>It cannot be much longer. You should rest, </l>
+       <l>Redgie. Come out and feed the pheasants, Anne.</l>
+      </lg>
+     </sp>
+     <stage> [Exeunt Anne and Mabel.</stage>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l>How like old times it is, when we came back </l>
+       <l>From Eton! You remember, Frank, we played </l>
+       <l>—What was it?—once.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> ‘What was it?’ There's no such play. </l>
+       <l>There's ‘What you will’: perhaps we played ‘Twelfth Night’ </l>
+       <l>In frocks and jackets. Might we now not play </l>
+       <l>‘Love's Labour's Lost’?</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> ‘A Midsummer Night's Dream’: </l>
+       <l>I know, because I played Lysander—you </l>
+       <l>Demetrius.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> How the female parts were cast </l>
+       <l>You don't remember?</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> Helena was Anne, </l>
+       <l>I think, and Hermia Mabel.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> Change the names.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l>Ah, yes. All friends from more than twelve miles round </l>
+       <l>Came in to our Yuletide gathering through the snows. </l>
+       <l>How quick and bright Anne's acting was! you two </l>
+       <l>Bore off the palms all round: Mabel and I </l>
+       <l>Were somewhere short of nowhere.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> Will you now </l>
+       <l>Retaliate? She and you were plotting this, </l>
+       <l>Must we suppose, last evening?</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> She and I, </l>
+       <l>Frank? We should make but poor conspirators.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l>I hope so, and I think so. Seriously, </l>
+       <l>May not I ask—?</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> If she and I are friends? </l>
+       <l>Surely a man may ask and answer that, </l>
+       <l>If—as you do—he knows it. If you mean </l>
+       <l>More—I would hardly tell a brother this, </l>
+       <l>Who had not been so close a friend of mine </l>
+       <l>Always, and had no right to ask me this— </l>
+       <l>No.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> Then she does not think—she has no cause— </l>
+       <l>She cannot think you love her?</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> Can I tell? </l>
+       <l>But this I can tell—she shall never come </l>
+       <l>To think or dream I do, and vex herself, </l>
+       <l>By any base and foolish fault of mine.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l>But if she loves you, Redgie?</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> No, my boy. </l>
+       <l>She does not. Come, we need not talk of that. </l>
+       <l>I think mock-modesty a mincing lie— </l>
+       <l>The dirtiest form of self-conceit that is, </l>
+       <l>Quite, and in either sense the vainest. You </l>
+       <l>She may not love just yet—but me, I know, </l>
+       <l>She never will. I ought to say ‘Thank God,’ </l>
+       <l>Being poor, and knowing myself unworthy her </l>
+       <l>—A younger son's son, with a closed career </l>
+       <l>Should peace prove now as stable as it looks— </l>
+       <l>If I on my side loved her as I should </l>
+       <l>And if I knew she would be, as I fear— </l>
+       <l>No, hope she will, happier with you than me. </l>
+       <l>I can't do that, quite; if I could, and did, </l>
+       <l>I should be just a little less unfit </l>
+       <l>To dream that she could love me—which I don't.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l>You don't mean that you want me—</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> I do mean </l>
+       <l>I want her to be happy: as for you, </l>
+       <l>If I don't want you to be miserable </l>
+       <l>It only shows I am not quite a cur.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l>You never were: but if you meant me well, </l>
+       <l>What made you go campaigning and come back </l>
+       <l>A hero?</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> Six months' service! Don't you be </l>
+       <l>A fool—or flatterer.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> Still, you have (worse luck!) </l>
+       <l>Such heavy odds—a wound, and Waterloo!</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l>If I—or you—had lost an eye or arm, </l>
+       <l>That wouldn't make us Nelsons.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> Something like.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l>Well, you can do that in the hunting-field.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l>I wish I had you in the playing-fields </l>
+       <l>Again.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> We can't just settle it with fists. </l>
+       <l>But, if you asked me, as of course you don't </l>
+       <l>And won't, what she and I were talking of </l>
+       <l>Last evening, I could tell you—and I will. </l>
+       <l>I asked her if she thought it possible </l>
+       <l>That two such baby friends and playfellows </l>
+       <l>As she and Anne had been with you and me </l>
+       <l>Could, when grown up, be serious lovers.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> Well— </l>
+       <l>Was that not making love to her? And what </l>
+       <l>Did she say?</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> Hardly. No. Certainly not.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l>And then?</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> The bell rang, and we went to dress </l>
+       <l>For dinner.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> What did she say—if she did— </l>
+       <l>To make you ask her that?</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> Something she did— </l>
+       <l>At least, I thought so—like a fool. And now </l>
+       <l>We'll talk no more about it. Mind you, Frank, </l>
+       <l>I didn't—could I possibly?—forget </l>
+       <l>That just because I love her—more than you </l>
+       <l>I won't say—she must never dream I do </l>
+       <l>If I can help it.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> Then, in heaven's name, why </l>
+       <l>Say what you say you did?</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> Don't fret yourself. </l>
+       <l>No harm was meant or done. But if she does </l>
+       <l>Love you—if you can win her—as I think </l>
+       <l>(There!)—you're the happiest fellow ever born.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l>And you're the best, Redgie. By Jove! she ought </l>
+       <l>To love you, if she knew how you love her.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l>And that, please God, she never will. When you </l>
+       <l>And she are married, if you tell her so, </l>
+       <l>You'll play the traitor, not to me but her— </l>
+       <l>Make her unhappy for the minute. Don't. </l>
+       <l>She would be sorrier than I'm worth, you know, </l>
+       <l>To think of any sorrow not her own </l>
+       <l>And given by her unconsciously. She had </l>
+       <l>Always the sweetest heart a girl could have. </l>
+       <l>‘Sweet heart’! she might have been the first girl born </l>
+       <l>Whose lover ever called her by the name.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l>Redgie, I don't know what to say to you.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l>Say nothing. Talk about our play.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> Your play! </l>
+       <l>We are like to play, it seems, without a stage, </l>
+       <l>Another, and a sadder.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> Don't be sure. </l>
+       <l>My play is highly tragic. Italy, </l>
+       <l>Steel, poison, shipwreck—</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> One you made at school, </l>
+       <l>Is it? I know what those were.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> Wait and see.</l>
+      </lg>
+     </sp>
+     <stage>Enter Sir Francis Dilston.</stage>
+     <sp who="#sir_francis">
+      <speaker>SIR FRANCIS.</speaker>
+      <lg>
+       <l>Well, Frank,—how are you, Reginald?—you let </l>
+       <l>Mabel go out—and unattended?</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> Come, </l>
+       <l>Father, you would not have me (think how she </l>
+       <l>Would hate it!) hang about her like a burr?</l>
+      </lg>
+     </sp>
+     <sp who="#sir_francis">
+      <speaker>SIR FRANCIS.</speaker>
+      <lg>
+       <l>No—no. But there's a medium, sir, between </l>
+       <l>Neglect and persecution.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> Well, I hope </l>
+       <l>And think I've hit that medium.</l>
+      </lg>
+     </sp>
+     <sp who="#sir_francis">
+      <speaker>SIR FRANCIS.</speaker>
+      <lg>
+       <l> Reginald, </l>
+       <l>If you were Mabel's lover, or in hope </l>
+       <l>To be her lover, could you slight her so?</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l>I can't imagine that condition.</l>
+      </lg>
+     </sp>
+     <sp who="#sir_francis">
+      <speaker>SIR FRANCIS.</speaker>
+      <lg>
+       <l> Then </l>
+       <l>You youngsters are no more your fathers' sons </l>
+       <l>Than moles are sons of eagles.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> Rats of cats, </l>
+       <l>Say, father.</l>
+      </lg>
+     </sp>
+     <sp who="#sir_francis">
+      <speaker>SIR FRANCIS.</speaker>
+      <lg>
+       <l> Eh! was that an epigram? </l>
+       <l>The point, my boy? Because we worry you?</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l>Because we scuttle where you used to spring, </l>
+       <l>And nibble when you used to bite. At least, </l>
+       <l>You say so—or they say so.</l>
+      </lg>
+     </sp>
+     <sp who="#sir_francis">
+      <speaker>SIR FRANCIS.</speaker>
+      <lg>
+       <l> Heaven forbid! </l>
+       <l>Tom Jones and Lovelace were not gods of ours. </l>
+       <l>But if we meant to win and keep a heart </l>
+       <l>Worth winning and worth keeping, Frank, we knew </l>
+       <l>We must not seem to slight it. ‘Pique and soothe,’ </l>
+       <l>Young Byron bids you—don't stand off and gape. </l>
+       <l>There may be better means than his, if you </l>
+       <l>Love as I trust you love her. There's the bell.</l>
+      </lg>
+     </sp>
+     <stage> [Exeunt.</stage>
+    </div>
+    <div type="scene" n="2">
+     <head>Scene II.</head>
+     <stage>—In the Garden.</stage>
+     <stage>Frank and Mabel.</stage>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l>I may not say what any man may say?</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l>To me? And any man, you think, may say </l>
+       <l>Foolish and heartless things to me? or is it </l>
+       <l>Only the heir of Heronshaw who claims </l>
+       <l>A right so undeniable?</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> Is the taunt </l>
+       <l>Fair to yourself or me? You do not think—</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l>You have the right to make mock love to me? </l>
+       <l>I do not.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> How have you the right to call </l>
+       <l>Truth mockery, knowing I love you?</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> How should I </l>
+       <l>Know it? If you mistake me now for Anne, </l>
+       <l>You may mistake her presently for me.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l>Anne?</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> If you care for either cousin—much, </l>
+       <l>It ought, by all I ever heard or read, </l>
+       <l>To be the one you are always bickering with.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l>She does not like me.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> She does not dislike.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l>Her liking would not help nor her dislike </l>
+       <l>Forbid me to be happy. You perhaps— </l>
+       <l>I can't guess how you can—may think so: she </l>
+       <l>Cannot. And if I did—worse luck for me!— </l>
+       <l>What chance should I have? Can you not have seen </l>
+       <l>—Not once—not ever—how her face and eyes </l>
+       <l>Change when she looks at Redgie?</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> What!—Absurd! </l>
+       <l>You love her, and are mad with jealousy.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l>Mad if I am, my madness is to love </l>
+       <l>You. But you must have seen it.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> I am not </l>
+       <l>Jealous.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> You need not have an eye to see it. </l>
+       <l>Her voice might tell you, when she speaks to him.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l>The tone is just like yours or mine. Of course </l>
+       <l>We all make much—or something—of him now; </l>
+       <l>Since he came back, I mean.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> From Waterloo; </l>
+       <l>I knew it—an interesting young cousin. Well, </l>
+       <l>He does deserve his luck, I know; he did </l>
+       <l>Always: and you were always good to him.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l>He always needed somebody, poor boy, </l>
+       <l>To be so.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> Ah, if that were all! Because </l>
+       <l>His guardian, my good father,—good to me </l>
+       <l>Always—his cousin, in whose grounds we now </l>
+       <l>Walk and discuss him—and his schoolmasters, </l>
+       <l>You think, were apt—</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> To ill-use him? No; nor yet </l>
+       <l>Misunderstand him: that I did not mean. </l>
+       <l>But she who knew him and loved him best is gone— </l>
+       <l>His aunt and mine—your mother.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> Yes: she did </l>
+       <l>Love him! she must have loved his mother more </l>
+       <l>Than many sisters love each other.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> More </l>
+       <l>Than I love Anne or Anne loves me? I hope </l>
+       <l>Not. But when death comes in—and leaves behind </l>
+       <l>A child for pledge and for memorial, love </l>
+       <l>Must naturally feel more—I want the word; </l>
+       <l>More of a call upon it—not a claim— </l>
+       <l>A sort of blind and dumb and sweet appeal </l>
+       <l>Out of the dark, and out of all the light </l>
+       <l>That burns no more but broods on all the past— </l>
+       <l>A glowworm on a grave. And you, I know, </l>
+       <l>Were never jealous: all the house knew that, </l>
+       <l>And loved you for it as we did.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> Ah—as you </l>
+       <l>Did! I'd have had you love me more than they, </l>
+       <l>If it had not been too great and sweet a thing </l>
+       <l>For me to dream of.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> Do not dream at all. </l>
+       <l>What good can come of dreaming?</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> Less than none, </l>
+       <l>If dreaming, doubt, or fear, should take away </l>
+       <l>The little comfort, such as it is—God knows, </l>
+       <l>Not much, though precious—that your kind last words </l>
+       <l>Gave me. Too kind they were, Mabel. I was, </l>
+       <l>And am, jealous of Redgie; more to-night </l>
+       <l>Than ever: but I will not be.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> I am sure </l>
+       <l>You will not. Why?</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> Because I know—I am sure, </l>
+       <l>Mabel—more sure than you can be of me </l>
+       <l>Or I can of myself—he would not grudge </l>
+       <l>Nor envy me my happiness if you </l>
+       <l>Could bring yourself to make me happy.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> Why </l>
+       <l>Should he?</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> Ask him.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> A pretty thing to ask! </l>
+       <l>But, Frank, it's good, and very good, of you </l>
+       <l>To say so—if you care for me at all, </l>
+       <l>And think it possible I could care for him.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l>I think it more than possible: but he </l>
+       <l>Does not. You'll have to tell him. Don't let Anne </l>
+       <l>Hear you.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> I would not let her, certainly, </l>
+       <l>If I were tempted to propose to you. </l>
+       <l>Do you think that girls—that women do such things?</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l>No: but I do think—think, by heaven! I know— </l>
+       <l>He will not tell you what a child might see, </l>
+       <l>That he can love, and does, better than I, </l>
+       <l>And all his heart is set on you. But Anne </l>
+       <l>Loves him: you must have seen it.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> You love her, </l>
+       <l>And do not know it, and take me for her, seeing </l>
+       <l>Her features in my face, and thinking she </l>
+       <l>Loves Redgie: is not this the truth? Be frank, </l>
+       <l>Or change your name for one that means a lie— </l>
+       <l>Iscariot or Napoleon.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> God forbid! </l>
+       <l>I tell you what I am sure of, as I am sure </l>
+       <l>I wish I were not.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> Sure? How can you be?</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l>Are you not sure? Be honest. Can you say </l>
+       <l>You doubt he would have told you—what he won't </l>
+       <l>And can't—had he been heir of Heronshaw </l>
+       <l>Or Anyshaw? You might have spared that taunt, </l>
+       <l>Mabel. But can you say it? You never were </l>
+       <l>A liar, and never can be. Tell him then </l>
+       <l>The truth he will not tell you.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> What if he </l>
+       <l>Rejects me? This is past a joke.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> It is.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l>I knew you could not love me. Why make love?</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l>I love you; but I see how you love him; </l>
+       <l>And think you are right. He loves you more than I— </l>
+       <l>Yes, more than I can—more than most men could </l>
+       <l>Love even you. You are no mate for me, </l>
+       <l>I am no mate for you, the song says. Well, </l>
+       <l>So be it. God send you happiness with him! </l>
+       <l>He has done more than give you up—give up </l>
+       <l>All chance of you—he would not take the chance </l>
+       <l>That honour, as he thought, forbade. Do you </l>
+       <l>Reward him.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> God reward you, Frank! You see </l>
+       <l>—It's true—I love him.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> And he will not speak. </l>
+       <l>Tell him to-morrow—and come in to-night.</l>
+      </lg>
+     </sp>
+     <stage> [Exeunt.</stage>
+    </div>
+   </div>
+   <div type="act" n="2">
+    <head>ACT II.</head>
+    <div type="scene" n="1">
+     <head>Scene I.</head>
+     <stage>—Another part of the grounds.</stage>
+     <stage>Enter Sir Arthur Clavering and Reginald.</stage>
+     <sp who="#sir_arthur">
+      <speaker>SIR ARTHUR.</speaker>
+      <lg>
+       <l>I'm glad you love the old place: to have you here— </l>
+       <l>You and the Dilstons—brings my father's time </l>
+       <l>Back. I might almost be your father, though; </l>
+       <l>Yours, or your cousins'—Frank's or Mabel's. Time </l>
+       <l>Slips on like water.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> Very softly, here; </l>
+       <l>Less like the Kielder than the Deadwater </l>
+       <l>Till both make up the Tyne.</l>
+      </lg>
+     </sp>
+     <sp who="#sir_arthur">
+      <speaker>SIR ARTHUR.</speaker>
+      <lg>
+       <l> It wearies you, </l>
+       <l>Cousin? Make haste then and grow strong and stout, </l>
+       <l>And ride away to battle: till you can, </l>
+       <l>I mean to keep you prisoner and be proud </l>
+       <l>I have a guest who struck beside the Duke </l>
+       <l>An English stroke at Waterloo.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> Beside, </l>
+       <l>Arthur? There's no one born can boast of that. </l>
+       <l>The best we can—the very best of us— </l>
+       <l>Say for each other, is just, we followed him— </l>
+       <l>His hand and eye and word and thought—and did </l>
+       <l>What might be of our duty.</l>
+      </lg>
+     </sp>
+     <sp who="#sir_arthur">
+      <speaker>SIR ARTHUR.</speaker>
+      <lg>
+       <l> Well, my boy, </l>
+       <l>Did he do more? You're just a hothead still— </l>
+       <l>The very schoolboy that I knew you first— </l>
+       <l>On fire with admiration and with love </l>
+       <l>Of some one or of something, always. Now, </l>
+       <l>Who is it—besides your general? who—or which? </l>
+       <l>Anne's chestnut shell, or Mabel's golden fire— </l>
+       <l>Her emerald eyes, or Anne's dark violets—eh? </l>
+       <l>You have them both (a happy hero you!) </l>
+       <l>Dancing attendance on your highness. Here </l>
+       <l>Comes Mabel: have you not a glove to throw? </l>
+      </lg>
+      <stage>Enter Mabel.</stage>
+      <lg>
+       <l>Dear cousin, make him talk to you: to me </l>
+       <l>He will not; and I have not time to dance </l>
+       <l>Attendance on him.</l>
+      </lg>
+     </sp>
+     <stage> [Exit.</stage>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> Arthur's jokes are not </l>
+       <l>Diamonds for brilliance: but he's good.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> Are you?</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l>You never asked me that of old times.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> No: </l>
+       <l>That was superfluous: all the household knew </l>
+       <l>How good a boy you were.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> And you? A girl </l>
+       <l>There was who loved the saddle as well as I, </l>
+       <l>And was not slower at breaking bounds.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> You have not </l>
+       <l>Forgiven me what you suffered for my sake </l>
+       <l>So often—much too often.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> No, of course. </l>
+       <l>How should I?</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> You remember our old rides— </l>
+       <l>Tell me about your ride at Waterloo.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l>More like a swim against a charging sea </l>
+       <l>It was, than like a race across the moors </l>
+       <l>Yonder.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> But when a breaker got you down— </l>
+       <l>When you lay hurt it might have been to death— </l>
+       <l>Will you not tell me what you thought of then?</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l>No.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> Nothing?</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> Nothing I can tell you of.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l>Was all a mist and whirlwind—like the shore </l>
+       <l>Out yonder when the north-east wind is high? </l>
+       <l>That I can fancy. But when sense came back </l>
+       <l>You thought of nothing you can tell me of, </l>
+       <l>Reginald? nothing?</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> Nothing I can tell </l>
+       <l>Any one—least of all, women or men, </l>
+       <l>Frank's wife that is to be, Mabel.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> And where </l>
+       <l>Has Frank concealed her from all eyes but yours? </l>
+       <l>You are too sharp-sighted, Redgie.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> Did she not </l>
+       <l>Ask me just now what if she knew—she must </l>
+       <l>Have known the answer that I could not make— </l>
+       <l>It was not right or kind to ask?</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> Not she.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l>Mabel!</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> She's innocent, at least.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> You mean—?</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l>I mean she is not here. Nor anywhere </l>
+       <l>But in the silliest dreamiest brain alive— </l>
+       <l>The blindest head cheating the trustiest heart </l>
+       <l>That ever made a man—untrustworthy. </l>
+       <l>You did not dream or think of any old friend— </l>
+       <l>Anne, Frank, or me—when you were lying, cut down, </l>
+       <l>Helpless, that hideous summer night? And now </l>
+       <l>You will not speak or stir? O, Reginald, </l>
+       <l>Must I say everything—and more—and you </l>
+       <l>Nothing?</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> My love! Mabel! What can I?</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> Say </l>
+       <l>Just that again.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> How can it be?</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> My love, </l>
+       <l>How could it not be?</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> How have I deserved </l>
+       <l>This?</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> How can I tell you? Do you tell me </l>
+       <l>Now, what you would not tell Frank's wife.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> You know </l>
+       <l>I need not tell you.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> Tell me, though.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> I thought, </l>
+       <l>Between the shoots and swoonings, off and on, </l>
+       <l>How hard it was, if anything was hard </l>
+       <l>When one was dying for England, not to see </l>
+       <l>Mabel, when I could see the stars. I thought </l>
+       <l>How sweet it was to know they shone on her </l>
+       <l>Asleep or waking, here at home. I thought </l>
+       <l>I could have wished, and should not wish, to send </l>
+       <l>My whole heart's love back as my life went out, </l>
+       <l>To find her here and clasp her close and say </l>
+       <l>What I could never—how much I had loved her. Then </l>
+       <l>I thought how base and bad a fool I was </l>
+       <l>To dream of wishing what would grieve her. Then </l>
+       <l>I think I fell asleep.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> And that was all, </l>
+       <l>Redgie?</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> And that was all, Mabel.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> You did— </l>
+       <l>You did not think, if she had known—if she, </l>
+       <l>Asleep and dreaming here, had dreamed of it— </l>
+       <l>What love she would have sent you back for yours— </l>
+       <l>Yours—how could she be worth it? Did you not </l>
+       <l>See, as you lay—know, as your pain sank down </l>
+       <l>And died and left you yet not quite asleep— </l>
+       <l>How past all words she loved you? Reginald! </l>
+       <l>You did not?</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> How should I have dreamed of heaven? </l>
+       <l>I'm not a saint, Mabel.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> And what am I </l>
+       <l>Who ask a man what, being the man he is, </l>
+       <l>He will not ask me—and am not ashamed?</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l>You are more than ever a man whom heaven loved best </l>
+       <l>Saw shining out of heaven in dreams—more dear, </l>
+       <l>More wonderful than angels. How you can </l>
+       <l>Care for me really and truly—care for me, </l>
+       <l>It beats my wits to guess.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> It's very strange, </l>
+       <l>Of course: what is there in you to be loved?</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l>There's many a true word said in jest. But you! </l>
+       <l>Why, all the world might fall down at your feet </l>
+       <l>And you not find a man in all the world </l>
+       <l>Worth reaching out your hand to raise. And I! </l>
+       <l>The best luck never finds the best man out, </l>
+       <l>They say; but no man living could deserve </l>
+       <l>This.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> Well, you always were the best to me; </l>
+       <l>The brightest, bravest, kindest boy you were </l>
+       <l>That ever let a girl misuse him—make </l>
+       <l>His loving sense of honour, courage, faith, </l>
+       <l>Devotion, rods to whip him—literally, </l>
+       <l>You know—and never by one word or look </l>
+       <l>Protested. You were born a hero, sir. </l>
+       <l>Deny it, and tell a louder lie than when </l>
+       <l>You used to take my faults upon you. How </l>
+       <l>I loved you then, and always! Now, at last, </l>
+       <l>You see, you make me tell it: which is not </l>
+       <l>As kind as might be, or as then you were.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l>I never was or could be fit for you </l>
+       <l>To glance on or to tread on. You, whose face </l>
+       <l>Was always all the light of all the world </l>
+       <l>To me—the sun of suns, the flower of flowers, </l>
+       <l>The wonder of all wonders—and your smile </l>
+       <l>The light that lit the dawn up, and your voice </l>
+       <l>A charm that might have thrilled and stilled the sea— </l>
+       <l>You, to put out that heavenly hand of yours </l>
+       <l>And lift up me to heaven, above all stars </l>
+       <l>But those God gave you for your eyes on earth </l>
+       <l>That all might know his angel!</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> There—be still. </l>
+      </lg>
+      <stage>Enter Frank (at a distance).</stage>
+      <lg>
+       <l>Here comes our bridesman—and our matchmaker. </l>
+       <l>He told me that he loved me yesterday, </l>
+       <l>But that you loved me better—more than he, </l>
+       <l>And, Redgie, that you would not tell me so </l>
+       <l>Till I had made an offer for your hand. </l>
+       <l>A prophet, was he not?</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> Did he say that? </l>
+       <l>I'd like to black his boots.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> You weren't his fag, </l>
+       <l>Were you?—Well, Frank, you told me yesterday </l>
+       <l>Nothing but truth: and this has come of it.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l>Your hand in Redgie's? All goes right, then?</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> All. </l>
+       <l>I did not give him, I confess, a chance.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l>Frank, I can't look you in the face—and yet </l>
+       <l>I hope and think I have not played you false.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l>Well, if you swore you had, Redgie my boy, </l>
+       <l>I'd not believe you. You play false, indeed! </l>
+       <l>To look me in the face and tell me that </l>
+       <l>Would need more brass than nature gave your brows.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l>But how to look your father in the face— </l>
+       <l>Upon my honour! You must help me, Frank.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l>And that I will, Redgie. But don't you dream </l>
+       <l>He'll think there's any need of any help, </l>
+       <l>Excuse, or pretext for you. Any fool </l>
+       <l>Must have foreseen it.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> Yes—I think he must. </l>
+       <l>Any but one, at least—who would not see. </l>
+       <l>Frank, I proposed to him—I did. He is </l>
+       <l>So scandalously stupid!</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> Ah, you know, </l>
+       <l>I told you. That was unavoidable.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l>You sons and daughters of good luck and wealth </l>
+       <l>Make no allowance—cannot, I suppose— </l>
+       <l>For such poor devils as poor relations. Frank, </l>
+       <l>I think I see you—in my place, I mean— </l>
+       <l>Making the least love in the world to her— </l>
+       <l>Letting her dream you loved her!</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> Well, did you?</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l>He did.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> I don't know how I did.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> But I </l>
+       <l>Know.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> I can guess. He never dropped a word </l>
+       <l>Nor looked a look to say it—and so you knew.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l>Yes; that was it.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> When I go courting, then, </l>
+       <l>I'll take a leaf out of old Redgie's book, </l>
+       <l>And never risk a whisper—never be </l>
+       <l>Decently civil. Well, it's good to see </l>
+       <l>How happy you two are.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> Hush! Here comes Anne.</l>
+      </lg>
+     </sp>
+     <stage>Enter Anne.</stage>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l>I heard what Frank said. And I hope you are </l>
+       <l>Happy, and always will be.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> Thanks. And yet </l>
+       <l>I know I ought not.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> Complimentary, that, </l>
+       <l>To Mabel.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> Mabel understands.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> Of course. </l>
+       <l>She always understood you.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> Did she? No: </l>
+       <l>She always made too much of me—and now </l>
+       <l>Much more too much than ever. God knows why.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l>God knows what happiness I wish you both.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l>Thank her, Mabel.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> I can't. She frightens me. </l>
+       <l>Anne!</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> Am I grown frightful to all of you? </l>
+       <l>Are you afraid of me, Reginald?</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> What </l>
+       <l>Can ail you, Mabel? What can frighten you?</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l>Excitement—passionate happiness—I see. </l>
+       <l>Enough to make a girl—before men's eyes— </l>
+       <l>Shrink almost from her sister.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> Anne, you knew </l>
+       <l>This was to be—if Redgie pleased.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> I did; </l>
+       <l>And did not doubt it would be.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> These are strange </l>
+       <l>Congratulations. Anne, you must have thought </l>
+       <l>It would not.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> What I thought or did not think </l>
+       <l>I know perhaps as well as you. And now </l>
+       <l>I need not surely twice congratulate </l>
+       <l>My sister and my brother—soon to be.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l>Let us go in.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> You seem so happy too </l>
+       <l>That we must all congratulate you, Frank.</l>
+      </lg>
+     </sp>
+     <stage> [Exeunt.</stage>
+    </div>
+   </div>
+   <div type="act" n="3">
+    <head>ACT III.</head>
+    <div type="scene" n="1">
+     <head>Scene I.</head>
+     <stage>—In the Garden.</stage>
+     <stage>Anne and Mabel.</stage>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l>This heartsease bed is richer than it was </l>
+       <l>Last year—and so it should be; should it not? </l>
+       <l>For your sake and for his, I mean. See here; </l>
+       <l>Here's one all black—a burning cloud of black, </l>
+       <l>With golden sunrise at its heart; and here's </l>
+       <l>One all pure gold from shapely leaf to leaf, </l>
+       <l>And just its core or centre black as night.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l>They call them pansies too, you know.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> But you </l>
+       <l>Must call them heartsease now. Tell me—what thoughts </l>
+       <l>Have lovers that the lovely plain old name </l>
+       <l>Would not suit better than all others?</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> None, </l>
+       <l>None that I know of—nor does Redgie. Anne, </l>
+       <l>How can we two thank God enough?</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> I'm sure </l>
+       <l>I cannot tell you, Mabel. All your thoughts </l>
+       <l>Are flowers, you say, and flowers as sweet as these </l>
+       <l>Whose perfume makes the rose's coarse and dull; </l>
+       <l>And how then could I tell you how to thank </l>
+       <l>God? He has given you something—thought or truth, </l>
+       <l>If truth and thought are not the same—which I </l>
+       <l>Cannot, you know, imagine.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> Ah, you will </l>
+       <l>Some day, and soon—you must and will.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> I doubt </l>
+       <l>That. Can the world supply me, do you think, </l>
+       <l>With such another Redgie?</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> That's not fair.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l>I must put up with something secondrate? </l>
+       <l>Frank, for example—if he'd have me? No, </l>
+       <l>Dear Mabel: be content with happiness; </l>
+       <l>And do not dream it gives you power to play </l>
+       <l>Providence, or a prophet. Is he not </l>
+       <l>Waiting for you—there, by the hawthorns—there— </l>
+       <l>And, certainly, not wanting me?</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> He is! </l>
+       <l>I told him not to come and wait for me.</l>
+      </lg>
+     </sp>
+     <stage> [Exit.</stage>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l>I cannot bear it: and I cannot die.</l>
+      </lg>
+     </sp>
+     <stage>Enter Sir Arthur.</stage>
+     <sp who="#sir_arthur">
+      <speaker>SIR ARTHUR.</speaker>
+      <lg>
+       <l>Our lovers are not here? Ah, no; they want </l>
+       <l>Seclusion—shade and space between the trees </l>
+       <l>To chirp and twitter. Well, no wonder.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> No.</l>
+      </lg>
+     </sp>
+     <sp who="#sir_arthur">
+      <speaker>SIR ARTHUR.</speaker>
+      <lg>
+       <l>The handsomest and happiest pair they are </l>
+       <l>That England or Northumberland could show, </l>
+       <l>Are they not?</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> Yes; Mabel is beautiful.</l>
+      </lg>
+     </sp>
+     <sp who="#sir_arthur">
+      <speaker>SIR ARTHUR.</speaker>
+      <lg>
+       <l>You don't think much of Redgie, then?</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> He looks, </l>
+       <l>With all that light soft shining curly hair, </l>
+       <l>Too boyish for his years and trade: but men </l>
+       <l>Don't live or die by their good looks or bad.</l>
+      </lg>
+     </sp>
+     <sp who="#sir_arthur">
+      <speaker>SIR ARTHUR.</speaker>
+      <lg>
+       <l>You don't call soldiership a trade? And then, </l>
+       <l>His years are not so many—not half mine, </l>
+       <l>And I'm not quite a greybeard.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> Let him be </l>
+       <l>Apollo—Apollino if you like, </l>
+       <l>Your all but girl-faced godling in the hall. </l>
+       <l>He did not win her with his face or curls.</l>
+      </lg>
+     </sp>
+     <sp who="#sir_arthur">
+      <speaker>SIR ARTHUR.</speaker>
+      <lg>
+       <l>I am proud to know he did not. Are not you?</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l>Proud of him? Why should I be?</l>
+      </lg>
+     </sp>
+     <sp who="#sir_arthur">
+      <speaker>SIR ARTHUR.</speaker>
+      <lg>
+       <l> No; of her.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l>O! Yes, of course—very. Not every girl, </l>
+       <l>Of course, would condescend—to look so high.</l>
+      </lg>
+     </sp>
+     <sp who="#sir_arthur">
+      <speaker>SIR ARTHUR.</speaker>
+      <lg>
+       <l>A fine young loyal fellow, kind and brave, </l>
+       <l>Wants no more gilding, does he?</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> Luckily, </l>
+       <l>We see, he does not. Here she comes alone. </l>
+       <l>She has sent him in to rest—or speak to Frank. </l>
+      </lg>
+      <stage>Re-enter Mabel.</stage>
+      <lg>
+       <l>You have not kept him hanging round you long. </l>
+       <l>You are not exacting, Mabel.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> Need I be?</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l>We see you need not.</l>
+      </lg>
+     </sp>
+     <sp who="#sir_arthur">
+      <speaker>SIR ARTHUR.</speaker>
+      <lg>
+       <l> Mabel, may I say </l>
+       <l>How very and truly glad I am?</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> You may </l>
+       <l>Indeed, and let me thank you. That you must.</l>
+      </lg>
+     </sp>
+     <sp who="#sir_arthur">
+      <speaker>SIR ARTHUR.</speaker>
+      <lg>
+       <l>It makes one laugh, or smile at least, to think </l>
+       <l>That Master Redgie always was till now </l>
+       <l>The unlucky boy—the type of luckless youth, </l>
+       <l>Poor fellow—and now it seems you are going to give </l>
+       <l>Or rather have given him more than his deserts </l>
+       <l>Or most men's, if not any man's. I am </l>
+       <l>Glad.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> Please don't compliment. You know I have known </l>
+       <l>Reginald all my life—and can't but know </l>
+       <l>How much more he deserves than I can give.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l>She has the courage of her faith, you see.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l>Don't play at satire, Annie, when you know </l>
+       <l>How true it is.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> Of course I know it, Mab. </l>
+       <l>He always was incomparable. At school </l>
+       <l>His masters always said so, and at home— </l>
+       <l>Ah, well, perhaps the grooms did.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> One would think </l>
+       <l>You did not know him, and hated him. I wish </l>
+       <l>Almost he did not—as he does—deserve </l>
+       <l>Far more than I shall bring.</l>
+      </lg>
+     </sp>
+     <sp who="#sir_arthur">
+      <speaker>SIR ARTHUR.</speaker>
+      <lg>
+       <l> Impossible: </l>
+       <l>Even if he were—no subaltern, but even </l>
+       <l>The Duke himself.</l>
+      </lg>
+     </sp>
+     <stage>Enter Frank and Reginald.</stage>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> Who's talking of the Duke? </l>
+       <l>Ask Redgie what he thinks of him.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> No, don't. </l>
+       <l>My name's not Homer.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> Frenchmen say—</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> Dear Anne, </l>
+       <l>Don't you say ‘Frenchmen say’—say ‘Frenchmen lie.’ </l>
+       <l>They call the man who thrashes them a cur; </l>
+       <l>Then what must they be?</l>
+      </lg>
+     </sp>
+     <sp who="#sir_arthur">
+      <speaker>SIR ARTHUR.</speaker>
+      <lg>
+       <l> Try to tell us, though, </l>
+       <l>Something—if only to confute the frogs </l>
+       <l>And shame their craven croaking.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> What on earth </l>
+       <l>Can I or any man—could Wordsworth, even— </l>
+       <l>Say that all England has not said of him </l>
+       <l>A thousand times, and will not say again </l>
+       <l>Ten thousand?</l>
+      </lg>
+     </sp>
+     <sp who="#sir_arthur">
+      <speaker>SIR ARTHUR.</speaker>
+      <lg>
+       <l> Come, my boy, you're privileged, </l>
+       <l>You know: you have served, and seen him.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> Seen him? Yes. </l>
+       <l>You see the sun each morning; but the sun </l>
+       <l>Takes no particular notice and displays </l>
+       <l>No special aspect just for your behoof, </l>
+       <l>Does it?</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> He never spoke to you?</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> To me?</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l>Why not?</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> He might of course to any one; </l>
+       <l>But I'm not lucky—never was, you know.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l>They say that none of you who have followed him </l>
+       <l>Love him as Frenchmen love Napoleon.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> No. </l>
+       <l>How should they? No one loves the sun as much </l>
+       <l>As drunken fools love wildfires when they go </l>
+       <l>Plunging through marsh and mire and quag and haugh </l>
+       <l>To find a filthy grave.</l>
+      </lg>
+     </sp>
+     <sp who="#sir_arthur">
+      <speaker>SIR ARTHUR.</speaker>
+      <lg>
+       <l> Come, come, my boy! </l>
+       <l>Remember—‘love your enemies.’</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> When I have </l>
+       <l>Any, I'll try; but not my country's; not </l>
+       <l>Traitors and liars and thieves and murderers—not </l>
+       <l>Heroes of French or Irish fashion. Think </l>
+       <l>How fast the Duke stands always—how there's not </l>
+       <l>A fellow—can't be—drudging in the rear </l>
+       <l>Who does not know as well as that the sun </l>
+       <l>Shines, that the man ahead of all of us </l>
+       <l>Is fit to lead or send us anywhere </l>
+       <l>And sure to keep quick time with us, if we </l>
+       <l>Want or if duty wants him—bids the chief </l>
+       <l>Keep pace with you or me. And then just think, </l>
+       <l>Could he, suppose he had been—impossibly— </l>
+       <l>Beaten and burnt out of the country, lashed, </l>
+       <l>Lashed like a hound and hunted like a hare </l>
+       <l>Back to his form or kennel through the snow, </l>
+       <l>Have left his men dropping like flies, devoured </l>
+       <l>By winter as if by fire, starved, frozen, blind, </l>
+       <l>Maimed, mad with torment, dying in hell, while he </l>
+       <l>Scurried and scuttled off in comfort?</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> No. </l>
+       <l>He could not. Arthur quite agrees. And now </l>
+       <l>Be quiet.</l>
+      </lg>
+     </sp>
+     <sp who="#sir_arthur">
+      <speaker>SIR ARTHUR.</speaker>
+      <lg>
+       <l> Redgie takes away one's breath. </l>
+       <l>But that's the trick to catch young ladies' hearts— </l>
+       <l>Enthusiasm on the now successful side.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l>Successful! If we could have failed, you know, </l>
+       <l>He would have been—he, I, and you and all, </l>
+       <l>All of us, all, more passionate and keen </l>
+       <l>And hotter in our faith and loyalty </l>
+       <l>And bitterer in our love and hate than now </l>
+       <l>When thoughts of England and her work are not </l>
+       <l>Tempered with tears that are not born of pride </l>
+       <l>And joy that pride makes perfect.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> Let's be cool. </l>
+       <l>I have not seen you quite so hot and red </l>
+       <l>Since you were flogged for bathing at the Weir, </l>
+       <l>Redgie.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> Which time? the twentieth?</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> That at least.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l>Poor fellow!</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> Ah, you always pitied me— </l>
+       <l>And spoilt me.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> No one else did, Reginald.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l>And right and wise they were—a worthless whelp!</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l>Very. Not worth a thought—were you?</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> I'm sure </l>
+       <l>Not worth a tear of yours—and yet you cried </l>
+       <l>Sometimes, you know, for my mischances.</l>
+      </lg>
+     </sp>
+     <sp who="#sir_arthur">
+      <speaker>SIR ARTHUR.</speaker>
+      <lg>
+       <l> Ay? </l>
+       <l>So, boy and girl were born for bride and groom, </l>
+       <l>Were they? There's nothing now to cry for, then.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l>Arthur forgets: are love and happiness </l>
+       <l>Nothing to cry for? Tears, we are told, are signs </l>
+       <l>Infallible—indispensable—of joy.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l>Mabel and Redgie, then, must be just now </l>
+       <l>Unhappy—very unhappy. Can they fill </l>
+       <l>With us their parts to-morrow in his play?</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l>Yes: I know mine; and Anne knows hers.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> And Frank </l>
+       <l>His. Does he stab you, Redgie, on the stage?</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l>Yes, as I save him from the shipwreck.</l>
+      </lg>
+     </sp>
+     <sp who="#sir_arthur">
+      <speaker>SIR ARTHUR.</speaker>
+      <lg>
+       <l> Good! </l>
+       <l>That's something like a villain.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> I'm as bad. </l>
+       <l>I poison Mabel—out of love for Frank.</l>
+      </lg>
+     </sp>
+     <sp who="#sir_arthur">
+      <speaker>SIR ARTHUR.</speaker>
+      <lg>
+       <l>Heaven help us, what a tragic day or night! </l>
+       <l>It's well the drawing-room and the libraries </l>
+       <l>Are all rigged up ship-shape, with stage and box </l>
+       <l>Ready, and no such audience to be feared </l>
+       <l>As might—I don't say would, though, Reginald— </l>
+       <l>Hiss you from pit and gallery.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> That they would! </l>
+       <l>It's all a theft from Dodsley's great old plays, </l>
+       <l>I know you'll say—thirdrate and secondhand. </l>
+       <l>The book, you know, you lent me when a boy— </l>
+       <l>Or else I borrowed and you did not lend.</l>
+      </lg>
+     </sp>
+     <sp who="#sir_arthur">
+      <speaker>SIR ARTHUR.</speaker>
+      <lg>
+       <l>That's possible, you bad young scamp. I wish </l>
+       <l>We could have seen it played in the open air, </l>
+       <l>Boccaccio-like—but that would scarcely suit </l>
+       <l>With April in Northumberland.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> Not quite.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l>Come, don't abuse our climate and revile </l>
+       <l>The crowning county of England—yes, the best </l>
+       <l>It must be.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> Now he's off again.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> I'm not. </l>
+       <l>But I just ask you where you'll find its like? </l>
+       <l>Have you and I, then, raced across its moors </l>
+       <l>Till horse and boy were wellnigh mad with glee </l>
+       <l>So often, summer and winter, home from school, </l>
+       <l>And not found that out? Take the streams away, </l>
+       <l>The country would be sweeter than the south </l>
+       <l>Anywhere: give the south our streams, would it </l>
+       <l>Be fit to match our borders? Flower and crag, </l>
+       <l>Burnside and boulder, heather and whin—you don't </l>
+       <l>Dream you can match them south of this? And then, </l>
+       <l>If all the unwatered country were as flat </l>
+       <l>As the Eton playing-fields, give it back our burns, </l>
+       <l>And set them singing through a sad south world, </l>
+       <l>And try to make them dismal as its fens— </l>
+       <l>They won't be! Bright and tawny, full of fun </l>
+       <l>And storm and sunlight, taking change and chance </l>
+       <l>With laugh on laugh of triumph—why, you know </l>
+       <l>How they plunge, pause, chafe, chide across the rocks </l>
+       <l>And chuckle along the rapids, till they breathe </l>
+       <l>And rest and pant and build some bright deep bath </l>
+       <l>For happy boys to dive in, and swim up, </l>
+       <l>And match the water's laughter.</l>
+      </lg>
+     </sp>
+     <sp who="#sir_arthur">
+      <speaker>SIR ARTHUR.</speaker>
+      <lg>
+       <l> You at least </l>
+       <l>Know it, we doubt not. Woodlands too we have, </l>
+       <l>Have we not, Mabel? beech, oak, aspen, pine, </l>
+       <l>And Redgie's old familiar friend, the birch, </l>
+       <l>With all its blithe lithe bounty of buds and sprays </l>
+       <l>For hapless boys to wince at, and grow red, </l>
+       <l>And feel a tingling memory prick their skins— </l>
+       <l>Sting till their burning blood seems all one blush— </l>
+       <l>Eh?</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> I beg pardon if I bored you. But— </l>
+       <l>You know there's nothing like this country. Frank, </l>
+       <l>Is there?</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> I never will dispute with you </l>
+       <l>Anything, Redgie. This is what you call </l>
+       <l>Being peaceable, is it? firing up like tow </l>
+       <l>And rattling off like small-shot?</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> I can't help— </l>
+       <l>Can I?</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> When you said that at school, my lad, </l>
+       <l>It didn't help you much.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> Don't bully him so. </l>
+       <l>Don't let them, Redgie.</l>
+      </lg>
+     </sp>
+     <sp who="#sir_arthur">
+      <speaker>SIR ARTHUR.</speaker>
+      <lg>
+       <l> Redgie must be proof </l>
+       <l>Now against jokes that used to make the boy </l>
+       <l>Frown, blush, and wince: and well he may be.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> Why? </l>
+       <l>Is Reginald much wiser than he was? </l>
+       <l>He seems to me the same boy still.</l>
+      </lg>
+     </sp>
+     <sp who="#sir_arthur">
+      <speaker>SIR ARTHUR.</speaker>
+      <lg>
+       <l> He is, </l>
+       <l>I think; but now the luckiest living.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> Yes. </l>
+       <l>I'm half afraid one ought not anyhow </l>
+       <l>To be so happy. None of you, I know, </l>
+       <l>Our brothers and our sister, think it right. </l>
+       <l>You cannot. Nor do I.</l>
+      </lg>
+     </sp>
+     <sp who="#sir_arthur">
+      <speaker>SIR ARTHUR.</speaker>
+      <lg>
+       <l> A willow-wreath </l>
+       <l>For Mabel! Redgie turns her off.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> He might, </l>
+       <l>If she would let him: but he'll find her grasp </l>
+       <l>Tenacious as a viper's. Be resigned, </l>
+       <l>Redgie: I shall not let you go.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> I am </l>
+       <l>Resigned. But if God bade one rise to heaven </l>
+       <l>At once, and sit above the happiest there, </l>
+       <l>Resigned one might be—possibly: but still </l>
+       <l>Would not one shrink for shame's sake? Look at her </l>
+       <l>And me!</l>
+      </lg>
+     </sp>
+     <sp who="#sir_arthur">
+      <speaker>SIR ARTHUR.</speaker>
+      <lg>
+       <l> I never saw a better match.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l>I never had so sweet a compliment </l>
+       <l>Paid me. I shan't forget it, Arthur.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> What </l>
+       <l>Possesses all of you to try and turn </l>
+       <l>The poor amount of head I have, I can't </l>
+       <l>Imagine. One might think you had laid a bet </l>
+       <l>To make a man shed tears by way of thanks </l>
+       <l>And laugh at him for crying. Frank,—Arthur,—Anne, </l>
+       <l>You know I know how good it is of you </l>
+       <l>To wish me joy—and how I thank you: that </l>
+       <l>You must know.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> Surely, Reginald, we do. </l>
+       <l>Goodwill like ours could hardly miss, I trust, </l>
+       <l>Of gratitude like yours.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> What is it, Anne? </l>
+       <l>What makes you smile so?</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> Would you have me frown?</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l>Rather than smile like that: you would not look </l>
+       <l>So enigmatic.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> Let it pass, my dear: </l>
+       <l>We shall not smile to-morrow, when we play </l>
+       <l>Tragedy—shall we? Are the properties </l>
+       <l>Ready—stiletto and poison-flask?</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> Ah, there </l>
+       <l>We are lucky. There's the old laboratory, made </l>
+       <l>It seems for our stage purpose, where you know </l>
+       <l>Sir Edward kept his chemicals and things— </l>
+       <l>Collections of the uncanniest odds and ends, </l>
+       <l>Poisons and weapons from all parts of the earth, </l>
+       <l>Which Arthur lets us choose from.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> Are they safe </l>
+       <l>To play with?</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> Are we children, Annie? Still </l>
+       <l>Perhaps you are right: we had better let them be.</l>
+      </lg>
+     </sp>
+     <sp who="#sir_arthur">
+      <speaker>SIR ARTHUR.</speaker>
+      <lg>
+       <l>The daggers are not dangerous—blunt as lead— </l>
+       <l>That I shall let you youngsters play with.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> Good: </l>
+       <l>But how about the poison? let us have </l>
+       <l>A genuine old Venetian flask to fill </l>
+       <l>With wine and water.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> Let me choose it.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> You? </l>
+       <l>Why?</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> I know more about such things.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> About </l>
+       <l>Poison?</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> About the loveliest oldworld ware </l>
+       <l>Fonthill or Strawberry Hill could furnish: I'm </l>
+       <l>Miss Beckford, or Horatia Walpole.</l>
+      </lg>
+     </sp>
+     <sp who="#sir_arthur">
+      <speaker>SIR ARTHUR.</speaker>
+      <lg>
+       <l> Come </l>
+       <l>And take your choice of the empty flasks. Don't choose </l>
+       <l>A full one by mistake.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> I promise not.</l>
+      </lg>
+     </sp>
+     <stage> [Exeunt Sir Arthur and Anne.</stage>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l>I leave you to consult together, then— </l>
+       <l>The playwright and his heroine: that's but fair.</l>
+      </lg>
+     </sp>
+     <stage> [Exit.</stage>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l>I don't quite like it, Redgie: I'm afraid </l>
+       <l>Anne is not happy: I'm afraid.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> My love, </l>
+       <l>Is any one unhappy in the world? </l>
+       <l>I can't just now believe in wretchedness.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l>But I can. Redgie, do be good—and grave. </l>
+       <l>I talk to you as if you were grown-up, </l>
+       <l>You see.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> You do me too much honour.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> That </l>
+       <l>I do, you stupidest of tiresome boys. </l>
+       <l>Still, you were never ill-natured, were you? Well, </l>
+       <l>Have you not—boys see nothing—don't you think </l>
+       <l>You might have seen, had you but eyes, that Anne </l>
+       <l>Is not—I don't say (that would be absurd) </l>
+       <l>As happy as we are—no one could be that— </l>
+       <l>But not—not happy at all?</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> My darling, no. </l>
+       <l>What dream is this—what lunacy of love?</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l>Well—I must tell you everything, I see— </l>
+       <l>I wish I did not and I could not think </l>
+       <l>Her heart or fancy—call it either—were </l>
+       <l>More fixed on Frank than ever his on me.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l>Eh! Well, why not? If he can come to love </l>
+       <l>Any one, after thinking once he loved </l>
+       <l>You—and you would not have it break his heart </l>
+       <l>Quite, would you?—what could well befall us all </l>
+       <l>Happier than this? You don't suppose he can? </l>
+       <l>To me it seems—you know how hard and strange </l>
+       <l>It seems to hope or fancy: but God grant </l>
+       <l>It may be! If old Frank were happy once, </l>
+       <l>I should not feel I ought not—now and then— </l>
+       <l>To be so happy always.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> But you ought. </l>
+       <l>How good you are, Redgie!</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> O, very good. </l>
+       <l>I'd like—I want—to see my dearest friends </l>
+       <l>Happy—without a touch of trouble or pains </l>
+       <l>For me to take or suffer. Wonderful, </l>
+       <l>Is it not? saintly—great—heroic?</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> Well, </l>
+       <l>I think you may—I think we shall. But don't </l>
+       <l>Be boyish—don't be prompting Frank: you know, </l>
+       <l>Reginald, what I mean.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> Yes: that he may— </l>
+       <l>Will, very likely—want a hand like yours </l>
+       <l>Rather than mine to help him—bring him through— </l>
+       <l>Give him a lift or shove.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> Leave well alone. </l>
+       <l>That's all I mean.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> You always did know best, </l>
+       <l>And always will: I shall be always right </l>
+       <l>Now that my going or doing or saying depends </l>
+       <l>On you. It's well you are what you are: you might, </l>
+       <l>If you were evil-minded, make a man </l>
+       <l>Run from his post—betray or yield his flag— </l>
+       <l>Duck down his head and scuttle.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> Not a man </l>
+       <l>Like you.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> Let no man boast himself; does not </l>
+       <l>The Bible say—something like that?</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> Perhaps. </l>
+       <l>But then you don't, and never did, you know— </l>
+       <l>Not even about this play of yours. Come in: </l>
+       <l>The windy darkness creeps and leaps by fits </l>
+       <l>Up westward: clouds, and neither stars nor sun, </l>
+       <l>And just the ghost of a lost moon gone blind </l>
+       <l>And helpless. If we are to play at all, </l>
+       <l>I must rehearse my part again to-night.</l>
+      </lg>
+     </sp>
+     <stage> [Exeunt.</stage>
+    </div>
+   </div>
+   <div type="act" n="4">
+    <head>ACT IV.</head>
+    <div type="scene" n="1">
+     <head>Scene I.</head>
+     <stage>—A stage representing a garden by the sea.</stage>
+     <stage>Enter Alvise.</stage>
+     <sp who="#alvise">
+      <speaker>ALVISE.</speaker>
+      <lg>
+       <l>This way she went: the nightingales that heard </l>
+       <l>Fell silent, and the loud-mouthed salt sea-wind </l>
+       <l>Took honey on his lips from hers, and breathed </l>
+       <l>The new-born breath of roses. Not a weed </l>
+       <l>That shivers on the storm-shaped lines of shore </l>
+       <l>But felt a fragrance in it, and put on </l>
+       <l>The likeness of a lily.</l>
+      </lg>
+     </sp>
+     <stage>Enter Galasso.</stage>
+     <sp who="#galasso">
+      <speaker>GALASSO.</speaker>
+      <lg>
+       <l> Thou art here. </l>
+       <l>God will not let thee hide thyself too close </l>
+       <l>For hate and him to find thee. Draw: the light </l>
+       <l>Is good enough to die by.</l>
+      </lg>
+     </sp>
+     <sp who="#alvise">
+      <speaker>ALVISE.</speaker>
+      <lg>
+       <l> Thou hast found him </l>
+       <l>That would have first found thee. Set thou thy sword </l>
+       <l>To mine, its edge is not so fain to bite </l>
+       <l>As is my soul to slay thee.</l>
+      </lg>
+     </sp>
+     <stage> [They draw.</stage>
+     <stage>Enter Beatrice and Francesca.</stage>
+     <sp who="#beatrice">
+      <speaker>BEATRICE.</speaker>
+      <lg>
+       <l> What is this? </l>
+       <l>What serpent have ye trod on?</l>
+      </lg>
+     </sp>
+     <sp who="#alvise">
+      <speaker>ALVISE.</speaker>
+      <lg>
+       <l> Didst thou bid me </l>
+       <l>Draw, seeing far off the surety for thy life </l>
+       <l>That women's tongues should bring thee?</l>
+      </lg>
+     </sp>
+     <sp who="#beatrice">
+      <speaker>BEATRICE.</speaker>
+      <lg>
+       <l> Speak not to him. </l>
+       <l>Speak to me—me, Alvise.</l>
+      </lg>
+     </sp>
+     <sp who="#alvise">
+      <speaker>ALVISE.</speaker>
+      <lg>
+       <l> Sweet, be still. </l>
+       <l>Galassi, shall I smite thee on the lips </l>
+       <l>That dare not answer with a lie to mine </l>
+       <l>And know they cannot, if they speak, but lie?</l>
+      </lg>
+     </sp>
+     <sp who="#galasso">
+      <speaker>GALASSO.</speaker>
+      <lg>
+       <l>Thou knowest I dare not in Beatrice's sight </l>
+       <l>Strike thee to hell—nor threaten thee.</l>
+      </lg>
+     </sp>
+     <sp who="#alvise">
+      <speaker>ALVISE.</speaker>
+      <lg>
+       <l> I know </l>
+       <l>Thou liest. She stands between thy grave and thee, </l>
+       <l>As thou between the sun and hell.</l>
+      </lg>
+     </sp>
+     <sp who="#francesca">
+      <speaker>FRANCESCA.</speaker>
+      <lg>
+       <l> My lord, </l>
+       <l>Forbear him.</l>
+      </lg>
+     </sp>
+     <sp who="#galasso">
+      <speaker>GALASSO.</speaker>
+      <lg>
+       <l> I am not thy lord; who made me </l>
+       <l>Master or lord of thine? Not God should say, </l>
+       <l>Save with his tongue of thunder, and be heard </l>
+       <l>(If hearing die not in a dead man's ear), </l>
+       <l>‘Forbear him.’</l>
+      </lg>
+     </sp>
+     <sp who="#alvise">
+      <speaker>ALVISE.</speaker>
+      <lg>
+       <l> Nay, Beatrice, bid not me </l>
+       <l>Forbear: he will not let me bid him live.</l>
+      </lg>
+     </sp>
+     <sp who="#galasso">
+      <speaker>GALASSO.</speaker>
+      <lg>
+       <l>Thou shalt not find a tongue some half-hour hence </l>
+       <l>To pray with to my sword for time to pray </l>
+       <l>And die not damned.</l>
+      </lg>
+     </sp>
+     <sp who="#francesca">
+      <speaker>FRANCESCA.</speaker>
+      <lg>
+       <l> Sir, speak not blasphemy. </l>
+       <l>Death's wings beat round about us day and night: </l>
+       <l>Their wind is in our faces now. I pray you, </l>
+       <l>Take heed.</l>
+      </lg>
+     </sp>
+     <sp who="#galasso">
+      <speaker>GALASSO.</speaker>
+      <lg>
+       <l> Of what? of God, or thee? Not I. </l>
+       <l>But let Beatrice bend to me—</l>
+      </lg>
+     </sp>
+     <sp who="#alvise">
+      <speaker>ALVISE.</speaker>
+      <lg>
+       <l> To thee? </l>
+       <l>Bend? Nay, Beatrice, bind me not in chains, </l>
+       <l>Who would not play thy traitor: give my sword </l>
+       <l>What God gives all the waves and birds of the air, </l>
+       <l>Freedom.</l>
+      </lg>
+     </sp>
+     <sp who="#beatrice">
+      <speaker>BEATRICE.</speaker>
+      <lg>
+       <l> He gives it not to slay.</l>
+      </lg>
+     </sp>
+     <sp who="#alvise">
+      <speaker>ALVISE.</speaker>
+      <lg>
+       <l> He shall. </l>
+       <l>Are the waves bloodless or the vultures bland? </l>
+       <l>Loose me, love: leave me: let me go.</l>
+      </lg>
+     </sp>
+     <sp who="#beatrice">
+      <speaker>BEATRICE.</speaker>
+      <lg>
+       <l> Thou shalt not </l>
+       <l>Put off for me before my face thy nature, </l>
+       <l>Thy natural name of man, to mock with murder </l>
+       <l>The murderous waves and beasts of ravin. Slay me, </l>
+       <l>And God may give thee leave to slay him: I </l>
+       <l>Shall know not of it ever.</l>
+      </lg>
+     </sp>
+     <sp who="#galasso">
+      <speaker>GALASSO.</speaker>
+      <lg>
+       <l> Vivarini, </l>
+       <l>These women's hands that here strike peace between us </l>
+       <l>To-morrow shall not stead thee. Live a little: </l>
+       <l>My sword is not more thirsty than the sea, </l>
+       <l>Nor less secure in patience. Thou shalt find </l>
+       <l>A sea-rock for thy shipwreck on dry land here </l>
+       <l>When thou shalt steer again upon the steel of it </l>
+       <l>And find its fang's edge mortal.</l>
+      </lg>
+     </sp>
+     <stage> [Exit.</stage>
+     <sp who="#alvise">
+      <speaker>ALVISE.</speaker>
+      <lg>
+       <l> Have ye shamed me? </l>
+       <l>Mine enemy goes down seaward with no sign </l>
+       <l>Set of my sword upon him.</l>
+      </lg>
+     </sp>
+     <sp who="#beatrice">
+      <speaker>BEATRICE.</speaker>
+      <lg>
+       <l> Let him pass. </l>
+       <l>To-morrow brings him back from sea—if ever </l>
+       <l>He come again.</l>
+      </lg>
+     </sp>
+     <sp who="#francesca">
+      <speaker>FRANCESCA.</speaker>
+      <lg>
+       <l> How should not he come back, then?</l>
+      </lg>
+     </sp>
+     <sp who="#beatrice">
+      <speaker>BEATRICE.</speaker>
+      <lg>
+       <l>The sea hath shoals and storms.</l>
+      </lg>
+     </sp>
+     <sp who="#alvise">
+      <speaker>ALVISE.</speaker>
+      <lg>
+       <l> God guard him—till </l>
+       <l>He stand within my sword's reach!</l>
+      </lg>
+     </sp>
+     <sp who="#francesca">
+      <speaker>FRANCESCA.</speaker>
+      <lg>
+       <l> Pray thou rather </l>
+       <l>God keep thee from the reach of his.</l>
+      </lg>
+     </sp>
+     <sp who="#alvise">
+      <speaker>ALVISE.</speaker>
+      <lg>
+       <l> He cannot, </l>
+       <l>Except he smite to death or deadly sickness </l>
+       <l>One of us ere we join. My saint Beatrice, </l>
+       <l>Thou hast no commission, angel though thou be, sweet, </l>
+       <l>Given thee of God to guard mine enemy's head </l>
+       <l>Or cross me as his guardian.</l>
+      </lg>
+     </sp>
+     <sp who="#beatrice">
+      <speaker>BEATRICE.</speaker>
+      <lg>
+       <l> Would I cross thee, </l>
+       <l>The spirit I live by should stand up to chide </l>
+       <l>The soul-sick will that moved me. Yet I would not, </l>
+       <l>Had I God's leave in hand to give thee, give </l>
+       <l>Thy sword and his such leave to cross as might </l>
+       <l>Pierce through my heart in answer.</l>
+      </lg>
+     </sp>
+     <sp who="#alvise">
+      <speaker>ALVISE.</speaker>
+      <lg>
+       <l> Wouldst thou bid me, </l>
+       <l>When he comes back to-morrow from the sea </l>
+       <l>Whereon to-day his ship rides royal, yield </l>
+       <l>Thee and my sword up to him?</l>
+      </lg>
+     </sp>
+     <sp who="#francesca">
+      <speaker>FRANCESCA.</speaker>
+      <lg>
+       <l> Nay, not her: </l>
+       <l>Thy sword she might.</l>
+      </lg>
+     </sp>
+     <sp who="#alvise">
+      <speaker>ALVISE.</speaker>
+      <lg>
+       <l> She would not.</l>
+      </lg>
+     </sp>
+     <sp who="#beatrice">
+      <speaker>BEATRICE.</speaker>
+      <lg>
+       <l> Fain I would, </l>
+       <l>And keep thine honour perfect.</l>
+      </lg>
+     </sp>
+     <sp who="#alvise">
+      <speaker>ALVISE.</speaker>
+      <lg>
+       <l> That may be, </l>
+       <l>When heaven and hell kiss, and the noon puts on </l>
+       <l>The starry shadow of midnight. Sweet, come in: </l>
+       <l>The wind grows keener than a flower should face </l>
+       <l>And fear no touch of trouble. Doubt me not </l>
+       <l>That I will take all heed for thee and me, </l>
+       <l>Who am now no less than one least part of thee.</l>
+      </lg>
+     </sp>
+     <stage> [Exeunt.</stage>
+    </div>
+    <div type="scene" n="2">
+     <head>Scene II.</head>
+     <stage>—The same.</stage>
+     <stage>Enter Beatrice and Francesca.</stage>
+     <sp who="#beatrice">
+      <speaker>BEATRICE.</speaker>
+      <lg>
+       <l>The wind is sharp as steel, and all the sky </l>
+       <l>That is not red as molten iron black </l>
+       <l>As iron long since molten. How the flowers </l>
+       <l>Cringe down and shudder from the scourge! I would </l>
+       <l>Galasso's ship were home in harbour.</l>
+      </lg>
+     </sp>
+     <sp who="#francesca">
+      <speaker>FRANCESCA.</speaker>
+      <lg>
+       <l> Here? </l>
+       <l>What comfort wouldst thou give him?</l>
+      </lg>
+     </sp>
+     <sp who="#beatrice">
+      <speaker>BEATRICE.</speaker>
+      <lg>
+       <l> What should I give? </l>
+       <l>Hadst thou some gentler maiden's mercy in thee, </l>
+       <l>Thou might'st, though death hung shuddering on his lips </l>
+       <l>And mixed its froth of anguish with the sea's, </l>
+       <l>Revive him.</l>
+      </lg>
+     </sp>
+     <sp who="#francesca">
+      <speaker>FRANCESCA.</speaker>
+      <lg>
+       <l> I, Beatrice?</l>
+      </lg>
+     </sp>
+     <sp who="#beatrice">
+      <speaker>BEATRICE.</speaker>
+      <lg>
+       <l> Who but thou, </l>
+       <l>Francesca?</l>
+      </lg>
+     </sp>
+     <sp who="#francesca">
+      <speaker>FRANCESCA.</speaker>
+      <lg>
+       <l> Mock not, lest thy scoff turn back </l>
+       <l>Like some scared snake to sting thee.</l>
+      </lg>
+     </sp>
+     <sp who="#beatrice">
+      <speaker>BEATRICE.</speaker>
+      <lg>
+       <l> Nay, not I: </l>
+       <l>Dost thou not mock me rather, knowing I know </l>
+       <l>Thou lov'st him as I love not? as I love </l>
+       <l>Alvise?</l>
+      </lg>
+     </sp>
+     <sp who="#francesca">
+      <speaker>FRANCESCA.</speaker>
+      <lg>
+       <l> There is none I love but God. </l>
+       <l>Thou knowest he doth not love me.</l>
+      </lg>
+     </sp>
+     <sp who="#beatrice">
+      <speaker>BEATRICE.</speaker>
+      <lg>
+       <l> Dost thou dream </l>
+       <l>His love for me is even as thine for him, </l>
+       <l>Born of a braver father than is hate, </l>
+       <l>A fairer mother than is envy? Me </l>
+       <l>He loves not as he hates my lover: thou </l>
+       <l>Mayst haply set—as in this garden-ground </l>
+       <l>Half barren and all bitter from the sea </l>
+       <l>Some light of lilies shoots the sun's laugh back— </l>
+       <l>Even in the darkness of his heart and hate </l>
+       <l>Some happier flower to spring against thy smile </l>
+       <l>And comfort thee with blossom.</l>
+      </lg>
+     </sp>
+     <sp who="#francesca">
+      <speaker>FRANCESCA.</speaker>
+      <lg>
+       <l> Thou shouldst be not </l>
+       <l>So fast a friend of mine: we were not born </l>
+       <l>I a Mariani, a Signorelli thou, </l>
+       <l>To play, with love and hate at odds with life, </l>
+       <l>Sisters.</l>
+      </lg>
+     </sp>
+     <sp who="#beatrice">
+      <speaker>BEATRICE.</speaker>
+      <lg>
+       <l> I know not in what coign of the heart </l>
+       <l>The root of hate strikes hellward, nor what rains </l>
+       <l>Make fat so foul a spiritual soil with life, </l>
+       <l>Nor what plague-scattering planets feed with fire </l>
+       <l>Such earth as brings forth poison. What is hate </l>
+       <l>That thou and I should know it?</l>
+      </lg>
+     </sp>
+     <sp who="#francesca">
+      <speaker>FRANCESCA.</speaker>
+      <lg>
+       <l> I cannot tell. </l>
+       <l>Flowers are there deadlier than all blights of the air </l>
+       <l>Or hell's own reek to heavenward: springs, whose water </l>
+       <l>Puts out the pure and very fire of life </l>
+       <l>As clouds may kill the sunset: sins and sorrows, </l>
+       <l>Hate winged as love, and love walled round as hate is, </l>
+       <l>With fear and weaponed wrath and arm-girt anguish, </l>
+       <l>There have been and there may be. Wouldst thou dream now </l>
+       <l>This flower were mortal poison, or this flasket </l>
+       <l>Filled full with juice of colder-blooded flowers </l>
+       <l>And herbs the faint moon feeds with dew, that warily </l>
+       <l>I bear about me against the noonday's needs, </l>
+       <l>When the sun ravins and the waters reek </l>
+       <l>With lustrous fume and feverous light like fire, </l>
+       <l>Preservative against it?</l>
+      </lg>
+     </sp>
+     <sp who="#beatrice">
+      <speaker>BEATRICE.</speaker>
+      <lg>
+       <l> Sure, the flower </l>
+       <l>Could hurt no babe as bright and soft as it </l>
+       <l>More than it hurts us now to smell to: nor </l>
+       <l>Could any draught that heals or harms be found </l>
+       <l>Preservative against it.</l>
+      </lg>
+     </sp>
+     <sp who="#francesca">
+      <speaker>FRANCESCA.</speaker>
+      <lg>
+       <l> Yet perchance </l>
+       <l>Preservative this draught of mine might prove </l>
+       <l>Against the bitterness of life—of noon, </l>
+       <l>I would say—heat, and heavy thirst, and faintness </l>
+       <l>That binds with lead the lids of the eyes, and hangs </l>
+       <l>About the heart like hunger.</l>
+      </lg>
+     </sp>
+     <sp who="#beatrice">
+      <speaker>BEATRICE.</speaker>
+      <lg>
+       <l> I am athirst; </l>
+       <l>Thy very words have made me: and the noon </l>
+       <l>Indeed is hot. Let me drink of it.</l>
+      </lg>
+     </sp>
+     <sp who="#francesca">
+      <speaker>FRANCESCA.</speaker>
+      <lg>
+       <l> Drink.</l>
+      </lg>
+     </sp>
+     <sp who="#beatrice">
+      <speaker>BEATRICE.</speaker>
+      <lg>
+       <l>The wells are not so heavenly cold. What comfort </l>
+       <l>Thou hast given me! I shall never thirst again, </l>
+       <l>I think.</l>
+      </lg>
+     </sp>
+     <sp who="#francesca">
+      <speaker>FRANCESCA.</speaker>
+      <lg>
+       <l> I am sure thou shalt not—till thou wake </l>
+       <l>Out of the next kind sleep that shall fall on thee </l>
+       <l>And hold thee fast as love, an hour or twain hence.</l>
+      </lg>
+     </sp>
+     <sp who="#beatrice">
+      <speaker>BEATRICE.</speaker>
+      <lg>
+       <l>I thank thee for thy gentle words and promises </l>
+       <l>More than for this thy draught of healing. Sleep </l>
+       <l>Is half the seed of life—the seed and stay of it— </l>
+       <l>And love is all the rest.</l>
+      </lg>
+     </sp>
+     <sp who="#francesca">
+      <speaker>FRANCESCA.</speaker>
+      <lg>
+       <l> Thou art sure of that? </l>
+       <l>Be sure, then.</l>
+      </lg>
+     </sp>
+     <sp who="#beatrice">
+      <speaker>BEATRICE.</speaker>
+      <lg>
+       <l> How should I be less than sure of it? </l>
+       <l>Alvise's love and thine confirm and comfort </l>
+       <l>Mine own with like assurance. All the wind's wrath </l>
+       <l>That darkens now the whitening sea to southward </l>
+       <l>Shall never blow the flame that feeds the sun out </l>
+       <l>Nor bind the stars from rising: how should grief, then, </l>
+       <l>Evil, or envy, change or chance of ruin, </l>
+       <l>Lay hand on love to mar him? Death, whose tread </l>
+       <l>Is white as winter's ever on the sea </l>
+       <l>Whose waters build his charnel, hath no kingdom </l>
+       <l>Beyond the apparent verge and bourn of life </l>
+       <l>Whereon to reign or threaten. Love, not he, </l>
+       <l>Is lord of chance and change: the moons and suns </l>
+       <l>That measure time and lighten serve him not, </l>
+       <l>Nor know they if a shadow at all there be </l>
+       <l>That fear and fools call death, not seeing each year </l>
+       <l>How thick men's dusty days and crumbling hours </l>
+       <l>Fall but to rise like stars and bloom like flowers.</l>
+      </lg>
+     </sp>
+     <stage> [Exeunt.</stage>
+    </div>
+    <div type="scene" n="3">
+     <head>Scene III.</head>
+     <stage>—The same.</stage>
+     <stage>Enter Alvise and Beatrice.</stage>
+     <sp who="#alvise">
+      <speaker>ALVISE.</speaker>
+      <lg>
+       <l>Thou art not well at ease: come in again </l>
+       <l>And rest: the day grows dark as nightfall, ere </l>
+       <l>Night fall indeed upon it.</l>
+      </lg>
+     </sp>
+     <sp who="#beatrice">
+      <speaker>BEATRICE.</speaker>
+      <lg>
+       <l> No, not yet. </l>
+       <l>I do not fear the thunder, nor the sea </l>
+       <l>That mocks and mates the thunder. What I fear </l>
+       <l>I know not: but I will not go from hence </l>
+       <l>Till that sea-thwarted ship's crew thwart the sea </l>
+       <l>Or perish for its pasture. See, she veers, </l>
+       <l>And sets again straight hither. All good saints, </l>
+       <l>Whose eyes unseen of ours that here lack light </l>
+       <l>Hallow the darkness, guard and guide her! Lo, </l>
+       <l>She reels again, and plunges shoreward: God, </l>
+       <l>Whose hand with curb immeasurable as they </l>
+       <l>Bridles and binds the waters, bid the wind </l>
+       <l>Fall down before thee silent ere it slay, </l>
+       <l>And death, whose clarion rends the heart of the air, </l>
+       <l>Be dumb as now thy mercy! O, that cry </l>
+       <l>Had more than tempest in it: life borne down </l>
+       <l>And hope struck dead with horror there put forth </l>
+       <l>Toward heaven that heard not for the clamouring sea </l>
+       <l>Their last of lamentation.</l>
+      </lg>
+     </sp>
+     <sp who="#alvise">
+      <speaker>ALVISE.</speaker>
+      <lg>
+       <l> Some there are— </l>
+       <l>Nay, one there is comes shoreward. If mine eyes </l>
+       <l>Lie not, being baffled of the wind and sea, </l>
+       <l>The face that flashed upon us out of hell </l>
+       <l>Between the refluent and the swallowing wave </l>
+       <l>Was none if not Galassi's. Nay, go in: </l>
+       <l>Look not upon us.</l>
+      </lg>
+     </sp>
+     <sp who="#beatrice">
+      <speaker>BEATRICE.</speaker>
+      <lg>
+       <l> Wherefore?</l>
+      </lg>
+     </sp>
+     <sp who="#alvise">
+      <speaker>ALVISE.</speaker>
+      <lg>
+       <l> Must I not </l>
+       <l>Save him to slay to-morrow? If I let </l>
+       <l>The sea's or God's hand slay mine enemy first, </l>
+       <l>That hand strikes dead mine honour.</l>
+      </lg>
+     </sp>
+     <stage> [Exit.</stage>
+     <sp who="#beatrice">
+      <speaker>BEATRICE.</speaker>
+      <lg>
+       <l> Save him, Christ! </l>
+       <l>God, save him! Death is at my heart: I feel </l>
+       <l>His breath make darkness round me.</l>
+      </lg>
+     </sp>
+     <stage>Enter Francesca.</stage>
+     <sp who="#francesca">
+      <speaker>FRANCESCA.</speaker>
+      <lg>
+       <l> Dost thou live? </l>
+       <l>Dost thou live yet?</l>
+      </lg>
+     </sp>
+     <sp who="#beatrice">
+      <speaker>BEATRICE.</speaker>
+      <lg>
+       <l> I know not. What art thou, </l>
+       <l>To question me of life and death?</l>
+      </lg>
+     </sp>
+     <sp who="#francesca">
+      <speaker>FRANCESCA.</speaker>
+      <lg>
+       <l> I am not </l>
+       <l>The thing I was.</l>
+      </lg>
+     </sp>
+     <sp who="#beatrice">
+      <speaker>BEATRICE.</speaker>
+      <lg>
+       <l> The friend I loved and knew thee </l>
+       <l>Thou art not. This fierce night that leaps up eastward, </l>
+       <l>Laughing with hate and hunger, loud and blind, </l>
+       <l>Is not less like the sunrise. What strange poison </l>
+       <l>Has changed thy blood, that face and voice and spirit </l>
+       <l>(If spirit or sense bid voice or face interpret) </l>
+       <l>Should change to this that meets me?</l>
+      </lg>
+     </sp>
+     <sp who="#francesca">
+      <speaker>FRANCESCA.</speaker>
+      <lg>
+       <l> Did I drink </l>
+       <l>The poison that I gave thee? Thou art dead now: </l>
+       <l>Not the oldest of the world's forgotten dead </l>
+       <l>Hath less to do than thou with life. Thou shalt not </l>
+       <l>Set eyes again on one that loved thee: here </l>
+       <l>No face but death's and mine, who hate thee deadlier </l>
+       <l>Than life hates death, shalt thou set eyes on. Die, </l>
+       <l>And dream that God may save thee: from my hands </l>
+       <l>Alive thou seest he could not.</l>
+      </lg>
+     </sp>
+     <stage>Re-enter Alvise with Galasso.</stage>
+     <sp who="#alvise">
+      <speaker>ALVISE.</speaker>
+      <lg>
+       <l> Stand, I say. </l>
+       <l>Stand up. Thou hast no hurt upon thee. Stand, </l>
+       <l>And gather breath to praise God's grace with.</l>
+      </lg>
+     </sp>
+     <sp who="#galasso">
+      <speaker>GALASSO.</speaker>
+      <lg>
+       <l> Thee </l>
+       <l>First must I thank, who hast plucked me hardly back </l>
+       <l>Forth of the ravening lips of death. What art thou? </l>
+       <l>This light is made of darkness.</l>
+      </lg>
+     </sp>
+     <sp who="#alvise">
+      <speaker>ALVISE.</speaker>
+      <lg>
+       <l> Yet the darkness </l>
+       <l>May serve to see thine enemy by: to-morrow </l>
+       <l>The sun shall serve us better when we meet </l>
+       <l>And sword to sword gives thanks for swordstrokes.</l>
+      </lg>
+     </sp>
+     <sp who="#galasso">
+      <speaker>GALASSO.</speaker>
+      <lg>
+       <l> No: </l>
+       <l>The sun shall never see mine enemy more </l>
+       <l>Now that his hand has humbled me.</l>
+      </lg>
+     </sp>
+     <sp who="#alvise">
+      <speaker>ALVISE.</speaker>
+      <lg>
+       <l> Forego not </l>
+       <l>Thy natural right of manhood. Chance it was, </l>
+       <l>Not I, that chose thee for my hand to save </l>
+       <l>As haply thine had saved me, had the wind </l>
+       <l>Flung me as thee to deathward.</l>
+      </lg>
+     </sp>
+     <sp who="#galasso">
+      <speaker>GALASSO.</speaker>
+      <lg>
+       <l> Dost thou think </l>
+       <l>To live, and say it, and smile at me? Thy saint </l>
+       <l>Had heavenlier work to do than guard thee, when </l>
+       <l>God gave thine evil star such power as gave thee </l>
+       <l>Power on thine enemy's life to save it. Twice </l>
+       <l>Thou shalt not save or spare me: if to-morrow </l>
+       <l>Thy sword had borne down mine, thou hadst let me live </l>
+       <l>And shamed me out of living: now, I am sure, </l>
+       <l>Thou shalt not twice rebuke me.</l>
+      </lg>
+     </sp>
+     <stage> [Stabs him.</stage>
+     <sp who="#beatrice">
+      <speaker>BEATRICE.</speaker>
+      <lg>
+       <l> Death is good: </l>
+       <l>He gives me back Alvise.</l>
+      </lg>
+     </sp>
+     <sp who="#alvise">
+      <speaker>ALVISE.</speaker>
+      <lg>
+       <l> Was it thou </l>
+       <l>Or God, Beatrice, speaking out of heaven, </l>
+       <l>Who turned my death to life?</l>
+      </lg>
+     </sp>
+     <sp who="#beatrice">
+      <speaker>BEATRICE.</speaker>
+      <lg>
+       <l> I am dying, Alvise: </l>
+       <l>I thought to have left—perchance to have lost thee: now </l>
+       <l>We shall not part for ever.</l>
+      </lg>
+     </sp>
+     <stage> [Dies. Alvise dies.</stage>
+     <sp who="#francesca">
+      <speaker>FRANCESCA.</speaker>
+      <lg>
+       <l> Wilt thou stand </l>
+       <l>Star-struck to death, Galasso? Let our dead </l>
+       <l>Lie dead, while we fly fleet as birds or winds </l>
+       <l>Forth of the shadow of death, and laugh, and live </l>
+       <l>As happy as these were hapless.</l>
+      </lg>
+     </sp>
+     <sp who="#galasso">
+      <speaker>GALASSO.</speaker>
+      <lg>
+       <l> She—is she </l>
+       <l>Dead? Hath she kissed the death upon his lips </l>
+       <l>And fed it full from hers?</l>
+      </lg>
+     </sp>
+     <sp who="#francesca">
+      <speaker>FRANCESCA.</speaker>
+      <lg>
+       <l> Why, dost thou dream </l>
+       <l>I did not kill her?</l>
+      </lg>
+     </sp>
+     <sp who="#galasso">
+      <speaker>GALASSO.</speaker>
+      <lg>
+       <l> Not a devil in hell </l>
+       <l>But one cast forth on earth could do it: and she </l>
+       <l>Shall shame the light of heaven no longer.</l>
+      </lg>
+     </sp>
+     <stage> [Stabs her.</stage>
+     <sp who="#francesca">
+      <speaker>FRANCESCA.</speaker>
+      <lg>
+       <l> Fool, </l>
+       <l>Thou hast set me free from fate and fear: I knew </l>
+       <l>Thou wouldst not love me.</l>
+      </lg>
+     </sp>
+     <stage> [Dies.</stage>
+     <sp who="#galasso">
+      <speaker>GALASSO.</speaker>
+      <lg>
+       <l> What am I, to live </l>
+       <l>And see this death about me? Death and life </l>
+       <l>Cast out so vile a thing from sight of heaven. </l>
+       <l>Save where the darkness of the grave is deep, </l>
+       <l>I cannot think to wake on earth or sleep.</l>
+      </lg>
+     </sp>
+    </div>
+   </div>
+   <div type="act" n="5">
+    <head>ACT V.</head>
+    <div type="scene" n="1">
+     <head>Scene I.</head>
+     <stage>—An ante-chamber to the drawing-room.</stage>
+     <stage>Enter Anne.</stage>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l>To bear my death about me till I die </l>
+       <l>And always put the time off, tremblingly, </l>
+       <l>As if I loved to live thus, would be worse </l>
+       <l>Than death and meaner than the sin to die. </l>
+       <l>The sin to kill myself—or think of it— </l>
+       <l>I have sinned that sin already. Not a day </l>
+       <l>That brings the day I cannot live to see </l>
+       <l>Nearer, but burns my heart like flame and makes </l>
+       <l>My thoughts within me serpents fanged with fire. </l>
+       <l>He would not weep if I were dead, and she </l>
+       <l>Would. If I make no better haste to die, </l>
+       <l>I shall go mad and tell him—pray to him, </l>
+       <l>If not for love, for mercy on me—cry </l>
+       <l>‘Look at me once—not as you look at her, </l>
+       <l>But not as every day you look at me— </l>
+       <l>And see who loves you, Reginald.’ Ah God, </l>
+       <l>That one should yearn at heart to do or say </l>
+       <l>What if it ever could be said or done </l>
+       <l>Would strike one dead with shame!</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> For love of death, </l>
+       <l>For love of death it is that all things live </l>
+       <l>And all joys bring forth sorrows. Sorrow and death </l>
+       <l>Have need of life and love to prey upon </l>
+       <l>Lest they too die as these do. What am I </l>
+       <l>That I should live? A thousand times it seems </l>
+       <l>I have drawn this flasket out to look on it </l>
+       <l>And dream of dying, since first I seized it—stole, </l>
+       <l>And Arthur never missed it. Yet again </l>
+       <l>The thought strikes back and stabs me, what are they, </l>
+       <l>What are they all, that they should live, and I </l>
+       <l>Die? Arthur told me, surely, that this death </l>
+       <l>Was pangless—swift and soft as when betimes </l>
+       <l>We sink away to sleep. If sin it is, </l>
+       <l>I will die praying for pardon: God must see </l>
+       <l>I am no more fit to live than is a bird </l>
+       <l>Wounded to death.</l>
+      </lg>
+     </sp>
+     <stage>Enter Sir Francis, Sir Arthur, and Frank.</stage>
+     <sp who="#sir_francis">
+      <speaker>SIR FRANCIS.</speaker>
+      <lg>
+       <l> Well, Anne, and could you rest </l>
+       <l>Well after murdering Mabel? Here is Frank </l>
+       <l>Declares his crimes would hardly let him sleep: </l>
+       <l>While he who made you criminals appears </l>
+       <l>Shamelessly happy.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> Redgie always was </l>
+       <l>Hardened: the plays he used to improvise </l>
+       <l>At school were deep in bloodshed.</l>
+      </lg>
+     </sp>
+     <sp who="#sir_arthur">
+      <speaker>SIR ARTHUR.</speaker>
+      <lg>
+       <l> Let us trust </l>
+       <l>That happiness and age may make his Muse </l>
+       <l>Milder.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> I am sure I hope so. It was hard </l>
+       <l>To find yourself so wicked.</l>
+      </lg>
+     </sp>
+     <sp who="#sir_francis">
+      <speaker>SIR FRANCIS.</speaker>
+      <lg>
+       <l> Hard on you, </l>
+       <l>Certainly. Were you tired?</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> Why? Do I look </l>
+       <l>Tired?</l>
+      </lg>
+     </sp>
+     <sp who="#sir_francis">
+      <speaker>SIR FRANCIS.</speaker>
+      <lg>
+       <l> Well, not tired exactly; still, your eyes </l>
+       <l>Look hot and dull.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> All eyes cannot be bright </l>
+       <l>Always, like Reginald's and Mabel's.</l>
+      </lg>
+     </sp>
+     <sp who="#sir_arthur">
+      <speaker>SIR ARTHUR.</speaker>
+      <lg>
+       <l> Ah, </l>
+       <l>It does one good to see them. Since the world </l>
+       <l>Began, or love began it, never was </l>
+       <l>A brighter pair of lovers. What a life </l>
+       <l>Will theirs be, if the morning of it mean </l>
+       <l>Really the thing it seems to say, and noon </l>
+       <l>Keep half the promise of it!</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> That it should, </l>
+       <l>If they get only their deserts: they are, </l>
+       <l>He the best fellow, she the best girl born.</l>
+      </lg>
+     </sp>
+     <sp who="#sir_francis">
+      <speaker>SIR FRANCIS.</speaker>
+      <lg>
+       <l>You're not a bad friend, Frank, I will say.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> No. </l>
+       <l>He is not.</l>
+      </lg>
+     </sp>
+     <sp who="#sir_francis">
+      <speaker>SIR FRANCIS.</speaker>
+      <lg>
+       <l> What your father would have said </l>
+       <l>To my approval of the match, perhaps </l>
+       <l>It's best not guessing: but the harshest brute </l>
+       <l>That ever made his broken-hearted ward </l>
+       <l>The subject or the heroine of a tale </l>
+       <l>Must, I think, have relented here.</l>
+      </lg>
+     </sp>
+     <sp who="#sir_arthur">
+      <speaker>SIR ARTHUR.</speaker>
+      <lg>
+       <l> But still </l>
+       <l>We are none the less your debtors—Redgie and I. </l>
+       <l>It lays on me an obligation too, </l>
+       <l>Your generous goodness to him.</l>
+      </lg>
+     </sp>
+     <sp who="#sir_francis">
+      <speaker>SIR FRANCIS.</speaker>
+      <lg>
+       <l> No, none at all. </l>
+       <l>I would not let the youngster tell me so. </l>
+      </lg>
+      <stage>Enter Reginald and Mabel.</stage>
+      <lg>
+       <l>So, you can look us in the face, my boy, </l>
+       <l>And not be, as you should, ashamed to see </l>
+       <l>How much less happy are other folk than you? </l>
+       <l>Your face is like the morning.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> Does it blush? </l>
+       <l>You'd see I was ashamed then.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> What, of me, </l>
+       <l>Redgie? It's rather soon to say so. Still, </l>
+       <l>It's not too late—happily.</l>
+      </lg>
+     </sp>
+     <sp who="#sir_francis">
+      <speaker>SIR FRANCIS.</speaker>
+      <lg>
+       <l> Nothing can </l>
+       <l>Happen that does not fall out happily, </l>
+       <l>It seems, for you—and nothing should, I think, </l>
+       <l>Ever. Come with me, Frank: I want you.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> Why?</l>
+      </lg>
+     </sp>
+     <sp who="#sir_francis">
+      <speaker>SIR FRANCIS.</speaker>
+      <lg>
+       <l>I never thought you quite so dull till now. </l>
+       <l>Come.</l>
+      </lg>
+     </sp>
+     <stage> [Exeunt Sir Francis and Frank.</stage>
+     <sp who="#sir_arthur">
+      <speaker>SIR ARTHUR.</speaker>
+      <lg>
+       <l> Take me with you: I'm superfluous too.</l>
+      </lg>
+     </sp>
+     <stage> [Exit.</stage>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l>Don't you go, Anne.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> I will not if you wish.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l>I do, and so does Redgie. We have seen </l>
+       <l>These last few days as little of you, you know, </l>
+       <l>As if you had been—well, anywhere.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> Except, </l>
+       <l>Remember, at rehearsals; and last night </l>
+       <l>We came against each other on the stage.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l>Indeed we did. Is that a property </l>
+       <l>You have kept about you?</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> What? where? this—ah no, </l>
+       <l>A—something for a touch of cold I caught </l>
+       <l>Last night—I think at least it was last night. </l>
+       <l>Arthur prescribed it for me.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> Let me taste. </l>
+       <l>I am hoarse—I am sure I must be hoarse to-day </l>
+       <l>With rattling out all Redgie's rant—much more </l>
+       <l>Than you did.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> No: you do not want it.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> Anne!</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l>You cannot want it, Mabel.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> How can you </l>
+       <l>Know? Don't be positive—and selfish.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> There— </l>
+       <l>Take it. No—do not taste it, Mabel.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> Look, </l>
+       <l>Redgie, how strange a pretty colour! Why, </l>
+       <l>One wants a name to praise it—and it smells </l>
+       <l>Like miles on miles of almond-blossom, all </l>
+       <l>Condensed in one full flower. If this had been </l>
+       <l>The poison Anne and you prepared for me, </l>
+       <l>I really would have taken it last night </l>
+       <l>And not pretended, as I did, to sip, </l>
+       <l>And kept my lips dry.</l>
+      </lg>
+     </sp>
+     <stage> [Drinks.</stage>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> Does the flavour match </l>
+       <l>The colour?</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> It's a sweet strange taste. Don't you </l>
+       <l>Try: you won't like it.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> Let me know, at least.</l>
+      </lg>
+     </sp>
+     <stage> [Drinks.</stage>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l>You do not yet: or do you now know?</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> Anne! </l>
+       <l>What have we done—and you? What is it?</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> Death, </l>
+       <l>Mabel. You see, you would not let me die </l>
+       <l>And leave you living.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> Death? She is mad—she is mad! </l>
+       <l>Reginald, help us—her and me—but her </l>
+       <l>First.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> Lean hardly help myself to stand. </l>
+       <l>Sit you down by me.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> Can the sun still shine? </l>
+       <l>I did not mean to murder you.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> And yet </l>
+       <l>We are dying, are we not—dying?</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> I meant </l>
+       <l>To die, and never sin again or see </l>
+       <l>How happy past all dreams of happiness </l>
+       <l>You, whom he loved, and he, who loved you, were.</l>
+      </lg>
+     </sp>
+     <stage>Re-enter Sir Francis, Sir Arthur, and Frank.</stage>
+     <sp who="#sir_francis">
+      <speaker>SIR FRANCIS.</speaker>
+      <lg>
+       <l>We are here again, you see, already. Why, </l>
+       <l>What strange new tragic play is this you are all </l>
+       <l>Rehearsing?</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> Mabel, if you can forgive, </l>
+       <l>Say so. I may remember that in hell.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l>I do. And so does Redgie. But you might </l>
+       <l>Have spared or saved him.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> How, and let you die?</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l>Ah, how? She did not mean it.</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l> And do you </l>
+       <l>Forgive me?</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> Surely. I am one with her, </l>
+       <l>And she forgives.</l>
+      </lg>
+     </sp>
+     <sp who="#sir_arthur">
+      <speaker>SIR ARTHUR.</speaker>
+      <lg>
+       <l> They are dying indeed. And she </l>
+       <l>Has killed them.</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> No. She did not mean.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> Indeed, </l>
+       <l>She did not.</l>
+      </lg>
+     </sp>
+     <sp who="#sir_francis">
+      <speaker>SIR FRANCIS.</speaker>
+      <lg>
+       <l> God in heaven! What dream is this?</l>
+      </lg>
+     </sp>
+     <sp who="#anne">
+      <speaker>ANNE.</speaker>
+      <lg>
+       <l>God help me! But God will not. I must die </l>
+       <l>Alone, if they forgive me. I must die.</l>
+      </lg>
+     </sp>
+     <stage> [Exit.</stage>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l>It was a terrible accident, you see— </l>
+       <l>Was it not, Mabel? That is all we know.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l>All.</l>
+      </lg>
+     </sp>
+     <sp who="#frank">
+      <speaker>FRANK.</speaker>
+      <lg>
+       <l> Redgie, will you speak to me?</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> Good night, </l>
+       <l>Frank—dear old Frank—my brother and hers. And you, </l>
+       <l>Good night, dear Arthur. Think we are going to see </l>
+       <l>Our mother, Mabel—Frank's and ours.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> I will. </l>
+       <l>But, Reginald, how hard it is to go!</l>
+      </lg>
+     </sp>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l>We have been so happy, darling, let us die </l>
+       <l>Thinking of that, and thanking God.</l>
+      </lg>
+     </sp>
+     <sp who="#mabel">
+      <speaker>MABEL.</speaker>
+      <lg>
+       <l> I will. </l>
+       <l>Kiss me. Ah, Redgie!</l>
+      </lg>
+     </sp>
+     <stage> [Dies.</stage>
+     <sp who="#reginald">
+      <speaker>REGINALD.</speaker>
+      <lg>
+       <l> Mabel! I am here.</l>
+      </lg>
+     </sp>
+     <stage> [Dies.</stage>
+     <sp who="#sir_arthur">
+      <speaker>SIR ARTHUR.</speaker>
+      <lg>
+       <l>They could have lived no happier than they die.</l>
+      </lg>
+     </sp>
+    </div>
+   </div>
+  </body>
+ </text>
+</TEI>

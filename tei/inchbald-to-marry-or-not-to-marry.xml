@@ -1,0 +1,4003 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id" xml:lang="eng">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">To marry or not to marry</title>
+    <author>
+     <persName>
+      <forename>Elizabeth</forename>
+      <surname>Inchbald</surname>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>ProQuest</name>
+     <idno type="URL">https://www.proquest.com/books/marry-not-1805/docview/2138575556/se-2?accountid=14632</idno>
+     <idno type="proquest">LION2138575556</idno>
+    </bibl>
+    <bibl type="originalSource">
+     <author>Inchbald, Elizabeth</author>
+     <title type="main">To marry or not to marry</title>
+     <title type="volume">To Marry, Or Not To Marry</title>
+     <publisher>Printed for Longman, Hurst, Rees, and Orme [etc.]</publisher>
+     <pubPlace>London</pubPlace>
+     <date type="print" when="1805">1805</date>
+     <note type="citation">Inchbald, Elizabeth: To marry or not to marry (1805). In: To Marry, Or Not To Marry. Printed for Longman, Hurst, Rees, and Orme [etc.]: London 1805</note>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="amos">
+      <persName>AMOS</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="hester">
+      <persName>HESTER</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="lady_susan">
+      <persName>LADY SUSAN</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="lady_susan_willowear">
+      <persName>LADY SUSAN, WILLOWEAR</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="lavensforth">
+      <persName>LAVENSFORTH</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="lord_dan">
+      <persName>LORD DAN</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="mrs_sarah">
+      <persName>MRS. SARAH</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="oswin">
+      <persName>OSWIN</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="roberts">
+      <persName>ROBERTS</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="servant">
+      <persName>SERVANT</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="sir_oswin">
+      <persName>SIR OSWIN</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="sir_owsin">
+      <persName>SIR OWSIN</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="willowear">
+      <persName>WILLOWEAR</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1805">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text>
+  <front>
+   <castList>
+    <head>PERSONS REPRESENTED.</head>
+    <castItem>
+     <role>Lord Danberry, Mr. Munden.</role>
+    </castItem>
+    <castItem>
+     <role>Sir Oswin Mortland, Mr. Kemble.</role>
+    </castItem>
+    <castItem>
+     <role>Mr. Willowear, Mr. Farley.</role>
+    </castItem>
+    <castItem>
+     <role>Mr. Lavensforth, Mr. Cooke.</role>
+    </castItem>
+    <castItem>
+     <role>Amos, Mr. Brunton.</role>
+    </castItem>
+    <castItem>
+     <role>Sir Oswin's Servant, Mr. Field.</role>
+    </castItem>
+    <castItem>
+     <role>Sir Oswin's Servant, Mr. Jeffries.</role>
+    </castItem>
+    <castItem>
+     <role>Sir Oswin's Servant, Mr. L. Bologna.</role>
+    </castItem>
+    <castItem>
+     <role>Sir Oswin's Servant, Mr. Lewiss.</role>
+    </castItem>
+    <castItem>
+     <role>Lord Danberry's Servant, Mr. Ratchford.</role>
+    </castItem>
+    <castItem>
+     <role>Lady Susan Courtly, Mrs. Glover.</role>
+    </castItem>
+    <castItem>
+     <role>Mrs. Sarah Mortland, Mrs. Davenport.</role>
+    </castItem>
+    <castItem>
+     <role>Hester, Miss Shuttleworth.</role>
+    </castItem>
+   </castList>
+  </front>
+  <body>
+   <div type="act" n="1">
+    <head>ACT I.</head>
+    <div type="scene" n="1">
+     <head>SCENE I.</head>
+     <stage>—A Hall at the Country Seat of Sir Oswin Mortland.</stage>
+     <stage>A loud knocking at the Gate.</stage>
+     <stage>Enter Mrs. Sarah Mortland, followed by a Servant.</stage>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>Tell the coachman I shan't want the carriage this morning.—And observe,
+                            if my brother should ask for me, I am gone to take a walk in the beech
+                            grove.</p>
+     </sp>
+     <sp who="#servant">
+      <speaker>SERVANT.</speaker>
+      <p>Yes, ma'am.</p>
+      <stage> [Exit Servant.</stage>
+     </sp>
+     <stage>Enter another Servant (in a great hurry).</stage>
+     <sp who="#servant">
+      <speaker>SERVANT.</speaker>
+      <p>Ma'am, there's a young lady in a post chaise just stopt at the gate, and
+                            says she must see you.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>A young lady! Must see me!—Who is she? What is her name?</p>
+     </sp>
+     <sp who="#servant">
+      <speaker>SERVANT.</speaker>
+      <p>I asked her name, ma'am, but she refused to tell it.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>Refused to send me her name! Then pray inform her that I am not at
+                            home—tell her I'm busy —I will be seen by no one.</p>
+     </sp>
+     <sp who="#servant">
+      <speaker>SERVANT.</speaker>
+      <p>I told her, ma'am, that you were busy, and that you had company, and that
+                            you were not at home; but she says she is come post more than twenty
+                            miles on purpose to pay you a visit, and cannot return without seeing
+                            you.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>What an impertinent!—Come post!—show her in—how extremely ridiculous and
+                            ill bred—</p>
+     </sp>
+     <sp who="#servant">
+      <speaker>SERVANT.</speaker>
+      <p>Here she is, ma'am.</p>
+      <stage> [Exit Servant.</stage>
+     </sp>
+     <stage>Enter Hester (in great agitation).</stage>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>My dear Miss ---! It is Miss ---, the young lady I met at Beverly—is it
+                            not?—What in the name of wonder—</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Oh, Mrs. Sarah Mortland! Oh, madam, pity and forgive me!—forgive this
+                            intrusion, and pity the cause of it.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>My dear, I must forgive all you do. </p>
+      <stage>(Dissatisfiedly.)</stage>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>I thought so, madam—I hoped you would forgive me, when I resolved to take
+                            this liberty. The kindness, the partiality you showed towards me, the
+                            very first time I was in your company—</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>And which was the last, I believe, my dear; for I think I never saw you
+                            but once in my life.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>No, madam; at Mrs. Brian's ball, when you were there at Beverly races.
+                            But that once you praised my dancing, my singing, my conversation! You
+                            said, if you remember, that you wished you had just such a young
+                            companion as I was—you told me you should be glad to see me at any
+                            time—and so I am come.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <stage>(Disconcerted.)</stage>
+      <p> Well!—and I am glad, very glad to see you.—I don't say I'm not.—Only a
+                            little surprised, my dear, that you did not wait for a more formal
+                            invitation.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>What it wanted in form, you made up with earnestness.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>And I then, at that time, felt all the ardour I expressed, But, my dear,
+                            are you come by yourself?</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Did you wish me to bring any body else?</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>No, no. </p>
+      <stage>(hastily.)</stage>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>I thought you would not—so I flew to you all alone, in my distress. </p>
+      <stage>(Weeps.)</stage>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>But what distress? And why are you in tears? I hope you have not run away
+                            from your friends?</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>I have no friend but you.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>Hem! hem! </p>
+      <stage>(Confounded.)</stage>
+      <p> But, my dear, tell me what is all this about? And why </p>
+      <stage>(frightened, and angry)</stage>
+      <p> have I the pleasure of seeing you here?</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>You know that I am an orphan!</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>Yes, that I was told—but I really forget your name.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>My Christian name is Hester—and when I am called by any other, it is that
+                            of my guardian, with whom I have lived from my infancy—Mr. Ashdale.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>Hester Ashdale.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>For my guardian never speaks of my own family but with reproach; has
+                            seldom permitted me to ask him any questions concerning them; and,
+                            indeed, has ever treated me with cruelty!</p>
+     </sp>
+     <stage> (Weeping.)</stage>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>We all have our trials, and we ought all to submit to them.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>But mayn't we run away from them?</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>Not always. Pray, when did you leave your guardian's house?</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>This very morning.—This very morning I was to have been married—and they
+                            are now all waiting for me at the church, or by this time gone home to a
+                            very uncomfortable dinner without me.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>Without the bride!—Was there ever!—</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>But, if you knew the intended bridegroom, you would not wonder.—He is so
+                            odious to me, that I had rather stay with you by half; and be your
+                            companion or servant.—I'll read—I'll sing—I'll work—I'll do every thing
+                            to please you.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>But, my dear, this house I cannot call my own. —It is, in fact, my
+                            brother's, Sir Oswin Mortland's. —As I live entirely in the country, he
+                            suffers me to pass for the mistress of it, but at present, he's down
+                            here himself; and though much younger than I am, yet he is so much
+                            richer and wiser than I am, that he commands me in every thing.—Indeed,
+                            such is his temper, he will always be lord and master of every place
+                            into which he condescends to enter; and he hates intruders
+                            —strangers—strange ladies in particular.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Then why did you invite me to come?</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>I invited you, but I did not fix the time.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>No, madam—but I thought I might.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>Then, your indiscretion in quitting your guardian's house, and your
+                            intended husband!—Why did you give your consent to marry?</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>I was in such fear of my guardian's anger, and his wife's peevishness.—I
+                            had no sense, no skill, no argument to answer all they said to prevail
+                            on me!—It was, besides, so ill bred to tell a gentleman, that I could
+                            not love him! that I could not bear to live with him! that he was
+                            disagreeable to me!</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>So, then, you consented without any apparent reluctance!</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>I am sure I looked reluctantly: but I was obliged to say yes, to all they
+                            asked of me.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>Then you should have kept your word.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Indeed and so I intended till it came to the very last—then I planned my
+                            escape. Did you never resolve on a thing and think you would do it
+                            whatever it cost you: then, just on the point when it was to be done,
+                            find your heart sink, and all your resolutions turn to nothing?</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>It must have been some very shocking husband they designed for you, to
+                            give you such an aversion!</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Oh he was not so very bad neither!—I dare say you would have had no
+                            objection to marry him: but I always said to myself—“I think a wedding
+                            is so pleasant;—the bells ring so sweetly; the bride and the bridemaids
+                            look so nice; and every one so joyful—that I never will marry, unless I
+                            can be joyful too.”</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>But when you return to your guardians, what do you think they will say to
+                            you for this conduct?</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>I never mean to return madam; and by the time I have lived a week or two
+                            here, perhaps you may never wish me to go back.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>“A week or two”—“never go back”—I must instantly acquaint Sir Oswin with
+                            this visit, and obtain his permission before I can venture to say you
+                            shall stay here even an hour or two.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Then dear, dear Mrs. Sarah Mortland, as this Sir Oswin is a cross
+                            ill-natured man, don't say I ran away just as I was going to be married:
+                            it may make him think me to blame.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>Tell him that! Not for the universe! If I were, he would not merely turn
+                            you out of his house, but me, for suffering you to come into it.—Step
+                            into that room while I go to him.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Oh Madam, rash as I may seem in having ventured hither, my heart has beat
+                            with fear, more than with hope. Pity me as a stranger in this house, and
+                            reflect that on my reception here, depends all my future prospects.</p>
+      <stage> [Exit. Hester.</stage>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>I vow she has put me in such a fright! What can I say to Sir Oswin? I did
+                            ask her to come, and see me to be sure; and it would be uncharitable to
+                            turn her out—and yet it was equally uncharitable to come on such an
+                            invitation.</p>
+     </sp>
+     <stage> [Exit.</stage>
+    </div>
+    <div type="scene" n="2">
+     <head>SCENE II.</head>
+     <stage>—A Library.</stage>
+     <stage>Sir Oswin Mortland (discovered reading).</stage>
+     <stage>Lord Danberry raps at the door twice.</stage>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Who's there?</p>
+     </sp>
+     <stage>Enter Lord Danberry.</stage>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>Nephew! nephew!—I beg your pardon—I know you don't like to be interrupted
+                            in your studies.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Yet my friends generally break in upon me at those very times my
+                            lord,—and tell me—“they know they are disobliging me”—by way of apology.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>Well, but you will excuse me—you'll excuse me I fear, sooner than my
+                            errand, for that I know you'll be displeased with.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Another apology!</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>Well, nephew, it does not signify,—but I must ask you again and
+                            again,—will you suffer my fine estate and our old title to go to a mere
+                            stranger? —This, you know, must be the case, if you resolve to continue
+                            a bachelor:—The thought of it embitters my life.—Consider, Sir Oswin,
+                            marriage as I have often told you, is a duty every man in your situation
+                            owes to his family, to society, to—</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Well, well, I grant it, my dear uncle,—and as my temper cannot bear
+                            continual irritation, I shall comply with your request to get rid of it
+                            for ever. —I will marry, to put an end to all your anxieties, though I
+                            had rather—</p>
+      <stage>(with vehemence.)</stage>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>—Thank you, my dear nephew, for this hearty promise: you have made me
+                            happy.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>And myself miserable.—I never thought of becoming a husband. I never
+                            intended to be a husband. Marriage will interfere with my pursuits, my
+                            studies, my—</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <stage>(Soothingly.)</stage>
+      <p> You will like the marriage state better than you expect.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Why, my Lord, I shall, at least, meet with no disappointments in it. For
+                            I do, with certainty, expect that it will progressively destroy every
+                            comfort of my life; and I shall fortify myself against their total
+                            extinction.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>I own the prospect for a married man is not very bright just at this
+                            precise period.—But, without dwelling on your character as a husband,
+                            consider the happiness you may enjoy as a parent. Reflect upon a son and
+                            heir!</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>I can feel no happiness in contemplating what does not exist.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>But I can. I can experience the highest gratification in foreseeing that
+                            now a son of yours will inherit my title and estates when I am laid low:
+                            for, by the course of years, I have but a short time to live.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>So my marriage, which will inevitably rob me of every enjoyment I
+                            possess, is to accommodate two nonentities; one of whom will be gone out
+                            of the world, and the other not come into it!</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>Still, there is a being in full existence, in the bloom of life, to whom
+                            your marriage will give high delight. The lady, with whom I mean you to
+                            marry—Lady Susan Courtly.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Lady Susan Courtly!</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>Yes;—and who, I believe, is as much in love with you—</p>
+      <stage>(Sir Oswin goes to him, and looks him in the face with a smile.)</stage>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>My Lord—I am between thirty and forty years of age.—I have lived in the
+                            world, at least half those years, an observer.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>I know you have.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>And do you talk to me of being in love?</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>Not you, but the lady. The lady, I say, is in love.—Lady Susan. </p>
+      <stage>(Sir Oswin, after looking steadfastly on him, turns away.)</stage>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Psha! psha! psha!</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>She fancies she is.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>But she won't make me fancy she is.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>I know you don't believe there is such a thing, as what is usually meant
+                            by the word love. But don't you think there may be such a thing as a
+                            good wife?</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <stage>(After consideration.)</stage>
+      <p> Yes, faith, I think there may.—I think, possibly, there may.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>And why shou'dn't she fall to your share?</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>O, my Lord,—It would be unconscionable in me to expect it. I can't hope
+                            to monopolize rarity.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>Ay, you are jocose; you make free with your old uncle. </p>
+      <stage>(Sir Oswin takes his hand kindly, as if apologising.)</stage>
+      <p> And now I'll tell you how your old uncle has made free with you. I have
+                            brought down Lady Susan Courtly to my house, here in the country—on this
+                            very spot—in the firm persuasion that you are smitten with her charms:
+                            but that you are too grave, too reserved, too consequential, think too
+                            much of your own importance and perfections, to ask a favour, even of a
+                            lady.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Why, my Lord!—</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>So, to save your dignity from the humiliation of sighing and kneeling, I
+                            have in your name solicited her hand in marriage.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>My Lord, I should be very sorry you appear'd ridiculous in this affair.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>I knew you would—you always were careful of my reputation, and therefore
+                            I knew you would acknowledge as yours, every syllable I have said in
+                            your name.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <stage>(Walking about in agitation.)</stage>
+      <p> Here's the beginning of matrimony! Always false foundations!</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>But tell me? Don't you like Lady Susan now, as well as you do any other
+                            woman?</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Quite as well—she is the same to me as her whole sex. I have no
+                            partiality to any one, nor dislike to any one, except as a wife.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>Human foresight is truly exemplified in me! My pride has been to make you
+                            a learned man, a man of erudition. And what is my reward? You love
+                            nothing but books.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Yes, my Lord, I love the whole human race— and I love my books, because
+                            they have taught me to do so.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>Can you boldly repeat that you love all mankind? There is one man whom I
+                            am sure you exclude from the rest.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>You mean the state delinquent, Lavensforth— a man who has attempted my
+                            life.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>Not directly.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Pardon me, my Lord;—his challenge was a direct attempt: and though the
+                            laws interfered, and disappointed that hope of his revenge; yet I have
+                            reason to believe he did not give up his designs against me, even when
+                            he left the kingdom.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>That is now full thirteen years ago; and if he be still living—</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>—He is rancorous still: his rage was of no transient nature.—Yes, I own I
+                            do not love the man who can bear malice for an act of justice; or could
+                            impute to my clear motives in his impeachment, any other end than the
+                            public good.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>But the public took such interest in the cause. —Your triumph was so
+                            popular, and his defeat so—</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Ay, that defeat, as well as his consequent punishment, may have been too
+                            severe: for though his sentence reached only to a fine, yet ultimately
+                            it proved so heavy, that, in effect, it caused his exile.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>So much the better.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>And, after all—though one may be ruined, and another raised to fame by
+                            rigorous prosecution of the faults of office; yet, in the candid
+                            estimate of man's imperfections and man's virtues, the accuser is seldom
+                            entirely right, nor the accused totally wrong.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>Why I never heard you talk thus before—nor would I have the world hear
+                            you now. You did not speak thus on Lavensforth's impeachment.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>No!—Youthful ardour made me then pronounce with decision. Years of
+                            studious application, and more matur'd experience have lessened my
+                            confidence in my own opinions.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>Ay, you are in an ill humour now, and so you'll contradict every thing I
+                            assert. I am glad, however, to hear you speak so diffidently of your own
+                            judgment, for then you can the better rely on mine, and keep the promise
+                            you have made me.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Yes—my Lord—as I have said; I'll marry in obedience to your will—I'll
+                            keep my word.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <stage>(Taking hold of him kindly.)</stage>
+      <p> But now when? When will you fix the happy day? When will you marry? </p>
+      <stage>(Sir Oswin considers.)</stage>
+      <p> Why as you have no great inclination to the business, don't delay —marry
+                            soon—as you don't like it, get it over at once.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>“Get it over?” Why it's to last for life.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>Not always. There is such a thing as benefit of survivorship. </p>
+      <stage>(Mrs. Sarah Mortland raps at the Library door.)</stage>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Come in.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>Then I'll go. And I'll go out at this door that I mayn't meet your
+                            company. </p>
+      <stage>(Going, returns.)</stage>
+      <p> And much obliged to you, my dear nephew, I am for all you have
+                            promised—I'm sure Lady Susan will be—</p>
+      <stage>(She raps again at the library door.)</stage>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Come in.—</p>
+      <stage>(Calling very loud.)</stage>
+     </sp>
+     <stage> [Exit Lord Danberry.</stage>
+     <stage>Enter Mrs. Sarah Mortland.</stage>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>To tell you the truth, I am half afraid to come in.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Because I have told you a thousand times, you may command any part of my
+                            day but this.</p>
+     </sp>
+     <stage>Re-enter Lord Danberry.</stage>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>I beg pardon,—I'll tell her you'll call on her today, or to-morrow
+                            morning.</p>
+      <stage> [Exit Lord Danberry.</stage>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <stage>(Impatiently.)</stage>
+      <p> My Lord!—You need not be afraid, however, sister; for, at present, your
+                            intrusion is not unwelcome. </p>
+      <stage>(Sits down.)</stage>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>Nay, I am not so much alarmed at my intrusion, as at my errand: for I am
+                            come to tell you something you won't like.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>More things I don't like, and more apologies! Why, then </p>
+      <stage>(Very cross.)</stage>
+      <p> you have chosen a bad time for your bad news, for I am in a very ill
+                            temper.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>The reason I came now was—that you might not be more offended at dinner
+                            time, by meeting a stranger at table. It is hard I can't make you love
+                            strangers!</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Why won't you be content with my loving you?—Why won't you be contented
+                            with my loving all my old, troublesome, tiresome friends? If I loved the
+                            company of every idle stranger, ten to one I could not endure yours.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>That I would pardon, could I once see you enjoy society like other
+                            people. But, I believe, I shall soon begin to think you have taken two
+                            of the monastic vows; that of seclusion, and the other against marriage.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>In the latter, I shall at least boast your example.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>You are mistaken.—I never made a vow against marriage. It was the men, I
+                            believe, who vowed never to ask me the question. Let me tell you,
+                            brother, there is a great deal of difference in sentiment, between a
+                            single man of a certain age, and a single woman of a certain age. The
+                            one does not marry because he won't:—the other, because she can't.—But
+                            we'll not talk of these things now.—</p>
+      <stage>(Approaching him with insinuation.)</stage>
+      <p> It's only a pretty girl is to dine with us to day.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <stage>(Rising in anger.)</stage>
+      <p> What have I to do with pretty girls?</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>I said so,—I thought so;—I knew you would not like her coming.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Then why did you invite her?</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>I only invited her in the usual complimentary way; told her I should be
+                            glad to see her at any time; begged she would make this house her home
+                            if she came into this part of the world. She lived twenty miles off, and
+                            I never imagin'd—</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Oh that every ostentatious invitation, was just so received!</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>I own that I did wrong; and therefore have taken her in for a few days.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>“A few days”—For yourself, you are justly repaid: for me, I will have no
+                            annoyance from your visitors. I shall set off for London tomorrow
+                            morning.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>Nay, nay—why, she won't be in your way— You will never see her, but at
+                            breakfast, dinner, and supper.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>So,—she's only to torment me from morning till night.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>—One of the most beautiful young women!</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>What's her beauty to me?</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>An orphan—without parents to protect her— without a single relation, that
+                            she knows, on earth— </p>
+      <stage>(he pays attention).</stage>
+      <p> Has been so cruelly used! —You won't go to town, will you?</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>I don't know.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>—If you had seen how the poor creature wept when she arrived, and hung on
+                            me for pity!— You'll dine with us to-day?</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <stage>(Sitting down.)</stage>
+      <p> Perhaps I may.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>—And you'll behave civilly to this poor girl? I'll tell you who she is.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>No, no; I don't want to know who she is.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>—Her distress is so great!</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Why then I don't care who she is. </p>
+      <stage>(He begins writing.)</stage>
+     </sp>
+     <stage>(Pause between them.)</stage>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>Well, brother, now, I suppose, I have your leave to go?</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>How can you doubt it?</p>
+     </sp>
+     <stage> [Exit Mrs. Sarah.</stage>
+     <stage>(The Scene closes on Sir Oswin writing.)</stage>
+    </div>
+   </div>
+   <div type="act" n="2">
+    <head>ACT II.</head>
+    <div type="scene" n="1">
+     <head>SCENE I.</head>
+     <stage>—The Library.</stage>
+     <stage>(Sir Oswin discovered writing still.)</stage>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <stage>(Without.)</stage>
+      <p> I tell you, I'm sure he will see me. Tell him, I come on very particular
+                            business.</p>
+     </sp>
+     <stage>Enter Servant.</stage>
+     <sp who="#servant">
+      <speaker>SERVANT.</speaker>
+      <p>Mr. Willowear.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Mr. Willowear, my old acquaintance and school-fellow! —Shew him in. </p>
+      <stage>[Exit Servant.]</stage>
+      <p> I thought he was too fond of London, ever to be seen out of St.
+                            James's-street. </p>
+      <stage>(Rises.)</stage>
+      <p> What can be his particular business with me?</p>
+     </sp>
+     <stage>Enter Willowear.</stage>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>Sir Oswin, I have taken this liberty—</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Mr. Willowear, you tremble!—What causes this agitation?</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>The cause is, I am in a passion—and I can hardly tell my story for anger.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>You are not angry with me, I hope.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>No; heaven forbid!—But you will excuse me, if I say, I am offended with
+                            some part of your family.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Shew me in what any of them have used you ill, and you shall have instant
+                            redress. Pray sit down. </p>
+      <stage>(They sit.)</stage>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>I am sorry to name a lady of your family—a lady, whom I have not the
+                            honour of knowing— your sister.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>My sister!</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>Yes; and another Lady has used me worse, and has flown to her for
+                            protection.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>I have just been quarrelling with my sister, for taking a young woman
+                            into the house.—Does she belong to you?</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>She was within—To tell you the whole story, Sir Oswin: the other day I
+                            fell in love.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Ha, ha, ha!</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>A beautiful girl!—You might have done the same thing.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>No, no;—Ha, ha, ha! I beg your pardon.— Proceed with your story—Ha, ha,
+                            ha! you know I was never in love.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>But can you pretend to say, you never shall!</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <stage>(Looking stedfastly at him.)</stage>
+      <p> Yes, I can.—But proceed.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>A little, friendless girl! hardly any body knew: who—brought up by the
+                            apothecary of our village. She caught my eye—her simple manners won my
+                            heart. I admire simplicity, of all female qualities.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>So do I.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>I grew tired of leading a batchelor's life. I had seen you, Sir Oswin,
+                            for instance, often out of temper—crabbed and rugged. No other fault,
+                            you know, ever laid to your charge, than being a little sullen, morose,
+                            and rather imperious. But all this, the women said, was merely for want
+                            of a wife.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>“The women said!”—My dear sir, pray go on with your story. Does this
+                            young lady, in my house, belong to you?</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>Yes—no—she was very near it, though—I won't say how very, very near it;
+                            for then you'll laugh again, and with some reason.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>What! I suppose, the ring bought.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>The book opened—when she took it in her head to run away.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <stage>(Rises.)</stage>
+      <p> Monstrous! abominable! not to be borne! She has imposed on my sister
+                            with some piteous tale.—But she sha'n't remain here a moment longer.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>I thought you would not suffer it.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Certainly not. </p>
+      <stage>(Rings the bell.)</stage>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>How she contriv'd to have every thing ready to make her escape, no one
+                            can guess. But, instead of meeting me in the church, where I was waiting
+                            with a few friends, impatient for her coming, she slipt from her
+                            bridemaids into a post-chaise, and drove to your house, where I have
+                            traced her.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Who's there?</p>
+      <stage>Enter Servant.</stage>
+      <p>Tell my sister, I desire to see her, and the Lady (the young woman, who
+                            came hither this morning) in the parlour by the saloon immediately. </p>
+      <stage>[Exit Servant.]</stage>
+      <p> Depend upon it, she shall leave this house instantly, or give me the
+                            very best reasons why she shou'd not.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>She can give you none—after encouraging my addresses, accepting my
+                            presents—for I gave her trinkets in abundance, and a diamond ring of
+                            great value,—In a word, I, myself, am the only gift she ever refused.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>And, does she expect a refuge under my roof thus charged with robbery?</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>The goods are upon her, I dare say. But, after all, I wou'd rather have
+                            her back, than my property. She is more precious to me than my diamond.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>“Precious! Have her back!” Wish to have such a woman for a wife!</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>Very true—I am wrong, I own—but, love! love! —Notwithstanding your sneer,
+                            Sir Oswin, love is ev'ry thing.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>No, 'tis nothing—a whim—a fancy, conceived by the infirmity of youth, or
+                            of age.—At seventeen or seventy, the infatuation is excusable,—but, at
+                            your time of life, and mine, Oh! it sinks the man into the boy, or
+                            dotard.—But, come, I'll shew you to my plantations, where you may amuse
+                            yourself, while I talk to these women—and, depend on my settling this
+                            business with as much care and concern for your welfare, as if I had
+                            your faith in the omnipotence of love.</p>
+     </sp>
+     <stage> [Exeunt.</stage>
+    </div>
+    <div type="scene" n="2">
+     <head>SCENE II.</head>
+     <stage>—A Parlour.</stage>
+     <stage>Enter Mrs. Sarah Mortland and Hester.</stage>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>Come, come—don't tremble thus—don't cry thus—don't be thus alarm'd.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Is not Sir Oswin coming to talk to me? perhaps to put himself in a
+                            passion—to turn me out of the only place I have to shelter me.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>He has merely sent word, he wishes to speak to us; and will most likely
+                            be as angry with me as with you.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>You are accustomed to his sternness.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>Stern as he is, he has the best of hearts to those who deserve his
+                            kindness.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>But I know myself undeserving.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>And your disappointed lover, who is certainly come to Sir Oswin on your
+                            account, has, no doubt, painted your conduct in the very worst colours.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Dear madam, let me run away again—suffer me to go before Sir Oswin comes,
+                            and save me the disgrace of being turned out.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>No; I should be turned out myself, if I were to connive at your escape.
+                            There is one circumstance, however, relative to you, that I do wish
+                            concealed from my brother, because it increases the peril of your
+                            situation.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Dear Madam what is it?</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>Your guardian has sent me a letter by this Mr. Willowear, in which he
+                            informs me, that your real name is Lavensforth, and that you are the
+                            daughter, the only child of Sir Oswin's inveterate enemy.—By this
+                            intelligence your guardian conceives you will immediately be restored to
+                            him, as my brother, under such circumstances, would not suffer you to
+                            remain a moment longer here.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Yes, Madam, I am the child of an unfortunate man, whose name I never
+                            heard without upbraidings. I knew he had many enemies, and for that
+                            reason I was denied my right to be called by his name: but I did not
+                            know that Sir Oswin was his particular foe.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>Yes; and tho', possibly, both of them good men, peculiar occurrences in
+                            the earlier part of their lives, when Sir Oswin was very young indeed,
+                            made them the bitterest enemies.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Oh, then, my dear, dear, Madam, do not tell Sir Oswin who I am, 'till I
+                            am gone away—Indeed, I'll go the moment he has seen me. But if you
+                            please, I had rather go now.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>Do you think Mr. Willowear has told my brother who you are?</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>No—I am sure Mr. Willowear does not know himself: for my guardian,
+                            fearing he might object to my father's misfortunes, always charged me to
+                            conceal my real name from him.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>Then, I promise you, my brother shall never know it from me. Your
+                            guardian, indeed, enjoins me silence to all but Sir Oswin; of course, he
+                            can hear it no other way.—And this secret of your birth, Mr. Ashdale
+                            adds in his letter, was in consequence of a promise your father
+                            extorted, when he left you to his care.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>My father made him promise also, he would treat me with kindness—but in
+                            that, he never kept his word.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>You remember your father then?</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Yes, yes; I shall always remember him; though, I fear, he has forgot me.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>You think, he is still living then?</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>I hope so! but, for these two last years, no letter —no—</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>Hush! hush! Sir Oswin. </p>
+      <stage>(Hester hangs down her head.)</stage>
+     </sp>
+     <stage>Enter Sir Oswin—he passes his Sister, and stands between her and Hester.</stage>
+     <sp who="#sir_oswin">
+      <speaker>Sir Oswin. </speaker>
+      <stage>(after looking sternly at each.)</stage>
+      <p>My business with you, Madam, and with this young person will be very
+                            shortly concluded. It is merely to express my displeasure, and to
+                            express it with warmth such as I feel, that I have been imposed upon by
+                            you. </p>
+      <stage>(to his Sister.)</stage>
+      <p> And that a worthy man has been imposed upon by you. </p>
+      <stage>(to Hester).</stage>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>Brother, we have both done wrong, and both hope for pardon.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Amendment must precede forgiveness. She must return with her future
+                            husband.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Ah! Ah! </p>
+      <stage>(screaming.)</stage>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <stage>(Roughly.)</stage>
+      <p> What do you mean?</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Oh, sir! did you know what it was to have a horror of being married!</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <stage>(Shrinks and hesitates.)</stage>
+      <p> Well,—well,—suppose I did know, what then?</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Then, you wou'd pity me.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <stage>(Aside.)</stage>
+      <p> The poor girl has a repugnance to marriage, and I compassionate her.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>For my part, brother, tho' I have taken this young lady in, yet I have
+                            lectured her.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>You “lecture her”—And by what authority have you lectured her?</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>Hah! you think nobody is to give lectures but yourself.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <stage>(Going near to Hester.)</stage>
+      <p> How old are you?</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>I am near seventeen.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>I shou'd not have thought you so much!</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>No: for not being used to fashionable company, I have nothing to say in
+                            conversation—except what I think.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Would to heaven all your sex had no more to utter.—The family in which
+                            you lived, your guardian, I suppose, used his influence to persuade you
+                            to marry?</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Yes; and Mr. Willowear used his influence to persuade me too; but I had
+                            rather not.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>I don't blame your being nice, and cautious in respect to marriage; but
+                            you should not have given your lover hopes.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>I could not tell him to his face, that I hated him.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>But, you received his presents.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>It was the only favour I ever granted, and he asked a thousand.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Favours!</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>He called them so.—He said, he did not value the things he gave me, but
+                            for their being mine. Here is his great present of all—a diamond ring!
+                            —Will you have it? I shall give it with as much pleasure to you, as he
+                            gave it to me, I dare say— and shall think it a greater favour, I'm
+                            sure.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <stage>(To his sister.)</stage>
+      <p> This is a very singular girl you have introduced to me!</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>And I have introduced as singular a man to her —therefore, I trust, you
+                            will understand one another.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>For my part, she has taken my understanding away.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>And as, I believe, she herself never had any, you will agree better and
+                            better.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <stage>(To Hester.)</stage>
+      <p> I shall take this ring, and return it to its first possessor.—And, now,
+                            as you intend to abandon him, and your former home, what do you design
+                            to do? </p>
+      <stage>(A pause.)</stage>
+      <p>—Whither do you intend to go?</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>I did intend to stay here. But, I suppose, you wont suffer it; though
+                            Mrs. Sarah Mortland invited me, or I should not have made so free as to
+                            come.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>Upon my word,—I only—</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Hush! Hold your tongue.—I want to hear her talk, not you.—And wou'd you
+                            be content to stay, and give up all your friends?</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>I hope, I shou'd find friends here.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>You have no parents?—no relations, I am told?</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>My mother died, when I was an infant.—My father went abroad,—perhaps is
+                            dead too: I never knew any other relations, and I hardly know my own
+                            surname; for I am always called Hester.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>—A Mr. and Mrs. Ashdale brought you up?</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>But were so unkind to me, that I durst not tell them I wou'dn't
+                            marry;—and, I hope, you will not send me back with a man I cannot love.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Then, you never lov'd him?</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>O! no, no.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Nor ever lov'd any other man?</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>O, no, never, never.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Nor ever could, I suppose?</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <stage>(After looking at him, unconsciously, from head to foot.)</stage>
+      <p> Yes,—yes,—yes,—O, yes.—I think I cou'd.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>I thought, you said, you had set your heart against marriage.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>No I have not.—No, no—but I should like to chuse my own husband.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>How choose? Women can't make love.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>But they can listen.—And I'll never listen, but where the sound is sweet.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Sweets are not always wholesome.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>And yet they preserve certain things, as well as vinegar.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <stage>(To his sister.)</stage>
+      <p> I don't know how I can turn this girl out of the house. Poor creature! </p>
+      <stage>(Affecting a smile of contempt.)</stage>
+      <p> She has lost her mother, and is not sure whether or no she has a father.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>Then, do you be a father to her.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Is there such difference in our ages?—She's seventeen, and I am not
+                            above—</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>No; but I have been so used to hear you call yourself an old man—</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>I beg your pardon, if I have—for that's making my elder sister a very old
+                            woman.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>Well, and I shall have no objection to being an old woman, while it is a
+                            privilege of that state to be of service to the young ones.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>And you have been of great service to me—thank you—thank you.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Yes, sister—you are a very good woman, I believe; and if I do find fault
+                            with you, now and then, it is because I wish you to be my companion, and
+                            my companion to be as perfect as possible.— Yes, indeed—I think you have
+                            done quite right in sheltering this poor orphan—and I recommend her to
+                            your further protection. </p>
+      <stage>(Passing Mrs. Sarah over to Hester.)</stage>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <stage>(Going, returns.)</stage>
+      <p> You'll dine with us, Sir Oswin?</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <stage>(Considering.)</stage>
+      <p> Why, yes; I don't know that I am going any where—yes—I'll dine with you. </p>
+      <stage>(Exeunt Mrs. Sarah and Hester. Hester curtsying low to Sir Oswin.)</stage>
+      <p> Poor girl! I really feel for her—poor girl! </p>
+      <stage>(He walks about, moves the chairs and table—at last he takes up a
+                            book, sits down and reads—of a sudden he rises.)</stage>
+      <p> Yes, I'll see what can be done for this poor destitute girl. My sister,
+                            I dare say, can employ her in her domestic concerns. </p>
+      <stage>(He sits down, and reads again; then takes his eye slowly from the
+                            book.)</stage>
+      <p> She can read to my sister, perhaps, and be of use that way.—But what
+                            have I to do with women's business! Here, in the country, my books are
+                            my sole occupation; </p>
+      <stage>(musing)</stage>
+      <p> books my sure solace, and refuge from frivolous cares.—Books, the
+                            calmers, as well as the instructors of the mind. </p>
+      <stage>(Looks in the book some time, then rises.)</stage>
+      <p> S'death! I cannot read. —What is the reason I cannot read? </p>
+      <stage>(Going.)</stage>
+     </sp>
+     <stage>Enter Mr. Willowear.</stage>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>Well, Sir Oswin, have you seen her?</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Yes,—I have seen her.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>And what do you think of my choice?</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>I think it a most imprudent one.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>Why so?</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Because she does not choose you.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>Did she tell you so?</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Has she not proved so?</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>I wish you wou'd let me see her.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>No, by no means. </p>
+      <stage>(hastily)</stage>
+      <p> I told you that if she could exculpate herself,—and in truth this has
+                            been the case.—Her promise to you, she avers, was given under the
+                            influence of fear.—She has flown to this house for protection; and I
+                            believe the laws of hospitality oblige me.—Here is your ring—But, as to
+                            the simple girl, without her own express desire, I cannot give up her.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>Well, if you say so—But, I assure you, you are the only man to whom I
+                            shou'd choose to confide her.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>You don't confide her.—She came hither of her own accord—and one cannot,
+                            upon reflection, turn from one's door a human creature of whatever sex,
+                            whatever age.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>And hers, to be sure, is an interesting sex, as well as a tender age.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Which makes me the more concerned for her.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>And yet you used to be so severe, so hard upon the women.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>So I am still on women advanced in life; but one can't help having a sort
+                            of feeling for the young.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>Did she part with the ring reluctantly?</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>No; with as much pleasure as if it had been yourself.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <stage>(Sighing.)</stage>
+      <p> So, then, I must resign all hopes of her, I find.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>That's right.—And do so like a man.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <stage>(Sighing.)</stage>
+      <p> I must seek for some other object to divert my thoughts.—What pretty
+                            women have you hereabouts, to banish Hester from my mind?</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>A number—a number. </p>
+      <stage>(Eagerly.)</stage>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>Who are they? What are their names? </p>
+      <stage>(With indifference.)</stage>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>I cannot exactly count them all over by name. </p>
+      <stage>(Recollecting.)</stage>
+      <p> Lady Susan Courtley, however, is among them, I know.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>Is she here?</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Yes. </p>
+      <stage>(Eagerly.)</stage>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>I once paid my addresses to Lady Susan—I have a great mind to renew
+                            them.—If she consented, just now, it would take from the foolish,
+                            ridiculous figure I make, to be seen without a wife after being so near
+                            possessing one.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>She lives close by, at my uncle's.—She's on a visit there, and his house
+                            is but on the edge of my park. Come with me, and I'll shew you a short
+                            cut thro' the grounds.—And one of the pleasantest walks too! You can be
+                            there in a quarter of an hour.</p>
+     </sp>
+     <stage> [Exeunt.</stage>
+    </div>
+   </div>
+   <div type="act" n="3">
+    <head>ACT III.</head>
+    <div type="scene" n="1">
+     <head>SCENE I.</head>
+     <stage>—A Forest, and a ruin'd Cottage.</stage>
+     <stage>Lavensforth discovered stretched on a Bank under a Tree—his black Servant
+                        kneeling by him—an open Letter lying on the Ground.</stage>
+     <sp who="#amos">
+      <speaker>AMOS.</speaker>
+      <p>Master, dear master, raise your head, and speak to poor servant, poor
+                            black, who has attend you from boy in his native country, followed you
+                            to your own, and is ready to follow all the world over.—Only tell him
+                            why you no eat—why you no sleep—and why big tear roll down from your
+                            eye? </p>
+      <stage>(a pause.)</stage>
+      <p> Master, why you left lodgings in village, and taken this poor hut in
+                            wild forest? House, not fit for blacks.—No one live near—none but the
+                            birds.—Ah! forget—This letter he threw down brought the bad news that
+                            breaks his heart. </p>
+      <stage>(Takes the letter from the ground, and reads.)</stage>
+      <p>“Unhappy man,—in all things unhappy—your daughter Hester, I fear is lost
+                            to you for ever.— She eloped from my care on the very day your packet
+                            arrived: and under such circumstances, that perhaps I may never hear of
+                            her again. If I do, I will certainly send her the letter you inclosed
+                            for her in mine.—Yours,“R. Ashdale.”Hester, that his daughter's
+                            name—often he talks of her, when in my country.—Hester—poor Hester!</p>
+     </sp>
+     <sp who="#lavensforth">
+      <speaker>LAVENSFORTH.</speaker>
+      <stage>(Starting, and raising his head.)</stage>
+      <p> Who said “Poor Hester!” Ah! poor! for she lost her mother at her birth,
+                            and her father when she first began to know and love him. Did any one
+                            speak her name, or was it my imagination? </p>
+      <stage>(Rises.)</stage>
+     </sp>
+     <sp who="#amos">
+      <speaker>AMOS.</speaker>
+      <p>It was I said, Hester.</p>
+     </sp>
+     <sp who="#lavensforth">
+      <speaker>LAVENSFORTH.</speaker>
+      <p>Wherefore?</p>
+     </sp>
+     <sp who="#amos">
+      <speaker>AMOS.</speaker>
+      <p>Because I know that name well—You so often spoke it in your sleep, while,
+                            in hot countries, I watched to fan you.</p>
+     </sp>
+     <sp who="#lavensforth">
+      <speaker>LAVENSFORTH.</speaker>
+      <p>Ah! my dreams have been happier than my waking hours; for them I passed
+                            with her.</p>
+     </sp>
+     <sp who="#amos">
+      <speaker>AMOS.</speaker>
+      <p>No, master, no—Your dreams sometimes unhappy! sometimes you start.—You
+                            angry in your sleep.—You call for gun, for sword.—You speak another
+                            name, not kind, as you speak Hester.</p>
+     </sp>
+     <sp who="#lavensforth">
+      <speaker>LAVENSFORTH.</speaker>
+      <p>I speak of Oswin, then, in my dreams.</p>
+     </sp>
+     <sp who="#amos">
+      <speaker>AMOS.</speaker>
+      <p>Ay; that's the name.</p>
+     </sp>
+     <sp who="#lavensforth">
+      <speaker>LAVENSFORTH.</speaker>
+      <p>Of him, who has stript me of every good I once possess'd. Amos, I have a
+                            heart formed to love, and to hate in the extremes.—My daughter and this
+                            Oswin have, for thirteen years, shared it between them;—to the one, the
+                            tenderest affection; to the other, deadly hatred. And now, that I have
+                            no longer a child, on whom to bestow my love, hate is the sole possessor
+                            of my bosom. But I will root it out.</p>
+     </sp>
+     <sp who="#amos">
+      <speaker>AMOS.</speaker>
+      <p>Do, master, do.</p>
+     </sp>
+     <sp who="#lavensforth">
+      <speaker>LAVENSFORTH.</speaker>
+      <p>I have no daughter, for whose sake, now, I should retain my rage, and I
+                            will rid myself of it.</p>
+     </sp>
+     <sp who="#amos">
+      <speaker>AMOS.</speaker>
+      <p>You will forgive?</p>
+     </sp>
+     <sp who="#lavensforth">
+      <speaker>LAVENSFORTH.</speaker>
+      <p>I will. There is, however, but one way left, by which I can forgive Sir
+                            Oswin, and I will avail myself of that one.—I will fix my dagger in his
+                            heart, and bear him malice no longer.</p>
+     </sp>
+     <sp who="#amos">
+      <speaker>AMOS.</speaker>
+      <p>Have duel?</p>
+     </sp>
+     <sp who="#lavensforth">
+      <speaker>LAVENSFORTH.</speaker>
+      <p>No; from that redress, years ago, I was restrained; and the only friends
+                            I ever had on earth, are bound in penalties so large, to insure my
+                            forbearance, that I must steal upon him.—Amos, invention, plot, cunning,
+                            disguise, and secrecy must be employed, even to procure such a meeting.
+                            But, then,—Oswin, on my knees, I vow your destruction, as you have
+                            effected mine. </p>
+      <stage>(Rises.)</stage>
+      <p> But my revenge shall be mercy, compared to yours.— I will not stab your
+                            fame:—I'll only sheathe my poniard in your breast.—I will not alienate
+                            your friends, as you have done mine; but they shall follow you with
+                            lamentation to the grave.</p>
+     </sp>
+     <sp who="#amos">
+      <speaker>AMOS.</speaker>
+      <p>Master, me commit that sin, not you. Me black, who been often wounded by
+                            white man, let me wound in return;—then sail to my own country, and
+                            leave master still good man,—no fear,—no guilt.</p>
+     </sp>
+     <sp who="#lavensforth">
+      <speaker>LAVENSFORTH.</speaker>
+      <p>You presume to complete my designs?— Avenge my wrongs?—Know your
+                            distance.— </p>
+      <stage>(Then inattentive to him, as he has been through all the scene but
+                            where he particularly addressed him.)</stage>
+      <p> Good fortune might have softened my mind, and driven out all impressions
+                            of revenge.— But </p>
+      <stage>(in tears.)</stage>
+      <p> the many ills which have succeeded his ambitious prosecution!—my child!
+                            a female child, left without parents, the heaviest ill of all.— His
+                            courting popularity at my expence! his art of eloquence, which, in a
+                            boy, had power to crush a man!—Of the miseries produced by talents so
+                            perverted, he shall feel his share:—He shall find I am not less cruel
+                            now, than when I ruled in my government; that exile has not softened me.
+                            The young enthusiast but accused me of acts of despotism; —he shall
+                            prove, in his dying moments, there is not a crime too black for my
+                            accomplishment.</p>
+     </sp>
+     <sp who="#amos">
+      <speaker>AMOS.</speaker>
+      <p>Good master, no more grief; but return to lodgings in the village.</p>
+     </sp>
+     <sp who="#lavensforth">
+      <speaker>LAVENSFORTH.</speaker>
+      <p>No house shall shelter me, but this ruin'd cottage; no bed shall rest my
+                            limbs, and rack my brain, till I have revenged my wrongs. </p>
+      <stage>(Goes into the Cottage, returns and says at the door.)</stage>
+      <p> My enemy, this Sir Oswin Mortland, has a seat, not more than ten miles
+                            distant.—Mortland Abbey. —Inquire of the peasants what road he
+                            frequents; whether he passes this way to the next town; whether he
+                            hunts, or shoots, or strolls in his park of an evening.—Gain all the
+                            intelligence you can.— Revenge is dear to men of your complexion, even
+                            more than to those of mine. Therefore, I depend, not alone on your
+                            fidelity and secrecy, but on your eager exertions.</p>
+     </sp>
+     <sp who="#amos">
+      <speaker>AMOS.</speaker>
+      <p>Oh, master! only kind master I ever had.—I would die for your content.</p>
+     </sp>
+     <sp who="#lavensforth">
+      <speaker>LAVENSFORTH.</speaker>
+      <p>Live—and execute my orders.</p>
+     </sp>
+     <stage>(Lavensforth retires into the Cottage—and Amos into the Forest.)</stage>
+    </div>
+    <div type="scene" n="2">
+     <head>SCENE II.</head>
+     <stage>—A Saloon at Lord Danberry's, with folding-doors into a Garden.</stage>
+     <stage>Enter Lord Danberry.</stage>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <stage>(Looking towards the garden.)</stage>
+      <p> There they are! there they are! Now would I give a hundred pounds, to
+                            know what Lady Susan and Sir Oswin are saying to each other.—They have
+                            been together exactly five minutes and a half by my stop-watch.— He has
+                            certainly begun the subject by this time; but I can't know any thing of
+                            their conversation, unless I join them—and that would be a pity, for it
+                            would interrupt them. I found it difficult to drag him to my house, and
+                            more so to persuade him to wait on her in the garden. Then, away I
+                            slipt—and now he is alone with her, he will be caught at once. He must
+                            speak now—here they come! here they come!—Yes, they are coming into this
+                            very room, as I live.—Now he must break the matter without delay, and my
+                            wishes are completed.</p>
+     </sp>
+     <stage> [Exit.</stage>
+     <stage>Enter Sir Oswin and Lady Susan from the Garden.</stage>
+     <stage>(As he and Lady Susan sit down.)</stage>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Lady Susan, I am a peculiar man, but a plain man: my peculiarity consists
+                            in my plainness. I am under the greatest obligations to my uncle, who
+                            bestowed on me an education, and tutors, who made me reflect—reflect
+                            particularly on my own passions, inclinations, faults, and failings.—In
+                            return for his care, I wish to obey him in all his commands—but,
+                            serious, sober, I'm afraid I may say, sullen habits, have ever been
+                            predominant with me; and I never was, and perhaps never shall be, in
+                            love.</p>
+     </sp>
+     <sp who="#lady_susan">
+      <speaker>LADY SUSAN.</speaker>
+      <p>Sir Oswin, your candour is so bewitching, it is impossible to resist its
+                            force. I have been accustomed to so much flattery, such adulation from
+                            men of the world, whose ardour, I am sure, meant nothing; that I cannot
+                            help believing—your apathy means a great deal.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>You may deceive yourself, Lady Susan.</p>
+     </sp>
+     <sp who="#lady_susan">
+      <speaker>LADY SUSAN.</speaker>
+      <p>And so may you, Sir Oswin.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>As I observed before, Madam, self-examination has been my daily practice.</p>
+     </sp>
+     <sp who="#lady_susan">
+      <speaker>LADY SUSAN.</speaker>
+      <p>Perhaps you examine so frequently, that you weary penetration; and a
+                            passer-by knows you better than you know yourself.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>That observation, Madam, might hold true of a lady and her looking-glass;
+                            but not of a man and his faults!</p>
+     </sp>
+     <sp who="#lady_susan">
+      <speaker>LADY SUSAN.</speaker>
+      <p>He must, however, be a very bad man, Sir Oswin, who sees his faults thus
+                            daily, yet does not amend them.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>He will, at least, endeavour to shun all trials that he thinks beyond his
+                            strength; and, in that spirit, I fear a married life.</p>
+     </sp>
+     <sp who="#lady_susan">
+      <speaker>LADY SUSAN.</speaker>
+      <p>Marriage may be productive of some faults; but, surely, 'tis a soil fit
+                            for the cultivation of every virtue.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Patience, I believe, may thrive there.</p>
+     </sp>
+     <sp who="#lady_susan">
+      <speaker>LADY SUSAN.</speaker>
+      <p>But what do you say of the growth of conjugal love?</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>That conjugal hate too frequently chokes it.</p>
+     </sp>
+     <sp who="#lady_susan">
+      <speaker>LADY SUSAN.</speaker>
+      <p>I long to convince you of your mistake.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <stage>(Rising.)</stage>
+      <p> Madam, to end the argument, and not to make my visit tedious—if you
+                            think you can be happy with a man so much older than yourself, who reads
+                            all the day, and half the night—whose temper is not good—who is easily
+                            put out of humour—</p>
+     </sp>
+     <sp who="#lady_susan">
+      <speaker>LADY SUSAN.</speaker>
+      <p>That I never am—therefore my good temper will make your fretful one of no
+                            harm to either of us!</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>I'll say no more, Madam.—My uncle will tell you the rest of my
+                            imperfections.</p>
+     </sp>
+     <sp who="#lady_susan">
+      <speaker>LADY SUSAN.</speaker>
+      <p>They must all appear trivial, Sir Oswin, when compared with that
+                            sincerity which discloses them. </p>
+      <stage>(he bows.)</stage>
+      <p> I am, you shall find, Sir, as peculiar, as plain spoken for a woman, as
+                            you are for a man.—I scorn, like you, to follow common modes and
+                            manners, which my own opinion, or my own convenience disapproves.—And
+                            while you have the singular frankness to tell me to my face, that you
+                            had rather not have me for a wife; I will adopt the same simple candour,
+                            and confess,—that, of all things, I should like you for a husband.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Good morning, Lady Susan.</p>
+     </sp>
+     <sp who="#lady_susan">
+      <speaker>LADY SUSAN.</speaker>
+      <p>Good morning, Sir Oswin.</p>
+     </sp>
+     <stage>As Sir Oswin is going—Enter Lord Danberry.</stage>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>Stay, my dear nephew, stay.—Nothing on earth could give me greater joy,
+                            than to be present at this interview. So, prolong it a little for my
+                            sake.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>I am afraid of intruding.</p>
+     </sp>
+     <sp who="#lady_susan">
+      <speaker>LADY SUSAN.</speaker>
+      <p>Not at all, Sir Oswin. The man, who has honour'd me with the offer of his
+                            hand—</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>Then the offer is made, and you are his betrothed wife.</p>
+     </sp>
+     <sp who="#lady_susan">
+      <speaker>LADY SUSAN.</speaker>
+      <p>As you have previously told me, my Lord; but Sir Oswin has said very
+                            little.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>Talking is not his talent; that is, talking to you women; for he thinks
+                            that would be encroaching on your privileges:—when he speaks, 'tis for
+                            nothing less than the good of the nation.</p>
+     </sp>
+     <sp who="#lady_susan">
+      <speaker>LADY SUSAN.</speaker>
+      <p>If I may judge of his other virtues by his humility, he will make the
+                            best husband in the world; for he assures me he shall be the worst.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>My uncle knows, Madam,—</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>I know that you are a good man, and, therefore, will make a good
+                            husband;—you were the most dutiful son,—you are an affectionate
+                            nephew,—a good brother,—a staunch friend,—a friend to the orphan; for
+                            that pretty girl, whom you have just taken into your house,—how kindly I
+                            saw you look on her.</p>
+     </sp>
+     <sp who="#lady_susan">
+      <speaker>LADY SUSAN.</speaker>
+      <p>What pretty girl?</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>A child, Madam,—a mere child.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>Nothing the worse for being young,—nor the worse for her beauty.</p>
+     </sp>
+     <sp who="#lady_susan">
+      <speaker>LADY SUSAN.</speaker>
+      <p>Is she so beautiful, Sir Oswin?</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>I was going to say, I had never look'd at her; —but I did,—I did.</p>
+     </sp>
+     <sp who="#lady_susan">
+      <speaker>LADY SUSAN.</speaker>
+      <p>Who is she? What's her name?</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>I never ask'd:—she was friendless, I heard.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>And well she might; for she ran from all her friends, and the man to whom
+                            she was going to be married, at the church-door.</p>
+     </sp>
+     <sp who="#lady_susan">
+      <speaker>LADY SUSAN.</speaker>
+      <p>What a surprising occurrence!</p>
+     </sp>
+     <sp who="#sir_owsin">
+      <speaker>SIR OWSIN.</speaker>
+      <p>And yet I can conceive it might happen.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>But the best of the story is, (as her guardian has written just now to
+                            Mr. Willowear,) she persuaded a second lover of hers, to hire the
+                            post-chaise for her escape from the first, on a promise she would go off
+                            with him; but, as they were stepping into the vehicle, she pretended to
+                            swoon; and, while the poor man ran for a smelling bottle, she drove
+                            away, and left both her lovers in the same deserted state.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Can this be fact?</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>Mr. Willowear but now shewed it under her guardian's hand; who adds,—he
+                            believes she will, in the end, prefer this second lover.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Who is he? What's his name? </p>
+      <stage>(Anxiously.)</stage>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>He did not say.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>'Tis fit, however, I shou'd search into the truth of this story, before
+                            she remains longer in my house. </p>
+      <stage>(Going.)</stage>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>Nay, don't put yourself in a passion with her— don't go home on
+                            purpose—don't leave Lady Susan.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>If it be proper to order Hester away, the sooner she knows my will, the
+                            better.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>Then send a message to your sister; my own man shall take it, and see her
+                            safe off, at once.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>No; she shall not go, till she has received from my own lips, the reproof
+                            she deserves, for having dared to come.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>Why, then Lady Susan and I will go with you. Lady Susan, we'll go with my
+                            nephew.</p>
+     </sp>
+     <stage>Enter Servant.</stage>
+     <sp who="#servant">
+      <speaker>SERVANT.</speaker>
+      <p>Mr. Willowear.</p>
+      <stage>Enter Mr. Willowear.</stage>
+      <stage> [Exit Servant.</stage>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Pray, Mr. Willowear,—But, no,—I'll talk to Hester herself. </p>
+      <stage>(Going.)</stage>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>Nephew, nephew!—one word. </p>
+      <stage>(They talk together.)</stage>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>Lady Susan, I did myself the honour of waiting on your Ladyship
+                            yesterday; but you were not within.</p>
+     </sp>
+     <sp who="#lady_susan">
+      <speaker>LADY SUSAN.</speaker>
+      <p>O! yes—I think they told me so.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>Hearing your Ladyship was in this part of the world, I came to confess my
+                            shame. I knew it would be impossible to conceal it from you, and I
+                            wished to be the first to announce it. I have been slighted in the most
+                            public manner, by one of your sex, to whom I paid my addresses, in
+                            consequence of their having been rejected by you.</p>
+     </sp>
+     <sp who="#lady_susan">
+      <speaker>LADY SUSAN.</speaker>
+      <p>She used you rightly, if you only made your offer on my refusal.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>But, then, are not you bound to take pity on me now, if my attachment to
+                            you has ruin'd me with every other woman?</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <stage>(Impetuously.)</stage>
+      <p> You don't mean this seriously, I hope, Mr. Willowear; because Sir Oswin—</p>
+     </sp>
+     <sp who="#lady_susan">
+      <speaker>LADY SUSAN.</speaker>
+      <p>My Lord, let Sir Oswin speak for himself.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>I can't think of interrupting my uncle, Madam.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>Why, then, Mr. Willowear, this lady is engaged to Sir Oswin, and will
+                            shortly be his wife; and let me tell you, Sir—</p>
+      <stage>(in a positive and angry tone.)</stage>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>My Lord, how can you be so warm?</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>Sir Oswin, how can you be so cold?</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>My Lord—</p>
+     </sp>
+     <sp who="#lady_susan">
+      <speaker>LADY SUSAN.</speaker>
+      <p>Don't interrupt your uncle, Sir Oswin.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>I beg ten thousand pardons; but it was Sir Oswin, who first told me Lady
+                            Susan was here. And I understood—</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>You can't misunderstand any longer now, Sir.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>Upon my honour, I think I do—for Sir Oswin's going to be united to Lady
+                            Susan, is the most surprising!—Sir Oswin!—who has always protested there
+                            was no such thing as love.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>But I never denied there was matrimony.</p>
+      <stage> [Exit Sir Oswin.</stage>
+     </sp>
+     <sp who="#lady_susan">
+      <speaker>LADY SUSAN.</speaker>
+      <p>What a prospect for me in the marriage state! But I'll be revenged for
+                            his chilling insolence; and nothing on earth shall make me resign him.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>That's right, my proud woman!</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>Lady Susan, I admire your spirit so much, that I have a great mind to
+                            say,—nothing on earth shall make me resign you.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>Would you supplant Sir Oswin, Mr. Willowear? Is it friendly?</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>'Tis fashionable.</p>
+     </sp>
+     <sp who="#lady_susan">
+      <speaker>LADY SUSAN.</speaker>
+      <p>Will you, my Lord, insist on Sir Oswin's promise, given to you?</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>I will;—I do insist upon it.</p>
+     </sp>
+     <sp who="#lady_susan">
+      <speaker>LADY SUSAN.</speaker>
+      <p>Then I'll force him to marry me.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>Do—and force him to love you too.</p>
+     </sp>
+     <sp who="#lady_susan">
+      <speaker>LADY SUSAN.</speaker>
+      <p>So I will.—For I'll bear his cruelty with so much good humour, that,
+                            unless his heart be more frozen than his manners, it shall beat with
+                            warmth to me.</p>
+      <stage> [Exit. Lady Susan</stage>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <stage>(Following her.)</stage>
+      <p> Stay, Lady Susan—take pity on the only man who loves you—do not drive me
+                            to despair. </p>
+      <stage>(Turns hastily.)</stage>
+      <p> My Lord, can you tell me of any other woman, whom you think I could
+                            love?</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>Why, upon my word, Mr. Willowear, it seems, as if you could love every
+                            woman you saw.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>I own I am not difficult; but, I find they are so.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>My advice is, pursue Hester—try to redeem her; and if you do not succeed—</p>
+      <stage>(considering.)</stage>
+      <p> I have just thought of the very female, who will exactly suit you.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>Of perfectly good character, I hope?</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>The nicest?</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>Family?</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>The very best in the country.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>Fortune?</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>Better than Lady Susan's.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>When will you introduce me? </p>
+      <stage>(eagerly.)</stage>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>I'll mention the subject to her first, and settle every thing between you
+                            both, as I have settled between Sir Oswin, and Lady Susan.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>But that aliance does not appear to be quite settled yet—I hope you will
+                            be more successful for me.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>I'll be successful for you all. But, before I undertake your affairs, you
+                            must come with me to Sir Oswin's, and try to regain Hester.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>My Lord, I am of an easy, complying, satisfied disposition.—I am willing
+                            to marry Hester; or Lady Susan; or the unknown female you propose; or,
+                            if she does not like me, some other.—I am not one of those, who think
+                            “great care must be taken in the choice of a wife, that she may prove a
+                            blessing.”</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>No, say with me—“great care must be taken how you treat a wife, and she
+                            will certainly be a blessing.”</p>
+     </sp>
+     <stage> [Exeunt.</stage>
+    </div>
+   </div>
+   <div type="act" n="4">
+    <head>ACT IV.</head>
+    <div type="scene" n="1">
+     <head>SCENE I.</head>
+     <stage>—An Apartment at Sir Oswin Mortland's.</stage>
+     <stage>Enter Roberts, James, Harry, and John, Servants to Sir Oswin.</stage>
+     <sp who="#roberts">
+      <speaker>ROBERTS.</speaker>
+      <p>Do you run to the terrace, and see for her. </p>
+      <stage> [Exit John.</stage>
+      <p> Go you, and see if she's in the drawing-room. </p>
+      <stage> [Exit James.</stage>
+      <p> And run you into the park.</p>
+     </sp>
+     <stage> [Exit Harry.</stage>
+     <stage>Enter Mrs. Sarah Mortland.</stage>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>What is the matter? What is all this confusion about?</p>
+     </sp>
+     <sp who="#roberts">
+      <speaker>ROBERTS.</speaker>
+      <p>I thought Miss Hester was here, Ma'am.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>And what did you want with her?</p>
+     </sp>
+     <sp who="#roberts">
+      <speaker>ROBERTS.</speaker>
+      <p>Sir Oswin is just returned from Lord Danberry's, and desires to see her
+                            directly.—He seems not very well pleas'd at something.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>You mean, he is in an ill humour.</p>
+     </sp>
+     <sp who="#roberts">
+      <speaker>ROBERTS.</speaker>
+      <stage>(In a whisper.)</stage>
+      <p> He's coming, Ma'am.</p>
+      <stage> [Exit Roberts.</stage>
+     </sp>
+     <stage>Enter Sir Oswin.</stage>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <stage>(In anger.)</stage>
+      <p> Where is your protègée, your companion, your innocent girl? Where's
+                            Hester?</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>And, now, give me leave to ask a question. Where is your elder sister?
+                            For one would suppose she was not within hearing.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>She lost her consequence, when she listen'd to the tale of an impostor.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>What has thus changed you on a sudden? We passed yesterday in comfort all
+                            together—and your attention to this poor girl, was remarkable.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Who remarked it?</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>Myself—Lord Danberry.—However, do you want to see her?</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>I do.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>Then I'll send her to you—</p>
+      <stage>(Aside)</stage>
+      <p> and glad of the opportunity to get away.</p>
+     </sp>
+     <stage> [Exit.</stage>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <stage>(In anger.)</stage>
+      <p> Women!—women!—women!— </p>
+      <stage>(altering his tone, but still angry)</stage>
+      <p> woman! woman! woman! </p>
+      <stage>(in greater anger still)</stage>
+      <p> woman!</p>
+     </sp>
+     <sp>
+      <stage>Enter Hester.</stage>
+      <stage>(His voice softens, as he beholds her, and he tenderly pronounces)</stage>
+      <p> woman!</p>
+     </sp>
+     <stage> (Hester curtsies, and appears timid.)</stage>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <stage>(With a subdued agitation)</stage>
+      <p> If they were slight faults you had committed, you would see me in anger—
+                            as it is—as your indiscreet conduct has been flagrant —you find me
+                            impressed only with concern, that I am compelled to turn from my
+                            habitation, a friendless young woman, who had implored my protection—and
+                            afflicted—deeply afflicted—to behold depravity in one, who gave no
+                            warning to the eye, no caution to the ear, nor even to the
+                            understanding, to beware of her arts.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Am I artful? If you say so, I suppose I am; but, indeed, I did not know
+                            it.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Were not those arts, by which you deceived two lovers?</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>O! lovers! Yes, I have made fools of two lovers. But I had a right to do
+                            so—for they wanted to make a fool of me.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>How so?</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Why, Mrs. Ashdale, my guardian's wife, and all the elderly ladies, that
+                            visited her, constantly said to me, “Hester, never mind what the men
+                            say; they are deceitful, and always speak falsehood to young women.”—So,
+                            I put no trust in them, nor they, I hope, in me.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>One honourable man was on the point of marrying you, when you ran away.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>I thought it was better to run away before marriage, than after.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>But you broke your promise.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Not my marriage-promise—for that I am resolved to keep, marry when I
+                            will—</p>
+      <stage>(trembling,)</stage>
+      <p> which makes me so afraid of giving it.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <stage>(Aside.)</stage>
+      <p> That is from the heart.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Have you any thing more to say against me?</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Who was he that effected your escape?</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>I did not know him for a lover; but trusted him only as a friend, to
+                            procure me a chaise; when, on a sudden, thinking me in his power, he
+                            wanted to come away with me.—So, I feigned illness, to leave him behind,
+                            too.—Any more reproaches?</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Numberless. You have, in every instance, conducted yourself with so much
+                            imprudence, indecorum, —that I am offended you shou'd have dared to come
+                            into this house.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Ay, now I hope you are speaking falsehood, as all the men do to young
+                            women.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>I speak falsehood!</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Only to women—don't be angry—I mean, only to women.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>I speak truth to every one;—and it is true that you have forfeited my
+                            good opinion, and all that favourable impression, which your appearance
+                            first made on me.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Did I make a favourable impression on you? Oh! I am so proud of it!</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <stage>(Confounded.)</stage>
+      <p> I—I give you leave to conceive this as a falsehood.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>No:—you always “speak truth;”—and I will believe this true, because I
+                            should be sorry to have it otherwise:—for then, what would become of me?
+                            Where should I go?</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Return to those who reared you from your infancy.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>No, no, never.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Marry, and you'll have a home.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Why do you bid me marry? I am told that you don't like to marry any more
+                            than I do.— But, sir,—is not this a fair proposal?—I'll marry, if you
+                            will.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <stage>(Starting.)</stage>
+      <p> Mr. Willowear, would you marry?</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>No; I'll make my own choice.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <stage>(Agitated.)</stage>
+      <p> And whom would you choose?</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>I'll tell you, if you'll promise I shall have him.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <stage>(After a pause.)</stage>
+      <p> Hear me, Hester—I sent for you, to upbraid, to reproach you—to shew my
+                            displeasure—my resentment;—but, you talk so differently from all the
+                            world besides, that—that— I have no words to give in exchange for yours,
+                            but such as I feel disinclined to utter.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Are they cruel, or kind words that you suppress?</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>I hardly know their meaning.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Speak them, and I'll explain them.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>No, no;—no explanations.—</p>
+      <stage>(He walks about in disquietude.)</stage>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <stage>(After a pause.)</stage>
+      <p> And, now, if my examination is over, am I to stay or go?</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>I am not determined.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Shall I determine for you?</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <stage>(After a struggle.)</stage>
+      <p> I confess, since the conversation which has just past between us, I feel
+                            a reluctance to say those harsh things, I meant to do, before I saw you.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>We feel something alike; for, before we met, I intended to say a thousand
+                            kind things, to persuade you to let me remain here; but the moment I saw
+                            you, I was ashamed to speak them.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>It is not discreet in a woman, to speak with kindness to men.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Not if they speak kindly to her: but when they are cross, like you, she
+                            may be kind with safety.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Hester, with all your faults, I feel an interest in your welfare.—And
+                            when I say, I feel for another's happiness, I am not interested
+                            slightly.—You have been imprudent, and I have censured you—but, in the
+                            hope my censure may have influence, I commence, from this hour, a
+                            friendship—a sincere friendship for you. Remain in this house while it
+                            suits your convenience, and reveal to me all your heavy sorrows, all
+                            your anxious troubles—my power shall protect, my sympathy shall console
+                            you.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <stage>(After pausing a little time, impressed with surprize.)</stage>
+      <p> Oh! this serious, this solemn profession of regard for me, has ruined
+                            all my hopes, all my expectations!</p>
+     </sp>
+     <sp who="#oswin">
+      <speaker>OSWIN.</speaker>
+      <p>How so? How?</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Because it forces me to be serious and solemn with you. While you were
+                            proud, I could treat you lightly;—while you were angry, I did not regard
+                            you;—while you were severe, I could laugh at you.—But now you are
+                            generous, humble, mild, I cannot impose on you—cannot deceive you
+                            longer.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Deceive me! In what? Don't I know all your faults?</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Not half of them.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Have a care! you may yet lose me as your friend.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>I may—Oh, I must!—I know I must!—I shall not make my confession unwarily;
+                            for I know, the moment you have heard it we shall part, never to meet
+                            again. Yet, I had rather it shou'd be so, than live with you every day,
+                            and be ashamed to lift up my eyes in your presence.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <stage>(Alarmed.)</stage>
+      <p> Why ashamed?—Why are you to be excluded from the right, which every one
+                            who is friendless has to my protection?</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <stage>(Trembling.)</stage>
+      <p> Because I am the unhappy child— of the unfortunate Lavensforth.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <stage>(Starting with horror.)</stage>
+      <p> My enemy! my mortal enemy! The man who has threatened, who has
+                            repeatedly sworn to take my life! </p>
+      <stage>(She falls gradually on her knees, as he speaks thus to himself.)</stage>
+      <p> The man whom my rigour has irritated to this phrenzy! Ay, Oswin, reason
+                            for your foe, as well as for yourself.—Act, too, for him. </p>
+      <stage>(to her)</stage>
+      <p> I do not discard you for your father's sake; and you shall be still
+                            nearer to me for your own. </p>
+      <stage>(raises her.)</stage>
+      <p> Nay, why this trembling, this tremour?</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Wherefore am I thus impelled, thus forced to love the man who was my
+                            father's enemy?</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>If I continued such, I would not offend you with the offer of my
+                            services.—But time and reflection have made me doubt of his demerits,
+                            and my own justice in arraigning him.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Ah! do you say so? Do I hear there is a doubt —a supposition—a hope, that
+                            my dear father has been unjustly accused?</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>From his open, his once profest enemy, his daughter shall receive his
+                            character; and before she blesses—honours—my abode with her future
+                            residence, know—that I respected the man whom I impeached; for esteem
+                            was not incompatible with that peculiar suit I preferred against him.
+                            And, now, while compassion suggests numerous excuses for his past
+                            deeds—and impartiality obliges me to reprove my own,—do you, his
+                            representative, accept all the retribution I can offer for measures too
+                            severe, perhaps, in the cause of political warfare. </p>
+      <stage>(He takes her hand, and holds her tenderly in his arms.)</stage>
+     </sp>
+     <stage>Enter Lord Danberry.</stage>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>Ah! what! my rigid, reserved nephew, with a fair maid in his arms! Oh!
+                            you can unbend, I find, serene and mighty potentate, when no one is by. </p>
+      <stage>(To Hester)</stage>
+      <p> Madam, Mr. Willowear is in the next room, come to claim you—you
+                            blush!—but never mind—I won't tell—mum!—For my part, Sir Oswin, I am
+                            rather glad to see that you can get a pretty girl in a corner; for if
+                            you do one, you soon may another; and Lady Susan, perhaps, has no cause
+                            to despair.—Mum!—hush!—I won't say a word—only I must laugh—ha! ha!
+                            ha!—Is this the lesson you came home to give the poor orphan? ha! ha!
+                            ha!</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>My Lord, you—</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>No excuses—'tis all very well—only give a little of your kindness to Lady
+                            Susan.—I thought it wou'd shew itself at last!</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Sir—</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>No excuses, my dear—I forgive—no excuses.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>My Lord, you put me in a rage!</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>Ay, the cold fit has been gone some time.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>My Lord, Sir Oswin was so kind—</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>You need not tell me.—I saw how kind he was!</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Hold!—that lady must not be insulted—she is under my protection.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>Well, this is leaping from the “freezing point” to “fever heat” at once!
+                            One moment in Lapland, the next under the torrid zone! I wish you joy,
+                            young lady, of this your third lover; but, perhaps, I shou'd not be so
+                            content, if a fourth was not behind.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>A fourth lover!</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>Yes; her guardian has just sent a post-chaise (at least a messenger, who
+                            was to procure one, if he found her here) to take her to a fourth lover,
+                            who may, perhaps, extinguish your burning flame.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Oh! Sir Oswin, save me from my guardian, and his tyranny.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>But if your guardian possesses any power, any authority, I have no legal
+                            right to withhold you. </p>
+      <stage>(sighing.)</stage>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>But, you may have.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>There,—she speaks as plain English, as ever I heard a woman utter.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Plain English is what so few of the English do speak,—</p>
+     </sp>
+     <stage>Enter Mrs. Sarah Mortland, with two Letters in her hand.</stage>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>Hester,—</p>
+      <stage>[when Mrs. Sarah calls out <quote type="dialog">“Hester,”</quote> Lord Danberry passes by Sir
+                            Oswin towards Hester.]</stage>
+      <p> Here is a letter for you, which came inclosed in this to me; and there's
+                            a person from your guardian, who begs to see you instantly. </p>
+      <stage>(Mrs. Sarah retires a little reading her own letter.)</stage>
+     </sp>
+     <stage>Hester receives her Letter, looks at the address with joy and surprize,
+                        and kissing it, exclaims apart.</stage>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>My father's hand! Oh, unexpected happiness!</p>
+      <stage> [Exit Hester, hastily.</stage>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Her guardian! What can all this mean?</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <stage>(Apart.)</stage>
+      <p> I must have an eye upon this girl. She must not belong to my family; </p>
+      <stage>(looking suspiciously at Sir Oswin,)</stage>
+      <p> I must watch her.</p>
+     </sp>
+     <stage> [Exit, following Hester.</stage>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <stage>(Advancing to Sir Oswin.)</stage>
+      <p> You are absorbed in thought! May I ask what is the subject of your
+                            reflections?</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>A confused mass! I am living in this old world, and yet a new one seems
+                            to have broken upon me, to make me as a stranger to all around.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>Shall I inform you, where you are?</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>It would be an act of charity.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>But will you take it charitably?</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Yes.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>You are—in love.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <stage>(Starts.)</stage>
+      <p> What makes you think so?</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>Don't you feel so?</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>No,—no,—no,—let's hope not,—no—no.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>You have all the symptoms.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>No—no.—And who made you a judge?</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>That is a secret I shall keep to myself.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Women, to be sure, know every thing.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>The reason is—women feel every thing. Men's perception lies only in the
+                            head; ours comes from the heart. Brother, the two sexes are thus
+                            contrasted —Sensibility gives us wisdom, but takes it away from you men.
+                            When man is governed by his heart, he's less than woman—and we are the
+                            lords of the creation.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>In this case neither my heart nor head convicts me.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>No; for they dupe you.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Do you speak in earnest? </p>
+      <stage>(frightened.)</stage>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>Most assuredly.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <stage>(Trembling and reaching a chair.)</stage>
+      <p> Why, then, if I am in love,—if it must be so,—I may as well submit. </p>
+      <stage>(sits down).</stage>
+      <p> It is vain, I suppose, to contend with my passion, and I must give
+                            myself up to my fate? Hard fate! after all my studies, my researches, my
+                            meditations, my zeal for the public good! And what am I to do in respect
+                            to Lady Susan?</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>You must tell her you prefer another.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <stage>(In the same distressed tone.)</stage>
+      <p> If I told her I was married to another, she would say she liked me the
+                            better for it </p>
+      <stage>(recovering his spirits)</stage>
+      <p>. Hester is different from her: she has a horror of the marriage state.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>So, from the self-same antipathy arises this dangerous sympathy. But as I
+                            allured you into her power, it is my duty to snatch you from it This
+                            letter was just now brought me from her guardian.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <stage>(Takes the letter and reads.)</stage>
+      <p> “Madam, do me the favour to give Hester the inclosed, the contents of
+                            which she is bound to keep secret. All I shall add is, that you can,
+                            upon no pretence whatever, detain her longer, when I assure you, that
+                            this inclosed letter comes to her from one, who (as I have acquainted
+                            him with her flight) must be in the deepest despair till he sees her; as
+                            there is between them a mutual and indissoluble affection.” “A mutual
+                            affection!” </p>
+      <stage>(rising.)</stage>
+      <p> Yes, I observed her delight on seeing the hand which directed her
+                            letter.—'Tis true, she has a secret lover, and I will search him out,
+                            or—</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>Now this, is jealousy.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <stage>(Starting.)</stage>
+      <p> Jealous! do you accuse me of love, and then dare to add jealousy?</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>They follow naturally.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Why, then, welcome to all the tumultuous passions at once; for I find my
+                            heart is as unable to resist the one as the other. </p>
+      <stage>(Throws himself into a chair.)</stage>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>Ah! I foresaw—</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Why did you not caution me, then? why did you not tell me? I felt no
+                            fears—I despised all danger—</p>
+      <stage>(Starts up.)</stage>
+      <p> Why did you ever bring her to my house? Or, rather, why not long since?
+                            For, till I knew her, I never knew one rapturous sensation.</p>
+     </sp>
+     <stage>Enter Hester, with a letter in her hand.</stage>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>I am come to take leave of you for ever.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Why so?</p>
+     </sp>
+     <stage> (Mrs. Sarah goes round to Hester.)</stage>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>I must not tell you why.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>And do you go by your own consent?</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>I do.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Then wherefore do you weep?</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Half these tears are for joy, half for sorrow.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Explain.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>I dare not; but must follow my guardian's directions, and immediately set
+                            off in the carriage, which his servant, who brought this letter, is gone
+                            to procure me.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Alone?</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>All alone.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Not an hour ago you solicited me to save you from your guardian's power.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>But I was not then acquainted with the cause, which—Oh! Sir Oswin, an
+                            impulse you know nothing of compels—and the same impulse (confident as I
+                            am in your nice honour) ties my tongue from saying what the occasion is,
+                            which calls me.— All my own actions—all my own thoughts, I confess
+                            boldly; but when I am entrusted with the thoughts and the concerns of
+                            others, I can be mute as death.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>You are going to a lover.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>No more—than I am leaving one behind.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>And if you thought, you were—?</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Have I any right to think so?</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Do you ask me seriously?</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Yes.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Why, then, I—</p>
+     </sp>
+     <stage>Enter Lord Danberry.</stage>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>The chaise waits—the postillion's in a hurry.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Oh dear! how could you interrupt what he was going to say?</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>Hear what I have to say—The chaise is at the door—'twill be dark in half
+                            an hour—no moon— the common you have to cross is dangerous, on account
+                            of robbers—and the rivulet, at the bottom of the hill, has, probably,
+                            overflowed. </p>
+      <stage>Enter a Maid Servant.</stage>
+      <p> Here's your hat and cloak.—</p>
+      <stage>(He takes them of her, and gives them to Hester.)</stage>
+      <p> I sincerely wish you a good journey, and I'll hand you to the door.</p>
+     </sp>
+     <stage> [Exit Maid Servant.</stage>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>No, uncle, as the danger is so great, I'll order my horse, and pistols,
+                            and ride by the side of the chaise. It wou'd not be common hospitality
+                            to suffer a female to leave my house, unprotected, through such perils
+                            as you have described. </p>
+      <stage>(Taking her hand, and going.)</stage>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <stage>(In a low voice.)</stage>
+      <p> You must not go with me, for the world—not for the world, Sir Oswin.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>This alarm is suspicious!—What does it mean?</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Dear Mrs. Sarah Mortland, persuade your brother —my Lord do not suffer
+                            him to go with me.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>These efforts to prevent me, fix my determination. </p>
+      <stage>(Aside to Mrs. Sarah.)</stage>
+      <p> To see her meeting with her lover, will be my cure at once. </p>
+      <stage>(Leading her to the door.)</stage>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>I hope that, when I have passed the dangerous part of my journey, I shall
+                            have power to persuade you to return.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Perhaps, you may.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <stage>(Aside.)</stage>
+      <p> If not, I must reveal to whom I am going.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD. DAN.</speaker>
+      <p>Nephew—nephew! </p>
+      <stage>(Sir Oswin returns.)</stage>
+      <p> You had a fixed opinion there was no such passion as love.—What can you
+                            say now?</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Like other theorists, say—I was mistaken.</p>
+     </sp>
+     <stage> [Exeunt Sir Oswin and Hester.</stage>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <stage>(To Mrs. Sarah.)</stage>
+      <p> Did you ever see any thing like this?</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>Yes; for this is not the first time I have seen a man in love.</p>
+     </sp>
+     <stage>Enter Mr. Willowear.</stage>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>My dear Willowear, did you not meet Sir Oswin, leading away in triumph
+                            your intended wife? Run after him, and take her from him; pray now do.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>No—let Hester go—and let Lady Susan go.— I am curious and impatient to
+                            see the woman you have promised me.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>You shan't see her; nor will I reveal who she is, till you have followed
+                            Sir Oswin. </p>
+      <stage>(Walks about in anger.)</stage>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>Then I'll make enquiries elsewhere. </p>
+      <stage>(Bows to Mrs. Sarah, and goes up to her.)</stage>
+      <p> I beg pardon, madam; but, as I have the honour to meet you in the house
+                            of Sir Oswin, I imagine you know the name of Willowear </p>
+      <stage>(she bows assent)</stage>
+      <p>; and know that he has met with a certain disappointment?</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>I do, Sir.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>I am that unfortunate lover.—Can you, madam, give me advice how to repair
+                            my loss? Do you know any woman of reputation who will marry a man in my
+                            forsaken state.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>Upon my word, I am so little acquainted with any, except the married
+                            women of our neighbourhood! —I assure you, Mr. Willowear, I have hardly
+                            an acquaintance who is a single lady, although I am single myself.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>Are you unmarried, madam? </p>
+      <stage>(To Lord Danberry, aside.)</stage>
+      <p> Who is this lady? I was never introduced to her.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>She is Sir Oswin's sister—my niece—and the very woman I mentioned for
+                            your wife.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <stage>(Having viewed Mrs. Sarah earnestly.)</stage>
+      <p> My wife! my wife!</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>No fear of running away from the church-door, there.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>Marry her!—I should be the jest of all my acquaintance.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>That you will be, at any rate.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>Mine is a desperate case.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>And, to tell you the truth, I don't believe that even she would accept
+                            you.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>Now you pique me to make the offer. </p>
+      <stage>(Goes to her.)</stage>
+      <p> Madam, you are Mrs. Sarah Mortland, I find. </p>
+      <stage>(She curtesies.)</stage>
+      <p> If I thought you would pardon what I am inclined to utter—</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>Pray speak out, Sir.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>Will you, accept a man, slighted by all your sex?</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>Would you marry a woman, who has been slighted by all yours?</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>To be sure:—for then you can't laugh at each other.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>If you could, Mr. Willowear, marry such a woman, I give you in reply—that
+                            at my time of life, I feel for every man the same disregard, the men all
+                            felt for me in my younger days.</p>
+     </sp>
+     <stage> [Exit.</stage>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <stage>(Confounded)</stage>
+      <p> What can I do now, my lord? Will you—</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>No—I can do no more—After being refused by a maiden lady of fifty, all
+                            hope is over.</p>
+      <stage> [Exit Lord Danberry.</stage>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>Nay, hear me, my lord.—Oh! that I had but Sir Oswin's aversion to
+                            matrimony.</p>
+     </sp>
+     <stage> [Exit.</stage>
+    </div>
+   </div>
+   <div type="act" n="5">
+    <head>ACT V.</head>
+    <div type="scene" n="1">
+     <head>SCENE I.</head>
+     <stage>—The Forest and Cottage as in Act III.</stage>
+     <stage>(Moonlight.)</stage>
+     <stage>Enter Lavensforth.</stage>
+     <sp who="#lavensforth">
+      <speaker>LAVENSFORTH.</speaker>
+      <p>How seldom do we taste the goods, which nature bestows, till we are
+                            deprived of those that are the work of art. To see the sun set, and the
+                            moon rise, is to me, robbed of every other pastime, sublime delight! And
+                            were fortune now to shower on me all its wealth, and other hoarded
+                            blessings, still I should ever think—Hark! what noise?— Amos, returning
+                            from the village!—perhaps with letters.—The thought of news makes me
+                            shudder; for 'tis so many years since I have received good
+                            tidings!—Still I send, and long for letters.—But, now, what intelligence
+                            can they bring me, except the confirmation of my Hester's loss.—Hark!
+                            again!—That sound was like a groan!—No; —my own dark designs, my own
+                            black determinations haunt me, and, in every whisper of the wind through
+                            these lofty oaks, I hear the cry of murder.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <stage>(From the wood.)</stage>
+      <p> Ho! ho! Cottagers, lend assistance!</p>
+     </sp>
+     <sp who="#lavensforth">
+      <speaker>LAVENSFORTH.</speaker>
+      <stage>(Calling out.)</stage>
+      <p> Who's there in distress? Amos, is it you? Speak again, that I may know
+                            which way the sound—</p>
+     </sp>
+     <stage>Enter Sir Oswin, pale and near fainting.</stage>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Good friend, a villain on the road has fired at me—</p>
+     </sp>
+     <sp who="#lavensforth">
+      <speaker>LAVENSFORTH.</speaker>
+      <stage>(Going towards him)</stage>
+      <p> Ha! who's that? Who are you?—You are wounded, Sir—lean on me.— Come into
+                            this cottage. Let me bind your wounds. </p>
+      <stage>(Tearing a neckcloth from his own neck.)</stage>
+      <p> Then haste for other assistance, and raise the village in pursuit of the
+                            robber.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>He is fled—I have rode a mile, at least, since I received my wound; for
+                            my horse took fright at the report of the piece, and I had no power over
+                            him, till he was stopped by this wood.</p>
+     </sp>
+     <sp who="#lavensforth">
+      <speaker>LAVENSFORTH.</speaker>
+      <p>If you can walk into the cottage, it will be better than—</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>There is a lady in a carriage, with whom I was in company, whose safety
+                            is more important to me than my own.—She was under my protection.— Lead
+                            me into the house—then, my good friend, go in search of her; silence her
+                            fears, and order the post-boy to drive hither; he can take me home.</p>
+     </sp>
+     <sp who="#lavensforth">
+      <speaker>LAVENSFORTH.</speaker>
+      <p>Here is, in this hut, a kind of couch, on which you may rest, when I have
+                            bound up your wound: I will then instantly do as you have directed.—Lean
+                            on me; I can support you,—Your blood flows fast. —Do not talk, I charge
+                            you—it will exhaust you quite.—But lean on me—lean on me—lean on me.</p>
+     </sp>
+     <stage> [Exit, drawing Sir Oswin gently into the cottage.</stage>
+     <stage>Enter Amos (in great fright and terror, a firelock in his hand).</stage>
+     <sp who="#amos">
+      <speaker>AMOS.</speaker>
+      <p>Master! master! Where is he? </p>
+      <stage>(Looks slightly into the cottage window, and about.)</stage>
+      <p> Cannot find him!—away!—is not to be found—I, left to feel joy! </p>
+      <stage>(Reflecting,)</stage>
+      <p> and sorrow alone! Ah! cannot bear, alone.—Master—master.—Come—I happy
+                            with you—but what, what do, if ever left alone! </p>
+      <stage>(Trembling.)</stage>
+     </sp>
+     <stage>Enter Lavensforth (from the cottage).</stage>
+     <sp who="#lavensforth">
+      <speaker>LAVENSFORTH.</speaker>
+      <p>What's all this talking? Fly instantly for the village surgeon.—Here is a
+                            gentleman within, has been wounded by some villain, who fired at him on
+                            the road.</p>
+     </sp>
+     <sp who="#amos">
+      <speaker>AMOS.</speaker>
+      <stage>(Starting.)</stage>
+      <p> Here?—here?</p>
+     </sp>
+     <sp who="#lavensforth">
+      <speaker>LAVENSFORTH.</speaker>
+      <p>Yes, here.</p>
+     </sp>
+     <sp who="#amos">
+      <speaker>AMOS.</speaker>
+      <stage>(With expression of joy and savage fury.)</stage>
+      <p> It is Sir Oswin. </p>
+      <stage>(Lavensforth starts.)</stage>
+      <p> It is Sir Oswin.</p>
+     </sp>
+     <sp who="#lavensforth">
+      <speaker>LAVENSFORTH.</speaker>
+      <p>You speak falsehood.</p>
+     </sp>
+     <sp who="#amos">
+      <speaker>AMOS.</speaker>
+      <p>Master, it is he.</p>
+     </sp>
+     <sp who="#lavensforth">
+      <speaker>LAVENSFORTH.</speaker>
+      <p>No; such joy, such triumph, was never meant for me. Yet the sound pleases
+                            me—repeat it—say again, it is he.</p>
+     </sp>
+     <sp who="#amos">
+      <speaker>AMOS.</speaker>
+      <p>I know it.—As, I returning, from the village— this gun in hand,—which had
+                            lately borrowed,— heard carriage stop on road, and postilion enquire his
+                            way—I answered to him—on which—lady from chaise-window said to gentleman
+                            on horseback— “Now, Sir Oswin, you go no further.” I start at that
+                            name—went close to horses' side, and asked— if he was Sir Oswin
+                            Mortland, of Mortland Abbey. He answered “Yes.” My hand, before my
+                            thought, caught trigger of my gun, and— </p>
+      <stage>(trembling.)</stage>
+      <p> His horse ran away—I came home.</p>
+     </sp>
+     <stage> (Trembles almost to falling.)</stage>
+     <sp who="#lavensforth">
+      <speaker>LAVENSFORTH.</speaker>
+      <p>Strike a light. </p>
+      <stage>(Exit Amos into the cottage.)</stage>
+      <p> I'll look at him as he reclines on his couch—I shall know him. </p>
+      <stage>(A light appears at the cottage window, Amos re-enters.)</stage>
+      <p> I have cause to know him.</p>
+     </sp>
+     <stage> (Lavensforth goes into the cottage.)</stage>
+     <sp who="#amos">
+      <speaker>AMOS.</speaker>
+      <p>Ah! I again alone! Nobody to speak—all to think—thoughts bad company—good
+                            company once—Oh! I cannot—cannot live, if I am alone.</p>
+     </sp>
+     <stage>Re-enter Lavensforth from the cottage.</stage>
+     <sp who="#lavensforth">
+      <speaker>LAVENSFORTH.</speaker>
+      <p>'Tis he; 'tis he! the lineaments of his face are neither altered by time,
+                            nor the loss of blood. The man who has injured me bears the same
+                            features, thank Providence! as in the days of his malignant triumph.
+                            There can be no mistake—my eye, my heart, my very soul, recognizes the
+                            man. Ah! never more will I arraign just fate, who now has sent my worst
+                            enemy under my roof </p>
+      <stage>(takes out a dagger)</stage>
+      <p>, and wounded to my hand.—</p>
+      <stage>(starts.)</stage>
+      <p> Under my roof, and wounded to my hand!—why then I must not harm a hair
+                            of his head!—my limbs are chained, though my revenge is raging to burst
+                            forth. Oh! would he now start up in health and vigour, surrounded by his
+                            host of friends, how boldly would I defy, and stab him to the heart. But
+                            this good fortune, these secure means of vengeance, which every sculking
+                            coward would enjoy, I, bound by a tyrannical word, called honour, dare
+                            not use.</p>
+     </sp>
+     <stage>Enter Sir Oswin from the cottage.</stage>
+     <stage>(Exit Amos, drooping under confusion and remorse at his presence.)</stage>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>My good host, you have bound my wound so effectually, that the bleeding
+                            is wholly stopt; and I find my strength so well recruited by this short
+                            repose, that I hope the injury I have sustained will prove but
+                            slight.—As the chaise I mentioned is not come, if you can help me to my
+                            horse, who, probably, is still about this thicket, I shall thank you.—I
+                            am Sir Oswin Mortland, </p>
+      <stage>(Lavensforth shews great emotion)</stage>
+      <p>, and if you'll call to-morrow at my house—</p>
+      <stage>(observes Lavensforth's countenance, then his dagger.)</stage>
+      <p> Ah! an instrument of death in your hand! Have I been betrayed into this
+                            place? What mean you by that weapon?</p>
+     </sp>
+     <sp who="#lavensforth">
+      <speaker>LAVENSFORTH.</speaker>
+      <p>I mean, that it shall rest here, </p>
+      <stage>(putting it up,)</stage>
+      <p> till you are safe at home.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Till I am safe at home!—What then?—</p>
+     </sp>
+     <sp who="#lavensforth">
+      <speaker>LAVENSFORTH.</speaker>
+      <p>Then—it shall still rest, till your health is restored.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>You seem to imply some menace.—Man, who are you?</p>
+     </sp>
+     <sp who="#lavensforth">
+      <speaker>LAVENSFORTH.</speaker>
+      <p>Your sworn, your mortal, your just enemy— Lavensforth.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <stage>(After a pause of amazement.)</stage>
+      <p> You know the penalty under which the laws forbid my meeting you: that
+                            consideration, I am now compelled to wave, and to tell you—I have still
+                            strength and spirit to defy your threats.—</p>
+      <stage>(Takes pistols from his pockets.)</stage>
+      <p> Choose one of these, and take your ground.</p>
+     </sp>
+     <sp who="#lavensforth">
+      <speaker>LAVENSFORTH.</speaker>
+      <stage>(Takes a pistol, then, seeming to make an effort.)</stage>
+      <p> No,—mean as this habitation is, proud man, it is mine—and you shall feel
+                            the weight of my protection, </p>
+      <stage>(throws away the pistol,)</stage>
+      <p> while you are within its precincts.</p>
+     </sp>
+     <stage>Amos—without.</stage>
+     <sp who="#amos">
+      <speaker>AMOS.</speaker>
+      <p>A lady,—a lady, call for Sir Oswin.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN </speaker>
+      <stage>(to Lavensforth).</stage>
+      <p>Your conduct towards me, is that of a generous foe,—</p>
+      <stage>(Enter Hester, leaning on Amos—Exit Amos into the cottage)</stage>
+      <p> —and merits a return like this, </p>
+      <stage>(Goes to Hester.)</stage>
+      <p> to prove me worthy of it.—Lavensforth, your daughter.</p>
+     </sp>
+     <sp who="#lavensforth">
+      <speaker>LAVENSFORTH.</speaker>
+      <p>My daughter! my daughter in your care!</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <stage>(Trembling.)</stage>
+      <p> If you are Lavensforth, I am your child. </p>
+      <stage>(Kneeling.)</stage>
+      <p> Your once-loved Hester,— most unkindly treated by those friends, with
+                            whom you trusted me, and sheltered from misfortune by—</p>
+      <stage>(Looking towards Sir Oswin.)</stage>
+     </sp>
+     <sp who="#lavensforth">
+      <speaker>LAVENSFORTH.</speaker>
+      <p>My enemy!</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>No; my father, the defender of your fame, and his own accuser, in all the
+                            conversations he has had with me, when your misfortunes were the
+                            subject. Then, do not rob him of the praise due to his pity for a
+                            hapless female,—who owes to him her preservation to this blissful
+                            meeting. </p>
+      <stage>(Throws herself into her father's arms.)</stage>
+     </sp>
+     <sp who="#lavensforth">
+      <speaker>LAVENSFORTH.</speaker>
+      <p>The tender joy I feel, in thus pressing you to my bosom, hushes every
+                            murmur of resentment. “My enemy!” no—the man, who has sheltered thee, to
+                            bless my age, to soothe the rancourous passions of my soul! The man, who
+                            could preserve you, my child, from sorrow, however he has dealt with me,
+                            shall, henceforth, be my friend.</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Oh, then, my father, your daughter's joy for your return is perfect. </p>
+      <stage>(They embrace, and shew other tokens of affection.)</stage>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <stage>(Apart.)</stage>
+      <p> How poor was my exultation, while I urged on the ruin of this man,
+                            compared to the delight the present moment gives me!</p>
+     </sp>
+     <sp who="#lavensforth">
+      <speaker>LAVENSFORTH.</speaker>
+      <p>No forethought, no calm consideration, could restrain me from a first
+                            embrace;—but, before I indulge, too far, my parental love, clear your
+                            late conduct from your guardian's accusation.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <stage>(Proudly.)</stage>
+      <p> Lavensforth, I would not have presented her to you, as a boon, had I not
+                            believed she was a blessing, such as I would, joyfully, receive from
+                            you.</p>
+     </sp>
+     <sp who="#lavensforth">
+      <speaker>LAVENSFORTH.</speaker>
+      <p>My dear child! my dearest Hester!—Oh! supreme must be my happiness, when
+                            I can feel it undisturbed, even by the presence of Sir Oswin.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Suffer me to participate in your happiness! Suffer me,—</p>
+      <stage>(Faintly,)</stage>
+      <p> Excess of interest, vehement emotions of the mind have supplied me with
+                            strength to—but now, again—</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Ah! you have been wounded!—Where is the carriage? Instantly return home.</p>
+     </sp>
+     <sp who="#lavensforth">
+      <speaker>LAVENSFORTH.</speaker>
+      <stage>(Calling to Amos.)</stage>
+      <p> Order the carriage here— to this very spot—and return instantly. </p>
+      <stage> [Exit Amos.</stage>
+      <p> Sir Oswin, before you and I part, you must be told—Come hither— </p>
+      <stage>Re-enter Amos.</stage>
+      <p> —It was this man, my servant, from whom you received your wound—</p>
+      <stage>(Amos kneels, and hides his head)</stage>
+      <p> instigated by my thirst, my plans of vengeance, but not encouraged by my
+                            most distant concurrence, or suspicion of his guilty design.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <stage>(To Amos.)</stage>
+      <p> You have more cause to rejoice at the preservation of my life, than I
+                            have—you have escaped greater peril than myself.—I'll pardon you, when
+                            time shall have proved your repentance.</p>
+     </sp>
+     <stage>(Amos rises, and goes into the cottage, overwhelmed with shame; Sir Oswin
+                        is between Lavensforth and Hester, holding the hand of each.—In gestures he
+                        earnestly entreats them to accompany him home. They go off apparently with
+                        this design.)</stage>
+    </div>
+    <div type="scene" n="2">
+     <head>SCENE II.</head>
+     <stage>—An Apartment at Sir Oswin's.</stage>
+     <stage>Enter Mrs. Sarah, meeting Lady Susan.</stage>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>Dear Lady Susan, I sent for you, both to console me, and share my grief!
+                            My poor brother is, perhaps, this moment breathing his last.</p>
+     </sp>
+     <sp who="#lady_susan">
+      <speaker>LADY SUSAN.</speaker>
+      <p>Oh, heavens!</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>He went out on horseback, and was attacked by robbers.—The servant, who
+                            was following at a distance, and saw him wounded, returned home,
+                            supposing his master was come back also; as he perceived him ride down a
+                            bye road leading this way. —But Sir Oswin not having returned, I fear
+                            his wounds may be mortal, and he—</p>
+     </sp>
+     <sp who="#lady_susan">
+      <speaker>LADY SUSAN.</speaker>
+      <p>Is my Lord yet informed—</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>No; and I have sent the servants all about, in vain, to seek him.—Oh! my
+                            Lord will die with grief when he hears the news—and I am so anxious to
+                            tell him.—</p>
+     </sp>
+     <stage> [Exit in haste.</stage>
+     <stage>Enter Mr. Willowear, on the opposite side—Lady Susan turns complaisantly
+                        to him, and makes a kind salute or curtsy.</stage>
+     <sp who="#lady_susan">
+      <speaker>LADY SUSAN.</speaker>
+      <p>How do you do, Mr. Willowear?</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>To see Lady Susan smile upon me, is good fortune, so extraordinary!—a
+                            smile, too, when, if report says true, her favour'd lover is dying.</p>
+     </sp>
+     <sp who="#lady_susan">
+      <speaker>LADY SUSAN.</speaker>
+      <p>The favourite lover of a woman of fashion, Mr. Willowear, has the same
+                            prerogative as a king,—he never dies—there's always an immediate
+                            successor.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>Could I be that happy man?</p>
+     </sp>
+     <sp who="#lady_susan">
+      <speaker>LADY SUSAN.</speaker>
+      <p>Yes: I'll make you heir apparent to my hand; but while Sir Oswin lives,
+                            he is its lawful sovereign.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>Nay, promise you will be mine, before you know his fate.</p>
+     </sp>
+     <sp who="#lady_susan">
+      <speaker>LADY SUSAN.</speaker>
+      <p>No; I must delay plighting my faith, 'till I know whether poor Sir Oswin
+                            lives, or dies.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>That will depreciate its value. Come, give me your promise now.—You can
+                            break it, you know.</p>
+     </sp>
+     <sp who="#lady_susan">
+      <speaker>LADY SUSAN.</speaker>
+      <p>Very true; I forgot that.—Then I promise.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>And thus humbly I take your word. </p>
+      <stage>(Kneels, and kisses her hand.)</stage>
+     </sp>
+     <stage>Enter Lord Danberry.</stage>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>Heyday! What in the name of wonder is this? More couples in corners? What
+                            do you mean, Mr. Willowear?—Why, where's my nephew?</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>Do you think, my Lord, no man can be favour'd by a lady, except your
+                            nephew?</p>
+     </sp>
+     <sp who="#lady_susan">
+      <speaker>LADY SUSAN.</speaker>
+      <p>He is far off, my Lord, and, I fear, does not think of me.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>I am a very unfortunate personage! I can take no step, turn myself no
+                            way, but I intrude upon somebody's private hours. Pray, is this a
+                            concerted plan?</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>How concerted? What do you mean?</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>Why, it seems to me, as if you, Mr. Willowear with my nephew's intended
+                            bride—and he, with yours—were all going down a country dance, and that
+                            each had resolved to take the wrong partner.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>I think myself happy to have any partner at all.</p>
+     </sp>
+     <sp who="#lady_susan">
+      <speaker>LADY SUSAN.</speaker>
+      <p>And suppose we have changed partners, my lord, what then?</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>Why, then?—I feel myself like a blind fidler, whose instrument has put
+                            every one in motion, only to make 'em change sides.</p>
+     </sp>
+     <stage>Enter Mrs. Sarah.</stage>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>Oh, my lord, I am so glad I have found you! Have not you heard that Sir
+                            Oswin has been attacked by robbers, and, perhaps, is dying?</p>
+     </sp>
+     <stage>Enter Sir Oswin, Lavensforth, Hester,—Servants attending them.</stage>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>“My nephew—robbers—dying!”—</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>No, my lord, I am still living—but my life has been in danger, and was
+                            preserved by the hospitality of this stranger.—</p>
+      <stage>(Shewing Lavensforth.)</stage>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>From henceforth, then, I am that stranger's friend.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>And we have agreed that I shall be so too,— and he mine—though his name
+                            once indicated my mortal enemy.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>“Enemy!” You never had an enemy, except Lavensforth.</p>
+     </sp>
+     <sp who="#lavensforth">
+      <speaker>LAVENSFORTH.</speaker>
+      <p>Now, then, he has not one.—</p>
+      <stage>(Every person shews surprise.)</stage>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>Is it possible this can be Lavensforth?</p>
+     </sp>
+     <sp who="#lavensforth">
+      <speaker>LAVENSFORTH.</speaker>
+      <p>It is.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>And is it possible that such a reconciliation has taken place?</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Can you ask the question in a Christian country? —To forgive—is the
+                            peculiar virtue, the supreme criterion of our sacred religion. We, once,
+                            were deadly foes—This embrace </p>
+      <stage>(embraces Lavensforth)</stage>
+      <p> is the confession, the bold confession of our faith.</p>
+     </sp>
+     <sp who="#lavensforth">
+      <speaker>LAVENSFORTH.</speaker>
+      <p>We have hated as men, not reflecting on man's infirmities,—but presuming
+                            to expect divine perfections, cloathed in human clay.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>To speak in the same phrase, has not this little piece of earth helped to
+                            effect the wonderful change? Is she not of the same soil with him? </p>
+      <stage>(pointing to Hester and Lavensforth.)</stage>
+     </sp>
+     <sp who="#lavensforth">
+      <speaker>LAVENSFORTH.</speaker>
+      <p>She is my daughter, and was given to me by Sir Oswin, when I thought her
+                            lost.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>I have no notion how all this has been accomplished! But that I shall
+                            learn hereafter, I suppose. —And now, Mr. Lavensforth, I verily believe,
+                            that the only recompense you can make my nephew for his gift, is to
+                            return her back again.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>If you do, Lavensforth, and Hester comes willingly, I will endow her with
+                            my heart, and protect her with my life. </p>
+      <stage>(Lavensforth gives Hester to Sir Oswin.)</stage>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>And will you go to church again, young lady?</p>
+     </sp>
+     <sp who="#hester">
+      <speaker>HESTER.</speaker>
+      <p>Yes; and shall remember, with more joy than ever,—that I once ran away
+                            from it.</p>
+     </sp>
+     <sp who="#lavensforth">
+      <speaker>LAVENSFORTH.</speaker>
+      <p>And, now, you possess all that is dear to me, Sir Oswin, what mighty
+                            compensation you have in your power, for my past afflictions!</p>
+     </sp>
+     <sp who="#lady_susan">
+      <speaker>LADY SUSAN.</speaker>
+      <p>And will Sir Oswin stoop from his solemn, stately grandeur, to be married
+                            at last? Ha! ha! ha!</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>Not only to marry; but to marry, for love—Ha! ha! ha!</p>
+     </sp>
+     <sp who="#lady_susan_willowear">
+      <speaker>LADY SUSAN, WILLOWEAR.</speaker>
+      <p>Ha! ha! ha!</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>Mr. Willowear—Lady Susan,—I should have apologies to make for some parts
+                            of my conduct to both of you; but I allow you the privilege of laughing
+                            at me; and I'm sure you'll think that a sufficient atonement.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>Sir Oswin, you are perfectly welcome to that Lady, as Lady Susan has
+                            given her promise to take me at last.</p>
+     </sp>
+     <sp who="#lady_susan">
+      <speaker>LADY SUSAN.</speaker>
+      <p>But I can break it, you know, Mr. Willowear.</p>
+     </sp>
+     <sp who="#willowear">
+      <speaker>WILLOWEAR.</speaker>
+      <p>But you won't, you know, Lady Susan.</p>
+     </sp>
+     <sp who="#lord_dan">
+      <speaker>LORD DAN.</speaker>
+      <p>As I said just now, you are all set to cross partners. —But I consent—and
+                            pray heaven that marriage may prove to each couple a merry tune; and
+                            none of you, ever make a false step in the dance.</p>
+     </sp>
+     <sp who="#mrs_sarah">
+      <speaker>MRS. SARAH.</speaker>
+      <p>But now, gentlemen, and ladies, if it was me, I wou'dn't delay, but marry
+                            to-morrow: for you are all such slippery kind of people, I'm afraid you
+                            should yet glide from each other's grasp.</p>
+     </sp>
+     <sp who="#sir_oswin">
+      <speaker>SIR OSWIN.</speaker>
+      <p>That would be a prospect of more terror to me, than ever matrimony
+                            was—For, the passion I once derided, now repays itself for my scorn, and
+                            forces me thus openly to declare—That there certainly is such a tender
+                            power, such a rapturous influence, as —Love—And, that every man, who
+                            feels, like me, its genuine force, should—marry.</p>
+     </sp>
+    </div>
+   </div>
+  </body>
+ </text>
+</TEI>

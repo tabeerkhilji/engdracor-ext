@@ -1,0 +1,5243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id" xml:lang="eng">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">Babington</title>
+    <author>
+     <persName>
+      <forename>Thomas</forename>
+      <surname>Doubleday</surname>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>ProQuest</name>
+     <idno type="URL">https://www.proquest.com/books/babington-1825/docview/2138574788/se-2?accountid=14632</idno>
+     <idno type="proquest">LION2138574788</idno>
+    </bibl>
+    <bibl type="originalSource">
+     <author>Doubleday, Thomas</author>
+     <title type="main">Babington</title>
+     <publisher>T. Cadell--William Blackwood</publisher>
+     <pubPlace>Edinburgh</pubPlace>
+     <date type="print" when="1825">1825</date>
+     <note type="citation">Doubleday, Thomas: Babington (1825). In: Babington. T. Cadell--William Blackwood: Edinburgh 1825</note>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="abingdon">
+      <persName>ABINGDON</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="agnes">
+      <persName>AGNES</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="babington">
+      <persName>BABINGTON</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="ballard">
+      <persName>BALLARD</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="charnock">
+      <persName>CHARNOCK</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="gaoler">
+      <persName>GAOLER</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="gardevin">
+      <persName>GARDEVIN</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="gifford">
+      <persName>GIFFORD</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="huntsman">
+      <persName>HUNTSMAN</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="lady_maud">
+      <persName>LADY MAUD</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="plasket">
+      <persName>PLASKET</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="servant">
+      <persName>SERVANT</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="sir_amias">
+      <persName>SIR AMIAS</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="tichbourne">
+      <persName>TICHBOURNE</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="walsingham">
+      <persName>WALSINGHAM</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1825">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text>
+  <front>
+   <castList>
+    <label>DRAMATIS PERSONÆ.</label>
+    <castItem>
+     <role>Anthony Babington.</role>
+    </castItem>
+    <castItem>
+     <role>Chidiok Tichbourne, Friend to Babington.</role>
+    </castItem>
+    <castItem>
+     <role>Tylney, Conspirator with Babington.</role>
+    </castItem>
+    <castItem>
+     <role>Charnock, Conspirator with Babington.</role>
+    </castItem>
+    <castItem>
+     <role>Abingdon, Conspirator with Babington.</role>
+    </castItem>
+    <castItem>
+     <role>Plasket, a Jester.</role>
+    </castItem>
+    <castItem>
+     <role>Gardevin, an old Butler.</role>
+    </castItem>
+    <castItem>
+     <role>Ballard alias Boone, a Jesuit Agent.</role>
+    </castItem>
+    <castItem>
+     <role>Gifford, a Spy of Ballard's.</role>
+    </castItem>
+    <castItem>
+     <role>Sir Francis Walsingham, Secretary of State to Queen Elizabeth, and one of
+                        the Lords of the Privy Council.</role>
+    </castItem>
+    <castItem>
+     <role>Sir Amias Paulet, Captain of the Queen's Guard.</role>
+    </castItem>
+    <castItem>
+     <role>Officer, Huntsman, Gaoler, Soldiers, Attendants, &amp;c.</role>
+    </castItem>
+    <castItem>
+     <role>The Lady Maud, Babington's Mother.</role>
+    </castItem>
+    <castItem>
+     <role>Agnes, a Ward of Babington.</role>
+    </castItem>
+   </castList>
+  </front>
+  <body>
+   <div type="act" n="1">
+    <head>ACT I.</head>
+    <div type="scene" n="1">
+     <head>SCENE I.</head>
+     <stage>—A Chamber.</stage>
+     <stage>Gifford, folded in a large Cloak, enters, followed by Walsingham, with
+                        his Sword drawn.</stage>
+     <sp who="#walsingham">
+      <speaker>WALSINGHAM.</speaker>
+      <lg>
+       <l>There—further yet—so;—Root thee on that spot, </l>
+       <l>And if thou shift'st a foot, or hidest a hand, </l>
+       <l>That moment is thy last. We are alone, </l>
+       <l>Now speak.</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l> I shall. We are alone?—is't so?</l>
+      </lg>
+     </sp>
+     <sp who="#walsingham">
+      <speaker>WALSINGHAM.</speaker>
+      <lg>
+       <l>As freely as unto the savage air </l>
+       <l>Unpierced yet by touch of human voice, </l>
+       <l>Utter what thou would'st speak. Answer, what art thou?</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l>A man.—No less.</l>
+      </lg>
+     </sp>
+     <sp who="#walsingham">
+      <speaker>WALSINGHAM.</speaker>
+      <lg>
+       <l> Nor more, I wot. What man? </l>
+       <l>What art thou?—speak. Methinks thy looks and bearing </l>
+       <l>Are all encrusted o'er with villainy. </l>
+       <l>Perchance thy tongue is better. Let mine ears </l>
+       <l>Set right mine eyes.—Say on. No quibbling, knave— </l>
+       <l>What art thou?</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <stage>(Aside.)</stage>
+      <lg>
+       <l> So peremptory, Right Honourable? A loud crack may, peradventure,
+                                kill a snipe—marry, not me— </l>
+      </lg>
+      <stage>(Aloud.)</stage>
+      <lg>
+       <l> What am I?—a puzzle!—a jest in earnest out of the Statesman's
+                                Manual. A man and no man, a somebody else. The incarnation of a
+                                piece of deep policy. The fleshly link, my lord, between what you
+                                want to know, and what you have to give. If you ask my name —I give
+                                you that for to-day which I shall haply change to-morrow—for a
+                                better! Even as you would do your title, my lord. My lord, you seem
+                                troubled.</l>
+      </lg>
+     </sp>
+     <sp who="#walsingham">
+      <speaker>WALSINGHAM.</speaker>
+      <lg>
+       <l>Within, there!—No. I will try one peg more. </l>
+       <l>Slave, dost thou think me some court light-o'-love, </l>
+       <l>Some high-fed dame, more liquorish than wise, </l>
+       <l>That thou can'st play the fortune-teller with me? </l>
+       <l>Think'st thou to mist mine eyes with saucy riddles, </l>
+       <l>Or muddle me with fulsome prophecies? </l>
+       <l>Mark me. A single word, aye, look of mine, </l>
+       <l>Can conjure up the thumb-screw and the rack; </l>
+       <l>Thy tongue shall be thy bail, and,—note me, sir,— </l>
+       <l>Wag to the truth—or else shall not wag long, </l>
+       <l>Except to howl.—</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l> And mark you me, my lord; </l>
+       <l>I shall deal plainly, if but plainly dealt by; </l>
+       <l>You shall have ingots, if you pay in ducats; </l>
+       <l>'Tis honest barter, and 'tis mine. </l>
+       <l> Now, further, </l>
+       <l>As for your prisons and tormenting engines, </l>
+       <l>I say, take thought upon Perillus' Bull, </l>
+       <l>And look ye howl not in your own device. </l>
+       <l>I tell ye,—aught that ye inflict on me </l>
+       <l>But brings the mine, destruction, to your feet </l>
+       <l>More surely—so beware.</l>
+      </lg>
+     </sp>
+     <sp who="#walsingham">
+      <speaker>WALSINGHAM.</speaker>
+      <lg>
+       <l> Thou art a villain!</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l>I am a </l>
+       <l>.</l>
+      </lg>
+     </sp>
+     <sp who="#walsingham">
+      <speaker>WALSINGHAM.</speaker>
+      <lg>
+       <l> Wast thou the devil— </l>
+       <l>The Belial that o'er-kings thy dark fraternity, </l>
+       <l>I'd wrench thy secret out.</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <stage>(After a pause, contemptuously.)</stage>
+      <lg>
+       <l>Why look ye, my lord?—This may be “diamond cut diamond;” but 'tis
+                                not, “well met, hail fellow.” Here have I told thee a truth; and how
+                                am I reguerdon'd? Why, with bluster. Like the crow in the fable, ye
+                                may cast pebbles into the pitcher till ye raise the water, but ye
+                                shall scarcely pump a Jesuit by dint of hard words. If ye want the
+                                truth, ye must e'en prime with the same commodity. This let me tell
+                                you—As for the rest, take heed that your shoulder rue not the
+                                rebound of your own harquebuss.</l>
+      </lg>
+     </sp>
+     <sp who="#walsingham">
+      <speaker>WALSINGHAM.</speaker>
+      <lg>
+       <l>Thou talkest glibly—talk so on the rack.</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l>Be sure I shall not talk more to the purpose. </l>
+       <l>—My lord, you are a statesman, and the world </l>
+       <l>Doth call you wise. E'en be it so. If your lackey, </l>
+       <l>Or any spaniel that doth page your heels, </l>
+       <l>Did know your secret heart, or was the prompter, </l>
+       <l>The wire-puller, the director of your acts, </l>
+       <l>Think ye I'd thrust my neck into your fangs </l>
+       <l>For the honour o't?—No; no. </l>
+       <l> Now, if ye deal </l>
+       <l>Thus in your own concernment, as I wot, </l>
+       <l>Why think a Jesuit shallower than yourself? </l>
+       <l>Deem ye the master-mind is register'd </l>
+       <l>On such a rag as I am? Would ye dig </l>
+       <l>In such a mean and common piece of earth, </l>
+       <l>To seek the treasure, Truth? </l>
+       <l> I am a Jesuit; </l>
+       <l>And being so, what am I? Less a man </l>
+       <l>Than a poor mould for an incarnate spark </l>
+       <l>Of the spirit of mine order. I am nothing </l>
+       <l>But what I am made; and what think ye is that? </l>
+       <l>Why, but a link of that invisible chain, </l>
+       <l>Whose end is in the clouds, but whose immensity </l>
+       <l>Can clasp the earth's circumference, and zone round </l>
+       <l>The waist o' the world—yea, can embrace her limbs, </l>
+       <l>And have enough to spare, and o'er her neck </l>
+       <l>Pass all unseen the shackle.—I am great </l>
+       <l>While I am part; but, sever'd from my fellows, </l>
+       <l>Am nothing. Why, I were not worth a fire. </l>
+       <l>What can ye gain by practising on me? </l>
+       <l>'Tis in my power to save you from destruction; </l>
+       <l>'Tis in your power but to destroy yourselves. </l>
+       <l>Would ye do that? If so, then let me hang, </l>
+       <l>And stop the breath of your intelligence. </l>
+       <l>—What would you say, my lord?</l>
+      </lg>
+     </sp>
+     <sp who="#walsingham">
+      <speaker>WALSINGHAM.</speaker>
+      <lg>
+       <l> Thou art a fiend, </l>
+       <l>And gloriest with a fiendish impudence, </l>
+       <l>As mischief were thine element more than life. </l>
+       <l>—What can'st thou do to prove these boasts of thine? </l>
+       <l>If thou know'st aught against the Queen and State, </l>
+       <l>Speak it, and say at once what's thy reward. </l>
+       <l>Here's gold enough to buy a thousand pardons, </l>
+       <l>Should'st e'en betray the Church that sells thee them.</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l>Put up your purse, my lord! A ton of gold </l>
+       <l>Were but a hair to weigh me from my purpose. </l>
+       <l>—What can I do?—Oh! wise and profound statesman, </l>
+       <l>What would ye have me do? What is the key-stone </l>
+       <l>Of policy?—a patient perseverance. </l>
+       <l>If ye but drop a seed into the bosom </l>
+       <l>Of the ne'er-barren earth, do ye not watch </l>
+       <l>And tend it as the mother doth her babe, </l>
+       <l>Nor deem 'twill spring at once? What can I do? </l>
+       <l>Mark if I know at least what should be done. </l>
+       <l>Know ye the visage of your enemy </l>
+       <l>When ye behold it?</l>
+      </lg>
+     </sp>
+     <stage>(He shews a Miniature, richly adorned.)</stage>
+     <sp who="#walsingham">
+      <speaker>WALSINGHAM.</speaker>
+      <stage>(Aside.)</stage>
+      <lg>
+       <l>It is she herself, </l>
+       <l>As splendid as resistless, and more fateful </l>
+       <l>Than is the stayless lightning—Cockatrice! </l>
+       <l>The rascal's right enough, but every knave </l>
+       <l>Hath like intelligence.</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <stage>(Aside.)</stage>
+      <lg>
+       <l>Ha! have I moved ye?</l>
+      </lg>
+     </sp>
+     <sp who="#walsingham">
+      <speaker>WALSINGHAM.</speaker>
+      <stage>(Aside.)</stage>
+      <lg>
+       <l> 'Tis set with gems, and this fantastic legend </l>
+       <l>Here, i'the casket, is her character.</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l>You are struck, my lord. Know ye that glitt'ring mischief?</l>
+      </lg>
+     </sp>
+     <sp who="#walsingham">
+      <speaker>WALSINGHAM.</speaker>
+      <stage>(Hastily.)</stage>
+      <lg>
+       <l> Where got'st thou this?</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD </speaker>
+      <stage>(with assumed coolness.)</stage>
+      <lg>
+       <l>Too fast, my lord! Before you expect me to tell you that, ask if I
+                                know it myself. Thus came I by it—with my instructions!—and whence
+                                came they? canonically; even as an angel's message; out of a
+                                cloud!—Plainly, in three words I know not.</l>
+      </lg>
+     </sp>
+     <sp who="#walsingham">
+      <speaker>WALSINGHAM.</speaker>
+      <lg>
+       <l>I'll make thee know—</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l> Why, would it not be better </l>
+       <l>If I made thee? </l>
+       <l> I tell thee what, Sir Francis, </l>
+       <l>As 'tis in vain to seek what is not lost, </l>
+       <l>So that can not be found which is not hid. </l>
+       <l>Thou might'st as well attempt to gyve the Echo, </l>
+       <l>And make her tell what 'tis she babbles of, </l>
+       <l>As question me. I am a tool that must </l>
+       <l>Be used one way, or else am useless; use me, </l>
+       <l>And I am yours. Crush me, and you are lost. </l>
+       <l>Ye cannot burst the doors of destiny, </l>
+       <l>But ye may pick the lock. I know the windings </l>
+       <l>Of all its intricate wards, or else shall know. </l>
+       <l>Patience, and try again— </l>
+       <l> Nay, stop me not; </l>
+       <l>Or if you do, my lord, tell me but this— </l>
+       <l>The question's candid—Have I warn'd you not </l>
+       <l>Against your enemy? Thus far have I kept </l>
+       <l>The crown o' the causeway. Good. What see you in me— </l>
+       <l>I say what see you, that you need to start </l>
+       <l>As if I were the Archfiend, come to lure </l>
+       <l>Your steps to his burning mine? What I would ask </l>
+       <l>Is granted e'en as easy as 'tis heard, </l>
+       <l>And that should sure be easy.</l>
+      </lg>
+     </sp>
+     <sp who="#walsingham">
+      <speaker>WALSINGHAM.</speaker>
+      <lg>
+       <l> What dost ask?</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l>No mighty matter. I have shewn I know </l>
+       <l>Those you would know, and those that well know you. </l>
+       <l>I come to warn you of their dark devices. </l>
+       <l>If ye will take the warning, as 'tis given, </l>
+       <l>Nor, like the sturdy beggar, scorn an alms, </l>
+       <l>Because 'tis not a largess, let me have </l>
+       <l>Access to you, and upon what I tell you </l>
+       <l>E'en let your servitors proceed, or not, </l>
+       <l>As ye see fit. What would ye further? Let me </l>
+       <l>Have a short conference with some one in trust, </l>
+       <l>And what I promise, prove.</l>
+      </lg>
+     </sp>
+     <sp who="#walsingham">
+      <speaker>WALSINGHAM.</speaker>
+      <lg>
+       <l> It shall be so; </l>
+       <l>Within there. </l>
+      </lg>
+      <stage>Enter Sir Amias Paulet, and an Officer.</stage>
+      <lg>
+       <l>Hark, Sir Amias—Sir, you may retire. </l>
+      </lg>
+      <stage> [Exit Officer.</stage>
+      <stage>(Aside.)</stage>
+      <lg>
+       <l> Mark ye this man. I say, note down his face, </l>
+       <l>Not his habiliments; for happily </l>
+       <l>He hath as many forms as Proteus, </l>
+       <l>As changeable as is an April sky, </l>
+       <l>And, ten to one, more treacherous. Mark him. </l>
+      </lg>
+      <stage>(Aloud.)</stage>
+      <lg>
+       <l>Now, sir, </l>
+       <l>What is't that you would say?</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l> The Queen, four days hence, </l>
+       <l>Takes boat at Whitehall.—Doth she not, my lord?</l>
+      </lg>
+     </sp>
+     <sp who="#walsingham">
+      <speaker>WALSINGHAM.</speaker>
+      <lg>
+       <l>How know'st thou that?</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l> I ask thee; doth she not? </l>
+       <l>No answer!—Nay, you need not gaze at me </l>
+       <l>So fixedly, Sir Amias. I am true </l>
+       <l>As you yourself, and that you are, I know. </l>
+       <l>But to the coil in hand. Let not her Majesty </l>
+       <l>Forego her expedition—only this </l>
+       <l>Perhaps were well.—Contrive that her attendance, </l>
+       <l>Without apparent foresight, be well arm'd. </l>
+       <l>Not with a show of guard—but let the gallants </l>
+       <l>Who page her progress, or who pay their court, </l>
+       <l>Be of that sort ye wot of. So, there's fear </l>
+       <l>Without the threat'ning. So much for the present; </l>
+       <l>Next day, if she doth change her wonted airing, </l>
+       <l>And go to Richmond with the French Embassador, </l>
+       <l>That is her private purpose, peradventure </l>
+       <l>There may be need of more. But in that time </l>
+       <l>I will speak with ye, so ye scorn me not,— </l>
+       <l>Now let me have free passage.</l>
+      </lg>
+     </sp>
+     <sp who="#walsingham">
+      <speaker>WALSINGHAM.</speaker>
+      <lg>
+       <l> One word more.</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l>No, not a sound. My errand is told out, </l>
+       <l>And I am held to th' tale. My words are number'd, </l>
+       <l>My very breath is meted, and I deal not </l>
+       <l>In over measure.</l>
+      </lg>
+     </sp>
+     <sp who="#sir_amias">
+      <speaker>SIR AMIAS.</speaker>
+      <lg>
+       <l> This is insolence. </l>
+       <l>My lord, let me essay him, and I'll warrant—</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l>Wait for your warrant! </l>
+       <l> Mark me, Sir Amias, </l>
+       <l>You were sent here to listen, not to prate. </l>
+      </lg>
+      <stage>(Turning to Walsingham.)</stage>
+      <lg>
+       <l> My tongue is but an echo, and my voice </l>
+       <l>Pitch'd to the tenor of another pipe, </l>
+       <l>With which it falls or rises. I am dumb, </l>
+       <l>Because </l>
+       <l> wills it. Who is he? </l>
+       <l>He were a scholar who should answer that— </l>
+       <l>Your password, my lord.</l>
+      </lg>
+     </sp>
+     <sp who="#walsingham">
+      <speaker>WALSINGHAM.</speaker>
+      <lg>
+       <l>Within there! Sir Amias, let him have </l>
+       <l>Safe conduct.</l>
+      </lg>
+     </sp>
+     <stage>Enter Officer.</stage>
+     <sp who="#sir_amias">
+      <speaker>SIR AMIAS.</speaker>
+      <lg>
+       <l>He shall have't, my lord.</l>
+      </lg>
+     </sp>
+     <sp who="#walsingham">
+      <speaker>WALSINGHAM.</speaker>
+      <lg>
+       <l> Go, sir.</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l>I thank your lordship. Ye shall hear of me.</l>
+      </lg>
+     </sp>
+     <stage> [He goes out with the officer.</stage>
+     <sp who="#walsingham">
+      <speaker>WALSINGHAM.</speaker>
+      <lg>
+       <l>Now, Sir Amias—What think ye of this?</l>
+      </lg>
+     </sp>
+     <sp who="#sir_amias">
+      <speaker>SIR AMIAS.</speaker>
+      <lg>
+       <l>Even that we have a snake by th' tail; that's all. </l>
+       <l>If we be rough, he stings us—If we slip </l>
+       <l>Our vantage, he enshrouds him in his hole. </l>
+       <l>Would I had once his head beneath my heel!</l>
+      </lg>
+     </sp>
+     <sp who="#walsingham">
+      <speaker>WALSINGHAM.</speaker>
+      <lg>
+       <l>Have with you, Sir Amias. We must take </l>
+       <l>Some counsel upon this. There may be truth, </l>
+       <l>Though, certes, small may be our gain thereby, </l>
+       <l>If Jesuits' truth be slipprier than a lie. </l>
+       <l>Come, sir, time calls on us.</l>
+      </lg>
+     </sp>
+     <stage> [They go out.</stage>
+    </div>
+    <div type="scene" n="2">
+     <head>SCENE II.</head>
+     <stage>—An Apartment in Babington's House.</stage>
+     <stage>Enter Plasket and Gardevin.</stage>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>Why, Master Gardevin, according to thee, the world is like a huge
+                                cheese filled with maggots, which only serve to shew it is rotten?</l>
+      </lg>
+     </sp>
+     <sp who="#gardevin">
+      <speaker>GARDEVIN.</speaker>
+      <lg>
+       <l>Thou say'st well, Master Plasket. Rotten? marry, we are turned
+                                topsy-turvy, man, woman, and child, methinks.</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>Topsy-turvy? why, with the children that may sort well enough; but
+                                the women? Master Gardevin,—oh, fie!</l>
+      </lg>
+     </sp>
+     <sp who="#gardevin">
+      <speaker>GARDEVIN.</speaker>
+      <lg>
+       <l>Go to, go to. Thou art a wag by profession, and turnest people's
+                                sayings, even like thine own jerkin, with the lining outward; but it
+                                cannot hold long, or I look to brew in January and see snow at
+                                midsummer.</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>Why, what is wrong now?</l>
+      </lg>
+     </sp>
+     <sp who="#gardevin">
+      <speaker>GARDEVIN.</speaker>
+      <lg>
+       <l>Why, what is right now? have not we all turned worldmenders,
+                                forsooth? and are not old customs hunted down like foxes, or only
+                                borne with to make sport? no, marry, nothing that is old will go
+                                down now.</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>Yes, one thing.</l>
+      </lg>
+     </sp>
+     <sp who="#gardevin">
+      <speaker>GARDEVIN.</speaker>
+      <lg>
+       <l>What thing, Master Plasket?</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>Why, your old wine. That goes down as well as ever, Master Gardevin.
+                                We still chaunt—</l>
+      </lg>
+      <stage>(He sings.)</stage>
+      <lg>
+       <l>Sung I not well, Master Gardevin?</l>
+      </lg>
+     </sp>
+     <sp who="#gardevin">
+      <speaker>GARDEVIN.</speaker>
+      <lg>
+       <l>Aha! go to, Master Plasket, go to; thou art a wag still. Old wine,
+                                sayest thou? troth hardly. Your heretical Lollards must meddle
+                                there, too. Marry, come up —your Malmsey, and your Tent, and your
+                                Tawney Mountain, and your fiery Sherris, are looked down upon now
+                                for French slip-slops. By my halidome, your very waiting wenches
+                                will boggle at a cup of strong ale to break their fast i' the
+                                morning, for fear of their favour, forsooth. They're mad, and that
+                                at both ends, that's certain—and now, instead of housewifery, they
+                                must play o' the virginals. When they should be pickling, they con
+                                play-books, and instead of making conserves, are making love—as they
+                                call it.</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>Which is no conserve, sayest thou? eh! Master Gardevin?</l>
+      </lg>
+     </sp>
+     <sp who="#gardevin">
+      <speaker>GARDEVIN.</speaker>
+      <lg>
+       <l>Aha! go to—go to—thou art a sad wag, Master Plasket. Then, there's
+                                the men. I thought what their tinkering would come to. After mending
+                                everything, they've ta'en to mending their religion, with a murrain!</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>Which should have mended them, Master Gardevin.</l>
+      </lg>
+     </sp>
+     <sp who="#gardevin">
+      <speaker>GARDEVIN.</speaker>
+      <lg>
+       <l>Mended them? ay, truly, not without need. Well, Heaven mend us all,
+                                and Heaven mend the times.</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>Thou rememberest good old times, Master Gardevin.</l>
+      </lg>
+     </sp>
+     <sp who="#gardevin">
+      <speaker>GARDEVIN.</speaker>
+      <lg>
+       <l>Remember? do I not?—ah! well do I remember—in old Harry's days. There
+                                was I, a whipster; I abode then by Walthamstow; I wot I had a touch
+                                o' the sweating distemper, and Father Abbot (who but he?) would send
+                                one of the lay brothers with herbs and medicinals, ay, and wine,
+                                Master Plasket, from his own blessed hands, till the fit left me;
+                                and then, the holy Father himself took ill o' the falling sickness.</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>The falling sickness? Wine would be a bad cure for that, Master
+                                Gardevin.</l>
+      </lg>
+     </sp>
+     <sp who="#gardevin">
+      <speaker>GARDEVIN.</speaker>
+      <lg>
+       <l>Ah! go to—go to; thou art a wicked wag, Master Plasket;—and I, as in
+                                duty bound, went every morning to inquire after the health of the
+                                good Father. There was always a good flagon of ale, and a cold
+                                chine, or, peradventure, a venison pasty; and nothing in return but
+                                to pray for Father Abbot. Small need was there to bid me do that, I
+                                trow!</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>No; I dare swear thou would'st pray that thou might'st long have to
+                                inquire after Father Abbot.</l>
+      </lg>
+     </sp>
+     <sp who="#gardevin">
+      <speaker>GARDEVIN.</speaker>
+      <lg>
+       <l>Could I do less? Ah! these were the good old times! I stomach not
+                                these reformations, Master Plasket.</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>Thou sayest well—for thy faith is mainly in thy stomach, methinks.</l>
+      </lg>
+     </sp>
+     <sp who="#gardevin">
+      <speaker>GARDEVIN.</speaker>
+      <lg>
+       <l>Ah! go to; thou art a wag by profession, and never failest—In my
+                                stomach! Well, Heaven send such times again, for this house looks
+                                not like itself.</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>How so?</l>
+      </lg>
+     </sp>
+     <sp who="#gardevin">
+      <speaker>GARDEVIN.</speaker>
+      <lg>
+       <l>How so? askest thou that? There was my old lord— he would wake the
+                                lark with his bugle, be she never so early, and see his horn of
+                                October froth and sparkle in the first sunbeam. Then we welcomed the
+                                evening star with a catch, did we not?—Now, there is nothing but
+                                haunting the renegado Court, or close colleaguing, Heaven knows for
+                                what! Doth not the sun shine, and the does leap, as heretofore,
+                                Master Plasket? I like not that Master Boone. He may smooth it i'
+                                the sunshine; but I have heard him pace his turret-chamber by the
+                                hour, when he deemed none but the moon saw him. Would all may go
+                                well, Master Plasket;—but the crows have not shifted for nothing.</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>Shifted?</l>
+      </lg>
+     </sp>
+     <sp who="#gardevin">
+      <speaker>GARDEVIN.</speaker>
+      <lg>
+       <l>Why, know ye not they have left the great elms, where they have
+                                housed these two hundred years? all the house knows that; and, as I
+                                am a sinner, I have not eyed a rat i' the cellar these two months.
+                                Well, well, the sky is over our heads, Master Plasket. Will ye taste
+                                a cup of March beer i' the buttery?</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>Excuse me, Master Gardevin; as I croak not like thee, I need not thy
+                                cordial.</l>
+      </lg>
+     </sp>
+     <sp who="#gardevin">
+      <speaker>GARDEVIN.</speaker>
+      <lg>
+       <l>Sayest thou so? If fools get out o' fashion, wilt thou croak then?
+                                and if laughter be banished, I trow, fools will soon follow.</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>Why, Master Gardevin, certes, fools may get out o' fashion, but folly
+                                never—that's my comfort.</l>
+      </lg>
+     </sp>
+     <sp who="#gardevin">
+      <speaker>GARDEVIN.</speaker>
+      <lg>
+       <l>Ah! go to—go to; thou never failest. Well, God be wi' ye—now I think
+                                on't, my lady will be looking for her posset.</l>
+      </lg>
+     </sp>
+     <stage> [Gardevin goes out.</stage>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>He speaks too truly. In this seething age, </l>
+       <l>In the times' ferment, when the basest natures </l>
+       <l>Work strongest from beneath, authority </l>
+       <l>Grows jealous, and thinks e'en the tone of truth </l>
+       <l>Smacks of sedition. Yet I blame them not. </l>
+       <l>The heavens are full of clouds. Untimely glooms </l>
+       <l>Hang, prophesying tempest, o'er the land. </l>
+       <l>The hearts of men lack sunshine, and the flowers </l>
+       <l>Of jocund mirth are dead. E'en this old man, </l>
+       <l>Whose tongue hath still held chime with revelry, </l>
+       <l>More tunesome than the grashopper to spring, </l>
+       <l>Or winter cricket by the crackling fire, </l>
+       <l>Grows sad, he knows not why; and babbles o'er </l>
+       <l>His homely auguries; and looks i' the sky </l>
+       <l>For sorrow coming, if the north wind whistles </l>
+       <l>Sadder than wont.— </l>
+       <l> Nay, have not even I </l>
+       <l>Become infected with this melancholy, </l>
+       <l>And almost swear the midnight gusts do groan </l>
+       <l>And hurtle round the turrets of this house, </l>
+       <l>Not as they used to do? It is observed, </l>
+       <l>The herons have forsworn these ancient woods, </l>
+       <l>And strangely left their uninvaded nests </l>
+       <l>Heirlooms to th' hooting owls; ev'n at high noon, </l>
+       <l>The peacock flies th' accustom'd gate, and hides </l>
+       <l>I' the sedge; and country churls do cogitate </l>
+       <l>And note these things; yea, shake their heads, and raise </l>
+       <l>Forgotten tales, and on a freak of nature </l>
+       <l>Build up a thousand auguries. There are some </l>
+       <l>Will shew you how the bright and daisied rings, </l>
+       <l>The steps of fairies on the green, are blasted; </l>
+       <l>And thus, they say, good spirits take their leave, </l>
+       <l>And woe steps o'er the threshold. </l>
+       <l> Even so: </l>
+       <l>Thus runs the world. How often do we see </l>
+       <l>The born in sunshine darkle to their end, </l>
+       <l>And joy, to those in sorrow, rise too late! </l>
+       <l>We are but Fortune's toys, and, like a child, </l>
+       <l>She tires and takes a new one. </l>
+      </lg>
+      <stage>Enter Agnes.</stage>
+      <lg>
+       <l> Save you, lady! </l>
+       <l>Now, be your heart as light as is your foot, </l>
+       <l>In sooth I heard you not.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Good-morrow, Plasket. </l>
+       <l>For one who still must run a tilt at wit, </l>
+       <l>Methinks you're grave to-day.</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l> Why, truly, lady, </l>
+       <l>Perhaps I may be. To the merriest feasts </l>
+       <l>Unwelcome guests will come.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> You may say so.</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>May I, in sooth? Gramercy, what is here! </l>
+       <l>Now, Heaven forefend—a sigh, and from such lips, </l>
+       <l>Where smiles still seem'd to banquet, as the bees </l>
+       <l>Hang, never satiate, on the fragrant thyme! </l>
+       <l>Well, Heaven be thank'd, the remedy is easy, </l>
+       <l>And leeches night at hand.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> What is thy cure?</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>A jolly bridal and a handsome groom, </l>
+       <l>The true physician—would 'twere my degree!</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>So should the cure be worse than the disease, </l>
+       <l>As it is, haply, nine times out of ten.</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>Now, out upon you for a never-pleased! </l>
+       <l>Is there not one of all the cavaliers </l>
+       <l>Who haunt, like spirits, the circle of your glance, </l>
+       <l>Can hit your squeamish fancy?</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> As thou needs </l>
+       <l>Must talk, e'en talk what foolery thou wilt, </l>
+       <l>Only, expect me not to answer thee. </l>
+       <l>If that mine eyes were but a brace of dice, </l>
+       <l>They might attract some gallants that we wot of.</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>Nay, lady, never task your gentle nature: </l>
+       <l>Silence and woman were false heraldry— </l>
+       <l>They never quarter in the same escutcheon. </l>
+       <l>What can you libel now 'gainst Master Charnock? </l>
+       <l>Sure he's no dicer? A grave cavalier, </l>
+       <l>And tall, withal, and of a stately presence; </l>
+       <l>He hath rich manors, too, which, as good land </l>
+       <l>They say should do, feed everything but lawyers,— </l>
+       <l>What can you say to him?</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Why, little, truly; </l>
+       <l>And he to me as little. He's a bigot, </l>
+       <l>And frowns at you as 'twere the ghostly father, </l>
+       <l>And you had come to shrift. Nay, name him not: </l>
+       <l>He's too precautious for my venturing on; </l>
+       <l>Besides, he's half a miser, and would fear </l>
+       <l>His angels might find wings. I'll none of him.</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>What think you, then, of lordly Abingdon, </l>
+       <l>The brave and splendid, and just old enough </l>
+       <l>To know how to be young?</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> What think I of him? </l>
+       <l>What should I think of one that's made of iron, </l>
+       <l>Save that he's a good piece of workmanship? </l>
+       <l>'Twould pose, I'll warrant, your cunning Flemish artist, </l>
+       <l>Or him who made the clock at Nuremberg, </l>
+       <l>To forge a better; though I should not grudge </l>
+       <l>A hundred shillings for him. There's a largess— </l>
+       <l>That's praise enough, is't not?—What! discontented </l>
+       <l>Still? Why, you're marv'lessly unreasonable, </l>
+       <l>Good Master Plasket.</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l> I shall fit ye yet, lady, </l>
+       <l>Maugre your jibes—There's gentle Tichbourne, ah! </l>
+      </lg>
+      <stage>(He sings.)</stage>
+      <lg>
+       <l>Methought I should come over you at last— </l>
+       <l>Said I not well? Tichbourne's the man. Ev'n he, </l>
+       <l>The gallant Chidiok, gay Southampton's star, </l>
+       <l>As light and sparkling as the gossamer </l>
+       <l>That seems a thread of sunshine, and as quick, </l>
+       <l>And yet as gentle, as the swallow's flight; </l>
+       <l>Soft as the stream whereon the moonbeams sleep, </l>
+       <l>As clear in honour, and in soul as deep, </l>
+       <l>Ay, and as rash when stirr'd. I'faith, I clinch </l>
+       <l>Your choice—he is mine own favourite, after all!</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Too fast, good Plasket. Trust me, you have ta'en </l>
+       <l>No easy gear in hand. Tichbourne's too light; </l>
+       <l>In course, too like the summer butterfly, </l>
+       <l>That flutters on and on with glittering wing, </l>
+       <l>But recks not why nor whither. As the friend </l>
+       <l>Of Babington, I would not speak him ill, </l>
+       <l>But he's too gay, in truth.</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l> Now, say you so? </l>
+       <l>In truth, I would he might infect my lord </l>
+       <l>With that same gaiety you marvel at; </l>
+       <l>He's wondrous grave o' late. He hath almost sour'd </l>
+       <l>My store of jokes, as thunder doth small beer, </l>
+       <l>For the last two months.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Fie, you wrong him, Plasket, </l>
+       <l>The noble Babington is not severe. </l>
+       <l>High-thoughted gravity may haply sit </l>
+       <l>Upon his brow enthron'd, and loftier promptings </l>
+       <l>Make the shrunk world look little, that perchance </l>
+       <l>He recks not of it, like a meaner man. </l>
+       <l>But mark that brow when it unbends itself; </l>
+       <l>And mark his eye, when it declines, at last, </l>
+       <l>On Pleasure, who sits smiling at his feet; </l>
+       <l>And shew me one whose port bespeaketh more </l>
+       <l>High nobleness and courtly gallantry, </l>
+       <l>Friendship, and all that doth become a man.</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <stage>(Aside.)</stage>
+      <lg>
+       <l> Comes the shaft thence?— </l>
+       <l> You're an enthusiast, lady.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>It may be so. Hath he not been my brother, </l>
+       <l>My play-mate, guardian, tutor, all in one?</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <stage>(Aside.)</stage>
+      <lg>
+       <l> And thou would'st make him husband; would he were! </l>
+      </lg>
+      <stage>(Aloud.)</stage>
+      <lg>
+       <l> It is true, lady. Marry by my fay, </l>
+       <l>Here comes our lady mother. </l>
+      </lg>
+      <stage>Enter Lady Maud.</stage>
+      <lg>
+       <l> Save you, madam.</l>
+      </lg>
+     </sp>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l>Good day, good Plasket; what hast thou in hand? </l>
+       <l>Methought I heard your tongue push'd even now </l>
+       <l>Beyond its wonted amble.</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l> What in hand? </l>
+       <l>A cause—a cause—and that sans fee, good madam, </l>
+       <l>A most pernicious precedent for lawyers.</l>
+      </lg>
+     </sp>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l>Whose cause?</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l> Why, even the gentle Master Tichbourne's, </l>
+       <l>Whom this fair critic here finds full of faults. </l>
+       <l>I pray your ladyship, take her in hand.</l>
+      </lg>
+     </sp>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l>Not I—not I—but Babington is here, </l>
+       <l>And he shall well ensurety his friend. </l>
+       <l>You may retire, good Plasket. </l>
+      </lg>
+      <stage> [Plasket goes out.</stage>
+      <stage>Enter Babington.</stage>
+      <lg>
+       <l> How now, son; </l>
+       <l>You are just in time to end a controversy, </l>
+       <l>Ay, and reclaim a dangerous heretic, </l>
+       <l>Who hath blasphemed against your dear friend Tichbourne— </l>
+       <l>I pray you put in your authority.</l>
+      </lg>
+     </sp>
+     <sp who="#babington">
+      <speaker>BABINGTON.</speaker>
+      <lg>
+       <l>That were much pity, madam. When soft means </l>
+       <l>Will work a cure, the church disclaims all violence, </l>
+       <l>And here they have done so ever. To say truth, </l>
+       <l>I should most vilely play the guardian now, </l>
+       <l>My place so long hath slept into disuse. </l>
+       <l>But if truth, honour, generosity— </l>
+       <l>A mind as pure as is the blood sustains it— </l>
+       <l>A tongue match'd only by the speaker's deeds, </l>
+       <l>May win a woman, why, then, gallant Tichbourne </l>
+       <l>Can never lack an argument of mine. </l>
+       <l>What say you, Agnes?—How now?—Not a word!</l>
+      </lg>
+     </sp>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l>What should she say? List to me, childish trifler; </l>
+       <l>In wedding Tichbourne, thou wedd'st worth and honour </l>
+       <l>That is the first; and, in the next degree, </l>
+       <l>Prosperity beyond the reach of chance— </l>
+       <l>A name, nobility, and splendour, grace, </l>
+       <l>Which shame nor poverty have e'er obscured, </l>
+       <l>Nor ever shall, or can. If Heaven would stoop </l>
+       <l>To please your sickly fancy with a husband, </l>
+       <l>And fashion him to the pattern, tell me, girl, </l>
+       <l>What could'st thou ask for more?—Speak to her, son.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>I pray you spare me, madam.</l>
+      </lg>
+     </sp>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l> Babington, </l>
+       <l>Are you dumb too?</l>
+      </lg>
+     </sp>
+     <sp who="#babington">
+      <speaker>BABINGTON.</speaker>
+      <lg>
+       <l> Madam, an' if my breath </l>
+       <l>Could, in its sway, outvie the winds of spring, </l>
+       <l>That from their plumes drop beauty, youth, and health, </l>
+       <l>'Twere not too much for my dear friend's deservings. </l>
+       <l>Heaven hath shower'd down on him prosperity, </l>
+       <l>And may God grant it lasting—may it 'scape </l>
+       <l>The blight of tyrannous power—ay, and the sweep </l>
+       <l>That ever must attend on vengeance' wing </l>
+       <l>Whene'er she lights upon a darken'd land.</l>
+      </lg>
+     </sp>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l>This is another theme.</l>
+      </lg>
+     </sp>
+     <sp who="#babington">
+      <speaker>BABINGTON.</speaker>
+      <lg>
+       <l> Madam, forgive me </l>
+       <l>That I forestall your words. Pray, bear with me </l>
+       <l>For once. You gave me life, and, next to that </l>
+       <l>In value, Truth, and reverence for the truth </l>
+       <l>I will speak truly. Tichbourne is a spirit </l>
+       <l>That beauty's self might be content to worship; </l>
+       <l>So let her take him. But, in this drear time, </l>
+       <l>When to be faithful is to be suspected— </l>
+       <l>When to be honourable is to be distrusted— </l>
+       <l>When change strides o'er men's heads, and sets her foot </l>
+       <l>Upon the noblest necks—who is so good, </l>
+       <l>But he shall be a mark for those whose archery </l>
+       <l>Is bent to strike the fairest? Who so humble, </l>
+       <l>But he shall be an eye-sore unto those </l>
+       <l>Whose best religion lies in innovation? </l>
+       <l>In nature's throes, when inward motion shakes </l>
+       <l>The frighted earth, and the tumultuous waves </l>
+       <l>Rage like the wild despair, 'twere worse than vain </l>
+       <l>Sometimes to cast an anchor. </l>
+       <l> I have spoken; </l>
+       <l>Now, madam, say what you would say.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Hear me. </l>
+       <l>Beseech you—here I have the deepest stake, </l>
+       <l>Although the weakest player. Hear me, sir, </l>
+       <l>For you are honourable, and hear me, madam, </l>
+       <l>For you are kind.—Oh, sir! answer but this.— </l>
+       <l>If in some storm, such as e'en now you spoke of, </l>
+       <l>You were to risk your whole—if in one cast </l>
+       <l>Went all that should be dearest—peace and love, </l>
+       <l>And those you loved, and those that have loved you— </l>
+       <l>State, happiness, content, soul, heart, and all, </l>
+       <l>Would you not pause?—would you not hesitate, </l>
+       <l>Tremble, and stop, and shrink, as I do now? </l>
+       <l>Oh, press me not—am I not happy here? </l>
+       <l>And here I know I can be, so please Heaven </l>
+       <l>And you to suffer me. Alas! alas! </l>
+       <l>I grieve you.</l>
+      </lg>
+     </sp>
+     <sp who="#babington">
+      <speaker>BABINGTON.</speaker>
+      <stage>(With agitation.)</stage>
+      <lg>
+       <l>No; no more—I am not well.</l>
+      </lg>
+     </sp>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l>Sure thou turn'st pale.—How came these shadowy fancies </l>
+       <l>To cross your mind in such unlucky wise? </l>
+       <l>You take these things too strongly. This springs, son, </l>
+       <l>From too much talk and indoors thought, the while; </l>
+       <l>Where are your hawks, or those two foreign hounds </l>
+       <l>That Charnock sent you? This is phantasy.</l>
+      </lg>
+     </sp>
+     <sp who="#babington">
+      <speaker>BABINGTON.</speaker>
+      <lg>
+       <l>I pray you chide me not. 'Tis nothing, madam. </l>
+      </lg>
+      <stage>Enter Servant.</stage>
+      <lg>
+       <l>Thine errand?</l>
+      </lg>
+     </sp>
+     <sp who="#servant">
+      <speaker>SERVANT.</speaker>
+      <lg>
+       <l> Sir, here is young Master Tichbourne, </l>
+       <l>With Master Tylney, and with Abingdon, </l>
+       <l>New lighted from their horses at the gate.</l>
+      </lg>
+     </sp>
+     <stage> [Servant goes out.</stage>
+     <sp who="#babington">
+      <speaker>BABINGTON.</speaker>
+      <lg>
+       <l>Wilt please you, madam, to receive them? I </l>
+       <l>Shall be with you anon. 'Twas a brief spasm </l>
+       <l>From over-study; nothing else, believe it. </l>
+       <l>Come, Agnes, you shall bid young Tichbourne welcome.</l>
+      </lg>
+     </sp>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l>You follow, son?</l>
+      </lg>
+     </sp>
+     <sp who="#babington">
+      <speaker>BABINGTON.</speaker>
+      <lg>
+       <l> I follow in a breath. </l>
+      </lg>
+      <stage> [Agnes and Lady Maud go out.</stage>
+      <lg>
+       <l>How light a whisper can awake the heart! </l>
+       <l>Methought my bosom steel—that I could go </l>
+       <l>To danger as 'twere to a marriage rite— </l>
+       <l>With such composed cheerfulness—when duty </l>
+       <l>And honour bade me there; and lo! the softness </l>
+       <l>Of yon meek girl, and the unconscious pleadings </l>
+       <l>Of maiden fearfulness, have moved my heart </l>
+       <l>To very childishness. </l>
+       <l> I would not meet them </l>
+       <l>With trace of aught remorseful in mine eyes, </l>
+       <l>Lest it infect theirs too—though it is hard </l>
+       <l>To chase the bosom's shadows from the brow. </l>
+       <l>They say, that when the Ocean's surface stirs, </l>
+       <l>The depths are still at rest; but when below </l>
+       <l>All is commotion, where's the power can bid </l>
+       <l>The waves keep down their heads, and to a calm </l>
+       <l>Smooth the blue superficial? Yet must I </l>
+       <l>Essay this task, and with sad bosom go </l>
+       <l>To welcome pleasure, while the heart says no.</l>
+      </lg>
+     </sp>
+     <stage> [Babington goes out.</stage>
+    </div>
+   </div>
+   <div type="act" n="2">
+    <head>ACT II.</head>
+    <div type="scene" n="1">
+     <head>SCENE I.</head>
+     <stage>—A Chamber in Babington's House.</stage>
+     <stage>Enter Ballard and a Huntsman.</stage>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l>This meeting's dangerous. What thou would'st say, </l>
+       <l>Speak, and begone.</l>
+      </lg>
+     </sp>
+     <sp who="#huntsman">
+      <speaker>HUNTSMAN.</speaker>
+      <lg>
+       <l> I only stay to hear </l>
+       <l>Such message you may think fit to breathe </l>
+       <l>To the Ruling Ear.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l> Devotion to the order; </l>
+       <l>An eye that rests not, nor a heart that shakes; </l>
+       <l>A zeal that cannot freeze—'tis idle all— </l>
+       <l>Had I not these, why do I sojourn here? </l>
+       <l>Say that all's well—no more;—yes; nearer still— </l>
+      </lg>
+      <stage>(In a low tone.)</stage>
+      <lg>
+       <l> I'll draw his fangs, but from his den must first </l>
+       <l>Lure forth the serpent.—Mark the words, say this— </l>
+       <l>Begone—stay—What to Babington, even now, </l>
+       <l>Brought'st thou from Charnock?</l>
+      </lg>
+     </sp>
+     <sp who="#huntsman">
+      <speaker>HUNTSMAN.</speaker>
+      <lg>
+       <l> E'en two foreign hounds, </l>
+       <l>Of Germany, I think.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l> 'Tis well—begone! </l>
+      </lg>
+      <stage> [Huntsman goes out</stage>
+      <lg>
+       <l>Take hence thy fawning eye, that spy'st at once </l>
+       <l>Upon and for me. I am past them now; </l>
+       <l>Too deeply in for any will to master </l>
+       <l>Except mine own; and, for my countermine, </l>
+       <l>The college shall work hard to delve so deep. </l>
+      </lg>
+      <stage>Enter Gifford.</stage>
+      <lg>
+       <l>Gifford, how now?</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l> I come, sir, by the card— </l>
+       <l>I have succeeded</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l> Speak low.—Art thou sure?</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l>As sure as one well-crafted politician </l>
+       <l>Is of another. What I did impart </l>
+       <l>They swallow'd, as you'd have them.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l> Art thou sure </l>
+       <l>They traced thee not? If thou hast been a trail </l>
+       <l>To draw their bloodhounds hither, woe to thee! mark me, </l>
+       <l>Art sure they track'd thee not?</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l> I'll pawn my soul on't.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l>Pawn something better! noted'st thou of any </l>
+       <l>That met thee on the way, or else outrode?</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l>No one have I beheld,—except, e'en now, </l>
+       <l>A squinting fellow in the corridor; </l>
+       <l>A falconer of Master Charnock.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l> Oh! </l>
+       <l>He hath been here belike to babble of </l>
+       <l>Some foreign hounds, or something of such sort. </l>
+       <l>Thou hast done well; retire. The business </l>
+       <l>That's now in hand requires some space of thought. </l>
+       <l>Go! and be wary. </l>
+      </lg>
+      <stage> [Gifford retires.</stage>
+      <lg>
+       <l> Now am I in mine element, </l>
+       <l>The world of subtle thought—ay, thoughts that soar </l>
+       <l>Like eagles, 'mid the lightning-parted clouds, </l>
+       <l>And play amid their flashes. Hover now </l>
+       <l>Round me, ye demons that o'er-rule the storm; </l>
+       <l>That point the lightning at the stagg'ring bark; </l>
+       <l>Or urge the rushing clouds; or, laughing, stride </l>
+       <l>The billow that engulfs the struggling wretch, </l>
+       <l>And grin in his drench'd face. </l>
+       <l> Come to my breast, </l>
+       <l>Thou spirit, that can'st ride upon the waves </l>
+       <l>Calmly, as if they roll'd not, and impel </l>
+       <l>The buried helm with an untrembling hand; </l>
+       <l>For 'tis thy time;—now, when the lowering clouds </l>
+       <l>And troubled ocean darkly seem to meet, </l>
+       <l>Brewing the coming tempest. Let it fall </l>
+       <l>As 'twill—small care of mine! I am the master </l>
+       <l>In this momentous chase, and can unleash </l>
+       <l>My hounds on whom I will. Eye sees them not. </l>
+       <l>Darkly they sweep, like the wild Indian dog, </l>
+       <l>Through trackless forests and eternal shades; </l>
+       <l>Aghast the trav'ller hears th' approaching bay, </l>
+       <l>The savage rush, and headlong flying game, </l>
+       <l>And all is still again; nor sees he whence </l>
+       <l>It came, nor whither it goes—no matter whither, </l>
+       <l>So that the spoil be mine. </l>
+       <l> I have two paths </l>
+       <l>Before me, and but pause which I must take. </l>
+       <l>There was a time when, if I were but high, </l>
+       <l>I would have sat me on the rugged rock </l>
+       <l>As soon as the soft sward; 'tis not so now. </l>
+       <l>I have drank new passion since I saw this house: </l>
+       <l>Ambition stoops to take a yoke-fellow; </l>
+       <l>And the strong speed of iron Resolution </l>
+       <l>Lags for a flower i' th' way. Why should it not? </l>
+       <l>Say that there be two heights which I may scale, </l>
+       <l>Still shall I choose the greenest; and where'er </l>
+       <l>The flowers of dalliance shall the soonest bud, </l>
+       <l>There do I fix my climate. </l>
+      </lg>
+      <stage> (A clock strikes.)</stage>
+      <lg>
+       <l> 'Tis the hour;— </l>
+       <l>And now to govern the hot fiery spirits </l>
+       <l>That stoop to be mine instruments; to blow </l>
+       <l>Their flames on high, as doth the cunning smith </l>
+       <l>Until his work be forged—then—quench them, haply </l>
+       <l>With blood instead of water.—Fools! but ask them </l>
+       <l>What brings them to this venture; one shall talk </l>
+       <l>Of loyalty, another whine of love, </l>
+       <l>Another friendship, and a fourth religion; </l>
+       <l>Ay, marry,—even so. If they will play </l>
+       <l>Without a stake, they get their rubs for nothing. </l>
+       <l>Of all Love's, Loyalty's, or Religion's jokes, </l>
+       <l>Your martyrs are the sorriest. I must be gone.</l>
+      </lg>
+     </sp>
+     <stage> [Ballard goes out.</stage>
+    </div>
+    <div type="scene" n="2">
+     <head>SCENE II.</head>
+     <stage>—A large Hall.</stage>
+     <sp>
+      <stage>Enter Babington.</stage>
+      <lg>
+       <l>Methinks there is a weight upon the air, </l>
+       <l>As if the clasping element sympathized </l>
+       <l>E'en with our bosoms. Be it so. This heaviness </l>
+       <l>Is nature's impost. When Columbus launch'd </l>
+       <l>Upon the ocean of his enterprize, </l>
+       <l>Until the sun-tipp'd Spanish hills were lost, </l>
+       <l>Even that elated and expansive spirit </l>
+       <l>Did linger on the land that he was leaving, </l>
+       <l>As lead were on its wings. Lend me thy plumes, </l>
+       <l>Oh Love! to lighten mine. Nerve me, oh Honour! </l>
+       <l>To this most just, but perilous enterprize— </l>
+       <l>Fame, let me mount up to thy firmament,— </l>
+       <l>Or, if I fail, even like those wand'ring stars </l>
+       <l>That plunge into th' obscure abyss of night, </l>
+       <l>But leave a glorious track of light behind them, </l>
+       <l>So let me perish. </l>
+      </lg>
+      <stage>Enter Ballard, Tichbourne, Charnock, and Abingdon.</stage>
+      <lg>
+       <l> Boone!—and gentlemen, </l>
+       <l>Friends, comrades,—nay, all brothers, welcome!</l>
+      </lg>
+     </sp>
+     <sp who="#charnock">
+      <speaker>CHARNOCK.</speaker>
+      <lg>
+       <l> Welcome! </l>
+       <l>Now, if a man may augur from a look, </l>
+       <l>Our meeting here should have a happy end, </l>
+       <l>From yours this morning.</l>
+      </lg>
+     </sp>
+     <sp who="#babington">
+      <speaker>BABINGTON.</speaker>
+      <lg>
+       <l> Sir, your prophecy </l>
+       <l>Shall be fulfill'd; at least, so let us trust.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD, </speaker>
+      <stage>(aside.)</stage>
+      <lg>
+       <l>Not quite so fast; your sunny dawns, they say, </l>
+       <l>Have tearful endings.</l>
+      </lg>
+     </sp>
+     <sp who="#tichbourne">
+      <speaker>TICHBOURNE.</speaker>
+      <lg>
+       <l> Prophecy! a fig! </l>
+       <l>Give me a stirring hand and a bold heart, </l>
+       <l>They are the best of augurs. Let's to business.</l>
+      </lg>
+     </sp>
+     <sp who="#babington">
+      <speaker>BABINGTON.</speaker>
+      <lg>
+       <l> Gentlemen, </l>
+       <l>Wherefore we meet is known unto you all—</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l>Pause you a while. They say e'en walls have ears, </l>
+       <l>And spies, mole-like, can mine beneath our tread; </l>
+       <l>I will make sure o' the outer portal, ere </l>
+       <l>A dangerous breath be breathed.</l>
+      </lg>
+     </sp>
+     <sp who="#tichbourne">
+      <speaker>TICHBOURNE, </speaker>
+      <stage>(warmly.)</stage>
+      <lg>
+       <l> What!—in this house? </l>
+       <l>If treason can couch down with Babington, </l>
+       <l>Why, then, give up our vain confed'racy. </l>
+       <l>The world's past mending. If doubt harbours here, </l>
+       <l>Ours is a needless trouble. Ay, sir—look </l>
+       <l>Ten thousand meanings if you will, and none </l>
+       <l>A good one.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l> Sir, my meaning's single, plain, </l>
+       <l>And not unusual. With most politicians, </l>
+       <l>The quality called Caution, commonly </l>
+       <l>Is rated at some little, and it's opposite </l>
+       <l>Is held for dangerous—or, what's worse—suspicious.</l>
+      </lg>
+     </sp>
+     <sp who="#tichbourne">
+      <speaker>TICHBOURNE.</speaker>
+      <lg>
+       <l>Suspicious?—no—let me contain myself.— </l>
+       <l>Methinks, sir, 'twere as well to quit this key: </l>
+       <l>Leave such sage maxims to the needy plotters, </l>
+       <l>Or stabbers, liquorish of each other's throats, </l>
+       <l>'Midst whom they were hatch'd. Here, in this company, </l>
+       <l>There's but one rule, and that well serves for all; </l>
+       <l>He who doubts here, should be himself suspected.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l>Stabbers—suspected—Have I heard aright? </l>
+       <l>Sure I mistake you, honourable sir.</l>
+      </lg>
+     </sp>
+     <sp who="#babington">
+      <speaker>BABINGTON.</speaker>
+      <lg>
+       <l>No more. You, Tichbourne, as you are my friend, </l>
+       <l>Mark me; this hot disruption of our purpose </l>
+       <l>Is ill—I say that it becomes you not. </l>
+       <l>Father, methought the spirit of your calling </l>
+       <l>Chastised your bosom of these humorous pranks </l>
+       <l>Which in unreverend youth we may excuse, </l>
+       <l>But scarce in you.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD, </speaker>
+      <stage>(aside.)</stage>
+      <lg>
+       <l> Now note this down, my soul; </l>
+       <l>Insulted, school'd, forget it not—ay, note it; </l>
+       <l>Brand it here, shame, in burning characters. </l>
+      </lg>
+      <stage>(Aloud.)</stage>
+      <lg>
+       <l>—Oh! sir, mistake me not; you say most true; </l>
+       <l>The spirit of mine order doth command </l>
+       <l>To bend to injury. We are but flesh— </l>
+       <l>Bear with me. I have not forgot my vow. </l>
+       <l>—'Tis past. See how, before your breath, mine anger </l>
+       <l>Hath melted like the snow! Is't not enough? </l>
+       <l>If there be more shapes of humility </l>
+       <l>I must pass through, propose them. I am but </l>
+       <l>Your servant; and but wait to know what trust </l>
+       <l>Your honours please to give into my hand, </l>
+       <l>And so perform it.</l>
+      </lg>
+     </sp>
+     <sp who="#babington">
+      <speaker>BABINGTON.</speaker>
+      <lg>
+       <l> Sir, this is too lowly— </l>
+       <l>You are my bosom friend and counsellor, </l>
+       <l>Nor shall be counted less: no more of this; </l>
+       <l>It grieves me more than I shall speak of now. </l>
+       <l>My friends, this cloud being happily o'erpast, </l>
+       <l>We will to business. </l>
+       <l>Wherefore we meet is known unto you all; </l>
+       <l>A general wrong needs no interpreter. </l>
+       <l>Have we not seen the ruin that hath roll'd </l>
+       <l>O'er our dear country; Pestilent heresy </l>
+       <l>Flame like a brand cast in the autumn corn, </l>
+       <l>Till all the goodly harvest is burn'd up; </l>
+       <l>Holy Religion turned to robbery! </l>
+       <l>Her sacred shrines unroof'd, and made the haunts </l>
+       <l>Of th' unclean fox and owl; Penance-worn Age </l>
+       <l>Chased forth to die beside some bypath ditch; </l>
+       <l>And stainless Innocence turn'd loose to shiver, </l>
+       <l>And starve i' the causeway—Destitution nipt; </l>
+       <l>Honour betray'd for of her sister Faith; </l>
+       <l>Beauty oppress'd, because she is not false; </l>
+       <l>Goodness proscribed, because it will not change?— </l>
+       <l>And who have done these things? not savage Goths, </l>
+       <l>Who conquer only that themselves are strong, </l>
+       <l>Who know not light, because themselves are dark; </l>
+       <l>But the wolf Lucre, vestured like the lamb; </l>
+       <l>And bat-like Sophistry, whose filmed eyes </l>
+       <l>Find day in twilight, and whose leathern wings </l>
+       <l>Flit ever round the ruins that it loves; </l>
+       <l>Amphibious, miscreate; loathsome alike </l>
+       <l>To those who crawl, as well as those who soar. </l>
+       <l>Is this not so? If then, or blood will quench </l>
+       <l>This fiery pestilence, or fire burn out </l>
+       <l>The hideous reptiles that infest our fields, </l>
+       <l>Why should we pause or start? If that your veins </l>
+       <l>Have ta'en a feverous, or an aguish taint, </l>
+       <l>Do ye not lance them? If a rabid tooth </l>
+       <l>Hath torn ye, sear ye not the wound? My friends, </l>
+       <l>Which of us here shall not do for his country </l>
+       <l>What for himself he doth?</l>
+      </lg>
+     </sp>
+     <sp who="#abingdon">
+      <speaker>ABINGDON.</speaker>
+      <lg>
+       <l> None; none.</l>
+      </lg>
+     </sp>
+     <sp who="#tichbourne">
+      <speaker>TICHBOURNE.</speaker>
+      <lg>
+       <l> I go, </l>
+       <l>As far in this as any; only this, </l>
+       <l>The less of blood the greater is our gain.</l>
+      </lg>
+     </sp>
+     <sp who="#charnock">
+      <speaker>CHARNOCK.</speaker>
+      <lg>
+       <l>The less of blood, the less the devil's gain; </l>
+       <l>I know not who can gain by them but he.</l>
+      </lg>
+     </sp>
+     <sp who="#abingdon">
+      <speaker>ABINGDON.</speaker>
+      <lg>
+       <l>Dost thou love blood?</l>
+      </lg>
+     </sp>
+     <sp who="#charnock">
+      <speaker>CHARNOCK.</speaker>
+      <lg>
+       <l> Sir, no. I love not blood; </l>
+       <l>But cannot hate their blood who would love mine.</l>
+      </lg>
+     </sp>
+     <sp who="#babington">
+      <speaker>BABINGTON.</speaker>
+      <lg>
+       <l>Comrades, we shall but shed what blood we must, </l>
+       <l>And what we must, we ought. </l>
+       <l> We are agreed. </l>
+       <l>Let every hand that's here be join'd with mine. </l>
+       <l>My friends, ye know that we have deeply sworn </l>
+       <l>To this, and with our souls impledged our honours, </l>
+       <l>To stand or fall together. Ye know, too, </l>
+       <l>That more to knit up this stern brotherhood, </l>
+       <l>These features are all limn'd; so, if we fail, </l>
+       <l>They may know whom to strike; if we succeed, </l>
+       <l>They may know whom to praise. Yet, even now, </l>
+       <l>If any pulse of those I have touch'd here </l>
+       <l>Beat cold or fearful—I say, even now, </l>
+       <l>That man is free to go. I would not have </l>
+       <l>A hand to join me in this enterprize, </l>
+       <l>That struck not with devotion like mine own. </l>
+       <l>Doth any answer me?</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l> I ask thee this, </l>
+       <l>Dost thou suspect aught here?</l>
+      </lg>
+     </sp>
+     <sp who="#babington">
+      <speaker>BABINGTON.</speaker>
+      <lg>
+       <l> Suspect? no, no!</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l>Then what but this, God speed our enterprize?</l>
+      </lg>
+     </sp>
+     <sp who="#babington">
+      <speaker>BABINGTON.</speaker>
+      <lg>
+       <l>Amen, amen. How should we fail, for danger </l>
+       <l>But makes the brave man firm and confident, </l>
+       <l>Which gives the coward a vomit. Therefore, Peril </l>
+       <l>Shall be our handmaid. </l>
+       <l> We will meet no more, </l>
+       <l>My friends, until we meet to act. The signal </l>
+       <l>Of where, and when, ye are possess'd withal. </l>
+       <l>And now let us disperse. I would not have </l>
+       <l>My household note too much our conference. </l>
+       <l>Go not at once, but severally. Good morrow; </l>
+       <l>Charnock, we'll try your hounds at early dawn. </l>
+       <l>I'll follow your anon. </l>
+      </lg>
+      <stage> (They all go except Ballard.)</stage>
+      <lg>
+       <l> Stay, Father, I </l>
+       <l>Would speak with you. </l>
+       <l> Come nearer to me, Father </l>
+       <l>And friend—'twould wrong you, did I hide from you </l>
+       <l>Mine inmost thoughts. Father, you well must know </l>
+       <l>The purpose that we hold is dangerous; </l>
+       <l>Most perilous both in the execution </l>
+       <l>And after-compt; and God knows which of us </l>
+       <l>In the fell sweep and current of events </l>
+       <l>May not be stranded. In such exigence </l>
+       <l>It doth become a man to make provision </l>
+       <l>Against the worst, that those whose happiness, </l>
+       <l>Nay, very life, are twined with his, may bide </l>
+       <l>The separation—if that such must be. </l>
+       <l>There are two helpless women I would fain, </l>
+       <l>Whatever be the lot of Babington, </l>
+       <l>Essay to find some ark for, that may float </l>
+       <l>Their little fortunes up, if mine be wreck'd— </l>
+       <l>My mother, and her gentle ward—forgive me, </l>
+       <l>The heart will fill even though the eyes be dry </l>
+       <l>Sometimes. One moment's space and I go on— </l>
+       <l>If we miscarry, you shall haply 'scape. </l>
+       <l>Your calling doth forbid that you should plunge </l>
+       <l>Your hands into the blood that must be spilt </l>
+       <l>At the first threshold of our enterprize— </l>
+       <l>If it be so—as haply it may be, </l>
+       <l>Although God speed it other—but if 'tis, </l>
+       <l>Be you their guardian. </l>
+       <l> Now I have said, </l>
+       <l>But do not answer me, I know full well </l>
+       <l>Thou would'st be that without behest of mine, </l>
+       <l>But 'twas my duty, and we still commend </l>
+       <l>There where we know our words strike surest root.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l>Sir, you may know mine answer—or you should— </l>
+       <l>Without the aid of any breath of mine.</l>
+      </lg>
+     </sp>
+     <sp who="#babington">
+      <speaker>BABINGTON.</speaker>
+      <lg>
+       <l>Yet one thing more or ere I go. I think </l>
+       <l>You are possess'd that Tichbourne loves my ward, </l>
+       <l>The gentle Agnes, and I could well wish, </l>
+       <l>For that he is a good and gallant youth, </l>
+       <l>It were return'd. Let not the little heat </l>
+       <l>His spirit shew'd to-day make him weigh lighter </l>
+       <l>In your kind estimation. Haply here </l>
+       <l>Your council may avail us, for I have mark'd </l>
+       <l>She holds you in much awe, and knows besides </l>
+       <l>You are my dearest and most trusted friend </l>
+       <l>And counsellor.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l> If any words of mine </l>
+       <l>May sway the balance to the side you wish, </l>
+       <l>Trust me I shall not spare them; and, meanwhile, </l>
+       <l>'Twere well I had some brief authority </l>
+       <l>Under your seal as to the trust wherewith </l>
+       <l>You please to honour me, but which, please Heaven, </l>
+       <l>Shall not be wanted.</l>
+      </lg>
+     </sp>
+     <sp who="#babington">
+      <speaker>BABINGTON.</speaker>
+      <lg>
+       <l> 'Tis well thought upon, </l>
+       <l>You shall have such a document anon. </l>
+       <l>Its use—Heaven shall direct. </l>
+       <l> Farewell, dear father.</l>
+      </lg>
+     </sp>
+     <stage> [Babington goes out.</stage>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l>The stream, just ere it rushes o'er the cliff, </l>
+       <l>Runs swiftest; so men, on the brink of ruin, </l>
+       <l>Seem oft to run into destruction. Fate </l>
+       <l>Doth film their eyes, and they pull down their death </l>
+       <l>On their own proper heads. </l>
+       <l>Yea, 'tis most strange now. She, o'er whom I would </l>
+       <l>Have most authority, thrust on mine hands </l>
+       <l>For guardianship—myself too delegated </l>
+       <l>To plead for him, whose suit I most would blast— </l>
+       <l>If that events—as some have held—should be </l>
+       <l>Our chiefest prophets, these speak plainly out. </l>
+       <l>As dangers thicken, so must acts—and now </l>
+       <l>One hour determine what the next shall do.</l>
+      </lg>
+     </sp>
+     <stage> [Ballard goes out.</stage>
+    </div>
+    <div type="scene" n="3">
+     <head>SCENE III.</head>
+     <stage>Enter Tichbourne and Plasket.</stage>
+     <sp who="#tichbourne">
+      <speaker>TICHBOURNE.</speaker>
+      <lg>
+       <l>Why, Master Plasket, methinks thy mirth halts more than wont—and thy
+                                face, that used to hang out motley on every feature, is changed o'
+                                late. Art thou going to leave off trade, that thou takest down thy
+                                sign?</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>Truly, sir, I am but i'the fashion. Cameleon-like, I even take my
+                                colour from that about me; an' if I have left off mirth, it is as I
+                                have left off tags—because others have done the like. Marry, I
+                                follow the mode, be it in lace or in wit.</l>
+      </lg>
+     </sp>
+     <sp who="#tichbourne">
+      <speaker>TICHBOURNE.</speaker>
+      <lg>
+       <l>Thy wit was never strait-laced. I'll say that for thee; but is this
+                                house grown so dull?</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>Marry, the house is not so dull as the company.</l>
+      </lg>
+     </sp>
+     <sp who="#tichbourne">
+      <speaker>TICHBOURNE.</speaker>
+      <lg>
+       <l>Still a word-catcher! Tell me, how long hath this been?</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>How long? exactly, since Master Boone sojourned with us.</l>
+      </lg>
+     </sp>
+     <sp who="#tichbourne">
+      <speaker>TICHBOURNE.</speaker>
+      <lg>
+       <l>Master Boone!—Why is he an enemy to thy cloth?</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>Master Boone is anything but a boon companion, that's certain; and
+                                methinks he hath infected the rest with the malady o' mournfulness.
+                                The very throstles have left off whistling.</l>
+      </lg>
+     </sp>
+     <sp who="#tichbourne">
+      <speaker>TICHBOURNE.</speaker>
+      <lg>
+       <l>Thou lovest not Master Boone?</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>Shall I lie?—Truly no!</l>
+      </lg>
+     </sp>
+     <sp who="#tichbourne">
+      <speaker>TICHBOURNE.</speaker>
+      <lg>
+       <l>Come, what object'st thou against him? There's more in this than thou
+                                givest breath to.</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>Nothing. Let him tell me what he is, and then ask my objections.</l>
+      </lg>
+     </sp>
+     <sp who="#tichbourne">
+      <speaker>TICHBOURNE.</speaker>
+      <lg>
+       <l>Why, he hath a gentle favour; hath he not?</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>Like my great grandfather's monument—'tis carved out o' marble,
+                                methinks.</l>
+      </lg>
+     </sp>
+     <sp who="#tichbourne">
+      <speaker>TICHBOURNE.</speaker>
+      <lg>
+       <l>And a fair presence.</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>His absence were better.</l>
+      </lg>
+     </sp>
+     <sp who="#tichbourne">
+      <speaker>TICHBOURNE.</speaker>
+      <lg>
+       <l>And a good eye.</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>I'll see that, when he looks me i'the face.</l>
+      </lg>
+     </sp>
+     <sp who="#tichbourne">
+      <speaker>TICHBOURNE.</speaker>
+      <lg>
+       <l>And a good wit.</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>Let him make me laugh!</l>
+      </lg>
+     </sp>
+     <sp who="#tichbourne">
+      <speaker>TICHBOURNE.</speaker>
+      <lg>
+       <l>And a thoughtful generosity—</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>I'll say so too, when I get my legacy.</l>
+      </lg>
+     </sp>
+     <sp who="#tichbourne">
+      <speaker>TICHBOURNE.</speaker>
+      <lg>
+       <l>Psha! thou carpest and carpest, and yet tell'st nought; in a word,
+                                What say'st thou to him?</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>Even what he sayeth to me, Nothing.</l>
+      </lg>
+     </sp>
+     <sp who="#tichbourne">
+      <speaker>TICHBOURNE.</speaker>
+      <lg>
+       <l>Well; if coldness be a sin, how comes Christmas to be blessed?</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>Sir—as ye cellar up your wines, your meats, and your conserves—so he
+                                that is cold hath secrets to keep. Could ye break the ice of his
+                                coldness, who knows what foul current runs beneath it!</l>
+      </lg>
+     </sp>
+     <sp who="#tichbourne">
+      <speaker>TICHBOURNE.</speaker>
+      <lg>
+       <l>I'll hear no more of this. I did not think thou had'st so bitter a
+                                vein. Where is the Lady Agnes?</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>Truly, sir, I know not; but, as I think, in the orchard with my lady.
+                                I would ye could make her merrier, for she is even like the rest of
+                                us.</l>
+      </lg>
+     </sp>
+     <sp who="#tichbourne">
+      <speaker>TICHBOURNE.</speaker>
+      <lg>
+       <l>I will make her merry, or she shall go near to make me sad. Master
+                                Plasket, fare thee well—</l>
+      </lg>
+     </sp>
+     <stage> [Tichbourne goes out.</stage>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>God be wi' ye; and may ye come back laughing! </l>
+       <l>This is no phantasy, there's matter in't. </l>
+       <l>Of late—I know not wherefore—but a gloom </l>
+       <l>Hath gather'd o'er these roofs, and, since that man </l>
+       <l>Became their guest, all he hath look'd upon </l>
+       <l>Hath ta'en a sad complexion from his eye. </l>
+       <l>There's mystery on his brow—nor do his accents </l>
+       <l>Sort with his looks. Have I not noted him </l>
+       <l>Shoot forth a swift glance of intelligence— </l>
+       <l>Like to an arrow from a leaguer'd wall, </l>
+       <l>Wing'd to some far-off aid—when he well deem'd </l>
+       <l>None mark'd him, but the menial that received it. </l>
+       <l>There was a time such motes would stir me not, </l>
+       <l>But now when ancient fealty is treason— </l>
+       <l>When altars are o'erturn'd, and faithful men </l>
+       <l>Dare hardly ask a blessing on their hearths, </l>
+       <l>We know not what to trust, nor what to fear— </l>
+       <l>I will watch well his bearing—</l>
+      </lg>
+     </sp>
+     <stage> [He retires.</stage>
+    </div>
+   </div>
+   <div type="act" n="3">
+    <head>ACT III.</head>
+    <div type="scene" n="1">
+     <head>SCENE I.</head>
+     <stage>—A Chamber.</stage>
+     <sp>
+      <lg>
+       <l>Do what I will, my fingers only move </l>
+       <l>As grief would have them, and my notes of joy </l>
+       <l>Still die into the spirit of a dirge, </l>
+       <l>As if that Sorrow sat upon the strings </l>
+       <l>And tuned them to her mood. Do they not say </l>
+       <l>That Woe can cast her shadow on before </l>
+       <l>To warn us of her coming; so the air </l>
+       <l>Feels still and heavy ere the thunder-crash, </l>
+       <l>As if the restless and the roving wind </l>
+       <l>Were struck e'en motionless with very dread, </l>
+       <l>And terrified to silence. I will sing </l>
+       <l>No more. </l>
+       <l> And yet that strain was ever dear to me, </l>
+       <l>For that 'twas Babington's chief favourite; </l>
+       <l>And I would sing it with a sweeter zest </l>
+       <l>Than I could chant a thousand gayer songs, </l>
+       <l>Because he begg'd it of me. Now, alas! </l>
+       <l>He asks for it no more, nor would I hear it </l>
+       <l>But for his asking.—Go, ungrateful lute, </l>
+       <l>Thou e'en art like the rest. I love thee not. </l>
+       <l>E'en like the meadows, or the mossy groves, </l>
+       <l>Or the hush'd eve, or tuneful nightingale, </l>
+       <l>Or all that decks the summer, thou could'st please, </l>
+       <l>But now—can'st please no more. Go, plaintive songs; </l>
+       <l>Ye may enrapture when the heart is light; </l>
+       <l>But, to the sad, your melancholy is </l>
+       <l>Too near akin to tears.</l>
+      </lg>
+     </sp>
+     <sp>
+      <stage>Enter Ballard, (Aside.)</stage>
+      <lg>
+       <l>She sings—not yet—how beautiful she stands, </l>
+       <l>As if some seraph had come down to see </l>
+       <l>How heavenly songs become a mortal lute, </l>
+       <l>And try if that a wire of earthly mould, </l>
+       <l>Waked by the touch of a celestial hand, </l>
+       <l>May make the angels listen—at her voice </l>
+       <l>My nature is transmuted, as the breath </l>
+       <l>Driven sweetly through the wreath'd barbaric shell </l>
+       <l>Doth charm the horned snake. I'll speak to her, </l>
+       <l>And bask in those meek eyes.—Now, oh! my bosom </l>
+       <l>Teem with deceits rife as the sleepy flowers, </l>
+       <l>In the dank ooze of Lethe; glide, my words, </l>
+       <l>Into her ears, like asps, that poison ere </l>
+       <l>We know that they are there.— </l>
+      </lg>
+      <stage>(Aloud.)</stage>
+      <lg>
+       <l>Heaven bless thee, lady.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Good even, sir—or rather, Father, now </l>
+       <l>The place permits me say it.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l> No—not Father; </l>
+       <l>That is a title here that fits me not; </l>
+       <l>And, haply, never shall.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Now, Heaven forefend! </l>
+       <l>Father, you seem disturb'd.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l> I do, dear lady— </l>
+       <l>Throughout the whole dark volume of my days, </l>
+       <l>I have been practised as an intercessor </l>
+       <l>For other men—or at the Throne of Mercy, </l>
+       <l>Or at those seats where saints above are seated, </l>
+       <l>Or at some temporal footstool—Never yet </l>
+       <l>Stood there a true and zealous advocate </l>
+       <l>So shorn of eloquence, so dumb, so tongue-tied, </l>
+       <l>As I do now.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> This is a marvel; who </l>
+       <l>Can need your intercession, and with me?</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l>Who that durst plead as he would wish, dear lady, </l>
+       <l>But would need intercession. </l>
+       <l> Pardon me— </l>
+       <l>I am like one that venturing in to swim, </l>
+       <l>Ere he hath reach'd mid-current loseth heart, </l>
+       <l>And idly chokes i' the waters. There are many </l>
+       <l>Will think to beg a boon, but at the touch, </l>
+       <l>Sunk by the weight of their unworthiness, </l>
+       <l>Wreck their own advocacy. Therefore, lady, </l>
+       <l>If what I say shall seem importunate, </l>
+       <l>Arrogant, frontless, or unreasonable, </l>
+       <l>Let me be held but as the mere attorney </l>
+       <l>Of other men's appeals; and my commission </l>
+       <l>Once ended, call myself again your friend.— </l>
+       <l>It is for Chidiok Tichbourne I would speak.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Why, then, your peroration's thrown away. </l>
+       <l>It grieves me, Father, thus to break you off; </l>
+       <l>Ask something, I do pray you, I can grant, </l>
+       <l>But name not Tichbourne in't, and it shall please me </l>
+       <l>To run before your wishes.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l> Shall't—indeed?</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Do not mistake—I can appreciate </l>
+       <l>The worth and honour of your noble friend, </l>
+       <l>But on this theme, I pray you, name him not.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l>Your wishes, lady, are omnipotent.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Nay, not so grave; think me not proud, nor harsh, </l>
+       <l>Nor one that doth refuse but to be sued, </l>
+       <l>Nor one that would be sued but to refuse; </l>
+       <l>But on this theme, beseech you, pardon me.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l>Lady, 'tis I need pardon; why, methinks </l>
+       <l>I want the breath to make up such a word. </l>
+       <l>Do I not know 'tis even with our minds </l>
+       <l>As with our palates; and that our mislikings </l>
+       <l>Will heed no curb of ours? As 'tis with love, </l>
+       <l>So with its opposite—'Tis masterless. </l>
+       <l>What remedy?—Tichbourne, no doubt, is clear </l>
+       <l>In spirit and in honour; gentle; generous; </l>
+       <l>As quick and sparkling as the summer stream, </l>
+       <l>That ever moves in music. What of that? </l>
+       <l>If you can love him not—I am well answer'd. </l>
+       <l>Though haply there is one to whom his soul </l>
+       <l>Is as the myrtle to the monarch oak, </l>
+       <l>Or as the brook to the majestic stream </l>
+       <l>That rolls mid Indian climes, o'er golden sands, </l>
+       <l>Half the world's cycle. Bear with me, I grow </l>
+       <l>Somewhat too florid. Even so—one whose pleasure </l>
+       <l>Is only daring; and whose life is danger; </l>
+       <l>Whose faith thrives best in perilous extremes; </l>
+       <l>Whose honour lies in honourable deeds; </l>
+       <l>Who for a nation's good would risk his own. </l>
+       <l>—On him, perchance, that bosom, though it be </l>
+       <l>The quintessence of every gentleness, </l>
+       <l>The bed where love himself dares scarce repose, </l>
+       <l>Lest he should never leave a couch so soft; </l>
+       <l>Slave of his own sweet languor, haply might </l>
+       <l>Be brought to lean.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Father—I know not this. </l>
+       <l>There is none such.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l> Oh! say not so, blest creature. </l>
+       <l>And were I gifted with all things beside, </l>
+       <l>That Avarice could devise, or Prodigality </l>
+       <l>Confer, may yon blest light find me no more, </l>
+       <l>But I would give them all to be that man.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Father!</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l>Ay, though I roam'd the globe, a naked outcast, </l>
+       <l>Whom Fate abhorr'd, and Fortune had forsworn, </l>
+       <l>So I might count, the while, those eyes the stars </l>
+       <l>That told my destiny.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> What mean you, Father?</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l>He that hath drunk new wine in Paradise, </l>
+       <l>And banquetted upon immortal fruits, </l>
+       <l>And lived upon the breath that angels breathe, </l>
+       <l>And tasted of the sleep where Death is not; </l>
+       <l>Couch'd 'mid the fadeless amaranthine flowers; </l>
+       <l>Not having loved, nor been beloved of thee, </l>
+       <l>Hath known not what bliss is!</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> What course is this? </l>
+       <l>Your practice, holy sir, should not be false, </l>
+       <l>Nor yet your words be true—I am unused </l>
+       <l>To such a tone—much less from such a tongue.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l>Hark thee: I'll tell a tale.—Nay, shrink not from me; </l>
+       <l>As if or distance had the power to blunt </l>
+       <l>Th' impressure of thine eyes, or time to heal </l>
+       <l>The gazer's hurt.—There sometime was a maid, </l>
+       <l>Named Katharine—ay, De Boria was her name— </l>
+       <l>Nursed in the German fields, by Wittemberg, </l>
+       <l>And she did spring the wonder of all eyes, </l>
+       <l>Till, in her womanhood, her estate of beauty </l>
+       <l>Might bought the rubied hills of Samarcand, </l>
+       <l>Ay, or the golden bosom of Peru; </l>
+       <l>Rifest of sweets, since our first mother, Eve; </l>
+       <l>Save, haply, one: but she, as thou, was humble; </l>
+       <l>And all these charms did dedicate to God. </l>
+       <l>—But not the sanctity of holy walls; </l>
+       <l>Nor the heaven-melting breath of choral praise; </l>
+       <l>No; nor the awful shadow of the Cross, </l>
+       <l>Could drown her accents in one eager ear, </l>
+       <l>Nor blind the gaze of an unhallow'd eye. </l>
+       <l>Ay; for the sake of those rare lineaments, </l>
+       <l>The sight of which had palsied Phidias' hand, </l>
+       <l>And hue, at which the roses might outblush </l>
+       <l>Themselves for envy, God's eternal Faith, </l>
+       <l>Which heretofore had bound the world, almost </l>
+       <l>In one unbroken bond of joy and love; </l>
+       <l>Even as the silken cincture round that bosom; </l>
+       <l>Was torn and trampled on, and made the pandar </l>
+       <l>Of the fierce passion of that aweless monk, </l>
+       <l>Who drank his phrenzy from her eyes—his name? </l>
+       <l>What was't?—come tell thou me.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> I know not, Father. </l>
+       <l>What mean you?</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l> Thou dost know—His name was </l>
+       <l>! </l>
+      </lg>
+      <stage>(He pauses.)</stage>
+      <lg>
+       <l> What follows upon this? If 'twas permitted— </l>
+       <l>For evil is permitted, even as good— </l>
+       <l>If 'twas permitted that one fatal face </l>
+       <l>Should be the cause why sacrilegious hands </l>
+       <l>Have broken the communion of the Faith, </l>
+       <l>And bent the very word of God himself, </l>
+       <l>Unto the impious glosses of bold men, </l>
+       <l>Who dare cross-question the Redeemer's self, </l>
+       <l>And make his laws a peg, whereon to hang </l>
+       <l>Blasphemous cavils—If 'twas so permitted? </l>
+       <l>What glory shall be hers who brings the balm </l>
+       <l>To heal the wound again? Who would not pledge </l>
+       <l>Her soul, however priceless, for the hope </l>
+       <l>Of such a ransom?—Thou do'st answer not— </l>
+       <l>Deem that the fate of millions may be set </l>
+       <l>Upon that brow—thine eyes two constellations </l>
+       <l>That tell of change and herald destiny.— </l>
+       <l>Oh! but methinks that I could foot the waves, </l>
+       <l>Or pass unscathed into the furnace jaws; </l>
+       <l>Yea, live where all created being else </l>
+       <l>Die ere they can breathe twice—so that this hand </l>
+       <l>Did point me to the way—Nay, scorn me not, </l>
+       <l>Nor play the prude with Fate—by Heaven, I'll have't! </l>
+       <l>—I am not that I seem—</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Thou'rt not, indeed! </l>
+       <l>Unhand me—monstrous and unhallow'd villain— </l>
+       <l>Methinks the sight of thee e'en doth pollute </l>
+       <l>The eye that sees.—O! what a film hath lain </l>
+       <l>Upon our sight—Hence! ere that Babington </l>
+       <l>Hath found that Treach'ry and Ingratitude </l>
+       <l>Are nestling at his very hearth, to sting him. </l>
+       <l>—Begone—or ere I breathe what thing thou art— </l>
+       <l>That mercy I afford thee.</l>
+      </lg>
+     </sp>
+     <stage> (She is going out.)</stage>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l> Yea—So high? </l>
+       <l>Why then, I must let fly another falcon. </l>
+       <l>In faith 'tis time! I hardly thought that woman </l>
+       <l>Had been so hard to deal with. </l>
+      </lg>
+      <stage>(He seizes her arm, and leads her back.)</stage>
+      <lg>
+       <l> Soft you, lady, </l>
+       <l>A word or two or ere ye go, and in </l>
+       <l>Another key, since this doth please you not. </l>
+       <l>—Sit there—nay, sit, I say—I will be plain, </l>
+       <l>Since Flattery's out of fashion—Do not tremble—</l>
+      </lg>
+      <stage>(He seats himself at a little distance.)</stage>
+      <lg>
+       <l>Now—what d'ye think me, lady?</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Insolent, </l>
+       <l>As well as reckless!—of created things, </l>
+       <l>But tell me which is worst, and thou art worse </l>
+       <l>Than that—what means this awless violence?</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l>Violence!—you wrong me, sweet madam: but he who rhymes not must
+                                prose; who doth not sing must say!— A word in your ear, ere you
+                                leave me. Thou wilt tell Babington, wilt thou, lady? deem'st thou I
+                                had thrust mine head within the danger of his reproof, if I had him
+                                not in the toil? What dost thou think me? thou answer'st not; I will
+                                replicate for thee—a Jesuit! whether that be bad, I wot not; but
+                                that it is potent—ay, potent, to the very top of potentiality, I
+                                know. Now, mark me. Whisper one tittle of these passages between
+                                thee and me to human being, and a breath of mine shall make this
+                                house a habitation for foxes; and its master food for kites. They
+                                shall have a quarter of him for the four points o' the compass. I
+                                know the slipperiness of your sex well enough! Beware! One
+                                whisper—and—and a swifter and a sadder doom falls upon this house,
+                                than was rained on the city Lot pray'd for. I tell thee, there is
+                                but a single wag of thy tongue betwixt Babington's neck and the
+                                hangman's axe. Remember that—and bite thou thy tongue out, rather
+                                than let it ope the door to this secret.—Fare thee well. </l>
+      </lg>
+      <stage>(He returns.)</stage>
+      <lg>
+       <l> One word more. Look, as thou art wont, on Babington, on his mother,
+                                on me, on all. No sighings, nor droopings; no brows of insinuation,
+                                nor tricks o' th eyelash. I tell thee, wherever thou hast motion, I
+                                have eyes; wherever thou hast voice, I have ears; whisper me like
+                                Midas' wife but to the reeds, and thou shalt rouse a </l>
+       <l> snake! And now, fare thee well; answer me not; but— remember,—I say
+                                again—remember.</l>
+      </lg>
+     </sp>
+     <stage> [Ballard goes out.</stage>
+     <sp who="#agnes">
+      <speaker>AGNES </speaker>
+      <stage>(looking round fearfully.)</stage>
+      <lg>
+       <l>Yes; he is gone—Where am I? Is this so; </l>
+       <l>Or hath some swift distemper seized my brain, </l>
+       <l>And driven it into phrenzy? I do quiver </l>
+       <l>Like one just starting from some horrid dream, </l>
+       <l>Whose fear still deems it real. There are those </l>
+       <l>They say, in gay but earthquake-shaken climes, </l>
+       <l>Who in the midst of joy and smilingness </l>
+       <l>Have seen a sudden gulph yawn at their feet, </l>
+       <l>Whence darkness seem'd to issue. Such a horror </l>
+       <l>Is now before me. Merciful powers! what course— </l>
+       <l>What way of flight—what method of avoidance </l>
+       <l>Can save me from th' abyss? No stay!—no counsel!— </l>
+       <l>I am as one upon whose sleep a snake </l>
+       <l>Hath coil'd itself! I see mine enemy, </l>
+       <l>But dare not stir to shun him, lest that danger </l>
+       <l>Be trebled by retreat. What's to be done? </l>
+       <l>—Oh! Babington, in what most perilous mystery </l>
+       <l>Hath thy high soul embark'd thee? Let me rally </l>
+       <l>My scatter'd senses ere I act in this; </l>
+       <l>Then, were my life the guerdon of thy safety, </l>
+       <l>It should be freely render'd. The mean while, </l>
+       <l>No womanish weakness shall bewray thy secret, </l>
+       <l>Though, of all griefs, there is no pang comes nigh </l>
+       <l>The being grieved—and yet forbid to sigh.</l>
+      </lg>
+     </sp>
+     <stage> [She retires.</stage>
+    </div>
+    <div type="scene" n="2">
+     <head>SCENE II.</head>
+     <stage>—A Gallery.</stage>
+     <stage>Enter Plasket and Gardevin, meeting.</stage>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>Whither so fast, Master Gardevin?</l>
+      </lg>
+     </sp>
+     <sp who="#gardevin">
+      <speaker>GARDEVIN.</speaker>
+      <lg>
+       <l>Why, to seek thee and thy betters.</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>Thou hast seized the forelock of thine errand.—The latter,
+                                peradventure, will be further to seek.—Good journey to thee.</l>
+      </lg>
+     </sp>
+     <sp who="#gardevin">
+      <speaker>GARDEVIN.</speaker>
+      <lg>
+       <l>Thou art a mad wag, Master Plasket. Hast thou seen aught of the Lady
+                                Agnes?</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>I cross'd her even now, i' the Corridor. Seek'st thou her, too?</l>
+      </lg>
+     </sp>
+     <sp who="#gardevin">
+      <speaker>GARDEVIN.</speaker>
+      <lg>
+       <l>Marry do I; she is to go forthwith to her Lady Mother, as she calls
+                                her. Sweet young spriglet!—Know'st thou my lord sets forth to-night?</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>What, Babington?</l>
+      </lg>
+     </sp>
+     <sp who="#gardevin">
+      <speaker>GARDEVIN.</speaker>
+      <lg>
+       <l>Ay, and the rest. But I must to my young lady, and then go and brew
+                                the stirrup-cup—of all cups, the cup I like the worst, Master
+                                Plasket, and yet 'tis good, too.</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>When thou brew'st it!—As how? Thou makest it so strong, the guest
+                                getteth not away at all! Goes Master Boone in their company?</l>
+      </lg>
+     </sp>
+     <sp who="#gardevin">
+      <speaker>GARDEVIN.</speaker>
+      <lg>
+       <l>Ay, marry, doth he.</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>Then, hark thee, Master Gardevin; thou mayest shew the top of thy
+                                craft in cup-making. This were the very nick for thee.</l>
+      </lg>
+     </sp>
+     <sp who="#gardevin">
+      <speaker>GARDEVIN.</speaker>
+      <lg>
+       <l>Ay, say'st thou?—as how, Master Plasket?</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>Why, make Master Boone's just potent enough to break his neck by the
+                                way.</l>
+      </lg>
+     </sp>
+     <sp who="#gardevin">
+      <speaker>GARDEVIN.</speaker>
+      <lg>
+       <l>Aha! thou art a wicked wag.—Well, Heaven mend thee, ere thou break'st
+                                thine own neck. I must away to my young lady.</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>And I to mine old lady.—God be wi' ye.</l>
+      </lg>
+     </sp>
+     <stage> [They go out.</stage>
+    </div>
+    <div type="scene" n="3">
+     <head>SCENE III.</head>
+     <stage>—A Chamber.</stage>
+     <stage>Enter Babington and Agnes.</stage>
+     <sp who="#babington">
+      <speaker>BABINGTON.</speaker>
+      <lg>
+       <l>Come, gentle Agnes, ere we take to horse, </l>
+       <l>A careful courier asks for his dispatches. </l>
+       <l>Tell me what female mission I can carry, </l>
+       <l>And put to th' executive? What fashion-monger </l>
+       <l>Or sempstress, at the top o' the town favour, </l>
+       <l>Have I credentials to? Methought you look'd </l>
+       <l>As you would speak with me. What, silent still? </l>
+       <l>Pray Heaven, a letter for the pretty Edith, </l>
+       <l>Sir Jeffrey's daughter!—Tell me now, in short, </l>
+       <l>What 'tis that I must do.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Sooth, nothing sir— </l>
+       <l>Unless it be—not to forget us in </l>
+       <l>Your absence—nor to make that absence long.</l>
+      </lg>
+     </sp>
+     <sp who="#babington">
+      <speaker>BABINGTON.</speaker>
+      <lg>
+       <l>Nay, but there's something else.—Come, say it out </l>
+       <l>Or ere I go.—Time presses.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> There is nothing— </l>
+       <l>Or if there is, I know not how to speak't; </l>
+       <l>And, were it spoken—'twere but thrown away.</l>
+      </lg>
+     </sp>
+     <sp who="#babington">
+      <speaker>BABINGTON.</speaker>
+      <lg>
+       <l>And wherefore thrown away? Why, dearest Agnes, </l>
+       <l>This hath not been your wont. Although your guardian, </l>
+       <l>I am your friend no less. Come, say your wish </l>
+       <l>Or ere I go, for go I must—and soon.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Then my request were better left untold— </l>
+       <l>For, would you bid me ask of you a boon, </l>
+       <l>'Twere—that you would not go.</l>
+      </lg>
+     </sp>
+     <sp who="#babington">
+      <speaker>BABINGTON, </speaker>
+      <stage>(much struck.)</stage>
+      <lg>
+       <l> Not go!— </l>
+       <l> And wherefore? </l>
+       <l>What superstition's this? Wherefore, dear trembler, </l>
+       <l>Should I not go?—Why, what should harm me, Agnes?</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Nay, that I know not—do not ask me that; </l>
+       <l>But do not go—oh! not, at least, to-day!</l>
+      </lg>
+     </sp>
+     <sp who="#babington">
+      <speaker>BABINGTON.</speaker>
+      <lg>
+       <l>At least to-day? and why to-day? is it </l>
+       <l>My Ides of March?—why, what is in to-day </l>
+       <l>More than to morrow, or the next, to that, </l>
+       <l>Or any other in the calendar, </l>
+       <l>That I should tarry?—what is there to fear? </l>
+       <l>Why, Agnes, sure I am an honest man, </l>
+       <l>And what should harm me, then, on any day, </l>
+       <l>Or what are days to me?</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> They should not be. </l>
+       <l>But in bad times the best are most unsafe, </l>
+       <l>And Treachery lurks where Innocence doth walk— </l>
+       <l>Indeed it doth—and, therefore, do not go.</l>
+      </lg>
+     </sp>
+     <sp who="#babington">
+      <speaker>BABINGTON.</speaker>
+      <lg>
+       <l>Tears, too!—Ah! soft dissembler, I have found it. </l>
+       <l>These are for Tichbourne.—Have I hit you now? </l>
+       <l>Nay, there's no need to blush.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Ah! no—no, no!— </l>
+       <l>If Babington but stay, let Tichbourne go— </l>
+       <l>I know not what I say—forgive me, sir, </l>
+       <l>And think me not immodest.—Help me, Heaven, </l>
+       <l>In this extremity.—</l>
+      </lg>
+      <stage>(Aside.)</stage>
+      <lg>
+       <l> He's here, great God! </l>
+       <l>And all is lost! </l>
+      </lg>
+      <stage>Enter Ballard, hastily.</stage>
+      <lg>
+       <l> Ha!—hand in hand! Well found, </l>
+       <l>The loadstone's here.</l>
+      </lg>
+      <stage>(He walks up quickly, and says, markedly,)</stage>
+      <lg>
+       <l>, lady, what </l>
+       <l>I told you, not long since. Nay, let me not </l>
+       <l>Make you look serious—but you know they say </l>
+       <l>“Long leave-takings make longest absences, </l>
+       <l>And lightliest parted with comes soonest home.” </l>
+      </lg>
+      <stage>(Aside.)</stage>
+      <lg>
+       <l> Tears in her eyes! By Heaven, I like it not, </l>
+       <l>Yet Babington looks calm and cheerfully. </l>
+      </lg>
+      <stage>(Aloud.)</stage>
+      <lg>
+       <l> So goes the proverb, lady. Honour'd sir, </l>
+       <l>I came to tell you that our horses wait </l>
+       <l>E'en now i' the court-yard, and our day wears late. </l>
+       <l>If't please you now to mount, 'tis two o'clock.</l>
+      </lg>
+     </sp>
+     <sp who="#babington">
+      <speaker>BABINGTON.</speaker>
+      <lg>
+       <l>I am ready all. Here comes my mother, too. </l>
+      </lg>
+      <stage>(Aside.)</stage>
+      <lg>
+       <l> What meant her tears and most unused alarm? </l>
+       <l>Whate'er they meant—no matter—'tis too late, </l>
+       <l>And yet 'twas strange. </l>
+      </lg>
+      <stage>Enter the Lady Maud, Tichbourne, Charnock, Plasket, &amp;c.</stage>
+      <lg>
+       <l> Mother, your hand, if't please you.</l>
+      </lg>
+     </sp>
+     <stage>(Babington, Agnes, and the Lady Maud talk apart.)</stage>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <stage>(Aside.)</stage>
+      <lg>
+       <l> I'll watch ye well until ye separate. </l>
+       <l>Methought the secret trembled on her lips. </l>
+       <l>On what a precious footing doth he stand, </l>
+       <l>'Twixt whom and ruin all the barrier is </l>
+       <l>A woman's constancy! No more o' your glances; </l>
+       <l>They might beseech a saint, or thaw the ice </l>
+       <l>Of froz'n philosophy. By Heaven, he alters!</l>
+      </lg>
+     </sp>
+     <sp who="#babington">
+      <speaker>BABINGTON, </speaker>
+      <stage>(coming forward.)</stage>
+      <stage>(Aside.)</stage>
+      <lg>
+       <l> This parting is the hardest task of all! </l>
+       <l>How fain my heart would be upon my lips. </l>
+       <l>Down, down, I say—where is my resolution? </l>
+      </lg>
+      <stage>(Aloud.)</stage>
+      <lg>
+       <l> Madam, or ere I go, it is but fit </l>
+       <l>I crave your blessing; and, next after that, </l>
+       <l>Your best commands and motherly direction.</l>
+      </lg>
+     </sp>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l>Thou hast it, son. And, for advice of mine, </l>
+       <l>My sole direction is thy nurture. As </l>
+       <l>Thou hast been educate, so wilt thou act, </l>
+       <l>And that was after goodness still, and honour, </l>
+       <l>And all that may become a Babington.— </l>
+       <l>Thou hast not told me when thou shalt return.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <stage>(Aside.)</stage>
+      <lg>
+       <l> Never. I'll wager six to one on't! He changes again. Keep your
+                                Basilisk eyes off him, madam, you had best!</l>
+      </lg>
+     </sp>
+     <sp who="#babington">
+      <speaker>BABINGTON.</speaker>
+      <lg>
+       <l>In some few days, perhaps—or, at the least, </l>
+       <l>Such is my purpose.</l>
+      </lg>
+     </sp>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l> Nay, nay; look not grave: </l>
+       <l>Far be it from me to limit your sojourn. </l>
+       <l>My son shall make return e'en when he can; </l>
+       <l>I ask no more.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <stage>(Aside.)</stage>
+      <lg>
+       <l> You had better not, seeing the business we have in hand. Still
+                                watching him! By St Loyola, I'll spoil this ogling!</l>
+      </lg>
+     </sp>
+     <sp who="#babington">
+      <speaker>BABINGTON.</speaker>
+      <lg>
+       <l> Madam, I bid farewell: </l>
+       <l>And farewell all. </l>
+      </lg>
+      <stage>(To Agnes.)</stage>
+      <lg>
+       <l> You shall be merrier </l>
+       <l>When we return.</l>
+      </lg>
+     </sp>
+     <sp who="#tichbourne">
+      <speaker>TICHBOURNE.</speaker>
+      <lg>
+       <l> I hope sir, and she shall.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <stage>(Aside.)</stage>
+      <lg>
+       <l> Oh! well put in, Master Malapert!</l>
+      </lg>
+     </sp>
+     <sp who="#tichbourne">
+      <speaker>TICHBOURNE.</speaker>
+      <lg>
+       <l>Lady, an if I thought your sadness were </l>
+       <l>Because I went, in sooth I were less sad: </l>
+       <l>And so, farewell.</l>
+      </lg>
+     </sp>
+     <sp who="#babington">
+      <speaker>BABINGTON.</speaker>
+      <lg>
+       <l> Come, Tichbourne, come at once; </l>
+       <l>Farewell to all.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l>Farewell, mine honoured lady.</l>
+      </lg>
+     </sp>
+     <stage> [Babington, Tichbourne, Charnock, and Ballard, go.</stage>
+     <sp who="#agnes">
+      <speaker>AGNES, </speaker>
+      <stage>(rushing hastily out.)</stage>
+      <lg>
+       <l>He's gone, and I shall hear that voice no more.</l>
+      </lg>
+     </sp>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l>Why, Agnes, whither would'st thou?</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES, </speaker>
+      <stage>(much agitated.)</stage>
+      <lg>
+       <l> Pardon me.— </l>
+       <l>To the south turret, madam. I would fain— </l>
+       <l>See them—take horse.</l>
+      </lg>
+     </sp>
+     <stage> [She goes out.</stage>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l> Hark, Plasket; when thou hast </l>
+       <l>Seen thy lord mount, bring Agnes to my chamber; </l>
+       <l>And pr'ythee, try devise some means of mirth. </l>
+       <l>Of late, poor thing, I've mark'd her melancholy, </l>
+       <l>And her tongue's music sadly hath declined </l>
+       <l>To a most speaking silence. She must have </l>
+       <l>Some change of mirth and converse. What it is </l>
+       <l>I know not—but there's somewhat preys upon her. </l>
+       <l>Pr'ythee, be gone.</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l> I shall obey you, madam. </l>
+       <l>At least, I'll do my best. </l>
+      </lg>
+      <stage>(Aside.)</stage>
+      <lg>
+       <l>Hard task to smile, </l>
+       <l>When the eye droops, and the heart bleeds the while.</l>
+      </lg>
+     </sp>
+     <stage> [They go out.</stage>
+    </div>
+    <div type="scene" n="4">
+     <head>SCENE IV.</head>
+     <stage>—An Apartment.</stage>
+     <stage>Enter Walsingham and Gifford, hastily.</stage>
+     <sp who="#walsingham">
+      <speaker>WALSINGHAM.</speaker>
+      <lg>
+       <l>Mark me, I say. This issue is the last. </l>
+       <l>If 'tis thine errand to equivocate, </l>
+       <l>To shuffle, and put forth mysterious riddles, </l>
+       <l>Thy time's gone by. Speak out, knave, at thy peril!</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l>My lord—my lord!—</l>
+      </lg>
+     </sp>
+     <sp who="#walsingham">
+      <speaker>WALSINGHAM.</speaker>
+      <lg>
+       <l>Thou sayest there is a foul conspiracy, </l>
+       <l>And that thou sayest sooth, I well believe. </l>
+       <l>Name the conspirators—or be content </l>
+       <l>To pass for one thyself. I will just give thee </l>
+       <l>Five minutes, for confession, or the rack.</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l>My lord, they shall be named, though not by me.</l>
+      </lg>
+     </sp>
+     <sp who="#walsingham">
+      <speaker>WALSINGHAM.</speaker>
+      <lg>
+       <l>By whom, then?</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l> By my master.</l>
+      </lg>
+     </sp>
+     <sp who="#walsingham">
+      <speaker>WALSINGHAM.</speaker>
+      <lg>
+       <l> Who is he?</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l>I know not.</l>
+      </lg>
+     </sp>
+     <sp who="#walsingham">
+      <speaker>WALSINGHAM.</speaker>
+      <lg>
+       <l> Where is he?</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l> I know not.—But </l>
+       <l>I know where he shall be within six hours.</l>
+      </lg>
+     </sp>
+     <sp who="#walsingham">
+      <speaker>WALSINGHAM.</speaker>
+      <lg>
+       <l>Where?</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l> Here!</l>
+      </lg>
+     </sp>
+     <sp who="#walsingham">
+      <speaker>WALSINGHAM.</speaker>
+      <lg>
+       <l> This subterfuge shall not avail thee. </l>
+       <l>This is a train to ope thy passage out: </l>
+       <l>It shall not help thee. If that thou canst sink </l>
+       <l>E'en like a spirit, through the impassable stone, </l>
+       <l>Or make the bolts and bars leap at thy bidding, </l>
+       <l>Then thou shalt go. If not, thou may'st remain. </l>
+       <l>—Within, there!</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l>Hush! my lord. Hush! Will you mar all for a minute's impatience?
+                                Bolts! keep your fangs upon me, and welcome. Set me i' the stocks an
+                                you will, only grant that which I ask. It is my last request, my
+                                lord—save one—and that, I trow, ye'll grant without the asking, if a
+                                saved throat may ensure gratitude.</l>
+      </lg>
+     </sp>
+     <sp who="#walsingham">
+      <speaker>WALSINGHAM.</speaker>
+      <lg>
+       <l>Then, sirrah! should'st thou grateful be, indeed, </l>
+       <l>That I have saved thee thus far from the gallows. </l>
+       <l>But now thine hour is come. Speak out, or—hang!</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l>Sir, I will be plain with you. 'Tis my cue. I wish not to escape your
+                                custody. Give me the escort of a troop of horse. Let them take me
+                                whither I choose to go. 'Tis but a ten hours' journey; and if ye be
+                                not satisfied ere I return, let one of your men-at-arms unlace me
+                                like a coney, with his toledan for a carving-knife.</l>
+      </lg>
+     </sp>
+     <sp who="#walsingham">
+      <speaker>WALSINGHAM.</speaker>
+      <lg>
+       <l>Whither would'st thou go?</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l>To the vipers' nest. In ten hours will I bring ye what they have been
+                                these ten months a hatching; and, ere I return, ye shall have every
+                                head of them on Temple-Bar, if ye like. Read that, sir. </l>
+      </lg>
+      <stage>(Giving a paper.)</stage>
+     </sp>
+     <sp who="#walsingham">
+      <speaker>WALSINGHAM.</speaker>
+      <lg>
+       <l>A sealed packet!—What is it?</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l>It shall tell you what my master is, though I know it not myself.
+                                Now, will ye let me begone?</l>
+      </lg>
+     </sp>
+     <sp who="#walsingham">
+      <speaker>WALSINGHAM.</speaker>
+      <lg>
+       <l>I am satisfied.—Within there, Sir Amias. </l>
+      </lg>
+      <stage>Enter Sir Amias Paulet.</stage>
+      <lg>
+       <l>Saddle a squadron of your chiefest horse, </l>
+       <l>And take the guidance of this gentleman; </l>
+       <l>But, ere ye go, send orders to Lord Pembroke, </l>
+       <l>Between this and to-morrow, to post troops </l>
+       <l>Upon the road to Fotheringay. Instruct him </l>
+       <l>To be alert; the time is full of peril. </l>
+       <l>Begone—Come back—Give orders to the sentinels, </l>
+       <l>Whoever asks admittance at the hour </l>
+       <l>Writ on this paper, bring him to me straight, </l>
+       <l>And ask no questions.</l>
+      </lg>
+     </sp>
+     <sp who="#sir_amias">
+      <speaker>SIR AMIAS.</speaker>
+      <lg>
+       <l> I shall do't, my lord.</l>
+      </lg>
+     </sp>
+     <stage> [Sir Amias and Gifford go.</stage>
+     <sp who="#walsingham">
+      <speaker>WALSINGHAM.</speaker>
+      <lg>
+       <l>Even as a man that wields a two-edged sword </l>
+       <l>Will oft-times wound himself; were treason not </l>
+       <l>A traitor to himself, what state could stand </l>
+       <l>The shot of his fell malice? Yet, what's treason? </l>
+       <l>A game by passion and by envy play'd </l>
+       <l>Against the winner, losing which, he doubles </l>
+       <l>The odds, then plays again. </l>
+       <l> Mistaken men! </l>
+       <l>As for this coil in hand, their culverin, </l>
+       <l>So cunningly though levell'd, e'en shall burst </l>
+       <l>With th' venom of its loading, and so mar </l>
+       <l>The hand that pointed. I must in to council. </l>
+       <l>It must be look'd to.</l>
+      </lg>
+     </sp>
+     <stage> [He retires.</stage>
+    </div>
+   </div>
+   <div type="act" n="4">
+    <head>ACT IV.</head>
+    <div type="scene" n="1">
+     <head>SCENE I.</head>
+     <stage>—A Chamber.</stage>
+     <stage>Agnes and the Lady Maud.</stage>
+     <stage>Agnes touches a lute, and lays it down again.</stage>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l>Are the chords false, that thou dost scorn them so, </l>
+       <l>Or is't thy heart that hath grown out of tune, </l>
+       <l>And so thy fingers falsify the strings, </l>
+       <l>Which yet are true, through thine distemperature? </l>
+       <l>Why, Agnes, did the merry Tichbourne see </l>
+       <l>These drooping eye-lids, they should almost fright </l>
+       <l>The spirit of his truth—and that were ill— </l>
+       <l>For, by my troth, he wears a true light heart.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Too lightly worn to wear well, haply, madam.</l>
+      </lg>
+     </sp>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l>Too lightly worn to wear well, haply, madam! </l>
+       <l>Why, lightliest worn for ever wears the longest. </l>
+       <l>Now this is the true spirit of misrule. </l>
+       <l>And so, because thou know'st he loves not grief, </l>
+       <l>Thou'lt do thy best to fall in love with it.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Nay, madam, you have grown in love with mirth, </l>
+       <l>And of the sudden—for 'tis all o' late— </l>
+       <l>And yet I marvel at it, for methinks </l>
+       <l>Your son is none of those same nimble tongues; </l>
+       <l>And surely you'd not undervalue him.</l>
+      </lg>
+     </sp>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l>No, Agnes, no; a mother's fondness doubled, </l>
+       <l>If double of a mother's love could be, </l>
+       <l>Were not too much for him—yet is he grave, </l>
+       <l>Too grave, methinks, for many ladies' love, </l>
+       <l>Who cannot find desert, unless it be </l>
+       <l>Bloom'd o'er with smiles, and wreathed with many mirths, </l>
+       <l>As if it were the garland made the May.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>The eagle, when he soars towards the sun, </l>
+       <l>Is blind to specks beneath; and, lofty souls, </l>
+       <l>Whose aspirations rise a higher pitch, </l>
+       <l>Stoop not to mingle with the petty crowd </l>
+       <l>That keep the surface, and fret to and fro, </l>
+       <l>Full of the little business of the world. </l>
+       <l>Strong minds are ever difficult to move, </l>
+       <l>And, most of all, to laughter or disport; </l>
+       <l>Such is the gravity of Babington.</l>
+      </lg>
+     </sp>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l>Agnes, thou still wast partial in his praise; </l>
+       <l>But tell me, think'st thou Babington ambitious?</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Pardon me, madam—no.</l>
+      </lg>
+     </sp>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l> Nay, blush not, Agnes; </l>
+       <l>Thou dost mistake me. All my drift was this; </l>
+       <l>Think'st thou his mind superior to his state?</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Methinks his mind is better than his state, </l>
+       <l>And would be so, whate'er that state might be.</l>
+      </lg>
+     </sp>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l>But dost thou think distinction is his aim?</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Virtuous distinction, madam; noble toil </l>
+       <l>Surely he would prefer to recreant case.</l>
+      </lg>
+     </sp>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l>In truth, he hath been lofty from a child, </l>
+       <l>And e'en his boyish pastimes relish'd still </l>
+       <l>Of a minute and honourable pride: </l>
+       <l>I have observed it oft.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Oh! doubtless, madam. </l>
+       <l>I well remember, in our infancy, </l>
+       <l>When each would have a favourite plant or flower, </l>
+       <l>He loved the wall-flower most, because it roots </l>
+       <l>Itself the highest, and can brave the blast, </l>
+       <l>And climb the rifted rock, or time-worn tower; </l>
+       <l>And he would praise the holly, for it smiled </l>
+       <l>Despite the frown of winter, as the bold </l>
+       <l>Can live and flourish in adversity.</l>
+      </lg>
+     </sp>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l>And say, which was my Agnes' favourite flower?</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>In sooth I know not, madam—or perchance </l>
+       <l>I have forgotten—'tis so long ago. </l>
+       <l>Yet do not think but Babington is kind </l>
+       <l>For all this prattle. I have seen him weep </l>
+       <l>O'er a wild air, brought from the Scottish hills,— </l>
+       <l>A simple soothing air, but which they say </l>
+       <l>Rizzio once sung to falling majesty, </l>
+       <l>As if his very soul died with the strain </l>
+       <l>Dissolved in music, as the summer mists </l>
+       <l>Melt in the first tide of the tender dawn. </l>
+       <l>It told of purple hills, and forests green, </l>
+       <l>Embosom'd lakes, and odour-breathing flowers, </l>
+       <l>And buds just oped, and sunny streams that glitter'd </l>
+       <l>And danced i'the early ray—now distant far, </l>
+       <l>And seen, alas! no more. In sooth, 'twas sweet, </l>
+       <l>And I did weep with him, nor ever knew </l>
+       <l>How melody spoke till then. </l>
+       <l> Nay, chide me not, </l>
+       <l>I could not choose but weep. Good truth, it moved me </l>
+       <l>As it had waken'd a new pulse of life </l>
+       <l>That never beat before. Nay, frown not, madam.</l>
+      </lg>
+     </sp>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l>I do not frown; but thou givest up thyself </l>
+       <l>Too much unto these fanciful conceits, </l>
+       <l>Born of imagination, which hath not </l>
+       <l>Whereon to diet, and will therefore make </l>
+       <l>Food for itself. What would'st thou say, dear girl?</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>What plant is that, which being only touch'd </l>
+       <l>Or look'd upon with an ungentle gaze, </l>
+       <l>Doth wither straight, and die?</l>
+      </lg>
+     </sp>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l> I know not, child; </l>
+       <l>Why dost thou ask?</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Only because methinks </l>
+       <l>That plant should ever bloom the best with me.</l>
+      </lg>
+     </sp>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l>Why, Agnes, Agnes, this is childishness.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Dear mother!</l>
+      </lg>
+     </sp>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l> Sooth, I must be sharp with you.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Be what you please, and say what I must be, </l>
+       <l>And I am that, dear madam;—only love me, </l>
+       <l>And be “my mother” still.</l>
+      </lg>
+     </sp>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l> I am, dear girl. </l>
+       <l>Take now thy lute, and breathe some simple air, </l>
+       <l>May help us to forget this foolish talk.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Madam, I shall. There is a little air </l>
+       <l>This many a day hath hung about my lute, </l>
+       <l>As if some spirit had o'erswept the strings, </l>
+       <l>And tuned them to his fantasy.—'Tis sweet, </l>
+       <l>But melancholy.—Shall I sing it, madam?</l>
+      </lg>
+     </sp>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l>E'en as thou wilt, dear child, so that thou sing'st.</l>
+      </lg>
+     </sp>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l>Why this, methinks, is sadness' very self.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>'Tis from the heart, dear mother, and they say </l>
+       <l>Music, e'en like discourse, should still be child </l>
+       <l>O' th' heart, or else 'tis nothing. </l>
+       <l> Plasket, welcome.</l>
+      </lg>
+     </sp>
+     <stage>Enter Plasket.</stage>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l>Now, Plasket, what's the newest folly stirring?</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>None so new, my lady, but that 'tis old enough; and none so old, but
+                                that it comes with a new face, fashion-changed; e'en like our dames
+                                o' quality; of whom the oldest hath haply the newest complexion!</l>
+      </lg>
+     </sp>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l>A riddle! what's this folly that thou talk'st of?</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>'Tis a new gift, as easy as fortune-telling, and not quite so
+                                ticklish. Marry, 'tis the faculty of seeing what is not to be seen,
+                                and hearing what is not to be heard. A goodly accomplishment! and
+                                right likely to thrive!</l>
+      </lg>
+     </sp>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l>What foolery's this, good Plasket?</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>You may say so—Here's a bumpkin, this morning, will swear you the
+                                Baron's chapel, last night, was lighted up, as for a death
+                                solemnity, and that he heard airy voices chanting the requiem!</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>What dost thou say? strange music heard i'the night? —did'st thou
+                                hear aught?</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>Truly, not I—had it been the music o' the spheres! Snoring is all my
+                                concert till cock-crowing—unless the wind sing i' the chimney, as it
+                                did last night.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>This is but fooling. </l>
+      </lg>
+      <stage>(Anxiously.)</stage>
+      <lg>
+       <l>Didst thou hear nought else?</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>Not I, sweet lady.</l>
+      </lg>
+     </sp>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l> Wherefore should he, Agnes? </l>
+       <l>What fancy's this?</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> No fancy!—I, too, heard it.</l>
+      </lg>
+     </sp>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l>What did'st thou hear?</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> A solemn strain of music, </l>
+       <l>That mingled with the wind. Methought it floated </l>
+       <l>And plain'd around the turrets of the house, </l>
+       <l>Despite the surging air.</l>
+      </lg>
+     </sp>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l> This was some dream.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>It was no dream.—Your clear and living voices </l>
+       <l>Are not more palpable.</l>
+      </lg>
+     </sp>
+     <stage>Enter a Servant, hastily.</stage>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l> How now? thou sweat'st </l>
+       <l>As if thou hadst drunk hyssop!</l>
+      </lg>
+     </sp>
+     <sp who="#servant">
+      <speaker>SERVANT.</speaker>
+      <lg>
+       <l> Honour'd lady, </l>
+       <l>I come to say, a troop of horsemen spur </l>
+       <l>Fast up the avenue. Is it your pleasure </l>
+       <l>The gates be barr'd?</l>
+      </lg>
+     </sp>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l> A troop of horsemen say'st thou? </l>
+       <l>Arm'd?</l>
+      </lg>
+     </sp>
+     <sp who="#servant">
+      <speaker>SERVANT.</speaker>
+      <lg>
+       <l> Arm'd, my lady.</l>
+      </lg>
+     </sp>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l> Let the gates be closed, </l>
+       <l>If but for ceremony. </l>
+      </lg>
+      <stage> [The Servant goes out.</stage>
+      <lg>
+       <l> Plasket, go </l>
+       <l>Up to the turret, and of what thou see'st </l>
+       <l>Bring back report. No; stay. What needs this stir, </l>
+       <l>Because an armed troop point at my gate? </l>
+       <l>What is there we should fear? We are strong enough </l>
+       <l>To shut out lawless violence; and within </l>
+       <l>The range of any that the law can sanction, </l>
+       <l>God knows, we stand not. </l>
+      </lg>
+      <stage>(knocking heard.)</stage>
+      <lg>
+       <l>They are here already. </l>
+       <l>Now, Gardevin?</l>
+      </lg>
+     </sp>
+     <stage>Enter Gardevin.</stage>
+     <sp who="#gardevin">
+      <speaker>GARDEVIN.</speaker>
+      <lg>
+       <l> An armed troop, my lady, </l>
+       <l>Are at the gate, and in the Queen's name seek </l>
+       <l>Straightway admittance.</l>
+      </lg>
+     </sp>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l> Did'st thou ask their mission?</l>
+      </lg>
+     </sp>
+     <sp who="#gardevin">
+      <speaker>GARDEVIN.</speaker>
+      <lg>
+       <l>I did, my lady; but their leader bade me </l>
+       <l>To ope our gates forthwith, without more parley, </l>
+       <l>Nor deign'd to speak aught else.</l>
+      </lg>
+     </sp>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l> So peremptory! </l>
+       <l>In the Queen's name? what means this visitation? </l>
+       <l>No matter.—Let the gates be oped at once; </l>
+       <l>The guilty fear—not we. </l>
+      </lg>
+      <stage> [Gardevin retires.</stage>
+      <lg>
+       <l> Why dost thou tremble? </l>
+       <l>What dost thou fear?</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> I know not what I fear— </l>
+       <l>But feel a formless horror creep around me, </l>
+       <l>That makes me tremble, as the viewless wind </l>
+       <l>Doth shake the aspen.</l>
+      </lg>
+     </sp>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l> This is weakness; fie!</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>It is—I know it is—pardon me, mother;— </l>
+       <l>'Tis but a passing shade, and will away— </l>
+       <l>What have the innocent to dread? </l>
+       <l> They are here— </l>
+       <l>Great God!—oh! now be my foreboding false, </l>
+       <l>For this is fear enough.</l>
+      </lg>
+     </sp>
+     <stage>Enter Sir Amias Paulet, Gifford, and Soldiers.</stage>
+     <sp who="#sir_amias">
+      <speaker>SIR AMIAS.</speaker>
+      <lg>
+       <l> Lady—mine office, </l>
+       <l>Believe't, I would had not been laid upon me, </l>
+       <l>For 'tis most painful.</l>
+      </lg>
+     </sp>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l> Say, what is it, sir?</l>
+      </lg>
+     </sp>
+     <sp who="#sir_amias">
+      <speaker>SIR AMIAS.</speaker>
+      <lg>
+       <l>By the Queen's order, through her privy council, </l>
+       <l>It is commanded me to seize this house, </l>
+       <l>And all that it contains.</l>
+      </lg>
+     </sp>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l> To seize this house! </l>
+       <l>On what pretence?</l>
+      </lg>
+     </sp>
+     <sp who="#sir_amias">
+      <speaker>SIR AMIAS.</speaker>
+      <lg>
+       <l> Upon a sworn charge, lady, </l>
+       <l>And no pretence, although I would 'twere not so— </l>
+       <l>For that it harbours traitors.</l>
+      </lg>
+     </sp>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l> Traitors! whom? </l>
+       <l>What traitors?—Surely ye do know our name, </l>
+       <l>That come thus banded to despoil our house,— </l>
+       <l>And when lodged treason with a Babington?</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l>When, say ye? marry, an't please your ladyship, within these ten
+                                hours!—Hark ye, captain; parley no further; 'tis lost breath. Let
+                                your myrmidons ransack the house. 'Tis worth your while; and for
+                                treason—in this very room will I shew ye, i'the nonce, the very
+                                faces of the traitors, and these, too, of their own limning. You
+                                stare. There's a device here, my masters, ye wot not of. Mark ye,
+                                now—ay; here 'tis. Mark ye, now! so; there: Back pannel, and
+                                behold.—</l>
+      </lg>
+      <stage>(He touches a spring, the pannel </stage>
+      <stage>slides back, and discovers a painting of the conspirators.)</stage>
+      <lg>
+       <l> Welcome, gentlemen, from behind your wooden veil. Faith! ye shew
+                                rarely—a precious parterre for the liquorish eyes of Bothwell's
+                                Mary!—“</l>
+       <l>?”—A goodly motto for men going post-haste to the gibbet! Know ye any
+                                here, sweet ladies?</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <stage>(Rushes to the picture and screams.)</stage>
+      <lg>
+       <l> Ah! Babington!</l>
+      </lg>
+     </sp>
+     <sp who="#lady_maud">
+      <speaker>LADY MAUD.</speaker>
+      <lg>
+       <l>Where, where?—mine eyes are dim— </l>
+       <l>What do ye point at?—traitor? sir; no, no. </l>
+       <l>There is some likeness e'en 'twixt Heav'n and Hell! </l>
+       <l>It is some gin of wicked treachery— </l>
+       <l>I say, it is not he—it is not Babington— </l>
+       <l>No son—no child—of mine—</l>
+      </lg>
+     </sp>
+     <stage> [She faints.</stage>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Oh! ye have kill'd her.</l>
+      </lg>
+     </sp>
+     <sp who="#sir_amias">
+      <speaker>SIR AMIAS.</speaker>
+      <lg>
+       <l>Support her, there, poor lady. Let us mingle </l>
+       <l>Pity with duty. Go, search every chamber </l>
+       <l>Throughout the house.— </l>
+       <l> Stay—doth this ashen hue, </l>
+       <l>Argue the life burnt out? or the weak spirits, </l>
+       <l>Ta'en with a sudden fear at this dire news, </l>
+       <l>Shrink back to their recesses—doth she not breathe? </l>
+       <l>Your arm—here—harden'd monk! Gently, good fellow, </l>
+       <l>There—bear her gently up.</l>
+      </lg>
+     </sp>
+     <stage> [As they raise her, the scene closes.</stage>
+    </div>
+    <div type="scene" n="2">
+     <head>SCENE II.</head>
+     <stage>—A mean Apartment in a House in London.</stage>
+     <sp>
+      <stage>AGNES alone.</stage>
+      <lg>
+       <l>Darkness draws on—Hath not the ruthful day </l>
+       <l>Sunk faster than his wont from out the sky, </l>
+       <l>Because he would not look upon our tears? </l>
+       <l>—Yet am I calm—Methinks, these gentle elves, </l>
+       <l>(If, as they tell, such are our guardians,) </l>
+       <l>That love the ripple of the moonlight sea; </l>
+       <l>Or silver bosom of the sleeping lake; </l>
+       <l>Or stilly grot that shades some sacred spring, </l>
+       <l>Or rest mid myrtle groves, where no leaf stirs, </l>
+       <l>On woven beds of languid odour'd flowers, </l>
+       <l>Have left their haunts, thus to o'ersway my senses. </l>
+       <l>—Whence comes this calmness else? </l>
+       <l> Oh! Babington, </l>
+       <l>Have I not drank from thy beloved eyes </l>
+       <l>Some of their high resolve mix'd with their softness? </l>
+       <l>Methinks I am with thee still, and still shall be, </l>
+       <l>And therefore do I sink not—There's a shore </l>
+       <l>Beyond this troublous sea, where we shall rest;— </l>
+       <l>So sorrow loves to dream.—Is it not so? </l>
+       <l>I have heard that men, deep bowell'd in the earth, </l>
+       <l>Can see the stars at mid-day—even so grief, </l>
+       <l>When we are deepest plunged in the abyss, </l>
+       <l>Points to the world beyond, and heavy eyes </l>
+       <l>See clearest through their tears. </l>
+       <l> What was that noise? </l>
+       <l>A footstep sure—It is—He comes, and all </l>
+       <l>Is over, ere 'tis spoken. </l>
+      </lg>
+      <stage>Enter Plasket.</stage>
+      <lg>
+       <l> Thou hang'st back, </l>
+       <l>As if a freight of grief did clog thy steps.— </l>
+       <l>Whate'er thou say'st say quickly—out! alack! </l>
+       <l>Methinks thy speech is figured in thine eye; </l>
+       <l>And both are full of death.</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l> Compose yourself, </l>
+       <l>Beseech you, dearest lady.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Is there none— </l>
+       <l>No hope? no stay? no way of refuge left? </l>
+       <l>Their youth—their early time—the subtle poison </l>
+       <l>Wherewith that fiendish traitor blinded them, </l>
+       <l>Might plead to let them live; but only breathe; </l>
+       <l>No matter how, or where.</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l> I pray you, madam, </l>
+       <l>Call up your fortitude to bear what must be. </l>
+       <l>Alas! too sure, there is no hope.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Oh God! </l>
+       <l>How is it that presentiments of blessing </l>
+       <l>So oft are vain, and presages of horror </l>
+       <l>Be ever more fulfilled?</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l> Madam, be calm, </l>
+       <l>Beseech you—</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>I am calm—I have been calm— </l>
+       <l>Yet who can choose but shrink whom the red brand </l>
+       <l>Hath dazzled almost blind? 'Tis over now— </l>
+       <l>Speak to me—tell me what hath pass'd—fear not. </l>
+       <l>Now I am calm enough. Do ye not see? </l>
+       <l>Look on my hand—methinks it trembles not.</l>
+      </lg>
+      <stage>(She holds out a miniature.)</stage>
+      <lg>
+       <l>Mark ye—Thou know'st that brow? 'Tis Babington's. </l>
+       <l>In the fell shock and agony of his fate, </l>
+       <l>Did he look aught like this?</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l> Madam, he did. </l>
+       <l>Nor did his cheek blench colour. When his judges </l>
+       <l>Did tell him he must die, he answer'd calmly, </l>
+       <l>“He did not fear to die. Had he fear'd that, </l>
+       <l>He had not then stood there.”</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Thank God!—Thank God! </l>
+       <l>And how beseem'd the rest?</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l> Even as he did. </l>
+       <l>Little they said, all save the gallant Tichbourne, </l>
+       <l>Who, being ask'd, why he did join himself </l>
+       <l>To such companionship? with brow and eyes </l>
+       <l>Where indignation lighten'd, scornfully </l>
+       <l>Replied—“For company!” </l>
+       <l> What heard you, madam?</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>What noise was that?</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l> Madam, I did hear none.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Again!—'Tis nearer now.—Heard'st thou not that? </l>
+       <l>They drag them to their death-cells through the streets! </l>
+       <l>Sweet Heav'ns, support me now. </l>
+      </lg>
+      <stage> (Shouts drawing nearer.)</stage>
+      <lg>
+       <l> If that thou canst, </l>
+       <l>Look forth, I pray, and tell me what thou see'st. </l>
+       <l>My limbs are powerless!—I am dead already— </l>
+       <l>If that we can die all but our despair. </l>
+       <l>Great God! 'tis Babington.—Support him, Heavens, </l>
+       <l>And let me not faint yet—not yet—not yet! </l>
+      </lg>
+      <stage> (Shouts.)</stage>
+      <lg>
+       <l>And yet my heart, that even dies within me, </l>
+       <l>Only to think of what I dare not look on, </l>
+       <l>Doth almost burst its worthless tenement, </l>
+       <l>As that, perforce, it would be out of doors, </l>
+       <l>Despite its coward mistress. </l>
+      </lg>
+      <stage> (A very loud shout. Agnes screams.)</stage>
+      <lg>
+       <l> Plasket, speak!— </l>
+       <l>Why dost thou hide thine eyes thus with thy hands? </l>
+       <l>It is the savage throng have murder'd him! </l>
+       <l>Speak—speak—for mercy's sake!</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l> It is past now;— </l>
+       <l>I could not bear to see the cruel herd </l>
+       <l>Heap contumelies on his dying head, </l>
+       <l>And mock the patience of his gentleness. </l>
+       <l>Stir not, dear lady. Oh! beseech ye, stir not, </l>
+       <l>It is a needless pang, and there's enough </l>
+       <l>Of cruelty already. I beseech ye, </l>
+       <l>Be patient now.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Yes I am calm.—'Tis past. </l>
+       <l>Thou see'st that I am firm; and, were I not, </l>
+       <l>How should I bear that which is yet to come? </l>
+       <l>I would not die before him, if I might. </l>
+       <l>There is yet much to do—Oh! much.—How much? </l>
+       <l>And in how brief a time?—What agonies, </l>
+       <l>Tearings of heart-strings, mortal throbs o' the bosom, </l>
+       <l>Must make the business of a few short hours? </l>
+       <l>I must act now—whatever pangs await, </l>
+       <l>They must not kill me in the thinking of; </l>
+       <l>Beyond, I care not. </l>
+       <l> Plasket, if thou lovest me, </l>
+       <l>And for his sake, whilom who was thy master, </l>
+       <l>Wait on my bidding through these lonely minutes, </l>
+       <l>And find thy guerdon in his memory— </l>
+       <l>A sad but sweet one.</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l> Can'st thou doubt me, lady?</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Why, then, attend me—whither I would go.</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>And whither would'st thou go, sweet lady? Where </l>
+       <l>Can'st thou find aught that will not ope those wounds </l>
+       <l>Which bleed too fresh already?</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> I would go— </l>
+       <l>Where Babington is chain'd—attend me there.</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>Alack! alack!—This is delirium; </l>
+       <l>Believe't it is, dear lady. It would kill thee </l>
+       <l>Only to look upon't.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <stage>(Firmly.)</stage>
+      <lg>
+       <l> Thou know'st me not. </l>
+       <l>Thou art most ignorant of a woman's strength </l>
+       <l>When she doth struggle but with sufferance. </l>
+       <l>I tell thee it shall float me through these sorrows, </l>
+       <l>Meek as the wounded sea-bird on the waters.— </l>
+       <l>But only let me look on Babington.</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>Lady, where'er thou goest, I will attend thee </l>
+       <l>To my last breath. God strengthen thee, and guide thee.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Then tarry here one moment, and we go.</l>
+      </lg>
+     </sp>
+     <stage> [She goes out.</stage>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>Poor broken heart. This is the desperate strength </l>
+       <l>That madmen wot of, and which dying men </l>
+       <l>Oft make the prelude of their agony. </l>
+       <l>Thus, out of very weakness cometh power— </l>
+       <l>As sorrow often is the child of joy; </l>
+       <l>And those who seem the most unlike the rest, </l>
+       <l>Are levell'd still by contrarieties </l>
+       <l>Down to the common measure of our breath. </l>
+       <l>For what is life? Is't not to be deceived? </l>
+       <l>To struggle still for what we never gain, </l>
+       <l>And when we think we gain it, lose it most. </l>
+       <l>To pine—alike in splendour or in gloom— </l>
+       <l>To find the ore of virtue can but buy </l>
+       <l>Ingratitude—or else to sell our souls, </l>
+       <l>And give the jewel for some tinsell'd cheat— </l>
+       <l>Or being happy to be still betray'd, </l>
+       <l>Until content shall wane into distrust, </l>
+       <l>And mortal bliss shew like a hollow pageant, </l>
+       <l>Splendid as autumn, and as full of death. </l>
+       <l>I, that have still o'erburthen'd my poor wit </l>
+       <l>To fasten scorns upon this coil of ours, </l>
+       <l>Begin to see at last my labour lost. </l>
+       <l>I too have been at fault—e'en like the rest— </l>
+       <l>And find, in truth, life is a bitter jest, </l>
+       <l>Which needed not my botching— </l>
+      </lg>
+      <stage>Agnes enters veiled.</stage>
+      <lg>
+       <l> Save you, lady; </l>
+       <l>I wait upon your leisure—Whither you would, </l>
+       <l>Thither I follow you.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Then let us go; </l>
+       <l>Fate beckons, and Despair shall not say no.</l>
+      </lg>
+     </sp>
+     <stage> [They go out.</stage>
+    </div>
+   </div>
+   <div type="act" n="5">
+    <head>ACT V.</head>
+    <div type="scene" n="1">
+     <head>SCENE I.</head>
+     <stage>—An Apartment in the Tower.</stage>
+     <sp>
+      <stage>Babington alone. He starts from his couch.</stage>
+      <lg>
+       <l>Ha! burn the stars not dim?—What is the hour? </l>
+       <l>Surely, methought, I heard the midnight toll. </l>
+       <l>Wild fantasies spring in the troubled breast </l>
+       <l>As meteors from the fen. Did I not dream </l>
+       <l>I saw my mother married; and she stood </l>
+       <l>Deck'd for the bridal in her winding sheet?— </l>
+       <l>—The tapers flicker'd bluely—and, e'en yet, </l>
+       <l>The choral voices ring within mine ear! </l>
+       <l>Methought they issued from the vaults below, </l>
+       <l>And not the holy choir; and, when they ceased, </l>
+       <l>Died into sounds unearthly—horrible— </l>
+       <l>That were not music—'Twas a ghastly dream— </l>
+       <l>I'll walk and watch awhile to calm myself. </l>
+       <l>This is the time, when round a wretch like me, </l>
+       <l>Will hover those ill beings, whose bad pastime </l>
+       <l>Is human ruin—such as crowd, they say, </l>
+       <l>To new-made graves; or, like a wandering fire, </l>
+       <l>Flit round the spot where murder hath made feast; </l>
+       <l>Or shroud them in the cloud, whose smouldering bolt </l>
+       <l>Hath struck to earth the thunder-blacken'd wretch; </l>
+       <l>Or, with unnatural fears and fiendish promptings, </l>
+       <l>Infect the restless sleep of those who wake </l>
+       <l>To suicide.— </l>
+       <l>Doth not the lamp was pale? sure morning nears. </l>
+       <l>Well; let it come. Haply they think to scare me </l>
+       <l>By bringing death o' the sudden 'fore my face, </l>
+       <l>As they would fright a child. 'Tis baffled malice. </l>
+       <l>Had not his visage been familiar to me, </l>
+       <l>I had not been thus. I am now calm again </l>
+       <l>As yesternight, when at my grated window </l>
+       <l>I watch'd the sun go down, lovely as e'er </l>
+       <l>He did in happier days—ere I knew sorrow, </l>
+       <l>Yet did not shed one tear. Let them deny </l>
+       <l>A friendly voice to smooth my waning hours, </l>
+       <l>And work my death with more of cruelty, </l>
+       <l>And less of sympathy, than they'd bestow </l>
+       <l>Upon a thievish cur—I can bear all. </l>
+       <l>Nor shall a dying eye, 'mid all their tortures, </l>
+       <l>Ask, “How can ye do this?” </l>
+       <l> How now? </l>
+      </lg>
+      <stage>Enter Gaoler.</stage>
+      <lg>
+       <l> I come </l>
+       <l>To say that one would be admitted to you.</l>
+      </lg>
+     </sp>
+     <sp who="#babington">
+      <speaker>BABINGTON.</speaker>
+      <lg>
+       <l>One? Who?</l>
+      </lg>
+     </sp>
+     <sp who="#gaoler">
+      <speaker>GAOLER.</speaker>
+      <lg>
+       <l> She will not say her name.</l>
+      </lg>
+     </sp>
+     <sp who="#babington">
+      <speaker>BABINGTON.</speaker>
+      <lg>
+       <l> name! </l>
+       <l>Admit her straight, whoe'er she be; and who </l>
+       <l>That bears a woman's heart, can seek this den </l>
+       <l>At such an hour as this? </l>
+      </lg>
+      <stage> [Gaoler retires.</stage>
+      <stage>Enter Agnes.</stage>
+      <lg>
+       <l> Whoe'er thou art, </l>
+       <l>That in an hour when others would forget, </l>
+       <l>Dost think of Babington—Welcome; and, lady, </l>
+       <l>Let me in pity see one face whereon </l>
+       <l>Sure pity must be writ. </l>
+       <l> Look down, ye powers, </l>
+       <l>Sure I do know this hand. Oh speak! unveil! </l>
+       <l>That I may know what I must yet endure.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <stage>(Faintly.)</stage>
+      <lg>
+       <l> Babington!</l>
+      </lg>
+     </sp>
+     <sp who="#babington">
+      <speaker>BABINGTON.</speaker>
+      <lg>
+       <l> Agnes, speak! Alas! she's pale </l>
+       <l>As death were on her brow. What! have they sent thee </l>
+       <l>That it might kill thee, and thine innocent breath </l>
+       <l>Be added to my debt. </l>
+       <l> Look up, dear saint, </l>
+       <l>Unless I may die too.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Where am I?—Babington! </l>
+       <l>I shall be strong anon. 'Tis past; forgive me </l>
+       <l>If, when I look'd upon this place, my heart </l>
+       <l>Did die within me—but forgive me, sir, </l>
+       <l>It was a woman's weakness.</l>
+      </lg>
+     </sp>
+     <sp who="#babington">
+      <speaker>BABINGTON.</speaker>
+      <lg>
+       <l> Thou art all good— </l>
+       <l>But who did guard thee here? Why would'st thou come? </l>
+       <l>This is no place for gentleness like thine.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Ask'st thou who guarded hither, Babington? </l>
+       <l>Heaven! Wherefore I would come, oh ask me not!—</l>
+      </lg>
+     </sp>
+     <sp who="#babington">
+      <speaker>BABINGTON.</speaker>
+      <lg>
+       <l>And wherefore not, dear child?</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <stage>(Solemnly.)</stage>
+      <lg>
+       <l> Because that wherefore </l>
+       <l>Is nothing now either to thee or me.— </l>
+       <l>No breath hath ever known't, and, therefore, henceforth, </l>
+       <l>Let it remain unbreathed, till breath goes too— </l>
+       <l>God grant not long—no matter. Only say </l>
+       <l>My presence comforts you—say, that to see me, </l>
+       <l>Or hear my voice, gives but a single ray </l>
+       <l>Unto the darkness of extremity;— </l>
+       <l>Then you are answer'd, why I would come here.</l>
+      </lg>
+     </sp>
+     <sp who="#babington">
+      <speaker>BABINGTON.</speaker>
+      <lg>
+       <l>Comfort me!—yea, I am amazed, blest creature, </l>
+       <l>Wrapt and uplifted, at the very thought </l>
+       <l>That excellence like thine should dare these horrors </l>
+       <l>For my poor—ruin'd sake. O! I do see </l>
+       <l>A glimpse—a ray, to which I have been blind, </l>
+       <l>Even like the fool, that gazing at the sun </l>
+       <l>O'ertrod the precious jewel at his feet.— </l>
+       <l>Look down, great God! But one half hour ago, </l>
+       <l>The name of comfort to my loneliness </l>
+       <l>Were as a very echo, but the shadow </l>
+       <l>Of that which in itself was scarce a sound. </l>
+       <l>—Oh! what an hour of contrarieties! </l>
+       <l>Speak to me, Agnes.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> And what should I say? </l>
+       <l>What contrarieties?</l>
+      </lg>
+     </sp>
+     <sp who="#babington">
+      <speaker>BABINGTON.</speaker>
+      <lg>
+       <l> Ay, what indeed? </l>
+       <l>Time is too short, e'en to o'errun them now. </l>
+       <l>To seek for love, there, where it might not be; </l>
+       <l>And to o'erpass it, there, where it hath been; </l>
+       <l>To live long, watching hope which ne'er could bloom; </l>
+       <l>To die, with hope unlook'd for, yet fulfill'd,— </l>
+       <l>Is't not an hour of contrariety? </l>
+       <l>Answer me Agnes, is it not?</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Oh! what— </l>
+       <l>What can I answer?</l>
+      </lg>
+     </sp>
+     <sp who="#babington">
+      <speaker>BABINGTON.</speaker>
+      <lg>
+       <l> What can'st thou, indeed? </l>
+       <l>Nor would I have thee. Only answer this, </l>
+       <l>Ere darkness hath made vain the utterance— </l>
+       <l>—Dost thou not love me? </l>
+       <l> See how forward, Fate </l>
+       <l>Can make a reckless wretch.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Let my tears fall— </l>
+       <l>Believe me they are cold. Yes! I have loved thee; </l>
+       <l>That is the word,—and will—thy memory.</l>
+      </lg>
+     </sp>
+     <sp who="#babington">
+      <speaker>BABINGTON.</speaker>
+      <lg>
+       <l>I die content. I will not utter more; </l>
+       <l>Fate and the hour forbid. I must not take </l>
+       <l>Those thoughts that should be God's, not even to give them </l>
+       <l>To thee. So be't. Yet never, therefore, deem </l>
+       <l>That priceless love hath all been cast away. </l>
+       <l>Half of my life thou hast preserved, which else, </l>
+       <l>Alas! perchance had died.—List to me, Agnes, </l>
+       <l>I do bequeath thee a dear legacy, </l>
+       <l>A rich one—for my sake, oh! cherish it! </l>
+       <l>My mother— </l>
+       <l> Ha! why has thy colour fled? </l>
+       <l>What spell enchains thine utterance? what is this? </l>
+       <l>Thou shudderest—as if thine eyes could see </l>
+       <l>The hell that's here. Agnes, my blood is curdling— </l>
+       <l>My heart is shrunken up, as by fierce fire, </l>
+       <l>Even at my horrible imaginings; </l>
+       <l>Before its strings have snapp'd, speak but one word— </l>
+       <l>Although its sound shall be too desolate, </l>
+       <l>Ev'n for the fiends to laugh at. Thou speak'st not, </l>
+       <l>But turn'st away thy face, and wring'st my hand. </l>
+       <l>I'll say it for thee then—My mother's dead! </l>
+       <l>Sign to me; is't not so?—Hold up, my heart; </l>
+       <l>This is thy latest pang.—My mother—dead? </l>
+      </lg>
+      <stage>(Passionately.)</stage>
+      <lg>
+       <l> And wherefore should she live? is it not better </l>
+       <l>That her old eyes are blinded in the dust, </l>
+       <l>Than left to be put out by sights like this? </l>
+       <l>Thank God. For her 'tis better, howe'er Heaven </l>
+       <l>May judge for me. Unto this latest trial, </l>
+       <l>As unto all gone, or that yet may come, </l>
+       <l>I bow—'Tis o'er—thank God! </l>
+      </lg>
+      <stage>Enter Gaoler.</stage>
+      <lg>
+       <l> How now! what would ye?</l>
+      </lg>
+     </sp>
+     <sp who="#gaoler">
+      <speaker>GAOLER.</speaker>
+      <lg>
+       <l>The time is over which is meted out </l>
+       <l>For such a conference.</l>
+      </lg>
+     </sp>
+     <sp who="#babington">
+      <speaker>BABINGTON.</speaker>
+      <lg>
+       <l> But one half hour more. </l>
+       <l>And it is ended.</l>
+      </lg>
+     </sp>
+     <sp who="#gaoler">
+      <speaker>GAOLER.</speaker>
+      <lg>
+       <l> Sir, it pities me, </l>
+       <l>For that mine orders are most peremptory. </l>
+       <l>I cannot dare to do what fain I would.</l>
+      </lg>
+     </sp>
+     <sp who="#babington">
+      <speaker>BABINGTON.</speaker>
+      <lg>
+       <l>What! would ye tear my heart out ere my time? </l>
+       <l>I tell thee, fellow, were thy masters here, </l>
+       <l>Methinks a sight like this might move e'en them, </l>
+       <l>Not to molest my few, short, ending hours.</l>
+      </lg>
+     </sp>
+     <sp who="#gaoler">
+      <speaker>GAOLER.</speaker>
+      <lg>
+       <l>Sir, I shall wait here for a half hour more, </l>
+       <l>But, trust me, at my peril.</l>
+      </lg>
+     </sp>
+     <sp who="#babington">
+      <speaker>BABINGTON.</speaker>
+      <lg>
+       <l> I'll not betray thee; </l>
+       <l>A traitor as I am. </l>
+      </lg>
+      <stage> [The Gaoler retires.</stage>
+      <lg>
+       <l> Oh! how time flies— </l>
+       <l>E'en to the wretched, when they'd have him stay. </l>
+       <l>Agnes, we must be brief. With iron hand </l>
+       <l>Fate tears our hearts asunder. We must part; </l>
+       <l>And let me part as doth become a man. </l>
+       <l>Oh! could I crowd into a few sad minutes, </l>
+       <l>A smiling summer's day, I might say much— </l>
+       <l>Much! ah! how much! Let me quit that. I know not, </l>
+       <l>Why thou hast loved a wretch, whose dazzled sight, </l>
+       <l>Blind with a fatal passion, hath betray'd </l>
+       <l>His steps into destruction—I know't not— </l>
+       <l>Unless that extreme coldness, as they say, </l>
+       <l>Can burn like fire. It is enough for me, </l>
+       <l>To feel what thou hast given, and I have lost. </l>
+       <l>Let it be comfort yet, that thine affection </l>
+       <l>Is so far happy, that it brings to me </l>
+       <l>One beautiful recollection, which shall gild </l>
+       <l>My passage. It shall dwell on thee in dying, </l>
+       <l>And smile away my pain. </l>
+      </lg>
+      <stage> (A distant bell tolls.)</stage>
+      <lg>
+       <l> Our hour is come.— </l>
+       <l>Oh! let us part as those alone should part </l>
+       <l>With nothing of remorse, and therefore nothing </l>
+       <l>Of fear. 'Tis fit we should be firm, my Agnes, </l>
+       <l>Who are unfortunate, but innocent. </l>
+       <l>Malice may gnaw my name; but thou shalt know </l>
+       <l>I gave my breath but for my country's weal. </l>
+       <l>This is the last; and we must say—farewell!</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>No—not farewell! Say not farewell; we may </l>
+       <l>Meet ONCE again; thou see'st how firm I am.</l>
+      </lg>
+     </sp>
+     <sp who="#babington">
+      <speaker>BABINGTON.</speaker>
+      <lg>
+       <l>No! not again—not again! </l>
+       <l> Beseech thee, do not </l>
+       <l>Breathe such a thought. Wast thou all angel, yet </l>
+       <l>Thy ministry ends here. What is to come, </l>
+       <l>No eye should see, save </l>
+       <l> above—and THEIRS!— </l>
+       <l>Hear my last blessings—but before I breathe them, </l>
+       <l>Gaze for one passing moment in my face.— </l>
+       <l>Now turn away those eyes. They do awake </l>
+       <l>Thoughts—oh! too sweet not to be alien </l>
+       <l>To such an hour as this. Give me thine hand, </l>
+       <l>And when I say farewell, leave me at once. </l>
+       <l>Thy hand—not yet—be firm, and tremble not.</l>
+      </lg>
+      <stage>(He puts a ring on her finger.)</stage>
+      <lg>
+       <l>Wear this, dear saint, for Babington's poor sake, </l>
+       <l>And let it wed thee to his memory. </l>
+       <l>Live thou to think that, dying, he was thine; </l>
+       <l>And shall be thine again! </l>
+       <l> And now to Heaven, </l>
+       <l>Where, let me humbly hope I shall soon be, </l>
+       <l>I do commend thine innocence. God keep thee; </l>
+       <l>God watch o'er thee—support thee—guard thee—save thee; </l>
+       <l>And, ere my voice is choken, and my tongue </l>
+       <l>Doth lose its office—oh! farewell! farewell! </l>
+       <l>Heaven bless thee! oh! Heaven bless thee! </l>
+      </lg>
+      <stage> (She runs out.)</stage>
+      <lg>
+       <l> The last string </l>
+       <l>Is crack'd at length, that held me to the world; </l>
+       <l>And welcome, death and darkness.</l>
+      </lg>
+     </sp>
+     <stage> [The scene closes.</stage>
+    </div>
+    <div type="scene" n="2">
+     <head>SCENE II.</head>
+     <stage>A Street in London.</stage>
+     <stage>Enter Ballard and Gifford, meeting.</stage>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l>Why do I meet thee here?</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l> I did not know </l>
+       <l>That 'twas my cue to have avoided thee.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l>Not so. Thou dost mistake; I sought thee rather. </l>
+       <l>Why should I walk here but in quest of thee? </l>
+       <l>Think'st thou I come to look at fools, who make </l>
+       <l>Blood pastime, but not gain? What is thy news? </l>
+       <l>What hast thou done? where hast thou been? thou'rt pale. </l>
+       <l>Say quickly.</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l> I have been where Babington </l>
+       <l>Gave up his life.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l> Art thou a connoisseur </l>
+       <l>In death, e'en like the rest? would'st thou enact </l>
+       <l>The lurcher wholly, and lap up the blood </l>
+       <l>Thou helpest to betray?—Fool! and for this </l>
+       <l>Darest thou neglect what I have given in charge? </l>
+       <l>If that thou hast—</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l> I have not. She is traced, </l>
+       <l>At least I think it.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l> Traced?—whither, and how?</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l>Thither where I have been. List to me, sir; </l>
+       <l>If I am pale, 'tis that I've seen a sight </l>
+       <l>Which drove the blood back to my very heart, </l>
+       <l>That almost bled for pity. Why I went </l>
+       <l>Where Babington and his unhappy mates </l>
+       <l>Shook gory hands with death, needs not to tell.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l>I ask'd thee not—nor do I ask thee now— </l>
+       <l>For tedious pity, however new to thee. </l>
+       <l>What did'st thou see?</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l> I saw the noble Babington </l>
+       <l>Stand on the scaffold with his dying friends. </l>
+       <l>No man attended them. No pitying voice </l>
+       <l>Did bid, “God help them.” There they stood, alone, </l>
+       <l>With serene countenances, as't had been </l>
+       <l>Some solemn festival; until the wretches </l>
+       <l>Whose callous hands were to wring forth their breaths, </l>
+       <l>Laid bare their patient necks. They stood together </l>
+       <l>And silently join'd hands. </l>
+       <l> When Babington </l>
+       <l>Saw the young, gallant Tichbourne, his dear friend, </l>
+       <l>Submit him to the cord—for on him first </l>
+       <l>The villain hangman laid his horrid hand,— </l>
+       <l>His manly visage changed, and on his knees </l>
+       <l>He dropped aside to pray, the piteous tears </l>
+       <l>Chasing the while down his averted face, </l>
+       <l>When suddenly was kneeling by his side— </l>
+       <l>Whence she did come I know not, nor what power </l>
+       <l>Had oped her perilous road—one that might seem </l>
+       <l>A vision from the skies; so pure her beauty, </l>
+       <l>And so unseen her coming.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l> Who was this? </l>
+       <l>Villain—who could come there?</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l> 'Twas Agnes.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l> Caitiff, </l>
+       <l>Thou liest!</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l> Why, then, her pure and beautiful spirit </l>
+       <l>Had left its form of clay to wander thither. </l>
+       <l>By Heaven, they were her living lineaments.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD, </speaker>
+      <stage>(in a suppressed tone.)</stage>
+      <lg>
+       <l>Go on.</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l> That vision seemed to strike around </l>
+       <l>A visible awe. It was most pitiful. </l>
+       <l>No sound broke in upon their parting prayer; </l>
+       <l>The very ruffians that did do him dead, </l>
+       <l>They seem'd to wait his time. He came to them. </l>
+       <l>Yea, when his friends had pass'd, he calmly rose </l>
+       <l>And bent him to the executioner, </l>
+       <l>Whilst she remained still praying on her knees, </l>
+       <l>Fair as the alabaster; and as fix'd </l>
+       <l>As is the marble—statue-like, all, save </l>
+       <l>Her lips, which faintly moved.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l> Why dost thou pause?</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l>Because my voice is choked even with the thought </l>
+       <l>Thou bid'st me to give words to.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l> Fool! go on.</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l>When they had snatch'd him from the fatal beam, </l>
+       <l>Still stirring with warm life—even at the noise </l>
+       <l>She turn'd her head, and faintly moved her hand; </l>
+       <l>And they did lay the dying Babington down, </l>
+       <l>His head upon her lap. </l>
+       <l> I saw no more!—</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l>What would'st thou say, then?</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l> When the crowd recoil'd </l>
+       <l>In horror from the scene that then was closed, </l>
+       <l>I heard one saying through his tears, that thus </l>
+       <l>He lay; and, seeming more like death than e'en </l>
+       <l>The dying, she did look into his eyes, </l>
+       <l>And whisper'd comfort to his fading senses, </l>
+       <l>And wiped the cold damps from his dying brows, </l>
+       <l>And held the crucifix before his gaze, </l>
+       <l>E'en till the speechless orbs were glazed in death; </l>
+       <l>And the last savage mandates were fulfill'd.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l>I'll hear no more of this. Where is she now?</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l>I know not. But Maltravers, whom you join'd </l>
+       <l>With me in this pursuit, sign'd with his hand </l>
+       <l>At distance 'mid the press. I well believe, </l>
+       <l>That wheresoe'er she be, he follows her.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l>Go, out of hand, and strive to join him then— </l>
+       <l>Away. No, hark! That man, that meddling jester, </l>
+       <l>Through whose contrivance she escaped away,— </l>
+       <l>Know'st thou what hath become of him? I dread </l>
+       <l>Some mischief from that fool's officiousness. </l>
+       <l>Would he were hamstrung. Thou art twice a bungler </l>
+       <l>To let him 'scape thee thus.</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l> Remember, sir, </l>
+       <l>I have but two eyes, nor but one pair of hands.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l>Had'st thou but used them as thou should'st have done, </l>
+       <l>We had made sure of him one way or other. </l>
+       <l>No help, this is but prattle—get thee gone, </l>
+       <l>And use thy wits, if thou would'st have my gold. </l>
+       <l>We must be quick; and, what is more, resolved; </l>
+       <l>Whilst she is here, some intervention still </l>
+       <l>May snatch her from my grasp. I've paid for her, </l>
+       <l>Ay, sold myself i'th' bargain, and, in spite </l>
+       <l>Of men or fiends, I will enjoy her— </l>
+       <l> Beast! </l>
+       <l>Why dost thou linger here?</l>
+      </lg>
+     </sp>
+     <sp who="#gifford">
+      <speaker>GIFFORD.</speaker>
+      <lg>
+       <l> I stay to know </l>
+       <l>Your course.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l> That's true. I go to wait her coming, </l>
+       <l>Nor will I stir from thence. Begone, and prosper. </l>
+       <l>I, spider-like, lurk close within my web, </l>
+       <l>Until the prey be snared.</l>
+      </lg>
+     </sp>
+     <stage> [They retire different ways.</stage>
+    </div>
+    <div type="scene" n="3">
+     <head>SCENE III.</head>
+     <stage>—An Apartment.</stage>
+     <sp>
+      <stage>Ballard alone. (He walks anxiously about.)</stage>
+      <lg>
+       <l>There are some men, when they have dared an act </l>
+       <l>At which earth shudders, and the pallid sun </l>
+       <l>Grows sick to look upon, will haply feel </l>
+       <l>Keen inward gnawings, and the tooth o' the conscience </l>
+       <l>Eat out their sum of gain. Such men are fools. </l>
+       <l>Is't not extremes that temper the hard steel? </l>
+       <l>E'en so, methinks, in actions such as this, </l>
+       <l>And for such prize as mine, the soul should own </l>
+       <l>Itself wax stronger, knowing it hath pass'd </l>
+       <l>Through both the ordeals of danger and of bliss. </l>
+       <l>Night strides apace, and yet she doth not come. </l>
+       <l>Methinks the gloom hath hasten'd, as if Phœbus </l>
+       <l>Had hurried from the sky, and the coy stars </l>
+       <l>Were half afraid to twinkle. Let them be so. </l>
+       <l>Her beauty shall be light enough for me. </l>
+       <l>A footstep—no! Yes, by my hopes, 'tis she.</l>
+      </lg>
+     </sp>
+     <sp>
+      <stage>Enter Agnes, with a disordered step. She looks wildly round.</stage>
+      <lg>
+       <l>Here, here, at last—let me return due thanks </l>
+       <l>Or ere my wilder'd brain hath quite forgot </l>
+       <l>Mercy as well as suffering—for, methinks, </l>
+       <l>Forgetfulness were best of mercy now. </l>
+      </lg>
+      <stage>(She kneels.)</stage>
+      <lg>
+       <l> Accept, oh God! my thanks, that thou hast born me </l>
+       <l>Through the hot furnace of this agony. </l>
+       <l>Do with me further as thou see'st best; </l>
+       <l>And grant me,—though e'er to know pleasure more </l>
+       <l>Is not to be my lot, yet that I may— </l>
+       <l>If that to me is not impossible— </l>
+       <l>Have thine assistance to forget past woe, </l>
+       <l>Yet still, as suffering ought to be forgot; </l>
+       <l>And if this greatest pang be not the last, </l>
+       <l>Still through my trials keep me innocent. </l>
+       <l>Temper the malice of mine enemies; </l>
+       <l>Forgive their hatred; and oh! shield the friends, </l>
+       <l>The few—few friends those enemies have left, </l>
+       <l>Nor let the legacy of love be pain.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD </speaker>
+      <stage>(coming forward.)</stage>
+      <lg>
+       <l>Amen, amen.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Ha! shield me, ye sweet Powers!</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l>Why start'st thou, lady—'twas a gentle pray'r.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Wretch, wretch! oh! never had I breathed that pray'r, </l>
+       <l>Had I once thought that ever eye of mine </l>
+       <l>Should rest on thee again.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l> And wherefore so? </l>
+       <l>I am thy friend.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Thou!</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l> I—nay, never task </l>
+       <l>That lip to frown, for it becomes thee not,— </l>
+       <l>And I would fain prove that my words are sooth, </l>
+       <l>Yea, therefore came I hither.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Frontless villain! </l>
+       <l>What drove thee here, I know not; but if hate </l>
+       <l>And loathing, more than for the foulest thing </l>
+       <l>That poisons eye, can drive thee hence—begone! </l>
+       <l>Shame is ashamed of thee, else would'st thou never </l>
+       <l>Dare meet the gaze that knows thee.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l> Pretty anger! </l>
+       <l>Fain would I, thou would'st know me for thy friend.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Friend! and can such a word dwell on thy lips? </l>
+       <l>Know'st thou not that I know thee—perjured wretch! </l>
+       <l>Cold-blooded traitor, sacrilegious wretch!— </l>
+       <l>Hence, thou incarnate treach'ry; thou foul toad </l>
+       <l>Cased up in marble!—</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l> Call me what thou wilt, </l>
+       <l>Sweet railer; words and looks cannot blot out </l>
+       <l>My written right; I am thy guardian: </l>
+       <l>Know'st thou that character?</l>
+      </lg>
+      <stage>(Shews a scroll.)</stage>
+      <lg>
+       <l> Nay, never turn </l>
+       <l>Thine eyes away! With all their power to change </l>
+       <l>That which they look on, there's no danger here.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>'Tis Babington's!—oh! how am I entoil'd?</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD </speaker>
+      <stage>(exultingly.)</stage>
+      <lg>
+       <l>Thus art thou written mine, and Fate hath set </l>
+       <l>A seal unto the bond. Mine thou must be, </l>
+       <l>Or else an outcast—for what tongue shall greet, </l>
+       <l>What hand shall clasp, what bosom shelter in't, </l>
+       <l>Aught that's derived of a regicide, </l>
+       <l>Or owns the hated strain of Babington?</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Iron-tongued man, as well as iron-hearted— </l>
+       <l>And can'st thou breathe that name?</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l> And wherefore not? </l>
+       <l>He knew the game at which he chose to stake: </l>
+       <l>He knew the penalty, and he hath paid it. </l>
+       <l>What was't to me, an if he loved a meteor </l>
+       <l>That singed the poor moth's wings.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Monster!</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l> Angel!</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <stage>(Aside.)</stage>
+      <lg>
+       <l> Shelter me, Heavens, shipwreck'd and cast alone </l>
+       <l>Thus among villains. </l>
+       <l> Oh, sir! if your heart </l>
+       <l>Have left one drop of ruth, pity a being </l>
+       <l>Almost distract with misery already. </l>
+       <l>Why, why pursue a wretch whose abjectness </l>
+       <l>Can only move compassion; whose sad eyes </l>
+       <l>Are blind and dim with tears; whose shatter'd heart </l>
+       <l>Sorrow hath crush'd and kill'd? List to me, sir; </l>
+       <l>Indeed I am not worth the torturing.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l>Thou talk'st in vain. Did'st thou beseech less well, </l>
+       <l>Had thy soft eyes less of persuasion in them, </l>
+       <l>Thy delicate lips less honied eloquence, </l>
+       <l>Thy silvery-falling tones less meltingness, </l>
+       <l>Thou might'st have better sped! </l>
+       <l> I love thee, lady, </l>
+       <l>And thou art mine. No tongue in all this world </l>
+       <l>Now will, or dare gainsay it. Mine thou art, </l>
+       <l>Past fate and fortune; therefore, teach thy lips </l>
+       <l>A better office than to plead against me; </l>
+       <l>I clasp thee for mine own, and Fate hath given thee. </l>
+       <l>—Nay, struggle not—Were every tear a pearl, </l>
+       <l>They should not buy thee from my arms.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Keep off; </l>
+       <l>Keep off, wretch—if but for thine own vile sake; </l>
+       <l>Heaven is above us still. Beware, I say; </l>
+       <l>Despair is dangerous, and, to the mad, </l>
+       <l>Weakness itself is strength.</l>
+      </lg>
+     </sp>
+     <sp who="#ballard">
+      <speaker>BALLARD.</speaker>
+      <lg>
+       <l> I am mad, too. </l>
+       <l>Be that at once my arms and my excuse; </l>
+       <l>Thou must with me, and therefore strive no more.</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l>Say'st thou so? Then this outrage and its cure </l>
+       <l>Be on thy head. </l>
+      </lg>
+      <stage> [She draws a dagger and suddenly stabs him. He falls.]</stage>
+      <lg>
+       <l> He was a heart-stabber, </l>
+       <l>And laugh'd at blood! Ay, gasp thy life away! </l>
+       <l>Hast thou not lied enough, and glozed enough? </l>
+       <l>Still blood—more blood!— </l>
+       <l> And say there be, what then? </l>
+       <l>If murder be the key, I have but play'd </l>
+       <l>The popular tune, and where's the coil! </l>
+       <l> He's dead. </l>
+       <l>Now let their myrmidons come. If that my life </l>
+       <l>Shall pay the forfeit for this baffled villain, </l>
+       <l>'Twill well wind up this skein of ravell'd sorrow. </l>
+       <l>And now, what is there left me but to die? </l>
+       <l>They say those sore tormented sometimes sleep </l>
+       <l>Between their tortures, and I long for rest. </l>
+       <l>When have I rested now? 'Tis long, long past; </l>
+       <l>At least to me it seems so. </l>
+      </lg>
+      <stage>(Laying down the dagger.)</stage>
+      <lg>
+       <l> Lie thou there; </l>
+       <l>This is my deed, and I will mother it. </l>
+      </lg>
+      <stage> (She sits down by the body.)</stage>
+      <lg>
+       <l>So quiet, sweetheart?—Not a word! i'faith </l>
+       <l>Thou almost shalt begin to creep in favour. </l>
+       <l>Methinks mine eyes wax heavy, as if sleep </l>
+       <l>Would steal on them. Yet this were a wild pillow! </l>
+       <l>Methinks my head feels light—though mine eyes droop— </l>
+       <l>No wonder one should sleep, that hath not wink'd </l>
+       <l>These four days! </l>
+      </lg>
+      <stage> (She leans her head on her hands.)</stage>
+      <stage>(Starting up wildly.)</stage>
+      <lg>
+       <l> Hark! hark! Music!—'Tis ceased now—'twas the same I heard i'th' east
+                                turret;—but there the screech-owl spoil'd all! How cold I grow—my
+                                teeth chatter—This neighbour lump of ice hath frozen me— They
+                                come—ay—the executioners!—the executioners!</l>
+      </lg>
+     </sp>
+     <stage>Enter Plasket, followed by Walsingham, Sir Amias Paulet, and Attendants.</stage>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>Thank Heaven, she's here. Woe and alas! more death! </l>
+       <l>What sight is this?—Dear lady—Agnes—speak. </l>
+       <l>Her eyes are fixed—alack! my lord, to what </l>
+       <l>A ruin have I brought you!</l>
+      </lg>
+     </sp>
+     <sp who="#walsingham">
+      <speaker>WALSINGHAM.</speaker>
+      <lg>
+       <l> How pale she looks! </l>
+       <l>Oh! who that saw this statue animate, </l>
+       <l>Could e'er have wrong'd her</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l> Pity her, Heaven—alas! </l>
+       <l>Reason the guest hath fled, and the poor fabric </l>
+       <l>Totters to dissolution. Do you know me, lady?</l>
+      </lg>
+     </sp>
+     <sp who="#agnes">
+      <speaker>AGNES.</speaker>
+      <lg>
+       <l> Well! </l>
+       <l>Thou art the headsman—stay; not yet—not yet! </l>
+       <l>Tear not my heart out yet—'twill break anon. </l>
+       <l>Let me be buried with him—out, alack! </l>
+       <l>He hath no grave!—mine eyes darken—one breath more— </l>
+       <l>Babington!—Babington!</l>
+      </lg>
+     </sp>
+     <stage> (She dies.)</stage>
+     <sp who="#walsingham">
+      <speaker>WALSINGHAM.</speaker>
+      <lg>
+       <l> She faints—her eyes close.</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l>My lord, her heart broke first; and these sad signs </l>
+       <l>Tell but that death's within.</l>
+      </lg>
+     </sp>
+     <sp who="#walsingham">
+      <speaker>WALSINGHAM.</speaker>
+      <lg>
+       <l> Assistance there; </l>
+       <l>Remove that carrion hence—and thou, good fellow, </l>
+       <l>Say what thou art, that renderest in this kind </l>
+       <l>These last sad offices?</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l> My noble lord, </l>
+       <l>A humble servitor of Babington.</l>
+      </lg>
+     </sp>
+     <sp who="#walsingham">
+      <speaker>WALSINGHAM.</speaker>
+      <lg>
+       <l>In what capacity?</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l> My lord, a jester's.</l>
+      </lg>
+     </sp>
+     <sp who="#walsingham">
+      <speaker>WALSINGHAM.</speaker>
+      <lg>
+       <l>A jester's?</l>
+      </lg>
+     </sp>
+     <sp who="#plasket">
+      <speaker>PLASKET.</speaker>
+      <lg>
+       <l> Even so, my lord.</l>
+      </lg>
+     </sp>
+     <sp who="#walsingham">
+      <speaker>WALSINGHAM.</speaker>
+      <lg>
+       <l> Such is the world; </l>
+       <l>So vanity doth end. Thou shalt serve me, </l>
+       <l>Though not i'the self-same way; for now, methinks, </l>
+       <l>Thy trade is out of tune. Is it not so? </l>
+       <l>But be thou of my house—and, whensoe'er </l>
+       <l>I would give Pride a purge; and lesson me </l>
+       <l>How fickle Fortune is, and Power how vain, </l>
+       <l>Goodness how helpless, and Humanity </l>
+       <l>How frail—how sinful—and how full of tears— </l>
+       <l>Be thou the minister—and relate to me </l>
+       <l>All the sad turns of this sad history. </l>
+       <l>Now look to thy dead mistress—cover her face— </l>
+       <l>Mine eyes fill even like thine. </l>
+       <l> Take up the body. </l>
+       <l>She shall have fitting funeral and all duty.</l>
+      </lg>
+     </sp>
+     <trailer> (Curtain drops.)</trailer>
+    </div>
+   </div>
+  </body>
+ </text>
+</TEI>

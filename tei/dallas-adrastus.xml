@@ -1,0 +1,4979 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="placeholder-id" xml:lang="eng">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">Adrastus</title>
+    <author>
+     <persName>
+      <forename>Robert Charles</forename>
+      <surname>Dallas</surname>
+     </persName>
+    </author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher xml:id="dracor">DraCor</publisher>
+    <idno type="URL">https://dracor.org</idno>
+    <availability>
+     <licence>
+      <ab>CC BY 4.0</ab>
+      <ref target="https://creativecommons.org/licenses/by/4.0/deed.en">Licence</ref>
+     </licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <name>ProQuest</name>
+     <idno type="URL">https://www.proquest.com/books/adrastus-1823/docview/2138574246/se-2?accountid=14632</idno>
+     <idno type="proquest">LION2138574246</idno>
+    </bibl>
+    <bibl type="originalSource">
+     <author>Dallas, Robert Charles</author>
+     <title type="main">Adrastus</title>
+     <title type="volume">Adrastus, a Tragedy</title>
+     <publisher>Printed for James Cawthorn [etc]</publisher>
+     <pubPlace>London</pubPlace>
+     <date type="print" when="1823">1823</date>
+     <note type="citation">Dallas, Robert Charles: Adrastus (1823). In: Adrastus, a Tragedy. Printed for James Cawthorn [etc]: London 1823</note>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <particDesc>
+    <listPerson>
+     <person xml:id="ada">
+      <persName>Ada</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="adrastus">
+      <persName>Adrastus</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="all">
+      <persName>All</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="aryenis">
+      <persName>Aryenis</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="aspasia">
+      <persName>Aspasia</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="atys">
+      <persName>Atys</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="crœsus">
+      <persName>Crœsus</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="diomed">
+      <persName>Diomed</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="messenger">
+      <persName>Messenger</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="officer">
+      <persName>Officer</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="orontes">
+      <persName>Orontes</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="peasant-1st">
+      <persName>1st Peasant</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="peasant-2d">
+      <persName>2d Peasant</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="peasant-3d">
+      <persName>3d Peasant</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="philon">
+      <persName>Philon</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+     <person xml:id="rhodius">
+      <persName>Rhodius</persName>
+      <sex value="UNKNOWN"/>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2024">(JJ) Transformation into valid TEI P5, improving markup, filling gaps, proofreading, and expanding header.</change>
+   <change when="2026">(LG) dracorisation</change>
+  </revisionDesc>
+ </teiHeader>
+ <standOff>
+  <listEvent>
+   <event type="print" when="1823">
+    <desc/>
+   </event>
+  </listEvent>
+ </standOff>
+ <text>
+  <front>
+   <castList>
+    <label>PERSONS OF THE DRAMA.</label>
+    <castItem>
+     <role>Crœsus, King of Lydia.</role>
+    </castItem>
+    <castItem>
+     <role>Atys, His son, married to Ada.</role>
+    </castItem>
+    <castItem>
+     <role>Adrastus, An unfortunate Phrygian Prince.</role>
+    </castItem>
+    <castItem>
+     <role>Orontes, His Friend.</role>
+    </castItem>
+    <castItem>
+     <role>Philon, Minister to Crœsus.</role>
+    </castItem>
+    <castItem>
+     <role>Rhodius, Courtier.</role>
+    </castItem>
+    <castItem>
+     <role>Diomed, Courtier.</role>
+    </castItem>
+    <castItem>
+     <role>1st, 2d, 3d Peasants.</role>
+    </castItem>
+    <castItem>
+     <role>Officer.</role>
+    </castItem>
+    <castItem>
+     <role>Ada, A Carian Princess, married to Atys; but in love with Adrastus.</role>
+    </castItem>
+    <castItem>
+     <role>Aryenis, Daughter to Crœsus.</role>
+    </castItem>
+    <castItem>
+     <role>Aspasia, Confidante to Ada.</role>
+    </castItem>
+    <castItem>
+     <role>Singers, Messengers, Officers, Guards, Hunters, Attendants, Male and
+                        Female; &amp;c.</role>
+    </castItem>
+   </castList>
+   <set>
+    <p>Scene—Sardis, and its Vicinity.</p>
+   </set>
+  </front>
+  <body>
+   <div type="act" n="1">
+    <head>ACT I.</head>
+    <stage>Scene—Mount Tmolus, with the River Pactolus issuing from it.</stage>
+    <stage>Enter several Lydian Peasants.</stage>
+    <sp who="#peasant-1st">
+     <speaker>1st Peasant.</speaker>
+     <lg>
+      <l>Didst mark him, boy?</l>
+     </lg>
+    </sp>
+    <sp who="#peasant-2d">
+     <speaker>2d Peasant.</speaker>
+     <lg>
+      <l>Ay, father: and such a monster never these eyes beheld before.</l>
+     </lg>
+    </sp>
+    <sp who="#peasant-1st">
+     <speaker>1st Peasant.</speaker>
+     <lg>
+      <l>'Tis a famous beast.</l>
+     </lg>
+    </sp>
+    <sp who="#peasant-3d">
+     <speaker>3d Peasant.</speaker>
+     <lg>
+      <l>'Tis a frightful one. I would he were destroyed! He hath ravaged far and
+                            near. Last night he visited our pastures.</l>
+     </lg>
+    </sp>
+    <sp who="#peasant-1st">
+     <speaker>1st Peasant.</speaker>
+     <lg>
+      <l>He shall not long annoy us. The King hath said the word; and when was
+                            ever the word of Crœsus forfeited?</l>
+     </lg>
+    </sp>
+    <sp who="#peasant-3d">
+     <speaker>3d Peasant.</speaker>
+     <lg>
+      <l>Know ye if the Prince will join the hunt?</l>
+     </lg>
+    </sp>
+    <sp who="#peasant-1st">
+     <speaker>1st Peasant.</speaker>
+     <lg>
+      <l>It hath not reached our ear. There was much talk of his desire,
+                            yesterday, in Sardis; and they say his bride supports him in it, and
+                            makes urgent entreaty for the King's consent.</l>
+     </lg>
+    </sp>
+    <sp who="#peasant-2d">
+     <speaker>2d Peasant.</speaker>
+     <lg>
+      <l>I wonder much he should refuse; and she's a gallant dame to back his
+                            suit.</l>
+     </lg>
+    </sp>
+    <sp who="#peasant-1st">
+     <speaker>1st Peasant.</speaker>
+     <lg>
+      <l>Know you not, boy, 'tis from excessive love?</l>
+     </lg>
+    </sp>
+    <sp who="#peasant-2d">
+     <speaker>2d Peasant.</speaker>
+     <lg>
+      <l>'Tis strange love to stand between his son and pleasure! Such pleasure
+                            too!—Thou lovest me, father, yet thou sharest in very thought the
+                            pleasure I shall have in this hunt.</l>
+     </lg>
+    </sp>
+    <sp who="#peasant-1st">
+     <speaker>1st Peasant.</speaker>
+     <lg>
+      <l>In thought, lad! Ay, and shall in act. </l>
+      <l>But there 's no fear in my mind, seeing thy agility— </l>
+      <l>Now in the King's mind, they say, there is.</l>
+     </lg>
+    </sp>
+    <sp who="#peasant-2d">
+     <speaker>2d Peasant.</speaker>
+     <lg>
+      <l>Why, father! the Prince is more agile far than I am—and with what skill
+                            and force he darts a javelin!</l>
+     </lg>
+    </sp>
+    <sp who="#peasant-1st">
+     <speaker>1st Peasant.</speaker>
+     <lg>
+      <l>True, boy! but then the King hath had a dream.</l>
+     </lg>
+    </sp>
+    <sp who="#peasant-2d">
+     <speaker>2d Peasant.</speaker>
+     <lg>
+      <l>A dream!</l>
+     </lg>
+    </sp>
+    <sp who="#peasant-1st">
+     <speaker>1st Peasant.</speaker>
+     <lg>
+      <l>Ay! a vision in his sleep.—I know not clearly the matter of it—it
+                            imported danger to the Prince.</l>
+     </lg>
+    </sp>
+    <sp who="#peasant-2d">
+     <speaker>2d Peasant.</speaker>
+     <lg>
+      <l>A dream! a vision! psha! And a man is to be mewed up in a cage for a
+                            dream! I'd break my mew, that I would, and hunt in the teeth of a
+                            thousand dreams.</l>
+     </lg>
+    </sp>
+    <sp who="#peasant-1st">
+     <speaker>1st Peasant.</speaker>
+     <lg>
+      <l>I like thy boldness, my son—yet the feelings of a father—they are
+                            something for a son to think of—and, in my mind, it is a glory to Prince
+                            Atys that he considers them in the King.—Stand back; here are some of
+                            his officers.</l>
+     </lg>
+    </sp>
+    <stage>Enter Rhodius and Diomed.</stage>
+    <sp who="#rhodius">
+     <speaker>Rhodius.</speaker>
+     <lg>
+      <l>Good morrow, friends!—We seek the masters of the steeds left this morning
+                            in the stable at the foot of Tmolus—Have ye passed a youth of princely
+                            port in your early ramble?</l>
+     </lg>
+    </sp>
+    <sp who="#peasant-1st">
+     <speaker>1st Peasant.</speaker>
+     <lg>
+      <l>The melancholy stranger who hath been some time at the court of our King,
+                            with another stranger, whose face is new to us, went forth on foot this
+                            morning, to round the hill and view the Gygean lake and Alyattes' tomb. </l>
+     </lg>
+    </sp>
+    <sp who="#rhodius">
+     <speaker>Rhodius.</speaker>
+     <lg>
+      <l>Spoke ye with them?</l>
+     </lg>
+    </sp>
+    <sp who="#peasant-2d">
+     <speaker>2d Peasant.</speaker>
+     <lg>
+      <l>We did, Sir—And I at first made offer of my service as guide where the
+                            Pactolus might be crossed; but soon withdrew it as unnecessary, on
+                            remembering the person of the Prince Adrastus.</l>
+     </lg>
+    </sp>
+    <sp who="#rhodius">
+     <speaker>Rhodius.</speaker>
+     <lg>
+      <l>Thanks! 'tis he we seek.—Good day!</l>
+     </lg>
+    </sp>
+    <sp who="#peasant-1st">
+     <speaker>1st Peasant. </speaker>
+     <stage>(The Peasants going, stop.)</stage>
+     <lg>
+      <l>Sirs! continues the hunt fixed for to-morrow?</l>
+     </lg>
+    </sp>
+    <sp who="#rhodius">
+     <speaker>Rhodius.</speaker>
+     <lg>
+      <l>It does.</l>
+     </lg>
+    </sp>
+    <sp who="#peasant-2d">
+     <speaker>2d Peasant.</speaker>
+     <lg>
+      <l>Go the Princes forth to the hunt?</l>
+     </lg>
+    </sp>
+    <sp who="#rhodius">
+     <speaker>Rhodius.</speaker>
+     <lg>
+      <l>Prince Cyno goes. But respecting his brother, nothing is yet determined.
+                            Have ye seen the creature?</l>
+     </lg>
+    </sp>
+    <sp who="#peasant-2d">
+     <speaker>2d Peasant.</speaker>
+     <lg>
+      <l>Ay, Sir! and traced his haunt. I was on the farther brow of Tmolus with
+                            the dawn, and saw him at the foot, wheeling from the pasture grounds,
+                            and making for the wood, eastward of the mount. I marked the entrance
+                            which he took; and with the first order of the huntsman, the nets, now
+                            ready, shall all be placed in due directions.</l>
+     </lg>
+    </sp>
+    <sp who="#rhodius">
+     <speaker>Rhodius.</speaker>
+     <lg>
+      <l>To Sardis, then, where we shall meet anon.</l>
+     </lg>
+    </sp>
+    <stage> [Exeunt Peasants.</stage>
+    <sp who="#diomed">
+     <speaker>Diomed.</speaker>
+     <lg>
+      <l>How bold and ready for the manly sport </l>
+      <l>Our hardy Lydians show.</l>
+     </lg>
+    </sp>
+    <sp who="#rhodius">
+     <speaker>Rhodius.</speaker>
+     <lg>
+      <l>'Tis time indeed </l>
+      <l>This roving monster should be made to bleed; </l>
+      <l>Since forest-haunts no longer bound his range, </l>
+      <l>But issuing nightly to the champaign lands, </l>
+      <l>He dares attack the cultivator's crops— </l>
+      <l>He dies to-morrow.</l>
+     </lg>
+    </sp>
+    <sp who="#diomed">
+     <speaker>Diomed.</speaker>
+     <lg>
+      <l>So the order runs: </l>
+      <l>But may the coming of the Phrygian Prince </l>
+      <l>Not stay the death? He is not scared by dreams— </l>
+      <l>Should he enforce the ardour of his friend, </l>
+      <l>Would Crœsus yield forthwith? He builds a hope, </l>
+      <l>Or I mistake, upon the mournful cast </l>
+      <l>Of young Adrastus' mind, for prudence form'd, </l>
+      <l>And therefore ventures to declare his voice </l>
+      <l>May sway the issue to the Prince's wish. </l>
+      <l>But, trust me, Sir, this may is mainly built </l>
+      <l>Upon that hope.—The melancholy youth </l>
+      <l>Will counsel Atys to forego the chace.</l>
+     </lg>
+    </sp>
+    <sp who="#rhodius">
+     <speaker>Rhodius.</speaker>
+     <lg>
+      <l>You do him wrong. Himself woe-worn, Adrastus </l>
+      <l>Promptly promotes the joy he cannot share, </l>
+      <l>And owns a heart too large for self to fill. </l>
+      <l>Know you the circumstances of his grief?</l>
+     </lg>
+    </sp>
+    <sp who="#diomed">
+     <speaker>Diomed.</speaker>
+     <lg>
+      <l>Precisely, no. When first he came to Sardis </l>
+      <l>I was at Delphi with the votive treasure. </l>
+      <l>Ere I return'd, his story lost its newness, </l>
+      <l>And was but little talk'd of—soon it died </l>
+      <l>Away. He slew his brother, as I heard, </l>
+      <l>His elder brother; and 'twas roundly said, </l>
+      <l>To open for himself a ready way </l>
+      <l>To Phrygia's lofty throne.</l>
+     </lg>
+    </sp>
+    <sp who="#rhodius">
+     <speaker>Rhodius.</speaker>
+     <lg>
+      <l>Believe it not. </l>
+      <l>His suff'ring ill accords with that report, </l>
+      <l>The prompt suggestion of malignity. </l>
+      <l>No, Diomed—the sad and fatal act, </l>
+      <l>If not sheer chance, was wholly void of will. </l>
+      <l>Some warmth indeed between the brothers rose— </l>
+      <l>Yet friends—Nor, since the constellated twins, </l>
+      <l>Did e'er fraternal love more lovely grow. </l>
+      <l>It was not passion's sway.—They bred their quails </l>
+      <l>For sport, as was the fashion of the place, </l>
+      <l>And train'd them up, with beak, and wing, and spur, </l>
+      <l>To feather'd war and sportive glory. Now, </l>
+      <l>Those of Adrastus ever beat his brother's; </l>
+      <l>And still prevail'd when last they urged the strife. </l>
+      <l>Provoked, Prince Agathon his temper lost; </l>
+      <l>When, darting on the victor bird, in haste </l>
+      <l>He grasp'd his wing, and menaced instant death. </l>
+      <l>With eager effort to relieve his quail, </l>
+      <l>Adrastus dash'd his brother to the ground, </l>
+      <l>From which he never rose; for as he fell, </l>
+      <l>And sudden was the fall, his neck behind </l>
+      <l>Was penetrated by an iron pin, </l>
+      <l>Jutting unheeded on the area's rail.</l>
+     </lg>
+    </sp>
+    <sp who="#diomed">
+     <speaker>Diomed.</speaker>
+     <lg>
+      <l>It open'd still the channel to the throne.</l>
+     </lg>
+    </sp>
+    <sp who="#rhodius">
+     <speaker>Rhodius.</speaker>
+     <lg>
+      <l>It did—but to be fill'd with bitter tears </l>
+      <l>Of the successor to the regal hope, </l>
+      <l>If hope may mingle sounds with deep despair. </l>
+      <l>Adrastus fled reluctant—forced to fly </l>
+      <l>By form and rule—for anxious he to meet </l>
+      <l>A doom severer than the law inflicts, </l>
+      <l>Beseeching death for death. By Gordius urged, </l>
+      <l>His father and his king, he fled, and bent </l>
+      <l>His steps despondent to the court of Crœsus: </l>
+      <l>The King received him with a royal heart, </l>
+      <l>Where all that 's good and great essential blend.</l>
+     </lg>
+    </sp>
+    <sp who="#diomed">
+     <speaker>Diomed.</speaker>
+     <lg>
+      <l>And thence his happiness.</l>
+     </lg>
+    </sp>
+    <sp who="#rhodius">
+     <speaker>Rhodius.</speaker>
+     <lg>
+      <l>The lustral water purified the Prince </l>
+      <l>By Crœsus' hands. Since which protection, love, </l>
+      <l>Whate'er the heart can wish, the head devise, </l>
+      <l>Has been essay'd to chase Adrastus' grief;— </l>
+      <l>Essay'd in vain. The atoning year is rounded, </l>
+      <l>And still his heart, his eye, his vesture mourns.</l>
+     </lg>
+    </sp>
+    <sp who="#diomed">
+     <speaker>Diomed.</speaker>
+     <lg>
+      <l>Methinks his friendship with our Lydian Atys </l>
+      <l>Might well have press'd upon his lip the smile </l>
+      <l>Which rises from the heart to share the bliss </l>
+      <l>Of those we love, the while these nuptials lasted.</l>
+     </lg>
+    </sp>
+    <sp who="#rhodius">
+     <speaker>Rhodius.</speaker>
+     <lg>
+      <l>That fruitless effort he at once disclaim'd; </l>
+      <l>And, that no gloom might lurk about his friend, </l>
+      <l>Withdrew, with Crœsus' ready granted leave, </l>
+      <l>From happy Sardis' walls. The nuptial moon </l>
+      <l>In absence spent, he now returns to court.</l>
+     </lg>
+    </sp>
+    <sp who="#diomed">
+     <speaker>Diomed.</speaker>
+     <lg>
+      <l>And to a painful office—for 'tis clear, </l>
+      <l>Both sire and son he cannot hope to please. </l>
+      <l>But see! they wind around the mountain's base, </l>
+      <l>And close upon us.</l>
+     </lg>
+    </sp>
+    <stage>Enter Adrastus, Orontes, and Attendants.</stage>
+    <sp who="#rhodius">
+     <speaker>Rhodius.</speaker>
+     <lg>
+      <l>Prince Adrastus, hail! </l>
+      <l>Welcome again to Lydia's friendly soil.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Thanks, Rhodius, thanks! and Diomed, I judge.</l>
+     </lg>
+    </sp>
+    <sp who="#diomed">
+     <speaker>Diomed.</speaker>
+     <lg>
+      <l>The same, my lord, who joins in cordial welcome.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>I thank thee, Sir. How fares the King, I pray?</l>
+     </lg>
+    </sp>
+    <sp who="#rhodius">
+     <speaker>Rhodius.</speaker>
+     <lg>
+      <l>Well, joyous, happy in himself, in all: </l>
+      <l>But most impatient to salute Adrastus, </l>
+      <l>Whom, as appointed, he expects to-day; </l>
+      <l>And waits his presence to decide a point, </l>
+      <l>Now in suspense between the Prince and him.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Atys? Sir.</l>
+     </lg>
+    </sp>
+    <sp who="#rhodius">
+     <speaker>Rhodius.</speaker>
+     <lg>
+      <l>He, with more impatience still, </l>
+      <l>Charged us to meet your Highness on the way, </l>
+      <l>With message full of loving eagerness </l>
+      <l>And vehement entreaty, to alight </l>
+      <l>West of the palace, and ascend his stair.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Know you the import of the royal question? </l>
+      <l>Friendly, no doubt, and readily resolved.</l>
+     </lg>
+    </sp>
+    <sp who="#rhodius">
+     <speaker>Rhodius.</speaker>
+     <lg>
+      <l>Oh! full of love, my lord; like all the rest </l>
+      <l>That rise 'tween Crœsus and the duteous Prince. </l>
+      <l>Your Highness is aware of Crœsus' dream?</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>I am.—But tell it to my friend Orontes, </l>
+      <l>Who now o'ertook me, as he journey'd hither </l>
+      <l>From my father's capital.</l>
+     </lg>
+    </sp>
+    <sp who="#rhodius">
+     <speaker>Rhodius.</speaker>
+     <lg>
+      <l>Sir, 'tis brief. </l>
+      <l>Crœsus, surnamed the Happy—justly styled, </l>
+      <l>Since years roll o'er him with success and joy— </l>
+      <l>While sleeping on his couch, in vision saw </l>
+      <l>His son stretch'd on the ground, his side transfix'd </l>
+      <l>With a deadly spear, writhing in his gore. </l>
+      <l>The impression left disturb'd the Monarch's mind, </l>
+      <l>For Atys then a Lydian army led. </l>
+      <l>A summons straight he sends, the Prince recals, </l>
+      <l>And by a marriage fixes him at court: </l>
+      <l>The nuptial festivals are scarcely over.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>How wears the bride her Lydian glories?</l>
+     </lg>
+    </sp>
+    <sp who="#rhodius">
+     <speaker>Rhodius.</speaker>
+     <lg>
+      <l>Well: </l>
+      <l>But rapt at times, as 'twere, to other scenes. </l>
+      <l>I've known the King recal her wand'ring mind.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>'Tis as I fear'd—</l>
+     </lg>
+     <stage>(aside)</stage>
+     <lg>
+      <l>—That, Sir, will mend with time. </l>
+      <l>Proceed, good Rhodius.</l>
+     </lg>
+    </sp>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>Came he freely home? </l>
+      <l>Report adorns his name with martial ardour.</l>
+     </lg>
+    </sp>
+    <sp who="#rhodius">
+     <speaker>Rhodius.</speaker>
+     <lg>
+      <l>And justly, Sir—Yet freely he return'd. </l>
+      <l>Valiant and gifted, and in arms accomplish'd, </l>
+      <l>To glory he aspires: but selfih views </l>
+      <l>Fade in the brightness of his filial glow: </l>
+      <l>He lives in cherishing his father's smiles.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>How just!—But to the point to me referr'd.</l>
+     </lg>
+    </sp>
+    <sp who="#rhodius">
+     <speaker>Rhodius.</speaker>
+     <lg>
+      <l>Scarce second to the celebrated monster </l>
+      <l>Of Calydon, a huge, insatiate boar </l>
+      <l>Roams through the land, a thing unknown before, </l>
+      <l>Making waste nightly to our very gates.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>The rumour reach'd me e'en at Ephesus.</l>
+     </lg>
+    </sp>
+    <sp who="#rhodius">
+     <speaker>Rhodius.</speaker>
+     <lg>
+      <l>The King, entreated by the husbandmen, </l>
+      <l>To quell the savage in his wild career </l>
+      <l>Grants them his Indian pack.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>The tiger dogs? </l>
+     </lg>
+    </sp>
+    <sp who="#diomed">
+     <speaker>Diomed.</speaker>
+     <lg>
+      <l>You know them well, my lord—and these to press </l>
+      <l>Upon to morrow's noble quarry fires </l>
+      <l>The imagination and the blood of Atys.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Most likely 'twould—The sequel I perceive— </l>
+      <l>Crœsus, alarm'd, withholds consent, the while </l>
+      <l>Prince Atys warmly pleads—Is it not so?</l>
+     </lg>
+    </sp>
+    <sp who="#rhodius">
+     <speaker>Rhodius.</speaker>
+     <lg>
+      <l>Not with more warmth than doth his bride, fair Ada, </l>
+      <l>To whom the wary King, in fondness, yields </l>
+      <l>To be decided by Adrastus' voice.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>I trust he'll yield without the reference. </l>
+     </lg>
+     <stage>(To an Attendant.)</stage>
+     <lg>
+      <l>See to our steeds, and hold them ready, Sir. </l>
+     </lg>
+     <stage>(To Rhodius and Diomed.)</stage>
+     <lg>
+      <l>Now hie ye on to Sardis—Good day! Sirs— </l>
+      <l>Say to the Prince we follow close your steps.</l>
+     </lg>
+    </sp>
+    <sp who="#rhodius">
+     <speaker>Rhodius.</speaker>
+     <lg>
+      <l>My lord, good day!</l>
+     </lg>
+    </sp>
+    <sp who="#diomed">
+     <speaker>Diomed.</speaker>
+     <lg>
+      <l>Your Highness' slave!</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Adieu! </l>
+     </lg>
+     <stage> [Exeunt Rhodius and Diomed.</stage>
+     <stage>(To the remaining Attendant.)</stage>
+     <lg>
+      <l>Follow thy comrade, and abide our coming.</l>
+     </lg>
+    </sp>
+    <stage> [Exit Attendant.</stage>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Orontes! </l>
+     </lg>
+     <stage>(leans on him.)</stage>
+    </sp>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>Rouse thee, Adrastus! Rouse from useless sorrow, </l>
+      <l>And give thy noble mind to other transports.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Is it, Orontes, in the power of man </l>
+      <l>To move at will the springs of grief and joy? </l>
+      <l>Could we but rule those springs, we should be gods.</l>
+     </lg>
+    </sp>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>Howe'er dependent on external causes, </l>
+      <l>We are, believe me, to ourselves untrue, </l>
+      <l>Untrue to nature, if, when motives weigh </l>
+      <l>More in the cheerful scale than in the sad, </l>
+      <l>We suffer not the balance to decide. </l>
+      <l>Time hath wrought happy changes. Now, no more </l>
+      <l>Is Phrygia shut: the people love their Prince, </l>
+      <l>And loudly call for his return: </l>
+      <l>Gordius, the venerable Gordius too, </l>
+      <l>Enough hath mourn'd a son the gods have ta'en, </l>
+      <l>And wants but thee to kindle joys anew— </l>
+      <l>These of themselves are springs of bliss, my lord. </l>
+      <l>And then, your natal town, Celene fair! </l>
+      <l>And your Meander, lovely, wandering stream: </l>
+      <l>Shall they not cope with images of woe?</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>'Tis true, my friend, the sun hath made his round, </l>
+      <l>And smiles benign on Phrygia's fertile plains; </l>
+      <l>O'er my devoted head his annual course </l>
+      <l>Hath brought him to the period of the law </l>
+      <l>That terminates a forceful exile, </l>
+      <l>And leaves Celene open to my steps— </l>
+      <l>But oh! how stain'd!—how stain'd with precious blood! </l>
+      <l>Celene! blest Celene, till this arm, </l>
+      <l>This fatal arm, involved thy walls in woe! </l>
+      <l>Mine was a smiling infancy, Orontes, </l>
+      <l>And followed by a youth of joy and glory, </l>
+      <l>Till that black day—What daggers fill the thought! </l>
+      <l>Would I had died that day! Oh, Agathon! </l>
+      <l>Oh, my brother! Would I had died for thee! </l>
+      <l>Would I had died for thee, my Agathon!</l>
+     </lg>
+    </sp>
+    <stage> (Much agitated.)</stage>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>Forbear this grief.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Thou know'st with what a love </l>
+      <l>Our hearts thro' life were to each other bound: </l>
+      <l>In peace or war inseparable found! </l>
+      <l>The jocund paths of youth we trod together, </l>
+      <l>Enlarging social pleasure: or, for glory, </l>
+      <l>In battle urging, side by side, the foe— </l>
+      <l>He was my father's joy!</l>
+     </lg>
+    </sp>
+    <stage> (Weeps.)</stage>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>My lord! my lord!</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>I slew them both!</l>
+     </lg>
+    </sp>
+    <stage> (Greatly agitated.)</stage>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>Not yet, my dearest lord! </l>
+      <l>I pray bethink thee, ere your words prove true: </l>
+      <l>Gordius still lives—</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>As I do—no more. Live! </l>
+      <l>Call you it life to creep upon the earth, </l>
+      <l>To breathe; the produce of the soil consume, </l>
+      <l>And sink into a vivid sleep of horror?</l>
+     </lg>
+    </sp>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>Add friendship, Sir, the keen pursuit of knowledge, </l>
+      <l>Taste that creates Elysium in the mind, </l>
+      <l>The voice of Fame, the popular regard, </l>
+      <l>The power of beneficence, and the sway </l>
+      <l>A prince's virtues hold o'er ev'ry heart.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>They want their necessary relish, Peace: </l>
+      <l>That peace of mind, which I no more shall know. </l>
+      <l>Yet am I not insensible, Orontes, </l>
+      <l>To friendship's all-pervading influence: </l>
+      <l>To thine, to that of Crœsus and his son. </l>
+      <l>It does revive me, comfort me, my friend: </l>
+      <l>And not unfrequently exalts my spirits. </l>
+      <l>But, like those anodynes and pungent aids, </l>
+      <l>Which learned leeches use to soothe the nerves, </l>
+      <l>Its influence o'er,—and, oh! 'tis o'er too soon— </l>
+      <l>The malady returns with double force; </l>
+      <l>Black images the clouded brain infest, </l>
+      <l>Disturb the sanguine current in the veins, </l>
+      <l>Clog as they flow, and overwhelm the breast.</l>
+     </lg>
+    </sp>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>Deem not I vainly hope, or lightly speak, </l>
+      <l>When I advise another medicine, </l>
+      <l>More potent still than friendship—think of love.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus. </speaker>
+     <stage>(Gently starting.)</stage>
+     <lg>
+      <l>Love!</l>
+     </lg>
+    </sp>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>Believe me, 'tis a sovereign charm, Adrastus; </l>
+      <l>And Lydia's Monarch boasts a lovely daughter.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Love! Aryenis!—No, Orontes, no! </l>
+      <l>Once through my brain the ardent image sped, </l>
+      <l>And only once—it never reach'd my heart;— </l>
+      <l>Or if it did, 'twas but to show the wrong </l>
+      <l>I would not do to so much loveliness. </l>
+      <l>Mine is no breast to pillow such a cheek, </l>
+      <l>Which smiles should animate, not tears bedew. </l>
+      <l>Besides, Orontes, I have warn'd the maid </l>
+      <l>To guard against that passion, and control, </l>
+      <l>With Wisdom's rein, emotions that would rule </l>
+      <l>Despotic, if not early train'd to obey.</l>
+     </lg>
+    </sp>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>Well flows instruction from such youthful lips! </l>
+      <l>Oh! learn from her's to curb thy passion's sway; </l>
+      <l>Become her scholar, and forego thy grief. </l>
+      <l>If taught by thee no other loves to seek, </l>
+      <l>Be sure, Adrastus, that she loves already.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Misconstrue not the maiden's mild regard: </l>
+      <l>So loves she Atys and young Cyno too; </l>
+      <l>Her brothers, Crœsus' sons. For me, perhaps </l>
+      <l>Something of gratitude may intermingle, </l>
+      <l>For that I won her thoughts to lofty themes, </l>
+      <l>And open'd Grecian treasures to her ken.</l>
+     </lg>
+    </sp>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>The meeter she to grace a lofty throne, </l>
+      <l>And bless Celene with a race of kings.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Her virtues and her matchless grace combine </l>
+      <l>To win the soul, and seem almost divine. </l>
+      <l>Such beauty and such worth would lustre shed </l>
+      <l>O'er worlds, Orontes.—Oh! had Agathon— </l>
+      <l>Accursed arm! See, see! 'tis stain'd with blood!</l>
+     </lg>
+    </sp>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>Recal your thoughts—You speak of Aryenis.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Yes; and of Agathon. Oh! had he lived, </l>
+      <l>Celene had been blest with such a queen!</l>
+     </lg>
+    </sp>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>And shall be still.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Desist, my friend, I pray; </l>
+      <l>Nor sow in Fancy's warm and fertile soil </l>
+      <l>Seeds that can blossom but to poison.</l>
+     </lg>
+    </sp>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>Think of young Atys' happy lot.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Oh!—Thou hast rais'd a hydra to my view. </l>
+      <l>Think of my Atys!—Tell me how to think, </l>
+      <l>To speak, to act, to look.—Was 't not enough, </l>
+      <l>Ye gods! to shed, to see a brother's blood! </l>
+      <l>Why am I doom'd to live in treachery, </l>
+      <l>And veil my feelings from the man I love? </l>
+      <l>If there 's a curse that falls more heavily, </l>
+      <l>More poignantly than conscious parricide, </l>
+      <l>'Tis the withholding of the lip from truth, </l>
+      <l>Equivocating to the ear of friendship, </l>
+      <l>Wearing a seeming which the heart abhors. </l>
+      <l>Why, what a mockery is the state of man! </l>
+      <l>Whose very virtues are at war within, </l>
+      <l>And in their conflicts bear each other down! </l>
+      <l>We must away.</l>
+     </lg>
+    </sp>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>What shakes thee thus, my lord?</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>We must away from Crœsus' court, Orontes. </l>
+      <l>For 'tis infested by a fiend more fell </l>
+      <l>Than the enchantress of the Euxine shore— </l>
+      <l>Ada—</l>
+     </lg>
+    </sp>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>I fear the sequel of your tale.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>The bride of Atys is my deadly foe.</l>
+     </lg>
+    </sp>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>While on your Dorian visit did you chance </l>
+      <l>To slight her charms, or feign yourself enamour'd?</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Enamour'd? well express'd!—the very word </l>
+      <l>Which best expounds the feelings of the moment. </l>
+      <l>I was enamour'd—ay, enamour'd, Sir, </l>
+      <l>Like many more—for few the flame escap'd, </l>
+      <l>Her beaming graces kindled all around. </l>
+      <l>As if she singled me from out the crowd, </l>
+      <l>She darted from her eye the love she sought: </l>
+      <l>Mine drank of beauty to intoxication, </l>
+      <l>And I grew giddy with her sparkling wit. </l>
+      <l>But wit and beauty captivate, not bind: </l>
+      <l>The heart requires a stronger chain than either, </l>
+      <l>Which sense and virtue must conspire to weave. </l>
+      <l>I did not feign—but neither did I say </l>
+      <l>How much I was enamour'd: yet, awhile </l>
+      <l>Warm'd with the charm of novel ecstasies, </l>
+      <l>I almost thought it was the charm of love.</l>
+     </lg>
+    </sp>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>In truth 'twas like—and if you almost </l>
+      <l>No wonder she should wholly judge it love. </l>
+      <l>What sudden gust could chill your amorous fancy?</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Passion.—I shudder at the thought, Orontes.— </l>
+      <l>Gusts of ungovern'd rage, at first conceal'd, </l>
+      <l>Broke their restraint, and gave her to my view </l>
+      <l>A very fury, whose distorted eye </l>
+      <l>Darted far other fires than those of love. </l>
+      <l>She first dismay'd me by a sudden scowl, </l>
+      <l>Which her bent brow dared aim against her father. </l>
+      <l>Transient was that, and quickly clear'd by smiles, </l>
+      <l>Those needful guards of beauty and of love.</l>
+     </lg>
+    </sp>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>That shews at least that some command she held.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Nature, howe'er expell'd, resumes her sway. </l>
+      <l>One morn, with idle steps, I gaily roved </l>
+      <l>Within the precincts of the royal grounds, </l>
+      <l>And, unobserved, approach'd a portico, </l>
+      <l>Which Ada paced with agitated gait. </l>
+      <l>In sportive humour, meaning to surprise, </l>
+      <l>I lurk'd beside a column's base </l>
+      <l>—But soon </l>
+      <l>A female slave, with hurried steps, advanced, </l>
+      <l>Eager to repair some slight mistake, </l>
+      <l>The petty causer of a furious storm, </l>
+      <l>That raged within her lady's lab'ring breast. </l>
+      <l>Oh! what a change was there! what alter'd mien! </l>
+      <l>Those lovely features hideous grew and wild. </l>
+      <l>A crimson'd cheek, a glaring eye, bent brows, </l>
+      <l>Distorted lips, and bristling hair ensued, </l>
+      <l>And gave to life Medusa's frightful head: </l>
+      <l>She waved it high, and all her frame deform'd, </l>
+      <l>Raised her clench'd hand, and struck the maiden's face. </l>
+      <l>With pain, and shame, “Oh Mistress!” cried the slave. </l>
+      <l>Awed and submiss, 'twas all she said, the while </l>
+      <l>Her ministry she anxiously pursued. </l>
+      <l>Had Hercules's arm assail'd my breast, </l>
+      <l>The blow had shook me less than that which came, </l>
+      <l>Reverberated from her humble cheek, </l>
+      <l>In echo to the little slender hand </l>
+      <l>That struck it. And oh! my Orontes! mark </l>
+      <l>How beauty is with moral sense entwined! </l>
+      <l>For what the Princess lost the slave acquired.</l>
+     </lg>
+    </sp>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>What followed?</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>I, undetected, from the scene withdrew, </l>
+      <l>And, saved from Love, resolved to leave the court. </l>
+      <l>She saw the change, and swore to be revenged. </l>
+      <l>Something of this I hinted once to Atys: </l>
+      <l>But he, by filial love supremely moved, </l>
+      <l>Nobly intent to gratify his parent, </l>
+      <l>Refused his ear, and she became his bride— </l>
+      <l>Sweet word of love!—but big with horrors here— </l>
+      <l>From Sardis must I fly—but whither fly?</l>
+     </lg>
+    </sp>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>To Gordius' arms—the sire expects his son; </l>
+      <l>Wide stand Celene's portals for her Prince; </l>
+      <l>Once nestled there, thy grief shall wear away: </l>
+      <l>We will not leave thee leisure thus to pine.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Alas! I must not, cannot see my father: </l>
+      <l>No, spare me that, my friend—'twere death to both. </l>
+      <l>I'll back to Ephesus: thence o'er th' Ægean </l>
+      <l>Take ship for Attica. Solon, they say, </l>
+      <l>Is now at Athens. If I live, I'll gain </l>
+      <l>The arduous knowledge that empowers to reign. </l>
+      <l>If aught this bleeding heart may heal, 'twill be </l>
+      <l>The making Phrygia happy, great, and free.</l>
+     </lg>
+    </sp>
+   </div>
+   <div type="act" n="2">
+    <head>ACT II.</head>
+    <stage>Scene—In the Palace of Crœsus.</stage>
+    <stage>Ada, alone.</stage>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l> art thou, wretched Ada? Whither bends </l>
+      <l>Thy restless step? thy wand'ring guilty eye, </l>
+      <l>Eager to see the man thy vengeance dooms?— </l>
+      <l>Adrastus comes, the insulter of my youth, </l>
+      <l>Rejector of my love. Already here, </l>
+      <l>Within the palace walls, and with his friend, </l>
+      <l>Unconscious, planning schemes of future pleasure. </l>
+      <l>Atys his friend! my husband—Husband! hah! </l>
+      <l>What have I done? Profaned thy altar, Hymen; </l>
+      <l>Mingled with thy fires the fire of vengeance, </l>
+      <l>Not the flame of Love; binding hands, not hearts; </l>
+      <l>Espousing Atys to destroy Adrastus, </l>
+      <l>The surer to transfix his heart, that heart </l>
+      <l>That could belie a face where sparkled love </l>
+      <l>With smiles perfidious as the Syren's song. </l>
+      <l>Away remorse and pity from my breast! </l>
+      <l>Ye gods! avengers of your slighted powers! </l>
+      <l>Confirm in me an Amazonian mind! </l>
+      <l>And ye, fell sisters, dire Eumenides! </l>
+      <l>Visit my bosom; sweep away all shame, </l>
+      <l>All weak compunction, and become my guides </l>
+      <l>In the black purpose of my burning soul, </l>
+      <l>To wreak a signal vengeance, come what may, </l>
+      <l>Though Sardis groan, and farthest Lydia wail; </l>
+      <l>Or e'en this wretched frame in pangs expire.— </l>
+      <l>For disappointed love, though love return'd, </l>
+      <l>The dame of Carthage braved the lighted pyre: </l>
+      <l>A fiercer sting oft darts from love disdain'd, </l>
+      <l>Nor leaves its hold within a female breast, </l>
+      <l>Till soothed by Vengeance, or by death destroy'd. </l>
+      <l>Now, Phrygian! now beware thy loving friend! </l>
+      <l>For Atys' self shall strike th' avenging blow.</l>
+     </lg>
+    </sp>
+    <stage>Enter Aspasia.</stage>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Well! my Aspasia, has thou seen the youth?</l>
+     </lg>
+    </sp>
+    <sp who="#aspasia">
+     <speaker>Aspasia.</speaker>
+     <lg>
+      <l>The Princes have embraced, and now </l>
+      <l>Remain conferring in my Lord's Museum. </l>
+      <l>I saw them pass, but me they noted not. </l>
+      <l>Methinks the Prince Adrastus alter'd much: </l>
+      <l>His wonted smile is gone, his eyes no more </l>
+      <l>Denote those playful sallies of the mind </l>
+      <l>Which spread delight throughout your father's palace, </l>
+      <l>During his sojourn at the Carian court. </l>
+      <l>His features wear a settled melancholy; </l>
+      <l>But fine, and noble still, replete with grace.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Yes, yes, Aspasia, he could look, and speak, </l>
+      <l>Delight and win—but never felt, himself; </l>
+      <l>Save the mixt pleasure of a lively hour: </l>
+      <l>Though to the eye and ear his mien and voice </l>
+      <l>Proclaim'd him form'd for tenderness and love. </l>
+      <l>'Twas semblance all, and art, and conscious pride: </l>
+      <l>He glow'd to win, and won but to disdain. </l>
+      <l>Yet was it rumour'd at Halicarnassus, </l>
+      <l>That, purified by Crœsus, he had learn'd </l>
+      <l>To love the daughter of his purifier.</l>
+     </lg>
+    </sp>
+    <sp who="#aspasia">
+     <speaker>Aspasia.</speaker>
+     <lg>
+      <l>Aryenis?</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>The sister of my husband. </l>
+      <l>The King and Atys say it is not so: </l>
+      <l>Yet scruple not to wish it loudly. Well! </l>
+      <l>Be their wishes gratified! Be her fate </l>
+      <l>Involved in all the horrors of my own!</l>
+     </lg>
+    </sp>
+    <sp who="#aspasia">
+     <speaker>Aspasia.</speaker>
+     <lg>
+      <l>Love unrequited—</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Sets the brain on fire, </l>
+      <l>And flames the blood that gushes from a heart, </l>
+      <l>Where hate contends with love for mastery.</l>
+     </lg>
+    </sp>
+    <sp who="#aspasia">
+     <speaker>Aspasia.</speaker>
+     <lg>
+      <l>But Aryenis—</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Loves Adrastus.</l>
+     </lg>
+    </sp>
+    <sp who="#aspasia">
+     <speaker>Aspasia.</speaker>
+     <lg>
+      <l>How is that known, since not reveal'd by her?</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Love is no flame within the soul confined </l>
+      <l>And smother'd—All, all betray it—The eye, </l>
+      <l>The voice, the curling of the silent lip— </l>
+      <l>Oh! 'tis a fire that mocks concealment's power, </l>
+      <l>And, shaded, burns with brighter blaze! </l>
+      <l>Name but Adrastus, and these symptoms all </l>
+      <l>Reveal the truth, without the aid of words.</l>
+     </lg>
+    </sp>
+    <sp who="#aspasia">
+     <speaker>Aspasia.</speaker>
+     <lg>
+      <l>He is not worthy of a heart like thine: </l>
+      <l>Call forth a noble pride, and scorn the man </l>
+      <l>Whose tasteless eye on slighter beauty dwells.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Pride!—'Tis the sport of Love to humble Pride. </l>
+      <l>No! deadly Hate alone can cope with Love. </l>
+      <l>No weaker passion satisfies the breast </l>
+      <l>O'er which that tyrant god e'er bore control: </l>
+      <l>Never can Scorn succeed, but Vengeance may. </l>
+      <l>I've torn th' ungrateful monster from my heart, </l>
+      <l>And with revenge the void he left is fill'd.</l>
+     </lg>
+    </sp>
+    <sp who="#aspasia">
+     <speaker>Aspasia.</speaker>
+     <lg>
+      <l>With feelings such as these, how much, ye gods! </l>
+      <l>Is poor unhappy Woman to be pitied!</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Pitied!—It may be. But, Aspasia, know, </l>
+      <l>Still to be dreaded more. And, if there lurk </l>
+      <l>Within the breast a spark of slighted love, </l>
+      <l>'Twill but augment the fiercer fire of hate.— </l>
+      <l>Oh! what a conflict in my bosom rages! </l>
+      <l>But hate, ever as pow'rful, now prevails, </l>
+      <l>As he shall feel. But die he shall not—No! </l>
+      <l>That were poor, common vengeance—He shall live: </l>
+      <l>But live with blasted fame, while conscious virtue, </l>
+      <l>Gnawing at his heart, shall greater pangs inflict </l>
+      <l>Than Ada's dagger, or than Atys' sword. </l>
+      <l>My thoughts confused o'er modes of vengeance range: </l>
+      <l>In death is peace, in blasted life is woe.</l>
+     </lg>
+    </sp>
+    <sp who="#aspasia">
+     <speaker>Aspasia.</speaker>
+     <lg>
+      <l>But think, whate'er the Phrygian Prince endure </l>
+      <l>By Atys and by Crœsus will be felt.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Atys and Crœsus both deserve their fate: </l>
+      <l>Deserve my rage—Of this I well bethought— </l>
+      <l>Did not their boastings reach my tortured ear, </l>
+      <l>That Lydia's daughter should his peace restore? </l>
+      <l>Time might have wrought a change—but in the heart </l>
+      <l>Once love be fixed, its avenues are closed, </l>
+      <l>And all attempts to win it are in vain.</l>
+     </lg>
+    </sp>
+    <sp who="#aspasia">
+     <speaker>Aspasia.</speaker>
+     <lg>
+      <l>Would thou couldst quell these conflicts of thy soul! </l>
+      <l>At least, my Princess, let them be conceal'd.— </l>
+      <l>Some one approaches—Nay, resume thy looks, </l>
+      <l>Unbend thy brows—It is my lord, Prince Atys.</l>
+     </lg>
+    </sp>
+    <stage>Enter Atys.</stage>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>Smile, Ada, smile—All nature smiles to-day. </l>
+      <l>E'en my Adrastus smiled when first we met, </l>
+      <l>Though Melancholy graced his lip the while.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>The Phrygian Prince is then arrived?</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>I left him with a friend, preparing both </l>
+      <l>To follow to the presence of the King, </l>
+      <l>Whom now I seek to tell of his return.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>And talk'd he of the chace? And will he join </l>
+      <l>To put to death this other Calydon?</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>'Twas our prime talk,—Crœsus will be convinced— </l>
+      <l>But fain Adrastus would the chace avoid.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>The chace avoid! That's strange, methinks! Perhaps </l>
+      <l>A nobler quarry in the palace lures. </l>
+      <l>Did he of your sister speak?</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>Yes, oh yes; </l>
+      <l>And with an ardour whence a hope would spring, </l>
+      <l>Had not his breast forsworn the power of love, </l>
+      <l>That Aryenis might his grief dispel.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Love, you imagine, then, may be forsworn? </l>
+      <l>'Tis idly said; for that despotic deity, </l>
+      <l>Howe'er at common perjuries he smile, </l>
+      <l>Brooks not derision of his proper power; </l>
+      <l>The which nor men nor gods e'er yet forswore. </l>
+      <l>May not his heart against her charms be guarded </l>
+      <l>Even by Love itself, by other charms? </l>
+      <l>Hath he ne'er thrill'd thy ear with Dorian beauty? </l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>No—never talk'd he, Ada, save of thine; </l>
+      <l>And then, methought, reluctantly, nor e'en </l>
+      <l>To thine would pay the homage fully due.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Yet deign'd he, Sir, before his homicide </l>
+      <l>Much time to loiter at the Carian court. </l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>I know it well. Why say it now, my love? </l>
+      <l>And with such stress upon that loiter'd time? </l>
+      <l>I must to Crœsus </l>
+     </lg>
+     <stage>(going, returns.)</stage>
+     <lg>
+      <l> Oh! be sure, my Ada, </l>
+      <l>The sad distemper of Adrastus' heart </l>
+      <l>Is unremitting, undermining grief, </l>
+      <l>That mocks all moral aid, all other power; </l>
+      <l>Yet mingles not amiss with heavenly friendship, </l>
+      <l>That first of boons the gods on men bestow.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>The first of boons! And where ranks Love, I pray?</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>Oh! second, Ada. </l>
+     </lg>
+     <stage>(gaily.)</stage>
+     <lg>
+      <l> Sometimes last, I fear— </l>
+      <l>Sometimes no boon at all.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Sometimes—a curse.</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>Nay, clear that beauteous brow. I love thee, Ada— </l>
+      <l>Excuse the candour of a soldier's speech— </l>
+      <l>I love thee, Ada, as a soldier loves.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Methinks, a soldier, Sir, should love like Mars; </l>
+      <l>To whom we owe that deity himself.</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>My Ada, so he should—and so he does. </l>
+      <l>Soldiers are amorous, and few neglect </l>
+      <l>Their vows at Venus' shrine—Yet friendship sways </l>
+      <l>The hero's soul with unexampled force.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Judge by the Phthyan hero. Ten long years </l>
+      <l>His injured love suspended Ilion's fate.</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>'Twas rage, not love; 'twas pride, my fair one, pride </l>
+      <l>So long withheld Achilles from the fray; </l>
+      <l>Till wounded friendship set his soul on fire, </l>
+      <l>And in its blaze involved the Dardan towers. </l>
+      <l>But Love with Friendship never should contend— </l>
+      <l>Atys is blest in both—his wife and friend.</l>
+     </lg>
+    </sp>
+    <stage> [Exit.</stage>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>What says Aspasia to this soldier's sense </l>
+      <l>Of nature ruling in the human breast?</l>
+     </lg>
+    </sp>
+    <sp who="#aspasia">
+     <speaker>Aspasia.</speaker>
+     <lg>
+      <l>If from myself a judgment I may form, </l>
+      <l>I know no love exceeding that for you, </l>
+      <l>And Friendship, Ada, holds superior sway: </l>
+      <l>To judge by you, far diff'rent should I deem. </l>
+      <l>Yet, ah! beware of Passion's dire extreme! </l>
+      <l>It leads to misery—</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Passion is zest— </l>
+      <l>When dull emotions stagnate in the breast, </l>
+      <l>'Tis living death, not life enjoy'd, Aspasia.</l>
+     </lg>
+    </sp>
+    <sp who="#aspasia">
+     <speaker>Aspasia.</speaker>
+     <lg>
+      <l>Is stagnant all, if not in tumult driven? </l>
+      <l>Recal the day, when, on the Ægean shore, </l>
+      <l>We watch'd the gliding barks by zephyrs blown: </l>
+      <l>Swiftly, though gently, each attain'd its goal. </l>
+      <l>How sweet, and pleasant 'twas to view the scene! </l>
+      <l>That very eve, within your father's palace, </l>
+      <l>We gazed again upon our alter'd sea, </l>
+      <l>Where zephyrs had resign'd their happy sway, </l>
+      <l>Succeeded by the furious blasts of Auster, </l>
+      <l>Which, sudden, with tremendous roar, o'ertook </l>
+      <l>A large and strongly timber'd argosy, </l>
+      <l>Quick steering for the port, then close before it. </l>
+      <l>Methinks, I see it now—first, as in sport, </l>
+      <l>It danced its playful bow to mock the wind, </l>
+      <l>That, howling, threaded the Ceramic bay. </l>
+      <l>How proudly swell'd its milk-white sails! But soon </l>
+      <l>Along the coast 'twas driven on its side, </l>
+      <l>And dash'd upon the rocks—You heard the screams, </l>
+      <l>Which, louder than the tempest's roar, assail'd </l>
+      <l>The affrighted ear, and pierced the tortured soul </l>
+      <l>With sympathetic terror—All were lost. </l>
+      <l>So, Ada, act the passions of the breast! </l>
+      <l>Gentle, they give to life its dearest joys; </l>
+      <l>But uncontroll'd they goad and overwhelm. </l>
+      <l>Oh! I beseech you, stop—forego revenge— </l>
+      <l>The Phrygian Prince, who never knew to love, </l>
+      <l>Is now absorb'd in grief—Atys is charming.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>As is the Parian stone: and with a heart </l>
+      <l>Form'd for thy cold philosophy. The gods, </l>
+      <l>Whose will the earth, the air, the sea obey, </l>
+      <l>Have made me what I am—Infatuate wretch!</l>
+     </lg>
+    </sp>
+    <sp who="#aspasia">
+     <speaker>Aspasia.</speaker>
+     <lg>
+      <l>But! mould thy soul by reason into peace.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Reason is given to aid, not thwart their work: </l>
+      <l>Away with Reason, then, that rebel grows! </l>
+      <l>Fate rules Olympus, Fate the gods obey, </l>
+      <l>And Nature ministers to Fate on earth. </l>
+      <l>Thee friendship and a gentle mind it wills; </l>
+      <l>To me a spirit glowing and resolved: </l>
+      <l>Perhaps too much disclosed to thee, Aspasia! </l>
+      <l>But well, my gentle friend, I know thou lovest me, </l>
+      <l>And my swoln heart had burst, had I not pour'd </l>
+      <l>Its overflowing feelings into thine.</l>
+     </lg>
+    </sp>
+    <sp who="#aspasia">
+     <speaker>Aspasia.</speaker>
+     <lg>
+      <l>Ada, they come—Be calm.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Again that step </l>
+      <l>Vibrates melodious discord on my ear: </l>
+      <l>Again conflicting passions shake my soul.— </l>
+      <l>I'd see the Prince alone—remove his friend.</l>
+     </lg>
+    </sp>
+    <stage>Enter Adrastus and Orontes.</stage>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Hah!—'Tis she! </l>
+     </lg>
+     <stage>(aside.)</stage>
+     <lg>
+      <l>Long life and joy attend the bride of Atys!</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>'Twere better wish'd with a less mournful brow— </l>
+      <l>But, Prince, we'll teach you to dispel the cloud. </l>
+      <l>Your friend—</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Orontes, Madam, from Celene, </l>
+      <l>Bearing my father's mandate of return.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>You're welcome, Sir, to Sardis—But not so </l>
+      <l>The mandate of the Phrygian King. We'll hope </l>
+      <l>To send Adrastus home with gayer cheer.</l>
+     </lg>
+    </sp>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>I'm but the bearer, Madam, of the wish </l>
+      <l>Of aged Gordius to embrace his son; </l>
+      <l>And of warm congratulations to Crœsus, </l>
+      <l>His son, and you, fair Princess, on your nuptials.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>We'll speak our thanks in time for your return.— </l>
+      <l>Prince Adrastus—</l>
+     </lg>
+    </sp>
+    <stage>(Here Aspasia speaks in show to Orontes.)</stage>
+    <stage> [Exeunt Aspasia and Orontes.</stage>
+    <stage>(A pause.)</stage>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Hath sorrow made thee dumb? Or time erased </l>
+      <l>From memory thy Carian hours?</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Oh! Princess! </l>
+      <l>I do beseech thee, bury in oblivion </l>
+      <l>Those hours, and all, all else that may disturb </l>
+      <l>Thy peace, or give a pang to Atys' heart; </l>
+      <l>A heart of bliss so worthy and of love.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Dost talk of bliss and love to me? Of peace, </l>
+      <l>Which thou hast marr'd? Of love, which well thou know'st </l>
+      <l>Is not at my command? A victim here </l>
+      <l>At Hymen's shrine paternal power hath bound me: </l>
+      <l>But what can bind imagination? Who </l>
+      <l>Direct to petty channels of their own </l>
+      <l>The mighty torrent of the love-swoln heart? </l>
+      <l>Adrastus! thou hast dared to sport with mine— </l>
+      <l>Alas! the time is past when, with fair fame, </l>
+      <l>Thou might'st redeem thy pledge of winning smiles. </l>
+      <l>But still 'tis unredeem'd, with me remains, </l>
+      <l>And wretched Ada cannot throw it back.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Madam!</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Madam!—Full of respect, forsooth! </l>
+      <l>But Ada is my name—I'll have no other— </l>
+      <l>'Twas “Lovely Ada,” when that pledge was given.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Reflect, I pray—</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Reflection is my curse.— </l>
+      <l>I've done a deed that, as I look upon thee, </l>
+      <l>Curdles my blood. Hadst thou deserved my love; </l>
+      <l>Hadst thou not broken from my father's court, </l>
+      <l>With alter'd visage, and with smiles of scorn, </l>
+      <l>I ne'er the Lydian overture had favour'd. </l>
+      <l>And, e'en when urged with all the force of duty, </l>
+      <l>Or all a parent, all a king might claim, </l>
+      <l>I ne'er had yielded to become another's: </l>
+      <l>And sooner had they immolated Ada </l>
+      <l>At any shrine than that by me insulted; </l>
+      <l>The god of which a signal vengeance plans.— </l>
+      <l>Of Love, disdain'd, Revenge usurp'd the place— </l>
+      <l>No keener curse that passion could suggest, </l>
+      <l>Than by this marriage, sought of policy, </l>
+      <l>To make of Atys' wife Adrastus' foe.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Alas! too well I know the spring—But, oh! </l>
+      <l>In time bethink thee, ere, the curse fulfill'd, </l>
+      <l>Involve in endless woe thy dearest friends. </l>
+      <l>For me, could but my death thy wrath appease, </l>
+      <l>I'd welcome it, with joy to me unknown— </l>
+      <l>Give the command, and, Ada, I obey.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Speak it again—say Ada once again— </l>
+      <l>The sound is like enchantment in the air, </l>
+      <l>And breathes a warmth to melt a harden'd heart. </l>
+      <l>But no—It cannot—must not—I recal </l>
+      <l>The wish—'tis Hate, not Love, now sways my breast.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Oh! let not Hatred hold so dire a sway </l>
+      <l>Where only Love should reign.—Be—be my friend— </l>
+      <l>Friend to a wretched man, for mercy suing— </l>
+      <l>My heart is broke—my fate already told </l>
+      <l>To wither long, by moral lightning scathed; </l>
+      <l>And all my years must pass in hopeless gloom. </l>
+      <l>Some comfort yet this cheerless breast might know, </l>
+      <l>Could I repair the heedless injury, </l>
+      <l>Done in those giddy days of playful youth, </l>
+      <l>When even smiles might be mista'en for love.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Mista'en?</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>If to admire, indeed, were love, </l>
+      <l>'Twere no mistake—To look on charms like thine, </l>
+      <l>And not admire, were as impossible </l>
+      <l>As gazing at the Sun to scorn his beams: </l>
+      <l>Dazzled I was, but never spoke of love.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Nor ever look'd it?</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>That was not a crime. </l>
+      <l>'Twas homage, Ada, homage from the heart, </l>
+      <l>Paid not alone by me, but all whose eye, </l>
+      <l>Prompt to receive the soft impress of beauty, </l>
+      <l>Convey'd its influence to the wond'ring soul.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Such, enchanter! such were the magic sounds </l>
+      <l>That tuned the voice of Love—thy voice!—Such still </l>
+      <l>Their sweetness falls upon my ravish'd sense, </l>
+      <l>Runs thro' my veins, and agitates my heart. </l>
+      <l>Thou know'st 'twas love, Adrastus—'twas—'twas love.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Oh! had I felt it then, in those gay hours, </l>
+      <l>When peace and joy in Beauty's train were found, </l>
+      <l>This breast had been a fit abode for Love: </l>
+      <l>Alas! 'tis but a dreary ruin now, </l>
+      <l>Suited alone to melancholy thoughts.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>No better antidote to grief than love.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>No antidote can operate 'gainst mine. </l>
+      <l>Oh! hear me, cruel! Cruel to thyself! </l>
+      <l>Hear me, nor be ungrateful to the gods! </l>
+      <l>Welcome the bliss, by thee unsought, they give: </l>
+      <l>Tho' vengeance urged the deed, let Love prevail! </l>
+      <l>Never was man more form'd than Crœsus' son—</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Adrastus! hold—Crœsus expects thee now; </l>
+      <l>Nor is there time for longer parley here. </l>
+      <l>Vengeance I meant: but since I've seen thee, heard thee, </l>
+      <l>This ardent brain, so german to my heart, </l>
+      <l>Unfolds a milder project. Atys, full </l>
+      <l>Of to-morrow's pleasure, meets the dawn, </l>
+      <l>And therefore lodges in the outer court. </l>
+      <l>I unobserved, when sleep the Palace holds, </l>
+      <l>For all its ways I've learn'd, will leave my chamber, </l>
+      <l>And seek thee—</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Princess!—</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Nay, never start.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Not for my life—</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Oh monstrous! </l>
+      <l>What vile degrading fancy soils thy brain? </l>
+      <l>Am I awake? Think'st thou I proffer dalliance? </l>
+      <l>Is 't come to this? Ye gods! is 't come to this? </l>
+      <l>'Tis shame enough when woman owns her love; </l>
+      <l>But to be deem'd the wanton of an hour!— </l>
+      <l>Now could I hate thee—but I've that to say, </l>
+      <l>Which must be said; and which, when said, to both, </l>
+      <l>If thou art wise, may bring relief and peace.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Relief for me there's none. And as for peace, </l>
+      <l>The quiet of the breast depends on honour.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>That we'll discuss at night—Expect me then.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Princess, desist—I will not see you then.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Not see me?—Madman! Yet more mad is she </l>
+      <l>Whose insane visions lead her thus to trifle, </l>
+      <l>And yield herself to scorn—But, Sir, I know </l>
+      <l>The barrier to our conference—Know thou! </l>
+      <l>The flame of vengeance shall that barrier fire. </l>
+      <l>It is not Atys steels thy heart against me; </l>
+      <l>But Atys' sister—Oh! thou canst not love! </l>
+      <l>'Tis grief absorbs Adrastus' soul—Now, mark me! </l>
+      <l>For vengeance am I here, and vengeance shall be mine.</l>
+     </lg>
+    </sp>
+    <stage> [Exit.</stage>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Oh! lost Adrastus!—Ho! </l>
+      <l>Orontes! ho!</l>
+     </lg>
+    </sp>
+    <stage> [Exit.</stage>
+   </div>
+   <div type="act" n="3">
+    <head>ACT III.</head>
+    <stage>Scene—The Palace of Crœsus.</stage>
+    <stage>A magnificent Apartment.—Crœsus and his Courtiers attending to Music, in
+                    which Flutes prevail. —Crœsus seats himself.—Atys, Adrastus, Orontes, and
+                    Philon, arrange themselves by him, and the Act opens with the following Stanzas.
+                    The two first are sung alternately by Singers on the opposite sides of the
+                    Stage— the third by a single voice, in a solemn but not melancholy strain. As
+                    the voice of the Singer dies away, Crœsus speaks.</stage>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>Such were the words of the wise man of Athens, </l>
+      <l>Which we to Lydian measures have consign'd, </l>
+      <l>To make Philosophy delight in song, </l>
+      <l>And thus the crabbed saw disprove itself: </l>
+      <l>For happiness belongs to life, not death. </l>
+      <l>Who dreads to-morrow's pang must writhe to-day: </l>
+      <l>While joy to-day is so far joy secure. </l>
+      <l>Spite of the sophist's doctrine, this I feel, </l>
+      <l>All Lydia is content, and Crœsus happy. </l>
+      <l>If aught remain to gratify ambition, </l>
+      <l>'Tis to be sought beyond the gelid Halys, </l>
+      <l>In regions where an empire seems to rise, </l>
+      <l>Pregnant with rivalry to Lydia's throne.— </l>
+      <l>Are the last Messengers to Delphi here?</l>
+     </lg>
+    </sp>
+    <sp who="#philon">
+     <speaker>Philon.</speaker>
+     <lg>
+      <l>Arrived e'en now, they wait the King's command.</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>Then bid them hither with their best despatch. </l>
+     </lg>
+     <stage> (An Officer goes out.)</stage>
+     <lg>
+      <l>The Oracular replies have all been good: </l>
+      <l>But still the Pythoness I value most; </l>
+      <l>And from Apollo's favour'd shrine I'd hear, </l>
+      <l>Once more, the confirmation of my fortunes.</l>
+     </lg>
+    </sp>
+    <stage>Enter Officer and Messengers.</stage>
+    <sp who="#officer">
+     <speaker>Officer.</speaker>
+     <lg>
+      <l>So please the King, the Messengers from Delphi.</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>Welcome to Sardis, Sirs. I long to know </l>
+      <l>The new reply the Priestess hath vouchsafed.</l>
+     </lg>
+    </sp>
+    <sp who="#messenger">
+     <speaker>Messenger.</speaker>
+     <lg>
+      <l>Long life to Crœsus, Lydia's happy King! </l>
+      <l>Thus did the Pythoness her answer give: </l>
+      <l> “The Halys once by Lydia crost, </l>
+      <l> A mighty empire will be lost.”</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>That 's right! that 's right! We leave our kingdom safe, </l>
+      <l>And penetrate the empire to be lost.— </l>
+      <l>Philon! see that a hundred golden tiles </l>
+      <l>Go with the Lion to the Delphic fane. </l>
+      <l>What said the agitated Priestess more?</l>
+     </lg>
+    </sp>
+    <sp who="#messenger">
+     <speaker>Messenger.</speaker>
+     <lg>
+      <l> Urged on the fate of Crœsus, she replied: </l>
+      <l> “When o'er the Medes an o'ergrown Mule </l>
+      <l> Shall hold on high the sov'reign rule, </l>
+      <l> Then, Lydian, over Hermus fly, </l>
+      <l> Thy safety seek, and fear to die.”</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>Most excellent! What can be more auspicious? </l>
+      <l>When shall a brutal Mule ascend a throne? </l>
+      <l>Or Crœsus' courage fail? Thanks to the god! </l>
+      <l>Philon! Be added to our present offering </l>
+      <l>The silver casks, and basons of pure gold: </l>
+      <l>And to the Pythoness I'd have convey'd </l>
+      <l>Those necklaces and zones of which I spoke; </l>
+      <l>A treasure of themselves magnificent.</l>
+     </lg>
+    </sp>
+    <sp who="#philon">
+     <speaker>Philon.</speaker>
+     <lg>
+      <l>Your Highness' orders straight shall be obey'd.</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>We'll have a great and royal sacrifice. </l>
+     </lg>
+     <stage> (To Philon.)</stage>
+     <lg>
+      <l>A thousand chosen victims see collected; </l>
+      <l>Prepare a pyre of decorated couches, </l>
+      <l>Goblets of gold, and costly purple vests. </l>
+      <l>And let all Lydia follow our example, </l>
+      <l>With proper objects, as by each possess'd. </l>
+      <l>My Lords! these are great tidings! While, secure, </l>
+      <l>Our Lydians in rejoicings fill their time, </l>
+      <l>We'll meditate upon our future conquests.— </l>
+      <l>But I see faces here, more eager far </l>
+      <l>For present sport than future victory. </l>
+      <l>Well! be it so. To-morrow, with the dawn, </l>
+      <l>Our dogs shall rouse you with melodious noise. </l>
+      <l>So now we'll separate. To each good day!</l>
+     </lg>
+    </sp>
+    <stage> (Rises and advances.)</stage>
+    <stage> (The Chorus is continued as the Stage is clearing, during which the
+                    principal personages advance.)</stage>
+    <stage>Manent—Crœsus, Atys, Adrastus, and Orontes.</stage>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>Well, dear Adrastus! does your friend persist </l>
+      <l>In his mad fondness for the chace to-morrow?</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>If it so please your Highness.</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>And can nought </l>
+      <l>Divert thee, Atys, from this dangerous sport?</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>Not much of danger, sure, my honour'd Lord. </l>
+      <l>E'en if there were, think, oh! think, my father, </l>
+      <l>How Lydians value courage and renown, </l>
+      <l>Proved and obtain'd in war; or e'en, as now, </l>
+      <l>In bold attacks upon the Forest tyrants. </l>
+      <l>Will they not sneer at sloth and cowardice, </l>
+      <l>In one averse to signalize himself? </l>
+      <l>And he the very one on whom all eyes </l>
+      <l>Turn for a chief to lead where danger threats? </l>
+      <l>And what will Ada think, my lovely bride? </l>
+      <l>My Lord! good my Lord! let me not lose opinion, </l>
+      <l>That golden prize which weds esteem to love.</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>My son! No coward ever sprung from Crœsus. </l>
+      <l>What Lydian knows not of thy deeds in war? </l>
+      <l>But oh! that vision!—that terrific vision! </l>
+      <l>Which show'd thee prostrate with a spear transfix'd!— </l>
+      <l>It is to you, my Atys, that I look </l>
+      <l>For hope, in the succession to my realms; </l>
+      <l>And for our Lydia a long race of kings. </l>
+      <l>Cyno, your brother, amiable and brave, </l>
+      <l>Mute left by Nature from his very birth, </l>
+      <l>Can never fill the throne.</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>My dearest father! </l>
+      <l>Can I be senseless to your anxious care? </l>
+      <l>Ah, no!—'tis full of love and wise intent. </l>
+      <l>And little should I merit love like thine, </l>
+      <l>Could I, in opposition to thy will, </l>
+      <l>Enforce the wanton eagerness of youth. </l>
+      <l>Repeat thy wish, and I forego the leave, </l>
+      <l>Which so reluctantly has been accorded. </l>
+      <l>But reason first upon this vision thus: </l>
+      <l>It intimates the instrument of fate </l>
+      <l>To be a spear. Where is the enemy? </l>
+      <l>Boars wield no arms, present no deadly spear. </l>
+      <l>Had the dire portent been a tusk, indeed, </l>
+      <l>There had been ground perhaps for some debate— </l>
+      <l>We go not to contend with men. I pray, Sir, </l>
+      <l>Weigh the matter thus.</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>Atys, you're right. </l>
+      <l>My fears I own are idle. Thus convinced, </l>
+      <l>I'll not retract my word, but joy to hear </l>
+      <l>From your own lips the pleasant toils of sport, </l>
+      <l>And all th' adventures of the bristled savage. </l>
+      <l>You hunt, Orontes?</l>
+     </lg>
+    </sp>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>Sir, I count the hours.</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>And you, Adrastus, must be early stirring.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Alas! I've no excitement, Sir, to stir me: </l>
+      <l>And would your Highness and the Prince excuse—</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>Nay, my good friend, I would not for a kingdom </l>
+      <l>But you were there. Adrastus, dear Adrastus! </l>
+      <l>Think not I would remind you of your woes, </l>
+      <l>To claim an int'rest for the expiation </l>
+      <l>I once administer'd to your distress, </l>
+      <l>Or make a debt of what has proved a gain: </l>
+      <l>But if you feel that I have shown you love, </l>
+      <l>Refuse not to accompany my Atys; </l>
+      <l>To call forth prudence, and to guard his life. </l>
+      <l>Wisdom and valour, those prime gifts of Heaven, </l>
+      <l>Your family have long inherited, </l>
+      <l>Nor have they fail'd in the descent to you: </l>
+      <l>Where valour calls, Adrastus should be found.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Oh! more than father to a wretched youth! </l>
+      <l>Crœsus, enough! Thy slightest wish, believe me, </l>
+      <l>Teems with excitement to my grateful thoughts. </l>
+      <l>By such a dire calamity oppress'd, </l>
+      <l>It ill becomes me with the gay to move: </l>
+      <l>'Tis not my nature, Sir; and you have seen </l>
+      <l>How little given to revelry my heart: </l>
+      <l>But gratitude excites, and I obey. </l>
+      <l>I'll with the Prince to Tmolus in the morn, </l>
+      <l>Wait on his steps, protect his precious life, </l>
+      <l>And bring him back in safety to your arms.</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>'Tis nobly said. And now, my friend, beware </l>
+      <l>The long indulgence of consuming grief: </l>
+      <l>Let not our expiation lose its end. </l>
+      <l>'Tis time to soothe thy bosom; nay, to move </l>
+      <l>Some powerful spring in favour of thy youth. </l>
+      <l>Rouse, rouse thee, Boy! And know, that Lydia's King </l>
+      <l>Would gladly make thee sharer of his joys.— </l>
+      <l>Atys! you 'll find me with your Bride.</l>
+     </lg>
+    </sp>
+    <stage> [Exit with Attendants.</stage>
+    <stage> (Adrastus muses, and speaks to himself, while Orontes and Atys eye him, and
+                    speak apart.)</stage>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>His joys! </l>
+      <l>To move some powerful spring—powerful spring— </l>
+      <l>The sharer of his joys—'twas strangely said— </l>
+      <l>And with a smile that seem'd to bid me seek </l>
+      <l>Some latent meaning in his words—Away! </l>
+      <l>'Tis folly and presumption—Yet 'twas so— </l>
+      <l>What if it be, is mine a heart for love?</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>He's wrapt in thought.—Mark'd you my father's smile?</l>
+     </lg>
+    </sp>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>I did.</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>I trust 'twill work a charm upon his fancy!</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>They heed me not—Say I could love—What then?</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>Detain him here awhile—I'll soon return. </l>
+      <l>It is a favourable moment, Sir, </l>
+      <l>And must be seized, or lost, perhaps, for ever.</l>
+     </lg>
+    </sp>
+    <stage> [Exit.</stage>
+    <sp who="#adrastus">
+     <speaker>Adrastus. </speaker>
+     <stage>(Absorbed in thought.)</stage>
+     <lg>
+      <l>Love should bring pleasure dancing in his train— </l>
+      <l>If sorrow follow, let the gods look to 't,— </l>
+      <l>'Tis then their doing—But in woe to court, </l>
+      <l>And crave of Beauty to participate </l>
+      <l>A settled grief—and take a mourning suit </l>
+      <l>To grace Love's nuptials—call it aught but Love. </l>
+      <l>Except indeed it be the love of self— </l>
+      <l>Self! that base instinct of the grovelling herd— </l>
+      <l>Oh! never—never—never.—Atys gone?</l>
+     </lg>
+    </sp>
+    <stage> (To Orontes.)</stage>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>He follow'd quick upon his father's steps, </l>
+      <l>As if intent upon some plan.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Orontes, </l>
+      <l>I was thinking, and quite absorb'd you saw, </l>
+      <l>That love can only dwell in generous minds: </l>
+      <l>If self e'er mingle, 'tis no longer love.</l>
+     </lg>
+    </sp>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>At least 'tis not refined.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Nay, but 'tis odious.</l>
+     </lg>
+    </sp>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>Not if it be natural.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Nature, Orontes, </l>
+      <l>True to herself, is always lovely—But </l>
+      <l>She dwindles into ugliness, when false— </l>
+      <l>E'en pity fails deformity of mind. </l>
+      <l>Self is instinctive in the lower race; </l>
+      <l>'Tis man's prerogative to vanquish it, </l>
+      <l>To live for others, die for others, love </l>
+      <l>As he lives or dies, not for himself, </l>
+      <l>But for the bliss of her his heart adopts.</l>
+     </lg>
+    </sp>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>I grant our nature may be thus ennobled. </l>
+      <l>'Tis not the glorious preference we give </l>
+      <l>To others o'er ourselves, of which I doubt; </l>
+      <l>But 'tis our judgment I suspect, my friend. </l>
+      <l>We view of happiness our own creation, </l>
+      <l>And think it that of others. But, Adrastus! </l>
+      <l>Suppose the lovely Aryenis pined </l>
+      <l>In poignant sadness, o'er some rooted grief; </l>
+      <l>Were it not bliss, with mild affection's balm, </l>
+      <l>To heal her wounded mind, and peace restore?</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>'Twere bliss indeed!</l>
+     </lg>
+    </sp>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>Imagine now 'twere hers </l>
+      <l>To pour a balm into Adrastus' wounds—</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Dear, dear Orontes! cease this flatt'ring strain! </l>
+      <l>So sweet your words, I half suspect I love.</l>
+     </lg>
+    </sp>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>So plain are yours, I know you wholly love.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>And would you have me kill the thing I love?</l>
+     </lg>
+    </sp>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>I'd have you take it to your bosom, man! </l>
+      <l>And as it lies around your aching heart, </l>
+      <l>'Twill gradually extract the rankling sting, </l>
+      <l>And give new life to you, and all who love you.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Oh! rather say, this palsied heart would numb </l>
+      <l>The vivifying principle, applied </l>
+      <l>To lend to torpid powers new energy— </l>
+      <l>I am not fit to live.—Would I were dead!</l>
+     </lg>
+    </sp>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>But Aryenis—</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Is lovely, most lovely! </l>
+      <l>And all that beauty, all that virtue owns </l>
+      <l>Would mix their essences, to form a charm </l>
+      <l>Might rouse the dying to new life.—But I, </l>
+      <l>My friend, am fated—not to peaceful death— </l>
+      <l>Would that I were!—but life—and what a life! </l>
+      <l>Could I forget this hand were stain'd with blood, </l>
+      <l>And yield my heart, as it perhaps inclines, </l>
+      <l>To a sweet hope in Aryenis' love, </l>
+      <l>A direr woe threats my devoted head.</l>
+     </lg>
+    </sp>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>See where the Princess Aryenis comes.</l>
+     </lg>
+    </sp>
+    <stage>Enter Atys and Aryenis.</stage>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Dear Aryenis!</l>
+     </lg>
+    </sp>
+    <sp who="#aryenis">
+     <speaker>Aryenis.</speaker>
+     <lg>
+      <l>Welcome home, my Lord! </l>
+      <l>My brother chides, and calls my welcome tardy.</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>So brought her to deny the charge.—Orontes!</l>
+     </lg>
+    </sp>
+    <stage> (Atys and Orontes conversing apart, gradually withdraw.)</stage>
+    <stage>Manent—Adrastus and Aryenis.</stage>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>'Tis me he means to chide—but well he knows </l>
+      <l>How idle is the charge.</l>
+     </lg>
+    </sp>
+    <sp who="#aryenis">
+     <speaker>Aryenis.</speaker>
+     <lg>
+      <l>You smile, Adrastus! </l>
+      <l>You shall go forth again to gather smiles.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Say rather, shall return to find them here: </l>
+      <l>Elsewhere they have not been observed, and this </l>
+      <l>Is but the flutter of an anxious spirit, </l>
+      <l>By nature tuned to joy, had not—</l>
+     </lg>
+    </sp>
+    <sp who="#aryenis">
+     <speaker>Aryenis.</speaker>
+     <lg>
+      <l>Nay, nay! </l>
+      <l>“Had not,” my Lord, hath had too long a sway. </l>
+      <l>We must dethrone it now, and teach a heart </l>
+      <l>That feels another's worth to know its own, </l>
+      <l>And make its sorrow yield to friendship's joy.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>These are delightful words, my lovely pupil! </l>
+      <l>And make me feel how fit thou art to teach.</l>
+     </lg>
+    </sp>
+    <sp who="#aryenis">
+     <speaker>Aryenis.</speaker>
+     <lg>
+      <l>A little wisdom, dear my Lord, is worth </l>
+      <l>A hundred times its weight of knowledge—And why? </l>
+      <l>Because 'tis happiness a hundred fold. </l>
+      <l>Knowledge ne'er banish'd grief—but Wisdom doth— </l>
+      <l>Would I could teach you Wisdom's happiness!</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>I know no lips so likely to succeed, </l>
+      <l>Illustrating the rules themselves prescribe. </l>
+      <l>Oh! Aryenis! were this mind at ease, </l>
+      <l>And were it worthy of a heart like thine!</l>
+     </lg>
+    </sp>
+    <stage> (Sighs deeply.)</stage>
+    <sp who="#aryenis">
+     <speaker>Aryenis.</speaker>
+     <lg>
+      <l>My dear preceptor! What a sigh was that!</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Far, far too heavy for a sigh of love.</l>
+     </lg>
+    </sp>
+    <sp who="#aryenis">
+     <speaker>Aryenis.</speaker>
+     <lg>
+      <l>Of love, Adrastus! Do you talk of love?</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>It is not fit I should—And yet, methinks! </l>
+      <l>If ever I could hope, 'twould be by love. </l>
+      <l>Love rectifies the heart, aids all our virtues, </l>
+      <l>And is the very wisdom you have counsell'd.</l>
+     </lg>
+    </sp>
+    <sp who="#aryenis">
+     <speaker>Aryenis.</speaker>
+     <lg>
+      <l>My Lord! My Lord! I never counsell'd love.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Then farewell hope! No other counsellor, </l>
+      <l>No other counsel, e'er can heal this mind.— </l>
+      <l>What am I doing? I forget myself.— </l>
+      <l>Sweet maid! preserve your heart—'twas my advice, </l>
+      <l>Amidst the studies that engaged our hours— </l>
+      <l>Preserve it still—for love is dangerous; </l>
+      <l>And must be bliss complete, or misery.</l>
+     </lg>
+    </sp>
+    <sp who="#aryenis">
+     <speaker>Aryenis.</speaker>
+     <lg>
+      <l>Are not my brother and his Ada happy?— </l>
+      <l>What sudden paleness seizes on your cheek?</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Nothing—It is—</l>
+     </lg>
+    </sp>
+    <sp who="#aryenis">
+     <speaker>Aryenis.</speaker>
+     <lg>
+      <l>Adrastus! You are ill.</l>
+     </lg>
+    </sp>
+    <stage> (Anxiously.)</stage>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Not ill—'Tis heat that penetrates the brain— </l>
+      <l>Let us not talk of love—it fires the air: </l>
+      <l>Failing to cure, it but confirms despair. </l>
+      <l>We 'll in to Crœsus—He at least is blest </l>
+      <l>Whom all men love, and whom no ills molest.</l>
+     </lg>
+    </sp>
+   </div>
+   <div type="act" n="4">
+    <head>ACT IV.</head>
+    <stage>Scene—The Apartments of Adrastus.</stage>
+    <stage>Ada and Aspasia.</stage>
+    <stage>(Aspasia enters, after peeping through a secret door in the wall, and calls
+                    Ada, who follows.)</stage>
+    <sp who="#aspasia">
+     <speaker>Aspasia.</speaker>
+     <lg>
+      <l>, and silent all—fearless, advance.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>I would not here be seen.—Where is Adrastus?</l>
+     </lg>
+    </sp>
+    <sp who="#aspasia">
+     <speaker>Aspasia.</speaker>
+     <lg>
+      <l>With the Prince Atys, in the King's apartment, </l>
+      <l>Earnestly engaged in joyous foretaste </l>
+      <l>Of the fulfilment of the Oracles, </l>
+      <l>Which give to Crœsus Asia's inner realms.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>And where is Aryenis?</l>
+     </lg>
+    </sp>
+    <sp who="#aspasia">
+     <speaker>Aspasia.</speaker>
+     <lg>
+      <l>Gone to rest. </l>
+      <l>You seem but strange to these apartments, Princess, </l>
+      <l>Nor found with ease the spring that free'd the door. </l>
+      <l>Was it before unknown to you?</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>This morn, </l>
+      <l>Atys, unthinkingly, betray'd the secret, </l>
+      <l>In anxious expectation of his friend, </l>
+      <l>To whom th' apartments are appointed. Thence </l>
+      <l>A private gallery leads to our range. </l>
+      <l>As there we whiled some idle time, the Prince, </l>
+      <l>In whom impatience overcame all caution, </l>
+      <l>Touch'd on the spring, and vanish'd thro' the wall: </l>
+      <l>But soon return'd. Unnoted, I observed </l>
+      <l>The means he used for his admittance—Hark!</l>
+     </lg>
+    </sp>
+    <stage> (Goes to the spring door, and examines it.)</stage>
+    <sp who="#aspasia">
+     <speaker>Aspasia.</speaker>
+     <lg>
+      <l>No person comes—we are secure awhile. </l>
+      <l>Hath Atys bid good night?</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>He comes again:— </l>
+      <l>But unapprized of what awaits his ear. </l>
+      <l>And now let 's in—my object is obtain'd </l>
+      <l>In being mistress of that spring—Yet stay— </l>
+      <l>See whither leads that open door.</l>
+     </lg>
+    </sp>
+    <sp who="#aspasia">
+     <speaker>Aspasia. </speaker>
+     <stage>(Looking in)</stage>
+     <lg>
+      <l>—A couch, </l>
+      <l>Beneath a Tyrian canopy outspread, </l>
+      <l>Shows it prepared for sleep. A steady lamp </l>
+      <l>Burns on a golden tripod. On the couch </l>
+      <l>A handkerchief lies negligently left.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>A handkerchief! 'Tis an avenging charm! </l>
+      <l>The angry gods conspire to make it mine— </l>
+      <l>This shall its place supply— </l>
+     </lg>
+     <stage> (Exposes her handkerchief, goes in, and returns with another.)</stage>
+     <lg>
+      <l>Mother of Love! </l>
+      <l>I thank thee for this gift, the gift of vengeance! </l>
+      <l>There 's in this 'kerchief more of eloquence </l>
+      <l>Than any tongue in Attica can boast, </l>
+      <l>And it will speak most forcibly to Atys. </l>
+      <l>Away, away, Aspasia.</l>
+     </lg>
+    </sp>
+    <stage> [Exeunt through the secret door.</stage>
+    <stage>Scene—The King's Apartment.</stage>
+    <stage>Crœsus, Philon, Atys, Adrastus, Orentes, Rhodius, &amp;c.</stage>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>Truly, my friends, most prosperous our affairs! </l>
+      <l>And whether I the past survey, enjoy </l>
+      <l>The present, or anticipate the future, </l>
+      <l>Glad Time presents exuberance of joy, </l>
+      <l>The public glory, and domestic splendour. </l>
+      <l>O'er our luxuriant plains and shaded vales </l>
+      <l>Salubrious Tmolus sheds eternal health; </l>
+      <l>And our Pactolus rolls his golden grains, </l>
+      <l>In medicinal waters, </l>
+      <l> to our hands. </l>
+      <l>All, all is health, wealth, victory, and love! </l>
+      <l>Then, let the snarling man of Athens boast </l>
+      <l>Athenian Tellus, and the Argive brothers, </l>
+      <l>Cleobis and Biton, </l>
+      <l> happy in death, </l>
+      <l>While we the happiness of life enjoy, </l>
+      <l>Nor shrink from Fate, which oft our wisdom rules.</l>
+     </lg>
+    </sp>
+    <sp who="#philon">
+     <speaker>Philon.</speaker>
+     <lg>
+      <l>Solon, my Liege, was not averse to joy; </l>
+      <l>Nor held he Crœsus' happiness at nought: </l>
+      <l>His doubt was of the fickle goddess, Fortune, </l>
+      <l>Profuse of smiles, but sudden in her frowns.</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>Why meet them, Philon? Or why, good Adrastus, </l>
+      <l>Not combat with her woes, and dash them from us?</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>My friend will combat with them, Sir.—Methinks, </l>
+      <l>Already they oppress him less. And now </l>
+      <l>Shall Lydian days, enforced with Beauty's smiles, </l>
+      <l>Complete the cure, and make him blest as I am.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Kind Atys!</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>Come, Boy, smile—give wing to Hope— </l>
+      <l>There's nothing you can ask that I'll refuse.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Benignant Crœsus!—I will do my best.</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>But do it soon, and be as Atys blest. </l>
+      <l>We'll have our fill of sports, and then to war, </l>
+      <l>To add new triumphs to the Lydian arms, </l>
+      <l>And make the Asian Continent our own. </l>
+      <l>To-morrow's chace will be but brief—By noon </l>
+      <l>The Boar will be through Sardis proudly borne; </l>
+      <l>And to complete the pleasures of the day, </l>
+      <l>We'll make libations large to Cybele. </l>
+      <l>Philon! direct the officer to raise </l>
+      <l>An altar 'fore the Eastern Portico; </l>
+      <l>Where, shielded from the ardent beams of Phebus, </l>
+      <l>Zephyrs shall fan our hunters with their wings. </l>
+      <l>And let the Corybantes join in dance, </l>
+      <l>Clashing their cymbals wild, as to the ground </l>
+      <l>We dash the gen'rous, undiluted wine.</l>
+     </lg>
+    </sp>
+    <sp who="#philon">
+     <speaker>Philon.</speaker>
+     <lg>
+      <l>Your Highness' orders all shall be obey'd.</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>Who hath e'er been among those Persian tribes, </l>
+      <l>Which gathering into form acquire dominion?</l>
+     </lg>
+    </sp>
+    <sp who="#rhodius">
+     <speaker>Rhodius.</speaker>
+     <lg>
+      <l>So please your Highness! I have been among them; </l>
+      <l>And know those Persians well. Rough is their life; </l>
+      <l>Apparel they have none, save the fur skins </l>
+      <l>Of which they plunder their poor fellow-brutes: </l>
+      <l>Their lands but little owe to husbandry; </l>
+      <l>They feed just as they can, not as they would: </l>
+      <l>The grape they know not, water is their drink, </l>
+      <l>Their only drink, and figs, the food of swine, </l>
+      <l>A dainty held, forbid to vulgar palates.</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>Far, far, ye gods! from Lydia keep these Persians! </l>
+      <l>Should they once get a taste of Lydian dainties, </l>
+      <l>By Hercules! they'd swarm the land like locusts: </l>
+      <l>Dislodge them then who could.—'Twere better, Sir, </l>
+      <l>Methinks, to leave them to their present diet, </l>
+      <l>Than raise them such invincible allies </l>
+      <l>As appetite and ease.—And, after all, </l>
+      <l>What can we take from those who nothing have?</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>Extended empire, Sir—the world, my Son. </l>
+      <l>But, friends! of this hereafter—Night draws on: </l>
+      <l>'Tis time our hunters should repair to rest; </l>
+      <l>And so, good-night!—To-morrow, friends, we meet, </l>
+      <l>To pour libations, and to quaff the grape.</l>
+     </lg>
+    </sp>
+    <stage> [Exit with Atys.</stage>
+    <stage>All go off severally, except</stage>
+    <stage>Adrastus and Orontes.</stage>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>The King is ever jocund—full of hope, </l>
+      <l>As he were yet but in the spring of life.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>He hath its renovating source, a mind </l>
+      <l>Replete with virtue, unassail'd by woe. </l>
+      <l>Crœsus is great as well as blest, Orontes; </l>
+      <l>And good as great—And, should the gods e'er try him, </l>
+      <l>Would dignify adversity. </l>
+     </lg>
+    </sp>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>His heart </l>
+      <l>Is noble—but it delights me most to see </l>
+      <l>Its eagerness in your behalf.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>My friend, </l>
+      <l>'Tis manifest that his benevolence </l>
+      <l>Would halt at nothing, that could bring me peace:— </l>
+      <l>The more behoves it me to care for his.</l>
+     </lg>
+    </sp>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>He all but begs you to accept his daughter.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Oh!</l>
+     </lg>
+    </sp>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>Aryenis—</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Hear me, kind Orontes! </l>
+      <l>So much virtue with so much beauty join'd </l>
+      <l>Would renovate, the sickliest heart, and mine </l>
+      <l>Hath felt, and feels their power—I love—nay more— </l>
+      <l>I think that love would work the charm you wish, </l>
+      <l>And bring me by degrees to banish grief. </l>
+      <l>But I, alas! am doom'd, deliver'd over </l>
+      <l>To a Fury, and silent I must bear. </l>
+      <l>I cannot open Atys' eyes—I cannot </l>
+      <l>Poniard the man I love, whose zealous hand </l>
+      <l>Is ever pouring balm into my wound. </l>
+      <l>Ada to him may yet her heart incline; </l>
+      <l>Me she devotes—one way alone remains </l>
+      <l>To prop the hope new kindled in my breast: </l>
+      <l>To-morrow's hunt once o'er, my leave I'll take, </l>
+      <l>And for awhile to Sardis bid farewel. </l>
+      <l>I go—</l>
+     </lg>
+    </sp>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>But not to Ephesus, I trust.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Orontes, no.—To Gordius and Celene— </l>
+      <l>So love directs—to expiate on the spot, </l>
+      <l>Inure me to the objects that appal, </l>
+      <l>Bless my dear father, and receive new life </l>
+      <l>From him who gave the first—then hither send, </l>
+      <l>And claim fair Aryenis for my bride— </l>
+      <l>Shall it be thus?</l>
+     </lg>
+    </sp>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>Oh! joyous, joyous words! </l>
+      <l>Gordius will then be happy—Adrastus </l>
+      <l>Will be happy—all Phrygia will be happy!</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>And now, let 's in—'tis time for rest—perhaps </l>
+      <l>I'll hunt with better spirits than I thought— </l>
+      <l>Yet there is something heavy, heavy here.</l>
+     </lg>
+    </sp>
+    <stage> [Exeunt.</stage>
+    <stage>Scene—Ada's Apartment.</stage>
+    <stage>Ada and Aspasia.</stage>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>In vain by pride you combat love, Aspasia! </l>
+      <l>Vengeance alone the mastery may gain. </l>
+      <l>Your counsel I respect, admire your virtue, </l>
+      <l>And would the gods had bless'd me with your calm! </l>
+      <l>How galls the yoke of disappointed love! </l>
+      <l>Who that could throw it off would bear its weight? </l>
+      <l>I know the folly, and despise myself; </l>
+      <l>Know the best vengeance were to conquer it, </l>
+      <l>And spurn the base deserter from my mind; </l>
+      <l>But the malignant god defies contempt. </l>
+      <l>Conquer I will—conquer I have—but how? </l>
+      <l>By withering the heart that scathed my own; </l>
+      <l>Making dishonour eat into its core.</l>
+     </lg>
+    </sp>
+    <sp who="#aspasia">
+     <speaker>Aspasia.</speaker>
+     <lg>
+      <l>Both love and pity urge me to restrain </l>
+      <l>The raging passion that inflames your soul, </l>
+      <l>Since vengeance must recoil upon yourself. </l>
+      <l>Oh! yet reflect, or ere you strike the blow. </l>
+      <l>Already do the world respect his grief— </l>
+      <l>Your deed once known, they 'll raise a general cry, </l>
+      <l>Call thee infatuate, and lament his fate.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>And what imports to me that futile cry, </l>
+      <l>If satiated hate relieve this breast, </l>
+      <l>Which, unrevenged, with endless fury burns? </l>
+      <l>Virtue, or rather character 's his idol:— </l>
+      <l>To blast that character, to stamp him vile, </l>
+      <l>Fix him the scorn of Atys and of Crœsus, </l>
+      <l>Wring growing love from Aryenis' heart, </l>
+      <l>Make the good shun him, and the world condemn, </l>
+      <l>Is the fixt purpose of th' insulted Ada.</l>
+     </lg>
+    </sp>
+    <sp who="#aspasia">
+     <speaker>Aspasia.</speaker>
+     <lg>
+      <l>How blind is rage!—I hear approaching steps.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>It is the Prince.—Expect me in my chamber.</l>
+     </lg>
+    </sp>
+    <stage> [Exit Aspasia.</stage>
+    <stage>Enter Atys.</stage>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>Ada! the night is far advanced. Ere now </l>
+      <l>I had been bound in life-restoring slumbers, </l>
+      <l>But for the powerful charm that binds me ever, </l>
+      <l>When Crœsus smiles, and talks of happiness. </l>
+      <l>What buoyant spirits bless the dear old man! </l>
+      <l>Oh! may his stream of life flow ever thus!</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>The purest stream may be contaminated, </l>
+      <l>And even joys become corrupt and choked, </l>
+      <l>Mingling with muddy currents of the soul.</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>Yes, but with such my father never mingles.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Clear-sighted men may sometimes be deceived.</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>Speak not in riddles, Ada, I beseech you: </l>
+      <l>A soldier's ear loves a straight-forward speech.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Be it not lost upon a soldier's ear— </l>
+      <l>Adrastus—</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>Still Adrastus!</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Yes, Adrastus— </l>
+      <l>The muddy, foul, corrupt Adrastus—</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>Ada! </l>
+      <l>Such words make tumult in a soldier's veins. </l>
+      <l>Prithee! unsay them, Love! He is my friend.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>And would be mine.</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>That phrase insinuates still. </l>
+      <l>I'll take it in its plain and simple sense, </l>
+      <l>And plainly say, I would that you were his! </l>
+      <l>And if you love me—</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Why, let Love submit </l>
+      <l>To Friendship's higher claims. Be it so, my Lord— </l>
+      <l>Good night!</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>Not so, Ada.—I'll hear the rest. </l>
+      <l>But speak direct, and let me know the whole.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Direct! what means such insult, Prince? Direct!</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>Be not offended—for you know my love. </l>
+      <l>By habit frank—but insult is beneath me. </l>
+      <l>There 's some mistake—Nay, Ada, I am sure— </l>
+      <l>Give me your hand—Deem better of Adrastus, </l>
+      <l>And hope to prove him worthy of your friendship.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>It is for those to deem who do not know; </l>
+      <l>It is for those to hope who only doubt: </l>
+      <l>But who can fashion thought in knowledge' spite, </l>
+      <l>Or dream of hope when once the die is cast? </l>
+      <l>Atys, you are deceived. Are you so frank </l>
+      <l>To deem all men, like you, be what they seem? </l>
+      <l>Have you ne'er met in life with specious villains, </l>
+      <l>All sanctity without, deceit within? </l>
+      <l>Who trick out Virtue in her best attire, </l>
+      <l>The showy means to gain their selfish ends? </l>
+      <l>Just such a villain is—</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>Hold, Madam, hold! </l>
+      <l>That epithet must never meet his name.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Silenced again! Direct I must not speak— </l>
+      <l>The whole you would not know—</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>Princess, proceed.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Nay, if my duty, Sir, offend, I'm dumb. </l>
+      <l>Think not I seek protection from my Lord. </l>
+      <l>Nor will I now proceed, save on condition </l>
+      <l>You promise to be master of yourself, </l>
+      <l>And make contempt, not anger, your revenge.</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>Oh! 'tis a promise easy to be given: </l>
+      <l>Contempt, not anger, were the just revenge.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>When at my father's Court he whiled his days, </l>
+      <l>He ev'ry art essay'd to gain my love. </l>
+      <l>The King encouraged rather than opposed </l>
+      <l>His suit, leaving me mistress to decide. </l>
+      <l>No feverish passion biassing my mind, </l>
+      <l>I sought to know the youth who woo'd my hand: </l>
+      <l>On which his vanity pronounced success. </l>
+      <l>I let that pass, and gave him full career; </l>
+      <l>Till noted he became for low intrigue; </l>
+      <l>Injustice, falsehood, pride, and meannesses </l>
+      <l>Innumerable. </l>
+      <l>When, shock'd, I gently would dismiss his suit, </l>
+      <l>He seized my hand, and swore 'twas coyness; swore </l>
+      <l>That I loved him, and should alone be his.</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>The picture 's overwrought—</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>The picture 's just. </l>
+      <l>Forced he withdrew; but never was convinced, </l>
+      <l>So deeply rooted is his vanity. </l>
+      <l>Why shunn'd he, Sir, our nuptials? Grief, you say— </l>
+      <l>Then grief should teach him to command himself. </l>
+      <l>Why did he strive to hinder them?—He did?</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>I own I thought him strenuous on that point: </l>
+      <l>But no such motive ever ruled his soul. </l>
+      <l>I've listen'd, Ada, to your angry tale, </l>
+      <l>And see the painful bias of your mind </l>
+      <l>Against my friend. With beauty such as yours </l>
+      <l>Virtue and gentleness should ever dwell, </l>
+      <l>As ornaments essential to its charm. </l>
+      <l>Yet, if offended Beauty stoop to rail, </l>
+      <l>'Tis privileged with lively rhetoric; </l>
+      <l>And I'll excuse it in my lovely wife. </l>
+      <l>Come, Ada, come! Adrastus has offended— </l>
+      <l>Pardon the past—he'll not offend again— </l>
+      <l>I hope to see him Aryenis' lord—</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Villain!</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>By heaven! 'tis false—I think you crazed to say it: </l>
+      <l>Honour ne'er brighter shone than in his breast.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Never lived greater villain—Now, Sir, know, </l>
+      <l>Save for your sister, here my lips were closed— </l>
+      <l>Beware!—'Tis not for her he'll loiter here. </l>
+      <l>Teach her to guard her heart, lest she repent— </l>
+      <l>Your unsuspecting nature is abused. </l>
+      <l>To-morrow's sport enjoyed, I prithee bear </l>
+      <l>This kerchief to your honourable friend.</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>What may it mean?</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Dishonour.</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>Where was 't found?</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>No farther, Sir, than on this bosom press'd, </l>
+      <l>With hand more rude than ever honour used.</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>Adrastus!</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>He urged, my heart could never change, and tore </l>
+      <l>In sport a kerchief from my struggling grasp, </l>
+      <l>As a new pledge of future love.</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>Adrastus!</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>That pledge no doubt you will redeem.</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>I will.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Why stand you amazed? Why look as if—</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>I will—</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>What?</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>Confound dishonour.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>But calm, and with no clash of words or arms— </l>
+      <l>I claim your promise to despise the man.</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>Never, never, never—And so good night!</l>
+     </lg>
+    </sp>
+    <stage> [Exit.</stage>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>What means he? Atys, return—My Lord! my Lord! </l>
+      <l>Hah! and is it thus? Is this the bridal power? </l>
+      <l>The sway of beauty, and the reign of love? </l>
+      <l>On thee shall vengeance turn. Once more I'll try </l>
+      <l>To win Adrastus to a Lover's flight: </l>
+      <l>Failing, to Crœsus I'll appeal—At least, </l>
+      <l>I'll blast the happiness I cannot share.</l>
+     </lg>
+    </sp>
+    <stage> [Exit.</stage>
+    <stage>Scene—The Apartments of Adrastus.</stage>
+    <stage>Adrastus alone.</stage>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Immortal gods! how dark are your decrees, </l>
+      <l>Where good and ill confusedly unite! </l>
+      <l>Which render justice seemingly a chance, </l>
+      <l>And virtue often but a sterile name! </l>
+      <l>Celestial Virtue! who pursue thy steps </l>
+      <l>Must look for rugged paths in this sad world; </l>
+      <l>Must weep and bleed, be tortured and endure: </l>
+      <l>Yet oft thy glowing rays thro' evils pierce, </l>
+      <l>Soften misfortune and sustain the soul: </l>
+      <l>Without thee, who could bear the stings of life? </l>
+      <l>In Fortune's beams foul Crime may rear his head, </l>
+      <l>But thou alone canst cheer the drooping breast. </l>
+      <l>Sole moderator of the power of Fate! </l>
+      <l>Oh! aid me, in my sad career, to bear, </l>
+      <l>And stifle feelings that would wound my friend! </l>
+      <l>Atys! </l>
+     </lg>
+     <stage>(with surprise.)</stage>
+     <stage>Enter Atys.</stage>
+     <lg>
+      <l>I did not think to meet again, </l>
+      <l>Till roused by echo, eager for the chace.</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>Nor I, my friend; but so some god decreed. </l>
+      <l>I could not sleep 'till I restored your kerchief— </l>
+      <l>I ask not where you left it, for I know.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>But I do not—'tis odd—yet matters not— </l>
+      <l>Except that you should bring it hither, Atys.</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>I could not trust the message to another: </l>
+      <l>And scarce can utter it myself, Adrastus— </l>
+      <l>I have a wife whom much I wish to love—</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Whom much you love—</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>I know not that.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Not know?</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>I did some minutes since; but am not sure </l>
+      <l>If all my love hath not been sponged away </l>
+      <l>By that same handkerchief.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Oh! Atys! Atys!</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>Tell me, Adrastus, have you one of Ada's?</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Can Atys ask that question of Adrastus?</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>Ada has charms—Oh! start not, dear Adrastus, </l>
+      <l>Nor think those sounds impute disloyalty </l>
+      <l>To thee— </l>
+      <l>Tmolus shall, melting, sink into a lake, </l>
+      <l>Pactolus pile his limpid waters high, </l>
+      <l>And stand a liquid Caucasus, or ere </l>
+      <l>Atys degrade his soul to doubt Adrastus. </l>
+     </lg>
+     <stage> (Embrace.)</stage>
+     <lg>
+      <l>Ada has charms for me, my friend, and I, </l>
+      <l>Crœsus' own son, am willing to be happy— </l>
+      <l>But happy, how?—Not with disgrace—Ah! no. </l>
+      <l>Beauty and wit awhile intoxicate, </l>
+      <l>But constancy must give the zest to love. </l>
+      <l>I'm full of doubt—the feeling's new and painful— </l>
+      <l>I wake as from a sleep, and wondering trace, </l>
+      <l>In my brief wedlock, striking absences </l>
+      <l>Of Ada's mind—My friend!—she loves me not.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus. </speaker>
+     <stage>(Aside.)</stage>
+     <lg>
+      <l>Oh! what a moment! </l>
+     </lg>
+     <stage>(To him)</stage>
+     <lg>
+      <l> Prithee! think not so— </l>
+      <l>Lose not conviction of the love you prize— </l>
+      <l>Oh hold it fast, and Time may teem with proofs.</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>You have no handkerchief of hers, you say?</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>None, Atys, none—Shall I invoke the gods?</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>For friendship's truth?</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Alas!</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>But that, Adrastus, </l>
+      <l>How came it into Ada's room, my friend?</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>'Tis hard to answer—Nay, I cannot answer— </l>
+      <l>And vain the effort to dissemble, Atys, </l>
+      <l>That well I know the Princess broods displeasure, </l>
+      <l>And holds me for her foe. This seems to prove, </l>
+      <l>She means to overwhelm me in her wrath. </l>
+      <l>How she obtain'd it is unknown to me, </l>
+      <l>Or where I left it—Stay—Is 't possible? </l>
+      <l>Methinks I left it on my bed—a moment— </l>
+      <l>These apartments may have been visited—</l>
+     </lg>
+    </sp>
+    <stage> (Goes into the chamber.)</stage>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>Dear, dear Adrastus! noble-minded youth!</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus </speaker>
+     <stage>(within.)</stage>
+     <lg>
+      <l>Oh! </l>
+     </lg>
+     <stage>Re-enter Adrastus.</stage>
+     <lg>
+      <l>I cannot lie—I found it on my bed.</l>
+     </lg>
+    </sp>
+    <stage> (Presenting Ada's handkerchief.)</stage>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>Sink not—nor add to my calamity </l>
+      <l>A proof that you can wrong your friend in thought, </l>
+      <l>By fearing I should doubt Adrastus' honour.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>My godlike Atys! Oh! this heart will burst! </l>
+      <l>'Tis swoln too full, and can expand no more.</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>But be composed—bear up,—rest, rest upon me. </l>
+     </lg>
+     <stage> (Adrastus leans, weeping, on Atys.)</stage>
+     <lg>
+      <l>Art a soldier?</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus. </speaker>
+     <stage>(Recovering.)</stage>
+     <lg>
+      <l>'Tis not a soldier's wound— </l>
+      <l>Your generous friendship overcame me, Atys. </l>
+      <l>Let us not yield, my friend, to circumstances, </l>
+      <l>Nor sacrifice to passion better hopes— </l>
+      <l>For I had learn'd to hope, and was prepared </l>
+      <l>To talk of happiness, which now depends </l>
+      <l>On your concurrence in my heart's design.</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>Say on—I'll hear—Clear, if you can, our way: </l>
+      <l>Make but my wife as lovely as I thought her, </l>
+      <l>And I shall owe my happiness to you.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Consent to let me bear the blame of this, </l>
+      <l>As it is best I should.—A little time </l>
+      <l>Spent with yourself and Crœsus shall effect </l>
+      <l>All that your mind can wish, or love require.</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>What could she mean? What cause for such revenge? </l>
+      <l>Or how explain the changes of these things? </l>
+      <l>How came this handkerchief disposed within?</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Explain I cannot—but I can account </l>
+      <l>For her resentment, and this dire revenge. </l>
+      <l>She thought her beauty slighted, and she knew </l>
+      <l>I had opposed her marriage with my friend: </l>
+      <l>Either enough to fire an ardent dame. </l>
+      <l>Ardour is not a fault, if under rule: </l>
+      <l>But rule the Princess never had been taught; </l>
+      <l>And therefore 'twas that I opposed your union: </l>
+      <l>Virtues she has, and you shall draw them forth.</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>Beauty she has—we 'll think about her virtues.— </l>
+      <l>Now, of yourself—for, if she e'er redeem </l>
+      <l>This night's forfeit, 'twill be when you are happy— </l>
+      <l>The very thought has predisposed my mind.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>My heart still bleeds;—but, Atys, I do own </l>
+      <l>Your sister's charms have wrought some change, and if—</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>Talk not of ifs—the lovely maid is yours— </l>
+      <l>'Tis Crœsus' wish; the gods themselves have will'd it; </l>
+      <l>Nor can you doubt that Aryenis loves you.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>My friend!</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>My brother!—Now let 's think of rest, </l>
+      <l>For we have toils to undergo to—morrow.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>One favour yet remains.—As things now stand, </l>
+      <l>I would absent myself awhile from Sardis: </l>
+      <l>And 'tis but just I share my better state </l>
+      <l>With a kind father, who has shared my worse.— </l>
+      <l>After to-morrow's hunt I'm for Celene: </l>
+      <l>Retard me not, and gain the leave of Crœsus.</l>
+     </lg>
+    </sp>
+    <sp who="#atys">
+     <speaker>Atys.</speaker>
+     <lg>
+      <l>Your very errand shall preclude delay: </l>
+      <l>And in your absence we will strive to impress </l>
+      <l>The rule of happiness, that wisest rule, </l>
+      <l>Upon poor Ada's mind. Good night!</l>
+     </lg>
+    </sp>
+    <stage> [Exit.</stage>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Good night!— </l>
+      <l>Oh! sacred friendship! powerful charm! </l>
+      <l>In thy pure stream corruption cannot flow, </l>
+      <l>And often evil is transform'd to good. </l>
+     </lg>
+     <stage> (Sighs, and muses.)</stage>
+     <lg>
+      <l>When uncheck'd passions sway the female breast, </l>
+      <l>On what enormities do women rush! </l>
+      <l>To what low means debase their troubled souls!— </l>
+      <l>But these are rare—The greater part are honest, </l>
+      <l>And blessings to the partners of their lot. </l>
+      <l>Many excel—and some are paragons! </l>
+      <l>Creatures almost divine! in whom unite </l>
+      <l>Softness of symmetry with strength of mind, </l>
+      <l>Alluring beauty with assuring truth, </l>
+      <l>All-cheering speech, and never cloying love— </l>
+      <l>And such a creature's image lies e'en here, </l>
+      <l>And combats with the form of Agathon </l>
+      <l>For full possession. Oh! my Agathon! </l>
+      <l>Not e'en her smiles can generate a charm </l>
+      <l>'Gainst that red cloud which o'er my memory hangs. </l>
+      <l>I'll now to bed.—</l>
+     </lg>
+    </sp>
+    <stage> (As he turns to go into his chamber, Ada, who has entered by the secret
+                    door, appears before him.)</stage>
+    <stage>Adrastus and Ada.</stage>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Heavens!</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Start not, Adrastus! </l>
+      <l>Once more to thee my agitated soul </l>
+      <l>Sues for release from ever-racking torture.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Princess!</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>First hear—my brain 's on fire, Adrastus, </l>
+      <l>And cannot long sustain this cruel flame. </l>
+      <l>I own I've done a wrong in plighting vows </l>
+      <l>Where my heart felt it never could be true. </l>
+      <l>The heart can love but once; all other loves, </l>
+      <l>However named, are slight and playful fires, </l>
+      <l>A sigh may kindle and a frown may quench: </l>
+      <l>But that which only once the breast may know </l>
+      <l>While life remains can never be extinguish'd. </l>
+      <l>Thou know'st my heart was yielded first to thee. </l>
+      <l>What tho' no tongue-tipp'd vows proclaim'd you mine! </l>
+      <l>Love look'd it from your eye, and smiled it from your lip. </l>
+      <l>Those looks, those smiles, were they not vows, Adrastus? </l>
+      <l>Why raise an inextinguishable flame, </l>
+      <l>And leave it to consume me? Still it burns: </l>
+      <l>And mad revenge, despair's alternative, </l>
+      <l>Is weak, compared, and vanishes before it.— </l>
+      <l>Come, banish grief, forego all other passions, </l>
+      <l>And fly with me—The deed is well exampled. </l>
+      <l>My father 's old;—in Caria we may reign: </l>
+      <l>Or, lead me to some desert isle, far off; </l>
+      <l>Where, of thy heart secure, I'll glorious live, </l>
+      <l>Nor change it for the empire of the world, </l>
+      <l>Supreme in bliss to see and love thee there. </l>
+      <l>Soon will resentment for the past expire— </l>
+      <l>Say but the word and I forget it all. </l>
+      <l>E'en now I am not angry—speak, Adrastus.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Oh! thou hast blasted all remaining hope! </l>
+      <l>Yet will I not, with harsh reproach, provoke </l>
+      <l>New anger in thy agitated breast, </l>
+      <l>Since I, however undesign'd, am still </l>
+      <l>The unhappy cause of all your woe. </l>
+      <l>Nor will I now attempt, with argument, </l>
+      <l>To stem the torrent of delirious fancy; </l>
+      <l>But only pray you to take time—</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>To take time </l>
+      <l>Were to lose time—Adrastus, no—this night </l>
+      <l>Our fate must be decided.—Ay, this night </l>
+      <l>Or hope must be new lighted in my soul, </l>
+      <l>Or my resolve be executed.—Say! </l>
+      <l>Canst thou on Ada yet bestow thy heart?</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Wretch that I am! I've none I can bestow.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>You own you love another, then?</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Oh! Princess!</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Well!—I consent—but first I stipulate, </l>
+      <l>You do relieve this tortured heart—Behold! </l>
+      <l>Stand off—</l>
+     </lg>
+    </sp>
+    <stage> (Shows a dagger.)</stage>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>On my knees—</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Rise! approach, and take it— </l>
+      <l>Stop there—You 'll quickly plunge it in this breast?</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>But give it me—</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>You 'll do 't?</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Trust me—</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Swear! </l>
+      <l>Not swear? Have you no oath that you can break? </l>
+      <l>Not swear!—I know thee better than to trust thee— </l>
+      <l>Nor is it meet that I should die alone— </l>
+      <l>We die together—</l>
+     </lg>
+    </sp>
+    <stage> (Attempts to stab him, he secures the dagger.)</stage>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Madness! Madness! Oh!</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Scorner! give me the dagger—</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Ada!</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Ay—Ada is my name.</l>
+     </lg>
+    </sp>
+    <stage> (Wildly.)</stage>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>This agony—hear— </l>
+      <l>Oh hear—resume your mind—be noble, Ada! </l>
+      <l>These pangs—hear me, I pray—awake a sense— </l>
+      <l>Believe me, it is full of tenderness—</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Sir! You may keep the steel—I scorn to die— </l>
+      <l>Love and self-murder is a tale for children. </l>
+      <l>There is a loftier passion of the soul, </l>
+      <l>Now hungering for a godlike feast—Revenge! </l>
+      <l>Revenge more dainty than a foolish murder. </l>
+      <l>You think me mad—not I—a heated brain </l>
+      <l>Subjects our nerves to foolish pranks, but madness </l>
+      <l>Knows not the thing it does—I am not mad.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Oh! Ada! Spare me—spare yourself—</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Speak out! </l>
+      <l>Spare Aryenis—spare my love.—Ay, Sir! </l>
+      <l>We 'll spare our loves another day—and then— </l>
+     </lg>
+     <stage> (A slight wild laugh.)</stage>
+     <lg>
+      <l>Why then—Good night, said Atys—and Good night, </l>
+      <l>Say I.—To-morrow, Sir, will tell you more.</l>
+     </lg>
+    </sp>
+    <stage> (Exit haughtily and wildly.)</stage>
+    <stage> (Adrastus follows her to the secret door, returns musing, and sighs, looking
+                    at the dagger as he goes into his chamber.)</stage>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Oh!</l>
+     </lg>
+    </sp>
+   </div>
+   <div type="act" n="5">
+    <head>ACT V.</head>
+    <stage>Scene—A Portico and Area adjoining the Palace, with an ancient Altar—Couches
+                    here and there.</stage>
+    <stage>Philon and an Officer.</stage>
+    <sp who="#philon">
+     <speaker>Philon.</speaker>
+     <lg>
+      <l>The morning air is cool and favourable. </l>
+      <l>All 's right. See that the Choristers attend, </l>
+      <l>Before the coming of the King and Nobles, </l>
+      <l>Ready to greet the royal ear with glee.</l>
+     </lg>
+    </sp>
+    <sp who="#officer">
+     <speaker>Officer.</speaker>
+     <lg>
+      <l>See yonder, Sir, his Highness with the Princess— </l>
+      <l>A gloom unusual lowers upon his brow.</l>
+     </lg>
+    </sp>
+    <sp who="#philon">
+     <speaker>Philon.</speaker>
+     <lg>
+      <l>Some serious talk, but soon that cloud will vanish. </l>
+      <l>Health and the air have tempted him abroad. </l>
+      <l>Let us retire.</l>
+     </lg>
+    </sp>
+    <stage> [Exeunt.</stage>
+    <stage> (Crœsus and Ada, conversing earnestly, cross the portico—she goes off—he
+                    advances.)</stage>
+    <stage>Crœsus alone.</stage>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>Somewhere there 's falsehood, faithlessness and treason. </l>
+      <l>The Princess? Gods forbid!—Adrastus? No! </l>
+      <l>Impossible! I cannot think him guilty. </l>
+      <l>A mind like his, replete with lofty thoughts, </l>
+      <l>Kind, candid, brave, and by affliction tried, </l>
+      <l>Can never stoop to deeds corrupt and base. </l>
+      <l>But Ada says it—and Ada must be base, </l>
+      <l>If he be not.—On either side lie horrors. </l>
+      <l>Would Atys were return'd!—What feeling 's this? </l>
+      <l>Is 't fear?—Suspicion?—'Tis not happiness! </l>
+      <l>Oh! man of Athens! at whom so late I scoff'd, </l>
+      <l>Thy words come rushing on my memory: </l>
+      <l>“Call no one happy ere he die”—Ah! Crœsus! </l>
+      <l>Thou 'st made thy pride thy chief divinity, </l>
+      <l>And deem'd thyself the ruler of thy fortunes— </l>
+      <l>But now the gods assert their rights, to show </l>
+      <l>They are the rulers o'er the affairs of men, </l>
+      <l>And mock who solely on themselves rely. </l>
+      <l>Philon! approach.</l>
+     </lg>
+    </sp>
+    <stage>Enter Philon.</stage>
+    <sp who="#philon">
+     <speaker>Philon.</speaker>
+     <lg>
+      <l>Your Highness has observed </l>
+      <l>The preparations have been made.</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>Good Philon! </l>
+      <l>Far other thoughts engage my anxious mind.</l>
+     </lg>
+    </sp>
+    <sp who="#philon">
+     <speaker>Philon.</speaker>
+     <lg>
+      <l>Anxious! Forbid it, heaven! Oh! may that word </l>
+      <l>For ever be dismiss'd from Crœsus' lips!</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>Philon! The man of Athens spoke the truth— </l>
+      <l>Solon is wise, and Crœsus but a fool.</l>
+     </lg>
+    </sp>
+    <sp who="#philon">
+     <speaker>Philon.</speaker>
+     <lg>
+      <l>Whate'er disturbs your Highness' mind, I trust </l>
+      <l>Is but a slight and transient, airy, cloud, </l>
+      <l>Dissolving as it forms.</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>Judge of its weight </l>
+      <l>By your amazement when I tell you, Philon, </l>
+      <l>I wish to find a villain in—Adrastus.</l>
+     </lg>
+    </sp>
+    <sp who="#philon">
+     <speaker>Philon.</speaker>
+     <lg>
+      <l>Your Highness does indeed amaze me—Gods! </l>
+      <l>Can such a wish find place in Crœsus' mind?</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>A dread alternative alone could raise it— </l>
+      <l>A villain he, or Atys sacrificed! </l>
+      <l>Bound in the dire chains of a new Medea! </l>
+      <l>I know not what to think—Hast e'er observed </l>
+      <l>Familiar gallantry, in look, or gest, </l>
+      <l>That might denote him of licentious habits?</l>
+     </lg>
+    </sp>
+    <sp who="#philon">
+     <speaker>Philon.</speaker>
+     <lg>
+      <l>Oh! never, Sir.</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>Nor know you aught </l>
+      <l>Might lead you to suspect he has designs </l>
+      <l>Upon my son's bride?</l>
+     </lg>
+    </sp>
+    <sp who="#philon">
+     <speaker>Philon.</speaker>
+     <lg>
+      <l>Good my Lord! Designs?</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>You have not chanced to see them yet alone?</l>
+     </lg>
+    </sp>
+    <sp who="#philon">
+     <speaker>Philon.</speaker>
+     <lg>
+      <l>Soon after the arrival of Adrastus, </l>
+      <l>Passing the lobby of Prince Atys' rooms, </l>
+      <l>I saw them in the gallery together, </l>
+      <l>Alone and loud, and so absorb'd in talk </l>
+      <l>I might have pass'd much nearer unperceived— </l>
+      <l>Though nought they said distinctly reach'd my ear. </l>
+      <l>But, gracious Sir, designs!</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>Together! loud! </l>
+      <l>By heaven! it is.—By heaven! it cannot be. </l>
+      <l>E'en vice is neutralized by gratitude. </l>
+      <l>Perdition! Yes, perdition's work begins—</l>
+     </lg>
+    </sp>
+    <sp who="#philon">
+     <speaker>Philon.</speaker>
+     <lg>
+      <l>My King! my Master! be not thus moved, I pray.</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>I'll tell thee, Philon.—Before his homicide, </l>
+      <l>Adrastus was received by Ada's father, </l>
+      <l>At Halicarnassus—But of this anon— </l>
+      <l>For see who comes, all health and cheerful smiles! </l>
+      <l>My sweet, my amiable Aryenis! </l>
+      <l>Dear to my heart! thou daughter of my soul!</l>
+     </lg>
+    </sp>
+    <stage> (Embraces her.)</stage>
+    <sp who="#philon">
+     <speaker>Philon.</speaker>
+     <lg>
+      <l>How lovely nature shines </l>
+      <l>In ties like theirs! </l>
+     </lg>
+     <stage> [Exit Philon.</stage>
+    </sp>
+    <stage>Crœsus and Aryenis.</stage>
+    <sp who="#aryenis">
+     <speaker>Aryenis.</speaker>
+     <lg>
+      <l>My dear father!—It glads me, Sir, to see </l>
+      <l>How much you relish the delights of others— </l>
+      <l>Your morning thoughts are on our hunters turn'd, </l>
+      <l>And bring you hither to anticipate.</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>Trust me, my child, the habit is a good one. </l>
+      <l>Who joy anticipates doth twice enjoy; </l>
+      <l>And others' bliss is usury of bliss. </l>
+      <l>Our sympathies have hitherto been joyous: </l>
+      <l>But painful ones have far more pungent force.</l>
+     </lg>
+    </sp>
+    <sp who="#aryenis">
+     <speaker>Aryenis.</speaker>
+     <lg>
+      <l>Far! far! as well I know, when for Adrastus </l>
+      <l>I've felt the sympathy of grief. And yet </l>
+      <l>The poignancy, I know not how, is soothed </l>
+      <l>By some mysterious balm, self-minister'd. </l>
+      <l>My father sighs—Sure, 'tis a new event! </l>
+      <l>I scarce remember one so deep.</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>Nor I.— </l>
+      <l>You 've named Adrastus—tell me now, my child, </l>
+      <l>Has he e'er spoke to you of love?</l>
+     </lg>
+    </sp>
+    <sp who="#aryenis">
+     <speaker>Aryenis.</speaker>
+     <lg>
+      <l>He has— </l>
+      <l>Oft has he warn'd me 'gainst its dangerous power: </l>
+      <l>And with his mournful lips such lessons given, </l>
+      <l>As would become the oldest sage of Greece.</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>I own I thought him wise beyond his years— </l>
+      <l>But has he made you offers of his love?</l>
+     </lg>
+    </sp>
+    <sp who="#aryenis">
+     <speaker>Aryenis.</speaker>
+     <lg>
+      <l>Never.—But candidly to speak my thought, </l>
+      <l>As I am used to thee, my dearest father, </l>
+      <l>My ear deceived me, or he did last night. </l>
+      <l>Yet 'twas so instantly recall'd, so soon </l>
+      <l>Succeeded by deterring wisdom's counsel, </l>
+      <l>That doubt I do not of my strange mistake.</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>What think you of him?</l>
+     </lg>
+    </sp>
+    <sp who="#aryenis">
+     <speaker>Aryenis.</speaker>
+     <lg>
+      <l>Dear Sir, as of one </l>
+      <l>Whose virtues merit all the gods can grant.</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>I think so too. Has Ada told you aught?</l>
+     </lg>
+    </sp>
+    <sp who="#aryenis">
+     <speaker>Aryenis.</speaker>
+     <lg>
+      <l>Nought of Adrastus—Even now I met her; </l>
+      <l>But stay'd her not—she frown'd and pass'd me by— </l>
+      <l>What ails my father? Why so bent his brows? </l>
+      <l>I never saw them thus before—Dear Sir! </l>
+      <l>Your face no longer seems the face of Crœsus.</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>Oh! how I love thee, Aryenis! How </l>
+      <l>Throbs my fond heart with ever new delight </l>
+      <l>When to this breast I press my virtuous child!</l>
+     </lg>
+    </sp>
+    <sp who="#aryenis">
+     <speaker>Aryenis.</speaker>
+     <lg>
+      <l>Dear Sir!</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>A cloud hangs over us, my daughter!</l>
+     </lg>
+    </sp>
+    <sp who="#aryenis">
+     <speaker>Aryenis.</speaker>
+     <lg>
+      <l>When Crœsus talks of clouds, sure Nature 's changed.</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>You know the love I cherish for your brother: </l>
+      <l>You know in Atys centre all the hopes </l>
+      <l>Of future heirs to Crœsus' throne and fortunes— </l>
+      <l>What think you of your sister?</l>
+     </lg>
+    </sp>
+    <sp who="#aryenis">
+     <speaker>Aryenis.</speaker>
+     <lg>
+      <l>Ada, Sir, </l>
+      <l>Is eminent in beauty and in wit.</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>Think you Adrastus is convinced of those?</l>
+     </lg>
+    </sp>
+    <sp who="#aryenis">
+     <speaker>Aryenis.</speaker>
+     <lg>
+      <l>Sir!—who?</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>Hath he discoursed her beauty to you?</l>
+     </lg>
+    </sp>
+    <sp who="#aryenis">
+     <speaker>Aryenis.</speaker>
+     <lg>
+      <l>What means my father?</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>Speaks he of her virtues?</l>
+     </lg>
+    </sp>
+    <sp who="#aryenis">
+     <speaker>Aryenis.</speaker>
+     <lg>
+      <l>I rather think him niggard of his speech: </l>
+      <l>He seldom mentions her, and never first. </l>
+      <l>Last night, indeed—you bring it to my mind— </l>
+      <l>Just when I thought he spoke of love to me, </l>
+      <l>I mention'd Ada as a happy bride; </l>
+      <l>When suddenly his cheeks their ruby lost, </l>
+      <l>He mutter'd something of a heated brain, </l>
+      <l>And most abruptly ended our discourse.</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>Then! then, 'tis true—It must, it must be true.</l>
+     </lg>
+    </sp>
+    <sp who="#aryenis">
+     <speaker>Aryenis.</speaker>
+     <lg>
+      <l>What must be true, my father?</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>Oh! my child! </l>
+      <l>Adrastus is—I cannot call him—villain.</l>
+     </lg>
+    </sp>
+    <sp who="#aryenis">
+     <speaker>Aryenis.</speaker>
+     <lg>
+      <l>The gods forefend! 'Twere impious so to speak.</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>With shameless love he persecutes your sister.</l>
+     </lg>
+    </sp>
+    <sp who="#aryenis">
+     <speaker>Aryenis.</speaker>
+     <lg>
+      <l>Adrastus! 'Tis false! Believe it not. </l>
+      <l>If ever heart of man was pure—</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>Hark! </l>
+     </lg>
+     <stage> (Noise at a distance.)</stage>
+     <lg>
+      <l>The hunt is o'er—the hunters are returning. </l>
+     </lg>
+     <stage> (A general scream near the palace.)</stage>
+     <lg>
+      <l>What means that cry? </l>
+     </lg>
+     <stage> (Persons enter, and hastily withdraw.)</stage>
+     <lg>
+      <l>Come hither, Sir.</l>
+     </lg>
+    </sp>
+    <stage> (The person called, approaches uneasily, but passes and escapes.)</stage>
+    <stage>Enter an Officer and Guards.</stage>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>What may this mean?</l>
+     </lg>
+    </sp>
+    <sp who="#officer">
+     <speaker>Officer.</speaker>
+     <lg>
+      <l>My liege—Your Highness—</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>Speak.</l>
+     </lg>
+    </sp>
+    <sp who="#officer">
+     <speaker>Officer.</speaker>
+     <lg>
+      <l>The Prince your son—</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>Where is he, Sir?</l>
+     </lg>
+    </sp>
+    <sp who="#officer">
+     <speaker>Officer.</speaker>
+     <lg>
+      <l>My liege!—</l>
+     </lg>
+     <stage>(Aside.)</stage>
+     <lg>
+      <l>—I cannot speak.</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>Call Atys in, I say— </l>
+      <l>Why move ye not?</l>
+     </lg>
+    </sp>
+    <stage> (To the Guards.)</stage>
+    <sp who="#officer">
+     <speaker>Officer.</speaker>
+     <lg>
+      <l>Sir! collect yourself— </l>
+      <l>Remember Crœsus is a King—</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>Heaven! </l>
+      <l>Lives my son?</l>
+     </lg>
+    </sp>
+    <sp who="#officer">
+     <speaker>Officer.</speaker>
+     <lg>
+      <l>Would I could say he does!</l>
+     </lg>
+    </sp>
+    <sp who="#aryenis">
+     <speaker>Aryenis.</speaker>
+     <lg>
+      <l>My brother dead?—Support—support the King. </l>
+     </lg>
+     <stage> (Her father falls into her arms, the Officer helping—the Guards advance
+                        a couch.)</stage>
+     <lg>
+      <l>My father! oh my father! </l>
+      <l>Lifeless his hand—haste, haste for aid—fly, fly! </l>
+     </lg>
+     <stage> [Exeunt Officer.</stage>
+     <lg>
+      <l>He breathes not—Crœsus! king! father! awake!</l>
+     </lg>
+    </sp>
+    <stage>Enter Philon.</stage>
+    <stage> (With Attendants—two Women go to Aryenis.)</stage>
+    <sp who="#philon">
+     <speaker>Philon.</speaker>
+     <lg>
+      <l>My king, my master, royal Crœsus! Oh!</l>
+     </lg>
+    </sp>
+    <sp who="#aryenis">
+     <speaker>Aryenis.</speaker>
+     <lg>
+      <l>Life stirs not in him—Is my brother dead? </l>
+     </lg>
+     <stage> (Philon makes a mournful sign.)</stage>
+     <lg>
+      <l>Is there no hope from skill?</l>
+     </lg>
+    </sp>
+    <sp who="#philon">
+     <speaker>Philon.</speaker>
+     <lg>
+      <l>Oh! Princess! none.</l>
+     </lg>
+    </sp>
+    <sp who="#aryenis">
+     <speaker>Aryenis.</speaker>
+     <lg>
+      <l>He breathes—he moves—bear up, bear up, I pray.</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>Oh!—Where? how?—where is my son? </l>
+     </lg>
+     <stage> (Philon makes a mournful sign.)</stage>
+     <lg>
+      <l>Where 's the corse? </l>
+      <l>They shall answer it to me—Where 's the corse?</l>
+     </lg>
+    </sp>
+    <sp who="#philon">
+     <speaker>Philon.</speaker>
+     <lg>
+      <l>Within the gates, upon the funeral car, </l>
+      <l>Drawn by his mournful friends, approaching slow.</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>You all shall answer it, all—Where's Adrastus?</l>
+     </lg>
+    </sp>
+    <sp who="#philon">
+     <speaker>Philon.</speaker>
+     <lg>
+      <l>Lost youth! With heart dismay'd, and downcast eye, </l>
+      <l>He follows close upon the car.</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>But how? </l>
+      <l>You answer not—What horror more awaits? </l>
+      <l>How fell my son?</l>
+     </lg>
+    </sp>
+    <sp who="#philon">
+     <speaker>Philon.</speaker>
+     <lg>
+      <l>Oh! King!</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>I charge you, speak! </l>
+      <l>Hide nought—my soul 's prepared to know the whole.</l>
+     </lg>
+    </sp>
+    <sp who="#philon">
+     <speaker>Philon.</speaker>
+     <lg>
+      <l>The Prince—has perish'd—by Adrastus' hand.</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>True at last! most monstrous! and most true! </l>
+      <l>Oh! villain, villain, villain! Monster! monster! </l>
+     </lg>
+     <stage> (Aryenis screams, falls into the arms of her Women, and is carried off.)</stage>
+     <lg>
+      <l>Guards! seize, and drag him to my sight— </l>
+     </lg>
+     <stage> (Some Guards go out.)</stage>
+     <lg>
+      <l>He dies—slowly in flame expiring, dies. </l>
+      <l>Now be his purifying fluid fire! </l>
+      <l>So shall he expiate.—Command a stake </l>
+     </lg>
+     <stage> (To Philon.</stage>
+     <lg>
+      <l>Be here forthwith erected—And command </l>
+      <l>Faggots, and blazing heath, and iron plates </l>
+      <l>Susceptible of fire, to form a base, </l>
+      <l>On which his tender soles may agonize. </l>
+      <l>And, oh ye gods! invigorate sensation, </l>
+      <l>To make his torture equal to his crimes! </l>
+      <l>No fouler murder ever stain'd the earth! </l>
+      <l>Oh! most licentious villain!—Ada! Ada! </l>
+      <l>Thy truth I doubted—Philon, use despatch— </l>
+      <l>Myself will tend the monster at the stake, </l>
+      <l>And feast my grief upon the villain's pangs— </l>
+      <l>And let the corse beside the stake be placed, </l>
+      <l>That soul and body join to rack the wretch— </l>
+      <l>Where is my daughter?—Gone!—Where 's Aryenis? </l>
+      <l>Philon! despatch—Oh! Atys! Aryenis! </l>
+      <l>Oh! my children! my children!</l>
+     </lg>
+    </sp>
+    <stage> [Exit.</stage>
+    <sp who="#philon">
+     <speaker>Philon. </speaker>
+     <stage>(To an Officer.)</stage>
+     <lg>
+      <l>Sir, you have heard the royal orders given: </l>
+      <l>See they be instantly obey'd.—Oh! Rhodius!</l>
+     </lg>
+    </sp>
+    <stage>Enter Rhodius.</stage>
+    <stage> (During the following scene, the stake, faggots, &amp;c. are made ready.)</stage>
+    <sp who="#rhodius">
+     <speaker>Rhodius.</speaker>
+     <lg>
+      <l>A sad conclusion of our sport, good Philon! </l>
+      <l>Oh! melancholy day!—How fares the King?</l>
+     </lg>
+    </sp>
+    <sp who="#philon">
+     <speaker>Philon.</speaker>
+     <lg>
+      <l>As one bereft of hope, yet like a lion </l>
+      <l>Chafed with his wound, regardless of despair— </l>
+      <l>He dooms Adrastus to the flames.</l>
+     </lg>
+    </sp>
+    <sp who="#rhodius">
+     <speaker>Rhodius.</speaker>
+     <lg>
+      <l>The flames! </l>
+      <l>He wrongs himself—The hunters all proclaim </l>
+      <l>Adrastus innocent, and I myself will vouch, </l>
+      <l>For I was close upon the boar, </l>
+      <l>The fault was more the Prince's than his friend's.— </l>
+      <l>To save the Prince, on whom the monster brush'd, </l>
+      <l>He aim'd his weapon at the foaming brute. </l>
+      <l>Just as the shaft he hurl'd, back Atys leap'd, </l>
+      <l>And met the point, which pierced him thro' the neck— </l>
+      <l>When Atys sprung, Adrastus' lance was sped. </l>
+      <l>The King must instant be inform'd of this.</l>
+     </lg>
+    </sp>
+    <sp who="#philon">
+     <speaker>Philon.</speaker>
+     <lg>
+      <l>This truth, tho' proved, will little weigh, I fear, </l>
+      <l>To change the purpose of the monarch's breast, </l>
+      <l>Now pre-resolved by countervailing proof </l>
+      <l>Of deeds atrocious, which confirm design.— </l>
+      <l>Guards are despatch'd to seize him.</l>
+     </lg>
+    </sp>
+    <sp who="#rhodius">
+     <speaker>Rhodius.</speaker>
+     <lg>
+      <l>That I know, </l>
+      <l>For I was with the escort when they came, </l>
+      <l>And hasten'd on to tell they are restrain'd, </l>
+      <l>And by the Lydians kept from off the convoy. </l>
+      <l>His new calamity is known to all: </l>
+      <l>They grieve for Atys, but are just to him.</l>
+     </lg>
+    </sp>
+    <stage> [Exit.</stage>
+    <stage> (Grave and solemn music, flutes prevailing —the procession—the car followed
+                    by Adrastus, &amp;c.—the car placed near the stake.)</stage>
+    <stage>Adrastus, Orontes, Philon, Officers, &amp;c.</stage>
+    <sp who="#philon">
+     <speaker>Philon.</speaker>
+     <lg>
+      <l>Unhappy youth!—Oh! Sir, I cannot tell— </l>
+     </lg>
+     <stage>(To an Officer.)</stage>
+     <lg>
+      <l>Impart the royal sentence to the Prince.</l>
+     </lg>
+    </sp>
+    <sp who="#officer">
+     <speaker>Officer.</speaker>
+     <lg>
+      <l>It is my duty, Sir, to speak— </l>
+      <l>The King decrees your death.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>I welcome the decree.</l>
+     </lg>
+    </sp>
+    <sp who="#officer">
+     <speaker>Officer.</speaker>
+     <lg>
+      <l>Permit—</l>
+     </lg>
+     <stage>(Offering to bind him.)</stage>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>No bonds! I shall not shrink from pain.</l>
+     </lg>
+    </sp>
+    <sp who="#orontes">
+     <speaker>Orontes.</speaker>
+     <lg>
+      <l>How! Death? </l>
+      <l>The stake! Monstrous! monstrous! it must not be. </l>
+      <l>Where is the King?—The parent, Sir, may feel; </l>
+      <l>The monarch must be just.</l>
+     </lg>
+    </sp>
+    <sp who="#philon">
+     <speaker>Philon.</speaker>
+     <lg>
+      <l>Seek him, I pray.</l>
+     </lg>
+    </sp>
+    <stage> [Exit Orontes.</stage>
+    <stage>Enter Ada.</stage>
+    <sp who="#philon">
+     <speaker>Philon.</speaker>
+     <lg>
+      <l>Madam! Madam! shun the car.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Shun the car! </l>
+      <l>Think'st thou that Ada faints at sight of death?— </l>
+      <l>I'd speak in private with the Prince—fall back.</l>
+     </lg>
+    </sp>
+    <stage> (Philon and Attendants retire.)</stage>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>I know thy lofty and thy virtuous soul, </l>
+      <l>Were it e'en tempted, pure of a design </l>
+      <l>Which even love like mine could ne'er suggest: </l>
+      <l>But let that pass—That love I come to prove— </l>
+      <l>Nay, do not shudder—Hope hath left this breast— </l>
+      <l>Thy new misfortune hath subdued my soul— </l>
+      <l>And wrought a change unhoped, ineffable— </l>
+      <l>I do repent me of the wrongs I 've done— </l>
+      <l>With tears repent me of the wrongs I meant— </l>
+      <l>Thy love I seek no more.—Oh! worthy youth! </l>
+      <l>The gods do oft afflict whom most they love. </l>
+      <l>Think of Alcides, </l>
+      <l> and support thy woes: </l>
+      <l>Live to support them, so to please the heavens, </l>
+      <l>Whose instrument thou art to punish Crœsus, </l>
+      <l>Vainly elate with sublunary bliss.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Now art thou lovely!</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>The King believes thee false, </l>
+      <l>And criminal—Forgive him this—'twas I— </l>
+      <l>Another instrument of heavenly ire </l>
+      <l>To punish royal pride and tutor princes— </l>
+      <l>'Twas I abused his ear.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Oh!</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>That groan </l>
+      <l>Darts anguish with its keen reproach.—Adrastus, </l>
+      <l>I come to disabuse the Parent's ear, </l>
+      <l>Prove thee all virtue, and myself all guilt.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Gods! what a mind has passion overthrown! </l>
+      <l>Will you be now my friend?</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>What would you? Speak.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Conceal your error still—subdue all weakness, </l>
+      <l>Establish firm your fame by virtuous deeds, </l>
+      <l>Then by a glorious, as uncall'd, confession, </l>
+      <l>Wipe off the stain from mine.—At present, oh! </l>
+      <l>I 'm sick at heart, and long for death.—I pray, </l>
+      <l>Do not, by sad and needless recantation, </l>
+      <l>Deprive me of my only hope of rest.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada </speaker>
+     <stage>(weeping.)</stage>
+     <lg>
+      <l>Let my tears answer for my faulty soul:— </l>
+      <l>Faulty it is indeed, but not ignoble.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>I meant not that—forgive—I meant— </l>
+      <l>No matter—</l>
+     </lg>
+    </sp>
+    <stage>Enter Crœsus, Orontes, and Rhodius.</stage>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>Tell me not, Sir, of accident—Design </l>
+      <l>Is clear at least in his licentious course— </l>
+      <l>And see the Princess to confound him here. </l>
+      <l>Thou murderer! Is this your gratitude? </l>
+     </lg>
+     <stage> (In agony over the bier.)</stage>
+     <lg>
+      <l>Where is my son?—Upon his bier—Yet, Prince! </l>
+      <l>Had all been chance, had no foul passion sway'd, </l>
+      <l>Justice had quell'd my rage.</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Crœsus! I 'm lost— </l>
+      <l>I care not for my life.—I know the crime </l>
+      <l>Of which you hold me guilty—Sir! Time was </l>
+      <l>When Crœsus would have ask'd Adrastus kindly, </l>
+      <l>“Is 't so?” and held his negative full proof— </l>
+      <l>That time gone by, and this new horror fallen, </l>
+      <l>I neither seek nor satisfy inquiry: </l>
+      <l>I wish for death, and thank thee for my doom.</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Oh! wondrous virtue!—Crœsus! turn on me </l>
+      <l>Those eyes of fire, and light round me the flames, </l>
+      <l>Not to misfortune, but to falsehood due. </l>
+      <l>Wretch that I am, I still must blush to own </l>
+      <l>The sway which passion o'er this bosom bore. </l>
+      <l>The Prince is innocent—I—I am guilty— </l>
+      <l>Require no more—I speak before the gods.</l>
+     </lg>
+    </sp>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>Amazement!</l>
+     </lg>
+    </sp>
+    <sp who="#ada">
+     <speaker>Ada.</speaker>
+     <lg>
+      <l>Great King of Lydia! let not this amaze: </l>
+      <l>But rather wonder heaven so long hath borne </l>
+      <l>The impious vanity that swell'd thy mind </l>
+      <l>In the proud course of thy prosperity. </l>
+      <l>Now learn, that men—and kings are men—depend </l>
+      <l>On heaven, whence joy and woe are dealt to earth. </l>
+     </lg>
+     <stage> (Goes to the bier and weeps.)</stage>
+     <lg>
+      <l>Atys! farewell! Accept a guiltless tear, </l>
+      <l>In lieu of guilty smiles that mock'd thy faith— </l>
+      <l>Friendship like thine deserved a better love.</l>
+     </lg>
+    </sp>
+    <stage> [Exit, weeping.</stage>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>The soul of Solon spoke in Ada's voice! </l>
+      <l>Oh! Solon! Solon! </l>
+      <l>—Wretched, wretched youth! </l>
+     </lg>
+     <stage> (To Adrastus.)</stage>
+     <lg>
+      <l>Thy grief and voluntary condemnation </l>
+      <l>Disarm my anger. Live, Adrastus, live. </l>
+      <l>The immortal will 'tis fit I should obey— </l>
+      <l>But oh! my children! my children!</l>
+     </lg>
+    </sp>
+    <stage> (Going.)</stage>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Crœsus! stay. </l>
+      <l>My second father! purifier! friend! </l>
+      <l>Grant, grant thy pity to a wretch forlorn! </l>
+      <l>One child remains to comfort yet thine age: </l>
+      <l>Long may thy days fair Aryenis soothe! </l>
+      <l>Thy grief from Nature flows: and Nature, kind, </l>
+      <l>Knows how to heal the wound her hand inflicts: </l>
+      <l>Horrors rouse mine:—Where'er I turn, is gore, </l>
+      <l>Disaster, melancholy, black despair. </l>
+      <l>Stain'd with a brother's blood, again this hand </l>
+      <l>Hath plunged my benefactor into woe! </l>
+      <l>Again deprived the man I loved of life! </l>
+      <l>How can I live? Death is my sole resource— </l>
+      <l>And, Crœsus! thus I expiate the deed.</l>
+     </lg>
+    </sp>
+    <stage> (Stabs himself.)</stage>
+    <sp who="#crœsus">
+     <speaker>Crœsus.</speaker>
+     <lg>
+      <l>Hold!</l>
+     </lg>
+    </sp>
+    <sp who="#all">
+     <speaker>All.</speaker>
+     <lg>
+      <l>Oh!</l>
+     </lg>
+    </sp>
+    <sp who="#adrastus">
+     <speaker>Adrastus.</speaker>
+     <lg>
+      <l>Atys! I come—Orontes! fare thee well! </l>
+      <l>Say—say to Gordius—say to my dear father, </l>
+      <l>I would—Agathon! Oh!</l>
+     </lg>
+    </sp>
+    <stage> (Dies.)</stage>
+   </div>
+  </body>
+ </text>
+</TEI>
